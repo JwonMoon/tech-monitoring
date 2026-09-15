@@ -1,0 +1,300 @@
+"""HTML 메일 렌더 (inline CSS 테이블 레이아웃 — Gmail/Outlook 호환)."""
+import html as html_mod
+import os
+import re
+
+from . import config
+from .pipeline import TOPIC_KEYS
+
+ACCENT = "#76B900"
+ACCENT_DARK = "#3D6B00"
+ACCENT_TINT = "#F1F8E6"
+INK = "#111827"
+MUTED = "#6B7280"
+FAINT = "#9CA3AF"
+LINE = "#E5E7EB"
+WEEKDAYS = "월화수목금토일"
+
+TOPIC_LABELS = {
+    "Automotive-Robotics": "자동차 · 로봇 (DRIVE · Isaac · Cosmos)",
+    "Business-Finance": "실적 · 재무 · M&A",
+    "Regulation-Policy": "규제 · 수출통제 · 정책",
+    "DataCenter-AI": "데이터센터 · AI 인프라",
+    "GPU-Product": "GPU · 하드웨어 제품",
+    "Software-SDK": "소프트웨어 · SDK",
+    "Research-Models": "연구 · 모델",
+    "Supply-Chain": "공급망 · 파운드리 · 메모리",
+    "Partnership": "파트너십 · 생태계",
+    "Community-Signal": "커뮤니티 신호",
+    "기타": "기타",
+}
+
+
+def esc(t):
+    return html_mod.escape(str(t or ""))
+
+
+def md_bold(t):
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", esc(t))
+
+
+def _ok(v):
+    return bool(v) and str(v).strip() not in ("미확인", "N/A", "null", "None")
+
+
+def badge(text, bg, fg):
+    return (f'<span style="display:inline-block;font-size:11px;font-weight:700;line-height:16px;'
+            f'padding:2px 8px;border-radius:10px;background-color:{bg};color:{fg};">{esc(text)}</span>')
+
+
+def importance_badge(a):
+    s = a["score"]
+    if s >= 8:
+        return badge(f"필독 {s}/10", "#FDE8E8", "#B91C1C")
+    if s >= 5:
+        return badge(f"주요 {s}/10", ACCENT_TINT, ACCENT_DARK)
+    return badge(f"참고 {s}/10", "#F1F5F9", "#64748B")
+
+
+def title_of(a):
+    return (a.get("summary_data") or {}).get("korean_title") or a["stage1"].get("korean_title") or a["title"]
+
+
+def summary_of(a):
+    return (a.get("summary_data") or {}).get("korean_summary") or a["stage1"].get("korean_summary") or ""
+
+
+def label(text, color=ACCENT_DARK):
+    return (f'<p style="margin:14px 0 4px 0;font-size:12px;font-weight:700;letter-spacing:0.3px;'
+            f'color:{color};">{esc(text)}</p>')
+
+
+def para(text, color="#374151"):
+    return f'<p style="margin:0;font-size:13px;line-height:21px;color:{color};">{md_bold(text)}</p>'
+
+
+def box(inner, bg="#FFFFFF", pad="16px 20px", border=f"1px solid {LINE}", extra=""):
+    return (f'<tr><td style="padding:16px 0 0 0;"><table role="presentation" width="100%" cellpadding="0" '
+            f'cellspacing="0" border="0" style="border-collapse:separate;"><tr><td style="background-color:{bg};'
+            f'border:{border};border-radius:12px;padding:{pad};{extra}">{inner}</td></tr></table></td></tr>')
+
+
+def section_header(text, sub=""):
+    return (f'<tr><td style="padding:26px 2px 0 2px;"><p style="margin:0;font-size:15px;font-weight:700;color:{INK};">'
+            f'<span style="display:inline-block;width:8px;height:8px;background-color:{ACCENT};border-radius:2px;'
+            f'margin-right:8px;"></span>{esc(text)} <span style="font-weight:400;font-size:12px;color:{FAINT};">'
+            f'{esc(sub)}</span></p></td></tr>')
+
+
+def render_card(a):
+    sd = a.get("summary_data") or {}
+    parts = []
+    act = sd.get("action") or {}
+    if _ok(act.get("action")):
+        meta = " · ".join(x for x in (act.get("stage"), act.get("timeline")) if _ok(x))
+        parts.append(
+            f'<div style="margin:12px 0 0 0;padding:12px 14px;background:{ACCENT_TINT};border-left:3px solid {ACCENT};'
+            f'border-radius:8px;"><p style="margin:0 0 4px 0;font-size:11px;font-weight:700;color:{ACCENT_DARK};">'
+            f'핵심 행동{(" · " + esc(meta)) if meta else ""}</p><p style="margin:0;font-size:14px;line-height:22px;'
+            f'font-weight:700;color:#0F172A;">{esc(act.get("actor"))}: {md_bold(act.get("action"))}</p>'
+            + (f'<p style="margin:4px 0 0 0;font-size:12px;line-height:19px;color:#475569;"><b>범위:</b> {esc(act.get("scope"))}</p>'
+               if _ok(act.get("scope")) else "") + "</div>")
+    facts = [f for f in (sd.get("key_facts") or []) if _ok(f)]
+    if facts:
+        lis = "".join(f'<li style="margin:0 0 3px 0;">{md_bold(f)}</li>' for f in facts[:5])
+        parts.append(label("주요 사실") + f'<ul style="margin:0;padding-left:18px;font-size:13px;line-height:21px;color:#374151;">{lis}</ul>')
+    if _ok(sd.get("why_matters")):
+        parts.append(label("왜 중요한가") + para(sd["why_matters"]))
+    if _ok(sd.get("nvidia_angle")):
+        parts.append(label("NVIDIA 관점") + para(sd["nvidia_angle"]))
+    if a["is_auto"] and _ok(sd.get("auto_robotics_angle")):
+        parts.append(
+            f'<div style="margin:14px 0 0 0;padding:10px 14px;background:#ECFDF5;border:1px solid #A7F3D0;border-radius:8px;">'
+            f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">🚗 자동차·로봇 관점</p>'
+            f'{para(sd["auto_robotics_angle"], "#065F46")}</div>')
+    chips = [(c.get("name"), c.get("context")) for c in (sd.get("companies") or [])[:3] if isinstance(c, dict)]
+    chips += [(p.get("name"), p.get("role")) for p in (sd.get("products") or [])[:2] if isinstance(p, dict)]
+    chips = [(n, c) for n, c in chips if _ok(n)]
+    if chips:
+        parts.append(label("관련 기업·제품") + "<div>" + "".join(
+            f'<span style="display:inline-block;font-size:11px;line-height:16px;padding:3px 9px;margin:4px 5px 0 0;'
+            f'background-color:#F3F4F6;color:#374151;border-radius:10px;">{esc(n)}{(" · " + esc(c)) if _ok(c) else ""}</span>'
+            for n, c in chips) + "</div>")
+    watch = [w for w in (sd.get("watch_next") or []) if _ok(w)]
+    if watch:
+        parts.append(label("다음 확인 포인트", MUTED) + para(" / ".join(watch[:3]), MUTED))
+    if not sd:
+        parts.append(para(summary_of(a)) + f'<p style="margin:8px 0 0 0;font-size:12px;color:{FAINT};">상세 분석 없음 — 원문을 확인하세요.</p>')
+    rel = a.get("related") or []
+    if rel:
+        seen, links = set(), []
+        for r in rel:
+            if r["link"] in seen:
+                continue
+            seen.add(r["link"])
+            links.append(f'<a href="{esc(r["link"])}" style="color:{ACCENT_DARK};text-decoration:none;">{esc(r["source"])}</a>')
+        parts.append(f'<p style="margin:12px 0 0 0;font-size:12px;color:{MUTED};">관련 보도 {len(links)}건: {" · ".join(links[:6])}</p>')
+    head = (f'<p style="margin:0 0 8px 0;font-size:11px;color:{MUTED};">{importance_badge(a)}&nbsp;&nbsp;'
+            f'<strong>{esc(a["source"])}</strong> · {esc(a["date"])}</p>'
+            f'<a name="{a["_anchor"]}" id="{a["_anchor"]}"></a>'
+            f'<h2 style="margin:0;font-size:17px;line-height:26px;font-weight:700;"><a href="{esc(a["link"])}" '
+            f'style="color:{INK};text-decoration:none;">{esc(title_of(a))}</a></h2>'
+            f'<p style="margin:4px 0 0 0;font-size:11px;color:{FAINT};">{esc(a["title"])}</p>')
+    foot = (f'<p style="margin:14px 0 0 0;padding-top:10px;border-top:1px solid {ACCENT_TINT};font-size:12px;">'
+            f'<a href="{esc(a["link"])}" style="font-weight:700;color:{ACCENT_DARK};text-decoration:none;">원문 보기 →</a>'
+            f'&nbsp;&nbsp;<a href="#toc" style="color:{FAINT};text-decoration:none;">↑ 목차</a></p>')
+    return box(head + "".join(parts) + foot, pad="18px 22px")
+
+
+def headline_rows(items):
+    rows = "".join(
+        f'<tr><td style="padding:9px 0;border-bottom:1px solid #F3F4F6;">'
+        f'<p style="margin:0;font-size:13px;line-height:20px;"><a href="{esc(a["link"])}" style="color:{INK};'
+        f'font-weight:600;text-decoration:none;">{esc(title_of(a))}</a><span style="color:{FAINT};font-size:11px;">'
+        f' · {esc(a["source"])} · {a["score"]}/10</span></p>'
+        + (f'<p style="margin:2px 0 0 0;font-size:12px;line-height:18px;color:{MUTED};">{md_bold(summary_of(a))}</p>'
+           if summary_of(a) else "") + "</td></tr>"
+        for a in items)
+    return box(f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>',
+               pad="4px 20px")
+
+
+def release_rows(items):
+    rows = ""
+    for a in items:
+        rel = a.get("release") or {}
+        rows += (f'<tr><td style="padding:8px 0;border-bottom:1px solid #F3F4F6;">'
+                 f'<p style="margin:0;font-size:13px;line-height:20px;">{badge(rel.get("type", "릴리스"), "#F1F5F9", "#475569")}&nbsp; '
+                 f'<a href="{esc(a["link"])}" style="color:{INK};font-weight:600;text-decoration:none;">{esc(rel.get("name") or a["title"])}</a>'
+                 f'<span style="color:{MUTED};"> {esc(rel.get("version", ""))}</span>'
+                 f'<span style="color:{FAINT};font-size:11px;"> · {esc(a["date"][:10])}</span></p>'
+                 + (f'<p style="margin:2px 0 0 0;font-size:12px;line-height:18px;color:{MUTED};">{md_bold(summary_of(a))}</p>'
+                    if summary_of(a) else "") + "</td></tr>")
+    return box(f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>',
+               pad="4px 20px")
+
+
+def _bucket(items):
+    order = TOPIC_KEYS + ["기타"]
+    return [(k, [a for a in items if a["topic"] == k]) for k in order]
+
+
+def stats_table(stats):
+    rows = "".join(
+        f'<tr><td style="padding:3px 6px;font-size:12px;color:#374151;">{esc(s["source"])}</td>'
+        f'<td style="padding:3px 6px;font-size:12px;text-align:right;color:#374151;">{s["in_window"]}</td>'
+        f'<td style="padding:3px 6px;font-size:11px;color:#B91C1C;">{esc(s["error"][:60])}</td></tr>'
+        for s in stats)
+    return (f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%;">'
+            f'<tr><td style="padding:3px 6px;font-size:11px;color:{FAINT};">소스</td>'
+            f'<td style="padding:3px 6px;font-size:11px;color:{FAINT};text-align:right;">기간 내</td>'
+            f'<td style="padding:3px 6px;font-size:11px;color:{FAINT};">오류</td></tr>{rows}</table>')
+
+
+def subject(result):
+    d = config.BASE_DATE
+    day = f"{d.month}/{d.day}({WEEKDAYS[d.weekday()]})"
+    cards, heads, rels = result["cards"], result["headlines"], result["releases"]
+    total = len(cards) + len(heads) + len(rels)
+    if total == 0:
+        return f"[NVIDIA 모니터링] {day} · 신규 0건"
+    n_auto = sum(a["is_auto"] for a in cards + heads)
+    return f"[NVIDIA 모니터링] {day} · 자동차/로봇 {n_auto} · 주요 {len(cards)} · 추가 {len(heads)} · 릴리스 {len(rels)}"
+
+
+def build(result, stats):
+    cards, heads, rels = result["cards"], result["headlines"], result["releases"]
+    for i, a in enumerate(cards):
+        a["_anchor"] = f"card{i}"
+    window = sorted(config.TARGET_DATES)
+    period = f"{window[0]} ~ {window[-1]}" if len(window) > 1 else str(window[0])
+    n_auto = sum(a["is_auto"] for a in cards + heads)
+    total = len(cards) + len(heads) + len(rels)
+    body = []
+
+    body.append(
+        f'<tr><td style="background-color:{ACCENT};border-radius:14px;padding:22px 26px;">'
+        f'<p style="margin:0 0 4px 0;font-size:12px;font-weight:700;letter-spacing:1px;color:#1A2E00;">NVIDIA MONITORING · DAILY</p>'
+        f'<h1 style="margin:0;font-size:22px;font-weight:800;color:#FFFFFF;">NVIDIA 사업·기술 동향</h1>'
+        f'<p style="margin:8px 0 0 0;font-size:12px;color:#F7FEE7;">{esc(period)} (KST) · 자동차·로봇 {n_auto} · '
+        f'주요 {len(cards)} · 추가 {len(heads)} · 릴리스·공시 {len(rels)}</p></td></tr>')
+
+    if total == 0:
+        body.append(box(
+            f'<p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:{INK};">오늘은 신규 소식이 0건입니다</p>'
+            f'<p style="margin:0 0 12px 0;font-size:13px;line-height:21px;color:#374151;">파이프라인은 정상 실행됐습니다. '
+            f'이미 보낸 항목은 제외되며, 아래는 소스별 수집 현황입니다.</p>{stats_table(stats)}'))
+    else:
+        if result["top3"]:
+            rows = "".join(
+                f'<tr><td width="24" valign="top" style="padding:4px 0;"><span style="display:inline-block;width:20px;height:20px;'
+                f'line-height:20px;border-radius:10px;background-color:{ACCENT};color:#FFFFFF;font-size:12px;font-weight:700;'
+                f'text-align:center;">{i}</span></td><td style="padding:4px 0 4px 8px;font-size:14px;line-height:22px;color:#1F2937;">'
+                f'{md_bold(line)}</td></tr>' for i, line in enumerate(result["top3"], 1))
+            body.append(box(f'<p style="margin:0 0 8px 0;font-size:13px;font-weight:700;color:{ACCENT_DARK};">오늘의 핵심 3줄</p>'
+                            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>'))
+
+        toc = []
+        for key, items in _bucket(cards + heads):
+            if not items and key != "Automotive-Robotics":
+                continue
+            toc.append(f'<p style="margin:10px 0 4px 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">'
+                       f'{esc(TOPIC_LABELS[key])} <span style="color:{FAINT};font-weight:400;">{len(items)}건</span></p>')
+            for a in [x for x in items if x in cards]:
+                toc.append(f'<p style="margin:0 0 4px 0;font-size:13px;line-height:20px;">{importance_badge(a)}&nbsp; '
+                           f'<a href="#{a["_anchor"]}" style="color:{INK};text-decoration:none;font-weight:600;">{esc(title_of(a))}</a></p>')
+        if rels:
+            toc.append(f'<p style="margin:10px 0 0 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">릴리스 · 모델 · 공시 '
+                       f'<span style="color:{FAINT};font-weight:400;">{len(rels)}건</span></p>')
+        body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
+
+        for key, items in _bucket(cards + heads):
+            if not items and key != "Automotive-Robotics":
+                continue
+            body.append(section_header(TOPIC_LABELS[key], f"{len(items)}건"))
+            if not items:
+                body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">오늘 자동차·로봇 관련 신규 소식은 없습니다.</p>'))
+                continue
+            for a in items:
+                if a in cards:
+                    body.append(render_card(a))
+            minor = [a for a in items if a not in cards]
+            if minor:
+                body.append(headline_rows(minor))
+        if rels:
+            body.append(section_header("릴리스 · 모델 · 공시", f"{len(rels)}건 · GitHub / Hugging Face / SEC"))
+            body.append(release_rows(rels))
+
+    failed = [s["source"] for s in stats if s["error"]]
+    run_url = ""
+    if os.environ.get("GITHUB_RUN_ID"):
+        run_url = (f'{os.environ.get("GITHUB_SERVER_URL", "https://github.com")}/{os.environ.get("GITHUB_REPOSITORY", "")}'
+                   f'/actions/runs/{os.environ["GITHUB_RUN_ID"]}')
+    body.append(
+        f'<tr><td style="padding:26px 2px 8px 2px;"><p style="margin:0;font-size:11px;line-height:18px;color:{FAINT};text-align:center;">'
+        f'NVIDIA 모니터링 · 1차 {esc(config.STAGE1_MODEL)} / 2차 {esc(config.STAGE2_MODEL)} · '
+        f'소스 {len(stats)}개 중 수집 실패 {len(failed)}개{(": " + esc(", ".join(failed))) if failed else ""}<br>'
+        f'중요도 = LLM 채점(0~10) + 공식 출처 가중 + 자동차·로봇 가중(+1) · 이미 보낸 항목은 제외'
+        + (f'<br><a href="{esc(run_url)}" style="color:{FAINT};">실행 로그</a>' if run_url else "")
+        + '</p></td></tr>')
+
+    return f'''<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NVIDIA 모니터링</title></head>
+<body style="margin:0;padding:0;background-color:#F3F4F6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F3F4F6;">
+<tr><td align="center" style="padding:20px 10px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:860px;color:{INK};">
+{"".join(body)}
+</table></td></tr></table></body></html>'''
+
+
+def build_within_limit(result, stats):
+    """Gmail 클리핑(102KB) 방지: 크면 최저점 카드부터 헤드라인으로 강등."""
+    html = build(result, stats)
+    while len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES and result["cards"]:
+        lowest = min(result["cards"], key=lambda a: a["score"])
+        result["cards"].remove(lowest)
+        result["headlines"].insert(0, lowest)
+        html = build(result, stats)
+    return html

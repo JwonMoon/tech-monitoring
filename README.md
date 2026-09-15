@@ -1,68 +1,156 @@
-# nvidia-blog-digest
+# nvidia-monitoring
 
-[NVIDIA 개발자 블로그](https://developer.nvidia.com/blog)의 최신 글을 매일 자동 수집해 Claude Code로 한국어 요약을 생성하고 GitHub Pages로 게시하는 도구.
+NVIDIA의 사업·기술 동향을 매일 자동 수집·분석해 한국어 HTML 리포트를 메일로 보냅니다.
+자동차·로봇(DRIVE, Thor, Alpamayo, Cosmos, Isaac, GR00T)은 가중치를 주고 첫 섹션에 고정합니다.
 
-**결과물 보기**: https://jwonmoon.github.io/nvidia-blog-digest/
+> 이전 이름: `nvidia-blog-digest` (개발자 블로그 1개 요약). 2026-09-15 전면 재설계. 옛 코드와 결과물은 `legacy/`에 보관.
 
-## 동작 방식
+| 항목 | 내용 |
+|---|---|
+| 실행 | GitHub Actions, 매일 06:17 KST (`.github/workflows/monitor.yml`) |
+| 수집 대상 | 오늘 포함 최근 2일(KST) 발행분 중 아직 보내지 않은 항목 |
+| LLM | Claude Code 헤드리스 (`claude -p`) — 1차 채점 haiku, 2차 심층 sonnet |
+| 발송 | Gmail. 신규 0건인 날도 "신규 0건" 알림 메일 발송 |
+| 결과물 | 메일, `archive/YYYY-MM-DD_nv.json/.md`, 발송 이력 `state/seen.json` |
 
-### 매일 다이제스트 (`digest.yml`, 매일 06:00 KST)
+## 파이프라인
 
-1. `scripts/fetch_posts.py` — RSS 피드에서 새 글 목록 수집 (`state/seen.json`과 대조해 중복 제거)
-2. `scripts/fetch_article.py` — 원문 페이지에서 본문 추출 (trafilatura, 이미지 포함 마크다운)
-3. `scripts/run_digest.py` — 글마다 `claude -p`로 한국어 요약 생성 (형식: `prompts/summarize.md`)
-4. `scripts/build_digest.py` — `digests/YYYY-MM-DD.md` 생성, `index.md` 갱신
-5. 커밋 & 푸시 → GitHub Pages 자동 반영
-6. 새 요약이 있는 날만 다이제스트 전문을 이메일로 발송
-
-실패한 글은 `state/seen.json`에 기록되지 않아 다음 실행 때 자동 재시도된다.
-
-### 주간 하이라이트 (`weekly.yml`, 매주 월요일 06:30 KST)
-
-`scripts/build_weekly.py` — 지난 7일치 다이제스트를 Claude가 읽고 중요 글 3~5개를 선정해 `weekly/YYYY-MM-DD.md` 생성.
-
-### 메일 테스트 (`test-email.yml`, 수동 실행 전용)
-
-메일 설정 확인용. Actions 탭에서 수동 실행하면 테스트 메일 1통 발송.
-
-## 설정
-
-### 필요한 repo secrets
-
-| 이름 | 값 | 용도 |
-|---|---|---|
-| `CLAUDE_CODE_OAUTH_TOKEN` | `claude setup-token`으로 발급한 토큰 | CI에서 Claude 요약 실행 |
-| `MAIL_USERNAME` | Gmail 주소 | 메일 발신·수신 주소 |
-| `MAIL_APP_PASSWORD` | [Google 앱 비밀번호](https://myaccount.google.com/apppasswords) 16자리 | Gmail SMTP 인증 (2단계 인증 필요) |
-
-등록 위치: Settings → Secrets and variables → Actions.
-
-### 카테고리 필터 (선택)
-
-기본은 전체 글 수집. 특정 분야만 수집하려면 `.github/workflows/digest.yml`의 `DIGEST_CATEGORIES` 주석을 해제하고 수정 (쉼표 구분, 부분 일치):
-
-```yaml
-DIGEST_CATEGORIES: "Generative AI, Robotics, CUDA"
+```
+[수집] 소스 39개(활성 36개) — RSS/Atom, Google News, SEC 8-K, GitHub 릴리스, Hugging Face
+   → 발송 이력(state/seen.json)에 있는 항목 제외
+[Stage 0] 정규식 사전필터 — 공식·공시·릴리스는 통과, 매체는 NVIDIA 신호 필요, 딜·게이밍 리뷰 제외
+   → 제목 유사도 병합 (같은 소식 → 대표 1건 + "관련 보도")
+[Stage 1] haiku 배치 채점 (10건씩, 동시 3배치) — 0~10점, 토픽, 자동차·로봇 여부, 한국어 제목·요약
+   → 가중: 공식/공시 +1, 커뮤니티 -1, 자동차·로봇 +1
+   → 한국어 제목 2차 병합
+[분류] 카드(일반 5점+, 자동차·로봇 4점+, 커뮤니티 7점+) / 헤드라인(2점+) / 릴리스·공시 보드
+[Stage 2] sonnet 카드 심층 분석 (동시 4건) — 핵심 행동, 주요 사실, 왜 중요한가, NVIDIA 관점, 자동차·로봇 관점
+   → Google News 카드는 원문 URL 복원 후 본문 추출, 실패 시 헤드라인으로 강등
+[렌더] 핵심 3줄 → 목차 → 자동차·로봇(항상 첫 섹션) → 토픽별 섹션 → 릴리스·모델·공시 보드
 ```
 
-피드에서 관측되는 분류 예: `Agentic AI / Generative AI`, `Robotics`, `Simulation / Modeling / Design`, `Data Science`, `CUDA`, `Quantum Computing`, `Physical AI` 등.
+상세 설계와 선정 기준은 [`docs/pipeline.md`](docs/pipeline.md).
 
-### GitHub Pages
+## 소스
 
-Settings → Pages → Source: `main` 브랜치 루트. `_config.yml`(Jekyll Cayman 테마)로 렌더링.
+소스 목록은 [`src/nvmon/sources.py`](src/nvmon/sources.py) 한 곳에서 관리합니다. 추가는 한 줄.
 
-## 로컬 실행
+| 분류 | 소스 |
+|---|---|
+| NVIDIA 공식 | Newsroom 보도자료, NVIDIA Blog (+Auto 카테고리), Technical Blog, YouTube 채널 |
+| 공시 | SEC EDGAR 8-K (실적·중요 계약·임원 변동) |
+| 릴리스 | GitHub 11개 저장소 (TensorRT, TensorRT-LLM, NeMo, Megatron-LM, cutlass, DALI, Isaac-GR00T, IsaacLab, Cosmos, Triton, VILA), Hugging Face nvidia 모델 |
+| 해외 매체 | Tom's Hardware, The Next Platform, ServeTheHome, SemiAnalysis, TechCrunch·The Verge·Ars Technica(nvidia 태그), EE Times, DataCenterDynamics, CNBC Tech, Google News(NVIDIA / 자동차·로봇 검색) |
+| 국내 매체 | 디일렉, 전자신문, IT조선, 한국경제 IT |
+| 커뮤니티 | Hacker News, Reddit r/nvidia |
+
+비활성: NVIDIA Research RSS(2021년 글만 남은 피드), Technical Blog AV·DRIVE 카테고리 피드(빈 피드). 차단으로 제외: investor.nvidia.com RSS, HPCwire, VideoCardz, ZDNet Korea.
+
+## 최초 설정
+
+### 1. 저장소 시크릿
+
+GitHub 저장소 → Settings → Secrets and variables → Actions.
+
+| 이름 | 필수 | 설명 |
+|---|---|---|
+| `CLAUDE_CODE_OAUTH_TOKEN` | ✅ (또는 아래) | `claude setup-token`으로 발급한 토큰 |
+| `ANTHROPIC_API_KEY` | 선택 | 있으면 OAuth 토큰보다 우선 사용 (종량 과금, 만료 없음) |
+| `MAIL_USERNAME` | ✅ | 발송 Gmail 주소. SEC 수집용 연락처로도 쓰임 |
+| `MAIL_APP_PASSWORD` | ✅ | Gmail 앱 비밀번호 (https://myaccount.google.com/apppasswords) |
+| `MAIL_TO` | 선택 | 수신자(콤마 구분). 없으면 `MAIL_USERNAME` |
+
+**토큰 등록 시 주의**: 값에 줄바꿈이 섞이면 인증이 거부됩니다 (2026-08-20~09-15 장애 원인).
+터미널에 붙여넣지 말고 아래처럼 등록하는 것이 안전합니다.
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -r requirements.txt
-.venv/bin/python scripts/run_digest.py            # 전체 실행
-DIGEST_MAX_POSTS=1 .venv/bin/python scripts/run_digest.py  # 글 1건만 테스트
-.venv/bin/python scripts/build_weekly.py          # 주간 하이라이트 생성
+# 1) 별도 터미널에서 대화형으로 발급 — 출력된 토큰을 복사
+claude setup-token
+
+# 2) 줄바꿈 없이 등록 — 명령 실행 후 토큰을 붙여넣고 Enter, Ctrl+D
+gh secret set CLAUDE_CODE_OAUTH_TOKEN -R JwonMoon/nvidia-monitoring
 ```
+
+워크플로우의 `Auth preflight` 단계가 줄바꿈을 제거하고 실제 호출로 인증을 검증합니다. 실패하면 이후 단계를 실행하지 않고 실패 메일을 보냅니다.
+
+### 2. 수동 실행으로 확인
+
+Actions 탭 → `NVIDIA daily monitoring` → Run workflow.
+
+| 입력 | 설명 |
+|---|---|
+| `target_date` | 기준 날짜 `YYYY-MM-DD`. 지정하면 발송 이력을 무시하고 그 날짜 기준으로 재수집 |
+| `target_days` | 기준 날짜 포함 최근 N일 (기본 2) |
+| `max_articles` | 채점 대상 제한 (테스트용, 0=무제한) |
+| `dry_run` | 체크하면 메일 발송·이력 저장·커밋 없이 결과물(artifact)만 생성 |
+
+결과 HTML은 실행 페이지 하단 Artifacts에서 내려받아 확인할 수 있습니다.
+
+## 로컬 실행 (Mac)
+
+```bash
+cd ~/moon_ws/nvidia-monitoring
+/opt/homebrew/bin/python3.12 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# LLM 없이 소스별 수집·사전필터 현황만 (1~2분)
+.venv/bin/python src/run.py --crawl-only
+
+# 소량 전체 실행 → out/email.html 확인 (로컬은 발송 이력을 저장하지 않음)
+MAX_ARTICLES=15 MAX_CARDS=4 .venv/bin/python src/run.py
+open out/email.html
+
+# 특정 날짜 기준
+TARGET_DATE=2026-09-14 IGNORE_SEEN=1 .venv/bin/python src/run.py
+```
+
+주요 환경 변수 (`src/nvmon/config.py`):
+
+| 변수 | 기본값 | 설명 |
+|---|---|---|
+| `TARGET_DATE` / `TARGET_DAYS` | 오늘 / 2 | 수집 기간 (KST) |
+| `STAGE1_MODEL` / `STAGE2_MODEL` | haiku / sonnet | 채점 / 심층 모델 |
+| `STAGE1_WORKERS` / `STAGE2_WORKERS` | 3 / 4 | claude 동시 실행 수 |
+| `MAX_ARTICLES` | 0 | 채점 대상 제한 |
+| `MAX_CARDS` / `MAX_AUTO_CARDS` | 25 / 15 | 일반 / 자동차·로봇 카드 최대 |
+| `SOFT_DEADLINE_MIN` | 45 | 초과 시 남은 카드는 헤드라인으로 강등 |
+| `WRITE_STATE` | 0 (CI는 1) | 발송 이력 저장 여부 |
+| `IGNORE_SEEN` | 0 | 발송 이력 무시 |
+| `CONTACT_EMAIL` | 없음 | SEC 수집용 연락처. 없으면 SEC만 건너뜀 |
+| `MAIL_MODE` | file | `smtp`면 Gmail로 직접 발송 (`MAIL_USERNAME`, `MAIL_APP_PASSWORD` 필요) |
+| `LLM_BACKEND` | claude | `exacode`면 사내 tach CLI |
 
 ## 문제 해결
 
-- **Actions 실패 시**: 실패 run 로그에서 "Verify Claude auth" 단계 확인. `401` 또는 `Not logged in`이면 토큰 문제 — 로그의 `CLAUDE_CODE_OAUTH_TOKEN:` 줄이 비어 있으면 secret이 빈 값으로 저장된 것. `claude setup-token`으로 재발급 후 secret 갱신.
-- **메일이 안 옴**: 새 요약이 생성된 날만 발송됨. 설정 자체 확인은 `test-email.yml` 수동 실행.
-- **같은 글이 다시 처리됨**: 정상 — 이전 실행에서 요약 실패한 글은 재시도됨.
+| 증상 | 확인할 것 |
+|---|---|
+| `Auth preflight` 실패 | 토큰 재발급 후 위 방법으로 줄바꿈 없이 재등록 |
+| 메일이 안 옴 | `MAIL_APP_PASSWORD`가 앱 비밀번호인지, 스팸함 |
+| 특정 소스 0건·오류 | 메일 하단 "수집 실패" 목록 / `--crawl-only` 결과의 오류 칸 |
+| 같은 소식이 반복됨 | `state/seen.json`이 커밋되는지 (Commit archive and state 단계) |
+| 실행이 60분 초과 | `STAGE2_WORKERS` 증가 또는 `MAX_CARDS` 감소 |
+
+## 구조
+
+```
+nvidia-monitoring/
+├── .github/workflows/monitor.yml   # 데일리 실행
+├── src/
+│   ├── run.py                      # 엔트리포인트
+│   └── nvmon/
+│       ├── config.py               # 환경 변수·임계값
+│       ├── sources.py              # 소스 레지스트리
+│       ├── crawl.py                # 수집·정규화·원문 추출
+│       ├── filters.py              # Stage 0 키워드
+│       ├── prompts.py              # LLM 프롬프트
+│       ├── llm.py                  # claude / exacode 호출
+│       ├── pipeline.py             # 채점·병합·분류·심층·핵심 3줄
+│       ├── render.py               # HTML 메일
+│       ├── archive.py              # 일별 보관
+│       ├── state.py                # 발송 이력
+│       └── mailer.py               # 로컬 SMTP 발송
+├── archive/                        # 일별 결과 (자동 커밋)
+├── state/seen.json                 # 발송 이력 (자동 커밋, 30일 보존)
+├── docs/pipeline.md                # 설계 문서
+└── legacy/                         # 옛 nvidia-blog-digest 코드·결과물
+```

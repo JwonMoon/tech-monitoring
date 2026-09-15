@@ -1,0 +1,152 @@
+name: NVIDIA daily monitoring
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 매일 06:17 KST (정각은 GitHub 스케줄 지연이 잦아 홀수 분)
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "기준 날짜 YYYY-MM-DD (비우면 오늘 KST)"
+        default: ""
+      target_days:
+        description: "기준 날짜 포함 최근 N일"
+        default: "2"
+      max_articles:
+        description: "채점 대상 제한 (0=무제한)"
+        default: "0"
+      dry_run:
+        description: "메일·발송이력 저장 없이 결과물만 생성"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nvidia-monitoring
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Seoul
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code@2.1.272
+
+      - name: Auth preflight
+        env:
+          RAW_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          RAW_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          # 2026-08 장애 원인: 시크릿 값에 줄바꿈이 섞여 인증 헤더가 거부됨 → 공백·줄바꿈 제거 후 사용
+          OAUTH=$(printf '%s' "$RAW_OAUTH" | tr -d '\r\n\t ')
+          API_KEY=$(printf '%s' "$RAW_API_KEY" | tr -d '\r\n\t ')
+          if [ -n "$API_KEY" ]; then
+            echo "::add-mask::$API_KEY"
+            echo "ANTHROPIC_API_KEY=$API_KEY" >> "$GITHUB_ENV"
+            export ANTHROPIC_API_KEY="$API_KEY"
+            echo "인증 방식: ANTHROPIC_API_KEY"
+          elif [ -n "$OAUTH" ]; then
+            echo "::add-mask::$OAUTH"
+            echo "CLAUDE_CODE_OAUTH_TOKEN=$OAUTH" >> "$GITHUB_ENV"
+            export CLAUDE_CODE_OAUTH_TOKEN="$OAUTH"
+            echo "인증 방식: CLAUDE_CODE_OAUTH_TOKEN (길이 ${#OAUTH})"
+          else
+            echo "::error::CLAUDE_CODE_OAUTH_TOKEN 또는 ANTHROPIC_API_KEY 시크릿이 없습니다"
+            exit 1
+          fi
+          OUT=$(echo "Reply with exactly OK" | claude -p --model haiku --output-format json --setting-sources project --tools "" || true)
+          if ! echo "$OUT" | jq -e '.is_error == false' > /dev/null 2>&1; then
+            echo "::error::Claude 인증 실패 — 토큰을 재발급해 줄바꿈 없이 다시 등록하세요"
+            echo "$OUT" | head -c 400
+            exit 1
+          fi
+          echo "Claude 인증 OK"
+
+      - name: Run pipeline
+        env:
+          LLM_BACKEND: claude
+          STAGE1_MODEL: haiku
+          STAGE2_MODEL: sonnet
+          TARGET_DATE: ${{ inputs.target_date }}
+          TARGET_DAYS: ${{ inputs.target_days || '2' }}
+          MAX_ARTICLES: ${{ inputs.max_articles || '0' }}
+          WRITE_STATE: ${{ inputs.dry_run == true && '0' || '1' }}
+          IGNORE_SEEN: ${{ inputs.target_date != '' && '1' || '0' }}
+          CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
+          MAIL_MODE: file
+        run: python -u src/run.py
+
+      - name: Upload outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nvidia-monitoring-${{ github.run_id }}
+          path: out/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Commit archive and state
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive state
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "monitor: $(date +%F)"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Read meta
+        id: meta
+        run: echo "subject=$(jq -r .subject out/meta.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Send mail
+        if: ${{ inputs.dry_run != true }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: ${{ steps.meta.outputs.subject }}
+          to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
+          from: NVIDIA Monitoring
+          html_body: file://out/email.html
+
+      - name: Failure notice
+        if: failure()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: "[NVIDIA 모니터링] 실행 실패 — ${{ github.run_id }}"
+          to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
+          from: NVIDIA Monitoring
+          body: "실행이 실패했습니다. 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
