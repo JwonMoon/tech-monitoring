@@ -1,0 +1,2745 @@
+{
+ "date": "2026-09-16",
+ "window": [
+  "2026-09-15",
+  "2026-09-16"
+ ],
+ "generated": "2026-09-16T08:42:48+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 129억 달러에 **Hugging Face**를 인수해 개발자를 자사 하드웨어 생태계로 유인하는 소프트웨어 전략 전환을 시도한다.",
+  "NVIDIA가 CAD 모델만으로 미세조정 없이 물체를 인식하는 6-DoF 파운데이션 모델 **FoundationPose**를 공개해 로봇 비전 적용 장벽을 낮췄다.",
+  "Salesforce가 NVIDIA Nemotron 3 Super 기반 CRM 추론 모델 **Koa**를 공개해 Agentforce의 업무 자동화 정확도를 높였다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+   "link": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/",
+   "date": "2026-09-16 01:55",
+   "score": 9,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform",
+     "partnership"
+    ],
+    "korean_title": "AI 인프라 서밋: NVIDIA Vera Rubin과 DSX 플랫폼 에너지 효율성 공개",
+    "korean_summary": "NVIDIA가 Vera Rubin, DSX MaxLPS 신규 플랫폼과 Amazon Annapurna Labs, d-Matrix 등과의 협력을 8,000명 규모 행사에서 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI Infra Summit에서 Vera Rubin·DSX 플랫폼으로 '토큰당 와트' 효율 강조",
+    "korean_summary": "NVIDIA는 AI Infra Summit에서 Amazon Annapurna Labs, d-Matrix, Lambda, Emerald AI, Pinterest 등과의 협력 성과를 공개하며 Vera Rubin·DSX 플랫폼이 AI 팩토리의 전력당 토큰 처리 효율을 크게 높인다는 점을 강조했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Ian Buck 부사장이 AI Infra Summit에서 Vera Rubin·DSX 플랫폼 관련 파트너 협력 성과와 전력 효율 개선 결과를 발표",
+     "stage": "Announced",
+     "timeline": "2026-09-15 (화요일, 9:55 a.m. PT)",
+     "scope": "NVIDIA Vera Rubin, DSX MaxLPS/Flex, Blackwell 플랫폼 및 다수 파트너사(Amazon Annapurna Labs, d-Matrix, Lambda, Emerald AI, Pinterest)"
+    },
+    "key_facts": [
+     "AI Infra Summit 참석자는 작년 3,500명에서 올해 **8,000명 이상**으로 증가",
+     "Lambda는 NVIDIA DSX MaxLPS를 Blackwell 서버에 적용해 **성능당 전력 효율 23% 개선**, 클러스터 토큰 처리량 24% 증가(초당 약 400만→500만 토큰) 달성",
+     "차세대 Vera Rubin NVL72 AI 팩토리에서 DSX MaxLPS는 동일 메가와트 예산 내 **최대 40% 추가 GPU 용량** 확보 가능",
+     "Emerald AI는 Silicon Valley Power와 협력해 DSX Flex 기반 Conductor 소프트웨어로 자동 부하 감축 시연, 수백 건의 전력망 수요 신호에 대응",
+     "Amazon Annapurna Labs는 NVHBM 커스텀 HBM 기술을, d-Matrix는 NVLink Fusion으로 Vera CPU와 Raptor XPU를 결합해 초저지연 추론 구현"
+    ],
+    "why_matters": "AI 인프라 평가 기준이 **최대 성능(peak performance)에서 검증된 메가와트당 에이전틱 토큰 수로 전환**되고 있어, 전력 제약이 AI 팩토리 확장의 핵심 병목으로 부상했다. 이는 데이터센터 운영사들이 실리콘부터 전력망까지 공동 설계해야 하는 새로운 경쟁 구도를 만들고 있다.",
+    "nvidia_angle": "NVIDIA는 Vera Rubin 시스템, Dynamo 추론 소프트웨어, NeMo, NVLink·Spectrum-X·BlueField 네트워킹을 아우르는 **풀스택 AI 팩토리 플랫폼**으로 전력 효율 경쟁에서 우위를 굳히며, DSX MaxLPS/Flex를 통해 하이퍼스케일러·클라우드 파트너들의 실제 배포 검증 사례를 축적하고 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin·DSX 플랫폼 및 전체 AI 팩토리 스택 제공"
+     },
+     {
+      "name": "Amazon Annapurna Labs",
+      "context": "NVHBM 커스텀 HBM 기술 공동 개발"
+     },
+     {
+      "name": "d-Matrix",
+      "context": "NVLink Fusion으로 Vera CPU와 Raptor XPU 결합, 초저지연 추론 구현"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "Silicon Valley Power와 함께 그리드 반응형 전력 관리 시연"
+     },
+     {
+      "name": "Silicon Valley Power",
+      "context": "유연 부하 상호연결 프로그램 운영"
+     },
+     {
+      "name": "Lambda",
+      "context": "DSX MaxLPS를 Blackwell 서버에서 최초 검증, 성능당 전력 23% 개선"
+     },
+     {
+      "name": "Pinterest",
+      "context": "Blackwell·Dynamo로 대화형 AI 시각 검색 서비스 구현"
+     },
+     {
+      "name": "Groq",
+      "context": "Vera Rubin과 결합해 전력을 토큰으로 전환하는 사례로 언급(본문 말미, 상세 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin (NVL72)",
+      "role": "차세대 AI 팩토리 시스템 플랫폼"
+     },
+     {
+      "name": "NVIDIA DSX MaxLPS",
+      "role": "팩토리 전역 전력 최적화로 메가와트당 토큰 처리량 향상"
+     },
+     {
+      "name": "NVIDIA DSX Flex",
+      "role": "실시간 그리드 신호 기반 동적 전력 소비 조정 소프트웨어"
+     },
+     {
+      "name": "NVIDIA Dynamo",
+      "role": "추론 소프트웨어, Pinterest 등에 적용"
+     },
+     {
+      "name": "NVIDIA Blackwell",
+      "role": "Lambda·Pinterest가 활용한 GPU 플랫폼"
+     },
+     {
+      "name": "NVLink Fusion",
+      "role": "Vera CPU와 d-Matrix Raptor XPU 통합 인터커넥트"
+     },
+     {
+      "name": "NVHBM",
+      "role": "Amazon Annapurna Labs와 공동 개발 중인 커스텀 HBM"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72 정식 출시 시점 및 DSX MaxLPS 상용 적용 범위",
+     "Groq와의 Vera Rubin 연계 세부 내용(본문에서 문장 중단, 미확인)",
+     "Emerald AI·Silicon Valley Power 그리드 반응형 프로그램의 상용화 및 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advancements Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+     "link": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "AI Infra Summit: NVIDIA Vera Rubin and DSX Platform Advances Showcase Energy Efficiencies of Optimizing Tokens Per Watt for AI Factories",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbGFsQnV3LXZuTktROTh2UExZdHBKRVptR2dWVWxDVGdGS0JpR09EUnJqZVhMWXpmczEwaUpSci1KTHdXVTJsXzJxMTZZNHQyemxjRnZOZ2dPLThNMzYybzR6a0VVY3RlM3ZSUnlrQklmX1dmUGphYmljc1RMX0U4UVdzUlFoQ0E5Y3lScnhDZUx4Q0txYzQ1bngzZlRGSVdHdGVEbjdmdHdjeEVweVBR?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-infra-summit-vera-rubin-dsx-energy-efficiencies-tokens-per-watt-ai-factories",
+   "body": "Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, Tuesday spoke on AI factory efficiency at the AI Infra Summit , the Santa Clara Convention Center event that has morphed into a Coachella of infrastructure tech. Before a packed audience — with more than 8,000 attendees this year, up from 3,500 last year — Buck discussed new collaborations across NVIDIA platforms and more. Amazon’s Annapurna Labs is working with NVIDIA on the NVHBM custom high-bandwidth memory technology. d-Matrix is integrating with NVLink Fusion to combine NVIDIA Vera CPUs with d-Matrix Raptor XPUs to deliver ultra low-latency inference at scale. NVIDIA and partners unveiled new results as well: Emerald AI and NVIDIA demonstrated a commercial AI factory flexible-load program, working with Silicon Valley Power. Lambda improved performance per watt by 23% with NVIDIA DSX MaxLPS. Pinterest is using the NVIDIA Blackwell platform and NVIDIA Dynamo inference software to bring conversational AI to visual discovery. The news comes as agentic AI is driving a new class of workloads that demand more performance, efficiency and scale from AI infrastructure. NVIDIA addresses that challenge with a full-stack AI factory platform spanning Vera Rubin systems, Dynamo inference software, NeMo libraries and NVIDIA networking — including NVIDIA NVLink for scale-up computing, Spectrum-X Ethernet and ConnectX SuperNICs for connecting thousands of nodes, BlueField-powered context-memory storage and BlueField DPUs for infrastructure security. The metric for AI infrastructure is fast shifting from peak performance to validated agentic tokens per megawatt. AI factories must now be codesigned from silicon to grid. NVIDIA DSX MaxLPS can deliver up to 1.4x more tokens per megawatt through factory-wide power optimization, while NVLink helps unite large-scale accelerated computing into a single high-performance system. The result is AI infrastructure designed to generate more tokens, improve efficiency and help customers get more value from every megawatt of power. Tuesday, Sept. 15, 9:55 a.m. PT AI Factory Flexible-Load Program Unlocks More Grid Power Silicon Valley Power operates a flexible-load interconnection program that enables AI factories to support grid flexibility. Through this program, Emerald AI worked with NVIDIA to demonstrate automated load reduction at Silicon Valley Power . The system successfully responded to hundreds of demand signals from Silicon Valley Power while protecting AI workload performance. NVIDIA partner Emerald AI is planning to use NVIDIA DSX Flex for its Conductor grid-responsive power management software that dynamically adjusts an AI factory’s energy consumption based on real-time electricity grid signals and hybrid energy sources. Using DSX Flex to autonomously load balance, Emerald AI can demonstrate its ability to automatically throttle back power on low-priority AI jobs and then return to normal. DSX Flex can receive grid signals — load-she"
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
+   "link": "https://www.fool.com/investing/2026/09/15/nvidia-bought-hugging-face-for-129-billion-this-so/",
+   "date": "2026-09-16 06:38",
+   "score": 9,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "m&a"
+    ],
+    "korean_title": "NVIDIA, Hugging Face를 129억 달러에 인수",
+    "korean_summary": "NVIDIA가 AI 모델 공유 플랫폼 Hugging Face를 129억 달러에 인수했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 129억 달러에 Hugging Face 인수 — 소프트웨어 전략의 전환점",
+    "korean_summary": "NVIDIA가 오픈소스 AI 모델·데이터셋 협업 플랫폼 Hugging Face를 약 129억 달러에 인수해 개발자를 자사 하드웨어 생태계로 유인하려 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Hugging Face 인수",
+     "stage": "Announced",
+     "timeline": "미확인 (기사 표현: 'recently')",
+     "scope": "Hugging Face 플랫폼 전체, 고객·지역 범위 미확인"
+    },
+    "key_facts": [
+     "NVIDIA가 Hugging Face를 **약 129억 달러**에 인수했다고 본문에 명시됨",
+     "Hugging Face는 사전학습 AI 모델·데이터셋·오픈소스 ML 라이브러리를 호스팅하는 협업 플랫폼이며 대부분 무료로 운영됨",
+     "본문 기준 NVIDIA는 최근 분기 말 현금·채무증권·지분증권 합계 **약 1,000억 달러**를 보유",
+     "Hugging Face는 현재 매출 규모가 크지 않은 서비스로 설명됨",
+     "기사는 이번 인수를 '측정 가능한 니들무버는 아니다'라고 평가"
+    ],
+    "why_matters": "오픈소스 AI 개발 생태계의 허브 격인 Hugging Face를 확보하면 개발자들이 모델 개발 이후 상용화 단계에서 다른 하드웨어로 전환할 유인이 줄어든다. 이는 **폐쇄형 모델(OpenAI, Anthropic 등) 진영과 차별화된 오픈소스 개발자 록인 전략**으로 해석된다.",
+    "nvidia_angle": "하드웨어 판매를 넘어 **개발자 워크플로우 단계부터 NVIDIA 생태계에 종속시키는 소프트웨어·플랫폼 전략**으로, 향후 하드웨어 구매가 둔화되는 AI 성숙 국면에서도 관련성을 유지하려는 포석이다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Hugging Face 인수 주체, 하드웨어·생태계 확장 전략 추진"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "인수 대상, 오픈소스 AI 모델·데이터셋 협업 플랫폼"
+     },
+     {
+      "name": "OpenAI",
+      "context": "폐쇄형(closed-source) AI 모델 진영 비교 대상"
+     },
+     {
+      "name": "Anthropic",
+      "context": "폐쇄형(closed-source) AI 모델 진영 비교 대상"
+     }
+    ],
+    "products": [
+     {
+      "name": "Hugging Face 플랫폼",
+      "role": "AI 모델·데이터셋 호스팅 및 클라우드 추론 환경 제공"
+     }
+    ],
+    "watch_next": [
+     "인수 공식 발표 및 거래 종료 시점 확인",
+     "Hugging Face의 NVIDIA 하드웨어·소프트웨어 스택 통합 방식 및 범위",
+     "인수 후 Hugging Face 수익화 모델 및 유료 티어 변화"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · currently.att.yahoo.com",
+     "title": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0VXVVdVNkJ1cDdlX2FOUVM3OGM1VkFQai1rQTlDbmxfTG5zQzZ2Z19GWVIySVQ4c01abkdNTldOSTFfZl9la2hTRVVsWFZsZHVqX0hqZmh6S1V0eHZKVVk5YzVLSXpVeUZ1QmRObTFTRTFCVjVjUkhrMHRobzhpWl9XX1RNWWM?oc=5"
+    },
+    {
+     "source": "Google News · AOL.com",
+     "title": "Nvidia Bought Hugging Face for $12.9 Billion. This Software Acquisition Changes Everything.",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBnVE5WdHhJbGlJRXh0eFVhU2VKVzdpS0xkVG85OFVBTURYcV9pVHc5akw5M0JqMkR0dzIxWlVGVEpvUHhCYU1WWFlSS3NMNEFob2wydTBLWUdDZ0JGR293ZF9NSXZENE9SYUFxOTFXaVhkV2xINExVUVpTSFdZdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHV0OGk3UnVBTTJtOWxndVNQOUxDenpxUVJkamxfMmZPVmJrZUJwTUhfNUJvYW54aGZxb0k2d1RCTV9oMmpzSzNNdFBiTGdoRUlXbXVqcU1zeDRGVzRsY1lxcVZqeTc0Y3gtNHNDeFRveV9QYWl5WllEY0FOc2dOV1Z0MGhwaWRHS00tVENfSl90cXp4VU9DNQ",
+   "body": "Nvidia (NVDA +0.57%) spent about $12.9 billion recently to acquire Hugging Face. While the name tells you absolutely nothing about what Hugging Face does, I think it's a game-changing buy for Nvidia, as it marks the chipmaker's step into a different part of the artificial intelligence (AI) sector. Nvidia investors should be thrilled with the direction this purchase will lead the company in. Hugging Face dovetails well with Nvidia's existing businesses Hugging Face is essentially a collaborative platform and repository for hosting pre-trained AI models, datasets, and open-source machine learning libraries. Its users can test out these models in its free cloud spaces and inference environments. While it does offer some paid tiers, it's mostly a free-to-use service as of now. So, why should Nvidia investors be excited about its purchase of a company that isn't generating a ton of revenue? In this instance, the chipmaker is OK with losing money on this service -- because it will steer developers toward the Nvidia ecosystem. NASDAQ: NVDA Key Data Points If a user develops an AI model or application using Hugging Face, and then wants to take it to the next level, redoing everything on different hardware won't make a lot of sense. So if everything developed in Hugging Face's programming environment runs on Nvidia's hardware already, it would be pretty easy to recreate it on a different Nvidia-powered platform where the program could be monetizable. This will allow Nvidia to capture more of the business of AI developers utilizing open-source AI models (versus closed-source models like those from OpenAI or Anthropic), as they will be less likely to switch hardware platforms later on in their process. This is a genius move, and it ensures that Nvidia will also be relevant in the next phase of AI when less hardware will need to be purchased. However, the acquisition is not a measurable needle-mover. While Nvidia may benefit over the long term by having more developers steered in the direction of its hardware, that return on investment won't be easily discernible. That may be a problem for some investors, but I think most should be OK with it. After all, Nvidia had nearly $100 billion in cash, debt securities, and equity securities on its books as of the end of its most recent quarter. Nvidia made a smart move by acquiring Hugging Face, and while it may not be an obvious needle-mover, it will help secure the tech giant's place in the future."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/foundationpose (신규)",
+   "link": "https://huggingface.co/nvidia/foundationpose",
+   "date": "2026-09-15 10:25",
+   "score": 8,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/foundationpose",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, 로봇용 6-DoF 객체 포즈 추정 파운데이션 모델 FoundationPose 공개",
+    "korean_summary": "NVIDIA가 FoundationPose 로보틱스 파운데이션 모델을 공개했으며, CAD 모델만으로 미세조정 없이 즉시 적용 가능한 6-DoF 포즈 추정·추적 기능을 제공한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 6-DoF 객체 자세 추정·추적 파운데이션 모델 'FoundationPose' Hugging Face에 신규 공개",
+    "korean_summary": "NVIDIA가 CAD 모델만 있으면 별도 미세조정 없이 새로운 물체에 즉시 적용 가능한 6-DoF 자세 추정·추적 파운데이션 모델 FoundationPose를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "FoundationPose 모델을 Hugging Face에 신규 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "상업적 사용 가능, NVIDIA Open Model License 적용"
+    },
+    "key_facts": [
+     "**CAD 모델만 주어지면 미세조정(fine-tuning) 없이 테스트 시점에 새로운 물체에 즉시 적용 가능**",
+     "Transformer 기반 아키텍처(CNN 인코더 + 멀티헤드 셀프어텐션 디코더), refine net과 score net 두 네트워크로 구성",
+     "TensorRT, ONNX, TAO Toolkit과 연동되는 태그 포함 (6dof-pose-estimation, object-tracking, zero-shot 등)",
+     "CVPR 2024 논문(Bowen Wen 외) 기반, **NVIDIA Open Model License 하에 상업적 사용 가능**",
+     "공개 시점 다운로드 0회, 좋아요 7건"
+    ],
+    "why_matters": "6-DoF 객체 자세 추정·추적은 로봇 그래스핑, 증강현실, 산업 자동화의 핵심 기술이며, 제로샷 일반화가 가능한 파운데이션 모델은 물체별 재학습 부담을 크게 줄여준다. 오픈 라이선스와 TensorRT/TAO Toolkit 연동은 엔터프라이즈·개발자의 즉시 배포를 용이하게 해 로보틱스 생태계 확산을 가속할 수 있다.",
+    "nvidia_angle": "NVIDIA는 FoundationPose를 자사 TensorRT·TAO Toolkit·Isaac 로보틱스 스택과 연계해 배포함으로써 **하드웨어(GPU/Jetson)부터 소프트웨어 파운데이션 모델까지 수직 통합된 로보틱스 AI 플랫폼 전략**을 강화하고 있다.",
+    "auto_robotics_angle": "로봇 팔의 빈피킹(bin-picking)·조립 등 물체 파지 작업에서 CAD 기반 제로샷 자세 추정은 산업용 로봇 및 휴머노이드의 인식 파이프라인 구축 시간을 단축시키며, 자율주행 차량의 물체 추적 응용으로도 확장 가능해 OEM·로보틱스 기업의 NVIDIA 스택 채택을 유도할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "FoundationPose 모델 개발 및 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "FoundationPose",
+      "role": "6-DoF 객체 자세 추정·추적 파운데이션 모델"
+     },
+     {
+      "name": "TensorRT",
+      "role": "모델 추론 최적화 연동 프레임워크"
+     },
+     {
+      "name": "TAO Toolkit",
+      "role": "모델 학습·커스터마이징 툴킷 연동"
+     },
+     {
+      "name": "ONNX",
+      "role": "모델 상호운용성 포맷 지원"
+     }
+    ],
+    "watch_next": [
+     "Isaac Robotics 플랫폼 내 공식 통합 및 레퍼런스 파이프라인 발표 여부",
+     "실제 산업 파트너(로봇 OEM 등)의 FoundationPose 채택 사례",
+     "다운로드·좋아요 등 커뮤니티 반응 및 후속 버전 업데이트"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/foundationpose:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: tensorrt · tags: tensorrt, onnx, TAO Toolkit, computer-vision, pose-estimation, 6dof-pose-estimation, object-pose-estimation, object-tracking, robotics, foundation-model, zero-shot, transformer · downloads 0 · likes 7. README:  ## FoundationPose Model Card ## Model Overview ### Description [FoundationPose](https://arxiv.org/pdf/2312.08344.pdf) is a unified foundation model for 6-DoF (Degrees of Freedom) object pose estimation and tracking. This approach can be instantly applied at test-time to a novel object without fine-tuning, as long as its CAD model is given. This model is ready for commercial use. ### License License to use these models is covered by the NVIDIA Open Model License. By downloading the model, you accept the terms and conditions of these [licenses](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/). ### References Bowen Wen, Wei Yang, Jan Kautz, Stan Birchfield. \"FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects.\" *IEEE Conference on Computer Vision and Pattern Recognition. (CVPR)*. 2024. ### Model Architecture **Architecture Type:** Transformer-based Network Architecture **Network Architecture** - Network Encoder: CNN (Convolutional Neural Network) blocks with residual connection - Network Decoder: Multi-head self-attention module **More Details** - This model contains a novel design of transformer-based network architectures and contrastive learning formulation, which leads to strong generalization ability. The FoundationPose model contains two seperate networks, refine net and score net. - The refinement network extracts feature maps from the two RGBD input branches with a single shared CNN encoder. The feature maps ar"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+   "link": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+   "date": "2026-09-16 07:24",
+   "score": 8,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "Jensen Huang, Dreamforce에서 Salesforce와 협력 공개",
+    "korean_summary": "Salesforce가 NVIDIA Nemotron 3 Super 기반의 첫 CRM 추론 모델 Koa를 출시하며 전략적 협력을 시작했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang, Dreamforce서 Salesforce와 함께 CRM 추론 모델 'Koa' 공개",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 Salesforce Dreamforce 무대에 올라 NVIDIA Nemotron 3 Super 기반의 Salesforce 첫 CRM 추론 모델 Koa 출시를 발표하며 AI 인프라 시대의 비전을 제시했다.",
+    "action": {
+     "actor": "Salesforce",
+     "action": "NVIDIA Nemotron 3 Super를 post-training하여 자체 CRM 추론 모델 Koa를 개발·공개",
+     "stage": "Available",
+     "timeline": "발표는 Dreamforce 화요일, 고객 파일럿은 2026년 10월, 미국 리전 정식 출시는 2026년 겨울 예정",
+     "scope": "Salesforce Agentforce 및 Slack 내 employee agent, 초기 고객: Formula 1, UChicago Medicine, Baxter Credit Union, 1-800Accountant, Engine, Xero"
+    },
+    "key_facts": [
+     "Koa는 **NVIDIA Nemotron 3 Super**를 약 30년치 엔터프라이즈 CRM 데이터로 만든 proprietary synthetic dataset으로 post-training해 구축",
+     "훈련에는 NVIDIA NeMo RL, NeMo Gym, NeMo AutoModel을 활용한 supervised fine-tuning과 reinforcement learning 적용",
+     "Salesforce CRM Bench 벤치마크에서 Koa는 선도 모델과 동등하거나 상회하는 성능을 **3배 적은 오류율**로 달성",
+     "오픈 모델 채택률이 작년 초 30%에서 현재 약 70%로 증가했다고 Huang이 언급",
+     "Salesforce는 모델 가중치를 직접 제어하며 자체 인프라에서 실행, 훈련·추론 시 고객 데이터 미사용('not a single byte')"
+    ],
+    "why_matters": "이번 발표는 오픈 모델(Nemotron)이 대형 엔터프라이즈 SaaS 기업의 자체 커스텀 AI 구축 트렌드를 뒷받침하는 대표 사례로, **오픈 웨이트 모델 채택이 급증**하고 있음을 보여준다. 동시에 NVIDIA가 단순 하드웨어 공급자를 넘어 엔터프라이즈 AI 모델 생태계의 핵심 파트너로 자리매김하고 있음을 시사한다.",
+    "nvidia_angle": "NVIDIA는 Nemotron을 오픈 모델 전략의 축으로 삼아 Salesforce 같은 대형 SaaS 기업이 자체 인프라 내에서 커스텀 모델을 구축·운영하도록 지원함으로써 **NeMo 툴체인(NeMo RL, Gym, AutoModel) 기반 엔터프라이즈 AI 스택** 판매를 확대한다. 또한 NVIDIA 자체도 Salesforce Agentforce를 사내 고객지원 워크플로우에 파일럿 적용 중이라는 점에서 소프트웨어-하드웨어 양방향 파트너십을 강화하고 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron 3 Super 및 NeMo 툴체인 제공, Dreamforce 공동 발표"
+     },
+     {
+      "name": "Salesforce",
+      "context": "Koa 모델 개발사, Agentforce/Slack에 적용"
+     },
+     {
+      "name": "Formula 1",
+      "context": "Koa 고객 파일럿 참여사"
+     },
+     {
+      "name": "UChicago Medicine",
+      "context": "Koa 고객 파일럿 참여사"
+     },
+     {
+      "name": "Baxter Credit Union",
+      "context": "Koa 고객 파일럿 참여사"
+     },
+     {
+      "name": "1-800Accountant",
+      "context": "Koa 고객 파일럿 참여사"
+     },
+     {
+      "name": "Engine",
+      "context": "Koa 고객 파일럿 참여사"
+     },
+     {
+      "name": "Xero",
+      "context": "Koa 고객 파일럿 참여사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Nemotron 3 Super",
+      "role": "Koa 모델의 기반 오픈 모델"
+     },
+     {
+      "name": "Koa",
+      "role": "Salesforce 첫 CRM 추론 모델, Agentforce 내 고객 선택형 모델"
+     },
+     {
+      "name": "NeMo RL / NeMo Gym / NeMo AutoModel",
+      "role": "Koa 훈련에 사용된 NVIDIA 파인튜닝·RL 툴체인"
+     },
+     {
+      "name": "Agentforce",
+      "context": "Koa가 탑재되는 Salesforce 에이전트 플랫폼",
+      "role": "Koa가 탑재되는 Salesforce 에이전트 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "2026년 겨울 미국 리전 Koa 정식 출시(GA) 진행 상황",
+     "10월 고객 파일럿(Formula 1, UChicago Medicine 등) 결과 및 확대 여부",
+     "Nemotron 기반 타 엔터프라이즈 SaaS 기업의 유사 모델 개발 사례 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+     "link": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SR0x4NGdWbnVGU0hRVUU3N2hWWkJZWW9BNl84Sk4xWW8xUzNhQ0NmMlJMajViMktoU29lZlhGcjZNbGtlaUFiTHNCMmZGbGVINlpTR01kQlUzcGRTclBZSXRYMGQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce",
+   "body": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into the crowd — threading through the audience at Moscone Center, mic in hand, with Benioff alongside. “We’re all following you, bro,” Benioff told Huang at one point, drawing applause. “With electricity, we could power everything,” Huang said, tracing the arc of industrial revolutions. “With the internet, you can find anything. And now, with artificial intelligence as an infrastructure layer across the planet, we can know everything and do anything.” That arc led directly to the announcement. Salesforce’s first reasoning model was built by post-training NVIDIA Nemotron 3 Super on a proprietary synthetic dataset drawn from nearly three decades of enterprise CRM deployments. AI Safety When Benioff asked Huang about AI safety, Huang was direct. “Safety is paramount in a lot of ways. It’s job one,” Huang said. “However, safety is an engineering problem. We’re developing computing systems after all … If you build a product or a service and you’re not confident in its functionality, capability or safety, then don’t release it.” He reiterated that innovation and leadership should coincide with safety and security . “Innovation, speed and safe products — it’s a false choice,” Huang said. “You could definitely have both at the same time. So run as fast as you can. But if you feel at any given point in time the company’s out of control, or the product’s not going to be safe, take a pause and make sure you get it right.” Throughout his talk, Huang offered a positive vision for the future of AI. He noted he was among the first to push back on the notion that AI would end the software industry. He also pushed back on the idea that AI is a threat to jobs. “As a result of our ambition, and with the productivity boost we get from AI, the sky’s the limit,” he added. “Engage AI. Don’t get left behind.” “Every company, every enterprise, every country would become an AI company,” Huang said. “It’s going to be an agentic enterprise.” “The sky is especially the limit for our Trailblazers,” Benioff said, referring to the company’s customer and developer community. “I think this technology, the way it empowers people … the technology can partner with them to do this in incredible new ways.” Because NVIDIA Nemotron is open, Salesforce was able to fine-tune and run the model entirely within its own infrastructure. Salesforce controls the weights, the model runs on Salesforce’s systems and no customer data is used during training or inference. “Not a single byte of customer data was used,” said Rohan Kumar, Salesforce’s president of platform and engineering, who introduced Koa before Huang took the stage. Open models went from 30% at "
+  },
+  {
+   "source": "Google News · VideoCardz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA introduces RTX PRO 5500 Blackwell with 84GB GDDR7 and 600W power limit",
+   "link": "https://videocardz.com/newz/nvidia-introduces-rtx-pro-5500-blackwell-with-84gb-gddr7-and-600w-power-limit",
+   "date": "2026-09-16 05:05",
+   "score": 8,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA, RTX PRO 5500 Blackwell 공개 (84GB GDDR7)",
+    "korean_summary": "NVIDIA가 84GB GDDR7 메모리와 600W 전력 사양의 Blackwell 기반 RTX PRO 5500 워크스테이션 GPU를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 84GB GDDR7 탑재 RTX PRO 5500 Blackwell 워크스테이션 GPU 출시 예고",
+    "korean_summary": "NVIDIA가 RTX PRO 6000과 RTX PRO 5000 사이의 공백을 메우는 RTX PRO 5500 Blackwell을 글로벌 웹사이트에 등재하며 21,760개 CUDA 코어와 84GB ECC GDDR7, 600W 전력 한계를 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "RTX PRO 5500 Blackwell Workstation Edition을 미국·영국·인도·일본 등 글로벌 제품 페이지에 등재하고 사양을 공개",
+     "stage": "Announced",
+     "timeline": "미확인 (페이지에 'Coming Soon'으로 표기)",
+     "scope": "워크스테이션 GPU 제품군, 미국·영국·인도·일본 등 글로벌 (지역 한정 아님)"
+    },
+    "key_facts": [
+     "**21,760개 CUDA 코어와 84GB ECC GDDR7 메모리**, 416비트 인터페이스, 1,398GB/s 대역폭 탑재",
+     "**최대 보드 전력 600W**로 RTX PRO 6000과 동일한 전력 한계를 유지",
+     "RTX PRO 6000(24,064 CUDA 코어, 96GB) 대비 CUDA 코어 약 9.6%, 메모리 12.5% 적음",
+     "RTX PRO 5000(300W, 48GB/72GB)과는 전력·메모리 면에서 큰 격차를 보이며 그 사이 공백을 채움",
+     "Multi-Instance GPU 지원으로 84GB 단일 인스턴스 또는 42GB×2 분할 운영 가능, PCIe 5.0 x16, DisplayPort 2.1b x4, 가격 미공개"
+    ],
+    "why_matters": "**RTX PRO 6000과 5000 사이의 지나치게 큰 간극을 메우는 신제품**으로, NVIDIA가 워크스테이션·랙마운트 시장 세분화를 통해 다양한 예산·전력 조건의 고객을 흡수하려는 전략을 보여준다. 대용량 GDDR7 메모리와 MIG 지원은 AI 추론·시뮬레이션 워크로드를 겨냥한 것으로, 경쟁사 대비 메모리 용량 우위를 지속 확대하려는 움직임이다.",
+    "nvidia_angle": "**Blackwell 아키텍처 기반 프로 GPU 라인업을 세분화**하여 워크스테이션·랙 배치 AI/그래픽 워크로드 시장에서 가격·성능 선택지를 넓히고, 96GB 플래그십과 300W 하위 모델 사이의 고객 이탈을 방지하려는 포지셔닝이다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX PRO 5500 Blackwell 개발 및 글로벌 제품 페이지 등재 주체"
+     },
+     {
+      "name": "PNY",
+      "context": "RTX PRO 5500의 미국 제품 페이지를 별도 게시하며 상세 사양 공개한 파트너/보드 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX PRO 5500 Blackwell Workstation Edition",
+      "role": "신규 발표된 워크스테이션 GPU, RTX PRO 6000과 5000 사이 포지션"
+     },
+     {
+      "name": "RTX PRO 6000",
+      "role": "플래그십 워크스테이션 GPU, RTX PRO 5500 사양 비교 기준"
+     },
+     {
+      "name": "RTX PRO 5000",
+      "role": "하위 워크스테이션 GPU, RTX PRO 5500과 전력·메모리 격차 비교 대상"
+     }
+    ],
+    "watch_next": [
+     "RTX PRO 5500의 공식 출시일 및 가격 발표 여부",
+     "최종(비예비) 사양 확정 내용",
+     "RXM 액체냉각 구성 등 랙마운트 배포 세부 사항 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSTB6SUs3RVlaaU1Xd3ZTdC0wcFpkWlhNR3FDZ1NLR3V6ZlJtRlZlenRfYjM1ay1rS2x2bHBoOHpfRF9hd3h4YUR1dXROVmhkZ0NCZzIyREExWFNndnNOY3d1YlRuTkJWVy1wZ0JOeHRiaUxsMUZBNWxDRFlDUk04V3N3ZjJwT0xUeWgyb3YtemoyQW5GR0tTU0ZMaWFtQXRkLTVxWVJDbFo",
+   "body": "NVIDIA RTX PRO 5500 Blackwell listed globally with 84GB ECC GDDR7 NVIDIA has added another Blackwell workstation GPU to its professional lineup. The RTX PRO 5500 Blackwell Workstation Edition sits directly below the RTX PRO 6000, while offering substantially more memory and a much higher power limit than the RTX PRO 5000. The card first appeared through NVIDIA’s Taiwan website, which raised the possibility that this could be a regional model. That does not appear to be the case. NVIDIA now has RTX PRO 5500 pages for the US, UK, India and Japan, while the card is also included on the company’s US RTX PRO comparison page. PNY has published its own US product page as well. RTX PRO 5500 gets 21,760 CUDA cores and 84GB GDDR7 PNY provides more detailed specifications than NVIDIA’s own page. The RTX PRO 5500 features 21,760 CUDA cores and 84GB of ECC GDDR7 memory connected through a 416-bit memory interface. Memory bandwidth is rated at 1,398 GB/s, while maximum board power reaches 600W. The card uses PCIe 5.0 x16 and provides up to four DisplayPort 2.1b outputs. The card also features three ninth-generation NVENC engines and three sixth-generation NVDEC engines. NVIDIA lists support for Multi-Instance GPU, allowing the card to operate as a single 84GB instance or as two isolated 42GB instances. NVIDIA is targeting rack-mounted workstation deployments and lists both active air cooling and an RXM liquid-cooled configuration. Much closer to RTX PRO 6000 than RTX PRO 5000 The RTX PRO 5500 is closer to the flagship RTX PRO 6000 than its name might suggest. The RTX PRO 6000 has 24,064 CUDA cores, 96GB GDDR7 and the same 600W maximum power limit. This leaves the RTX PRO 5500 with about 9.6% fewer CUDA cores and 12.5% less memory. Its 1,398 GB/s memory bandwidth is also below the 1,792 GB/s available on the RTX PRO 6000. The RTX PRO 5000 sits much further down the stack with a 300W power limit and either 48GB or 72GB GDDR7 depending on the configuration. The new 5500 therefore fills the unusually large gap between the RTX PRO 5000 and 6000, while keeping the full 600W power budget of NVIDIA’s flagship workstation card. NVIDIA has not announced pricing yet. The company’s regional product pages currently describe the RTX PRO 5500 as “Coming Soon,” and the specifications are still marked as preliminary. | NVIDIA RTX Workstation GPUs | | | | | | |---|---|---|---|---|---| | VideoCardz.com | Picture | GPU | CUDA Cores | Memory | TDP | | BLACKWELL | | | | | | | RTX PRO 6000 Workstation Edition | | GB202 | | | | | RTX PRO 6000 Server Edition | | GB202 | | | | | RTX PRO 6000 Max-Q Edition | | GB202 | | | | | RTX PRO 5500 ð | | GB202 | | | | | RTX PRO 5000 72GB | | GB202 | | | | | RTX PRO 5000 | | GB202 | | | | | RTX PRO 4500 | | GB203 | | | | | RTX PRO 4500 Server Edition | | GB203 | | | | | RTX PRO 4000 | | GB203 | | | | | RTX PRO 4000 SFF | | GB203 | | | | | RTX PRO 2000 | | GB206 | | | |"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+   "link": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/",
+   "date": "2026-09-16 01:55",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA DSX Flex로 AI 팩토리 전력 관리 자동화",
+    "korean_summary": "Emerald AI와 Silicon Valley Power의 협력을 통해 NVIDIA DSX Flex 그리드 오케스트레이션이 AI 팩토리 전력을 동적 관리하는 사례를 시연했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI 팩토리 전력 효율 극대화하는 DSX 플랫폼 실전 성과 공개",
+    "korean_summary": "NVIDIA는 전력이 AI 팩토리의 핵심 제약이라는 인식 아래 DSX 플랫폼을 통해 고정된 전력 예산 내에서 토큰 처리량을 극대화하는 기술을 실제 배포 사례로 검증했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DSX 플랫폼(MaxLPS, Flex, OS, Sim, Reference Designs)을 통해 AI 팩토리의 전력당 처리량을 최적화하고, 파트너사(Emerald AI, Lambda)와의 실제 배포·검증 결과를 공개",
+     "stage": "Available",
+     "timeline": "2026년 8월(Emerald AI 배포 사례), AI Infra Summit 발표는 화요일(구체 날짜 미확인)",
+     "scope": "Silicon Valley Power 관할 데이터센터의 수천 개 NVIDIA GPU, Lambda의 클라우드 배포 환경"
+    },
+    "key_facts": [
+     "Emerald AI의 Conductor 플랫폼이 Silicon Valley Power의 전력 감축 신호에 따라 자동으로 전력을 **4메가와트에서 3메가와트로 감축**하면서 고우선순위 작업은 계속 실행",
+     "Silicon Valley Power는 해당 AI 팩토리에 **200회 이상의 수요 신호**를 보냈고 매번 성공적으로 작동",
+     "Lambda의 검증 결과, 고정된 전력 예산에서 지능형 관리 시 **토큰 처리량이 24% 증가**",
+     "NVIDIA DSX는 2026년 5월 GTC Taipei에서 발표되었으며, MaxLPS·Flex·OS·Sim·Reference Designs로 구성된 스위트",
+     "Ian Buck(NVIDIA VP)이 AI Infra Summit 기조연설에서 AI 팩토리 효율성을 핵심 주제로 발표"
+    ],
+    "why_matters": "AI 팩토리의 성장은 신규 발전·송전 인프라 구축이 아닌 기존 전력 예산 내 처리량 극대화에 달려 있다는 점에서, **전력이 컴퓨팅 확장의 새로운 병목**임을 보여준다. 클라우드 사업자(Lambda)와 그리드 오케스트레이션 파트너(Emerald AI)의 실제 검증 사례는 이 접근이 이론이 아닌 상용화 단계임을 입증한다.",
+    "nvidia_angle": "NVIDIA는 GPU 하드웨어를 넘어 **전력 관리·그리드 연동 소프트웨어 스택(DSX)**까지 수직 통합함으로써 AI 인프라 전반의 표준을 주도하려 하며, 이는 데이터센터 운영사·유틸리티와의 생태계 락인 전략으로 해석된다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DSX 플랫폼 개발사, 전력 최적화 기술 및 레퍼런스 디자인 제공"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "그리드 오케스트레이션 파트너, Conductor 플랫폼으로 실제 배포 수행"
+     },
+     {
+      "name": "Lambda",
+      "context": "클라우드 서비스 제공업체, DSX MaxLPS 첫 검증 배포 수행"
+     },
+     {
+      "name": "Silicon Valley Power",
+      "context": "지역 전력 유틸리티, 수요 반응 신호 발신 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DSX MaxLPS",
+      "role": "고정 전력 예산 내 GPU/랙 수준 전력 관리로 처리량 극대화"
+     },
+     {
+      "name": "NVIDIA DSX Flex",
+      "role": "그리드 신호 수신 후 작업 우선순위 조정을 통한 전력 수요 대응"
+     },
+     {
+      "name": "NVIDIA DSX OS",
+      "role": "AI 팩토리 라이프사이클 관리용 오픈소스 소프트웨어"
+     },
+     {
+      "name": "NVIDIA DSX Sim",
+      "role": "물리적 배포 전 팩토리 설계 시뮬레이션 및 병목 식별"
+     },
+     {
+      "name": "NVIDIA DSX Reference Designs",
+      "role": "생성별 검증된 컴퓨팅·네트워킹·시설 아키텍처"
+     },
+     {
+      "name": "Emerald AI Conductor",
+      "context_role": "그리드 신호 기반 워크로드 자동 조정 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "DSX MaxLPS의 추가 상용 배포 및 24% 처리량 증가 수치의 타 사업자 검증 여부",
+     "다른 유틸리티·클라우드 사업자와의 DSX Flex 확산 사례",
+     "GTC Taipei 이후 DSX 전체 플랫폼(네트워킹·냉각·수자원 효율)의 구체적 로드맵 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+     "link": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "From Megawatts to Tokens: How NVIDIA Maximizes AI Factory Production",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnp0VjMxX29PWDY4OVo0LWRfSmRMemlJcWlUNFIzcG9tYjhoQW9Rb2RJYUZSN21ydGtSTGVKRGcxX0ZlOVFoMUo2SldacHdHTE5JU2pUem9seGtrOHRfbExyRzFUUzMzelBZQXhmSTNpSjRJenBGSENpd0Nxa3FuXy1WZ0xtRGczVXppZ1BsZ1ItZW9vQ1RBZmFDTDl0bDg?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/from-megawatts-to-tokens-how-nvidia-maximizes-ai-factory-production",
+   "body": "On a sweltering August evening in Silicon Valley, as the sun dropped and air conditioning loads spiked , Silicon Valley Power sent a signal to an AI factory to adjust its power consumption. Varun Sivaram was watching on Zoom with about forty others — his team at Emerald AI in their San Francisco conference room, engineers at the data center and people from the utility itself. Nobody touched anything. Emerald AI’ s Conductor platform — a grid-orchestration platform from NVIDIA partner Emerald AI, and an early example of the kind of flexibility NVIDIA DSX Flex is built to deliver — receives signals about grid conditions and adjusts the data center’s flexible computing workloads. Work that can wait is slowed or rescheduled, while higher-priority services continue operating. The goal is to reduce electricity demand when the grid is constrained without interrupting critical AI workloads— exactly what Silicon Valley Powe r needed, When the reduction showed on screen, everyone cheered. “We were watching with bated breath,” Sivaram said. “It was our first time deploying across thousands of NVIDIA GPUs.” His head of product, Mansi Shah, was emotional. “This feels kind of like a SpaceX rocket launch,” she said. Silicon Valley Power h as since sent more than 200 demand signals to that AI factory. It worked every single time. The Emerald AI team in San Francisco watches as Silicon Valley Power’s demand signal hits the factory floor — power dropping from four megawatts to three, automatically, while every high-priority job keeps running. This is grid flexibility in production. And it points at something much bigger than one facility in Santa Clara: a path to unlocking the power America’s AI factories need, without waiting a decade to build new transmission lines. At the AI Infra Summit on Tuesday, Ian Buck, NVIDIA’s vice president of hyperscale and high-performance computing, made AI factory efficiency the centerpiece of his infrastructure keynote. Results from cloud provider Lambda’s first validation in a deployment environment, released the same day, put numbers to it: a fixed power budget can support 24% more token throughput when managed intelligently. “With our proof of concept, we believe we’ve moved beyond the limitation of fixed power budgets,” said Dave Ward, president of cloud services at Lambda . “NVIDIA DSX MaxLPS paves the way to reclaiming stranded capacity and converting it into real-world usage, with significantly more compute density in the same footprint.” That August evening, when SVP called, Conductor executed against a predefined workload hierarchy: lowest-priority jobs yielded, high-priority inference kept running, and power fell from four megawatts to three. Automated. No operator required. DSX at a glance NVIDIA DSX MaxLPS A suite of technologies to optimize AI factory throughput per megawatt, including dynamic power allocation software that monitors GPU and rack-level consumption in real time, recovering stranded capacity to maximize "
+  },
+  {
+   "source": "Google News · Salesforce",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Announcing Koa: Salesforce’s First CRM Reasoning Model, Built on NVIDIA Nemotron",
+   "link": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+   "date": "2026-09-15 22:48",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "Salesforce, NVIDIA Nemotron 기반 CRM 추론 모델 Koa 발표",
+    "korean_summary": "Salesforce가 NVIDIA Nemotron을 기반으로 개발한 첫 CRM 추론 모델 Koa를 출시했다."
+   },
+   "summary_data": {
+    "korean_title": "Salesforce, NVIDIA Nemotron 기반 첫 CRM 추론 모델 'Koa' 발표",
+    "korean_summary": "Salesforce가 NVIDIA Nemotron 3 Super를 후처리 학습해 만든 CRM 특화 추론 모델 Koa를 공개하고, 이를 Agentforce와 정부·규제기관용 Missionforce에 적용해 엔터프라이즈 업무 자동화 정확도를 높였다.",
+    "action": {
+     "actor": "Salesforce",
+     "action": "NVIDIA Nemotron 3 Super를 합성 데이터로 후처리 학습한 CRM 추론 모델 Koa를 발표하고 Agentforce·Missionforce에 통합",
+     "stage": "Announced",
+     "timeline": "2026년 9월 15일",
+     "scope": "Agentforce 고객 및 Missionforce(정부·규제기관), 1-800Accountant·BCU·Engine·Formula 1·UChicago Medicine·Xero 등 파일럿 고객"
+    },
+    "key_facts": [
+     "Koa는 **NVIDIA Nemotron 3 Super를 기반으로 post-training**하여 개발된 Salesforce 최초의 CRM 추론 모델",
+     "27년간 축적된 Salesforce CRM 지식을 모델링한 독점 합성 데이터셋으로 학습, 고객 데이터는 학습에 사용되지 않음",
+     "Salesforce CRM 벤치마크에서 **선도 모델 대비 동등 이상의 성능에 3배 적은 오류율** 기록",
+     "NVIDIA NeMo RL, NeMo Gym, NeMo AutoModel을 활용해 SFT 및 GRPO 강화학습 방식으로 post-training 수행",
+     "Nemotron 기반 모델과 가속 컴퓨팅을 Missionforce에도 도입해 정부·규제기관 대상 프라이빗 클라우드·에어갭 환경 지원"
+    ],
+    "why_matters": "CRM 시장 1위 기업이 자체 오픈 웨이트 모델(Nemotron) 기반으로 도메인 특화 추론 모델을 만든 사례로, **엔터프라이즈 SaaS 기업들의 '자체 모델 내재화' 트렌드**를 보여준다. 이는 범용 LLM 대비 도메인 특화 소형 모델의 실효성과 신뢰 경계 내 추론이라는 엔터프라이즈 AI 채택의 핵심 요구를 동시에 충족시키는 사례로 경쟁사 벤치마크가 될 수 있다.",
+    "nvidia_angle": "Nemotron 오픈 모델이 단순 파운데이션 모델을 넘어 **엔터프라이즈 고객이 직접 소유·운영하는 특화 모델의 기반 플랫폼**으로 자리잡으며, NeMo 툴체인(RL, Gym, AutoModel)이 실제 상용 SaaS 제품의 post-training 파이프라인에 채택된 것을 입증한다. 이는 정부·규제 시장(Missionforce)까지 Nemotron 생태계를 확장하는 전략적 교두보가 된다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Salesforce",
+      "context": "Koa 모델 개발사, Agentforce·Missionforce 플랫폼 운영"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron 3 Super 및 NeMo 툴체인 제공, 기술 협력 파트너"
+     },
+     {
+      "name": "1-800Accountant",
+      "context": "Koa 고객 파일럿"
+     },
+     {
+      "name": "Baxter Credit Union (BCU)",
+      "context": "Koa 고객 파일럿"
+     },
+     {
+      "name": "Engine",
+      "context": "Koa 고객 파일럿"
+     },
+     {
+      "name": "Formula 1",
+      "context": "Koa 고객 파일럿"
+     },
+     {
+      "name": "UChicago Medicine",
+      "context": "Koa 고객 파일럿"
+     },
+     {
+      "name": "Xero",
+      "context": "Koa 고객 파일럿"
+     }
+    ],
+    "products": [
+     {
+      "name": "Koa",
+      "role": "Salesforce의 CRM 특화 추론 모델, Agentforce 구동"
+     },
+     {
+      "name": "NVIDIA Nemotron 3 Super",
+      "role": "Koa의 기반 파운데이션 모델"
+     },
+     {
+      "name": "NVIDIA NeMo RL / NeMo Gym / NeMo AutoModel",
+      "role": "Koa post-training에 사용된 학습 툴체인"
+     },
+     {
+      "name": "Agentforce",
+      "context_note": "Koa 탑재 대상 CRM 에이전트 플랫폼",
+      "role": "Koa 탑재 대상 CRM 에이전트 플랫폼"
+     },
+     {
+      "name": "Missionforce",
+      "role": "정부·규제기관 대상 Nemotron 기반 배포 환경"
+     }
+    ],
+    "watch_next": [
+     "Koa의 정식 GA 일정 및 파일럿 고객 확대 여부",
+     "Missionforce 내 Nemotron 기반 배포의 구체적 공공기관 계약 사례",
+     "타 SaaS 기업(예: ServiceNow, Microsoft)의 유사 도메인 특화 추론 모델 대응"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWEZFRTRaU3FBVEVKVi1vYTdhLWJrNlVOaXZINDQ5aWo5dXB2Z3p6UmRiZTlWdWRXSTlEVU52XzJhZXpaaXQ1LUk3NmdMR0hlOTNmS2tROVE5MnVZUjRHWXk2WEJLcERYZVN1NUxqSnVWa2xsVldZMW14Ynk0dzhJaGlLajQ",
+   "body": "Announcing Koa: Salesforce’s First CRM Reasoning Model, Built on NVIDIA Nemotron Koa is trained with 27 years of Salesforce CRM intelligence to enable agents to reason through the complex, multistep tasks required for enterprise work The collaboration also brings NVIDIA open models and accelerated computing into Missionforce, giving government and regulated organizations control over their model, data, and deployment environment SAN FRANCISCO, September 15, 2026 — Salesforce and NVIDIA today announced Koa, Salesforce’s first CRM reasoning model for Agentforce, built on NVIDIA Nemotron. Developed through deep technical collaboration with NVIDIA, Koa is purpose-built to help agents reason through complex, multistep workflows and use the right tools to get work done. Koa was built by post-training NVIDIA Nemotron 3 Super with a proprietary synthetic dataset modeled on enterprise knowledge from nearly three decades of CRM deployments. The result is a reasoning model grounded in how businesses run — their processes, workflows, and operational policies. In Salesforce’s CRM benchmark, a model benchmark that includes a suite of real-world tasks like updating an opportunity, routing a case, or scheduling a follow-up, Koa already matches or exceeds leading model performance on CRM actions with three times fewer errors. Salesforce controls the model weights and performs post-training and inference entirely within its own trust boundary, giving customers a specialized, Salesforce-hosted option to power their Agentforce use cases. Salesforce and NVIDIA are also bringing Nemotron-based models and accelerated computing into Missionforce, extending that same control over model, data, and deployment environment to government and regulated organizations. Together, the companies are bringing mission-specific AI to private clouds, air-gapped networks, and other secure environments. “The most valuable thing Salesforce has built isn’t our platform — it’s the accumulated knowledge of how enterprise business actually works. With Koa, the knowledge is put inside the model itself. We trained a reasoning engine that understands the structure of a deal, the lifecycle of a service case, and the workflows that vary across industries. That’s a different kind of intelligence, and it runs entirely inside your trust boundary.” — Marc Benioff, Chair and CEO, Salesforce “AI is creating a much larger opportunity for software. Every company needs useful AI, tailored to its knowledge, expertise, and work. NVIDIA Nemotron open models give Salesforce the foundation to turn decades of enterprise expertise into specialized AI with Koa, creating a CRM model that can reason and securely take action.” — Jensen Huang, founder and CEO of NVIDIA What makes Koa different No customer data was used to train the Koa reasoning model. Its training corpus was built entirely from synthetic scenarios that reflect the reasoning, tool use, and decision-making skills Agentforce agents perform across CRM wo"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TSMC’s 2nm Era Is Accelerating With MediaTek. Nvidia and Alphabet Already Have Money on the Table",
+   "link": "https://finance.yahoo.com/technology/articles/tsmc-2nm-era-accelerating-mediatek-214827953.html",
+   "date": "2026-09-16 06:48",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_auto": false,
+    "signal_tags": [
+     "supply-chain",
+     "investment"
+    ],
+    "korean_title": "TSMC 2nm 시대 가속화, NVIDIA와 Alphabet 투자 확정",
+    "korean_summary": "NVIDIA와 Alphabet이 TSMC의 2nm 파운드리 확보에 투자금을 투입하여 차세대 칩 제조 역량을 확보했다."
+   },
+   "summary_data": {
+    "korean_title": "MediaTek, TSMC 2나노 공정으로 Dimensity 9600 Pro 출시…NVIDIA·Alphabet 투자로 AI 반도체 파트너십 확대",
+    "korean_summary": "MediaTek이 TSMC 2나노 공정 기반 Dimensity 9600 Pro를 출시하며 TSMC의 2나노 램프를 플래그십 모바일 칩까지 확대했고, NVIDIA는 8월 31일 34.5억 달러 규모의 MediaTek 전환사채에 투자해 커스텀 XPU를 NVLink Fusion 랙스케일 시스템에 연결하는 파트너십을 강화했다.",
+    "action": {
+     "actor": "MediaTek",
+     "action": "TSMC 2나노 공정 기반 Dimensity 9600 Pro 출시 및 NVIDIA·Alphabet과의 자금·파트너십 확대",
+     "stage": "Available",
+     "timeline": "2026년 9월 15일 (Dimensity 9600 Pro 출시), 2026년 8월 31일 (NVIDIA 34.5억 달러 채권 투자)",
+     "scope": "MediaTek 플래그십 모바일 칩(Xiaomi, Oppo, Vivo 등 고객), NVIDIA 커스텀 AI 칩·PC·자동차 파트너십, 미국 주요 클라우드 고객용 첫 가속기(2026년 말 양산 예정)"
+    },
+    "key_facts": [
+     "MediaTek이 9월 15일 TSMC 2nm 공정 기반 Dimensity 9600 Pro를 출시, NPU가 전작 대비 LLM prefill 성능 51% 향상",
+     "**NVIDIA는 8월 31일 MediaTek 전환사채에 35억 달러를 투자**했고 Alphabet도 39억 달러 규모 채권 발행에 참여",
+     "TSMC 2nm은 Q2 웨이퍼 매출의 3%를 차지했으며 하반기 급격한 램프 예상, 단 2nm 램프로 하반기 매출총이익률 3~4%p 희석 전망",
+     "Reuters 보도에 따르면 MediaTek의 미국 주요 클라우드 고객용 첫 가속기가 2026년 말 양산 예정",
+     "Insider Monkey 집계상 NVDA 롱 헤지펀드 285개(Q2, Q1 275개 대비 증가), TSM 롱 249개(Q1 234개 대비 증가)"
+    ],
+    "why_matters": "MediaTek이 Apple급 고객을 넘어 Xiaomi·Oppo·Vivo 등 플래그십 모바일 시장까지 TSMC 2nm 수요를 확대하며 첨단 공정 파운드리 경�기 구도를 넓히고 있다. **동시에 MediaTek이 미국 주요 클라우드 고객용 커스텀 가속기 양산을 앞두고 있어 커스텀 실리콘이 GPU의 대체재로 부상할 가능성**이 커지고 있다.",
+    "nvidia_angle": "NVIDIA는 MediaTek 투자와 NVLink Fusion 연계를 통해 **커스텀 XPU를 대체재가 아닌 자사 플랫폼의 일부로 편입**시키려 하며, 하이퍼스케일러의 인하우스 가속기 확대 시 랙스케일 아키텍처와 생태계 매출을 확보하려는 전략이다. 다만 MediaTek이 신뢰할 만한 커스텀 칩 공급자로 부상하면 일부 워크로드가 NVIDIA GPU에서 이탈할 위험도 동시에 존재한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "MediaTek",
+      "context": "TSMC 2nm 기반 Dimensity 9600 Pro 출시, NVIDIA·Alphabet 투자 유치 및 커스텀 XPU 공급"
+     },
+     {
+      "name": "TSMC",
+      "context": "2nm 공정 제공, Q2 웨이퍼 매출 3% 기여, 하반기 마진 희석 전망"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "MediaTek 전환사채 35억 달러 투자, NVLink Fusion 파트너십 확대"
+     },
+     {
+      "name": "Alphabet",
+      "context": "MediaTek 39억 달러 채권 발행에 참여"
+     },
+     {
+      "name": "Xiaomi, Oppo, Vivo",
+      "context": "MediaTek 플래그십 칩 기존 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "Dimensity 9600 Pro",
+      "role": "TSMC 2nm 기반 MediaTek 플래그십 모바일 칩, NPU 성능 51% 향상"
+     },
+     {
+      "name": "NVLink Fusion",
+      "role": "MediaTek 커스텀 XPU를 NVIDIA 랙스케일 시스템에 연결하는 인터커넥트"
+     },
+     {
+      "name": "TSMC 2nm 공정",
+      "role": "차세대 최선단 파운드리 노드, 모바일·HPC 수요 확대 중"
+     }
+    ],
+    "watch_next": [
+     "MediaTek 첫 미국 클라우드 고객용 가속기의 2026년 말 양산 진행 상황",
+     "TSMC 2nm 램프에 따른 하반기 실제 매출총이익률 희석 규모",
+     "NVIDIA-MediaTek NVLink Fusion 파트너십의 구체적 제품·고객 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNXhGUkVFYXVuTktrY3NhdzhCWkVvVUlobG9qS243aW8wcGdjZE01a1pldzg0aERhTGthVFhaMEktRGpkSG1kdW8yald4SnZqMjBMLUVGdE96bVFvS1N5WjNzeGpxcE8wN25icDZxS2RJVkVWQUM1MzlmTUF3NEpXMlNTSlQ4MTY4VjNpaE5XX3ZoSXpNbk1UaFg5OA",
+   "body": "MediaTek launched its Dimensity 9600 Pro on September 15 using Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) 2-nanometer technology, putting TSMC's newest node into a flagship mobile chip. MediaTek also has $3.5 billion of financing from NVIDIA Corporation (NASDAQ:NVDA) and a broader Nvidia partnership spanning custom AI chips, PCs and automotive. The smartphone launch is another sign that TSMC's 2nm ramp is broadening across flagship mobile silicon. TSMC Gets Volume, Then Pays the Ramp Cost The Dimensity 9600 Pro uses TSMC's most advanced process, while MediaTek says its neural processor delivers 51% higher LLM prefill performance than the previous generation. MediaTek had already taped out a TSMC 2nm design last year, and the first smartphones using its new chips are expected soon. The company has previously supplied flagship customers including Xiaomi, Oppo and Vivo. That broadens the 2nm demand story beyond Apple-class customers and high-performance computing. Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) is already seeing the node show up financially. Two-nanometer contributed 3% of wafer revenue in Q2, and management expects a steep ramp in the second half. The bull case is straightforward: strong 2nm adoption supports years of leading-edge pricing and utilization. The bear case arrives first in margins. TSMC said the 2nm ramp could dilute second-half gross margin by 3 to 4 percentage points even as demand remains strong. Insider Monkey tracked 249 hedge funds long TSM in Q2 2026, up from 234 in Q1; Fisher Asset Management increased its shares 2%. Nvidia Bought a Seat at MediaTek's Table NVIDIA Corporation (NASDAQ:NVDA) invested $3.5 billion in MediaTek convertible bonds on August 31 and expanded a partnership that will connect MediaTek custom XPUs to Nvidia's NVLink Fusion rack-scale systems. Alphabet also participated in MediaTek's $3.9 billion bond sale, while Reuters reported MediaTek's first accelerator for a major U.S. cloud customer is due for mass production in late 2026. For Nvidia, this can turn custom silicon from a substitute into part of its platform. If hyperscalers build more in-house accelerators, NVLink Fusion lets Nvidia monetize the surrounding rack architecture and ecosystem. The risk is equally visible: MediaTek is becoming a more credible custom-chip supplier, and custom accelerators can take workloads that might otherwise run on Nvidia GPUs. Insider Monkey's database showed 285 hedge funds with reportable NVDA longs in Q2, up from 275 in Q1. Fisher Asset Management raised its position 3%. On August 31, 298.30 million Nvidia shares were short, 1.29% of float, with 2.1 days to cover."
+  },
+  {
+   "source": "Google News · cio.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Salesforce, NVIDIA unveil CRM domain-specific reasoning model",
+   "link": "https://www.cio.com/article/4222320/salesforce-nvidia-unveil-crm-domain-specific-reasoning-model.html",
+   "date": "2026-09-16 01:51",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "Salesforce와 NVIDIA, CRM 특화 추론 모델 공개",
+    "korean_summary": "Salesforce와 NVIDIA가 고객관계관리 분야에 특화된 도메인 추론 모델을 공동 개발·출시했다."
+   },
+   "summary_data": {
+    "korean_title": "Salesforce, NVIDIA와 손잡고 CRM 특화 추론 모델 'Koa' 공개",
+    "korean_summary": "Salesforce가 Dreamforce 2026에서 NVIDIA Nemotron 3 Super를 기반으로 포스트트레이닝한 CRM 도메인 특화 추론 모델 Koa를 공개해 Agentforce의 영업·서비스 에이전트 성능을 강화하려 한다.",
+    "action": {
+     "actor": "Salesforce (with NVIDIA)",
+     "action": "NVIDIA Nemotron 3 Super를 합성 데이터로 post-training하여 CRM 특화 추론 모델 Koa를 공개하고 Agentforce에 통합",
+     "stage": "Announced",
+     "timeline": "Dreamforce Conference 2026 (공개), 2026년 겨울 미국 리전 GA 예정",
+     "scope": "Agentforce 플랫폼, 미국 리전, 파일럿 고객 다수(1-800Accountant, Baxter Credit Union, Engine, Formula 1, UChicago Medicine, Xero)"
+    },
+    "key_facts": [
+     "Koa는 **NVIDIA Nemotron 3 Super**를 기반으로 Salesforce가 post-training한 CRM 도메인 특화 추론 모델",
+     "14개 이상 산업(제조, 금융서비스, 헬스케어, 여행 등)을 시뮬레이션한 합성 데이터셋으로 학습, 고객 데이터는 미사용",
+     "SFT와 GRPO 기반 강화학습에 **NVIDIA NeMo RL, NeMo Gym, NeMo AutoModel**을 활용",
+     "Salesforce CRM Benchmark에서 Koa는 선도 모델과 동등하거나 상회하는 성능을 오류율 3분의 1 수준으로 달성",
+     "2026년 겨울 Agentforce 내 미국 리전 일반 출시(GA) 예정"
+    ],
+    "why_matters": "엔터프라이즈 SaaS 리더인 Salesforce가 범용 LLM 대신 자체 도메인 특화 추론 모델을 자사 데이터·전략으로 만들었다는 점은 **버티컬 특화 AI 모델 경쟁**이 본격화되고 있음을 보여준다. 오류율 감소와 벤치마크 성능 우위는 엔터프라이즈 AI 에이전트 시장에서 범용 모델 대비 도메인 특화 모델의 경쟁력을 입증하는 사례가 될 수 있다.",
+    "nvidia_angle": "NVIDIA는 자체 파운데이션 모델 제공을 넘어 **Nemotron과 NeMo 툴체인(RL, Gym, AutoModel)을 엔터프라이즈 파트너의 도메인 특화 모델 구축 인프라로 공급**하는 포지션을 강화했으며, 이는 Salesforce 같은 대형 SaaS 기업과의 AI 플랫폼 협력 확대 사례로 볼 수 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Salesforce",
+      "context": "Koa 모델 개발 및 Agentforce 통합 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron 3 Super 및 NeMo 툴체인(RL, Gym, AutoModel) 제공 파트너"
+     },
+     {
+      "name": "1-800Accountant",
+      "context": "Koa 파일럿 고객"
+     },
+     {
+      "name": "Baxter Credit Union",
+      "context": "Koa 파일럿 고객"
+     },
+     {
+      "name": "Engine",
+      "context": "Koa 파일럿 고객"
+     },
+     {
+      "name": "Formula 1",
+      "context": "Koa 파일럿 고객"
+     },
+     {
+      "name": "UChicago Medicine",
+      "context": "Koa 파일럿 고객"
+     },
+     {
+      "name": "Xero",
+      "context": "Koa 파일럿 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "Koa",
+      "role": "Salesforce의 CRM 도메인 특화 추론 모델, Agentforce의 영업·서비스 에이전트 구동"
+     },
+     {
+      "name": "NVIDIA Nemotron 3 Super",
+      "role": "Koa의 기반 파운데이션 모델"
+     },
+     {
+      "name": "NVIDIA NeMo RL / NeMo Gym / NeMo AutoModel",
+      "role": "Koa의 강화학습 기반 post-training 도구"
+     },
+     {
+      "name": "Agentforce",
+      "context": "Koa가 탑재되는 Salesforce의 AI 에이전트 플랫폼",
+      "role": "Koa가 탑재되는 Salesforce의 AI 에이전트 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "2026년 겨울 Koa의 실제 GA 출시 및 성능 지표 공개 여부",
+     "파일럿 고객사들의 실사용 피드백 및 확대 채택 여부",
+     "NVIDIA Nemotron 기반 도메인 특화 모델이 타 SaaS 기업(Workday, ServiceNow 등)으로 확산되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTWJnWGJsYWdkZEhrZDZ2WGpmREg5OHVuSTJGakhaMjVKcVFoMzAyVWNuSmxWd1FBcWZEcXdUR0pHWGR6S1NMNnNCazZQTU0tQlc2QmZpaWpseFZ0bV9CWVJJTEJuSHg1eEg5NXRJalBaU2g3TUxkSy1aNDM2YWFQZ05wNWZVVHVmbFd3TGpRbjdDWkUtMUNVYzQ5cXR6bGJGS2pn",
+   "body": "Dubbed Koa, the new model is designed to power sales and service agents. Together with partner NVIDIA, Salesforce today at Dreamforce Conference 2026 unveiled a new CRM domain-specific reasoning model for Agentforce dubbed Koa. “It’s built on NVIDIA’s Nemotron and it brings together 27 years of product development in CRM,” said Rohan Kumar, president and chief platform and engineering officer at Salesforce. Kumar explained that Koa was built by post-training NVIDIA Nemotron 3 Super with a synthetic data set modeled on the enterprise knowledge Salesforce gleaned from three decades of CRM deployments, not on customer data. Drawn from synthetic scenarios that simulate real-world enterprise workflows across more than 14 industries — including manufacturing, financial services, healthcare, and travel — the training corpus was designed to reflect the reasoning, tool use, and decision-making skills agents perform across CRM workflows. “The genesis of this was looking at all the things we’ve learned in building out our products, the strategy we’ve created, and asking how could we augment a model to make it very specific to this job,” Kumar said. Under the hood Salesforce post-trained the model by applying Supervised Fine-Tuning (SFT) and reinforcement learning to Group Relative Policy Optimization (GRPO) and NVIDIA NeMo RL, NeMo Gym, and NeMo AutoModel. The idea is to leverage Koa agents for complex sales and service tasks. Salesforce said that in its CRM Benchmark, a model benchmark that includes a suite of real-world tasks like updating opportunities, routing cases, and scheduling follow-ups, Koa already matches or exceeds leading model performance with three times fewer errors. “We use Koa internally at Salesforce for a lot of our employee engagement and it’s actually turning out to be a game changer,” Kumar added. Additional applications Salesforce has also created an agent in Slack that helps its employees find information and complete everyday tasks. It also announced a number of customers are using Koa in pilots, including 1-800Accountant, Baxter Credit Union, Engine, Formula 1, UChicago Medicine, and Xero. Salesforce expects to make Koa generally available in Agentforce in winter 2026 in US regions."
+  },
+  {
+   "source": "Google News · NewsCord",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Salesforce And NVIDIA Unveil Koa CRM Reasoning Model Built On Nemotron: how 13 outlets framed it",
+   "link": "https://newscord.org/article/salesforce-and-nvidia-unveil-koa-crm-reasoning-model-built-on-nemotron--Story_20260915_SalesforceandNvidiasd6b1dd09",
+   "date": "2026-09-16 01:10",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_auto": false,
+    "signal_tags": [
+     "model-release",
+     "partnership"
+    ],
+    "korean_title": "Salesforce, NVIDIA Nemotron 기반 Koa CRM Reasoning Model 공개",
+    "korean_summary": "Salesforce와 NVIDIA가 NVIDIA Nemotron 기반 Koa CRM Reasoning Model을 함께 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "Salesforce, NVIDIA Nemotron 기반 CRM 추론 모델 'Koa' 공개",
+    "korean_summary": "Salesforce가 Dreamforce 2026에서 NVIDIA Nemotron 3 Super를 후속 훈련하여 만든 CRM 전용 추론 모델 Koa를 공개하며 범용 프론티어 모델 대비 CRM 업무 특화 우위와 데이터 신뢰 경계를 강조했다.",
+    "action": {
+     "actor": "Salesforce",
+     "action": "NVIDIA Nemotron 3 Super를 자체 합성 데이터로 후속 훈련(post-training)하여 CRM 전용 추론 모델 Koa를 Agentforce 플랫폼에 공개하고 고객 파일럿 시작",
+     "stage": "Announced",
+     "timeline": "2026년 9월 15일 (Dreamforce 2026)",
+     "scope": "Agentforce 플랫폼, Slack 내부 에이전트 이미 배포, 1-800Accountant·Baxter Credit Union·Engine·Formula 1·UChicago Medicine·Xero 등 고객 파일럿, Missionforce(정부·규제기관)로 확장 예정"
+    },
+    "key_facts": [
+     "Koa는 **NVIDIA Nemotron 3 Super**를 기반으로 Salesforce의 27년간 CRM 배포 지식을 모사한 독점 합성 데이터셋으로 후속 훈련됨",
+     "Salesforce는 SFT와 GRPO를 **NVIDIA NeMo RL, NeMo Gym, NeMo AutoModel**을 이용해 적용했다고 밝힘",
+     "Salesforce CRM 벤치마크에서 Koa는 '선도 모델 대비 동등하거나 우수한 성능, 3배 적은 오류'를 기록했다고 주장",
+     "Salesforce가 모델 가중치를 직접 통제하며 자체 신뢰 경계 내에서 post-training과 추론을 수행, 고객 데이터는 훈련에 사용되지 않았다고 명시",
+     "Missionforce를 통해 Nemotron 기반 모델과 가속 컴퓨팅을 정부·규제기관 대상 프라이빗 클라우드·에어갭 네트워크로 확장할 계획"
+    ],
+    "why_matters": "이번 발표는 **범용 프론티어 랩(OpenAI, Anthropic, Google) 모델과 엔터프라이즈 특화 모델 간 경쟁 구도**가 본격화되고 있음을 보여주며, Salesforce는 이를 CRM 시장에서의 방어적 모트(moat)로 활용하려 한다. 동시에 Salesforce는 Gemini(Google Cloud), Bedrock(AWS), Claude(Anthropic) 등 복수 모델을 Agentforce에 병행 탑재해 특정 모델 종속을 피하는 멀티벤더 전략을 취하고 있다.",
+    "nvidia_angle": "NVIDIA는 **Nemotron을 엔터프라이즈 SaaS 벤더의 도메인 특화 모델 파운데이션으로 공급**하는 사례를 확보했으며, NeMo RL·NeMo Gym·NeMo AutoModel 같은 후속 훈련 툴체인이 실제 상용 배포에 채택됐음을 입증했다. 이는 NVIDIA가 모델 자체 판매보다 **가속 컴퓨팅과 커스터마이제이션 플랫폼 공급자**로서 CRM·정부(Missionforce) 등 규제 산업까지 저변을 넓히는 전략과 부합한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Salesforce",
+      "context": "Koa 및 Agentforce, Missionforce 개발·배포 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron 3 Super 및 NeMo RL/Gym/AutoModel 툴체인 제공, Koa의 기반 모델·훈련 인프라 파트너"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Claude 기반 Claudeforce 파트너십, Agentforce 내 대안 모델 제공"
+     },
+     {
+      "name": "Google",
+      "context": "Google Cloud 파트너십을 통해 Gemini 모델을 Agentforce에 제공"
+     },
+     {
+      "name": "Amazon",
+      "context": "AWS Bedrock 통합을 통해 Agentforce에 모델 옵션 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Koa",
+      "role": "Salesforce의 CRM 전용 추론 모델, Agentforce 내 멀티스텝 워크플로 처리"
+     },
+     {
+      "name": "NVIDIA Nemotron 3 Super",
+      "role": "Koa의 기반 파운데이션 모델"
+     },
+     {
+      "name": "NeMo RL / NeMo Gym / NeMo AutoModel",
+      "role": "Koa 후속 훈련(SFT, GRPO)에 사용된 NVIDIA 툴체인"
+     },
+     {
+      "name": "Agentforce",
+      "context_role": "Koa가 배포되는 Salesforce의 에이전트 플랫폼",
+      "role": "Koa가 배포되는 Salesforce의 에이전트 플랫폼"
+     },
+     {
+      "name": "Missionforce",
+      "role": "정부·규제기관 대상 Nemotron 기반 모델 및 가속 컴퓨팅 확장 프로그램"
+     }
+    ],
+    "watch_next": [
+     "Koa의 고객 파일럿(1-800Accountant, Baxter Credit Union 등) 결과 및 정식 출시(GA) 일정 확인",
+     "Missionforce의 정부·에어갭 환경 배포 구체 일정 및 계약 사례 확인",
+     "NVIDIA Nemotron 기반 타 SaaS 벤더 도메인 특화 모델 사례 추가 확산 여부 확인"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOT2c3aUtYRUlMNndBUUdUanJPTUJUeERNM0JwNjkwZW9seFlob0R5cXhPVnFDWkFHT2s2MFRQTHpNV2pTeHlTdWJwa3JScnhsODEzYXd6YnFjSlN5djBPOXR1UVBoNzJaZENLMVBqUE93SnQ5ejBRdzQyU2NPZkxGLTRzcy1iX0tNV1JCUTVIdkdqLTlmc1pidW10MG9lZ2EtMUtncmxvVU5xTUpwSE00bUN3M1prdzJMcC1UblkyR3g3QTZoa2UxNHZEZng1M0NzaUx1NlFvRWg5aEFZ",
+   "body": "Technology and Science · 15 September, 2026 · 3 min read Salesforce And NVIDIA Unveil Koa CRM Reasoning Model Built On Nemotron Salesforce and Nvidia unveiled Koa, a CRM reasoning model built on Nemotron at Dreamforce 2026. Koa is trained on 27 years of Salesforce CRM knowledge for multi-step tasks. Whether Koa mainly signals frontier-lab disruption or CRM marketing moat. 6 of 8 outlets skipped it: koa is already deployed via an agent in Slack. 13outlets compared Same story, two versions tap a side to read it in full TechCrunch “a shining example of how the enterprise world’s needs for AI are diverging from what the frontier labs are offering.” MarTech “Salesforce hopes its new tailored-for-CRM AI will be a boon for marketers and a moat against the general-purpose models of companies like OpenAI, Anthropic, and Google.” TechCrunch fears frontier labs being outflanked, while MarTech stresses a CRM-specific marketing moat. Koa for CRM agents Salesforce and NVIDIA unveiled Koa, Salesforce’s first CRM reasoning model for its Agentforce platform, built on NVIDIA Nemotron and designed to help agents reason through complex, multistep workflows. “No customer data was used to train the Koa reasoning model.” Salesforce said Koa was built by post-training NVIDIA Nemotron 3 Super with a proprietary synthetic dataset modeled on enterprise knowledge from nearly three decades of CRM deployments, and that “No customer data was used to train the Koa reasoning model.” In Salesforce’s CRM benchmark, the company said Koa “already matches or exceeds leading model performance on CRM actions with three times fewer errors,” including tasks like updating an opportunity, routing a case, or scheduling a follow-up. The company also said Salesforce controls the model weights and performs post-training and inference entirely within its own trust boundary, so customer data doesn’t cross that boundary during inference. At Dreamforce, Salesforce framed Koa as part of a broader shift where specialized reasoning models can be paired with other AI interfaces, while Koa handles CRM process knowledge and tool sequences rather than just generating content. Partnerships and governance Salesforce positioned Koa alongside other model options inside Agentforce, including Gemini models through Salesforce’s Google Cloud partnership and models available through Amazon Bedrock via an expanded AWS integration. Computer Weekly described AIforce releases that let users work through Anthropic’s Claude or Slack instead of logging on to Salesforce, with Claudeforce embedding Salesforce data and actions inside Claude and Slackforce pairing Slackbot with a capability to build small applications inside Slack. In that same coverage, Salesforce’s Patrick Stokes said, “The UI is not actually our product,” adding that the Salesforce product is the platform where customers store their data, metadata, workflows, and permissions. Anthropic’s Scott White said the partnership fills “the two things an agent nee"
+  },
+  {
+   "source": "Google News · StorageReview.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA CUDA-Q Logical Debuts With a 7x Fermilab Speedup and a 10x Cut in Diraq’s Qubit Estimate",
+   "link": "https://www.storagereview.com/news/nvidia-cuda-q-logical-fault-tolerant-quantum-fermilab-diraq",
+   "date": "2026-09-16 02:08",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA CUDA-Q Logical 출시, Fermilab 성능 7배 향상 달성",
+    "korean_summary": "NVIDIA의 양자 컴퓨팅 SDK CUDA-Q Logical이 데뷔하며 Fermilab에서 7배 성능 향상을 입증했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, CUDA-Q Logical 출시…Fermilab 개발 속도 7배 단축, Diraq 큐비트 추정치 10분의 1로 감소",
+    "korean_summary": "NVIDIA가 오픈소스 CUDA-Q 플랫폼에 결함허용 양자컴퓨팅 설계 도구 CUDA-Q Logical을 추가했으며, Fermilab과 Iceberg Quantum·Diraq의 초기 결과가 개발 시간 단축과 물리적 큐비트 요구량 대폭 감소를 보여주었다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "오픈소스 CUDA-Q 플랫폼에 결함허용 양자컴퓨터용 오케스트레이션 레이어 CUDA-Q Logical 추가 및 Sandia의 QUOPS 벤치마크 참조 구현 출시",
+     "stage": "Available",
+     "timeline": "미확인 (Iceberg Quantum 결과는 'early-access work', Sandia는 IEEE Quantum Week 이전 프리프린트 게재)",
+     "scope": "Fermilab, Infleqtion, IQM Quantum Computers, QCDesign, Quantum Motion, Sandia National Laboratories 등이 이미 사용 중"
+    },
+    "key_facts": [
+     "**Fermilab은 CUDA-Q Logical을 사용해 결함허용 알고리즘 설계 주기를 5개월에서 3주로 단축(7배 속도 향상)**",
+     "Iceberg Quantum은 이 도구로 Diraq의 스핀 큐비트 하드웨어가 물리적 큐비트 150,000개로 논리적 큐비트 1,000개를 달성 가능함을 입증, 이는 **Diraq의 기존 추정치 대비 약 10배 적은 수치**",
+     "하드웨어 인식 물리적 큐비트 산정치는 원래 Pinnacle 논문 수치 대비 5% 이내로 일치",
+     "Sandia National Laboratories의 QUOPS 벤치마크가 CUDA-Q에 참조 구현으로 함께 출시되었으며, Google·IBM·Quantinuum QPU에 대한 초기 결과가 IEEE Quantum Week 전 프리프린트로 공개됨",
+     "Diraq는 NVIDIA Ising(유용한 양자컴퓨팅용 AI 구축·배포를 위한 첫 오픈 모델 계열이라고 NVIDIA가 지칭)도 활용"
+    ],
+    "why_matters": "**결함허용 양자컴퓨팅으로의 전환에서 코드설계(codesign) 병목이 핵심 과제로 부상**했으며, 알고리즘·오류정정 코드·하드웨어 아키텍처를 동시에 최적화하는 도구의 등장은 신약개발·소재과학 등 실용적 양자 활용을 앞당길 잠재력을 시사한다. 물리적 큐비트 요구량이 10배 감소한 결과는 하드웨어 확장성에 대한 업계의 비관적 전망을 완화할 수 있는 구체적 증거로 주목된다.",
+    "nvidia_angle": "**NVIDIA는 CUDA-Q를 통해 다양한 QPU 벤더(Diraq, IQM, Infleqtion 등)를 아우르는 양자컴퓨팅 소프트웨어 표준 레이어를 구축하며 GPU 기반 시뮬레이션·오케스트레이션 생태계에서의 입지를 강화**하고 있다. 이는 하드웨어 중립적 플랫폼 전략으로, 양자 하드웨어 경쟁과 무관하게 NVIDIA가 개발 도구·벤치마크(QUOPS 포함) 표준을 선점하려는 움직임으로 해석된다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CUDA-Q Logical 및 QUOPS 참조 구현 출시, 양자컴퓨팅 소프트웨어 플랫폼 제공"
+     },
+     {
+      "name": "Fermilab (Fermi National Accelerator Laboratory)",
+      "context": "CUDA-Q Logical을 사용해 알고리즘 개발 주기를 7배 단축"
+     },
+     {
+      "name": "Iceberg Quantum",
+      "context": "Diraq 하드웨어에 Pinnacle qLDPC 아키텍처를 매핑해 큐비트 요구량 10배 감소 입증"
+     },
+     {
+      "name": "Diraq",
+      "context": "스핀 큐비트 하드웨어 제공, 1,000 논리 큐비트 달성에 필요한 물리 큐비트 수 대폭 감소 결과 발표"
+     },
+     {
+      "name": "Sandia National Laboratories",
+      "context": "QUOPS 벤치마크 개발, Google·IBM·Quantinuum QPU에 대한 초기 결과 공개"
+     },
+     {
+      "name": "Infleqtion",
+      "context": "CUDA-Q Logical 사용자로 언급"
+     },
+     {
+      "name": "IQM Quantum Computers",
+      "context": "CUDA-Q Logical 사용자로 언급"
+     },
+     {
+      "name": "QCDesign",
+      "context": "CUDA-Q Logical 사용자로 언급"
+     },
+     {
+      "name": "Quantum Motion",
+      "context": "CUDA-Q Logical 사용자로 언급"
+     },
+     {
+      "name": "Google, IBM, Quantinuum",
+      "context": "Sandia QUOPS 벤치마크의 초기 측정 대상 QPU 제공사"
+     }
+    ],
+    "products": [
+     {
+      "name": "CUDA-Q Logical",
+      "role": "결함허용 양자컴퓨터 애플리케이션 설계를 위한 신규 오케스트레이션 레이어"
+     },
+     {
+      "name": "CUDA-Q",
+      "role": "NVIDIA의 오픈소스 양자컴퓨팅 플랫폼, CUDA-Q Logical이 통합되는 기반"
+     },
+     {
+      "name": "QUOPS",
+      "role": "Sandia가 개발한 결함허용 양자컴퓨팅 유틸리티 진척도 측정 벤치마크, CUDA-Q에 참조 구현으로 탑재"
+     },
+     {
+      "name": "NVIDIA Ising",
+      "role": "유용한 양자컴퓨팅용 AI 구축·배포를 위한 오픈 모델 계열, Diraq가 활용"
+     },
+     {
+      "name": "Pinnacle",
+      "role": "Iceberg Quantum의 qLDPC 오류정정 아키텍처, Diraq 하드웨어에 매핑되어 성능 입증"
+     }
+    ],
+    "watch_next": [
+     "CUDA-Q Logical의 정식 출시 일정 및 추가 QPU 벤더·연구기관의 채택 현황",
+     "Sandia QUOPS 벤치마크의 IEEE Quantum Week 발표 내용 및 업계 표준화 여부",
+     "Diraq의 'The Case for Silicon' 백서에 기반한 실제 하드웨어 로드맵 구체화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYW5ZRkV0SVY5bDd4NmhWdmZ6VXNuZW5SNDNwNzkwLWJZbU9hOFZFcVhLdmlVQld3bDdIUFhEcEF2X1ZlSHZkUzlCT2xLc2pBMXFoV3hCMElFTWZKQ1M0cHlRdXM0Q01SSmJPeURFMkNsYm1UbFRBYWsxUlI5Sjc1Mm9rV0U2UDVxZnRTQko4TFVwSkFxY3ZRYnVR0gGfAUFVX3lxTE1EbEd6TE9nRWtNWThnZ3hLbWtCYkkwT191NmpjY0I1b09FUU0tTnAtdkNPcThaMW1KM1cybjBuemRGdW5GRW1ZZkV1RmFHbFNUNTk0TXN0N3Zubi1ZZEVvRnRRRy1PWG5EMHR5WFlYaExMNlNrZGU1UmZMZkdLV0RacTFpQXk5c3VoNTBaR3pjQVlDNGRuVk43VnI2YnBZcw",
+   "body": "NVIDIA has added CUDA-Q Logical to its open-source CUDA-Q platform, an orchestration layer for building applications that run on fault-tolerant quantum computers, and it arrives with two numbers that are interesting. Fermilab says the tool cut a fault-tolerant algorithm design cycle from five months to three weeks, and Iceberg Quantum used it to show that Diraq’s spin-qubit hardware can reach 1,000 logical qubits with 150,000 physical qubits, roughly 10x fewer than Diraq’s previous estimate. Both results are early-access work reported by the labs and vendors involved, but they’re the first concrete figures for a tool aimed at the next stage of quantum computing, where error-corrected logical qubits replace raw physical ones. Why Codesign Is the Bottleneck Fault-tolerant processors built on logical qubits are what make useful quantum computing possible, because they overcome the errors inherent in physical qubits and can execute the larger computations that drug discovery, financial modeling, and materials science need. Designing an application for one of those systems means juggling the algorithm, the error-correction code, the hardware architecture, and the rest of the QPU at the same time, and NVIDIA says that changing any one of them can swing the resources the application needs. CUDA-Q Logical lets researchers describe all of those components together and swap between options to find the configuration that performs best with logical qubits. “Quantum computing is maturing into an era of logical qubits, and researchers need an open, customizable platform capable of representing all aspects of a fault-tolerant system,” said Timothy Costa, vice president and general manager of quantum at NVIDIA. NVIDIA lists Fermi National Accelerator Laboratory, Infleqtion, IQM Quantum Computers, QCDesign, Quantum Motion, and Sandia National Laboratories among the QPU makers and labs already using it. Iceberg Maps Its qLDPC Architecture Onto Diraq’s Spin Qubits The headline result comes from Iceberg Quantum, which used CUDA-Q Logical to model its Pinnacle error-correction architecture on Diraq’s silicon spin-qubit hardware. Pinnacle is a quantum low-density parity-check (qLDPC) code, a family that promises far lower overhead than the surface code but is usually assumed to demand more complex hardware. Diraq’s write-up says the modeling showed Pinnacle can run on its hardware without asking much more of the platform than a surface-code approach would, with non-local connectivity confined to modular processing blocks and qubit shuttling schedules tuned so shuttling contributes no more to the error budget than physical gates. The hardware-aware physical qubit counts landed within 5% of the figures in the original Pinnacle paper, which is how the two companies arrive at 1,000 logical qubits from 150,000 physical ones, the figure Diraq now reports in its “The Case for Silicon” white paper and roughly 10x below its earlier estimate. Diraq CEO Andrew Dzurak called it a"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/c-foundationstereo-s (신규)",
+   "link": "https://huggingface.co/nvidia/c-foundationstereo-s",
+   "date": "2026-09-15 10:25",
+   "score": 7,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/c-foundationstereo-s",
+    "version": "depth-estimation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Research, 스테레오 깊이 추정 파운데이션 모델 FoundationStereo 공개",
+    "korean_summary": "NVIDIA Research가 FoundationStereo 모델을 공개했으며, 로보틱스와 산업·스마트 스페이스 응용을 위한 정확한 0-shot 스테레오 깊이 추정 기능을 제공한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 제로샷 스테레오 깊이 추정 파운데이션 모델 'FoundationStereo-S' Hugging Face 공개",
+    "korean_summary": "NVIDIA Research가 RGB 스테레오 이미지 쌍으로부터 정확한 disparity map을 생성하는 파운데이션 모델 FoundationStereo-S를 Hugging Face에 공개하여 산업·로보틱스용 제로샷 3D 인식을 지원한다.",
+    "action": {
+     "actor": "NVIDIA Research",
+     "action": "스테레오 깊이 추정 파운데이션 모델 FoundationStereo-S를 Hugging Face에 공개",
+     "stage": "Available",
+     "timeline": "Hugging Face 2026-09-15 (NGC는 2025-07-30/10-07/11-19 순차 공개)",
+     "scope": "Global, 상업적 이용 가능(NVIDIA Open Model License)"
+    },
+    "key_facts": [
+     "**RGB 스테레오 이미지 쌍을 입력받아 disparity map(깊이 정보)을 출력**하는 제로샷 일반화 모델",
+     "TensorRT, ONNX, TAO Toolkit 기반으로 배포되며 pipeline은 depth-estimation",
+     "**NVIDIA Open Model License 하에 상업적 이용 가능**, 배포 지역은 Global",
+     "NGC에는 2025-07-30, 10-07, 11-19에 걸쳐 순차 공개되었고 Hugging Face에는 2026-09-15 공개",
+     "arXiv 논문(2501.09898, Wen et al. 2025)을 기반으로 한 연구 성과이며 다운로드 0, 좋아요 3 (신규 등록 상태)"
+    ],
+    "why_matters": "스테레오 카메라 기반 깊이 추정은 라이다 대비 저비용 3D 인식 수단으로 산업·로보틱스·스마트 스페이스 응용에서 중요하며, 제로샷 일반화 성능은 재학습 없이 다양한 환경에 즉시 적용 가능하다는 실용적 이점을 제공한다. NVIDIA가 이를 TensorRT/TAO 파이프라인과 오픈 라이선스로 배포함으로써 개발자 생태계 확산과 상용화 문턱을 낮추는 전략을 취하고 있다.",
+    "nvidia_angle": "**Foundation model + TAO Toolkit + TensorRT** 조합을 통해 NVIDIA는 인식(perception) SW 스택을 하드웨어(Jetson/GPU)와 통합 판매하는 전략을 강화하며, Hugging Face 공개는 개발자 접근성과 생태계 락인(lock-in)을 동시에 노린다.",
+    "auto_robotics_angle": "저비용 스테레오 카메라만으로 제로샷 3D 깊이 인식이 가능해지면 **라이다 의존도를 낮춘 자율주행·휴머노이드 로봇의 센서 비용 절감**이 가능하며, TAO Toolkit·TensorRT 연계로 Jetson 기반 온디바이스 로보틱스 플랫폼에 바로 적용할 수 있는 실용적 인식 모듈로 기능할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발 및 공개 주체(NVIDIA Research)"
+     }
+    ],
+    "products": [
+     {
+      "name": "FoundationStereo-S",
+      "role": "제로샷 스테레오 깊이 추정 파운데이션 모델"
+     },
+     {
+      "name": "TAO Toolkit",
+      "role": "모델 학습·배포 프레임워크"
+     },
+     {
+      "name": "TensorRT",
+      "role": "추론 최적화 런타임"
+     }
+    ],
+    "watch_next": [
+     "TAO Toolkit/TensorRT 통합 버전의 실제 성능 벤치마크 및 지연시간 공개 여부",
+     "자율주행·로보틱스 OEM의 FoundationStereo 채택 사례 발표",
+     "Jetson 플랫폼 상 엣지 배포 사례 및 NGC 모델 카탈로그 업데이트"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/c-foundationstereo-s:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: depth-estimation · library: tensorrt · tags: tensorrt, onnx, TAO Toolkit, computer-vision, depth-estimation, stereo-matching, disparity-estimation, stereo-depth, foundation-model, zero-shot, transformer, pytorch · downloads 0 · likes 3. README:  ## FoundationStereo Overview ### Description [FoundationStereo](https://arxiv.org/pdf/2501.09898) is a foundation model developed by NVIDIA Research for Stereo Depth Estimation. The model takes as input an RGB stereo-image pair and outputs an accurate disparity map. The model was designed to achieve strong zero-shot generalization and has been shown to generalize to various scenarios with wide zero-shot coverage. #### Use Case: FoundationStereo is designed for developers who intend to apply accurate zero-shot depth to 3D perception use cases in industrial, robotics, and smart space applications using stereo images as input. This model is ready for commercial use. ### License License to use these models is covered by the NVIDIA Open Model License. By downloading the model, you accept the terms and conditions of these [licenses](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/). ### Deployment Geography: Global ### Release Dates: - Hugging Face 09/15/2026 via https://huggingface.co/nvidia/c-foundationstereo-s - NGC 11/19/2025 via https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/foundationstereo - NGC 10/07/2025 via https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/foundationstereo - NGC 07/30/2025 via https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/foundationstereo ### References Wen, B., Trepte, M., Aribido, J., Kautz, J., Gallo, O., & Birchfield, S. (2025). FoundationStereo: Zero-Shot Stereo Matching. arX"
+  },
+  {
+   "source": "Google News · Stock Titan",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA simulation now models touch for robots",
+   "link": "https://www.stocktitan.net/news/SYNA/synaptics-brings-tactile-sensing-and-edge-ai-to-nvidia-isaac-sim-and-kbwndxu2o2ie.html",
+   "date": "2026-09-16 00:52",
+   "score": 7,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac Sim, 로봇 촉각 센싱 모델링 지원",
+    "korean_summary": "NVIDIA Isaac Sim이 로봇의 터치/촉각 센싱을 시뮬레이션할 수 있도록 업그레이드되었다."
+   },
+   "summary_data": {
+    "korean_title": "Synaptics, 촉각 센싱과 엣지 AI를 NVIDIA Isaac Sim·Holoscan에 통합",
+    "korean_summary": "Synaptics가 SN6012T 기반 정전용량식 촉각 센싱(CTS) 모듈과 Astra Edge AI 프로세서를 NVIDIA Isaac Sim 및 Holoscan에 지원시켜, 로봇 손·그리퍼의 접촉·압력 감지를 시뮬레이션과 실제 기기에서 동시에 구현할 수 있게 했다.",
+    "action": {
+     "actor": "Synaptics",
+     "action": "CTS 촉각 센싱 모듈과 Astra Edge AI 프로세서를 NVIDIA Isaac Sim 및 Holoscan과 통합 지원",
+     "stage": "Announced",
+     "timeline": "2026-09-15",
+     "scope": "정밀 로봇 손, 그리퍼, 휴머노이드 등 Physical AI 시스템"
+    },
+    "key_facts": [
+     "SN6012T 터치 컨트롤러 기반 CTS 모듈은 **2.5mm 피치 5x12 taxel 배열**로 최대 100N 힘을 0.1N 해상도로 측정",
+     "전통적 폼(foam) 센서 대비 **10배 빠른 반동 응답(rebound response)** 제공",
+     "NVIDIA의 **Newton 물리 엔진**을 위해 처음부터 설계됨(native support)",
+     "Astra Edge AI 프로세서는 터치·비전·모션 데이터를 통합 스트림으로 표준 Ethernet을 통해 Holoscan에 전달, 중앙 연산 부담을 오프로드",
+     "NVIDIA Robotics and Edge AI 부문 VP Deepu Talla가 시뮬레이션과 실제 접촉 반응 간 격차 해소의 중요성을 언급"
+    ],
+    "why_matters": "촉각 데이터를 시뮬레이션 단계에서 합성·검증할 수 있게 되면 정밀 조작이 필요한 휴머노이드·산업용 로봇 개발의 실증 주기가 단축된다. **NVIDIA의 Isaac Sim·Holoscan·Newton 생태계**가 비전·모션에 이어 촉각까지 흡수함으로써 Physical AI 플랫폼으로서의 포괄성이 강화된다.",
+    "nvidia_angle": "NVIDIA는 자체 하드웨어 개발 없이 **Synaptics 같은 센서·엣지 AI 파트너를 통해 Isaac Sim·Holoscan·Newton 스택의 멀티모달 커버리지를 확장**하며, 로봇 개발의 표준 시뮬레이션·검증 플랫폼 지위를 강화하려는 전략을 보여준다.",
+    "auto_robotics_angle": "정밀 그립·물체 조작이 핵심인 **휴머노이드 로봇과 산업용 그리퍼 제조사**에게 촉각 시뮬레이션은 실물 하드웨어 없이도 접촉 알고리즘 검증이 가능해져 개발 비용과 시간을 줄여주며, 향후 자율주행 차량의 물리적 상호작용(예: 로보틱 조립·물류) 응용으로도 확장될 수 있는 기반 기술이다.",
+    "companies": [
+     {
+      "name": "Synaptics",
+      "context": "CTS 촉각 모듈과 Astra Edge AI 프로세서 공급, NVIDIA 플랫폼과 통합"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Isaac Sim·Holoscan·Newton 물리 엔진 등 로봇 시뮬레이션·엣지 AI 플랫폼 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Synaptics CTS module (SN6012T)",
+      "role": "접촉·압력 감지를 위한 정전용량식 촉각 센서 모듈"
+     },
+     {
+      "name": "NVIDIA Isaac Sim",
+      "role": "촉각 데이터를 포함한 로봇 시뮬레이션 환경 제공"
+     },
+     {
+      "name": "NVIDIA Holoscan",
+      "role": "멀티모달(터치·비전·모션) 데이터 스트림 처리 플랫폼"
+     },
+     {
+      "name": "NVIDIA Newton",
+      "role": "CTS 모듈이 네이티브 지원하는 물리 시뮬레이션 엔진"
+     },
+     {
+      "name": "Synaptics Astra",
+      "context": "미확인",
+      "role": "터치·비전·모션 데이터를 통합하는 엣지 AI 프로세서 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "CTS 모듈 및 Astra 프로세서의 실제 상용 출하 일정",
+     "Isaac Sim·Holoscan 기반 촉각 시뮬레이션을 채택하는 휴머노이드·그리퍼 제조사 사례",
+     "NVIDIA Newton 엔진의 추가 파트너사 및 센서 생태계 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWmZmWXVCUGQweS04aU5CM2p3Z3cyRlJuRGdveXRWNXdnNV85RlBoQm1RUXZUSGNESFAwZDhwSlFUSWo5MzE5T2N6emZnTXZUdnlEZy0yNXNGeVA2dXljUmoyRENtTVB5QU02UzRCMGlzMnBieWFfYmg1cy1SSnJKeDlOeXMxaWlVNzkzLWlYZTdWYzlLeGh6Z200UkJaS05ZWjdPVVZYRVF6TEV3S2VDcS1qcHZUTGxpMkFTTlV1Zms",
+   "body": "Synaptics Brings Tactile Sensing and Edge AI to NVIDIA Isaac Sim and Holoscan Synaptics adds tactile sensing and Astra Edge AI support to NVIDIA Isaac Sim and Holoscan, enabling simulated and on-device multimodal robotics touch processing. Rhea-AI Summary Synaptics (SYNA) introduced its first Capacitive Tactile Sensing (CTS) module using the SN6012T touch controller, now supported in the NVIDIA Isaac Sim robotics simulation framework and working with NVIDIA Holoscan. The CTS module targets dexterous robotic hands, grippers, and other Physical AI systems to detect contact and pressure distribution for more precise grip control and object manipulation. It offers a high 2.5mm pitch taxel density in a 5x12 array, measuring forces up to 100N with 0.1N resolution and a proprietary sensor design that enables 10x faster rebound response than traditional foam sensors. The module is built for NVIDIA’s Newton physics engine and integrates with Synaptics Astra Edge AI processors, which aggregate touch, vision, and motion data into unified streams, offload sensor collection from central compute, and deliver multimodal data to NVIDIA Holoscan over standard Ethernet. Positive - None. Negative - None. Key Figures - Taxel pitch - 2.5mm - CTS tactile module - Taxel array - 5x12 taxels - CTS tactile module - Force range - up to 100N - CTS tactile module - Force resolution - 0.1N - CTS tactile module - Rebound response - 10x faster - Compared with traditional foam sensors Previous AI Reports - Showcased Astra Edge AI, multimodal sensing, and Physical AI applications at COMPUTEX - Launched Astra-based Coral Dev Board for multimodal Edge AI application development - Showcased Astra SoCs and multimodal sensing for robotics and industrial automation 24h Move is the share-price change in the day after each event; other market factors may also have contributed. Key Terms hysteresis technical AI-generated analysis. How Rhea-AI works. Not financial advice. Synaptics Capacitive Tactile Sensing (CTS) module captures touch data and Astra® Edge AI processors run inference on device, now supported on NVIDIA Isaac Sim™ and Holoscan. SAN JOSE, Calif., Sept. 15, 2026 (GLOBE NEWSWIRE) -- Synaptics® Incorporated (Nasdaq: SYNA) today announced its first CTS module powered by the SN6012T touch controller is now supported by the open robotics simulation framework, NVIDIA Isaac Sim. The Synaptics CTS module is designed for dexterous robotic hands, grippers, and other Physical AI systems to detect contact and pressure distribution, supporting more precise grip control, object manipulation, and responsive interaction. The CTS module works effortlessly with Synaptics Astra® Edge AI processors. These processors serve as a multimodal sensing, inferencing, and connectivity hub unifying touch, vision, motor control, and other sensory signals into synchronized streams to facilitate hierarchical AI systems with support of NVIDIA Holoscan. As Physical AI platforms increasingly operate in highly dy"
+  },
+  {
+   "source": "Google News · marketscreener.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Synaptics Incorporated Brings Tactile Sensing and Edge AI to NVIDIA Isaac Sim and Holoscan",
+   "link": "https://www.marketscreener.com/news/synaptics-incorporated-brings-tactile-sensing-and-edge-ai-to-nvidia-isaac-sim-and-holoscan-ce785bddde8df72d",
+   "date": "2026-09-16 02:07",
+   "score": 7,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "Synaptics, NVIDIA Isaac Sim·Holoscan에 촉각 센싱 기술 통합",
+    "korean_summary": "Synaptics가 NVIDIA의 로봇·의료 플랫폼에 엣지 AI 촉각 센싱 기술을 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVmZxdmUyZHRxS01OdVVYZzNoeU9XUE1NTm5WX2FJTVFLenppV1RyVXdQOFVTcHh4U1k5TlhSR09ZZ1RBNzh0OUc5dmJZTHJ4cFRnQWFpQy1zNUNYblNoS0tFZmFOTkRFS1JIU2JWZ19pWDJ2eDZqRUZtR3lRbTU4dzF2S2syaGdKWG1lTzF4RkRvMEhjMjhrdnpwU3hHY2hVb2VKazVFUzBZQ2ZJT05KcjF4RU13clhlMVhzcnVDQjdOWkFQQWw1U1YxZ0lGb1FFTUFTdVhIUHhpeVk",
+   "body": ""
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "인텔 CEO \"내년 메모리 부족 더 심해진다…일부는 5~7배 올라\"",
+   "link": "https://www.hankyung.com/article/202609166987i",
+   "date": "2026-09-16 03:28",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_auto": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Intel CEO, 2025년 AI 메모리 대란 심화 및 HBM 가격 급등 경고",
+    "korean_summary": "Intel CEO 팻 겔싱어가 AI 인프라 서밋에서 2025년 메모리 부족이 악화될 것이며 일부 HBM 가격이 5~7배 상승했다고 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/202609166987i",
+   "body": "AI 추천 뉴스 인텔 CEO \"내년 메모리 부족 더 심해진다…일부는 5~7배 올라\" AI 인프라서밋에서 대담 \"18A 공정 양산 들어가…수율 확보 집중 이석희 부사장이 많이 도와주고 있어\" AI 속도조절론에 \"일부 조정 자연스러워 실리콘밸리 밖 반AI 정서 고려해야\" \"18A 공정 양산 들어가…수율 확보 집중 이석희 부사장이 많이 도와주고 있어\" AI 속도조절론에 \"일부 조정 자연스러워 실리콘밸리 밖 반AI 정서 고려해야\" 립부 탄 인텔 최고경영자(CEO)가 내년 메모리 대란이 더욱 심화될 것이라고 전망했다. 탄 CEO는 15일(현지시간) 미국 캘리포니아주 산타클라라에서 열린 ‘AI 인프라 서밋’에서 “메모리를 충분히 확보하지 못해 사업 확대가 늦어지는 기업이 많다”며 “일부 메모리 가격은 5배, 6배, 심지어 7배까지 올랐다”고 말했다. 메모리 가격 상승은 스마트폰이나 PC 가격도 끌어올리고 있다. 같은 생산설비에서 어떤 제품을 얼마나 만들지를 놓고 HBM과 범용 D램이 경쟁하기 때문이다. 탄 CEO는 “보급형 스마트폰이나 노트북을 만들면서 제품 원가의 70~80%를 메모리에 쓸 수는 없다”고 말했다. 메모리 가격 급등이 계속되면 수익성이 낮은 보급형 정보기술(IT) 기기부터 생산이 어려워질 수 있다는 의미다. 인텔이 주목하는 해법은 메모리를 연산칩 가까이에 붙이는 첨단 패키징이다. 기존 서버에서는 중앙처리장치(CPU)와 가속기, 메모리가 떨어져 있어 데이터가 오가는 데 시간과 전력이 든다. 반면 첨단 패키징은 CPU와 AI 가속기, HBM, 입출력 칩을 하나의 거대한 반도체처럼 연결한다. 칩 사이의 거리가 짧아져 데이터 처리 속도와 전력 효율을 함께 높일 수 있다. 그래픽처리장치(GPU) 일변도의 AI 인프라에도 변화가 필요하다고 강조했다. GPU는 범용성이 높지만 전력 소비가 크다는 이유에서다. 그는 인텔이 투자한 삼바노바와 세레브라스시스템스를 사례로 들며 “이들 아키텍처는 10분의 1 수준의 전력으로 성능을 낼 수 있다”고 주장했다. 앞으로는 CPU와 GPU, 신경망처리장치(NPU), 용도별 가속기가 일을 나눠 맡는 ‘이기종 컴퓨팅’이 확산할 것이라는 설명이다. AI 모델이 커질수록 패키지도 거대해진다. 탄 CEO는 “중앙에 CPU를 놓고 주변에 HBM과 고속 입출력 장치를 배치해야 한다”며 “차세대 AI에는 매우 큰 패키지가 필요하다”고 했다. 인텔은 칩 전체를 덮는 대형 실리콘판 대신 필요한 부분만 작은 실리콘 다리로 연결하는 ‘EMIB’ 기술을 보유하고 있다. 대형 패키지를 비교적 유연하게 만들 수 있어 TSMC의 ‘CoWoS’에 맞설 인텔의 핵심 기술로 꼽힌다. 탄 CEO는 이 전략을 이석희 인텔 파운드리 수석부사장에게 맡겼다. 이 부사장은 SK하이닉스와 SK온 CEO를 지냈으며 과거 인텔에서 약 10년간 근무했다. 지난 6월 인텔로 돌아와 첨단 패키징과 시스템 통합, 후공정 기술 개발 및 생산을 총괄하고 있다. 탄 CEO는 “이 수석부사장이 합류해 매우 기쁘다”며 “그는 원래 인텔 출신이어서 내가 다시 돌아와 달라고 요청했다”고 말했다. 메모리 반도체 양산 경험과 인텔 내부 사정을 모두 아는 이 부사장을 앞세워 AI 가속기와 HBM을 결합하는 사업을 키우겠다는 뜻이다. 다만 기술만으로 패키징 경쟁력을 확보할 수 있는 것은 아니다. AI 칩을 올려놓는 패키지 기판 공급이 부족해서다. 탄 CEO는 “핵심 기판 공급업체가 일본 두 곳과 대만 두 곳 등 네 곳뿐”이라며 “고객을 위해 생산능력을 확보하는 것이 큰 과제”라고 말했다. 패키징 수율과 성능, 생산주기를 안정시키는 것도 해결해야 할 문제로 꼽았다. 인텔은 지난해 9월 체결한 엔비디아와의 파트너십에 대해서도 언급했다. 탄 CEO는 “모든 것을 직접 소유할 수는 없다”며 “인텔의 CPU와 엔비디아의 GPU와 NV링크를 결합해 양사가 아직 공략하지 못한 시장을 개척할 것”이라고 말했다. 경쟁하면서도 필요한 분야에서는 협력하는 ‘코피티션’ 전략이다. 인텔이 AI 가속기 시장에서 겪은 실패도 인정했다. 인텔이 2019년 인수한 하바나랩스의 창업자와 핵심 인력이 회사를 떠나면서 AI 칩 ‘가우디’가 기대만큼 시장을 확보하지 못했다는 것이다. 탄 CEO는 “창업자에게 권한을 주고 인텔을 자신의 집처럼 느끼게 했어야 했다”며 “인텔이 모든 것을 안다는 태도로 접근해 인재를 잃었다”고 말했다. 탄 CEO는 최근 업계에서 화두가 된 'AI 속도조절론'에 대해서는 \"어느정도 조정은 자연스러운 일이고 과민반응하지 않고 있다\"고 했다. 그는 “AI는 인터넷보다 더 큰 영향을 미칠 것”이라면서도 실리콘밸리 밖에서 커지는 반(反)AI 여론을 경고했다. \"실리콘밸리는 거품같은 곳이어서 모두 AI에 열광하지만, 미국 다른 지역에서는 AI 반대 정서가 매우 커졌다\"는 것이다. 탄 CEO는 “보안과 개인정보 침해 같은 부정적인 측면을 제대로 설명해야 한다”며 “새 기술을 받아들이기 위한 긍정적인 서사를 만드는 것도 업계 지도자들의 책임”이라고 말했다. 실리콘밸리=김인엽 특파원 inside@hankyung.com 메모리 가격 상승은 스마트폰이나 PC 가격도 끌어올리고 있다. 같은 생산설비에서 어떤 제품을 얼마나 만들지를 놓고 HBM과 범용 D램이 경쟁하기 때문이다. 탄 CEO는 “보급형 스마트폰이나 노트북을 만들면서 제품 원가의 70~80%를 메모리에 쓸 수는 없다”고 말했다. 메모리 가격 급등이 계속되면 수익성이 낮은 보급형 정보기술(IT) 기기부터 생산이 어려워질 수 있다는 의미다. 인텔이 주목하는 해법은 메모리를 연산칩 가까이에 붙이는 첨단 패키징이다. 기존 서버에서는 중앙처리장치(CPU)와 가속기, 메모리가 떨어져 있어 데이터가 오가는 데 시간과 전력이 든다. 반면 첨단 패키징은 CPU와 AI 가속기, HBM, 입출력 칩을 하나의 거대한 반도체처럼 연결한다. 칩 사이의 거리가 짧아져 데이터 처리 속도와 전력 효율을 함께 높일 수 있다. 그래픽처리장치(GPU) 일변도의 AI 인프라에도 변화가 필요하다고 강조했다. GPU는 범용성이 높지만 전력 소비가 크다는 이유에서다. 그는 인텔이 투자한 삼바노바와 세레브라스시스템스를 사례로 들며 "
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prediction: Nvidia's $108 Billion Q3 Guide Will Look Conservative by December",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTTdsd29rQXNVU2owRm52UEtFWlBPMF9wd25XVmhDVWdwOHlaaklyN293b0E1d3lYd1lGZWRuSEVpOXFYc2NFQTdvdG1DNHFrNXZzam95eEZfUTJIVUwyNDlSYTgzZWdvc1lESlJaVEU3c0JjNEpObFpTbmtPaEhkbG4yMjh3UWk2bGJCOEN3MWk2SDZseVlJ?oc=5",
+   "date": "2026-09-16 05:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA Q3 1080억 달러 가이던스가 12월까지 보수적으로 평가될 전망",
+    "korean_summary": "NVIDIA의 Q3 1080억 달러 매출 가이던스 발표에 대해 연말까지 실제 성과가 이를 초과할 것으로 예측하는 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTTdsd29rQXNVU2owRm52UEtFWlBPMF9wd25XVmhDVWdwOHlaaklyN293b0E1d3lYd1lGZWRuSEVpOXFYc2NFQTdvdG1DNHFrNXZzam95eEZfUTJIVUwyNDlSYTgzZWdvc1lESlJaVEU3c0JjNEpObFpTbmtPaEhkbG4yMjh3UWk2bGJCOEN3MWk2SDZseVlJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Quantum Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "QC Design Integrates Plaquette With NVIDIA CUDA-Q Logical for Hardware-Realistic QEC Simulation",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXJvbHl5UmFPekRMT0MtVlJWNWxaZ04yVXU0VjUtaGN5cG4zay1pQndfTFhSMTBvdlJqbFl3NDd6UWt6ZFdmTlpMT2RsejBVc2lhMEpIejUyeUt5S2dPTnZpQzRrZE0tU0RFMnJvMGFiWVJxU1ZZX1ltbFJiQW4zRXItRmRUdVBXb3R6bHhsR1g0SWZpWTFmdXp5RHNQVEU?oc=5",
+   "date": "2026-09-16 00:20",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "QC Design이 NVIDIA CUDA-Q에 Plaquette 통합하여 양자오류정정 시뮬레이션 지원",
+    "korean_summary": "QC Design이 NVIDIA CUDA-Q 플랫폼과 Plaquette을 통합하여 하드웨어 현실적 양자오류정정 시뮬레이션 구현"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOXJvbHl5UmFPekRMT0MtVlJWNWxaZ04yVXU0VjUtaGN5cG4zay1pQndfTFhSMTBvdlJqbFl3NDd6UWt6ZFdmTlpMT2RsejBVc2lhMEpIejUyeUt5S2dPTnZpQzRrZE0tU0RFMnJvMGFiWVJxU1ZZX1ltbFJiQW4zRXItRmRUdVBXb3R6bHhsR1g0SWZpWTFmdXp5RHNQVEU",
+   "body": ""
+  },
+  {
+   "source": "Google News · citybiz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Vertical Data Signs $192 Million LOI for NVIDIA Blackwell Ultra AI Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjdjZzVRNDRhWnZWb3REaE5uSXVrT3RRRE1pUzFwVDhTSHBWZG85cWc5cGswYzJmSThTWVdpRHhnRUg0c2tGbzVBT1VRMWR4Z2xYY2pIMV9KS19VYTkwd1RXR3VNLWtmMFZFYXVtU2stOVZIU092dE9McUpNeGdGbU0xSkdSWlNmV0xsdk9qSlU1c1MtWDQtQVRIM0F5dXBMVnFxLXV6Y0FUX3pPN0pvZWttMVpYYlcyUVJJ?oc=5",
+   "date": "2026-09-16 02:33",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "Vertical Data, NVIDIA Blackwell Ultra AI 인프라 1억 9200만 달러 규모 LOI 체결",
+    "korean_summary": "Vertical Data가 NVIDIA Blackwell Ultra AI 인프라 구축에 1억 9200만 달러 규모의 의향서를 체결했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjdjZzVRNDRhWnZWb3REaE5uSXVrT3RRRE1pUzFwVDhTSHBWZG85cWc5cGswYzJmSThTWVdpRHhnRUg0c2tGbzVBT1VRMWR4Z2xYY2pIMV9KS19VYTkwd1RXR3VNLWtmMFZFYXVtU2stOVZIU092dE9McUpNeGdGbU0xSkdSWlNmV0xsdk9qSlU1c1MtWDQtQVRIM0F5dXBMVnFxLXV6Y0FUX3pPN0pvZWttMVpYYlcyUVJJ",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia Unveils RTX Pro 5500 Blackwell Workstation Edition GPU",
+   "link": "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus/rtx-pro-5500/",
+   "date": "2026-09-15 10:10",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA, RTX Pro 5500 Blackwell 워크스테이션 에디션 공개",
+    "korean_summary": "NVIDIA가 Blackwell 아키텍처 기반의 RTX Pro 5500 전문가용 워크스테이션 GPU를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus/rtx-pro-5500",
+   "body": "Article URL: https://www.nvidia.com/en-gb/products/workstations/professional-desktop-gpus/rtx-pro-5500/ Comments URL: https://news.ycombinator.com/item?id=49706483 Points: 2 # Comments: 0"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+   "link": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/",
+   "date": "2026-09-15 18:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "필라델피아 어린이병원, NVIDIA MONAI로 선천성 심장질환 모델링",
+    "korean_summary": "CHOP이 NVIDIA 오픈소스 AI 도구로 아동 심장질환을 초 단위로 모델링하는 정밀 진료 사례를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "필라델피아 아동병원, NVIDIA 오픈소스 AI로 소아 심장 모델링 혁신",
+    "korean_summary": "Children's Hospital of Philadelphia(CHOP)가 NVIDIA가 공동 창립한 오픈소스 의료영상 프레임워크 MONAI와 물리 엔진 Newton/Warp를 활용해 선천성 심장질환 환아의 심장을 수 초 만에 3D 모델링함으로써 수술 전 맞춤형 진단과 시술 계획 수립을 가능하게 하고 있다.",
+    "action": {
+     "actor": "Children's Hospital of Philadelphia (CHOP)",
+     "action": "MONAI, MONAI Label, Auto3DSeg, SlicerHeart, NVIDIA Warp 기반 Newton 물리 엔진을 활용해 소아 심장 3D 모델링 및 시뮬레이션 워크플로우를 임상에 적용",
+     "stage": "Available",
+     "timeline": "미확인 (Jolley가 2015년 CHOP 합류 이후 점진적 개발, 현재 연간 약 200건 모델링 목표)",
+     "scope": "미국 내 20개 이상 아동병원의 심장 모델링 프로그램, CHOP 및 Boston Children's Hospital 포함"
+    },
+    "key_facts": [
+     "선천성 심장질환은 전체 출생아의 약 1%에서 발생하며 각 사례의 해부학적 구조가 모두 다름",
+     "**기존 4시간 걸리던 심장 모델링 워크플로우가 MONAI 기반 AI로 수 초로 단축됨**",
+     "미국 내 20개 이상 아동병원이 심장 모델링 프로그램을 운영 중이며, Boston Children's Hospital은 연간 약 500건(전체 심장수술의 절반 이상)에 모델링을 적용, CHOP은 올해 약 200건 목표",
+     "**Newton은 NVIDIA Warp Python 프레임워크 기반 오픈소스 물리 엔진으로, 원래 로봇 AI 시뮬레이션 훈련용으로 설계됨**",
+     "GPU 가속을 통해 심장 기기 시뮬레이션 시간이 최대 4시간(또는 여러 구성에 대한 밤샘 연산)에서 실시간에 가까운 수준으로 단축"
+    ],
+    "why_matters": "**의료 영상·시뮬레이션에 GPU 가속 AI를 적용해 진단·시술 계획 시간을 시간 단위에서 초 단위로 단축시킴으로써 정밀의료의 실질적 임상 표준화 가능성을 보여준다.** 20개 이상 병원으로 확산되고 있어 오픈소스 생태계(MONAI, 3D Slicer)를 통한 AI 의료 도구의 표준화·저변 확대 사례로서 의미가 크다.",
+    "nvidia_angle": "**NVIDIA는 MONAI(의료영상), Warp/Newton(물리 시뮬레이션), Omniverse/OpenUSD(디지털 트윈)를 하나의 오픈소스 스택으로 연결해 헬스케어 수직 시장에서 AI 인프라 플랫폼 지배력을 강화하고 있다.** 원래 로봇공학용으로 개발된 Newton 물리 엔진을 의료 시뮬레이션에 재활용한 사례는 NVIDIA의 범용 가속 컴퓨팅 플랫폼 전략을 보여준다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "MONAI 공동 창립, Warp/Newton 물리 엔진 및 Omniverse/OpenUSD 제공"
+     },
+     {
+      "name": "Children's Hospital of Philadelphia (CHOP)",
+      "context": "MONAI·SlicerHeart·Newton 기반 심장 모델링·시뮬레이션 워크플로우 개발 및 임상 적용"
+     },
+     {
+      "name": "Boston Children's Hospital",
+      "context": "심장 모델링을 연간 약 500건 수술에 적용하는 선도 병원"
+     }
+    ],
+    "products": [
+     {
+      "name": "MONAI",
+      "role": "오픈소스 의료영상 AI 프레임워크, 심장 세그멘테이션 모델 학습에 사용"
+     },
+     {
+      "name": "MONAI Label / Auto3DSeg",
+      "role": "세그멘테이션 네트워크 학습 도구, 수 초 내 모델 생성 지원"
+     },
+     {
+      "name": "SlicerHeart (3D Slicer 확장)",
+      "role": "소아 심장·판막 3D 영상 시각화·분석 오픈소스 도구"
+     },
+     {
+      "name": "Newton (NVIDIA Warp 기반)",
+      "role": "GPU 가속 물리 시뮬레이션 엔진, 심장 기기 배치 시뮬레이션에 적용"
+     },
+     {
+      "name": "NVIDIA Omniverse / OpenUSD",
+      "role": "SlicerHeart와 연동되는 디지털 트윈 커플러 개발 중"
+     }
+    ],
+    "watch_next": [
+     "Newton/Warp 기반 경첩관 폐쇄 기기·경피적 판막 시뮬레이션의 임상 정식 도입 시점",
+     "SlicerHeart와 Omniverse/OpenUSD 커플러의 개발 완료 및 실시간 임상 워크플로우 통합 여부",
+     "타 병원으로의 심장 모델링·시뮬레이션 프로그램 확산 규모 및 CHOP IDEA Lab의 타 진료과 적용 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Blog",
+     "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+     "link": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Heart of the Matter: How a Major Children’s Hospital Uses Open Source NVIDIA AI for Cardiac Care",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM3JfelNNeXFoQmdqdzlhM2FkTEMxVFlCNGxIUnFOSmR1S28zVnV2elFES0R1RERBWEJ3anJXMzhDY3lKU2lNU0d1MEVwbjdSYV9JUUZROGhMMWlxc0gxOFRVQjlGcEF4QVpuMlZDTzl1VUdRZkk1WmVMS09pOVZoN2JCRQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/childrens-hospital-open-source-ai-cardiac-care",
+   "body": "Children’s Hospital of Philadelphia is using open source AI tools to model children’s hearts in seconds — with the goal of enabling safer, more precise care for kids with congenital heart disease. About 1% of all live births involve a congenital heart defect — and no two are alike. A child born with a hole between the lower chambers of their heart, or a leaking valve in the single pumping chamber keeping them alive, needs care that fits their exact anatomy. Historically, the devices surgeons reach for were almost never designed with that specific child in mind. “You’ve got a one-of-a-kind kid and an off-the-shelf device,” said Dr. Matthew Jolley, a cardiologist and researcher at Children’s Hospital of Philadelphia, or CHOP. “Our job is to find what fits — and modeling lets us do that before anyone goes into the cath lab or operating room.” CHOP’s cardiac modeling service, built on MONAI — an open source medical imaging framework cofounded by NVIDIA — takes the images a child’s care team already has, such as CT scans, MRI and 3D ultrasound, and produces anatomically precise heart models in just seconds. A workflow that once required four hours of work by a skilled researcher now completes fast enough for routine clinical use. The approach is spreading. More than 20 children’s hospitals across the U.S. now run cardiac modeling programs. At Boston Children’s Hospital, modeling supports more than half of all cardiac surgeries — roughly 500 cases a year. CHOP expects to reach about 200 modeled cases this year. Where this work began in cardiac care, CHOP is now aiming to apply the same tools across multiple disciplines through the IDEA Lab, part of the hospital’s Morgan Center for Research and Innovation. When Jolley joined CHOP in 2015, 3D echocardiography was just coming online. There were tools for modeling adult valves, but almost nothing built for the complex, small anatomies he was treating. His lab worked with the open source community to build SlicerHeart — an extension of 3D Slicer open source software for visualizing, segmenting and analyzing 3D medical images — and began developing workflows to model pediatric hearts and valves from multiple imaging modalities. For years, producing a single model meant a skilled research assistant spending hours at a workstation. Machine learning changed that. Using MONAI Label and NVIDIA’s Auto3DSeg implementation, Jolley’s team trained segmentation networks on pairs of prior images and models. The output meets the same quality standard a trained human would produce — in seconds rather than hours. “Machine learning has become just bread and butter,” Jolley said. “As soon as we’ve made 10 or 20 image-model pairs, we train a model and start applying it.” The clinical impact was seen quickly. For complex ventricular septal defects — holes between the heart’s lower chambers — CHOP now models routinely before surgery. One early case made the value clear: A child had already undergone two failed repair attempts, "
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+   "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/",
+   "date": "2026-09-15 00:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Perplexity Portable Computer, Windows와 RTX GPU 지원 확대",
+    "korean_summary": "Perplexity가 로컬 AI 에이전트 Portable Computer의 Windows 플랫폼 지원을 추가하고 NVIDIA RTX GPU 활용을 확대했다."
+   },
+   "summary_data": {
+    "korean_title": "Perplexity, NVIDIA RTX 기반 로컬 AI 에이전트 'Portable Computer' Windows용 출시",
+    "korean_summary": "Perplexity가 NVIDIA GeForce RTX 및 RTX PRO GPU를 탑재한 Windows PC에서 민감 정보를 기기 내에서 처리하는 로컬 AI 에이전트 'Portable Computer'를 오늘 출시했다.",
+    "action": {
+     "actor": "Perplexity",
+     "action": "Windows용 Perplexity 앱에 Portable Computer(로컬 에이전트) 추가",
+     "stage": "Available",
+     "timeline": "오늘(발표일 기준)",
+     "scope": "NVIDIA GeForce RTX 및 RTX PRO Workstation PC (24GB 이상 VRAM), Windows 환경"
+    },
+    "key_facts": [
+     "**Portable Computer는 NVIDIA GPU로 가속되는 Perplexity Computer의 로컬 버전**으로, 다단계 작업을 로컬 모델로 수행",
+     "기존 Linux 기반 NVIDIA DGX Spark 및 RTX PC 지원에 이어 Windows 지원으로 확장",
+     "**24GB 이상 VRAM을 갖춘 GeForce RTX 및 RTX PRO GPU에서 이용 가능**하며, NVIDIA DGX Station 지원은 추후 예정",
+     "기본 로컬 모델로 Qwen 3.8 27B를 사용하며 NVIDIA RTX GPU에 최적화되도록 post-training 진행",
+     "Microsoft Outlook, OneDrive, Word, Google Drive, Gmail, Slack, GitHub 등과 연동되는 커넥터 제공"
+    ],
+    "why_matters": "로컬 AI 에이전트가 민감 데이터를 기기 밖으로 유출하지 않으면서 클라우드급 작업을 수행할 수 있음을 보여주는 사례로, **엔터프라이즈·개인 워크스테이션 시장에서 온디바이스 AI 수요를 확대**할 수 있다. 이는 Perplexity의 클라우드 크레딧 소비 모델과 로컬 실행을 결합한 하이브리드 전략으로, 경쟁 AI 에이전트 서비스 대비 차별화 요소가 될 수 있다.",
+    "nvidia_angle": "**RTX GPU가 로컬 AI 에이전트 실행의 핵심 인프라로 자리잡으며**, GeForce RTX·RTX PRO·DGX Spark·DGX Station 전 라인업에 걸친 로컬 AI 생태계 확장 전략을 뒷받침한다. 이는 NVIDIA의 'Local AI' 이니셔티브(Qwen, DeepSeek, GLM 등 오픈 모델 최적화 포함)와 연계되어 GPU 수요 저변을 소비자·워크스테이션 시장으로 넓히는 데 기여한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Perplexity",
+      "context": "Portable Computer 로컬 AI 에이전트 개발 및 Windows용 출시"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "RTX GPU 및 DGX 플랫폼으로 로컬 AI 가속 제공"
+     },
+     {
+      "name": "Microsoft",
+      "context": "Outlook, OneDrive, Word 등 커넥터 연동 대상"
+     },
+     {
+      "name": "Google",
+      "context": "Google Drive, Gmail 커넥터 연동 대상"
+     },
+     {
+      "name": "GitHub",
+      "context": "코드 저장소 커넥터 연동 대상"
+     },
+     {
+      "name": "Z.ai",
+      "context": "GLM 5.3/5.3 Flash 모델 제공, DGX Station·DGX Spark 최적화"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "DeepSeek-v4.1 Flash 모델 제공"
+     },
+     {
+      "name": "Qwen (Alibaba)",
+      "context": "Qwen 3.8 27B가 Portable Computer 기본 로컬 모델로 사용, Qwen3.8-Flash-Next 및 Qwen4 프리뷰 발표"
+     }
+    ],
+    "products": [
+     {
+      "name": "Perplexity Portable Computer",
+      "role": "이번 발표의 핵심 로컬 AI 에이전트 제품"
+     },
+     {
+      "name": "NVIDIA GeForce RTX",
+      "role": "Portable Computer 구동을 위한 소비자용 GPU 플랫폼"
+     },
+     {
+      "name": "NVIDIA RTX PRO Workstation",
+      "role": "Portable Computer 구동을 위한 워크스테이션용 GPU 플랫폼"
+     },
+     {
+      "name": "NVIDIA DGX Spark",
+      "role": "기존 Linux 환경에서 Portable Computer를 지원하던 시스템"
+     },
+     {
+      "name": "NVIDIA DGX Station",
+      "role": "향후 Portable Computer 지원 예정 시스템"
+     },
+     {
+      "name": "Qwen 3.8 27B",
+      "role": "Portable Computer의 기본 로컬 모델, RTX GPU에 최적화"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA DGX Station 지원 시점 및 세부 사양 공개 여부",
+     "Portable Computer의 실제 사용자 채택률 및 성능 벤치마크 공개 여부",
+     "Qwen4, GLM 5.3, DeepSeek-v4.1 Flash 등 로컬 모델의 Perplexity Computer 통합 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
+     "link": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+   "body": "As local models become more capable, AI agents can handle more work directly on a PC while keeping sensitive information on the device. Portable Computer is a local version of the agent Perplexity Computer that plans and carries out multistep tasks. Accelerated by NVIDIA GPUs, it uses local models to analyze data, bring together information across files and handle recurring work. Sensitive information stays on device, and locally completed work doesn’t consume Perplexity Computer credits. Users can also orchestrate work up to cloud models for more advanced research and reasoning. Today, Perplexity is adding Portable Computer in the Perplexity app for Windows on compatible NVIDIA GeForce RTX PCs and NVIDIA RTX PRO Workstations , bringing powerful agentic AI to more Windows PC users. The release builds on existing support for NVIDIA DGX Spark systems and RTX PCs running Linux . Local Agents Powered by NVIDIA RTX Perplexity brings local and cloud AI together in one app, letting users work with sensitive files on their PCs and take advantage of Computer’s built-in tools such as the built-in browser and proprietary SPACE sandbox. For tasks that call for more advanced reasoning, Portable Computer can also identify when a task needs cloud support, asking the user for permission before sending information off-device. The app simplifies setup with a local model, such as Qwen 3.8 27B, that is post-trained to work with Perplexity Computer and optimized for NVIDIA RTX GPUs. Users can put the agent to work without having to research models or configure the complex software stack typically required to run local AI. Connectors for Microsoft Outlook, OneDrive, Word, Google Drive, Gmail, Slack and GitHub extend that experience across the files and apps already part of users’ daily workflows. For example, the agent can help with: Engineering: Review open pull requests in a connected GitHub project, organize them by status and identify next steps. Computer can also flag outdated documentation and submit proposed updates for review. Finance: Point Computer at two years of brokerage summaries, consolidated 1099s and tax returns, and have it trace the recurring holdings creating the most avoidable fees and tax drag, with every figure cited to the exact file and page — all without a document ever reaching a chatbot. Startups: Ask Computer why activation went flat, and the agent analyzes the funnel export locally to find where new signups drop off between install and first completed task, then posts the top insights straight to the team’s Slack channel. Try Portable Computer on Windows PCs Today Portable Computer is available for NVIDIA GeForce RTX and RTX PRO GPUs with 24GB or more of VRAM. NVIDIA DGX Station support is expected to come soon. Try Perplexity Portable Computer today. #ICYMI: The Latest Updates From NVIDIA Local AI Z.ai’s GLM 5.3 Flash provides impressive performance and visual intelligence at low cost, optimized for DGX Station and dual DGX Spark systems"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+   "link": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+   "date": "2026-09-15 21:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "Salesforce, NVIDIA 오픈웨이트 Nemotron 기반 엔터프라이즈 모델 'Koa' 공개",
+    "korean_summary": "Salesforce가 NVIDIA의 오픈웨이트 Nemotron 모델을 포스트트레이닝하여 영업·마케팅·고객지원 업무에 특화된 엔터프라이즈 AI 모델 Koa를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "Salesforce, Nvidia Nemotron 기반 첫 추론 모델 'Koa' 공개",
+    "korean_summary": "Salesforce가 Nvidia의 오픈 웨이트 모델 Nemotron을 기반으로 영업·마케팅·고객지원 업무에 특화된 첫 자체 추론 모델 Koa를 개발해 Agentforce 플랫폼에 도입했다.",
+    "action": {
+     "actor": "Salesforce",
+     "action": "Nvidia Nemotron 기반으로 Koa를 post-training하여 Agentforce 플랫폼에 추론 모델로 도입",
+     "stage": "Announced",
+     "timeline": "미확인 (Dreamforce 컨퍼런스 발표)",
+     "scope": "Agentforce 플랫폼 고객 대상, 영업·마케팅·고객지원 업무"
+    },
+    "key_facts": [
+     "Koa는 Salesforce의 **첫 추론 모델**로, Nvidia의 오픈 웨이트 Nemotron 모델을 기반으로 구축됨",
+     "실제 고객 데이터 대신 **합성 데이터(synthetic data)**로 고객서비스·영업 시나리오를 시뮬레이션해 post-training함",
+     "기존에는 장기·다단계 추론 작업을 Claude나 ChatGPT 같은 프론티어 모델에 AI 게이트웨이를 통해 라우팅했음",
+     "Salesforce는 Nemotron을 '주권 있는 미국산(sovereign American) 사전학습 모델'이자 데이터 출처가 명확한 SOTA 모델로 평가",
+     "Salesforce는 동시에 Anthropic과 'Claudeforce' 파트너십도 발표해 Claude를 AI 인터페이스로 계속 활용"
+    ],
+    "why_matters": "엔터프라이즈 AI 수요가 범용 프론티어 모델보다 **특정 업무에 최적화되고 토큰 효율적이며 데이터 보안이 보장되는 모델**로 이동하고 있음을 보여준다. 이는 OpenAI·Anthropic 같은 프론티어 AI 랩에 대한 기업 고객의 의존도를 낮추고, 오픈 웨이트 생태계의 상업적 가치를 입증하는 사례다.",
+    "nvidia_angle": "Nvidia는 Nemotron을 통해 단순 GPU 공급자를 넘어 **엔터프라이즈용 주권 AI 모델 제공자**로 포지셔닝하며, 토큰 효율적인 추론 아키텍처로 소프트웨어·플랫폼 기업과의 직접적 파트너십을 확대하고 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Salesforce",
+      "context": "Koa 모델 개발 및 Agentforce 플랫폼 운영사"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Nemotron 오픈 웨이트 모델 제공 및 post-training 공동 작업"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Claudeforce 파트너십으로 Claude를 Salesforce 인터페이스로 제공"
+     },
+     {
+      "name": "Alibaba",
+      "context": "경쟁 오픈 웨이트 모델 Qwen 제작사로 데이터 출처 불투명성 비교 대상으로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Koa",
+      "role": "Salesforce의 첫 자체 추론 모델, Agentforce 내 대안 모델"
+     },
+     {
+      "name": "Nemotron",
+      "role": "Koa의 기반이 된 Nvidia의 오픈 웨이트 사전학습 모델"
+     },
+     {
+      "name": "Agentforce",
+      "role": "Salesforce의 에이전트 구축 플랫폼, Koa가 탑재되는 대상"
+     },
+     {
+      "name": "Claudeforce",
+      "role": "Anthropic과의 신규 파트너십, Claude를 AI 인터페이스로 제공"
+     }
+    ],
+    "watch_next": [
+     "Koa의 실제 출시 일정 및 가격·토큰 비용 구조 공개 여부",
+     "Nemotron 기반 다른 엔터프라이즈 파트너십 확대 사례",
+     "Agentforce 내 Koa와 Claude/ChatGPT 간 실제 라우팅 비중 변화"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Salesforce and Nvidia’s new reasoning model is everything the AI labs should fear",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNX3pZRml4TGIxQ2pRYVM1WTV3SUFNSTlBTlY4bkNtS3l0cW5abWwtQkxSV2szVEdmTVRrWmk0NDlVOW9NNW5rd2tEaUtGRGdQdkNId3RrME1udWV0V0FvMi1GcUJpeFhWVEcwQ3hMc3BFQWJLcV90dUl1Z2tJa2xwcm5TcjZCMWZxRTRpN0pqb2NueE9tb19EOEFONnV0QXpjSDc4RDVRYU5nQWY3WXFLRjZWRHk0Zw?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+   "body": "A new AI model called Koa is one of the biggest announcements from Salesforce this week at its giant Dreamforce tech conference. Koa is the company’s first reasoning model, built on Nvidia’s open-weight Nemotron model. The two companies worked together to post-train Koa to excel at sales, marketing, and customer-support-related tasks. Koa is a shining example of how the enterprise world’s needs for AI are diverging from what the frontier labs are offering. Proprietary AI labs would rather have enterprises uploading files, code, prompts, and feedback directly into their models and agents, and spending millions to do so. But with the model, Salesforce is offering its enterprise customers: - an open-weight alternative to closed frontier models - a model trained to do specific work tasks (rather than to solve impossible math problems) - one that has not ingested any actual customer data and therefore cannot leak it to others - a model that helps reduce AI spending, since it uses fewer tokens to do the same work - one that can be automatically routed through an AI “gateway,” depending on the need - and a model that follows all of a customer’s data requirements and security embedded within Salesforce Koa will be provided as an alternative to the other models Salesforce offers in its Agentforce platform, where its customers build agents to handle rote tasks like answering customer service questions or scheduling appointments. “We’ve built many small task-specific language models, which are part of Agentforce’s portfolio,” Jayesh Govindarajan, EVP of Salesforce AI, told TechCrunch. “But reasoning has always been something that we’ve relied on the frontier model providers for. Until now.” Before Koa, if an agent needed to reason through a long-running or multi-step task, those prompts would be routed to a frontier model like Claude or ChatGPT through Agentforce’s AI gateway (the system that decides which model handles which request). “One of the reasons we hadn’t done this before, train our own enterprise-grade frontier model — we always wanted to — but the challenge has always been the lack of a pre-trained base model to start with. Until Nemotron came along, there was no sovereign American pre-trained model that was available, one, and two, that was state of the art, and, three, that had clear data provenance. We have no idea what Qwen trains on,” Govindarajan said, referring to the popular Chinese open-weight model produced by Alibaba. Post-training a model like this means taking it from a general-purpose system to one well-versed in sales and customer support knowledge, and to do that, Salesforce and Nvidia did not use any actual data from Salesforce’s customers. Instead, they crafted synthetic data that mimicked customers’ patterns. “We actually simulated a customer service environment with a persona customer service professional, including irate customers that call into the customer service center, all the way to a sales professional who’s trying to"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Perplexity’s local AI agent comes to Windows, but only for RTX GPUs with at least 24GB of VRAM — Portable Computer brings AI for multistep tasks to compatible PCs",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+   "date": "2026-09-15 18:24",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Perplexity, NVIDIA와 협력해 Windows용 로컬 AI 에이전트 출시",
+    "korean_summary": "Perplexity가 NVIDIA와 협력하여 RTX GPU 24GB 이상용 Windows 로컬 AI 에이전트 Portable Computer를 출시했다."
+   },
+   "summary_data": {
+    "korean_title": "Perplexity Portable Computer, Windows용으로 출시 — NVIDIA RTX GPU 24GB 이상 필요",
+    "korean_summary": "Perplexity가 NVIDIA와 협력해 로컬 AI 에이전트 Portable Computer를 Windows로 확장했으며, GeForce RTX 또는 RTX PRO GPU에서 최소 24GB VRAM을 요구한다.",
+    "action": {
+     "actor": "Perplexity",
+     "action": "Portable Computer를 Windows용 Perplexity 앱을 통해 출시 (NVIDIA와 파트너십)",
+     "stage": "Available",
+     "timeline": "2026년 9월 14일 (Aravind Srinivas X 게시 기준)",
+     "scope": "Windows PC, RTX/RTX PRO GPU 24GB+ VRAM, Perplexity Pro 또는 Max 구독자"
+    },
+    "key_facts": [
+     "Portable Computer는 원래 Linux 기반으로 2025년 8월 25일 DGX Spark에서 출시됨",
+     "**Windows 버전은 최소 24GB VRAM의 GeForce RTX 또는 RTX PRO GPU를 요구**하며 Pro/Max 구독 필요",
+     "지원 GPU: RTX 3090/3090 Ti, RTX 4090(이상 24GB), RTX 5090(32GB), RTX PRO 4000/4500/5000/6000(24GB~96GB)",
+     "새 기능으로 예약 반복 작업, 로컬 MCP 서버(Word·Google Drive·Gmail·Slack·GitHub 커넥터), 원클릭 로컬 모델 다운로드(예: **Qwen 3.8 27B**) 제공",
+     "NVIDIA는 9월 3일 IFA를 앞두고 Lenovo·Acer의 RTX Spark Windows PC가 10월 출시 예정이며 Hermes Agent·OpenClaw도 동일한 로컬 설정을 지원한다고 언급"
+    ],
+    "why_matters": "이번 발표는 로컬 실행형 AI 에이전트가 전용 DGX Spark 하드웨어 없이도 기존 고성능 소비자·워크스테이션 GPU에서 구동될 수 있음을 보여준다. **VRAM 요구사항이 세대가 아닌 용량 기준으로 설정**되면서 RTX 30~50 시리즈 및 RTX PRO 라인 전반이 대상이 되어 NVIDIA 하드웨어 생태계 전반의 로컬 AI 수요를 자극할 수 있다.",
+    "nvidia_angle": "NVIDIA는 Perplexity와의 협력을 통해 **DGX Spark 외에도 기존 RTX/RTX PRO GPU 보유 고객까지 로컬 AI 에이전트 시장으로 끌어들이는 전략**을 취하고 있으며, Hermes Agent·OpenClaw 등 추가 로컬 에이전트 지원 확대와 RTX Spark Windows PC(Lenovo·Acer) 출시를 통해 로컬 AI PC 생태계를 넓히려 한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Perplexity",
+      "context": "Portable Computer(로컬 AI 에이전트) 개발사, Windows 버전 출시"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GPU 하드웨어 파트너, DGX Spark 및 RTX/RTX PRO GPU 요구사항 제공"
+     },
+     {
+      "name": "Lenovo",
+      "context": "RTX Spark Windows PC 출시 예정 제조사"
+     },
+     {
+      "name": "Acer",
+      "context": "RTX Spark Windows PC 출시 예정 제조사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Perplexity Portable Computer",
+      "role": "로컬 실행 AI 에이전트, 이번 소식의 핵심 제품"
+     },
+     {
+      "name": "Perplexity Computer",
+      "role": "클라우드 기반 상위 에이전트, Portable Computer의 로컬 버전 원본"
+     },
+     {
+      "name": "DGX Spark",
+      "role": "Portable Computer 최초 출시 플랫폼"
+     },
+     {
+      "name": "GeForce RTX / RTX PRO GPU",
+      "role": "Windows 버전 구동을 위한 하드웨어 요구사항(24GB+ VRAM)"
+     },
+     {
+      "name": "Qwen 3.8 27B",
+      "role": "원클릭 다운로드 가능한 예시 로컬 모델"
+     },
+     {
+      "name": "Hermes Agent / OpenClaw",
+      "role": "동일한 로컬 설정을 지원받을 예정인 추가 로컬 에이전트"
+     }
+    ],
+    "watch_next": [
+     "DGX Station 지원 시점 및 세부 사양 확인",
+     "Lenovo·Acer RTX Spark Windows PC 10월 출시 세부 스펙 및 가격",
+     "Hermes Agent·OpenClaw의 로컬 설정 지원 실제 출시 일정"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/perplexitys-local-ai-agent-comes-to-windows-but-only-for-rtx-gpus-with-at-least-24gb-of-vram-portable-computer-brings-ai-for-multistep-tasks-to-compatible-pcs",
+   "body": "Perplexity has released Portable Computer for Windows , in partnership with Nvidia , via the existing Perplexity app for Windows. Previously, this functionality was only available on Linux-based operating systems. The hardware requirements remain, meaning the host system must have at least 24GB of VRAM with a GeForce RTX or RTX PRO GPU. Likewise, a Pro or Max Perplexity subscription is required. Portable Computer was originally launched on the DGX Spark as a fully local AI agent platform. Portable Computer, launched originally for Linux on Aug. 25, is a local version of Perplexity Computer, which is the company’s agent for multistep tasks. Perplexity Computer can plan, run subtasks through connectors and tools, and produce a result other than a simple chat response. This runs in Perplexity’s cloud and consumes Computer credits. Portable Computer is the same agent but with features running on your local PC instead of in the cloud. Local work does not consume credits, but the agent can send tasks to cloud models with explicit permission if necessary, the company said. Nvidia said on Sept. 3 that Windows support was coming soon. (Image credit: Perplexity) Portable Computer for Windows comes with some new features. These include scheduled recurring tasks and local MCP servers for desktop apps, according to Perplexity. Nvidia listed connectors for Microsoft Word, Google Drive, Gmail, Slack, and GitHub. The app also includes a dropdown for downloading a local model with one click. Nvidia named Qwen 3.8 27B as an example local model. DGX Station support is expected soon, Nvidia said. Aravind Srinivas, CEO of Perplexity, wrote on X on Sept. 14 that with this release comes “unmetered local intelligence on every Windows PC running on Nvidia hardware and Perplexity harness.” The 24GB requirement is a VRAM gate more than a generation gate, cutting across Nvidia’s consumer lineup. Cards that meet the stated 24GB+ VRAM requirement include the RTX 3090 and 3090 Ti (24GB), the RTX 4090 (24GB), and the 5090 (32GB). The RTX 5090 Laptop GPU at 24GB has not explicitly been mentioned by either company. RTX PRO Blackwell cards that qualify are the 4000 (24GB), 4500 (32GB), 5000 (48GB or 72GB), and 6000 (96GB). We're expanding our work with @nvidia to bring fully local AI to Microsoft Windows PCs with RTX GPUs. Unmetered local intelligence on every Windows PC running on NVIDIA hardware and Perplexity harness. Enjoy! September 14, 2026 In a Sept. 3 post ahead of IFA, the consumer electronics trade show in Berlin, Nvidia indicated more plans along these lines. The post stated that RTX Spark Windows PCs from Lenovo and Acer are expected in October and that two local agents, Hermes Agent and OpenClaw, are getting the same simplified local setup. For users who already own a qualifying RTX PC, the Windows release removes the need to buy a separate system. Upgrading a compatible desktop with a used qualifying card could also cost less than buying the DGX Spark Founders Editio"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom",
+   "link": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html",
+   "date": "2026-09-15 08:30",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Community-Signal",
+    "is_auto": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "Samsung, NVIDIA 경쟁사 Euclyd에 $231M 투자",
+    "korean_summary": "Samsung이 GPU 대안으로 개발 중인 네덜란드 AI 칩사 Euclyd의 $231M 시리즈 A 펀딩에 참여했다."
+   },
+   "summary_data": {
+    "korean_title": "삼성전자, 네덜란드 AI 반도체 스타트업 Euclyd에 투자…엔비디아 대안 경쟁 가세",
+    "korean_summary": "삼성전자가 GPU와 다른 아키텍처의 AI 추론 칩을 개발하는 네덜란드 스타트업 Euclyd의 2억 3100만 유로 규모 시리즈 A에 공동 투자하며 엔비디아 GPU 대안 개발 경쟁에 참여했다.",
+    "action": {
+     "actor": "Samsung",
+     "action": "Euclyd의 Series A 펀딩 라운드에 Somerset Capital Partners, EQT 산하 Scaleup Europe Fund, Innovation Industries와 공동 리드 투자",
+     "stage": "Announced",
+     "timeline": "미확인 (보도 시점 기준 발표)",
+     "scope": "Euclyd, 2억 3100만 유로(약 2억 3천만 달러) 규모 Series A"
+    },
+    "key_facts": [
+     "Euclyd는 2024년 설립된 네덜란드 스타트업으로 **GPU와 다른 아키텍처**의 AI 추론용 프로세서·메모리 시스템을 설계 중",
+     "이번 Series A는 2억 유로(약 2억 3100만 달러) 규모이며 Samsung, Somerset Capital Partners, EQT의 Scaleup Europe Fund, Innovation Industries가 공동 리드",
+     "Euclyd는 하드웨어·랙 시스템 판매와 IP 라이선싱 두 가지 수익모델을 목표로 하며, **2028년 물리적 칩 시스템 출시, 2030년까지 수천 개 기업 고객 확보**를 목표로 제시",
+     "OpenAI는 8월 자체 AI칩 'Jalapeño'가 업계 최고 수준의 속도·효율을 갖췄다고 발표했으며, Google·AWS·Meta도 자체 AI칩을 개발 중",
+     "Euclyd의 시스템은 아직 상용 규모에서 검증되지 않았음"
+    ],
+    "why_matters": "엔비디아가 최고급 AI 칩 시장에서 사실상 독점적 지위를 구축한 가운데, 하이퍼스케일러뿐 아니라 스타트업까지 자체 AI 프로세서 개발에 뛰어들며 대안 생태계가 확대되고 있다. **메모리 최대 제조사인 삼성이 GPU 대안 스타트업에 전략적 투자**를 단행한 것은 단순 재무 투자를 넘어 공급망·시스템 엔지니어링 역량을 결합하려는 움직임으로 해석될 수 있다.",
+    "nvidia_angle": "이번 투자는 엔비디아의 AI 추론 시장 지배력에 도전하는 대안 아키텍처 개발 흐름의 연장선으로, **OpenAI, Google, AWS, Meta에 이어 스타트업·메모리 대기업까지 참여**하며 경쟁 압력이 다각화되고 있음을 보여준다. 다만 Euclyd의 상용화는 2028년 이후로 예정돼 있어 엔비디아의 단기 시장 지위에 미치는 영향은 제한적이다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Samsung",
+      "context": "Euclyd Series A 공동 리드 투자자, 메모리·시스템 엔지니어링 지원 제공"
+     },
+     {
+      "name": "Euclyd",
+      "context": "GPU 대안 AI 추론 칩·시스템 개발 네덜란드 스타트업"
+     },
+     {
+      "name": "Somerset Capital Partners",
+      "context": "Euclyd Series A 공동 리드 투자자"
+     },
+     {
+      "name": "EQT (Scaleup Europe Fund)",
+      "context": "Euclyd Series A 공동 리드 투자자"
+     },
+     {
+      "name": "Innovation Industries",
+      "context": "Euclyd Series A 공동 리드 투자자"
+     },
+     {
+      "name": "OpenAI",
+      "context": "자체 AI칩 Jalapeño 발표, 유사 경쟁 흐름의 사례"
+     },
+     {
+      "name": "Google",
+      "context": "자체 AI칩 개발 중인 하이퍼스케일러"
+     },
+     {
+      "name": "AWS",
+      "context": "자체 AI칩 개발 중인 하이퍼스케일러"
+     },
+     {
+      "name": "Meta",
+      "context": "자체 AI칩 개발 중인 하이퍼스케일러"
+     },
+     {
+      "name": "Nvidia",
+      "context": "GPU 기반 AI 칩 시장 지배적 사업자, 대안 개발의 경쟁 대상"
+     }
+    ],
+    "products": [
+     {
+      "name": "Euclyd AI chip system",
+      "role": "GPU와 다른 아키텍처의 AI 추론용 프로세서·메모리 시스템"
+     },
+     {
+      "name": "Jalapeño (OpenAI)",
+      "role": "경쟁 사례로 언급된 OpenAI의 첫 자체 AI칩"
+     }
+    ],
+    "watch_next": [
+     "Euclyd의 2028년 물리적 칩 시스템 출시 일정 진행 상황",
+     "Samsung의 후속 투자 또는 파운드리·메모리 협력 구체화 여부",
+     "Euclyd 아키텍처의 상용 성능·에너지 효율 검증 결과 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Samsung backs Nvidia AI chip rival in $230M funding round",
+     "link": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html",
+   "body": "Samsung has backed a Dutch AI chipmaker in a $231 million funding round, amid a boom in investment in alternatives to Nvidia's graphic processing units. Euclyd CEO Bernardo Kastrup told CNBC exclusively that the company's 200-million-euro Series A drew backing from Somerset Capital Partners, the Scaleup Europe Fund managed by EQT and Innovation Industries, which all co-led the round alongside Samsung. The startup, founded in 2024, is designing an AI chip system, with different architecture to GPUs, for inference, including the processor and memory architecture. Nvidia became the world's most valuable company after its GPUs, originally designed for gaming, were repurposed for training and using AI models, known as inference. The company has developed a near monopoly over the market for the highest-end chips, but some hyperscalers, alongside startups, are looking to develop their own processors for AI workloads. OpenAI announced in August that its first AI chip, the Jalapeño, had \"industry-leading speed and efficiency.\" Google, AWS and Meta are all also developing their own AI chips. \"AI is becoming a foundation of economic growth, scientific discovery and national competitiveness, but its potential will remain constrained unless we fundamentally change the infrastructure beneath it,\" said Kastrup. Euclyd's systems have yet to be proven at scale in commercial deployments. But the company said its silicon systems for foundational models will reduce the energy needs and costs of AI data center infrastructure, which is seeing a funding boom. The company is targeting two revenue streams: selling hardware and physical rack systems to enterprise customers who want secure self-hosted AI inference, and selling its intellectual property to companies that want to develop their own chips based on pre-existing tech. \"Samsung can help us in more ways than money,\" said Kastrup. \"They are one of the biggest memory manufacturers in the world. They do a lot of engineering, they know a lot about systems, they know the supply chain, they have a huge network.\" Euclyd aims to begin rolling out its physical chip systems in 2028, with thousands of enterprise customers being served by 2030, Kastrup told CNBC."
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin",
+   "link": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin/",
+   "date": "2026-09-16 01:55",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA Vera Rubin, LPX로 AI 팩토리 전력 효율성 극대화",
+    "korean_summary": "NVIDIA가 Vera Rubin 플랫폼의 전력 당 성능 최적화와 LPX 결정적 실행 기능을 기술 블로그로 설명했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "How NVIDIA Groq 3 LPX Deterministic Execution Drives Power-Efficient High-Interactivity Inference on NVIDIA Vera Rubin | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNc1Q3MWxxV3lrblJfQnlKMjlvemc5aFpVa29ud1lTY0h3NTQtaDNZWEZ2TU11YWVxSG1jTGUwZkV0bGJWaVROSkZQODhmN3FXeGpVMW1scjdrRTJydEdwU3pDQTJXblFkT2FBbHRIREtXYi1HY0xlVEdKc2Z3RDhTYWNGNDNmcnNQZHhqR1h1dDFxVVhrYnRSSlYwcnBZM1poa2p5bC1Fb1hPa1VHTXFKRmdmZkhZODNmV1J3cGNsOTNPT3FOa3N5cFdCclNBUHFlLXByVXVidFRWdXJOMEJVVE1yOXFybjEt?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/how-nvidia-groq-3-lpx-deterministic-execution-drives-power-efficient-high-interactivity-inference-on-nvidia-vera-rubin",
+   "body": "Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize... Power is a defining constraint for AI factories. As AI workloads demand a full compute platform to serve them, each component of that platform must maximize output within the factory’s limited power budget. This makes performance per watt—rather than raw, unnormalized throughput—the ultimate measure of an AI platform’s value. The NVIDIA Vera Rubin platform is designed to enable power… Source"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Build Custom AI Infrastructure with NVIDIA NVLink Fusion",
+   "link": "https://www.youtube.com/watch?v=YkojG31MIBI",
+   "date": "2026-09-16 03:00",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA NVLink Fusion으로 맞춤형 AI 인프라 구축",
+    "korean_summary": "NVIDIA가 NVLink Fusion 기술으로 하이퍼스케일러와 AI 네이티브 기업들이 자신의 칩과 NVIDIA 기술을 결합해 AI 인프라를 배포할 수 있도록 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=YkojG31MIBI",
+   "body": "Discover how NVIDIA NVLink Fusion enables hyperscalers, AI natives, and other custom silicon innovators to combine NVIDIA technology with their XPUs or CPUs to deploy AI infrastructure. By extending NVIDIA's vertically integrated and horizontally open platform across custom systems, NVLink Fusion delivers industry-leading scale-up performance, reduces deployment risk, and accelerates time to market for heterogeneous compute."
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Building More Energy Efficient AI Factories With NVIDIA DSX",
+   "link": "https://www.youtube.com/watch?v=4O1Gl4_xk3w",
+   "date": "2026-09-16 01:00",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA DSX AI Factory Platform으로 에너지 효율적 AI 시스템 구축",
+    "korean_summary": "NVIDIA가 DSX 플랫폼으로 전력 관리, 냉각, 확장성을 통합해 에너지 효율적인 AI 팩토리 인프라를 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=4O1Gl4_xk3w",
+   "body": "AI factories are designed as integrated systems across grid, power, and cooling turning every megawatt into more intelligence. See how the NVIDIA DSX™ AI Factory Platform brings together NVIDIA DSX MaxLPS, 800 VDC power delivery, 45°C closed-loop liquid cooling, and NVIDIA DSX Flex to support more energy efficient, scalable, and grid-aware AI infrastructure. Learn more: https://www.nvidia.com/en-us/data-center/products/dsx/"
+  },
+  {
+   "source": "The Next Platform",
+   "category": "media",
+   "kind": "feed",
+   "title": "Operationalize AI At Scale With HPE And Nvidia",
+   "link": "https://www.nextplatform.com/ai/2026/09/15/operationalize-ai-at-scale-with-hpe-and-nvidia/5296445",
+   "date": "2026-09-15 13:00",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "HPE와 NVIDIA, AI Factory 솔루션 협력",
+    "korean_summary": "HPE와 NVIDIA가 AI 인프라 배포·확장·거버넌스를 단순화하는 AI Factory 솔루션을 협력하여 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.nextplatform.com/ai/2026/09/15/operationalize-ai-at-scale-with-hpe-and-nvidia/5296445",
+   "body": "SPONSORED POST Operationalize AI At Scale With HPE And Nvidia SPONSORED POST: While many organizations have AI projects underway at various stages of maturity , most are experiencing challenges scaling AI across their IT landscape. That is because many AI strategists have yet to work out how to build, operate, and extract value from their AI infrastructure. Without a formal, top-level plan for AI, key capabilities and requirements get lost, and the full value of AI is never realized. What is needed is a pre-integrated, full-stack environment that simplifies the deployment, scaling and governance of enterprise AI. This is where the \"AI factory\" concept is gaining ground. An AI factory is a specialized computing environment designed to manage the entire AI lifecycle, from data ingestion and training through to fine-tuning and high-volume AI inference. Its primary \"product\" is intelligence, measured in token throughput, which in turn drives innovation, decision-making, IT automation and future AI applications. HPE AI Factory with Nvidia is a pre-integrated infrastructure solution with HPE services provided from development to deployment to ongoing support for AI initiatives. It combines Nvidia's accelerated computing and software with HPE's secure infrastructure, software, control plane, and services, to scale as the organization’s needs grow. The question that follows is how the AI factory model maps onto the main challenges enterprises face when they try to run AI at-scale. In this Hot Seat interview, James Hayes puts that question to Thierry Pienaar, HPE fellow and Chief Technology Officer for HPC & AI worldwide at HPE, and Kaushik Shirhatti, VP, AI factory at Nvidia. He asks them how the AI factory model is reshaping enterprises thinking about AI and how it is accelerating customer projects. Pienaar and Shirhatti explain that AI no longer sits in a deployment vacuum, and that today's enterprise-wide rollouts carry risks older architectures were never built to absorb. Secure operations that scale across segments become a core requirement, particularly as deployments take in a widening range of personas, workgroups and, increasingly, agentic inputs. Security that load-balances intelligently, so that demand does not overwhelm the system, matters just as much. Sovereign AI is another priority: the balance between innovation and control now shapes how customers meet their growing sovereign AI mandates, which have become central to AI governance. You will learn: • How AI factories can enable workload-specific architectures. • How agentic AI is being used within the AI factory context. • How HPE AI Factory with Nvidia meets the range of challenges customers face, and how it stands apart in its market segment. • New joint innovations the HPE and Nvidia partnership is bringing to customers. Learn more about how sovereign AI beats compliance challenges and feeds local innovation with HPE and Nvidia here. Sponsored by HPE."
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
+   "link": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/",
+   "date": "2026-09-15 05:07",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "AI 칩 통신 기술 Cornelis, 2억 달러 펀딩 유치",
+    "korean_summary": "Intel에서 분사한 Cornelis가 2억 5,000만 달러 펀딩을 확보했으며 NVIDIA와 경쟁하기 위해 Active Compute Fabric 네트워킹 기술을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance",
+   "body": "Cornelis, a company creating networking technology to help AI chips communicate more effectively, announced Monday that it has raised $205 million in a funding round led by IAG Capital Partners. It also announced a product called Active Compute Fabric, a network technology that targets the fact that much GPU time is wasted waiting for data to arrive. Cornelis hopes to address this with a networking fabric that lets chips process and send information at the same time. The company, which spun off from Intel in 2020, is competing with Nvidia by offering an open architecture, meaning customers can use a variety of GPU and accelerator hardware with Cornelis’ networking fabric. Though Nvidia chips can technically run on other networking fabrics, they’re optimized to run on Nvidia’s own software, making it much easier — and more enticing — for customers to use Nvidia’s full GPU stack. Cornelis is part of a new wave of AI infrastructure companies emerging to break apart Nvidia’s market dominance, piece by piece (or chip by chip, one could say). Cornelis has already started shipping its product and is working on a new generation of it, expected to be released later this year."
+  },
+  {
+   "source": "Google News · The Register",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AI networking startups race to replace Nvidia's NVLink",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV3NBRV96X05zM2FkSnQ0YnZ0aVdSeDVRQ3p4ZnNqRlh3LWh1Z09mQnBCYXhRR3FmOGp0dHZraWhaU0N4Tm11MkJQZUdFaE1DdktZeGdsR2tULU5YZ1BzUWZmLW5VaHRmUU1qdHBDbXhKbzU0UFVlOEl5ZHV6QkkxYjJnUzBGeDNrdkJjM2hXNkw0UkdvandFVVFZelZscjdQUEcyM0twaWdSZm1D?oc=5",
+   "date": "2026-09-16 05:56",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "AI 네트워킹 스타트업, NVIDIA NVLink 대체 기술 개발 경쟁",
+    "korean_summary": "AI 네트워킹 스타트업들이 NVIDIA의 NVLink를 대체하는 기술 개발 경쟁을 벌이고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV3NBRV96X05zM2FkSnQ0YnZ0aVdSeDVRQ3p4ZnNqRlh3LWh1Z09mQnBCYXhRR3FmOGp0dHZraWhaU0N4Tm11MkJQZUdFaE1DdktZeGdsR2tULU5YZ1BzUWZmLW5VaHRmUU1qdHBDbXhKbzU0UFVlOEl5ZHV6QkkxYjJnUzBGeDNrdkJjM2hXNkw0UkdvandFVVFZelZscjdQUEcyM0twaWdSZm1D",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Palantir and Nvidia Emerge as Key Players in Government AI Modernization",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUpCaHU3TUhLQ2xlQ1ItcUtXTWpmeU1MQldnWGJNamE1TkV5ckR2cTh4OHFQMFB1VWp3NWxmZS1RNHYxN1NXY3pfd3ItT3ZwMzhiNGZYVWh5NVdmUjk4emhqV0lkVEhZNm1GUG14dDllQ0RzUndKUkFscEItb24tMVpzb2JkQU0xNXFySExrYmMzai1BNVIyNEc3cW5GUl9mSVI2X0RDc1c4TU1fQmp3UzFIemhZWVE?oc=5",
+   "date": "2026-09-16 05:42",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Palantir과 NVIDIA가 미국 정부 AI 현대화 사업의 핵심 플레이어로 부상",
+    "korean_summary": "Palantir과 NVIDIA가 정부 AI 현대화 사업에서 주요 기업으로 선정됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaUpCaHU3TUhLQ2xlQ1ItcUtXTWpmeU1MQldnWGJNamE1TkV5ckR2cTh4OHFQMFB1VWp3NWxmZS1RNHYxN1NXY3pfd3ItT3ZwMzhiNGZYVWh5NVdmUjk4emhqV0lkVEhZNm1GUG14dDllQ0RzUndKUkFscEItb24tMVpzb2JkQU0xNXFySExrYmMzai1BNVIyNEc3cW5GUl9mSVI2X0RDc1c4TU1fQmp3UzFIemhZWVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · simplywall.st",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Does Nvidia's (NVDA) $10 Billion Bet Mean As AI Slows Down?",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLTl2SUhlSkNRWDZTYktQTl9jXzBzNy0wOWVJaGdobElXcEZraUVsNGZLQnJxTXdSakFhdzZDRTJEeEpXN2hJZmpfcy1idXFhcVhkaVJNYjByZkQwaW50dC02SEU5MEI5WDVBZmN2MERsNnJFOTB3RXE5el9zZ1ZBdVVxeTZiSHZZY2hPWTBOSVoyZUcwSW1Hb3dkMnJacGw4M19uQW9wM3dOeTUyZFhwMFFFOUpuRVdKdEg5Mm5Nd21hNmJnLUJfYlp2bDhtTjTSAc8BQVVfeXFMTy05dklIZUpDUVg2U2JLUE5fY18wczctMDllSWhnaGxJV3BGa2lFbDRmS0JycU13UmpBYXc2Q0UyRHhKVzdoSWZqX3MtYnVxYXFYZGlSTWIwcmZEMGludHQtNkhFOTBCOVg1QWZjdjBEbDZyRTkwd0VxOXpfc2dWQXVVcXk2Ykh2WWNoT1kwTklaMmVHMEltR293ZDJyWnBsODNfbkFvcDN3Tnk1MmRYcDBRRTlKbkVXSnRIOTJuTXdtYTZiZy1CX2Jadmw4bU40?oc=5",
+   "date": "2026-09-16 03:46",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 100억 달러 투자, AI 둔화 속 의미 분석",
+    "korean_summary": "NVIDIA의 100억 달러 규모 투자가 AI 시장 둔화 속에서 갖는 전략적 의미를 분석한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLTl2SUhlSkNRWDZTYktQTl9jXzBzNy0wOWVJaGdobElXcEZraUVsNGZLQnJxTXdSakFhdzZDRTJEeEpXN2hJZmpfcy1idXFhcVhkaVJNYjByZkQwaW50dC02SEU5MEI5WDVBZmN2MERsNnJFOTB3RXE5el9zZ1ZBdVVxeTZiSHZZY2hPWTBOSVoyZUcwSW1Hb3dkMnJacGw4M19uQW9wM3dOeTUyZFhwMFFFOUpuRVdKdEg5Mm5Nd21hNmJnLUJfYlp2bDhtTjTSAc8BQVVfeXFMTy05dklIZUpDUVg2U2JLUE5fY18wczctMDllSWhnaGxJV3BGa2lFbDRmS0JycU13UmpBYXc2Q0UyRHhKVzdoSWZqX3MtYnVxYXFYZGlSTWIwcmZEMGludHQtNkhFOTBCOVg1QWZjdjBEbDZyRTkwd0VxOXpfc2dWQXVVcXk2Ykh2WWNoT1kwTklaMmVHMEltR293ZDJyWnBsODNfbkFvcDN3Tnk1MmRYcDBRRTlKbkVXSnRIOTJuTXdtYTZiZy1CX2Jadmw4bU40",
+   "body": ""
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "It’s All About the GPUs — 70% of Nvidia’s AI Supercomputer Cost Goes to Vera Rubin Chips",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLVp5OVpXZWJBZWpLOXdrZjhhekVWcTl5VS1Gei04MnRMcjVyYWp2Q2tJOVVrbHFOM1dqbU9GM2FRc29xaUJ5UjBuSDc5V05WNC0xNU9nVnFHd1V2S0hwWE44UGhmVW5NemhaYzQxY3ZJcmNHdUU2akhpY1dQTGpqc05oNWwyRlh0UUV5MjZVNU5oOG40bWtvRkI0YV9xY2g4ZVlFZllqMjZUZWpjeWNGOS1mOUtQNVdCcUNXUm5rcV92SThVNkE?oc=5",
+   "date": "2026-09-16 01:09",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA AI 슈퍼컴퓨터의 70%, Vera Rubin 칩으로 구성",
+    "korean_summary": "NVIDIA AI 슈퍼컴퓨터 총 비용의 70%가 Vera Rubin 칩에 소요되는 것으로 분석된다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "It’s All About the GPUs — 70% of Nvidia’s AI Supercomputer Cost Goes to Vera Rubin Chips",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYll4WmtORnZ3MklXMlBCR1padWNRTW1uWTZjZ0FQdjRaWTdDN0NjajNjbEEyNXB4eUxRVHNzVHBBYzl0eDU3cU5TMjNqMWlwNHpSemk1SzY1X0FfSGJzc283WGlkM2cySWQ2SEZZZ2k0YkYyRDhtMzZBTDBRZDVHQmxCMDNOSXJfVmRDX0g0azU4M2JZMkh6RXRfNA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLVp5OVpXZWJBZWpLOXdrZjhhekVWcTl5VS1Gei04MnRMcjVyYWp2Q2tJOVVrbHFOM1dqbU9GM2FRc29xaUJ5UjBuSDc5V05WNC0xNU9nVnFHd1V2S0hwWE44UGhmVW5NemhaYzQxY3ZJcmNHdUU2akhpY1dQTGpqc05oNWwyRlh0UUV5MjZVNU5oOG40bWtvRkI0YV9xY2g4ZVlFZllqMjZUZWpjeWNGOS1mOUtQNVdCcUNXUm5rcV92SThVNkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Anthropic Investment: Securing AI Demand Amid Rising Competition",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3hZa2RPWnlPbUwwV2hVbUVRTTl2akRidzc5aG5CMzB4Vl9TSmlucEowRjJEXzJXeUd1anZFeUlCOGpndDJCTHdPcHZ5UXRBc2xQVjdHSmxPdWxSS0Y2aVYzT1JITFNvOHJsUzNBak9TUl8tYzliOEhvV014OU9pLUM4dkwydVRZMnpGNXJRZmtISFNCaTJNWEdlWVBRRUtVclZRTUd3?oc=5",
+   "date": "2026-09-15 23:28",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 Anthropic 투자, AI 경쟁 속 수요 확보 전략",
+    "korean_summary": "NVIDIA가 Anthropic에 투자해 경쟁 심화 속에서 AI 수요 확보를 노린다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance Singapore",
+     "title": "Nvidia’s Anthropic Investment: Securing AI Demand Amid Rising Competition",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUnBoTnBZOHQyTjNId2syMVJYWFZJRFFOOW5HeFZEWGl5ejQ5aEVfcEs0bnNiZmNKLUtpbU1UN0hLLU50VFQ1dDJveFR3SlVvQ1h0Slp4NHFDd1pndEZjRHo5VnAzbHN3RTRPZ2paSHdMUWlXTmU4S2ZwQlcwNXREYWdSdUFyM2FzeXJ2YjFKa2t4UQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3hZa2RPWnlPbUwwV2hVbUVRTTl2akRidzc5aG5CMzB4Vl9TSmlucEowRjJEXzJXeUd1anZFeUlCOGpndDJCTHdPcHZ5UXRBc2xQVjdHSmxPdWxSS0Y2aVYzT1JITFNvOHJsUzNBak9TUl8tYzliOEhvV014OU9pLUM4dkwydVRZMnpGNXJRZmtISFNCaTJNWEdlWVBRRUtVclZRTUd3",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Fast Mode",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Megaport Joins NVIDIA to Build AI Infrastructure in Australia",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcktNZ1p3djZsNWRDSW5Qa296eEtEU0xwMjQ4cHh6cl9rSmtCdi1rRFY2dEZYMGlTZE5COFlOWkpvT0FmU29RSVVIRkg4YmhheUg1cjZraDRNcHVRXzVQWGFUYl9xckp1YTcyYXdkUlFBSGtnZUtMMENTcURULTcwMWVocUFHeWd1ME1EdkJOVnNuUDJUSXZ4ZVZ0MkRUMXVIZzNBWHlQZjh6VWdtSGRWdEZpN2p6cHc?oc=5",
+   "date": "2026-09-16 07:33",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Megaport, 호주에서 NVIDIA와 AI 인프라 구축",
+    "korean_summary": "Megaport가 NVIDIA와 협력하여 호주에 AI 인프라 구축에 나선다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcktNZ1p3djZsNWRDSW5Qa296eEtEU0xwMjQ4cHh6cl9rSmtCdi1rRFY2dEZYMGlTZE5COFlOWkpvT0FmU29RSVVIRkg4YmhheUg1cjZraDRNcHVRXzVQWGFUYl9xckp1YTcyYXdkUlFBSGtnZUtMMENTcURULTcwMWVocUFHeWd1ME1EdkJOVnNuUDJUSXZ4ZVZ0MkRUMXVIZzNBWHlQZjh6VWdtSGRWdEZpN2p6cHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang Says Nvidia Can Grow 70% Next Year. Here’s Why He May Be Right.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOck5WMHh3N3JFOFBtb2hwYUNXV2hnbmROVlp0ZUNwRU0yUm95d0Zud0hRdlZsM3FJNjF1a1UxNnFGVHV3emttYVdybXV3d1NlLWI3WDFNRGppUkY3RWVLOXZ1TXAzcUdsQlZ0Y2x3TndJNFAwZzRJaGdkV2hQTmd5ZWVOOHhBVkpQaThFYUYxbGdpa1BNVjlDaw?oc=5",
+   "date": "2026-09-16 00:36",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "Jensen Huang, 'NVIDIA 내년 70% 성장 가능' 전망",
+    "korean_summary": "Jensen Huang NVIDIA CEO가 회사가 내년에 70% 성장할 수 있다고 전망했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOck5WMHh3N3JFOFBtb2hwYUNXV2hnbmROVlp0ZUNwRU0yUm95d0Zud0hRdlZsM3FJNjF1a1UxNnFGVHV3emttYVdybXV3d1NlLWI3WDFNRGppUkY3RWVLOXZ1TXAzcUdsQlZ0Y2x3TndJNFAwZzRJaGdkV2hQTmd5ZWVOOHhBVkpQaThFYUYxbGdpa1BNVjlDaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Stocktwits",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CSCO, NVDA Stock Inch Higher — Cisco And Nvidia Expand Partnership To Bring Agentic AI To Splunk Customers",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHVzVkJFWXNjVHRveVdyUDI2d3otN0Rkc1hydGpYRS1DOWF1TFVMUlBRTi1RazdqRXN2V19yYkFWNlFBa08tV1RlQkFLQjV6dkxLLV8zREY0TFpNdmNhaGk1UnpVMmxJcGh3dlNNU1l1cmYyWFE5SXZsa0VmcVpjdXRBS0UyQ3F3TVFCUGV0Q0RlWUNUUm91alNHZktEa0FG?oc=5",
+   "date": "2026-09-16 02:17",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco와 NVIDIA, Splunk 고객 대상 에이전틱 AI 제휴",
+    "korean_summary": "Cisco와 NVIDIA가 파트너십을 확대하여 Splunk 고객들을 위한 에이전틱 AI 솔루션을 제공하기로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMHVzVkJFWXNjVHRveVdyUDI2d3otN0Rkc1hydGpYRS1DOWF1TFVMUlBRTi1RazdqRXN2V19yYkFWNlFBa08tV1RlQkFLQjV6dkxLLV8zREY0TFpNdmNhaGk1UnpVMmxJcGh3dlNNU1l1cmYyWFE5SXZsa0VmcVpjdXRBS0UyQ3F3TVFCUGV0Q0RlWUNUUm91alNHZktEa0FG",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Latham and Watkins buys Nvidia servers to fine-tune open weights in-house",
+   "link": "https://dealroom.co/news/150680-latham-watkins-buys-nvidia-servers-to-fine-tune-open-weights-in-house/",
+   "date": "2026-09-15 04:30",
+   "score": 4,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Latham and Watkins, NVIDIA 서버 도입해 오픈웨이트 모델 미세조정",
+    "korean_summary": "상위 법률사무소 Latham and Watkins가 NVIDIA 서버를 구매해 오픈웨이트 AI 모델을 사내에서 미세조정하기로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://dealroom.co/news/150680-latham-watkins-buys-nvidia-servers-to-fine-tune-open-weights-in-house",
+   "body": "Article URL: https://dealroom.co/news/150680-latham-watkins-buys-nvidia-servers-to-fine-tune-open-weights-in-house/ Comments URL: https://news.ycombinator.com/item?id=49702607 Points: 1 # Comments: 0"
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "2nd largest law firm buying Nvidia hardware to fine-tune open weights in-house",
+   "link": "https://twitter.com/ai/status/2099249781826801760",
+   "date": "2026-09-15 00:08",
+   "score": 4,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "상위 2대 규모 법률사무소, NVIDIA 하드웨어 도입해 오픈웨이트 미세조정",
+    "korean_summary": "상위 2대 규모 법률사무소가 NVIDIA 서버를 도입해 오픈웨이트 AI 모델을 사내에서 미세조정하기로 결정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://twitter.com/ai/status/2099249781826801760",
+   "body": "Article URL: https://twitter.com/ai/status/2099249781826801760 Comments URL: https://news.ycombinator.com/item?id=49698231 Points: 2 # Comments: 0"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+   "link": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+   "date": "2026-09-15 05:03",
+   "score": 2,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO 황, All-In Summit에서 트럼프와 스피커폰 통화",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 All-In Podcast 행사에서 트럼프 대통령으로부터 받은 전화를 스피커폰으로 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+   "body": "NVIDIA CEO Jensen Huang speaks during the G20 Innovation Ministerial in Chapel Hill, North Carolina, on September 2, 2026. (Photo by Matt RAMEY / AFP via Getty Images) | AFP via Getty Images Nvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-In Summit. It's not the first time Huang has taken a call from the president during work, but this time he put Trump on speakerphone before a big crowd. During the call, the president launched into his take on recent fears about AI development, which he called a \"hoax,\" and told the crowd that \"the robots will not be taking over.\" It's already a frothy week for AI news. The call with the president followed Anthropic CEO Dario Amodei's long essay published this weekend titled \"We Must Pace the Frontier\" where he argued for slowing … Read the full story at The Verge."
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3-Diarization-preview (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+   "date": "2026-09-16 02:48",
+   "score": 2,
+   "is_auto": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3-Diarization-preview",
+    "version": "voice-activity-detection"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-3 음성 다이어리제이션 모델 업데이트",
+    "korean_summary": "NVIDIA가 Nemotron-3 Diarization 모델을 업데이트하여 음성 활동 감지와 화자 분류 기능을 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3-Diarization-preview:2026-09-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: voice-activity-detection · library: nemo · tags: nemo, speaker-diarization, streaming-sortformer, speaker-tagging, audio, voice-activity-detection · downloads 669 · likes 57."
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 19,
+   "in_window": 4,
+   "enriched": 4,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.9
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 23,
+   "enriched": 23,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 6,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 49,
+   "enriched": 7,
+   "error": "",
+   "sec": 4.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 23,
+   "error": "",
+   "sec": 25.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 4.1
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 31,
+   "enriched": 31,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 12,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 17,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
