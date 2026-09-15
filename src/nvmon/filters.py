@@ -23,17 +23,31 @@ BUSINESS_KW = re.compile(
     re.IGNORECASE)
 
 # 자동차·로봇 신호 (가중 대상)
-AUTO_KW = re.compile(
-    r'DRIVE (?:AGX|Thor|Orin|Hyperion|OS|Sim)|Alpamayo|Hyperion|Jetson Thor|GR00T|'
+# 특정 신호: NVIDIA 자동차·로봇 플랫폼명 — 본문에 있어도 판정
+AUTO_SPECIFIC_KW = re.compile(
+    r'DRIVE (?:AGX|Thor|Orin|Hyperion|OS|Sim)|Alpamayo|\bHyperion\b|Jetson Thor|GR00T|'
     r'Isaac (?:Sim|Lab|ROS|Manipulator|Perceptor)|Cosmos (?:Predict|Transfer|Reason)|NVIDIA Cosmos|'
+    r'robotaxi|로보택시|ISO 26262|\bASIL\b',
+    re.IGNORECASE)
+# 일반 신호: 로봇·자율주행 일반어, 완성차·AV 기업명 — 제목에 있을 때만 판정 (본문 한 단어 오탐 방지)
+AUTO_GENERIC_KW = re.compile(
     r'physical AI|피지컬 ?AI|autonomous (?:driving|vehicle|car|truck|mobile robot)|자율주행|'
-    r'self-driving|robotaxi|로보택시|\bADAS\b|humanoid|휴머노이드|robotic|로봇|'
-    r'start of production|ISO 26262|\bASIL\b|'
+    r'self-driving|\bADAS\b|humanoid|휴머노이드|robot|로봇|start of production|'
     r'Mercedes|Toyota|Hyundai|현대차|기아|Volvo|Jaguar Land Rover|\bJLR\b|\bBYD\b|XPeng|\bNIO\b|'
     r'Li Auto|Zeekr|Lucid|Rivian|General Motors|Stellantis|Nissan|Honda|Waymo|Wayve|Nuro|'
     r'Aurora Innovation|Kodiak|Zoox|Pony\.ai|WeRide|Mobileye|Uber (?:AV|autonomous|robotaxi)|'
     r'Figure AI|Agility Robotics|Boston Dynamics|Unitree|Apptronik|Foretellix|Applied Intuition',
     re.IGNORECASE)
+
+
+class _AutoKW:
+    """AUTO_KW.search(text) 호환: 특정 신호 또는 일반 신호 중 하나라도 있으면 매칭 (제목 검사용)."""
+    @staticmethod
+    def search(text):
+        return AUTO_SPECIFIC_KW.search(text) or AUTO_GENERIC_KW.search(text)
+
+
+AUTO_KW = _AutoKW()
 
 # 제목 기준 제외 (딜·게이밍 리뷰성). 자동차·로봇 신호가 있으면 예외.
 EXCLUDE_TITLE_KW = re.compile(
@@ -48,7 +62,9 @@ EXCLUDE_TITLE_KW = re.compile(
 def is_auto(article):
     if article.get("auto_hint"):
         return True
-    return bool(AUTO_KW.search(f"{article['title']} {article['body'][:1500]}"))
+    if AUTO_SPECIFIC_KW.search(f"{article['title']} {article['body'][:1500]}"):
+        return True
+    return bool(AUTO_GENERIC_KW.search(article["title"]))
 
 
 def pre_filter(article):
@@ -61,8 +77,8 @@ def pre_filter(article):
     if not strong:
         return "skip", "NVIDIA 신호 없음"
     if (not STRONG_KW.search(title) and len(strong) < 2
-            and not (BUSINESS_KW.search(text) or AUTO_KW.search(text))):
+            and not (BUSINESS_KW.search(text) or AUTO_SPECIFIC_KW.search(text) or AUTO_GENERIC_KW.search(title))):
         return "skip", "지나가는 언급"
-    if EXCLUDE_TITLE_KW.search(title) and not AUTO_KW.search(text):
+    if EXCLUDE_TITLE_KW.search(title) and not (AUTO_SPECIFIC_KW.search(text) or AUTO_GENERIC_KW.search(title)):
         return "reject", "딜·게이밍 리뷰성"
     return "pass", "NVIDIA 신호"

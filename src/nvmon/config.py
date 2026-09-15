@@ -43,9 +43,10 @@ LLM_EFFORT = os.environ.get("LLM_EFFORT", "").strip()
 
 # ─── 선별 기준 ─────────────────────────────────────────
 MAX_ARTICLES = _int("MAX_ARTICLES", 0)       # 테스트용 채점 대상 제한 (0=무제한)
-MAX_CARDS = _int("MAX_CARDS", 25)            # 일반 카드 최대
-MAX_AUTO_CARDS = _int("MAX_AUTO_CARDS", 15)  # 자동차·로봇 카드 최대 (일반과 별도)
+MAX_CARDS = _int("MAX_CARDS", 15)            # 일반 카드 최대 (Claude 구독 사용 한도 고려)
+MAX_AUTO_CARDS = _int("MAX_AUTO_CARDS", 10)  # 자동차·로봇 카드 최대 (일반과 별도)
 MAX_RELEASES = 25
+MAX_HEADLINES = _int("MAX_HEADLINES", 40)  # 일반 헤드라인 최대 (자동차·로봇 헤드라인은 별도로 전부 유지)
 STAGE1_BATCH_SIZE = 10
 MAJOR_SCORE = 5            # 일반 카드 기준
 AUTO_MAJOR_SCORE = 4       # 자동차·로봇 카드 기준 (가중)

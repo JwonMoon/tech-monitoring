@@ -5,7 +5,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 
 from . import config, crawl, filters, prompts
-from .llm import call_llm, parse_json, parse_json_array
+from .llm import STATUS as LLM_STATUS, call_llm, parse_json, parse_json_array
 
 TOPIC_KEYS = [t.strip() for t in prompts.TOPICS.split("|")]
 CATEGORY_RANK = {"official": 0, "filing": 1, "release": 2, "media": 3, "kr": 4, "community": 6}
@@ -190,6 +190,14 @@ def classify(articles):
     return sorted(kept, key=lambda x: -x["score"]), headlines, releases[:config.MAX_RELEASES]
 
 
+def cap_headlines(headlines):
+    """자동차·로봇 헤드라인은 전부 유지, 나머지는 점수순 MAX_HEADLINES건. 반환: (유지, 생략 건수)"""
+    auto = [h for h in headlines if h["is_auto"]]
+    other = [h for h in headlines if not h["is_auto"]]
+    kept = auto + other[:config.MAX_HEADLINES]
+    return sorted(kept, key=lambda x: -x["score"]), len(other) - len(other[:config.MAX_HEADLINES])
+
+
 def _ensure_body(a):
     """Google News 등 본문이 없는 카드는 원문 URL을 복원해 본문 확보. 실패 시 False."""
     if len(a["body"]) >= 300:
@@ -277,5 +285,12 @@ def run(articles):
     log(f"\n[분류] 카드 {len(cards)} (자동차·로봇 {sum(c['is_auto'] for c in cards)}) · "
         f"헤드라인 {len(headlines)} · 릴리스/공시 {len(releases)}")
     cards, headlines = stage2(cards, headlines)
-    return {"cards": cards, "headlines": headlines, "releases": releases,
-            "top3": top3(cards), "scored": kept, "stage0_counts": stage0_counts}
+    headlines, omitted = cap_headlines(headlines)
+    if omitted:
+        log(f"  헤드라인 상한 {config.MAX_HEADLINES}건 — 저점 {omitted}건은 archive에만 기록")
+    result = {"cards": cards, "headlines": headlines, "releases": releases, "omitted": omitted,
+              "top3": top3(cards), "scored": kept, "stage0_counts": stage0_counts}
+    result["llm_exhausted"] = LLM_STATUS["exhausted"]
+    if LLM_STATUS["exhausted"]:
+        log("  [!] LLM 사용 한도 초과로 일부 채점·분석이 생략됨 (메일에 표시)")
+    return result

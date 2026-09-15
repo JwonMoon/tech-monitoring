@@ -112,7 +112,8 @@ TARGET_DATE=2026-09-14 IGNORE_SEEN=1 .venv/bin/python src/run.py
 | `STAGE1_MODEL` / `STAGE2_MODEL` | haiku / sonnet | 채점 / 심층 모델 |
 | `STAGE1_WORKERS` / `STAGE2_WORKERS` | 3 / 4 | claude 동시 실행 수 |
 | `MAX_ARTICLES` | 0 | 채점 대상 제한 |
-| `MAX_CARDS` / `MAX_AUTO_CARDS` | 25 / 15 | 일반 / 자동차·로봇 카드 최대 |
+| `MAX_CARDS` / `MAX_AUTO_CARDS` | 15 / 10 | 일반 / 자동차·로봇 카드 최대 |
+| `MAX_HEADLINES` | 40 | 일반 헤드라인 최대 (자동차·로봇 헤드라인은 전부 유지) |
 | `SOFT_DEADLINE_MIN` | 45 | 초과 시 남은 카드는 헤드라인으로 강등 |
 | `WRITE_STATE` | 0 (CI는 1) | 발송 이력 저장 여부 |
 | `IGNORE_SEEN` | 0 | 발송 이력 무시 |
@@ -129,6 +130,7 @@ TARGET_DATE=2026-09-14 IGNORE_SEEN=1 .venv/bin/python src/run.py
 | 특정 소스 0건·오류 | 메일 하단 "수집 실패" 목록 / `--crawl-only` 결과의 오류 칸 |
 | 같은 소식이 반복됨 | `state/seen.json`이 커밋되는지 (Commit archive and state 단계) |
 | 실행이 60분 초과 | `STAGE2_WORKERS` 증가 또는 `MAX_CARDS` 감소 |
+| 메일에 "LLM 사용 한도 초과" 안내 | Claude 구독 한도 소진. 이후 호출은 자동 중단되고 기본 점수로 발송됨. 반복되면 `MAX_CARDS` 감소 또는 `ANTHROPIC_API_KEY` 사용 |
 
 ## 구조
 

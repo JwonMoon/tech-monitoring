@@ -266,6 +266,14 @@ def build(result, stats):
             body.append(release_rows(rels))
 
     failed = [s["source"] for s in stats if s["error"]]
+    notices = []
+    if result.get("llm_exhausted"):
+        notices.append("⚠️ LLM 사용 한도 초과로 일부 항목은 채점·심층 분석 없이 기본 점수로 표시됐습니다.")
+    if result.get("omitted"):
+        notices.append(f"점수가 낮은 헤드라인 {result['omitted']}건은 메일에서 생략하고 archive에만 기록했습니다.")
+    if notices and total:
+        body.append(box("".join(f'<p style="margin:0 0 4px 0;font-size:12px;line-height:19px;color:#92400E;">{esc(n)}</p>'
+                                for n in notices), bg="#FFFBEB", border="1px solid #FDE68A"))
     run_url = ""
     if os.environ.get("GITHUB_RUN_ID"):
         run_url = (f'{os.environ.get("GITHUB_SERVER_URL", "https://github.com")}/{os.environ.get("GITHUB_REPOSITORY", "")}'
@@ -292,9 +300,16 @@ def build(result, stats):
 def build_within_limit(result, stats):
     """Gmail 클리핑(102KB) 방지: 크면 최저점 카드부터 헤드라인으로 강등."""
     html = build(result, stats)
-    while len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES and result["cards"]:
-        lowest = min(result["cards"], key=lambda a: a["score"])
-        result["cards"].remove(lowest)
-        result["headlines"].insert(0, lowest)
+    while len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES:
+        others = [h for h in result["headlines"] if not h["is_auto"]]
+        if others:  # 1순위: 저점 일반 헤드라인 제거
+            result["headlines"].remove(min(others, key=lambda a: a["score"]))
+            result["omitted"] = result.get("omitted", 0) + 1
+        elif result["cards"]:  # 2순위: 저점 카드를 헤드라인으로 강등
+            lowest = min(result["cards"], key=lambda a: a["score"])
+            result["cards"].remove(lowest)
+            result["headlines"].append(lowest)
+        else:
+            break
         html = build(result, stats)
     return html

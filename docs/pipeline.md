@@ -56,8 +56,9 @@
 - 자동차·로봇 판정 = LLM `is_auto` OR `AUTO_KW` 정규식 OR 자동차 전용 피드
 - 자동차·로봇 항목은 최소 헤드라인 점수 보장
 - 카드 기준: 일반 5, 자동차·로봇 4, 커뮤니티 7, 릴리스·공시 7 (미만은 보드)
-- 카드 상한: 일반 25, 자동차·로봇 15. 넘치면 헤드라인으로
-- 메일 HTML이 95KB를 넘으면 최저점 카드부터 헤드라인으로 강등 (Gmail 102KB 클리핑)
+- 카드 상한: 일반 15, 자동차·로봇 10. 넘치면 헤드라인으로
+- 헤드라인 상한: 일반 40건 (자동차·로봇 헤드라인은 전부 유지). 넘친 저점 항목은 archive에만 기록
+- 메일 HTML이 95KB를 넘으면 저점 일반 헤드라인부터 제거하고, 그래도 크면 저점 카드를 강등 (Gmail 102KB 클리핑)
 
 ## 병합 (`merge_duplicates`)
 
@@ -89,6 +90,10 @@
 | 2026-09-15 | investor.nvidia.com RSS, HPCwire, VideoCardz | 403 | 제외 |
 
 ## 장애 기록
+
+- 2026-09-15 로컬 전량 실행: 채점 14배치 중 12배치 후 `You've hit your session limit`. 이후 모든 호출이 실패하며 건마다 재시도하고,
+  크기 가드가 카드를 전부 강등해 카드 0·헤드라인 117건 메일이 생성됨.
+  → 한도 오류 감지 시 이후 LLM 호출 즉시 중단 + 메일 안내 문구, 헤드라인 상한 40, 크기 가드는 헤드라인부터 축소, 카드 상한 25/15 → 15/10.
 
 - 2026-08-20 ~ 09-15: 옛 `digest.yml`이 매일 `Verify Claude auth`에서 실패.
   로그: `Invalid Authorization header value from CLAUDE_CODE_OAUTH_TOKEN: it contains a line break at character 82`.

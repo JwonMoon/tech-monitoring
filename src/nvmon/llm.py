@@ -5,11 +5,16 @@ import subprocess
 
 from . import config
 
+LIMIT_RE = re.compile(r"session limit|usage limit|rate limit|hit your .*limit|overloaded|429", re.I)
+STATUS = {"exhausted": False, "reason": ""}
+
 SYSTEM_PROMPT = ("You are a precise analyst that outputs only the JSON requested by the user. "
                  "Never use tools. Never add commentary outside the JSON.")
 
 
 def call_llm(prompt, model, timeout=300):
+    if STATUS["exhausted"]:
+        return None
     if config.LLM_BACKEND == "claude":
         # 사용자 환경의 hooks/CLAUDE.md/플러그인이 출력 형식을 바꾸지 않도록 격리
         cmd = [config.CLAUDE_BIN, "-p", "--model", model, "--output-format", "json",
@@ -39,7 +44,12 @@ def call_llm(prompt, model, timeout=300):
         print(f"    [!] claude 출력 해석 실패: {(out or r.stderr)[:300]}", flush=True)
         return None
     if obj.get("is_error"):
-        print(f"    [!] claude 오류: {str(obj.get('result'))[:300]}", flush=True)
+        msg = str(obj.get("result"))
+        if LIMIT_RE.search(msg) and not STATUS["exhausted"]:
+            STATUS.update(exhausted=True, reason=msg[:200])
+            print(f"    [!] LLM 사용 한도 초과 — 이후 LLM 호출 중단: {msg[:200]}", flush=True)
+        elif not STATUS["exhausted"]:
+            print(f"    [!] claude 오류: {msg[:300]}", flush=True)
         return None
     return obj.get("result") or None
 
