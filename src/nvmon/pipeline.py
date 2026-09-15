@@ -199,19 +199,28 @@ def cap_headlines(headlines):
 
 
 def _ensure_body(a):
-    """Google News 등 본문이 없는 카드는 원문 URL을 복원해 본문 확보. 실패 시 False."""
-    if len(a["body"]) >= 300:
-        return True
+    """본문이 짧은 카드(주로 Google News)의 본문 확보. 반환: (성공 여부, 실패 사유)
+    1) Google News 링크면 원문 URL 복원 후 추출
+    2) 실패하면 병합된 '관련 보도' 중 Google News가 아닌 링크에서 추출"""
+    if len(a["body"]) >= 300 or a["is_release"]:
+        return True, ""
+    reason = ""
     link = a["link"]
     if a["kind"] == "gnews":
-        link = crawl.resolve_gnews_url(a["link"]) or ""
+        link, reason = crawl.resolve_gnews_url(a["link"])
         if link:
             a["link"] = link
-    if link:
-        full = crawl.fetch_full_text(link)
-        if len(full) > len(a["body"]):
+    candidates = ([link] if link else []) + [r["link"] for r in a.get("related") or []
+                                             if r.get("link") and "news.google.com" not in r["link"]]
+    for url in candidates[:4]:
+        full = crawl.fetch_full_text(url)
+        if len(full) >= 300:
             a["body"] = full[:6000]
-    return len(a["body"]) >= 300 or a["is_release"]
+            if url != a["link"] and "news.google.com" in a["link"]:
+                a["link"] = url
+            return True, ""
+        reason = reason or f"본문 추출 실패 ({url[:60]})"
+    return False, reason or "원문 링크 없음"
 
 
 def _analyze(i, a, total):
@@ -219,9 +228,12 @@ def _analyze(i, a, total):
     if deadline_exceeded():
         log(f"  [{i}] 시간 한도({config.SOFT_DEADLINE_MIN}분) 초과 → 헤드라인: {a['title'][:60]}")
         return "headline"
-    if not _ensure_body(a):
-        log(f"  [{i}] 본문 확보 실패 → 헤드라인: {a['title'][:60]}")
-        return "headline"
+    ok, reason = _ensure_body(a)
+    if not ok:
+        # 중요한 소식이 본문 확보 실패로 사라지지 않도록 카드로 남기고 제목·요약만 표시
+        a["summary_data"], a["body_missing"] = None, True
+        log(f"  [{i}] 본문 확보 실패 → 요약 카드 유지: {a['title'][:60]} | {reason}")
+        return "card"
     prompt = (prompts.STAGE2
               .replace("__AUTO_RULE__", prompts.AUTO_RULE_ON if a["is_auto"] else prompts.AUTO_RULE_OFF)
               .replace("__SOURCE__", a["source"]).replace("__TITLE__", a["title"])

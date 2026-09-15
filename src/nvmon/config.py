@@ -46,6 +46,7 @@ MAX_ARTICLES = _int("MAX_ARTICLES", 0)       # 테스트용 채점 대상 제한
 MAX_CARDS = _int("MAX_CARDS", 15)            # 일반 카드 최대 (Claude 구독 사용 한도 고려)
 MAX_AUTO_CARDS = _int("MAX_AUTO_CARDS", 10)  # 자동차·로봇 카드 최대 (일반과 별도)
 MAX_RELEASES = 25
+MIN_HEADLINES = _int("MIN_HEADLINES", 20)  # 메일 크기 가드가 카드보다 먼저 보장하는 헤드라인 수
 MAX_HEADLINES = _int("MAX_HEADLINES", 40)  # 일반 헤드라인 최대 (자동차·로봇 헤드라인은 별도로 전부 유지)
 STAGE1_BATCH_SIZE = 10
 MAJOR_SCORE = 5            # 일반 카드 기준

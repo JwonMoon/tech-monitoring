@@ -18,6 +18,10 @@ on:
         description: "메일·발송이력 저장 없이 결과물만 생성"
         type: boolean
         default: false
+      test_mail:
+        description: "테스트 발송: 메일은 보내되 발송이력·커밋은 남기지 않음 (제목에 [테스트])"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -94,7 +98,7 @@ jobs:
           TARGET_DATE: ${{ inputs.target_date }}
           TARGET_DAYS: ${{ inputs.target_days || '2' }}
           MAX_ARTICLES: ${{ inputs.max_articles || '0' }}
-          WRITE_STATE: ${{ inputs.dry_run == true && '0' || '1' }}
+          WRITE_STATE: ${{ (inputs.dry_run == true || inputs.test_mail == true) && '0' || '1' }}
           IGNORE_SEEN: ${{ inputs.target_date != '' && '1' || '0' }}
           CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
           MAIL_MODE: file
@@ -110,7 +114,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Commit archive and state
-        if: ${{ inputs.dry_run != true }}
+        if: ${{ inputs.dry_run != true && inputs.test_mail != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -125,7 +129,9 @@ jobs:
 
       - name: Read meta
         id: meta
-        run: echo "subject=$(jq -r .subject out/meta.json)" >> "$GITHUB_OUTPUT"
+        env:
+          PREFIX: ${{ inputs.test_mail == true && '[테스트] ' || '' }}
+        run: echo "subject=${PREFIX}$(jq -r .subject out/meta.json)" >> "$GITHUB_OUTPUT"
 
       - name: Send mail
         if: ${{ inputs.dry_run != true }}

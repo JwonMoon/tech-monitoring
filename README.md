@@ -25,7 +25,7 @@ NVIDIA의 사업·기술 동향을 매일 자동 수집·분석해 한국어 HTM
    → 한국어 제목 2차 병합
 [분류] 카드(일반 5점+, 자동차·로봇 4점+, 커뮤니티 7점+) / 헤드라인(2점+) / 릴리스·공시 보드
 [Stage 2] sonnet 카드 심층 분석 (동시 4건) — 핵심 행동, 주요 사실, 왜 중요한가, NVIDIA 관점, 자동차·로봇 관점
-   → Google News 카드는 원문 URL 복원 후 본문 추출, 실패 시 헤드라인으로 강등
+   → Google News 카드는 원문 URL 복원 → 관련 보도 링크 순으로 본문 확보, 모두 실패하면 요약 카드로 유지
 [렌더] 핵심 3줄 → 목차 → 자동차·로봇(항상 첫 섹션) → 토픽별 섹션 → 릴리스·모델·공시 보드
 ```
 
@@ -83,6 +83,9 @@ Actions 탭 → `NVIDIA daily monitoring` → Run workflow.
 | `target_days` | 기준 날짜 포함 최근 N일 (기본 2) |
 | `max_articles` | 채점 대상 제한 (테스트용, 0=무제한) |
 | `dry_run` | 체크하면 메일 발송·이력 저장·커밋 없이 결과물(artifact)만 생성 |
+| `test_mail` | 체크하면 실제 메일을 보내되 이력 저장·커밋은 하지 않음. 제목 앞에 `[테스트]` |
+
+Gmail 설정만 빠르게 확인하려면 `Test email notification` 워크플로우를 실행합니다 (LLM 사용 없음, 1분 이내).
 
 결과 HTML은 실행 페이지 하단 Artifacts에서 내려받아 확인할 수 있습니다.
 
@@ -114,6 +117,7 @@ TARGET_DATE=2026-09-14 IGNORE_SEEN=1 .venv/bin/python src/run.py
 | `MAX_ARTICLES` | 0 | 채점 대상 제한 |
 | `MAX_CARDS` / `MAX_AUTO_CARDS` | 15 / 10 | 일반 / 자동차·로봇 카드 최대 |
 | `MAX_HEADLINES` | 40 | 일반 헤드라인 최대 (자동차·로봇 헤드라인은 전부 유지) |
+| `MIN_HEADLINES` | 20 | 메일 크기 초과 시 카드 강등보다 먼저 보장하는 헤드라인 수 |
 | `SOFT_DEADLINE_MIN` | 45 | 초과 시 남은 카드는 헤드라인으로 강등 |
 | `WRITE_STATE` | 0 (CI는 1) | 발송 이력 저장 여부 |
 | `IGNORE_SEEN` | 0 | 발송 이력 무시 |

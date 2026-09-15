@@ -43,8 +43,7 @@ def _ok(v):
 
 
 def badge(text, bg, fg):
-    return (f'<span style="display:inline-block;font-size:11px;font-weight:700;line-height:16px;'
-            f'padding:2px 8px;border-radius:10px;background-color:{bg};color:{fg};">{esc(text)}</span>')
+    return f'<span style="font-size:11px;font-weight:700;padding:1px 7px;border-radius:9px;background:{bg};color:{fg}">{esc(text)}</span>'
 
 
 def importance_badge(a):
@@ -65,12 +64,11 @@ def summary_of(a):
 
 
 def label(text, color=ACCENT_DARK):
-    return (f'<p style="margin:14px 0 4px 0;font-size:12px;font-weight:700;letter-spacing:0.3px;'
-            f'color:{color};">{esc(text)}</p>')
+    return f'<p style="margin:12px 0 3px;font-size:12px;font-weight:700;color:{color}">{esc(text)}</p>'
 
 
 def para(text, color="#374151"):
-    return f'<p style="margin:0;font-size:13px;line-height:21px;color:{color};">{md_bold(text)}</p>'
+    return f'<p style="margin:0;font-size:13px;line-height:20px;color:{color}">{md_bold(text)}</p>'
 
 
 def box(inner, bg="#FFFFFF", pad="16px 20px", border=f"1px solid {LINE}", extra=""):
@@ -101,8 +99,8 @@ def render_card(a):
                if _ok(act.get("scope")) else "") + "</div>")
     facts = [f for f in (sd.get("key_facts") or []) if _ok(f)]
     if facts:
-        lis = "".join(f'<li style="margin:0 0 3px 0;">{md_bold(f)}</li>' for f in facts[:5])
-        parts.append(label("주요 사실") + f'<ul style="margin:0;padding-left:18px;font-size:13px;line-height:21px;color:#374151;">{lis}</ul>')
+        lis = "".join(f"<li>{md_bold(f)}</li>" for f in facts[:4])
+        parts.append(label("주요 사실") + f'<ul style="margin:0;padding-left:18px;font-size:13px;line-height:20px;color:#374151">{lis}</ul>')
     if _ok(sd.get("why_matters")):
         parts.append(label("왜 중요한가") + para(sd["why_matters"]))
     if _ok(sd.get("nvidia_angle")):
@@ -112,19 +110,17 @@ def render_card(a):
             f'<div style="margin:14px 0 0 0;padding:10px 14px;background:#ECFDF5;border:1px solid #A7F3D0;border-radius:8px;">'
             f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">🚗 자동차·로봇 관점</p>'
             f'{para(sd["auto_robotics_angle"], "#065F46")}</div>')
-    chips = [(c.get("name"), c.get("context")) for c in (sd.get("companies") or [])[:3] if isinstance(c, dict)]
-    chips += [(p.get("name"), p.get("role")) for p in (sd.get("products") or [])[:2] if isinstance(p, dict)]
-    chips = [(n, c) for n, c in chips if _ok(n)]
-    if chips:
-        parts.append(label("관련 기업·제품") + "<div>" + "".join(
-            f'<span style="display:inline-block;font-size:11px;line-height:16px;padding:3px 9px;margin:4px 5px 0 0;'
-            f'background-color:#F3F4F6;color:#374151;border-radius:10px;">{esc(n)}{(" · " + esc(c)) if _ok(c) else ""}</span>'
-            for n, c in chips) + "</div>")
+    names = [c.get("name") for c in (sd.get("companies") or [])[:4] if isinstance(c, dict)]
+    names += [p.get("name") for p in (sd.get("products") or [])[:2] if isinstance(p, dict)]
+    names = list(dict.fromkeys(n for n in names if _ok(n)))
+    if names:
+        parts.append(f'<p style="margin:10px 0 0;font-size:12px;color:{MUTED}"><b>관련</b> {esc(" · ".join(names))}</p>')
     watch = [w for w in (sd.get("watch_next") or []) if _ok(w)]
     if watch:
         parts.append(label("다음 확인 포인트", MUTED) + para(" / ".join(watch[:3]), MUTED))
     if not sd:
-        parts.append(para(summary_of(a)) + f'<p style="margin:8px 0 0 0;font-size:12px;color:{FAINT};">상세 분석 없음 — 원문을 확인하세요.</p>')
+        why = "원문 본문을 가져오지 못해 제목·요약만 표시합니다" if a.get("body_missing") else "상세 분석 없음"
+        parts.append(para(summary_of(a)) + f'<p style="margin:6px 0 0;font-size:12px;color:{FAINT}">{why} — 원문을 확인하세요.</p>')
     rel = a.get("related") or []
     if rel:
         seen, links = set(), []
@@ -298,18 +294,32 @@ def build(result, stats):
 
 
 def build_within_limit(result, stats):
-    """Gmail 클리핑(102KB) 방지: 크면 최저점 카드부터 헤드라인으로 강등."""
+    """Gmail 클리핑(102KB) 방지. 줄이는 순서:
+    1) 일반 헤드라인을 MIN_HEADLINES건까지 저점부터 제거
+    2) 저점 카드를 헤드라인으로 강등 (항목 자체는 유지)
+    3) 그래도 크면 남은 일반 헤드라인 제거
+    자동차·로봇 헤드라인은 제거하지 않는다."""
     html = build(result, stats)
-    while len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES:
+
+    def too_big():
+        return len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES
+
+    def drop_headline(floor):
         others = [h for h in result["headlines"] if not h["is_auto"]]
-        if others:  # 1순위: 저점 일반 헤드라인 제거
-            result["headlines"].remove(min(others, key=lambda a: a["score"]))
-            result["omitted"] = result.get("omitted", 0) + 1
-        elif result["cards"]:  # 2순위: 저점 카드를 헤드라인으로 강등
-            lowest = min(result["cards"], key=lambda a: a["score"])
-            result["cards"].remove(lowest)
-            result["headlines"].append(lowest)
-        else:
-            break
+        if len(others) <= floor:
+            return False
+        result["headlines"].remove(min(others, key=lambda a: a["score"]))
+        result["omitted"] = result.get("omitted", 0) + 1
+        return True
+
+    while too_big() and drop_headline(config.MIN_HEADLINES):
+        html = build(result, stats)
+    while too_big() and len(result["cards"]) > 1:
+        lowest = min(result["cards"], key=lambda a: a["score"])
+        result["cards"].remove(lowest)
+        result["headlines"].append(lowest)
+        result["headlines"].sort(key=lambda a: -a["score"])
+        html = build(result, stats)
+    while too_big() and drop_headline(0):
         html = build(result, stats)
     return html

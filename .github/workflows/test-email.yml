@@ -1,5 +1,6 @@
 name: Test email notification
 
+# Gmail 시크릿(MAIL_USERNAME, MAIL_APP_PASSWORD)만 빠르게 확인 (LLM 사용 없음, 1분 이내)
 on:
   workflow_dispatch:
 
@@ -9,14 +10,14 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Send test email
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v22
         with:
           server_address: smtp.gmail.com
           server_port: 465
           secure: true
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_APP_PASSWORD }}
-          subject: "NVIDIA Blog Digest 메일 테스트"
-          to: ${{ secrets.MAIL_USERNAME }}
-          from: NVIDIA Blog Digest
-          body: "메일 알림 설정이 정상 동작합니다. 새 요약이 생성되는 날 아침에 다이제스트가 이 주소로 발송됩니다."
+          subject: "[NVIDIA 모니터링] 메일 발송 테스트"
+          to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
+          from: NVIDIA Monitoring
+          html_body: "<p>메일 발송 설정이 정상입니다.</p><p>NVIDIA 모니터링 리포트는 매일 06:17 KST 실행 후 이 주소로 발송됩니다.</p>"

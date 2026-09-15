@@ -236,13 +236,15 @@ def fetch_full_text(url, timeout=15):
 
 
 def resolve_gnews_url(url):
-    """Google News 리다이렉트 링크 → 원문 URL. 실패 시 None."""
+    """Google News 리다이렉트 링크 → (원문 URL 또는 None, 실패 사유)."""
     try:
         from googlenewsdecoder import gnewsdecoder
         res = gnewsdecoder(url, interval=1)
-        return res.get("decoded_url") if res.get("status") else None
-    except Exception:
-        return None
+        if res.get("status") and res.get("decoded_url"):
+            return res["decoded_url"], ""
+        return None, str(res.get("message") or res)[:160]
+    except Exception as e:
+        return None, f"{type(e).__name__}: {str(e)[:140]}"
 
 
 CRAWLERS = {"feed": crawl_feed, "gnews": crawl_gnews, "sec": crawl_sec, "github": crawl_github, "hf": crawl_hf}
