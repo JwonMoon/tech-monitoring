@@ -144,7 +144,7 @@ jobs:
           password: ${{ secrets.MAIL_APP_PASSWORD }}
           subject: ${{ steps.meta.outputs.subject }}
           to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
-          from: NVIDIA Monitoring
+          from: "NVIDIA Monitoring <${{ secrets.MAIL_USERNAME }}>"
           html_body: file://out/email.html
 
       - name: Failure notice
@@ -158,5 +158,5 @@ jobs:
           password: ${{ secrets.MAIL_APP_PASSWORD }}
           subject: "[NVIDIA 모니터링] 실행 실패 — ${{ github.run_id }}"
           to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
-          from: NVIDIA Monitoring
+          from: "NVIDIA Monitoring <${{ secrets.MAIL_USERNAME }}>"
           body: "실행이 실패했습니다. 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

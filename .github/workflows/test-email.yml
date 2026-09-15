@@ -19,5 +19,5 @@ jobs:
           password: ${{ secrets.MAIL_APP_PASSWORD }}
           subject: "[NVIDIA 모니터링] 메일 발송 테스트"
           to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
-          from: NVIDIA Monitoring
+          from: "NVIDIA Monitoring <${{ secrets.MAIL_USERNAME }}>"
           html_body: "<p>메일 발송 설정이 정상입니다.</p><p>NVIDIA 모니터링 리포트는 매일 06:17 KST 실행 후 이 주소로 발송됩니다.</p>"
