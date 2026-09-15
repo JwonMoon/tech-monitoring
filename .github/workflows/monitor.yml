@@ -35,9 +35,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -45,7 +45,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
 
@@ -70,6 +70,9 @@ jobs:
             echo "CLAUDE_CODE_OAUTH_TOKEN=$OAUTH" >> "$GITHUB_ENV"
             export CLAUDE_CODE_OAUTH_TOKEN="$OAUTH"
             echo "인증 방식: CLAUDE_CODE_OAUTH_TOKEN (길이 ${#OAUTH})"
+            if [ "${#OAUTH}" -lt 100 ]; then
+              echo "::warning::토큰 길이 ${#OAUTH}자 — 정상 토큰(약 108자)보다 짧습니다. 터미널에서 줄이 바뀐 토큰의 한 줄만 복사됐을 수 있습니다"
+            fi
           else
             echo "::error::CLAUDE_CODE_OAUTH_TOKEN 또는 ANTHROPIC_API_KEY 시크릿이 없습니다"
             exit 1
@@ -77,7 +80,8 @@ jobs:
           OUT=$(echo "Reply with exactly OK" | claude -p --model haiku --output-format json --setting-sources project --tools "" || true)
           if ! echo "$OUT" | jq -e '.is_error == false' > /dev/null 2>&1; then
             echo "::error::Claude 인증 실패 — 토큰을 재발급해 줄바꿈 없이 다시 등록하세요"
-            echo "$OUT" | head -c 400
+            echo "$OUT" | jq -r '.result // empty' 2>/dev/null | head -c 600 || true
+            echo "$OUT" | head -c 300
             exit 1
           fi
           echo "Claude 인증 OK"
@@ -98,7 +102,7 @@ jobs:
 
       - name: Upload outputs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: nvidia-monitoring-${{ github.run_id }}
           path: out/
@@ -125,7 +129,7 @@ jobs:
 
       - name: Send mail
         if: ${{ inputs.dry_run != true }}
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v22
         with:
           server_address: smtp.gmail.com
           server_port: 465
@@ -139,7 +143,7 @@ jobs:
 
       - name: Failure notice
         if: failure()
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v22
         with:
           server_address: smtp.gmail.com
           server_port: 465
