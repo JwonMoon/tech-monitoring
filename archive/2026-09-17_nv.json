@@ -1,0 +1,2974 @@
+{
+ "date": "2026-09-17",
+ "window": [
+  "2026-09-16",
+  "2026-09-17"
+ ],
+ "generated": "2026-09-17T08:51:09+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 **Vera Rubin NVL72**를 MLPerf Inference v6.1에 첫 출품해 GB300 대비 최대 3.7배 처리량을 기록하며 추론 리더십을 입증했다.",
+  "NVIDIA가 옴니모달 월드모델 **Cosmos3-Super**를 Hugging Face에 공개해 로보틱스·자율주행용 Physical AI 개발을 가속화한다.",
+  "NVIDIA·Google·Emerald AI가 **AI Energy Management Alliance**를 출범시켜 AI 데이터센터 전력을 그리드에 맞춰 유연하게 조절한다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+   "link": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor/",
+   "date": "2026-09-17 05:37",
+   "score": 8,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "new-chip",
+     "robotics",
+     "automotive"
+    ],
+    "korean_title": "TensorRT Edge-LLM, Jetson AGX Thor에서 MLPerf 에지 벤치마크 6.4배 빠른 성능 달성",
+    "korean_summary": "NVIDIA TensorRT Edge-LLM이 새로운 Jetson AGX Thor 플랫폼에서 MLPerf Edge Agentic 벤치마크를 기존 대비 6.4배 빠르게 완료했다."
+   },
+   "summary_data": {
+    "korean_title": "TensorRT Edge-LLM, Jetson AGX Thor에서 MLPerf 엣지 에이전틱 벤치마크 6.4배 가속",
+    "korean_summary": "NVIDIA가 TensorRT Edge-LLM을 통해 Jetson AGX Thor 플랫폼에서 MLPerf 엣지 에이전틱 벤치마크를 기존 대비 6.4배 빠르게 완료함으로써 차량·로봇 등 엣지 디바이스에서의 AI 에이전트 추론 성능을 크게 개선했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "TensorRT Edge-LLM을 Jetson AGX Thor에 적용하여 MLPerf 엣지 에이전틱 벤치마크를 6.4배 빠르게 완료",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Jetson AGX Thor 플랫폼, 엣지 AI 에이전트 워크로드"
+    },
+    "key_facts": [
+     "AI 에이전트가 클라우드 데이터센터에서 **차량, 로봇 등 엣지 디바이스**로 이동하고 있음",
+     "챗봇과 달리 에이전트는 여러 단계의 툴 선택·결과 평가·추론을 거치는 워크플로우를 수행함",
+     "이러한 워크플로우는 빠른 토큰 생성 등 엣지 추론에 새로운 요구사항을 부과함",
+     "**TensorRT Edge-LLM이 Jetson AGX Thor에서 MLPerf 엣지 에이전틱 벤치마크를 6.4배 빠르게 완료**함"
+    ],
+    "why_matters": "AI 에이전트 워크로드가 클라우드에서 엣지로 확산되면서 실시간·저지연 추론 성능이 엣지 컴퓨팅 경쟁력의 핵심 지표가 되고 있다. **MLPerf라는 업계 표준 벤치마크에서의 성능 우위**는 NVIDIA 엣지 플랫폼의 경쟁력을 객관적으로 입증하는 근거로 작용한다.",
+    "nvidia_angle": "TensorRT Edge-LLM과 Jetson AGX Thor의 조합은 **NVIDIA가 엣지 AI 에이전트 추론 시장에서 소프트웨어-하드웨어 통합 최적화 전략**을 강화하고 있음을 보여주며, 데이터센터급 에이전틱 AI 역량을 엣지로 확장하려는 로드맵의 연장선에 있다.",
+    "auto_robotics_angle": "**차량과 로봇에서 실시간 툴 사용·다단계 추론이 가능한 에이전틱 AI**를 구동하려면 저지연 엣지 추론이 필수이며, 이번 성능 개선은 자율주행 및 휴머노이드 로봇의 온보드 의사결정 능력 향상에 직접적으로 기여할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "TensorRT Edge-LLM 및 Jetson AGX Thor 개발·벤치마크 수행 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "TensorRT Edge-LLM",
+      "role": "엣지 LLM 추론 최적화 소프트웨어"
+     },
+     {
+      "name": "Jetson AGX Thor",
+      "role": "벤치마크가 수행된 엣지 AI 컴퓨팅 하드웨어 플랫폼"
+     },
+     {
+      "name": "MLPerf Edge Agentic Benchmark",
+      "role": "성능 측정에 사용된 업계 표준 벤치마크"
+     }
+    ],
+    "watch_next": [
+     "TensorRT Edge-LLM의 정식 출시 일정 및 지원 모델 범위",
+     "Jetson AGX Thor 기반 자동차·로봇 OEM 채택 사례 발표 여부",
+     "MLPerf 엣지 에이전틱 벤치마크에서 경쟁사(Qualcomm 등) 성능 비교 결과"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHI0WHhmMlRfRGN5ZGNSclJiUlJjUFBCbTFxeHQ2SFBubDhLUEZnaW4tNFBIVlZYeElrYWZVVW9tS1RhY0hTWTlvcHY0ajAzREJRMjZDVFNYNzhxZXdMZ3JvUzNYNmlOMV92Z3hRZGlfbHh0UVNPNDhtaUFvNldPcWQxanNoR2h1VWZvMk9KVDg4RmtEQzZ0dFpWMVZibmdHSWFfMmFianliSG1RcW54Zlg5RTFmMURjNVdHVlA4VG9uMU9helE?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
+   "body": "AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through... AI agents are moving from cloud data centers to vehicles, robots, and other edge devices. Unlike a chatbot that answers a single prompt, an agent works through a sequence of steps. It selects tools, evaluates their results, and continues reasoning within an increasingly long conversation. This workflow places new demands on edge inference. The model must generate tokens quickly… Source"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab v3.0.0-EA",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/v3.0.0-EA",
+   "date": "2026-09-17 07:34",
+   "score": 8,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "v3.0.0-EA"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "Isaac Lab 3.0 Early Access 릴리스 - 다음 세대 로봇 학습 플랫폼 공개",
+    "korean_summary": "NVIDIA Isaac Lab 3.0 Early Access가 GitHub에서 릴리스되어 통합 로봇 학습 워크플로우와 새로운 아키텍처를 제공한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Isaac Lab 3.0 Early Access 공개, 멀티 백엔드·Kit-less 로봇 학습 아키텍처 도입",
+    "korean_summary": "NVIDIA가 Isaac Lab 3.0 Early Access를 공개하여 하나의 태스크 API로 여러 물리·렌더링 백엔드를 지원하고 Kit 없이도 실행 가능한 차세대 로봇 학습 프레임워크 기반을 마련했다.",
+    "action": {
+     "actor": "NVIDIA (isaac-sim/IsaacLab)",
+     "action": "Isaac Lab 3.0의 Early Access 버전을 GitHub에 릴리스",
+     "stage": "Available",
+     "timeline": "Early Access 릴리스 시점 미확인(문서 게시 기준), General Availability는 **2026년 10월 말 목표**",
+     "scope": "Isaac Sim 6.1, Python 3.12, PyTorch 2.11, NVIDIA Warp 1.16, Newton 1.5.2 기반 개발자/연구자 대상"
+    },
+    "key_facts": [
+     "**Isaac Lab 3.0은 하나의 태스크 API로 다중 물리·렌더링·시각화 백엔드를 지원**하는 factory 기반 아키텍처 도입",
+     "Kit-less 실행 지원: Newton(OVPhysX/OVRTX), Isaac Sim PhysX/RTX 등 여러 조합으로 학습 가능",
+     "Warp-native 데이터 경로 및 설치부터 학습·평가·배포까지 통합 워크플로우 제공",
+     "**General Availability는 2026년 10월 말 목표**이며 그 전까지 release/3.0.0 브랜치는 버그 수정·안정성·호환성·문서화에만 집중",
+     "uv 기반 설치와 rsl_rl 등 RL 라이브러리 연동 예시 코드 제공(Isaac-Cartpole 태스크)"
+    ],
+    "why_matters": "로봇 학습 시뮬레이션 프레임워크가 단일 물리 엔진 종속성에서 벗어나 Newton, PhysX, RTX 등 **여러 백엔드를 유연하게 교체 가능한 구조로 전환**되는 것은 로봇 개발자의 실험 반복 속도와 배포 유연성을 크게 높인다. Kit-less 실행 옵션은 무거운 Omniverse Kit 없이도 경량화된 학습 파이프라인을 가능하게 해 클라우드·엣지 학습 확장성을 개선한다.",
+    "nvidia_angle": "NVIDIA는 Isaac Lab을 **Isaac Sim·Newton·Warp 생태계를 아우르는 통합 로봇 학습 플랫폼**으로 재설계하며, 시뮬레이션-투-리얼(sim-to-real) 파이프라인에서 하드웨어(GPU)부터 소프트웨어 스택까지 락인(lock-in) 전략을 강화하고 있다.",
+    "auto_robotics_angle": "**휴머노이드·산업용 로봇 개발사**는 Isaac Lab 3.0의 멀티 백엔드 구조를 통해 Newton, PhysX 등 물리 엔진을 상황에 맞게 선택하며 강화학습 기반 정책 훈련을 더 유연하게 수행할 수 있고, Kit-less 경량 실행은 대규모 클라우드 학습 비용 절감에 기여할 수 있다. 자율주행·로봇 OEM 입장에서는 표준화된 태스크 API가 시뮬레이션 자산 재사용성을 높여 개발 주기 단축에 도움이 될 것으로 예상된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Isaac Lab, Isaac Sim, Warp, Newton 등 로봇 학습 스택 개발·배포 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Isaac Lab 3.0",
+      "role": "차세대 로봇 학습 프레임워크, 멀티 백엔드·Kit-less 아키텍처 도입"
+     },
+     {
+      "name": "Isaac Sim 6.1",
+      "role": "Isaac Lab 3.0의 기반 시뮬레이션 플랫폼 버전"
+     },
+     {
+      "name": "NVIDIA Warp 1.16",
+      "role": "Warp-native 데이터 경로 제공 라이브러리"
+     },
+     {
+      "name": "Newton 1.5.2",
+      "role": "Kit-less 물리 시뮬레이션 백엔드"
+     },
+     {
+      "name": "PyTorch 2.11",
+      "role": "강화학습 훈련 프레임워크 의존성"
+     }
+    ],
+    "watch_next": [
+     "2026년 10월 말 예정된 General Availability 시점의 최종 기능 확정 여부",
+     "Newton, OVPhysX/OVRTX 등 백엔드별 실제 성능·정확도 비교 결과",
+     "Isaac Lab 3.0 기반 실제 로봇(휴머노이드 등) sim-to-real 적용 사례 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:v3.0.0-EA",
+   "body": "Isaac Lab 3.0 Early Access Isaac Lab 3.0 Early Access is ready. Isaac Lab 3.0 establishes the foundation for the next generation of robot learning in Isaac Lab: one task API across multiple physics, rendering, and visualization backends; kit-less execution; Warp-native data paths; and unified workflows from installation through training, evaluation, and deployment. This release is built for Isaac Sim 6.1 , Python 3.12, PyTorch 2.11, NVIDIA Warp 1.16, and Newton 1.5.2. Note Early Access status The architecture and feature set for Isaac Lab 3.0 are ready for users to build on. From Early Access to General Availability, the release/3.0.0 branch will focus only on bug fixes, stability, compatibility, and documentation improvements. General Availability is targeted toward the end of October 2026. We encourage you to start migrating, training, and testing now—and to tell us what you find. Try Isaac Lab 3.0 today Install uv , clone the Early Access branch, and launch a kit-less Newton workflow: git clone --branch release/3.0.0 https://github.com/isaac-sim/IsaacLab.git cd IsaacLab uv run isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole \\ physics=newton_mjwarp \\ --viz newton_gl For a fully kit-less PhysX and RTX rendering workflow, use OVPhysX and OVRTX backends. The ov extra installs both optional runtimes; Isaac Sim is not installed or launched: uv run --extra ov isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole-Camera-Direct \\ physics=ovphysx \\ renderer=ovrtx \\ presets=rgb \\ --viz newton_gl For the full Isaac Sim experience with Isaac Sim PhysX, Isaac Sim RTX rendering, Isaac Sim ROS bridge, and other Kit integrations: uv run --extra isaacsim isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole \\ physics=isaacsim_physx \\ --viz kit See the Isaac Lab 3.0 installation guide and quickstart for the complete setup options. Highlights One environment, multiple backends Isaac Lab 3.0 introduces a factory-based, multi-backend architecture. Common ass"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Edge (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Edge",
+   "date": "2026-09-17 03:48",
+   "score": 8,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Edge",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Edge 엣지 배포 모델 업데이트",
+    "korean_summary": "NVIDIA가 Azure·SageMaker 지원을 추가한 Cosmos3-Edge 모델을 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos3-Edge 체크포인트 및 벤치마크 업데이트",
+    "korean_summary": "NVIDIA가 Physical AI용 옴니모달 월드 모델 Cosmos3의 엣지향 버전인 Cosmos3-Edge의 생성기 체크포인트와 런타임 기본값, 벤치마크 결과를 2026년 8월 25일 업데이트했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Edge 모델의 생성기 체크포인트, 런타임 기본값, 사용 예제, 벤치마크 결과 업데이트",
+     "stage": "Available",
+     "timeline": "2026-08-25",
+     "scope": "Hugging Face main 브랜치 사용자, Cosmos3-Edge 모델"
+    },
+    "key_facts": [
+     "**2026년 8월 25일 업데이트**로 Cosmos3-Edge 생성기 체크포인트, 런타임 기본값, 벤치마크 결과 변경",
+     "다운로드 수 1,565,347회, 좋아요 204개",
+     "라이브러리: cosmos, diffusers, safetensors 지원, cosmos3_edge 태그 부여",
+     "Azure 및 SageMaker 배포(deploy:azure, deploy:sagemaker) 태그 존재",
+     "텍스트·이미지·비디오·액션 트래젝토리 입력으로부터 비디오·이미지·오디오·액션 커맨드 생성 가능한 옴니모달 모델"
+    ],
+    "why_matters": "Physical AI 개발을 가속화하는 월드 파운데이션 모델의 엣지 최적화 버전이 지속 업데이트된다는 것은 **로보틱스·자율주행 등 온디바이스 추론 수요**에 대응하는 NVIDIA의 전략을 보여준다. 150만 회 이상의 다운로드는 개발자 생태계에서 이미 상당한 채택이 이뤄지고 있음을 시사한다.",
+    "nvidia_angle": "Cosmos 플랫폼은 NVIDIA의 **Physical AI 풀스택 전략**(시뮬레이션·데이터 생성·정책 학습)의 핵심 축이며, Edge 버전 지속 업데이트는 클라우드뿐 아니라 온보드 배포 시나리오까지 커버하려는 의도를 보여준다.",
+    "auto_robotics_angle": "액션 트래젝토리 입력·출력을 지원하는 옴니모달 월드 모델은 **자율주행 시뮬레이션 및 휴머노이드 로봇의 임바디드 정책 학습**에 직접 활용될 수 있어, OEM·로보틱스 기업의 합성 데이터 생성 및 sim-to-real 파이프라인 구축에 실질적 기반이 될 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Edge 모델 개발 및 배포 주체"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     },
+     {
+      "name": "Microsoft Azure",
+      "context": "배포 대상 클라우드 (deploy:azure 태그)"
+     },
+     {
+      "name": "Amazon SageMaker",
+      "context": "배포 대상 플랫폼 (deploy:sagemaker 태그)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Edge",
+      "role": "업데이트 대상 옴니모달 월드 모델(엣지 최적화)"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "Physical AI용 월드 파운데이션 모델 플랫폼 (상위 프레임워크)"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Edge 업데이트 상세 내용(discussions/62) 및 호환성 변경 사항 확인",
+     "실제 자율주행·로보틱스 파트너의 Cosmos3-Edge 채택 사례 발표 여부",
+     "Cosmos3 전체 컬렉션 내 다른 모델(비-Edge 버전)과의 성능·용도 비교"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Edge:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_edge, nvidia, cosmos3, deploy:azure, deploy:sagemaker · downloads 1565347 · likes 204. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Edge ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. > **Update — August 25, 2026:** The Cosmos3-Edge generator checkpoint, runtime defaults, usage examples, and benchmark results have been updated. Users pulling from `main` should refresh their local snapshot. See the [update announcement](https://huggingface.co/nvidia/Cosmos3-Edge/discussions/62) for compatibi"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+   "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/",
+   "date": "2026-09-17 00:00",
+   "score": 8,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA Vera Rubin NVL72, MLPerf Inference v6.1 첫 제출에서 업계 최고 성능 달성",
+    "korean_summary": "NVIDIA Vera Rubin NVL72 시스템이 MLPerf Inference v6.1에 첫 제출하여 업계 최고 성능을 기록했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Vera Rubin NVL72, MLPerf Inference v6.1 데뷔에서 압도적 성능 기록",
+    "korean_summary": "NVIDIA가 차세대 AI 인프라 플랫폼 Vera Rubin NVL72를 MLPerf Inference v6.1에 처음 출품하여 GB300 NVL72 대비 최대 3.7배 높은 처리량을 기록하며 AI 추론 경제성에서의 리더십을 입증했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera Rubin NVL72 시스템의 MLPerf Inference v6.1 preview 결과 제출 및 GB300 NVL72의 4랙 스케일링 결과 공개",
+     "stage": "Available",
+     "timeline": "2026-09-16 (MLCommons 결과 조회 기준), MLPerf Inference v6.1 발표일",
+     "scope": "Vera Rubin NVL72(preview), GB300 NVL72(288-GPU, 4랙), DeepSeek-R1 및 Qwen3-VL 벤치마크"
+    },
+    "key_facts": [
+     "Vera Rubin NVL72는 Qwen3-VL 벤치마크에서 GB300 NVL72 대비 **최대 3.7배 높은 처리량**을 기록 (vLLM + NVIDIA Dynamo 프레임워크 사용)",
+     "DeepSeek-R1 벤치마크에서는 TensorRT-LLM 사용 시 GB300 NVL72 대비 최대 2.5배 높은 처리량 달성",
+     "GB300 NVL72는 72 GPU 단일 랙에서 288 GPU(4랙)로 확장 시 **99% 스케일링 효율성** 달성",
+     "MLPerf v6.1 소프트웨어 최적화만으로 v6.0 대비 최대 1.6배 성능 향상, v6.1 제출 이후에도 추가 최적화 진행 중",
+     "SemiAnalysis AgentX 벤치마크(에이전틱 추론 측정)에서 Vera Rubin NVL72가 GB300 NVL72 대비 30배 성능 우위 기록(preview 테스트)"
+    ],
+    "why_matters": "AI 추론 경제성(토큰당 비용, 처리량, 확장 효율성)이 하이퍼스케일러의 인프라 투자 결정을 좌우하는 핵심 지표로 부상하고 있으며, MLPerf라는 공신력 있는 벤치마크에서의 압도적 성능 격차는 경쟁사(AMD, 커스텀 실리콘 등) 대비 NVIDIA의 기술 우위를 시장에 각인시킨다. **AI 에이전트 워크로드에 특화된 30배 성능 우위**는 향후 추론 시장의 무게중심이 단순 처리량에서 에이전틱 추론으로 이동하고 있음을 시사한다.",
+    "nvidia_angle": "NVIDIA는 하드웨어(Tensor Core, NVLink)-소프트웨어(TensorRT-LLM, Dynamo, NVFP4)의 풀스택 코디자인과 세대 간 지속적 성능 개선(GB300→Vera Rubin)을 통해 **AI 인프라 플랫폼의 fungibility(범용성)**를 핵심 경쟁력으로 내세우고 있다. 이는 하이퍼스케일러들이 특정 워크로드에 특화된 커스텀 칩 대신 NVIDIA 플랫폼에 지속 투자하도록 유도하는 전략적 메시지다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin NVL72 및 GB300 NVL72 시스템 개발사, MLPerf 제출 주체"
+     },
+     {
+      "name": "Nebius",
+      "context": "Vera Rubin NVL72 preview 결과를 별도 제출한 파트너 클라우드/인프라 기업"
+     },
+     {
+      "name": "MLCommons",
+      "context": "MLPerf Inference 벤치마크 표준 관리 기관"
+     },
+     {
+      "name": "SemiAnalysis",
+      "context": "AgentX 벤치마크(에이전틱 추론 측정) 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "차세대 AI 추론 시스템, MLPerf 첫 preview 제출로 최고 성능 기록"
+     },
+     {
+      "name": "GB300 NVL72",
+      "role": "현세대 비교 기준 시스템, 288-GPU 스케일링 효율성 99% 입증"
+     },
+     {
+      "name": "DeepSeek-R1",
+      "role": "MLPerf 벤치마크 대상 모델(추론 특화)"
+     },
+     {
+      "name": "Qwen3-VL",
+      "role": "MLPerf 벤치마크 대상 모델(비전-언어)"
+     },
+     {
+      "name": "TensorRT-LLM",
+      "role": "DeepSeek-R1 추론 가속 라이브러리"
+     },
+     {
+      "name": "NVIDIA Dynamo",
+      "role": "오픈소스 추론 프레임워크, Qwen3-VL 처리량 향상에 사용"
+     },
+     {
+      "name": "NVLink (6th-gen)",
+      "role": "NVL72 랙 스케일업 인터커넥트, 이더넷 대비 10배 패킷레이트·3배 저지연 제공"
+     },
+     {
+      "name": "NVFP4",
+      "role": "메모리 풋프린트 절감 정밀도 포맷, 처리량 증대에 기여"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72의 정식(Closed Division) MLPerf 결과 및 정식 출시 일정 공개 여부",
+     "MLPerf Endpoints 벤치마크(에이전틱 워크로드 표준화) 출시 시점과 세부 방법론",
+     "경쟁사(AMD MI300/MI400 등)의 동일 벤치마크 대응 결과"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+     "link": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "NVIDIA Vera Rubin NVL72 Delivers Leading Performance in MLPerf Inference v6.1 Debut",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EQnRiYTgzdlJNMk10Z01wY3daTFRjRm5NWjZ6aUw4X0NhZkZtdWlqMWxMc3ZqeVVUX0MtMl9pTFI0X0pTdEZWenB5NHg1VVpVQi1RSE5tOF82REJGMUFjbUx5WVg3RUxxY0VKa2tSMHp5UQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-mlperf-inference",
+   "body": "System performance, efficient infrastructure scaling and continuous software optimization are key levers that determine AI inference economics. Higher system performance means more tokens generated, resulting in higher revenue. Efficient scaling means throughput grows proportionally as hardware gets added, requiring fewer resources to serve users at scale. Continuous optimization means generating more value from infrastructure investments. Underlying all three is platform fungibility: the same infrastructure runs any model, any workload, from training to inference, recommender to reasoning, language to video, keeping utilization high. The NVIDIA platform is purpose-built to optimize across all these, as highlighted by MLPerf Inference v6.1 results released today: NVIDIA Vera Rubin NVL72 system debuts with leading performance : In its first MLPerf Inference preview submission, NVIDIA Vera Rubin NVL72 delivers up to 3.7x better throughput than GB300 NVL72. NVIDIA GB300 NVL72 scales with leading efficiency : A 288-GPU submission across four GB300 NVL72 racks achieved 99% scaling efficiency, with throughput growing nearly linearly from a single-rack baseline. Continuous software optimizations drive performance gains : Software optimizations in NVIDIA’s MLPerf Inference v6.1 submissions delivered up to 1.6x higher performance over v6.0. Optimizations continued post-v6.1 submission, delivering further performance gains. For organizations making AI infrastructure decisions, performance, scaling efficiency and software velocity are important considerations that determine long-term inference economics. Vera Rubin NVL72 Makes MLPerf Inference Debut With Leading Performance NVIDIA submitted Vera Rubin NVL72 preview results on two of the most demanding benchmarks in the MLPerf Inference v6.1 suite: DeepSeek-R1 and Qwen3-VL. Vera Rubin NVL72 delivers up to 3.7x higher throughput than GB300 NVL72 on Qwen3-VL across offline, server and interactive scenarios, using vLLM with the NVIDIA Dynamo open source inference framework. On DeepSeek-R1, using the NVIDIA TensorRT-LLM library, throughput is up to 2.5x higher than GB300 NVL72. These early results showcase NVIDIA’s accelerated pace of innovation and how performance will improve with continuous software optimizations. MLPerf Inference v6.1, Closed Division. Results retrieved from www.mlcommons.org on Sep 16, 2026. NVIDIA platform results from the following entries: 6.1-0106 and 6.1-0074. The MLPerf name and logo are registered and unregistered trademarks of MLCommons Association in the United States and other countries. All rights reserved. Unauthorized use is strictly prohibited. See www.mlcommons.org for more information. This performance means each Vera Rubin NVL72 rack delivers significantly more tokens, serves more users and generates more revenue than a GB300 NVL72 rack, while lowering cost per token. The results reflect full-stack codesign across hardware and software. Vera Rubin’s enhanced Tensor Cores an"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Advancing Infrastructure for the Era of Agentic AI | Ian Buck at AI Infra Summit 2026",
+   "link": "https://www.youtube.com/watch?v=RuXF7ck32b8",
+   "date": "2026-09-17 07:24",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "Ian Buck, AI Infra Summit에서 Vera Rubin 플랫폼과 NVLink 6, NVLink Fusion 공개",
+    "korean_summary": "NVIDIA Ian Buck VP가 AI Infra Summit 2026에서 Vera Rubin 풀스택 AI 팩토리 플랫폼과 NVLink 6, NVLink Fusion 등 신규 기술을 소개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI Infra Summit 2026에서 에이전틱 AI 시대를 위한 Vera Rubin 풀스택 플랫폼 공개",
+    "korean_summary": "NVIDIA의 Ian Buck 부사장이 AI Infra Summit 2026 기조연설에서 장문맥·추론·툴콜 등 에이전틱 AI 워크로드에 최적화된 Vera Rubin 풀스택 AI 팩토리 플랫폼을 소개했다.",
+    "action": {
+     "actor": "NVIDIA (Ian Buck, VP of Hyperscale and High-Performance Computing)",
+     "action": "Vera Rubin 풀스택 AI 팩토리 플랫폼 및 관련 하드웨어·인터커넥트 라인업 공개",
+     "stage": "Announced",
+     "timeline": "AI Infra Summit 2026 (정확한 날짜 미확인)",
+     "scope": "미확인 (특정 고객사·지역 언급 없음)"
+    },
+    "key_facts": [
+     "Ian Buck가 AI Infra Summit 2026 기조연설에서 NVIDIA Vera Rubin 풀스택 AI 팩토리 플랫폼을 소개함",
+     "**Vera Rubin은 사전학습부터 추론, 에이전틱 AI, 가속컴퓨팅까지 아우르는 'fungible architecture'로 제시됨**",
+     "구성 요소로 NVIDIA Vera Rubin NVL72, Groq 3 LPX, Vera CPU, NVLink 6, NVLink Fusion, NVIDIA DSX가 언급됨",
+     "**플랫폼은 '10년간의 서비스 기간 동안 CUDA 릴리스마다 더 빨라지는 durable platform'으로 설명됨**",
+     "SemiAnalysis의 AgentX 벤치마크에서 NVLink 및 extreme co-design의 성능 우위를 언급함"
+    ],
+    "why_matters": "에이전틱 AI는 장문맥·툴콜·서브에이전트 등 기존 LLM 추론보다 훨씬 복잡한 인프라 요구를 발생시키며, **이에 대응하는 풀스택 플랫폼 경쟁이 하이퍼스케일러·AI 팩토리 시장의 핵심 변수로 부상하고 있다**. NVLink Fusion과 같은 개방형 인터커넥트 전략은 NVIDIA 생태계 밖의 파트너 유입까지 겨냥한 움직임으로 해석될 수 있다.",
+    "nvidia_angle": "NVIDIA는 Vera Rubin을 통해 GPU 단품이 아닌 **CPU·GPU·인터커넥트·소프트웨어를 아우르는 '메가와트당 토큰 생성량' 최적화 플랫폼**으로 포지셔닝하며, AI 팩토리 전체를 장기 계약 대상으로 삼는 전략을 강화하고 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin 플랫폼 발표 주체"
+     },
+     {
+      "name": "SemiAnalysis",
+      "context": "AgentX 벤치마크를 통해 NVLink 성능을 검증한 외부 분석기관으로 언급됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin",
+      "role": "에이전틱 AI 시대를 겨냥한 풀스택 AI 팩토리 플랫폼"
+     },
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "플랫폼 내 랙스케일 시스템 구성 요소"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "플랫폼의 CPU 구성 요소"
+     },
+     {
+      "name": "NVLink 6 / NVLink Fusion",
+      "role": "GPU 간 및 이기종 파트너 연결을 위한 인터커넥트 기술"
+     },
+     {
+      "name": "NVIDIA DSX",
+      "role": "플랫폼 구성 요소 (본문상 세부 설명 미확인)"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72 및 Vera CPU의 정식 출시 일정·사양",
+     "NVLink Fusion을 통한 외부 파트너(비-NVIDIA GPU/가속기) 채택 사례",
+     "SemiAnalysis AgentX 벤치마크의 세부 성능 수치 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=RuXF7ck32b8",
+   "body": "Agentic AI demands a new kind of AI infrastructure—one built for long context, reasoning, tool calls, sub-agents and efficient performance at scale. In this AI Infra Summit 2026 keynote, Ian Buck, NVIDIA vice president of hyperscale and high-performance computing, explores the NVIDIA Vera Rubin full-stack AI factory platform. Vera Rubin delivers a rich ecosystem of developers and partners, a fungible architecture for every model and workload—from pre-training and inference to agentic AI and accelerated computing—and a durable platform that gets faster with every CUDA release across a decade of service. See how NVIDIA Vera Rubin NVL72, Groq 3 LPX, Vera CPU, NVLink 6, NVLink Fusion and NVIDIA DSX help AI factories generate more tokens from every megawatt. Explore more from AI Infra Summit 2026: https://nvda.ws/4xKClav Learn how NVIDIA NVLink and extreme co-design enable leading performance in the latest SemiAnalysis AgentX benchmark: https://nvda.ws/4yC811H"
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "쿨스, 엔비디아 '루빈 울트라' 겨냥 초대형 패키지 접합 기술 개발",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=62406",
+   "date": "2026-09-17 04:01",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_auto": false,
+    "signal_tags": [
+     "supply-chain",
+     "new-chip"
+    ],
+    "korean_title": "쿨스, NVIDIA Rubin Ultra 위한 초대형 패키지 접합 기술 개발",
+    "korean_summary": "반도체 패키징 회사 쿨스가 NVIDIA의 차세대 AI 가속기 Rubin Ultra용 초대형 패키지 휨 억제 기술을 개발했다."
+   },
+   "summary_data": {
+    "korean_title": "쿨스, 엔비디아 '루빈 울트라' 겨냥 초대형 패키지 접합 기술 개발",
+    "korean_summary": "반도체 패키징 기업 쿨스가 엔비디아 차세대 AI 가속기 '루빈 울트라' 같은 초대면적 패키지의 휨을 억제하는 접합 기술을 개발했다고 16일 밝혔다.",
+    "action": {
+     "actor": "쿨스",
+     "action": "고강성 리드와 자체 개발 서멀클러치를 결합한 초대면적 반도체 패키지 접합 기술 개발",
+     "stage": "Announced",
+     "timeline": "2026-09-16",
+     "scope": "초대면적 AI 반도체 패키지 (엔비디아 루빈 울트라급 패키지 대상)"
+    },
+    "key_facts": [
+     "쿨스가 **초대형 AI 반도체 패키지의 휨(Warpage) 억제 접합 기술**을 개발했다고 16일 밝힘",
+     "고강성 리드(Lead)로 패키지 휨을 억제하는 방식",
+     "자체 개발한 **서멀클러치(Thermal Clutch)**로 가열·냉각 시간을 단축",
+     "엔비디아 차세대 AI 가속기 '루빈 울트라'와 같은 초대면적 패키지의 접합 불량 방지 목적",
+     "칩과 인터포저 등의 접합을 마친 뒤 패키징 마지막 단계에 적용되는 기술"
+    ],
+    "why_matters": "AI 가속기 패키지가 대형화될수록 발생하는 휨 문제는 수율과 신뢰성에 직결되는 핵심 공정 과제이며, 이를 해결하는 후공정 접합 기술은 차세대 초대면적 패키지 상용화의 병목을 좌우한다. **패키징 소재·장비 업체들의 기술 경쟁이 엔비디아 로드맵에 맞춰 가속화**되고 있음을 보여준다.",
+    "nvidia_angle": "루빈 울트라와 같은 초대면적 패키지 설계가 실현되려면 협력사들의 후공정 기술 혁신이 뒷받침돼야 하며, 이번 소식은 **엔비디아의 차세대 GPU 로드맵이 공급망 전반의 기술 개발을 견인**하고 있음을 시사한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "쿨스",
+      "context": "초대면적 반도체 패키지 접합 기술 개발 업체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "차세대 AI 가속기 '루빈 울트라'로 초대면적 패키지 수요를 창출하는 대상 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin Ultra",
+      "role": "초대면적 패키지가 필요한 엔비디아 차세대 AI 가속기, 접합 기술 적용 대상"
+     },
+     {
+      "name": "Thermal Clutch",
+      "role": "쿨스가 개발한 가열·냉각 시간 단축용 자체 기술"
+     }
+    ],
+    "watch_next": [
+     "쿨스 접합 기술의 실제 양산 적용 시점 및 고객사 확인 여부",
+     "루빈 울트라 패키지 사양 및 출시 일정 공식 발표",
+     "경쟁 패키징 소재·장비 업체들의 유사 휨 억제 기술 대응"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=62406",
+   "body": "반도체 패키징 기업 쿨스가 초대형 인공지능(AI) 반도체 패키지의 휨(Warpage)을 억제하는 접합 기술을 개발했다. 고강성 리드(Lead)로 패키지의 휨(Warpage)을 억제하고 서멀클러치(Thermal Clutch)로 가열·냉각 시간을 단축하는 기술이다. 엔비디아 차세대 AI 가속기 '루빈 울트라'와 같은 초대면적 패키지에서 발생하는 접합 불량을 막을 수 있다.16일 쿨스는 고강성 리드, 자체 개발한 서멀클러치를 엮은 초대면적 반도체 패키지 접합 기술을 개발했다고 밝혔다. 칩과 인터포저 등의 접합을 마치고, 패키징 마지막 단"
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Global Technology Pioneers Emerald AI, Google, and NVIDIA Launch the AI Energy Management Alliance to Advance Flexible AI Data Centers",
+   "link": "https://www.businesswire.com/news/home/20260916992694/en/Global-Technology-Pioneers-Emerald-AI-Google-and-NVIDIA-Launch-the-AI-Energy-Management-Alliance-to-Advance-Flexible-AI-Data-Centers",
+   "date": "2026-09-16 22:06",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Google·Emerald AI, AI 에너지 관리 연합체 공식 출범",
+    "korean_summary": "NVIDIA, Google, Emerald AI 3개 기업이 유연한 AI 데이터센터 구현을 위한 AI Energy Management Alliance를 공동 출범했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Seeking Alpha",
+     "title": "Nvidia, Google, Emerald AI launch alliance to make AI data centers grid-friendly (NVDA:NASDAQ)",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTFpoU19sYUJ3allRU1lHMkxZTk5WTjhJeTFFcGwyUmVHUFRyN0hpWFVHMDZyMVZITWpRdndldEVJemN6U09ieW80V2tHMU53TW5MMWpGTTc3NWdUcFZxZWwyMkRaek5BeExUd2tvSWxBMzVENnRvTkFOV2JCOC1SQk8ybmJyU09VcjhmM0Vkd1drUWdpTmJLeTBXekZjTnIzX1JGamxuX3NvLVF2SG9pc0wzMmYwazA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZEhFWmEtbEE4Sm5tZ1hlVnMzVzFXdURUaExTYjQzMXRUTl9GeFR0RjItaEk3THgxMy1Qc2V2ak93SHdIZDdXbzFGQUZ5Q0wzUEQwcGFGaEZUR3pWUG9zUF9pVVRtUWMxMElhbU1Dd24zWDc0dUpJZlpKbThydUEyZ3lQeE5kbHNxLV94MnlRbTZ0cjlOTkprci02WkJhS2NtUkpFb0Vza0lzY29DYVY2TThoa3hkXzBGR1plaWYxbnIwTWZHNFdOdWxUemlQTjlPWkcwYTVQeFNFX3RVSHNneE8xcmJpMnJSQ1h6c2NXb3d4SlhZNFVNMzZ3WXJLTWMzc2pGZm5FOU5zRVRrdFZNT2xGWHowREtX",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CoreWeave Brings Up Multi-Rack NVIDIA Vera Rubin NVL72 Cluster",
+   "link": "https://finance.yahoo.com/technology/ai/articles/coreweave-brings-multi-rack-nvidia-120000093.html",
+   "date": "2026-09-16 21:00",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "CoreWeave, 엔비디아 Vera Rubin NVL72 다중 랙 클러스터 구축",
+    "korean_summary": "CoreWeave가 엔비디아 Vera Rubin NVL72 다중 랙 클러스터를 배포했다."
+   },
+   "summary_data": {
+    "korean_title": "CoreWeave, 다중 랙 NVIDIA Vera Rubin NVL72 클러스터 구축 완료",
+    "korean_summary": "CoreWeave가 수백 개의 NVIDIA Rubin GPU를 단일 스케일아웃 클러스터로 연결한 다중 랙 Vera Rubin NVL72를 자사 클라우드에 구축했다고 발표했다.",
+    "action": {
+     "actor": "CoreWeave",
+     "action": "다중 랙 NVIDIA Vera Rubin NVL72 클러스터 브링업 및 AI Object Storage 신기능(cross-region write acceleration, Archive tier) 발표",
+     "stage": "Announced",
+     "timeline": "2026-09-16",
+     "scope": "CoreWeave Cloud 상 수백 개 NVIDIA Rubin GPU 규모"
+    },
+    "key_facts": [
+     "CoreWeave는 **Vera Rubin NVL72를 검증·브링업한 최초의 AI 클라우드 공급자**라고 자평",
+     "단일 Vera Rubin NVL72 랙은 72개 Rubin GPU와 36개 Vera CPU, NVLink 6, ConnectX-9 SuperNIC, BlueField-4 DPU로 구성",
+     "**NVIDIA Spectrum-X Ethernet 네트워킹**으로 여러 랙을 단일 스케일아웃 클러스터로 통합",
+     "Rubin GPU당 ConnectX-9 SuperNIC 2개, GPU당 1.6 Tb/s 스케일아웃 연결성 제공, 논블로킹 패브릭에서 레일당 약 128,000 GPU 지원",
+     "CoreWeave Mission Control의 Rack LifeCycle Controller(Racky, Valvey)가 랙 설치·검증·전원·냉각 자동화"
+    ],
+    "why_matters": "이 발표는 차세대 NVIDIA Rubin 플랫폼이 실제 클라우드 환경에서 랙 단위를 넘어 다중 랙 스케일아웃 클러스터로 상용 가동 가능함을 보여주는 초기 사례다. **에이전틱 AI 워크로드용 대규모 인프라 경쟁**에서 CoreWeave가 하이퍼스케일러 대비 선제적 포지셔닝을 강화하는 신호로 해석된다.",
+    "nvidia_angle": "NVIDIA는 Vera Rubin NVL72 플랫폼(GPU+CPU+NVLink+ConnectX-9+BlueField-4+Spectrum-X)을 클라우드 파트너를 통해 조기 실증함으로써 **차세대 랙스케일 아키텍처의 상용화 속도**를 입증하고 있으며, 이는 Blackwell 이후 세대 제품 로드맵에 대한 시장 신뢰 확보에 기여한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "CoreWeave, Inc.",
+      "context": "NVIDIA Vera Rubin NVL72를 다중 랙 클러스터로 브링업한 AI 클라우드 제공업체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin NVL72, ConnectX-9, BlueField-4, Spectrum-X 등 하드웨어·네트워킹 플랫폼 공급"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin NVL72",
+      "role": "72개 Rubin GPU + 36개 Vera CPU 구성의 랙스케일 AI 컴퓨팅 플랫폼"
+     },
+     {
+      "name": "NVIDIA Spectrum-X Ethernet",
+      "role": "다중 랙을 단일 스케일아웃 클러스터로 연결하는 네트워킹"
+     },
+     {
+      "name": "NVIDIA ConnectX-9 SuperNIC / BlueField-4 DPU",
+      "role": "GPU당 1.6 Tb/s 스케일아웃 연결 및 데이터 처리 가속"
+     },
+     {
+      "name": "CoreWeave AI Object Storage",
+      "role": "cross-region write acceleration, Archive tier로 GPU 근접 데이터 접근성 강화"
+     },
+     {
+      "name": "CoreWeave Mission Control",
+      "role": "랙 라이프사이클 자동화(하드웨어 감지, 펌웨어, 검증, 전원, 냉각)"
+     }
+    ],
+    "watch_next": [
+     "다중 랙 Vera Rubin NVL72 클러스터의 실제 고객 워크로드 적용 사례 및 성능 지표 공개 여부",
+     "타 클라우드 제공업체(하이퍼스케일러)의 Vera Rubin 도입 일정 및 경쟁 구도",
+     "NVIDIA Rubin 플랫폼 정식 출하 시점 및 물량 확대 계획"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzhZYVlXSExUSkRrV2lIS3hoVGhXb1FYdjBTNWlLR3hoWkJiOF9LUWpXLW5DQXlyRnhlOTRHMHAwUnRvTF9pb2JkcXFtaV80aDE1QlZHaGdIU0tjUVBYMzQtdVA5bUUtWEtkNWhCR01XVmtYQ3RVQXdDV3Y4cmVBOXExb2N6eW9YRFVob1I0NHlCckljRGpLaGhIQ3dMN2s",
+   "body": "New capabilities across compute, storage, and networking keep customers productive and accelerate the AI loop LIVINGSTON, N.J., September 16, 2026--(BUSINESS WIRE)--CoreWeave, Inc. (Nasdaq: CRWV), The Essential Cloud for AI™, today announced the bring up of multi-rack NVIDIA Vera Rubin NVL72 on CoreWeave Cloud, putting hundreds of NVIDIA Rubin GPUs into a single scale-out cluster for agentic AI. The company also announced two new capabilities in CoreWeave AI Object Storage, cross-region write acceleration and a new Archive tier, that keep the data those workloads depend on close to the GPUs. Multi-rack Vera Rubin NVL72 clusters allow for training and inference jobs to run across hundreds of Rubin GPUs. That matters for multi-step agentic workloads, which are sensitive to data-access latency because delays can compound across repeated model calls and tool use. Cross-region write acceleration removes the wait even when working across multiple regions. A job writes locally while CoreWeave replicates the data to another region in the background, so an agent's intermediate state, retrieved context, and outputs move as fast as its reasoning. The GPUs don't wait, and neither does the loop. \"CoreWeave was the first AI cloud provider to validate and bring up a Vera Rubin NVL72, demonstrating that this advanced rack-scale architecture could operate as a reliable, high-performance cloud service,\" said Chen Goldberg, executive vice president of product & engineering at CoreWeave. \"With multi-rack Vera Rubin, we are connecting hundreds of Rubin GPUs as a single scale-out cluster. For customers building agentic AI, that means greater scale, faster iteration, and higher productivity as models and agents continuously learn and improve.\" Scaling agentic AI with multi-rack NVIDIA Vera Rubin NVL72 A single NVIDIA Vera Rubin NVL72 rack pairs 72 Rubin GPUs with 36 Vera CPUs, NVIDIA NVLink 6, NVIDIA ConnectX-9 SuperNICs, and NVIDIA BlueField-4 DPUs. With multi-rack Vera Rubin NVL72, CoreWeave unifies racks of hundreds of accelerators using NVIDIA Spectrum-X Ethernet networking into a single scale-out cluster. This delivers the capacity to train larger models, serve more demanding inference workloads, and run reinforcement learning at scale, and achieves required engineering at every layer across compute, networking, storage, cooling, power, firmware, and software, to perform as one coordinated system. CoreWeave brings multiple racks up as a single system through: - Automating rack life cycle control. Racks arrive as hardware that needs to be connected and validated. CoreWeave Mission Control® automates rack setup through the Rack LifeCycle Controller, which coordinates hardware detection, firmware updates, validation, power, and cooling, with Racky providing rack control and Valvey executing cooling actions. - Validating performance from components to systems. CoreWeave combines NVIDIA field diagnostics with full-rack workload testing, comparing every result, building"
+  },
+  {
+   "source": "Google News · ROI-NJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CoreWeave launches multi-rack NVIDIA Vera Rubin AI cloud clusters",
+   "link": "https://www.roi-nj.com/2026/09/16/tech/coreweave-launches-multi-rack-nvidia-vera-rubin-ai-cloud-clusters/",
+   "date": "2026-09-16 23:46",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "CoreWeave, NVIDIA Vera Rubin 클라우드 클러스터 배포",
+    "korean_summary": "CoreWeave가 NVIDIA Vera Rubin을 활용한 다중 랙 AI 클라우드 클러스터를 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlN4OENJUEdnYld4S215MmhVWmFiaURicm5vSXJjeUxlYU1lakd6OV9zNnJZZ3lmZFV2NUZqeEJScXkxRlhsMFdfU0YzbHRJUFZHSGFWMnNaUm5aanc3cFRZMEhhQkZOZEtWUVNoLXFfYWxlTGxhMXBvNnFnNjYxTnYzcTZrenRtZlE0TFdpVHowd0Z2WE1qLUcxQU1ZMzB6a0t1OURibWo",
+   "body": ""
+  },
+  {
+   "source": "Google News · pulse2.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Emerald AI, Google, And NVIDIA Launch AI Energy Management Alliance With 18 Partners To Advance Flexible AI Data Centers",
+   "link": "https://pulse2.com/ai-energy-management-alliance/",
+   "date": "2026-09-17 07:02",
+   "score": 7,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "AI 에너지 관리 연합, 18개 파트너 참여",
+    "korean_summary": "NVIDIA, Google, Emerald AI가 18개 파트너사와 함께 유연한 AI 데이터센터 구현을 위한 에너지 관리 연합을 출범했다."
+   },
+   "summary_data": {
+    "korean_title": "Emerald AI·Google·NVIDIA, 전력망 유연성 확보 위한 AI Energy Management Alliance 출범",
+    "korean_summary": "Emerald AI, Google, NVIDIA가 18개 파트너와 함께 AI 데이터센터의 전력 소비를 그리드 상황에 맞춰 유연하게 조절하도록 하는 AI Energy Management Alliance(AEMA)를 출범시켰다.",
+    "action": {
+     "actor": "Emerald AI, Google, NVIDIA",
+     "action": "AI 데이터센터가 그리드 피크 시 전력 소비를 동적으로 조정할 수 있도록 하는 연합체(AEMA) 결성, 18개 런칭 파트너 참여",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미국 중심 AI 데이터센터, AI·반도체·유틸리티·에너지 인프라·그리드 소프트웨어 기업 18곳"
+    },
+    "key_facts": [
+     "**Emerald AI, Google, NVIDIA가 공동 창립**하고 18개 런칭 파트너(Anthropic, Analog Devices, AES, National Grid, RWE, Constellation, NRG, Fluence 등)가 참여",
+     "AEMA는 데이터센터가 배터리 저장, 병행 발전, 연산 유연성 등을 통해 그리드를 지원할 경우 **가속화된 계통연계 절차**를 촉진할 계획",
+     "전력 가용성이 자본이나 AI 칩 접근성보다 더 큰 병목이 되고 있다고 참여사들이 주장",
+     "Emerald AI는 최근 **$1.05 billion 밸류에이션에 $150 million Series A**를 유치해 전력 유연 AI 데이터센터 기술 확장 중",
+     "NVIDIA는 기술 중립적·성과 기반 표준(technology-neutral and performance-based standards)을 지지한다고 밝힘"
+    ],
+    "why_matters": "AI 데이터센터의 폭발적 전력 수요가 그리드 연계 지연을 초래하면서 **전력이 AI 인프라 확장의 새로운 병목**으로 부상하고 있다. AEMA는 데이터센터를 단순 전력 소비자가 아닌 그리드 자산으로 전환하려는 시도로, 향후 계통연계 정책과 규제 표준에 영향을 줄 수 있다.",
+    "nvidia_angle": "NVIDIA는 GPU 공급 확대가 곧 전력 집약적 시설 확장과 직결되므로, **그리드 병목 해소가 GPU 판매 성장의 전제조건**이 된다는 점에서 이번 연합 참여가 전략적이다. 기술 중립적·성과 기반 표준을 지지함으로써 자사 하드웨어 아키텍처에 유리한 방향으로 정책 형성에 관여하려는 포지셔닝으로 해석된다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Emerald AI",
+      "context": "공동 창립사, 전력 유연 AI 데이터센터 기술 개발, 최근 $150M Series A 유치"
+     },
+     {
+      "name": "Google",
+      "context": "공동 창립사, 데이터센터 수요 유연성 투자 확대"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "공동 창립사, GPU 공급자로서 그리드 병목 해소에 이해관계, 기술 중립 표준 지지"
+     },
+     {
+      "name": "Anthropic",
+      "context": "런칭 파트너, AI 기업"
+     },
+     {
+      "name": "Analog Devices",
+      "context": "런칭 파트너, 반도체 기업"
+     },
+     {
+      "name": "National Grid",
+      "context": "런칭 파트너, 유틸리티"
+     },
+     {
+      "name": "RWE",
+      "context": "런칭 파트너, 에너지 인프라"
+     },
+     {
+      "name": "Constellation",
+      "context": "런칭 파트너, 유틸리티"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "AEMA의 구체적 기술 표준 및 계통연계 가속화 절차 발표 여부",
+     "Emerald AI Series A 자금의 실제 배치 계획 및 파일럿 프로젝트",
+     "NVIDIA의 데이터센터 전력 관리 관련 하드웨어·소프트웨어 로드맵과의 연계 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Bc0xNYzhWV19wTmdQYlBKbVB3bG42VUxxMmlOcWpxM3ludVhhenRCeGpmNXdvNllDR1JCYVVtTWdpaDg1a3hrNGJlZHVvVkFNbG1GVHRhTG9MOUZqMEHSAWNBVV95cUxOWkZOSkd5VmpicWFGUjlNMmktWUlkNGRjaU9ZZC1SdkNzZHExbENMMXFQWjhQWVJmTnRJRWF0UVRsNGlXNXBBcFZFSWRfcnZ3d2JqNnlKbGNKTEpaYTN2a0NLQm8",
+   "body": "Emerald AI, Google and NVIDIA have launched the AI Energy Management Alliance, a new coalition focused on making AI data centers more flexible participants in the power grid by allowing facilities to dynamically adjust electricity consumption during periods of peak grid stress. The founding members are joined by 18 launch partners spanning AI, semiconductors, utilities, energy infrastructure and grid software. Participants include Anthropic, Analog Devices, AES, National Grid, RWE, Constellation, NRG, Fluence, Generate Capital, GridUnity, Calibrant Energy, Camus, ClearPath, Encoord, PassKey, Splight, Verrus and Voltus. The alliance is being formed around one of the most significant constraints facing the AI infrastructure buildout: access to electricity. As data center development accelerates across the U.S., the companies argue that power availability, rather than capital or access to AI chips, is becoming a major bottleneck. Traditional grid interconnection systems were largely designed around relatively predictable and static electricity demand. AI data centers, however, can require enormous amounts of power and may face years-long waits for grid connections or new generation capacity. AEMA is proposing a different approach in which AI infrastructure can behave more dynamically. Instead of assuming that a data center will consume its maximum power requirement continuously, operators could temporarily reduce or shift certain computing workloads when the grid experiences periods of high demand. The alliance believes this type of demand flexibility can allow more AI infrastructure to connect to existing electrical systems while reducing pressure to immediately construct enough generation and transmission capacity to satisfy every facility’s theoretical peak demand. AEMA plans to promote accelerated interconnection processes for data centers that demonstrate an ability to support the grid through technologies and operating strategies such as colocated power generation, battery storage and computational flexibility. The group will also advocate for policies that recognize flexible AI demand as a potential grid resource rather than treating data centers exclusively as large, inflexible electricity consumers. Computational flexibility is particularly relevant to AI workloads because some computing jobs can potentially be shifted across time or locations. Certain training, inference or background workloads may not need to run at full capacity during the exact periods when regional electricity demand is highest. If software and data center operators can coordinate those workloads with grid conditions, they may be able to reduce electricity consumption temporarily without materially disrupting customer services. That could help utilities manage demand spikes while allowing data centers to secure power connections more quickly. Emerald AI has made power-flexible AI infrastructure central to its strategy. The company argues that data centers capable of re"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super",
+   "date": "2026-09-17 03:48",
+   "score": 7,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Super 모델 업데이트",
+    "korean_summary": "NVIDIA가 로봇과 자율주행용 Physical AI 플랫폼 Cosmos3-Super를 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 물리 AI용 옴니모달 월드 모델 'Cosmos3-Super' 공개",
+    "korean_summary": "NVIDIA가 텍스트·이미지·비디오·오디오·행동 궤적을 통합 입력·출력으로 처리하는 옴니모달 월드 파운데이션 모델 Cosmos3-Super를 Hugging Face에 공개해 로보틱스·자율주행·스마트 스페이스용 Physical AI 개발을 가속화하고자 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Super 옴니모달 월드 모델을 Hugging Face에 업데이트 공개 (상업적/비상업적 사용 가능)",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Cosmos3 모델 컬렉션 내 Super 버전, 로보틱스·자율주행·스마트 스페이스(산업·공장 규모 포함) 적용 대상"
+    },
+    "key_facts": [
+     "**Cosmos3-Super는 텍스트, 이미지, 비디오, 오디오, 행동 궤적을 입력받아 텍스트·이미지·비디오·오디오·행동 명령을 모두 생성하는 옴니모달 모델**",
+     "Hugging Face 다운로드 98,261회, 좋아요 255개 기록",
+     "cosmos, diffusers, safetensors, vllm, sglang, sglang-diffusion 등 다양한 라이브러리/태그와 호환",
+     "**세계 이해(world understanding), 세계 생성, 시뮬레이션, 임바디드 정책 학습(embodied policy learning)의 기반 모델로 설계됨**",
+     "상업적·비상업적 사용 모두 가능하며 White Paper·Code·Website 링크 제공"
+    ],
+    "why_matters": "**단일 모델이 텍스트·이미지·비디오·오디오·행동을 동시에 다루는 옴니모달 구조는 로봇·자율주행 개발에서 별도 모달리티별 모델을 조합해야 했던 기존 파이프라인을 통합할 잠재력을 갖는다.** 이는 Physical AI 파운데이션 모델 경쟁에서 NVIDIA가 데이터·시뮬레이션·정책학습을 아우르는 플랫폼 전략을 강화하고 있음을 보여준다.",
+    "nvidia_angle": "**Cosmos3-Super는 NVIDIA가 Omniverse·Isaac 등 기존 시뮬레이션·로보틱스 스택과 결합해 Physical AI 파운데이션 모델 시장을 선점하려는 핵심 축**이며, Hugging Face 공개를 통해 개발자 생태계 확산과 하드웨어(GPU) 수요 창출을 동시에 노린다.",
+    "auto_robotics_angle": "**행동 궤적(action trajectory)까지 생성하는 옴니모달 월드 모델은 자율주행 시나리오 시뮬레이션과 휴머노이드 로봇의 임바디드 정책 학습(embodied policy learning)에 직접 활용 가능**해, OEM과 로봇 개발사들이 실제 데이터 수집 없이도 다양한 물리 환경·행동을 시뮬레이션·검증하는 데 기여할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Super 모델 개발사, Cosmos 월드 파운데이션 모델 플랫폼 운영"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 및 배포 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Cosmos3-Super",
+      "role": "옴니모달 월드 파운데이션 모델, 텍스트·이미지·비디오·오디오·행동 생성"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "Cosmos3-Super가 속한 상위 월드 파운데이션 모델 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Super의 실제 로보틱스·자율주행 파트너 적용 사례 발표 여부",
+     "White Paper(technical report) 상세 내용 및 벤치마크 성능 공개 여부",
+     "Cosmos3 컬렉션 내 다른 버전(비-Super) 모델과의 성능·용도 비교"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm, vllm-omni, sglang, sglang-diffusion, text, image, video, audio, and action generation, omnimodel · downloads 98261 · likes 255. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super: - Given multimodal inputs including text, images, video, audio, and action trajectories, generate coherent text, images, video, audio, and action outputs for multimodal understanding, world simulation, future prediction, action reasoning, and Phy"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video",
+   "date": "2026-09-17 04:00",
+   "score": 7,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3 이미지-비디오 생성 모델 업데이트",
+    "korean_summary": "NVIDIA가 이미지-비디오 생성용 Cosmos3-Super 변형을 Hugging Face에서 배포했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 물리 AI용 옴니모달 월드 모델 'Cosmos 3' 이미지-투-비디오 모델 업데이트",
+    "korean_summary": "NVIDIA가 로보틱스·자율주행·스마트 스페이스용 Physical AI 개발을 가속화하기 위해 이미지와 텍스트 입력으로 시간적으로 일관된 비디오를 생성하는 'Cosmos3-Super-Image2Video' 모델을 Hugging Face에 업데이트했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3 월드 모델 컬렉션 중 Cosmos3-Super-Image2Video 모델을 Hugging Face에 업데이트 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "이미지+텍스트 입력 기반 image-to-video 생성, 상업적·비상업적 사용 가능"
+    },
+    "key_facts": [
+     "Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력 조합으로 비디오, 이미지, 오디오, 액션 커맨드를 생성하는 **옴니모달 월드 모델** 컬렉션",
+     "Cosmos3-Super-Image2Video는 하나의 입력 이미지와 텍스트 지시로 시각적 내용과 일관된 시간적 비디오 시퀀스를 생성",
+     "다운로드 47,699회, 좋아요 155개로 커뮤니티에서 활발히 사용 중",
+     "라이선스는 **OpenMDW1.1**이며 상업적·비상업적 사용 모두 가능",
+     "cosmos, diffusers, safetensors, cosmos3_omni, vllm-omni, sglang-diffusion 등 다수 프레임워크·태그와 연동"
+    ],
+    "why_matters": "물리 세계를 이해·시뮬레이션하는 월드 파운데이션 모델은 로보틱스와 자율주행 데이터 부족 문제를 해결할 핵심 인프라로 부상하고 있다. **NVIDIA가 오픈 라이선스로 Cosmos3를 공개**함으로써 Physical AI 생태계에서 표준 플랫폼 지위를 선점하려는 경쟁 구도가 뚜렷해진다.",
+    "nvidia_angle": "Cosmos는 NVIDIA의 GPU·소프트웨어 스택(diffusers, vllm-omni, sglang)과 결합된 **Physical AI 파운데이션 모델 전략의 핵심 축**으로, 시뮬레이션 데이터 생성을 통해 하드웨어 판매와 소프트웨어 플랫폼 lock-in을 동시에 추구한다.",
+    "auto_robotics_angle": "**이미지 한 장으로 물리적으로 그럴듯한 비디오를 생성**하는 능력은 자율주행 시나리오 시뮬레이션과 휴머노이드 로봇의 sim-to-real 학습 데이터 생성에 직접 활용될 수 있어, OEM과 로봇 기업들이 실차/실기 데이터 수집 비용을 줄이는 데 기여할 것으로 보인다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 모델 개발사이자 배포 주체"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 및 배포 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Super-Image2Video",
+      "role": "이미지+텍스트 입력 기반 비디오 생성 모델"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "Physical AI용 월드 파운데이션 모델 플랫폼 전체"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3 컬렉션 내 타 모델(텍스트-투-비디오, 액션 조건부 모델 등)과의 통합 활용 사례",
+     "자동차 OEM·자율주행 기업의 Cosmos3 기반 시뮬레이션 데이터 파이프라인 도입 여부",
+     "휴머노이드 로봇 기업의 sim-to-real 학습에 Cosmos3 적용 사례 발표"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, image-to-video, video-generation · downloads 47699 · likes 155. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Image2Video: - Given one input image and text instructions, generate temporally coherent video sequences that are consistent with the provided visual content. ### License This model is released under the [OpenMDW1.1](https://openmdw.ai"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Edge-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Edge-Policy-DROID",
+   "date": "2026-09-17 04:00",
+   "score": 7,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Edge-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Edge-Policy-DROID 로봇 정책 모델 업데이트",
+    "korean_summary": "NVIDIA가 로봇 제어용 DROID 정책 모델 Cosmos3-Edge-Policy-DROID를 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, DROID 로봇 플랫폼용 정책모델 'Cosmos3-Edge-Policy-DROID' 공개",
+    "korean_summary": "NVIDIA가 언어 지시와 시각 관측을 입력받아 DROID 로봇 플랫폼에서 조작·제어 행동 궤적을 생성하는 경량(Edge) 정책모델 Cosmos3-Edge-Policy-DROID를 Cosmos3 월드모델 컬렉션의 일부로 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3 컬렉션 소속 로봇 정책모델 Cosmos3-Edge-Policy-DROID를 Hugging Face에 공개(업데이트)",
+     "stage": "Available",
+     "timeline": "2026-07-20 (모델 카드 명시 릴리스일)",
+     "scope": "DROID 로봇 플랫폼 기반 매니퓰레이션·제어 태스크, 상업적·비상업적 사용 가능"
+    },
+    "key_facts": [
+     "모델명: Cosmos3-Edge-Policy-DROID, 릴리스일 2026-07-20 명시",
+     "**언어 지시(text)와 시각 관측(image/video)을 입력받아 로봇 행동 궤적(action trajectory)을 직접 생성**하는 embodied policy model",
+     "DROID 로봇 플랫폼 대상으로 매니퓰레이션·제어 태스크 수행",
+     "Hugging Face 다운로드 1,679회, 좋아요 11개",
+     "Cosmos3(Omnimodal World Models for Physical AI) 컬렉션의 일부로, 텍스트·이미지·비디오·액션 궤적을 결합해 비디오/이미지/오디오/액션 명령을 생성하는 옴니모달 월드 파운데이션 모델 플랫폼에 속함"
+    ],
+    "why_matters": "**로봇 조작 정책을 언어·시각 입력으로부터 직접 생성하는 embodied policy model은 휴머노이드·매니퓰레이터 개발사가 처음부터 정책을 학습하지 않고 파운데이션 모델을 파인튜닝해 개발 기간을 단축할 수 있게 한다.** DROID는 업계에서 널리 쓰이는 오픈 로봇 매니퓰레이션 데이터셋/플랫폼이라 NVIDIA가 이를 공식 지원 대상으로 삼은 것은 로봇 정책 생태계 내 표준화 시도로 해석될 수 있다.",
+    "nvidia_angle": "**Cosmos 플랫폼을 비디오/시뮬레이션 생성에서 나아가 실제 로봇 행동 궤적 생성까지 확장**함으로써, NVIDIA는 Physical AI 스택(시뮬레이션→정책→배포)을 하나의 파운데이션 모델 생태계로 통합하려는 전략을 보여준다.",
+    "auto_robotics_angle": "**'Edge'가 붙은 경량 정책모델은 온보드(엣지) 추론이 필수인 휴머노이드·산업용 로봇팔에 직접 배포 가능성을 시사**하며, DROID 플랫폼 채택은 로봇 OEM·연구기관이 자체 데이터로 파인튜닝해 매니퓰레이션 능력을 빠르게 확보하도록 지원하는 오픈 정책모델 생태계 구축 움직임과 맞닿아 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 및 Cosmos3-Edge-Policy-DROID 모델 개발사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Edge-Policy-DROID",
+      "role": "DROID 로봇 플랫폼용 언어·시각 조건부 행동 궤적 생성 정책모델"
+     },
+     {
+      "name": "Cosmos3",
+      "role": "옴니모달 Physical AI 월드 파운데이션 모델 컬렉션(상위 플랫폼)"
+     },
+     {
+      "name": "DROID",
+      "role": "모델이 대상으로 하는 로봇 매니퓰레이션 플랫폼/데이터셋"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3 컬렉션 내 다른 정책·세계모델(비-DROID 대상) 공개 여부",
+     "DROID 외 실제 로봇 하드웨어(휴머노이드 등)에서의 배포·벤치마크 결과",
+     "NVIDIA GitHub Cosmos 저장소 및 White Paper를 통한 기술 상세(아키텍처, 학습 데이터 규모) 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Edge-Policy-DROID:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 1679 · likes 11. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Edge-Policy-DROID ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions **Released on: 07/20/2026** - Cosmos3-Edge-Policy-DROID: - Given language instructions and visual observations from the DROID robot platform, generate robot action trajectories for manipulation and control tasks. ### License This model is released und"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Policy-DROID",
+   "date": "2026-09-17 04:00",
+   "score": 7,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Nano-Policy-DROID 경량 로봇 정책 모델 업데이트",
+    "korean_summary": "NVIDIA가 경량 로봇용 Cosmos3-Nano-Policy-DROID 모델을 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, DROID 로봇 플랫폼용 소형 정책 모델 'Cosmos3-Nano-Policy-DROID' 업데이트",
+    "korean_summary": "NVIDIA가 언어 지시와 시각 관찰을 입력받아 로봇 조작 행동 궤적을 생성하는 Cosmos3 기반 소형 정책 모델 'Cosmos3-Nano-Policy-DROID'를 Hugging Face에서 업데이트했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DROID 로봇 플랫폼 대상 Cosmos3 옴니모달 월드 모델 계열의 소형 정책 모델을 Hugging Face에 업데이트 및 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "DROID 로봇 플랫폼, 조작·제어(manipulation and control) 태스크, 상업·비상업적 사용 가능"
+    },
+    "key_facts": [
+     "Cosmos3-Nano-Policy-DROID는 언어 지시(language instructions)와 DROID 로봇 플랫폼의 시각 관찰(visual observations)을 입력으로 **로봇 행동 궤적(action trajectories)을 생성**하는 정책 모델이다",
+     "Cosmos3는 텍스트·이미지·비디오·행동 궤적 조합으로부터 비디오, 이미지, 오디오, 행동 명령을 생성하는 옴니모달(Omnimodal) 월드 파운데이션 모델 플랫폼이다",
+     "라이브러리 태그는 cosmos, diffusers, safetensors이며 cosmos3_omni, world action model, policy model 등으로 분류된다",
+     "다운로드 2,430회, 좋아요 34회를 기록했다",
+     "**OpenMDW1.1 라이선스**로 배포되며 상업적·비상업적 사용이 모두 허용된다"
+    ],
+    "why_matters": "로봇공학, 자율주행, 스마트 스페이스를 아우르는 Physical AI 개발을 가속화하기 위한 NVIDIA Cosmos 플랫폼의 실제 정책 모델 적용 사례로, **월드 모델이 시뮬레이션을 넘어 실제 행동 생성까지 확장**됨을 보여준다. DROID라는 개방형 로봇 데이터셋/플랫폼 기반 모델이라는 점에서 로보틱스 연구 커뮤니티의 재현성과 채택 가능성을 높인다.",
+    "nvidia_angle": "NVIDIA는 Cosmos를 단순 시뮬레이션·데이터 생성 도구에서 **직접 로봇 행동을 출력하는 정책 모델(policy model)**로 확장하며 Physical AI 스택의 수직 통합을 강화하고 있다. Nano급 경량 모델 출시는 엣지·온보드 추론 시나리오를 겨냥해 Jetson 등 자사 하드웨어와의 연계 가능성을 시사한다.",
+    "auto_robotics_angle": "**DROID 플랫폼 기반 조작(manipulation) 정책 모델**은 휴머노이드·매니퓰레이터 로봇 OEM이 자체 데이터 없이도 언어-비전 지시 기반 제어를 빠르게 프로토타이핑할 수 있게 해주며, 자율주행 분야의 월드 모델 접근법이 로봇 조작 태스크로도 전이되고 있음을 보여준다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 및 Cosmos3-Nano-Policy-DROID 모델 개발사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano-Policy-DROID",
+      "role": "DROID 로봇 플랫폼용 소형 정책 모델, 언어·시각 입력으로 로봇 행동 궤적 생성"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "Physical AI 개발을 위한 월드 파운데이션 모델 플랫폼"
+     },
+     {
+      "name": "DROID",
+      "role": "모델 학습·평가에 사용된 로봇 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Nano-Policy-DROID의 벤치마크 성능(조작 태스크 성공률 등) 공개 여부",
+     "Jetson 등 NVIDIA 엣지 하드웨어에서의 실제 배포·추론 사례 확인",
+     "Cosmos3 모델 컬렉션 내 타 플랫폼(비-DROID) 정책 모델 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Policy-DROID:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 2430 · likes 34. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Nano-Policy-DROID ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Nano-Policy-DROID: - Given language instructions and visual observations from the DROID robot platform, generate robot action trajectories for manipulation and control tasks. ### License This model is released under the [OpenMDW1.1](https://"
+  },
+  {
+   "source": "Google News · Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Data centers can be good citizens. It’s why we’re partnering with Google and Nvidia to create the AI Energy Management Alliance",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZFhEVlhXdFZRUlpCZU1zNUdtTGp1VVA5Xy1xME1PWTZUY0Y3bzNucElsdjl2bzhRQ1BzRmxHTjRVbEdSSFJJWm1UN3ljbkZQSkdFaEhteXdTY09xVGpmRXV4TTFtemFFOElKcWNLRkVabS1FV1h1RzdRRTh6UWFCUmFSanQ3SHpfM1c4Z1NFMGlHeDN1b2tILXVzUl9mNC1zbXByNnlmZzhIZw?oc=5",
+   "date": "2026-09-16 21:58",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Google과 NVIDIA, AI Energy Management Alliance 협력",
+    "korean_summary": "Google과 NVIDIA가 데이터센터 에너지 효율을 관리하는 AI Energy Management Alliance를 구성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZFhEVlhXdFZRUlpCZU1zNUdtTGp1VVA5Xy1xME1PWTZUY0Y3bzNucElsdjl2bzhRQ1BzRmxHTjRVbEdSSFJJWm1UN3ljbkZQSkdFaEhteXdTY09xVGpmRXV4TTFtemFFOElKcWNLRkVabS1FV1h1RzdRRTh6UWFCUmFSanQ3SHpfM1c4Z1NFMGlHeDN1b2tILXVzUl9mNC1zbXByNnlmZzhIZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "IonQ, ORNL, NVIDIA, and the University of Tennessee, Knoxville Show AI Method Reduces Quantum Optimization Trade Off",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZWNrMm1HWmlveHBNMFR6YVZGaTJQcE5LeDB1by1STjRYUnNJTXFyanBzSk4xbkRPMjBiUTJRc3FGRGhCcmxpS2pHNXk5WHk1Z3BJbXdCd0xpN3NybzloVjdQcEJrbjFFTjhfNU95RUNVTF9laUhMX1cydFc1em5RWVFmdXNtbkZjT0VWNEJTQzBfTXMwQlVjN3dVU1d0a05ISmpnZkpPZGFRdGRxYlcwcDl3ZW5pbWlISWs5ampLaEo1elhUeWROVGg1WllHa3FQUlBiY2RZTFRNcnVWbG5idXA5S1Uxa29vUnFKbWxqVW4tSVp3czA0d2VMYW5aQQ?oc=5",
+   "date": "2026-09-16 22:54",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_auto": false,
+    "signal_tags": [
+     "research",
+     "partnership"
+    ],
+    "korean_title": "IonQ·ORNL·NVIDIA·테네시대, AI 기법으로 양자최적화 트레이드오프 감소",
+    "korean_summary": "IonQ, Oak Ridge National Lab, NVIDIA, University of Tennessee Knoxville이 AI 방법으로 양자컴퓨팅 최적화의 트레이드오프를 감소시켰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZWNrMm1HWmlveHBNMFR6YVZGaTJQcE5LeDB1by1STjRYUnNJTXFyanBzSk4xbkRPMjBiUTJRc3FGRGhCcmxpS2pHNXk5WHk1Z3BJbXdCd0xpN3NybzloVjdQcEJrbjFFTjhfNU95RUNVTF9laUhMX1cydFc1em5RWVFmdXNtbkZjT0VWNEJTQzBfTXMwQlVjN3dVU1d0a05ISmpnZkpPZGFRdGRxYlcwcDl3ZW5pbWlISWs5ampLaEo1elhUeWROVGg1WllHa3FQUlBiY2RZTFRNcnVWbG5idXA5S1Uxa29vUnFKbWxqVW4tSVp3czA0d2VMYW5aQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CoreWeave Doubles Down on Nvidia at Critical Moment",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb1V4MmFWQXZSdnBuOUJ0ellZcEVfbzlKN0Z5My1JMHFMeDlPRm5Db2Z2RDhEcGg5Vi1DMjQtNEpMUUhJdS10TnNQamlFNVpzemxmNmxuTDdQMVNPWGhWYk5uYVYyQVBJS19WQ21fd19GNHdRSG5QMmdzckJJWnp3N25uT2FSc0lSMHFtYmRtQTZRZU9YYW81SWs5aEthQ1Q1UlB2TExYMXFyZjE0YUJMWQ?oc=5",
+   "date": "2026-09-17 05:18",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "CoreWeave, 위기 상황에서 엔비디아 투자 강화",
+    "korean_summary": "CoreWeave가 중요한 시점에 엔비디아에 대한 투자를 배가하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQb1V4MmFWQXZSdnBuOUJ0ellZcEVfbzlKN0Z5My1JMHFMeDlPRm5Db2Z2RDhEcGg5Vi1DMjQtNEpMUUhJdS10TnNQamlFNVpzemxmNmxuTDdQMVNPWGhWYk5uYVYyQVBJS19WQ21fd19GNHdRSG5QMmdzckJJWnp3N25uT2FSc0lSMHFtYmRtQTZRZU9YYW81SWs5aEthQ1Q1UlB2TExYMXFyZjE0YUJMWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s DSX MaxLPS Drives 40% More Token Throughput Per Megawatt, As Lambda’s Cluster Jumps To 5 Million Tokens Per Second",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEFEZzRXWXFKendRU1N0Rkp6NHZpY2JhZW1UeVY4YkdObTBWWFBOMW4tbHhoTjg4dURQZ2dLaEIzbFo1aVlkVGFycDd0Z05LR05NS2RFbTNCNUdONjhmUDZ6WmtzTUZKa3JOVXNpbHZjTEFXUlRLSnpyUGx0UmxhUUNjVGtVUHVK0gGOAUFVX3lxTFBhWGNzYUdWV0xjQTJaMkFRb0ttZ1BGbHBHekhYQ00wdVlCSTlUTk5JcURnUHNyY0FwV1UycThHYjE5bXN5RDJ6WG9OOTRwQlF2RVIyaExralc2WVQ0S05OMUZlWjJrbEtrTlJMdmNfRzBNS0puLUlTNEprQzJNME9ja0RNNTNRc1ktM0ZfRUE?oc=5",
+   "date": "2026-09-16 23:10",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA DSX MaxLPS, 메가와트당 토큰 처리량 40% 향상",
+    "korean_summary": "NVIDIA DSX MaxLPS가 메가와트당 40% 증가된 토큰 처리량을 달성하고 Lambda 클러스터가 초당 500만 토큰에 도달했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEFEZzRXWXFKendRU1N0Rkp6NHZpY2JhZW1UeVY4YkdObTBWWFBOMW4tbHhoTjg4dURQZ2dLaEIzbFo1aVlkVGFycDd0Z05LR05NS2RFbTNCNUdONjhmUDZ6WmtzTUZKa3JOVXNpbHZjTEFXUlRLSnpyUGx0UmxhUUNjVGtVUHVK0gGOAUFVX3lxTFBhWGNzYUdWV0xjQTJaMkFRb0ttZ1BGbHBHekhYQ00wdVlCSTlUTk5JcURnUHNyY0FwV1UycThHYjE5bXN5RDJ6WG9OOTRwQlF2RVIyaExralc2WVQ0S05OMUZlWjJrbEtrTlJMdmNfRzBNS0puLUlTNEprQzJNME9ja0RNNTNRc1ktM0ZfRUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Eyes NVIDIA’s NVLink Fusion For Its M8-Based Baltra Servers, Signaling A Return To Enterprise Hardware After 2011 Exit",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV3czT1dlZUdhVGJpcGJRNkhLUnAzN2hRdWI1MGF1STNpMXkwcjM2dHlFZ2RhUkQ1QThtUFFFYlFFRzVveW9DSlE5RFpmRDQtSVJoZktyWWhLekYxcVRqVURtT1RhQ1dseGIzbkxUS2FXVjRheG9ZSVFQTHFoeVB1WHpueHVSWXVVVzV5OHZFNFdFMUxkNmhoTEc4ZTJFZ2xmZGdTVzlEVUR0TkNGM0dzNGZ3X1pxZWQ0ZmNUcjVtLXJKSDhiYm1LTWFJTU5IODVLWVA1SmJGNDRlbTBE0gHiAUFVX3lxTE1CeHBZOGdtbm92b24yUzhRZVVqbmtXWGFHbWNwZzFYWldVVjdfMXpoYTFiYXlFZl91cHVlQnVQd2w4aVhVc3BiZ2pwTTBVNlhmdzJWc0FiVkhOUElmYk43NWd2RUdoNEN5TzlCOE8wcUsyVFEwUWhtU0t5ZFdPX3ZfTzJZamtNTjFzMnJkN2dpR1JFXzU0NURUTkQ0NUNUUndDM083cGRHUTRCanJ5U3pLN3BkN2ZITVA5NHdkQ1JkcWZzR0RnekFMSzVvNUdKSXplUzk5NTdfOUNRZzNud1I5QXc?oc=5",
+   "date": "2026-09-17 03:37",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, NVIDIA NVLink Fusion 도입 추진",
+    "korean_summary": "Apple이 M8 기반 Baltra 서버에 NVIDIA의 NVLink Fusion 도입을 검토 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOV3czT1dlZUdhVGJpcGJRNkhLUnAzN2hRdWI1MGF1STNpMXkwcjM2dHlFZ2RhUkQ1QThtUFFFYlFFRzVveW9DSlE5RFpmRDQtSVJoZktyWWhLekYxcVRqVURtT1RhQ1dseGIzbkxUS2FXVjRheG9ZSVFQTHFoeVB1WHpueHVSWXVVVzV5OHZFNFdFMUxkNmhoTEc4ZTJFZ2xmZGdTVzlEVUR0TkNGM0dzNGZ3X1pxZWQ0ZmNUcjVtLXJKSDhiYm1LTWFJTU5IODVLWVA1SmJGNDRlbTBE0gHiAUFVX3lxTE1CeHBZOGdtbm92b24yUzhRZVVqbmtXWGFHbWNwZzFYWldVVjdfMXpoYTFiYXlFZl91cHVlQnVQd2w4aVhVc3BiZ2pwTTBVNlhmdzJWc0FiVkhOUElmYk43NWd2RUdoNEN5TzlCOE8wcUsyVFEwUWhtU0t5ZFdPX3ZfTzJZamtNTjFzMnJkN2dpR1JFXzU0NURUTkQ0NUNUUndDM083cGRHUTRCanJ5U3pLN3BkN2ZITVA5NHdkQ1JkcWZzR0RnekFMSzVvNUdKSXplUzk5NTdfOUNRZzNud1I5QXc",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia announces native GPU programming in Rust",
+   "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+   "date": "2026-09-16 20:15",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, Rust 개발자를 위한 GPU 프로그래밍 지원 추가",
+    "korean_summary": "NVIDIA가 Rust에서 GPU 커널을 직접 작성할 수 있는 CUDA Rust 프로그래밍 기능 출시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+   "body": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 94 # Comments: 36"
+  },
+  {
+   "source": "Google News · NVIDIA Developer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog",
+   "link": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+   "date": "2026-09-17 08:23",
+   "score": 6,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "AI 에이전트를 활용한 3D 시뮬레이션 장면 준비 기술 해설",
+    "korean_summary": "NVIDIA 기술 블로그에서 AI 에이전트를 사용하여 3D 시뮬레이션 환경을 구성하는 방법을 소개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI 에이전트로 3D 씬을 로봇 시뮬레이션용으로 자동 준비하는 워크플로 공개",
+    "korean_summary": "NVIDIA가 Codex·Nemotron 기반 멀티 에이전트와 Omniverse Libraries를 결합해 Blender 3D 씬을 Isaac Sim/Isaac Lab에서 사용할 수 있는 SimReady OpenUSD 월드로 자동 변환하는 워크플로를 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Agentic AI 워크플로(Codex/Astra 오케스트레이션 + NemoClaw 서브에이전트 + Omniverse Libraries)를 통해 Blender 씬을 SimReady OpenUSD로 변환·검증하는 방법을 기술 블로그로 공개",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "NVIDIA Isaac Sim, Isaac Lab을 사용하는 로보틱스 시뮬레이션 엔지니어 대상"
+    },
+    "key_facts": [
+     "Codex는 **OpenAI GPT-6 Astra**로 구동되며 전체 작업을 조율하고 결과를 해석·반복 개선을 지시함",
+     "특화된 서브에이전트는 Hermes 에이전트 하네스로 구축되어 **NVIDIA NemoClaw**를 통해 배포되며 Omniverse Libraries로 씬을 조작함",
+     "Omniverse Libraries 구성: OpenUSD(씬 구조), ovphysx(물리 속성 작성·검사), ovrtx(프리플라이트 렌더링), SimReady validation(검증)",
+     "서브에이전트는 OpenClaw, LangChain 등 오픈소스 하네스와 다양한 NVIDIA Nemotron 모델(비전·추론·도구 사용)로도 구성 가능",
+     "안전한 기계적 문제는 자동 수정되고, 개발자 의도가 필요한 모호한 결정(시맨틱 라벨, 물리적 거동 등)은 인간에게 에스컬레이션됨"
+    ],
+    "why_matters": "로봇 정책·모델 학습의 병목이 실제로는 시뮬레이션 준비가 안 된 3D 월드에 있다는 점을 짚으며, 이 지루한 전처리 작업을 에이전틱 AI로 자동화하면 로보틱스 시뮬레이션 개발 속도가 크게 향상될 수 있다. **멀티 에이전트(조율-추론-실행) 아키텍처**가 3D 콘텐츠 파이프라인 전반에 표준 패턴으로 확산될 가능성을 시사한다.",
+    "nvidia_angle": "NVIDIA는 Omniverse Libraries, OpenUSD, Isaac Sim/Isaac Lab, Nemotron, NemoClaw를 하나의 스택으로 묶어 **로보틱스 시뮬레이션 준비 자동화의 표준 인프라 공급자** 위치를 강화하려 하며, OpenAI Codex/Anthropic Claude 같은 외부 범용 에이전트와도 상호운용되는 개방형 참조 아키텍처를 제시한다.",
+    "auto_robotics_angle": "휴머노이드·산업용 로봇 개발사와 자율주행 시뮬레이션 팀이 겪는 SimReady 데이터 병목(라벨링, 충돌 메시, 센서 배치 등)을 에이전트가 대신 처리하게 되면 **디지털 트윈 기반 로봇 학습 파이프라인의 개발 사이클이 단축**될 수 있다. 이는 OEM·로봇 제조사가 물리 AI 훈련용 시뮬레이션 환경을 확장할 때 NVIDIA Isaac 생태계 의존도를 높이는 요인으로 작용할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Omniverse Libraries, Isaac Sim/Isaac Lab, Nemotron, NemoClaw 제공"
+     },
+     {
+      "name": "OpenAI",
+      "context": "Codex(GPT-6 Astra 기반)를 오케스트레이션 에이전트로 제공"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Claude Cowork를 대안 오케스트레이션 에이전트로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Omniverse Libraries",
+      "role": "3D 씬 조작·물리 구성·렌더링·검증 도구 제공"
+     },
+     {
+      "name": "NVIDIA Isaac Sim / Isaac Lab",
+      "role": "SimReady OpenUSD 씬의 최종 사용처(로봇 시뮬레이션·학습 환경)"
+     },
+     {
+      "name": "NVIDIA NemoClaw",
+      "context": "미확인",
+      "role": "특화 서브에이전트 배포를 위한 참조 아키텍처"
+     },
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "서브에이전트의 비전·추론·도구 사용 모델"
+     },
+     {
+      "name": "OpenUSD",
+      "role": "씬 구조 및 시뮬레이션 메타데이터의 공통 포맷"
+     },
+     {
+      "name": "Codex (Astra)",
+      "role": "전체 워크플로 조율 및 결과 해석 담당 메인 에이전트"
+     },
+     {
+      "name": "Hermes",
+      "role": "서브에이전트 구축용 오픈소스 에이전트 하네스"
+     }
+    ],
+    "watch_next": [
+     "NemoClaw 및 Astra 기반 워크플로의 실제 출시 일정·가용성",
+     "Isaac Sim/Isaac Lab 사용자 대상 이 워크플로의 실제 도입 사례 및 성능 지표",
+     "OpenAI Codex, Anthropic Claude와의 NVIDIA 스택 상호운용 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMVJISFVuOUZsZ0lySjk3bzZFVTBuNm1DdlFRd2RHdVhNcjljLWIwS1RQSXd6bXJBMmdWNWVaUk9FdTJFYWFxNUNBMGxRbG14Y25YaWYyaGNOenRKdFhKazJnTWFfakx0ajVNZWhHQVNQSFQ5V3N1RUJHWTI3dFZiZ3l0UG5fZFZDalVrN2htVzdWV2JjV3c?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMVJISFVuOUZsZ0lySjk3bzZFVTBuNm1DdlFRd2RHdVhNcjljLWIwS1RQSXd6bXJBMmdWNWVaUk9FdTJFYWFxNUNBMGxRbG14Y25YaWYyaGNOenRKdFhKazJnTWFfakx0ajVNZWhHQVNQSFQ5V3N1RUJHWTI3dFZiZ3l0UG5fZFZDalVrN2htVzdWV2JjV3c",
+   "body": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties, render preflight views, and validate the result against simulation-ready (SimReady) requirements. This workflow follows that process from a scene in Blender to a simulation-ready OpenUSD handoff for NVIDIA Isaac Sim or NVIDIA Isaac Lab. In practice, however, if you’re building agents for robotics, the workflow can often get stuck. It’s tempting to blame the hard part on the policy, the model, or the training loop, but the bottleneck often happens earlier: the robot does not have a simulation-ready world to train in. The extra work required to get a 3D scene into that state is laborious, time consuming, and frequently out of scope for the robotics simulation engineer. This post walks through an agent workflow for preparing a Blender scene for robotics simulation using NVIDIA Omniverse Libraries. Codex, powered by OpenAI GPT-6 Astra, coordinates the overall task, interprets results, and guides iteration. Specialized subagents built with the Hermes agent harness and deployed through NVIDIA NemoClaw use Omniverse Libraries to inspect the scene, author simulation metadata, configure physics, and render visual preflight views. Together, these components connect reasoning, tool execution, and validation into a repeatable process for delivering a simulation-ready OpenUSD world. Why is preparing a 3D scene for simulation challenging? The scene exists—the assets are there, created by a 3D artist in Blender—but is it usable for simulation? Has all of the following prep work been done? - Are objects labeled? - Are collision meshes correct? - Are materials meaningful for simulation? - Are sensors placed and configured? - Does the scene export cleanly to USD? - Can the robot perceive the target objects? - Will the scene pass validation before you burn time debugging it in Isaac Sim or Isaac Lab? This prep work is tedious, repetitive, and easy to get wrong. It is also exactly the kind of work agentic systems should help with, if they have the right tools. The point of using NVIDIA Omniverse Libraries in an agent workflow is to integrate the tools agents need to build SimReady worlds. How can agents help prepare a 3D scene for simulation? A general-purpose agent such as Codex by ChatGPT or Claude Cowork by Anthropic can look at a Blender scene and recognize that it needs to be made simulation-ready. Recognition is useful, but it’s not enough. To help a robotics developer, the agent must be able to act on the scene: - Inspect the Blender scene - Identify missing simulation metadata - Add semantic labels - Configure sensors - Author collision shapes and physics properties - Render visual preflight views - Run SimReady validation - Automatically repair safe issues - Escalate ambiguous decisions to a human A broad request to make a 3D scene ready for simulation becomes a mult"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Investors May Respond To Synaptics (SYNA) Tactile Sensing Integration With NVIDIA Isaac Sim",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-synaptics-syna-201220953.html",
+   "date": "2026-09-17 05:12",
+   "score": 6,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "시냅틱스, NVIDIA Isaac Sim에 촉각 센싱 기능 통합",
+    "korean_summary": "시냅틱스가 NVIDIA의 로봇 시뮬레이션 플랫폼 Isaac Sim에 촉각 센싱 기술을 통합했다."
+   },
+   "summary_data": {
+    "korean_title": "Synaptics, 촉각 센싱 모듈을 NVIDIA Isaac Sim에 통합",
+    "korean_summary": "Synaptics가 자사 CTS 촉각 센싱 모듈(SN6012T 컨트롤러 탑재)을 NVIDIA Isaac Sim에서 지원하도록 만들어 로봇 핸드·그리퍼 등 Physical AI 시스템의 접촉·힘 상호작용 프로토타이핑을 지원한다고 발표했다.",
+    "action": {
+     "actor": "Synaptics Incorporated",
+     "action": "CTS 촉각 센싱 모듈을 NVIDIA Isaac Sim 로보틱스 시뮬레이션 프레임워크에서 지원되도록 통합",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "CTS 촉각 센싱 모듈(SN6012T 컨트롤러), Isaac Sim 및 NVIDIA Holoscan 연동 범위"
+    },
+    "key_facts": [
+     "Synaptics의 **첫 CTS 촉각 센싱 모듈**이 SN6012T 컨트롤러로 구동되며 NVIDIA Isaac Sim에서 지원됨",
+     "개발자들이 로봇 핸드, 그리퍼 등 Physical AI 시스템의 접촉·힘 상호작용을 프로토타입·검증할 수 있음",
+     "Synaptics의 CTS 모듈과 **Astra Edge AI 프로세서가 NVIDIA Holoscan과 통합**되어 터치·비전·모션 데이터를 통합",
+     "Synaptics 내러티브는 2029년까지 매출 16억 달러, 순이익 2120만 달러(현재 -4.908억 달러 대비 5.12억 달러 개선) 목표, 연 9.4% 매출 성장 가정",
+     "공정가치는 130.33달러로 현재가 대비 34% 상승 여력으로 제시(투자 내러티브 기준)"
+    ],
+    "why_matters": "촉각 센싱은 로봇 그리퍼·휴머노이드 핸드의 정밀 조작을 위한 핵심 감각 모달리티로, 비전·모션 중심이던 로보틱스 시뮬레이션에 터치 데이터를 추가하는 시도다. **Synaptics 같은 센서·엣지 컴퓨팅 업체들이 NVIDIA 생태계에 편입**되면서 Physical AI 개발 파이프라인이 하드웨어 벤더 전반으로 확장되는 흐름을 보여준다.",
+    "nvidia_angle": "NVIDIA는 Isaac Sim과 Holoscan을 통해 **비전·모션·터치를 통합하는 로보틱스 개발 플랫폼**으로서의 위치를 강화하며, 서드파티 센서 업체의 생태계 참여를 유도해 시뮬레이션-투-리얼(Sim-to-Real) 워크플로우의 표준화를 촉진한다.",
+    "auto_robotics_angle": "휴머노이드 로봇 및 정밀 조작(dexterous manipulation)이 필요한 그리퍼 개발사들은 실제 하드웨어 배치 전 **Isaac Sim에서 접촉·힘 상호작용을 사전 검증**할 수 있어 개발 비용과 시간을 줄일 수 있으며, 이는 자동차 제조 라인의 로봇 조립 공정에도 적용 가능성이 있다.",
+    "companies": [
+     {
+      "name": "Synaptics Incorporated",
+      "context": "CTS 촉각 센싱 모듈 및 Astra Edge AI 프로세서 개발사, NVIDIA Isaac Sim 통합 발표 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Isaac Sim 및 Holoscan 플랫폼 제공, Synaptics 통합을 지원하는 생태계 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "CTS 촉각 센싱 모듈 (SN6012T)",
+      "role": "로봇 핸드·그리퍼용 접촉·힘 감지 하드웨어, Isaac Sim에서 지원됨"
+     },
+     {
+      "name": "NVIDIA Isaac Sim",
+      "role": "로보틱스 시뮬레이션 프레임워크, CTS 모듈 프로토타이핑·검증 환경 제공"
+     },
+     {
+      "name": "NVIDIA Holoscan",
+      "context": "미확인"
+     },
+     {
+      "name": "Synaptics Astra",
+      "role": "Edge AI 프로세서, 터치·비전·모션 데이터 통합에 관여"
+     }
+    ],
+    "watch_next": [
+     "CTS 모듈이 실제 로봇 핸드·그리퍼 제품에 채택되는 구체적 고객사 및 출시 시점",
+     "Astra Edge AI 프로세서와 Holoscan 통합의 상세 기술 스펙 및 상용화 로드맵",
+     "Synaptics의 Core IoT·Astra 사업부 실적이 Edge AI/Physical AI 투자 내러티브를 뒷받침하는지 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "How Investors May Respond To Synaptics (SYNA) Tactile Sensing Integration With NVIDIA Isaac Sim",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTThTdTA2d1AtSWJrRVNPdXRRQ0FXRVpoMVBZbHVGblVQZUNqcFczWFM1LWxhbjZSSmpNUUcwY1MwWFEtZWIzU3puTl9NU3huclhHMlM1LWZGbDlIcjB5NkZkX2RTRjgzUzhQaEZGWkNZdWJhM3VwVF9WOXNYWDVyb0hNUDdGM01IYTlmbThJUXFTNGdHTm1URWRpX2dOREJBZXhz?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTThTdTA2d1AtSWJrRVNPdXRRQ0FXRVpoMVBZbHVGblVQZUNqcFczWFM1LWxhbjZSSmpNUUcwY1MwWFEtZWIzU3puTl9NU3huclhHMlM1LWZGbDlIcjB5NkZkX2RTRjgzUzhQaEZGWkNZdWJhM3VwVF9WOXNYWDVyb0hNUDdGM01IYTlmbThJUXFTNGdHTm1URWRpX2dOREJBZXhz",
+   "body": "- Synaptics Incorporated recently announced that its first CTS tactile sensing module, powered by the SN6012T controller, is now supported within NVIDIA's Isaac Sim robotics simulation framework, enabling developers to prototype and validate contact and force interactions for dexterous robotic hands, grippers, and other Physical AI systems. - A distinctive aspect of this development is the way Synaptics' CTS module and Astra Edge AI processors integrate with NVIDIA Holoscan to unify touch, vision, and motion data, potentially simplifying how robotics teams design and test more responsive human-object interactions before deploying physical hardware. - We'll now examine how this integration of Synaptics' CTS tactile module with NVIDIA Isaac Sim could influence the company's Edge AI investment narrative. AI is about to change healthcare. These 39 stocks are working on everything from early diagnostics to drug discovery. The best part - they are all under $10b in market cap - there's still time to get in early. Synaptics Investment Narrative Recap To own Synaptics, you need to believe its pivot toward Core IoT and Edge AI can offset losses in legacy segments and move the business toward sustainable profitability. The new CTS tactile module support in NVIDIA Isaac Sim fits this story by extending Synaptics' Edge AI reach into Physical AI and robotics, but it does not change the near term reality that the biggest catalyst is still execution in Core IoT and Astra, while the most immediate risk is misallocating capital and R&D across too many bets. Among recent announcements, the launch of Astra AI native processors and related MCUs stands out as most relevant to the CTS Isaac Sim news. Both aim to put Synaptics' compute at the center of on device AI, from Coral based developer platforms to tactile sensing in robots. Together, they frame a catalyst built on higher content per device and a broader customer base, but also sharpen the risk that delays in Edge AI adoption could leave Synaptics carrying higher costs for longer. Yet behind this potential lies a risk that investors should be aware of if Physical AI ramps more slowly than many expect... Read the full narrative on Synaptics (it's free!) Synaptics' narrative projects $1.6 billion revenue and $21.2 million earnings by 2029. This requires 9.4% yearly revenue growth and a $512.0 million earnings increase from -$490.8 million today. Uncover how Synaptics' forecasts yield a $130.33 fair value, a 34% upside to its current price."
+  },
+  {
+   "source": "Google News · htxt.co.za",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LG taps NVIDIA to help expand its robotic capabilities",
+   "link": "https://htxt.co.za/2026/09/lg-taps-nvidia-to-help-expand-its-robotic-capabilities/",
+   "date": "2026-09-16 17:35",
+   "score": 6,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "LG, NVIDIA와 로봇 능력 확장 협력",
+    "korean_summary": "LG가 로봇 능력 확장을 위해 NVIDIA와 협력한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTkZrUVlGVE9FQkh1NDQ1YTVydy0yOXU5QTk2MkdvZE53NGdqUjRyWnk3bkRvVjRzU19XXy1EYWZPWEFpU1NMVURodFpIbmdNajBDZUR5YkJxZmxFZ2JEXzU3UDVjYUc2R0wtWUJueDFRLXYwY1IwamtRTkwybUJhemdiOW9qSlFuZHc",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+   "link": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+   "date": "2026-09-16 14:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "맨체스터 대학, NVIDIA Earth-2로 영국 대기오염 예측 연구",
+    "korean_summary": "맨체스터 대학이 NVIDIA Earth-2 생성형 AI 모델을 활용하여 영국의 대기오염 예측 정확도를 향상시키는 연구를 진행 중이다."
+   },
+   "summary_data": {
+    "korean_title": "University of Manchester, NVIDIA Earth-2로 영국 전역 대기오염 예측 모델 개발",
+    "korean_summary": "University of Manchester 연구진이 NVIDIA Earth-2의 생성형 AI 모델을 활용해 기존 화학 기반 모델보다 훨씬 빠르고 저렴하게 영국 전역의 대기오염을 예측하는 시스템을 구축했다.",
+    "action": {
+     "actor": "University of Manchester (David Topping 교수 및 연구팀)",
+     "action": "NVIDIA Earth-2 CorrDiff와 StormCast 모델을 Isambard-AI 슈퍼컴퓨터에서 학습시켜 영국 전역 대기오염 예측 모델을 구축하고, DGX Spark에서 추론 및 소규모 재학습을 시연",
+     "stage": "Available",
+     "timeline": "미확인 (CorrDiff 학습에 2일 소요, 이후 StormCast 추가)",
+     "scope": "영국 전역, 해상도 2-3 제곱킬로미터"
+    },
+    "key_facts": [
+     "영국에서 대기오염으로 작년 한 해 약 **30,000명이 사망**한 것으로 추정됨",
+     "Isambard-AI의 단일 8-GPU 노드(전체는 **5,448개 NVIDIA GH200 Grace Hopper Superchip**, 21 exaflops AI 성능)에서 CorrDiff 학습에 단 2일 소요",
+     "1년치 영국 대기오염 데이터를 시간 단위로 시뮬레이션하여 학습에 사용, 해상도 2-3 제곱킬로미터 달성",
+     "동일 워크플로우가 **NVIDIA GB10 Grace Blackwell 기반 DGX Spark** 데스크톱 AI 시스템에서도 추론 및 소규모 학습 실행 가능",
+     "연구팀은 오픈소스 학습 데이터와 워크플로우를 공개해 전 세계 다른 국가·지역에서도 유사 모델 학습이 가능하도록 할 계획"
+    ],
+    "why_matters": "기존 화학 기반 대기질 모델은 연산 비용이 매우 높아 상세도와 실행 빈도에 제약이 있었으나, 생성형 AI 다운스케일링 모델을 활용하면 국가 슈퍼컴퓨터부터 **데스크톱 AI 시스템까지 확장 가능한 저비용 고해상도 예측**이 가능해진다. 이는 기후·날씨 예측에 이어 환경·보건 정책 시뮬레이션 영역까지 NVIDIA의 생성형 AI 프레임워크 적용 범위가 확장되고 있음을 보여준다.",
+    "nvidia_angle": "NVIDIA Earth-2 플랫폼(CorrDiff, StormCast)이 날씨 예측을 넘어 **대기오염이라는 새로운 과학·공공보건 도메인**으로 확장되며, 슈퍼컴퓨터급 학습에서 DGX Spark 같은 개인용 AI 시스템까지 이어지는 컴퓨팅 연속성을 입증해 NVIDIA의 풀스택(GH200~GB10) 전략적 포지셔닝을 강화한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Earth-2 CorrDiff/StormCast 모델 및 DGX Spark, GH200/GB10 하드웨어 제공"
+     },
+     {
+      "name": "University of Manchester",
+      "context": "대기오염 예측 모델 개발 주체, David Topping 교수 및 Hao Zhang 박사과정 연구"
+     },
+     {
+      "name": "University of Bristol (Bristol Centre for Supercomputing, BriCS)",
+      "context": "Isambard-AI 슈퍼컴퓨터 운영, Simon McIntosh-Smith가 프로젝트 협력"
+     },
+     {
+      "name": "Isambard-AI",
+      "context": "영국 국립 AI 슈퍼컴퓨터, 모델 학습 인프라 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Earth-2 CorrDiff",
+      "role": "생성형 다운스케일링 모델로 대기오염 필드 학습에 사용"
+     },
+     {
+      "name": "NVIDIA Earth-2 StormCast",
+      "role": "시간 종속적 대기질 예측 및 실시간 관측 데이터 반영 모델"
+     },
+     {
+      "name": "NVIDIA DGX Spark (GB10 Grace Blackwell)",
+      "role": "데스크톱 환경에서 추론 및 소규모 재학습 수행"
+     },
+     {
+      "name": "NVIDIA GH200 Grace Hopper Superchip",
+      "region": "Isambard-AI 슈퍼컴퓨터 핵심 연산 자원",
+      "role": "대규모 모델 학습 인프라"
+     }
+    ],
+    "watch_next": [
+     "오픈소스 학습 데이터·워크플로우 공개 시점 및 범위",
+     "거리 단위(street scale) 해상도 확장 계획의 구체적 진행 상황",
+     "에지 AI 기기와의 실시간 데이터 연동 및 산불 등 실시간 의사결정 적용 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+     "link": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1nU2V1Nl95RjI4bnJVTENjcnY2VF9hU1JNeTc0VWlIQU80VFlYeWlnNnFySk9vOVIzUWxWb3JwbUVwRm84VTNZX0pTQWtLYlcyVHdfNGtnaVhSYnItQW1JTEFZcWFhd1ZZVy1lRGtLazBSUQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2",
+   "body": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the University of Manchester’s department of Earth and environmental science, saw that the NVIDIA Earth-2 family of open AI models and tools had cracked a related problem for weather forecasting — and asked whether the same generative frameworks could work for pollution fields. “The biggest challenge is the compute required to forecast air quality,” said Topping. “Once you put chemistry into weather models, they get really, really slow. So I said, why don’t we try using the generative frameworks that NVIDIA develops for climate and weather for pollution fields?” Working with the NVIDIA Earth-2 team, Topping and colleagues generated training data from existing chemistry-climate simulations, then trained Earth-2 CorrDiff — a generative downscaling model — on Isambard-AI, the U.K.’s national AI supercomputer in Bristol. The model worked on the first attempt. The team has since added Earth-2 StormCast, a model that enables time-dependent forecasts that directly use air quality observations, and showed the test-training and inference workflows running on the NVIDIA DGX Spark personal AI supercomputer. “To improve human health, it’s essential that we understand the impact of environmental stressors in the air we breathe,” said Topping. “Our U.K.-wide pollution model allows us to model potential future scenarios, such as predicting what would happen if different pollution-related government policy changes went into effect. https://blogs.nvidia.com/wp-content/uploads/2026/09/Adobe-Express-UKairpollution-4.mp4 Video credit: Bristol Centre for Supercomputing (BriCS) @ University of Bristol Another potential application is proactive air quality insights for healthcare organizations. Topping envisions a scenario where regional and national healthcare services could reach out to patients with conditions like asthma to let them know that air pollution is going to be high in their area tomorrow, or next week. The team is also exploring how the air pollution model could pair with data from edge AI devices to ingest real-time air quality data and drive real-time decision making, such as in the event of a wildfire. “The fact that this model trained in two days on Isambard-AI — and can now run on a DGX Spark sitting on a desk — changes who can do this science and how quickly,” said Niall Robinson, developer relations manager for weather and climate at NVIDIA. “We’re just at the beginning of what these open workflows can do globally.” “The ability to switch from one NVIDIA framework to another was really impressive,” said Hao Zhang, a doctoral student at the University of Manchester who trained StormCast on Isambard-AI. “We’re only just s"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+   "link": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/",
+   "date": "2026-09-16 22:00",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "에메랄드 AI·구글·NVIDIA, AI 에너지 관리 연합 출범",
+    "korean_summary": "에메랄드 AI, 구글, NVIDIA가 데이터센터의 전력 유연성을 관리하는 AI 에너지 관리 연합(AEMA)을 공동으로 출범했다."
+   },
+   "summary_data": {
+    "korean_title": "Emerald AI, Google, NVIDIA, 유연한 AI 데이터센터를 위한 AI Energy Management Alliance 출범",
+    "korean_summary": "Emerald AI, Google, NVIDIA가 그리드 상황에 따라 전력 사용을 동적으로 관리하는 AI 데이터센터 확산을 위해 AI Energy Management Alliance(AEMA)를 공동 출범했다.",
+    "action": {
+     "actor": "Emerald AI, Google, NVIDIA",
+     "action": "AI Energy Management Alliance(AEMA) 출범 발표 및 기술 중립적·성능 기반 전력 유연성 표준 수립 착수",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미국(U.S.) AI 인프라, 데이터센터 운영사·유틸리티·그리드 운영자 포함 밸류체인 전반"
+    },
+    "key_facts": [
+     "Emerald AI, Google, NVIDIA가 **AI Energy Management Alliance(AEMA)**를 공동 발족했다",
+     "AEMA는 기술 중립적(technology-neutral)이며 응답 속도·지속시간·예측가능성 등 성능 기반(performance-based) 요구사항에 초점을 둔다",
+     "핵심 원칙은 ride-through·curtailment·contingency-response 의무 사전 정의, 기술 요구사항 및 성능 지표 표준화, 유연성 입증 고객을 위한 빠른 상호연결 경로 마련, 실제 시스템 영향을 반영한 상호연결 비용 배분 등이다",
+     "**NVIDIA와 Emerald AI는 이미 에너지·인프라 리더들과 실시간 그리드 대응형 AI 팩토리 작업을 진행 중**이며, AEMA는 이를 미국 전역 배포 모델로 확장하는 것을 목표로 한다",
+     "설립 멤버 외에 생태계 전반의 launch partner들이 추가로 합류할 예정이다"
+    ],
+    "why_matters": "전력 공급 제약은 미국 AI 인프라 확장의 결정적 병목으로 부상했으며, 유연한 전력 수요 관리는 기존 그리드 용량을 더 효율적으로 활용해 신규 AI 데이터센터의 상호연결 승인 속도를 앞당길 수 있다. **이는 AI 컴퓨팅 확장 속도가 하드웨어가 아니라 전력망 연결 속도에 좌우되는 상황에서 업계 표준을 선점하려는 움직임**으로, 향후 데이터센터 인허가·투자 결정에 구조적 영향을 줄 수 있다.",
+    "nvidia_angle": "NVIDIA는 GPU 판매를 넘어 **AI 팩토리의 전력 인프라 표준화 및 그리드 통합 전략**에 직접 관여함으로써, 자사 컴퓨팅 플랫폼이 전력 제약 환경에서도 빠르게 배치될 수 있는 생태계 기반을 마련하고 있다. Google 등 하이퍼스케일러 및 유틸리티와의 연합은 향후 데이터센터 수주·설계 단계에서 NVIDIA 아키텍처의 표준적 위치를 강화하는 효과를 가질 수 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Emerald AI",
+      "context": "AEMA 창립 멤버, 그리드 대응형 AI 팩토리 기술 협력사"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 창립 멤버, 하이퍼스케일러로서 데이터센터 전력 유연성 요구"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "AEMA 창립 멤버, AI 컴퓨팅 플랫폼 제공사로서 그리드 대응형 AI 팩토리 개발 주도"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI Energy Management Alliance (AEMA)",
+      "role": "그리드 유연성 표준·정책을 수립하는 산업 연합체"
+     }
+    ],
+    "watch_next": [
+     "AEMA에 합류할 launch partner 및 유틸리티·그리드 운영자 명단",
+     "기술 요구사항·성능 지표 표준의 구체적 발표 시점",
+     "NVIDIA-Emerald AI 협력 기반 실제 AI 팩토리 파일럿 사례 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+     "link": "https://blogs.nvidia.com/blog/ai-energy-management-alliance/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Emerald AI, Google and NVIDIA Launch Alliance to Advance Flexible AI Data Centers",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE15OTJ6NjdTOEl1aTB3N08yYkU1Z3JiZjBDNnJjeXBzNHlJeFJ6aWh6ZVBiUGxhWmRPSk1iVXNLWXBFbWNhWDdGX3JuN2txV0RDYnk4NTJ6WHI2MG4wNzF3d1RsN0hnU0k5UVRsWA?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-energy-management-alliance",
+   "body": "AI factories are the infrastructure of the intelligence era. Scaling them responsibly will depend as much on innovation across the grid as inside the data center. Today, Emerald AI, Google and NVIDIA announced the launch of the AI Energy Management Alliance (AEMA), a first-of-its-kind coalition advancing data centers that can dynamically manage their electricity use in response to grid conditions. This power flexibility can help unlock faster, larger connections for AI infrastructure while supporting the energy systems and communities that make its growth possible. Getting more watts out of existing infrastructure reduces environmental impacts per watt and supports energy affordability. The objective is clear: build AI infrastructure that doesn’t just connect to the grid but works with it. Flexibility Is an Energy Imperative Power has become a defining constraint on the expansion of U.S. AI infrastructure. Traditional interconnection processes were designed around facilities with flat, static electricity demand. They weren’t built for computing infrastructure capable of responding intelligently when the power system is constrained. A flexible data center can adjust its electricity drawn from the grid in several ways — shifting computing workloads, discharging storage, using paired generation or responding to system contingencies. These capabilities allow a large electricity customer to serve as a controllable resource rather than an inflexible load. Used effectively, flexibility can make more efficient use of existing grid capacity, reduce demand during periods of system stress, and avoid or defer costly infrastructure upgrades. It can also give utilities and grid operators greater confidence to connect AI facilities on shorter timelines. Technology-Neutral, Performance-Based Requirements AEMA is technology-neutral and performance-based. Its focus is on the measurable service a facility can deliver — including response speed, duration, predictability and behavior during an emergency — rather than the specific hardware or software used. Reliability remains paramount. The alliance’s principles call for: Defining ride-through, curtailment and contingency-response obligations before a facility connects — meaning the alliance is setting clear rules for facilities regarding staying connected during brief grid disturbances, reducing power use when needed and responding to emergencies. Standardizing technical requirements, performance metrics and operational data sharing. Creating faster, risk-adjusted pathways for customers that make credible and verifiable flexibility commitments. Allocating interconnection costs in a way that reflects actual system impacts and benefits, such as avoided upgrades and improved ramping capability. These measures can reduce uncertainty for developers while giving system operators the information and control needed to preserve reliability. Convening the Full AI and Power Value Chain AEMA convenes the full value chain across"
+  },
+  {
+   "source": "The Next Platform",
+   "category": "media",
+   "kind": "feed",
+   "title": "Infleqtion And Nvidia Reduce Physical-to-Logical Qubit Ratio in Quantum Computers",
+   "link": "https://www.nextplatform.com/compute/2026/09/16/infleqtion-and-nvidia-reduce-physical-to-logical-qubit-ratio-in-quantum-computers/5296887",
+   "date": "2026-09-17 00:36",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "research",
+     "partnership"
+    ],
+    "korean_title": "Infleqtion과 NVIDIA 양자컴퓨터 오류 정정 기술 협력",
+    "korean_summary": "NVIDIA와 Infleqtion이 양자컴퓨터의 물리-논리 큐빗 비율 개선을 위해 오류 정정 기술을 협력 중이다."
+   },
+   "summary_data": {
+    "korean_title": "Infleqtion-NVIDIA, 물리-논리 큐비트 비율 5.4:1로 대폭 축소",
+    "korean_summary": "Infleqtion이 NVIDIA의 CUDA-Q Logical과 자사 qLDPC 소프트웨어를 결합해 98개 물리 큐비트로 18개 논리 큐비트를 구현, 물리 대 논리 큐비트 비율을 약 5.4:1로 낮춰 양자 오류 정정 확장성 문제 해결에 다가섰다.",
+    "action": {
+     "actor": "Infleqtion",
+     "action": "NVIDIA CUDA-Q Logical(early-access)과 자체 qLDPC 라이브러리를 통합해 hypergraph-product simplex(HGPS) 코드 블록을 구축, 98개 물리 데이터 큐비트로 18개 논리 큐비트를 검증",
+     "stage": "Announced",
+     "timeline": "IEEE Quantum Week (Toronto, 이번 주) 발표",
+     "scope": "Infleqtion Sqale 시스템(중성원자 큐비트) 기반, CUDA-Q Logical 얼리 액세스 버전 사용"
+    },
+    "key_facts": [
+     "**98개 물리 큐비트로 18개 논리 큐비트 구현, 물리-논리 비율 약 5.4:1, 인코딩률 18.4%**",
+     "코드는 각각 weight 6의 49개 X 체크와 49개 Z 체크 포함, qLDPC가 반환하는 논리 표현자는 weight 4",
+     "**CUDA-Q Logical은 IEEE Quantum Week에서 NVIDIA가 새로 공개한 논리적 오케스트레이션·컴파일러 레이어**",
+     "비교 사례: Quantinuum은 3월 논문에서 98개 물리 큐비트로 48개 오류정정+64개 오류감지 논리 큐비트 생성 발표, Qarakal Quantum과 D-Wave도 물리 큐비트 요구량 10배 감소를 주장",
+     "Infleqtion 수석 연구엔지니어 Victory Omole이 보고서 작성, 아키텍처 연구는 Infleqtion 수석 과학자 Fred Chong 기반"
+    ],
+    "why_matters": "물리-논리 큐비트 비율 축소는 양자컴퓨터가 연구 단계에서 상업적으로 유의미한 규모의 계산을 수행하는 데 필수적인 확장성 문제 해결의 핵심 지표이다. **이번 결과는 하드웨어(Infleqtion의 중성원자 큐비트)와 소프트웨어 스택(NVIDIA CUDA-Q Logical) 통합이 오류정정 아키텍처 실현에 실질적으로 기여함을 보여주며, Quantinuum·D-Wave·Qarakal 등 경쟁사들과의 물리 큐비트 효율 경쟁이 가속화되고 있음을 시사한다.**",
+    "nvidia_angle": "NVIDIA는 CUDA-Q Logical을 통해 양자 하드웨어 업체(Infleqtion 등)가 오류정정 코드를 실제 아키텍처 스택(신드롬 보조 큐비트, 스케줄링, 리드아웃, 제어, 디코딩)에 구현하도록 지원하는 **논리적 오케스트레이션·컴파일 계층 제공자로서 양자-고전 통합 소프트웨어 플랫폼 포지션을 강화**하고 있다. 이는 NVIDIA가 QPU 자체를 만들지 않고도 양자컴퓨팅 생태계의 필수 소프트웨어 인프라 공급자 역할을 확대하는 전략과 일치한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Infleqtion",
+      "context": "중성원자 기반 Sqale 양자 시스템 및 qLDPC 오픈소스 소프트웨어 라이브러리 개발사, 이번 발표의 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "CUDA-Q Logical 소프트웨어(논리적 오케스트레이션·컴파일러 레이어) 개발 및 Infleqtion과 통합 협력"
+     },
+     {
+      "name": "Quantinuum",
+      "context": "물리-논리 큐비트 비율 개선 관련 비교 사례(3월 논문, 98개 물리 큐비트로 48개 오류정정 논리 큐비트)"
+     },
+     {
+      "name": "Qarakal Quantum",
+      "context": "Pangaea 아키텍처로 물리 큐비트 요구량 10배 감소를 주장하는 경쟁 스타트업"
+     },
+     {
+      "name": "D-Wave",
+      "context": "듀얼레일 초전도 시스템으로 물리 큐비트 요구량 10배 감소를 주장하는 경쟁사"
+     }
+    ],
+    "products": [
+     {
+      "name": "CUDA-Q Logical",
+      "role": "NVIDIA의 논리적 오케스트레이션·컴파일 계층, 논리 소유권·블록 할당·컴파일 모델 제공"
+     },
+     {
+      "name": "qLDPC (Infleqtion 오픈소스 라이브러리)",
+      "role": "고비율 양자 저밀도 패리티 체크 코드의 기저 수학 및 체크·논리 연산자 생성"
+     },
+     {
+      "name": "Sqale",
+      "role": "Infleqtion의 중성원자 기반 양자 시스템, 이번 큐비트 코드가 적용되는 하드웨어"
+     },
+     {
+      "name": "HGPS (hypergraph-product simplex) 코드",
+      "role": "이번에 구축·검증된 오류정정 코드 블록"
+     }
+    ],
+    "watch_next": [
+     "CUDA-Q Logical의 정식(GA) 출시 일정 및 타 양자 하드웨어 업체와의 추가 통합 사례",
+     "Infleqtion Sqale 시스템에서 실제 하드웨어 상 오류율·안정성 검증 결과",
+     "Quantinuum·D-Wave·Qarakal 등 경쟁사의 물리-논리 큐비트 비율 개선 후속 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · The Next Platform",
+     "title": "Infleqtion And Nvidia Reduce Physical-to-Logical Qubit Ratio in Quantum Computers",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMWtOOWVHMzBndkhSNFdQSjVkMVlVWTRkTWxQXzFPWFBKVjFqdGZJZHNaeWV3Yl9GcTZiMi1RYzFKTVJGcDRyWjV4X1dyaUxUZEVCa01LZHV2V2ZWNENxcXRsZ0VMdklHaDNiWUlIc2NNN1BuN3R6YUJvdTBrOTVEVXEybEp0ZHM5UXd1b0Itazd4NXlPdzZIckdiYXlEaW5PUDIyUUhEUHNxcTNXU1JFc2dFVEFmd1Z0Z3RoWGhzblZsQ284ZXZzZjItTVVNUnh3VEJJ?oc=5"
+    }
+   ],
+   "uid": "https://www.nextplatform.com/compute/2026/09/16/infleqtion-and-nvidia-reduce-physical-to-logical-qubit-ratio-in-quantum-computers/5296887",
+   "body": "Infleqtion And Nvidia Reduce Physical-to-Logical Qubit Ratio in Quantum Computers A lot of advancements are being made in quantum computing that move beyond the basics of quantum processors (QPUs) and hardware fundamentals. Companies are expanding out into the architectural realm, subsystems for these machines are being pulled together, and quantum software and algorithms are being developed, while efforts to make quantum computing scalable and integrated into HPC environments are being made. Still, a key to getting quantum computing from the research phase to commercial viability is solving the error correction challenge. Qubits are notoriously fragile and can split apart – and lose their quantum properties – due to various “noises” like light, sound, temperature, or the activity of other qubits, and a quantum system that makes too many errors isn’t commercially viable. To improve error correction, multiple entangled physical qubits are grouped together to create logical qubits. However, that comes at a price, from the technical challenges of needing thousands of physical qubits to make a single logical one to cooling and manufacturing costs to adding more noise. Given that, reducing the number of physical qubits per logical qubit is important. “An unofficial law of physics is ‘there’s no such thing as a free lunch,’” Quantinuum executives wrote earlier this year. “Creating high quality, low error-rate logical qubits often costs many physical qubits, thus reducing the size of calculations you can run, despite your new, lower-than-ever error rates.” Work is being done researchers and standards groups to reduce the logical-to-physical qubit ratio. Vendors also are making gains. Sheir Yarkoni, director of quantum software for Qarakal Quantum, told The Next Platform that the startup’s new Pangaea architecture will reduce the physical qubit requirements by 10 times. D-Wave has said the same about its developing dual-rail superconducting systems, and Quantinuum in a paper published in March detailed its technology that creates 48 error-corrected and 64 error-detected logical qubits out of 98 physical qubits. At the IEEE Quantum Week event this week in Toronto, Infleqtion executives said that, thanks to the integration of their open source quantum low-density parity-check (qLDPC) software library and Nvidia’s new CUDA-Q Logical – a logical orchestration and compiler layer also unveiled at the show – they built a validated high-rate quantum error correction code that uses 98 physical data qubits for 18 logical qubits, or about 5.4 physical qubits per logical qubit and driving an 18.4 percent encoding rate. Infleqtion, which uses neutral atoms in its Sqale systems (below) to create its qubits, used an early-access version of Nvidia’s CUDA-Q Logical software to build a hypergraph-product simplex (HGPS) code block, create stabilizers and logical operators, and put in place the necessary underlying algebra, Victory Omole, senior quantum research engineer fo"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Schneider Electric debuts 2.5MW power modules for AI data centers",
+   "link": "https://www.datacenterdynamics.com/en/news/schneider-electric-debuts-25mw-power-modules-for-ai-data-centers/",
+   "date": "2026-09-16 16:50",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Schneider Electric, NVIDIA GB300 랙용 2.5MW 파워 모듈 출시",
+    "korean_summary": "Schneider Electric이 NVIDIA와 협력해 개발한 2.5MW 파워 모듈을 AI 데이터센터용으로 출시했다."
+   },
+   "summary_data": {
+    "korean_title": "Schneider Electric, AI 데이터센터용 2.5MW 전력 모듈 출시",
+    "korean_summary": "Schneider Electric이 NVIDIA와 공동 개발한 레퍼런스 디자인을 기반으로 GB300 NVL72 랙 스케일 플랫폼을 지원하는 2.5MW급 프리팹 전력 모듈을 하이퍼스케일·AI 데이터센터용으로 출시했다.",
+    "action": {
+     "actor": "Schneider Electric",
+     "action": "2MW, 2.25MW, 2.5MW 구성의 프리팹 전력 모듈·스�드 신제품 출시, NVIDIA GB300 NVL72와 통합된 전력관리·액체냉각 제어 포함",
+     "stage": "Available",
+     "timeline": "유럽 즉시 출시, 북미는 올해 하반기 예정, 이후 APAC 등 추가 지역",
+     "scope": "하이퍼스케일, 네오클라우드, 코로케이션 데이터센터 사업자 대상"
+    },
+    "key_facts": [
+     "신제품은 Schneider Electric의 **Galaxy VXL UPS** 기술 기반이며 NVIDIA와 공동 제작한 레퍼런스 디자인 적용",
+     "GB300 NVL72 랙 스케일 AI 플랫폼용 통합 전력관리 및 액체냉각 제어 포함",
+     "2.5MW 버전은 Schneider가 생산한 모듈 중 **최대 용량**",
+     "프리팹 인프라 제조 기간을 최소 6개월로 단축 가능하다고 주장",
+     "스페인 Barcelona 인근 Sant Boi de Llobregat 공장에서 설계·제조·테스트, 최근 5,000㎡ 규모로 확장"
+    ],
+    "why_matters": "AI 데이터센터 구축 속도가 GPU 도입 경쟁의 병목으로 떠오르면서, **전력·냉각 인프라의 표준화·모듈화**가 하이퍼스케일러와 네오클라우드 사업자의 핵심 조달 요소로 부상하고 있다. Schneider가 NVIDIA와 직접 협력한 레퍼런스 디자인을 제품화한 것은 전력 벤더들이 GPU 플랫폼 세대교체 주기에 맞춰 인프라를 선제적으로 정렬하고 있음을 보여준다.",
+    "nvidia_angle": "**NVIDIA가 GB300 NVL72 출시에 맞춰 전력·냉각 파트너 생태계를 공식 레퍼런스 디자인 수준으로 확장**하고 있으며, 이는 GPU 하드웨어뿐 아니라 데이터센터 전체 설계 표준을 NVIDIA 중심으로 재편하려는 전략의 연장선이다. Schneider와의 협력은 NVIDIA AI 팩토리 생태계 구축에서 전력 인프라 벤더 락인 효과를 강화할 수 있다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Schneider Electric",
+      "context": "전력·냉각 모듈 신제품 출시 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GB300 NVL72 랙 스케일 플랫폼 제공, 레퍼런스 디자인 공동 개발"
+     }
+    ],
+    "products": [
+     {
+      "name": "Galaxy VXL UPS",
+      "role": "신규 전력 모듈의 핵심 UPS 기술"
+     },
+     {
+      "name": "GB300 NVL72",
+      "role": "전력 모듈이 통합 지원하는 NVIDIA AI 랙 스케일 플랫폼"
+     },
+     {
+      "name": "2.5MW 전력 모듈/스킥",
+      "role": "하이퍼스케일·AI 데이터센터용 신규 프리팹 전력 인프라 제품"
+     }
+    ],
+    "watch_next": [
+     "북미 출시 구체 시점 및 초기 고객사 공개 여부",
+     "GB300 NVL72 외 향후 NVIDIA 차세대 플랫폼과의 레퍼런스 디자인 확장 여부",
+     "경쟁 전력 인프라 벤더(Vertiv 등)의 유사 대응 제품 출시 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/schneider-electric-debuts-25mw-power-modules-for-ai-data-centers",
+   "body": "Schneider Electric has released a new range of 2.5MW power modules aimed at hyperscale and AI data centers. The power and cooling technology vendor says its new standardized and prefabricated power modules and power skids are “scalable, high-density power solutions designed for hyperscale, neocloud and colocation data center environments.” Powered by Schneider Electric’s Galaxy VXL UPS technology, the modules are based on the company’s latest reference designs produced in conjunction with Nvidia, which include integrated power management and liquid cooling controls for the GPU giant’s GB300 NVL72 rack-scale platform for AI. The modules and skids are available in 2MW, 2.25MW, and 2.5MW configurations, and Schneider says the 2.5MW version is the largest it has ever produced in terms of capacity. By taking a standardized approach to prefabricated power infrastructure, Schneider argues it is simplifying the process of designing and building power systems, and says it can manufacture prefabricated power infrastructure in as little as six months. “Today’s data center operators are under immense pressure to deploy AI-ready infrastructure faster, more efficiently and at greater scale,” said Tarunjeet Sarao, SVP for data center systems at Schneider Electric. “By standardizing our prefabricated power systems, and incorporating our leading Galaxy VXL UPS technology, we are enabling hyperscale, neocloud and colocation providers to deploy scalable, high-density power infrastructure in months rather than years. This represents a major step forward in helping customers build the next generation of AI factories, AI hubs and large-scale digital infrastructure.” The modules integrate Schneider Electric technologies including Galaxy VXL UPS, switchgear, cooling systems, lithium-ion battery technology, busway and power distribution systems within a factory-tested enclosure. Power skids “provide the same core electrical infrastructure in an open skid-based format designed for indoor deployment within grey space environments.” Engineering, manufacturing, and testing of the modules is undertaken at Schneider Electric’s factory in Sant Boi de Llobregat, Barcelona, which was recently expanded to support growing global demand for modular data center infrastructure, and now provides 5,000sqm (53,819 sq ft) of dedicated, production space. Available immediately in Europe, Schneider Electric said the new power solutions will become available in North America later this year, followed by additional international markets and APAC."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "데이터센터에 쏠린 GPU… 소비자 시장은 ‘고가·품귀’ [GPU 시장 재편①]",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170125",
+   "date": "2026-09-17 15:10",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 데이터센터 매출, 분기 전체의 92.5% 차지",
+    "korean_summary": "NVIDIA의 2027 회계연도 2분기 매출이 962억 달러(전년비 106% 증가)로 사상 최대를 기록했으며, 데이터센터 매출이 890억 달러로 전체의 92.5%를 차지했다."
+   },
+   "summary_data": {
+    "korean_title": "AI發 데이터센터 쏠림 속 GPU 시장 재편…소비자 시장은 고가·품귀 심화",
+    "korean_summary": "NVIDIA와 AMD가 데이터센터용 GPU에 생산·매출 우선순위를 집중하면서 소비자용 게이밍 GPU 시장은 공급 부족과 가격 급등을 겪고 있다.",
+    "action": {
+     "actor": "NVIDIA, AMD, Intel",
+     "action": "데이터센터 GPU 사업 비중 확대 및 재무 세그먼트 재편(NVIDIA는 Automotive/Robotics를 Edge Computing으로 통합), 소비자용 GPU 공급 우선순위 하락",
+     "stage": "Report",
+     "timeline": "2027회계연도 2분기(NVIDIA), 2026년 2분기(AMD·Intel) 실적 기준",
+     "scope": "NVIDIA GeForce RTX 50 시리즈, AMD 클라이언트&게이밍 세그먼트, 글로벌 소비자 PC/그래픽카드 시장"
+    },
+    "key_facts": [
+     "NVIDIA 2027회계연도 2분기 매출 962억달러 중 데이터센터 부문이 890억달러로 **92.5%** 차지, 전년 대비 117% 성장",
+     "NVIDIA는 기존 4개 사업부(데이터센터/게이밍·AI PC/프로페셔널 시각화/자동차와 로보틱스) 분류를 **'데이터센터'와 '엣지 컴퓨팅' 2개로 축소**, 자동차·로보틱스·PC·프로 시각화를 모두 엣지 컴퓨팅으로 통합",
+     "엣지 컴퓨팅 매출은 72억달러로 전체의 7.5%에 불과",
+     "AMD 2026년 2분기 데이터센터 매출은 67억달러(전체의 약 60%)인 반면 게이밍 매출은 8억달러(6~7%)에 그침",
+     "국내 시장에서 RTX 5070 시리즈 120~130만원대, RTX 5080 시리즈 230~250만원대, RTX 5060급도 출시가 40만원대에서 70만원대로 급등"
+    ],
+    "why_matters": "GPU 3사 모두 사업 무게중심이 AI 데이터센터로 급격히 이동하면서 소비자용 그래픽카드 시장은 공급·가격 양면에서 구조적 압박을 받고 있다. **NVIDIA의 외장 GPU 점유율이 90%에 육박**하는 가운데 AMD·Intel은 고성능 제품군에서 경쟁력 격차를 좁히지 못해 소비자 선택지가 사실상 제한된 상황이다.",
+    "nvidia_angle": "NVIDIA가 사업부 분류 자체를 데이터센터 중심으로 재편한 것은 **회사의 전략적 우선순위가 AI 인프라로 완전히 이동**했음을 상징하며, 게이머·PC·전문가용 시장은 부수적 사업으로 재배치됐다. 동시에 고성능 GeForce가 저가형 AI 워크스테이션 대안으로 소비되며 데이터센터 수요가 소비자 시장으로 역류하는 현상도 관찰된다.",
+    "auto_robotics_angle": "본문에서 NVIDIA가 기존 '**Automotive and Robotics**' 독립 사업부를 폐지하고 '엣지 컴퓨팅' 카테고리로 통합한 것은 자동차·로보틱스 사업의 재무적 가시성이 낮아지고 있음을 시사하며, 세부 매출 규모는 확인되지 않는다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "GPU 시장 1위, 데이터센터 매출 비중 92.5%로 확대, 사업부 재편 주체"
+     },
+     {
+      "name": "AMD",
+      "context": "데이터센터 매출 비중 60%로 확대, 게이밍 GPU 사업 비중 급감"
+     },
+     {
+      "name": "Intel",
+      "context": "CPU 중심 CCPG 사업부 운영, GPU 시장에서 아직 유의미한 점유율 미확보"
+     }
+    ],
+    "products": [
+     {
+      "name": "GeForce RTX 50 시리즈(5060/5070/5080)",
+      "role": "소비자용 고성능 그래픽카드, 가격 급등 및 품귀 현상의 중심 제품"
+     },
+     {
+      "name": "Intel Arc Pro B 시리즈",
+      "role": "워크스테이션용 GPU, 올해 출시했으나 점유율 미미"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 향후 실적 공시에서 Automotive/Robotics 세부 매출 공개 여부",
+     "2026년 하반기 PC 출하량 감소 폭 및 소비자용 GPU 가격 추이",
+     "AMD·Intel의 고성능 GPU 신제품 출시 및 경쟁력 개선 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092170125",
+   "body": "인공지능(AI) 시대로의 전환에 따른 여파가 PC 시장의 구조를 바꾸고 있다. 지난해 말부터 본격화된 AI발 메모리 공급난으로 전반적인 PC 가격은 이미 20%가량 올랐다. 시장조사기관들의 예측에 따르면 2026년 PC 시장은 출하량 기준 11.3% 줄어들 것이며, 특히 하반기에 감소 폭이 클 것으로 전망된다. 많은 소비자들이 PC 가격에 부담을 느끼고 새 PC 구입 시기를 최대한 미루고 있지만, 현재의 상황이 단기간 내 해결되지 않을 것이라는 전망도 있다. 최근 몇 년간 PC 시장의 성장 동력으로 꼽히던 ‘게이밍 PC’에는 영향이 더 컸다. 젠슨 황 엔비디아 CEO는 지속적으로 “엔비디아는 게이머를 버리지 않았다”고 했지만 현재 시장 상황에서는 GPU 기업들이 게이머 등 개인 사용자들을 챙기지 않는 모양새다. 메모리와 스토리지의 가격 상승과 함께 고성능 그래픽카드도 가격이 크게 오른 것이 일반 소비자 시장 전반에 큰 충격을 줬다. 가격 상승은 물론 제품 공급도 시장 수요를 따라가지 못했다. AI 시대 본격화, 게이밍용 GPU 사업 비중 크게 줄어 주요 GPU 제조업체인 엔비디아와 AMD는 이미 비즈니스의 대부분이 ‘데이터센터’다. 엔비디아가 최근 발표한 2027회계연도 2분기 매출은 전년 대비 106%, 전 분기 대비 18% 오른 962억달러(약 129조8219억원)였다. 이 중 데이터센터 사업부의 매출은 890억달러(약 120조1055억원)로, 분기 매출의 92.5%에 달할 정도다. 성장세 또한 전년 대비 117%, 전 분기 대비 18%로 전체 매출 성장의 대부분을 데이터센터가 이끄는 모습이다. 이에 엔비디아는 실적 공시의 사업부 분류도 바꿨다. 엔비디아는 2026회계연도까지는 ‘데이터센터’와 ‘게이밍과 AI PC’, ‘프로페셔널 시각화(Professional Visualization)’, ‘자동차와 로보틱스(Automotive and Robotics)’ 등으로 구분했다. 지금은 단순히 ‘데이터센터’와 ‘엣지 컴퓨팅’으로 구분하고, PC와 전문가용 그래픽, 자동차와 로보틱스를 엣지 컴퓨팅 아래로 모두 모았다. 이 ‘엣지 컴퓨팅’의 매출은 72억달러(약 9조7164억원)로 전년 대비 27%, 전 분기 대비 13% 성장했지만 세부적으로는 PC와 워크스테이션의 GPU 비즈니스가 어느 정도인지 파악하기 어렵다. 하지만 모든 것을 모은 ‘엣지 컴퓨팅’의 매출 비중이 전체 매출의 7.5%까지 밀린 만큼, 현재 엔비디아의 비즈니스에서 PC용 GPU 사업이 큰 비중을 차지한다고 보기는 어렵다. AMD도 개인 사용자용 게이밍 GPU 비즈니스의 비중은 크게 줄었다. AMD의 2026년 2분기 실적 발표에 따르면 AMD의 분기 전체 매출은 전년 대비 50% 오른 115억달러(약 15조5192억원)를 기록했다. 이 중 데이터센터 부문은 67억달러(약 9조416억원) 가량으로 전체 매출의 약 60%를 차지하며, ‘클라이언트&게이밍’ 영역의 매출은 38억달러(약 5조1281억원) 가량으로 전체의 33% 정도다. 성장세 또한 전년 대비 매출은 6% 늘었지만 영업이익은 24% 줄었다. AMD의 ‘클라이언트&게이밍’ 세그먼트 안에는 PC용 프로세서와 GPU 비즈니스가 모두 있다. 2분기 38억달러 매출 중 CPU 중심의 클라이언트 매출은 31억달러(약 4조1834억원)고, GPU와 게임 콘솔용 세미커스텀 SoC 중심의 게이밍 매출은 8억달러(약 1조796억원) 정도에 그친다. 전체 분기 매출 중 게이밍 매출의 비중은 6~7% 정도로, 세미커스텀 SoC 매출을 빼면 게이밍용 GPU만의 비중은 이보다 더 적을 것이다. 이미 엔비디아와 AMD 양사에서 개인 사용자용 그래픽 시장은 사업 우선순위에서 상대적으로 밀려난 모습이다. 한편 인텔은 GPU 경쟁에서 상황이 다소 다르다. 인텔의 2026년 2분기 매출 161억달러 중 CCPG(Client Computing and Physical AI Group)의 매출은 89억달러로 55% 정도다. 그리고 이 매출의 대부분은 CPU 관련이며, GPU 전략 또한 프로세서 내장 GPU가 중심이다. 인텔은 올해 워크스테이션용 아크 프로 B 시리즈 그래픽카드를 출시했지만, 일반 소비자용과 워크스테이션용 시장 모두 아직 의미 있는 수준의 점유율을 달성하지는 못한 상황이다. 그래픽카드 가격 올라도 수요는 고가 제품에 집중 GPU 제조사들의 매출이 데이터센터에 집중된 만큼, 현실적으로 한정된 생산 역량 속에서 데이터센터용 제품에 우선순위를 두는 모습이다. 이미 엔비디아의 경우 연초부터 지속적으로 데이터센터용 제품군과 일부 겹치는 고성능 제품군의 공급량이 시장 수요에 미치지 못하는 상황이다. 그래픽 메모리를 포함한 부품 공급 가격도 메모리 가격 상승과 함께 오르고 있어 소비자용 그래픽카드 완제품 가격은 이제 심리적 저항선을 넘어설 정도까지 올랐다. 현재 엔비디아의 ‘지포스 RTX 50’ 시리즈 중 고성능 제품군으로 분류되는 ‘지포스 RTX 5070’ 시리즈의 국내 시장가격은 120~130만원대고 ‘지포스 RTX 5080’ 시리즈는 230~250만원대에 이른다. 경우에 따라 그래픽카드 한 장 가격이 일반적인 PC 가격의 절반 이상을 차지할 정도다. 자연스럽게 고성능 그래픽카드를 장착한 PC 가격도 400~500만원대로 올랐다. 메모리와 스토리지 가격 상승과 함께 소비자 부담이 상당한 수준까지 커졌다. 하지만 고성능 제품의 가격이 올랐다고 해서 소비자들이 더 저렴한 제품으로 눈을 돌리는 것도 아니다. 이는 현재의 게이밍 PC 시장이 고성능을 기본 요건으로 두는 시장이고, 현재의 메인스트림급 그래픽카드는 절대적 성능 수준에서 이 시장 소비자들의 요구를 충족하지 못하기 때문이다. 메인스트림 급 그래픽카드 가격도 출시 초기 40만원대였던 ‘지포스 RTX 5060’급 카드가 현재 70만원대에 이르면서 심리적 저항이 느껴질 수준을 이미 넘어선 상태다. 지포스 RTX 5080급 고성능 그래픽카드는 일반 게이머들이 쉽게 구입하기 어려운 가격대에 이르렀지만 공급보다 대기 수요가 많은 역설적인 상황이다. 한 업계 관계자는 현재 개인용 고성능 그래픽카드 시장에 대해 “가격도 많이 올랐지만 앞으로 더"
+  },
+  {
+   "source": "Google News · PYMNTS.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Google Launch Energy Alliance to Prevent AI Grid Overload",
+   "link": "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-google-launch-energy-alliance-prevent-ai-grid-overload/",
+   "date": "2026-09-17 01:29",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "엔비디아와 구글, AI 그리드 과부하 방지 에너지 연합 출범",
+    "korean_summary": "엔비디아와 구글이 AI 전력망 효율성 개선을 위한 에너지 연합을 발족했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA와 Google, AI 데이터센터의 전력망 과부하 방지 위한 'AI Energy Management Alliance' 출범",
+    "korean_summary": "NVIDIA와 Google이 Emerald AI 등과 함께 AI 데이터센터가 전력망 부담을 완화하며 유연하게 전력을 소비하도록 표준·정책을 마련하는 AEMA를 창립했다.",
+    "action": {
+     "actor": "NVIDIA, Google, Emerald AI",
+     "action": "AI Energy Management Alliance(AEMA) 창립 및 18개 런칭 파트너 참여 발표",
+     "stage": "Announced",
+     "timeline": "미확인 (수요일 LinkedIn 포스트 기준, 구체적 날짜 미확인)",
+     "scope": "AI 플랫폼, 인프라 제공업체, 데이터센터 운영사, 전력 생산자, 유틸리티, 지역 그리드 운영자 포함"
+    },
+    "key_facts": [
+     "**NVIDIA, Google, Emerald AI가 AEMA 창립 멤버이며 18개 launch partner가 추가 참여**",
+     "Tyler Norris(Google 에너지 시장 혁신 총괄)가 AEMA 초대 이사회 의장으로 선임됨",
+     "AEMA는 기술 중립적(technology-neutral)이며 성과 기반(performance-based) 접근을 표방",
+     "**AEMA는 그리드 교란 시 연결 유지, 전력 사용 감소, 비상 대응 규칙 표준화 및 상호연결 비용을 실제 시스템 영향에 따라 배분하는 것을 목표로 함**",
+     "PYMNTS는 지난 1월 AI 확장과 그리드 제약 간 긴장 관계를 보도한 바 있음"
+    ],
+    "why_matters": "AI 데이터센터의 급증하는 전력 수요가 기존 전력망 인프라와 충돌하면서 AI 확장의 병목이 되고 있으며, 이는 업계 전반의 표준화된 대응이 필요함을 보여준다. **유연한 전력 소비 모델이 표준화되면 AI 데이터센터의 신속한 그리드 연결과 확장 속도가 좌우될 수 있어 경쟁 구도에 직접적 영향을 미친다.**",
+    "nvidia_angle": "**NVIDIA는 AI 팩토리의 '책임 있는 확장(responsible scaling)'을 주도하며 전력 인프라 제약이 GPU 수요 성장의 걸림돌이 되지 않도록 생태계 차원의 정책·기술 표준을 선점하려는 전략을 보인다.** 이는 데이터센터 고객(하이퍼스케일러, 유틸리티)과의 관계를 강화하고 AI 인프라 전반에서의 영향력을 확대하는 행보다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AEMA 창립 멤버, AI 팩토리 확장을 위한 전력 정책 주도"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 창립 멤버, Tyler Norris가 초대 이사회 의장 역임"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "AEMA 창립 멤버, LinkedIn을 통해 얼라이언스 출범 발표"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI Energy Management Alliance (AEMA)",
+      "role": "AI 데이터센터의 유연한 전력 소비 표준 및 정책을 마련하는 신설 얼라이언스"
+     }
+    ],
+    "watch_next": [
+     "18개 launch partner의 구체적 명단 및 역할 공개 여부",
+     "AEMA가 제시할 기술 표준·성과 지표(performance metrics)의 구체적 내용",
+     "실제 유틸리티·그리드 운영자와의 상호연결(interconnection) 정책 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU2JnbzhGeUlfV0V3Nmo5Y0NqZGdCdjBoWFEtMEpuTWFMT1ptV1FiSmoyaG1vU3U5eklxM2g1OWFITnpvcmpOMTMzbll6Z05GZFlZMWlVMDVyNUhENHdOR2lDSXdCVkVZb003dllhQmNyc0c2SmFjcW1zMXFfM1ItWEhELVk4U3JieDJNNWsta0ViS3g5UlZLT2JYWHJweFBMLUhyZmFqcHJWU0dmSFRfaXpYcXV0QVBNcU9z",
+   "body": "In addition to the founding members, the AI Energy Management Alliance (AEMA) will include partners from across the computing and power ecosystem, including AI platforms, infrastructure providers, data center operators, technology companies, power producers, utilities and regional grid operators, according to the post. Emerald AI said in a Wednesday post on LinkedIn that 18 launch partners are participating in AEMA alongside the three founders. “What we agree on is specific: The grid was built for flat, predictable load, AI is not that, and the answer is not to ask the grid to simply absorb us,” Emerald AI said in the post. “AI data centers should be good grid citizens—flexing when the system is strained, absorbing power when it is abundant, and that flexibility should earn a faster connection through rules that are performance-based and the same for everyone.” Tyler Norris, head of energy market innovation, AI and infrastructure at Google and inaugural board chair of AEMA, said in a Wednesday post on LinkedIn about AEMA: “Our shared mission: modernize power system planning and operations for the 21st century to unlock the full potential of flexible data centers, enabling digital infrastructure to actively enhance system utilization, affordability and reliability.” We’d love to be your preferred source for news. Please add us to your preferred sources list so our news, data and interviews show up in your feed. Thanks! PYMNTS reported in January that there has been tension between AI expansion and grid constraints. According to Nvidia’s blog post, AEMA will promote the responsible scaling of AI factories by developing technical and operational approaches, collaborating with utilities on interconnection solutions and advocating for policies that recognize grid-responsive demand. Flexible AI data centers can dynamically manage their electricity use in response to grid conditions, getting more watts out of existing infrastructure, reducing environmental impacts per watt and supporting energy affordability, the post said. These data centers adjust the amount of electricity they draw from the grid by shifting computing workloads, discharging storage, using paired generation or responding to system contingencies, according to the post. AEMA is technology-neutral and performance-based, focusing on the measurable service a facility can deliver rather than the hardware or software that is used, the post said. The alliance aims to set rules for facilities regarding staying connected during brief grid disturbances, reducing power use when needed and responding to emergencies; standardize technical requirements, performance metrics and operational data sharing; create faster, risk-adjusted pathways for customers that make credible and verifiable flexibility commitments; and allocate interconnection costs in a way that reflects actual system impacts and benefits, per the post. For all PYMNTS AI coverage, subscribe to the daily AI newsletter."
+  },
+  {
+   "source": "Google News · Quantum Computing Report",
+   "category": "media",
+   "kind": "gnews",
+   "title": "IonQ, ORNL, NVIDIA, and UT Knoxville Advance AI-Driven Generative Quantum Circuit Synthesis",
+   "link": "https://quantumcomputingreport.com/ionq-ornl-nvidia-and-ut-knoxville-advance-ai-driven-generative-quantum-circuit-synthesis/",
+   "date": "2026-09-17 04:04",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_auto": false,
+    "signal_tags": [
+     "research",
+     "partnership"
+    ],
+    "korean_title": "IonQ·ORNL·엔비디아·UT Knoxville, 양자 회로 합성 기술 개발",
+    "korean_summary": "엔비디아가 IonQ, ORNL, UT Knoxville과 협력해 AI 기반 양자회로 합성 연구를 진행했다."
+   },
+   "summary_data": {
+    "korean_title": "IonQ·ORNL·NVIDIA·UT Knoxville, AI 기반 양자회로 생성 프레임워크 'DQAOA-GPT' 공개",
+    "korean_summary": "ORNL 주도로 IonQ, NVIDIA, UT Knoxville이 협력해 반복적 파라미터 튜닝 없이 양자 최적화 회로를 직접 생성하는 트랜스포머 기반 프레임워크 DQAOA-GPT를 개발해 IEEE Quantum Week 2026에서 최우수 논문상을 수상했다.",
+    "action": {
+     "actor": "Oak Ridge National Laboratory (ORNL), IonQ, NVIDIA, University of Tennessee Knoxville",
+     "action": "생성형 AI(트랜스포머)로 분산 양자근사최적화알고리즘(DQAOA)의 회로를 직접 합성해 반복 튜닝 루프를 제거하는 DQAOA-GPT 프레임워크 발표 및 벤치마크 시연",
+     "stage": "Announced",
+     "timeline": "2026-09-16 (IEEE Quantum Week 2026, Toronto에서 발표)",
+     "scope": "100변수 HUBO 문제, 단일 NVIDIA H200 GPU 기반 CUDA-Q/cuQuantum SDK 벤치마크"
+    },
+    "key_facts": [
+     "DQAOA-GPT는 **트랜스포머 모델**로 후보 회로를 직접 생성, 고정 10개 후보 샘플링 후 전역 파라미터 업데이트",
+     "100변수 HUBO 문제에서 단일 NVIDIA H200 GPU + CUDA-Q/cuQuantum SDK로 벤치마크",
+     "기존 방식은 4큐비트 34초에서 12큐비트 11분 이상으로 급증(19.4배 이상)했으나 DQAOA-GPT는 **약 28초로 일정한 합성 시간 유지**",
+     "동시에 HUBO 솔루션 품질을 약 2배 개선",
+     "IEEE Quantum Week 2026(Toronto)에서 Best Paper Award 수상"
+    ],
+    "why_matters": "고전적 변분 최적화 루프의 확장성 병목을 제거함으로써 하이브리드 양자-고전 알고리즘이 더 큰 실세계 최적화 문제로 확장될 수 있는 경로를 제시한다. **HPC GPU 인프라와 IonQ의 trapped-ion 하드웨어를 결합한 소프트웨어 계층**으로서, 양자 컴퓨팅의 실용화 가능성을 앞당기는 사례로 주목받는다.",
+    "nvidia_angle": "NVIDIA는 CUDA-Q와 cuQuantum SDK, H200 GPU가 양자-고전 하이브리드 워크로드의 필수 가속 계층임을 재확인하며, **양자컴퓨팅 연구 생태계에서 GPU 기반 시뮬레이션·최적화 인프라의 표준 위치**를 강화한다.",
+    "auto_robotics_angle": "",
+    "companies": [
+     {
+      "name": "Oak Ridge National Laboratory (ORNL)",
+      "context": "연구 주도 기관"
+     },
+     {
+      "name": "IonQ",
+      "context": "trapped-ion 양자 하드웨어 제공, 공동 연구 및 보도자료 발행"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "H200 GPU, CUDA-Q, cuQuantum SDK 제공으로 벤치마크 인프라 담당"
+     },
+     {
+      "name": "University of Tennessee, Knoxville",
+      "context": "공동 연구 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "DQAOA-GPT",
+      "role": "생성형 트랜스포머 기반 양자 회로 합성 프레임워크"
+     },
+     {
+      "name": "NVIDIA H200 GPU",
+      "role": "벤치마크 실행용 컴퓨팅 하드웨어"
+     },
+     {
+      "name": "CUDA-Q",
+      "role": "양자-고전 하이브리드 프로그래밍/실행 플랫폼"
+     },
+     {
+      "name": "cuQuantum SDK",
+      "role": "양자 회로 시뮬레이션 가속 SDK"
+     }
+    ],
+    "watch_next": [
+     "arXiv 프리프린트 상세 벤치마크 및 재현성 검증 결과",
+     "IonQ 하드웨어(trapped-ion) 실측 적용 사례 및 후속 논문",
+     "DQAOA-GPT의 산업용 최적화 문제(물류·화학 등) 적용 로드맵 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV1ByQTRsM213cTlSQ1Rwdm9ZTkk2c2NWSWlmeTh5dDF3ejY4VTkyVm1ndnlOeEZHVmZfaXpiT1U3THBNMXZwNnN6MktYSUpUTWhERzR4WGlZUHl0Rm5uMlFSMGlLOGY0elB2SjdWc3JPNGJzcGFyR01VUjBNd1ZhREk0MW1GUXM3d1d0QnVnV0tET0pJYl9VdGpaUl9nM3gzVjNmSHYxeEo0WmFPb0gydEF2SzBXcl9waU56VTlfcmx6QdIBxwFBVV95cUxNVG9zdVpyUkYycUlvTHFyUFh3dFJCZFVYRjU2WjVqSTA1SXVkazZjT2pDejNuWXBPMmdlM053ZWNGbGxvUHNCaDhKaXV0U1NqNkV0WnpFYThYLXJnR2dpTHg3SW9Zdk5zaUxKcUpTRGYyOHRHRHoxcXBUcTk2MTYyYVJTY0F2TTcyVFgzY2J4bUxWcXJiejdwZ3RhQk16aW1SbE1lSUZnckNfUk5XdWdDc2xiVzNIcWtreVBKcERxd1NwOUJ3X0Jn",
+   "body": "A research collaboration led by Oak Ridge National Laboratory (ORNL) alongside IonQ (NYSE: IONQ), NVIDIA, and the University of Tennessee, Knoxville (UT) has introduced DQAOA-GPT, a generative AI framework that synthesizes quantum optimization circuits directly to eliminate iterative parameter-tuning loops in distributed quantum algorithms. Presented at IEEE Quantum Week 2026 in Toronto, the paper received a Best Paper Award for demonstrating constant-time circuit synthesis for subproblem evaluations across scaling quantum domain widths. The framework replaces the traditional trial-and-error variational loop of the Distributed Quantum Approximate Optimization Algorithm (DQAOA) with a transformer model trained on high-performing circuit profiles. For each subproblem, the generative transformer outputs candidate quantum circuits directly, which are evaluated in a fixed 10-candidate sampling step before updating global solution parameters. Benchmarked on a 100-variable higher-order unconstrained binary optimization (HUBO) problem using single NVIDIA H200 GPUs via NVIDIA CUDA-Q and the cuQuantum SDK, conventional variational circuit optimization times escalated from 34 seconds (4 qubits) to over 11 minutes (12 qubits), whereas the generative DQAOA-GPT approach maintained a constant synthesis runtime of approximately 28 seconds regardless of subproblem qubit count while doubling overall solution quality. | [ DQAOA-GPT vs. Variational Quantum Circuit Synthesis Baseline ] | | | |---|---|---| | Optimization Metric | Traditional Variational DQAOA | Generative DQAOA-GPT Framework | | Circuit Synthesis Runtime | • 4 Qubits: ~34 Seconds • 12 Qubits: >11 Minutes (>19.4× Growth) | • 4 to 12 Qubits: ~28 Seconds (Constant Runtime) • Zero Iteration Parameter Optimization Loop | | Solution Quality Scaling | • Degrades/Stagnates Due to Tuning Latency Costs | • Approx. 2× Improvement in HUBO Answer Quality | | Compute Stack Baseline | • Variational Classical Optimizer Loop (GPU) | • Transformer Circuit Synthesis + CUDA-Q Scoring | By eliminating the classical optimization bottleneck, DQAOA-GPT enables hybrid algorithms to scale subproblem sizes without incurring prohibitive execution overheads. The framework serves as a scalable software layer across GPU-accelerated HPC systems and IonQ’s trapped-ion hardware pipeline, paving the way for larger real-world scientific and industrial optimization workloads. Review the official press release via IonQ Newsroom here, inspect the peer-reviewed research preprint on arXiv here, and examine our prior coverage of IonQ’s IEEE Quantum Week 2026 HPC/AI Research Portfolio here. September 16, 2026"
+  },
+  {
+   "source": "Google News · TechPowerUp",
+   "category": "media",
+   "kind": "gnews",
+   "title": "SteamOS is Getting Native NVIDIA GPU Driver Support",
+   "link": "https://www.techpowerup.com/352763/steamos-is-getting-native-nvidia-gpu-driver-support",
+   "date": "2026-09-17 05:32",
+   "score": 6,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_auto": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "SteamOS가 NVIDIA GPU 네이티브 드라이버 지원 추가",
+    "korean_summary": "SteamOS가 NVIDIA GPU에 대한 네이티브 드라이버 지원을 시작"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMzUtdmpEckh4THZCeW5VR2lPV1BJR2htVXRETUNDdnBrbUt4YTMzZG45Mkx2MEthcFdJZEhIQUJrcWVfV3BXOTJHZ3RUZFVBaXlUYjRzTFFBclRDQ0tDQ3lIU3I4bzhyb0h1TWxMVzR2bUU2R21ZLUJnWlJmN2lENWlyWnJwbW9mb1lURUx0MNIBlAFBVV95cUxQNS1ubXB0Y29HUENtbjNnaV9Bd2k4YU03ZjRLdHVsbjBSNXBJdklGN09vOUdTVmo1VlJmVHlWaGk1Y3pRbHdnc25SM3BKZlBfS1c5ZWhqb0lud3lkZXg1VVNNOHoxcDRPYWs5UWJFN21SVzhKMTlEZTgtMHVGbzVFZF9OYkQxWDBLaFRrOVI3TXdPam1o",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+   "link": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation/",
+   "date": "2026-09-17 08:20",
+   "score": 5,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "AI 에이전트를 활용한 시뮬레이션용 3D 씬 자동 준비",
+    "korean_summary": "NVIDIA 기술 블로그에서 AI 에이전트로 물리적 AI 시스템의 디지털 트윈 3D 씬을 자동 준비하고 검증하는 워크플로우를 설명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
+   "body": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in... Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties, render preflight views, and validate the result against simulation-ready (SimReady) requirements. This workflow follows that process from a scene in Blender to a simulation-ready OpenUSD handoff for NVIDIA… Source"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+   "link": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+   "date": "2026-09-17 00:00",
+   "score": 5,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA 로보틱스 분야 ChatGPT 모멘트 대기 중, Les Karpas 발표",
+    "korean_summary": "NVIDIA Inception Physical AI 글로벌 리더 Les Karpas가 TechCrunch Disrupt 2026에서 로봇 분야의 혁신 기회와 장애물에 대해 논의할 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+   "body": "The world hasn’t been the same since ChatGPT made its debut in November 2022, when seemingly out of nowhere, a means of engaging with large language models propelled AI beyond hype and into day-to-day reality. Robotics, like AI, has been discussed, built upon, and in some ways adopted for a long time now, but it’s yet to have that big breakthrough moment. And at TechCrunch Disrupt 2026, Nvidia Inception’s Global Head of Physical AI, Les Karpas, will dive into why that is and what could change that in his session on the Real World AI Stage, Robots Are Waiting for Their ChatGPT Moment. Here Is What Is Standing in the Way. After all, anyone who’s seen Nvidia CEO Jensen Huang’s keynotes the past few years knows the company is bullish about the robotics field. And you can get the opportunity to listen as Karpas details the limitations and opportunities in the AI and robotics spaces firsthand at Disrupt. From October 13-15 at San Francisco’s Moscone West, you and 10,000+ tech leaders, founders, and investors can catch Karpas and the rest of our extensive AI-focused lineup, which ranges from building companies to building in the real world. Act now and get your ticket to save up to $200 before September 25, after which our prices increase. Save up to 30% when you bring a group, since the Disrupt experience is meant to be shared. The all-too-real problem facing robotics Karpas’ POV on the core limitation facing general-purpose robots is simple to understand but wildly complicated to resolve. Nobody has an internet-wide dataset for physical AI in the way OpenAI, Anthropic, and others had for language. Even self-driving fleets from Waymo and its competitors were able to build datasets through years of accumulated road miles, datasets that are still expanding market by market. A growing ecosystem of startups is now trying to manufacture that scale artificially through simulation, synthetic data, and foundation models trained across many robot forms simultaneously. And that challenge of bridging the digital and physical is why we created the Real World AI Stage. Karpas will be joined by founders from Shield AI, Colossal Biosciences, FieldAI, and Foxglove, as they walk through the unique challenges and opportunities they face. Nvidia’s unique perspective comes to Disrupt Karpas is one of the best-positioned people in the world to answer the question his session presents. As Nvidia Inception’s Global Head of Physical AI, he coordinates the company’s relationship with the wide-ranging startup ecosystem stretching across robotics, automotive, manufacturing, mobility, smart cities, and much more. The same companies trying to solve that data gap are the ones he regularly interfaces with. And his path to getting there is one that speaks to the cross-disciplinary skills the robotics industry demands. Across roles at Stanley Black & Decker, Intellectual Ventures, Herman Miller, iRobot, Cirque du Soleil, and more, he’s been an architect, manufacturing engineer, startu"
+  },
+  {
+   "source": "Google News · MacRumors",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple May Return to Server Market With Nvidia Technology",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fSEFwTktxSXJ4SUdnUXh3bVpDRUhoTkVRcVF1Q1lUN3J6c1JUc0R2RE8xQk9ncF8wOUtJNGxtamdYUjhBcXpaTjRleWZnd0ItODhtYk1sOUlSR3FkbG5VMjdtcG1FVkJhUjZXR1BzMVJ5YmhYSklHWUdmUQ?oc=5",
+   "date": "2026-09-16 22:53",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, NVIDIA 기술과 자체 칩 결합으로 서버 시장 진출 계획",
+    "korean_summary": "Apple이 자체 설계 칩과 NVIDIA의 네트워킹 기술을 결합하여 서버 시장에 진입할 가능성이 보도되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Apple May Return to Server Market with Nvidia Technology",
+     "link": "https://www.macrumors.com/2026/09/16/apple-may-return-to-server-market/"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9fSEFwTktxSXJ4SUdnUXh3bVpDRUhoTkVRcVF1Q1lUN3J6c1JUc0R2RE8xQk9ncF8wOUtJNGxtamdYUjhBcXpaTjRleWZnd0ItODhtYk1sOUlSR3FkbG5VMjdtcG1FVkJhUjZXR1BzMVJ5YmhYSklHWUdmUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple may build AI servers with its own chips and Nvidia networking",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1BFMFl0QlBTQ3diZ0duam92SWxVVjZLUDBLcEQ3N0UwUVA1VUJCY2k3QV9PM29mVnloQ0E5NWRkYXdxTUJBRzFDMEVQX0VYdEJKM29CNXA2Qm9tMGRUaS13ZGdWbUZTdnFUUzNXamN1R1ZIbWRqM3VSc2ZWSTJBbm1nRXdOUnpNRFVzQjV2UkhISWRl?oc=5",
+   "date": "2026-09-17 05:21",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, 자체 칩과 NVIDIA 네트워킹 통합으로 AI 서버 개발",
+    "korean_summary": "Apple이 자체 프로세서와 NVIDIA의 네트워킹 기술을 결합한 AI 서버 개발을 계획 중인 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM1BFMFl0QlBTQ3diZ0duam92SWxVVjZLUDBLcEQ3N0UwUVA1VUJCY2k3QV9PM29mVnloQ0E5NWRkYXdxTUJBRzFDMEVQX0VYdEJKM29CNXA2Qm9tMGRUaS13ZGdWbUZTdnFUUzNXamN1R1ZIbWRqM3VSc2ZWSTJBbm1nRXdOUnpNRFVzQjV2UkhISWRl",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huawei Set to Unveil China’s Best Answer to Nvidia AI Chip Reign",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHJ3Q0EwbFRwV2xZcHF0XzNtMVV2X0U1cVZ2bU1SRHBwRm51RlA1cGc2UmxST0JNbThJcUoxclFZTTVzeGlfcEREbjI3TjR3MGFYU1M4ZnpfbFgya2ltY3JxYk0zdXNFUXBNQURsODIzanFJa05UbzJJYmVwbF95MGRKajVCSTJfekM5QmNmRTRQajNFbmlEMFRoblBXVUtXSWFwNUNkMXU1WVhLWGE3QmFnaFVsUQ?oc=5",
+   "date": "2026-09-17 08:00",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "화웨이, 엔비디아 AI 칩 대항마 공개 예정",
+    "korean_summary": "화웨이가 엔비디아의 AI 칩 경쟁력에 대응하는 중국 자국산 칩을 공개할 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHJ3Q0EwbFRwV2xZcHF0XzNtMVV2X0U1cVZ2bU1SRHBwRm51RlA1cGc2UmxST0JNbThJcUoxclFZTTVzeGlfcEREbjI3TjR3MGFYU1M4ZnpfbFgya2ltY3JxYk0zdXNFUXBNQURsODIzanFJa05UbzJJYmVwbF95MGRKajVCSTJfekM5QmNmRTRQajNFbmlEMFRoblBXVUtXSWFwNUNkMXU1WVhLWGE3QmFnaFVsUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · tech-insider.org",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia RTX 60 Series Skips 2027, Lands in 2028 [2026]",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXbTFGaHpscWd5ZjZEYlRXOThsZ3o2SzBIOUdXTlJnX1FTanBIMzk0QmVGRkZqNFFRSTYzUXVGUUZfQllHS1E3TU9BVlpyZnVBajVSR2szYmRVaEtfdWxjUTJKbVNZay1lbEVKVllxb1Z2RGQwWndz?oc=5",
+   "date": "2026-09-17 05:34",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "엔비디아 RTX 60 시리즈, 2027년 건너뛰고 2028년 출시",
+    "korean_summary": "엔비디아 RTX 60 시리즈가 2027년을 건너뛰고 2028년에 출시될 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXbTFGaHpscWd5ZjZEYlRXOThsZ3o2SzBIOUdXTlJnX1FTanBIMzk0QmVGRkZqNFFRSTYzUXVGUUZfQllHS1E3TU9BVlpyZnVBajVSR2szYmRVaEtfdWxjUTJKbVNZay1lbEVKVllxb1Z2RGQwWndz",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Q2 Earnings Roundup: Nvidia (NASDAQ:NVDA) And The Rest Of The Processors and Graphics Chips Segment",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX1pOa2haT09Ja1R4UFd1bXBtN1U2UzRxNFhHWGZ2aDB0eGpjSzZDUFZibEFUeEhPVmRWeFZvNDZ0em02THJMSVVWUFBPN3BrQXM1U2IzQjlUQzVXejRJOHJubFEtN3JYTTlsREo5aTJMQzZQUnlFMVpoeG5ESlBVRmhYaEwxUGplMGFvOWUzZjFKTmxfWWFWaGJoalFxM2s?oc=5",
+   "date": "2026-09-17 01:20",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "2분기 실적 점검: NVIDIA와 반도체 산업",
+    "korean_summary": "반도체 칩 제조사 NVIDIA 등의 2분기 실적을 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQX1pOa2haT09Ja1R4UFd1bXBtN1U2UzRxNFhHWGZ2aDB0eGpjSzZDUFZibEFUeEhPVmRWeFZvNDZ0em02THJMSVVWUFBPN3BrQXM1U2IzQjlUQzVXejRJOHJubFEtN3JYTTlsREo5aTJMQzZQUnlFMVpoeG5ESlBVRmhYaEwxUGplMGFvOWUzZjFKTmxfWWFWaGJoalFxM2s",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA DLSS 5 Neural Rendering Fuels UNCANNY Remastering Engine, And Both Classic and Modern Games Suddenly Look Like New Titles",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3VZYTZyZVloY1BidVpzcU5McXNrMXFaY0duUTB1OHJIN0NxWGV2U0xmUGZtbXpqMWk2UHpMV2cyWkxXT05zWnNlVEdRUU1STjVIRkt4MTRSakE2UjBvX1N1eFBHNWVzbGhrTWdKXzJmZVR0TVJpZ1oweDRNUlB1RFlwQldOQdIBiwFBVV95cUxPMnZCZVNGdFQxa2RSckIzN01BWVJWNWJLVG8zWm9maGh6UXNpRXZfVDIzTDhKejluUlA0NTBreC1ZZnFCc0czNzktMW1MbHR5N1pMaW5WTmdCTWlpVHhlUFZFUHg1aFRia1ozUEdUY2gzRWZRU0pFWG1BdHJzZzMwNmJickx6TklCcUlZ?oc=5",
+   "date": "2026-09-17 00:21",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "DLSS 5 신경 렌더링으로 게임 리마스터링 엔진 공개",
+    "korean_summary": "NVIDIA DLSS 5 신경 렌더링이 기존 게임을 새 수준의 그래픽으로 개선"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3VZYTZyZVloY1BidVpzcU5McXNrMXFaY0duUTB1OHJIN0NxWGV2U0xmUGZtbXpqMWk2UHpMV2cyWkxXT05zWnNlVEdRUU1STjVIRkt4MTRSakE2UjBvX1N1eFBHNWVzbGhrTWdKXzJmZVR0TVJpZ1oweDRNUlB1RFlwQldOQdIBiwFBVV95cUxPMnZCZVNGdFQxa2RSckIzN01BWVJWNWJLVG8zWm9maGh6UXNpRXZfVDIzTDhKejluUlA0NTBreC1ZZnFCc0czNzktMW1MbHR5N1pMaW5WTmdCTWlpVHhlUFZFUHg1aFRia1ozUEdUY2gzRWZRU0pFWG1BdHJzZzMwNmJickx6TklCcUlZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Salesforce",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Missionsforce Expansion & New Partnerships with NVIDIA and OpenAI",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGpsa0NCUFhsNVdkaWs3RnVycXVnUTQzcG5QVlVjbVlpY1BYaGg2QzJGZm8tQmxpa2t3S3lNRm9raGpVdkxpMndxZlBGT3RUd09EUE1PMWItOVVtOV9aMHdzSjQ5VXF4YUdMUlhrS3UtcDBxNlZkMnB1U2F0bnpyS2hRRlB6X1JpS2tmdkEya3FpY045dmx0N1B3TFpfems?oc=5",
+   "date": "2026-09-16 22:33",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "세일즈포스, NVIDIA·OpenAI와 새로운 파트너십 발표",
+    "korean_summary": "세일즈포스가 NVIDIA, OpenAI와 협력하여 Missionsforce를 확장"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRGpsa0NCUFhsNVdkaWs3RnVycXVnUTQzcG5QVlVjbVlpY1BYaGg2QzJGZm8tQmxpa2t3S3lNRm9raGpVdkxpMndxZlBGT3RUd09EUE1PMWItOVVtOV9aMHdzSjQ5VXF4YUdMUlhrS3UtcDBxNlZkMnB1U2F0bnpyS2hRRlB6X1JpS2tmdkEya3FpY045dmx0N1B3TFpfems",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Reportedly Taps Nvidia For M8 Ultra AI Servers In Enterprise Comeback Push",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3JJczluTk1RakNyNEFaTEh1OFY0MHVpTTA2dkVTVGNYUkJPTWpOS2JwR0xuaTF6cUZJT1MzWEdubWZXMFctRXJEM1Z0WHI2US1OSkFmeHV0X1R2dEZYQWd6eXQ4QkVhU1otVTZpRGlVb1NjY0hJWlMyRG5ObGJwa1lta1g5SWgzN0M0cDhVWnFYLTNxNFdMcjJYVQ?oc=5",
+   "date": "2026-09-17 00:25",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, M8 Ultra AI 서버에 NVIDIA 기술 도입 검토",
+    "korean_summary": "Apple이 기업용 서버 복귀 전략 일환으로 M8 Ultra AI 서버에 NVIDIA 기술을 탑재할 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3JJczluTk1RakNyNEFaTEh1OFY0MHVpTTA2dkVTVGNYUkJPTWpOS2JwR0xuaTF6cUZJT1MzWEdubWZXMFctRXJEM1Z0WHI2US1OSkFmeHV0X1R2dEZYQWd6eXQ4QkVhU1otVTZpRGlVb1NjY0hJWlMyRG5ObGJwa1lta1g5SWgzN0M0cDhVWnFYLTNxNFdMcjJYVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Nvidia and SK Hynix Are Signaling About Micron's Outlook",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSngyb3lRdTV0TmhZTnZ0XzIwSDdlNzM2LTNaOEdNZmFIaHFTZ2phWDAxbGppeVlmY2x4SHJ4dTh6MWE1MWN6YjE5NFFwa3A5QW8zSVRlX1RVaWU1VjlDN0pUVUtjM054TF94a00ya0lOOGhuNkhCMXpmeFFQUjh6eHhKRjNGanFOUHJrTU9Kb2hQcnBpMDFJckpmWnFfTnM?oc=5",
+   "date": "2026-09-16 22:25",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_auto": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA와 SK Hynix의 신호가 Micron의 사업 전망에 영향",
+    "korean_summary": "NVIDIA와 SK Hynix의 움직임이 Micron의 향후 HBM 수요 전망을 암시하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "What Nvidia and SK Hynix Are Signaling About Micron's Outlook",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbXBfcmJzWUpaLW9yR1pEeXgwQ0RoSEdzWUtRcmZqak84TWhkRHRxYjJGdFphVkM5SHh6TEtFVWtKZUdDV1FDdU9hTU11NDIwenVwTkhhRTRIR2NyczZHSC1MVVY0Z3BLUjJNTXNyem8tN041eFBaTEpIV0JqZUdraExoN0o4THBTUkVTTnF2UmpJMHNVT1lERQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSngyb3lRdTV0TmhZTnZ0XzIwSDdlNzM2LTNaOEdNZmFIaHFTZ2phWDAxbGppeVlmY2x4SHJ4dTh6MWE1MWN6YjE5NFFwa3A5QW8zSVRlX1RVaWU1VjlDN0pUVUtjM054TF94a00ya0lOOGhuNkhCMXpmeFFQUjh6eHhKRjNGanFOUHJrTU9Kb2hQcnBpMDFJckpmWnFfTnM",
+   "body": ""
+  },
+  {
+   "source": "Google News · AppleInsider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple's Xserve may return with Nvidia tech",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmRpOXBGLUhfMjN4RDZORGNsZENkaVYzSkdmdDVKb1dRaVhhS2VoblpWQmljdFEzR0libmt4MGcyV09DQjNWVC1GRF9QMXplSWZnRHU0TnBCbEVKVjMyOW1OaXNXdFRHei0yQnJ0TEMtTHR3NnpKNWg0dFRoMTdYa1lVVF9BbzI1NkxVVA?oc=5",
+   "date": "2026-09-16 22:42",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple의 Xserve 복귀, NVIDIA 기술 탑재 가능성",
+    "korean_summary": "Apple이 서버 라인 Xserve를 부활시킬 시 NVIDIA GPU를 탑재할 가능성이 제기되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmRpOXBGLUhfMjN4RDZORGNsZENkaVYzSkdmdDVKb1dRaVhhS2VoblpWQmljdFEzR0libmt4MGcyV09DQjNWVC1GRF9QMXplSWZnRHU0TnBCbEVKVjMyOW1OaXNXdFRHei0yQnJ0TEMtTHR3NnpKNWg0dFRoMTdYa1lVVF9BbzI1NkxVVA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s NVLink 6 Keeps AI Factories Running Through Any Error",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HSnktMjhGT0V2QkZEbWRCNm1nNC1uNllDUFF3aTYzVzVwRVA5cWhlanVUYWFyNlpqb0htakV6UHZ6a1hNYW9qOUFBbzlYemk1QkhmRzBkaEM3cEtaTi1hZWVWa2RYRzdYNDFn?oc=5",
+   "date": "2026-09-17 01:30",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아 NVLink 6으로 AI 인프라 장애 복구력 강화",
+    "korean_summary": "엔비디아의 NVLink 6이 장애 상황에서도 AI 데이터센터 운영을 지속하는 기술을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HSnktMjhGT0V2QkZEbWRCNm1nNC1uNllDUFF3aTYzVzVwRVA5cWhlanVUYWFyNlpqb0htakV6UHZ6a1hNYW9qOUFBbzlYemk1QkhmRzBkaEM3cEtaTi1hZWVWa2RYRzdYNDFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Talks to Nvidia About NVLink for Its Own AI Server",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXhCOHczbjVYNGJ0Q1ZBNHZtZThMQ1V1WjhZaHRkOGNDbWZRZTdSQWVWWVNDM1VYQVpDWVdVZjRhVVhWZVVlU0tGNmtXc2tPWDNnck0wdnJTNmhpZmpwSXB1TEZuZVl6Q0Z3YUFUemtULU56YWlBYVgxdXQzTEhjR0cxbXdvNkd2QndXUFcwY1BYbV8xajBSNXBhZTR1dDhBZDZJb294VFlKTzZpemhYd2tDS1VteEU?oc=5",
+   "date": "2026-09-17 05:20",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "애플, 자사 AI 서버용 NVLink 도입 엔비디아와 협상",
+    "korean_summary": "애플이 자체 AI 서버 구축을 위해 엔비디아의 NVLink 기술 도입을 검토 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNXhCOHczbjVYNGJ0Q1ZBNHZtZThMQ1V1WjhZaHRkOGNDbWZRZTdSQWVWWVNDM1VYQVpDWVdVZjRhVVhWZVVlU0tGNmtXc2tPWDNnck0wdnJTNmhpZmpwSXB1TEZuZVl6Q0Z3YUFUemtULU56YWlBYVgxdXQzTEhjR0cxbXdvNkd2QndXUFcwY1BYbV8xajBSNXBhZTR1dDhBZDZJb294VFlKTzZpemhYd2tDS1VteEU",
+   "body": ""
+  },
+  {
+   "source": "Google News · XDA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Your Nvidia GPU has dozens of RISC-V cores inside it, and one of them took over a huge part of the graphics driver",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzhvQTNKb1QwRkVUb0pMWWtWblN6WHlTVTZOLUtTaUJ4Mnl2TlQ1NzFjY0xlOVZCbXlBNTNBZmg3RjN6TDVZYXVlOTN4ajlXcjJleWhxZTlhbE9hVWtWd0dxRVhfa3NNMXR3ZmtkMU5CYkY2aEp3RlItaG5vOFdjcFJEb29mNEppaEpUSmZWbUdzSWw1YW9IOGpHZ0kxdw?oc=5",
+   "date": "2026-09-17 05:30",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_auto": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA GPU 내 RISC-V 코어의 역할 분석",
+    "korean_summary": "NVIDIA GPU 내부에 수십 개의 RISC-V 코어가 존재하며 일부가 그래픽스 드라이버의 중요 부분을 담당한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTzhvQTNKb1QwRkVUb0pMWWtWblN6WHlTVTZOLUtTaUJ4Mnl2TlQ1NzFjY0xlOVZCbXlBNTNBZmg3RjN6TDVZYXVlOTN4ajlXcjJleWhxZTlhbE9hVWtWd0dxRVhfa3NNMXR3ZmtkMU5CYkY2aEp3RlItaG5vOFdjcFJEb29mNEppaEpUSmZWbUdzSWw1YW9IOGpHZ0kxdw",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Salesforce and Nvidia launch Koa, a CRM reasoning model",
+   "link": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/?bc=HL",
+   "date": "2026-09-16 13:32",
+   "score": 5,
+   "is_auto": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_auto": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "Salesforce와 NVIDIA, CRM 추론 모델 Koa 공개",
+    "korean_summary": "Salesforce와 NVIDIA가 협력하여 고급 추론 기능을 갖춘 CRM 전용 Koa 모델 출시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model?bc=HL",
+   "body": "Article URL: https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/?bc=HL Comments URL: https://news.ycombinator.com/item?id=49722116 Points: 3 # Comments: 0"
+  },
+  {
+   "source": "Google News · sundayguardianlive.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Dow Jones Today: Dow Futures Gain 0.18% ahead of US Fed Rate Decision as Oil Prices, Treasury Yields & Nvidia Drive Wall Street Outlook; Check What Investors Should Know",
+   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPREVzVE9kaTYxYzVEZTNjbmRfeUxoOWRVRnZUU1JBVXhhc1liQ0l2ajVNRUtPOGN3T0pnSFVqd1E1aWRzaVU0OTBWZm1EQjhpX1FnN3lKT3lUZnRhNlpSSHFITWM1MkVIQ1ZSRUdnVTBCQkdPT1p1Q0pycTJ6bXdVU19pRThCTWdnR3RHeW5RQS1tVXFJdzI5dTV4WHB6Yl9KMzlTZmtlS1JKd3RDTkZ5dHJjTlJzdW54eHl4MllBcmZpbWNraHlGdVpCOTlEczd3WU5PZGdKU1hMV3JXR2dCb1NJazJpWE1oZDVMc2I0QVk4eXBLSUJTTlZiajlOVGFMbmJtWUtBenl4MnpBRmI5MnpaQmNwSVVrOExiQkpPaEI4blhYcURaMnFZRFZIWEV1UzdhU9IBugJBVV95cUxPODBEZTVzakV6bV9HWGZFd2w2QmdiRkUxOHEwZnp2N3JKSXcwWEUwR0Rxc3dVSUhZeGN4UjMtb2tsREhPem85RHZJSC0waW02VjJuMUV6YVYtYTl5R3Z1ampjVERnakZmUVlTUF9fbnZ5ZnBKb1pjWktXOWxlWk1nckJzYjJDblB4V0xSc0JsZnQ2X2wxYjV2SFpDaXJkeGJGNi11VmZxdVUzX2FCN0dMYW82d0d2N1hkY3hVUllLSGs1X290TFYxLXA0Rk4xQVVVaXlNemE0eExmbnY0X25QVF9aXzhMb3h3UHlHR1NrVUJGZzRGb3NsQ0lzZkJibzdPZG9OOWtmRGh4NnhYdHRnZ01rZEF4aEhhQ1ItSl91QUNzTVFBSGtVU09ZVWticDNiU1ZhOU1sVXYydw?oc=5",
+   "date": "2026-09-16 21:02",
+   "score": 2,
+   "is_auto": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Finance",
+    "is_auto": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Dow Jones 전망에 NVIDIA 언급",
+    "korean_summary": "미국 연방준비제도 금리 결정을 앞두고 NVIDIA가 월스트리트 전망에서 지나가듯 언급된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPREVzVE9kaTYxYzVEZTNjbmRfeUxoOWRVRnZUU1JBVXhhc1liQ0l2ajVNRUtPOGN3T0pnSFVqd1E1aWRzaVU0OTBWZm1EQjhpX1FnN3lKT3lUZnRhNlpSSHFITWM1MkVIQ1ZSRUdnVTBCQkdPT1p1Q0pycTJ6bXdVU19pRThCTWdnR3RHeW5RQS1tVXFJdzI5dTV4WHB6Yl9KMzlTZmtlS1JKd3RDTkZ5dHJjTlJzdW54eHl4MllBcmZpbWNraHlGdVpCOTlEczd3WU5PZGdKU1hMV3JXR2dCb1NJazJpWE1oZDVMc2I0QVk4eXBLSUJTTlZiajlOVGFMbmJtWUtBenl4MnpBRmI5MnpaQmNwSVVrOExiQkpPaEI4blhYcURaMnFZRFZIWEV1UzdhU9IBugJBVV95cUxPODBEZTVzakV6bV9HWGZFd2w2QmdiRkUxOHEwZnp2N3JKSXcwWEUwR0Rxc3dVSUhZeGN4UjMtb2tsREhPem85RHZJSC0waW02VjJuMUV6YVYtYTl5R3Z1ampjVERnakZmUVlTUF9fbnZ5ZnBKb1pjWktXOWxlWk1nckJzYjJDblB4V0xSc0JsZnQ2X2wxYjV2SFpDaXJkeGJGNi11VmZxdVUzX2FCN0dMYW82d0d2N1hkY3hVUllLSGs1X290TFYxLXA0Rk4xQVVVaXlNemE0eExmbnY0X25QVF9aXzhMb3h3UHlHR1NrVUJGZzRGb3NsQ0lzZkJibzdPZG9OOWtmRGh4NnhYdHRnZ01rZEF4aEhhQ1ItSl91QUNzTVFBSGtVU09ZVWticDNiU1ZhOU1sVXYydw",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano",
+   "date": "2026-09-17 03:48",
+   "score": 6,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "robotics",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Cosmos3-Nano 모델 Hugging Face에서 업데이트",
+    "korean_summary": "NVIDIA의 오모달 월드 모델 Cosmos3-Nano가 Hugging Face에서 업데이트되어 로봇, 자율주행, 스마트 공간용 물리적 AI를 강화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm, vllm-omni, sglang, sglang-diffusion, text, image, video, audio, and action generation, omnimodel · downloads 174473 · likes 355. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Nano ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Nano: - Given multimodal inputs including text, images, video, audio, and action trajectories, generate coherent text, images, video, audio, and action outputs for multimodal understanding, world simulation, future prediction, action reasoning, and Physi"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+   "date": "2026-09-17 04:00",
+   "score": 6,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3 텍스트-이미지 생성 모델 업데이트",
+    "korean_summary": "NVIDIA가 텍스트-이미지 생성용 Cosmos3-Super 변형을 Hugging Face에서 배포했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, text-to-image, image-generation · downloads 1938 · likes 184. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Text2Image: - Given text input, generate high-fidelity images that are consistent with the provided description. ### License This model is released under the [OpenMDW1.1](https://openmdw.ai/license/1-1/) ### Deployment Geography Global"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step",
+   "date": "2026-09-17 04:00",
+   "score": 6,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video-4Step",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Super-Image2Video-4Step 모델 업데이트",
+    "korean_summary": "NVIDIA가 빠른 추론용 4단계 이미지-비디오 생성 모델을 Hugging Face에서 배포했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video-4Step:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, image-to-video, video-generation, arxiv:2405.14867 · downloads 889 · likes 29. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video-4Step ## Description Cosmos3-Super-Image2Video-4Step is a 4-step distilled version of the base [Cosmos3-Super-Image2Video](https://huggingface.co/nvidia/Cosmos3-Super-Image2Video) model. Given an input image plus an optional text prompt, it generates a temporally coherent video. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Image2Video model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-model evaluations per video (see [PBR](https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step#pbr-performance-benchmark-reporting) for latency estimates). - **Quality:** Ranked #1 among ope"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
+   "date": "2026-09-17 04:00",
+   "score": 6,
+   "is_auto": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image-4Step",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_auto": true,
+    "signal_tags": [
+     "model-release",
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Super-Text2Image-4Step 모델 업데이트",
+    "korean_summary": "NVIDIA가 빠른 추론용 4단계 텍스트-이미지 생성 모델을 Hugging Face에서 배포했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image-4Step:2026-09-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, text-to-image, image-generation, arxiv:2405.14867 · downloads 732 · likes 14. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image-4Step ## Description Cosmos3-Super-Text2Image-4Step is a 4-step distilled version of the base [Cosmos3-Super-Text2Image](https://huggingface.co/nvidia/Cosmos3-Super-Text2Image) model. Given a text prompt, it generates a high-fidelity image. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Text2Image model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-model evaluations per image (see [PBR](https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step#pbr-performance-benchmark-reporting) for latency estimates). - **Quality:** At just 4 steps, ranks #2 among open-source models on the Art"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 9.5
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 19,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 105.9
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 4.0
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 8.8
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 9,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 9,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 24.3
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 16,
+   "error": "",
+   "sec": 6.0
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 26,
+   "enriched": 26,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
