@@ -1,0 +1,2248 @@
+{
+ "subject": "nvidia",
+ "date": "2026-09-18",
+ "window": [
+  "2026-09-17",
+  "2026-09-18"
+ ],
+ "generated": "2026-09-18T08:43:10+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "젠슨 황이 AI 수요 확대를 근거로 내년과 2027년 Nvidia 칩 판매량이 각각 **2배**로 증가할 것이라 전망했다.",
+  "NVIDIA Jetson Thor이 MLPerf v6.1 벤치마크에서 **에지 AI 추론** 성능을 향상시켜 로봇용 AI 처리 역량을 입증했다.",
+  "Nvidia와 Google이 Emerald AI와 함께 AEMA를 결성해 데이터센터용 **100기가와트** 규모 전력망 확보에 나섰다."
+ ],
+ "cards": [
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
+   "link": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+   "date": "2026-09-18 06:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "Jensen Huang, 내년 NVIDIA 칩 판매량 2배 증가 전망",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 내년 칩 판매량 2배 증가 및 2028 회계연도 70% 성장(약 673억 달러)을 전망했다."
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황, 내년 Nvidia 칩 판매량 2배 증가 전망",
+    "korean_summary": "Nvidia CEO 젠슨 황이 AI에 대한 산업·경제 전반의 투자 확대를 근거로 내년 칩 판매량이 올해 대비 **2배**로 늘어날 것이라 전망했다.",
+    "action": {
+     "actor": "Jensen Huang (Nvidia CEO)",
+     "action": "내년 칩 판매량이 올해의 2배가 될 것이라는 전망 발언",
+     "stage": "Rumor",
+     "timeline": "발언 시점: 2026년(목요일), 대상 시점: 내년",
+     "scope": "Nvidia 전체 반도체 제품군(수량 기준, 매출 수치 아님)"
+    },
+    "key_facts": [
+     "Huang은 스코틀랜드에서 열린 King Charles III와의 정상회의에서 '내년 칩 판매량이 올해의 2배가 될 것'이라고 발언",
+     "이는 Nvidia가 2028년 1월 종료 회계연도에 **70% 매출 성장(약 $673 billion)**을 예고한 직후 나온 발언",
+     "지난 가을 Huang은 Nvidia가 4개 분기 동안 **600만 개의 Blackwell GPU**를 출하했다고 밝힌 바 있음",
+     "Nvidia는 GPU 외에도 CPU, 스위치 칩, 광네트워킹 칩, 노트북용 칩, 로봇·자동차용 Jetson 칩, 닌텐도 Switch 2용 칩 등 다양한 반도체를 생산",
+     "Nvidia는 총 칩 판매 수량을 공식적으로 공개하지 않음"
+    ],
+    "why_matters": "AI 인프라 투자가 특정 국가·산업에 국한되지 않고 전 세계적으로 확산되고 있다는 신호로, Nvidia의 성장세가 단기 사이클이 아닌 향후 최소 6개 분기 이상 지속될 것이라는 시장 기대를 강화한다. **매출 70% 성장 전망에 이은 판매량 2배 전망**은 애널리스트들의 실적 기대치를 추가로 끌어올리는 요인으로 작용할 수 있다.",
+    "subject_angle": "Nvidia는 GPU 중심의 데이터센터 사업뿐 아니라 CPU·스위치·광네트워킹·엣지(Jetson) 등 **전 제품군에 걸친 물량 확대**를 통해 AI 인프라 공급망 전반에서의 지배력을 강화하려는 전략을 보이고 있다.",
+    "focus_angle": "Nvidia의 Jetson 칩이 로봇 및 자동차용 반도체로 언급되어, 데이터센터 GPU 외에 **자동차·로봇 분야도 판매량 증가 전망에 포함되는 제품 라인업**임을 확인할 수 있다.",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "칩 판매량 2배 성장을 전망한 발언 주체"
+     },
+     {
+      "name": "Google DeepMind",
+      "context": "AI 안전 논의를 위한 정상회의에 동석"
+     },
+     {
+      "name": "OpenAI",
+      "context": "AI 안전 논의를 위한 정상회의에 동석"
+     },
+     {
+      "name": "Anthropic",
+      "context": "AI 안전 논의를 위한 정상회의에 동석"
+     },
+     {
+      "name": "Nintendo",
+      "context": "Switch 2 콘솔에 Nvidia 칩 탑재"
+     }
+    ],
+    "products": [
+     {
+      "name": "Blackwell GPU",
+      "role": "데이터센터용 대표 GPU, 4개 분기 600만 개 출하 언급"
+     },
+     {
+      "name": "Rubin",
+      "role": "차세대 데이터센터 GPU로 언급"
+     },
+     {
+      "name": "Jetson",
+      "role": "로봇 및 자동차용 칩으로 언급"
+     }
+    ],
+    "watch_next": [
+     "'칩 판매량 2배' 전망에 대한 구체적 수치·제품별 breakdown 공개 여부",
+     "2028 회계연도 매출 전망($673 billion) 대비 실제 분기 실적 추이",
+     "Rubin 등 차세대 GPU 출하 일정 및 물량 공식 발표 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Jensen Huang says Nvidia will sell twice as many chips next year",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMZUVscTltc3BSMGJoVVhPeWlDQ2JiendDa3ZsRmF4VGwzVXAtYlNfUE5vVE13OXBsT1N3MXFYdFdRd25jYkhGaFp4QXEwb0g5cXNQdFhicVl0SWlySk1JTXhoc05qd08tcmhBR2VxQU5DLTVq0gF6QVVfeXFMTXo3S3oxZXdkNml4VG1yM09rSUh4cWp4Tlh2SXdSSGZ1Q0Z4NHBPclhJdmdmbUtWTWVUQnd4YUY0N25IV204WWY1QnZISUJ6bl9ZaXVEQ0dnMU1QdHdva0dSdmVOZWctZnBQaHE0WUdBSkFDYWItM2tQTXc?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+   "body": "Nvidia CEO Jensen Huang said on Thursday that the company will double the number of chips it sells next year. It's the latest forecast from Nvidia that points to continuing massive growth for the next six quarters, and comes shortly after the company revealed that it expected 70% growth in the fiscal year ending in January 2028, or about $673 billion, which caused analyst expectations to shoot up. \"I expect Nvidia to sell twice as many chips as this next year as we do this year,\" Huang told the media at a summit with King Charles III in Scotland. \"The reason for that is because AI has, has so much contribution to the benefits of different industries, different economies, and you can see that in almost every single country that we're in, people want to invest in AI.\" Nvidia doesn't disclose the number of chips it sells in total. Its best-known products are its data center graphics processing units, or GPUs, such as its Blackwell and Rubin chips. Last fall, Huang said that Nvidia had shipped 6 million Blackwell GPUs in four quarters. But Nvidia makes a variety of semiconductors in addition to its GPUs, including central processors, or CPUs, switch chips, chips for optical networking, chips for laptops, Jetson chips for robots and cars, and the chip inside Nintendo's Switch 2 gaming console. Huang, who was joined at the summit by representatives from Google DeepMind, OpenAI and Anthropic, was in the U.K. to discuss AI safety, a topic that he's repeatedly weighed in on in recent weeks The public discourse over risks to humanity has reached a fever pitch after AI researchers warned that humans are no longer able to control the most advanced artificial intelligence. \"When a product is not safe, we should hold it back and keep engineering it,\" Huang said."
+  },
+  {
+   "source": "Google News · 247wallst.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Expects Chip Sales to Double in 2027",
+   "link": "https://247wallst.com/investing/2026/09/17/nvidia-expects-chip-sales-to-double-in-2027/",
+   "date": "2026-09-18 01:10",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 2027년 칩 판매량 2배 성장 가이던스",
+    "korean_summary": "NVIDIA가 2027년 칩 판매량 2배 성장을 가이던스했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 2027년 칩 매출 두 배 증가 전망 — Jensen Huang 스코틀랜드에서 발언",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 스코틀랜드 행사에서 2027년 칩 매출이 2026년 대비 약 두 배로 증가할 것이라고 밝혀 Vera Rubin 플랫폼 수요와 공급 제약 기반 성장 전망을 재확인했다.",
+    "action": {
+     "actor": "Jensen Huang (NVIDIA CEO)",
+     "action": "2027년 칩 판매·출하량이 2026년 대비 약 두 배로 증가할 것이라고 공개 발언",
+     "stage": "Report",
+     "timeline": "2026-09-18 (Scotland 행사), 배경은 2026-08-26 실적발표",
+     "scope": "NVIDIA 전체 칩 사업, Vera Rubin 및 Blackwell 플랫폼 중심"
+    },
+    "key_facts": [
+     "Huang은 **2027년 칩 판매가 2026년 대비 약 두 배** 증가할 것이라고 언급, 이는 8월 26일 실적발표에서 CFO가 밝힌 FY2028 약 70% 매출 성장 및 '공급 제약적 전망'과 일치",
+     "**Vera Rubin 플랫폼**이 완전 양산에 돌입했으며 NVIDIA 역사상 가장 빠른 제품 램프로 예상, 기가와트당 매출 기회가 Blackwell의 $25B에서 **$40B로 상승**",
+     "공급 의무(supply obligations)가 $279.0B로 급증(Vera Rubin용 메모리 조달 중심), AI 클라우드 파트너 대상 보증 의무는 $108.5B 상한",
+     "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR과의 금융 플랫폼이 AI 인프라용으로 **$500B 이상의 제3자 자본**을 동원할 것으로 예상",
+     "네오클라우드 파트너들은 2025년 말 약 3GW에서 연말 8GW 설치 용량으로 확대 예상, AWS는 FY2029까지 GPU 200만 개 추가 배치, OpenAI 관련 약속은 약 12GW 규모"
+    ],
+    "why_matters": "AI 인프라 수요가 공급을 초과하는 '공급 제약적' 상황이 지속되며 애널리스트들이 FY2028 EPS 전망치를 $12.67에서 $15.57로 상향(30일간 39건 상향, 0건 하향)하는 등 시장 재평가가 빠르게 진행 중이다. **주권 AI(Sovereign AI) 매출이 연간 100% 성장**하며 하이퍼스케일러 외 수요 기반이 다각화되고 있다는 점도 경쟁 구도상 중요하다.",
+    "subject_angle": "NVIDIA는 Vera Rubin을 통해 **기가와트당 매출 단가를 $40B로 끌어올리며** 세대교체형 플랫폼 전략을 가속화하고, 대형 금융기관과의 자본 동원 구조를 통해 공급망·고객사 자금 조달까지 관여하는 인프라 플랫폼 사업자로 포지션을 확장하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "칩 판매 두 배 성장 전망을 발표한 당사자, Vera Rubin 및 Blackwell 공급사"
+     },
+     {
+      "name": "AWS",
+      "context": "FY2029까지 GPU 200만 개 추가 배치하는 주요 고객"
+     },
+     {
+      "name": "OpenAI",
+      "context": "약 12GW 규모의 NVIDIA 컴퓨트 확약 고객"
+     },
+     {
+      "name": "Apollo",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     },
+     {
+      "name": "BlackRock",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     },
+     {
+      "name": "Blackstone",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     },
+     {
+      "name": "Brookfield",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     },
+     {
+      "name": "Goldman Sachs",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     },
+     {
+      "name": "KKR",
+      "context": "AI 인프라 자본 동원 금융 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin platform",
+      "role": "2027년 매출 두 배 성장을 견인하는 차세대 GPU 플랫폼, 완전 양산 개시"
+     },
+     {
+      "name": "Blackwell",
+      "role": "현재 배포 지속 중인 이전 세대 플랫폼, Vera Rubin 대비 기가와트당 매출 비교 기준"
+     }
+    ],
+    "watch_next": [
+     "Fiscal Q3 실적 발표에서 Vera Rubin이 데이터센터 매출의 약 20% 목표 달성 여부 확인",
+     "주가가 50일 이동평균선 $213 위에서 유지되는지 여부",
+     "$279.0B 공급 의무 및 $108.5B 보증 의무의 실제 이행 및 재무 영향"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia Expects Chip Sales to Double in 2027",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNazIzWFdZaDZQMm9ZUWozSldoZlZCYmd2TDZIQkI3c0tMQXNac3BwOFM4ekJxdnEyVU1VbTktOWJXbC1CbndsaEYtei1tVWM5WU40aVhjWTN0Qk95TnBsR1pkNU5LSXlPcXMtS3JMYUFxdmhOekp4R3RZNS1PdEVINE01RzFoNlpqbjdLblY0YVo2T0gxOENHQkJkaVowZw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcU9UQ0dmQkdVNXBPZzBQZ1VZTUN1OG1jYkUxZVkydkpWSFlELUVqU01JZndtaGt3Nk91SDk3QzZhcDhWejg2THlrSDFBTV9MM0E1dGl4MmNULXRLU0FYUDB4UXMtUkhOdUFOenNCblFaR2lSOWY3NkRrc1BKc0h3OHV5SDVYa0xIZmRzbkd1MEY",
+   "body": "Nvidia Expects Chip Sales to Double in 2027 Jensen Huang just told a Scotland audience something about 2027 chip demand that sent analyst models scrambling and put NVIDIA's stock within striking distance of an all-time high. This post may contain links from our sponsors and affiliates, and Flywheel Publishing may receive compensation for actions taken through them. Shares of NVIDIA (NASDAQ:NVDA | NVDA Price Prediction) are trading higher Thursday, up 2% to $219 in late-morning trading, after CEO Jensen Huang told an audience at a Scotland tech gathering that chip sales in 2027 are projected to roughly double compared to 2026. The move puts the stock back within reach of its 52-week high of $236. Huang Signals a Doubling in 2027 Chip Sales Huang confirmed at the event that shipment and sales volumes are expected to increase twofold next year, echoing what management already told investors on the August 26, 2026 earnings call. On that call, the CFO said “Customers’ forecasts point to our growth doubling next year” and framed the fiscal 2028 outlook, which calls for roughly 70% revenue growth, as “a supply-constrained outlook.” Huang added that “The unconstrained is significant.” The doubling narrative is being driven by the Vera Rubin platform, which entered full production alongside continued Blackwell deployment. Vera Rubin is expected to be “the fastest product ramp in NVIDIA’s history,” with per-gigawatt revenue opportunity rising to roughly $40 billion, up from $25 billion on Blackwell. Huang also stressed at the Scotland event that AI safety is paramount and that unsafe products should be withheld from the market. Supply Commitments and Sovereign AI Are Locking In Demand The demand backdrop is visible in NVIDIA’s own balance sheet. Supply obligations swelled to $279.0 billion, largely tied to memory procurement for Vera Rubin, per NVIDIA’s most recent 8-K filing. Management also disclosed guarantee obligations capped at $108.5 billion for AI cloud partners and said financing platforms with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR are expected to mobilize over $500 billion of third-party capital for AI infrastructure. Sovereign and enterprise AI, which Huang calls the invisible half of the business, is “growing 100% a year.” Sovereign AI revenue alone grew 35% sequentially and more than tripled year over year. Neocloud partners are expected to exit the year with eight gigawatts of installed capacity, versus roughly three gigawatts at the end of 2025. AWS is deploying an additional 2 million GPUs through fiscal 2029, and OpenAI’s existing and planned commitments now represent roughly 12 gigawatts of NVIDIA compute. All those gigawatts have to be powered, cooled, and networked by somebody, which is why we profiled seven of those suppliers in a free AI infrastructure report. Estimate Revisions Are Racing to Catch Up Analyst models are re-rating quickly. Consensus EPS for the fiscal year ending January 2028 has climbed fro"
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Committed $2 Billion to Brookfield AI Infrastructure Fund",
+   "link": "https://www.bloomberg.com/news/articles/2026-09-17/nvidia-committed-2-billion-to-brookfield-ai-infrastructure-fund",
+   "date": "2026-09-18 02:17",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, Brookfield AI 인프라 펀드 20억 달러 투자",
+    "korean_summary": "NVIDIA가 Brookfield AI 인프라 펀드에 20억 달러 투자를 약정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWZvNjFSY01xVXFRX2JKQWY4T3FzRUZjdVU3THVsVHFkeldvWHFHd3ZqZDZjcGFNMm1tRVlCTEN2blJNbXJ2Ml9TeWo0UTJfZ3JDLVAzdUVxMVZaWmlMcWM3YnR1LS1zeGlJVHFia1UwVjlJWjZ2cEpLYXB2YzlBb2Y5c0Nrei12YThvS3d6MldrY1JHcjRJdnYwNzFZMGt1NkNqUVhBV3laVnQwUlJ1V3VZQlo",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investing.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huang says Nvidia’s chip sales will double next year",
+   "link": "https://www.investing.com/news/stock-market-news/huang-says-nvidias-chip-sales-will-double-next-year-4906232?utm_medium=feed&utm_source=googlenews&utm_campaign=googlenews-www-stocks",
+   "date": "2026-09-18 03:35",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "황 회장, 내년 칩 판매량 두 배 증가 전망",
+    "korean_summary": "Jensen Huang이 NVIDIA의 칩 판매가 내년에 2배 증가할 것으로 예상된다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPSkpJZFJiSXpMckRwN0R2N1p1Yy1nQTRDYWpZUGxDRGlhS05FUUl1YVFWSjVDejA1c3p5Ry1LZHI5RXJ6TUl2Sk83THNjbkVjQXlQNE8wZWo2d2U1SEhwYVJtVjdhZXB6WF93cFN6RmtvdnhOWEloZnp2SkFjaUE0ZkhxRzlvcWpvR0JMOTFrd01ENXRoUFRiTHlhaXliQ05uOGkzbmF5YVdVbXplanp0QjhSUFdiOEw5ejByMnhQY2NlRjRDU01MaGtlcmlROUwwMjRQb0ZEdUU3VFRjb2dCazBaMmZZZTY4dkRQUDNhNkxKdjdWcV9teWxHcEduT09Pb3hmRGE3TEdiY25oSlE",
+   "body": ""
+  },
+  {
+   "source": "Google News · bloomingbit",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Jensen Huang Says Chip Unit Sales to Double Next Year on AI Demand",
+   "link": "https://en.bloomingbit.io/feed/news/120570",
+   "date": "2026-09-18 07:45",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "황 회장, AI 수요로 인해 내년 칩 판매 2배 증가 전망",
+    "korean_summary": "Jensen Huang이 AI 수요로 인해 내년 칩 판매가 2배 증가할 것으로 예상된다고 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황, \"내년 반도체 판매량 2배 증가\"...AI 수요發 초고속 성장 전망",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 AI 투자 확대에 따라 내년 반도체 판매 대수가 올해의 2배가 될 것이라고 밝히며, 2028회계연도 매출 약 6,730억 달러 전망을 뒷받침했다.",
+    "action": {
+     "actor": "Jensen Huang (NVIDIA CEO)",
+     "action": "내년 반도체 판매 단위(volume)가 올해 대비 2배로 늘어날 것이라고 발언",
+     "stage": "Report",
+     "timeline": "2026년 9월 17일 발언, 대상은 내년(2027년)",
+     "scope": "NVIDIA 전체 반도체 제품군(데이터센터 GPU, CPU, 스위치, 광네트워킹 반도체, 노트북 칩, Jetson 칩 등), 전 세계"
+    },
+    "key_facts": [
+     "**Jensen Huang은 내년 반도체 판매 대수(unit sales)가 올해 대비 2배가 될 것**이라고 9월 17일 스코틀랜드 AI Summit을 앞두고 기자들에게 밝힘",
+     "이는 매출이 아닌 판매 '대수' 기준 전망이며, 제품별 가격 차이로 인해 매출 증가율과 반드시 일치하지는 않음",
+     "NVIDIA는 총 반도체 판매 대수를 별도로 공시하지 않음",
+     "**NVIDIA는 2028회계연도 매출을 약 6,730억 달러(전년 대비 70% 증가)로 전망**(8월 26일 2분기 실적 발표 시 제시)",
+     "NVIDIA 제품 라인업은 데이터센터 GPU, CPU, 스위치, 광네트워킹 반도체, 노트북 칩, 로봇·자동차용 Jetson 칩 등을 포함"
+    ],
+    "why_matters": "**CEO가 직접 판매 대수 2배 성장을 공개 언급**한 것은 AI 인프라 투자가 여전히 초기 단계이며 수요가 공급을 크게 상회하고 있음을 시사한다. 이는 반도체 업계 전반과 각국 정부·기업의 AI 인프라 투자 확대 기대를 강화하는 신호로 작용한다.",
+    "subject_angle": "**NVIDIA는 데이터센터 GPU를 넘어 CPU·스위치·광네트워킹·엣지 칩까지 포괄하는 풀스택 전략**으로 AI 수요 확산의 수혜를 극대화하려 하며, 이번 발언은 2028회계연도 6,730억 달러 매출 목표에 대한 시장 신뢰를 뒷받침하려는 의도로 읽힌다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "반도체 판매 대수 2배 성장 및 2028회계연도 매출 전망 발표 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Data-center GPU",
+      "role": "AI 인프라 핵심 반도체, 판매 대수 증가 전망의 주요 축"
+     },
+     {
+      "name": "Jetson",
+      "role": "로봇·자동차용 칩으로 제품 라인업에 포함(구체적 언급은 제한적)"
+     }
+    ],
+    "watch_next": [
+     "실제 2027년 반도체 판매 대수 및 매출 실적 발표 여부",
+     "2028회계연도 6,730억 달러 매출 전망의 구체적 달성 경로(제품별 구성비)",
+     "AI Summit(스코틀랜드) 이후 각국·산업별 AI 인프라 투자 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9OSThSSy1KVExLYWVWX0tCREx1dUJYcnhJWUNVMTM2VWh4ZTQ5akRaOC0wN0V4bll2Ry1DX2p2S19tM1JjQ1otcDVMYlpUN2kyMWNsSQ",
+   "body": "Nvidia’s Jensen Huang Says Chip Unit Sales to Double Next Year on AI Demand Summary - Jensen Huang said semiconductor unit sales next year will double from this year. - Nvidia said revenue for fiscal 2028 is projected to reach about $673 billion, up 70% from a year earlier. - Huang’s comments are bolstering expectations for broader AI infrastructure investment across countries and industries. Forecast Trend Report by Period Nvidia Chief Executive Officer Jensen Huang said semiconductor unit sales next year will double from this year as investment in artificial intelligence expands. Huang made the remarks to reporters ahead of the AI Summit in Scotland hosted by King Charles III, CNBC and other media outlets reported on September 17. \"AI is making a very large contribution across industries and the broader economy,\" Huang said. Nvidia is seeing moves to invest in AI in nearly every country where it operates, he added. The forecast refers to semiconductor unit volumes, not revenue. Because prices differ by product, a doubling in sales volume would not necessarily produce the same rate of revenue growth. Nvidia does not separately disclose its total semiconductor unit sales. Nvidia’s product lineup includes data-center graphics processing units, or GPUs, as well as central processing units, switches and optical-networking semiconductors, laptop chips, and Jetson chips for robots and automobiles. When Nvidia reported second-quarter earnings on August 26, it projected fiscal 2028 revenue of about $673 billion, up 70% from a year earlier. Huang’s latest comments are also bolstering expectations that AI infrastructure investment will continue to expand across countries and industries. YM Lee 20min@bloomingbit.ioCrypto Chatterbox_ tlg@Bloomingbit_YMLEE"
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s NemoClaw Agents Now Prep 3D Scenes For Robot Training",
+   "link": "https://quantumzeitgeist.com/nvidias-nemoclaw-agents-prep-scenes/",
+   "date": "2026-09-18 01:40",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "model-release"
+    ],
+    "korean_title": "NVIDIA NemoClaw 에이전트, 3D 장면으로 로봇 학습 지원",
+    "korean_summary": "NVIDIA의 NemoClaw 에이전트가 3D 씬을 활용한 로봇 학습을 가능하게 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Quantum Zeitgeist",
+     "title": "NVIDIA’s NemoClaw Agents Now Prep 3D Scenes For Robot Training",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBodXlVWVk3Q1NObndrbndnTlQ3X3Z3Q3AyN2kxcXA5MUJLNEV4QmxwR2dTYWxyWFhLQkpqcjNTRnBCNUhNTUZueU94VnhJN2I5aGppekw3eFlHXzdVOTNaNkd6OUtQVDFLX2JKQUttMWlYdlU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBodXlVWVk3Q1NObndrbndnTlQ3X3Z3Q3AyN2kxcXA5MUJLNEV4QmxwR2dTYWxyWFhLQkpqcjNTRnBCNUhNTUZueU94VnhJN2I5aGppekw3eFlHXzdVOTNaNkd6OUtQVDFLX2JKQUttMWlYdlU",
+   "body": ""
+  },
+  {
+   "source": "Google News · iottechnews.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Jetson Thor speeds edge agentic inference in MLPerf v6.1",
+   "link": "https://iottechnews.com/news/nvidia-jetson-thor-speeds-edge-agentic-inference-mlperf-v6-1/",
+   "date": "2026-09-18 01:58",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "research"
+    ],
+    "korean_title": "NVIDIA Jetson Thor, MLPerf v6.1 벤치마크에서 에지 AI 추론 가속화",
+    "korean_summary": "NVIDIA Jetson Thor이 MLPerf v6.1 벤치마크에서 에지 AI 추론 성능을 향상시켰다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · iottechnews.com",
+     "title": "NVIDIA Jetson Thor speeds edge agentic inference in MLPerf v6.1",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWQ5Ri1kM1RqNXRlSVBTSlJzN2VZNThSRlZhX0JIdkFCUUIyZzZ2bzFHcUhORVdTR1Z4b2lWcFpiNHNlTkhMRy1Hd2V3cWNUN19vX2xmck1EZ1ZnRVpMbWZjR3BPSzFqNnl1MXNPZEszWTB5VWpLMnNNbHFfTC01c3pDd2ZJbTZkMmtGcW9wMDRGZVVm?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMWQ5Ri1kM1RqNXRlSVBTSlJzN2VZNThSRlZhX0JIdkFCUUIyZzZ2bzFHcUhORVdTR1Z4b2lWcFpiNHNlTkhMRy1Hd2V3cWNUN19vX2xmck1EZ1ZnRVpMbWZjR3BPSzFqNnl1MXNPZEszWTB5VWpLMnNNbHFfTC01c3pDd2ZJbTZkMmtGcW9wMDRGZVVm",
+   "body": ""
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "두산, 韓·中에 9700억원 규모 AI CCL 증설",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=62456",
+   "date": "2026-09-17 23:40",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "두산, AI 데이터센터용 CCL 9700억원 증설…NVIDIA 칩 공급망 강화",
+    "korean_summary": "두산이 NVIDIA의 Blackwell·Rubin 등 AI 가속기용 동박적층판 생산 확대를 위해 국내·중국·태국에 총 9700억원을 투자하며, 2028년 하반기 가동을 목표로 한다."
+   },
+   "summary_data": {
+    "korean_title": "두산, AI 데이터센터용 CCL 생산능력 확대에 9700억원 투자…한국·중국 동시 증설",
+    "korean_summary": "두산이 AI 데이터센터 및 엔비디아 Blackwell·Rubin용 AI 가속기 수요 증가에 대응해 한국과 중국에 약 9684억원을 투자해 CCL 생산라인을 증설한다.",
+    "action": {
+     "actor": "Doosan",
+     "action": "국내 광모듈용 CCL 라인 증설(약 4210억원) 및 중국 창수 법인을 통한 AI 가속기·네트워크 스위치용 CCL 신공장 신축(약 5474억원)",
+     "stage": "Announced",
+     "timeline": "2026~2028년 단계적 투자, 2028년 하반기 가동 시작",
+     "scope": "한국(충북 증평, 경북 김천, 전북 익산·김제) 및 중국(창수 법인), AI 데이터센터·AI 가속기·네트워크 스위치용 CCL"
+    },
+    "key_facts": [
+     "두산이 총 **9684억원(자기자본의 7.92%)** 규모 CCL 증설 투자를 17일 공시",
+     "국내 약 4210억원, 중국 약 5474억원(창수 법인 1824억원 증자 포함) 투입, 2028년 하반기 가동",
+     "올해 2분기 광모듈용 CCL 매출 약 500억원으로 전년 대비 **10배 이상 증가**",
+     "**엔비디아 Blackwell·Rubin 등 AI 가속기용 CCL 수요 급증**, 네트워크 보드용 CCL 매출 3692억원(전자BG 매출 절반 이상)",
+     "증평·김천 공장 가동률 각각 109.8%, 102.7%, 중국 공장 92.2%로 이미 풀가동 수준"
+    ],
+    "why_matters": "AI 가속기 및 광모듈 수요 폭증이 상류 소재(CCL) 공급망 증설로 이어지는 흐름을 보여주는 사례로, **엔비디아 GPU 플랫폼 확산이 PCB 핵심소재 시장까지 구조적 성장을 견인**하고 있음을 확인시킨다. 두산 외에도 CCL·PCB 공급망 전반의 증설 경쟁이 가속화될 가능성을 시사한다.",
+    "subject_angle": "엔비디아는 직접적인 투자 주체는 아니지만, **Blackwell·Rubin 플랫폼 수요가 협력사의 대규모 설비투자를 촉발**하는 구조로 작용하며 자사 로드맵의 공급망 안정성 확보에 긍정적 신호다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Doosan",
+      "context": "AI 데이터센터용 CCL 생산능력 확대를 위한 투자 주체"
+     },
+     {
+      "name": "Doosan Electro-Materials",
+      "context": "중국 창수 법인, 두산이 지분 100% 보유, 중국 CCL 신공장 투자 실행 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Blackwell·Rubin AI 가속기 공급망 수요처로 CCL 수요 증가의 배경"
+     }
+    ],
+    "products": [
+     {
+      "name": "CCL(동박적층판)",
+      "role": "PCB 핵심소재, 광모듈·AI 가속기·네트워크 스위치용으로 수요 증가"
+     },
+     {
+      "name": "Blackwell",
+      "role": "엔비디아 AI 가속기, CCL 수요 증가의 주요 원인"
+     },
+     {
+      "name": "Rubin",
+      "role": "엔비디아 차세대 AI 가속기, CCL 수요 증가의 주요 원인"
+     }
+    ],
+    "watch_next": [
+     "태국 방보 공장(1800억원 투자) 착공 및 2028년 하반기 양산 진행 상황",
+     "중국 창수 법인 신공장 착공·건설 일정 구체화 여부",
+     "엔비디아 차세대 플랫폼(Rubin 이후) 관련 CCL 스펙 변화 및 추가 수요 신호"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=62456",
+   "body": "두산이 인공지능(AI) 데이터센터용 동박적층판(CCL) 생산능력 확대에 9684억원을 투자한다고 17일 공시했다. 지난해 연결기준 자기자본의 7.92%다. CCL은 인쇄회로기판(PCB)의 핵심소재다. 국내에 약 4210억원을 투입해 광모듈용 CCL 생산라인을 증설한다. 두산 전자BG는 현재 충북 증평, 경북 김천, 전북 익산·김제 등에 CCL 생산거점을 두고 있다. 중국에는 약 5474억원을 들여 AI 가속기와 네트워크 스위치용 CCL 공장을 신축한다. 두산이 지분 100%를 보유한 두산일렉트로머티리얼즈 창수 법인을 통해 투자한다. 이번 투자를 위해 창수 법인에 약 1824억원을 증자한다. 오는 2028년까지 3년에 걸쳐 단계적으로 투자를 집행한다. 2028년 하반기 가동을 시작한다. 이번 증설은 AI 데이터센터 투자 확대에 따른 고성능 CCL 수요가 배경이다. 올해 상반기 증평과 김천 공장 가동률은 각각 109.8%, 102.7%다. 중국 공장도 92.2% 가동률을 기록했다. 광모듈용 CCL 수요가 빠르게 늘었다. 올해 2분기 두산의 광모듈용 CCL 매출은 약 500억원으로 전년 대비 10배 이상이다. 광모듈용 CCL은 AI 데이터센터의 서버와 스위치 등을 연결해 대용량 데이터를 고속으로 전송하는 광통신 모듈 내 PCB 소재로 사용된다. 엔비디아 블랙웰와 루빈 등에 공급하는 AI 가속기용 CCL 수요도 급증했다. AI 가속기용 제품 등이 포함된 네트워크 보드용 CCL 매출은 올해 2분기 3692억원을 기록했다. 전자BG 전체 매출 절반 이상이다. 두산은 앞서 1800억원을 투자해 태국 사뭇쁘라깐주 방보 지역에 CCL 신규 공장 설립을 결정했다. 연내 착공해 2028년 하반기 양산이 목표다. 태국 공장까지 가동하면 두산의 CCL 생산거점은 한국, 중국에 이어 동남아시아까지 확대된다."
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Rises. Jensen Huang Sees Chip Sales Doubling in 2027",
+   "link": "https://finance.yahoo.com/technology/articles/nvidia-stock-rises-jensen-huang-192938458.html",
+   "date": "2026-09-18 04:29",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "Jensen Huang CEO, 2027년 칩 판매 2배 성장 전망",
+    "korean_summary": "NVIDIA 최고경영자가 향후 칩 판매량 2배 증가를 명시적으로 예측."
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황, 2027년 칩 매출 두 배 전망…Vera Rubin 첫 성능 지표 공개",
+    "korean_summary": "Nvidia CEO 젠슨 황이 스코틀랜드 행사에서 2027년 칩 매출이 올해의 두 배가 될 것이라 밝혔고, 차세대 Vera Rubin 플랫폼의 MLPerf 성능 데이터가 함께 공개되며 주가가 상승했다.",
+    "action": {
+     "actor": "Jensen Huang (Nvidia CEO)",
+     "action": "2027년 칩 매출이 2026년 대비 약 두 배가 될 것이라는 전망을 발표하고, Vera Rubin NVL72의 MLPerf 예비 성능 결과를 공개함",
+     "stage": "Announced",
+     "timeline": "발언 시점: 미확인(최근, 스코틀랜드 행사) / 매출 전망 대상: 2027년 / MLPerf 결과 공개: 2026년 9월 16일 / Vera Rubin 출하 시작: 2026년 가을",
+     "scope": "Nvidia 전체 칩 매출 및 Vera Rubin NVL72 플랫폼"
+    },
+    "key_facts": [
+     "젠슨 황은 스코틀랜드 행사에서 **2027년 칩 매출이 올해의 약 두 배**가 될 것이라고 밝힘",
+     "이 발언 이후 Nvidia 주가는 목요일 2% 이상 상승",
+     "9월 16일 공개된 예비 MLPerf 결과에 따르면 **Vera Rubin NVL72가 Qwen3-VL 테스트에서 GB300 대비 최대 3.7배의 추론 처리량**을 기록",
+     "Vera Rubin은 완전 양산(full production) 단계에 진입했으며 올가을부터 출하 시작 예정",
+     "미 증시 전반도 유가 2% 이상 하락 및 10년물 국채 금리 완화로 기술주 반등에 힘을 보탬"
+    ],
+    "why_matters": "AI 인프라 수요가 지속 확대되는 가운데 Nvidia가 매출 두 배 성장 전망을 제시한 것은 **차세대 AI 칩 사이클에 대한 시장의 신뢰**를 강화하는 신호다. 동시에 Vera Rubin의 성능 데이터 공개는 경쟁사(AMD, 클라우드 자체 칩 개발사 등) 대비 기술 우위를 재확인시켜 투자 심리를 뒷받침한다.",
+    "subject_angle": "Nvidia는 Blackwell 이후 세대인 **Vera Rubin으로의 전환을 가속화**하며 성능 지표와 매출 가이던스를 동시에 제시, AI 반도체 사이클의 지속성과 자사 로드맵의 신뢰도를 시장에 각인시키려는 전략을 취하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "칩 매출 전망 발표 및 Vera Rubin 플랫폼 출시 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "차세대 AI 인프라 플랫폼, GB300 대비 향상된 추론 성능 시연 및 양산·출하 시작"
+     },
+     {
+      "name": "GB300",
+      "role": "이전 세대 시스템, Vera Rubin 성능 비교 기준"
+     },
+     {
+      "name": "MLPerf (Qwen3-VL 테스트)",
+      "role": "Vera Rubin 성능을 검증한 벤치마크"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72의 실제 출하 시작 시점 및 초기 고객사 확인",
+     "2027년 매출 두 배 전망에 대한 구체적 수치·가이던스 발표 여부",
+     "경쟁사(AMD 등)의 대응 제품 및 벤치마크 결과 비교"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObDRrY0hhbnl5THAyVVdQQ2R4eWdaWUdlVkxQdVNycWZubVp3cmxPSGpRZWN4aVpYbmNqcFc5bFJqTzgxbG5vaGdpNXE3TkdPS0pCUWx6YUtxcVBfUHFqb1AwSDkwVmpkcWRzbU1RSnllWXBCT3ZxYmR1UC11dDJNWjlsdXJrZ3QxUXA2NVZCNmVSVGZxMFZV",
+   "body": "This article first appeared on GuruFocus. Nvidia ( NVDA ) shares climbed more than 2% Thursday as investors reacted to fresh comments from CEO Jensen Huang that chip sales could double in 2027, while new performance data for the company's next-generation Vera Rubin platform added to the AI trade. The latest sales outlook came from Huang at an event in Scotland. He said Nvidia expects chip sales next year to be about twice this year's level, pointing to continued demand as businesses expand their use of artificial intelligence. - Warning! GuruFocus has detected 4 Warning Signs with NVDA. - Is NVDA fairly valued? Test your thesis with our free DCF calculator. Nvidia also released preliminary MLPerf results on Sept. 16 showing Vera Rubin NVL72 delivering up to 3.7 times the inference throughput of the previous GB300 system on the Qwen3-VL test. Vera Rubin has entered full production, with shipments expected to begin this fall. The broader market provided another lift. U.S. stocks rebounded Thursday as oil prices fell more than 2% and the 10-year Treasury yield eased, helping technology shares recover from recent pressure."
+  },
+  {
+   "source": "Google News · siliconangle.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Google and Emerald AI launch flexible data center consortium",
+   "link": "https://siliconangle.com/2026/09/17/nvidia-google-and-emerald-ai-launch-flexible-data-center-consortium/",
+   "date": "2026-09-18 05:37",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Google·Emerald AI 데이터센터 컨소시엄 출범",
+    "korean_summary": "NVIDIA, Google, Emerald AI가 유연한 데이터센터 표준화 컨소시엄을 시작했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, Google, Emerald AI, 유연 전력 데이터센터 산업 연합체 AEMA 출범",
+    "korean_summary": "Nvidia와 Google, Emerald AI가 전력망 부담 시 전력 소비를 조절하는 유연 데이터센터 확산을 위해 21개사가 참여하는 산업 연합체 AEMA를 공식 출범했다.",
+    "action": {
+     "actor": "Nvidia, Google, Emerald AI",
+     "action": "유연 데이터센터(flexible data center) 구축 촉진을 위한 산업 연합체 AI Energy Management Alliance(AEMA) 결성",
+     "stage": "Announced",
+     "timeline": "수요일(Wednesday) 공식 출범",
+     "scope": "창립 3개사 + 18개 추가 참여사(Anthropic, Analog Devices 등 유틸리티 다수 포함), 지역 미확인"
+    },
+    "key_facts": [
+     "AEMA는 Nvidia, Google, Emerald AI 3개 창립사와 **Anthropic, Analog Devices 등 18개 추가 참여사**로 구성됨",
+     "Google은 데이터센터의 demand response 용량이 3월 기준 **1GW를 초과**한다고 공개",
+     "Nvidia는 Rubin GPU를 사용하는 데이터센터 운영사에 전력망·온프레미스 발전·배터리를 최적화하는 소프트웨어 **DSX Flex**를 제공",
+     "Emerald AI는 지난달 1억 5천만 달러 투자를 유치했으며 Nvidia가 투자자로 참여, Emerald Conductor 소프트웨어 보유",
+     "Nvidia와 Emerald AI는 버지니아주 Manassas에 100메가와트급 '세계 최초 전력 유연 AI 팩토리'를 공동 구축 중이며 여기에 Emerald Conductor가 적용될 예정"
+    ],
+    "why_matters": "AI 데이터센터의 급증하는 전력 수요가 전력망 안정성의 병목으로 부상한 상황에서, **GPU 공급자인 Nvidia가 전력 최적화 소프트웨어와 업계 표준 제정에도 직접 관여**함으로써 하드웨어를 넘어 데이터센터 운영 전반의 표준을 주도하려는 움직임을 보여준다. 이는 유틸리티·클라우드 사업자와의 협력을 통해 AI 인프라 확장의 전력 제약을 완화하려는 업계 공동 대응이라는 점에서 의미가 크다.",
+    "subject_angle": "Nvidia는 GPU 판매를 넘어 **DSX Flex 같은 전력관리 소프트웨어와 Emerald AI 투자·공동 데이터센터 구축**을 통해 AI 인프라 전력 최적화 생태계의 표준 설정자로 입지를 넓히고 있으며, 이는 자사 GPU 채택 확대와 직결되는 락인 전략으로 해석될 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "AEMA 창립사, DSX Flex 소프트웨어 제공, Emerald AI 투자자 및 Manassas 데이터센터 공동 구축"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 창립사, demand response 기술 보유(1GW 이상 용량)"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "AEMA 창립사, Emerald Conductor 플랫폼 개발, Nvidia와 Manassas 데이터센터 공동 구축, 1.5억 달러 투자 유치"
+     },
+     {
+      "name": "Anthropic PBC",
+      "context": "AEMA 참여사"
+     },
+     {
+      "name": "Analog Devices Inc.",
+      "context": "AEMA 참여사(칩메이커)"
+     }
+    ],
+    "products": [
+     {
+      "name": "DSX Flex",
+      "role": "Nvidia Rubin GPU 기반 데이터센터의 전력망·배터리·발전설비 최적화 소프트웨어"
+     },
+     {
+      "name": "Emerald Conductor",
+      "role": "그리드 스트레스 시 서버 클러스터 전력 소비를 낮추는 소프트웨어 플랫폼, Manassas 데이터센터에 적용"
+     },
+     {
+      "name": "Rubin GPU",
+      "role": "DSX Flex 소프트웨어가 최적화 대상으로 삼는 Nvidia GPU 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "AEMA의 유연 데이터센터 모범사례(best practices) 및 전력 최적화 표준 지표 발표 시기",
+     "버지니아 Manassas 100MW '전력 유연 AI 팩토리' 가동 일정 및 실증 결과",
+     "AEMA에 추가 참여하는 유틸리티·기업 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZDJxMVZ2U2JJbDZtWGFZRWxpV1lsT1VXOXpuV2JkeUk2TER6VnB2WDZDaEM5cHg2d1lRTEY0aThlekl2akcwUWNUMVhvXzNKVlkya1dqMGREdHA1OHBZbnR4dkNxejVfc1J0cXFZQzludDY3MTdPOHI0a0V1U0Z3UWJZZ0o2eFFZQlJaYWRQdDV1cTlsRlVHRUdualZUay11MWo3bDFnNA",
+   "body": "Nvidia, Google and Emerald AI launch flexible data center consortium Nvidia Corp., Google LLC and software startup Emerald AI Inc. have formed an industry consortium to promote the construction of flexible data centers. The AI Energy Management Alliance, or AEMA, officially launched on Wednesday. A flexible data center is a facility that cuts its power draw when the electrical grid is under strain. That usage reduction can take multiple forms. If household energy demand is expected to peak in the afternoon on a certain day, data center operators can schedule their AI training runs to avoid that time frame. Alternatively, they can draw power from on-site batteries instead of the grid. Onsite batteries also have other benefits. If a utility is struggling to meet consumer demand on its own, data center operators can inject some of their stored electricity into the grid. The AEMA’s three founding members are closely involved in the flexible data center ecosystem. Google has developed what it calls demand response technologies to align its cloud facilities’ energy usage with grid requirements. In March, the company disclosed that its demand response capacity exceeds 1 gigawatt. Nvidia offers a software tool called DSX Flex to data center operators that use its Rubin graphics cards. The application can optimize an AI facility’s grid usage, on-premise energy generation equipment and batteries. It makes optimization decisions based partly on signals from power utilities’ infrastructure. Emerald AI, the third founding member of AEMA, is a startup that raised $150 million in funding last month. It counts Nvidia among its investors. The two companies are collaborating on a 100-megawatt data center in Manassas, Virginia that they describe as the “world’s first power-flexible AI factory.” Emerald AI offers a software platform called Emerald Conductor that enables server clusters to lower their energy consumption when the grid is under stress. According to the company, the software also limits the impact of power draw reductions on AI workloads. Emerald Conductor will be used in the Manassas data center that Emerald AI is building with Nvidia. AEMA is also backed by 18 other companies. The group includes Anthropic PBC, chipmaker Analog Devices Inc. and multiple utilities. The consortium’s first priority will be to develop best practices for flexible data centers. According to AEMA, its best practices will cover details such as how facilities should respond to power outages. The goal is to encourage data center builders to implement those standards in new facilities before they’re powered on. AEMA’s work will also cover other areas. It will seek to standardize the metrics that data center operators use to evaluate their power optimization efforts. Additionally, AEMA will encourage industry players to share technical data about their work. Photo: Nvidia A message from John Furrier, co-founder of SiliconANGLE: Support our mission to keep content open and free by "
+  },
+  {
+   "source": "Google News · The American Bazaar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed CoreWeave plans $3 billion debt offering amid AI infrastructure boom",
+   "link": "https://americanbazaaronline.com/2026/09/17/nvidia-backed-coreweave-plans-3-billion-debt-offering-488328/",
+   "date": "2026-09-18 02:37",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원 CoreWeave, 30억 달러 규모 채권 발행 계획",
+    "korean_summary": "NVIDIA가 지원하는 CoreWeave가 AI 인프라 호황 속에 30억 달러 규모의 채권 발행을 추진 중"
+   },
+   "summary_data": {
+    "korean_title": "Nvidia가 투자한 CoreWeave, AI 인프라 확충 위해 30억 달러 전환사채 발행 추진",
+    "korean_summary": "Nvidia가 지분을 보유한 AI 클라우드 기업 CoreWeave가 AI 인프라 구축 자금 조달을 위해 **30억 달러 규모 전환사채 발행**과 최대 35만주 규모 주식 매각 프로그램을 동시에 추진한다.",
+    "action": {
+     "actor": "CoreWeave",
+     "action": "30억 달러 규모 전환사채(convertible debt) 발행 계획 발표, 초기 매수자에 최대 5억 달러 추가 매수 옵션 부여, 최대 3500만주 규모 ATM(at-the-market) 주식 매각 프로그램 출범",
+     "stage": "Announced",
+     "timeline": "2026년 9월 18일(목) 발표",
+     "scope": "미확인(구체적 사용처는 부채 희석 방지 및 운영자금으로 기재)"
+    },
+    "key_facts": [
+     "**30억 달러 전환사채 발행** 계획, 초기 매수자 최대 5억 달러 추가 매수 가능",
+     "Deutsche Bank, Goldman Sachs, JP Morgan이 최대 3500만주 ATM 주식 매각 프로그램 주관, 수요일 종가 기준 약 29.2억 달러 조달 가능",
+     "3분기 계약 전력 용량을 3.7GW(6월 말)에서 **4.2GW로 확대**, 신규 단기 계약 가격은 연환산 메가와트당 약 4000만 달러",
+     "2분기 매출 백로그 1042억 달러, 3분기 초 추가로 250억 달러 이상 고객 계약 확보",
+     "목표는 investment-grade 신용등급 확보이며, 발표 직후 주가는 장전 2% 이상 하락(연초 대비는 16% 이상 상승)"
+    ],
+    "why_matters": "CoreWeave의 대규모 자금조달은 **AI 인프라 구축에 필요한 자본 집약도가 계속 커지고 있음**을 보여주는 신호로, GPU 수요를 지탱하는 클라우드 사업자의 재무 구조가 시장의 핵심 관심사로 부상했다. Meta 등 하이퍼스케일러의 대형 계약(210억 달러)과 맞물려 CoreWeave의 성장이 Nvidia GPU 수요의 선행지표 역할을 하고 있다.",
+    "subject_angle": "Nvidia가 지분을 보유한 CoreWeave의 자금조달 확대는 **Nvidia GPU 기반 AI 인프라 수요의 지속적 확장**을 뒷받침하는 신호이며, Nvidia는 주요 고객이자 투자자로서 CoreWeave의 재무 건전성 강화(investment-grade 추진)로부터 간접적 수혜를 기대할 수 있는 구조다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "CoreWeave",
+      "context": "AI 클라우드 인프라 기업, 이번 자금조달의 주체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "CoreWeave 지분 투자자"
+     },
+     {
+      "name": "Meta",
+      "context": "CoreWeave에 210억 달러 및 142억 달러 규모 AI 클라우드 인프라 계약 체결 고객"
+     },
+     {
+      "name": "Deutsche Bank",
+      "context": "ATM 주식 매각 프로그램 주관사"
+     },
+     {
+      "name": "Goldman Sachs",
+      "context": "ATM 주식 매각 프로그램 주관사"
+     },
+     {
+      "name": "JP Morgan",
+      "context": "ATM 주식 매각 프로그램 주관사"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "전환사채 발행 최종 조건(전환가, 만기 등) 공개 여부",
+     "ATM 프로그램 실제 주식 매각 실행 여부 및 규모",
+     "CoreWeave의 investment-grade 신용등급 획득 여부와 시점"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaW1tNzV2TmtGUzRVMzNQazlmSVJhV3BuOVdFbEtrVTlvaWV1cVdqVGt1QWpkQnUzdUlkX0wwV1VGZFZkWTN3dmpwRDdZRjl1Yk0ySmFQMXU0a0FjQXVFb3puckNqaEVLVDhib1kxTVY2UmVycjl5Z1N1ZDM5d3NweHpTbnBlM0lwQUxlYkxmcWNicGQ5SmJaVEZ3dnBjb3JjUEFIbUZXWjc",
+   "body": "Nvidia-backed CoreWeave said Thursday it plans to raise $3 billion through a convertible debt offering, highlighting the massive funding needs to support the buildout of AI infrastructure. Initial buyers of the debt may purchase up to an additional $500 million. CoreWeave said it would use some of the proceeds to protect against dilution, while the remainder would fund its operations. The company also launched an at-the-market stock sale program for up to 35 million shares, potentially raising about $2.92 billion based on Wednesday’s closing price. However, CoreWeave will determine whether to sell shares based on market conditions. READ: Meta deepens ties with CoreWeave with $21 billion deal (April 10, 2026) The program is being managed by Deutsche Bank, Goldman Sachs and JP Morgan and is part of CoreWeave’s efforts to move toward an investment-grade credit profile. Shares of the company plunged more than 2% in premarket trading Thursday. Through Wednesday’s close, the stock had gained more than 16% so far this year. CoreWeave also said that it signed short-term customer contracts for compute capacity in the third quarter at approximately $40 million per megawatt on an annualized basis. The company increased its contracted power capacity to about 4.2 gigawatts from 3.7 gigawatts at the end of June. CoreWeave reported a revenue backlog of $104.2 billion in the second quarter in August. The company later disclosed more than $25 billion in additional customer commitments signed early in the third quarter. READ: CoreWeave secures $8.5 billion loan for AI infrastructure expansion (March 31, 2026) In a press release Tuesday, CoreWeave said the short-term contracts signed in the third quarter span three to six months, with pricing calculated as annualized revenue divided by the power required to service the related clusters. The company said it has continued to contract new compute capacity at higher prices since June 30. CoreWeave also announced the establishment of an at-the-market offering program under which it may sell up to 35 million shares of Class A common stock from time to time. Earlier this year, Meta committed to spending $21 billion on AI cloud infrastructure from CoreWeave. This came in addition to a commitment for Meta to pay CoreWeave about $14.2 billion through Dec. 14, 2031, with an option to expand the agreement through 2032 for additional cloud computing capacity."
+  },
+  {
+   "source": "Google News · techbuzz.ai",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang Forecasts Doubling Chip Sales in 2027",
+   "link": "https://www.techbuzz.ai/articles/nvidia-ceo-jensen-huang-forecasts-doubling-chip-sales-in-2027",
+   "date": "2026-09-18 06:37",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO 젠슨 황, 2027년 칩 판매량 두 배 증가 예측",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 2027년 칩 판매량이 두 배 증가할 것으로 예측했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang, 2027년 칩 판매량 2배 성장 전망 제시",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 투자자들에게 내년 칩 판매량이 현재의 **2배**로 증가할 것이라 전망하며 AI 인프라 확장이 초기 단계에 불과하다고 밝혔다.",
+    "action": {
+     "actor": "Jensen Huang (NVIDIA CEO)",
+     "action": "투자자 대상 발언을 통해 내년 칩 판매량이 2배로 증가할 것이라는 전망 제시",
+     "stage": "Rumor",
+     "timeline": "미확인 (본문 제목은 2027년을 언급하나 발언 내용은 '내년(next year)'으로만 표현되어 구체 시점 불명확)",
+     "scope": "미확인 (구체적 제품·지역·고객사 범위 언급 없음)"
+    },
+    "key_facts": [
+     "Huang은 투자자들에게 내년 칩 판매량이 현재 대비 **2배**가 될 것이라고 발언",
+     "TSMC가 NVIDIA의 가장 진보된 칩을 생산하며, 예측이 실현될 경우 GPU 생산에 더 많은 capacity 배정이 필요할 것으로 언급됨",
+     "Microsoft, Google, Amazon이 NVIDIA의 최대 고객사로 언급되며 이들의 AI 인프라 투자 지속을 전제로 함",
+     "AMD와 Intel이 AI 가속기 시장에서 추격 중인 경쟁사로 언급됨",
+     "Google은 자체 TPU 기술을 지속 발전시키는 경쟁 요소로 언급됨"
+    ],
+    "why_matters": "이 전망이 현실화될 경우 **AI 버블 우려를 반박**하며 Microsoft·Google·Amazon 등 하이퍼스케일러의 대규모 AI 인프라 투자를 정당화하는 근거가 된다. 동시에 실현 실패 시 NVIDIA뿐 아니라 전체 AI 인프라 생태계에 급격한 주가 조정을 촉발할 수 있는 고위험 신호이기도 하다.",
+    "subject_angle": "Huang의 발언은 NVIDIA가 **경쟁사 대비 기술적 해자(moat)가 좁아지는 것이 아니라 확대되고 있다는 자신감**을 시장에 전달하려는 전략으로 해석되며, 향후 실적 가이던스에 대한 기대치를 스스로 높이는 양날의 검이 될 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "칩 판매량 2배 성장 전망을 제시한 발언 주체"
+     },
+     {
+      "name": "TSMC",
+      "context": "NVIDIA 최첨단 칩 위탁생산사, 수요 증가 시 추가 capacity 배정 필요"
+     },
+     {
+      "name": "Microsoft",
+      "context": "NVIDIA 최대 고객사 중 하나, AI 인프라 투자 지속 전제"
+     },
+     {
+      "name": "Google",
+      "context": "NVIDIA 고객이자 자체 TPU로 경쟁하는 업체"
+     },
+     {
+      "name": "Amazon",
+      "context": "NVIDIA 최대 고객사 중 하나로 언급"
+     },
+     {
+      "name": "AMD",
+      "context": "AI 가속기 시장에서 NVIDIA를 추격하는 경쟁사"
+     },
+     {
+      "name": "Intel",
+      "context": "AI 가속기 시장에서 NVIDIA를 추격하는 경쟁사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GPU",
+      "role": "판매량 2배 성장이 전망되는 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 공식 실적 발표에서 구체적 매출 가이던스 및 수치 확인",
+     "TSMC의 실제 생산 capacity 배정 변화 여부",
+     "Microsoft·Google·Amazon의 향후 AI 설비투자(CapEx) 규모 공시"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVzVKYUxFMGdZSkNqcVVqelBtRjhOWEtyLXFKY3N4cllLR082WGJDaGlJY09qNkozaWppc2Z0Nm1jdUxla0tUV3dUR3hpODA5MkdmeUU2bHN4NmRWbDQxZUZ3TWFHcnY3bDhNMW54Wko0amVEV25JU0RnZnZEQVF4RUtyWHNrZkE5bEppM0FDTmdJTnkydlA5eVRB",
+   "body": "The Tech Buzz may earn a commission when you buy through links on this page. This never affects which products we recommend or what we say about them. Nvidia CEO Jensen Huang just dropped a bombshell forecast that could reshape the entire AI infrastructure landscape. Speaking to investors, Huang predicted the company will sell twice as many chips next year, a projection that signals the AI boom is far from cooling off. The announcement sent ripples through tech markets as investors digest what this means for the broader semiconductor industry and enterprise AI adoption. Nvidia CEO Jensen Huang just made the boldest prediction yet about the AI chip market's trajectory. In a statement that's already reverberating through Silicon Valley, Huang told investors the company expects to sell twice as many chips next year compared to current volumes, painting a picture of sustained explosive growth that defies any notion of an AI bubble burst. The timing of Huang's forecast couldn't be more significant. While some analysts have questioned whether the AI infrastructure buildout might slow down, Nvidia's leadership is doubling down on growth projections that suggest we're still in the early innings of enterprise AI adoption. The comment represents the latest in a series of increasingly aggressive forecasts from the chip giant. What makes this projection particularly striking is its scope. Doubling chip sales would require Nvidia to navigate massive manufacturing challenges while competitors like AMD and Intel scramble to catch up in the AI accelerator market. The forecast implies that enterprise customers are planning AI infrastructure investments at scales previously unimaginable. The market implications extend far beyond Nvidia itself. If Huang's prediction materializes, it would validate the massive capital expenditures that Microsoft, Google, and Amazon have been pouring into AI infrastructure. These tech giants have been Nvidia's biggest customers, and sustained demand at this level would justify their aggressive AI strategies. Huang's confidence appears rooted in what the company sees as an irreversible shift toward AI-first computing across industries. From financial services to healthcare, enterprises are racing to implement large language models and machine learning systems that require the kind of parallel processing power that Nvidia's GPUs provide. This isn't just about chatbots and image generators - it's about fundamental changes in how businesses operate. The semiconductor industry is watching closely. Taiwan Semiconductor Manufacturing Company, which produces Nvidia's most advanced chips, would need to allocate even more capacity to GPU production if these forecasts prove accurate. That could create supply chain ripple effects across the entire tech ecosystem. For investors, Huang's prediction raises both opportunities and risks. While sustained growth would drive Nvidia's stock higher, it also sets incredibly high expectations that the compa"
+  },
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Snap partners with Nvidia, AWS, Salesforce for AR glasses enterprise push",
+   "link": "https://qz.com/snap-specs-ar-glasses-nvidia-aws-salesforce-enterprise-091726",
+   "date": "2026-09-17 22:20",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Snap, NVIDIA·AWS·Salesforce와 협력해 AR 안경 엔터프라이즈 진출",
+    "korean_summary": "Snap이 NVIDIA, AWS, Salesforce와 함께 AR 글래스의 엔터프라이즈 시장 진출을 추진한다."
+   },
+   "summary_data": {
+    "korean_title": "Snap, NVIDIA·AWS·Salesforce와 손잡고 SPECS AR 글래스 기업용 시장 공략",
+    "korean_summary": "Snap이 NVIDIA, AWS, Salesforce와 파트너십을 맺어 SPECS AR 글래스를 리테일·제조·현장운영 등 기업 업무 환경에 도입하기 위해 에이전틱 AI 기능을 통합한다.",
+    "action": {
+     "actor": "Snap",
+     "action": "NVIDIA의 XR AI 플랫폼 기반 에이전트를 SPECS AR 글래스에 통합해 작업자의 주변 환경을 해석하고 실시간 가이드를 제공하는 기능 개발",
+     "stage": "Announced",
+     "timeline": "미확인 (현지시간 수요일 발표)",
+     "scope": "리테일·제조·현장운영 등 기업 고객, 미국·영국·프랑스 출시"
+    },
+    "key_facts": [
+     "Snap은 **NVIDIA의 XR AI 플랫폼** 기반 에이전트를 SPECS에 적용해 작업자 주변 환경 해석 및 실시간 가이드 제공을 목표로 함",
+     "동시에 AWS(Amazon Quick AI)와 Salesforce(Agentforce)도 SPECS와 통합 파트너십 체결",
+     "SPECS AR 글래스는 **$2,195에 사전주문 가능**하며 2026년 가을 미국·영국·프랑스에 출시 예정",
+     "Verizon과 협력한 셀룰러 충전 케이스 번들은 $2,395",
+     "10월 1일부터 LA Westfield Century City에서 팝업 체험 매장 운영"
+    ],
+    "why_matters": "이번 협력은 **NVIDIA의 XR AI 플랫폼이 소비자용 스마트글라스 하드웨어에 실제 탑재되는 초기 사례**로, 데이터센터 중심 AI 인프라를 웨어러블·엣지 디바이스 영역까지 확장하려는 움직임을 보여준다. AWS·Salesforce 등 경쟁 클라우드/SaaS 업체와 동시에 파트너로 참여함으로써 엔터프라이즈 AR 시장에서 에이전틱 AI 표준 경쟁이 본격화되고 있음을 시사한다.",
+    "subject_angle": "NVIDIA는 GPU·데이터센터 공급자를 넘어 **AR/XR 기기용 온디바이스 에이전틱 AI 플랫폼 공급자**로 포지션을 넓히며, 스마트글라스 같은 새로운 폼팩터에서도 AI 인프라 표준을 선점하려는 전략을 취하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Snap",
+      "context": "SPECS AR 글래스 제조사, 기업용 파트너십 주도"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "XR AI 플랫폼 제공, SPECS에 환경 인식·가이드 에이전트 통합"
+     },
+     {
+      "name": "Amazon Web Services",
+      "context": "Amazon Quick AI를 SPECS에 연동해 재고·업무 데이터 조회 지원"
+     },
+     {
+      "name": "Salesforce",
+      "context": "Agentforce 플랫폼을 SPECS에 통합"
+     },
+     {
+      "name": "Verizon",
+      "context": "SPECS 셀룰러 충전 케이스 번들 파트너"
+     },
+     {
+      "name": "Tandem by Trifork",
+      "context": "현장 기술자와 원격 전문가 실시간 연결 솔루션 제공"
+     },
+     {
+      "name": "Hololight",
+      "context": "SPECS를 공간 워크스테이션으로 전환하는 솔루션 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "SPECS AR glasses",
+      "role": "기업용 AR 하드웨어, 이번 파트너십의 핵심 디바이스"
+     },
+     {
+      "name": "NVIDIA XR AI platform",
+      "role": "SPECS에 탑재될 환경 인식·실시간 가이드 에이전트 기반 기술"
+     },
+     {
+      "name": "SPECS Intelligence",
+      "role": "SPECS·iPhone·Mac에서 작동하는 선제적 AI 어시스턴트 서비스"
+     },
+     {
+      "name": "Agentforce",
+      "role": "Salesforce의 SPECS 통합 AI 에이전트 플랫폼"
+     },
+     {
+      "name": "Amazon Quick AI",
+      "role": "AWS의 SPECS 연동 업무 데이터 조회 AI 어시스턴트"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA XR AI 플랫폼의 구체적 기술 사양 및 SDK 공개 여부",
+     "2026년 가을 SPECS 실제 출하 시점 및 초기 판매 실적",
+     "타 AR/XR 제조사(Meta, Apple 등)의 유사 NVIDIA 파트너십 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOLVQxeU1WdFVyZG4wODM0UHl4TkM3Q2VjVXFCOUJIM1R3YWVFdGlwbXd4SFNXRnBXNUNxczBiblhrdVVWaHpSTGYxLWFmZDRaa0VjTGJGRGMteUo2T0dBRnNLU0J6ZkZ5bVN5bDVkNnBkd3JXbjdxTi12a19kdW1mZVdR",
+   "body": "Snap $SNAPannounced partnerships with Nvidia $NVDA, Amazon $AMZN Web Services, and Salesforce $CRM on Wednesday to bring its SPECS augmented reality glasses into workplace environments, targeting industries including retail, manufacturing, and field operations. The partnerships are designed to give workers hands-free access to information and AI-powered guidance while on the job. Salesforce is integrating its Agentforce platform with SPECS, allowing employees to identify objects, log issues, surface relevant data, and update workflows without switching to a separate screen. AWS is connecting SPECS to its Amazon Quick AI assistant, enabling workers to query inventory information and other workplace data directly through the glasses. Snap is working with Nvidia to bring agents built on Nvidia's XR AI platform to SPECS, allowing the glasses to interpret a worker's surroundings and deliver real-time guidance, the company said. Snap CEO Evan Spiegel said the Nvidia and Salesforce partnerships are aimed at making it easier for businesses to adopt existing agentic AI platforms through SPECS, according to CNBC. Spiegel framed the enterprise push in similar terms, telling CNBC it is part of the company's ongoing effort to shift public perception so people understand \"that Specs is a computer, not a pair of smart glasses for taking photos.\" Two additional partners are also involved in the enterprise program. Tandem by Trifork connects on-site technicians with remote experts who can annotate the technician's field of view in real time, while Hololight turns SPECS into a spatial workstation with access to tools, documents, and 3D models via video streaming. Snap said it is also working with device management vendors to build mobile device management and security controls for enterprise deployments at scale. At the same event in Los Angeles, Snap introduced SPECS Intelligence, an AI service designed to work across SPECS glasses, iPhone, and Mac. The service is built to anticipate when assistance would be useful and surface relevant information without waiting for a user prompt. A preview is available today in the SPECS app for iOS in the United States; a fuller experience on Mac is available by invitation only. On pricing, Spiegel told CNBC that no final decisions have been made, though the service will offer a free tier alongside other tiers that vary by usage level. SPECS AR glasses are available to pre-order for $2,195, with shipping expected later this fall in the United States, United Kingdom, and France. A new SPECS Charging Case with Cellular, sold separately, is available through a partnership with Verizon $VZ for a bundle price of $2,395. Beginning October 1, consumers can try the glasses at a pop-up location at Westfield Century City in Los Angeles, the company said. Daily Brief The essential business news, delivered fresh every morning. Join 500,000+ readers who start their day with Quartz. Sign me up By subscribing, you agree to our Terms of Servi"
+  },
+  {
+   "source": "Google News · Engadget",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Google's new coalition wants to speed up AI data center power grid connections",
+   "link": "https://www.engadget.com/2260986/nvidia-google-emerald-coalition-data-center-power/",
+   "date": "2026-09-17 20:24",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Google, AI 데이터센터 전력망 연결 가속화 연합 출범",
+    "korean_summary": "NVIDIA와 Google이 AI 데이터센터의 전력망 연결 속도 향상을 위한 연합체를 결성했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA-Google, AI 데이터센터 전력망 연결 가속화 위한 새 연합체 출범",
+    "korean_summary": "NVIDIA와 Google이 Emerald AI와 함께 AEMA(AI Energy Management Alliance)를 결성해 AI 데이터센터가 피크 수요 시 전력 사용을 줄이는 대가로 전력망 연결 속도를 높이려 한다.",
+    "action": {
+     "actor": "NVIDIA, Google, Emerald AI",
+     "action": "AI Energy Management Alliance(AEMA) 출범 발표, 유연한 데이터센터 표준 및 정책 로비 추진",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미국 내 유틸리티·주정부·연방 정책 대상, 데이터센터 전력망 연결 정책"
+    },
+    "key_facts": [
+     "NVIDIA, Google, Emerald AI가 **AEMA(AI Energy Management Alliance)**를 공동 결성",
+     "미국 신규 데이터센터는 전력망 연결까지 **10년 이상 대기**할 수 있음(Emerald AI CEO Varun Sivaram 언급)",
+     "미국 전력망은 평균 **50%만 활용**되고 있어, 데이터센터가 피크 시간대에 유연하게 대응하면 기존 전력망에서 **100GW**를 추가로 확보할 수 있다고 주장",
+     "AEMA는 배터리, 온사이트 발전, 컴퓨팅 워크로드를 지연·일시중지·이전할 수 있는 소프트웨어 등 기술 표준 및 성능 지표 표준화를 제안",
+     "그 대가로 전력망 운영자는 데이터센터를 더 빠르게 연결하고 비용을 일부 분담하는 방식을 제안"
+    ],
+    "why_matters": "AI 데이터센터 확산에 따른 전력망 연결 지연과 지역사회 반발이 정치적 이슈로 부상하는 가운데, **빅테크가 직접 로비 연합체를 결성**해 규제 변화를 선제적으로 추진한다는 점에서 업계 표준 형성 경쟁의 신호탄이 될 수 있다. NVIDIA GPU 수요를 지탱하는 데이터센터 인프라 확장 속도가 전력망 병목에 좌우되는 만큼, 이 연합체의 성패는 AI 컴퓨팅 확장 속도 자체에 직결된다.",
+    "subject_angle": "NVIDIA는 GPU 판매 확대의 전제 조건인 **데이터센터 전력 인프라 병목 해소**를 위해 하드웨어 공급자를 넘어 전력망 정책 형성자로 역할을 확장하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AEMA 공동 창립, 유연한 데이터센터 전력 관리 표준 및 정책 제안 주도"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 공동 창립, 데이터센터 운영사로서 전력망 연결 가속화 이해관계자"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "데이터센터 유연성 전문 스타트업, AEMA 공동 창립 및 정책 논리 제공"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "AEMA의 구체적 기술 표준·성능 지표 발표 여부",
+     "주정부·연방 규제기관의 데이터센터 연결 정책 변화 여부",
+     "AEMA 참여 기업 확대 및 유틸리티 업계 반응"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcWREWXVKeWYyOF9LVTRGeVNfY1hGX2hEM2lpNnpIWWJlVDY3Wk1oNV9iVGxveEZTRE5kNEFWTTgtb0Y5TFBxSkZ0U2YxZDVVVTJaUzNJcmNVanQ2MUdFdm1iRmFYanh2VGlvdTNrV0JsdXdpdTZsaHBQWmlQeEhuRHBhSjBZLVhFX0FF",
+   "body": "NVIDIA and Google's new coalition wants to speed up AI data center power grid connections In exchange, the facilities would reduce power usage during peak demand. NVIDIA, Google and Emerald AI have launched a new coalition called the AI Energy Management Alliance (AEMA), the companies announced. The aim is to promote more flexible AI data centers that won't be disruptive to electricity grids or require massive, taxpayer-funded upgrades. In exchange, the coalition wants utility operators to connect their data centers faster. As NVIDIA explains in its own blog post, US power infrastructure was built for \"flat, static electricity demand\" and not for computing centers that can moderate power usage. To that end, the companies want to set a standard for flexible data centers that can shift computing workloads, discharge storage and respond to system contingencies, making it a \"controllable resource rather than an inflexible load.\" Emerald AI, a startup dedicated to making data centers more flexible, explained the new coalition's purpose in a Fortune article. New US data centers can wait a decade or more for a grid connection, because utilities need to ensure they have enough capacity to serve everyone when demand is highest, \"including on sweltering afternoons when air conditioners are running full tilt,\" CEO Varun Sivaram wrote. At the same time, the grid is only 50 percent utilized on average, so if \"AI data centers were flexible during the grid's worst hours of the year, America could unlock 100GW on our existing grid for flexible data centers.\" To that end, AEMA is suggesting principles like \"setting clear rules for facilities regarding staying connected during brief grid disturbances, reducing power use when needed and responding to emergencies.\" Technical requirements, performance metrics and operational data sharing would also be standardized. As a tit-for-tat, grid operators would connect data centers to the grid more quickly while potentially sharing costs. Some of the technology the group is proposing are batteries that carry facilities through peaks, on-site generation to support demand and software than can \"slow, pause or shift less urgent computing.\" The coalition is likely a response to a massive public backlash against AI data centers that politicians are starting to realize could affect their future electability. AEMA doesn't really address the massive amounts of pollution created by these data centers thanks to their energy demands, nor the noise and general disturbance to the neighboring communities. Rather, it wants to ensure that it gets data centers connected more quickly, in exchange for creating less of a hassle for regional electrical grids. To that end, it will also serve as a lobbying arm for big tech. \"AEMA will press this case in state capitals and in Washington. Our ask of governors, regulators and federal policymakers is simple: offer data centers that commit to flexibility a faster and larger grid connection — and hold t"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "MLPerf Edge Agentic Benchmark Sees 6.4x Speedup With NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BazBQb3JPLTludFVqTldoVjZaWGxRenNrcXNPNmxhbGg0NTZaS2lHdlN1YVNmQmo4cVJoc0lXVzNpSFdRNGJnVUcxaHA2US1lYUxnQWhVODVJb1NVMFF0Sy1aeGJEOV93TmphcFp6TTZXblZzN2JlYmZfWGI2UQ?oc=5",
+   "date": "2026-09-18 01:40",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "MLPerf Edge Agentic 벤치마크에서 NVIDIA 6.4배 성능 향상",
+    "korean_summary": "MLPerf Edge Agentic 벤치마크에서 NVIDIA 솔루션이 6.4배 성능 개선을 달성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BazBQb3JPLTludFVqTldoVjZaWGxRenNrcXNPNmxhbGg0NTZaS2lHdlN1YVNmQmo4cVJoc0lXVzNpSFdRNGJnVUcxaHA2US1lYUxnQWhVODVJb1NVMFF0Sy1aeGJEOV93TmphcFp6TTZXblZzN2JlYmZfWGI2UQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Pandaily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Infinigence AI Open-Sources APXInf for Embodied Edge Inference on Jetson Thor",
+   "link": "https://pandaily.com/infinigence-ai-apxinf-embodied-edge-inference-open-source",
+   "date": "2026-09-17 11:03",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "automotive"
+    ],
+    "korean_title": "Infinigence AI, Jetson Thor용 APXInf 오픈소스 공개",
+    "korean_summary": "Infinigence AI가 NVIDIA Jetson Thor에서 로봇 AI 추론을 위한 APXInf를 오픈소스로 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY3RDWDVqQTMyenJCVGZvQTY1Q00yV2dMeU9rTkRtaGpoOHl3YVdpYjdRSFhMSFF3Z1pmM3EyUVdZOTFhYkRQclhjeVRwMG5OcjhaN1pGY1p2OEtKUmltOWJkb2IzT19GVTZPcnNzcnZ6T1pXMVo4NXU5OC1oQVZycTc1RF8",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations",
+   "date": "2026-09-17 21:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 칩, 수출 규제 우회해 중국으로 대량 유입되는 경로 적발",
+    "korean_summary": "C4ADS 보고서가 수출 규제 대상인 NVIDIA AI 칩이 연구 기관·동남아시아·페이퍼 컴퍼니를 통해 중국으로 불법 유입되는 3가지 경로를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "C4ADS 보고서, 수십억 달러 규모의 수출통제 대상 NVIDIA AI 칩이 중국으로 밀수되는 경로 폭로",
+    "korean_summary": "미국 비영리 감시기구 C4ADS가 NVIDIA의 수출통제 대상 AI 칩(H100, A100, Blackwell 계열)이 연구기관 위장구매, 동남아 경유 드롭쉬핑, 페이퍼컴퍼니를 통해 수십억 달러 규모로 중국에 밀반입되고 있음을 조사·발표했다.",
+    "action": {
+     "actor": "C4ADS",
+     "action": "미국 정부 수출통제 대상인 NVIDIA AI 가속기가 연구기관 위장구매, 동남아 드롭쉬핑, 셸컴퍼니를 통해 중국으로 밀반입되는 경로를 추적·보고",
+     "stage": "Report",
+     "timeline": "조사 대상 기간 2022~2025년(일부 2023~2025년), 보고서 발표 시점은 미확인",
+     "scope": "H100, A100, GH100, AD102 계열, Blackwell 계열 GPU; 중국·베트남·인도·말레이시아·싱가포르·인도네시아·홍콩 경유"
+    },
+    "key_facts": [
+     "미국은 H100, A100, Blackwell 계열 칩의 중국 판매를 금지하며, H20과 H200(및 AMD MI325X)은 사안별 거래가 가능하나 H200에는 **25% 관세**가 부과됨",
+     "연구기관 위장구매 경로로 2025년 7월~2026년 1월 기간 56개 칩(170만 달러 상당)이 추적됐고, 2024년 조사에서는 다년간 648만 달러 규모가 확인됨",
+     "동남아 드롭쉬핑 경로(2022~2025년)로 베트남·인도·말레이시아를 거친 A100·H100/GH100·AD102 계열 GPU가 **1,340만 달러** 규모로 확인됨",
+     "홍콩의 Profit New Limited는 2025년 4월 수출통제 강화를 앞두고 2025년 3월 하루 만에 870만 달러 상당을 거래함",
+     "셸컴퍼니를 통한 경로가 최대 규모로, 싱가포르 기업 Megaspeed International 한 곳을 통해서만 **46억 달러(4.6 billion) 상당**의 칩이 중국으로 유입됐으며, Megaspeed는 수출금지 대상인 Blackwell 칩까지 확보한 것으로 알려짐"
+    ],
+    "why_matters": "이번 보고서는 미국의 대중국 AI 반도체 수출통제가 광범위한 우회 경로를 통해 실질적으로 뚫리고 있음을 구체적 금액과 사례로 입증하며, Epoch AI 추정치(중국 AI 컴퓨팅 파워의 최대 1/3이 밀수 GPU)와 결합해 정책 실효성 논쟁을 재점화한다. 이는 Huawei가 주도하는 중국 자국산 AI 칩 육성 노력과 별개로, NVIDIA 하드웨어가 여전히 중국 AI 인프라의 핵심 기반으로 남아있음을 시사한다.",
+    "subject_angle": "NVIDIA는 자사 제품이 **의도치 않게 대규모 밀수 네트워크**를 통해 중국에 유입되고 있다는 점에서 미국 정부의 수출통제 강화 압박과 평판 리스크에 직면할 수 있으며, 동시에 실질적인 중국向 수요가 여전히 막대함을 보여주는 정황은 향후 H20 등 사안별 허가 채널의 정책적 조정 논의에 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "C4ADS",
+      "context": "미국 정부 자금 지원을 받는 비영리 감시기구로, 이번 밀수 경로 조사 보고서 작성"
+     },
+     {
+      "name": "Epoch AI",
+      "context": "중국 AI 컴퓨팅 파워의 상당 부분이 밀수 GPU라는 별도 추정치를 제공한 이전 보고서 저자"
+     },
+     {
+      "name": "Huawei",
+      "context": "중국의 자국산 AI 칩 개발을 주도하는 기업으로 언급"
+     },
+     {
+      "name": "ByteDance, Alibaba, Tencent",
+      "context": "2026년 중국 당국으로부터 미국 AI 칩 수입 관련 공식 예외를 인정받은 기업들"
+     },
+     {
+      "name": "TSMC",
+      "context": "NVIDIA 칩의 제조·패키징을 담당하는 대만 파운드리"
+     },
+     {
+      "name": "Megaspeed International",
+      "context": "셸컴퍼니 구조를 통해 46억 달러 상당의 NVIDIA 칩을 중국에 유입시킨 것으로 지목된 동남아 최대 수입업체, Blackwell 칩까지 확보"
+     },
+     {
+      "name": "Swiftdata",
+      "context": "2023년 Megaspeed를 인수한 싱가포르 기업, 실소유주 불명확"
+     },
+     {
+      "name": "7Road Holdings",
+      "context": "Megaspeed의 이전 소유주였던 중국 게임 기업"
+     },
+     {
+      "name": "Profit New Limited, ELB International Limited",
+      "context": "홍콩에서 Nvidia 칩 수입을 주도하는 두 기업"
+     },
+     {
+      "name": "AMD",
+      "context": "MI325X 칩이 H200과 함께 사안별 거래 대상으로 언급됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA H100/GH100",
+      "role": "미국 수출금지 대상 칩, 밀수 경로를 통해 중국에 유입"
+     },
+     {
+      "name": "NVIDIA A100",
+      "role": "미국 수출금지 대상 칩, 밀수 경로를 통해 중국에 유입"
+     },
+     {
+      "name": "NVIDIA Blackwell 계열",
+      "role": "미국 수출금지 대상 최신 칩, Megaspeed가 확보한 것으로 보고됨"
+     },
+     {
+      "name": "NVIDIA H20",
+      "role": "사안별 거래 허용 대상, 중국向 저사양 칩"
+     },
+     {
+      "name": "NVIDIA H200",
+      "role": "사안별 거래 허용 대상이나 25% 관세 부과"
+     },
+     {
+      "name": "AD102 계열 GPU",
+      "role": "동남아 드롭쉬핑 경로로 밀반입된 제품군 중 하나"
+     }
+    ],
+    "watch_next": [
+     "C4ADS 보고서에 따른 미국 정부의 추가 수출통제 강화 또는 시행 조치 여부",
+     "Megaspeed International 및 Swiftdata의 실소유주 규명 결과",
+     "2026년 ByteDance, Alibaba, Tencent에 부여된 예외 조치의 구체적 범위와 향후 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations",
+   "body": "American nonprofit C4ADS, a monitoring organization funded mostly by the U.S. government, produced a report shedding light on the many ways that American AI accelerators reach China. Somewhat paradoxically, the U.S. refuses to sell advanced AI chips to China, while simultaneously the CCP prohibits their purchase, but that has seemingly not stopped the products from arriving on Eastern shores. C4ADS's report identifies three major avenues for chip smuggling: direct acquisitions via research institutions, drop-shipping through other Southeast Asian countries, and purchases through a matryoshka-doll-like structure made of shell companies. The writers note that only explicitly mentioned chips are accounted for, meaning the actual amount of hardware changing hands could be far higher. Another earlier report by Epoch AI estimates that around a third (and possibly most of) China's AI compute power is comprised of smuggled GPUs. Firstly, a quick primer on chip logistics. Nvidia has most of its chips manufactured and packaged at TSMC in Taiwan. An individual chip, or the entire accelerator unit it's in, might go through several rounds of testing, potentially doing more than one trip before it lands in a customer's data center. As for export and import controls: the U.S. forbids the sale of H100, A100, and Blackwell-family chips to China; the lower-end H20 chip and the meatier H200 (and AMD MI325X) can be traded on a case-by-case basis, with the latter getting a 25% tariff. Meanwhile, China's broad position is to discourage and restrict the purchase of American AI chips, in a bid to spur its national efforts, currently spearheaded by Huawei . However, multiple reports indicate the authorities often turn a blind eye to gray/black-market imports, and 2026 saw official exceptions issued to ByteDance, Alibaba, and Tencent . The first way to get a 'forbidden' chip into China via quasi-legal means is by simply getting a Chinese university or research institution to buy it. These entities reportedly include Nvidia GPUs inside \"sprawling multi-vendor contracts,\" routed through small Chinese regional integrators. The report also claims that some buyer institutions have ties to the CCP and the country's defense and intelligence sectors. C4ADS says that it tracked 56 chips worth $1.7 million sold this way in the report's July 2025 to January 2026 period. Additionally, it says that its 2024 investigation covering multiple years of government records revealed $6.48 million worth of silicon heading to China in this manner. The second route for smuggling potent silicon is technically legal, via drop-shipping it through Southeast Asian countries including Vietnam, India, and Malaysia. C4ADS analyzed transactions between 2022 and 2025, and found $13.4 million of Nvidia A100, H100/GH100, and AD102-series GPUs routed through the aforementioned countries, in a \"consistent pattern.\" Some chips traveled from Taiwan to Vietnam, possibly aided by the fact that Vietnam's chip test"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+   "link": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers/",
+   "date": "2026-09-17 22:38",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Google, NVIDIA, Anthropic, Emerald AI, AI 에너지 관리 연합 설립",
+    "korean_summary": "NVIDIA가 Google, Anthropic, Emerald AI와 함께 AI Energy Management Alliance를 구성하여 데이터센터 추가 100GW 연결을 목표로 한다."
+   },
+   "summary_data": {
+    "korean_title": "Google·Nvidia·Anthropic, Emerald AI와 손잡고 데이터센터용 전력망 공간 확보 나서",
+    "korean_summary": "Google, Nvidia, Anthropic이 그리드 소프트웨어 스타트업 Emerald AI와 함께 AI Energy Management Alliance(AEMA)를 결성해 수요반응 기술로 **추가 100기가와트 규모의 데이터센터를 전력망에 연결**하는 것을 목표로 한다.",
+    "action": {
+     "actor": "Emerald AI, Google, Nvidia, Anthropic 등",
+     "action": "AI Energy Management Alliance(AEMA) 결성 및 수요반응 기술을 통한 데이터센터 전력망 연결 확대 추진",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "데이터센터 전력망 연결, 미국 내 유틸리티(AES, Constellation, National Grid, NRG Energy) 대상"
+    },
+    "key_facts": [
+     "Emerald AI가 Google, Nvidia와 연합을 구성했고 Anthropic도 합류함",
+     "AEMA는 수요반응(demand response)을 통해 **추가 100기가와트 규모의 데이터센터 연결**이 가능하다고 주장",
+     "Goldman Sachs 연구에 따르면 그리드 최대 사용량을 90%로 제한할 경우 76기가와트 용량 확보 가능",
+     "Emerald AI는 Energize Capital과 DCVC 주도로 **1억 5천만 달러 규모의 Series A**를 최근 유치",
+     "참여 유틸리티는 AES, Constellation, National Grid, NRG Energy"
+    ],
+    "why_matters": "AI 컴퓨팅 수요 급증으로 전력망 용량이 데이터센터 확장의 병목이 되는 가운데, **수요반응 기술이 신규 발전원 없이도 그리드 연결 용량을 늘리는 대안으**로 부상하고 있다. Nvidia와 Google, Anthropic 같은 주요 AI 인프라 수요자가 직접 연합에 참여함으로써 전력 확보가 GPU 확보만큼 중요한 경쟁 변수로 부각되고 있음을 보여준다.",
+    "subject_angle": "Nvidia는 자사 GPU 수요 확대의 최대 제약 요인인 **전력망 병목 해소를 위해 직접 에너지 관리 생태계에 개입**함으로써, 데이터센터 고객들이 더 빠르게 GPU 기반 인프라를 구축할 수 있도록 간접 지원하는 전략을 취하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Emerald AI",
+      "context": "그리드 소프트웨어 스타트업, AEMA 창립 및 수요반응 기술 제공"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 창립 멤버, 자체 수요반응 도구도 개발 중"
+     },
+     {
+      "name": "Nvidia",
+      "context": "AEMA 창립 멤버, GPU 수요자로서 전력 확보에 이해관계"
+     },
+     {
+      "name": "Anthropic",
+      "context": "AEMA 참여, AI 모델 개발사로서 데이터센터 전력 수요자"
+     },
+     {
+      "name": "AES",
+      "context": "참여 유틸리티"
+     },
+     {
+      "name": "Constellation",
+      "context": "참여 유틸리티"
+     },
+     {
+      "name": "National Grid",
+      "context": "참여 유틸리티"
+     },
+     {
+      "name": "NRG Energy",
+      "context": "참여 유틸리티"
+     },
+     {
+      "name": "Enel X",
+      "context": "경쟁 기술 제공업체, UPS 기반 수요반응 솔루션"
+     },
+     {
+      "name": "Energize Capital",
+      "context": "Emerald AI Series A 투자 주도"
+     },
+     {
+      "name": "DCVC",
+      "context": "Emerald AI Series A 투자 주도"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI Energy Management Alliance (AEMA)",
+      "role": "수요반응 기반 데이터센터-그리드 연결 확대를 위한 연합체"
+     },
+     {
+      "name": "Emerald AI 소프트웨어",
+      "role": "유틸리티와 데이터센터 간 부하 조정을 직접 연결하는 수요반응 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "AEMA의 구체적 실행 일정 및 파일럿 프로젝트 발표 여부",
+     "Nvidia가 AEMA를 통해 자사 데이터센터 고객사에 제공할 구체적 지원 방안",
+     "Emerald AI 기술의 실제 그리드 용량 확보 성과 데이터 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUllEZExxMWV3QS01ejVlZ3NKMVJ0c0hVLWNzWHJVLUFoOGdQal9aNUtQRnZSN1BocVlYSUZRWkhzNjZEejZEb01rSFllZF9zcElMdTdhYkgtaUVFVF9lS0Vjc2RGYlYybHhacEpyMEpxNElSS243Uzh3UWZiY0RLcllENENXNXpaRTNEcUVvMVhSV01mbVc5VVJ4NG1xZHBnanZid05FTHhvSm54cE9VQy1xSzBmVGpBLTZ1R2l3NnpKUzNU?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+   "body": "Grid software unicorn Emerald AI has formed a coalition with Google and Nvidia that will use the startup’s technology to secure space on the grid for more data centers. The AI Energy Management Alliance (AEMA) hopes to make demand response — a paradigm in which data centers temporarily reduce their electricity use — an integral part of data center development. Pausing noncritical tasks and shifting some compute loads, AEMA says, could allow an additional 100 gigawatts of data centers to connect to the grid. The founding trio is joined by Anthropic, and a range of utilities including AES, Constellation, National Grid, and NRG Energy. Demand response is an old concept that has been used by utilities for decades. It works because the grid is designed with peak loads in mind. For much of the year, demand is well below the maximum the grid can support. Traditionally, demand response covered large electricity users like factories, which in times of high demand would agree to reduce their usage, typically by pausing production or switching to backup generators. In exchange, the utility would pay them for the service, often handsomely. Today, data centers can also take advantage of those programs, usually by turning on backup generators. Emerald AI has been proposing an alternative to dirty diesel generators. The company’s software coordinates requests from utilities with data centers, which can pause noncritical tasks or shift loads to other data centers where the grid has some headroom. The startup isn’t the only one working on such technology. Google has been developing its own tools, and Enel X lets data centers tap their uninterruptible power supplies to round off peaks in power demand. Limiting max grid usage to 90% for a few hours at a time could let data centers free up 76 gigawatts of capacity, according to a study by Goldman Sachs published last year. Emerald AI does have an advantage, though. Its software connects utilities directly to data centers, which should allow data centers to respond quickly to requests, much like batteries. The startup also recently raised $150 million in a Series A led by Energize Capital and DCVC, giving it the sort of funding needed to roll out the technology on a wider scale. Given the peaky nature of AI compute loads, and data centers’ ability to quickly ramp up and down, the creation of something like AEMA is overdue. The coalition also promises to help tech companies and utilities find new sites for data centers, an effort that hasn’t been easy for either party. Despite its promise, more sophisticated demand response won’t solve all of the grid’s problems today. Ayse Coskun, Emerald AI’s chief scientist, told TechCrunch that her company’s technology promises to blunt the industry’s need for new generating sources, but it won’t eliminate it entirely."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Google, Nvidia, and Emerald AI found the AI Energy Management Alliance to support demand response capabilities within the data center sector",
+   "link": "https://www.datacenterdynamics.com/en/news/google-nvidia-and-emerald-ai-found-the-ai-energy-management-alliance-to-support-demand-response-capabilities-within-the-data-center-sector/",
+   "date": "2026-09-17 19:50",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Google, NVIDIA, Emerald AI, AI Energy Management Alliance 출범",
+    "korean_summary": "Google, NVIDIA, Emerald AI가 주도적으로 AI Energy Management Alliance를 출범하여 데이터센터 전력 관리 및 유연한 부하 기능 개발을 추진한다."
+   },
+   "summary_data": {
+    "korean_title": "Google·Nvidia·Emerald AI, 데이터센터 수요 반응 지원 위한 'AI Energy Management Alliance' 결성",
+    "korean_summary": "Google과 Nvidia, Emerald AI가 AI 데이터센터의 유연한 전력 부하 관리를 지원하기 위해 AI Energy Management Alliance(AEMA)를 공동 설립했다.",
+    "action": {
+     "actor": "Google, Nvidia, Emerald AI",
+     "action": "AI 데이터센터의 수요 반응(demand response) 및 유연 부하 역량 개발을 지원하는 산업 연합체 AEMA 결성",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미국 데이터센터·에너지 업계 (Anthropic, AES, Constellation 등 다수 파트너 참여)"
+    },
+    "key_facts": [
+     "**Google, Nvidia, Emerald AI**가 AEMA를 공동 창립했으며 Anthropic, AES, Constellation, National Grid, NRG Energy 등 다수 기업이 런칭 파트너로 참여",
+     "Google은 미국 전역 유틸리티와의 장기 에너지 계약을 통해 **1GW 규모의 수요 반응(demand response) 용량**을 통합했다고 발표",
+     "연간 100시간 미만의 그리드 인출 감축만으로도 컴퓨팅 유연성·저장·발전을 통해 수십 기가와트 용량 확보 가능하다는 다수 연구 결과 인용",
+     "Google은 Brattle Group(FERC 정책 기술 청사진), Aurora Energy Research(ERCOT 내 유연 데이터센터 모델링) 등 2건의 신규 보고서 발표",
+     "Google은 Omaha Public Power District(2024년), Indiana Michigan Power, TVA에 이어 Entergy Arkansas, Minnesota Power, DTE Energy와도 수요 반응 계약 체결"
+    ],
+    "why_matters": "AI 데이터센터의 폭발적 전력 수요가 그리드 용량 확보의 최대 병목으로 부상하면서, 데이터센터를 수동적 전력 소비자에서 능동적 그리드 참여자로 전환하려는 산업 표준화 움직임이 본격화되고 있다. **Nvidia가 하이퍼스케일러·전력망 사업자와 함께 전력 인프라 정책 논의에 직접 참여**함으로써 AI 컴퓨팅 확장의 전제조건인 전력 공급 문제 해결에 관여하는 모습을 보여준다.",
+    "subject_angle": "Nvidia는 GPU 수요 증가의 최대 제약 요인인 데이터센터 전력 확보 문제에서 **하드웨어 공급자를 넘어 에너지 생태계 정책 결정자로서의 입지를 확대**하고 있으며, 이는 향후 AI 인프라 확장 속도와 직결된 전략적 포석이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Google",
+      "context": "AEMA 공동 창립사, 1GW 수요 반응 통합 실적 보유, 관련 보고서 발간"
+     },
+     {
+      "name": "Nvidia",
+      "context": "AEMA 공동 창립사, AI 데이터센터 전력 유연성 지원"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "AI 오케스트레이션 기업, AEMA 공동 창립사"
+     },
+     {
+      "name": "Anthropic",
+      "context": "AEMA 런칭 파트너"
+     },
+     {
+      "name": "The AES Corporation",
+      "context": "AEMA 런칭 파트너, 에너지 기업"
+     },
+     {
+      "name": "Constellation",
+      "context": "AEMA 런칭 파트너, 에너지 기업"
+     },
+     {
+      "name": "National Grid",
+      "context": "AEMA 런칭 파트너, 전력망 사업자"
+     },
+     {
+      "name": "NRG Energy",
+      "context": "AEMA 런칭 파트너, 에너지 기업"
+     },
+     {
+      "name": "Entergy Arkansas",
+      "context": "Google과 수요 반응 계약 체결 유틸리티"
+     },
+     {
+      "name": "Minnesota Power",
+      "context": "Google과 수요 반응 계약 체결 유틸리티"
+     },
+     {
+      "name": "DTE Energy",
+      "context": "Google과 수요 반응 계약 체결 유틸리티"
+     },
+     {
+      "name": "Tennessee Valley Authority",
+      "context": "Google과 기존 수요 반응 계약 체결 유틸리티"
+     },
+     {
+      "name": "Indiana Michigan Power",
+      "context": "Google과 기존 수요 반응 계약 체결 유틸리티"
+     },
+     {
+      "name": "Omaha Public Power District",
+      "context": "Google의 최초 수요 반응 시연 파트너(2024년)"
+     },
+     {
+      "name": "The Brattle Group",
+      "context": "FERC 정책 기술 청사진 보고서 작성"
+     },
+     {
+      "name": "Aurora Energy Research",
+      "context": "ERCOT 유연 데이터센터 모델링 보고서 작성"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "AEMA의 구체적 활동 계획 및 정책 제안 발표 여부",
+     "Nvidia GPU 기반 데이터센터에 대한 수요 반응 기술 적용 사례 확대 여부",
+     "FERC 등 규제 당국의 후속 정책 대응 및 AEMA 제안 반영 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/google-nvidia-and-emerald-ai-found-the-ai-energy-management-alliance-to-support-demand-response-capabilities-within-the-data-center-sector",
+   "body": "Google, Nvidia, and AI orchestration firm Emerald AI have launched the AI Energy Management Alliance (AEMA) to support the development of flexible load capabilities within the AI data center sector. The founding members were joined by a range of launch partners across the data center and energy sectors. These include Anthropic, The AES Corporation, Constellation, Generate, National Grid, NRG Energy, Analog Devices, Calibrant Energy, Camus, ClearPath, encoord, Fluence, GridUnity, PassKey Inc., RWE, Splight, Verrus, and Voltus. Writing on LinkedIn, Tyler Norris, head of energy market innovation – AI & infrastructure, said: “Our shared mission: modernize power system planning and operations for the 21st century to unlock the full potential of flexible data centers, enabling digital infrastructure to actively enhance system utilization, affordability, and reliability. “Instead of waiting 5-7+ years for traditional system upgrades, multiple studies have found that reducing net grid withdrawal for less than 100 hours per year can unlock dozens of gigawatts of capacity via compute flexibility, storage, or generation. At Google, we’ve proven this model by integrating 1GW of demand response capacity nationwide.” In support of the AEMA, Google has released two new reports setting out actionable pathways forward. They include a report from The Brattle Group, which provides a technical blueprint to turn recent bipartisan direction from the Federal Energy Regulatory Commission into operational reality. Alongside a report from Aurora Energy Research, which models flexible data centers in ERCOT paired with front-of-meter resources. Norris will serve as the AEMA's inaugural board chair. Data center demand response capabilities have become a hot topic in the sector, as operators seek to move from consumers to active grid participants. In March, Google reported that it had integrated a total of 1GW of demand response capacity into its long-term energy contracts with multiple utilities across the US. After originally demonstrating its demand-response capabilities with Omaha Public Power District in 2024, the company announced agreements with Indiana Michigan Power (I&M) and Tennessee Valley Authority (TVA) last year. Google has now signed contracts with Entergy Arkansas, Minnesota Power, and DTE Energy that incorporate demand response."
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Apple eyes Nvidia NVLink to power its new custom M8 Ultra AI servers — historically bitter rivals reportedly team up for 2029 data center push",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-eyes-nvidia-nvlink-to-power-its-new-custom-m8-ultra-ai-servers-historically-bitter-rivals-reportedly-team-up-for-2029-data-center-push",
+   "date": "2026-09-17 20:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, 2029년 M8 Ultra 서버에 NVIDIA NVLink Fusion 도입 검토",
+    "korean_summary": "Apple이 2029년 출시 예정인 M8 Ultra 기반 AI 서버에 NVIDIA의 NVLink Fusion 기술 도입을 평가 중인 것으로 보도됐다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Tom's Hardware",
+     "title": "Apple eyes Nvidia NVLink to power its new custom M8 Ultra AI servers — historically bitter rivals reportedly team up for 2029 data center push",
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPVWtZbGp2ejFFd1pibDJFX2UxUjRyN3R5MW5ick1Lckw4bXZjd04wbVNsSXFES09GRVFFMFlnbFdYNUhfeS1oRmhYODFGT0R6Qnp4QVRTMHdxQ0d5cXh0WnRBLTVSY0E0eW13RE5KQ0FFX0EtR1dWa2lFdzdxXzdxSEM5RUZDS2dRUTRxVGpiQ3dPdUx5V0YtOXZZTDdIdGlYR0FLSWlUdHdxVVdVUDJZLUw2VEdvczlfTGFjQ2ZVV2p3Njc2enQzZ044Y1pxNjVXOEItVld3Xy1rR080dkpkMGl5S0c3Qlh0VGpneXBBTnpTZ1VWVGdzOUlOT29DdGtSWDZWWGxzZkxWSFZxZFVQUlJHQTE2bHVnNEl0T1FMMHpUWExoQzBMMU1FaDZwOTVo?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-eyes-nvidia-nvlink-to-power-its-new-custom-m8-ultra-ai-servers-historically-bitter-rivals-reportedly-team-up-for-2029-data-center-push",
+   "body": "Apple is reportedly developing AI servers based on its own M-series processors and is evaluating NVLink Fusion technology for interconnects, according to The Information . The machines are expected to use M8 Ultra processors and arrive in 2029, the report claims. For now, the usage of the NVLink Fusion platform is not formalized and has not been confirmed by either Apple or Nvidia, but if Apple decides to use it instead of competing solutions, this may have significantly broader market implications than just Apple using Nvidia hardware. Apple looking for fast interconnects Apple is reportedly considering at least two server configurations: a smaller machine equipped with two M8 Ultra processors and a higher-end version featuring four M8 Ultra system-on-chips. Although Apple has its own UltraFusion technology for stitching two high-end SoCs together seamlessly, it looks like the company does not have a proper solution for scale-up and scale-out connectivity of its processors, which is where Nvidia's NVLink Fusion comes into play. Apparently, Apple wants to use NVLink infrastructure, which includes not only an interconnection protocol, but also switches, chiplets that add NVLink connectivity, and a software stack, for its servers. The project was reportedly initiated around a year ago and was backed by John Ternus while he headed Apple's hardware engineering organization. Apple already builds custom servers for Private Cloud Compute, which handle AI workloads too demanding for local execution on iPhones and Macs, The Information claims. Most of these machines use Apple's internally developed connectivity technologies, which are reportedly too slow and costly for large-scale commercial deployments, which is why Apple is looking elsewhere. More than NVLink? The Information specifically mentions Apple's need for connectivity technology suitable for large-scale deployments, although it does not explain exactly what this means architecturally. If the publication is referring to connecting multiple servers into larger clusters, this would normally be the job of scale-out technologies such as Ethernet or InfiniBand, rather than a scale-up fabric such as NVLink. Nvidia originally developed its NVLink fabric technology to scale-up performance of its accelerators, so the technology is optimized for accelerator-to-accelerator connectivity and enables a rack of Nvidia GPUs to function as a tightly coupled compute domain. There is a different implementation called NVLink-C2C, which is a coherent chip-to-chip interface for connecting CPUs to accelerators and CPUs to CPUs Meanwhile, modern Apple M Pro and M Ultra processors are system-in-packages consisting of a CPU chiplet and a GPU/neural engine chiplet, which are stitched together using TSMC's SoIC-mH technology. If Apple continues to use this architecture (very likely), an M8 Ultra processor can be considered as a CPU and an accelerator. However, this raises the question of how Apple intends to connect M8 Ult"
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "국책 보안 AI 해외 나간다…네이버클라우드 \"세계 AI 팩토리서 작동\"",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=62444",
+   "date": "2026-09-18 01:42",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "네이버클라우드, NVIDIA와 글로벌 AI 팩토리 협력 확대…보안 AI 모델 세계 배포",
+    "korean_summary": "네이버클라우드가 NVIDIA와의 전략적 협력을 통해 글로벌 AI 팩토리 구축을 추진하며, 국책으로 개발 중인 보안 특화 AI 모델을 세계 각지 거점에서 운영할 계획을 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=62444",
+   "body": "네이버클라우드가 국책과제로 개발하는 보안 특화 인공지능(AI) 모델을 글로벌 시장으로 확산하겠다는 계획을 밝혔다. 김유원 네이버클라우드 대표는 17일 국가정보원과 국가보안기술연구소가 서울 코엑스에서 공동 주최한 사이버 서밋 코리아(CSK) 2026 기조연설자로 나와 \"네이버클라우드는 최근 엔비디아와 함께 글로벌 AI 팩토리로의 도약을 선언했다\"면서 \"앞으로 세계 각지 AI 팩토리에서 AI 보안 모델이 함께 작동하도록 만들고 각 거점을 사이버 안보 협력 허브로 연결하겠다\"고 말했다. 김 대표는 지난 6월 대만에서 열린 엔비디아 클라우드 파트너 서밋에서 글로벌 AI 팩토리 구축 계획을 공개한 바 있다. 젠슨 황 엔비디아 최고경영자(CEO)는 전날 GTC 타이베이 기조연설에서 네이버클라우드를 글로벌 AI 생태계 핵심 파트너로 소개했다. 7월에는 이해진 네이버 의장이 엔비디아와 브룩필드로부터 총 100억달러를 투자받는다고 발표했다. 엔비디아는 10억달러를 네이버에 전략적으로 투자하고 브룩필드는 최대 90억달러 규모의 AI 인프라 조달을 지원하는 구조다. 이날 김 대표 발언은 이런 협력 관계를 활용해 세계 시장으로 모델을 확산하겠다는 의미로 해석됐다. 네이버클라우드는 최근 정부의 사이버 보안 특화 AI 파운데이션 모델 개발 사업 수행기관으로 선정됐다. 오는 18일부터 개발을 시작한다. 사업은 한국의 보안 환경과 산업 현장을 학습한 AI 모델을 개발하는 것이 목표다. LG CNS 등과 컨소시엄을 꾸려 전력, 금융, 반도체, 방위산업 등 주요 산업 현장에서 모델을 실증할 계획이다. 김 대표는 이날 연설에서 AI 사이버 공격의 위협이 커졌다고 강조했다. 과거에는 취약점이 발견된 뒤 실제 공격으로 이어지기까지 수십일, 길게는 수개월이 걸렸지만 AI가 취약점을 찾고 공격 방법까지 만들어내면서 이 시간이 수십분 수준까지 줄어들고 있다고 했다. 김 대표는 \"사람이 밤 새워 분석하고 대응책을 만드는 동안 공격은 이미 끝나 있을 수 있다\"며 \"사람의 속도로 AI의 공격을 막는 시대는 끝나가고 있다\"고 말했다. 개별 기업이나 국가 단위 대응만으로는 AI를 활용한 사이버 공격을 막기 어렵다고도 했다. 김 대표는 \"AI가 가져올 위험을 어느 한 조직이 혼자 해결할 수 없다\"며 \"공격자에게 국경은 없고 방어에도 국경이 있어선 안 된다\"고 말했다. 이어 \"AI 시대에 방어는 몇 개의 폐쇄된 시스템으로 만들어질 수 없다\"며 \"누구나 검증하고 활용할 수 있어야 하고 각 기업의 강점을 연결하는 생태계가 필수\"라고 했다. 그는 \"하나의 나라가 스스로를 지키는 것을 넘어 여러 나라가 서로를 지켜주는 구조를 만드는 것이 저희가 생각하는 국경을 넘어선 연대\"라고 말했다. 네이버는 이미 국제 보안 기구 등과 협력을 하고 있다. 나토 사이버방위협력센터(CCDCOE)가 주관하는 국제 사이버 방어훈련 록드쉴즈(Locked Shields)에 한국 연합팀 일원으로 2년 연속 참가했다. 엔비디아가 주도하는 오픈 시큐어 AI 얼라이언스(Open Secure AI Alliance)에도 참여 중이다. 김 대표는 \"네이버클라우드가 자체 보안 역량에 연간 400억원 이상을 투입하고 100명이 넘는 보안 전문인력을 운영하고 있다\"면서 \"관련 투자는 지속 확대할 계획\"이라고 밝혔다."
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "스냅, 엔비디아 등 손잡고 기업용 AR 시장 공략",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=62437",
+   "date": "2026-09-17 23:09",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Snap, NVIDIA 기술 협력으로 기업용 AR 글래스 Specs 출시",
+    "korean_summary": "Snap이 NVIDIA의 XR AI Stack 기술을 기반으로 한 기업용 AR 글래스 Specs를 출시하며, AWS·Salesforce 등과 협력하여 기업 생산성 향상 솔루션을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=62437",
+   "body": "소셜미디어 서비스 '스냅챗'의 운영사 스냅(Snap)이 300만원(2195달러)대의 증강현실(AR) 글래스 '스펙스(Specs)'를 16일(현지 시각) 출시했다. 이를 위해 스냅은 앞서 엔비디아, AWS, 세일즈포스 등과 파트너십을 체결했다. 스냅이 스펙스를 출시한 배경은 또 다른 형태의 기업용 컴퓨팅 장비 시장 진출이다. 스펙스는 지난 6월 발표됐다. 당시 스냅은 스펙스를 새로운 종류의 컴퓨터로 소개하면서 인공지능(AI) 지원, 업무 도구, 엔터테인먼트와 함께 협업도 언급했다. 2195달러는 일반 소비자가 구매하기에 진입 장벽으로 작용한다. 반면 기업은 현장 작업자의 생산성 향상을 위한 설비 투자로 가능하다. 회사는 스펙스를 업무용 컴퓨터로 활용하도록 하는 것에 목적을 둔다. 매장이나 서비스 현장은 물론, 공장이나 제조 시설도 대상이다. 스펙스는 컴퓨팅 하드웨어를 안경 자체에 넣었고(독립형 AR 기기) 외부 배터리팩이나 별도의 컴퓨팅 장치(puck), 케이블 연결이 필요 없다. 작업자가 스마트폰이나 노트북을 꺼내지 않고 눈앞에서 정보를 확인하고 음성·손동작으로 업무를 처리하도록 해준다. 스냅에 따르면 스펙스에서 세일즈포스의 자율형 AI 에이전트 구축 플랫폼 '에이전트포스'를 사용해 문제를 확인하고 관련 정보를 조회하거나 업무를 처리할 수 있다. AWS의 업무용 에이전틱 AI 어시스턴트 플랫폼 '아마존 퀵(Amazon Quick)'과 연결해 작업자는 음성으로 재고·제품 위치 등 정보를 조회할 수 있도록 할 계획이다. 또 엔비디아는 'XR AI 스택(NVIDIA XR AI Stack)' 기반 에이전트가 작업자의 주변 환경과 기업 데이터를 이해하고 실시간 안내할 수 있는 기술을 지원한다. 또 엔지니어링 기업 트라이포크, 산업용 AR/VR 소프트웨어 기업 홀로라이트와도 협력한다. 트라이포크는 현장 기술자와 원격 전문가·AI 에이전트를 연결하고, 홀로라이트는 문서·3D 모델 등을 AR 공간에서 사용하는 작업 환경을 제공한다. 에반 스피겔(Evan Spiegel) 스냅 CEO는 \"기존 AR 기기의 투박하고 큰 디자인이 활용을 가로막는 주요 요인이었다\"고 지적했다. 스펙스는 무게 132~136g이며 퍽, 케이블 없이 독립적으로 작동한다. 이는 현장 엔지니어가 디지털 지침을 보며 장비를 점검하거나 작업자·원격 전문가와 소통하는 업무에 AR 글래스 활용을 보다 쉽게 할 수 있다는 설명이다. 또 스냅은 아이폰, 맥용 AI 어시스턴트 '스펙스 인텔리전스(Specs Intelligence)'도 선보였다. 가격 정책은 확정 전으로, 스피겔 CEO는 무료부터 다양한 가격대의 요금제를 사용량 기준으로 제공할 것으로 전했다. 스냅은 2016년 카메라가 탑재된 스마트 안경 '스펙터클스(Spectacles)'를 선보인 이후 AR 글래스 기술을 꾸준히 개발해왔다. 실제 공간에 AR 콘텐츠를 띄울 수 있는 디스플레이형 스펙터클스(2021년), 독립형 AR 글래스와 전용 운영체제 '스냅 OS'(2024년) 등을 발표했다. 자체 광학엔진과 공간인식 기술까지 개발하는 등 AR 글래스의 선두주자로 자리매김해 왔다."
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Huang Expects to Sell Twice as Many Chips Next Year",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVNXeF9na2NiZUZoWUhUY013THdVSUNHcFE3YnI1d185eldJeHlxYzlUMHh0VGU1Z0g2SkV3bTQ5bzVFZlNER0xKcE9yNzRTeHNhU3hQT3NsOVUxdW1OaG10YTBUaEsyX0JkWERhMDF6UklqdHZfSDNqbXBwTktzZWFvT2ZHRkloWTY5VGViZUNxN2QtRWNNRnM2Q1cxRmlhRUpuQ2ZBQVg1aHdQOFlJSw?oc=5",
+   "date": "2026-09-18 00:24",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO Jensen Huang, 내년 칩 판매량 2배 증가 전망",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 내년 AI 칩 판매량이 현재의 2배 수준으로 증가할 것으로 예상한다고 발언했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance UK",
+     "title": "Nvidia’s Huang Expects to Sell Twice as Many Chips Next Year",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVzh5VGltb011dUxYOWZLV19DTEdPOHh1LVpkY0ppMzJCSDJiWlc2WjFyaE5yR25sUExRRW5UdkFwdk9wVUE1LWN2c09PZXhYWnJJLWRkc0NWLW11MG0xMS16cHE3Xy1YU2xBTlhpQmV3STlnZmlvNkg1YU52RFNBWXIwZ09Rbnc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLVNXeF9na2NiZUZoWUhUY013THdVSUNHcFE3YnI1d185eldJeHlxYzlUMHh0VGU1Z0g2SkV3bTQ5bzVFZlNER0xKcE9yNzRTeHNhU3hQT3NsOVUxdW1OaG10YTBUaEsyX0JkWERhMDF6UklqdHZfSDNqbXBwTktzZWFvT2ZHRkloWTY5VGViZUNxN2QtRWNNRnM2Q1cxRmlhRUpuQ2ZBQVg1aHdQOFlJSw",
+   "body": ""
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Delta Bridges Energy and Compute for AI Factories Based on NVIDIA DSX™",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUTJoZHE2OWN0Z1RJVGlaVXUwOU4zRUtrd1p4NnJGaGxldmZUZC1fUG1IczNTU3kzWUphVVVkcEhJT2tUQUxnT3hoTkZKUEpKbGtldmd2RV9CTW5DQ1pSOW1KMWNKN1AxMHN6X2tVNjZsUEdULWVxWVdLb1RFa0ZYUWg4TW4xZmNkNlIzYmI4VkwwTW96RW04V3YwYTJ3c3NRZlNmZjVtSE11WmpicllnTXliaVg1bXpENlhPcnFFV1IzYmM?oc=5",
+   "date": "2026-09-18 03:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Delta, NVIDIA DSX 기반 AI 팩토리 에너지·컴퓨팅 통합",
+    "korean_summary": "Delta가 NVIDIA DSX를 기반으로 AI 팩토리의 에너지와 컴퓨팅을 통합했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUTJoZHE2OWN0Z1RJVGlaVXUwOU4zRUtrd1p4NnJGaGxldmZUZC1fUG1IczNTU3kzWUphVVVkcEhJT2tUQUxnT3hoTkZKUEpKbGtldmd2RV9CTW5DQ1pSOW1KMWNKN1AxMHN6X2tVNjZsUEdULWVxWVdLb1RFa0ZYUWg4TW4xZmNkNlIzYmI4VkwwTW96RW04V3YwYTJ3c3NRZlNmZjVtSE11WmpicllnTXliaVg1bXpENlhPcnFFV1IzYmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · R&D World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Lilly, Roche and BMS are all building AI supercomputers with NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLURGZTg2SGhPWEItNzQ1NlNUclg2czVNVVBHVVlYM05XYnVxd0VJWm5veVB1VnBFQThUOGRCWk00ZU9mWjU5V05hN3ZPMURXMDY2dmFjN0tIanRRSklkaElsTVRPRU9WQS1DUjBDbnpEc08ydFp0bmd3WFFkbURONXotUzJlcy14Z0ZUdzR4Wml5WEF1VTV4alotc3BHOE1qR3lBcm5zQ25tOGhrbHNhbFJ6NlFvSUtycHVyZmtB?oc=5",
+   "date": "2026-09-18 04:54",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "제약사 3사, NVIDIA 기반 AI 슈퍼컴퓨터 구축",
+    "korean_summary": "Eli Lilly, Roche, Bristol Myers Squibb가 NVIDIA로 AI 슈퍼컴퓨터를 구축 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLURGZTg2SGhPWEItNzQ1NlNUclg2czVNVVBHVVlYM05XYnVxd0VJWm5veVB1VnBFQThUOGRCWk00ZU9mWjU5V05hN3ZPMURXMDY2dmFjN0tIanRRSklkaElsTVRPRU9WQS1DUjBDbnpEc08ydFp0bmd3WFFkbURONXotUzJlcy14Z0ZUdzR4Wml5WEF1VTV4alotc3BHOE1qR3lBcm5zQ25tOGhrbHNhbFJ6NlFvSUtycHVyZmtB",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketBeat",
+   "category": "media",
+   "kind": "gnews",
+   "title": "IonQ and NVIDIA Just Cracked a Major Quantum Computing Bottleneck",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVG53cjFreG5MWnAxSFVuRE1sRVNGM2pqOXJacDNrQTlIbFNfWTZvWTdqVnlVWm5DQW5qV3B3dnRoMHB1ZHR2dUY1TzFGTzFaZTZhSHRPMHN4RjFweXZpTllkaU96WkRFM2pPTzhicDNIU1BfTjRJSEFTQkpzUlBLdHdHMERWRnNqeUJhTF9lOVpXVHEtV3RaVVZRU0VpY3Y1aW1yUw?oc=5",
+   "date": "2026-09-17 21:29",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "research"
+    ],
+    "korean_title": "IonQ와 NVIDIA, 양자컴퓨팅 병목 현상 극복",
+    "korean_summary": "IonQ와 NVIDIA가 양자컴퓨팅의 주요 기술적 병목 현상 해결에 성공했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVG53cjFreG5MWnAxSFVuRE1sRVNGM2pqOXJacDNrQTlIbFNfWTZvWTdqVnlVWm5DQW5qV3B3dnRoMHB1ZHR2dUY1TzFGTzFaZTZhSHRPMHN4RjFweXZpTllkaU96WkRFM2pPTzhicDNIU1BfTjRJSEFTQkpzUlBLdHdHMERWRnNqeUJhTF9lOVpXVHEtV3RaVVZRU0VpY3Y1aW1yUw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s New Chip Delivers Leading Performance In MLPerf",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oaVphaWdZUEJDRUNmYTVnaHBwWWFtZDJHWXlKOFZ6bEpHWXcxZThfdWxzelNSS0QxMnVoSlhlSXlNS25SdlEyNi1ZdlBNeWlXNVVQNVpOLTVZcWszVjBKN0Y4ZjZXQTN0SUZteFhqc3p1N2N4bjRxOA?oc=5",
+   "date": "2026-09-18 01:40",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA의 새로운 칩, MLPerf에서 뛰어난 성능 입증",
+    "korean_summary": "NVIDIA가 MLPerf 벤치마크에서 새 칩의 우수한 성능을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oaVphaWdZUEJDRUNmYTVnaHBwWWFtZDJHWXlKOFZ6bEpHWXcxZThfdWxzelNSS0QxMnVoSlhlSXlNS25SdlEyNi1ZdlBNeWlXNVVQNVpOLTVZcWszVjBKN0Y4ZjZXQTN0SUZteFhqc3p1N2N4bjRxOA",
+   "body": ""
+  },
+  {
+   "source": "Google News · techbuzz.ai",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Forecasts 2x Chip Sales Growth for Next Year",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ0NMZWJkUkpPS0RzS3BsaVlJRVhnWnFIdEF6Q2VObEYydXM3VTFlejYzemY3U0J5Nmk2c0lzRzVHUm8yaHcyLTlRaElnOC1NeG1PT0E1b2NNMTgwcjdKWmdTYmtYcjY1NG1Da0ZPaEpsd2EyeFR4LXBvUkc1RFFhaUNITkk1THpVTjlxNmZXNmxPdw?oc=5",
+   "date": "2026-09-18 07:06",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO, 내년 칩 매출 2배 성장 예측",
+    "korean_summary": "Jensen Huang CEO가 내년 칩 판매량이 2배 증가할 것이라고 전망했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ0NMZWJkUkpPS0RzS3BsaVlJRVhnWnFIdEF6Q2VObEYydXM3VTFlejYzemY3U0J5Nmk2c0lzRzVHUm8yaHcyLTlRaElnOC1NeG1PT0E1b2NNMTgwcjdKWmdTYmtYcjY1NG1Da0ZPaEpsd2EyeFR4LXBvUkc1RFFhaUNITkk1THpVTjlxNmZXNmxPdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · executivebiz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Adds Orchestration Layer to Open-Source CUDA-Q Software",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVlAxd2t5dVJDRUpLa2N3UW8zLTMwalB1WmtTaXdISVRhM1pFb19Ya090a0cweGZCQUJIdGFfUlpMeERwQ25HbFlBTmY5dXFPbzl6bThTTTJPS1VEREhhRjhrT2NldEtkMlFmQkJ5TTVxalNWbVhDeVEweVNiUUhScg?oc=5",
+   "date": "2026-09-18 00:51",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, 오픈소스 CUDA-Q에 오케스트레이션 계층 추가",
+    "korean_summary": "NVIDIA가 CUDA-Q 소프트웨어에 새로운 오케스트레이션 기능을 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVlAxd2t5dVJDRUpLa2N3UW8zLTMwalB1WmtTaXdISVRhM1pFb19Ya090a0cweGZCQUJIdGFfUlpMeERwQ25HbFlBTmY5dXFPbzl6bThTTTJPS1VEREhhRjhrT2NldEtkMlFmQkJ5TTVxalNWbVhDeVEweVNiUUhScg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Has Returned $46 Billion to Shareholders This Year, and Another Major Dividend Hike Could Be Coming",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUVDMW04bHgwenlyTU9XaE9NNGFWZ2FvNGJxX0tuWm5lYlV2b0d0R1JuU1laNk1yaGdKZTVLRllXd2p6aGd1dmduNjExdkxUeWloWDVHR0kxQkx1b2VnOHYxa1lLczR2dmFaS1pjTWFkZDJnZG9YcjNKT2xCZ0FsMzVSNG4wTEJNNzRsSTJJVTZKOGQxSHpkV3BacHd4ZTFZdkxqbEwtYw?oc=5",
+   "date": "2026-09-17 15:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 올해 주주에 460억 달러 반환하며 추가 배당금 인상 검토",
+    "korean_summary": "NVIDIA가 올해 주주에게 460억 달러를 반환했으며 추가 배당금 인상이 예상되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUVDMW04bHgwenlyTU9XaE9NNGFWZ2FvNGJxX0tuWm5lYlV2b0d0R1JuU1laNk1yaGdKZTVLRllXd2p6aGd1dmduNjExdkxUeWloWDVHR0kxQkx1b2VnOHYxa1lLczR2dmFaS1pjTWFkZDJnZG9YcjNKT2xCZ0FsMzVSNG4wTEJNNzRsSTJJVTZKOGQxSHpkV3BacHd4ZTFZdkxqbEwtYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Rackspace’s Nvidia Partnership Sparks Early Rally, But a $2.8 Billion Debt Load Remains",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjdyVkxBWkE1Z0NuTU1IT2lrRjhOT182WkJQMXlhNjhKTXk3a09MUGpDTXZvRXdTN1Y3RXRUakVORGFqYXhsRnpkc0J0VzdvY3p1dDFRMnFuMHRZYzNvSkxLalZUU0RWaWVwbXhSNFpUd09xS29EOE5JU2VfdHBvTm83WXlnTmk3MmJ0T0xNbmg3UXpLR2RidkxvaUNiN2Ffci1xN0FraGRXUQ?oc=5",
+   "date": "2026-09-18 01:38",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "stock"
+    ],
+    "korean_title": "Rackspace의 NVIDIA 파트너십, 초기 주가 랠리 견인하나 28억 달러 부채 과제",
+    "korean_summary": "Rackspace의 NVIDIA 협력이 주가 상승을 견인했으나 상당한 채무 부담 남음."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjdyVkxBWkE1Z0NuTU1IT2lrRjhOT182WkJQMXlhNjhKTXk3a09MUGpDTXZvRXdTN1Y3RXRUakVORGFqYXhsRnpkc0J0VzdvY3p1dDFRMnFuMHRZYzNvSkxLalZUU0RWaWVwbXhSNFpUd09xS29EOE5JU2VfdHBvTm83WXlnTmk3MmJ0T0xNbmg3UXpLR2RidkxvaUNiN2Ffci1xN0FraGRXUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · simplywall.st",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia (NVDA) Expands Into Neoclouds And Takes On A Bank Of AI Role",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazdLNlU4UWc4MUZOU3lqeEdfWWRoZTd0ZzBDUDlNNHZJWGF5ZzVHWXNJb1dXRlRxZG1LZVE3RjVpQW9zNVpfeGpqcmMwZlhKd05KUnRBcXRkZC1ONG8wTDFZUWh4T0FkZXA2c082c3dndnNRc042R1BFX1lBWExubkNyMXlnWXF0ZE5DTGxzTDZLYVotMXRpdTVDdHpUbHlGbk8xeS1aUDVnSERFQmhFXzFraF9IOTRtMkx3TjduR1pBYjNNS1p5R0luZ9IB0AFBVV95cUxPMVliWmx5NVN1bXI3T0JySzVYbHdNYVU4c2hUTS1KQS1WWEtuSFJDZW05b1MweGtlVkVEb1BjWUNFUXRheGJLUTJ2T0NIREtEM3dadGQ3VTFxZUl5Y0xLZFgwcW9SWEx4MVNGazJUYVZqTTlGSUdBenhrTmZlRkh2MFVoOWNTS0VtaFF1cERHWGtDcE9Hdk01UHdYQUZmSXc5dmVyODczeVNuQl9FYjhUdDY3eW4wZHJKMkJJVHR4eTRzS3pjZ3NoSnlhcUt5R2Jy?oc=5",
+   "date": "2026-09-18 07:35",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, Neocloud 진출로 AI 금융 플랫폼 역할 확대",
+    "korean_summary": "NVIDIA가 Neocloud 영역 확장으로 AI 인프라 및 금융 역할 강화."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOazdLNlU4UWc4MUZOU3lqeEdfWWRoZTd0ZzBDUDlNNHZJWGF5ZzVHWXNJb1dXRlRxZG1LZVE3RjVpQW9zNVpfeGpqcmMwZlhKd05KUnRBcXRkZC1ONG8wTDFZUWh4T0FkZXA2c082c3dndnNRc042R1BFX1lBWExubkNyMXlnWXF0ZE5DTGxzTDZLYVotMXRpdTVDdHpUbHlGbk8xeS1aUDVnSERFQmhFXzFraF9IOTRtMkx3TjduR1pBYjNNS1p5R0luZ9IB0AFBVV95cUxPMVliWmx5NVN1bXI3T0JySzVYbHdNYVU4c2hUTS1KQS1WWEtuSFJDZW05b1MweGtlVkVEb1BjWUNFUXRheGJLUTJ2T0NIREtEM3dadGQ3VTFxZUl5Y0xLZFgwcW9SWEx4MVNGazJUYVZqTTlGSUdBenhrTmZlRkh2MFVoOWNTS0VtaFF1cERHWGtDcE9Hdk01UHdYQUZmSXc5dmVyODczeVNuQl9FYjhUdDY3eW4wZHJKMkJJVHR4eTRzS3pjZ3NoSnlhcUt5R2Jy",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ASUS and Poesis Team Up on Autonomous Trading Agents Powered by NVIDIA Technologies",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQejd5UjVjRnRuVTRHNE02NU9QcmM3MXhMdVpLdmk1ck5pbUFWOW9xRHZTZTJpSHJJQngtejVpVTB1YjVONmZERk54eXUta2JLV1ZkazNTN0lLbnpXbkN6Xzl3QnRpMEVRX1A5TTlZcl9kSWZIWGJXRVNVN01vZndLaXQzdEttT2U1dkl4X1dOR2RpY2FNa2JQTEltWFFDS3pqZVRJQlhhdTRjY2YwTHFPNk9aeXlqNGVORFlBaWtWN01lZ0MtOXo0WHF1WDRBa3pfTXhtZVdlWQ?oc=5",
+   "date": "2026-09-18 08:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "ASUS와 Poesis, NVIDIA 기술 기반 자동 트레이딩 에이전트 협력",
+    "korean_summary": "ASUS와 Poesis가 NVIDIA 기술을 활용한 자동 트레이딩 에이전트 플랫폼 공동 개발."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQejd5UjVjRnRuVTRHNE02NU9QcmM3MXhMdVpLdmk1ck5pbUFWOW9xRHZTZTJpSHJJQngtejVpVTB1YjVONmZERk54eXUta2JLV1ZkazNTN0lLbnpXbkN6Xzl3QnRpMEVRX1A5TTlZcl9kSWZIWGJXRVNVN01vZndLaXQzdEttT2U1dkl4X1dOR2RpY2FNa2JQTEltWFFDS3pqZVRJQlhhdTRjY2YwTHFPNk9aeXlqNGVORFlBaWtWN01lZ0MtOXo0WHF1WDRBa3pfTXhtZVdlWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechPowerUp",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA DLSS 5 Neural Rendering Now Runs in a Web Browser Via WebGPU",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU2I5T09zR3pTUnRfbUY0dVdHNmRtSmR2c2duVzJ2azE0c1RsbUNBVmVnUWxzV2pTNF93UzA4RENPTXZFT2l6LTY2N1lPSHVCME5VZkRmR2Vfcm5UMGE3YVpIX1VwV2dTbWZGaTRhV2x6c244Y2V1UzNyNVRpR0dmQ3E4bHZoTzVuS2NINk9Yb3k2b28weUt2WGpqMTZ3VFRqY1RxMNIBqgFBVV95cUxPa1NDZUFMTjBlSkVmaDYwVjlnX0YtTzMyQmhEMHJOcUJrajBLV2ZURGloVk1WMlJFS2NTVWpTZHdTNThESW9iVXdyNGtkVEtVd3RyalR4T015N0o4MG1ScXIzS1d3bEtVS2NuaUlYOWpjdXlaeTRmV3dwU2NveG1RaHJRaDZkcGRBSXZxOXZTc2hFdzViYTlUZWRCZ3FwZDRvZkp5ak4tUnJzQQ?oc=5",
+   "date": "2026-09-18 04:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA DLSS 5 뉴럴 렌더링, 웹 브라우저에서 실행 가능",
+    "korean_summary": "NVIDIA DLSS 5의 뉴럴 렌더링 기술이 WebGPU를 통해 웹 브라우저 환경에서 구동될 수 있게 되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNU2I5T09zR3pTUnRfbUY0dVdHNmRtSmR2c2duVzJ2azE0c1RsbUNBVmVnUWxzV2pTNF93UzA4RENPTXZFT2l6LTY2N1lPSHVCME5VZkRmR2Vfcm5UMGE3YVpIX1VwV2dTbWZGaTRhV2x6c244Y2V1UzNyNVRpR0dmQ3E4bHZoTzVuS2NINk9Yb3k2b28weUt2WGpqMTZ3VFRqY1RxMNIBqgFBVV95cUxPa1NDZUFMTjBlSkVmaDYwVjlnX0YtTzMyQmhEMHJOcUJrajBLV2ZURGloVk1WMlJFS2NTVWpTZHdTNThESW9iVXdyNGtkVEtVd3RyalR4T015N0o4MG1ScXIzS1d3bEtVS2NuaUlYOWpjdXlaeTRmV3dwU2NveG1RaHJRaDZkcGRBSXZxOXZTc2hFdzViYTlUZWRCZ3FwZDRvZkp5ak4tUnJzQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "UCLA & Caltech Use Quantum-enhanced AI On NVIDIA GPUs To Steer Molecules",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBDYUFVTUxTdUJfcGxyb1JmQzR2S1BJbDQ1UUxuVDRkc2VrRml0UnJTd3Y0VDNKLXV3X3VSRmt5NHlBMGZHQzY1UXc1SUZKazk5UUlQR2otY1c5Ml85Q1g4eWRzdUJvUjVpdGoxMmJvOWpwRE9USWJkTg?oc=5",
+   "date": "2026-09-18 01:40",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research",
+     "partnership"
+    ],
+    "korean_title": "UCLA·Caltech, NVIDIA GPU에서 양자 강화 AI로 분자 제어 성공",
+    "korean_summary": "UCLA와 Caltech 연구팀이 NVIDIA GPU를 활용한 양자 강화 AI로 분자 조작에 성공했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBDYUFVTUxTdUJfcGxyb1JmQzR2S1BJbDQ1UUxuVDRkc2VrRml0UnJTd3Y0VDNKLXV3X3VSRmt5NHlBMGZHQzY1UXc1SUZKazk5UUlQR2otY1c5Ml85Q1g4eWRzdUJvUjVpdGoxMmJvOWpwRE9USWJkTg",
+   "body": ""
+  },
+  {
+   "source": "Google News · CryptoRank",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nebius Stock Jumps as NVIDIA GPU Rates Rise Up to 21% in October",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnI4YWRlZUxvZ3B3MTlVQkU2Q2RueUFiU3NOVXRiTzV6VGZLMlJ0TVhYRWswVlY1b0pDSWgtYWxHQWhQc1IwOUdmRnpTOW9kX3BzNXl4S1lJVS11TG8xcm1RbldqSndoazRsVG03RVJIZWlBeElfZVVSMWhtM09GaEd0bmpJc1dxTklzSEFYRmVLNGFxbXd1N3ctd20yWVJBeVE4?oc=5",
+   "date": "2026-09-18 05:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Nebius 주가 상승, NVIDIA GPU 가격 10월 21% 인상",
+    "korean_summary": "NVIDIA GPU 가격이 10월에 21% 인상되면서 Nebius 주가가 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnI4YWRlZUxvZ3B3MTlVQkU2Q2RueUFiU3NOVXRiTzV6VGZLMlJ0TVhYRWswVlY1b0pDSWgtYWxHQWhQc1IwOUdmRnpTOW9kX3BzNXl4S1lJVS11TG8xcm1RbldqSndoazRsVG03RVJIZWlBeElfZVVSMWhtM09GaEd0bmpJc1dxTklzSEFYRmVLNGFxbXd1N3ctd20yWVJBeVE4",
+   "body": ""
+  },
+  {
+   "source": "Google News · 247wallst.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Snap Advances 4% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObE1GQTl0QjhpNV8yWHFyOWlFcktTalFKUEJTczNkN2l2YnhMelN4R1pTTW4tcndSdWJLb2hESmJ0MjV4bzZ5dWJDMUpyYUlrVzFlUnRmMjIxNy1vdzlQVktRYWRLMC1EdVFPWFFqUU54SFVrS25kSXFENUxiWU03Y1djMjNzRV9kaHRVZVFjTlJmTTd2NzFXbkFmcXplY3lJemZUc1NLYmRfSzc3b2xSNTY2ajBEZ19pN045X0hWU2JTSkQtQ1d0R01waVE5NGRzSC1v?oc=5",
+   "date": "2026-09-17 23:09",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Snap 스펙 안경 4% 상승... Salesforce·NVIDIA 엔터프라이즈 도구 탑재",
+    "korean_summary": "Snap의 스펙 안경이 Salesforce와 NVIDIA의 엔터프라이즈 도구를 새로 탑재한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObE1GQTl0QjhpNV8yWHFyOWlFcktTalFKUEJTczNkN2l2YnhMelN4R1pTTW4tcndSdWJLb2hESmJ0MjV4bzZ5dWJDMUpyYUlrVzFlUnRmMjIxNy1vdzlQVktRYWRLMC1EdVFPWFFqUU54SFVrS25kSXFENUxiWU03Y1djMjNzRV9kaHRVZVFjTlJmTTd2NzFXbkFmcXplY3lJemZUc1NLYmRfSzc3b2xSNTY2ajBEZ19pN045X0hWU2JTSkQtQ1d0R01waVE5NGRzSC1v",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "NVIDIA acknowledged the Blackwell \"Xid 79 / GPU fell off the bus\" GSP crash bug 10 weeks ago (bug 6426268) — still no fix, 35+ owner reports since",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wiaj9e/nvidia_acknowledged_the_blackwell_xid_79_gpu_fell/",
+   "date": "2026-09-17 06:32",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "NVIDIA Blackwell GPU, PCIe 버스 이탈 버그 10주 방치 중 - 35건 이상 보고",
+    "korean_summary": "NVIDIA가 Blackwell GPU의 심각한 PCIe 버스 이탈 버그를 10주 전부터 인지했으나 아직 수정되지 않았으며, 사용자들의 불만이 증가 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wiaj9e/nvidia_acknowledged_the_blackwell_xid_79_gpu_fell",
+   "body": "Posting this for discussion/awareness, not asking for tech support on my own card (I've got that covered). Blackwell GPUs (RTX 5070/5080/5090, RTX PRO 6000) have a recurring failure where the GPU randomly falls off the PCIe bus — full lockup, zero warning, only a hard power cycle recovers it. Kernel log shows Xid 79 (sometimes Xid 120/154 too), and it doesn't come back on a warm reboot. On July 14, 2026, an NVIDIA employee (\"amrits\", a forum moderator) confirmed on NVIDIA's own developer forums that this is a known internal issue, tracked as bug 6426268: \"We have seen similar issue internally and is currently being investigated via internal bug 6426268.\" That's 10 weeks ago as of today. Since then: no public root-cause statement, no workaround, no ETA. Meanwhile the tracking thread on NVIDIA's own GitHub repo has grown to 35+ independent reports across multiple GPU models, multiple driver branches (580/595/610), and both Linux and Windows: github.com/NVIDIA/open-gpu-kernel-modules/issues/1151 The community has independently ruled out PSU, thermals, PCIe seating/cabling, and even a full motherboard swap on individual cards — which points at GSP firmware rather than anyone's specific build. Several reporters also describe the time between crashes shrinking with continued use. I'm one of the affected owners (RTX 5080) and have a full report/logs in that GitHub thread. Curious how many people here are hitting this that haven't found the GitHub issue or forum thread yet — feels like it's more widespread than the report count suggests, and more visibility might get NVIDIA to actually respond. submitted by /u/Upstairs_Ride6714 [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/DeepSeek-V4.1-Flash-NVFP4 (신규)",
+   "link": "https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4",
+   "date": "2026-09-17 05:37",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/DeepSeek-V4.1-Flash-NVFP4",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release",
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, DeepSeek-V4.1-Flash 양자화 모델 공개",
+    "korean_summary": "NVIDIA가 Model Optimizer를 활용해 DeepSeek-V4.1-Flash를 FP4로 양자화한 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/DeepSeek-V4.1-Flash-NVFP4:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: image-text-to-text · library: Model Optimizer · tags: Model Optimizer, safetensors, deepseek_v41, nvidia, ModelOpt, DeepSeekV4, quantized, FP4, fp4, image-text-to-text, base_model:deepseek-ai/DeepSeek-V4.1-Flash, base_model:quantized:deepseek-ai/DeepSeek-V4.1-Flash · downloads 132 · likes 41. README:  # Model Overview ## Description: The NVIDIA DeepSeek-V4.1-Flash NVFP4 model is the quantized version of DeepSeek AI's DeepSeek-V4.1-Flash model, which is an auto-regressive language model that uses an optimized transformer architecture. DeepSeek-V4.1-Flash is a natively multimodal Mixture-of-Experts (MoE) model with a Causal Encoder-Decoder (CED) architecture, Compressed Sparse Attention 2 (CSA2), and support for contexts of up to one million tokens. For more information, please check [here](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash). The NVIDIA DeepSeek-V4.1-Flash NVFP4 model is quantized with [Model Optimizer](https://github.com/NVIDIA/Model-Optimizer). This model is ready for commercial or non-commercial use. ## Third-Party Community Consideration This model is not owned or developed by NVIDIA. This model has been developed and built to a third-party's requirements for this application and use case; see link to Non-NVIDIA [(DeepSeek-V4.1-Flash) Model Card](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) from DeepSeek AI. ### License/Terms of Use: [MIT](https://huggingface.co/datasets/choosealicense/licenses/blob/main/markdown/mit.md) ### Deployment Geography: Global ### Use Case: Developers looking to take off-the-shelf, pre-quantized models for deployment in AI Agent systems, chatbots, RAG systems, and other AI-powered applications. ### Release Date: Hugging Face 09/16/2026 via [https://huggingface.co/nvidia/DeepSeek-V4.1-Flash-NVFP4](https://hugging"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 3,
+   "enriched": 1,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 19,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.6
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 4.1
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 24,
+   "enriched": 24,
+   "error": "",
+   "sec": 12.8
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 9,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 43,
+   "enriched": 13,
+   "error": "",
+   "sec": 3.9
+  },
+  {
+   "source": "전자신문",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section902.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.e",
+   "sec": 20.3
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 9,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 34,
+   "enriched": 32,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
