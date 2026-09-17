@@ -25,7 +25,10 @@ SOURCES = [
            enabled=False, note="2026-09-15 확인 시 엔트리 0건인 빈 피드"),
     Source("NVIDIA Research", "https://research.nvidia.com/rss.xml", category="official", prefilter=False, enabled=False,
            note="2026-09-15 확인 시 피드에 2021년 글만 있음 (갱신 중단)"),
-    Source("YouTube · NVIDIA", "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g", category="official", prefilter=False, fetch_full=False),
+    Source("YouTube · NVIDIA", "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+           category="official", prefilter=False, fetch_full=False,
+           note="2026-09-17 crawl_only 에서 404. 채널 ID 는 맞고(youtube.com/channel/UCHuiy8bXnmK5nisYHUd1J5g) "
+                "같은 실행에서 Autoware 채널 피드는 정상이라 이 채널만의 문제. 일단 유지하고 재발하면 비활성"),
     Source("SEC EDGAR 8-K", SEC_8K, kind="sec", category="filing", weight=1, prefilter=False, fetch_full=False, ua="sec"),
     Source("Hugging Face · nvidia", "https://huggingface.co/api/models?author=nvidia&sort=lastModified&limit=100", kind="hf", category="release", prefilter=False, fetch_full=False),
     *github_releases(GITHUB_REPOS),

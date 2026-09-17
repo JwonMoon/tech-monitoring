@@ -144,11 +144,18 @@ Autoware는 같은 자리에 "TIER IV 투자·상장, OEM 양산 확정, 레벨4
 | 2026-09-15 | SEC EDGAR | 연락처 없는 UA는 403 | `CONTACT_EMAIL` 필수, 워크플로우는 `MAIL_USERNAME` 사용 |
 | 2026-09-15 | hnrss `points` 파라미터 | 502 | 파라미터 없이 사용 |
 | 2026-09-15 | investor.nvidia.com RSS, HPCwire, VideoCardz | 403 | 제외 |
-| 2026-09-17 | Autoware·TIER IV 소스 전체 | 개발 환경 egress 차단으로 실측 불가 (github.com만 도달) | 최초 도입. `crawl_only` 실행으로 실측하고 죽은 피드는 `enabled=False`로 내릴 것 |
-| 2026-09-17 | autowarefoundation/autoware_universe 릴리스 Atom | 엔트리 2건 확인 (0.52.1, 0.52.0) | 사용 |
-| 2026-09-17 | discourse.ros.org `/c/autoware/46` | 카테고리 존재 확인 (Discourse 규약상 `.rss`) | 사용 |
-| 2026-09-17 | autoware.org | WordPress `/feed/` 관례 + `category/news/feed/` 확인 | `/feed/` 사용 |
-| 2026-09-17 | TIER IV 자체 사이트 | RSS 없음 | Medium(`tier-iv-tech-blog`) + PR TIMES 기업 RDF + Google News 로 대체 |
+| 2026-09-17 | **NVIDIA 소스 36개 회귀 확인** | `crawl_only` 실측 — 수집 410건 / 통과 185건, 2.5분. 발송 이력 312건 로드 확인 (seen.json → seen_nv.json 이름 변경 무손실) | 이상 없음 |
+| 2026-09-17 | YouTube · NVIDIA | **404** — 채널 ID 는 정상인데 피드만 404. 같은 실행에서 Autoware 채널 피드는 15건 정상이라 엔드포인트가 아니라 이 채널 문제 | 유지 + note. 재발하면 `enabled=False` |
+| 2026-09-17 | **Autoware·TIER IV 소스 34개 전체** | `crawl_only` 실측 — **오류 0건**, 수집 166건 / 사전필터 통과 1건, 65초 (run 35166623188) | 전부 사용 |
+| 2026-09-17 | Autoware Foundation `autoware.org/feed/` | 10건 | 사용 |
+| 2026-09-17 | TIER IV MEDIA `medium.com/feed/tier-iv-tech-blog` | 10건 | 사용 |
+| 2026-09-17 | TIER IV 보도자료 PR TIMES `company_id=40119` | 113건 — 기업 ID 정확 | 사용 |
+| 2026-09-17 | ROS Discourse `/c/autoware/46.rss` | 25건 | 사용 |
+| 2026-09-17 | GitHub 릴리스 Atom 15개 | autoware/core/universe/launch/msgs/AWSIM/agnocast·tier4 6개 모두 10건 내외. vision_pilot 5, CalibrationTools 4, AWML 2, awkernel 1 | 사용 |
+| 2026-09-17 | autowarefoundation/auto_e2e 릴리스 Atom | 0건 — 아직 태그를 찍지 않은 신규 저장소 | 유지 (태그가 생기면 자동으로 잡힌다) |
+| 2026-09-17 | Hugging Face `author=tier4` | 200 + 빈 목록 — 공개 모델 없음 | 유지 (요청 1건, 모델이 올라오면 자동으로 잡힌다) |
+| 2026-09-17 | TIER IV 자체 사이트 | RSS 없음 | Medium + PR TIMES 기업 RDF + Google News 로 대체 |
+| 2026-09-17 | Google News `Autoware`(영), `자율주행 오픈소스`(한) | 2일 창에서 0건 — 질의는 정상(같은 방식의 `TIER IV` 질의는 1건 반환) | 유지. 틈이 뜸한 주제라 0건이 정상 |
 
 ## 장애 기록
 
