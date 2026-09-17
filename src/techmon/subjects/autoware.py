@@ -40,7 +40,8 @@ SOURCES = [
            note="PR TIMES 기업 RDF. company_id 는 ティアフォー 기업 페이지 기준"),
     Source("YouTube · Autoware Foundation",
            "https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
-           category="official", prefilter=False, fetch_full=False),
+           category="official", prefilter=False, fetch_full=False,
+           note="2026-09-17 같은 날 한 번은 15건, 한 번은 404 — YouTube 피드가 Actions IP 를 간헐적으로 막는다"),
 
     # ── 릴리스 ──
     *github_releases(AWF_REPOS),

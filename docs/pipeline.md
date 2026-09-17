@@ -156,7 +156,9 @@ Autoware·TIER IV 는 공식 소스가 며칠에 한 번 올라와 2일 창이�
 | 2026-09-15 | hnrss `points` 파라미터 | 502 | 파라미터 없이 사용 |
 | 2026-09-15 | investor.nvidia.com RSS, HPCwire, VideoCardz | 403 | 제외 |
 | 2026-09-17 | **NVIDIA 소스 36개 회귀 확인** | `crawl_only` 실측 — 수집 410건 / 통과 185건, 2.5분. 발송 이력 312건 로드 확인 (seen.json → seen_nv.json 이름 변경 무손실) | 이상 없음 |
-| 2026-09-17 | YouTube · NVIDIA | **404** — 채널 ID 는 정상인데 피드만 404. 같은 실행에서 Autoware 채널 피드는 15건 정상이라 엔드포인트가 아니라 이 채널 문제 | 유지 + note. 재발하면 `enabled=False` |
+| 2026-09-17 | YouTube 피드 (NVIDIA·Autoware 양쪽) | **간헐적 404**. 같은 날 Autoware 채널이 한 실행에선 15건, 다른 실행에선 404. 채널 ID 문제가 아니라 YouTube 가 Actions IP 를 간헐적으로 막는 것으로 보인다 | 양쪽 유지 + note. 한 소스 실패는 나머지에 영향 없음 |
+| 2026-09-17 | Autoware 7일 창 실측 | 수집 253건 → 사전필터 **2건** (2일 창은 1건). 공식 소스는 7일로 넓혀도 0건 — PR TIMES 최신 릴리스가 2026-05, autoware_universe 최신 태그가 2026-07 | 주제 자체가 저빈도. 창 확대만으로는 크게 늘지 않는다 |
+| 2026-09-17 | Google News · TIER IV 기업 (JP) | 신규 추가. 7일 창에서 7건 수집 / 1건 통과 — 기술 키워드 없는 기업 뉴스를 실제로 잡아냄 | 사용 |
 | 2026-09-17 | **Autoware·TIER IV 소스 34개 전체** | `crawl_only` 실측 — **오류 0건**, 수집 166건 / 사전필터 통과 1건, 65초 (run 35166623188) | 전부 사용 |
 | 2026-09-17 | Autoware Foundation `autoware.org/feed/` | 10건 | 사용 |
 | 2026-09-17 | TIER IV MEDIA `medium.com/feed/tier-iv-tech-blog` | 10건 | 사용 |
