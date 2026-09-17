@@ -1,0 +1,459 @@
+{
+ "subject": "autoware",
+ "date": "2026-09-18",
+ "window": [
+  "2026-09-17",
+  "2026-09-18"
+ ],
+ "generated": "2026-09-18T08:46:31+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 자체 개발한 자율주행 AI 칩 설계와 툴체인을 **오픈소스**로 공개해 반도체사들의 자율주행 칩 개발을 지원한다.",
+  "TIER IV의 가토 CEO가 **오픈소스** 개발을 중심으로 자율주행 기술의 민주화를 추진한다는 전략을 제시했다.",
+  "TIER IV가 엔비디아 등 기존 강자에 도전하며 자율주행 **AI 칩** 시장 판도 변화를 시도한다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · digitimes",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tier IV open-sources self-driving AI chip design to challenge Nvidia",
+   "link": "https://www.digitimes.com/news/a20260916PD205/nvidia-autonomous-driving-ai-chip-design-chips.html",
+   "date": "2026-09-17 15:12",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Ecosystem-Hardware",
+    "is_focus": true,
+    "signal_tags": [
+     "hardware",
+     "release"
+    ],
+    "korean_title": "TIER IV, 자율주행 AI 칩 설계 오픈소스화로 엔비디아에 도전",
+    "korean_summary": "TIER IV가 자율주행 AI 칩 설계를 오픈소스로 공개하여 엔비디아에 대한 도전에 나섰다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 엔비디아에 도전하는 자율주행 AI 칩 설계 오픈소스 공개",
+    "korean_summary": "일본 자율주행 기업 TIER IV가 자체 개발 중인 AI 칩 설계와 관련 툴체인을 오픈소스로 공개해 반도체 제조사들이 자율주행 칩 개발에 활용할 수 있도록 할 계획이다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "자율주행용 AI 칩 설계 및 관련 툴체인을 오픈소스로 공개",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "반도체 제조사 대상, 지역 미확인"
+    },
+    "key_facts": [
+     "TIER IV는 일본의 자율주행 소프트웨어 개발사이다",
+     "**TIER IV가 AI 칩을 개발 중이며 칩 설계와 툴체인을 오픈소스로 공개할 예정**",
+     "이 오픈소스 설계는 반도체 제조사들이 자율주행 칩을 개발하는 데 활용될 수 있음",
+     "기사 본문은 유료 구독 모델로 상세 내용(일정·파트너사·기술 사양)은 확인 불가"
+    ],
+    "why_matters": "자율주행 AI 칩 시장은 현재 Nvidia가 사실상 독점적 지위를 갖고 있는데, **TIER IV의 오픈소스 전략은 Autoware 생태계처럼 소프트웨어 개방을 통해 하드웨어 진입장벽을 낮추려는 시도로 해석될 수 있다**. 이는 자율주행 스택 전반(SW+HW)에서 대안 생태계를 구축하려는 움직임으로, 성공 시 반도체 업계의 경쟁 구도에 변화를 줄 수 있다.",
+    "subject_angle": "**TIER IV가 Autoware 오픈소스 소프트웨어 전략을 하드웨어(AI 칩) 영역까지 확장**하려는 시도로, 소프트웨어에서 하드웨어까지 수직적으로 개방형 생태계를 구축해 Nvidia 등 특정 벤더 종속을 줄이려는 전략적 포지셔닝으로 해석된다.",
+    "focus_angle": "본 소식은 칩 설계 단계의 오픈소스 공개로 **아직 실증·양산 이전의 초기 단계**이며, 구체적 파트너 반도체 제조사·고객·지역 범위는 본문에서 확인되지 않는다. 성공적으로 반도체 업계 채택이 이뤄질 경우 Autoware 기반 자율주행 스택의 하드웨어 종속성을 낮추고 Nvidia 중심의 경쟁 구도에 새로운 대안으로 부상할 잠재력이 있으나, 현 시점에서는 구체적 상용화 로드맵이 확인되지 않는다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "자율주행 AI 칩 설계 및 툴체인을 오픈소스로 개발·공개하는 주체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "TIER IV의 오픈소스 전략이 도전하고자 하는 기존 AI 칩 시장 강자"
+     }
+    ],
+    "products": [
+     {
+      "name": "자율주행 AI 칩 (TIER IV 개발)",
+      "role": "오픈소스로 공개될 칩 설계 대상"
+     },
+     {
+      "name": "관련 툴체인",
+      "role": "반도체 제조사가 칩 개발에 활용할 도구"
+     }
+    ],
+    "watch_next": [
+     "TIER IV의 오픈소스 칩 설계 공개 정식 일정 및 세부 스펙",
+     "실제로 이 설계를 채택하는 반도체 제조사 파트너십 발표 여부",
+     "Autoware 소프트웨어 스택과의 통합 방식 및 호환성 정보"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNEx2T3hIYWpFOEFTSWZ5TU15a0t1UkthSXVPVjNsbUNOUlg3eDBqMWpwdEtNMEFoUkladE5ncUhDbDVpRUxvSHJ4VHlOSXZTbU5jMDdxSkQtUjZRX1JDa0xuM2VRRkgzcjdNSUxSSUhULVhIUjdxbFFGck9aV3JvV0E2MlA2Z0dQTEoxSEFsYVZ4TTVrTmgtR1FleWxadw",
+   "body": "Japanese autonomous driving developer Tier IV is developing an AI chip and will release its chip design and related toolchain as open source, allowing semiconductor manufacturers to use them to develop autonomous driving chips... The article requires paid subscription. Subscribe Now Some subscribers prefer to save their log-in information so they do not have to enter their User ID and Password each time they visit the site. To activate this function, check the 'Keep me signed in' box in the log-in section. This will save the password on the computer you're using to access the site. Note: If you choose to use the log-out feature, you will lose your saved information. This means you will be required to log-in the next time you visit our site."
+  },
+  {
+   "source": "Google News · 日経ビジネス電子版",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー・加藤CEO、オープンソース開発基盤を軸に「自動運転を民主化」",
+   "link": "https://business.nikkei.com/atcl/NBD/19/00119/00349/",
+   "date": "2026-09-18 00:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "foundation"
+    ],
+    "korean_title": "TIER IV 가토 CEO, 오픈소스 개발로 자율주행 '민주화' 추진",
+    "korean_summary": "TIER IV의 가토 CEO가 오픈소스 개발 기반을 중심으로 자율주행을 민주화한다는 전략을 제시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 日経ビジネス電子版",
+     "title": "ティアフォー・加藤CEO、オープンソース開発基盤を軸に「自動運転を民主化」",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fTDd0MmRZajdXZklxdHkxV1dEeElEanRkOUxmT3FmRFkzOTVoTnhRNFJPYi1xcEdNT1ZSNF95blo5WFpDOHkwUktBdkFPU256blZpN0VCU194YWxJWXhtTzJB?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fTDd0MmRZajdXZklxdHkxV1dEeElEanRkOUxmT3FmRFkzOTVoTnhRNFJPYi1xcEdNT1ZSNF95blo5WFpDOHkwUktBdkFPU256blZpN0VCU194YWxJWXhtTzJB",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "(株)ティアフォー【593A】：株価・株式情報（夜間PTS含む）",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94TjJYZU16blZqUGNKRHRDY2c1YlRGRFZSYW5fbXo3Ym5LNW0zSWdDeDA5UmdDYjFWMFA2OERRb2tyTEM5UkR3YnFOS3Brc25Ec1E?oc=5",
+   "date": "2026-09-18 06:15",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV(593A) 주가 정보",
+    "korean_summary": "Yahoo! Finance에서 제공하는 TIER IV의 주가 및 야간 거래소 정보."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "(株)ティアフォー【593A】：株価・株式情報（夜間PTS含む）",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94TjJYZU16blZqUGNKRHRDY2c1YlRGRFZSYW5fbXo3Ym5LNW0zSWdDeDA5UmdDYjFWMFA2OERRb2tyTEM5UkR3YnFOS3Brc25Ec1E?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "(株)ティアフォー【593A】：株つぶやき",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wX3VjdW4xcVEyNkoySlk2eWZsdzE0R3ZGbXA0MldyWjlCXzFRR0pqNnNXTl9VQk9xTnpFMkZhaWNMTkNtajhIeS1Bc0Q0M0VWWmFsNC04c2o?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "(株)ティアフォー【593A】：株つぶやき",
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wX3VjdW4xcVEyNkoySlk2eWZsdzE0R3ZGbXA0MldyWjlCXzFRR0pqNnNXTl9VQk9xTnpFMkZhaWNMTkNtajhIeS1Bc0Q0M0VWWmFsNC04c2o?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94TjJYZU16blZqUGNKRHRDY2c1YlRGRFZSYW5fbXo3Ym5LNW0zSWdDeDA5UmdDYjFWMFA2OERRb2tyTEM5UkR3YnFOS3Brc25Ec1E",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 113,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 7,
+   "enriched": 7,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 11,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 20,
+   "in_window": 12,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 17.3
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 43,
+   "enriched": 13,
+   "error": "",
+   "sec": 3.4
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 24.9
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.6
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 25,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
