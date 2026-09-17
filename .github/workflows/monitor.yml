@@ -1,10 +1,15 @@
-name: NVIDIA daily monitoring
+name: Tech daily monitoring
 
 on:
   schedule:
     - cron: "17 21 * * *" # 매일 06:17 KST (정각은 GitHub 스케줄 지연이 잦아 홀수 분)
   workflow_dispatch:
     inputs:
+      subject:
+        description: "모니터링 주제"
+        type: choice
+        options: [all, nvidia, autoware]
+        default: all
       target_date:
         description: "기준 날짜 YYYY-MM-DD (비우면 오늘 KST)"
         default: ""
@@ -14,6 +19,10 @@ on:
       max_articles:
         description: "채점 대상 제한 (0=무제한)"
         default: "0"
+      crawl_only:
+        description: "소스 점검만: LLM·메일·커밋 없이 소스별 수집 현황표만 생성"
+        type: boolean
+        default: false
       dry_run:
         description: "메일·발송이력 저장 없이 결과물만 생성"
         type: boolean
@@ -27,7 +36,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: nvidia-monitoring
+  group: tech-monitoring
   cancel-in-progress: false
 
 env:
@@ -38,6 +47,14 @@ jobs:
   monitor:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    strategy:
+      # 한 주제가 실패해도 나머지는 계속. max-parallel 1 이라 archive/state 커밋이 순차로 일어나
+      # 같은 브랜치에 동시에 push 하는 일이 없다.
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        subject: ${{ inputs.subject == 'nvidia' && fromJSON('["nvidia"]') || inputs.subject == 'autoware' && fromJSON('["autoware"]') || fromJSON('["nvidia","autoware"]') }}
+    name: monitor (${{ matrix.subject }})
     steps:
       - uses: actions/checkout@v7
 
@@ -49,14 +66,40 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
+      - name: Filter regression test
+        run: python tests/test_filters.py
+
+      # ── 소스 점검 모드: LLM 을 전혀 쓰지 않는다 ──────────────────────────
+      - name: Crawl only
+        if: ${{ inputs.crawl_only == true }}
+        env:
+          TARGET_DATE: ${{ inputs.target_date }}
+          TARGET_DAYS: ${{ inputs.target_days || '2' }}
+          IGNORE_SEEN: "1"
+          CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
+        run: python -u src/run.py --subject ${{ matrix.subject }} --crawl-only
+
+      - name: Upload crawl report
+        if: ${{ inputs.crawl_only == true }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: crawl-${{ matrix.subject }}-${{ github.run_id }}
+          path: out/
+          retention-days: 14
+          if-no-files-found: ignore
+
+      # ── 정상 실행 ───────────────────────────────────────────────────────
       - uses: actions/setup-node@v7
+        if: ${{ inputs.crawl_only != true }}
         with:
           node-version: "22"
 
       - name: Install Claude Code
+        if: ${{ inputs.crawl_only != true }}
         run: npm install -g @anthropic-ai/claude-code@2.1.272
 
       - name: Auth preflight
+        if: ${{ inputs.crawl_only != true }}
         env:
           RAW_OAUTH: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           RAW_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -91,6 +134,7 @@ jobs:
           echo "Claude 인증 OK"
 
       - name: Run pipeline
+        if: ${{ inputs.crawl_only != true }}
         env:
           LLM_BACKEND: claude
           STAGE1_MODEL: haiku
@@ -102,39 +146,47 @@ jobs:
           IGNORE_SEEN: ${{ inputs.target_date != '' && '1' || '0' }}
           CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
           MAIL_MODE: file
-        run: python -u src/run.py
+        run: python -u src/run.py --subject ${{ matrix.subject }}
 
       - name: Upload outputs
-        if: always()
+        if: ${{ always() && inputs.crawl_only != true }}
         uses: actions/upload-artifact@v7
         with:
-          name: nvidia-monitoring-${{ github.run_id }}
+          name: monitoring-${{ matrix.subject }}-${{ github.run_id }}
           path: out/
           retention-days: 14
           if-no-files-found: ignore
 
       - name: Commit archive and state
-        if: ${{ inputs.dry_run != true && inputs.test_mail != true }}
+        if: ${{ inputs.crawl_only != true && inputs.dry_run != true && inputs.test_mail != true }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add archive state
           if git diff --cached --quiet; then
             echo "변경 없음"
-          else
-            git commit -m "monitor: $(date +%F)"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          git commit -m "monitor(${{ matrix.subject }}): $(date +%F)"
+          # 주제별 잡이 순차로 같은 브랜치에 push 한다. 앞선 잡의 커밋을 먼저 당겨온다.
+          for delay in 2 4 8 16 0; do
+            git pull --rebase && git push && exit 0
+            [ "$delay" = 0 ] && break
+            echo "push 실패 — ${delay}초 후 재시도"
+            sleep "$delay"
+          done
+          echo "::error::archive/state push 실패"
+          exit 1
 
       - name: Read meta
+        if: ${{ inputs.crawl_only != true }}
         id: meta
         env:
           PREFIX: ${{ inputs.test_mail == true && '[테스트] ' || '' }}
-        run: echo "subject=${PREFIX}$(jq -r .subject out/meta.json)" >> "$GITHUB_OUTPUT"
+        run: echo "subject=${PREFIX}$(jq -r .subject out/${{ matrix.subject }}/meta.json)" >> "$GITHUB_OUTPUT"
 
       - name: Send mail
-        if: ${{ inputs.dry_run != true }}
+        if: ${{ inputs.crawl_only != true && inputs.dry_run != true }}
         uses: dawidd6/action-send-mail@v22
         with:
           server_address: smtp.gmail.com
@@ -144,8 +196,8 @@ jobs:
           password: ${{ secrets.MAIL_APP_PASSWORD }}
           subject: ${{ steps.meta.outputs.subject }}
           to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
-          from: "NVIDIA Monitoring <${{ secrets.MAIL_USERNAME }}>"
-          html_body: file://out/email.html
+          from: "Tech Monitoring <${{ secrets.MAIL_USERNAME }}>"
+          html_body: file://out/${{ matrix.subject }}/email.html
 
       - name: Failure notice
         if: failure()
@@ -156,7 +208,7 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_APP_PASSWORD }}
-          subject: "[NVIDIA 모니터링] 실행 실패 — ${{ github.run_id }}"
+          subject: "[기술 모니터링] ${{ matrix.subject }} 실행 실패 — ${{ github.run_id }}"
           to: ${{ secrets.MAIL_TO != '' && secrets.MAIL_TO || secrets.MAIL_USERNAME }}
-          from: "NVIDIA Monitoring <${{ secrets.MAIL_USERNAME }}>"
-          body: "실행이 실패했습니다. 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          from: "Tech Monitoring <${{ secrets.MAIL_USERNAME }}>"
+          body: "${{ matrix.subject }} 실행이 실패했습니다. 로그: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

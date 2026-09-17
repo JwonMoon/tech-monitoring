@@ -9,7 +9,6 @@ import requests
 from bs4 import BeautifulSoup
 
 from . import config
-from .sources import SOURCES
 
 _sessions = {}
 
@@ -93,7 +92,7 @@ def _link(item):
 def make_article(src, title, link, dt, body, **extra):
     a = {
         "source": src.name, "source_group": src.name, "category": src.category, "kind": src.kind,
-        "weight": src.weight, "prefilter": src.prefilter, "auto_hint": src.auto_boost,
+        "weight": src.weight, "prefilter": src.prefilter, "focus_hint": src.focus_boost,
         "title": html_to_text(title), "link": (link or "").strip(),
         "date": dt.strftime("%Y-%m-%d %H:%M") if dt else "", "body": (body or "").strip(),
         "is_release": False, "release": None, "uid": normalize_url(link),
@@ -161,8 +160,8 @@ def crawl_sec(src):
         form = _text(e, "filing-type") or "8-K"
         acc = _text(e, "accession-number").strip()
         link = _text(e, "filing-href").strip() or _link(e)
-        title = f"NVIDIA SEC {form} 공시 — {desc}"
-        body = (f"NVIDIA가 SEC에 {form}({_text(e, 'form-name').strip()})를 제출했다. "
+        title = f"{config.SUBJECT.name} SEC {form} 공시 — {desc}"
+        body = (f"{config.SUBJECT.name}가 SEC에 {form}({_text(e, 'form-name').strip()})를 제출했다. "
                 f"제출일 {_text(e, 'filing-date').strip()}. 공시 항목: {desc}. 원문: {link}")
         out.append(make_article(src, title, link, dt, body, uid=f"sec:{acc}", is_release=True,
                                 release={"type": "SEC", "name": form, "version": ", ".join(codes)}))
@@ -189,7 +188,6 @@ def crawl_github(src):
     return len(entries), out
 
 
-HF_WATCH = re.compile(r"cosmos|alpamayo|gr00t|groot|isaac|drive|nemotron|parakeet|canary|llama-nemotron", re.I)
 HF_MAX = 15
 
 
@@ -200,7 +198,8 @@ def crawl_hf(src):
         mid = m.get("id") or m.get("modelId") or ""
         created, modified = parse_dt(m.get("createdAt")), parse_dt(m.get("lastModified"))
         is_new = in_window(created)
-        is_update = not is_new and in_window(modified) and bool(HF_WATCH.search(mid))
+        watch = config.SUBJECT.hf_watch
+        is_update = not is_new and in_window(modified) and bool(watch and watch.search(mid))
         if not (is_new or is_update) or m.get("private"):
             continue
         dt = created if is_new else modified
@@ -252,7 +251,7 @@ CRAWLERS = {"feed": crawl_feed, "gnews": crawl_gnews, "sec": crawl_sec, "github"
 
 def crawl_sources(sources=None):
     articles, stats = [], []
-    for src in (sources or SOURCES):
+    for src in (sources or config.SUBJECT.sources):
         if not src.enabled:
             continue
         t0 = time.time()

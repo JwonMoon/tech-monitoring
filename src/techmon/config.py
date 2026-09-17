@@ -1,13 +1,13 @@
-"""환경 변수와 공통 상수."""
+"""환경 변수와 공통 상수. 주제(SUBJECT)는 import 시점에 확정된다."""
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from . import subjects
+
 KST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parents[2]
 ARCHIVE_DIR = ROOT / "archive"
-STATE_PATH = ROOT / "state" / "seen.json"
-OUT_DIR = Path(os.environ.get("OUT_DIR") or (ROOT / "out"))
 
 
 def _int(name, default):
@@ -24,9 +24,15 @@ def _bool(name, default=False):
     return v in ("1", "true", "yes", "on")
 
 
+# ─── 모니터링 주제 ─────────────────────────────────────
+# run.py 가 --subject 를 환경 변수로 옮긴 뒤 이 모듈을 import 한다.
+SUBJECT = subjects.get(os.environ.get("SUBJECT"))
+STATE_PATH = ROOT / "state" / f"seen_{SUBJECT.slug}.json"
+OUT_DIR = Path(os.environ.get("OUT_DIR") or (ROOT / "out" / SUBJECT.key))
+
 # ─── 수집 기간 ─────────────────────────────────────────
 # 기본: 오늘(KST) 포함 최근 TARGET_DAYS일. 매일 06시대 실행 기준으로 "어제+오늘"을 보고
-# state/seen.json 으로 이미 보낸 항목을 걸러 누락·중복을 동시에 막는다.
+# state/seen_*.json 으로 이미 보낸 항목을 걸러 누락·중복을 동시에 막는다.
 NOW_KST = datetime.now(KST)
 TARGET_DAYS = max(1, _int("TARGET_DAYS", 2))
 _target = os.environ.get("TARGET_DATE", "").strip()
@@ -42,15 +48,16 @@ STAGE2_MODEL = os.environ.get("STAGE2_MODEL", "sonnet")
 LLM_EFFORT = os.environ.get("LLM_EFFORT", "").strip()
 
 # ─── 선별 기준 ─────────────────────────────────────────
-MAX_ARTICLES = _int("MAX_ARTICLES", 0)       # 테스트용 채점 대상 제한 (0=무제한)
-MAX_CARDS = _int("MAX_CARDS", 15)            # 일반 카드 최대 (Claude 구독 사용 한도 고려)
-MAX_AUTO_CARDS = _int("MAX_AUTO_CARDS", 10)  # 자동차·로봇 카드 최대 (일반과 별도)
+# 카드·헤드라인 상한은 주제마다 소스 규모가 달라 주제 기본값을 쓰고, 환경 변수로 덮어쓴다.
+MAX_ARTICLES = _int("MAX_ARTICLES", 0)                              # 테스트용 채점 대상 제한 (0=무제한)
+MAX_CARDS = _int("MAX_CARDS", SUBJECT.max_cards)                    # 일반 카드 최대
+MAX_FOCUS_CARDS = _int("MAX_FOCUS_CARDS", SUBJECT.max_focus_cards)  # 중점 분야 카드 최대 (일반과 별도)
 MAX_RELEASES = 25
 MIN_HEADLINES = _int("MIN_HEADLINES", 20)  # 메일 크기 가드가 카드보다 먼저 보장하는 헤드라인 수
-MAX_HEADLINES = _int("MAX_HEADLINES", 40)  # 일반 헤드라인 최대 (자동차·로봇 헤드라인은 별도로 전부 유지)
+MAX_HEADLINES = _int("MAX_HEADLINES", SUBJECT.max_headlines)  # 일반 헤드라인 최대 (중점 헤드라인은 별도로 전부 유지)
 STAGE1_BATCH_SIZE = 10
 MAJOR_SCORE = 5            # 일반 카드 기준
-AUTO_MAJOR_SCORE = 4       # 자동차·로봇 카드 기준 (가중)
+FOCUS_MAJOR_SCORE = 4      # 중점 분야 카드 기준 (가중)
 COMMUNITY_MAJOR_SCORE = 7  # 커뮤니티 카드 기준
 RELEASE_MAJOR_SCORE = 7    # 릴리스/공시 → 카드 승격 기준
 HEADLINE_SCORE = 2         # 헤드라인 최소 점수
@@ -72,8 +79,8 @@ BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.3
 USER_AGENTS = {
     "browser": BROWSER_UA,
     "simple": "Mozilla/5.0",
-    "bot": "nvidia-monitoring/1.0 (personal news digest)",
-    "sec": f"nvidia-monitoring {CONTACT_EMAIL}",
+    "bot": "tech-monitoring/1.0 (personal news digest)",
+    "sec": f"tech-monitoring {CONTACT_EMAIL}",
 }
 
 START_TS = datetime.now().timestamp()

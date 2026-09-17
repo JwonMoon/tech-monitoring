@@ -1,10 +1,10 @@
-"""일별 결과 보관 (archive/YYYY-MM-DD_nv.json / .md)."""
+"""일별 결과 보관 (archive/YYYY-MM-DD_<주제 slug>.json / .md)."""
 import json
 from datetime import datetime
 
 from . import config
 
-KEEP = ("source", "category", "kind", "title", "link", "date", "score", "is_auto", "is_release",
+KEEP = ("source", "category", "kind", "title", "link", "date", "score", "is_focus", "is_release",
         "release", "stage1", "summary_data", "related", "uid")
 
 
@@ -16,8 +16,9 @@ def _export(a):
 
 def save(day, result, stats):
     config.ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
-    stem = config.ARCHIVE_DIR / f"{day.isoformat()}_nv"
+    stem = config.ARCHIVE_DIR / f"{day.isoformat()}_{config.SUBJECT.slug}"
     data = {
+        "subject": config.SUBJECT.key,
         "date": day.isoformat(),
         "window": [d.isoformat() for d in sorted(config.TARGET_DATES)],
         "generated": datetime.now(config.KST).isoformat(timespec="seconds"),
@@ -33,8 +34,9 @@ def save(day, result, stats):
     def title(a):
         return (a.get("summary_data") or {}).get("korean_title") or (a.get("stage1") or {}).get("korean_title") or a["title"]
 
-    lines = ["---", f"date: {day}", "type: nvidia-monitoring", f"generated: {data['generated']}", "---", "",
-             f"# NVIDIA 모니터링 {day}", ""]
+    lines = ["---", f"date: {day}", f"type: {config.SUBJECT.key}-monitoring",
+             f"generated: {data['generated']}", "---", "",
+             f"# {config.SUBJECT.title} {day}", ""]
     if result["top3"]:
         lines += ["## 핵심 3줄", *[f"- {t}" for t in result["top3"]], ""]
     for label, items in (("카드", result["cards"]), ("헤드라인", result["headlines"]), ("릴리스·공시", result["releases"])):
@@ -42,8 +44,8 @@ def save(day, result, stats):
             continue
         lines += [f"## {label} ({len(items)})", ""]
         for a in items:
-            auto = " · 🚗자동차/로봇" if a.get("is_auto") else ""
-            lines.append(f"- [{title(a)}]({a['link']}) — {a['source']} · {a['score']}/10{auto}")
+            focus = f" · ⭐{config.SUBJECT.focus_short}" if a.get("is_focus") else ""
+            lines.append(f"- [{title(a)}]({a['link']}) — {a['source']} · {a['score']}/10{focus}")
             summary = (a.get("summary_data") or {}).get("korean_summary") or (a.get("stage1") or {}).get("korean_summary")
             if summary:
                 lines.append(f"  - {summary}")

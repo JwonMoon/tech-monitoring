@@ -4,30 +4,18 @@ import os
 import re
 
 from . import config
-from .pipeline import TOPIC_KEYS
 
-ACCENT = "#76B900"
-ACCENT_DARK = "#3D6B00"
-ACCENT_TINT = "#F1F8E6"
+S = config.SUBJECT
+ACCENT = S.accent
+ACCENT_DARK = S.accent_dark
+ACCENT_TINT = S.accent_tint
 INK = "#111827"
 MUTED = "#6B7280"
 FAINT = "#9CA3AF"
 LINE = "#E5E7EB"
 WEEKDAYS = "월화수목금토일"
 
-TOPIC_LABELS = {
-    "Automotive-Robotics": "자동차 · 로봇 (DRIVE · Isaac · Cosmos)",
-    "Business-Finance": "실적 · 재무 · M&A",
-    "Regulation-Policy": "규제 · 수출통제 · 정책",
-    "DataCenter-AI": "데이터센터 · AI 인프라",
-    "GPU-Product": "GPU · 하드웨어 제품",
-    "Software-SDK": "소프트웨어 · SDK",
-    "Research-Models": "연구 · 모델",
-    "Supply-Chain": "공급망 · 파운드리 · 메모리",
-    "Partnership": "파트너십 · 생태계",
-    "Community-Signal": "커뮤니티 신호",
-    "기타": "기타",
-}
+TOPIC_LABELS = {**S.topic_labels, "기타": "기타"}
 
 
 def esc(t):
@@ -103,13 +91,13 @@ def render_card(a):
         parts.append(label("주요 사실") + f'<ul style="margin:0;padding-left:18px;font-size:13px;line-height:20px;color:#374151">{lis}</ul>')
     if _ok(sd.get("why_matters")):
         parts.append(label("왜 중요한가") + para(sd["why_matters"]))
-    if _ok(sd.get("nvidia_angle")):
-        parts.append(label("NVIDIA 관점") + para(sd["nvidia_angle"]))
-    if a["is_auto"] and _ok(sd.get("auto_robotics_angle")):
+    if _ok(sd.get("subject_angle")):
+        parts.append(label(S.angle_label) + para(sd["subject_angle"]))
+    if a["is_focus"] and _ok(sd.get("focus_angle")):
         parts.append(
             f'<div style="margin:14px 0 0 0;padding:10px 14px;background:#ECFDF5;border:1px solid #A7F3D0;border-radius:8px;">'
-            f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">🚗 자동차·로봇 관점</p>'
-            f'{para(sd["auto_robotics_angle"], "#065F46")}</div>')
+            f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">{esc(S.focus_badge)}</p>'
+            f'{para(sd["focus_angle"], "#065F46")}</div>')
     names = [c.get("name") for c in (sd.get("companies") or [])[:4] if isinstance(c, dict)]
     names += [p.get("name") for p in (sd.get("products") or [])[:2] if isinstance(p, dict)]
     names = list(dict.fromkeys(n for n in names if _ok(n)))
@@ -171,7 +159,7 @@ def release_rows(items):
 
 
 def _bucket(items):
-    order = TOPIC_KEYS + ["기타"]
+    order = S.topic_keys + ["기타"]
     return [(k, [a for a in items if a["topic"] == k]) for k in order]
 
 
@@ -193,9 +181,10 @@ def subject(result):
     cards, heads, rels = result["cards"], result["headlines"], result["releases"]
     total = len(cards) + len(heads) + len(rels)
     if total == 0:
-        return f"[NVIDIA 모니터링] {day} · 신규 0건"
-    n_auto = sum(a["is_auto"] for a in cards + heads)
-    return f"[NVIDIA 모니터링] {day} · 자동차/로봇 {n_auto} · 주요 {len(cards)} · 추가 {len(heads)} · 릴리스 {len(rels)}"
+        return f"[{S.mail_tag}] {day} · 신규 0건"
+    n_focus = sum(a["is_focus"] for a in cards + heads)
+    return (f"[{S.mail_tag}] {day} · {S.focus_short} {n_focus} · 주요 {len(cards)} · "
+            f"추가 {len(heads)} · 릴리스 {len(rels)}")
 
 
 def build(result, stats):
@@ -204,15 +193,15 @@ def build(result, stats):
         a["_anchor"] = f"card{i}"
     window = sorted(config.TARGET_DATES)
     period = f"{window[0]} ~ {window[-1]}" if len(window) > 1 else str(window[0])
-    n_auto = sum(a["is_auto"] for a in cards + heads)
+    n_focus = sum(a["is_focus"] for a in cards + heads)
     total = len(cards) + len(heads) + len(rels)
     body = []
 
     body.append(
         f'<tr><td style="background-color:{ACCENT};border-radius:14px;padding:22px 26px;">'
-        f'<p style="margin:0 0 4px 0;font-size:12px;font-weight:700;letter-spacing:1px;color:#1A2E00;">NVIDIA MONITORING · DAILY</p>'
-        f'<h1 style="margin:0;font-size:22px;font-weight:800;color:#FFFFFF;">NVIDIA 사업·기술 동향</h1>'
-        f'<p style="margin:8px 0 0 0;font-size:12px;color:#F7FEE7;">{esc(period)} (KST) · 자동차·로봇 {n_auto} · '
+        f'<p style="margin:0 0 4px 0;font-size:12px;font-weight:700;letter-spacing:1px;color:#FFFFFF;opacity:0.85;">{esc(S.kicker)}</p>'
+        f'<h1 style="margin:0;font-size:22px;font-weight:800;color:#FFFFFF;">{esc(S.title)}</h1>'
+        f'<p style="margin:8px 0 0 0;font-size:12px;color:#FFFFFF;opacity:0.9;">{esc(period)} (KST) · {esc(S.focus_short)} {n_focus} · '
         f'주요 {len(cards)} · 추가 {len(heads)} · 릴리스·공시 {len(rels)}</p></td></tr>')
 
     if total == 0:
@@ -232,7 +221,7 @@ def build(result, stats):
 
         toc = []
         for key, items in _bucket(cards + heads):
-            if not items and key != "Automotive-Robotics":
+            if not items and key != S.focus_key:
                 continue
             toc.append(f'<p style="margin:10px 0 4px 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">'
                        f'{esc(TOPIC_LABELS[key])} <span style="color:{FAINT};font-weight:400;">{len(items)}건</span></p>')
@@ -245,11 +234,11 @@ def build(result, stats):
         body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
 
         for key, items in _bucket(cards + heads):
-            if not items and key != "Automotive-Robotics":
+            if not items and key != S.focus_key:
                 continue
             body.append(section_header(TOPIC_LABELS[key], f"{len(items)}건"))
             if not items:
-                body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">오늘 자동차·로봇 관련 신규 소식은 없습니다.</p>'))
+                body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">{esc(S.focus_empty)}</p>'))
                 continue
             for a in items:
                 if a in cards:
@@ -276,15 +265,15 @@ def build(result, stats):
                    f'/actions/runs/{os.environ["GITHUB_RUN_ID"]}')
     body.append(
         f'<tr><td style="padding:26px 2px 8px 2px;"><p style="margin:0;font-size:11px;line-height:18px;color:{FAINT};text-align:center;">'
-        f'NVIDIA 모니터링 · 1차 {esc(config.STAGE1_MODEL)} / 2차 {esc(config.STAGE2_MODEL)} · '
+        f'{esc(S.mail_tag)} · 1차 {esc(config.STAGE1_MODEL)} / 2차 {esc(config.STAGE2_MODEL)} · '
         f'소스 {len(stats)}개 중 수집 실패 {len(failed)}개{(": " + esc(", ".join(failed))) if failed else ""}<br>'
-        f'중요도 = LLM 채점(0~10) + 공식 출처 가중 + 자동차·로봇 가중(+1) · 이미 보낸 항목은 제외'
+        f'중요도 = LLM 채점(0~10) + 공식 출처 가중 + {esc(S.focus_short)} 가중(+1) · 이미 보낸 항목은 제외'
         + (f'<br><a href="{esc(run_url)}" style="color:{FAINT};">실행 로그</a>' if run_url else "")
         + '</p></td></tr>')
 
     return f'''<!DOCTYPE html>
 <html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NVIDIA 모니터링</title></head>
+<title>{esc(S.title)}</title></head>
 <body style="margin:0;padding:0;background-color:#F3F4F6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Helvetica,Arial,sans-serif;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F3F4F6;">
 <tr><td align="center" style="padding:20px 10px;">
@@ -298,14 +287,14 @@ def build_within_limit(result, stats):
     1) 일반 헤드라인을 MIN_HEADLINES건까지 저점부터 제거
     2) 저점 카드를 헤드라인으로 강등 (항목 자체는 유지)
     3) 그래도 크면 남은 일반 헤드라인 제거
-    자동차·로봇 헤드라인은 제거하지 않는다."""
+    중점 분야 헤드라인은 제거하지 않는다."""
     html = build(result, stats)
 
     def too_big():
         return len(html.encode("utf-8")) > config.MAX_EMAIL_BYTES
 
     def drop_headline(floor):
-        others = [h for h in result["headlines"] if not h["is_auto"]]
+        others = [h for h in result["headlines"] if not h["is_focus"]]
         if len(others) <= floor:
             return False
         result["headlines"].remove(min(others, key=lambda a: a["score"]))

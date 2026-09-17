@@ -7,7 +7,6 @@ from concurrent.futures import ThreadPoolExecutor
 from . import config, crawl, filters, prompts
 from .llm import STATUS as LLM_STATUS, call_llm, parse_json, parse_json_array
 
-TOPIC_KEYS = [t.strip() for t in prompts.TOPICS.split("|")]
 CATEGORY_RANK = {"official": 0, "filing": 1, "release": 2, "media": 3, "kr": 4, "community": 6}
 
 
@@ -61,10 +60,10 @@ def merge_duplicates(articles, key, threshold, same_topic=False):
             rep["related"].append({"source": o["source"], "title": o["title"], "link": o["link"]})
             rep["related"].extend(o.get("related") or [])
             rep["member_uids"].extend(o.get("member_uids") or [o["uid"]])
-            rep["auto_hint"] = rep["auto_hint"] or o["auto_hint"]
+            rep["focus_hint"] = rep["focus_hint"] or o["focus_hint"]
             if "stage1" in o and "stage1" in rep:
                 rep["stage1"]["score"] = max(rep["stage1"]["score"], o["stage1"]["score"])
-                rep["stage1"]["is_auto"] = rep["stage1"]["is_auto"] or o["stage1"]["is_auto"]
+                rep["stage1"]["is_focus"] = rep["stage1"]["is_focus"] or o["stage1"]["is_focus"]
         out.append(rep)
     return out
 
@@ -72,7 +71,7 @@ def merge_duplicates(articles, key, threshold, same_topic=False):
 def stage0(articles):
     kept, counts = [], {}
     for a in articles:
-        verdict, _reason = filters.pre_filter(a)
+        verdict, _reason = filters.pre_filter(a, config.SUBJECT.keywords)
         counts[a["source_group"]] = counts.get(a["source_group"], [0, 0])
         counts[a["source_group"]][0] += 1
         if verdict == "pass":
@@ -112,8 +111,7 @@ def stage1(articles):
 
 
 def _score_batch(no, batch, n_batches):
-    prompt = prompts.STAGE1.replace("__TOPICS__", prompts.TOPICS).replace(
-        "__ITEMS__", "\n\n".join(_stage1_item(i, a) for i, a in enumerate(batch)))
+    prompt = prompts.stage1(config.SUBJECT, "\n\n".join(_stage1_item(i, a) for i, a in enumerate(batch)))
     arr = None
     for attempt in range(2):
         arr = parse_json_array(call_llm(prompt, config.STAGE1_MODEL, timeout=300))
@@ -134,7 +132,7 @@ def _score_batch(no, batch, n_batches):
             "parsed": score is not None,
             "score": score if score is not None else _fallback_score(a),
             "article_type": (obj or {}).get("article_type") or "",
-            "is_auto": bool((obj or {}).get("is_auto")),
+            "is_focus": bool((obj or {}).get("is_focus")),
             "signal_tags": (obj or {}).get("signal_tags") or [],
             "korean_title": (obj or {}).get("korean_title") or "",
             "korean_summary": (obj or {}).get("korean_summary") or "",
@@ -143,24 +141,25 @@ def _score_batch(no, batch, n_batches):
 
 
 def _topic(a):
-    if a["is_auto"]:
-        return "Automotive-Robotics"
+    if a["is_focus"]:
+        return config.SUBJECT.focus_key
     at = (a["stage1"].get("article_type") or "").lower()
-    for k in TOPIC_KEYS:
+    for k in config.SUBJECT.topic_keys:
         if k.lower() in at or (at and at in k.lower()):
             return k
     return "Community-Signal" if a["category"] == "community" else "기타"
 
 
 def adjust(articles):
-    """소스 가중 + 자동차·로봇 가중. 자동차 제목 신호가 있으면 헤드라인 이하로 떨어지지 않음."""
+    """소스 가중 + 중점 분야 가중. 제목에 중점 신호가 있으면 헤드라인 이하로 떨어지지 않음."""
+    kw = config.SUBJECT.keywords
     for a in articles:
         s1 = a["stage1"]
         score = s1["score"] + (a["weight"] if s1["parsed"] else 0)
-        a["is_auto"] = s1["is_auto"] or filters.is_auto(a)
-        if a["is_auto"]:
+        a["is_focus"] = s1["is_focus"] or filters.is_focus(a, kw)
+        if a["is_focus"]:
             score += 1
-            if a["auto_hint"] or filters.AUTO_KW.search(a["title"]) or s1["is_auto"]:
+            if a["focus_hint"] or filters.focus_in_title(a, kw) or s1["is_focus"]:
                 score = max(score, config.HEADLINE_SCORE)
         a["score"] = max(0, min(10, score))
         a["topic"] = _topic(a)
@@ -177,24 +176,24 @@ def classify(articles):
                 releases.append(a)
             continue
         need = (config.COMMUNITY_MAJOR_SCORE if a["category"] == "community"
-                else config.AUTO_MAJOR_SCORE if a["is_auto"] else config.MAJOR_SCORE)
+                else config.FOCUS_MAJOR_SCORE if a["is_focus"] else config.MAJOR_SCORE)
         if s >= need:
             cards.append(a)
         elif s >= config.HEADLINE_SCORE:
             headlines.append(a)
-    auto = [c for c in cards if c["is_auto"]]
-    other = [c for c in cards if not c["is_auto"]]
-    kept = auto[:config.MAX_AUTO_CARDS] + other[:config.MAX_CARDS]
+    focus = [c for c in cards if c["is_focus"]]
+    other = [c for c in cards if not c["is_focus"]]
+    kept = focus[:config.MAX_FOCUS_CARDS] + other[:config.MAX_CARDS]
     demoted = [c for c in cards if c not in kept]
     headlines = sorted(demoted + headlines, key=lambda x: -x["score"])
     return sorted(kept, key=lambda x: -x["score"]), headlines, releases[:config.MAX_RELEASES]
 
 
 def cap_headlines(headlines):
-    """자동차·로봇 헤드라인은 전부 유지, 나머지는 점수순 MAX_HEADLINES건. 반환: (유지, 생략 건수)"""
-    auto = [h for h in headlines if h["is_auto"]]
-    other = [h for h in headlines if not h["is_auto"]]
-    kept = auto + other[:config.MAX_HEADLINES]
+    """중점 분야 헤드라인은 전부 유지, 나머지는 점수순 MAX_HEADLINES건. 반환: (유지, 생략 건수)"""
+    focus = [h for h in headlines if h["is_focus"]]
+    other = [h for h in headlines if not h["is_focus"]]
+    kept = focus + other[:config.MAX_HEADLINES]
     return sorted(kept, key=lambda x: -x["score"]), len(other) - len(other[:config.MAX_HEADLINES])
 
 
@@ -234,10 +233,7 @@ def _analyze(i, a, total):
         a["summary_data"], a["body_missing"] = None, True
         log(f"  [{i}] 본문 확보 실패 → 요약 카드 유지: {a['title'][:60]} | {reason}")
         return "card"
-    prompt = (prompts.STAGE2
-              .replace("__AUTO_RULE__", prompts.AUTO_RULE_ON if a["is_auto"] else prompts.AUTO_RULE_OFF)
-              .replace("__SOURCE__", a["source"]).replace("__TITLE__", a["title"])
-              .replace("__BODY__", a["body"][:5000]))
+    prompt = prompts.stage2(config.SUBJECT, a["source"], a["title"], a["body"][:5000], a["is_focus"])
     sd = None
     for _attempt in range(2):
         sd = parse_json(call_llm(prompt, config.STAGE2_MODEL, timeout=300))
@@ -267,8 +263,8 @@ def top3(cards):
         sd = a.get("summary_data") or {}
         title = sd.get("korean_title") or a["stage1"].get("korean_title") or a["title"]
         summary = sd.get("korean_summary") or a["stage1"].get("korean_summary") or ""
-        lines.append(f"- {'[AUTO] ' if a['is_auto'] else ''}{title} :: {summary}")
-    obj = parse_json(call_llm(prompts.TOP3.replace("__DIGEST__", "\n".join(lines)), config.STAGE2_MODEL, timeout=180))
+        lines.append(f"- {'[FOCUS] ' if a['is_focus'] else ''}{title} :: {summary}")
+    obj = parse_json(call_llm(prompts.top3(config.SUBJECT, "\n".join(lines)), config.STAGE2_MODEL, timeout=180))
     picked = [str(x).strip() for x in (obj or {}).get("top3", []) if str(x).strip()]
     if picked:
         return [re.sub(r"\s*::.*$", "", x) for x in picked[:3]]
@@ -294,7 +290,7 @@ def run(articles):
             log(f"  한국어 제목 2차 병합: {before} → {len(kept)}건")
             adjust(kept)
     cards, headlines, releases = classify(kept)
-    log(f"\n[분류] 카드 {len(cards)} (자동차·로봇 {sum(c['is_auto'] for c in cards)}) · "
+    log(f"\n[분류] 카드 {len(cards)} ({config.SUBJECT.focus_short} {sum(c['is_focus'] for c in cards)}) · "
         f"헤드라인 {len(headlines)} · 릴리스/공시 {len(releases)}")
     cards, headlines = stage2(cards, headlines)
     headlines, omitted = cap_headlines(headlines)

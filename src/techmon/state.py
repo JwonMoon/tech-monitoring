@@ -1,4 +1,4 @@
-"""발송 이력 (state/seen.json) — 같은 항목을 다음 날 다시 보내지 않기 위함."""
+"""발송 이력 (state/seen_<주제 slug>.json) — 같은 항목을 다음 날 다시 보내지 않기 위함."""
 import json
 from datetime import date, timedelta
 

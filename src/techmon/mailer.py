@@ -12,7 +12,7 @@ def send(subject, html):
         print("[!] MAIL_USERNAME / MAIL_APP_PASSWORD 미설정 — 발송 생략")
         return False
     msg = MIMEText(html, "html", "utf-8")
-    msg["Subject"], msg["From"], msg["To"] = subject, f"NVIDIA Monitoring <{user}>", to
+    msg["Subject"], msg["From"], msg["To"] = subject, f"Tech Monitoring <{user}>", to
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as s:
         s.login(user, password)
         s.sendmail(user, [x.strip() for x in to.split(",") if x.strip()], msg.as_string())
