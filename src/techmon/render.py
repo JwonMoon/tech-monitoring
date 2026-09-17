@@ -163,18 +163,6 @@ def _bucket(items):
     return [(k, [a for a in items if a["topic"] == k]) for k in order]
 
 
-def stats_table(stats):
-    rows = "".join(
-        f'<tr><td style="padding:3px 6px;font-size:12px;color:#374151;">{esc(s["source"])}</td>'
-        f'<td style="padding:3px 6px;font-size:12px;text-align:right;color:#374151;">{s["in_window"]}</td>'
-        f'<td style="padding:3px 6px;font-size:11px;color:#B91C1C;">{esc(s["error"][:60])}</td></tr>'
-        for s in stats)
-    return (f'<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%;">'
-            f'<tr><td style="padding:3px 6px;font-size:11px;color:{FAINT};">소스</td>'
-            f'<td style="padding:3px 6px;font-size:11px;color:{FAINT};text-align:right;">기간 내</td>'
-            f'<td style="padding:3px 6px;font-size:11px;color:{FAINT};">오류</td></tr>{rows}</table>')
-
-
 def subject(result):
     d = config.BASE_DATE
     day = f"{d.month}/{d.day}({WEEKDAYS[d.weekday()]})"
@@ -187,6 +175,46 @@ def subject(result):
             f"추가 {len(heads)} · 릴리스 {len(rels)}")
 
 
+def _page(body_html):
+    return f'''<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{esc(S.title)}</title></head>
+<body style="margin:0;padding:0;background-color:#F3F4F6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Helvetica,Arial,sans-serif;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F3F4F6;">
+<tr><td align="center" style="padding:20px 10px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:860px;color:{INK};">
+{body_html}
+</table></td></tr></table></body></html>'''
+
+
+def _run_url():
+    if not os.environ.get("GITHUB_RUN_ID"):
+        return ""
+    return (f'{os.environ.get("GITHUB_SERVER_URL", "https://github.com")}/{os.environ.get("GITHUB_REPOSITORY", "")}'
+            f'/actions/runs/{os.environ["GITHUB_RUN_ID"]}')
+
+
+def build_empty(stats, period):
+    """신규 0건인 날의 메일 — 한 줄만.
+
+    파이프라인 생존 확인 때문에 0건이어도 발송은 하되, 읽을 게 없는 날 스크롤할 거리를
+    만들지 않는다. 소스별 수집 현황표는 넣지 않고 수집 실패 개수만 남긴다.
+    """
+    failed = [s["source"] for s in stats if s["error"]]
+    url = _run_url()
+    foot = f'소스 {len(stats)}개 중 수집 실패 {len(failed)}개' + (f': {esc(", ".join(failed))}' if failed else '')
+    return _page(
+        f'<tr><td style="background-color:{ACCENT};border-radius:14px;padding:16px 22px;">'
+        f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;letter-spacing:1px;color:#FFFFFF;opacity:0.85;">{esc(S.kicker)}</p>'
+        f'<h1 style="margin:0;font-size:18px;font-weight:800;color:#FFFFFF;">{esc(S.title)}</h1></td></tr>'
+        f'<tr><td style="padding:18px 6px 4px 6px;">'
+        f'<p style="margin:0 0 4px 0;font-size:15px;font-weight:700;color:{INK};">새로 올라온 소식이 없습니다</p>'
+        f'<p style="margin:0;font-size:13px;line-height:20px;color:{MUTED};">{esc(period)} (KST) 기준 · 이미 보낸 항목은 제외했습니다.</p>'
+        f'</td></tr>'
+        f'<tr><td style="padding:14px 6px 4px 6px;"><p style="margin:0;font-size:11px;line-height:17px;color:{FAINT};">'
+        f'{foot}' + (f' · <a href="{esc(url)}" style="color:{FAINT};">실행 로그</a>' if url else '') + '</p></td></tr>')
+
+
 def build(result, stats):
     cards, heads, rels = result["cards"], result["headlines"], result["releases"]
     for i, a in enumerate(cards):
@@ -195,6 +223,8 @@ def build(result, stats):
     period = f"{window[0]} ~ {window[-1]}" if len(window) > 1 else str(window[0])
     n_focus = sum(a["is_focus"] for a in cards + heads)
     total = len(cards) + len(heads) + len(rels)
+    if total == 0:
+        return build_empty(stats, period)
     body = []
 
     body.append(
@@ -204,51 +234,45 @@ def build(result, stats):
         f'<p style="margin:8px 0 0 0;font-size:12px;color:#FFFFFF;opacity:0.9;">{esc(period)} (KST) · {esc(S.focus_short)} {n_focus} · '
         f'주요 {len(cards)} · 추가 {len(heads)} · 릴리스·공시 {len(rels)}</p></td></tr>')
 
-    if total == 0:
-        body.append(box(
-            f'<p style="margin:0 0 6px 0;font-size:15px;font-weight:700;color:{INK};">오늘은 신규 소식이 0건입니다</p>'
-            f'<p style="margin:0 0 12px 0;font-size:13px;line-height:21px;color:#374151;">파이프라인은 정상 실행됐습니다. '
-            f'이미 보낸 항목은 제외되며, 아래는 소스별 수집 현황입니다.</p>{stats_table(stats)}'))
-    else:
-        if result["top3"]:
-            rows = "".join(
-                f'<tr><td width="24" valign="top" style="padding:4px 0;"><span style="display:inline-block;width:20px;height:20px;'
-                f'line-height:20px;border-radius:10px;background-color:{ACCENT};color:#FFFFFF;font-size:12px;font-weight:700;'
-                f'text-align:center;">{i}</span></td><td style="padding:4px 0 4px 8px;font-size:14px;line-height:22px;color:#1F2937;">'
-                f'{md_bold(line)}</td></tr>' for i, line in enumerate(result["top3"], 1))
-            body.append(box(f'<p style="margin:0 0 8px 0;font-size:13px;font-weight:700;color:{ACCENT_DARK};">오늘의 핵심 3줄</p>'
-                            f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>'))
+    if result["top3"]:
+        rows = "".join(
+            f'<tr><td width="24" valign="top" style="padding:4px 0;"><span style="display:inline-block;width:20px;height:20px;'
+            f'line-height:20px;border-radius:10px;background-color:{ACCENT};color:#FFFFFF;font-size:12px;font-weight:700;'
+            f'text-align:center;">{i}</span></td><td style="padding:4px 0 4px 8px;font-size:14px;line-height:22px;color:#1F2937;">'
+            f'{md_bold(line)}</td></tr>' for i, line in enumerate(result["top3"], 1))
+        body.append(box(f'<p style="margin:0 0 8px 0;font-size:13px;font-weight:700;color:{ACCENT_DARK};">오늘의 핵심 3줄</p>'
+                        f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">{rows}</table>'))
 
-        toc = []
-        for key, items in _bucket(cards + heads):
-            if not items and key != S.focus_key:
-                continue
-            toc.append(f'<p style="margin:10px 0 4px 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">'
-                       f'{esc(TOPIC_LABELS[key])} <span style="color:{FAINT};font-weight:400;">{len(items)}건</span></p>')
-            for a in [x for x in items if x in cards]:
-                toc.append(f'<p style="margin:0 0 4px 0;font-size:13px;line-height:20px;">{importance_badge(a)}&nbsp; '
-                           f'<a href="#{a["_anchor"]}" style="color:{INK};text-decoration:none;font-weight:600;">{esc(title_of(a))}</a></p>')
-        if rels:
-            toc.append(f'<p style="margin:10px 0 0 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">릴리스 · 모델 · 공시 '
-                       f'<span style="color:{FAINT};font-weight:400;">{len(rels)}건</span></p>')
-        body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
+    toc = []
+    for key, items in _bucket(cards + heads):
+        if not items and key != S.focus_key:
+            continue
+        toc.append(f'<p style="margin:10px 0 4px 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">'
+                   f'{esc(TOPIC_LABELS[key])} <span style="color:{FAINT};font-weight:400;">{len(items)}건</span></p>')
+        for a in [x for x in items if x in cards]:
+            toc.append(f'<p style="margin:0 0 4px 0;font-size:13px;line-height:20px;">{importance_badge(a)}&nbsp; '
+                       f'<a href="#{a["_anchor"]}" style="color:{INK};text-decoration:none;font-weight:600;">{esc(title_of(a))}</a></p>')
+    if rels:
+        toc.append(f'<p style="margin:10px 0 0 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">릴리스 · 모델 · 공시 '
+                   f'<span style="color:{FAINT};font-weight:400;">{len(rels)}건</span></p>')
+    body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
 
-        for key, items in _bucket(cards + heads):
-            if not items and key != S.focus_key:
-                continue
-            body.append(section_header(TOPIC_LABELS[key], f"{len(items)}건"))
-            if not items:
-                body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">{esc(S.focus_empty)}</p>'))
-                continue
-            for a in items:
-                if a in cards:
-                    body.append(render_card(a))
-            minor = [a for a in items if a not in cards]
-            if minor:
-                body.append(headline_rows(minor))
-        if rels:
-            body.append(section_header("릴리스 · 모델 · 공시", f"{len(rels)}건 · GitHub / Hugging Face / SEC"))
-            body.append(release_rows(rels))
+    for key, items in _bucket(cards + heads):
+        if not items and key != S.focus_key:
+            continue
+        body.append(section_header(TOPIC_LABELS[key], f"{len(items)}건"))
+        if not items:
+            body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">{esc(S.focus_empty)}</p>'))
+            continue
+        for a in items:
+            if a in cards:
+                body.append(render_card(a))
+        minor = [a for a in items if a not in cards]
+        if minor:
+            body.append(headline_rows(minor))
+    if rels:
+        body.append(section_header("릴리스 · 모델 · 공시", f"{len(rels)}건 · GitHub / Hugging Face / SEC"))
+        body.append(release_rows(rels))
 
     failed = [s["source"] for s in stats if s["error"]]
     notices = []
@@ -256,13 +280,10 @@ def build(result, stats):
         notices.append("⚠️ LLM 사용 한도 초과로 일부 항목은 채점·심층 분석 없이 기본 점수로 표시됐습니다.")
     if result.get("omitted"):
         notices.append(f"점수가 낮은 헤드라인 {result['omitted']}건은 메일에서 생략하고 archive에만 기록했습니다.")
-    if notices and total:
+    if notices:
         body.append(box("".join(f'<p style="margin:0 0 4px 0;font-size:12px;line-height:19px;color:#92400E;">{esc(n)}</p>'
                                 for n in notices), bg="#FFFBEB", border="1px solid #FDE68A"))
-    run_url = ""
-    if os.environ.get("GITHUB_RUN_ID"):
-        run_url = (f'{os.environ.get("GITHUB_SERVER_URL", "https://github.com")}/{os.environ.get("GITHUB_REPOSITORY", "")}'
-                   f'/actions/runs/{os.environ["GITHUB_RUN_ID"]}')
+    run_url = _run_url()
     body.append(
         f'<tr><td style="padding:26px 2px 8px 2px;"><p style="margin:0;font-size:11px;line-height:18px;color:{FAINT};text-align:center;">'
         f'{esc(S.mail_tag)} · 1차 {esc(config.STAGE1_MODEL)} / 2차 {esc(config.STAGE2_MODEL)} · '
@@ -271,15 +292,7 @@ def build(result, stats):
         + (f'<br><a href="{esc(run_url)}" style="color:{FAINT};">실행 로그</a>' if run_url else "")
         + '</p></td></tr>')
 
-    return f'''<!DOCTYPE html>
-<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(S.title)}</title></head>
-<body style="margin:0;padding:0;background-color:#F3F4F6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Helvetica,Arial,sans-serif;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#F3F4F6;">
-<tr><td align="center" style="padding:20px 10px;">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:860px;color:{INK};">
-{"".join(body)}
-</table></td></tr></table></body></html>'''
+    return _page("".join(body))
 
 
 def build_within_limit(result, stats):

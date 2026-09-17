@@ -16,7 +16,7 @@
 | 실행 | GitHub Actions, 매일 06:17 KST (`.github/workflows/monitor.yml`) — 주제별로 순차 실행 |
 | 수집 대상 | 오늘 포함 최근 2일(KST) 발행분 중 아직 보내지 않은 항목 |
 | LLM | Claude Code 헤드리스 (`claude -p`) — 1차 채점 haiku, 2차 심층 sonnet |
-| 발송 | Gmail. 주제당 한 통. 신규 0건인 날도 "신규 0건" 알림 발송 |
+| 발송 | Gmail. 주제당 한 통. 신규 0건인 날도 발송하되 "소식 없음" 한 줄짜리 짧은 메일 |
 | 결과물 | 메일, `archive/YYYY-MM-DD_{nv,aw}.json/.md`, 발송 이력 `state/seen_{nv,aw}.json` |
 
 ## 파이프라인
@@ -68,6 +68,7 @@
 | 공식 | Autoware Foundation 블로그·뉴스, TIER IV MEDIA(Medium), TIER IV 보도자료(PR TIMES), YouTube Autoware Foundation 채널 |
 | 릴리스 | autowarefoundation 9개 (autoware, autoware_core, autoware_universe, autoware_launch, autoware_msgs, AWSIM, vision_pilot, auto_e2e, agnocast), tier4 6개 (scenario_simulator_v2, nebula, CalibrationTools, AWML, caret, awkernel), Hugging Face tier4 모델 |
 | 해외 매체 | The Robot Report, IEEE Spectrum Robotics, TechCrunch Transportation, Google News(Autoware / TIER IV / 사업 키워드) |
+| TIER IV 회사 | Google News 기업 질의 2종 — 일본어(資金調達·上場·決算·買収·提携·人事·子会社), 영어(funding·IPO·revenue·acquisition·hires) |
 | 일본 매체 | Google News 일본어판(ティアフォー·Autoware·レベル4), レスポンス |
 | 국내 매체 | Google News 한국어판, 디일렉, 전자신문 |
 | 커뮤니티 | ROS Discourse Autoware 카테고리, Hacker News, Reddit r/SelfDrivingCars |

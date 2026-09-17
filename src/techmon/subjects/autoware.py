@@ -60,6 +60,15 @@ SOURCES = [
     Source("Google News · Autoware 사업",
            gnews('Autoware OR "TIER IV" funding OR partnership OR "mass production" OR deployment OR robotaxi'),
            kind="gnews", fetch_full=False, focus_boost=True),
+    # ── TIER IV 회사 동향 ──
+    # 위 질의는 Autoware·자율주행 기술 문맥에 걸린 것만 잡는다. 자금조달·상장·결산·인사·자회사처럼
+    # 기술 키워드가 안 붙는 순수 기업 뉴스는 아래 두 질의로 따로 훑는다.
+    Source("Google News · TIER IV 기업 (JP)",
+           gnews("ティアフォー 資金調達 OR 上場 OR 決算 OR 買収 OR 提携 OR 人事 OR 子会社", lang="ja", gl="JP"),
+           kind="gnews", fetch_full=False, focus_boost=True),
+    Source("Google News · TIER IV corporate",
+           gnews('"TIER IV" Japan funding OR IPO OR revenue OR acquisition OR partnership OR hires OR "North America"'),
+           kind="gnews", fetch_full=False, focus_boost=True),
 
     # ── 일본 매체 (TIER IV 본사·주요 실증 지역) ──
     Source("Google News · ティアフォー (JP)", gnews("ティアフォー OR Autoware OR 自動運転レベル4", lang="ja", gl="JP"),
@@ -102,23 +111,29 @@ KEYWORDS = Keywords(
         r'purchase order|\brevenue\b|\bearnings\b|mass production|start of production|\bSOP\b|'
         r'commercial (?:service|launch|deployment|operation)|pilot (?:program|service)|\bdeployment\b|'
         r'\bsubsidy\b|certification|regulatory approval|operating permit|'
+        # TIER IV 기업 동향 — 기술 키워드가 안 붙는 순수 회사 뉴스 (결산·인사·조직)
         r'資金調達|上場|出資|提携|協業|共同開発|量産|実証(?:実験)?|商用化|受注|認可|許可|補助金|'
-        r'투자|유치|상장|제휴|협력|공동 ?개발|양산|실증|상용화|수주|인가|허가|보조금',
+        r'決算|買収|増資|子会社|役員|新社長|就任|採用強化|'
+        r'투자|유치|상장|제휴|협력|공동 ?개발|양산|실증|상용화|수주|인가|허가|보조금|'
+        r'결산|인수|증자|자회사|대표이사|선임',
         re.IGNORECASE),
     # 특정 신호: 사업화·배치 단계를 가리키는 구체 표현 — 본문에 있어도 판정
     focus_specific=re.compile(
         r'robotaxi|로보택시|ロボタクシー|robo-?bus|自動運転バス|자율주행 ?버스|'
         r'\bLevel ?4\b|レベル4|레벨 ?4|\bODD\b|remote (?:monitoring|operation)|遠隔監視|'
         r'mass production|start of production|\bSOP\b|commercial (?:service|launch|deployment)|'
-        r'資金調達|上場|実証実験|商用運行|量産|양산|상용 ?운행|실증 ?사업|'
+        r'資金調達|上場|実証実験|商用運行|量産|양산|상용 ?운행|실증 ?사업|買収|決算|'
         r'Series [A-F] (?:round|funding)|\bIPO\b',
         re.IGNORECASE),
     # 일반 신호: 제목에 있을 때만 판정 (본문 한 단어 오탐 방지)
     focus_generic=re.compile(
         r'partnership|partners? with|\binvest(?:ments?|s|ed|ing)?\b|\bfunding\b|acqui(?:re|red|sition)|'
         r'\bdeployment\b|launch(?:es|ed)?|\bcontract(?:s)?\b|\bcustomers?\b|joint venture|'
-        r'提携|協業|導入|開始|受注|出資|'
-        r'제휴|협력|도입|공급|수주|출시|투자|계약',
+        # 기업 동향 — 자회사·임원 인사도 TIER IV 회사 소식이라 중점 섹션으로 올린다.
+        # 이 정규식은 제목에만, 그것도 이미 주제 신호가 잡힌 기사에만 적용돼 오탐 여지가 좁다.
+        r'subsidiar(?:y|ies)|\bhires\b|appoints?|'
+        r'提携|協業|導入|開始|受注|出資|子会社|新社長|就任|役員|人事|'
+        r'제휴|협력|도입|공급|수주|출시|투자|계약|자회사|대표이사|선임',
         re.IGNORECASE),
     exclude_title=re.compile(
         r'we.?re hiring|now hiring|job opening|採用情報|求人|인턴 ?모집|채용 ?공고|'

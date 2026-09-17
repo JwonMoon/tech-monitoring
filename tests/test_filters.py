@@ -38,6 +38,11 @@ CASES = {
     ("Random robotics roundup", "One line mentions Autoware in passing.", "skip", False),
     ("How to deploy Autoware on a laptop", "Step by step tutorial.", "pass", False),
     ("Autoware Foundation welcomes 8 new members", "The Autoware Foundation announced new premium members.", "pass", False),
+    # TIER IV 회사 동향 — Autoware·자율주행 키워드가 안 붙는 순수 기업 뉴스도 잡혀야 한다
+    ("ティアフォーが決算を発表", "株式会社ティアフォーの通期決算。", "pass", True),
+    ("ティアフォー、新社長が就任", "ティアフォーの役員人事を発表した。", "pass", True),
+    ("TIER IV opens North America subsidiary", "TIER IV, Inc. announced a new subsidiary and hires.", "pass", True),
+    ("티어포, 국내 기업과 제휴", "티어포가 협력을 발표했다.", "pass", True),
 ]}
 
 fails = 0
