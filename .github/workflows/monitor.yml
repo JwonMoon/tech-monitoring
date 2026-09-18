@@ -66,8 +66,10 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Filter regression test
-        run: python tests/test_filters.py
+      - name: Regression tests
+        run: |
+          python tests/test_filters.py
+          python tests/test_focus.py
 
       # ── 소스 점검 모드: LLM 을 전혀 쓰지 않는다 ──────────────────────────
       - name: Crawl only

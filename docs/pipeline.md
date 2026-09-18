@@ -46,6 +46,18 @@ argparse로 받아 환경 변수에 넣은 뒤 패키지를 import 한다.
 `article_type=Perception-AI` 로 분류되는 순간 자동으로 중점이 된다. 즉 중점을 늘릴 때
 키워드를 따라 늘리지 않아도 된다.
 
+다만 **토픽만 믿으면 안 된다**. LLM 이 토픽을 다르게 고르는 순간 중점 가중이 통째로
+빠지기 때문이다 (제목에 DRIVE Thor 가 있는데 `DataCenter-AI` 로 분류되는 식 — 실제로
+2026-09-18 리팩터 직후 NVIDIA 중점 수가 떨어져 발견했다). 그래서 최종 판정은:
+
+```
+is_focus = 토픽이 focus_keys 에 듦  OR  LLM 의 is_focus 플래그  OR  filters.focus_strong
+```
+
+`focus_strong` 은 전용 피드(`focus_boost`)와 `focus_specific`(주제 고유 표현)만 본다.
+`focus_generic` 은 일반어라 넣지 않는다 — 넣으면 거의 전부가 중점이 된다.
+이 계약은 `tests/test_focus.py` 가 주제 3개 전부에 대해 고정한다.
+
 ### 현재 주제
 
 | 주제 | 중점 분야 | 근거 |

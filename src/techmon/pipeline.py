@@ -158,8 +158,11 @@ def _topic(a):
 def adjust(articles):
     """소스 가중 + 중점 분야 가중. 제목에 중점 신호가 있으면 헤드라인 이하로 떨어지지 않음.
 
-    중점 판정은 '토픽이 중점 토픽인가'로 정한다. 키워드·전용 피드·LLM 플래그는
-    토픽 매핑이 실패했을 때의 보정 신호(focus_signal)로만 쓴다.
+    중점 판정은 기본적으로 '토픽이 중점 토픽인가'로 정한다. 다만 토픽만 믿으면 LLM 이
+    토픽을 다르게 고른 순간 중점 가중이 통째로 빠진다 (제목에 DRIVE Thor 가 있는데
+    DataCenter-AI 로 분류되는 식). 그래서 LLM 이 직접 세운 is_focus 플래그와, 오해 여지가
+    적은 주제 고유 신호(focus_strong)는 토픽과 무관하게 중점으로 끌어올린다.
+    focus_generic 같은 일반어는 여기 쓰지 않는다 — 그러면 거의 전부가 중점이 된다.
     """
     kw = config.SUBJECT.keywords
     focus_keys = set(config.SUBJECT.focus_keys)
@@ -168,7 +171,8 @@ def adjust(articles):
         score = s1["score"] + (a["weight"] if s1["parsed"] else 0)
         a["focus_signal"] = s1["is_focus"] or filters.is_focus(a, kw)
         a["topic"] = _topic(a)
-        a["is_focus"] = a["topic"] in focus_keys
+        a["is_focus"] = (a["topic"] in focus_keys or s1["is_focus"]
+                         or filters.focus_strong(a, kw))
         if a["is_focus"]:
             score += 1
             if a["focus_hint"] or filters.focus_in_title(a, kw) or s1["is_focus"]:
