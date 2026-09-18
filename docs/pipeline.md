@@ -173,6 +173,11 @@ Autoware·TIER IV 는 공식 소스가 며칠에 한 번 올라와 2일 창이�
 | 2026-09-15 | SEC EDGAR | 연락처 없는 UA는 403 | `CONTACT_EMAIL` 필수, 워크플로우는 `MAIL_USERNAME` 사용 |
 | 2026-09-15 | hnrss `points` 파라미터 | 502 | 파라미터 없이 사용 |
 | 2026-09-15 | investor.nvidia.com RSS, HPCwire, VideoCardz | 403 | 제외 |
+| 2026-09-18 | **Wayve 소스 21개 도입 실측** | `crawl_only` — 수집 151건 / 사전필터 **25건** 통과, 49초. Autoware 와 달리 볼륨이 넉넉하다 | 사용 |
+| 2026-09-18 | `wayve.ai/feed/`, `/press/feed/` | 전체 Chrome UA 로 403 → 짧은 UA(`simple`)로는 200 이지만 **엔트리 0건**. WordPress 라는 추정이 틀렸고 RSS 자체가 없다 | **비활성**. 보도자료는 Google News 사업 질의가 커버(7건 전부 통과) |
+| 2026-09-18 | Google News · Wayve 4종 | 일반 9/7통과, 사업 7/7통과, 연구 4/3통과, 영국판 7/6통과 — 사업·연구 질의가 의도대로 갈라진다 | 사용 |
+| 2026-09-18 | arXiv API (`all:Wayve`) | 1건 파싱 성공(기간 밖). Atom 이라 feed kind 로 그대로 처리됨 | 사용 |
+| 2026-09-18 | wayveai GitHub 릴리스 | fiery·mile 만 1건씩, 나머지는 0건. 논문 코드라 태깅이 드물다 | 유지 (요청 1건씩이라 비용 미미) |
 | 2026-09-17 | **NVIDIA 소스 36개 회귀 확인** | `crawl_only` 실측 — 수집 410건 / 통과 185건, 2.5분. 발송 이력 312건 로드 확인 (seen.json → seen_nv.json 이름 변경 무손실) | 이상 없음 |
 | 2026-09-17 | YouTube 피드 (NVIDIA·Autoware 양쪽) | **간헐적 404**. 같은 날 Autoware 채널이 한 실행에선 15건, 다른 실행에선 404. 채널 ID 문제가 아니라 YouTube 가 Actions IP 를 간헐적으로 막는 것으로 보인다 | 양쪽 유지 + note. 한 소스 실패는 나머지에 영향 없음 |
 | 2026-09-17 | Autoware 7일 창 실측 | 수집 253건 → 사전필터 **2건** (2일 창은 1건). 공식 소스는 7일로 넓혀도 0건 — PR TIMES 최신 릴리스가 2026-05, autoware_universe 최신 태그가 2026-07 | 주제 자체가 저빈도. 창 확대만으로는 크게 늘지 않는다 |

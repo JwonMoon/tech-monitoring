@@ -32,12 +32,14 @@ GITHUB_REPOS = [
 
 SOURCES = [
     # ── 공식 (1차 출처) ──
-    # wayve.ai 가 /press/category/press-release/ 형태의 WordPress 퍼머링크를 쓴다.
-    # 둘 중 사는 쪽을 crawl_only 로 확인하고 죽은 쪽은 비활성한다.
+    # wayve.ai 는 RSS 를 제공하지 않는다. /press/category/press-release/ 퍼머링크를 보고
+    # WordPress 라 추정했지만 틀렸다. 보도자료는 아래 Google News 사업 질의가 잡는다
+    # (2026-09-18 실측 7건 전부 사전필터 통과).
     Source("Wayve", "https://wayve.ai/feed/", category="official", weight=1, prefilter=False, ua="simple",
-           note="2026-09-18 전체 Chrome UA 로 403. 한국경제 IT 와 같은 증상이라 짧은 UA 로 재시도 중"),
+           enabled=False,
+           note="2026-09-18 전체 Chrome UA 로 403 → 짧은 UA 로는 200 이지만 엔트리 0건. RSS 가 아니다"),
     Source("Wayve · Press", "https://wayve.ai/press/feed/", category="official", weight=1, prefilter=False, ua="simple",
-           note="2026-09-18 전체 Chrome UA 로 403. 짧은 UA 로 재시도 중"),
+           enabled=False, note="2026-09-18 위와 동일 — 200 이지만 엔트리 0건"),
 
     # ── 릴리스 · 연구 ──
     *github_releases(GITHUB_REPOS),
