@@ -1,13 +1,18 @@
 """Autoware · TIER IV 사업·기술 동향.
 
-중점 분야는 '사업 · 서비스 배치'. Autoware는 전부가 자율주행이라 NVIDIA처럼 기술 분야로
-가중할 게 없다. 대신 놓치기 쉬운 쪽 — 투자·제휴·수주·양산(SOP)·실증·상용 서비스 개시·
-인허가 — 을 중점으로 잡아 첫 섹션에 고정하고 가중한다.
+중점 분야가 셋이다.
+- 사업 · 서비스 배치: 투자·제휴·수주·양산(SOP)·실증·상용 서비스 개시·인허가.
+  기술 기사에 묻혀 놓치기 쉬운 쪽이라 앞세운다.
+- 인지 · AI 모델: E2E 주행 모델·인식·예측·데이터셋 (auto_e2e, vision_pilot, AWML).
+- 아키텍처 · 코어: Core/Universe 구조와 실시간·성능 기반 (agnocast, awkernel, CARET).
+
+뒤의 둘은 Autoware가 오픈소스 스택으로서 갖는 기술적 알맹이라 사업 소식과 같은 비중으로
+앞에 놓는다.
 """
 import re
 
 from ..sources import Source, github_releases, gnews
-from .base import Keywords, Prompt, Subject
+from .base import Focus, Keywords, Prompt, Subject
 
 # Autoware Foundation 본체 + 참조 구현. 릴리스 Atom 은 태그가 없으면 0건으로 조용히 넘어간다.
 AWF_REPOS = [
@@ -156,8 +161,10 @@ PROMPT = Prompt(
 - [릴리스] GitHub: autoware / autoware_core / autoware_universe 의 마이너 이상 버전은 6점 이상, 패치·의존성 범프·자동 생성 릴리스는 2~4점
 - [릴리스] 주변 저장소(AWSIM, scenario_simulator_v2, nebula, AWML 등)는 새 기능·센서 지원 추가일 때만 5점 이상
 - [커뮤니티] ROS Discourse: AWF 공식 공지·릴리스 노트·워킹그룹 회의록은 5~7점, 개별 질문·트러블슈팅은 1~2점""",
-    focus_rule=("[사업·서비스 배치] 투자·상장·M&A, 제휴·수주·공동개발, 양산(SOP)·상용 서비스 개시, 실증 사업, "
-                "인허가·보조금, 신규 고객·지역 확대와 관련되면 is_focus=true, article_type=\"Business-Deployment\"."),
+    focus_rule=("[중점 분야] 아래 셋 중 하나에 해당하면 is_focus=true 로 두고 article_type 도 그 토픽으로 고른다.\n"
+                "- Business-Deployment: 투자·상장·M&A, 제휴·수주·공동개발, 양산(SOP)·상용 서비스 개시, 실증 사업, 인허가·보조금, 신규 고객·지역 확대\n"
+                "- Perception-AI: 인지·인식·예측, End-to-End 주행 모델, 데이터셋·학습 파이프라인\n"
+                "- Architecture-Core: Core/Universe 아키텍처 변경, 미들웨어·실시간성·성능 (agnocast, awkernel, CARET)"),
     topic_defs="""\
 - Business-Deployment: 투자·상장·제휴·수주·양산·상용 서비스·실증·인허가
 - Foundation-Governance: Autoware Foundation 멤버십·거버넌스·총회·행사(ROSCon, AWF GA)
@@ -173,10 +180,11 @@ PROMPT = Prompt(
                  "certification, release, architecture, perception, planning, simulation, safety, hardware, "
                  "foundation, community"),
     angle_desc="Autoware 생태계와 TIER IV의 사업 포지션·전략에 주는 의미 1~2문장",
-    focus_angle_on=("이 항목은 사업·서비스 배치 관련이다. focus_angle에 상용화 단계(실증 → 양산 → 서비스), "
-                    "고객·지역 범위, 경쟁 구도 관점의 의미를 1~2문장으로 반드시 채운다."),
-    focus_angle_off="사업·서비스 배치와 직접 관련이 없으면 focus_angle은 빈 문자열로 둔다.",
-    top3_rule="사업·서비스 배치 항목(표시: [FOCUS])이 있으면 최소 1줄은 그중에서 고른다",
+    focus_angle_on=("이 항목은 중점 분야(사업·서비스 배치 / 인지·AI 모델 / 아키텍처·코어) 중 하나다. "
+                    "사업이면 상용화 단계(실증 → 양산 → 서비스)와 고객·지역 범위를, 기술이면 기존 스택 대비 "
+                    "무엇이 달라지고 채택에 어떤 영향을 주는지를 focus_angle에 1~2문장으로 반드시 채운다."),
+    focus_angle_off="위 세 중점 분야와 직접 관련이 없으면 focus_angle은 빈 문자열로 둔다.",
+    top3_rule="중점 분야 항목(표시: [FOCUS])이 있으면 최소 1줄은 그중에서 고르고, 사업과 기술이 모두 있으면 한쪽에 몰지 않는다",
 )
 
 SUBJECT = Subject(
@@ -189,10 +197,12 @@ SUBJECT = Subject(
     accent="#0E7490",
     accent_dark="#155E75",
     accent_tint="#ECFEFF",
-    focus_key="Business-Deployment",
-    focus_short="사업/배치",
-    focus_badge="📈 사업 · 서비스 배치 관점",
-    focus_empty="오늘 사업·서비스 배치 관련 신규 소식은 없습니다.",
+    focus=(
+        Focus("Business-Deployment", "사업·서비스 배치", "📈"),
+        Focus("Perception-AI", "인지·AI 모델", "🧠"),
+        Focus("Architecture-Core", "아키텍처·코어", "⚙️"),
+    ),
+    focus_short="사업/기술",
     angle_label="Autoware · TIER IV 관점",
     topics=(
         ("Business-Deployment", "사업 · 서비스 배치 (투자 · 제휴 · 양산 · 실증)"),

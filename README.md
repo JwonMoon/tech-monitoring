@@ -5,8 +5,12 @@
 
 | 주제 | `--subject` | 메일 제목 | 중점 분야 (첫 섹션 고정 + 가중) |
 |---|---|---|---|
-| NVIDIA | `nvidia` | `[NVIDIA 모니터링]` | 자동차 · 로봇 (DRIVE · Isaac · Cosmos) |
-| Autoware · TIER IV | `autoware` | `[Autoware 모니터링]` | 사업 · 서비스 배치 (투자 · 제휴 · 양산 · 실증) |
+| NVIDIA | `nvidia` | `[NVIDIA 모니터링]` | 🚗 자동차 · 로봇 |
+| Autoware · TIER IV | `autoware` | `[Autoware 모니터링]` | 📈 사업 · 서비스 배치 · 🧠 인지 · AI 모델 · ⚙️ 아키텍처 · 코어 |
+| Wayve | `wayve` | `[Wayve 모니터링]` | 📈 사업 · 상용화 · 🧠 연구 · 기술 |
+
+중점 분야는 주제마다 **여러 개**를 둘 수 있습니다. 중점이라는 건 세 가지를 뜻합니다 —
+메일에서 항상 맨 위 섹션(0건이어도 자리 유지), 점수 +1, 카드 승격 기준 완화(5점 → 4점).
 
 > 이전 이름: `nvidia-blog-digest` → `nvidia-monitoring` → `tech-monitoring`.
 > 2026-09-15 NVIDIA 모니터링으로 전면 재설계, 2026-09-17 다주제로 확장. 옛 코드는 `legacy/`.
@@ -17,7 +21,7 @@
 | 수집 대상 | 오늘 포함 최근 2일(KST) 발행분 중 아직 보내지 않은 항목 |
 | LLM | Claude Code 헤드리스 (`claude -p`) — 1차 채점 haiku, 2차 심층 sonnet |
 | 발송 | Gmail. 주제당 한 통. 신규 0건인 날도 발송하되 "소식 없음" 한 줄짜리 짧은 메일 |
-| 결과물 | 메일, `archive/YYYY-MM-DD_{nv,aw}.json/.md`, 발송 이력 `state/seen_{nv,aw}.json` |
+| 결과물 | 메일, `archive/YYYY-MM-DD_{nv,aw,wv}.json/.md`, 발송 이력 `state/seen_{nv,aw,wv}.json` |
 
 ## 파이프라인
 
@@ -29,6 +33,7 @@
 [Stage 0] 정규식 사전필터 — 공식·공시·릴리스는 통과, 매체는 주제 신호 필요, 딜·홍보성 제외
    → 제목 유사도 병합 (같은 소식 → 대표 1건 + "관련 보도")
 [Stage 1] haiku 배치 채점 (10건씩, 동시 3배치) — 0~10점, 토픽, 중점 분야 여부, 한국어 제목·요약
+   → 중점 판정: LLM 이 고른 토픽이 그 주제의 중점 토픽 집합에 들면 중점
    → 가중: 공식/공시 +1, 커뮤니티 -1, 중점 분야 +1
    → 한국어 제목 2차 병합
 [분류] 카드(일반 5점+, 중점 4점+, 커뮤니티 7점+) / 헤드라인(2점+) / 릴리스·공시 보드
@@ -60,6 +65,22 @@
 
 비활성: NVIDIA Research RSS(2021년 글만 남은 피드), Technical Blog AV·DRIVE 카테고리 피드(빈 피드).
 차단으로 제외: investor.nvidia.com RSS, HPCwire, VideoCardz, ZDNet Korea.
+
+### Wayve (`src/techmon/subjects/wayve.py`)
+
+| 분류 | 소스 |
+|---|---|
+| 공식 | `wayve.ai/feed/`, `wayve.ai/press/feed/` |
+| 릴리스 · 연구 | GitHub `wayveai` 5개 (fiery, Driving-with-LLMs, mile, LingoQA, wayve_scenes), arXiv API(`all:Wayve`) |
+| 해외 매체 | TechCrunch Transportation, The Robot Report, IEEE Spectrum Robotics, The Verge |
+| Google News | `Wayve` 일반 / 사업(funding·Nissan·Uber·robotaxi) / 연구(GAIA·LINGO·world model) / 영국판 |
+| 국내 매체 | Google News 한국판(`Wayve 자율주행`), 디일렉, 전자신문 |
+| 커뮤니티 | Hacker News, Reddit r/SelfDrivingCars |
+
+**이름 충돌 주의**: `WayV`(K-pop), `wavve`/`웨이브`(국내 OTT), `wave`(일반어)와 헷갈리기 쉽지만
+철자 `Wayve` 가 셋 다와 달라 `strong` 정규식이 그대로 방어벽입니다 — Google News 가 유사어를
+섞어 줘도 Stage 0 에서 떨어집니다. 그래서 TIER IV 와 달리 `ambiguous` 가드는 쓰지 않고,
+한국어 `웨이브` 는 OTT 와 충돌이 커서 키워드에 넣지 않습니다. 회귀는 `tests/test_filters.py`.
 
 ### Autoware · TIER IV (`src/techmon/subjects/autoware.py`)
 
@@ -119,7 +140,7 @@ Actions 탭 → `Tech daily monitoring` → Run workflow.
 
 | 입력 | 설명 |
 |---|---|
-| `subject` | `all`(기본) / `nvidia` / `autoware` |
+| `subject` | `all`(기본) / `nvidia` / `autoware` / `wayve` |
 | `target_date` | 기준 날짜 `YYYY-MM-DD`. 지정하면 발송 이력을 무시하고 그 날짜 기준으로 재수집 |
 | `target_days` | 기준 날짜 포함 최근 N일 (기본 2) |
 | `max_articles` | 채점 대상 제한 (테스트용, 0=무제한) |
@@ -157,13 +178,13 @@ TARGET_DATE=2026-09-14 IGNORE_SEEN=1 .venv/bin/python src/run.py
 
 | 변수 | 기본값 | 설명 |
 |---|---|---|
-| `SUBJECT` | nvidia | 모니터링 주제. `--subject`가 우선 |
+| `SUBJECT` | nvidia | 모니터링 주제 (`nvidia`/`autoware`/`wayve`). `--subject`가 우선 |
 | `TARGET_DATE` / `TARGET_DAYS` | 오늘 / 2 | 수집 기간 (KST) |
 | `STAGE1_MODEL` / `STAGE2_MODEL` | haiku / sonnet | 채점 / 심층 모델 |
 | `STAGE1_WORKERS` / `STAGE2_WORKERS` | 3 / 4 | claude 동시 실행 수 |
 | `MAX_ARTICLES` | 0 | 채점 대상 제한 |
-| `MAX_CARDS` / `MAX_FOCUS_CARDS` | 주제별 (NVIDIA 15/10, Autoware 10/8) | 일반 / 중점 분야 카드 최대 |
-| `MAX_HEADLINES` | 주제별 (NVIDIA 40, Autoware 30) | 일반 헤드라인 최대 (중점 분야 헤드라인은 전부 유지) |
+| `MAX_CARDS` / `MAX_FOCUS_CARDS` | 주제별 (NVIDIA·Wayve 15/10, Autoware 10/8) | 일반 / 중점 분야 카드 최대 |
+| `MAX_HEADLINES` | 주제별 (NVIDIA·Wayve 40, Autoware 30) | 일반 헤드라인 최대 (중점 분야 헤드라인은 전부 유지) |
 | `MIN_HEADLINES` | 20 | 메일 크기 초과 시 카드 강등보다 먼저 보장하는 헤드라인 수 |
 | `SOFT_DEADLINE_MIN` | 45 | 초과 시 남은 카드는 헤드라인으로 강등 |
 | `WRITE_STATE` | 0 (CI는 1) | 발송 이력 저장 여부 |
@@ -196,10 +217,11 @@ tech-monitoring/
 │   └── techmon/
 │       ├── config.py               # 환경 변수·임계값 (주제를 import 시점에 확정)
 │       ├── subjects/
-│       │   ├── base.py             # Subject / Keywords / Prompt 정의
+│       │   ├── base.py             # Subject / Focus / Keywords / Prompt 정의
 │       │   ├── __init__.py         # 주제 레지스트리
 │       │   ├── nvidia.py           # NVIDIA 소스·키워드·프롬프트
-│       │   └── autoware.py         # Autoware · TIER IV 소스·키워드·프롬프트
+│       │   ├── autoware.py         # Autoware · TIER IV 소스·키워드·프롬프트
+│       │   └── wayve.py            # Wayve 소스·키워드·프롬프트
 │       ├── sources.py              # Source 레코드, gnews()·github_releases() 빌더
 │       ├── crawl.py                # 수집·정규화·원문 추출
 │       ├── filters.py              # Stage 0 사전필터 (주제 키워드를 받는 순수 함수)
@@ -212,7 +234,7 @@ tech-monitoring/
 │       └── mailer.py               # 로컬 SMTP 발송
 ├── tests/test_filters.py           # Stage 0 키워드 회귀 (네트워크·LLM 불필요)
 ├── archive/                        # 일별 결과 (자동 커밋)
-├── state/seen_{nv,aw}.json         # 주제별 발송 이력 (자동 커밋, 30일 보존)
+├── state/seen_{nv,aw,wv}.json      # 주제별 발송 이력 (자동 커밋, 30일 보존)
 ├── docs/pipeline.md                # 설계 문서
 └── legacy/                         # 옛 nvidia-blog-digest 코드·결과물
 ```

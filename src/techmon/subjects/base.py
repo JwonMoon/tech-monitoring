@@ -25,6 +25,19 @@ class Keywords:
 
 
 @dataclass(frozen=True)
+class Focus:
+    """중점 분야 하나. 주제마다 1개 이상 둘 수 있다.
+
+    중점이라는 건 세 가지를 뜻한다: 메일에서 항상 맨 위 섹션(0건이어도 자리 유지),
+    점수 +1, 카드 승격 기준 완화(MAJOR_SCORE 대신 FOCUS_MAJOR_SCORE).
+    """
+
+    key: str    # 토픽 키 — Subject.topics 안에 있어야 한다
+    label: str  # 짧은 이름. 카드 배지·0건 문구에 쓰인다 (자동차·로봇 / 사업·상용화)
+    emoji: str  # 카드 배지 앞 이모지
+
+
+@dataclass(frozen=True)
 class Prompt:
     """LLM 프롬프트의 주제별 문구. 틀은 prompts.py 가 공유한다."""
 
@@ -54,11 +67,9 @@ class Subject:
     accent_dark: str
     accent_tint: str
 
-    focus_key: str      # 중점 토픽 키 (항상 첫 섹션 + 가중 + 헤드라인 보존)
-    focus_short: str    # 제목줄 표기 (자동차/로봇)
-    focus_badge: str    # 카드 안 강조 박스 제목
-    focus_empty: str    # 그 섹션이 0건인 날 문구
-    angle_label: str    # Stage 2 subject_angle 렌더 라벨 (NVIDIA 관점)
+    focus: Tuple[Focus, ...]  # 중점 분야 (순서 = 메일 섹션 우선순위). 1개 이상
+    focus_short: str          # 제목줄 한 덩어리 표기 (자동차/로봇, 사업/기술)
+    angle_label: str          # Stage 2 subject_angle 렌더 라벨 (NVIDIA 관점)
 
     topics: Tuple[Tuple[str, str], ...]  # (토픽 키, 한국어 라벨) — 순서가 곧 섹션 순서
     keywords: Keywords
@@ -69,6 +80,17 @@ class Subject:
     max_cards: int = 15
     max_focus_cards: int = 10
     max_headlines: int = 40
+
+    @property
+    def focus_keys(self):
+        return tuple(f.key for f in self.focus)
+
+    def focus_of(self, topic_key):
+        """토픽 키 → Focus (중점이 아니면 None)."""
+        for f in self.focus:
+            if f.key == topic_key:
+                return f
+        return None
 
     @property
     def topic_keys(self):

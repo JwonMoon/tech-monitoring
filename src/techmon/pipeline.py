@@ -141,28 +141,39 @@ def _score_batch(no, batch, n_batches):
 
 
 def _topic(a):
-    if a["is_focus"]:
-        return config.SUBJECT.focus_key
+    """LLM 이 고른 article_type 을 먼저 믿는다.
+
+    중점 분야가 여러 개일 수 있으므로 '중점이면 무조건 그 토픽'으로 강제하지 않는다.
+    매핑에 실패했을 때만 중점 신호를 보고 첫 중점 토픽으로 보정한다.
+    """
     at = (a["stage1"].get("article_type") or "").lower()
     for k in config.SUBJECT.topic_keys:
         if k.lower() in at or (at and at in k.lower()):
             return k
+    if a.get("focus_signal"):
+        return config.SUBJECT.focus_keys[0]
     return "Community-Signal" if a["category"] == "community" else "기타"
 
 
 def adjust(articles):
-    """소스 가중 + 중점 분야 가중. 제목에 중점 신호가 있으면 헤드라인 이하로 떨어지지 않음."""
+    """소스 가중 + 중점 분야 가중. 제목에 중점 신호가 있으면 헤드라인 이하로 떨어지지 않음.
+
+    중점 판정은 '토픽이 중점 토픽인가'로 정한다. 키워드·전용 피드·LLM 플래그는
+    토픽 매핑이 실패했을 때의 보정 신호(focus_signal)로만 쓴다.
+    """
     kw = config.SUBJECT.keywords
+    focus_keys = set(config.SUBJECT.focus_keys)
     for a in articles:
         s1 = a["stage1"]
         score = s1["score"] + (a["weight"] if s1["parsed"] else 0)
-        a["is_focus"] = s1["is_focus"] or filters.is_focus(a, kw)
+        a["focus_signal"] = s1["is_focus"] or filters.is_focus(a, kw)
+        a["topic"] = _topic(a)
+        a["is_focus"] = a["topic"] in focus_keys
         if a["is_focus"]:
             score += 1
             if a["focus_hint"] or filters.focus_in_title(a, kw) or s1["is_focus"]:
                 score = max(score, config.HEADLINE_SCORE)
         a["score"] = max(0, min(10, score))
-        a["topic"] = _topic(a)
 
 
 def classify(articles):

@@ -1,7 +1,7 @@
 """주제 레지스트리. 주제 추가 = subjects/<key>.py 한 파일 + 아래 한 줄."""
-from . import autoware, nvidia
+from . import autoware, nvidia, wayve
 
-SUBJECTS = {s.key: s for s in (nvidia.SUBJECT, autoware.SUBJECT)}
+SUBJECTS = {s.key: s for s in (nvidia.SUBJECT, autoware.SUBJECT, wayve.SUBJECT)}
 DEFAULT = nvidia.SUBJECT.key
 
 

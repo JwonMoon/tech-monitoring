@@ -43,6 +43,17 @@ def importance_badge(a):
     return badge(f"참고 {s}/10", "#F1F5F9", "#64748B")
 
 
+def focus_badge(a):
+    """카드 안 중점 관점 박스 제목. 항목이 속한 중점 분야에 맞춰 붙인다."""
+    f = S.focus_of(a.get("topic"))
+    return f"{f.emoji} {f.label} 관점" if f else f"{S.focus[0].emoji} {S.focus[0].label} 관점"
+
+
+def focus_empty(topic_key):
+    f = S.focus_of(topic_key)
+    return f"오늘 {f.label} 관련 신규 소식은 없습니다." if f else "오늘 신규 소식은 없습니다."
+
+
 def title_of(a):
     return (a.get("summary_data") or {}).get("korean_title") or a["stage1"].get("korean_title") or a["title"]
 
@@ -96,7 +107,7 @@ def render_card(a):
     if a["is_focus"] and _ok(sd.get("focus_angle")):
         parts.append(
             f'<div style="margin:14px 0 0 0;padding:10px 14px;background:#ECFDF5;border:1px solid #A7F3D0;border-radius:8px;">'
-            f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">{esc(S.focus_badge)}</p>'
+            f'<p style="margin:0 0 3px 0;font-size:11px;font-weight:700;color:#047857;">{esc(focus_badge(a))}</p>'
             f'{para(sd["focus_angle"], "#065F46")}</div>')
     names = [c.get("name") for c in (sd.get("companies") or [])[:4] if isinstance(c, dict)]
     names += [p.get("name") for p in (sd.get("products") or [])[:2] if isinstance(p, dict)]
@@ -245,7 +256,7 @@ def build(result, stats):
 
     toc = []
     for key, items in _bucket(cards + heads):
-        if not items and key != S.focus_key:
+        if not items and key not in S.focus_keys:
             continue
         toc.append(f'<p style="margin:10px 0 4px 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">'
                    f'{esc(TOPIC_LABELS[key])} <span style="color:{FAINT};font-weight:400;">{len(items)}건</span></p>')
@@ -258,11 +269,11 @@ def build(result, stats):
     body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
 
     for key, items in _bucket(cards + heads):
-        if not items and key != S.focus_key:
+        if not items and key not in S.focus_keys:
             continue
         body.append(section_header(TOPIC_LABELS[key], f"{len(items)}건"))
         if not items:
-            body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">{esc(S.focus_empty)}</p>'))
+            body.append(box(f'<p style="margin:0;font-size:13px;color:{MUTED};">{esc(focus_empty(key))}</p>'))
             continue
         for a in items:
             if a in cards:

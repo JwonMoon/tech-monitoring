@@ -2,7 +2,7 @@
 import re
 
 from ..sources import Source, github_releases, gnews
-from .base import Keywords, Prompt, Subject
+from .base import Focus, Keywords, Prompt, Subject
 
 GITHUB_REPOS = [
     "NVIDIA/TensorRT", "NVIDIA/TensorRT-LLM", "NVIDIA/NeMo", "NVIDIA/Megatron-LM",
@@ -149,10 +149,8 @@ SUBJECT = Subject(
     accent="#76B900",
     accent_dark="#3D6B00",
     accent_tint="#F1F8E6",
-    focus_key="Automotive-Robotics",
+    focus=(Focus("Automotive-Robotics", "자동차·로봇", "🚗"),),
     focus_short="자동차/로봇",
-    focus_badge="🚗 자동차·로봇 관점",
-    focus_empty="오늘 자동차·로봇 관련 신규 소식은 없습니다.",
     angle_label="NVIDIA 관점",
     topics=(
         ("Automotive-Robotics", "자동차 · 로봇 (DRIVE · Isaac · Cosmos)"),
