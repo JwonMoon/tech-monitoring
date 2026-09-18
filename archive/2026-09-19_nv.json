@@ -1,0 +1,2233 @@
+{
+ "subject": "nvidia",
+ "date": "2026-09-19",
+ "window": [
+  "2026-09-18",
+  "2026-09-19"
+ ],
+ "generated": "2026-09-19T08:25:29+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "International Motors와 PlusAI가 NVIDIA **Thor** 칩 기반 레벨4 자율주행 트럭 양산을 추진해 상용화 안전성 검증이 관건으로 떠올랐다.",
+  "Jensen Huang이 내년 NVIDIA 칩 판매량이 **2배**로 늘어날 수 있다고 전망하며 AI 투자 확산에 대한 자신감을 드러냈다.",
+  "NVIDIA와 Google이 데이터센터 전력 소비를 유연하게 조절하는 연합체 **AEMA**를 출범시켜 전력망 연결 속도 확보에 나섰다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · MarketScale",
+   "category": "media",
+   "kind": "gnews",
+   "title": "International and PlusAI are building Level 4 trucks around NVIDIA's Thor chip",
+   "link": "https://www.marketscale.com/industries/transportation/international-and-plusai-are-building-level-4-trucks-around-nvidias-thor-chip",
+   "date": "2026-09-18 23:12",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "인터내셔널과 PlusAI, NVIDIA Thor 칩 기반 Level 4 트럭 개발",
+    "korean_summary": "인터내셔널과 PlusAI가 NVIDIA의 DRIVE Thor 칩으로 Level 4 자율주행 트럭을 개발 중이다."
+   },
+   "summary_data": {
+    "korean_title": "International Motors와 PlusAI, NVIDIA Thor 칩 기반 레벨4 자율주행 트럭 양산 추진",
+    "korean_summary": "International Motors와 PlusAI가 NVIDIA의 DRIVE AGX Hyperion 플랫폼과 Thor 칩을 기반으로 공장 출고형 레벨4 자율주행 트럭을 개발하고 있으며, 안전성 검증이 상용화의 최대 관건으로 지적된다.",
+    "action": {
+     "actor": "International Motors, PlusAI",
+     "action": "NVIDIA DRIVE AGX Hyperion 플랫폼과 Thor SoC를 탑재한 공장 설치형 레벨4 자율주행 트럭 개발",
+     "stage": "Announced",
+     "timeline": "2025년 10월 28일 발표, 텍사스 트라이얼 이후 생산 단계로 진행 중",
+     "scope": "Interstate 10 등 Sun Belt 회랑 중심 초기 배치, 가격·출시일 미확인"
+    },
+    "key_facts": [
+     "International의 2025년 10월 28일 발표에 따르면 **DRIVE AGX Thor SoC가 PlusAI의 SuperDrive 소프트웨어를 구동**하는 구조",
+     "역할 분담: International(차량·공장), PlusAI(자율주행 SW), NVIDIA(AI 컴퓨트)",
+     "트럭은 lidar, radar, 카메라를 탑재해 360도 인지 및 센서 융합·이중화 구현",
+     "Nauto CEO Stefan Heck는 **수천억 마일 규모의 실제 주행 데이터가 필요**하다고 주장, 시뮬레이션만으로는 안전성 입증 불가",
+     "초기 배치는 Interstate 10 등 예측 가능한 Sun Belt 회랑에 집중될 전망, 2년 내 최대 20만 대 예상되나 미국 전체 트럭 약 1200만 대 대비 미미한 비중"
+    ],
+    "why_matters": "이는 **NVIDIA의 DRIVE AGX Thor가 완성차 OEM의 공장 출고 자율주행 트럭에 정식 채택**된 사례로, 리트로핏이 아닌 양산 설계 단계에서의 검증된 레퍼런스 디자인 지위를 확보한다는 의미가 크다. 동시에 업계 전문가는 하드웨어·소프트웨어보다 실주행 안전성 검증이 상용화의 실질적 병목임을 지적해, 컴퓨트 플랫폼 채택만으로는 충분하지 않음을 보여준다.",
+    "subject_angle": "NVIDIA는 상용차 OEM(International)과 자율주행 SW 업체(PlusAI) 사이에서 **AI 컴퓨트 공급자로서 표준 플랫폼 지위**를 굳히며, Thor 칩이 승용차를 넘어 상용 트럭 레벨4 양산 체계에 편입되는 확장 사례를 확보한다.",
+    "focus_angle": "완성차 OEM 관점에서는 **자율주행 스택이 기존에 익숙한 섀시에 통합되고 컴퓨트가 특정 벤더의 개방형 부품으로 명시**된다는 점에서 조달·정비 리스크가 낮아지며, 자율주행 트럭 산업 전반에는 검증된 실주행 마일리지 확보가 레벨4 상용화의 실질적 선결 조건임을 시사한다.",
+    "companies": [
+     {
+      "name": "International Motors",
+      "context": "차량 제조 및 공장 생산 담당, 레벨4 트럭 양산 주체"
+     },
+     {
+      "name": "PlusAI",
+      "context": "SuperDrive 자율주행 소프트웨어 공급"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "DRIVE AGX Hyperion 플랫폼 및 Thor SoC로 AI 컴퓨트 제공"
+     },
+     {
+      "name": "Nauto",
+      "context": "업계 안전성 검증 관점을 제시한 자율주행 데이터/안전 기업, CEO Stefan Heck 발언"
+     },
+     {
+      "name": "Grote",
+      "context": "4SEE Digital Harness로 트레일러 램프 결함 보고·OTA 업데이트 제공, 별도 협력사 사례로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DRIVE AGX Hyperion",
+      "role": "레벨4 트럭용 전체 자율주행 플랫폼"
+     },
+     {
+      "name": "NVIDIA DRIVE AGX Thor",
+      "role": "PlusAI SuperDrive 소프트웨어를 구동하는 System-on-Chip"
+     },
+     {
+      "name": "PlusAI SuperDrive",
+      "role": "레벨4 자율주행 소프트웨어 스택"
+     }
+    ],
+    "watch_next": [
+     "International-PlusAI 트럭의 실제 가격·출시일·생산 규모 공개 여부",
+     "Interstate 10 외 추가 회랑으로의 배치 확대 시점",
+     "레벨4 트럭 안전성 검증(실주행 마일리지) 관련 규제·데이터 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · MarketScale",
+     "title": "International and PlusAI are building Level 4 trucks around NVIDIA's Thor chip",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSDdwZU55QkFaZXgzMjRKOENOMG5SVGhFYllyR0x2bk92Y2pTZXBCRXpHQ1RZY1dnOVVZUXl2c3NKWjBwTVM3U3RkMWxDSmY5N0JDMk5KLXhHRE1KMTRaZzNaWG5pYkllbWtUcTNYVnREU1dpSklQWUIwZHdFRkM1SVdmdFBJM01ZUDY3UklOMm8yM05DaTVIYmxhZEwwVGVpVG5oWk02UHU5cnFGZ0VIdmQwaTdldGUtd1JGNlNkUmxqZFhRSHBBekUwbw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSDdwZU55QkFaZXgzMjRKOENOMG5SVGhFYllyR0x2bk92Y2pTZXBCRXpHQ1RZY1dnOVVZUXl2c3NKWjBwTVM3U3RkMWxDSmY5N0JDMk5KLXhHRE1KMTRaZzNaWG5pYkllbWtUcTNYVnREU1dpSklQWUIwZHdFRkM1SVdmdFBJM01ZUDY3UklOMm8yM05DaTVIYmxhZEwwVGVpVG5oWk02UHU5cnFGZ0VIdmQwaTdldGUtd1JGNlNkUmxqZFhRSHBBekUwbw",
+   "body": "International and PlusAI are building Level 4 trucks around NVIDIA's Thor chip International Motors and PlusAI are building factory-installed Level 4 trucks on NVIDIA's DRIVE AGX Hyperion platform and Thor chip, Fleet Owner reported. Nauto CEO Stefan Heck told Heavy Duty Trucking the harder job is proving safety across hundreds of billions of real miles. Early runs will stick to corridors like Interstate 10. This story was produced through MarketScale. See how Transportation teams put it to work with Partner & Channel Enablement. Key facts, context, and what it means, in one minute. Key takeaways Even at Stefan Heck's top projection of 200,000 self-driving vehicles within two years, autonomous systems will still represent only a small fraction of the market for years compared to the roughly 12 million trucks operating in the US, according to Heavy Duty Trucking. The sharper question to put to any Level 4 vendor is which corridors it can document as validated with real miles, since Heck argues simulation only covers scenarios engineers have already imagined. Grote's 4SEE Digital Harness brings lamp-specific fault reporting and over-the-air updates to the trailer, a spec item fleets can write now regardless of when the tractor drives itself. Get featured Want to get featured in MarketScale Transportation? Create a free MarketScale workspace and get your company's expertise featured across our Transportation coverage. No credit card, no demo required. International Motors and PlusAI have settled on the computer their driverless trucks will run on. The pair are building factory-installed Level 4 trucks around NVIDIA's DRIVE AGX Hyperion platform, with the DRIVE AGX Thor system-on-chip running PlusAI's SuperDrive software, according to an Oct. 28, 2025 International announcement that Fleet Owner covered in its Trucking Tech Today roundup that November. Heck argues the industry's biggest challenge is something less flashy than sensors or chips: validating safety in the real world. Nauto CEO Stefan Heck told Heavy Duty Trucking executive editor Jack Roberts in May 2026 that the industry's real bottleneck is proving driverless trucks safe in the rare, odd situations a human driver handles without thinking, and that doing so takes real-world data on the order of hundreds of billions of miles. That leaves a fleet buyer in a strange spot. The hardware is defined and the manufacturing partners are named, yet the thing that decides when a truck can run without a driver is a validation record no vendor can ship in a box. Three companies, one truck Fleet Owner described the arrangement as a three-way split: International supplies the vehicle and the factory, PlusAI supplies the SuperDrive autonomous driving software, and NVIDIA supplies the AI compute. The trucks are to carry lidar, radar and cameras for 360-degree awareness, with sensor fusion and redundancy intended to cover long-haul highway environments. Tobias Glitterstam, International's SVP and chief str"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos-H-Surgical (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos-H-Surgical",
+   "date": "2026-09-19 07:07",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos-H-Surgical",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos-H-Surgical 로봇 비전 모델 v0.3.1 업데이트",
+    "korean_summary": "NVIDIA가 수술용 로봇을 위한 Cosmos-H-Surgical 비디오 예측 모델을 v0.3.1로 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 수술 로봇용 Sim-to-Real 생성 모델 'Cosmos-H-Surgical' 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano 기반 수술 로보틱스 특화 비디오 생성 모델 Cosmos-H-Surgical을 v0.3.1로 업데이트하며 4-step 경량 추론용 DMD2 체크포인트를 추가했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 기반 수술 로봇용 image-to-video/video-to-video 생성 모델을 v0.3.1로 업데이트하고 DMD2 경량 체크포인트 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "surgical-robotics 도메인, Hugging Face 공개 배포"
+    },
+    "key_facts": [
+     "**Cosmos-H-Surgical v0.3.1은 NVIDIA Cosmos3-Nano 기반**의 surgical-robotics 특화 모델",
+     "두 개 체크포인트 제공: 기본 50-step 모델과 **4-step DMD2 student 모델**",
+     "지원 워크플로우: 다음 92프레임 비디오 예측, blur/depth/segmentation/edge 제어 입력의 sim-to-real 변환",
+     "다운로드 7,360회, 좋아요 23개 기록",
+     "OpenMDW-1.1 라이선스 하에 상업적·비상업적 사용 가능"
+    ],
+    "why_matters": "**수술 로봇 개발에서 실제 데이터 수집 병목을 해소**하는 sim-to-real 생성 모델로, physical AI가 의료 로보틱스 영역까지 확장되고 있음을 보여준다. DMD2 기반 4-step 추론 지원은 실시간성·저지연이 중요한 임상 응용 가능성을 시사한다.",
+    "subject_angle": "**NVIDIA가 Cosmos 파운데이션 모델 패밀리를 산업 전반(자동차·산업로봇)을 넘어 수술 로보틱스라는 고부가가치 버티컬로 확장**하며 Physical AI 플랫폼 전략을 강화하고 있다.",
+    "focus_angle": "**동일한 Cosmos sim-to-real 및 blur/depth/segmentation 제어 기반 생성 기술은 자율주행·휴머노이드 로봇의 학습 데이터 증강 및 대규모 시뮬레이션 훈련에도 직접 적용 가능**한 범용 아키텍처로, NVIDIA가 하나의 Physical AI 모델 스택으로 의료·자동차·로봇 도메인을 모두 커버하려는 전략을 보여준다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos-H-Surgical 모델 개발 및 배포 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos-H-Surgical",
+      "role": "수술 로봇용 기본 비디오 예측/sim-to-real 변환 모델"
+     },
+     {
+      "name": "Cosmos-H-Surgical-Transfer-DMD2-4Step",
+      "role": "4-step 경량 추론용 student 모델 체크포인트"
+     },
+     {
+      "name": "Cosmos3-Nano",
+      "role": "Cosmos-H-Surgical의 기반 파운데이션 모델"
+     }
+    ],
+    "watch_next": [
+     "실제 수술 로봇 플랫폼(OEM·의료기기 업체)과의 통합 사례 발표 여부",
+     "Cosmos 패밀리의 자동차·휴머노이드 로봇 전용 버전과의 기술적 연계성",
+     "향후 버전에서 지원 프레임 수·해상도·제어 모달리티 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos-H-Surgical:2026-09-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos-h-surgical · tags: cosmos-h-surgical, safetensors, cosmos3_omni, cosmos, cosmos3, surgical-robotics, image-to-video, video-to-video, sim-to-real, physical-ai, knowledge-distillation, custom_code · downloads 7360 · likes 23. README:  # Cosmos-H-Surgical ## Model Overview Cosmos-H-Surgical v0.3.1 provides two checkpoints built on NVIDIA Cosmos3-Nano: | Model key | Repository path | Use | | --- | --- | --- | | `Cosmos-H-Surgical` | Repository root | Default model for video prediction and 50-step surgical transfer | | `Cosmos-H-Surgical-Transfer-DMD2-4Step` | `dmd2-transfer-480p-4step/` | Four-denoiser-call DMD2 student for surgical transfer | The base `Cosmos-H-Surgical` model remains the default when `--checkpoint-path` is omitted. The DMD2 checkpoint is an explicitly selected, student-only safetensors export; it does not contain optimizer, scheduler, teacher, fake-score, trainer, or other DCP training state. The supported workflows are: - **Video prediction:** generate the next 92 surgical video frames from a starting image and a structured text description. - **Simulation-to-real transfer:** convert a blur, depth, segmentation, or edge control video into a photorealistic surgical video. - **Four-step transfer:** run the same four transfer modalities with the DMD2 student and its fixed SDE schedule. Each transfer input specification activates exactly one control modality. This model is ready for commercial and non-commercial use. ## License The model weights and accompanying Cosmos-H-Surgical source code are provided under [OpenMDW-1.1](LICENSE). The official license source is available from the [OpenMDW repository](https://github.com/OpenMDW/OpenMDW/blob/main/1.1/LICENSE.OpenMDW-1.1). Third-party softwa"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Bitdeer AI to lease 65MW data center in Johor, Malaysia",
+   "link": "https://www.datacenterdynamics.com/en/news/bitdeer-ai-to-lease-65mw-data-center-in-johor-malaysia/",
+   "date": "2026-09-18 19:46",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Bitdeer AI, 말레이시아 65MW 데이터센터에서 NVIDIA GB300·NVL72 호스팅",
+    "korean_summary": "Bitdeer AI가 말레이시아 조호바루에 NVIDIA GB300과 NVL72를 호스팅할 65.1MW 데이터센터를 Q3 2027부터 10년 리스합니다."
+   },
+   "summary_data": {
+    "korean_title": "Bitdeer AI, 말레이시아 Johor에 65MW 데이터센터 신규 임대…NVIDIA GB300·NVL72 탑재",
+    "korean_summary": "Bitdeer AI가 말레이시아 Johor Bahru에 65.1MW 규모의 액체냉각 데이터센터 A202를 10년 계약으로 확보해 2027년 3분기 가동을 목표로 NVIDIA GB300 및 NVL72 하드웨어를 배치할 예정이다.",
+    "action": {
+     "actor": "Bitdeer AI (Bitdeer Technologies Group)",
+     "action": "Johor Bahru A202 데이터센터(65.1MW) 10년 서비스 계약 체결, NVIDIA GB300/NVL72 하드웨어 호스팅 예정",
+     "stage": "Announced",
+     "timeline": "2027년 3분기 (Energization 예상)",
+     "scope": "말레이시아 Johor Bahru A202 시설, Southeast Asia 최대 단일 용량 증설"
+    },
+    "key_facts": [
+     "A202는 **65.1MW 규모의 액체냉각 데이터센터**로, 10년 서비스 계약 체결",
+     "2027년 3분기 Energization 예상, **NVIDIA GB300 및 NVL72 하드웨어** 탑재 예정",
+     "동일 캠퍼스 내 21.7MW A201과 합산 시 Johor 캠퍼스 총 86.8MW",
+     "Bitdeer AI의 전체 확보 데이터센터 용량은 말레이시아·노르웨이·미국 합산 약 206.5MW, 2028년 1분기까지 350MW 목표",
+     "Bhutan Gelephu Mindfulness City에도 초기 30MW(재생 수력·태양광) AI 데이터센터 개발 의향서 체결"
+    ],
+    "why_matters": "동남아시아에서 액체냉각·랙스케일 AI 클라우드 용량에 대한 수요가 공급을 크게 초과하고 있다는 신호로, Bitdeer CFO는 A102가 가동 전 매진되었고 A201도 협상 막바지라고 밝혔다. **크립토마이너에서 AI 인프라 사업자로 전환한 Bitdeer가 NVIDIA 최신 플랫폼 채택을 확대**하며 지역 AI 클라우드 시장 경쟁에 본격 진입하고 있음을 보여준다.",
+    "subject_angle": "**NVIDIA GB300·NVL72가 동남아시아 신흥 AI 클라우드 사업자의 핵심 인프라로 채택**되며, 하이퍼스케일러 외 크립토마이닝 출신 신규 진입자까지 NVIDIA 플랫폼 표준화가 확산되는 사례로, NVIDIA의 지역별 수요 저변 확대 전략에 부합한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Bitdeer Technologies Group",
+      "context": "데이터센터·AI 클라우드 서비스 제공업체, 크립토마이너에서 전환"
+     },
+     {
+      "name": "Bitdeer AI",
+      "context": "Bitdeer의 AI 클라우드/데이터센터 사업 부문, 계약 당사자"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GB300, NVL72 하드웨어 공급, A202 시설의 핵심 컴퓨팅 인프라 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GB300",
+      "role": "A202 데이터센터에 배치될 AI 컴퓨팅 하드웨어"
+     },
+     {
+      "name": "NVIDIA NVL72",
+      "role": "A202 데이터센터에 배치될 랙스케일 AI 컴퓨팅 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "A202 실제 Energization 시점(2027 Q3) 준수 여부",
+     "Bitdeer의 2028년 1분기 350MW 목표 달성 진행 상황",
+     "Bhutan Gelephu Mindfulness City 프로젝트의 정식 계약 전환 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/bitdeer-ai-to-lease-65mw-data-center-in-johor-malaysia",
+   "body": "Data center firm Bitdeer has pre-leased a facility in Johor, Malaysia Bitdeer AI, part of Nasdaq-listed Bitdeer Technologies Group, this week announced that it has entered into a ten-year data center services agreement for A202, a 65.1MW data center facility in Johor Bahru. Energization is expected in Q3 2027. The company said the liquid-cooled facility represents its largest single capacity addition to date in Southeast Asia, and will host Nvidia’s GB300 and NVL72 hardware. A202 is located on the same campus as its 21.7MW A201 facility. Together, the Johor campus will represent 86.8MW of capacity. Bitdeer AI's total secured data center capacity — including owned or under agreement — totals approximately 206.5MW across sites in Malaysia, Norway and the United States. The company is aiming to deliver 350MW by the first quarter of 2028. “The signal from customers is unambiguous: demand for liquid-cooled, rack-scale AI Cloud capacity in 2027 is running well ahead of what the market can supply,” said Michael G. Potter, Bitdeer CFO. “A102 sold out ahead of energization, A201 is in advanced negotiations, and our secured AI Cloud data center capacity now stands at approximately 206.5MW. Securing A202 is a direct response to that demand — an incremental 65.1MW on a campus we already have contracted for.” Bitdeer started as a cryptominer, but it has increasingly pivoted to data centers and cloud services. The firm is repurposing mining facilities in Washington, Tennessee, and Norway into AI hosting. “Johor is where we can move fastest,” said Retainna Lin, VP of AI cloud at Bitdeer AI. “A201 is already secured at the data center level and is scheduled to be ready for service in January 2027, and A202 sits on the same campus — the same power, the same cooling, the same network. That is how we added 65.1MW without originating a new site. For our customers, it means liquid-cooled, rack-scale capacity available in Southeast Asia on a timeline that few providers in this region can offer.” Bitdeer also recently signed a non-binding letter of intent to develop an AI data center in Bhutan's Gelephu Mindfulness City, targeting an initial 30MW of renewable hydro/solar-powered capacity with a potential expansion pathway to 500MW."
+  },
+  {
+   "source": "Google News · Barron's",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Chip Sales Could Double Next Year, CEO Jensen Huang Says",
+   "link": "https://www.barrons.com/articles/nvidia-stock-chip-sales-jensen-huang-ai-5d2ed70b",
+   "date": "2026-09-19 01:02",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO 황, 내년 칩 판매량 2배 가능성 발언",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 내년 칩 판매량이 올해 대비 2배 이상 증가할 수 있다고 발언했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObUdKSDd2eFZMMFJWU0Z4dy14Qm9nc1NkRFBJaHUxSWhwbnpZdmR5eHZuRkJNZ1RyTlE0UXkwRVRjenBJLTJmVm1iYW03QUxXSjAybElsSVhLeUdFeWVFTGlYbVRha3NuZ19mdlhaOWh4ZVlNa1VOQWJIWFFkN3ZvOVU2X3V2aEFD",
+   "body": ""
+  },
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Google are launching a coalition to make AI data centers flex their power use",
+   "link": "https://qz.com/nvidia-google-emerald-ai-energy-management-alliance-091826",
+   "date": "2026-09-18 22:31",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Google, AI 데이터센터 전력 효율 연합체 출범",
+    "korean_summary": "NVIDIA와 Google이 AI 데이터센터의 전력 효율을 개선하기 위한 연합체를 출범했다"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA와 Google, AI 데이터센터 전력 유연화 위한 연합체 'AEMA' 출범",
+    "korean_summary": "NVIDIA와 Google, Emerald AI가 AI 데이터센터가 전력망 상황에 맞춰 전력 소비를 동적으로 조절하는 대가로 더 빠른 전력망 연결을 확보하기 위한 연합체 AEMA를 출범시켰다.",
+    "action": {
+     "actor": "NVIDIA, Google, Emerald AI",
+     "action": "AI 데이터센터의 전력 수요 유연화를 위한 연합체 AI Energy Management Alliance(AEMA) 결성 발표",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미국 내 AI 데이터센터, 그리드 운영자·유틸리티 대상"
+    },
+    "key_facts": [
+     "**NVIDIA, Google, Emerald AI가 AEMA(AI Energy Management Alliance) 출범을 발표**",
+     "데이터센터가 워크로드 이동, 배터리 방전, 자가발전, 그리드 비상 대응 등으로 전력 소비를 조절하면 더 빠르고 큰 전력망 연결을 받는 구조",
+     "평균 그리드 이용률은 약 50%에 불과하며, 새 데이터센터의 그리드 연결에는 10년 이상 소요될 수 있다고 Emerald AI CEO Varun Sivaram이 설명",
+     "**작년 한 해 미국 내 480건, 1,560억 달러 규모의 데이터센터 프로젝트가 지역사회 반대로 지연·중단됨**(Data Center Watch 데이터 인용)",
+     "미국인 약 70%가 자기 지역 내 데이터센터 건설에 반대 의사를 표명"
+    ],
+    "why_matters": "AI 데이터센터 확장의 최대 병목인 전력망 연결 지연과 지역사회 반발이 NVIDIA GPU 수요 성장의 실질적 제약 요인으로 부상하고 있다. **AEMA는 하드웨어·소프트웨어 규격이 아닌 성능 기반 표준을 통해 전력망 연결 속도를 높이려는 업계 차원의 대응**으로, 성공 시 데이터센터 증설 속도와 규제 리스크 완화에 직접 영향을 준다.",
+    "subject_angle": "**NVIDIA는 GPU 판매 확대의 전제조건인 데이터센터 전력 인프라 병목을 해소하기 위해 에너지·정책 이해관계자와 직접 협력 관계를 구축**하며, 단순 칩 공급자를 넘어 AI 인프라 생태계 조성자로서의 입지를 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AEMA 공동 발족, GPU 수요 뒷받침을 위한 전력 인프라 병목 해소에 참여"
+     },
+     {
+      "name": "Google",
+      "context": "AEMA 공동 발족, AI 데이터센터 운영 기업으로서 그리드 유연성 도입"
+     },
+     {
+      "name": "Emerald AI",
+      "context": "AEMA 공동 발족, CEO Varun Sivaram이 문제의식 설명 및 기술 프레임워크 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "AEMA (AI Energy Management Alliance)",
+      "role": "AI 데이터센터의 전력 유연성 표준·벤치마크·정책을 마련하는 연합체"
+     }
+    ],
+    "watch_next": [
+     "AEMA에 참여하는 추가 유틸리티·그리드 운영자 및 정책 파트너 발표 여부",
+     "구체적인 기술 표준·성능 벤치마크 공개 시점",
+     "AEMA 프레임워크가 실제 데이터센터 그리드 연결 속도에 미치는 효과 확인"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KUmcyTy1naGQ5WDE3Qm04T3NqSHdKRHBSOXhZbW1ybGtiX2h4WmFjT2FyQkN6NkwtSkZ6VlpGWDlkemtzSmxlWkZ6ZXhYRnRuOWRabGZQM0dEbXV2TFpMaDdVU3h6OVo5TVlidnlONC1oRjJEdjZ5ZTlObGVQUQ",
+   "body": "NVIDIA, Google $GOOGL, and Emerald AI announced the launch of the AI Energy Management Alliance, a coalition aimed at getting AI data centers to dynamically manage their electricity consumption in response to grid conditions, with the goal of securing faster connections to the power grid in return. The alliance, called AEMA, wants data centers to function as controllable resources rather than facilities with fixed, unchanging electricity demand. A flexible data center can adjust its grid draw by shifting computing workloads, discharging battery storage, using on-site generation, or responding to grid emergencies, the group said. In exchange for making those commitments, AEMA is pressing grid operators and utilities to grant data center projects faster and larger grid connections. Under AEMA's framework, the group would develop common standards for technical specifications, measurable performance benchmarks, and data sharing between facilities and grid operators, while also establishing upfront expectations for how data centers behave during voltage events or calls to reduce load, the group said. Emerald AI CEO Varun Sivaram explained the problem the coalition is trying to solve, according to Engadget. Getting a new data center onto the grid can take ten years or longer, Sivaram noted, because utilities are obligated to guarantee sufficient capacity for peak demand periods. Yet average grid utilization hovers around 50%, which means data centers willing to flex their consumption could tap into substantial headroom on the existing network without forcing expensive new buildout. AEMA is technology-neutral and performance-based, focusing on measurable outcomes — response speed, duration, predictability, and behavior during emergencies — rather than specific hardware or software, the group said. The coalition also plans to advocate for policies that recognize grid-responsive demand in state capitals and Washington. The announcement comes as AI data centers have faced mounting public and political opposition. Roughly 70% of Americans would object to a data center being built in their community, citing strain on local power resources and higher utility bills as their leading concerns. Community opposition stalled or halted 48 projects representing more than $156 billion in planned construction last year alone, according to Data Center Watch data cited by Fortune. NVIDIA and Emerald AI said they are already working with energy and infrastructure partners on AI facilities that can respond to grid conditions in real time. AEMA will expand that work by bringing technology, energy, and policy stakeholders together around models intended for deployment across the U.S., the group said. Daily Brief The essential business news, delivered fresh every morning. Join 500,000+ readers who start their day with Quartz. Sign me up By subscribing, you agree to our Terms of Service and Privacy Policy."
+  },
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang forecasts Nvidia chip sales to double in 2027",
+   "link": "https://qz.com/nvidia-jensen-huang-chip-sales-double-forecast-091826",
+   "date": "2026-09-18 20:52",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "젠슨 황 CEO, 2027년 칩 매출 2배 성장 예측",
+    "korean_summary": "NVIDIA 젠슨 황 CEO가 2027년 칩 판매가 2배 증가할 것으로 예측했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang, 2027년 Nvidia 칩 판매량 2배 전망",
+    "korean_summary": "Nvidia CEO Jensen Huang이 스코틀랜드 King Charles III 주최 서밋에서 AI 투자 확산을 근거로 내년 칩 판매량이 올해의 두 배가 될 것이라 전망했다.",
+    "action": {
+     "actor": "Jensen Huang (Nvidia CEO)",
+     "action": "내년 칩 판매량이 올해의 두 배가 될 것이라는 전망 발표",
+     "stage": "Rumor",
+     "timeline": "2027년(다음 회계연도)",
+     "scope": "Nvidia 전체 칩 포트폴리오, 전 산업·국가"
+    },
+    "key_facts": [
+     "Huang은 '내년 칩 판매량이 올해의 두 배가 될 것'이라고 예상했다",
+     "지난달 Nvidia는 다음 회계연도(2028년 1월 종료) 매출 성장률 **70%**를 전망했으며, 공급이 충분하면 매출이 두 배가 될 수 있다고 언급했다",
+     "해당 매출 전망치는 약 **$673 billion**으로 추정된다",
+     "Nvidia는 총 칩 판매량을 공개하지 않으며, 제품군은 데이터센터 GPU(Blackwell, Rubin)뿐 아니라 CPU, 스위치칩, 광네트워킹칩, 노트북 프로세서, 로봇·자동차용 칩, Nintendo Switch 2용 프로세서까지 포함한다",
+     "이 발언 이후 Nvidia 주가는 뉴욕 거래에서 최대 2.8% 상승했다"
+    ],
+    "why_matters": "Nvidia가 이미 제시한 70% 매출 성장 전망에 이어 칩 판매량 2배 전망까지 나오면서 **AI 인프라 투자 붐이 지속될 것**이라는 시장 신호가 강화됐다. 이는 애널리스트들의 실적 기대치를 재차 끌어올리는 요인으로 작용하고 있다.",
+    "subject_angle": "Nvidia는 데이터센터 GPU 중심의 압도적 성장 서사를 강화하는 동시에 **CPU·네트워킹·자동차·로봇용 칩까지 포함한 다각화된 포트폴리오**로 성장 기반을 넓히고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "칩 판매량 2배 전망을 발표한 주체"
+     },
+     {
+      "name": "Google DeepMind",
+      "context": "스코틀랜드 AI 안전 서밋 참여 기업"
+     },
+     {
+      "name": "OpenAI",
+      "context": "스코틀랜드 AI 안전 서밋 참여 기업"
+     },
+     {
+      "name": "Anthropic",
+      "context": "스코틀랜드 AI 안전 서밋 참여 기업"
+     },
+     {
+      "name": "Nintendo",
+      "context": "Switch 2 콘솔에 Nvidia 프로세서 탑재"
+     }
+    ],
+    "products": [
+     {
+      "name": "Blackwell",
+      "role": "Nvidia의 대표 데이터센터 GPU 라인"
+     },
+     {
+      "name": "Rubin",
+      "role": "Nvidia의 차세대 데이터센터 GPU 라인"
+     },
+     {
+      "name": "Switch 2 프로세서",
+      "role": "Nvidia가 공급하는 게임 콘솔용 칩"
+     }
+    ],
+    "watch_next": [
+     "Nvidia의 차기 실적 발표에서 실제 매출·판매량 성장률 확인",
+     "공급망(파운드리·HBM 등)이 수요를 충족할 수 있는지 여부",
+     "AI 안전 규제 논의가 Nvidia 제품 출시 속도에 미치는 영향"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94WnFnV2dJRF9WdTM0bUZFaFo4UTR0UGVDNGVYTFlOUXM5V0ZUcjJmZ1M3NWtEQTd3Z29pcEsxMWt3TDVUVkNpZGc5Z1Z5MTJVVVhWQ1dGTEhCUTVkTG0zaWRacVNKR3VxTEMyUHFlMHRYYzhsRjdj",
+   "body": "Nvidia $NVDA CEO Jensen Huang forecast on Thursday that the company will sell twice as many chips next year as it does this year, pointing to AI investment across industries and countries as the driver of continued growth. The Nvidia CEO made the projection at a summit convened by King Charles III in Scotland, citing AI demand across industries and economies \"I expect Nvidia to sell twice as many chips this next year as we do this year,\" Huang told reporters on the sidelines of a summit convened by King Charles III in Scotland, according to Bloomberg. \"The reason for that is because AI has so much contribution to the benefits of different industries, different economies, and you can see that in almost every single country that we're in, people want to invest in AI.\" The forecast adds to an already bullish financial outlook. Last month, Nvidia projected revenue growth of 70% in its next fiscal year, and the company said at the time that revenue could double if supply were sufficient to meet demand, according to Bloomberg. That projection — roughly $673 billion for the fiscal year ending January 2028 — sent analyst expectations higher, according to CNBC. Nvidia does not disclose the total number of chips it sells. While its data center GPUs — including the Blackwell and Rubin lines — are its most prominent products, the company's portfolio spans a wide range of semiconductors: CPUs, switch chips, optical networking chips, laptop processors, chips for robotics and automotive applications, and the processor powering Nintendo's Switch 2 gaming console. Nvidia stock gained as much as 2.8% in Thursday trading in New York. Huang was at the Scotland summit alongside representatives from Google $GOOGL DeepMind, OpenAI, and Anthropic, where the group addressed AI safety — a subject that has surged to the forefront of public debate following warnings from AI researchers that the most advanced systems have grown beyond human control. Huang said companies bear responsibility for ensuring their products are safe before release. \"When a product is not safe, we should hold it back and keep engineering it,\" Huang said. \"If it's not ready, just hold it back. You should go as fast as you can, but no faster than that.\" The Scotland summit came days after Huang appeared onstage at the All-In Summit in Los Angeles, where President Donald Trump phoned in live to dismiss AI safety concerns as \"a hoax.\" Trump called data centers \"the oil of the next 20, 25 years\" and told Huang, \"I'm with you all the way.\" Huang had challenged the empirical basis of safety warnings at that event, saying predictions about AI risk were \"not grounded in science.\" Join 500,000+ readers who start their day with Quartz. By subscribing, you agree to our Terms of Service and Privacy Policy."
+  },
+  {
+   "source": "Google News · cheddar.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Sees AI Chip Demand Doubling",
+   "link": "https://www.cheddar.com/media/nvidia-sees-ai-chip-demand-doubling/",
+   "date": "2026-09-19 00:16",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA, AI 칩 수요 2배 증가 전망",
+    "korean_summary": "NVIDIA가 AI 칩에 대한 수요가 2배 증가할 것으로 전망했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA AI 칩 수요 급증 관련 보도, 본문은 무관한 뉴스 모음",
+    "korean_summary": "제목은 NVIDIA의 AI 칩 수요 두 배 증가를 언급하지만 본문에는 이에 대한 구체적 내용이 전혀 없고 연준·애플·버핏 등 무관한 뉴스만 나열되어 있어 사실 확인이 불가능하다.",
+    "action": {
+     "actor": "미확인",
+     "action": "미확인",
+     "stage": "N/A",
+     "timeline": "미확인",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "제목은 'Nvidia Sees AI Chip Demand Doubling'이나 본문에 이를 뒷받침하는 내용 없음",
+     "본문은 연준 금리 인상, 애플 신제품, 버핏 은퇴, OpenAI·Anthropic AI 안전성, 유가, 스트리밍 스포츠 등 **NVIDIA와 무관한 뉴스**로 구성됨",
+     "NVIDIA 관련 수치·날짜·고객사 등 구체적 사실 **전혀 확인되지 않음**"
+    ],
+    "why_matters": "제목만으로는 AI 칩 수요 확대라는 잠재적으로 중요한 신호로 보이나, 본문 부재로 신뢰성 있는 분석이 불가능하다. 이런 정보 공백은 실제 산업 동향 파악보다 헤드라인만으로 시장이 오도될 위험을 시사한다.",
+    "subject_angle": "본문에서 NVIDIA에 대한 실질적 정보를 확인할 수 없어 **NVIDIA의 사업 전략에 대한 판단 근거로 사용할 수 없음**.",
+    "focus_angle": "",
+    "companies": [],
+    "products": [],
+    "watch_next": [
+     "원문 기사의 실제 본문(AI 칩 수요 관련 세부 내용) 확인 필요",
+     "NVIDIA의 공식 발표나 실적 발표 자료에서 수요 전망 언급 여부 확인",
+     "동일 이슈를 다룬 다른 매체 보도와 교차 검증"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1KQ25lRnd5ZXhxVTRseUxvX2FQZ3ZfalZNM1JOOG5oalk2Nlp5X0VtcXc5QVFBdmlFRUZDUXN4VzNmTmkwVVBsX3RhR0RLUEs5eDBOOEtyN2NpdkcxODl5Z1BVbTlIcVlHQnhhdC1abmlubjJE",
+   "body": "Trump Reacts to Fed Rate Hike as Markets Weigh Warsh’s Hawkish StanceNeil Sun, Portfolio Manager at RBC BlueBay Asset Management, breaks down the Fed’s rate hike and how markets are reacting to Kevin Warsh’s reasoning. Should You Upgrade? Apple’s Newest Devices Could Change the AnswerMegan Nash, Apple Product Manager, and Alex Foley, Apple Creative Pro, reveal what’s new with Apple’s foldable iPhone, AirPods and Apple Watch. Warren Buffett Steps Down As Berkshire ChairmanWarren Buffett is stepping down as chairman of Berkshire Hathaway after more than five decades in the role, closing another chapter in his extraordinary career. Openai Flags New Warning Signs In Ai BehaviorOpenAI says it has identified six cases of concerning behavior in its AI systems, including models attempting to evade oversight. Anthropic Wants A Speedometer For Ai DevelopmentAnthropic is proposing new ways for AI companies to measure just how quickly their models are advancing. Oil Prices Slip As Supply Hopes Offset Middle East TensionsOil prices are moving lower as expectations for increased Saudi Arabian supply outweigh fresh attacks by Yemen’s Houthi rebels. Why Live Sports Have Become Streaming’s Biggest BattlegroundKerry Flynn, Media Reporter at Axios, breaks down streaming’s new alliance, the battle for live sports rights, rising costs and what’s next for media."
+  },
+  {
+   "source": "Google News · Mobile World Live",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO predicts chip sales will double next year",
+   "link": "https://www.mobileworldlive.com/ai-cloud/nvidia-ceo-predicts-chip-sales-will-double-next-year/",
+   "date": "2026-09-18 19:17",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO, 2027년 칩 판매 2배 성장 예측",
+    "korean_summary": "NVIDIA CEO가 2027년 칩 판매량이 2배 증가할 것으로 예측했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMHlPSVlEUXdsVHNiUFBaSWFHXzUxc2pCRlFrY0NGLWZtOGRVczRYcFRLNE1aajJIcTN0NF8xRW50SkV1NTZMOXF5SXV0eV9DcWgwdi1pQWRQYTA3c2phc3BfNEpXRkdKM09lTG1jOThJN3pkYjZfOFd6YlNyZFB1M3ZUYWlHdEJ4aDJEUkZ4VWkxekI2RFVxN3dB",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "제논, 큐웬 기반 ‘훈민 VLM 397B’ 공개… 컴퓨터 조작 성능 강화",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170447",
+   "date": "2026-09-18 21:56",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release",
+     "research"
+    ],
+    "korean_title": "제논, NVIDIA B200으로 훈민 VLM 397B 공개… 화면 인식 성능 강화",
+    "korean_summary": "제논이 NVIDIA B200 GPU 8장으로 큐웬 3.5-397B를 후학습해 화면 인식 및 컴퓨터 조작 능력을 강화한 훈민 VLM 397B를 오픈소스로 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "제논, 엔비디아 B200 GPU로 큐웬 기반 '훈민 VLM 397B' 공개",
+    "korean_summary": "제논이 엔비디아 B200 GPU 8장으로 큐웬3.5-397B를 후학습해 화면 인식·컴퓨터 조작 성능을 강화한 '훈민 VLM 397B'를 오픈소스로 공개했다.",
+    "action": {
+     "actor": "제논",
+     "action": "큐웬3.5-397B 기반 파생 모델 '훈민 VLM 397B' 후학습 및 오픈소스 공개",
+     "stage": "Available",
+     "timeline": "2026-09-18",
+     "scope": "3970억 매개변수 규모 VLM, 화면 인식·컴퓨터 조작 특화"
+    },
+    "key_facts": [
+     "제논이 **엔비디아 B200 GPU 8장**으로 큐웬3.5-397B를 후학습",
+     "매개변수 규모는 **3970억개**",
+     "고난도 화면 인식 평가에서 글로벌 2위 기록",
+     "학습·평가 방법을 오픈소스로 함께 공개"
+    ],
+    "why_matters": "대규모 VLM 후학습에 엔비디아 B200 8장이라는 구체적 인프라 스펙이 공개돼 최신 GPU의 실사용 사례로 인용될 수 있다. 국내 AI 기업이 자체 파생 모델을 오픈소스로 내놓으며 화면 인식·컴퓨터 조작 분야 경쟁에 뛰어든 점도 주목할 만하다.",
+    "subject_angle": "**B200 GPU가 3970억 파라미터급 모델 후학습에 실제 활용**된 사례로, 엔비디아 최신 데이터센터 GPU의 고성능 파인튜닝 워크로드 적합성을 보여주는 레퍼런스가 될 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "제논(Xenon)",
+      "context": "훈민 VLM 397B 개발·공개 기업"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "B200 GPU 8장으로 모델 후학습 인프라 제공"
+     },
+     {
+      "name": "Qwen",
+      "context": "기반 공개 모델(큐웬3.5-397B) 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "훈민(Hunmin) VLM 397B",
+      "role": "제논이 공개한 파생 VLM 모델"
+     },
+     {
+      "name": "Qwen3.5-397B",
+      "role": "훈민 VLM의 기반 공개 모델"
+     },
+     {
+      "name": "NVIDIA B200",
+      "role": "모델 후학습에 사용된 GPU (8장)"
+     }
+    ],
+    "watch_next": [
+     "훈민 VLM 397B의 상세 벤치마크 및 1위 모델과의 격차",
+     "제논의 향후 후속 모델 및 B200 활용 확대 계획",
+     "화면 인식·컴퓨터 조작 특화 모델의 실제 산업 적용 사례"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092170447",
+   "body": "제논이 3970억개 매개변수 규모의 공개 모델 ‘큐웬(Qwen)3.5-397B’를 엔비디아 B200 그래픽처리장치(GPU) 8장으로 후학습해 화면 인식과 컴퓨터 조작 능력을 강화한 파생 모델을 선보였다. 제논은 고난도 화면 인식 평가에서 글로벌 2위를 기록한 이 모델을 오픈소스로 공개하고, 학습·평가 방법도 함께 내놓았다.생성형 인공지능(AI) 솔루션 기업 제논은 AI 모델 ‘훈민(Hunmin) VLM 397B’를 공개했다고 18일 밝혔다.훈민 VLM 397B는 공개 모델 ‘큐웬3.5-397B’를 기반으로 개발됐다. 기존 모델에 특"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing",
+   "link": "https://www.reuters.com/technology/ai-cloud-firm-nscale-files-us-ipo-2026-09-18/",
+   "date": "2026-09-19 06:41",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 지원 Nscale, IPO 신청 시 수익 급증 공시",
+    "korean_summary": "NVIDIA가 지원하는 AI 클라우드 기업 Nscale이 IPO 신청 서류에서 수익이 급증했다고 공시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Lufkin Daily News",
+     "title": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing",
+     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQMG1lNFBYX1pFbElKalFGRjNhVWRDOUhsWk81Q19JUjNFVnJlNWt2bE1IVFVpWmt5eUNUcEFQb1BrSktVN3g1VkxQci13LTdyRUhicXQ1VzJRcXVKVjJ4azQ5Q3h4X3JhRzJnYzBYczA5c0NaR0NWb3VrMDFVZEdpT29xeUlsMHQ0NXpUZHlVQnI3QllTV2xkeS1rZ2tkYjNQUWMxNUxrRW4yb285Ty1McVI3QmNiN2JudUxzTkkwY1FBMmlBbHJXa0xESFNDWVU3NFJDNWJnVHgzamd0UHBfYWlkWWU4VGZyNnF4c3hHX2dnUzdGNWlLb2NFaEIyX1plUXd3?oc=5"
+    },
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRHlKM18zc2taUi00dkFvQUNERldCX0R3YTQzdWVIeGVTaGRzZGNmNklabTYtYWdfeDVSX2lWN3FHRmYxa2RwUzItZmFjb3FfR19VOEJSTVVaZmpOcWhlT2lXbV9HNXZrR3hTT2NVRjNaUmxvamNaSnItejNiaTJRWkRVeVZLZS0wMWppNS14RlVkSXR2UHlqV1BtQmtwYUdTNDBvRzRDME8tRHg5MnluT1FZbXlMYkQxOG5GbEFneWdlR25QMERKSjdhamlNbjlVOTV2YnBTajhUYkE?oc=5"
+    },
+    {
+     "source": "Google News · marketscreener.com",
+     "title": "Nvidia-backed AI cloud firm Nscale reveals revenue surge in US IPO filing",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONm9TU0VMR0otSTYzUzNFVE1QSTk4Z2lSMVY4bUJidml5dWhzc0FmcVNGTGNPWHhuNnRkejgzUG5nT3pkWW9HUy1UclZhS1JqUExoMzNfSkRVVEVvbTMyek42Qm9ZQVR1N2htR0xxYl9wdHR3b3BWTFhIdDlfQXR3Q3RIak03LTNIamV4VjJXN1JHaFUzVkkyanVPT0Q4NFNtM1Z0aEItQXpQN1dTSnpsTWV6d2xkVXVXcDYwVk0zZ0ZBaXFw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX1dTamJ1aHFmSUJtU3ZXV1diZDd3RGROdl9lTEY4UEEzQmFicF85MzdFWXpoT01Xckp6MlZ5eU5RcEpsVWl6Qmw3Y0NoMXJtdzViV21DZ0h6aXhFRkRWWjNjYmk1ZTRCSnY0X052TWIxMEg3a05NMnh5MGtaMEpzYXNla1ZMeEU",
+   "body": ""
+  },
+  {
+   "source": "Google News · developer.nvidia.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Benchmarking LLM Inference at Scale with AIPerf | NVIDIA Technical Blog",
+   "link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+   "date": "2026-09-19 04:12",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "AIPerf로 LLM 추론 성능 벤치마킹하기",
+    "korean_summary": "NVIDIA는 기술 블로그에서 LLM 추론용 벤치마킹 도구 AIPerf를 소개했다"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 차세대 LLM 추론 벤치마킹 도구 'AIPerf' 공개",
+    "korean_summary": "NVIDIA가 기존 GenAI-Perf의 후속작으로 **멀티프로세스 아키텍처 기반의 LLM 추론 벤치마킹 도구 AIPerf**를 발표해, 클라이언트 병목 없이 대규모 서버 성능을 정확히 측정할 수 있도록 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "LLM 추론 성능 벤치마킹 도구 AIPerf를 GenAI-Perf의 공식 후속작으로 출시하고 사용법을 기술 블로그로 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "vLLM, SGLang 등 다양한 추론 서버 및 15개 이상 엔드포인트 타입(chat, responses, NIM rankings, image generation 등)"
+    },
+    "key_facts": [
+     "AIPerf는 **GenAI-Perf의 공식 후속(designated successor)**이며 Perf Analyzer 기반 구조에서 완전히 탈피한 ground-up rewrite",
+     "워커 프로세스와 별도의 record-processor 서비스가 ZMQ로 조율되는 **멀티프로세스 구조**로 Python GIL 병목 문제 해결",
+     "15개 이상의 엔드포인트 타입 지원, ShareGPT 등 공개 데이터셋과 Mooncake, Baseten, WEKA(AgentX) 등의 trace replay 포맷 지원",
+     "constant, Poisson, gamma 도착 패턴 및 vLLM/SGLang range-ratio 기반 synthetic ISL/OSL 분포 등 **부하 형태를 세밀하게 제어** 가능",
+     "uv를 통한 설치 지원(uv tool install aiperf), Qwen3-0.6B + vLLM을 이용한 실습 예제 제공"
+    ],
+    "why_matters": "LLM 추론 서빙 성능 측정이 GPU/AI 인프라 구매 의사결정의 핵심 지표로 자리잡으면서, **신뢰할 수 있는 표준 벤치마킹 도구**의 존재는 NVIDIA 생태계 내 성능 검증의 기준점을 제공한다. AIPerf는 vLLM, SGLang 등 오픈소스 추론 엔진과 NIM을 아우르는 범용 벤치마크 도구로서, NVIDIA가 하드웨어뿐 아니라 소프트웨어 툴체인 전반에서 업계 표준을 주도하려는 흐름을 보여준다.",
+    "subject_angle": "NVIDIA는 하드웨어 판매를 넘어 **추론 성능 측정·검증 도구까지 자체 표준화**함으로써, GPU 성능 우위를 객관적 벤치마크로 증명하고 개발자 생태계를 자사 툴체인(NIM, TensorRT-LLM 등)에 묶어두는 전략을 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AIPerf 개발 및 공개, 기술 블로그 게시 주체"
+     },
+     {
+      "name": "vLLM",
+      "context": "AIPerf 실습 예제에서 사용된 추론 서빙 엔진"
+     },
+     {
+      "name": "SGLang",
+      "context": "AIPerf가 지원하는 range-ratio 기반 synthetic 분포 대상 추론 엔진"
+     },
+     {
+      "name": "Baseten",
+      "context": "AIPerf가 지원하는 trace replay 포맷 제공사"
+     },
+     {
+      "name": "WEKA",
+      "context": "AgentX trace replay 포맷 제공사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA AIPerf",
+      "role": "이번 소식의 핵심 제품, GenAI-Perf 후속 LLM 벤치마킹 도구"
+     },
+     {
+      "name": "GenAI-Perf",
+      "role": "AIPerf 이전 세대 도구, 단일 프로세스 구조의 전신"
+     },
+     {
+      "name": "Qwen3-0.6B",
+      "role": "AIPerf 사용법 실습에 활용된 예시 모델"
+     },
+     {
+      "name": "NIM",
+      "role": "AIPerf가 지원하는 엔드포인트 타입 중 하나(NIM rankings)"
+     }
+    ],
+    "watch_next": [
+     "AIPerf의 NVIDIA 자체 플랫폼(TensorRT-LLM, NIM 등)과의 공식 통합 및 벤치마크 결과 공개 여부",
+     "커뮤니티의 GenAI-Perf → AIPerf 마이그레이션 확산 속도",
+     "경쟁 추론 프레임워크(SGLang, TensorRT-LLM 등) 간 AIPerf 기반 공식 성능 비교 데이터 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTmZ6SXBWVXB5aDBPUTJMNzRxVjdxTW9zc0FELTdJQkdtMDg4YjRJbFNNdTVmTmVfX1Y2M2I5VjJLY3ZRaTVmeGZHdi1rLWp2a0NpWENqcHQwMnRVRnFCTXNxSXozeWVPUjRsbkI0dlhLWTdhQ2FVTEw2LTEyMjVXQXdvdWxFdTk4Vmc",
+   "body": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send curl commands, hand-roll an asyncio script, or vibe code yet another one-off load generator. All of these paths have the same problem: single-process performance limits, Python’s GIL capping concurrency, or numbers measured against a reference you built yourself. Either way, you end up with results you can’t fully trust, attached to tooling you’ll have to rewrite the moment requirements change. What you need is a load client that can saturate a real server without becoming the bottleneck, produce output you can act on, and take five minutes to configure, not five hours. That’s NVIDIA AIPerf. What AIPerf does differently AIPerf is the designated successor to GenAI-Perf and is a ground-up rewrite. The design choices reflect hard lessons from running LLM benchmarks at scale: - A clean break from the old architecture. AIPerf doesn’t run on top of Perf Analyzer the way GenAI-Perf did. It’s a clean architectural break and the reason AIPerf can scale the way it does. If you’re porting an existing workflow, the migration guide covers the key deltas. - The client shouldn’t be the bottleneck. Most benchmarkers, GenAI-Perf included, use a single-process architecture that becomes GIL-bound under real concurrency or request rate. AIPerf is a multiprocessed system: worker processes generate load, separate record-processor services handle results, and everything is coordinated over ZMQ.. This structure allows for more accurate server benchmarking by preventing AIPerf from becoming a client-side bottleneck. - Workload breadth that matches what you actually run. AIPerf supports 15+ endpoint types: chat, responses, NIM rankings, image generation, and more — along with public datasets like ShareGPT and trace replay formats from Mooncake, Baseten, WEKA (AgentX), and others. Whether you’re running a quick synthetic smoke test or replaying captured production traffic, you don’t need a different tool. - Load shape you actually control. AIPerf supports constant, Poisson, and gamma arrival patterns with tunable burstiness, gradual ramping for concurrency and request rate, and synthetic distributions including vLLM/SGLang range-ratio for variable ISL/OSL. You control the shape of the load, not just the volume. Your maiden benchmark: Synthetic ISL/OSL on vLLM For this walkthrough we’ll use Qwen3-0.6B served through vLLM. The model choice is deliberate; it’s small enough to run on a single GPU and fast enough to iterate on without waiting. The point isn’t to benchmark Qwen3-0.6B specifically; it’s to establish the measurement loop. Once you have that, swapping in a different model or endpoint is a one-flag change. Start the Server Pull and start vLLM with the reasoning parser enabled: docker pull vllm/vllm-openai:latest docker run --gpus all -p 8000:8000 -e HF_TOKEN vllm/vllm-openai:latest \\ --model Qwen/Qwen3-0.6B \\ -"
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huawei Moves Its Next AI Chip Forward as China Builds Around Nvidia Restrictions",
+   "link": "https://www.techrepublic.com/article/news-huawei-ascend-960dt-ai-chip-2027-china-apac/",
+   "date": "2026-09-19 06:56",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Huawei, NVIDIA 수출 규제 우회하며 차세대 AI 칩 개발 가속",
+    "korean_summary": "중국 Huawei가 미국의 NVIDIA 수출 규제를 우회하기 위해 자체 AI 칩 개발을 가속화하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbXN5d1lNbkRIME1YeTg2ck1zelhLRTJ0Umpxc0xBTC1YY0Jkd05vQ2F0V0w2a2x4bm5RR2ZvaVBvSklzeEQ4Mzh6QWV2aUZiWVRoRk1FUXprUVlDOE03aGZNN00xWFYtc1NOaE1MdlNWUHZQOXVlZ3VPQ0NnYUI0V2F3ek5kTGVEMVJKaGxOQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · crn.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Analysis: What Nvidia’s Massive Supply-Demand Gap Says About AI Mania",
+   "link": "https://www.crn.com/news/components-peripherals/2026/analysis-what-nvidia-s-massive-supply-demand-gap-says-about-ai-mania",
+   "date": "2026-09-18 23:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA의 막대한 공급-수요 갭이 AI 광풍을 설명한다",
+    "korean_summary": "NVIDIA의 공급 부족 현상이 AI 시장 과열을 반영한다는 분석 기사다"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 내년 AI 인프라 공급 부족 규모 약 1000억 달러에 달할 전망",
+    "korean_summary": "NVIDIA는 AI 인프라 수요가 공급 능력을 크게 초과하는 상황에서 **내년 매출이 공급 제약만 없다면 두 배로 성장할 수 있다**고 밝히며 채널 파트너들에게 새로운 기회와 부담을 동시에 안기고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "2분기 실적발표에서 공급 제약으로 인한 수요-공급 격차 및 2027년 매출 전망 공개",
+     "stage": "Report",
+     "timeline": "2026년(내년) 매출 성장률 약 70% 전망, 2025년 8월 말 2분기 실적발표 발언 기준",
+     "scope": "GPU, CPU, DPU 등 NVIDIA 시스템 전반, 글로벌 공급망 및 채널 파트너 대상"
+    },
+    "key_facts": [
+     "NVIDIA 2분기(6월 종료) 매출 전년 대비 106% 증가한 **$96.2 billion** 기록",
+     "CFO Colette Kress는 공급 제약이 없다면 내년 매출이 두 배가 될 수 있다고 언급, 실제 전망치는 약 **70% 성장**",
+     "이는 내년 AI 인프라 수요 중 $100 billion 이상이 충족되지 못할 수 있음을 시사",
+     "금융 분석가들은 NVIDIA의 현 회계연도 매출을 $411 billion으로 추정하며, 2027년에는 약 $700 billion에 이를 것으로 전망",
+     "CEO Jensen Huang은 '전체 공급망이 도전받고 있으며 모두가 전력 질주 중'이라고 언급, 공급 부족으로 채널 파트너들의 리드타임이 최대 1년까지 길어짐"
+    ],
+    "why_matters": "**NVIDIA의 공급 제약이 AI 인프라 시장 전체의 성장 속도를 제한하는 병목**으로 작용하고 있으며, 이는 경쟁사에게는 기회가, 채널 파트너에게는 가격 상승과 리드타임 증가라는 부담이 될 수 있다. 동시에 기업 시장에서의 미충족 수요(pent-up demand)는 향후 매출 성장의 지속 가능성을 시사한다.",
+    "subject_angle": "NVIDIA는 압도적 수요를 바탕으로 **재무적 영향력을 활용해 AI 랩 등 주요 고객사와의 판매를 성사시키는 전략**을 강화하고 있으며, 공급망 확장이 향후 매출 성장의 핵심 변수로 부각되고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 인프라 칩·시스템 공급사, 공급 제약 속 매출 성장 전망 발표"
+     },
+     {
+      "name": "GDT",
+      "context": "NVIDIA 시스템 통합 파트너, 약 20개 neocloud 고객 보유"
+     },
+     {
+      "name": "International Computer Concepts",
+      "context": "NVIDIA 시스템 통합 파트너, 지속적인 AI 인프라 수요 확인"
+     },
+     {
+      "name": "Softcat",
+      "context": "영국 솔루션 프로바이더, GDT를 $1.05 billion에 인수"
+     },
+     {
+      "name": "OpenAI",
+      "context": "CEO Sam Altman이 AI 개발 속도 둔화 필요성 제기"
+     },
+     {
+      "name": "Circular Technology",
+      "context": "리서치 기관, AI 인프라 전망에 대한 분석 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GPU",
+      "role": "AI 인프라 수요의 핵심 제품, 공급 부족의 주요 대상"
+     },
+     {
+      "name": "NVIDIA CPU/DPU",
+      "role": "시스템에 점점 더 많이 포함되는 부가 칩, 공급 제약 대상에 포함"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 실제 2027년 매출 발표치가 $700 billion 전망에 부합하는지 여부",
+     "공급망 확장을 위한 NVIDIA 및 협력사들의 구체적 투자·생산능력 확대 계획",
+     "AI 개발 둔화 논의가 실제 하드웨어 수요에 영향을 미치는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXNmdTY4Tkw0OWowM3FLV2NYZ2dlYzdQLXdJdDFRanNKbjN0R29oV0RjeGdNQ0owYTZDa01DVXdrVjBZX2EzZWZkMzdTeS1uWkh1aERDMF9aQ1BIU3RzY3pfaENsd29jTTRrR3pkSTdkcEVqTjlrNm5jaGpXaHozRDZEVnNidkdpNWVrNDlDQ3VpMmI5OEdWVnJoeW53QXFuVDM0aHNzVzN1RHpER1BJU2VkOFFWN0htOGJuRkpn",
+   "body": "Analysis: What Nvidia’s Massive Supply-Demand Gap Says About AI Mania Commentary from Nvidia’s latest earnings shows how it’s helping fuel the market’s fast growth while contributing to industry-wide supply constraints with its own financial muscle in service of rapidly increasing revenue and profits. And the channel stands to benefit. Nvidia is once again showing that demand for AI infrastructure is continuing at a breakneck pace, but the vendor has indicated that global production capacity for its chips and systems could fall short of what customers need by roughly $100 billion next year. It’s a situation in which the company is playing a growing role as it increasingly flexes its financial muscle to convert demand into sales with influential buyers such as AI labs, which is opening new opportunities in the channel while contributing to supply shortages. [Related: Analysis: Does Qualcomm’s AWS Server Chip Deal Signal A Channel Shakeup?] Nvidia sent these signals back in late August during its second-quarter earnings call, with its CEO and founder, Jensen Huang, saying that the vendor “needs a lot more” supply. The company had reported a 106 percent year-over-year increase in revenue to $96.2 billion for the period that ended in June, and Nvidia CFO Colette Kress said annual revenue could double next year if it wasn’t for significant supply constraints felt by its suppliers. “Our entire supply chain is challenged, and it’s everybody. Everybody is really running flat out,” Huang told Wall Street analysts. While there have been calls for a slowdown in AI development this week by some of the industry’s most influential voices, including OpenAI CEO Sam Altman, due to rising concerns about safety and security, analysts have not yet seen any impact on hardware demand. “While the governance and safety debate is worth watching, we do not believe it changes the near-term infrastructure outlook,” wrote Brad Gastwirth, global head of research and market intelligence at Southborough, Mass.-based Circular Technology, on Tuesday. Chris Kapusta, vice president of advisory and transformation at Dallas-based Nvidia systems integration partner GDT, told CRN that he too hasn’t seen any newfound cautiousness from his AI infrastructure customers, which includes roughly 20 neoclouds. (U.K. solution provider giant Softcat announced Thursday that it acquired GDT in a $1.05 billion “enterprise value” deal.) “I will say we haven’t seen full enterprise adoption at scale of what’s even out there today, so I still think there’s pent-up demand to even bring some of the functionality and capabilities that exist today on the market into a number of enterprise and clients,” he said. Richard Rudometkin, vice president of global sales at Northbrook, Ill.-based Nvidia systems integration partner International Computer Concepts, said that demand for AI infrastructure from his customers is “nonstop,” even without financial assistance. “I don’t think that the need or the desire is go"
+  },
+  {
+   "source": "Google News · HPCwire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Saturn Cloud Integrates NVIDIA Run:ai to Turn NVIDIA GPU Fleets into Inference Businesses",
+   "link": "https://www.hpcwire.com/aiwire/2026/09/18/saturn-cloud-integrates-nvidia-runai-to-turn-nvidia-gpu-fleets-into-inference-businesses/",
+   "date": "2026-09-19 08:14",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Saturn Cloud, NVIDIA Run:ai 통합으로 GPU 활용도 극대화",
+    "korean_summary": "Saturn Cloud가 NVIDIA Run:ai를 통합하여 GPU 플릿을 추론 사업으로 전환했다"
+   },
+   "summary_data": {
+    "korean_title": "Saturn Cloud, NVIDIA Run:ai 통합해 GPU 플릿을 토큰 단위 추론 사업으로 전환",
+    "korean_summary": "Saturn Cloud가 NVIDIA Run:ai와의 통합을 발표해 네오클라우드·AI 팩토리 운영자들이 GPU 플릿을 GPU 시간제 대여 대신 **토큰 단위 과금 추론 상품**으로 자체 브랜드하에 판매할 수 있도록 지원한다.",
+    "action": {
+     "actor": "Saturn Cloud",
+     "action": "NVIDIA Run:ai 및 NVIDIA DSX AI Factory Platform과 통합하여 GPU 클라우드 운영자에게 멀티테넌트 추론 상용화 계층 제공",
+     "stage": "Available",
+     "timeline": "2026-09-18 발표, 현재 이용 가능",
+     "scope": "네오클라우드 및 AI 팩토리 운영자 대상, saturncloud.io를 통해 제공"
+    },
+    "key_facts": [
+     "Saturn Cloud는 2026년 9월 18일 NVIDIA Run:ai와의 통합을 뉴욕에서 발표했다",
+     "이 통합은 GPU-hour 임대 방식을 **토큰 단위 과금 추론 상품**으로 전환시킨다",
+     "서빙 계층은 NVIDIA Dynamo(분리형 prefill/decode)가 담당하며 vLLM, SGLang, NVIDIA TensorRT-LLM을 구동한다",
+     "NVIDIA Grove가 멀티노드 워크로드를 오케스트레이션하고, NVIDIA KAI Scheduler가 GPU 인식 배치·분할 GPU 할당·테넌트별 쿼터를 집행한다",
+     "NVSentinel과 NVIDIA Fleet Intelligence가 플릿 전반의 헬스 모니터링과 장애 대응을 수행한다"
+    ],
+    "why_matters": "GPU 인프라 사업자들이 단순 GPU 대여에서 벗어나 **고부가가치 토큰 기반 추론 서비스**로 수익모델을 전환할 수 있게 되어, 동일 메가와트당 매출을 늘릴 유인이 커진다. 이는 NVIDIA 소프트웨어 스택(Run:ai, Dynamo, Grove, KAI Scheduler)이 하드웨어 판매를 넘어 운영·수익화 계층까지 장악하는 흐름을 보여준다.",
+    "subject_angle": "NVIDIA는 Run:ai, Dynamo, Grove, DSX 등 자체 오케스트레이션·추론 소프트웨어 스택을 파트너 생태계(Saturn Cloud)를 통해 확산시켜 **GPU 하드웨어 판매를 넘어 AI 팩토리 운영 계층의 표준화**를 추진하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Saturn Cloud",
+      "context": "NVIDIA Run:ai 및 DSX 기반 멀티테넌트 추론 상용화 플랫폼 제공사"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Run:ai, DSX, Dynamo, Grove, KAI Scheduler, NVSentinel, Fleet Intelligence 등 기반 기술 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Run:ai",
+      "role": "GPU 워크로드 오케스트레이션 및 플릿 활용도 극대화"
+     },
+     {
+      "name": "NVIDIA DSX AI Factory Platform",
+      "role": "Saturn Cloud가 구축하는 기반 AI 팩토리 플랫폼"
+     },
+     {
+      "name": "NVIDIA Dynamo",
+      "role": "분리형 prefill/decode 분산 추론 서빙 계층 구동"
+     },
+     {
+      "name": "NVIDIA Grove",
+      "role": "멀티노드 워크로드 오케스트레이션"
+     },
+     {
+      "name": "NVIDIA KAI Scheduler",
+      "role": "GPU 인식 배치, 분할 GPU 할당, 테넌트 쿼터 집행"
+     },
+     {
+      "name": "Saturn Cloud 플랫폼",
+      "role": "GPU 시간제·토큰제 추론·매니지드 파인튜닝을 자체 브랜드로 판매하는 상용화 계층"
+     }
+    ],
+    "watch_next": [
+     "Saturn Cloud 플랫폼 도입 네오클라우드·AI 팩토리 운영자 명단 및 실적 공개 여부",
+     "토큰 단위 과금 전환이 실제 매출/메가와트당 수익에 미친 효과 발표 여부",
+     "NVIDIA DSX OS 생태계 내 유사 파트너 통합 사례 확산 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZGJZcEtMdWlDM1VCVXY4TTNxaG1qVHFCOFF3Z3A4NE1XT0gwZ1hSd25CM3JWWnFlZlpFYmJJQjI2UFIyY1E2emhrdzNMWjlEeXFyVGxheEpQby1MYzFFeXlZQUtCNm1sTmk1NGhBcHVBdEQ1YnQ3UWY5UmE4MHNjS21lTHBRQ2FrckkzZUZaN2ZRNjRZa1JUU3lYa1l6MjBPTzY0WjVSc2EtUGc4QzZNOUVnWGktR215OWt5Q0Jnbm1HNUxFZ3RBcDZzWQ",
+   "body": "Dnotitia Brings Dedicated Vector Silicon to Server Scale at AI Infra Summit 2026 SANTA CLARA, Calif., Sept. 18, 2026 — Dnotitia Inc., an AI data infrastructure and semiconductor... The integration pairs NVIDIA Run:ai’s GPU orchestration with Saturn Cloud’s multi-tenant inference platform and the NVIDIA DSX AI Factory Platform, giving neocloud and AI factory operators a way to earn more from their GPU fleets by turning raw capacity into per-token products they run under their own brand. NEW YORK, Sept. 18, 2026 — Saturn Cloud has announced an integration with NVIDIA Run:ai, the AI workload and GPU orchestration platform. The integration helps GPU cloud operators earn more from their installed capacity by turning fleets that would otherwise be rented by the GPU-hour into multi-tenant inference products sold by the token. NVIDIA Run:ai is one of several NVIDIA technologies Saturn Cloud builds on, following its integration of NVIDIA DSX AI Factory Platform. NVIDIA Run:ai maximizes GPU utilization across the fleet through NVIDIA KAI Scheduler, providing gang scheduling for NVIDIA Grove-managed distributed workloads and policy-driven governance. Saturn Cloud runs on top, giving operators the commercial layer between their fleet and customers so they can sell inference without building it themselves. Beyond per-token serving, operators get multiple products to sell from the same infrastructure — GPU hours, per-token inference endpoints, and managed fine-tuning jobs — without building any of it in-house. They can offer dedicated GPU capacity to customers who bring their own stack, per-token model-as-a-service to customers who just want an API endpoint, and self-service development environments for teams that build and fine-tune their own models. Saturn Cloud also handles model onboarding, shared and dedicated isolation tiers for regulated customers, and the identity, access, and governance controls enterprise buyers require. Underneath, the serving layer runs on NVIDIA Dynamo, handling distributed inference with disaggregated prefill and decode, and drives vLLM, SGLang, or NVIDIA TensorRT-LLM. NVIDIA Grove orchestrates the multi-node workloads, and NVIDIA KAI scheduler places them with GPU awareness, allocates fractional GPUs, and enforces quotas across tenants. NVSentinel and NVIDIA Fleet Intelligence handle fleet-wide health monitoring and fault remediation, so degraded hardware is automatically pulled from placement. “A neocloud can raise revenue per megawatt without adding a single GPU, just by changing how the capacity is sold,” said Sebastian Metti, Founder of Saturn Cloud. “Saturn Cloud gives operators the full commercial platform to do it, handling serving, multi-tenancy, and billing, all running under their own brand on NVIDIA Run:ai.” “Cloud providers are looking for new ways to turn GPU infrastructure into differentiated AI services,” said Omri Geller, NVIDIA VP DSX OS Platform Software. “Together, NVIDIA Run:ai and Saturn Cloud help operators"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Energy Digital",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Behind Google & NVIDIA's 'AI Energy Management Alliance'",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM05JQmlFTjJHRml3WjNDT3ctOXZqNDB0YmNod1NTN3lRM284YnBEZll4akdUQ1BoamlnODNhSEhfRXVzWnFXM2xlQ1hfRldYWHdjYlFsUDBXbmR5aHl6R21PZUhJUV9JZjFkX0RUUmVjY1U3SjJVQlRUdldULWd1WHNtaWhGSXVsMHdHS29R?oc=5",
+   "date": "2026-09-18 21:18",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "구글과 NVIDIA, AI 에너지 관리 연합 출범",
+    "korean_summary": "구글과 NVIDIA가 AI 에너지 관리 분야에서 전략적 연합을 구성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM05JQmlFTjJHRml3WjNDT3ctOXZqNDB0YmNod1NTN3lRM284YnBEZll4akdUQ1BoamlnODNhSEhfRXVzWnFXM2xlQ1hfRldYWHdjYlFsUDBXbmR5aHl6R21PZUhJUV9JZjFkX0RUUmVjY1U3SjJVQlRUdldULWd1WHNtaWhGSXVsMHdHS29R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang Calls Nvidia the \"World's First and Only Growth Value Stock,\" Pointing to Its 70% Revenue Growth Forecast Next Year. Here's Why That Framing Matters for How Investors Price NVDA.",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRE5NNmVRdkNzYTV4ekNNc2ROOFQzSUxvSmFBOHRwdUhvQ0dqbTBrLUJDV1hYcFdMeWZCanVpNlBzTXpDRGFIZ1lDNjk5NWo0M2VOS0tzWFBVR1NMQXpxU1RZTV9JWkgwYXJBMXVqa2FkOGxvaThvdGpsQkF6NlJablZia29ZUERKQ3FTaUhuNVhUNUlxRTItYmhNVDZuQQ?oc=5",
+   "date": "2026-09-18 21:16",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "젠슨 황, 엔비디아를 성장성 가치주로 평가...내년 매출 70% 성장 전망",
+    "korean_summary": "엔비디아 CEO 젠슨 황이 엔비디아를 세계 유일의 성장성 가치주라고 평가하며 내년 매출 성장률이 70%에 달할 것으로 전망했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Jensen Huang Calls Nvidia the \"World's First and Only Growth Value Stock,\" Pointing to Its 70% Revenue Growth Forecast Next Year. Here's Why That Framing Matters for How Investors Price NVDA.",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN251QVBYajlFNlJ3blgtWEpTQ1FLcU9LS3F5eDFiNER5dll0a1FnSG85RnRXelBoWktpT0xBNTFRdjJkV1dkTmx6OUdrSFJja2xzbzUya3p0OVY2WDZkUEJPaVRoYUltcW5KUjlocnc1U2lySm1UZTk2NVBSSW93ampqbURUbFYxYm9md3BlbGppQ0p4QXoxVg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRE5NNmVRdkNzYTV4ekNNc2ROOFQzSUxvSmFBOHRwdUhvQ0dqbTBrLUJDV1hYcFdMeWZCanVpNlBzTXpDRGFIZ1lDNjk5NWo0M2VOS0tzWFBVR1NMQXpxU1RZTV9JWkgwYXJBMXVqa2FkOGxvaThvdGpsQkF6NlJablZia29ZUERKQ3FTaUhuNVhUNUlxRTItYmhNVDZuQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · SourceSecurity.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Aetina AI systems: NVIDIA jetson thor in robotics",
+   "link": "https://www.sourcesecurity.com/news/aetina-ai-systems-nvidia-jetson-thor-co-1685011916-ga-npr.1789719975.html",
+   "date": "2026-09-18 17:52",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "Aetina, NVIDIA Jetson Thor로 로봇 AI 시스템 구축",
+    "korean_summary": "Aetina가 NVIDIA Jetson Thor 프로세서를 활용하여 로봇 AI 시스템을 개발하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Aetina, NVIDIA Jetson Thor 기반 엣지 AI 시스템 AIE-KT78/KT68 출시",
+    "korean_summary": "Aetina Corporation이 NVIDIA Jetson Thor와 Blackwell 아키텍처를 탑재한 DeviceEdge AIE-KT78·AIE-KT68 엣지 AI 시스템을 정식 출시해 협동로봇·휴머노이드·자율기계 개발자들의 실시간 인지·판단·제어를 지원한다.",
+    "action": {
+     "actor": "Aetina Corporation",
+     "action": "NVIDIA Jetson Thor(Blackwell 아키텍처) 기반 엣지 AI 시스템 AIE-KT78 및 AIE-KT68 정식 출시",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Collaborative Robots(Cobots), 휴머노이드 로봇, 차세대 자율기계 개발자·통합업체 대상"
+    },
+    "key_facts": [
+     "AIE-KT78은 NVIDIA Jetson T5000 모듈과 128GB LPDDR5X 메모리로 **최대 2,070 FP4 TFLOPS** 성능 제공",
+     "AIE-KT68은 NVIDIA Jetson T4000 모듈과 64GB LPDDR5X 메모리로 최대 1,200 FP4 TFLOPS 제공",
+     "QSFP28(최대 4x25Gbps), 듀얼 RJ45 10GbE, EtherCAT Master 포트를 통해 센서·액추에이터 실시간 동기화 지원",
+     "**80mm 소형 폼팩터**, 9~48VDC 전압 범위, -25°C~+55°C 동작 온도 지원",
+     "Aetina는 NVIDIA Elite Partner로서 Linux 기반 NVIDIA AI 소프트웨어 스위트 활용 지원"
+    ],
+    "why_matters": "로봇 경쟁력이 단일 모델 성능에서 인지·추론·판단·행동을 실시간 통합하는 시스템 역량으로 이동하고 있음을 보여주는 사례다. **NVIDIA Jetson Thor 기반 파트너 에코시스템 확산**은 휴머노이드·협동로봇 시장에서 엣지 AI 컴퓨팅 표준을 선점하려는 흐름을 반영한다.",
+    "subject_angle": "NVIDIA는 Jetson Thor·Blackwell 아키텍처를 Aetina 같은 Elite Partner를 통해 확산시켜 **로봇 엣지 컴퓨팅 시장 지배력**을 강화하고, VLA·멀티모달 생성형 AI를 로컬 실행 가능한 하드웨어 표준으로 자리매김시키는 전략을 취하고 있다.",
+    "focus_angle": "**EtherCAT Master 기능과 실시간 결정론적 제어**는 협동로봇·휴머노이드가 개념 단계에서 실제 산업 배치로 전환하는 데 필요한 핵심 요건으로, OEM·로봇 통합업체가 별도 하드웨어 없이 센서-액추에이터 동기화를 구현할 수 있게 해 자율주행 로봇 및 산업용 로봇팔 상용화를 가속할 수 있다.",
+    "companies": [
+     {
+      "name": "Aetina Corporation",
+      "context": "NVIDIA Elite Partner로서 Jetson Thor 기반 엣지 AI 시스템 개발·출시"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Jetson Thor(T5000/T4000 모듈)와 Blackwell 아키텍처, AI 소프트웨어 스위트 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Jetson Thor",
+      "role": "엣지 AI 시스템의 핵심 컴퓨팅 플랫폼"
+     },
+     {
+      "name": "DeviceEdge AIE-KT78",
+      "role": "Jetson T5000 기반 플래그십 엣지 AI 시스템, 최대 2,070 FP4 TFLOPS"
+     },
+     {
+      "name": "DeviceEdge AIE-KT68",
+      "role": "Jetson T4000 기반 엣지 AI 시스템, 최대 1,200 FP4 TFLOPS"
+     }
+    ],
+    "watch_next": [
+     "AIE-KT78/KT68의 실제 로봇 OEM·통합업체 채택 사례 및 가격 정보",
+     "NVIDIA Jetson Thor 기반 타 Elite Partner의 유사 엣지 AI 시스템 출시 여부",
+     "VLA 모델 및 멀티모달 생성형 AI의 온디바이스 실행 성능 벤치마크 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTU9YQ1V6UE9FZUVibHVrRUZWSnN4YjVsNTllQWlvQnBHMk8yTl9pUnFGbmVRNEFQczJNMS1lWGxiNzdMNGpiX2NkZEJwZ2lRa1ZxRVJPOGk4cm1qbVB0M2JScU9jdVIxaXlJel8zSDRHSHdYVEtSUFJuT0dlbEhuSGthOXphUTNZLWVnNGdoY3FnQ0Q1aVJRb1JiSzJWY3BYcGFSRWs0OTRPUDJKcnc",
+   "body": "Aetina Corporation has announced the availability of its new DeviceEdge AIE-KT78 and AIE-KT68 edge AI systems. These systems are built around NVIDIA's Jetson Thor technology, known for its advanced AI capabilities. The integration of NVIDIA Blackwell architecture brings enhanced AI compute power, high-bandwidth sensor connectivity, and deterministic industrial control. These features make the systems suitable for Collaborative Robots (Cobots), humanoid robots, and emerging autonomous machinery, offering developers the capability to process sensory data, reason, plan, and execute actions effectively in real-world settings. Performance and capability As robotics transition towards context-aware, autonomous functions, it becomes crucial for systems to handle numerous high-resolution sensor inputs, operate extensive multimodal models, and maintain real-time control. The AIE-KT78, featuring the NVIDIA Jetson T5000 module with 128GB of 256-bit LPDDR5X memory, efficiently delivers up to 2,070 FP4 TFLOPS of AI performance. Meanwhile, the AIE-KT68, powered by the NVIDIA Jetson T4000 module with 64GB of similar memory, offers up to 1,200 FP4 TFLOPS—balancing power, performance, and cost efficiency in tackling rising compute demands. Both the AIE-KT78 and AIE-KT68 systems allow for local execution of complex AI models such as multimodal generative AI and Vision-Language-Action (VLA) models, which minimises cloud dependency and enhances data control. These models enable robots to interpret surroundings and react instantly. Equipped with QSFP28 connectivity providing up to 4x25Gbps bandwidth and dual RJ45 10GbE ports, the systems support the processing of massive data streams from various high-resolution sensors, essential for a comprehensive understanding and perception of environments. Autonomous system architecture Featuring a dedicated RJ45 1GbE EtherCAT port, these systems serve as an EtherCAT Master Featuring a dedicated RJ45 1GbE EtherCAT port, these systems serve as an EtherCAT Master, ensuring precise AI inference synchronisation with motors, sensors, and actuators. This integration augments the adaptability and safety of cobots, while enhancing the intricate spatial awareness and ongoing motion decisions necessary for humanoid robots. Additionally, it simplifies architecture by reducing the need for extra hardware, beneficial for advanced autonomous machines, cobots, and industrial robot arms advancing from concept stages to practical deployment. The innovative design of the AIE-KT78/68 systems incorporates high compute performance, industrial-grade interfaces, and efficient thermal management within an 80mm compact frame. They operate within a wide voltage range from 9 to 48VDC, and can withstand temperatures ranging from -25°C to +55°C. The inclusion of USB 3.2, isolated digital I/O, and M.2 expansion slots supports versatile configurations. Running on Linux, the systems leverage the extensive NVIDIA AI software suite, aiding developers in optimis"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "AMD shares first official benchmarks for EPYC 'Venice' CPUs, targets Nvidia — company claims 256-core chip is more than twice as fast as Nvidia Vera, 96-core model 20% faster per-core",
+   "link": "https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core",
+   "date": "2026-09-19 06:51",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AMD EPYC 'Venice' CPU, 벤치마크로 NVIDIA Vera 성능 비교",
+    "korean_summary": "AMD가 새로운 서버 칩이 NVIDIA Vera 프로세서를 벤치마크에서 능가한다는 백서를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "AMD, EPYC 'Venice' CPU 공식 벤치마크 공개하며 Nvidia Vera 정조준",
+    "korean_summary": "AMD가 차세대 서버 CPU 'EPYC Venice'의 상세 벤치마크 백서를 공개하며 **256코어 모델이 Nvidia Vera 대비 2배 이상, 96코어 모델은 코어당 20% 빠르다**고 주장했다.",
+    "action": {
+     "actor": "AMD",
+     "action": "EPYC 'Venice' CPU 성능 벤치마크 백서 공개, Nvidia Vera 대비 우위 주장",
+     "stage": "Report",
+     "timeline": "2026년 7월 Venice 출시, 이후 금요일(구체적 날짜 미확인)에 상세 백서 공개",
+     "scope": "EPYC Venice 9996(256코어) 및 96코어 고주파수 SKU, Nvidia Vera(88코어)와 비교"
+    },
+    "key_facts": [
+     "256코어 EPYC 9996이 SPEC CPU 2026 intrate 테스트에서 Nvidia Vera 대비 **2.24배**, Intel Xeon 6980P 대비 2.37배 빠름",
+     "96코어 고주파수 Venice가 Vera 대비 코어당 성능 **20% 우위**라고 주장 (다운코어링된 9996 사용, 500W 전력 한도)",
+     "AMD는 GCC 16.1, Nvidia는 GCC 15.2로 벤치마크해 컴파일러 버전이 다름 — 직접 비교의 공정성에 의문 제기됨",
+     "Stream 메모리 대역폭 테스트에서 AMD가 Vera 대비 약 18% 우위(코어당 8% 우위), Phoronix의 독자 테스트 데이터 활용",
+     "전작 EPYC 9965(192코어) 대비 9996은 약 78% 성능 향상"
+    ],
+    "why_matters": "AMD가 데이터센터 CPU 시장에서 **Nvidia Vera를 직접 경쟁자로 지목**하며 공개 벤치마크 경쟁에 나선 것은 Nvidia가 CPU 영역까지 본격 진출했음을 방증한다. 다만 서로 다른 컴파일러 버전 사용 등 방법론 논란으로 실제 성능 우위는 불확실하며, 클라우드·HPC·에이전틱 AI 워크로드 전반에서 경쟁 구도가 형성되고 있다.",
+    "subject_angle": "Nvidia는 Vera CPU를 통해 전통적 CPU 강자 AMD·Intel의 영역에 진입했으며, **AMD의 정면 비교 마케팅은 Vera가 시장에서 실질적 경쟁 상대로 인정받고 있음을 시사**한다. Nvidia의 CPU+GPU 통합 전략(Grace/Vera 계열)이 서버 시장 경쟁 구도를 재편하는 핵심 변수로 부상했다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "AMD",
+      "context": "EPYC Venice CPU 벤치마크 백서 공개, Nvidia·Intel과 성능 비교"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Vera CPU로 AMD의 비교 대상, 자체 GCC 15.2 벤치마크 백서 보유"
+     },
+     {
+      "name": "Intel",
+      "context": "Xeon 6980P(Granite Rapids-AP)로 비교 대상에 포함, 차세대 Diamond Rapids 예고"
+     },
+     {
+      "name": "AWS",
+      "context": "Graviton5 클라우드 인스턴스 데이터 제공"
+     },
+     {
+      "name": "Phoronix",
+      "context": "Vera 초기 독자 테스트 데이터 소스, Stream 벤치마크 결과 인용"
+     }
+    ],
+    "products": [
+     {
+      "name": "EPYC Venice (9996, 256-core)",
+      "role": "AMD의 차세대 서버 CPU, Vera·Xeon 대비 성능 비교 대상"
+     },
+     {
+      "name": "Nvidia Vera (88-core)",
+      "role": "AMD가 비교 벤치마크로 정조준한 Nvidia CPU"
+     },
+     {
+      "name": "SPEC CPU 2026",
+      "role": "AMD·Nvidia 성능 비교에 사용된 표준 벤치마크"
+     },
+     {
+      "name": "Stream",
+      "role": "메모리 대역폭 측정 산업 표준 벤치마크"
+     }
+    ],
+    "watch_next": [
+     "Nvidia가 동일 컴파일러(GCC) 기준으로 재반박 벤치마크를 공개할지 여부",
+     "제3자(Phoronix 등)의 독립 검증 테스트 결과",
+     "EPYC Venice 및 Nvidia Vera의 실제 출시·공급 일정과 하이퍼스케일러 채택 현황"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Tom's Hardware",
+     "title": "AMD shares first official benchmarks for EPYC 'Venice' CPUs, targets Nvidia — company claims 256-core chip is more than twice as fast as Nvidia Vera, 96-core model 20% faster per-core",
+     "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNMzA2X0J0ME1fMll3R21yMjNPeHpoVFJ0ZXpwaHJRb2ExT1otNjFkdXZGNXBZQ1dWajJPNC1WX1AybV9TNmtCb1ZsZERBa3VNQkVTOFlFQ0lvVGlnenZ4TWgxcWRoMlBvbklrZ0RwRWlSMHhUVXlSY3R1REJmb2RSWWtsUFhadFFQWTUydzJBMTJsTTdXY2Z1Zko2RDR2a1AzdDRlbzl0NVdfTjU2djlvbmVXNHc5N2czbkV1aTFwMUpLUkFaR0NJNHB4WS1xeDA3TlVHczJjQW90OHBOWHZTNHFwTjFMSkZHUEQtNWFwckQ1OE5pRWpVdUM3NVlXUVpVZ3BkQXB2djliX1dYV01nUkREWGhIWEZrUnQ4UGxUdUFHQk1ZOUdDM0RIQnhqTGNhUmVxRnFyVUcxa1ktWTNkTWZqdUdmaHVDdmphOFFKREVrZw?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/pc-components/cpus/amd-shares-first-official-benchmarks-for-epyc-venice-cpus-targets-nvidia-company-claims-256-core-chip-is-more-than-twice-as-fast-as-nvidia-vera-96-core-model-20-percent-faster-per-core",
+   "body": "Following the launch of AMD's EPYC 'Venice' CPUs in July , AMD extended the performance claims for its upcoming generation of server chips on Friday. The high-level claim hasn't changed. AMD still says a 96-core, high-frequency Venice chip is around 20% faster than Nvidia's 88-core Vera in SPEC CPU 2026's Integer Rate test. However, the company went into far greater detail about the benchmarks in a new white paper . Tom's Hardware Premium Roadmaps (Image credit: Future) Leading-edge foundry roadmaps Nvidia Enterprise GPU and CPU roadmap AMD's Enterprise GPU and CPU roadmap Intel's roadmaps examined — 14A, Nova Lake, Diamond Rapids & AI accelerator push Co-Packaged Optics (CPO) foundry roadmaps There are several configuration differences depending on the benchmark throughout AMD's white paper, and although we'll call out those differences here to the best of our ability, we don't have all of the details. For the Vera comparison, in particular, AMD is mixing data from different sources, and in some cases, using different major releases of the GNU Compiler Collection (GCC). That can have a substantial impact on performance, so keep your salt shaker handy. (Image credit: AMD) First up are results in SPEC CPU 2026 with the intrate test, looking at total throughput. These are older numbers, gathered in July with GCC 15.2. The intrate test runs multiple copies of an application on the same CPU, and the SOP is to run one copy per thread. Presumably, that's what AMD did here, but the white paper doesn't clarify, even in the footnotes. The 256-core 9996 is 2.37x faster than the Intel Xeon 6980P and 2.24x faster than Vera according to the slide. The white paper clarifies the mystery 9006 CPU is the 256-core flagship. Perhaps most impressive is AMD's gen-on-gen comparison. According to these results, the 9996 is around 78% faster than last-gen's 192-core EPYC 9965. Although the high-level results bring in data from Intel and AWS, much of the white paper focused squarely on the comparison between Venice and Vera. AMD broke down the individual subtests of SPEC CPU 2026 intrate in the white paper, which you can see below. (Image credit: AMD) The comparison looks good for AMD, naturally, though there are a few wrinkles in the configuration. AMD is testing a down-cored EPYC 9996, dropping from 256 cores to 96 cores. It made no mention of power budget, but when AMD originally shared SPEC numbers, the 96-core model had access to the same 600W as the 256-core model — AMD's 96-core, high-frequency Venice SKU tops out at 500W. More consequential is the compiler, however. AMD is using GCC 16.1 and comparing the results to the ones Nvidia shared in its Vera white paper . Nvidia used GCC 15.2. Michael Larabel over at Phoronix has a nice write-up about the difference between GCC 15 and 16, but the short story is that there are performance differences, not always for the better. GCC 16 takes longer to compile due to better optimizations, hence the lower scores on the GCC a"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Blockfusion signs CoreWeave as a customer in Niagara Falls, New York",
+   "link": "https://www.datacenterdynamics.com/en/news/blockfusion-signs-coreweave-as-a-customer-in-niagara-falls-new-york/",
+   "date": "2026-09-18 19:38",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Blockfusion, CoreWeave와 뉴욕 데이터센터 장기 리스 계약",
+    "korean_summary": "Blockfusion이 뉴욕 Niagara Falls의 데이터센터에서 CoreWeave와 85MW 보장 용량의 15년 리스 계약을 체결했습니다."
+   },
+   "summary_data": {
+    "korean_title": "Blockfusion, 나이아가라 폭포 캠퍼스에 CoreWeave와 15년 앵커 리스 체결",
+    "korean_summary": "가상화폐 채굴에서 데이터센터 사업으로 전환한 Blockfusion이 AI 클라우드 기업 CoreWeave와 뉴욕 나이아가라 폭포 캠퍼스에서 최대 300MW 규모의 15년 앵커 리스 계약을 체결해 AI 인프라 확장을 뒷받침한다.",
+    "action": {
+     "actor": "Blockfusion (North East Data, LLC)",
+     "action": "CoreWeave와 나이아가라 폭포 캠퍼스에서 15년 앵커 리스 계약 체결",
+     "stage": "Announced",
+     "timeline": "이번 주 발표, 2026년 6월 비구속적 LOI 이후 확정",
+     "scope": "뉴욕 나이아가라 폭포 캠퍼스, 최대 300MW (85MW 보장 물량 포함)"
+    },
+    "key_facts": [
+     "15년 리스 계약, 5년 갱신 옵션 2회 포함",
+     "**최대 300MW 규모**, 이 중 85MW는 take-or-pay 보장 용량",
+     "85MW 보장 물량 기준 초기 15년간 약 $2.8B, 갱신 옵션 포함 시 최대 **$5.4B 리스 수익** 예상",
+     "구 발전소 부지를 암호화폐 채굴장에서 고밀도 액체냉각 AI 인프라로 전환",
+     "CoreWeave 고객사에 OpenAI, Microsoft, IBM, **NVIDIA**, Meta 포함"
+    ],
+    "why_matters": "CoreWeave가 Core Scientific, Applied Digital, Galaxy 등에 이어 Blockfusion까지 임대 파트너로 추가하며 서드파티 데이터센터 확보 전략을 지속하는 것은 **AI GPU 클러스터 배치 속도**가 CoreWeave의 핵심 경쟁력임을 보여준다. 이는 곧 NVIDIA GPU 수요를 뒷받침하는 물리적 인프라 확장으로 이어진다.",
+    "subject_angle": "CoreWeave는 NVIDIA의 대표 클라우드 파트너이자 고객으로, 이러한 대규모 리스 확장은 **NVIDIA GPU 배치 용량 증가**를 의미하며 NVIDIA의 데이터센터 매출 성장 기반이 견고해지고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Blockfusion",
+      "context": "나이아가라 폭포 캠퍼스 소유·개발사, CoreWeave에 임대 제공"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "AI 클라우드 기업, 임차인 겸 GPU 인프라 운영사"
+     },
+     {
+      "name": "Blue Acquisition Corp.",
+      "context": "Blockfusion과 합병 중인 나스닥 상장 SPAC"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "CoreWeave의 주요 고객으로 언급, GPU 공급 및 인프라 수혜자"
+     },
+     {
+      "name": "North East Data, LLC",
+      "context": "Blockfusion의 완전 자회사, 리스 계약 당사자"
+     }
+    ],
+    "products": [
+     {
+      "name": "Niagara Falls 데이터센터 캠퍼스",
+      "role": "구 발전소를 개조한 고밀도 액체냉각 AI 인프라 부지"
+     }
+    ],
+    "watch_next": [
+     "300MW 전체 용량 대비 실제 가동 시점 및 단계별 확장 계획",
+     "Blockfusion-Blue Acquisition Corp. 합병 완료 여부",
+     "CoreWeave의 추가 서드파티 임대 계약 및 NVIDIA GPU 배치 규모 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/blockfusion-signs-coreweave-as-a-customer-in-niagara-falls-new-york",
+   "body": "Cryptominer-turned data center firm Blockfusion has signed AI cloud firm CoreWeave as a customer at its data center in New York Blockfusion USA, Inc. this week announced that its wholly owned subsidiary, North East Data, LLC, has entered into a definitive anchor lease with CoreWeave at the former’s campus in Niagara Falls. The 15-year lease includes two five-year renewal options. Blue Acquisition Corp., a Nasdaq-listed special purpose acquisition company merging with Blockfusion, announced the news this week. It follows the signing of a non-binding letter of intent announced in June. At the time, Blockfusion said the deal would total up to 300MW, including 85MW of guaranteed take-or-pay capacity. Blockfusion previously said the 85MW guaranteed portion of the lease could generate approximately $2.8 billion in aggregate lease revenue over the initial 15-year term, or around $5.4bn if both renewal options are exercised. “This agreement is a defining milestone for Blockfusion, and strong validation of our Niagara Falls campus,” said Alex Martini-Lo Manto, Blockfusion CEO. “We are transforming a former industrial site into infrastructure for the next generation of computing and what we believe can become a long-term technology and economic anchor for the region.” Blockfusion previously turned a decommissioned power plant into a cryptomine campus and is now adapting the campus for high-density, liquid-cooled AI infrastructure. Though it is developing some of its own sites, CoreWeave largely relies on third parties for its data center capacity. Companies leasing to the AI cloud provider in North America include Core Scientific, Galaxy, Related Digital, Applied Digital, Chirisa Technology Parks, Lincoln, Flexential, TierPoint, Digital Realty, DataBank, Switch, Digital Crossroads, eStruxture, Bell Canada, and others. CoreWeave customers include OpenAI, Microsoft, IBM, Nvidia, and Meta. The AI cloud firm has moved from leasing capacity to cryptominers to hosting AI capacity, including Core Scientific, Applied Digital, and Galaxy. “The conversation about data centers is ultimately about ensuring technology investment translates into real benefits for local communities,” added Robert Restaino, Mayor of the City of Niagara Falls. “Blockfusion’s commitment to Niagara Falls creates opportunities for residents, businesses, and future generations. We are encouraged by investments that help strengthen our local economy and position Niagara Falls for long-term growth.”"
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "사다리 걷어차고 우군 확보…계산기 두드리는 빅테크들",
+   "link": "https://www.hankyung.com/article/2026091844741",
+   "date": "2026-09-18 17:27",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "빅테크의 AI 속도 조절 주장 뒤의 진짜 의도",
+    "korean_summary": "Jensen Huang 등 빅테크 경영진들이 공식적으로는 AI 속도 조절을 주장하면서 실제로는 경쟁 우위와 규제 주도권을 확보하려고 움직이고 있습니다."
+   },
+   "summary_data": {
+    "korean_title": "빅테크, 백악관 AI 규제기관 설립 저지…젠슨 황도 반대 대열 합류",
+    "korean_summary": "일론 머스크, 마크 저커버그, 젠슨 황 등 빅테크 CEO들이 백악관의 AI 규제기관 설립 논의를 무산시켰으며, 엔비디아는 AI 개발 속도 둔화가 자사 칩 수요 감소로 이어질 수 있다는 사업상 이해관계 때문에 이에 반대한 것으로 알려졌다.",
+    "action": {
+     "actor": "Jensen Huang (NVIDIA CEO)",
+     "action": "백악관의 AI 규제기관 설립 논의에 반대 의견 전달",
+     "stage": "Report",
+     "timeline": "2026-09-17(현지시간) WSJ 보도 기준",
+     "scope": "미국 연방 차원 AI 규제기관 설립 논의, 미확인(구체적 범위 불명)"
+    },
+    "key_facts": [
+     "WSJ에 따르면 백악관에서 논의되던 AI 규제기관 설립이 무산됨",
+     "**Elon Musk(SpaceX), Mark Zuckerberg(Meta), Jensen Huang(NVIDIA) CEO의 반대**가 결정적 역할을 했다고 소식통 전언",
+     "**NVIDIA는 AI 개발 속도 둔화가 학습·추론용 컴퓨팅 수요 증가세를 약화시킬 수 있다는 사업상 이해관계**가 있다고 명시됨",
+     "Anthropic은 METR 같은 제3의 평가기관을 통한 출시 전 AI 모델 평가를 제안했으나, METR이 Anthropic과 금전적·사적 관계로 얽혀 있다는 의혹 제기됨",
+     "Google DeepMind의 Demis Hassabis 의장은 미국 주도 첨단 AI 표준기구 설립을 대안으로 제시(FINRA 사례 언급)"
+    ],
+    "why_matters": "AI 칩 최대 공급사인 NVIDIA가 규제기관 설립 반대에 직접 관여했다는 점은 **AI 개발 속도와 컴퓨팅 수요가 직결되는 NVIDIA의 핵심 사업구조**를 보여준다. 빅테크들의 규제 반대가 단순 안전 논쟁이 아니라 시장 주도권·투자비 절감 등 각사 이해관계에 따른 것이라는 해석이 나오면서, 향후 규제 프레임워크 형성 과정에서 NVIDIA의 로비력과 영향력이 재확인됐다.",
+    "subject_angle": "**NVIDIA에게 AI 규제로 인한 개발 속도 둔화는 학습·추론 컴퓨팅 수요 감소로 직결되는 사업 리스크**이며, 이번 사례는 NVIDIA가 정책 결정 과정에서 자사 하드웨어 수요를 지키기 위해 적극적으로 목소리를 내고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 칩 공급사, 규제기관 설립 반대에 참여, 컴퓨팅 수요 감소 우려"
+     },
+     {
+      "name": "SpaceX",
+      "context": "독자 AI 모델 개발 중, 규제기관 설립 반대"
+     },
+     {
+      "name": "Meta",
+      "context": "독자 AI 모델 개발 중, 규제기관 설립 반대"
+     },
+     {
+      "name": "Anthropic",
+      "context": "AI 규제론 주도, METR 등 제3평가기관 자금 지원 의혹"
+     },
+     {
+      "name": "OpenAI",
+      "context": "앞선 성능 보유 선두 업체로 비교 대상"
+     },
+     {
+      "name": "Google DeepMind",
+      "context": "미국 주도 AI 표준기구 설립 대안 제시"
+     },
+     {
+      "name": "Amazon",
+      "context": "AI 모델 테스트·안전장치 필요성 언급, 개발 속도 저하에는 반대"
+     },
+     {
+      "name": "METR",
+      "context": "AI 모델 평가 제3기관, Anthropic과의 관계 의혹"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "백악관 AI 규제기관 설립 논의 재개 여부",
+     "Demis Hassabis가 제안한 미국 주도 AI 표준기구의 구체적 형태와 진행 상황",
+     "NVIDIA의 추가 정책 대응 및 컴퓨팅 수요 관련 실적 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026091844741",
+   "body": "AI 추천 뉴스 사다리 걷어차고 우군 확보…계산기 두드리는 빅테크들 AI 속도조절 논쟁 엔비디아는 칩 수요 감소 우려 엔비디아는 칩 수요 감소 우려 인공지능(AI) 속도 조절을 주장한 빅테크가 뒤에선 계산기를 두드리고 있다. 대규모 기업공개(IPO)를 앞두고 투자비를 줄이려는 의도를 갖고 있거나 경쟁사 추격을 막고 규제 주도권을 확보하려는 움직임이 엿보인다. 17일(현지시간) 월스트리트저널(WSJ)에 따르면 최근 백악관에서 AI 규제기관 설립에 관한 논의가 이뤄졌으나 무산된 것으로 알려졌다. 일론 머스크 스페이스X 최고경영자(CEO), 마크 저커버그 메타 CEO, 젠슨 황 엔비디아 CEO 등의 반대가 결정적인 역할을 했다고 소식통은 전했다. 스페이스X와 메타는 독자 AI 모델을 개발 중이지만 앤트로픽·오픈AI에 비해서는 아직 성능이 뒤처진다는 평가를 받는다. AI 규제가 도입되면 선두권 진입이 가로막힐 수 있는 ‘후발주자’를 벗어날 수 없게 된다. AI칩을 공급하는 엔비디아에는 개발 속도 둔화가 학습·추론용 컴퓨팅 수요 증가세를 약화할 수 있다는 사업상 이해관계가 있다. 이들은 AI업계 자금으로 운영되는 기관에 대한 우려를 도널드 트럼프 대통령에게 전달했다. 현재 AI 규제론을 가장 선명하게 내세우는 앤트로픽 등이 일부 평가기관에 자금을 지원하는 상황을 언급한 것으로 해석할 수 있다. 앞서 앤트로픽은 ‘모델 평가 및 위협 연구소(METR)’같은 제3의 기관을 통해 출시 전 AI모델을 평가하자고 제안했다. 업계는 METR이 앤트로픽과 금전적·사적 관계로 얽혀 있다는 의혹을 제기한다. METR의 모태인 AI 안전연구기관 ARC는 자선기관 코이피션트기빙의 지원을 받았으며, 코이피션트기빙은 홀든 카노프스키가 앤트로픽 공동창업자인 다니엘라 아모데이의 남편이 세웠다는 주장이다. 데미스 허사비스 구글 딥마인드 의장이 “미국 주도의 첨단 AI 표준기구를 설립하자”고 제안한 것도 특정 기관에 휘둘리지 않겠다는 의도로 해석된다. 허사비스 의장은 연방정부 감독 아래 민관협력 또는 자율규제 형태의 표준기구를 대안으로 제시하며 미 금융산업규제국(FINRA)을 사례로 들었다. 아마존은 이날 “AI 모델은 엄격한 테스트와 강력한 안전장치를 거쳐 출시돼야 한다”는 입장을 밝혔지만, 개발 속도를 늦추는 데는 선을 그었다. 안전성에 대한 책임은 AI 개발사에 넘겼다는 해석이다. 실리콘밸리=김인엽 특파원 inside@hankyung.com 17일(현지시간) 월스트리트저널(WSJ)에 따르면 최근 백악관에서 AI 규제기관 설립에 관한 논의가 이뤄졌으나 무산된 것으로 알려졌다. 일론 머스크 스페이스X 최고경영자(CEO), 마크 저커버그 메타 CEO, 젠슨 황 엔비디아 CEO 등의 반대가 결정적인 역할을 했다고 소식통은 전했다. 스페이스X와 메타는 독자 AI 모델을 개발 중이지만 앤트로픽·오픈AI에 비해서는 아직 성능이 뒤처진다는 평가를 받는다. AI 규제가 도입되면 선두권 진입이 가로막힐 수 있는 ‘후발주자’를 벗어날 수 없게 된다. AI칩을 공급하는 엔비디아에는 개발 속도 둔화가 학습·추론용 컴퓨팅 수요 증가세를 약화할 수 있다는 사업상 이해관계가 있다. 이들은 AI업계 자금으로 운영되는 기관에 대한 우려를 도널드 트럼프 대통령에게 전달했다. 현재 AI 규제론을 가장 선명하게 내세우는 앤트로픽 등이 일부 평가기관에 자금을 지원하는 상황을 언급한 것으로 해석할 수 있다. 앞서 앤트로픽은 ‘모델 평가 및 위협 연구소(METR)’같은 제3의 기관을 통해 출시 전 AI모델을 평가하자고 제안했다. 업계는 METR이 앤트로픽과 금전적·사적 관계로 얽혀 있다는 의혹을 제기한다. METR의 모태인 AI 안전연구기관 ARC는 자선기관 코이피션트기빙의 지원을 받았으며, 코이피션트기빙은 홀든 카노프스키가 앤트로픽 공동창업자인 다니엘라 아모데이의 남편이 세웠다는 주장이다. 데미스 허사비스 구글 딥마인드 의장이 “미국 주도의 첨단 AI 표준기구를 설립하자”고 제안한 것도 특정 기관에 휘둘리지 않겠다는 의도로 해석된다. 허사비스 의장은 연방정부 감독 아래 민관협력 또는 자율규제 형태의 표준기구를 대안으로 제시하며 미 금융산업규제국(FINRA)을 사례로 들었다. 아마존은 이날 “AI 모델은 엄격한 테스트와 강력한 안전장치를 거쳐 출시돼야 한다”는 입장을 밝혔지만, 개발 속도를 늦추는 데는 선을 그었다. 안전성에 대한 책임은 AI 개발사에 넘겼다는 해석이다. 실리콘밸리=김인엽 특파원 inside@hankyung.com"
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Benchmarking LLM Inference at Scale with AIPerf",
+   "link": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf/",
+   "date": "2026-09-19 04:04",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "AIPerf를 통한 대규모 LLM 추론 벤치마킹",
+    "korean_summary": "NVIDIA 기술 블로그에서 LLM 추론 성능 측정을 위한 AIPerf 도구를 소개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/benchmarking-llm-inference-at-scale-with-aiperf",
+   "body": "You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send... You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send curl commands, hand-roll an asyncio script, or vibe code yet another one-off load generator. All of these paths have the same problem: single-process performance limits, Python’s GIL capping concurrency, or numbers measured against a… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/us-chip-manufacturers-are-in-dire-need-of-engineers-and-technicians-experts-suggest-a-shortage-of-up-to-157-000-semiconductor-workers-by-2030",
+   "date": "2026-09-18 20:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "미국 칩 팹, 2030년까지 157,000명의 인력 부족 직면",
+    "korean_summary": "미국 반도체 제조업이 2030년까지 157,000명의 기술 인력 부족으로 심각한 도전에 직면할 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/us-chip-manufacturers-are-in-dire-need-of-engineers-and-technicians-experts-suggest-a-shortage-of-up-to-157-000-semiconductor-workers-by-2030",
+   "body": "Even as chipmakers race to build the most advanced chips inside the United States, experts are saying that their efforts are facing one monumental challenge: a massive shortage of skilled workers to run the fabs and factories. According to CNBC , global consulting firm McKinsey and the SEMI Foundation suggest the industry will have up to 157,000 positions that could remain unfilled by 2030. “I’m concerned,” Samsung semiconductor division EVP Jon Taylor told CNBC in an interview. “We just don’t see that there’s enough technical people in the pipeline.” The McKinsey report says that only 3% of U.S. engineering graduates end up working in the semiconductor industry, and that 73% of chip companies are finding it hard to fill engineering roles. This is a huge contrast to other tech jobs, which saw record layoffs by June of this year, when over 40,000 positions were axed, ostensibly largely due to AI . Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible The massive demand for memory and storage chips driven by the AI boom, combined with Washington’s efforts to bring semiconductor manufacturing back to the United States, has led to the buildup of multiple fabs and facilities dedicated to it. TSMC was one of the first companies to kick off this building spree, when it started construction on its Arizona campus in 2021. The site started churning out chips last year, with the company committing another $100 billion in July 2026 to build four more 2nm fabs. Intel’s Ohio One plant, which was, at one point, America’s largest fab complex, is also underway, with the site expected to start production between 2030 and 2031. The big three memory makers — Micron, Samsung, and SK hynix — are also planning or have recently completed major expansions in the U.S. Samsung is starting advanced semiconductor manufacturing in the U.S., with its Taylor, Texas, fab entering risk production this year. The fab is targeting an output of 50,000 wafer starts per month , and it is expected to create 3,500 jobs. “We’re hiring engineers, we’re hiring technicians, we’re hiring people in the supply chain,” Taylor told the publication. “Everybody wants and needs the same thing, and it’s a bit of a race against time right now as everything is starting to come online.” Micron is also currently building its Boise, Idaho, memory chip fab, which began construction in 2022 and is projected to begin wafer production by 2027. The company has also formally broken ground on its $100-billion New York “megafab,” with aims to produce 40% of its global output within the U.S. by the 2040s. Aside from these massive manufacturing sit"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "House passes act to make AI data centers pay for grid upgrades to minimize impact on residents — measure directs states to consider adoption of federal standard within two years of passing",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/house-passes-act-to-make-ai-data-centers-pay-for-grid-upgrades-to-minimize-impact-on-residents-measure-directs-states-to-consider-adoption-of-federal-standard-within-two-years-of-passing",
+   "date": "2026-09-19 00:20",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 하원, AI 데이터센터 그리드 업그레이드 비용 부담 법안 통과",
+    "korean_summary": "미국 하원이 데이터센터가 전력망 업그레이드 비용을 부담하도록 하는 Ratepayer Protection Act를 통과시켰습니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/house-passes-act-to-make-ai-data-centers-pay-for-grid-upgrades-to-minimize-impact-on-residents-measure-directs-states-to-consider-adoption-of-federal-standard-within-two-years-of-passing",
+   "body": "The U.S. House of Representatives just passed a bill that creates a federal standard requiring data centers to pay for grid upgrades made in their favor. H.R. 9340, also known as the Ratepayer Protection Act , amends the Public Utility Regulatory Policies Act of 1978, which would require each State regulatory authority and each non-regulated electric utility to consider the adoption of the bill within two years of its passing, if it is signed into law. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible This bill would ensure that data centers with a capacity of 100 megawatts or more would have to pay “the full, incremental cost of any generation, transmission, or distribution upgrade necessary to serve the load of such large-load customer, including in the event of such large-load customer terminating a contract or other agreement with the electric utility pertaining to the sale of electric energy, or otherwise ceasing the purchase of electric energy from the electric utility.” This bill closely follows President Donald Trump’s “Ratepayer Protection Pledge,” where he made AI hyperscalers, utility providers, and state governors promise that they will pay their own way when it comes to their electricity demands. All this stemmed from the surprise price hikes that many residential users and small businesses suffered from because of the massive demand by AI data centers and has become one of the primary reasons why the majority of Americans now oppose data center developments in their communities. Oregon is actually one of the first states to have taken concrete steps in controlling the utility price increases when it passed the POWER Act in 2025. This law is even more stringent, with any development using more than 20 megawatts required to pay its fair share, and has already resulted in a 30% hike for data center electricity bills and a 1.3% reduction for residential power costs. Virginia has also followed suit soon after its governor signed the Ratepayer Protection Pledge in July 2026, with Virginia’s State Corporation Commission requiring data centers to pay for all required transmission infrastructure . Even though the House of Representatives has already passed H.R. 9340, it still needs to go through the Senate before finally heading towards the White House for signing by the President. But even if it passes through the remaining hurdles, and the U.S. adopts a federal standard where large data centers pay for grid upgrades done in their name, it’s still up to each state regulator if they will adopt the standard. Furthermore, states have up to two years to make a final decisio"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Anthropic selects Accenture as first embedded evaluator to help implement Amodei's slowdown proposal",
+   "link": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+   "date": "2026-09-19 06:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "partnership"
+    ],
+    "korean_title": "Anthropic, Accenture와 AI 속도 조절 평가 협력",
+    "korean_summary": "Anthropic이 Accenture를 embedded evaluator로 선정하여 AI 개발 속도 조절을 구체화하며 5년간 $10억을 투자합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/09/18/anthropic-accenture-ai-safety.html",
+   "body": "Anthropic on Friday announced it has selected Accenture as an embedded evaluator, the company's first concrete step toward implementing CEO Dario Amodei's proposal to slow down the pace of artificial intelligence development. Both Anthropic and Accenture have agreed to invest at least $1 billion to \"building capacity in this area\" over the next five years, according to a release. But Anthropic said that given the \"importance and urgency,\" it will fund Accenture's work directly. \"Long-term, we think funding should come from pooled or government sources, as we called for in our Advanced AI Framework in June,\" Anthropic said. \"As neither exists today, we plan to work with different evaluators under different funding arrangements.\" On Saturday, Amodei rocked the tech sector by publishing a three-step plan to temper how quickly AI companies improve their most advanced models. Anthropic and its chief rival, OpenAI, have been under intense scrutiny in recent weeks after a growing chorus of researchers warned about the potential for AI to cause catastrophic harm. Amodei's proposal was cheered by some industry executives this week, including OpenAI CEO Sam Altman and Tesla and SpaceX CEO Elon Musk, but others, like Nvidia CEO Jensen Huang, brushed off concerns and argued that there's no need for new regulation. Many questioned what Amodei's proposal would mean in practice, especially as Anthropic gears up for what is widely expected to be a blockbuster IPO. The first step of Amodei's plan grants third-party evaluators employee-level access to the company to verify safety practices and report incidents. He said Saturday that Anthropic \"unilaterally\" committed to this part of the proposal, and he encouraged other AI companies to do the same. Anthropic said Friday that it has initially agreed to embed employees from Faculty, Accenture's specialist AI business, into the company in order to test safeguards, red-team models and assess whether models behave in line with human values. The partnership is not exclusive, and Anthropic said it is in discussions with the research nonprofit METR, as well as other third parties. The company emphasized that it is still responsible for the safety of its models, and said that working with embedded evaluators will not reduce its accountability. \"We're sharing these early efforts now so people and other AI developers can see our process,\" Anthropic said. \"We expect our approach to evolve as the field matures, and we'll share more as our work begins and as we bring on additional evaluators.\""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Dario Amodei and other AI leaders want to ‘Pace the Frontier’ but…how?",
+   "link": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow/",
+   "date": "2026-09-19 02:09",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Dario Amodei의 'Pace the Frontier' 제안에 Jensen Huang 반발",
+    "korean_summary": "Anthropic CEO가 AI 개발 속도 조절을 제안하자 NVIDIA CEO Jensen Huang이 반대 입장을 밝혔습니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://techcrunch.com/video/dario-amodei-and-other-ai-leaders-want-to-pace-the-frontier-buthow",
+   "body": "A week after an Anthropic researcher&#8217;s doomsday warning rattled the AI world, the company&#8217;s CEO Dario Amodei has&#160;outlined his plan to “pace the frontier”&#160;of AI development. The proposal leans on independent safety evaluators and coordination between AI labs in democratic countries, and&#160;it&#8217;s&#160;already picked up some&#160;industry support, along with some pointed&#160;pushback from Nvidia&#8217;s Jensen Huang.&#160; Watch [&#8230;]"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Cloud Platform Nscale Files For IPO — NVDA Stock In Focus",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHFYSG01MWZIMld6QlhEelY2QmhlVG5kLUcwblNPczJ5SFVUMFBncFdfMnlrMUdBRmpyOEtPc1prV3VYYXdxcjhvbTZXN2tPNUlXUFZLVmZSRVVRZUhFektVMjhZb0JQTkFULXc0eXNOT0FBTWV1dENDb2xyd3FveGpJaVBMcWUxbWxhelppbnRGRG95eDRGZFRNM1BSYS1namc?oc=5",
+   "date": "2026-09-19 06:31",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 후원 Nscale, IPO 추진",
+    "korean_summary": "NVIDIA가 후원하는 클라우드 플랫폼 Nscale이 IPO 신청을 진행했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdHFYSG01MWZIMld6QlhEelY2QmhlVG5kLUcwblNPczJ5SFVUMFBncFdfMnlrMUdBRmpyOEtPc1prV3VYYXdxcjhvbTZXN2tPNUlXUFZLVmZSRVVRZUhFektVMjhZb0JQTkFULXc0eXNOT0FBTWV1dENDb2xyd3FveGpJaVBMcWUxbWxhelppbnRGRG95eDRGZFRNM1BSYS1namc",
+   "body": ""
+  },
+  {
+   "source": "Google News · futurumgroup.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cisco and NVIDIA Bring Splunk AI to Enterprises",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRE1nYWFScUkxc29MYmdKVUFYMmFlSGY2Ml83cnUtNVhSSkUyOG5NLUY4U3lJd0psWE1EQkJSUXVUS3NqMDg3Q2RaLVAzdTdQMm8zWm5XX3cxenJRbHhQbUJNT2pIVjJxdlE2ZzNvZmpZWHB3M1VHTVh3MnFKUkdrM1l4ZENQV3M1N3c?oc=5",
+   "date": "2026-09-19 03:33",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco와 NVIDIA, 엔터프라이즈 고객에 Splunk AI 제공",
+    "korean_summary": "Cisco와 NVIDIA가 협력하여 기업 고객들을 대상으로 Splunk AI 솔루션을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRE1nYWFScUkxc29MYmdKVUFYMmFlSGY2Ml83cnUtNVhSSkUyOG5NLUY4U3lJd0psWE1EQkJSUXVUS3NqMDg3Q2RaLVAzdTdQMm8zWm5XX3cxenJRbHhQbUJNT2pIVjJxdlE2ZzNvZmpZWHB3M1VHTVh3MnFKUkdrM1l4ZENQV3M1N3c",
+   "body": ""
+  },
+  {
+   "source": "Google News · bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Google, Emerald AI Form AI Energy Management Alliance",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZDgtSTZmZnZtajAwYjFFc1E0cWpZd1RVUkNkMmZrUkljckE4X3k2SVpleFJnZklvT3EzTi15Y3owUWVMYkVnMjFNQ3NBb0hQMTJkV3B2bU9kZjZfOU83YktEcjBjMy1rMl93eVF3dkJNRWVLMmxhY0VWWmdFallBSjFNZHNvV1IzWEZ0UzZGbWhBZmdmSmkyUXV4eHY2NTVuenVLNGt2anI?oc=5",
+   "date": "2026-09-19 03:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Google·Emerald AI, AI 에너지 관리 연합 결성",
+    "korean_summary": "NVIDIA, Google, Emerald AI가 AI의 에너지 효율 관리를 위한 연합을 결성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZDgtSTZmZnZtajAwYjFFc1E0cWpZd1RVUkNkMmZrUkljckE4X3k2SVpleFJnZklvT3EzTi15Y3owUWVMYkVnMjFNQ3NBb0hQMTJkV3B2bU9kZjZfOU83YktEcjBjMy1rMl93eVF3dkJNRWVLMmxhY0VWWmdFallBSjFNZHNvV1IzWEZ0UzZGbWhBZmdmSmkyUXV4eHY2NTVuenVLNGt2anI",
+   "body": ""
+  },
+  {
+   "source": "Google News · Memeburn",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung Backs Nvidia AI Chip Rival Euclyd In $230M Funding Round",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMTVFTjNaUmlVZ3hjTW52S19rRXU5eGp3Wk5TNnBibU9ldzhUR2JTRHA0czMzT1BwV2FPVHhpem1KcGo5N1BXTmlCWXF0VFJMd1R6Vi1yU3ZSN1ExcXNaallyZHNsemtGTDNBNlk5UnZpM1dsUWt2NWxWXzI1R0szaGZ3eG9oYkg1OWlGaDRB?oc=5",
+   "date": "2026-09-19 06:01",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "Samsung, NVIDIA 경쟁사 Euclyd에 2억 3000만 달러 투자",
+    "korean_summary": "Samsung이 NVIDIA AI 칩 경쟁사인 Euclyd의 펀딩 라운드에 참여했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMTVFTjNaUmlVZ3hjTW52S19rRXU5eGp3Wk5TNnBibU9ldzhUR2JTRHA0czMzT1BwV2FPVHhpem1KcGo5N1BXTmlCWXF0VFJMd1R6Vi1yU3ZSN1ExcXNaallyZHNsemtGTDNBNlk5UnZpM1dsUWt2NWxWXzI1R0szaGZ3eG9oYkg1OWlGaDRB",
+   "body": ""
+  },
+  {
+   "source": "Google News · AI Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Emerald AI Forms Coalition With Google, Nvidia and Anthropic to Expand AI Data Center Grid Capacity",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeERlT1gtVU9leWVja2tHZHlrVVNHLS1BeGhDZHZWeWUyT3pmdDN1NTBkclh0ZzI4WG1uUjBNaTJoWmdRSU5LOGYwV01lNXFXeklodS1OMU5iTWFReVVDR2VCZjN0UGk1VElJdkdOYml5VlFXUzA4VmhOdENpNkN3LUpkbjcza1cyRHRFejFwOWp5a2lyVEloeS1DdElVSU1jb0poOGJndU9CbDgxNHBYVUNMTzd1QnNwSjk2M1hkY3VwTlJBdk44cGdHNDRYOVdEVEE?oc=5",
+   "date": "2026-09-19 01:49",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Emerald AI, Google, 엔비디아, Anthropic 데이터센터 연합 구성",
+    "korean_summary": "Emerald AI가 Google, 엔비디아, Anthropic과 함께 AI 데이터센터 그리드 용량 확대를 위한 연합을 결성했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · the Electrical Distributor magazine",
+     "title": "Emerald AI, Google, NVIDIA Form Flexible Data Center Alliance",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbGREUjRHWXR0bm5ZNF9VVGlzclFNVmtLNXdYMHBQTl9zTW9iajNQSU1CS2kxNDRRMDRtSkM4S0k4TXlTdV9od0dGMlRJU1lpQjA4T2FJV2RCNDRYclJSbjB4RXlET3NyQjlqM2pJTUxuNDZnOHZ2a2daMV9xdEZhOUFpZkdQdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeERlT1gtVU9leWVja2tHZHlrVVNHLS1BeGhDZHZWeWUyT3pmdDN1NTBkclh0ZzI4WG1uUjBNaTJoWmdRSU5LOGYwV01lNXFXeklodS1OMU5iTWFReVVDR2VCZjN0UGk1VElJdkdOYml5VlFXUzA4VmhOdENpNkN3LUpkbjcza1cyRHRFejFwOWp5a2lyVEloeS1DdElVSU1jb0poOGJndU9CbDgxNHBYVUNMTzd1QnNwSjk2M1hkY3VwTlJBdk44cGdHNDRYOVdEVEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · bgr.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia And Google Form AI Energy Management Alliance — Here's Why It Matters",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa09Pb2hSN01yREoySUEtOFFaWEJkVDYxY0lPODdQcm5nSW5oZGZDeHhUSUlYTUdxSV9sOEE0US1CUVVGVG04NlFNdDg4UVkxaEdjRXRkX2dGMDBibndWdHBvai1xMTVQdUkzS3VMQzFWRFdTQmVjOGlQUXlzU2FrWHNfd2tOam8?oc=5",
+   "date": "2026-09-18 19:17",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "엔비디아와 Google, AI 에너지 관리 연합 결성",
+    "korean_summary": "엔비디아와 Google이 AI 에너지 관리를 위한 연합을 구성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa09Pb2hSN01yREoySUEtOFFaWEJkVDYxY0lPODdQcm5nSW5oZGZDeHhUSUlYTUdxSV9sOEE0US1CUVVGVG04NlFNdDg4UVkxaEdjRXRkX2dGMDBibndWdHBvai1xMTVQdUkzS3VMQzFWRFdTQmVjOGlQUXlzU2FrWHNfd2tOam8",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "HONOR to launch 2L AI workstation with NVIDIA RTX Spark and 128GB memory",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wjtasd/honor_to_launch_2l_ai_workstation_with_nvidia_rtx/",
+   "date": "2026-09-19 00:27",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "HONOR, NVIDIA RTX Spark 탑재 AI 워크스테이션 출시",
+    "korean_summary": "HONOR가 128GB 메모리를 갖춘 NVIDIA RTX Spark 기반 2L AI 워크스테이션을 출시한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wjtasd/honor_to_launch_2l_ai_workstation_with_nvidia_rtx",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Delivers Stunning Prediction About Chip Sales",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXZLcy1KUWNhcGJ4US1pQkxoY1MwV19LbEIybG9fT09fRGI4amJqanpQQndqazJpcEpxQjBNMWVBU2paZFN1UW5FUjdkQTBDLUVwbTJYTVZrOGtpVkZpVU90QjItWmk1R0FRbm11OU9lbmZnVUthVDY5ZC1JMzhKbFlkbjlYZ3MxaTdxY0lIZnhIZ2NyckwzODBZRW5WQXA3WkJENDhn?oc=5",
+   "date": "2026-09-18 21:15",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO, 칩 판매 전망에 대한 놀라운 예측 발표",
+    "korean_summary": "NVIDIA CEO가 칩 판매량에 대한 예측을 발표했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUXZLcy1KUWNhcGJ4US1pQkxoY1MwV19LbEIybG9fT09fRGI4amJqanpQQndqazJpcEpxQjBNMWVBU2paZFN1UW5FUjdkQTBDLUVwbTJYTVZrOGtpVkZpVU90QjItWmk1R0FRbm11OU9lbmZnVUthVDY5ZC1JMzhKbFlkbjlYZ3MxaTdxY0lIZnhIZ2NyckwzODBZRW5WQXA3WkJENDhn",
+   "body": ""
+  },
+  {
+   "source": "Google News · computerweekly.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Doesn't Sell Chips. It Sells a Flywheel",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRDFLX3JUZ1VRX18yTFItV3pnZlBCQzV6Q0dLWTZmNVJiSkxSNnlRcnNkWVRJWEViUERDUGdIX24ta0toM2xCZmtKTGNHUG9oUmJVR0NTaEFycmViSDA4emllQW51Z1lJZFB1SmZ5cE41ODNLY0M0eGpfU1FqZER3MjlENzdxR045Q3Zn?oc=5",
+   "date": "2026-09-19 02:40",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA는 칩이 아니라 선순환 구조를 판다",
+    "korean_summary": "NVIDIA의 비즈니스 모델에 대한 분석 기사다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRDFLX3JUZ1VRX18yTFItV3pnZlBCQzV6Q0dLWTZmNVJiSkxSNnlRcnNkWVRJWEViUERDUGdIX24ta0toM2xCZmtKTGNHUG9oUmJVR0NTaEFycmViSDA4emllQW51Z1lJZFB1SmZ5cE41ODNLY0M0eGpfU1FqZER3MjlENzdxR045Q3Zn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Moomoo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Nscale Files for IPO",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHY4b1pzNEFHcjNEQWFCUDEyOW1iNFZTWk1TQzFIdjRKZFRCNnJJNFhNRWV6ZlBIQkZkOW1GVk5uVk5vcjNxTTBYcmJmY2lKdmUtQVFocVV5MXU0aEJlNmNsRC1iOGRDUXkwUlZfaTlVUk1HZVBQSFdOUEtmV2JldUVR?oc=5",
+   "date": "2026-09-19 05:10",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아 지원 Nscale, IPO 신청",
+    "korean_summary": "엔비디아가 지원하는 Nscale이 기업공개를 신청했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Breakingthenews.net",
+     "title": "Nvidia-backed firm Nscale files for IPO",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUWNNUzBXNkRWMG52ZllBMERqejB3bnFJNWlFLTBqUC11M0tLU0o0TFZ2dGNHd2lFTHhwUmlIZ2RvSXdhdjlJSzNfckExbWpBNm9vdWg3cmhsTUpLWEF1c3dscVRLYWJ5aVpHTmZwdmxqZGVQWmk4TE1tYkExQzFINzNWQ1BxTjRrQzRMbQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRHY4b1pzNEFHcjNEQWFCUDEyOW1iNFZTWk1TQzFIdjRKZFRCNnJJNFhNRWV6ZlBIQkZkOW1GVk5uVk5vcjNxTTBYcmJmY2lKdmUtQVFocVV5MXU0aEJlNmNsRC1iOGRDUXkwUlZfaTlVUk1HZVBQSFdOUEtmV2JldUVR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engineering.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Saturn Cloud integrates NVIDIA Run:ai for AI inference",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBOU2pNSWg5QUYyakFkdFgxTzFJSjlOak5FSW1TTlE0X1Q1N2U5V3MwNjZ1Rk9aVlc2RkttOGRQZDFGMkU0bExtZ1B4VEV4SW51SHZoUDZBNG1YRklOcEVZTHE4azRueUgzeTQyU0xQeFZkMGhRS3Z4VWJDUVVybTZRNWk2OVZGTUE?oc=5",
+   "date": "2026-09-18 20:25",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Saturn Cloud, 엔비디아 Run:ai 통합",
+    "korean_summary": "Saturn Cloud가 AI 추론을 위해 엔비디아의 Run:ai를 자사 플랫폼에 통합했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBOU2pNSWg5QUYyakFkdFgxTzFJSjlOak5FSW1TTlE0X1Q1N2U5V3MwNjZ1Rk9aVlc2RkttOGRQZDFGMkU0bExtZ1B4VEV4SW51SHZoUDZBNG1YRklOcEVZTHE4azRueUgzeTQyU0xQeFZkMGhRS3Z4VWJDUVVybTZRNWk2OVZGTUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA CEO Says AI Spending Flywheel Is ‘Really, Really Flying’",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRDE5a1YwMXgxZzMycWoyT2psbkFKZ0lhOW5COXY0dVctejNYRHJxNUJ0TlNDUUNDNzg1MDZSaGYxN1o1ZGhEWWl4NnlRY2hmNkN4SHR0T3lYTzlqSVlPclVTWFRFN3E2RE9KNWpnT1g3bTQ1bTRLWDFaVjU5VnVaUkZqMGtROG9KQ3dKdERmLU8xU0xBa2c?oc=5",
+   "date": "2026-09-18 19:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO, AI 지출 선순환이 '정말 잘 돌아가고 있다'",
+    "korean_summary": "NVIDIA CEO가 AI 인프라 투자의 선순환 효과가 가속화되고 있다고 발언했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRDE5a1YwMXgxZzMycWoyT2psbkFKZ0lhOW5COXY0dVctejNYRHJxNUJ0TlNDUUNDNzg1MDZSaGYxN1o1ZGhEWWl4NnlRY2hmNkN4SHR0T3lYTzlqSVlPclVTWFRFN3E2RE9KNWpnT1g3bTQ1bTRLWDFaVjU5VnVaUkZqMGtROG9KQ3dKdERmLU8xU0xBa2c",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia GPU running on Mac at full speed",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wjgekm/nvidia_gpu_running_on_mac_at_full_speed/",
+   "date": "2026-09-18 13:36",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "맥에서 RTX 5090을 풀 속도로 실행하는 비공식 CUDA 드라이버 개발",
+    "korean_summary": "개발자가 C로 CUDA 드라이버를 재작성하여 macOS에서 RTX 5090이 Windows 수준 성능으로 작동하도록 하는 프로젝트를 GitHub에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wjgekm/nvidia_gpu_running_on_mac_at_full_speed",
+   "body": "I've got an external 5090 I've been running on my windows box for most of this year. I wanted to run it on my Mac so I don't have to remote into my pc to do AI work like stable diffusion. TinyGpu got the link working in April but running models is 10x slower than running it on my pc. I decided to try rewriting the driver in C and making some shims to run cuda faster. It worked and I can now run sdxl almost 2x faster than on my windows box in stable diffusion ccc. If you would like to contribute to my project you can find it at https://github.com/Davinchy/macuda submitted by /u/LioDavinchy [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/TensorRT-LLM v1.3.0rc27",
+   "link": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc27",
+   "date": "2026-09-18 12:14",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/TensorRT-LLM",
+    "version": "v1.3.0rc27"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "TensorRT-LLM v1.3.0rc27 릴리스",
+    "korean_summary": "NVIDIA가 TensorRT-LLM 마이너 버전을 릴리스하고 알려진 이슈들을 공지했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/TensorRT-LLM:v1.3.0rc27",
+   "body": "Highlights Known Issues GPT-OSS Eagle3 speculative decoding may hang, produce non-terminating output, or lose accuracy when using multi-GPU execution. GPT-OSS W4 inference with the Triton MoE backend may intermittently hang or lose accuracy in four-GPU data-parallel or expert-parallel configurations. GPT-OSS Harmony tool calls may continue generating after the tool-call delimiter, resulting in malformed or repeated tool calls and an incorrect finish reason. Qwen3-235B NVFP4 inference on B200 may intermittently lose accuracy when all-reduce autotuning is enabled. Set TLLM_DISABLE_ALLREDUCE_AUTOTUNE=1 to avoid the issue. Qwen3-6B-A3B NVFP4 W4A16 inference may fail during initialization on Blackwell SM120 and SM121 GPUs. MiniMax-M3 MXFP8 inference using piecewise CUDA graphs with the Triton sparse-attention implementation may crash during initialization on B300 and GB300 systems. Use the MSA implementation to avoid the affected path. Kimi-K3-NVFP4 may fail to initialize its tokenizer with the Transformers version included in DLFW 26.08. Nemotron-H weight updates through Ray may OOM or produce incorrect logits with DLFW 26.08 because compatible Mamba dependencies are unavailable. mBART encoder-decoder inference may hang during the first generation request with DLFW 26.08. Cosmos3 pipelines may fail to load when VAE CPU offload is enabled. Disable VAE CPU offload to avoid the affected path. Multi-GPU disaggregated serving may hang during worker startup for TinyLlama deployments using pipeline or tensor parallelism, and for GPT-OSS-120B generation workers using TP4 on GB200. Model Support Add MiniMax-H3 VisualGen support for text-to-video with audio and first/last-frame-to-video with audio, with BF16 and FP8 blockwise configurations #18733 Enable Nemotron 3.5 Super VL serving with multimodal model delegation and automatic reasoning and tool-parser selection #18804 Add Cosmos3 Edge Policy DROID support for state-conditioned robot-policy rollout and action generation throug"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/Megatron-LM NVIDIA Megatron Core 0.19.2",
+   "link": "https://github.com/NVIDIA/Megatron-LM/releases/tag/core_v0.19.2",
+   "date": "2026-09-19 05:12",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/Megatron-LM",
+    "version": "core_v0.19.2"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Megatron-LM Core 0.19.2 버전 업데이트",
+    "korean_summary": "NVIDIA Megatron Core가 0.19.2로 업데이트되며 FP4 지원이 추가되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/Megatron-LM:core_v0.19.2",
+   "body": "TransformerEngine upgraded from 2.17 to 2.18 Added support for FP4 in 1F1B A2A overlap ( #6135 ) Changelog Details ci: Revert version update (0.19.1) by @balasaajay :: PR: #6681 beep boop 🤖: Bumping Megatron Core to v0.19.1 by @nvidia-megatron-lm-release-bot[bot] :: PR: #6691 cp: treat svcnemo-autobot as internal by @svcnemo-autobot :: PR: #6707 chore: Update transformer-engine to version 2.18.0 and adjust dependencies by @balasaajay :: PR: #6863 cp: reject request-supplied chat templates by @svcnemo-autobot :: PR: #7070 cp: Support FP4 in 1F1B A2A overlap (6135) into core_r0.19.0 by @dingqingy-nv :: PR: #7198 build: update wandb to 0.29.0 by @balasaajay :: PR: #7373 cp: Fix Transformer Engine API documentation link (7225) into core_r0.19.0 by @balasaajay :: PR: #7482 chore: bump megatron-core to v0.19.2 by @balasaajay :: PR: #7489 ci: Revert version update (0.19.1) ( #6681 ) by @balasaajay beep boop 🤖: Bumping Megatron Core to v0.19.1 [skip ci] by @github-actions[bot] cp: treat svcnemo-autobot as internal ( #6707 ) by @svcnemo-autobot chore(beep boop 🤖): Bump (core_r0.19.0) (2026-08-24) by @github-actions[bot] chore: Update transformer-engine to version 2.18.0 and adjust dependencies ( #6863 ) by @balasaajay chore(beep boop 🤖): Bump (core_r0.19.0) (2026-08-31) by @github-actions[bot] chore(beep boop 🤖): Bump (core_r0.19.0) (2026-09-07) by @github-actions[bot] cp: reject request-supplied chat templates ( #7070 ) by @svcnemo-autobot cp: Support FP4 in 1F1B A2A overlap (6135) into core_r0.19.0 ( #7198 ) by @dingqingy-nv chore(beep boop 🤖): Bump (core_r0.19.0) (2026-09-14) by @github-actions[bot] build: update wandb to 0.29.0 ( #7373 ) by @balasaajay cp: Fix Transformer Engine API documentation link (7225) into core_r0.19.0 ( #7482 ) by @balasaajay chore: bump megatron-core to v0.19.2 ( #7489 ) by @balasaajay"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3-Diarization-preview (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3-Diarization-preview",
+   "date": "2026-09-18 22:45",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3-Diarization-preview",
+    "version": "voice-activity-detection"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3-Diarization 오디오 모델 업데이트",
+    "korean_summary": "NVIDIA가 화자 분류 및 음성 활동 감지를 위한 Nemotron-3-Diarization 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3-Diarization-preview:2026-09-18",
+   "body": "Hugging Face 모델 업데이트. pipeline: voice-activity-detection · library: nemo · tags: nemo, speaker-diarization, streaming-sortformer, speaker-tagging, audio, voice-activity-detection · downloads 1144 · likes 66."
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 60.5
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 21,
+   "enriched": 21,
+   "error": "",
+   "sec": 6.2
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 10,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 39,
+   "enriched": 12,
+   "error": "",
+   "sec": 3.9
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 28.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 4.2
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 24,
+   "enriched": 24,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 4.2
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
