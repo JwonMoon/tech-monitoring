@@ -34,10 +34,10 @@ SOURCES = [
     # ── 공식 (1차 출처) ──
     # wayve.ai 가 /press/category/press-release/ 형태의 WordPress 퍼머링크를 쓴다.
     # 둘 중 사는 쪽을 crawl_only 로 확인하고 죽은 쪽은 비활성한다.
-    Source("Wayve", "https://wayve.ai/feed/", category="official", weight=1, prefilter=False,
-           note="2026-09-18 도입. WordPress 관례 추론 — crawl_only 로 검증 필요"),
-    Source("Wayve · Press", "https://wayve.ai/press/feed/", category="official", weight=1, prefilter=False,
-           note="2026-09-18 도입. 위와 중복이면 하나만 남긴다"),
+    Source("Wayve", "https://wayve.ai/feed/", category="official", weight=1, prefilter=False, ua="simple",
+           note="2026-09-18 전체 Chrome UA 로 403. 한국경제 IT 와 같은 증상이라 짧은 UA 로 재시도 중"),
+    Source("Wayve · Press", "https://wayve.ai/press/feed/", category="official", weight=1, prefilter=False, ua="simple",
+           note="2026-09-18 전체 Chrome UA 로 403. 짧은 UA 로 재시도 중"),
 
     # ── 릴리스 · 연구 ──
     *github_releases(GITHUB_REPOS),
