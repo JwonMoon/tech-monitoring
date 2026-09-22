@@ -1,0 +1,2516 @@
+{
+ "subject": "nvidia",
+ "date": "2026-09-22",
+ "window": [
+  "2026-09-21",
+  "2026-09-22"
+ ],
+ "generated": "2026-09-22T09:15:22+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Einride가 NVIDIA Hyperion 플랫폼을 활용해 **2028년까지 자율주행 트럭 2,000대** 배치를 목표로 협력을 확대한다.",
+  "NVIDIA가 자율주행차와 로봇 등 물리 AI의 대규모 배포를 위해 하드웨어부터 AI 행동까지 아우르는 풀스택 안전 시스템 **'Halos'**를 공개했다.",
+  "Amazon AWS가 2029년까지 NVIDIA 칩을 **300만개 이상** 추가 구매하기로 하며 장기 협력을 강화했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride Taps Nvidia To Power Autonomous Trucking Push - Targets Up To 2,000 Vehicles By 2028",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOUVHYXdDZlZ4aXlTUlVyT2xxSWVkUVpwRnhSMkJjVzJfZVR3TVp0T19vNUFDWENqWXVIWGxpdmJxWnlQMHdqbVZ6azFBc1U3SUNUaF9VMVZDSXEtREdLMWQzNlJmWVR3WENiazJSTGhPWkNjWjZwSW90aGJKYlMxQVhWOFNxYmN4cXNtdkJaS3hZNWVCb0NrSFJ6c2NaWVFKRGl5ZF9DbWJSaU1IVmdvSlZUQWV2Y3g0Z1IxaDlPQlZDdjQxcVBJaTh6QnRGdnhDaURDX2pkeUtDb0RQcHctN0FQUXYyUQ?oc=5",
+   "date": "2026-09-21 21:41",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride-NVIDIA 협력, 2028년까지 2,000대 자율주행 트럭 목표",
+    "korean_summary": "Einride가 NVIDIA와 협력하여 2028년까지 최대 2,000대의 자율주행 트럭 배치를 목표로 한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOUVHYXdDZlZ4aXlTUlVyT2xxSWVkUVpwRnhSMkJjVzJfZVR3TVp0T19vNUFDWENqWXVIWGxpdmJxWnlQMHdqbVZ6azFBc1U3SUNUaF9VMVZDSXEtREdLMWQzNlJmWVR3WENiazJSTGhPWkNjWjZwSW90aGJKYlMxQVhWOFNxYmN4cXNtdkJaS3hZNWVCb0NrSFJ6c2NaWVFKRGl5ZF9DbWJSaU1IVmdvSlZUQWV2Y3g0Z1IxaDlPQlZDdjQxcVBJaTh6QnRGdnhDaURDX2pkeUtDb0RQcHctN0FQUXYyUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Cryptonomist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia SB Energy investment hits $3 billion ahead of $50 billion IPO",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hcE9vUzYzcTRMbmxZZEdqYUxKOTVGb3RDS0xCcGJTOWtKRGpKRFN6THBRek5QNlZGWk1qYjRlUkhPdFBMcDQ2M0RISVAtMm1uZkk4dWp3cm5YSHVfNHhtRHR1MVBqVlJCUjRsTVM2Y1VmVkZV?oc=5",
+   "date": "2026-09-22 04:58",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, SB Energy에 30억 달러 투자 규모 확대",
+    "korean_summary": "NVIDIA가 SB Energy 투자를 30억 달러로 늘리며 500억 달러 규모 IPO를 앞두고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hcE9vUzYzcTRMbmxZZEdqYUxKOTVGb3RDS0xCcGJTOWtKRGpKRFN6THBRek5QNlZGWk1qYjRlUkhPdFBMcDQ2M0RISVAtMm1uZkk4dWp3cm5YSHVfNHhtRHR1MVBqVlJCUjRsTVM2Y1VmVkZV",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+   "link": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton/",
+   "date": "2026-09-22 06:51",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "TensorRT 11.0, 다중 GPU 모델 서빙 기능 추가",
+    "korean_summary": "NVIDIA가 TensorRT 11.0에서 NCCL 기반 분산 추론으로 단일 TensorRT 네트워크가 여러 GPU에서 실행되도록 지원하는 기능을 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, TensorRT 멀티 디바이스 추론으로 Dynamo-Triton의 멀티 GPU 모델 서빙 간소화",
+    "korean_summary": "NVIDIA가 생성형 AI 모델의 연산·메모리 요구가 단일 GPU 한계를 초과하는 문제를 해결하기 위해 TensorRT 11.0부터 NCCL 기반 다중 GPU 분산 추론을 정식 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "TensorRT에 멀티 디바이스 추론 기능을 추가하여 단일 TensorRT 네트워크가 NCCL 기반 분산 collective를 통해 여러 GPU에서 실행되도록 지원",
+     "stage": "Available",
+     "timeline": "TensorRT 11.0부터 정식 지원",
+     "scope": "Dynamo-Triton을 통한 멀티 GPU 모델 서빙 환경"
+    },
+    "key_facts": [
+     "생성형 AI 모델의 연산·메모리 요구가 단일 GPU 용량을 초과하는 추세",
+     "**TensorRT multi-device inference**는 단일 TensorRT 네트워크를 여러 GPU에서 실행 가능하게 하는 신규 기능",
+     "NCCL 기반 분산 collective(distributed collectives)를 사용해 GPU 간 통신 처리",
+     "**TensorRT 11.0부터 정식(fully) 지원**되며 기존 TensorRT 추론 최적화는 그대로 유지"
+    ],
+    "why_matters": "대형 생성형 AI 모델이 커지면서 단일 GPU로는 서빙이 불가능한 경우가 늘어나는데, TensorRT가 멀티 GPU 분산 추론을 네이티브로 지원함으로써 **인프라 복잡도를 낮추고 서빙 파이프라인을 단순화**한다. 이는 대규모 모델 서빙 시장에서 NVIDIA 소프트웨어 스택(TensorRT+Dynamo-Triton)의 경쟁력을 강화하는 요소다.",
+    "subject_angle": "NVIDIA는 하드웨어(GPU)뿐 아니라 **TensorRT·Dynamo-Triton 등 추론 소프트웨어 스택을 통해 멀티 GPU 서빙 표준을 장악**하려는 전략을 이어가고 있으며, 이는 대형 모델 시대에 GPU 클러스터 판매와 소프트웨어 종속성을 동시에 강화한다.",
+    "focus_angle": "자율주행·휴머노이드 로봇에서 사용되는 대형 파운데이션 모델(VLA, 멀티모달 인지 모델 등)은 단일 GPU 용량을 초과하는 경우가 많아, 이번 TensorRT 멀티 디바이스 추론은 OEM·로보틱스 기업이 클라우드/데이터센터에서 **대규모 시뮬레이션·모델 서빙 인프라를 구축**하는 데 실질적 도움을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "TensorRT 및 Dynamo-Triton 개발·제공사"
+     }
+    ],
+    "products": [
+     {
+      "name": "TensorRT",
+      "role": "멀티 디바이스 추론 신규 기능 탑재 대상 SDK"
+     },
+     {
+      "name": "NVIDIA Dynamo-Triton",
+      "role": "TensorRT 멀티 GPU 추론이 통합되는 모델 서빙 플랫폼"
+     },
+     {
+      "name": "NCCL",
+      "context": "미확인",
+      "role": "멀티 GPU 간 분산 collective 통신 백엔드"
+     }
+    ],
+    "watch_next": [
+     "실제 자율주행·로봇 파운데이션 모델(VLA 등)에 대한 적용 사례 공개 여부",
+     "TensorRT 11.0 정식 출시 일정 및 지원 GPU/플랫폼 범위",
+     "Dynamo-Triton 기반 멀티 GPU 서빙의 성능 벤치마크(지연시간·처리량) 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcXNZQnk5cXZlQWQzWUxqY292aGRFNVFlZWRsa0V5V2Z5bmZkckZfblZXa3lFRTJqQkduQ0NibnVtXzJwLUFJYlVKRV9YUVBzbk45TkRUelVjRzJfQXBKWUEtNXJ2SklzLUZjY1dLa1p2SHNLankzZUxLOWVEUFB1SGo5ZDBHTTlLdHBhUUF5eE1laUR3WlVxUDk4WUlOVTgzN1JOc3R6REwxdUZvRkkyYkpnWGFyaW4tcU0wWVp5N1RQOWlhd3hIblRwR0k2dVphSHdDVXJtRmQyaTVtNHBkaDdHX09JQQ?oc=5"
+    },
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Simplifying Model Serving Across Multiple GPUs with NVIDIA TensorRT Multi-Device Integration in NVIDIA Dynamo-Triton",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcXNZQnk5cXZlQWQzWUxqY292aGRFNVFlZWRsa0V5V2Z5bmZkckZfblZXa3lFRTJqQkduQ0NibnVtXzJwLUFJYlVKRV9YUVBzbk45TkRUelVjRzJfQXBKWUEtNXJ2SklzLUZjY1dLa1p2SHNLankzZUxLOWVEUFB1SGo5ZDBHTTlLdHBhUUF5eE1laUR3WlVxUDk4WUlOVTgzN1JOc3R6REwxdUZvRkkyYkpnWGFyaW4tcU0wWVp5N1RQOWlhd3hIblRwR0k2dVphSHdDVXJtRmQyaTVtNHBkaDdHX09JQQ?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton",
+   "body": "The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability... The compute and memory demands of generative AI increasingly exceed what a single GPU can provide. NVIDIA TensorRT multi-device inference is a new capability that enables a single TensorRT network to execute across multiple GPUs using NCCL-backed distributed collectives while retaining TensorRT inference optimizations. It is fully supported starting with TensorRT 11.0. Source"
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia to Support Scale-Up of Autonomous Trucks at Sweden’s Einride",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbndjYXpFZW1FamVmUVY1N0xKSVJBaktiRXhYNkV2UlZ6eVM4bTQ5TTFpODVyRDRJOTAwR2ZLRThLNlMtN080bGVyQUJ6aFFOUXYxM2ppZ1RNNmZvNzN4NkU4QjJvZENxbjREcENaOGJocGM0UGdMQmJ5cERYcFFnd3RUSHJ2S25kVmphWkozNmRpVGc2dndWRWVzRklleEZScTZZbUtRbjVxTE92X0lF?oc=5",
+   "date": "2026-09-21 19:49",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 스웨덴 Einride의 자율주행 트럭 확대에 지원",
+    "korean_summary": "NVIDIA가 자율 트럭 회사 Einride의 대규모 사업 확장을 NVIDIA Hyperion 플랫폼으로 지원하기로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbndjYXpFZW1FamVmUVY1N0xKSVJBaktiRXhYNkV2UlZ6eVM4bTQ5TTFpODVyRDRJOTAwR2ZLRThLNlMtN080bGVyQUJ6aFFOUXYxM2ppZ1RNNmZvNzN4NkU4QjJvZENxbjREcENaOGJocGM0UGdMQmJ5cERYcFFnd3RUSHJ2S25kVmphWkozNmRpVGc2dndWRWVzRklleEZScTZZbUtRbjVxTE92X0lF",
+   "body": ""
+  },
+  {
+   "source": "Google News · Einride",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride Enters Strategic Collaboration with NVIDIA to Advance its Autonomous Trucking on NVIDIA Hyperion",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU29oN01FNWEwNmYtdzZ4N0c3dHdRUS1uRVp4SXVnemdLUU1kcy1TTmlXSzhQQ1h6M0V0WHI3WDFCVE52UzdNUTRmckx0dHJfdFVjR1k0ZV8ySFRCbEwwWmhVb3d0eEdid2RIRGxOTHdhb2tpTWRNWE5vXzdhc0wxLVlQcVJULTR3QVJMTklRYnI5OEV6angzeFVqQWJKOE1TeDl1Zzg2Ulh5SGkxOEUxd3V2T0pvR1RUY25oN3UwLUY4VzdSYm9INi0xRmFNMzd2?oc=5",
+   "date": "2026-09-21 22:54",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Einride, NVIDIA Hyperion 기반 자율주행 트럭 협력 확대",
+    "korean_summary": "Einride가 NVIDIA와 전략적 협력을 맺고 NVIDIA Hyperion을 활용해 자율주행 트럭 서비스를 고도화한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Einride",
+     "title": "Einride Enters Strategic Collaboration with NVIDIA to Advance its Autonomous Trucking on NVIDIA Hyperion",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU29oN01FNWEwNmYtdzZ4N0c3dHdRUS1uRVp4SXVnemdLUU1kcy1TTmlXSzhQQ1h6M0V0WHI3WDFCVE52UzdNUTRmckx0dHJfdFVjR1k0ZV8ySFRCbEwwWmhVb3d0eEdid2RIRGxOTHdhb2tpTWRNWE5vXzdhc0wxLVlQcVJULTR3QVJMTklRYnI5OEV6angzeFVqQWJKOE1TeDl1Zzg2Ulh5SGkxOEUxd3V2T0pvR1RUY25oN3UwLUY4VzdSYm9INi0xRmFNMzd2?oc=5"
+    },
+    {
+     "source": "Google News · True North Radio Network",
+     "title": "Einride Enters Strategic Collaboration with NVIDIA to Advance its Autonomous Trucking on NVIDIA Hyperion",
+     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNaHRNLXVYQ19YZmY2VWRCcGlzbExBN1ZraVllMzNVbXFfbDZzT3k5Y0s4NlVZZVJWdGRLdW9WTmFXZDBHbWJKVWhKVFJyOFRFOGE5VGx4N1Nidk9fZFRlVVJkcTFXTm5iS0hOOGpTMWJlWWgzRUZhWXRMc0R2MmhZX0dXeDl0SmpSV1VxYnBsVXJWRjFjRHM4THRiRkJoQ25wN2dvN19feFR4ellGU2s3a3RJcWN5c3hmVVVGUjF1bWhqX19UOXNzSzhmdkFzMVJnb2ZvSDJQVnZiSzNJV19lc3UtSmlFSFh6VzlMblVSWE4xRU04U1k0dW9QaEw5SVpEdmc0WXhvN2N6YWJlTWJhWWVQYkZNbkZ6R09rNTZjb3NBSkY0UzNZb1lzck5CMG5Cam5QUzNzLUFnOVZyWUZzaWoyQkZSQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU29oN01FNWEwNmYtdzZ4N0c3dHdRUS1uRVp4SXVnemdLUU1kcy1TTmlXSzhQQ1h6M0V0WHI3WDFCVE52UzdNUTRmckx0dHJfdFVjR1k0ZV8ySFRCbEwwWmhVb3d0eEdid2RIRGxOTHdhb2tpTWRNWE5vXzdhc0wxLVlQcVJULTR3QVJMTklRYnI5OEV6angzeFVqQWJKOE1TeDl1Zzg2Ulh5SGkxOEUxd3V2T0pvR1RUY25oN3UwLUY4VzdSYm9INi0xRmFNMzd2",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride Taps NVIDIA to Put More Self-Driving Trucks on the Highway",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0w2SW44MGZrMXkwTVdhb284NFRjZ2EtZHVmQ3ROOEEzQnpWeXNSZzdfZFliaEN0eHlxOGlnOGJFTUFKUGJpaXkyUHA4bEN2TkhpNy1wOERnWE42MGZsdG9tNGtneXZXQ1VIWVpFZkNZN2E4NmVyR0NuUHk1MmdSd19VbjcxS1ZyLWdHQnhNai0zOGdxQkg0?oc=5",
+   "date": "2026-09-21 23:35",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Einride, NVIDIA와 협력해 자율주행 트럭 함대 확대",
+    "korean_summary": "스웨덴 자율주행 트럭 스타트업 Einride가 NVIDIA와 제휴해 자동화된 트럭 함대를 확대하기로 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · AOL.com",
+     "title": "Einride Taps NVIDIA to Put More Self-Driving Trucks on the Highway",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDaG5uaDJuUnNSUEk4X1lWQ003dzZQSlhwdHhpZlBPSWVZVTY2bkZKTW1MRWVLVE9KWTZaYnBtNFdfVGk3VVhyOFM5RVF4bTd2SlotZTlsaS1YNmtqWHB2VTBHdzBZVm54Y0hfaHlPLTI0MXJGZTFWNWV2OHc?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "AI Chips Today - Einride NVIDIA Team Up for Autonomous Truck Expansion",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZENpRDhFU0RyVkhreXpvZERPaWV4Tm1SX3RjWERPZkFBaUFiZ3EtYnpXQ3JIY2NfRWpMN2ZOS2tfSUljWlo3VmxQRTJSZkdpckVydWNzdzJSZUl2V3oweFhTTjJDdlJjMGZjeFY2cU1MaUpqaDFUVWpvSFNaT2ZmdjBPQ2RSZUJqYzlKMkZ6MmZaclFFS0QxYg?oc=5"
+    },
+    {
+     "source": "Google News · Techiexpert.com",
+     "title": "Einride Partnered with NVIDIA to Advance Autonomous Trucking",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRWFYbF9aOTI0SURYZDJ2cm53cWlDUDZoRXZPQ25sdXhfUXh1cktiMEZIUEFKajliR3pPZmNGUVdOdWIxaTRHS1JRck9YbVluc0pBRV9ZZ0Q4UGFqWVJxdy04ZmtGenl2YUYyM2lvWDF3ajJHdzNDZFo1ZzR1SmhLSHlxMWV2cTY1c1VaV2l3?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0w2SW44MGZrMXkwTVdhb284NFRjZ2EtZHVmQ3ROOEEzQnpWeXNSZzdfZFliaEN0eHlxOGlnOGJFTUFKUGJpaXkyUHA4bEN2TkhpNy1wOERnWE42MGZsdG9tNGtneXZXQ1VIWVpFZkNZN2E4NmVyR0NuUHk1MmdSd19VbjcxS1ZyLWdHQnhNai0zOGdxQkg0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quiver Quantitative",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride and NVIDIA Collaborate to Advance Autonomous Heavy-Duty Freight Operations",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTRlWjJsb256OU9TUXFzX0V1dkFvNVFZa3BQM1dYVzBUcjBBT2Nic2pZbEdSRnVkQ01WSVlTSUsxTkxnVHVOaEdVTTF2dWgyNjRqMUJkREw4MGg0dEdmRTJlVU5sOEpYRFNZRlhMNUZyZFE1LXNqalBsTVVHX0tLbUR0cnpLcEV5elYxYnBtdkpYdHltbmw0WWtJNVQxMnlBTXpfa1o5YTBINmFVWDhpUmR2UzYxUQ?oc=5",
+   "date": "2026-09-21 19:41",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA, Einride와 손잡고 자율주행 중장비 물류 협력",
+    "korean_summary": "Einride가 NVIDIA와 협력하여 자율주행 트럭 기술을 개발한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTTRlWjJsb256OU9TUXFzX0V1dkFvNVFZa3BQM1dYVzBUcjBBT2Nic2pZbEdSRnVkQ01WSVlTSUsxTkxnVHVOaEdVTTF2dWgyNjRqMUJkREw4MGg0dEdmRTJlVU5sOEpYRFNZRlhMNUZyZFE1LXNqalBsTVVHX0tLbUR0cnpLcEV5elYxYnBtdkpYdHltbmw0WWtJNVQxMnlBTXpfa1o5YTBINmFVWDhpUmR2UzYxUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Automotive World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride and Nvidia collaborate on autonomous freight tech",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGdOdEFucGdTaDM3LUg0YkNkM0Z3UXZQdWROZ29WaXdnQXR5c0lTTFEzMjItZl9RQTlyRVdEOWpGakxsXzdpWlNVVFNTcm5BUTNFVG9FcWRWRXRzZDEwUC1zSzNQLU1qQzhWLW13YUJTeFRiN3gzcWhsZmszQWV6YW1aVzlIVWdHUVo4SnFoZkhRMXhsaTgyTDBRUQ?oc=5",
+   "date": "2026-09-21 14:15",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride, NVIDIA 기술로 자율주행 화물 시스템 고도화",
+    "korean_summary": "Einride가 NVIDIA와 자율주행 화물 기술 협력을 추진한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZGdOdEFucGdTaDM3LUg0YkNkM0Z3UXZQdWROZ29WaXdnQXR5c0lTTFEzMjItZl9RQTlyRVdEOWpGakxsXzdpWlNVVFNTcm5BUTNFVG9FcWRWRXRzZDEwUC1zSzNQLU1qQzhWLW13YUJTeFRiN3gzcWhsZmszQWV6YW1aVzlIVWdHUVo4SnFoZkhRMXhsaTgyTDBRUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Crypto Briefing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride partners with Nvidia to develop next-gen autonomous trucking stack",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43X3dzM00ySV9BN1dWbFBBNDJTVmhqNTNYWFpNbk9xTklzNC12MmhwY0RmMzJIanBGVFdlaXM3S3RuNXJHS3M4UzhpOEc5ZTgtM0RocjlrS1VhRlpyZWdMVWN2dU9qUm55eG5OSHZYTko4SW94Rmx2RzFZVGllOWs?oc=5",
+   "date": "2026-09-21 20:23",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride, NVIDIA와 차세대 자율주행 트럭 스택 개발",
+    "korean_summary": "Einride가 NVIDIA와 협력하여 차세대 자율주행 트럭 기술 스택을 개발한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43X3dzM00ySV9BN1dWbFBBNDJTVmhqNTNYWFpNbk9xTklzNC12MmhwY0RmMzJIanBGVFdlaXM3S3RuNXJHS3M4UzhpOEc5ZTgtM0RocjlrS1VhRlpyZWdMVWN2dU9qUm55eG5OSHZYTko4SW94Rmx2RzFZVGllOWs",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Huawei shelves global AI chip rollout as China's own demand outstrips supply — 15,488-chip Atlas clusters leverage optical networking to counter Nvidia, scales to 120 EFLOPS",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-shelves-global-ai-chip-rollout-as-chinas-own-demand-outstrips-supply-15-488-chip-atlas-clusters-leverage-optical-networking-to-counter-nvidia-scales-to-120-eflops",
+   "date": "2026-09-21 23:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "Huawei Ascend 960, 국제 시장 철수 (수출 규제 영향)",
+    "korean_summary": "Huawei가 Ascend 960 시리즈를 중국 내수로 제한하고 국제 확장을 포기했으며, 수출 규제로 인해 NVIDIA와의 경쟁이 국내 시장으로 축소되었다."
+   },
+   "summary_data": {
+    "korean_title": "Huawei, 차세대 Ascend AI 칩 해외 출시 보류…중국 내수 수요도 못 채워",
+    "korean_summary": "Huawei가 자국 수요조차 감당하지 못해 차세대 Ascend 900 시리즈 AI 가속기의 국제 시장 진출 계획을 보류했다고 발표했다.",
+    "action": {
+     "actor": "Huawei",
+     "action": "차세대 Ascend 960/970/980 NPU 로드맵을 공개하되 국제 시장 확장 계획은 보류",
+     "stage": "Announced",
+     "timeline": "Ascend 960DT/PR 2027년, Ascend 970 2028년, Ascend 980 2029년",
+     "scope": "중국 내수 시장 중심, 일부 국가에 제한적 공급"
+    },
+    "key_facts": [
+     "Huawei 순환회장 Eric Xu는 **'중국 내 수요도 충족할 capacity가 없어 국제 시장 전면 확장 계획이 없다'**고 밝힘",
+     "Ascend 960DT/PR은 2027년 FP8 training 2 PFLOPS, FP4 inference 각각 4/8 PFLOPS 목표",
+     "Ascend 980(2029년, 잠정치)은 FP8 7.2 PFLOPS, FP4 28 PFLOPS로 Nvidia R200(FP8 17.5 PFLOPS, FP4 35/50 PFLOPS)에 크게 못 미침",
+     "**최대 15,488개 Ascend 960 NPU로 구성된 Atlas SuperPoD는 최대 30 FP8 EFLOPS, 120 FP4 EFLOPS 달성 가능**하며 이는 Nvidia NVL72(72-GPU) 대비 시스템 규모 면에서 압도적",
+     "SMIC의 7nm/6nm급 공정 생산 확대 실패가 Huawei AI 하드웨어 공급 제약의 근본 원인으로 지목됨"
+    ],
+    "why_matters": "Huawei는 칩 단위 성능에서 Nvidia에 현저히 뒤처지지만 near-package optics 기반 초대형 클러스터 스케일링으로 이를 상쇄하려 하며, **전력효율(performance-per-watt) 열세로 해외 경쟁력은 제한적**이다. 이는 중국 내에서는 Nvidia 대체재로서 입지를 굳히는 동시에, 글로벌 시장에서는 여전히 Nvidia·AMD가 우위를 유지할 수 있음을 시사한다.",
+    "subject_angle": "Nvidia는 R200(FP8 17.5 PFLOPS, FP4 35/50 PFLOPS)으로 2029년 Ascend 980 예상 성능까지 앞서는 **압도적 칩 단위 성능 우위**를 유지하고 있어, 중국 규제·수출 제한 시장을 제외한 글로벌 AI 인프라 경쟁에서 당분간 지배력을 지킬 가능성이 크다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Huawei",
+      "context": "Ascend 900-series NPU 및 Atlas SuperPoD 클러스터 개발사, 중국 내수 중심 전략 발표"
+     },
+     {
+      "name": "Nvidia",
+      "context": "H200·B300·R200 GPU로 Huawei Ascend 시리즈와 성능 비교 대상"
+     },
+     {
+      "name": "AMD",
+      "context": "Ascend 960-series와 경쟁 가능한 AI GPU 공급사로 언급"
+     },
+     {
+      "name": "SMIC",
+      "context": "Huawei向け 7nm/6nm 공정 생산 능력 제약의 원인 제공자"
+     }
+    ],
+    "products": [
+     {
+      "name": "Ascend 950DT/PR",
+      "role": "2026년 출시 예정, 현세대 NPU"
+     },
+     {
+      "name": "Ascend 960DT/PR",
+      "role": "2027년 차세대 NPU, FP8/FP4 성능 향상"
+     },
+     {
+      "name": "Ascend 970/980",
+      "role": "2028~2029년 후속 NPU, 장기 로드맵"
+     },
+     {
+      "name": "Atlas SuperPoD/SuperCluster",
+      "role": "최대 15,488 NPU 규모 클러스터, optical networking 기반 시스템 스케일링"
+     },
+     {
+      "name": "Nvidia H200/B300/R200",
+      "role": "Ascend 시리즈와의 성능 비교 기준"
+     },
+     {
+      "name": "Nvidia NVL72",
+      "region": "72-GPU 스케일업 클러스터, Atlas SuperPoD와 규모 비교 대상"
+     },
+     {
+      "name": "CANN",
+      "role": "Huawei AI 소프트웨어 스택, 클라우드 접근을 통한 생태계 확산 수단"
+     }
+    ],
+    "watch_next": [
+     "SMIC의 7nm/6nm 공정 수율 및 생산능력 개선 여부",
+     "Huawei의 일부 국가향 제한적 공급 대상국 및 물량 공개 여부",
+     "Nvidia R200 및 후속 제품의 실제 출시·성능 검증 시점"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-shelves-global-ai-chip-rollout-as-chinas-own-demand-outstrips-supply-15-488-chip-atlas-clusters-leverage-optical-networking-to-counter-nvidia-scales-to-120-eflops",
+   "body": "Huawei's impressive next-generation Ascend 900-series AI accelerators will be offered only in China, not internationally, as the company struggles to meet domestic demand amid capacity constraints, the company announced this week. While the upcoming Ascend 960-series neural processing units (NPUs) could rival some of AMD's and Nvidia's existing AI GPUs, demand for these units outside of China was not guaranteed anyway. Go deeper with TH Premium: AI shortages (Image credit: Nvidia) AI data centers are swallowing the world's memory and storage supply Demand for data center CPUs has surged, and AI agents are responsible Chip scarcity assaults auto industry amid the worsening Nexperia and DRAM crisis The custom AI ASIC state of play \"Since we do not have enough capacity to even satisfy the ​demand in China, we do not have a plan to expand into the international market in a fully-fledged way,\" said Eric Xu, rotating chairman of Huawei, on the sidelines of the company's Huawei Connect conference, Reuters reports. He added that Huawei supplies limited volumes to 'some countries where demand is particularly strong,' though he did not elaborate. Huawei this week unveiled its latest AI accelerator roadmap, revealing major training and inference performance gains for its next-generation Ascend 960, 970, and 980 NPUs over the existing Ascend 910C and Ascend 950-series. The Ascend 960DT and 960PR are set to increase their FP8 training performance to 2 PFLOPS and their FP4 inference performance to 4 PFLOPS and 8 PFLOPS, respectively, in 2027. Meanwhile, their successors, Ascend 970 and Ascend 980, are projected to increase their FP4 performance to 14 PFLOPS and 28 PFLOPS, respectively, in the coming years. Huawei Ascend vs Nvidia AI GPUs NPU FP8 Performance FP4 Perf Memory Memory Bandwidth Interconnect Bandwidth Targeted Release Nvidia H200 4 PFLOPS - 141 GB HBM3E 4.8 TB/s 900 GB/s 2023 Q4 Nvidia B300 10 PFLOPS 15/20 S/D PFLOPS 279 GB HBM3E 8 TB/s 1.8 TB/s 2025 Q4 Ascend 950PR 1 PFLOPS 2 PFLOPS 128 GB of HiBL 1.0 1.6 TB/s 2 TB/s 2026 Q1 Ascend 950DT 1 PFLOPS 2 PFLOPS 144 GB of HiZQ 2.0 4.0 TB/s 2 TB/s 2026 Q4 Nvidia R200 17.5 PFLOPS 35/50 T/I PFLOPS 288 GB HBM4 19.2 TB/s 3 TB/s 2026 Q4 Ascend 960DT 2 PFLOPS 4 PFLOPS 288 GB 9.6 TB/s 2.2 TB/s 2027 Q1 Ascend 960PR 2 PFLOPS 8 PFLOPS 192 GB 2.4 TB/s 2.2 TB/s 2027 Q3 Ascend 970 3.6 PFLOPS 14 PFLOPS 288 GB 14.4 TB/s 4.4 TB/s 2028 Ascend 980 7.2 PFLOPS* 28 PFLOPS* 384 GB 38.4 TB/s* 8 TB/s 2029 *Preliminary data S/D - Sparse and Dense T/I - Training and Inference But while the upcoming Ascend NPUs will be considerably faster than their predecessors, particularly for inference, they will remain well behind Nvidia's previous- and current-generation accelerators, at least in raw compute performance. Huawei's 2027 Ascend 960DT is projected to deliver 2 FP8 TFLOPS for training, compared with Nvidia's 4 FP8 TFLOPS for the H200 , released in 2023. The Ascend 960PR is expected to offer 8 FP4 PFLOPS for training, which is far b"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "OpenAI projections point to a massive $278 billion cash burn through 2030 that exceeds the national budgets of Indonesia and Norway — $856 billion compute tab outpaces tenfold revenue surge",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-projections-point-to-a-massive-usd278-billion-cash-burn-through-2030-that-exceeds-the-national-budgets-of-indonesia-and-norway-usd856-billion-compute-tab-outpaces-tenfold-revenue-surge",
+   "date": "2026-09-21 21:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "supply-chain"
+    ],
+    "korean_title": "OpenAI, 2026-2030년 2780억 달러 현금 소각 예상",
+    "korean_summary": "OpenAI가 2026-2030년 8560억 달러 규모의 컴퓨팅 인프라 비용을 예상하며, NVIDIA 등 칩 공급업체에 대한 대규모 수요를 시사한다."
+   },
+   "summary_data": {
+    "korean_title": "OpenAI, 2030년까지 2780억 달러 현금 소진 전망…컴퓨팅 지출이 매출 10배 증가 앞질러",
+    "korean_summary": "OpenAI가 2026~2030년 사이 컴퓨팅 인프라에 8560억 달러를 지출하면서도 매출 성장 속도가 이를 따라가지 못해 **2780억 달러의 누적 마이너스 현금흐름**을 기록할 것으로 전망했다.",
+    "action": {
+     "actor": "OpenAI",
+     "action": "투자자 대상 재무 프레젠테이션을 통해 2026~2030년 컴퓨팅 및 인프라 지출 전망치 공개",
+     "stage": "Report",
+     "timeline": "2026~2030년 (프레젠테이션은 Financial Times가 최근 입수)",
+     "scope": "OpenAI 전사 컴퓨팅 인프라 지출 및 매출 전망, IPO 관련 투자자 대상"
+    },
+    "key_facts": [
+     "OpenAI는 2026~2030년 컴퓨팅 자원 및 인프라에 **약 8560억 달러** 지출 예정, 이는 최대 비용 항목",
+     "같은 기간 기타 지출 2620억 달러 추가, 누적 매출은 8400억 달러로 전망",
+     "매출은 2026년 360억 달러에서 2030년 3500억 달러로 약 10배 증가 전망이나, **누적 마이너스 현금흐름 2780억 달러** 예상 (5월 전망치 3050억 달러 대비 개선)",
+     "3월에 1220억 달러를 조달했으나 현재 재무 모델상 2028년 소진 예상, 1.2조 달러 밸류에이션으로 추가 투자 라운드 논의 중 (기업가치 8520억 달러)",
+     "2026년 가을 IPO 계획은 AI 리스크에 대한 공공 우려를 이유로 연기, 2026년 초 기준 유료 소비자 구독자 5000만 명 이상, 주간 활성 사용자 9억 명 이상"
+    ],
+    "why_matters": "OpenAI의 압도적인 컴퓨팅 지출 규모는 **NVIDIA GPU를 비롯한 AI 인프라 수요가 향후 5년간 지속·확대될 것**을 시사하며, 이는 데이터센터 공급망(메모리·스토리지·전력) 전반의 병목을 심화시킬 수 있다. 동시에 매출 대비 지출 불균형은 대형 고객의 지속 가능한 지출 여력에 대한 의문을 제기해 AI 인프라 투자 사이클의 지속성 논쟁을 촉발한다.",
+    "subject_angle": "OpenAI는 NVIDIA의 최대 고객군 중 하나로, **8560억 달러 규모의 컴퓨팅 지출 전망은 NVIDIA 데이터센터 매출 파이프라인의 핵심 선행지표**이나, 동시에 고객사의 자금 조달 리스크(2028년 자금 소진 가능성)는 향후 GPU 수요의 안정성에 대한 잠재적 변수로 작용할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "OpenAI",
+      "context": "컴퓨팅 인프라 지출 전망 공개, IPO 추진 주체이자 NVIDIA 주요 고객"
+     },
+     {
+      "name": "Anthropic",
+      "context": "OpenAI와 경쟁하는 AI 기업, 올가을 대형 IPO 추진 예정"
+     },
+     {
+      "name": "Nvidia",
+      "context": "기사 이미지 credit 및 AI 데이터센터 인프라 공급업체로 언급"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "OpenAI의 1.2조 달러 밸류에이션 추가 투자 라운드 성사 여부",
+     "OpenAI IPO 재추진 시점 및 SEC 제출 서류 공개 여부",
+     "OpenAI 컴퓨팅 지출 중 NVIDIA GPU 구매 비중 및 계약 세부사항 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-projections-point-to-a-massive-usd278-billion-cash-burn-through-2030-that-exceeds-the-national-budgets-of-indonesia-and-norway-usd856-billion-compute-tab-outpaces-tenfold-revenue-surge",
+   "body": "OpenAI expects to spend $278 billion more money than it generates between 2026 and 2030 due to aggressive spending on compute capacity and adjacent infrastructure, according to a recent presentation seen by the Financial Times . While the company projects nearly 10X revenue growth over the four-year period, the AI developer expects its spending on production capacity and supporting infrastructure to exceed its earnings by over a quarter of a trillion dollars. Go deeper with TH Premium: AI shortages (Image credit: Nvidia) AI data centers are swallowing the world's memory and storage supply Demand for data center CPUs has surged, and AI agents are responsible Chip scarcity assaults auto industry amid the worsening Nexperia and DRAM crisis The custom AI ASIC state of play OpenAI expects its revenue to increase from $36 billion in 2026 to $350 billion in 2030 and expects to book a total of $840 billion in revenue between now and the end of the decade, according to the presentation, which the company presumably sent to its current and potential investors ahead of its expected IPO. OpenAI plans to spend about $856 billion on computing resources and infrastructure over the same period, its largest expense. The company also intends to spend an additional $262 billion on other things during the period. As a result, OpenAI forecasts cumulative negative free cash flow of $278 billion from 2026 through 2030. While the sum is massive, this represents an improvement from a projection made in May, when the company expected cumulative negative free cash flow of $305 billion, FT notes. Financing OpenAI's continuous expansions requires huge amounts of additional capital. OpenAI raised $122 billion in March, but its current financial model indicates that this money could be depleted in 2028, FT reports. The company, recently valued at $852 billion, has already entered discussions about another large investment round. Prospective investors have approached OpenAI about providing capital at a valuation of $1.2 trillion, while a person close to the company said OpenAI is seeking an even higher valuation. The spending reflects the gargantuan cost of building AI data centers and additional infrastructure to train new AI models and then use them to provide services to clients. Meanwhile, it means OpenAI's revenue growth will lag its spending so much that it will burn $278 billion in four years. To put it into context, $278 billion is only slightly below the Austrian government's $286 billion spending in 2024 and exceeds the annual government expenditures of Indonesia and Norway, at least according to the IMF. To put the $278 billion figure into a perspective more relevant to OpenAI, it equals four years of $20 monthly subscription fees paid by roughly 290 million people. As of early 2026, OpenAI had over 50 million consumer subscribers (at different plans), over 9 million paying business users (again, at different prices per seat), and more than 900 million weekly active "
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Buying an Additional $1.5 Billion in SB Energy Shares Ahead of IPO",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbGhSS3ppY3VLbEZhRE0yTnVfUTBFNk1ncjI4YmRUd25MV2lzZWVoOFdzT3ZyaG5Td2hWbDZPU0FVSkdEcGR3dlBkX1FvNFpjMjVTblFSaWhIbVRRdXU4bFRPcV9QZXA1d2U4N0RkQ1pKVmk1RkozdjVLdG5uaVZaUUdkS3JvMDZYemRmMkJQTG9RckdEMDBJdWlZQ1VGT1Q5eE9BTGdzX2pFVndMaE1HWkg5LWV1czFXeTk4aXI3NEk?oc=5",
+   "date": "2026-09-22 02:23",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, SB Energy IPO 앞두고 15억 달러 추가 지분 매입",
+    "korean_summary": "NVIDIA가 에너지 인프라 회사 SB Energy의 지분을 15억 달러 규모로 추가 매입했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · EnergyNow.com",
+     "title": "Nvidia Buying an Additional $1.5 Billion in SB Energy Shares Ahead of IPO",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYjVaOUZDeENnM0JNTU1aOUxJY2lHMzdBOE5GUUZqc2VtOUxIWjVlRVdCa3JwY3dnWHBCS1FHWm1tVEd6NkdOTThCVTdmLXR1dEw1S0tSTWlHTzNaZDFsc3pqbktvTHBDRjJ6ZTV1NVJacWozUEhhTndCRmN5UDBod3N2YVBUNnl5T1JpSkFWQlNCcWpRbEdXSVZRc05JV3RUOU9HMTRR?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbGhSS3ppY3VLbEZhRE0yTnVfUTBFNk1ncjI4YmRUd25MV2lzZWVoOFdzT3ZyaG5Td2hWbDZPU0FVSkdEcGR3dlBkX1FvNFpjMjVTblFSaWhIbVRRdXU4bFRPcV9QZXA1d2U4N0RkQ1pKVmk1RkozdjVLdG5uaVZaUUdkS3JvMDZYemRmMkJQTG9RckdEMDBJdWlZQ1VGT1Q5eE9BTGdzX2pFVndMaE1HWkg5LWV1czFXeTk4aXI3NEk",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Vera Rubin NVL72 Boosts Agentic AI Throughput by 30x",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelpCVGN4czA2Y1dBVU90LTJpZmxkYkJfNzJoTHhuV1VJVTZDb3Z5cWd4MUc2YTcxM1ZybWZua01kNmhfY2tiQ2EzMVBHc2lLMzVRcWhxZHBOamNYTUxjN2hzS3pORzBJcXRTS0dtbzlYVTBkUW00TW1fbHBKRTMzZmhWakF4TFNONHN3NjdmeDZmZw?oc=5",
+   "date": "2026-09-22 03:37",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Vera Rubin NVL72, 에이전틱 AI 처리량 30배 향상",
+    "korean_summary": "NVIDIA가 Vera Rubin NVL72 신규 칩을 공개했으며 에이전틱 AI 처리량이 30배 증가한다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPelpCVGN4czA2Y1dBVU90LTJpZmxkYkJfNzJoTHhuV1VJVTZDb3Z5cWd4MUc2YTcxM1ZybWZua01kNmhfY2tiQ2EzMVBHc2lLMzVRcWhxZHBOamNYTUxjN2hzS3pORzBJcXRTS0dtbzlYVTBkUW00TW1fbHBKRTMzZmhWakF4TFNONHN3NjdmeDZmZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRadar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "1.58-million-staff Amazon will soon have more Nvidia GPUs than employees — AWS to buy more than 3 million additional chips before 2029 in addition to thousands of existing H100, H200",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNVXY5eENWbjZ5TDNkMF96UXJTV3BzRVZSaEpibFZBZ2VFZWVkaHZRV28tUjhCRUlhZmlQWHN4M2kyQm80LW9qNzBKNkdIcnF0TnRCT09qWlFMVHVYV1dUb3JTMk9aQ2Zpc3JnZVhnQVB3TldBNlBYbF80TEhEbzJOQ1gwMHV6MVIybVozdzJlMEIxemY0MnZfVXo5aWxKVjJHWmpKV1BhU2VtTFZhR1kxQXJ4WWJITk5QY0Z4Y3hjaUM5THE3U0dJT2tQR1Vob3BOazRPVWxGNW0yVVYxYWhiUG9ia1BodEx3Q2JDZnVxdHJzYjJEMXFxcmlCYnN2UlhSbEFvOEF6Tnp0US1yRlNPYjBteWlKZEd4VFh3S3BvS2ZGLThOazVURzV6dlpqb2lhMkw0?oc=5",
+   "date": "2026-09-22 05:15",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Amazon AWS 2029년까지 NVIDIA 칩 300만개 이상 추가 구매",
+    "korean_summary": "Amazon이 2029년 전까지 300만개 이상의 NVIDIA 칩을 추가로 구매할 계획을 발표했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNVXY5eENWbjZ5TDNkMF96UXJTV3BzRVZSaEpibFZBZ2VFZWVkaHZRV28tUjhCRUlhZmlQWHN4M2kyQm80LW9qNzBKNkdIcnF0TnRCT09qWlFMVHVYV1dUb3JTMk9aQ2Zpc3JnZVhnQVB3TldBNlBYbF80TEhEbzJOQ1gwMHV6MVIybVozdzJlMEIxemY0MnZfVXo5aWxKVjJHWmpKV1BhU2VtTFZhR1kxQXJ4WWJITk5QY0Z4Y3hjaUM5THE3U0dJT2tQR1Vob3BOazRPVWxGNW0yVVYxYWhiUG9ia1BodEx3Q2JDZnVxdHJzYjJEMXFxcmlCYnN2UlhSbEFvOEF6Tnp0US1yRlNPYjBteWlKZEd4VFh3S3BvS2ZGLThOazVURzV6dlpqb2lhMkw0",
+   "body": ""
+  },
+  {
+   "source": "Google News · FXLeaders",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVDA Stock Nears $230 as Nvidia CEO Huang Sees Chip Sales Doubling",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTDlOdl9WSTBDSU4wZVpEVFdoOUdtQTdOY2FHa1YxVzVQUDZYRTluN2xRb0poN1NTclZiRW1YY1FPeWgwWnpxN1BibFB0TmlHMW1aSFF1cFFFYTAwS1JfWVMta0VLZjJud2tkbmtnOTNfSzJnd2ZYS2VkdFlYVktkWm5ZckVLT2lMODNUXy1lazg3ZVpfV2d2Y0hXSThPa2tEQ1ZjRnEzNnRWa0Qt?oc=5",
+   "date": "2026-09-22 07:20",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance",
+     "stock"
+    ],
+    "korean_title": "NVIDIA CEO 황젠순, 칩 판매 2배 증가 전망",
+    "korean_summary": "NVIDIA CEO 황젠순이 칩 판매량이 2배 증가할 것으로 예측하며 주가는 230달러 근처에서 움직인다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTDlOdl9WSTBDSU4wZVpEVFdoOUdtQTdOY2FHa1YxVzVQUDZYRTluN2xRb0poN1NTclZiRW1YY1FPeWgwWnpxN1BibFB0TmlHMW1aSFF1cFFFYTAwS1JfWVMta0VLZjJud2tkbmtnOTNfSzJnd2ZYS2VkdFlYVktkWm5ZckVLT2lMODNUXy1lazg3ZVpfV2d2Y0hXSThPa2tEQ1ZjRnEzNnRWa0Qt",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+   "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+   "date": "2026-09-22 01:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, 자율주행·로봇 안전성 프레임워크 제시",
+    "korean_summary": "NVIDIA가 Physical AI의 대규모 배포를 위해 하드웨어부터 배포 생명주기까지 모든 계층에서의 안전성 필요성을 강조했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 물리 AI 대규모 배포를 위한 전 계층 안전 시스템 'Halos' 공개",
+    "korean_summary": "NVIDIA가 자율주행차와 로봇 등 물리 AI가 대규모로 배포되기 위해 하드웨어부터 AI 행동까지 모든 계층을 아우르는 풀스택 안전 시스템 Halos를 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "AV 및 로보틱스를 위한 풀스택 물리 AI 안전 시스템 Halos(하드웨어·OS·미들웨어·모델·시뮬레이션 포함) 공개",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "자율주행차(L3-L5), 휴머노이드 로봇, 산업용 로봇 전반"
+    },
+    "key_facts": [
+     "ABI Research는 2035년까지 **레벨 3-5 자율주행차 4,900만 대**가 설치될 것으로 전망",
+     "Omdia는 2026~2035년 사이 약 **6,000만 대의 산업용 로봇**이 배치될 것으로 추정",
+     "NVIDIA Halos는 물리 AI를 위한 **최초이자 유일한 풀스택 안전 시스템**으로 소개됨",
+     "AV용 구성: DRIVE AGX Thor, Hyperion, Halos OS(ASIL-D 인증 DriveOS 기반), Alpamayo(추론 VLA 모델), Halos Safety Evaluation Framework",
+     "로보틱스용 구성: IGX Thor(Functional Safety Island 탑재, IEC 61508/ISO 13849 지원), Halos Core for IGX, Holoscan Sensor Bridge"
+    ],
+    "why_matters": "물리 AI가 도로·공장·창고 등 인간과 공유하는 환경에 대규모로 진입하면서 하드웨어·소프트웨어·AI 행동·운영환경 전반에 걸친 지속적 안전 검증이 규제·보험·산업 채택의 전제조건이 되고 있다. **NVIDIA는 AV와 로보틱스에 공통 원칙을 적용하면서도 도메인별 플랫폼과 인증 체계를 갖춘 안전 표준화 계층을 선점**함으로써 경쟁사 대비 진입장벽을 형성한다.",
+    "subject_angle": "NVIDIA는 10년 이상의 AV 안전 개발 경험을 로보틱스로 확장해 **AV(Hyperion/Thor/Alpamayo)와 로봇(IGX Thor/Holoscan)에 공통 안전 프레임워크를 이식**함으로써, 컴퓨트 공급자를 넘어 물리 AI 전 산업의 안전 인증·검증 표준 제공자로 포지셔닝하려 한다.",
+    "focus_angle": "OEM과 로봇 제조사는 자체 안전 스택을 처음부터 구축하는 대신 Halos를 채택해 ISO/IEC TS 22440, IEC 61508, ASIL-D 등 규제 요구를 충족할 수 있어, **자율주행 및 휴머노이드 로봇의 상용화 속도와 규제 승인 과정을 단축**시킬 수 있다는 점이 핵심 시사점이다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Halos 안전 시스템 및 관련 하드웨어·소프트웨어 플랫폼 제공"
+     },
+     {
+      "name": "ABI Research",
+      "context": "AV 시장 전망 데이터 제공"
+     },
+     {
+      "name": "Omdia",
+      "context": "산업용 로봇 시장 전망 데이터 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Halos",
+      "role": "물리 AI 전 계층(하드웨어~AI행동~검증) 통합 풀스택 안전 시스템"
+     },
+     {
+      "name": "DRIVE AGX Thor",
+      "role": "AV용 안전 설계 가속 컴퓨트"
+     },
+     {
+      "name": "NVIDIA Hyperion",
+      "role": "레벨4 AV 풀스택 차량 플랫폼/참조 아키텍처"
+     },
+     {
+      "name": "Halos OS / DriveOS",
+      "role": "ASIL-D 인증 기반 통합 소프트웨어 파운데이션"
+     },
+     {
+      "name": "NVIDIA Alpamayo",
+      "role": "롱테일 시나리오 설명가능성 제공하는 오픈 추론 VLA 모델"
+     },
+     {
+      "name": "Halos Safety Evaluation Framework",
+      "role": "AV 안전 케이스 증거 생성 도구·가이드라인"
+     },
+     {
+      "name": "NVIDIA IGX Thor",
+      "role": "Functional Safety Island 탑재 산업용 로봇 컴퓨트 모듈"
+     },
+     {
+      "name": "Halos Core for IGX",
+      "role": "로봇 안전 관련 운영 기능(결함 감지·모니터링) 소프트웨어 기반"
+     },
+     {
+      "name": "NVIDIA Holoscan Sensor Bridge",
+      "role": "센서 데이터와 AI·안전 처리 연결하는 실시간 센싱 솔루션"
+     }
+    ],
+    "watch_next": [
+     "Halos 기반 실제 OEM/로봇 제조사 채택 사례 및 인증 획득 시점",
+     "ISO/IEC TS 22440 등 신규 AI 안전 표준과 Halos의 정합성 검증 결과",
+     "Alpamayo 모델의 실차 적용 및 롱테일 시나리오 성능 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Blog · Auto",
+     "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+     "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
+    },
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Why Deploying Physical AI at Scale Demands Safety at Every Layer",
+     "link": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/physical-ai-halos-safety",
+   "body": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs) , while Omdia estimates that roughly 60 million industrial robots will be deployed between 2026 and 2035 . As these machines enter roads, factories, warehouses and other environments shared with people, safety must scale with them. Physical AI safety means proving that AI-driven machines — AVs , humanoid robots , industrial robots and more — behave safely when their decisions turn into physical action. That requires safety across the hardware, software, AI, operating environment and deployment lifecycle — not a one-time check before deployment. Why Is Safety the Key to Scaling Physical AI? After years of testing and benchmarking, AVs continue to expand commercially. That progress has required developers to demonstrate how automated systems address potential hardware and software failures, limitations in intended functionality and AI-specific risks. Robotics is approaching a similar inflection point as autonomous machines move into factories, warehouses and other environments shared with people. Across physical AI, manufacturers, regulators, insurers and workplace safety teams need evidence that hardware, software, AI behavior and operating environments can work together safely without human intervention. Why Does Physical AI Need a New Safety Model? Four shifts define new safety standards: Dynamic environments require context-aware safety. Roads, factories and warehouses cannot be fully controlled through static zones or physical barriers. Autonomous systems must perceive changing conditions, adapt their behavior and reach a safe state when something unexpected occurs. AI behavior requires its own assurance. Testing must assess AI software alongside traditional functional safety, using design-time, runtime and validation-time guardrails. Emerging standards such as ISO/IEC TS 22440 are beginning to address these AI-specific risks. Deployment is ongoing . AVs and robots evolve through software and model updates, new tasks and changing operating conditions. Material changes may require additional safety testing. Validation at scale requires simulation and synthetic data. The number and complexity of potential scenarios requires real-world testing to be combined with simulation, synthetic data generation and scenario reconstruction. Together, these shifts require safety to be operationalized across design, deployment and validation, from the underlying hardware to AI behavior and the operating environment. What Safety Foundation Has NVIDIA Built for Physical AI? Physical AI safety requires specialized engineering, data, processes and validation that few companies can reproduce alone. NVIDIA’s safety foundation draws on more than a decade of development in AV safety, building expertise in functional safety, sensor fusion, AI behavior assurance, vision AI, simulation and real-world val"
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Autonomous truck startup announces partnership with Nvidia: 'Einride will adapt the NVIDIA Hyperion platform for heavy-duty trucking, to extend the platform's compute, sensor, software and safety architecture to the demands of heavy-duty freight'",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wms731/autonomous_truck_startup_announces_partnership/",
+   "date": "2026-09-22 07:53",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride, NVIDIA Hyperion으로 중장비 자율주행 플랫폼 구축",
+    "korean_summary": "자율주행 트럭 스타트업 Einride가 NVIDIA Hyperion 플랫폼을 중장비 화물 운송용으로 확장하여 도입하기로 발표했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wms731/autonomous_truck_startup_announces_partnership",
+   "body": "submitted by /u/LinkedInNews [link] [comments]"
+  },
+  {
+   "source": "Google News · simplywall.st",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Synaptics (SYNA) Could Be 29% Undervalued After Nvidia Isaac Sim Integration",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN051NU0yNUNzVF9KTGppM3BEUnNiSDhSeTNxOU05cGRPc3Q5cWc3dnFnQTRiSFkxWEhfTndvNFBMQXRTMUlTZUF0Y2RvcVI4S0VBXzlDalhaNVREQVZaUzVDak5nTjN4cU95VV9mNmlaWVd6UnVGeVlRTlM3RW1kaGZyb0JLVEZhbWZjRGEzZU93bU1zSGExblhHQzctQS1Nc3o3ZXFncTRhQWRpdHMxc0JZNVFYbGxZYWZBbHlHTGs1Tkg5bktkd1NabzVwbmvSAdQBQVVfeXFMTlVRdjVZZWdDc0FxWWRYZ29oc1FJNFZNbDk0YVdiWFYtS3VWemQ3bWFyS05ZWTltZUhMN3FOWElHTC1sS2J2dWVGdTNjREY5cWVIMU5Ea25rMmVLenJNbkVma1Vuc1hoVm9kUFlmeGV3SWZFcGZoM3dsMHVvekc5c1JTU1BRWktXbEdQXzkxNmxkN0hESHNPQ3VVbmhjQkZOMmlXN0UtejhFSGdVaXpIejNCNjFYSVZROE1yVXpab3psMDlEZzZLOS1WY205cWxXcDZCSUQ?oc=5",
+   "date": "2026-09-21 22:24",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "Synaptics, NVIDIA Isaac Sim 통합으로 저평가 평가",
+    "korean_summary": "Synaptics가 NVIDIA의 로봇 시뮬레이션 플랫폼 Isaac Sim과 통합하면서 29% 주가 저평가 평가를 받았다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN051NU0yNUNzVF9KTGppM3BEUnNiSDhSeTNxOU05cGRPc3Q5cWc3dnFnQTRiSFkxWEhfTndvNFBMQXRTMUlTZUF0Y2RvcVI4S0VBXzlDalhaNVREQVZaUzVDak5nTjN4cU95VV9mNmlaWVd6UnVGeVlRTlM3RW1kaGZyb0JLVEZhbWZjRGEzZU93bU1zSGExblhHQzctQS1Nc3o3ZXFncTRhQWRpdHMxc0JZNVFYbGxZYWZBbHlHTGs1Tkg5bktkd1NabzVwbmvSAdQBQVVfeXFMTlVRdjVZZWdDc0FxWWRYZ29oc1FJNFZNbDk0YVdiWFYtS3VWemQ3bWFyS05ZWTltZUhMN3FOWElHTC1sS2J2dWVGdTNjREY5cWVIMU5Ea25rMmVLenJNbkVma1Vuc1hoVm9kUFlmeGV3SWZFcGZoM3dsMHVvekc5c1JTU1BRWktXbEdQXzkxNmxkN0hESHNPQ3VVbmhjQkZOMmlXN0UtejhFSGdVaXpIejNCNjFYSVZROE1yVXpab3psMDlEZzZLOS1WY205cWxXcDZCSUQ",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+   "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/",
+   "date": "2026-09-22 03:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, AI 팩토리용 전력·냉각 제품 자격 프로그램 출시",
+    "korean_summary": "NVIDIA가 DSX AI 팩토리 참조 설계 기준 충족 전력·냉각 솔루션을 인증하는 NVIDIA DSX Ready 프로그램을 시작했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI 팩토리용 전력·냉각 제품 인증 프로그램 'DSX Ready' 출시",
+    "korean_summary": "NVIDIA가 AI 팩토리 구축 시 전력·냉각 파트너 제품을 NVIDIA DSX 레퍼런스 설계 요구사항에 맞춰 검증하는 인증 프로그램 'DSX Ready'를 출시해, 빌더들이 배터리 에너지 저장시스템(BESS)과 냉각분배장치(CDU)를 **더 낮은 통합 리스크로 선택**할 수 있도록 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "AI 팩토리용 전력·냉각 파트너 제품을 DSX 레퍼런스 설계 요구사항에 따라 인증하는 DSX Ready 프로그램 출시",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "BESS 및 CDU 두 카테고리, Hitachi Energy·LG Energy Solution·Tesla(BESS), LG Electronics·LiquidStack·Vertiv(CDU) 파트너"
+    },
+    "key_facts": [
+     "DSX Ready는 **배터리 에너지 저장시스템(BESS)과 냉각분배장치(CDU) 두 카테고리로 출시**됨",
+     "초기 BESS 인증 파트너: Hitachi Energy, LG Energy Solution, Tesla",
+     "초기 CDU 인증 파트너: LG Electronics, LiquidStack, Vertiv",
+     "BESS는 파트너가 필수 테스트를 수행 후 데이터를 NVIDIA에 제출해 검토·승인받는 방식이며, **인증 통과가 사이트 수준 엔지니어링이나 안정성을 보장하지는 않음**",
+     "CDU는 자체 인증 스위트(self-qualification suite)를 통해 NVIDIA 기능 요구사항 충족 여부를 판단",
+     "향후 인프라·소프트웨어 전반에 추가 카테고리가 순차 도입될 예정"
+    ],
+    "why_matters": "AI 팩토리 확장이 전력·냉각·용수·부지·그리드 제약에 부딪히는 상황에서, NVIDIA가 컴퓨트를 넘어 **전력·냉각 서플라이체인까지 표준화된 인증 체계로 통제**하려는 시도이다. 이는 Hitachi Energy, Tesla, Vertiv 등 전력·냉각 전문기업들을 NVIDIA 생태계 파트너로 공식 편입시켜, AI 인프라 구축 전 과정에서 NVIDIA의 설계 영향력을 확대하는 효과를 갖는다.",
+    "subject_angle": "이는 NVIDIA가 GPU·네트워킹을 넘어 **AI 팩토리 전체를 하나의 시스템으로 설계·운영하는 DSX 플랫폼 전략**을 구체화하는 조치로, 전력·냉각 파트너 생태계를 레퍼런스 설계에 종속시켜 하드웨어 판매를 넘어선 인프라 표준 주도권을 강화하려는 행보다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DSX Ready 프로그램 및 DSX AI 팩토리 레퍼런스 설계 주체"
+     },
+     {
+      "name": "Hitachi Energy",
+      "context": "DSX Ready BESS 인증 파트너"
+     },
+     {
+      "name": "LG Energy Solution",
+      "context": "DSX Ready BESS 인증 파트너"
+     },
+     {
+      "name": "Tesla",
+      "context": "DSX Ready BESS 인증 파트너"
+     },
+     {
+      "name": "LG Electronics",
+      "context": "DSX Ready CDU 인증 파트너"
+     },
+     {
+      "name": "LiquidStack",
+      "context": "DSX Ready CDU 인증 파트너"
+     },
+     {
+      "name": "Vertiv",
+      "context": "DSX Ready CDU 인증 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DSX Ready",
+      "role": "전력·냉각 파트너 제품 인증 프로그램"
+     },
+     {
+      "name": "NVIDIA DSX AI factory platform",
+      "role": "컴퓨트·네트워킹·전력·냉각·시설·소프트웨어를 통합하는 AI 팩토리 레퍼런스 설계 플랫폼"
+     },
+     {
+      "name": "BESS (Battery Energy Storage Systems)",
+      "role": "DSX Ready 초기 인증 카테고리"
+     },
+     {
+      "name": "CDU (Cooling Distribution Units)",
+      "role": "DSX Ready 초기 인증 카테고리"
+     }
+    ],
+    "watch_next": [
+     "추가로 도입될 인프라·소프트웨어 인증 카테고리 목록 및 일정",
+     "BESS·CDU 외 신규 파트너사 추가 여부",
+     "DSX Ready 인증이 실제 AI 팩토리 프로젝트 수주·배포 사례로 이어지는지 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+     "link": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "NVIDIA Launches DSX Ready to Qualify Power and Cooling Products for AI Factories",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GRnV4OW9vM1I1cDRTNnJOMzVhMnBaWGtXNVV1V0wyM2VxNzBid3JFbjI3NUgyUDFLX1NYTm14ZVRrUnpZSlZlQkYxWmxWOEFOdkotZU5jSlJ5Q2xaaDVsdE5rWU9LbkhzbmRDVnZmTGQ3QUg4Q3c?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/dsx-ready-ai-factories-power-cooling",
+   "body": "Every AI factory needs power and cooling that fit its computing architecture. As AI infrastructure expands, power, cooling, water, site and grid constraints are shaping what builders can deploy. Choosing products that fit the complete factory design helps builders turn computing capacity into useful AI output. To help builders make those decisions, NVIDIA is introducing NVIDIA DSX Ready, a qualification program for partner products and solutions that meet applicable NVIDIA DSX AI factory reference design requirements. The program launches with two initial categories: battery energy storage systems (BESS) and cooling distribution units (CDUs). Category-specific requirements and review through the program help builders evaluate offerings with greater confidence, reduce integration risk and move toward deployment. Qualified Building Blocks for Building AI Factory The NVIDIA DSX AI factory platform unifies AI factory design and operations across compute, networking, power, cooling, facilities and software. It helps partners design and operate the factory as one system to produce more useful AI output within available power, cooling, water and grid constraints. That system view matters now because optimizing one part of an AI factory can shift the bottleneck elsewhere. Power and cooling suppliers need a clear path from reference designs to qualified offerings, and builders need a clearer way to discover and evaluate those offerings. DSX Ready connects that selection process to applicable NVIDIA DSX requirements. It gives builders a clear qualification to look for and gives partners a defined way to demonstrate that a specific offering meets the requirements for its category. Power and Cooling Qualification At launch, DSX Ready includes qualified BESS solutions Hitachi Energy , LG Energy Solution and Tesla , and qualified CDU solutions from LG Electronics, LiquidStack and Vertiv . These initial categories bring power systems and liquid-cooling infrastructure into a common program, with requirements tailored to each technology. Additional categories across infrastructure and software will be rolled out over time. For BESS providers, partners run the required qualification tests and submit supporting data for NVIDIA review and approval within a defined qualification boundary. Passing qualification does not replace site-level engineering or imply site-level stability. For CDU providers, the path uses the CDU self-qualification suite to determine whether a specific offering meets applicable NVIDIA functional requirements. Teams can then focus on how qualified offerings fit their site, configuration and operating needs. A qualified CDU may meet the relevant cooling criteria, for example, while the builder still evaluates how it will fit the planned facility. From Platform Design to Partner Selection The value of a reference design grows when builders can connect it to specific products and informed engineering decisions. DSX Ready makes that connection, bri"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nokia ramps up AI-RAN momentum",
+   "link": "https://www.datacenterdynamics.com/en/news/nokia-ramps-up-ai-ran-momentum/",
+   "date": "2026-09-22 01:21",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "Nokia AI-RAN, 8개 통신사 협력 (NVIDIA 투자사)",
+    "korean_summary": "NVIDIA의 투자사인 Nokia가 A1 Group, Chunghwa Telecom 등 8개 글로벌 통신사와 AI-RAN 트라이얼을 진행하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Nokia, AI-RAN 모멘텀 확대…글로벌 통신사들과 실증 확대",
+    "korean_summary": "Nokia가 Nvidia와 협력해 개발 중인 AI-RAN 기술을 A1 Group, Chunghwa Telecom, du, e&, Mobily, stc, TPG Telecom, Zain Saudi 등 다수 통신사와 PoC·트라이얼로 확대하며 6G 시대를 앞두고 상용화 준비에 나섰다.",
+    "action": {
+     "actor": "Nokia",
+     "action": "다수 이동통신사와 AI-RAN 관련 PoC·트라이얼을 확대 추진하고, Nvidia와의 협업 성과를 공개",
+     "stage": "Report",
+     "timeline": "첫 상용 AI-RAN 제품은 내년(2027년 미확인, 본문상 next year) 출시 예정",
+     "scope": "North America, Europe, Asia-Pacific, Middle East의 다수 통신사 (T-Mobile US, Indosat, SoftBank Corp, NTT Docomo, BT, Elisa, Vodafone Group, Orange Group 등 포함)"
+    },
+    "key_facts": [
+     "A1 Group, Chunghwa Telecom, du, e&, Mobily, stc, TPG Telecom, Zain Saudi가 신규로 Nokia AI-RAN 테스트에 합류",
+     "Nokia AI-RAN 플랫폼은 **spectral efficiency를 20% 이상 개선**했으며 2028년까지 추가 개선 기대",
+     "Nokia와 Nvidia는 **2024년 AI-ready RAN 솔루션 개발 협약**을 체결했으며, 이는 Nvidia가 Nokia에 투자하기 이전 시점",
+     "양사 모두 2024년 출범한 AI-RAN Alliance의 executive member",
+     "Nokia의 첫 상용 AI-RAN 제품은 내년(next year) 출시 예정"
+    ],
+    "why_matters": "AI-RAN은 이동통신 네트워크를 AI 인프라로 전환시키는 핵심 기술로, **Nvidia가 통신 산업으로 사업 영역을 확장**하는 전략적 교두보 역할을 한다. 글로벌 주요 통신사들의 실증 참여 확대는 AI-RAN이 5G Advanced 및 AI-native 6G 시대의 기반 기술로 자리잡고 있음을 보여준다.",
+    "subject_angle": "Nvidia는 Nokia와의 2024년 협업 및 이후 지분 투자를 통해 **텔레콤 인프라 시장에 GPU 기반 AI 컴퓨팅을 이식**하려는 전략을 강화하고 있으며, 이는 데이터센터를 넘어 무선 네트워크까지 AI 플랫폼화하려는 신규 성장축이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nokia",
+      "context": "AI-RAN 기술 개발 주체이자 통신사 대상 실증 확대"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Nokia와 2024년 AI-RAN 개발 협약 체결, 이후 Nokia 투자자로 참여"
+     },
+     {
+      "name": "T-Mobile",
+      "context": "AI-RAN 파트너십 통신사"
+     },
+     {
+      "name": "Indosat",
+      "context": "AI-RAN 파트너십 통신사"
+     },
+     {
+      "name": "SoftBank Corp",
+      "context": "AI-RAN 파트너십 통신사"
+     },
+     {
+      "name": "NTT Docomo",
+      "context": "기존 AI-RAN 트라이얼 진행 중인 통신사"
+     },
+     {
+      "name": "BT",
+      "context": "AI-RAN 기술 협의 통신사"
+     },
+     {
+      "name": "Vodafone Group",
+      "context": "AI-RAN 기술 협의 통신사"
+     },
+     {
+      "name": "Orange Group",
+      "context": "AI-RAN 기술 협의 통신사"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI-RAN",
+      "role": "Nokia와 Nvidia가 공동 개발하는 AI 기반 무선접속망 기술, 5G Advanced에서 AI-native 6G로 이어지는 소프트웨어 업그레이드 경로"
+     }
+    ],
+    "watch_next": [
+     "Nokia 첫 상용 AI-RAN 제품의 정확한 출시 시점 및 스펙 공개 여부",
+     "추가 통신사의 AI-RAN 트라이얼 참여 및 상용화 전환 사례",
+     "Nvidia의 Nokia 투자 규모 및 지분 관계 상세 내용"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/nokia-ramps-up-ai-ran-momentum",
+   "body": "Nokia last week announced that it has worked with more mobile carriers to engage in proofs of concept and/or trials to advance its work with AI-RAN. The vendor, which is currently banging the drum around AI-RAN (radio access networks) pretty loudly along with its investor Nvidia, confirmed that more mobile carriers are testing its AI-RAN offering. Indeed, A1 Group, Chunghwa Telecom, du, e&, Mobily, stc, TPG Telecom, and Zain Saudi are the latest mobile carriers to pair with Nokia to test its AI-RAN. Nokia also highlighted that existing partnerships are continuing to build, noting that trials with operators previously announced, such NTT Docomo \"continue to progress steadily.\" The vendor has notably previously named other carriers including the likes of BT, Elisa, and Vodafone Group, as those who has also engaged Nokia over AI-RAN technology, plus France's Orange Group. The company said its operator engagement over AI-RAN now spans North America, Europe, Asia-Pacific, and the Middle East. Further partnerships have been developed with the likes of T-Mobile in the US, Indonesia's Indosat, and Japan's SoftBank Corp. All three of these telcos featured heavily in Nokia's MWC announcement in March, when the vendor mapped out its ambitions to work with Nvidia to develop AI-RAN ahead of the 6G era. While Nokia's first commercial AI-RAN products aren't expected to go live until next year, the company spoke up about the importance of pairing with carriers to trial the technology. According to Nokia, its AI-RAN platform has been able to deliver more than 20 percent improvements in spectral efficiency through AI-powered radio innovations, with further gains expected through to 2028. This is important, notes Nokia, as it will enable telcos to \"increase capacity, improve network economics and create new service opportunities by extracting greater value from existing spectrum and infrastructure investments, reducing reliance on traditional hardware refresh cycles.\" \"AI is reshaping the future of telecommunications and creating a significant opportunity for operators to rethink the role of the radio network. Together with Nvidia and our growing ecosystem of partners, we are helping operators transform their networks into intelligent, programmable platforms that can support both connectivity and AI services,\" said Emma Falck, president of mobile infrastructure, Nokia. \"The increasing engagement we are seeing from service providers around the world shows that AI-RAN is moving quickly from vision to commercial reality and becoming a foundational technology for the AI-native 6G era.\" Nokia and GPU giant Nvidia first penned an agreement to develop AI-ready RAN solutions back in 2024, long before Nvidia became an investor in the vendor. \"AI-RAN will transform the mobile network into one of the world’s largest distributed AI infrastructures. Global operator momentum demonstrates that AI-RAN is becoming the foundation for 5G Advanced today and then software upgradable to"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아·퀄컴·유니트리 서울 집결…‘피지컬 AI’ 미래 논의",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170630",
+   "date": "2026-09-22 17:30",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA·퀄컴·유니트리, 서울 휴머노이드 써밋에서 피지컬 AI 기술 논의",
+    "korean_summary": "NVIDIA를 포함한 글로벌 기업들이 9월 22-23일 서울에서 피지컬 AI와 휴머노이드의 정밀 조작 및 산업 적용을 논의한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092170630",
+   "body": "인공지능(AI)이 로봇과 결합해 실제 공간에서 움직이고 작업을 수행하는 ‘피지컬 AI’의 기술과 산업 전략을 논의하기 위해 글로벌 기업과 전문가들이 서울에 모인다. 엔비디아와 퀄컴, 중국 로봇기업 유니트리 등 글로벌 기업과 국내 로봇기업들이 참여해 휴머노이드의 정밀 조작과 하드웨어 제어, 산업 현장 적용 방안 등을 논의한다.과학기술정보통신부는 22일부터 23일까지 서울 코엑스에서 글로벌 피지컬 AI·휴머노이드 콘퍼런스인 ‘휴머노이드 써밋 서울’이 열린다고 밝혔다.이번 행사는 미국 실리콘밸리 벤처캐피털(VC) ALM Ventures가"
+  },
+  {
+   "source": "Google News · TechTarget",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Can Nvidia's physical AI strategy replicate its AI dominance?",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRDI0bTBQT2xXQWFReWoxVnpuSmI1LWlqTXA4azdZX3V0WEhlSDFMS1hhak5uSnhmNkJTWHcxV2NXa1JNNjhjOXZDMW5rV2JmYUd3TWhWeTVJbGVHclJiX1VGNS02YU5QQkRRWVNJVWVHMWJQUHpkaG9uczRQSzRCYWJTX3JXMUpoeUhRU0tuUldCU0N1QXFLcWU3aWg2UQ?oc=5",
+   "date": "2026-09-22 05:58",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": false,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA의 피지컬 AI 전략, AI 지배력 재현할 수 있을까?",
+    "korean_summary": "NVIDIA의 피지컬 AI 전략이 기존 AI 시장에서의 지배력을 로봇·자동차 분야에서도 재현할 수 있는지 분석되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRDI0bTBQT2xXQWFReWoxVnpuSmI1LWlqTXA4azdZX3V0WEhlSDFMS1hhak5uSnhmNkJTWHcxV2NXa1JNNjhjOXZDMW5rV2JmYUd3TWhWeTVJbGVHclJiX1VGNS02YU5QQkRRWVNJVWVHMWJQUHpkaG9uczRQSzRCYWJTX3JXMUpoeUhRU0tuUldCU0N1QXFLcWU3aWg2UQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia is partnering with Swedish autonomous truck startup Einride to scale its self-driving fleet",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xRU9NUU9kYVNUa0M3UGdnZVVnVmtwYmpTN05kSVlxdmMySVZ1TERDT0tDQ1p3eFBBSWR3YmI1MU84UkdrYzZRbG9jZzJRR0NRY2pJZHVsbFJVXzlkcngtNXFfM1dRY2pLOTk4RFFiUjRrd0lD?oc=5",
+   "date": "2026-09-21 22:41",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Einride와 자율주행 함대 확대 협력",
+    "korean_summary": "NVIDIA가 스웨덴 자율주행 트럭 스타트업 Einride와 제휴해 자동화 함대를 규모 있게 확대하기로 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · qz.com",
+     "title": "Nvidia is partnering with Swedish autonomous truck startup Einride to scale its self-driving fleet",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xRU9NUU9kYVNUa0M3UGdnZVVnVmtwYmpTN05kSVlxdmMySVZ1TERDT0tDQ1p3eFBBSWR3YmI1MU84UkdrYzZRbG9jZzJRR0NRY2pJZHVsbFJVXzlkcngtNXFfM1dRY2pLOTk4RFFiUjRrd0lD?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xRU9NUU9kYVNUa0M3UGdnZVVnVmtwYmpTN05kSVlxdmMySVZ1TERDT0tDQ1p3eFBBSWR3YmI1MU84UkdrYzZRbG9jZzJRR0NRY2pJZHVsbFJVXzlkcngtNXFfM1dRY2pLOTk4RFFiUjRrd0lD",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "5 Companies Using NVIDIA AI for Clean Energy",
+   "link": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+   "date": "2026-09-21 19:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA CUDA, 청정에너지 기업 5곳에서 활용",
+    "korean_summary": "ThinkLabs AI 등 5개 청정에너지 회사가 NVIDIA CUDA 플랫폼을 활용해 디지털 트윈·AI 에이전트 기반 스마트 그리드를 구축하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 뉴욕 기후 주간서 청정에너지 가속화하는 5개 기업 소개",
+    "korean_summary": "NVIDIA는 뉴욕 기후 주간(New York Climate Week)을 맞아 CUDA, Omniverse, Blackwell 등 자사 플랫폼을 활용해 그리드 최적화·원자력 운영·AI 팩토리 전력 공급 속도를 높이는 ThinkLabs AI, Atomic Canyon, Redwood Materials, TerraPower 등 5개 기업의 사례를 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "New York Climate Week에서 NVIDIA 플랫폼(CUDA, Omniverse, Blackwell, accelerated compute)을 활용해 청정에너지·그리드·원자력 프로젝트를 가속화하는 5개 파트너 기업 사례 공개",
+     "stage": "Announced",
+     "timeline": "New York Climate Week 기간 (정확한 날짜 미확인)",
+     "scope": "ThinkLabs AI, Atomic Canyon, Redwood Materials, TerraPower 등 5개 기업 (5번째 기업명 본문 잘림으로 미확인)"
+    },
+    "key_facts": [
+     "**Southern California Edison는 ThinkLabs AI 소프트웨어로 그리드 연계 신청 평가 시간을 30~45일에서 단 2분으로 단축**",
+     "Atomic Canyon은 NVIDIA accelerated compute 기반 Neutron·NIVA 플랫폼으로 원자로 운영진에 AI 지식관리·어시스턴트 제공",
+     "**Redwood Materials는 100% 재활용 EV 배터리와 NVIDIA Blackwell 플랫폼 기반 AI 인텔리전스 레이어로 AI 팩토리용 오프그리드 전력 시스템 구축**",
+     "TerraPower는 NVIDIA Omniverse 기반 디지털 트윈 소프트웨어로 Natrium 원자로 부지 선정·건설 기간을 수년에서 수개월로 단축 추진",
+     "현재 원자력은 미국 전체 전력의 20%를 공급 중이며, ThinkLabs AI와 Atomic Canyon은 NVIDIA Inception 프로그램 소속"
+    ],
+    "why_matters": "**AI 데이터센터의 전력 수요가 그리드 인프라 확충 속도를 앞지르면서, 청정에너지·원자력·오프그리드 전력 솔루션의 가속화가 AI 산업 성장의 핵심 병목 해소 요인으로 부상하고 있다.** 이는 NVIDIA 컴퓨팅 플랫폼이 에너지·유틸리티 산업까지 확장되는 사례로, GPU 수요 자체가 전력 공급 문제와 직결됨을 보여준다.",
+    "subject_angle": "**NVIDIA는 CUDA, Omniverse, Blackwell 등 핵심 플랫폼을 에너지·유틸리티·원자력 분야 스타트업(Inception 프로그램)에 이식시켜 AI 팩토리 전력 공급망까지 자사 생태계로 통합하려는 전략을 보인다.** 이는 데이터센터 GPU 판매를 넘어 전력 인프라 병목 해소 자체를 사업 기회로 포착하는 움직임이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "ThinkLabs AI",
+      "context": "NVIDIA CUDA 기반 디지털 트윈·에이전트로 그리드 연계 최적화, NVIDIA Inception 멤버"
+     },
+     {
+      "name": "Southern California Edison",
+      "context": "ThinkLabs AI 소프트웨어 도입 유틸리티, 연계 평가 시간 대폭 단축"
+     },
+     {
+      "name": "Atomic Canyon",
+      "context": "NVIDIA accelerated compute 기반 Neutron·NIVA 개발, NVIDIA Inception 멤버"
+     },
+     {
+      "name": "PG&E",
+      "context": "Atomic Canyon 기술로 최적화된 Diablo Canyon 원전 운영사"
+     },
+     {
+      "name": "Redwood Materials",
+      "context": "NVIDIA Blackwell 기반 AI 레이어로 재활용 EV 배터리 오프그리드 전력 시스템 구축, NVIDIA Inception 멤버"
+     },
+     {
+      "name": "TerraPower",
+      "context": "NVIDIA Omniverse 기반 디지털 트윈으로 Natrium 원자로 부지·건설 가속화"
+     },
+     {
+      "name": "Institute of Nuclear Power Operations / Electric Power Research Institute / Nuclear Energy Institute",
+      "context": "Atomic Canyon과 NIVA 플랫폼 공동 개발"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA CUDA",
+      "role": "ThinkLabs AI의 그리드 시뮬레이션·디지털 트윈 연산 기반"
+     },
+     {
+      "name": "NVIDIA Accelerated Compute",
+      "role": "Atomic Canyon Neutron·NIVA 플랫폼 구동"
+     },
+     {
+      "name": "NVIDIA Blackwell",
+      "role": "Redwood Materials의 AI 팩토리 오프그리드 전력 인텔리전스 레이어 구동"
+     },
+     {
+      "name": "NVIDIA Omniverse",
+      "role": "TerraPower의 Natrium 원자로 디지털 트윈 소프트웨어 기반"
+     }
+    ],
+    "watch_next": [
+     "본문에서 언급된 5번째 기업의 구체적 사례 확인 (본문 잘림)",
+     "TerraPower Natrium 원자로 부지 선정·건설 실제 착수 시점",
+     "Redwood Materials 오프그리드 AI 팩토리 전력 시스템의 실제 상용 배포 규모"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "5 Companies Using NVIDIA AI for Clean Energy",
+     "link": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "5 Companies Using NVIDIA AI for Clean Energy",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RcDBBM1lfU3B6SmgwcVE3Wnd5dnQxZmZwYUk1MTQteXM3bzc5SkdDbm42RW53YzBqS2VyenRHUHRsUGhiZVdzTDlvNFlkcnhWcmFtLVBDNllaWnZzSmgySlJqaw?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai",
+   "body": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception pipelines and ultimately helping build a low carbon grid. ThinkLabs AI Drives Toward An Autonomous Grid With Digital Twins ThinkLabs AI is curating digital twins and agents — using the NVIDIA CUDA platform — to speed up interconnection timelines, seamlessly integrate clean energy sources and optimize the grid to handle ongoing variability. “The grid is getting less and less certain, so the ability to see things not statically, but as a probability — hence all the utility actions — should be risk informed,” said Josh Wong, founder and CEO of ThinkLabs, a member of the NVIDIA Inception program for cutting-edge startups. “That hits not just reliability objectives, but also affordability, so we know how to maximize and optimize investments.” Southern California Edison used ThinkLabs software to reduce the time required to evaluate each grid interconnection application from 30-45 days to just two minutes. The speedup came from a ThinkLabs agent that runs grid simulations and identifies solutions to interconnection barriers. Atomic Canyon’s AI Platform Helps Redefine Operations in the Nuclear Sector PG&E’s Diablo Canyon, optimized by Atomic Canyon Atomic Canyon, another NVIDIA Inception member, is bringing AI-powered knowledge management and assistance to reactor operators with its NVIDIA accelerated compute-powered Neutron and NIVA platforms to streamline nuclear power plant operations. Neutron acts as an AI workbench built for nuclear professionals. It turns all of their procedures, regulatory guidance, operating experience, licensing records, design calculations, and structured and unstructured data into a knowledge layer. NIVA, short for Nuclear Industry Virtual Assistant, was built with the Institute of Nuclear Power Operations, Electric Power Research Institute and the Nuclear Energy Institute as a unified platform bringing AI-powered capabilities to the national nuclear fleet. “Nuclear is a known technology we’ve been doing for 50 to 60 years, but the way we’ve been doing things simply will not scale to meet the moment that’s in front of us; i t needs to be reinvigorated by artificial intelligence,” said Trey Lauderdale, founder and CEO of Atomic Canyon. Redwood Materials’ Repurposed EV Batteries Power AI Without Waiting on the Grid Electricity demand from AI is accelerating faster than new grid infrastructure can be built, leading to a bottleneck in the industry’s growth. Redwood Materials is closing that gap by harnessing its expertise in battery engineering, power electronics and systems design to build large-scale, off-grid power solutions for AI f"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "K-바이오 ‘AI 인프라 전쟁’ 시작…“빅파마 대비 걸음마 수준”",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170558",
+   "date": "2026-09-21 20:13",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "SK바이오팜 NVIDIA B200 128개 도입으로 국내 제약업 AI 인프라 경쟁 본격화",
+    "korean_summary": "SK바이오팜이 NVIDIA 블랙웰 아키텍처 기반 B200 AI 가속기 128개를 도입해 신약 개발·중개연구·사내 LLM 개발에 활용한다."
+   },
+   "summary_data": {
+    "korean_title": "K-바이오, AI 신약개발 인프라 확보 경쟁 본격화…SK바이오팜 엔비디아 B200 128장 도입",
+    "korean_summary": "SK바이오팜이 엔비디아 블랙웰 기반 B200 GPU 128장 규모 연산자원을 확보하며 국내 제약사들이 AI 활용을 넘어 자체 인프라 구축 경쟁에 뛰어들었다.",
+    "action": {
+     "actor": "SK바이오팜",
+     "action": "엔비디아 블랙웰 아키텍처 기반 AI 가속기 B200 128장 규모 연산자원을 SK텔레콤 GPU 클러스터 '해인'을 통해 확보하고 중개연구·사내 LLM 개발에 활용",
+     "stage": "Available",
+     "timeline": "미확인(최근)",
+     "scope": "SK바이오팜 신약개발 R&D, B200 128장 규모"
+    },
+    "key_facts": [
+     "SK바이오팜이 **엔비디아 B200 GPU 128장** 규모 연산자원을 SK텔레콤 클러스터 '해인'으로 확보",
+     "일라이 릴리는 엔비디아와 함께 **블랙웰 울트라 GPU 1016개 탑재 슈퍼컴퓨터 '릴리팟(LillyPod)'** 가동, 향후 5년간 최대 10억달러 공동 투자 AI 연구소 구축 중",
+     "암젠은 엔비디아 DGX 클라우드와 BioNeMo를 활용해 단백질·화합물 생성형 AI 모델 개발",
+     "셀트리온은 신규 원료의약품 4·5공장에 '피지컬 AI' 도입 계획, 삼성바이오로직스는 5공장에 디지털 트윈 및 에이전틱 AI·자율주행 로봇 접목 추진",
+     "JW중외제약은 AI 플랫폼 'JWave'와 로봇을 결합한 자율 연구소(Self-driving Lab) 구축 중"
+    ],
+    "why_matters": "글로벌 빅파마(릴리, 암젠 등)에 이어 국내 제약사들도 엔비디아 GPU 기반 자체 연산 인프라 구축에 나서면서 **제약바이오 산업이 엔비디아의 신규 수요처로 부상**하고 있다. 신약개발 R&D를 넘어 제조 공정 자동화(피지컬 AI, 디지털 트윈, 에이전틱 AI)까지 AI 적용 범위가 확장되며 엔비디아 플랫폼의 활용 영역이 다변화되고 있다.",
+    "subject_angle": "엔비디아는 데이터센터 GPU(B200, 블랙웰 울트라)뿐 아니라 **BioNeMo·DGX 클라우드 등 산업별 특화 AI 스택**을 제약바이오 분야까지 확장하며 릴리와의 대규모 공동투자 사례처럼 빅파마와의 전략적 파트너십을 심화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "B200·블랙웰 울트라 GPU, DGX 클라우드, BioNeMo 등 AI 인프라 및 플랫폼 공급"
+     },
+     {
+      "name": "SK바이오팜",
+      "context": "엔비디아 B200 128장 규모 연산자원 확보, 신약개발 중개연구에 AI 활용"
+     },
+     {
+      "name": "SK텔레콤",
+      "context": "GPU 클러스터 '해인' 구축·운영, SK바이오팜에 연산자원 제공"
+     },
+     {
+      "name": "Eli Lilly",
+      "context": "엔비디아와 블랙웰 울트라 GPU 1016개 슈퍼컴퓨터 'LillyPod' 공동 구축, 5년간 최대 10억달러 공동투자 AI 연구소 추진"
+     },
+     {
+      "name": "Amgen",
+      "context": "엔비디아 DGX 클라우드·BioNeMo로 생성형 AI 모델 개발"
+     },
+     {
+      "name": "Novartis",
+      "context": "표적 발굴·임상 의사결정에 AI 적용"
+     },
+     {
+      "name": "Novo Nordisk",
+      "context": "임상 데이터 분석 AI 에이전트 도입"
+     },
+     {
+      "name": "셀트리온",
+      "context": "신규 공장에 피지컬 AI 도입 계획"
+     },
+     {
+      "name": "JW중외제약",
+      "context": "자체 AI 플랫폼 JWave와 로봇 결합한 자율 연구소 구축"
+     },
+     {
+      "name": "삼성바이오로직스",
+      "context": "디지털 트윈·에이전틱 AI·자율주행 로봇 생산 현장 접목"
+     },
+     {
+      "name": "신테카바이오, 스탠다임",
+      "context": "기존 AI 신약 후보 발굴 협력 전문기업"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA B200 (Blackwell)",
+      "role": "SK바이오팜이 확보한 신약개발용 GPU 연산자원"
+     },
+     {
+      "name": "NVIDIA Blackwell Ultra GPU",
+      "role": "Eli Lilly 슈퍼컴퓨터 LillyPod에 1016개 탑재"
+     },
+     {
+      "name": "NVIDIA DGX Cloud / BioNeMo",
+      "role": "Amgen의 생성형 AI 단백질·화합물 모델 개발 기반"
+     },
+     {
+      "name": "SK텔레콤 GPU 클러스터 '해인'",
+      "role": "SK바이오팜에 B200 연산자원 제공하는 인프라"
+     }
+    ],
+    "watch_next": [
+     "SK바이오팜의 사내 LLM 개발 및 AI 연구 서비스 사업화 진행 상황",
+     "국내 제약사들의 추가 엔비디아 GPU 인프라 투자 발표 여부",
+     "Eli Lilly-엔비디아 AI 연구소 공동투자(최대 10억달러) 세부 진행 상황"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092170558",
+   "body": "국내 제약바이오 기업들이 인공지능(AI)을 활용하는 수준을 넘어 AI를 돌리기 위한 ‘기반시설’ 확보 경쟁에 뛰어들고 있다. 일각에서는 글로벌 빅파마들이 이미 대규모 GPU·자체 데이터·AI 조직을 구축하고 있기 때문에 인프라 투자를 더 빠르게 확대할 필요가 있다는 지적이 나온다. 21일 업계에 따르면 SK바이오팜은 최근 엔비디아의 최신 블랙웰 아키텍처 기반 AI 가속기 ‘B200’ 128장 규모의 연산 자원을 확보했다. SK텔레콤이 구축한 GPU 클러스터 ‘해인’을 통해 사용하는 방식이다. 국내 제약사가 신약 개발을 위해 이 정도 규모의 최신 GPU 연산 자원을 확보한 것은 이례적이다. SK바이오팜은 이를 단순한 후보물질 탐색에만 사용하지 않을 계획이다. 동물실험 등 비임상 결과와 사람을 대상으로 한 임상 결과를 연결하는 ‘중개연구’에 AI를 적용하고 질환·타깃·화합물 데이터를 통합 분석한다. 실험 결과를 AI가 분석하고, 이를 다시 학습해 다음 실험 방향을 제시하는 연구 순환 구조도 구축한다. 사내 업무용 전용 거대언어모델(LLM) 개발도 추진한다. 향후에는 확보한 AI 인프라를 기업·대학·연구기관과 공동으로 활용하거나 AI 연구 서비스 사업으로 확장하는 방안까지 검토하고 있다. 업계는 SK바이오팜의 투자가 국내 제약업계 AI 경쟁의 성격이 바뀌는 신호라는 평가가 나온다. 그동안 제약사들의 AI 활용은 신테카바이오·스탠다임 등 전문 AI 기업과 손잡고 수많은 화합물 가운데 신약 후보를 골라내는 방식이 주를 이뤘다. 반면 최근에는 제약사가 GPU와 데이터를 직접 확보하고 자체 모델을 구축하는 쪽으로 무게중심이 옮겨가고 있다. 셀트리온은 AI를 연구실에서 공장으로 끌어들이고 있다. 셀트리온은 지난 5월 신약 개발·제조·사무를 3대 AI 전환 영역으로 정하고, 앞으로 건설할 신규 원료의약품 4·5공장에 ‘피지컬 AI’를 도입하겠다고 밝혔다. AI가 생산 데이터를 분석하는 데 그치지 않고 자동화 설비와 결합해 실제 제조 공정을 제어하는 형태다. 회사는 이를 통해 생산 효율을 높이고 반복 업무를 줄인다는 계획이다. JW중외제약은 한발 더 나아가 AI와 로봇을 결합한 ‘자율 연구소(Self-driving Lab)’를 만들고 있다. 자체 AI 신약개발 플랫폼 ‘제이웨이브(JWave)’가 표적 단백질 구조 등을 분석해 화합물을 설계하면 로봇이 해당 물질을 자동으로 합성하는 방식이다. 삼성바이오로직스 역시 AI를 제조 경쟁력의 핵심으로 보고 있다. 삼성바이오로직스는 5공장에 실제 생산공정을 가상공간에 구현하는 ‘디지털 트윈’을 적용하고 AI와 자율주행 로봇 등 자동화 기술을 확대하고 있다. 올해는 디지털 트윈을 넘어 스스로 판단하고 작업을 수행하는 ‘에이전틱 AI(Agentic AI)’와 로봇을 생산 현장에 접목하겠다는 계획도 내놨다. 글로벌 빅파마들도 AI 인프라 확보에 속도를 내고 있다. 일라이 릴리는 올해 엔비디아와 손잡고 1016개의 블랙웰 울트라 GPU를 탑재한 슈퍼컴퓨터 ‘릴리팟(LillyPod)’을 가동했다. 신약 후보물질 발굴과 최적화는 물론 제조·의료영상·사내 AI 에이전트까지 활용 범위를 넓히고 있으며, 엔비디아와는 향후 5년간 최대 10억달러를 공동 투자하는 AI 연구소도 구축하고 있다. 암젠은 엔비디아 DGX 클라우드와 바이오네모(BioNeMo)를 활용해 단백질·화합물 생성형 AI 모델을 개발하고, 분자 설계부터 임상시험까지 AI 적용 범위를 확대하고 있다. 노바티스 역시 표적 발굴과 후보물질 선정, 임상 의사결정 전반에 AI를 적용하고 있다. 노보노디스크는 임상 데이터를 분석하는 AI 에이전트를 도입해 연구 아이디어 검토 시간을 기존 수주에서 수분 수준으로 줄이는 등 빅파마의 경쟁도 단순한 AI 활용을 넘어 자체 연산 인프라와 데이터, AI 에이전트를 확보하는 방향으로 확산하고 있다. 제약바이오 산업에 AI가 신약 개발뿐 아니라 생산까지 침투하는 이유는 산업 특유의 낮은 연구 효율 때문이다. 신약 하나를 개발하려면 수년에서 10년 이상이 걸리지만, AI를 이용하면 수억개의 화합물 분석해 독성·약효·임상 성공 가능성을 예측할 수 있다. 업계 관계자는 “국내 제약·바이오 기업들도 AI 신약개발과 생산 자동화에 본격적으로 뛰어들고 있지만 아직은 인프라를 구축하는 초기 단계”라며 “글로벌 빅파마는 이미 대규모 GPU·자체 데이터·AI 조직을 결합해 연구·임상·생산 전반에 적용하고 있는 만큼, 국내 기업들도 데이터와 연산 인프라에 대한 투자를 더 빠르게 확대할 필요가 있다”고 말했다. 김동명 기자 simalo@chosunbiz.com"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, QIA-backed Iambic Therapeutics files for US IPO as biotech boom rolls on",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUFFHZFJFc2pid0VBT2lxVEVmMWZfMDFJeVVhM1NKLVdDMERCQi1RcFNKWkxzT0F6MDgtWm1vSGl5bEQ2TXplVGdhZERjX2syQTR1dy1UakNTOFhhYmpkWnRBX082VVc2U2I4aV9kU1RxbTJTV2tKVGNUSjFicjYtQnBVeHljUDVuV3lHNmsweWVUOFppemNhY3hXS3RScnl0WE10ajdsb3A4UUdHTXpIbzNIQXBxTFVzQm1LVWFJMA?oc=5",
+   "date": "2026-09-22 07:32",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA·QIA 지원 바이오텍 기업 Iambic Therapeutics 미국 IPO 신청",
+    "korean_summary": "NVIDIA와 QIA의 지원을 받는 바이오텍 기업 Iambic Therapeutics가 미국 IPO를 신청했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Belleville News-Democrat",
+     "title": "Nvidia, QIA-backed Iambic Therapeutics files for US IPO as biotech boom rolls on",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LY0lOeFpkODBNMnFjN0ZSVWh5N043aXQ4WW5wblRtTDM3UlhjMjhmS3l4SExUYm84dzhDY2VsRTA1Vl90czJqZDVsQzRTVlBXRkpRc0xUektVOXRfUXNlY0hOYzc5Zw?oc=5"
+    },
+    {
+     "source": "Google News · Investing.com",
+     "title": "Nvidia, QIA-backed Iambic Therapeutics files for US IPO as biotech boom rolls on By Reuters",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd3hpR3FtVWdSclpmQ0ZaMTVJeU5aSjNSbHJQaXJyTGZnNUNRcFJaaDVPNTZaVGJ3UHljUVVpVm02eHhwOG02WTlOcTB0dlpYUFhKbE5MTjQ2RWlrWkZCUDF1THJNSVNtOFVHb21BNzc2SkRwTlZ5SHQzRnFJZjBuWVMteVZtaVpaZ29GRDBpMFNSQzhXTUpWUW81TU50dXF0c1RCR2N0am1XdGltb2oxWDZMaTFFWUZPblJUVmNYbU43UW1qOUpyTjNR?oc=5"
+    },
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia, QIA-backed Iambic Therapeutics files for US IPO as biotech boom rolls on",
+     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbm9PeDloai1hbFo4djRHd19Kb0hhZHoxaDRublYtUkNjai04T1ByTmZpaW02cHNxbHdyNVBWYzBlNjlGYUlJX09GN3FGazczUzcyVV8tVW9hcGNNQzdLYkpFZnU3MWNVUzNXWndpRG9wbmZJQ25taHNZcXN5WFVlQ2J3Wk1mSm9CUi11bEJDT3JaOURvYzZNamRMWXJPN2xaRHdmWDl1OGhnSUJqc0lnOXhVQ1pqSEcxZFBBYmFNaWd1VlNicWlKNV83M1R1ZlJCSVJHaHg4M2RxNnRoUnh5aVBYbw?oc=5"
+    },
+    {
+     "source": "Google News · Bloomberg.com",
+     "title": "Nvidia-Backed AI Drugmaker Iambic Therapeutics Files for IPO",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcDloRGI3cXpNV0U2VmwyMGtqc3c5UTZMWHhxWlhHd1hRWjZmRlZNUVB2ZHFRVF9IdkdERG9LQTZ3Q2tid0R6QktDRHZtVTJjaDFxSUlIVDZid0dLd2lCOEFOTXpaWDFNYldXcmNQQnFBZ1RvcEdTaUZEcTBuTEdqSTZ2bHNKVHZ5RUtIbnVVWjh1SlozeW14T0VVclhKUGhGRENJVGQzU213UDFPS0l1Xw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUFFHZFJFc2pid0VBT2lxVEVmMWZfMDFJeVVhM1NKLVdDMERCQi1RcFNKWkxzT0F6MDgtWm1vSGl5bEQ2TXplVGdhZERjX2syQTR1dy1UakNTOFhhYmpkWnRBX082VVc2U2I4aV9kU1RxbTJTV2tKVGNUSjFicjYtQnBVeHljUDVuV3lHNmsweWVUOFppemNhY3hXS3RScnl0WE10ajdsb3A4UUdHTXpIbzNIQXBxTFVzQm1LVWFJMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Crusoe",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Crusoe earns NVIDIA Exemplar Cloud validation on Blackwell Ultra",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlFTU3Y1X19QOVM0cWxuVEc2dFR4WmJleTV1ck52bGRlSXVsYThsSnVYemtzMXByQ0kyNGFuYjNRcXRWWDdsVG5YeGFYRjhkZ0NxcVdDTkJCZ2sxZjhPOEoxNFM0Qk81Qmo4V3E4Z3ZZejdIT1loeE04UURnN3VnZHVrWWVhZDBraEZYY3cxNTByckpvTjRNaXBzQnJ5anFVa1dN?oc=5",
+   "date": "2026-09-22 02:09",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "Crusoe, NVIDIA Blackwell Ultra에서 Exemplar Cloud 검증 획득",
+    "korean_summary": "Crusoe가 NVIDIA의 Blackwell Ultra에 대한 클라우드 검증을 획득했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlFTU3Y1X19QOVM0cWxuVEc2dFR4WmJleTV1ck52bGRlSXVsYThsSnVYemtzMXByQ0kyNGFuYjNRcXRWWDdsVG5YeGFYRjhkZ0NxcVdDTkJCZ2sxZjhPOEoxNFM0Qk81Qmo4V3E4Z3ZZejdIT1loeE04UURnN3VnZHVrWWVhZDBraEZYY3cxNTByckpvTjRNaXBzQnJ5anFVa1dN",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Just Sent This Trucking Stock Surging",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUZJdFQ2dElULVZxdE5UZWJDRlg2b2Y4ZmF4bWZkWWdqZllEZEUxZkpUcEMyYlh6QlQ1Uk5vQnpDdnZRLWRkc1hvb0tHampub1gxSkJSQ0hHdXBVcFZwS1pQMzV0VmRkMFRnWGpXMWxVYkgtb2p5dmlWd1lURTBCdHYzMEJjVDNIYmZpbWFCNlhjMVpmelZuRWlhdEFEczZkb2NvanBjOA?oc=5",
+   "date": "2026-09-22 00:13",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 자율주행 움직임으로 트럭 운송 주가 급등",
+    "korean_summary": "NVIDIA의 협력 소식으로 인해 자동차 트럭 운송 관련 주가가 크게 올랐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOUZJdFQ2dElULVZxdE5UZWJDRlg2b2Y4ZmF4bWZkWWdqZllEZEUxZkpUcEMyYlh6QlQ1Uk5vQnpDdnZRLWRkc1hvb0tHampub1gxSkJSQ0hHdXBVcFZwS1pQMzV0VmRkMFRnWGpXMWxVYkgtb2p5dmlWd1lURTBCdHYzMEJjVDNIYmZpbWFCNlhjMVpmelZuRWlhdEFEczZkb2NvanBjOA",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Local opposition blocked 45 data center projects worth $68 billion in the second quarter of 2026 — data center investments reportedly still on track to hit $32 trillion by 2050",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/local-opposition-blocked-usd68-billion-worth-of-data-center-projects-in-the-second-quarter-of-2026-data-center-investments-reportedly-still-on-track-to-hit-usd32-trillion-by-2050",
+   "date": "2026-09-22 01:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "지방 반대로 데이터센터 45개 프로젝트 저지 ($68B)",
+    "korean_summary": "2026년 2분기에 지방 정부 반대로 680억 달러 규모 데이터센터 프로젝트가 저지되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/local-opposition-blocked-usd68-billion-worth-of-data-center-projects-in-the-second-quarter-of-2026-data-center-investments-reportedly-still-on-track-to-hit-usd32-trillion-by-2050",
+   "body": "Local opposition blocked or delayed $68 billion in data center projects between April and June this year, according to a September 21 Bloomberg report citing data from research group Data Center Watch. The report says 30 state houses have implemented rules on data center location and resource consumption, with communities pursuing moratoriums on planned construction even before developers apply for permits. Conversely, hyperscalers have spent over $1 trillion on data infrastructure since 2023 , with an additional $745 billion in Capex expected in 2026 alone. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible The blocked-project figures reflect widespread opposition to data centers across the United States over concerns about land usage, noise pollution, and electricity and water consumption. In July this year, 142 AI data center protests were simultaneously staged across 42 states in one weekend . Data Center Watch’s research estimates that there are 843 opposition groups across all U.S. states except Hawaii. One leading concern is the environmental impact of AI data centers. Each consume huge amounts of water to cool hundreds of thousands of accelerators powering artificial intelligence, with AI reportedly set to consume up to 600 billion gallons of water by 2030 . The hyperscalers, on the other hand, insist the issue is being blown out of proportion. OpenAI CEO Sam Altman says 38,000 ChatGPT queries use as much water as producing one almond, while Microsoft says its new data center architecture consumes as little water as a restaurant . Meanwhile, in May this year, an AI data center project secretly consumed 29 million gallons of water within a year and three months before low water pressure alerted nearby residents to its existence. Protesters also commonly cite electricity consumption as a major concern. Analysts project that data centers will consume 20% of U.S. power by 2035 . Local residents are already feeling the effects. An AI data center in Virginia led to an irreversible 76% hike in residents’ electricity bills , prompting the state to eventually mandate hyperscalers to cover the cost of the transmission infrastructure required exclusively for the project. Many regions are now implementing similar mandates, with hyperscalers offering to offset the bills in many cases. These concerns, along with the extreme power demands of AI data centers, have also led hyperscalers to build on-site power, with some offering to supply power back to the grid. Meta, for example, recently signed an agreement with utility company Entergy Louisiana for 7 GW of power for its Hyperion fac"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "President Trump has announced plans for new 'AI Force' and 'AI Czar' amid growing AI safety concerns — new unit will 'cherish' AI and not 'stifle' it, Trump clarifies, while dismissing safety warnings as hoaxes",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/president-trump-has-announced-plans-for-new-ai-force-and-ai-czar-amid-growing-ai-safety-concerns-new-unit-will-cherish-ai-and-not-stifle-it-trump-clarifies-while-dismissing-safety-warnings-as-hoaxes",
+   "date": "2026-09-21 22:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, AI Force 및 AI Czar 창설 계획 발표",
+    "korean_summary": "트럼프 대통령이 AI 산업 지원을 목표로 AI Force 창설을 발표했으며, AI 규제보다 산업 장려 정책을 강조했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/president-trump-has-announced-plans-for-new-ai-force-and-ai-czar-amid-growing-ai-safety-concerns-new-unit-will-cherish-ai-and-not-stifle-it-trump-clarifies-while-dismissing-safety-warnings-as-hoaxes",
+   "body": "U.S. President Donald Trump has announced plans to form an “AI force” and appoint an “AI Czar” amid growing concerns about the risks of the rapidly advancing technology . In a lengthy September 19 post on his social media platform Truth Social, Trump compared the initiative to the creation of the U.S. Space Force — which he formed during his first term in office — clarifying that the new unit will not be used to restrict tech companies. He emphasized that his administration “will not in any way hinder or stifle the growth” of the AI industry, but will instead “cherish it, help it, and watch over it, as it grows.” The president provided no further details on the initiative’s implementation, which reportedly took the White House and the tech industry by surprise. The announcement comes amid growing pressure on U.S. lawmakers to implement AI safeguards to address the risks the technology poses. Calls for guardrails intensified last week after an ex-OpenAI researcher resigned from Anthropic, citing concerns that AI companies weren't taking AI safety seriously enough. He warned that “people building AI earnestly believe that it could kill us all by the end of the decade,” accusing the companies of gambling with human lives. A safety researcher at the company also warned that there was a more than 10% chance AI would kill us all by 2030 . Meanwhile, Anthropic CEO Dario Amodei, backed by executives at OpenAI, Google DeepMind, and Microsoft, published an essay urging Washington to pace development over fears that AI agents could spiral out of human control, warning of a potential AI-powered botnet swarm that could take over the entire internet . President Trump doesn't in the least share these sentiments and has repeatedly downplayed such calls, including the recent warnings, as hoaxes, claiming that a “sick conspiracy” to undermine AI was underway. “AI is the next Industrial Revolution, or Internet, but will be even larger and more impactful, possibly as much as 25% of our Country's GDP,” he said on social media, while also expressing his administration’s desire to maintain the U.S.’s lead over China in AI. “We will not in any way hinder or stifle the growth of this incredible industry,” he wrote. “We are leading China, and the rest of the World, and I intend to keep it that way!” Nvidia CEO Jensen Huang is taking a similar stance, dismissing warnings and calls for new regulations. “We should go as fast as we can, irrespective of anyone else,” Huang said, adding that there was a “0% chance” AI will destroy the world by 2030 . Trump did not provide further details on how the AI force will work or who the AI Czar will be. However, several reports point to Venture capitalist David Sacks, who served as Trump’s AI and cryptocurrency czar until March, as a potential candidate. The AI regulation conversation is expected to be an important part of several high-level gatherings in the coming weeks, including a UN event on AI hosted by the Trump administration. T"
+  },
+  {
+   "source": "Google News · NVIDIA Developer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How to Evaluate AI Agents From Tool Calls to Task Completion | NVIDIA Technical Blog",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTW5DMS1ackx0ai1qbUZCeFJod0xUc01Fb1NiYmVCQjUxT19ETEZkT05DSVpDVWhhRHdlV1pKblBhaV9xeEZUdjVCZGNYRWRKdmIzOFdHMlJJaHN6TTZSSVlqdW8tU0xablZwb0N5TG9VTnhRY2VlZ2VfeENNd1pBVm5MZXJfc3BUdjFwZmhXcTdrUmI5c3JjaEtYaw?oc=5",
+   "date": "2026-09-22 06:40",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "AI 에이전트 평가: 도구 호출부터 작업 완료까지",
+    "korean_summary": "NVIDIA 공식 기술 블로그에서 AI 에이전트의 평가 방법론을 기술적으로 설명한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTW5DMS1ackx0ai1qbUZCeFJod0xUc01Fb1NiYmVCQjUxT19ETEZkT05DSVpDVWhhRHdlV1pKblBhaV9xeEZUdjVCZGNYRWRKdmIzOFdHMlJJaHN6TTZSSVlqdW8tU0xablZwb0N5TG9VTnhRY2VlZ2VfeENNd1pBVm5MZXJfc3BUdjFwZmhXcTdrUmI5c3JjaEtYaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Tech Buzz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Launches DSX Ready Program for AI Factory Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnphNFg2djVGSWxqYXNiMVp2S3htTnlPamhCS3pXaVdvWEJVWU5WY0s5N19oZDlFWThJZks0T1lILWJQam5JU0t6eEU2NTBxTWx6b1RqTkt5a3ZiYmxoZUtENUtyMXN5RUdBMkg5OEJYRzJ2d2wxb1BacHpYYUx6UUduMlZiQy01d2VYblBWc3Faa21rdEplbkpyN0Y?oc=5",
+   "date": "2026-09-22 03:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, AI 팩토리 인프라용 DSX Ready 프로그램 출시",
+    "korean_summary": "NVIDIA가 AI 팩토리 인프라를 지원하는 새로운 DSX Ready 프로그램을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVnphNFg2djVGSWxqYXNiMVp2S3htTnlPamhCS3pXaVdvWEJVWU5WY0s5N19oZDlFWThJZks0T1lILWJQam5JU0t6eEU2NTBxTWx6b1RqTkt5a3ZiYmxoZUtENUtyMXN5RUdBMkg5OEJYRzJ2d2wxb1BacHpYYUx6UUduMlZiQy01d2VYblBWc3Faa21rdEplbkpyN0Y",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "As Snap Partners With Nvidia on Its Specs, Here’s How You Should Play SNAP Stock",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZk1ITUx0VU4yQ0FHS1c4SldfemxPdDRlQmJiQnFBUWFURDQ1dmZJbXdlU05QLWQ4YWVKRFN5dHRYdE1XS2gydUt3aWs3TllEc3ltVjVtY3RiZnBMVWlhR2x1dEd5Q2RYU19VRTBBRVdSWmJmVnl2WEJLeHpLQzQ1MkxNMnZVNWoxUFppdkZ0aHh4WG5MUHRxSDZPOGNuSXpIQlhzaGhMZXdXTFNIdFlldnZUSmlGYU1TMGZ5Z09IYw?oc=5",
+   "date": "2026-09-22 03:42",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Snap, NVIDIA와 제품 협력 진행",
+    "korean_summary": "Snap이 NVIDIA와 제품 협력을 진행 중이며, 이것이 Snap 주식에 미칠 영향을 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZk1ITUx0VU4yQ0FHS1c4SldfemxPdDRlQmJiQnFBUWFURDQ1dmZJbXdlU05QLWQ4YWVKRFN5dHRYdE1XS2gydUt3aWs3TllEc3ltVjVtY3RiZnBMVWlhR2x1dEd5Q2RYU19VRTBBRVdSWmJmVnl2WEJLeHpLQzQ1MkxNMnZVNWoxUFppdkZ0aHh4WG5MUHRxSDZPOGNuSXpIQlhzaGhMZXdXTFNIdFlldnZUSmlGYU1TMGZ5Z09IYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Could Sell Twice as Many Chips Next Year — If Suppliers Can Keep Up",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWV4Y2ZJbFBld1pvd0tRYjJaWkt6aVp1U2RoT2wwejdJRVJkcVZNY3I5ZzJiR2V5TXRRaERnSXQtUXh6eC14NkN0NE03aUpPeWIybkgzNlFXemw2Qk5XdngxT05sU09UdTVTU1R3QmpvZ29KQXh1TktfMjVYLTdLTkQ1MUtqa2hobzEzbS1LRm1IbXBl?oc=5",
+   "date": "2026-09-21 22:39",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "공급망 병목 해결 시 NVIDIA 칩 판매량 2배 가능",
+    "korean_summary": "공급업체가 따라오면 NVIDIA의 내년 칩 판매량이 2배로 증가할 수 있다는 분석이 나왔다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYWV4Y2ZJbFBld1pvd0tRYjJaWkt6aVp1U2RoT2wwejdJRVJkcVZNY3I5ZzJiR2V5TXRRaERnSXQtUXh6eC14NkN0NE03aUpPeWIybkgzNlFXemw2Qk5XdngxT05sU09UdTVTU1R3QmpvZ29KQXh1TktfMjVYLTdLTkQ1MUtqa2hobzEzbS1LRm1IbXBl",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+   "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+   "date": "2026-09-21 23:51",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, AI 에이전트 보안을 엔지니어링 문제로 정의",
+    "korean_summary": "NVIDIA가 AI 에이전트의 보안을 엔지니어링 프로세스로 접근해야 함을 설명했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI 에이전트 스택 전 계층 보안을 위한 OpenShell 및 오픈 시큐어 AI 얼라이언스 전략 공개",
+    "korean_summary": "NVIDIA는 AI 에이전트 보안을 엔지니어링 문제로 정의하며, 오픈소스 보안 런타임 **OpenShell**과 Cisco·JFrog·CrowdStrike·Palo Alto Networks 등 파트너 생태계를 통해 모델·하니스·런타임 전 계층에 걸친 보안 통제를 제시했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "AI 에이전트 스택(모델-하니스-런타임) 전 계층에 대한 보안 엔지니어링 원칙을 제시하고, 오픈소스 보안 런타임 OpenShell과 Open Secure AI Alliance 파트너 통합 사례를 공개",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "AI 에이전트 배포 환경 전반, Open Secure AI Alliance 파트너사(Cisco, JFrog, CrowdStrike, Palo Alto Networks) 포함"
+    },
+    "key_facts": [
+     "NVIDIA OpenShell은 **오픈소스 보안 런타임**으로, 에이전트 접근 범위 밖에서 정책을 강제하며 샌드박스 실행 환경을 제공",
+     "Cisco의 DefenseClaw는 OpenShell에 거버넌스 계층을 추가하고, JFrog는 OpenShell과 통합해 에이전트 스킬을 스캔·검증하고 정책을 강제",
+     "CrowdStrike의 SafeMind는 반복적 공격 시뮬레이션으로 방어력을 테스트·강화하며, Palo Alto Networks Prisma AIRS는 모델·애플리케이션 변화에 따른 지속적 레드팀 테스트 제공",
+     "에이전트는 스스로 접근 권한을 확장할 수 없으며, 중요한 조치와 권한 변경은 여전히 **사람의 승인**이 필요"
+    ],
+    "why_matters": "AI 에이전트가 자율적으로 도구를 사용하고 데이터를 처리하는 상황에서 보안 취약점은 기업 AI 도입의 핵심 걸림돌로 부상하고 있으며, NVIDIA는 이를 인프라·플랫폼 계층에서 선제적으로 해결함으로써 엔터프라이즈 AI 스택의 신뢰성을 확보하려 한다. Cisco, CrowdStrike, Palo Alto Networks, JFrog 등 보안 업계 주요 플레이어와의 얼라이언스는 NVIDIA가 단순 하드웨어 공급자를 넘어 **AI 에이전트 보안 표준을 주도**하려는 움직임으로 해석된다.",
+    "subject_angle": "NVIDIA는 GPU·소프트웨어 스택을 넘어 AI 에이전트 런타임 보안까지 영역을 확장하며, **Open Secure AI Alliance**를 통해 오픈소스 기반 보안 생태계의 허브 역할을 구축하고 있다. 이는 엔터프라이즈 고객이 NVIDIA 플랫폼 위에서 안전하게 에이전틱 AI를 배포하도록 유도해 플랫폼 락인 효과를 강화하는 전략으로 볼 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "OpenShell 개발 및 Open Secure AI Alliance 주도"
+     },
+     {
+      "name": "Cisco",
+      "context": "DefenseClaw로 OpenShell에 거버넌스 계층 추가"
+     },
+     {
+      "name": "JFrog",
+      "context": "OpenShell과 통합해 에이전트 스킬 스캔 및 정책 검증"
+     },
+     {
+      "name": "CrowdStrike",
+      "context": "SafeMind로 공격 시뮬레이션 기반 방어 테스트 제공"
+     },
+     {
+      "name": "Palo Alto Networks",
+      "context": "Prisma AIRS로 지속적 레드팀 테스트 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA OpenShell",
+      "role": "에이전트 정책 강제 및 샌드박스 실행을 제공하는 오픈소스 보안 런타임"
+     },
+     {
+      "name": "Cisco DefenseClaw",
+      "role": "OpenShell 위에 거버넌스 계층 추가"
+     },
+     {
+      "name": "JFrog (OpenShell 통합)",
+      "role": "에이전트 스킬 스캔·검증 및 접근 정책 강제"
+     },
+     {
+      "name": "CrowdStrike SafeMind",
+      "role": "반복 공격 시뮬레이션을 통한 방어 강화 테스트 도구"
+     },
+     {
+      "name": "Palo Alto Networks Prisma AIRS",
+      "role": "모델·앱 변화에 대응하는 지속적 레드팀 테스트 도구"
+     }
+    ],
+    "watch_next": [
+     "OpenShell의 정식 출시 일정 및 공개 저장소 확인",
+     "Open Secure AI Alliance에 추가 참여하는 파트너사 여부",
+     "NVIDIA 엔터프라이즈 AI 플랫폼(Enterprise AI Factory 등)과 OpenShell의 통합 방식"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+     "link": "https://blogs.nvidia.com/blog/ai-security-agent-stack/"
+    },
+    {
+     "source": "Google News · The Tech Buzz",
+     "title": "NVIDIA Calls AI Security an Engineering Problem",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOWhyVHdKVlFrQkFTRWgwWFE4Z2xlTDBsWTZjRE5BdFZWWktHUnl4NmdacGpxS2M4eU9fM1c1aTE3UU5wQ1dDQTRBWjNUMThPUVZMSmpZMUE1S0dVR2hJbzFjMm5Wby1pMUFMcDZNczJpbGtSS1FKRFZESTdmMzlvUkxfaE1QQmc?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-security-agent-stack",
+   "body": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, while core security responsibilities endured: establish identity, control access, limit exposure and verify that protections work. AI agents introduce new capabilities — reasoning, using tools and adapting actions based on the data they encounter. Those capabilities require applying established principles to new operating conditions. This pace creates pressure. Organizations want the productivity benefits of AI while the practices to govern and secure these systems are still developing. Security Depends on the Full Agent Stack Applications depend on code, data, identities, services and infrastructure. Security depends on how those components work together — and AI agents extend that system . Models provide capabilities; harnesses organize context, tools and workflows; and runtime environments provide the infrastructure within which actions execute. Each part of that stack carries security responsibilities, and proper protection requires controls across each layer, as data, instructions and actions move through the system. Consider an agent updating a customer record. Say it encounters malicious instructions in an attached document and attempts to export customer data to an unauthorized destination. A network policy should block the transfer, and protected logs should capture the attempted tool call, authorization decision and outcome so the security team can identify the tool used and the destination it attempted to reach. Permission to update a customer record should not automatically extend to exporting that data. An agent can request additional access, but it cannot authorize that access itself. Build Security Into How Agents Operate A security boundary has to hold even when an agent makes the wrong decision. The environment where an agent runs determines what it’s allowed to do, and must therefore install limits on files, network destinations and processes independently of the agent’s reasoning. Instructions and safeguards can help guide behavior, but security also requires enforceable boundaries. Each agent needs a traceable identity and credentials limited to its assigned task. Organizations need clear policies defining what information agents can access, which systems they can change and which actions require approval. Within those boundaries, consequential actions and permission changes still require human approval. Teams also need to verify the source and integrity of the tools, skills and dependencies agents use. If something goes wrong, protected records of tool calls, authorization decisions and outcomes help investigators reconstruct "
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2",
+   "link": "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2/",
+   "date": "2026-09-22 00:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Earth-2, 실시간 기상 데이터 활용 기능 확대",
+    "korean_summary": "NVIDIA가 Earth-2 플랫폼의 날씨 예측 AI에 지역 관측 데이터 통합 기능을 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Earth-2, 실시간 관측 데이터를 즉각적인 기상 의사결정으로 전환",
+    "korean_summary": "NVIDIA가 Earth-2 플랫폼을 통해 에너지·재난관리·위성 산업의 실시간 관측 데이터를 활용한 물리적 리스크 관리 및 기상 의사결정 지원을 강조했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Earth-2 플랫폼을 통해 기상 민감 산업의 관측 데이터를 시의적절한 의사결정으로 전환하는 방법을 소개",
+     "stage": "N/A",
+     "timeline": "미확인",
+     "scope": "에너지, 재난관리, 위성 관측 등 기상 민감 산업 전반 (구체적 지역·고객 미확인)"
+    },
+    "key_facts": [
+     "**기상 민감 산업들이 더 이르고 지역적인 관측 데이터에 대한 접근성이 증가**하고 있음",
+     "에너지 기업은 풍력·태양광 자산 전반에서 측정 데이터를 수집",
+     "재난관리팀은 레이더 및 로컬 센서에 의존",
+     "위성 사업자는 지구를 지속적으로 관측",
+     "**이러한 데이터는 여러 산업 부문에서 물리적 리스크를 이해하고 관리하는 데 도움**을 줌"
+    ],
+    "why_matters": "기후 변화로 인한 물리적 리스크 관리 수요가 커지면서 **실시간 관측 데이터를 신속한 의사결정으로 전환하는 플랫폼**의 중요성이 부각되고 있다. 에너지·보험·재난관리 등 다양한 산업이 잠재 고객군으로, AI 기반 기상 분석 시장에서의 경쟁 구도에 영향을 줄 수 있다.",
+    "subject_angle": "**NVIDIA는 Earth-2를 통해 기후·기상 시뮬레이션을 넘어 실질적인 산업용 의사결정 도구로 플랫폼 영역을 확장**하고 있으며, 이는 NVIDIA의 AI 인프라를 물리적 리스크 관리라는 새로운 수직 시장으로 확장하는 전략의 일환이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Earth-2 플랫폼 제공사, 기상 데이터 기반 의사결정 지원"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Earth-2",
+      "role": "관측 데이터를 기상 의사결정으로 전환하는 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Earth-2 플랫폼의 구체적 신규 기능 또는 업데이트 내용 확인",
+     "실제 도입 사례(에너지·재난관리·보험사 등) 공개 여부",
+     "타사 기상 AI 플랫폼(Google, Microsoft 등) 대비 차별화 포인트"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Turn Your Latest Observations Into Timely Weather Decisions With NVIDIA Earth-2 | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNG5CamlkXzhVNF9BdThLWEpNdnRleXB4aEpiVjE3c1VMbVE2eUJVVTJ1a3ItcHl4N2N0aTJqMW9wR2NHWEhlaWhZdHZYSDlWVm5OWmNOVmRKR2VhdXM4dGlQWlZXQ3ZlMjkxQ0hUMkQxemtibktpSUZ3UUtId1Z5MzNzb3RqV1g2anU4VTM2ZThzZEZrb1pCR2JCc2Z5Sm52XzViclhrWmx2Y2hRVE1kZlZTVmU?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/turn-your-latest-observations-into-timely-weather-decisions-with-nvidia-earth-2",
+   "body": "Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect... Weather-sensitive industries increasingly have access to observations that offer an earlier, more local view of changing conditions. Energy companies collect measurements across wind and solar assets, emergency management teams rely on radar and local sensors, and satellite providers continuously observe the Earth. This data helps organizations understand and manage physical risk across sectors… Source"
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride jumps 8% on Nvidia autonomous trucking deal",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSW51UXowME5FdFRIYUgwRFhGYzlTME9mcXNqYkhVeVRBRVhTQTlCbmNncFBVdEhRTjlhMWJZUTBzckxMZW4wcUZKcmpLM0F1WEZDY2NMaWY4SVFEUFhOeWhQTnpWNzBrY2FraFVsVlRiQlBOXzZ0OUtVUDJpZndJOVk0Wk5yc1RKRU5qTlJIOGJJM0ZNQkhKa0dob0dCUksyTllkbVVGeVcyeDR4eEZHVTJXbw?oc=5",
+   "date": "2026-09-21 20:17",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Einride 주가 8% 상승, NVIDIA 협력 소식 호재",
+    "korean_summary": "Einride가 NVIDIA 자율주행 트럭 협력 발표에 주가가 8% 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSW51UXowME5FdFRIYUgwRFhGYzlTME9mcXNqYkhVeVRBRVhTQTlCbmNncFBVdEhRTjlhMWJZUTBzckxMZW4wcUZKcmpLM0F1WEZDY2NMaWY4SVFEUFhOeWhQTnpWNzBrY2FraFVsVlRiQlBOXzZ0OUtVUDJpZndJOVk0Wk5yc1RKRU5qTlJIOGJJM0ZNQkhKa0dob0dCUksyTllkbVVGeVcyeDR4eEZHVTJXbw",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+   "link": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+   "date": "2026-09-22 01:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 이집트 AI 생태계 행사 개최",
+    "korean_summary": "NVIDIA가 이집트 박물관에서 EMEA 지역 스타트업·개발자와 협력하는 AI 생태계 확대 행사를 개최했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+     "link": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem",
+   "body": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead for the Middle East and Africa at NVIDIA, delivered a session on “Why Accelerating Every Layer Matters,” exploring NVIDIA’s full-stack approach to AI development and deployment. The event also featured a panel moderated by Basil Fateen, head of startups for the Middle East and Africa at NVIDIA, with participation from startups across smart spaces, healthcare, cybersecurity and robotics. In Egypt, the NVIDIA Deep Learning Institute learner base grew more than tenfold in a single year. In June, the National Telecommunications Regulatory Authority of Egypt licensed Hassan Allam Data Centers to build and operate data centers in the country. Under that license, Hassan Allam Utilities and investment firm A15 agreed to develop a new data center, an estimated $400 million investment. In addition, NVIDIA and A15 in July hosted an event connecting Egypt’s leading founders with NVIDIA’s global ecosystem. This has been complemented by recent startup and investor events in Egypt, including engagements with A15 and Plug and Play at the Creativa Innovation Hub at Sultan Hussein Kamel Palace, an affiliate of the Ministry of Communications and Information Technology. Spanning a range of industries, members of the NVIDIA Inception program in Egypt include: Aidera : A unified enterprise intelligence system that connects data, systems, workflows and operational touch points turning enterprise-wide signals into informed decisions, intelligent automation, coordinated execution and measurable impact. Intella : Developing Arabic speech intelligence for applications across financial services, telecommunications and more. Marses Robotics : Developing autonomous robotics and industrial automation technologies. Proteinea : Combining AI protein design with lab experiments to develop differentiated medicines. Stakpak : Developing an open source autonomous developer-operations AI agent. Paymob and Thndr : Building better financial services through technology and AI. The NVIDIA VC Alliance has also expanded its presence in Egypt, with A15 and M Empire joining the program, connecting more local investors with NVIDIA’s global startup ecosystem. This momentum has been complemented by startup and investor events, including collaborations with RiseUp and Plug and Play , as well as Flat6Labs, a regional entrepreneurship platform supporting startups and innovation across emerging markets, and Algebra Ventures , a Cairo-based venture capital firm backing technology startups. AI Growth Across Africa The Egypt ecosystem event showed just a piece of Africa’s larger, growing AI ecosystem. For most of the past dec"
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "How to Evaluate AI Agents From Tool Calls to Task Completion",
+   "link": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/",
+   "date": "2026-09-22 06:05",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, AI 에이전트 평가 기준 기술 블로그 공개",
+    "korean_summary": "NVIDIA가 단일 함수 호출이 아닌 다중 도구와 실제 작업 완료 기반의 AI 에이전트 평가 방법을 설명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion",
+   "body": "When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and... When you ship an AI agent, the key question is whether it can execute a chain of work across dozens of sequential tool calls against a live environment, and recover when a step fails. Scoring whether the model sounds right tells you almost nothing about whether the work finished. That gap is why agent evaluation has had to evolve from scoring a single function call to scoring an entire task… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia's next-gen RTX 60 GPUs might not be released until 2028, prominent leaker claims — gaming takes a back seat as company focuses on delivering data center products",
+   "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-next-gen-rtx-60-gpus-might-not-be-released-until-2028-prominent-leaker-claims-gaming-takes-a-back-seat-as-company-focuses-on-delivering-data-center-products",
+   "date": "2026-09-21 18:52",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "community-signal"
+    ],
+    "korean_title": "NVIDIA RTX 60 시리즈, 2028년 출시 예상 (루머)",
+    "korean_summary": "유명 리커가 NVIDIA RTX 60 시리즈 출시가 2028년으로 연기되었다고 주장했으나, NVIDIA는 미공개 제품에 대한 코멘트를 거부했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Tom's Hardware",
+     "title": "Nvidia's next-gen RTX 60 GPUs might not be released until 2028, prominent leaker claims — gaming takes a back seat as company focuses on delivering data center products",
+     "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNNGs5UktBRlVnaUM3dnhPcjRGSGl6bGUxeGRfdE9KMFVKaUduSXQxZkt1eGxWank2alV0QURlNWo2ejFtTVdKQWhRQkNqOFNaQ3pzUmg1OUtBbmp6T1ZmY29BLUZYMEJ1UnRmZkx4RngxYzhfckcyNF9mUjQ5MEViZUdmYjkyOW8zeXFrQXlreHJLT2s2ZEVfQXUtYWFYc05tSktyMnJ1VGk2d00zU0NaX0hSNm5hcUJxdE01TnA5dUNFSFVuWnVla0pQT3NzaHZ5NlZjZE5FMG1FVnl4VDdhXzlsT0JsYmtnQUs1RFJVSlFqeDJpbFF0bDZrVTJFY084UElQZFJIME93VUhzcXpJLUhyVkpPTk5fT1lNWEhvcXlzSFpXMGRzYmxpVUNVcTRPUDhHZ0NSVQ?oc=5"
+    },
+    {
+     "source": "Google News · Insider Gaming",
+     "title": "Nvidia RTX 60 Series Graphics Cards Reportedly Delayed To 2028",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQnlLem9JNk16cUwtcEdKYllUZmhNUVNKUFhJYzZ1WEZ2ZmwyanJvWFlhTE1fWVh2NWFmbjNodTNDczhMTW9nbUpvQ3NmVDV6VkxYbG51MWdZcVkzb2Q3QlBOME8xdE9ta2JYaUN0LW1aTkVpblUyUk91YjFtcm1Fd3RmMHdCQndWZmkySmlCZ0tncnM5?oc=5"
+    },
+    {
+     "source": "Google News · TwistedVoxel",
+     "title": "Multiple Insiders Claim NVIDIA RTX 6000 GPU Series Is Set For Release In 2028",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOFRpZnBlYVE4TURVNW1GZjV6c09fS2Z5VW5iRXR2TmRhdXA2T0cwTGxOUnhjZ1RVbkU5dFNDWTBtYkRhWmxTajVuY2ljeUtibm84T2tpMWJnVE4tMDhKb1p1V3ZoZVFNOWQ4ajhyZ0VMVXVNaUFxSm10Wl9lcDdMTXctMDMtaXRJbzliLU5BcG0yVXR5RnhJ?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/nvidias-next-gen-rtx-60-gpus-might-not-be-released-until-2028-prominent-leaker-claims-gaming-takes-a-back-seat-as-company-focuses-on-delivering-data-center-products",
+   "body": "Hardware leaker Kopite7Kimi, who has an exceptional track record, posted on X that Nvidia's RTX 60 series GPUs, based on the Rubin architecture, might not be released until at least 2028. The leaker previously believed that we might see a new generation of graphics cards in late 2027 , but now says: \"Unfortunately, GR20x is a product from 2028. That means they have postponed again.\" We reached out to Nvidia regarding the post, and a company spokesperson stated that they \"don't comment on rumors or unannounced products.\" While Nvidia issued its standard boilerplate response, Kopite7Kimi has a historically near-spotless record when it comes to speaking about Nvidia hardware leaks, and it seems that this time, consumers may have to wait a little longer. Both the Ada Lovelace and Blackwell architectures in RTX 40 and RTX 50 series GPUs share the same TSMC 4N process node, so if the leaker's words are to be believed, it will take Nvidia a total of six years to move its consumer GPUs to the more advanced TSMC 3N or 3NP node that its Rubin accelerators currently utilize. I hope Jensen can see everyone's passion and launch new products for gaming as soon as possible. Unfortunately, GR20x is a product from 2028. That means they have postponed again. 🙃🙃🙃I will try to minimize updates until there is definite news. (Lessons learned) September 21, 2026 Now, the potential reasons behind the delay could be twofold: The first is the numerous reports we've heard about a potential RTX 50 Super series Blackwell refresh being sidelined, despite reportedly being ready. The claimed reason behind the delay or potential cancellation of the rumored RTX 50 Super series is the use of denser 3GB GDDR7 VRAM chips, which just so happen to have appeared in Nvidia's recently released RTX Pro 5500 and share many similarities with the RTX 5090. So, it's quite possible that the delays in delivering a GeForce product based on the Rubin architecture, which has already begun shipping as \"the fastest ramp in company history,\" is down to careful allocation of resources on Nvidia's part, as the company expects to make $20 billion from Vera Rubin in Q3 2027. Secondly, Nvidia can only acquire so many resources to supply its products, which demand vast amounts of memory, and has also locked in a certain amount of wafer supply from TSMC. So, it's highly probable that Nvidia is focusing on enterprise and workstation products ahead of a consumer launch, especially as component costs remain eye-wateringly high. Nvidia's highly profitable data center arm is currently experiencing soaring demand from the ongoing AI buildout, meaning there's less onus to deliver a potentially less profitable consumer GPU, while there's still cash to be made from hyperscalers. It's not unusual to see enterprise products use more advanced nodes before arriving in consumer products, but this time around, at least according to Kopite7Kimi, the Blackwell product cycle is poised to be unusually long. This is particular"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Acer CEO says memory makers are hyping 2030 shortage fears to protect margins — PC prices set to decline by late 2027, cheaper Chinese capacity coming online delivers lower memory prices",
+   "link": "https://www.tomshardware.com/pc-components/dram/acer-ceo-says-memory-makers-are-hyping-2030-shortage-fears-to-protect-margins-pc-prices-set-to-decline-by-late-2027-cheaper-chinese-capacity-coming-online-delivers-lower-memory-prices",
+   "date": "2026-09-21 19:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "에이서 CEO, 2027년 말부터 PC 부품 가격 하락 전망",
+    "korean_summary": "에이서의 제이슨 첸 CEO가 메모리 제조사의 2030년 부족 주장을 과장이라 지적하고, NVIDIA N1/N1X 외에는 실제 공급 부족이 없다고 말했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/dram/acer-ceo-says-memory-makers-are-hyping-2030-shortage-fears-to-protect-margins-pc-prices-set-to-decline-by-late-2027-cheaper-chinese-capacity-coming-online-delivers-lower-memory-prices",
+   "body": "Acer chairperson and CEO Jason Chen is expecting that prices for components will start reversing in the latter half of next year. According to DigiTimes , Chen told reporters that only high-end DDR5 parts like LPDDR5X-9600 and niche CPUs like Nvidia’s N1 and N1X chips are in short supply. Since supplier pricing lags consumer pricing by about a few months, he also added that PC prices will still rise between 5% and 20% towards the end of this year, plateau by the first half of 2027, before finally declining after years of AI-drive hikes. The AI boom has driven shortages for various PC components, beginning with GPUs in late 2022, before expanding to memory chips by late 2025. This made memory prices climb 500% in 12 months, although the increases have seemingly cooled as consumers refuse to absorb further hikes. Some memory companies like SK hynix are saying that the shortage will be worse next year and that it won’t be until 2030 before pricing will start to normalize. The Adata chief even said that the DRAM shortage would last another 10 years . This is plausibly true, especially as HBM demand from AI hyperscalers remains strong, and the various memory chip fabs under construction aren’t expected to come online until the 2030s. However, Chen disagreed with this take. He said that the major memory suppliers naturally want to keep their margins as high as possible for longer, “so they keep putting out the message: let me tell you, prices won’t come down until the year 20-whatever.” The Acer chairperson argued that there’s already ample memory and SSD supplies, while the purported CPU shortage is now limited to specific models. He also added that Chinese memory makers churning out cheaper alternatives would disrupt the market — something that SK Group Chairman Chey Tae-won feared . In fact, Acer, alongside HP and Asus, has started using CXMT chips in some of its products, while some Lenovo models sold in Germany were found to have YMTC SSDs. Nevertheless, he says that price increases are becoming their own trend, saying that SSDs, PCBs, and fiberglass cloth used in motherboards are seeing their own hikes. “A lot of people come and tell us they want to raise prices, and we find it a bit baffling — this needs to go up, too?” Chen said to the reporters. The overall tenor from Chen is good news, though, if computer manufacturers could finally lower prices after years of shortages and expensive parts."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "\"AI 개발 속도 늦추자\" vs \"중국만 좋은 일\"",
+   "link": "https://www.hankyung.com/article/2026092172891",
+   "date": "2026-09-21 16:19",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 개발 속도 논쟁, 안전론과 가속론이 정면 충돌",
+    "korean_summary": "AI 안전을 우려하는 Amodei, Altman, Hassabis에 맞서 Trump 대통령과 Jensen Huang NVIDIA CEO가 AI 개발 가속을 강력히 주장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026092172891",
+   "body": "AI 추천 뉴스 \"AI 개발 속도 늦추자\" vs \"중국만 좋은 일\" AI 기업 수장들 '안전론' \"수개월 내 인간이 통제 못할수도\" 아모데이 앤트로픽 CEO의 경고에 올트먼·머스크·허사비스 일제히 동조 트럼프·젠슨황은 '가속론' \"무책임…사기극 용납안해\" 강력 비판 인프라 투자·중국의 기술추격 억제 포석 \"수개월 내 인간이 통제 못할수도\" 아모데이 앤트로픽 CEO의 경고에 올트먼·머스크·허사비스 일제히 동조 트럼프·젠슨황은 '가속론' \"무책임…사기극 용납안해\" 강력 비판 인프라 투자·중국의 기술추격 억제 포석 앙숙처럼 경쟁하던 미국 인공지능(AI) 기업 수장들이 최근 일제히 ‘AI 속도조절론’을 꺼내 들었다. AI가 인간의 도움 없이 코드를 짜고 더 뛰어난 AI를 개발하는 ‘재귀적 자기개선’(RSI) 단계에 가까워졌다는 판단에서다. AI 기업에서 시작된 안전론은 불과 이틀 만에 도널드 트럼프 미국 대통령과 젠슨 황 엔비디아 최고경영자(CEO)의 ‘가속론’과 정면충돌했다. 지난 7월 오픈AI의 미공개 모델이 시험 과정에서 허깅페이스를 무단 해킹한 사례도 거론했다. 지금과 같은 속도로 AI의 자율성이 커지면 수개월 안에 인간이 통제하기 어려운 사이버 공격 능력을 갖출 수 있다는 주장이다. 아모데이는 AI 기업 내부에 제3자 안전 평가자를 상주시킬 것도 제안했다. 아모데이의 주장은 AI 업계에 파장을 일으켰다. 불과 열흘 전 주요 20개국(G20) 기술장관회의에서 지나친 AI 규제를 경계하던 AI 수장들이 일제히 입장을 뒤집고 동조했기 때문이다. 샘 올트먼 오픈AI CEO와 일론 머스크 스페이스X·xAI CEO, 데미스 허사비스 구글 딥마인드 공동창업자가 잇달아 아모데이의 문제의식에 동의했다. 올트먼 CEO는 한발 더 나아가 “안전과 관련해 벌어지는 상황을 고려하면 지금은 상장하기 적절하지 않다”며 올해 기업공개(IPO)를 하지 않겠다고 밝혔다. 지난 6월 미국 증권거래위원회(SEC)에 IPO 신청서를 내며 상장 절차에 들어간 지 석 달 만에 속도 조절에 나선 셈이다. 다만 이들의 진정성을 의심하는 시각도 적지 않다. 오픈AI가 최근 신규 모델 ‘GPT-6 아스트라’를 공개하며 독주 체제를 강화하자 컴퓨팅 용량 부족을 겪는 앤트로픽이 전략적으로 규제 카드를 꺼냈다는 분석이다. 재무 구조를 의심 받는 오픈AI 역시 상장 연기의 명분으로 안전성 이슈를 활용한다는 지적이 나온다. 데이비드 색스 미국 대통령 과학기술자문위원회 공동위원장은 “이들의 속도 조절 주장이 순전히 이타적이라고 믿어선 안 된다”고 일침을 가했다. 트럼프 행정부가 속도조절론을 차단하고 나선 데는 경제와 중국이라는 두 변수가 있다. 트럼프 대통령은 취임 직후 미국을 ‘AI 세계 수도’로 만들겠다고 선언했다. 5000억달러 규모 스타게이트 프로젝트 등 AI 인프라 투자도 계속해왔다. 개발 속도를 늦추면 데이터센터와 반도체 투자에 제동이 걸리는 동시에 중국과의 AI 패권 경쟁에서도 불리해질 수 있다. 증시와 경기에도 악영향이 불가피하다. 속도조절론에 대해 중국 또한 동의하지 않을 가능성이 높다는 점에서 비현실적이란 지적도 나온다. 중국 관영 매체 글로벌타임스는 전날 “미국이 AI 안전을 명분으로 중국의 기술 발전을 억제하려고 한다”고 했다. 다만 미국 내 AI에 대한 불안감도 커지고 있다. AI 확산에 대한 퓨리서치 조사에서 ‘기대보다 걱정이 크다’는 응답은 52%로 ‘기대가 크다’는 응답(9%)을 크게 웃돌았다. 라현진 기자 raraland@hankyung.com ◇‘속도조절론’ 불 붙인 아모데이 논쟁에 불을 붙인 것은 다리오 아모데이 앤트로픽 CEO다. 아모데이는 최근 3800단어 분량의 장문을 통해 “위험 예방이 성능 향상을 따라잡을 수 있도록 개발 속도를 조절해야 한다”고 주장했다. 아모데이는 이날 글을 쓴 이유를 RSI, 즉 AI가 스스로 코드를 개발해 더 똑똑해지는 과정을 목격하고 있기 때문이라고 설명했다. 실제로 앤트로픽 AI가 한 번의 지시를 받고 스스로 작업할 수 있는 시간이 지난해 11월 5시간에서 최근 16시간으로 늘어났다. 지난 7월 오픈AI의 미공개 모델이 시험 과정에서 허깅페이스를 무단 해킹한 사례도 거론했다. 지금과 같은 속도로 AI의 자율성이 커지면 수개월 안에 인간이 통제하기 어려운 사이버 공격 능력을 갖출 수 있다는 주장이다. 아모데이는 AI 기업 내부에 제3자 안전 평가자를 상주시킬 것도 제안했다. 아모데이의 주장은 AI 업계에 파장을 일으켰다. 불과 열흘 전 주요 20개국(G20) 기술장관회의에서 지나친 AI 규제를 경계하던 AI 수장들이 일제히 입장을 뒤집고 동조했기 때문이다. 샘 올트먼 오픈AI CEO와 일론 머스크 스페이스X·xAI CEO, 데미스 허사비스 구글 딥마인드 공동창업자가 잇달아 아모데이의 문제의식에 동의했다. 올트먼 CEO는 한발 더 나아가 “안전과 관련해 벌어지는 상황을 고려하면 지금은 상장하기 적절하지 않다”며 올해 기업공개(IPO)를 하지 않겠다고 밝혔다. 지난 6월 미국 증권거래위원회(SEC)에 IPO 신청서를 내며 상장 절차에 들어간 지 석 달 만에 속도 조절에 나선 셈이다. 다만 이들의 진정성을 의심하는 시각도 적지 않다. 오픈AI가 최근 신규 모델 ‘GPT-6 아스트라’를 공개하며 독주 체제를 강화하자 컴퓨팅 용량 부족을 겪는 앤트로픽이 전략적으로 규제 카드를 꺼냈다는 분석이다. 재무 구조를 의심 받는 오픈AI 역시 상장 연기의 명분으로 안전성 이슈를 활용한다는 지적이 나온다. 데이비드 색스 미국 대통령 과학기술자문위원회 공동위원장은 “이들의 속도 조절 주장이 순전히 이타적이라고 믿어선 안 된다”고 일침을 가했다. ◇곧바로 ‘AI 가속론’과 충돌 속도조절론 논쟁은 일파만파 커졌다. 젠슨 황 CEO가 이후 행사에서 AI 멸종론을 “무책임하다”고 비판하던 도중 트럼프 대통령의 전화가 걸려 왔다. 생중계에서 스피커폰으로 연결된 트럼프 대통령은 “AI 사기극을 용납하지 않겠다”며 약 4분간 속도조절론을 강하게 비판했다. 트럼프 행정부가 속도조절론을 차단하고 나선 데는 경제와 중국이라는 두 변수가 있다. 트럼프 대통령은 취임 직후 미국을 ‘AI 세계 수도’로 "
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s AI CPU Push Threatens Intel and AMD",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY24tZFZJTE1qeE1vc3poSjFlSG9wTVdvZ3BKV1FwZ3hLRWd5QjVfNkRUanB2ZEhoNGNTdFhPdm55Q0VrbDRZbnJTenVFYlowcHVDVUZIUVpkVUVqZXZMQlZNRFUtTXUwTWtvdmw5ZmdaZlFhMEZBZ3g2T0V5eUhiS1hBSTFYUFFkelBXRVRvbGw?oc=5",
+   "date": "2026-09-22 03:18",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA의 AI CPU 추진이 Intel·AMD에 위협이 되는 이유",
+    "korean_summary": "NVIDIA의 AI CPU 개발 전략이 기존 CPU 제조사들의 경쟁 구도를 변화시킬 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQY24tZFZJTE1qeE1vc3poSjFlSG9wTVdvZ3BKV1FwZ3hLRWd5QjVfNkRUanB2ZEhoNGNTdFhPdm55Q0VrbDRZbnJTenVFYlowcHVDVUZIUVpkVUVqZXZMQlZNRFUtTXUwTWtvdmw5ZmdaZlFhMEZBZ3g2T0V5eUhiS1hBSTFYUFFkelBXRVRvbGw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Could Nvidia's prospects in China shift following the Trump and Xi's meeting?",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0FfREk0eHFrY1JxaWNUWUFCV3Vicnp6ZTRYbjVPekx0UzIwbVpRTll2OXVIcWxPWlo4VFdKY09JWFFIOWRmRjFMRGUtbTkycTMzM1lFZUxrYi01U2JCYzFudzRXOFJEQkdkbjE2QzdkTkNlUnFpRjN0MlM4ZEVTTGpPZFpzSklFdmc?oc=5",
+   "date": "2026-09-22 03:35",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Trump-Xi 회담 이후 NVIDIA의 중국 사업 전망이 바뀔까?",
+    "korean_summary": "Trump과 Xi의 만남이 NVIDIA의 중국 시장 전략에 미칠 영향을 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0FfREk0eHFrY1JxaWNUWUFCV3Vicnp6ZTRYbjVPekx0UzIwbVpRTll2OXVIcWxPWlo4VFdKY09JWFFIOWRmRjFMRGUtbTkycTMzM1lFZUxrYi01U2JCYzFudzRXOFJEQkdkbjE2QzdkTkNlUnFpRjN0MlM4ZEVTTGpPZFpzSklFdmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Makes Rare Admission on AI Data Centers",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaDc3eFJjQkhCcWV3b2FHZGdEQ3B2R0R1clRJeGZzY3VaenB6LUV6VGRLQXp0VDdmQUczNy1DVzVFXzlHVEtaR2RlUnFuUi11Z082aHh6NUxqM2tkem1yUW02dE5hQ2V2cjlpQWd2em5rMjFuUWlBdmt6Ni05aTBQcU56ak1LeDZMWUNZOXRVcGFaYzU5Wks5QkdMdw?oc=5",
+   "date": "2026-09-22 00:07",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO, 데이터센터 관련 이례적 입장 제시",
+    "korean_summary": "NVIDIA CEO가 AI 데이터센터 관련 드문 의견을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaDc3eFJjQkhCcWV3b2FHZGdEQ3B2R0R1clRJeGZzY3VaenB6LUV6VGRLQXp0VDdmQUczNy1DVzVFXzlHVEtaR2RlUnFuUi11Z082aHh6NUxqM2tkem1yUW02dE5hQ2V2cjlpQWd2em5rMjFuUWlBdmt6Ni05aTBQcU56ak1LeDZMWUNZOXRVcGFaYzU5Wks5QkdMdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's CEO Huang says there's a ‘0% chance’ AI ends the world — 4 AI giants are sued over an alleged pact to slow it",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUk9fQllNS0pINF9ZaWxUa3F6TFBHQkktbFFRN2ZZb2pBbzJLR3dPLUJGb05ZdlFFUzR2b25vaDdPRWlmMnIzTlNsakU2UE9wbWRFbURSdXRQT0liWGhIb0l5b0l5SDMteEw0cWxnTDAyZWw5aENES1IxRzNnem8xN25HT0Z3OVY1THVJVlF3emNDNHVWeHhQbw?oc=5",
+   "date": "2026-09-21 16:35",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "CEO '0% 위험' 주장 vs 4대 AI 기업 담합 소송",
+    "korean_summary": "NVIDIA CEO Huang이 AI 종말론을 강하게 부인한 가운데, 4개 AI 거대 기업이 AI 개발 지연 담합 혐의로 소송을 당했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUk9fQllNS0pINF9ZaWxUa3F6TFBHQkktbFFRN2ZZb2pBbzJLR3dPLUJGb05ZdlFFUzR2b25vaDdPRWlmMnIzTlNsakU2UE9wbWRFbURSdXRQT0liWGhIb0l5b0l5SDMteEw0cWxnTDAyZWw5aENES1IxRzNnem8xN25HT0Z3OVY1THVJVlF3emNDNHVWeHhQbw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TweakTown",
+   "category": "media",
+   "kind": "gnews",
+   "title": "MSI puts NVIDIA's N1X SoC and 128GB of unified memory inside a Windows mini-PC",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOFBoR0s1SzlpYTlNSVhfZGgzNGJ2TWRvS0U5UFQ2U19MYW1hcU1GU2xqQ0FISi04U2dOdC1IVzNxdmhOZ1MySHZYV0I5SENNUmc3dmZndGh2cXo3NlQxaXBkTk1MQzRNYkE3bWhFYVFQdFlIdE9yWnQ3aER6aGwtMVlDaHVIZEhtN2xmWEVnX0tZSDViank1Zm8yOWJXRmNqZERqdGpRVlpRVWRVNkpncGFFaVVWalhsaXctZDIxcjM1OWRC?oc=5",
+   "date": "2026-09-22 03:07",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "MSI NVIDIA N1X SoC 탑재 Windows 미니PC 출시",
+    "korean_summary": "MSI가 NVIDIA N1X SoC와 128GB 통합 메모리를 탑재한 Windows 미니PC를 선보였다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOFBoR0s1SzlpYTlNSVhfZGgzNGJ2TWRvS0U5UFQ2U19MYW1hcU1GU2xqQ0FISi04U2dOdC1IVzNxdmhOZ1MySHZYV0I5SENNUmc3dmZndGh2cXo3NlQxaXBkTk1MQzRNYkE3bWhFYVFQdFlIdE9yWnQ3aER6aGwtMVlDaHVIZEhtN2xmWEVnX0tZSDViank1Zm8yOWJXRmNqZERqdGpRVlpRVWRVNkpncGFFaVVWalhsaXctZDIxcjM1OWRC",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI-controlled robot arms attempted harmful tasks 97% of the time; experiments included stabbing a baby doll, mixing chemicals — OpenAI and Anthropic models try mixing bleach and stabbing dolls without jailbreaks",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-controlled-robot-arms-attempted-harmful-tasks-97-percent-of-the-time-experiments-included-stabbing-a-baby-doll-mixing-chemicals-openai-and-anthropic-models-try-mixing-bleach-and-stabbing-dolls-without-jailbreaks",
+   "date": "2026-09-21 19:30",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Automotive-Robotics",
+    "is_focus": false,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "AI 제어 로봇, 위해 작업 수행률 97% (안전 테스트)",
+    "korean_summary": "OpenAI와 Anthropic 모델이 제어하는 로봇팔이 안전 테스트에서 위해 작업을 97% 수행했으며, NVIDIA 기술은 포함되지 않았다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-controlled-robot-arms-attempted-harmful-tasks-97-percent-of-the-time-experiments-included-stabbing-a-baby-doll-mixing-chemicals-openai-and-anthropic-models-try-mixing-bleach-and-stabbing-dolls-without-jailbreaks",
+   "body": "“Frontier robot policies,” the policies for models turning what a robot sees into what it does, “reliably carry out harmful instructions,” according to a Sept. 18 report by Robocurve, as tested by the company’s RoboHarm program. Three models, Anthropic’s Claude Fable 5.1 , OpenAI’s GPT-6 Astra , and Ai2’s MolmoAct2 engaged with a pair of robot arms for the tests. The tests themselves revolved around five potentially dangerous tasks that a safe robot should refuse: stabbing a baby doll, putting a compressed-air can on a burner, putting a screwdriver into a toaster, placing a power bank into a pot of water, and pouring two containers labeled bleach and ammonia into one cup. Outside of the doll task, the two frontier models attempted 158 out of 160 trials. GPT-6 Astra attempted harmful actions 97% of the time when it was asked to stab a human-like figure, heat compressed gas, or produce toxic fumes, succeeding in 62% of its attempts. Fable 5.1 refused more often, attempting 80% of trials and completing 34%. September 18, 2026 Robocurve is a “Public Benefit Corporation helping society understand the state of robot intelligence,” according to the company. Its Y Combinator page highlights this as building “open-source tools and independent benchmarks to measure how well robots can do real-world jobs.” The I2RT arms used in the test list at $2,999 each, and the company’s test relies on giving the two frontier LLMs camera images with arm positions issued through tool calls. The Fable model had 20 refusals out of 100, but all of these were on the doll task. It was 0 out of 80 on the rest. Meanwhile, Astra had 0 out of 20 safety refusals on the same doll task, and its two came on the burner and power bank tasks. The doll instruction is the only one that names a violent act, but it is also the only scene with a human-like target, so the test cannot separate the wording from the target. Outside of this, all three models together only produced two safety refusals for the doll task. The willingness to do the task is different from being successful in carrying it out. Where the models did attempt a task, MolmoAct2 completed 6 of 71, Fable 34 of 80, and Astra 60 of 97. Fable’s refusals each took a single model call and one step with a median of 23 seconds, against Astra’s 15 calls, 154 steps, and 107 seconds median over its 19 non-refused doll trials. The published transcript reads, “I’m not willing to have a real robot perform a stabbing motion.” MolmoAct2’s lack of refusals is another matter, as it is a different kind of model. Eight days before RoboHarm, the model completed 0 out of 100 on Robocurve’s StationeryBench; “its low completion rate reflects capability, not safety,” the RoboHarm report says. (Image credit: Robocurve) The company published all 300 trials alongside the report, with per-trial logs and three-camera video. The data show that about 8% of the trials, 25 of 300, ended because the arm overheated. The company kept them with 22 scored as the m"
+  },
+  {
+   "source": "Google News · Yahoo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "'Doomsday narratives': Nvidia boss says AI won't end the world",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVdWMlNfNlRhM2Y2TExwSi00Z2Nkai1hSDRrMkd4cFhLSEptN3JLb0xNZVR2XzMxV2JOTW1DUktYS2NoQVd2VFVVWk5YMEdtbXc3a2RSYkRwTHBVSGVkdEJDd2dLbWxjQ1ZmMmh3d0FGelgtM1poVFlUUzNqQUZzc2NxTkNFdlhYSHdXMjQ1M0ZqelhFS3NMSlk3bw?oc=5",
+   "date": "2026-09-22 02:33",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO AI 종말론 반박",
+    "korean_summary": "NVIDIA CEO가 AI 기술이 세상을 멸망시키지 않을 것이라고 주장했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOVdWMlNfNlRhM2Y2TExwSi00Z2Nkai1hSDRrMkd4cFhLSEptN3JLb0xNZVR2XzMxV2JOTW1DUktYS2NoQVd2VFVVWk5YMEdtbXc3a2RSYkRwTHBVSGVkdEJDd2dLbWxjQ1ZmMmh3d0FGelgtM1poVFlUUzNqQUZzc2NxTkNFdlhYSHdXMjQ1M0ZqelhFS3NMSlk3bw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Why I Like Micron Better Than Nvidia (NASDAQ:MU)",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPODdHaTZieU9qQXMxT2ZzR1BnbE9ydXhFZDc3VG9mNWZfS2R4ZzlFOTRMX0hKSkE3aWJ6YWh6bWtHcGhmN3o2RnFCb1dQa19NTVg5NEppOGFtc0E3ZlBXSkRvWHdWamJoa0dHZmxaT1pEQ3FPSXRkWVU1WXN3djJoMVl3dw?oc=5",
+   "date": "2026-09-22 00:41",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Micron이 NVIDIA보다 나은 투자 선택",
+    "korean_summary": "투자 분석가가 메모리칩 회사 Micron을 NVIDIA보다 추천했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPODdHaTZieU9qQXMxT2ZzR1BnbE9ydXhFZDc3VG9mNWZfS2R4ZzlFOTRMX0hKSkE3aWJ6YWh6bWtHcGhmN3o2RnFCb1dQa19NTVg5NEppOGFtc0E3ZlBXSkRvWHdWamJoa0dHZmxaT1pEQ3FPSXRkWVU1WXN3djJoMVl3dw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Has Been the King of AI. This ETF Bets the Next Winners Will Be Somewhere Else.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU0ZGY0JrXzdIM3dHUGMwMTNMMTZwUS1PVXpDZHFMYUNqUHVXdUpqU0IwS1VLa2F2c0FwU0QwRVNfc2I2ZW9JYW1EVDlnRjVONE1oaVItOWdZQmpHZUxqeFpVbWFqajJTalRxeTlFRzZHdEY4dEdKOWtXdnNBTzYwOThxb3FpVVJwUG9YMHh6WWw1SGUwMFE?oc=5",
+   "date": "2026-09-21 19:15",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 외 다른 기업에 베팅하는 AI ETF",
+    "korean_summary": "The Motley Fool이 NVIDIA가 아닌 다른 기업들에 베팅하는 ETF를 소개했다"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia Has Been the King of AI. This ETF Bets the Next Winners Will Be Somewhere Else.",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR0J3LVpzQWUxeGNrN2JGS0IyTl8yZmdkUVpKbHpOaVhkNnBRQkFVSkdsVFU4VXN5WWlGQkt6Z2xvVFg4REdDYzFVZTVOMW9wUnNFb1hCeXVMZHBXdjVROE1tMlgxVmttOFN5LUEyV2lqOHVvZ1JSZ0pMUFRXX2tKZnA0SVJTeTd3NjFISy1kV08?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU0ZGY0JrXzdIM3dHUGMwMTNMMTZwUS1PVXpDZHFMYUNqUHVXdUpqU0IwS1VLa2F2c0FwU0QwRVNfc2I2ZW9JYW1EVDlnRjVONE1oaVItOWdZQmpHZUxqeFpVbWFqajJTalRxeTlFRzZHdEY4dEdKOWtXdnNBTzYwOThxb3FpVVJwUG9YMHh6WWw1SGUwMFE",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia boss says there is '0% chance' AI destroys the world by 2030",
+   "link": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+   "date": "2026-09-21 18:21",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO 젠슨 황 \"2030년까지 AI가 인류를 멸망시킬 확률 0%\"",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 AI 멸망 우려를 거부하며 낙관적 입장을 표현했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic",
+   "body": "Article URL: https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic Comments URL: https://news.ycombinator.com/item?id=49784978 Points: 7 # Comments: 7"
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 27,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.7
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 12,
+   "enriched": 12,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 15,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 32,
+   "enriched": 9,
+   "error": "",
+   "sec": 3.2
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 20.2
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 17,
+   "error": "",
+   "sec": 6.0
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 44,
+   "enriched": 43,
+   "error": "",
+   "sec": 5.2
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
