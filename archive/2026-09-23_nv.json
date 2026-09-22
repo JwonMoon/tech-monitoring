@@ -1,0 +1,2078 @@
+{
+ "subject": "nvidia",
+ "date": "2026-09-23",
+ "window": [
+  "2026-09-22",
+  "2026-09-23"
+ ],
+ "generated": "2026-09-23T08:44:13+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 **Isaac ROS 5.0**을 공개해 에이전틱 AI 기반 개발 워크플로우를 추가하며 130만 ROS 사용자의 로봇 개발을 가속화한다.",
+  "Mercedes-Benz가 2028년까지 **Wayve AI**를 차량에 통합하기로 하며 NVIDIA Alpamayo 시스템을 배제해 자율주행 파트너십 지형이 변화한다.",
+  "구광모 LG 회장이 **마이크로소프트**와도 AI 동맹을 맺어 제조·로봇·전장 등 강점 분야로 AI 인프라 시장 공략을 확대한다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+   "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+   "date": "2026-09-22 21:00",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "로봇 AI 개발을 위한 NVIDIA Isaac ROS 5.0 출시",
+    "korean_summary": "NVIDIA가 에이전트 기반 워크플로우를 지원하는 Isaac ROS 5.0을 출시하여 130만 명의 로봇 개발자 커뮤니티에 제공했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Isaac ROS 5.0 공개…에이전틱 AI로 오픈소스 로보틱스 개발 가속",
+    "korean_summary": "NVIDIA가 ROSCon 2026에서 Isaac ROS 5.0을 발표해 AI 에이전트 기반 개발 워크플로우와 새로운 플랫폼 지원을 추가함으로써 약 130만 명의 ROS 사용자가 로봇 애플리케이션을 더 빠르게 구축·배포할 수 있도록 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Isaac ROS 5.0을 공개하고 에이전틱 워크플로우, ROS Lyrical/Ubuntu 24.04 지원, FoundationPose 가속화 등을 추가",
+     "stage": "Available",
+     "timeline": "발표 당일 (ROSCon 컨퍼런스, 캐나다 토론토)",
+     "scope": "전 세계 ROS 개발자 커뮤니티(약 1.3백만 명), Isaac ROS·Jetson Thor 생태계"
+    },
+    "key_facts": [
+     "NVIDIA Isaac ROS 5.0이 캐나다 토론토 ROSCon 컨퍼런스에서 공개됨",
+     "**약 1.3백만 명의 ROS 사용자**에게 NVIDIA 가속 컴퓨팅과 물리 AI 모델을 제공",
+     "ROS Lyrical 및 Ubuntu 24.04 지원 추가, Open Source Robotics Alliance와 협력해 GPU 가속용 표준 데이터 처리 인터페이스 기여",
+     "**FoundationPose 추론 라이브러리가 최대 5.5배 빠른 객체 위치·자세 추적 성능** 제공",
+     "Magna가 Isaac ROS를 로봇 인지·데이터 수집 및 NVIDIA Isaac GR00T 모델 배포의 모듈형 기반으로 사용하며 Isaac Sim HIL 테스트와 결합"
+    ],
+    "why_matters": "오픈소스 ROS 생태계에 에이전틱 AI 개발 방식을 도입함으로써 NVIDIA는 로보틱스 소프트웨어 개발의 표준화된 가속 계층을 선점하려 한다. **자동차 부품 대기업 Magna를 포함한 산업 파트너들의 채택**은 NVIDIA의 물리 AI 스택이 순수 로보틱스를 넘어 산업 자동화·자동차 제조 영역까지 확장되고 있음을 보여준다.",
+    "subject_angle": "NVIDIA는 Isaac ROS·Jetson Thor·GR00T·FoundationPose로 구성된 풀스택 물리 AI 플랫폼을 오픈소스 ROS 표준에 결합시켜, **하드웨어(GPU)부터 파운데이션 모델까지 로보틱스 개발의 기본 인프라를 장악**하려는 전략을 강화하고 있다.",
+    "focus_angle": "**Magna가 Isaac ROS와 Isaac GR00T 모델을 로봇 인지·데이터 수집에 도입**한 것은 자동차 Tier-1 서플라이어가 휴머노이드·산업 로봇 자동화로 사업을 확장하는 신호이며, Seeed Studio의 reBot Arm과 Jetson Thor 결합은 자율 매니퓰레이션 애플리케이션이 자동차 생산라인 자동화 및 휴머노이드 로봇 상용화에 실질적 플랫폼으로 활용될 수 있음을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Isaac ROS 5.0 개발 및 배포, 가속 컴퓨팅·물리 AI 모델 제공"
+     },
+     {
+      "name": "Open Robotics",
+      "context": "ROS 오픈 프레임워크 원 개발 주체"
+     },
+     {
+      "name": "Open Source Robotics Alliance",
+      "context": "ROS Lyrical용 표준 데이터 처리 인터페이스 공동 기여"
+     },
+     {
+      "name": "RealSense",
+      "context": "AgenticROS 프로젝트 후원, D585 Pro 카메라 및 SDK를 Isaac ROS·Jetson Thor에 최적화"
+     },
+     {
+      "name": "Intrinsic",
+      "context": "Open Machine Tending Solution에 FoundationPose 통합, 산업용 로보틱스 애플리케이션 가속"
+     },
+     {
+      "name": "Seeed Studio",
+      "context": "reBot Arm에 Isaac ROS와 Jetson Thor 결합, 매니퓰레이션 애플리케이션 구축"
+     },
+     {
+      "name": "Magna",
+      "context": "Isaac ROS를 로봇 인지·데이터 수집·Isaac GR00T 모델 배포 기반으로 활용, Isaac Sim HIL 테스트 병행"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Isaac ROS 5.0",
+      "role": "GPU 가속 ROS 패키지 모음, 이번 발표의 핵심 제품"
+     },
+     {
+      "name": "FoundationPose",
+      "role": "객체 위치·자세 추정 및 추적 파운데이션 모델, 5.5배 가속 및 에이전트 지원 추론 라이브러리 제공"
+     },
+     {
+      "name": "FoundationStereo",
+      "role": "스테레오 인지 모델 파인튜닝 스킬로 AI 에이전트가 카메라·환경별 인지 정확도 향상 지원"
+     },
+     {
+      "name": "NVIDIA Jetson Thor",
+      "role": "엣지 AI 플랫폼, RealSense·Seeed Studio 통합의 하드웨어 기반"
+     },
+     {
+      "name": "NVIDIA Isaac GR00T",
+      "role": "Magna가 로봇 인지·데이터 수집과 함께 배포하는 물리 AI 모델"
+     },
+     {
+      "name": "AgenticROS",
+      "context_note": "role",
+      "role": "RealSense 후원 오픈소스 프로젝트, Isaac ROS와 NVIDIA Nemotron·NemoClaw 블루프린트 연결"
+     }
+    ],
+    "watch_next": [
+     "Magna의 Isaac GR00T·Isaac ROS 기반 로봇 인지 프로젝트가 실제 자동차 생산·물류 라인에 구체적으로 언제 적용되는지 확인",
+     "Jetson Thor 기반 Seeed Studio reBot Arm 등 매니퓰레이션 플랫폼의 상용화 및 휴머노이드 로봇 연계 여부",
+     "Open Source Robotics Alliance와의 표준 데이터 인터페이스가 타 GPU/가속기 벤더에도 확산되는지 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+     "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+    },
+    {
+     "source": "Google News · blogs.nvidia.com",
+     "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sdnlsRXplbmZmbUxGdjV0WWRPQmFNRlAzWk9pdjIzYXhzMkZUTmZfQWNtXzVkcFp4VHdZLWR3bWVhbFluMFRNWU5oS0l1cUJoOGswcjJ3Q2s5WndiYVZFSVZoWlZhemZXOVFud2JFRHkwYThkN1Q1T0dYZHFOdw?oc=5"
+    },
+    {
+     "source": "Google News · blogs.nvidia.com",
+     "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9sdnlsRXplbmZmbUxGdjV0WWRPQmFNRlAzWk9pdjIzYXhzMkZUTmZfQWNtXzVkcFp4VHdZLWR3bWVhbFluMFRNWU5oS0l1cUJoOGswcjJ3Q2s5WndiYVZFSVZoWlZhemZXOVFud2JFRHkwYThkN1Q1T0dYZHFOdw?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia Isaac ROS 5.0: agentic, open-source robotics development",
+     "link": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics",
+   "body": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open framework is a project from Open Robotics that helps humans build robots. NVIDIA Isaac ROS 5.0 — a collection of GPU-accelerated packages built on ROS, released today at the ROSCon conference in Toronto, Canada — helps humans and AI agents build robots together. The release introduces new agentic workflows and platform support to help developers build, customize and deploy robotics applications faster. ROS provides the open source foundation for much of modern robotics development, giving developers common tools, libraries and standards for building and connecting robot applications. NVIDIA Isaac ROS brings NVIDIA accelerated computing, physical AI models and production-ready libraries to the nearly 1.3 million ROS users, helping developers build high-performance robotics applications using free, familiar, open source tools. Bringing AI Agents Into Robotics Development AI agents are changing how software is built, helping developers automate repetitive tasks, navigate complex codebases and move from ideas to working applications faster. Isaac ROS 5.0 brings these capabilities to robotics development. Isaac ROS 5.0 introduces support for ROS Lyrical and Ubuntu 24.04, giving developers a path to adopt the latest ROS platform while continuing to accelerate demanding robotics workloads with NVIDIA accelerated computing. NVIDIA worked with the Open Source Robotics Alliance to contribute a standard data-handling interface to ROS Lyrical that helps robotics software work efficiently across different computing hardware, including GPUs. Available to the entire ROS community, it gives developers a consistent way to accelerate demanding robotics applications, with CUDA providing a working example for GPU acceleration. New NVIDIA Isaac skills for setup and manipulation provide reusable workflows that developers and AI agents can use to complete robotics development tasks. Agent-ready documentation also makes it easier for AI agents to understand Isaac ROS tools and workflows, turning developer intent into working applications faster. Some skills go beyond assisting with individual coding tasks. A new FoundationStereo fine-tuning skill enables an AI agent to help adapt a stereo perception model to a developer’s cameras, environment and robotics application, so developers can easily achieve more accurate perception for a given sensor configuration. FoundationPose, a foundation model for object pose estimation and tracking, now provides an agent-ready inference library that enables robots to perceive and track the position and orientation of objects up to 5.5x faster. In addition, pick and place — a common workflow that connects detection, depth estimation and pose output — is now available as a standalone, agent-ready skill, providing robot developers more flexibility beyond Isaac ROS."
+  },
+  {
+   "source": "Google News · therobotreport.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQXlJRjc2MVFBNlVHY3Q5c21hVU1SUTRFWDNHcldJVnAyNERTLWxBWUpBUFYtYjFBNDFLb0ZZQnFWRl9MeFRxTklyUFEySE5fN2F0QklMQkxkdnVYV29BWUM0ZDExR3pqVTdWSHJYY1MxcjluWENJSmZFT3BRMEItbGNHN2JfbXk0SzRsZXotdlYtdzJQenpiV0gyaw?oc=5",
+   "date": "2026-09-23 02:57",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac ROS 5.0 출시, AI 에이전트로 로봇 개발 강화",
+    "korean_summary": "NVIDIA가 Isaac ROS 5.0을 출시하여 로봇 개발 플랫폼에 AI 에이전트 기능을 추가했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · therobotreport.com",
+     "title": "Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQXlJRjc2MVFBNlVHY3Q5c21hVU1SUTRFWDNHcldJVnAyNERTLWxBWUpBUFYtYjFBNDFLb0ZZQnFWRl9MeFRxTklyUFEySE5fN2F0QklMQkxkdnVYV29BWUM0ZDExR3pqVTdWSHJYY1MxcjluWENJSmZFT3BRMEItbGNHN2JfbXk0SzRsZXotdlYtdzJQenpiV0gyaw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQXlJRjc2MVFBNlVHY3Q5c21hVU1SUTRFWDNHcldJVnAyNERTLWxBWUpBUFYtYjFBNDFLb0ZZQnFWRl9MeFRxTklyUFEySE5fN2F0QklMQkxkdnVYV29BWUM0ZDExR3pqVTdWSHJYY1MxcjluWENJSmZFT3BRMEItbGNHN2JfbXk0SzRsZXotdlYtdzJQenpiV0gyaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Speeds Up Open-source Robotics With Isaac ROS 5.0",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92dlZmMjBwRmpfeGRxSHRnczFETWY3c0N5NXRuSjdfSkFueXRTVW8xWm5JbzRBSVhLekFJZ0RVb2twMUJRWHFQV2JpZlVhTHpQemlFUkR3ZUdBTF92dTQ5M2tvRzZKdw?oc=5",
+   "date": "2026-09-23 00:51",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, Isaac ROS 5.0 메이저 릴리스로 오픈소스 로보틱스 가속화",
+    "korean_summary": "NVIDIA가 Isaac ROS 5.0을 공개하여 로봇 개발 생태계를 강화했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Quantum Zeitgeist",
+     "title": "NVIDIA Speeds Up Open-source Robotics With Isaac ROS 5.0",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92dlZmMjBwRmpfeGRxSHRnczFETWY3c0N5NXRuSjdfSkFueXRTVW8xWm5JbzRBSVhLekFJZ0RVb2twMUJRWHFQV2JpZlVhTHpQemlFUkR3ZUdBTF92dTQ5M2tvRzZKdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92dlZmMjBwRmpfeGRxSHRnczFETWY3c0N5NXRuSjdfSkFueXRTVW8xWm5JbzRBSVhLekFJZ0RVb2twMUJRWHFQV2JpZlVhTHpQemlFUkR3ZUdBTF92dTQ5M2tvRzZKdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Tech Buzz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Isaac ROS 5.0 Brings Agentic AI to Open Robotics",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3ZJZTNCZTFLVUJkUHQ3TFJQaTFuVkU1V1dYZlRjZVM2ZHF3OGxpdm5GYTNkYk1acEkxZkhFT1pfTFh1R21Bdk15UmpsX0x2SzA4MWxURW14d0tYekpvUXRzY3hDTEhSU2xkb09oUEYwYWd1V0kxeHp2Smo5VUxENlZIN19BU21nSTN3Sko1U2NKdw?oc=5",
+   "date": "2026-09-22 21:37",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac ROS 5.0, 로보틱스에 에이전틱 AI 도입",
+    "korean_summary": "NVIDIA가 Isaac ROS 5.0에서 에이전틱 AI 기능을 로보틱스 분야에 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT3ZJZTNCZTFLVUJkUHQ3TFJQaTFuVkU1V1dYZlRjZVM2ZHF3OGxpdm5GYTNkYk1acEkxZkhFT1pfTFh1R21Bdk15UmpsX0x2SzA4MWxURW14d0tYekpvUXRzY3hDTEhSU2xkb09oUEYwYWd1V0kxeHp2Smo5VUxENlZIN19BU21nSTN3Sko1U2NKdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Isaac ROS 5.0 Adds Agentic Skills and ROS Lyrical Support",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNblowTVdqUlpjV0RhSmZpX2NYaE9qcDc1SmFrTXVET3h6SW5zVlRLZi0zN2tESjVzMTFVSWF6UXJ5SXdOSjd4Nk5iV0paZnV0bjZfWnFTQ1MzajdnNGo1Zy1NSm1GRmw1SC0yR04zLVRUX3JRd3hfbWdsUXNNOFJkYmw5ZEJFZXpvSDRxTWFYQzc?oc=5",
+   "date": "2026-09-22 21:23",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac ROS 5.0, 에이전틱 스킬과 ROS 리리컬 지원 추가",
+    "korean_summary": "NVIDIA Isaac ROS 5.0이 에이전틱 스킬과 ROS 리리컬 지원을 새로이 추가한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNblowTVdqUlpjV0RhSmZpX2NYaE9qcDc1SmFrTXVET3h6SW5zVlRLZi0zN2tESjVzMTFVSWF6UXJ5SXdOSjd4Nk5iV0paZnV0bjZfWnFTQ1MzajdnNGo1Zy1NSm1GRmw1SC0yR04zLVRUX3JRd3hfbWdsUXNNOFJkYmw5ZEJFZXpvSDRxTWFYQzc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Crypto Briefing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Isaac ROS 5.0 introduces AI agents for robotics development",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11a3BGcTZNMW10ZjU5Z1MyeUxGaFVDODhPY2NNellaQUEwMm91WjJjaXNDNVp5ZUs5VzUzYzBrZk9feWcwZWVWZzdVbzVrTlhCWVVvNG9xTk9fWVBMd2o4bzZ6X0tYRjhxaUo3a085a0lBYVE?oc=5",
+   "date": "2026-09-22 23:14",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac ROS 5.0, 로봇 개발용 AI 에이전트 소개",
+    "korean_summary": "NVIDIA Isaac ROS 5.0이 로봇 개발을 위한 AI 에이전트 기능을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTE11a3BGcTZNMW10ZjU5Z1MyeUxGaFVDODhPY2NNellaQUEwMm91WjJjaXNDNVp5ZUs5VzUzYzBrZk9feWcwZWVWZzdVbzVrTlhCWVVvNG9xTk9fWVBMd2o4bzZ6X0tYRjhxaUo3a085a0lBYVE",
+   "body": ""
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "구광모, AI 동맹 '광폭 행보'…엔비디아 이어 MS와 맞손",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=62636",
+   "date": "2026-09-22 21:07",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LG 구광모 회장, 엔비디아·마이크로소프트와 AI 협력 전략 MOU 체결",
+    "korean_summary": "LG 회장이 지난 8월 엔비디아 젠슨 황 CEO와의 전략적 MOU 체결에 이어 MS와도 협력 발표"
+   },
+   "summary_data": {
+    "korean_title": "구광모 LG 회장, 엔비디아 이어 마이크로소프트와도 AI 동맹",
+    "korean_summary": "구광모 LG그룹 회장이 지난 8월 NVIDIA와 MOU 체결에 이어 이번엔 마이크로소프트 사티아 나델라 CEO와 손잡고 제조·로봇·전장·냉각·배터리 등 LG 강점 분야를 앞세워 AI 인프라 시장 공략에 나섰다.",
+    "action": {
+     "actor": "LG그룹(구광모 회장)",
+     "action": "마이크로소프트 본사 방문, 사티아 나델라 CEO와 AI 사업협력",
+     "stage": "Announced",
+     "timeline": "2026년 9월 21일(현지시간)",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "구광모 LG그룹 회장이 **9월 21일(현지시간) 워싱턴주 레드먼드 마이크로소프트 본사**에서 사티아 나델라 CEO와 회동",
+     "이에 앞서 **8월 미국 엔비디아 본사**에서 젠슨 황 CEO와 전략적 사업협력 MOU 체결",
+     "LG는 **제조·로봇·전장·냉각·배터리·IT 인프라 솔루션**을 강점으로 내세워 AI 인프라 시장 공략",
+     "MOU 구체적 내용·수치는 본문에 미확인"
+    ],
+    "why_matters": "**LG가 NVIDIA에 이어 Microsoft와도 잇달아 AI 협력을 맺으며** 글로벌 빅테크의 AI 인프라 밸류체인 파트너로 자리매김하려는 행보가 뚜렷해지고 있다. 이는 데이터센터·로봇·전장 등 AI 하드웨어 생태계에서 한국 기업의 참여 폭이 확대되는 흐름을 보여준다.",
+    "subject_angle": "**NVIDIA는 이미 LG와 MOU를 체결한 파트너로, LG가 냉각·배터리·전장 등 인프라 솔루션을 통해 NVIDIA GPU 기반 AI 데이터센터·로봇 생태계에 편입될 가능성**을 시사하며, NVIDIA의 파트너 생태계 확장 전략과 맞물린다.",
+    "focus_angle": "**LG의 로봇·전장 솔루션이 AI 인프라 협력 범위에 포함**되어 향후 NVIDIA 로봇·자율주행 플랫폼과의 연계 가능성이 있으나 구체적 내용은 미확인",
+    "companies": [
+     {
+      "name": "LG그룹",
+      "context": "AI 동맹 확대 주체, 제조·로봇·전장·냉각·배터리·IT 인프라 강점 보유"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "8월 MOU 체결 파트너, 젠슨 황 CEO 참여"
+     },
+     {
+      "name": "Microsoft",
+      "context": "9월 21일 신규 협력 파트너, 사티아 나델라 CEO 참여"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "LG-Microsoft MOU 구체적 협력 범위 및 사업 내용 공개 여부",
+     "LG-NVIDIA MOU의 후속 실행 계획(로봇·냉각·전장 솔루션 적용 사례)",
+     "LG 계열사(LG전자·LG에너지솔루션 등)의 AI 인프라 사업 구체화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=62636",
+   "body": "구광모 LG그룹 회장이 글로벌 인공지능(AI) 기업과 연합전선을 빠르게 넓히고 있다. 지난 8월 미국 엔비디아 본사를 찾아 젠슨 황 최고경영자(CEO)와 전략적 사업협력 양해각서(MOU)를 체결한 데 이어 이번에는 마이크로소프트(MS) 본사에서 사티아 나델라 CEO와 손을 잡았다.LG가 강점을 가진 제조·로봇·전장·냉각·배터리·IT 인프라 솔루션 등을 앞세워 AI 인프라 시장 공략에 속도를 내고 있다.구광모 LG 회장과 사티아 나델라 마이크로소프트 최고경영자(CEO)는 21일(현지시간) 미국 워싱턴주 레드먼드 마이크로소프트 본사에서"
+  },
+  {
+   "source": "Google News · GameGPU",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Rubin Client GPUs approved for release in 2027, starting at $2500",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVTRrTkVHdndrTW9SWHFPdEZKSzQxY1NiaV91VHJaM29ibXItN0c1bWhLQldvVVFPLTEwMC11cHVHMGxnR3plTHUydmhLLTFWSkNDaWNjVmJNSHJmUTdwZjVDLWFaQXZiTDNXdGlUSE5EUS03TFJWX2h5WEhpXzhIWTc3eWF6VF9zcHFmMldvb05rMzgyRmVSa19FMm5RYmxlZmVEa0M1Umx0d1VPQ3p3U0M3dlBsckdDd1dzU3V0cmp3aVZEVTFOS0laWjFUb25pcVU4eExOLUk2TlEtNDZJ?oc=5",
+   "date": "2026-09-23 06:25",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Rubin 클라이언트 GPU 2027년 출시 승인, $2500부터 시작",
+    "korean_summary": "NVIDIA의 신규 Rubin 아키텍처 클라이언트 GPU가 2027년 출시될 예정이며 가격은 $2500부터 책정되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVTRrTkVHdndrTW9SWHFPdEZKSzQxY1NiaV91VHJaM29ibXItN0c1bWhLQldvVVFPLTEwMC11cHVHMGxnR3plTHUydmhLLTFWSkNDaWNjVmJNSHJmUTdwZjVDLWFaQXZiTDNXdGlUSE5EUS03TFJWX2h5WEhpXzhIWTc3eWF6VF9zcHFmMldvb05rMzgyRmVSa19FMm5RYmxlZmVEa0M1Umx0d1VPQ3p3U0M3dlBsckdDd1dzU3V0cmp3aVZEVTFOS0laWjFUb25pcVU4eExOLUk2TlEtNDZJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechTarget",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed Skild AI teaches robots new tasks from a single video",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZThpR0lJRndkTGJ5YTJjSjZnenFUdmF2TnRMUE9XWExLVVpuRmVRRkJxVGRjcy00a2xBTWo3a0M4cnRLMkpRX2lhWHlySXhUd1BJUjZ0NU00WHdrUWdiTG9WS0FXUVl5Nk51b1RfcVdBckJNa1Z0TTJpcmtVLWdESk54T29UUWE2X0JRVFhsUV9sUU5LX0k4TUc2Z1ZVNURTejdvaS02cHRRMGROUHA3RkZn?oc=5",
+   "date": "2026-09-23 04:33",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 백드롭 Skild AI, 단일 비디오로 로봇 신규 작업 학습 기술 공개",
+    "korean_summary": "NVIDIA가 지원하는 Skild AI가 로봇에게 단일 비디오로부터 새로운 작업을 학습하게 하는 기술을 선보였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZThpR0lJRndkTGJ5YTJjSjZnenFUdmF2TnRMUE9XWExLVVpuRmVRRkJxVGRjcy00a2xBTWo3a0M4cnRLMkpRX2lhWHlySXhUd1BJUjZ0NU00WHdrUWdiTG9WS0FXUVl5Nk51b1RfcVdBckJNa1Z0TTJpcmtVLWdESk54T29UUWE2X0JRVFhsUV9sUU5LX0k4TUc2Z1ZVNURTejdvaS02cHRRMGROUHA3RkZn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Zero-copy Data Transfer Boosts NVIDIA Isaac ROS Performance",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HcVVOWUhVdkVCUFNfa0pTQ0NVUVhIYUphTzNoam5hS1FTWnlIUUpqVWwyNk1Fd3BqS19zV1dDS3drcmpQWE5icHV6UnJ5eTNHN1dndE9lNVNpLWxUYzBvdEZJQmU0Uk9HSlpwc3h2NHJYbnhGek9Z?oc=5",
+   "date": "2026-09-23 00:55",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "영점복사 기술, NVIDIA Isaac ROS 성능 대폭 향상",
+    "korean_summary": "NVIDIA Isaac ROS의 영점복사 데이터 전송 기술이 로봇 플랫폼 성능을 크게 개선했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Quantum Zeitgeist",
+     "title": "Zero-copy Data Transfer Boosts NVIDIA Isaac ROS Performance",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HcVVOWUhVdkVCUFNfa0pTQ0NVUVhIYUphTzNoam5hS1FTWnlIUUpqVWwyNk1Fd3BqS19zV1dDS3drcmpQWE5icHV6UnJ5eTNHN1dndE9lNVNpLWxUYzBvdEZJQmU0Uk9HSlpwc3h2NHJYbnhGek9Z?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HcVVOWUhVdkVCUFNfa0pTQ0NVUVhIYUphTzNoam5hS1FTWnlIUUpqVWwyNk1Fd3BqS19zV1dDS3drcmpQWE5icHV6UnJ5eTNHN1dndE9lNVNpLWxUYzBvdEZJQmU0Uk9HSlpwc3h2NHJYbnhGek9Z",
+   "body": ""
+  },
+  {
+   "source": "Google News · autoevolution",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz To Integrate Wayve AI Driver in Its Vehicles by 2028, Sidelining CLA's Alpamayo System",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR29RVDFtb2IxTG5MQmpUeFhFOTVDZll6NjlNaHF2YnhhME1XcmFPTW5ZeDI3ZTFQSmxrcnE3eTQyT210aGd6X29BUDUwWnhLVEJkLWpTR04wQzhYa245eS1EVnVnWERNU2hNVXJSYkFTZ2hHcWYycE55ZHZoNzVyY0dCSEo1WWdtdHJCSXF4dl8yV1piWEtkMUpfRTZ2c1RMM2V4bzd3cVpndnRwX1VkTExGTGNFRllWQV9jdHRZbWJySVpweGl3U015b0V1NFIySFJSYzRMcWxTRGJaaTBr?oc=5",
+   "date": "2026-09-23 02:18",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz, 2028년 Wayve AI 통합하며 NVIDIA Alpamayo 제외",
+    "korean_summary": "Mercedes-Benz가 Wayve AI를 2028년까지 차량에 통합하면서 NVIDIA의 Alpamayo 시스템을 배제한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR29RVDFtb2IxTG5MQmpUeFhFOTVDZll6NjlNaHF2YnhhME1XcmFPTW5ZeDI3ZTFQSmxrcnE3eTQyT210aGd6X29BUDUwWnhLVEJkLWpTR04wQzhYa245eS1EVnVnWERNU2hNVXJSYkFTZ2hHcWYycE55ZHZoNzVyY0dCSEo1WWdtdHJCSXF4dl8yV1piWEtkMUpfRTZ2c1RMM2V4bzd3cVpndnRwX1VkTExGTGNFRllWQV9jdHRZbWJySVpweGl3U015b0V1NFIySFJSYzRMcWxTRGJaaTBr",
+   "body": ""
+  },
+  {
+   "source": "Google News · electrive.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride and Nvidia announce autonomous electric truck collaboration",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNHhtZWVHeTRVYUVKVnp1Nk1VX2dZcTVkRlMyWTZOeWRnQmdCVmNfYXVEMklzaHJSdm9MUHZMcVExaENMOHRsc3RsbFlwV2pETlU5Y3RDVkdKSW1CTWFwSEtHTjdQX285anhKSGY2d0xtTVRnOUlCZXdTZnh0QnUwOWotLVF1LWVUNTFiTHRldHpZSW5uUWQxOENFd2lwOFRRaHRlTE5qaVo?oc=5",
+   "date": "2026-09-22 20:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride와 NVIDIA, 자율주행 전기 트럭 협력 발표",
+    "korean_summary": "Einride와 NVIDIA가 자율주행 전기 트럭 개발을 위한 협력을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNHhtZWVHeTRVYUVKVnp1Nk1VX2dZcTVkRlMyWTZOeWRnQmdCVmNfYXVEMklzaHJSdm9MUHZMcVExaENMOHRsc3RsbFlwV2pETlU5Y3RDVkdKSW1CTWFwSEtHTjdQX285anhKSGY2d0xtTVRnOUlCZXdTZnh0QnUwOWotLVF1LWVUNTFiTHRldHpZSW5uUWQxOENFd2lwOFRRaHRlTE5qaVo",
+   "body": ""
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/cutlass CUTLASS 4.8.0",
+   "link": "https://github.com/NVIDIA/cutlass/releases/tag/v4.8.0",
+   "date": "2026-09-22 12:37",
+   "score": 7,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/cutlass",
+    "version": "v4.8.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "CUTLASS 4.8.0 출시 - Rubin 아키텍처 지원 및 성능 강화",
+    "korean_summary": "NVIDIA가 Rubin 아키텍처 지원, FP8/FP4 고처리량 MMA, CuTe DSL 확장을 포함한 CUTLASS 4.8.0을 릴리스했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA CUTLASS 4.8.0 출시, 차세대 Rubin 아키텍처 초기 지원 및 CuTe DSL 확장 기능 추가",
+    "korean_summary": "NVIDIA가 CUTLASS 4.8.0을 공개하며 **차세대 Rubin 아키텍처의 조밀 GEMM 가속을 위한 초기 지원**과 FP8/FP4 저정밀 연산 성능 강화, CuTe DSL 확장 컴파일러 파이프라인을 도입했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "CUTLASS 라이브러리 4.8.0 버전을 릴리스하며 Rubin 아키텍처 초기 지원, FP8/FP4 Tensor Core MMA 성능 개선, CuTe DSL 확장(cute_ext) 프리뷰 파이프라인을 포함",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "CUTLASS/CuTe DSL을 사용하는 GPU 커널 개발자, Rubin 아키텍처 대상"
+    },
+    "key_facts": [
+     "**Rubin 아키텍처에 대한 초기(Initial) 지원**을 추가하여 조밀 GEMM(dense GEMM) 가속 지원",
+     "FP8(MMA_K=64) 및 FP4(MMA_K=128) 고처리량 Tensor Core MMA 명령 지원",
+     "TMEM 크기를 512 COL에서 576 COL로 확장, 공유 메모리 할당량을 328KB로 확대",
+     "FP4 대상 2:4 스파시티(sparsity) 지원 추가",
+     "**CuTe DSL 확장(cute_ext) 컴파일러 파이프라인**을 옵트인 프리뷰로 제공하며, 4.10 버전 이전에는 기본값으로 전환되지 않음"
+    ],
+    "why_matters": "이번 릴리스는 **NVIDIA가 차세대 GPU 아키텍처인 Rubin의 소프트웨어 스택을 하드웨어 공개 이전부터 선제적으로 준비**하고 있음을 보여주며, 이는 경쟁사 대비 개발자 생태계 선점 전략의 일환이다. FP8/FP4 저정밀 연산 및 스파시티 최적화는 대규모 AI 추론·학습에서의 처리량 및 메모리 효율 경쟁에서 핵심 요소로 작용한다.",
+    "subject_angle": "**CUTLASS는 NVIDIA GPU 성능을 최대한 끌어내는 저수준 커널 라이브러리로, 신규 아키텍처 등장 전 소프트웨어 선행 지원을 통해 하드웨어-소프트웨어 통합 전략**을 강화하고 있으며, CuTe DSL 확장은 개발자 생산성과 커널 최적화 유연성을 동시에 높여 CUDA 생태계 락인(lock-in)을 강화한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CUTLASS 및 CuTe DSL 개발·릴리스 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "CUTLASS 4.8.0",
+      "role": "GPU 행렬 연산 가속 라이브러리, 이번 릴리스의 핵심 대상"
+     },
+     {
+      "name": "CuTe DSL",
+      "role": "GEMM 및 텐서 연산 커널 작성을 위한 도메인 특화 언어, 확장(cute_ext) 파이프라인 프리뷰 도입"
+     },
+     {
+      "name": "Rubin",
+      "role": "NVIDIA 차세대 GPU 아키텍처, 이번 릴리스에서 초기 지원 대상"
+     }
+    ],
+    "watch_next": [
+     "Rubin 아키텍처의 공식 하드웨어 출시 시점 및 사양 공개",
+     "cute_ext 컴파일러 파이프라인이 CUTLASS 4.10에서 기본값으로 전환되는지 여부",
+     "FP4/FP8 및 2:4 스파시티 지원의 실제 AI 워크로드 성능 벤치마크 결과"
+    ]
+   },
+   "related": [],
+   "uid": "gh:NVIDIA/cutlass:v4.8.0",
+   "body": "CuTe DSL New features Initial Rubin support to accelerate dense GEMMs. The following features are available: CuTe DSL and CuTe extensions Support for higher-throughput FP8 (MMA_K=64) and FP4 (MMA_K=128) Tensor Core MMA instructions B collector reuse Extended TMEM size from 512 COL to 576 COL Larger shared memory allocations (328KB) Enhanced mixed precision throughput (FP8/FP4) Softmax acceleration related features Primitives Support for higher-throughput FP8 (MMA_K=64) and FP4 (MMA_K=128) Tensor Core MMA instructions B collector reuse Extended TMEM size from 512 COL to 576 COL Larger shared memory allocations (328KB) Enhanced mixed precision throughput (FP8/FP4) Softmax acceleration related feature 2:4 sparsity support for FP4 CuTe DSL extensions has several new features: CTA-V maps are now inferred automatically for cute_ext TMA load, store, multicast, and reduce-store operations. Explicit CTA-V maps remain supported as overrides. Added asynchronous atomic TMA reduce-store and sparse MMA operations. Added reusable cute_ext GEMM mainloop and TMA epilogue helpers. Added opt-in TMEM accumulator-buffer planning, including overlapping ping-pong storage for capacity-constrained kernels. Improved device-side TMA descriptor updates and grouped GEMM performance through SMEM-staged updates, workspace reuse, and reduced prologue and synchronization overhead. This release includes an opt-in preview of the CuTe DSL extensions ( cute_ext ) compiler pipeline for ordinary Cute DSL kernels. This pipeline lets user mix cute_ext APIs directly into @cute.jit and @cute.kernel code and is required for kernels that mix the two API surfaces. You may test this feature with the following: CUTE_DSL_USE_EXTENSION_COMPILER=1 python your_program.py The pipeline is expected to preserve program behavior and performance, but generated PTX/SASS may differ. Note that this pipeline will become the default in the future, no earlier than 4.10. Added examples for better control over Primitives' compiler"
+  },
+  {
+   "source": "ServeTheHome",
+   "category": "media",
+   "kind": "feed",
+   "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+   "link": "https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware/",
+   "date": "2026-09-23 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아, DSX Ready 데이터센터 냉각·전력 하드웨어 인증 프로그램 출시",
+    "korean_summary": "엔비디아가 DSX AI factory 블루프린트 기반 데이터센터 하드웨어 인증 프로그램 시작"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 데이터센터 전력·냉각 하드웨어 인증 프로그램 'DSX Ready' 출시",
+    "korean_summary": "NVIDIA가 자사 DSX AI factory blueprint 기반 데이터센터 구축을 위해 전력·냉각 하드웨어를 검증하는 신규 인증 프로그램 DSX Ready를 발표했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "데이터센터 전력·냉각 하드웨어 대상 신규 인증 프로그램 DSX Ready 출시",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "DSX AI factory blueprint 기반 데이터센터용 전력·냉각 하드웨어, 참여 파트너사 및 지역은 미확인"
+    },
+    "key_facts": [
+     "NVIDIA가 이번 주 **DSX Ready**라는 신규 인증 프로그램을 발표함",
+     "이 프로그램은 데이터센터 **냉각(cooling)** 및 **전력(power)** 하드웨어를 대상으로 함",
+     "NVIDIA의 **DSX AI factory blueprint** 기반 AI 데이터센터 구축에 사용되는 것을 목표로 함",
+     "구체적인 인증 기준, 참여 벤더, 출시 일정 등은 본문에 명시되지 않음 (미확인)"
+    ],
+    "why_matters": "AI 데이터센터 규모 확대에 따라 전력·냉각 인프라가 GPU 성능을 뒷받침하는 핵심 병목으로 부상하고 있으며, NVIDIA가 이 영역까지 표준·인증 체계를 확립함으로써 **AI 인프라 전반에 대한 영향력을 확대**하려는 시도로 해석된다. 이는 전력·냉각 하드웨어 공급업체들에게 NVIDIA 생태계 편입 여부가 시장 경쟁력에 직결될 수 있음을 시사한다.",
+    "subject_angle": "NVIDIA가 GPU·서버 설계를 넘어 데이터센터 전력·냉각까지 **인증 표준을 주도**함으로써, DSX blueprint를 중심으로 한 AI factory 생태계 전체를 수직 통합하려는 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DSX Ready 프로그램 발표 및 DSX AI factory blueprint 제공 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "DSX Ready",
+      "role": "데이터센터 전력·냉각 하드웨어 신규 인증 프로그램"
+     },
+     {
+      "name": "DSX AI factory blueprint",
+      "role": "NVIDIA의 AI 데이터센터 설계 청사진, DSX Ready 인증의 기준이 되는 프레임워크"
+     }
+    ],
+    "watch_next": [
+     "DSX Ready 인증을 받는 구체적 파트너사(전력·냉각 벤더) 명단 공개 여부",
+     "인증 기준 및 절차의 세부 내용",
+     "DSX AI factory blueprint와의 연계 방식 및 실제 데이터센터 적용 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · ServeTheHome",
+     "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOemVDZXQyTF9rdnNVVmZESy11TGxjT2pPUWgyUDhQU0owWHVJaHlsZldvcTdDU2pvYjMzd0FmUnJUQWF1NFVQMTJFdmYwUmlDSnQyZ2RtVk5YX04waG9tdk0tcjhQWDBLTktsY2NiM1ZLYnNKM0swbUhZQS1OZVlaX3dkNDFKZk9fMEQzcllpb2dPZGU2Vl9DUkhXa21vbUVGZEdNLWNrYkNJQkxvUnJCVTJULV9LYi03SkxEWVVR?oc=5"
+    }
+   ],
+   "uid": "https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware",
+   "body": "NVIDIA this week has launched DSX Ready, a new qualification program for data center cooling and power hardware, for use with constructing AI data centers based on NVIDIA's DSX AI factory blueprint The post NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware appeared first on ServeTheHome ."
+  },
+  {
+   "source": "Google News · Mexico Business News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA, Google Launch Alliance to Speed Data Center Connections",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVdWYjd0M0g2QnRiTTBObGN5dW5kTnhQakNvem1iQzBGajE1VlJySGhsdGl0a1JiR2k3UTd3VnJ3ZGhnTHIxak8zMGhTbzk2S3JFV2pKU2J5Wjhic295UGJCN25Fdml3NThaU3hNRFhlbWxaSEdzYnkyd1M0SC1URFdFUG8yRTRWS2hpVGgtYnQ1RFFNM0lWdHdIMFY5Nk5FbXFwRFJaQWs?oc=5",
+   "date": "2026-09-23 05:34",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Google, 데이터센터 연결 고속화 협력 개시",
+    "korean_summary": "NVIDIA와 Google이 데이터센터 네트워킹을 가속화하기 위한 전략적 협력을 공식 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVdWYjd0M0g2QnRiTTBObGN5dW5kTnhQakNvem1iQzBGajE1VlJySGhsdGl0a1JiR2k3UTd3VnJ3ZGhnTHIxak8zMGhTbzk2S3JFV2pKU2J5Wjhic295UGJCN25Fdml3NThaU3hNRFhlbWxaSEdzYnkyd1M0SC1URFdFUG8yRTRWS2hpVGgtYnQ1RFFNM0lWdHdIMFY5Nk5FbXFwRFJaQWs",
+   "body": ""
+  },
+  {
+   "source": "Google News · interestingengineering.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia approves LG’s 5.1-MWh battery storage system to power AI factories",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMW9kUUQwaUxCSGV0Wi1kTEsyLTRueERwVERibmxsSW0yb1MtLUFqNU1lcnk2M2txLVM2bFpXTTNJMzBlcS1IWTVzNUM3VnJrR0xfSERIT1NDRnh0THp3VXh1dmxYeWNXQVhUak9PeDZmdzhhenQwR3loUm1NSWtxNUxMYw?oc=5",
+   "date": "2026-09-22 22:39",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, LG 5.1MWh 배터리 저장 시스템으로 AI 팩토리 전력 확보",
+    "korean_summary": "NVIDIA가 LG의 5.1MWh 배터리 저장 시스템을 도입하여 AI 인프라 전력 공급을 강화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMW9kUUQwaUxCSGV0Wi1kTEsyLTRueERwVERibmxsSW0yb1MtLUFqNU1lcnk2M2txLVM2bFpXTTNJMzBlcS1IWTVzNUM3VnJrR0xfSERIT1NDRnh0THp3VXh1dmxYeWNXQVhUak9PeDZmdzhhenQwR3loUm1NSWtxNUxMYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · aimagazine.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "VAST Data & NVIDIA Launch Confidential AI Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPak10amFVT0N0WjBPZ0g2MkUtemZ1YzhjVHQ3VUtlc2xJYlE1NGtBcEx1RDRVUW1MVkV6elFXbzlBTFZXNnB5azdNLUI5eHlOZ1J4ZHZBRkI1VUk4alRSZ2tDM1Jwam9tNmZETzhoTWlmV09jMmlkUjJMTGtrRHZiRnJ1U29mM3BNeVE?oc=5",
+   "date": "2026-09-22 20:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-platform"
+    ],
+    "korean_title": "VAST Data와 NVIDIA, 기밀 AI 인프라 솔루션 공동 출시",
+    "korean_summary": "VAST Data와 NVIDIA가 기밀 컴퓨팅 기반의 AI 인프라 솔루션을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPak10amFVT0N0WjBPZ0g2MkUtemZ1YzhjVHQ3VUtlc2xJYlE1NGtBcEx1RDRVUW1MVkV6elFXbzlBTFZXNnB5azdNLUI5eHlOZ1J4ZHZBRkI1VUk4alRSZ2tDM1Jwam9tNmZETzhoTWlmV09jMmlkUjJMTGtrRHZiRnJ1U29mM3BNeVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · HPCwire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "VAST Data Unveils DataEnclave Built on NVIDIA Confidential Computing",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeW9KRTZTdmNIWEhnWUF3WkZ4em41X1hsbUFaS1JlVWRrVEZMZTdwaU96TWJVMFRkVzZPSWhFNnpwLXZPaXktWmRtMTRhZU9hYnpObE9RbGl1Ym5QUWltdUN5bVp4LVdPWXNWaWExNzZ2ZlQ1LXpZQXU2ZFRyQk1mcHJLeFlZQkgwdHVfd19zS08yekJpOGQ4WVJuSTRxaXlGM0VLX3R3Tkd3QVRZdXY2OF9pQWhaVU5vc1E?oc=5",
+   "date": "2026-09-23 03:07",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-platform"
+    ],
+    "korean_title": "VAST Data, NVIDIA 기밀 컴퓨팅 기반 DataEnclave 솔루션 공개",
+    "korean_summary": "VAST Data가 NVIDIA 기밀 컴퓨팅 기술을 활용한 DataEnclave 솔루션을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeW9KRTZTdmNIWEhnWUF3WkZ4em41X1hsbUFaS1JlVWRrVEZMZTdwaU96TWJVMFRkVzZPSWhFNnpwLXZPaXktWmRtMTRhZU9hYnpObE9RbGl1Ym5QUWltdUN5bVp4LVdPWXNWaWExNzZ2ZlQ1LXpZQXU2ZFRyQk1mcHJLeFlZQkgwdHVfd19zS08yekJpOGQ4WVJuSTRxaXlGM0VLX3R3Tkd3QVRZdXY2OF9pQWhaVU5vc1E",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Future Transport-News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride Enters Strategic Collaboration with NVIDIA to Advance Its Autonomous Trucking",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOUUyRWhaZkU4Q3dGUjgyQTE5UXNhYnhzYkhySE5QSU9tbXV0NzBxXzhRaHNBLXRCVm5leE9xa2MxVm81blBxcU8ySFBBaVhkbXI1RlpNRVo3Mk9xUzJoSktNbzdxOF9CNF9PS2s0M2sxUDBkVzZRMkJ3NUtubGZCMXlaaDdrRXFMc3paTGI5Y3Vqb3B2ZnNUX0Jnem44MUVPc1ZPODBVaXZOMlFuVEZvTGotT0RwQ1lzdGQ0?oc=5",
+   "date": "2026-09-22 17:44",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Einride, NVIDIA와 자율주행 트럭 기술 발전 협력 시작",
+    "korean_summary": "Einride가 자율주행 트럭 기술 발전을 위해 NVIDIA와 전략적 협력을 체결했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOUUyRWhaZkU4Q3dGUjgyQTE5UXNhYnhzYkhySE5QSU9tbXV0NzBxXzhRaHNBLXRCVm5leE9xa2MxVm81blBxcU8ySFBBaVhkbXI1RlpNRVo3Mk9xUzJoSktNbzdxOF9CNF9PS2s0M2sxUDBkVzZRMkJ3NUtubGZCMXlaaDdrRXFMc3paTGI5Y3Vqb3B2ZnNUX0Jnem44MUVPc1ZPODBVaXZOMlFuVEZvTGotT0RwQ1lzdGQ0",
+   "body": ""
+  },
+  {
+   "source": "Google News · blockchain.news",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Halos Brings Full-Stack Safety to Physical AI Expansion",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YVEQxcGp4ekplUzNzUnhvY0lsM09KcHBBS0VZTjdkX0l1cWk1RU1JQ1ZWb2RhWUN3ZWZPS3BLX3VVbkhNekRoQUN1TUxRSXV6QmRGSW9QTVJjcUtmbDNIR3JIRTdqbHNHUUphRA?oc=5",
+   "date": "2026-09-22 19:52",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Halos, Physical AI 확대를 위한 풀스택 안전 기능 제공",
+    "korean_summary": "NVIDIA Halos가 Physical AI 분야 확대를 위해 풀스택 안전 기능을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YVEQxcGp4ekplUzNzUnhvY0lsM09KcHBBS0VZTjdkX0l1cWk1RU1JQ1ZWb2RhWUN3ZWZPS3BLX3VVbkhNekRoQUN1TUxRSXV6QmRGSW9QTVJjcUtmbDNIR3JIRTdqbHNHUUphRA",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
+   "link": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+   "date": "2026-09-22 21:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "ROS 2 워크로드 GPU 가속화 기법",
+    "korean_summary": "NVIDIA가 CUDA 메모리 버퍼 최적화로 ROS 2 그래프의 GPU 가속 효율을 개선하는 기술을 설명했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMEo3VkdmLTZya3pSSkE4RVNnTzdKS1hqMW4tRlpValVvb0p5dElWR3h6UHZLd1NQVzB2YWNhWHlsN0ZjRmNBVjYtQUkwLTloaWNKQXZIbzNKMUtGeFk5cWpMQm9OOU1fWFpZSjlVaHVQUF9udEZ2dFBfeTNaMXl5UWFWdnZCMmQ0d3ZsQzhnTmQ1dkRtaEk0YWc2Wklzak0?oc=5"
+    },
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMEo3VkdmLTZya3pSSkE4RVNnTzdKS1hqMW4tRlpValVvb0p5dElWR3h6UHZLd1NQVzB2YWNhWHlsN0ZjRmNBVjYtQUkwLTloaWNKQXZIbzNKMUtGeFk5cWpMQm9OOU1fWFpZSjlVaHVQUF9udEZ2dFBfeTNaMXl5UWFWdnZCMmQ0d3ZsQzhnTmQ1dkRtaEk0YWc2Wklzak0?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros",
+   "body": "GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between... GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between nodes, they may continue to be serialized or copied through CPU memory, eroding the benefits of keeping perception and AI workloads on the GPU (Figure 1). With the upstream abstraction and the CUDA buffer backend that NVIDIA recently… Source"
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Links TensorRT And Dynamo-Triton For Faster AI On Multiple GPUs",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Bd1pwWGtGcjBTNEZVdEVTOTkzUnlESjNSNGZxSlpkcXdTWXZaU3YzZl9uQ2daYmZjVHV6R3RTZGNZdEEwQjdRd0RRM3EtSkw2dVhCa0o3SnBIcWgyVjEyeTA2SHZ0QnQxOGJ2S3RIUGhlTy1JUmJENTJPNEQ?oc=5",
+   "date": "2026-09-22 17:59",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, TensorRT와 Dynamo-Triton 연결해 다중 GPU AI 가속화",
+    "korean_summary": "NVIDIA가 TensorRT와 Dynamo-Triton을 연결하여 다중 GPU 환경에서의 AI 성능을 향상시킨다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9Bd1pwWGtGcjBTNEZVdEVTOTkzUnlESjNSNGZxSlpkcXdTWXZaU3YzZl9uQ2daYmZjVHV6R3RTZGNZdEEwQjdRd0RRM3EtSkw2dVhCa0o3SnBIcWgyVjEyeTA2SHZ0QnQxOGJ2S3RIUGhlTy1JUmJENTJPNEQ",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "CONTROL Resonant Launches with Path Tracing and DLSS 4.5 - Plus New GeForce GRD",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wn94ek/control_resonant_launches_with_path_tracing_and/",
+   "date": "2026-09-22 22:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "CONTROL Resonant, DLSS 4.5 path tracing 지원 출시",
+    "korean_summary": "CONTROL Resonant가 DLSS 4.5 path tracing으로 출시되고, NVIDIA가 신규 드라이버 업데이트와 VCT Champs eSports 파트너십을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wn94ek/control_resonant_launches_with_path_tracing_and",
+   "body": "First the article link: https://www.nvidia.com/en-us/geforce/news/control-resonant-path-tracing-dlss-4-5-ray-reconstruction/ From GeForce PR : This week, GeForce gamers have plenty to look forward to, with Remedy Entertainment’s highly anticipated CONTROL Resonant launching Sept. 24 with path tracing and the full suite of DLSS 4.5 enhancements. Also, our new GeForce Game Ready Driver includes optimizations and enhancements for four new, upcoming, highly anticipated games: AION 2 , CONTROL Resonant , Gears of War: E-Day , and The Witcher 3: Wild Hunt - Remastered ! Meanwhile, VCT Champs kicks off on September 24th, and the reigning 2025 Champions NRG have partnered with GeForce to upgrade their competitive PCs with GeForce RTX 5080 GPUs, giving players high frame rates and smooth, consistent performance needed to compete at the highest level. With NVIDIA Reflex helping reduce PC latency, NRG players can train and compete on systems built for faster, more responsive gameplay. The GeForce RTX 5080 is the GPU of choice for VALORANT pro players . According to ProSettings.net , the GeForce RTX 5080 is the single most popular GPU among tracked VALORANT professionals, and GeForce RTX cards dominate the gear lists of the pro field. GeForce RTX 5080 gives competitors the ultimate edge with the ability to reach over 1,000 FPS at 1080p max settings, and PC latency stays below 3 ms using NVIDIA Reflex. Hear from NRG’s Ethan on his quest for another championship in this video . Now, here’s a closer look at the new and upcoming RTX games: CONTROL Resonant : Remedy Entertainment’s sequel to CONTROL brings path-traced direct and indirect illumination, reflections, outdoor shadows and more to GeForce RTX PCs and laptops. DLSS 4.5 Ray Reconstruction and Dynamic Multi Frame Generation will help deliver high image quality and frame rates, with RTX 5090 reaching up to 320 FPS at 4K and up to 480 FPS at 1080p. Be sure to download and install our CONTROL Resonant GeForce Game Ready Driver from our website , or the NVIDIA app . If you’re away from home and your GeForce RTX PC or laptop, or simply don’t have a GeForce RTX system, you can still play CONTROL Resonant by streaming it from the cloud across devices with an Ultimate GeForce NOW membership. And don’t forget you can also get the ultimate upgrade with our CONTROL Resonant GeForce RTX 50 Series bundle . AION 2: NC’s next-generation MMORPG launches in the West on Sept. 30 for Founder’s Pack buyers, followed by a full free-to-play launch Oct. 5. Powered by Unreal Engine 5, AION 2 introduces new movement and combat mechanics including gliding and flying, and will launch with DLSS 4.5 Super Resolution and Multi Frame Generation on GeForce RTX GPUs. Gears of War: E-Day: The Coalition’s prequel to the original Gears of War launches with DLSS Super Resolution, Dynamic Multi Frame Generation and NVIDIA Reflex, alongside ray-traced Lumen global illumination and MegaLights shadows. The game also features NVIDIA RTX Mega Geom"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Alibaba shares jump as new AI chip, data center buildout plans unveiled",
+   "link": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+   "date": "2026-09-22 14:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "알리바바, Zhenwu V900 AI 칩 공개 및 20GW 데이터센터 확장 계획 발표",
+    "korean_summary": "알리바바가 전 세대 대비 3배 성능의 신규 AI 칩과 2032년까지 20GW 이상 글로벌 데이터센터 용량 확대 계획 공개"
+   },
+   "summary_data": {
+    "korean_title": "알리바바, 신형 AI 칩 'Zhenwu V900'과 20GW 데이터센터 확장 계획 공개",
+    "korean_summary": "알리바바가 항저우 Apsara Conference에서 차세대 AI 칩 Zhenwu V900과 2032년까지 20GW 이상 데이터센터 확장 계획을 공개하며 AI 인프라 경쟁에 본격 뛰어들었다.",
+    "action": {
+     "actor": "Alibaba",
+     "action": "신형 AI 칩 Zhenwu V900 공개 및 데이터센터 용량 확장 로드맵 발표",
+     "stage": "Announced",
+     "timeline": "Zhenwu V900 양산·상용화는 2027년 1분기, 데이터센터 확장은 2032년까지",
+     "scope": "Alibaba Cloud 글로벌 인프라, 자동차·금융·에너지·제조업 등 650개 이상 고객사"
+    },
+    "key_facts": [
+     "Alibaba 홍콩 주가 발표 후 약 3% 상승",
+     "**Zhenwu V900은 5월 출시된 전작 Zhenwu M890 대비 3배 성능**을 낸다고 발표",
+     "Alibaba Cloud 데이터센터 용량을 **2032년까지 20GW 이상으로 확장** 계획",
+     "기존 Zhenwu 칩은 자동차, 금융, 에너지, 제조업 등 650개 이상 고객사에서 사용 중",
+     "경쟁사 Huawei도 최대 100만 개 프로세서로 확장 가능한 AI 인프라를 최근 공개"
+    ],
+    "why_matters": "**중국 빅테크들이 자체 AI 칩과 대규모 인프라 투자로 NVIDIA 의존도를 낮추려는 움직임이 가속화**되고 있으며, 이는 미중 기술 경쟁 구도 속 AI 반도체 시장의 지형 변화를 시사한다. 서구 빅테크의 GW급 데이터센터 투자와 맞물려 글로벌 AI 컴퓨팅 인프라 확보 경쟁이 전방위로 확대되는 양상이다.",
+    "subject_angle": "**Alibaba·Huawei의 자체 AI 칩 개발 가속화는 NVIDIA의 중국 시장 접근 제약 상황에서 대체재 부상을 의미**하며, NVIDIA는 자국 및 호주 등 해외 파트너십(2GW 규모)으로 인프라 협력을 확대해 경쟁 우위를 유지해야 하는 압박을 받는다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Alibaba",
+      "context": "Zhenwu 칩 및 데이터센터 확장 계획 발표 주체"
+     },
+     {
+      "name": "Huawei",
+      "context": "경쟁 AI 인프라(최대 100만 프로세서 확장) 공개"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "호주에서 2027년까지 2GW AI 인프라 파트너십 계획 언급"
+     },
+     {
+      "name": "Meta",
+      "context": "캐나다 앨버타주 1GW 데이터센터(약 90억 달러) 건설 계획 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Zhenwu V900",
+      "role": "Alibaba의 차세대 AI 칩, 2027년 1분기 양산·상용화 예정"
+     },
+     {
+      "name": "Zhenwu M890",
+      "role": "V900의 전작, 5월 출시"
+     },
+     {
+      "name": "Qwen 4/4.5/5",
+      "role": "Alibaba의 차세대 AI 모델 시리즈, 학습 및 개발 계획 중"
+     }
+    ],
+    "watch_next": [
+     "Zhenwu V900 양산 및 실제 성능 검증 결과",
+     "Alibaba의 20GW 데이터센터 확장 진행 상황 및 지역별 배분",
+     "NVIDIA의 중국 및 아시아·태평양 시장 대응 전략 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/09/22/alibaba-ai-alibabacloud-zhenwu-v900-.html",
+   "body": "Shares of Alibaba jumped around 3% in Hong Kong on Tuesday after the Chinese technology giant unveiled a new artificial intelligence chip and plans to sharply expand its data center footprint, stepping up its bet on the infrastructure powering the AI boom. At its cloud unit's annual flagship Apsara Conference in Hangzhou, Alibaba introduced the Zhenwu V900, its next-generation AI chip that it said delivers three times the performance of its predecessor, the Zhenwu M890 released in May. The company also announced plans to expand Alibaba Cloud's global data center capacity to more than 20 gigawatts by 2032 as part of a broader roadmap spanning chips, cloud infrastructure and AI models. The announcements underscore Alibaba's growing push into the machinery behind the AI boom, amid a flurry of AI infrastructure investments by its Western tech peers as the race for computing power intensifies. Earlier this month, Nvidia outlined plans to work with Australian partners to support up to 2 gigawatts of AI infrastructure in the country by 2027, while Meta in July unveiled plans for its first data center in Canada, a 1-gigawatt facility in Alberta expected to cost about $9 billion and take up to three years to complete. Alibaba's new Zhenwu AI chip is scheduled for mass production and commercial release in the first quarter of 2027. Its existing Zhenwu chips are already used by more than 650 customers across industries including automotive, finance, energy and manufacturing. The company also said its next-generation Qwen 4 model is currently in training and outlined plans for future Qwen 4.5 and Qwen 5 model series. Eddie Wu, CEO of Alibaba Group, said machine thinking still had an \"enormous growth runway,\" comparing today's AI development with the early stages of electrification, adding \"AI coding is simply the light bulb of the machine intelligence era.\" Alibaba's domestic peer Huawei also unveiled new AI infrastructure last week that it said can scale to as many as one million processors."
+  },
+  {
+   "source": "Google News · marketscreener.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "QAD | Redzone And NVIDIA Corporation Announce Plans To Integrate NVIDIA Technologies To Accelerate Manufacturing Intelligence To Build And Deliver The Industry?s First Federated Intelligence Layer",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVWotWnZINFgwZlJXc1V5dW9tRmE4Q1NXcEI2eWJFZTNDQzk5Y0pEX3FDSVdTRldHZGVkcHhQX2ljLW4zekMtX0RPeGxrc2hFaklXX01UU2pXZUJ2SW5SREg1UlZvMzhKSEpwTGZDRXgtNnNJWW5EVXg4V04xcjlDb2FmbDhkcU9pSzJ3T2NUZ21QNWVtdkNPbVVoMDVGUXNkSjhOQmM3bmhWN096YWJZdG0xcnBvY0dfN1ptc1JydUNqbG16S2F1WVVnOE1VNi1raEZFRjFGR0pxY1BSZDhwRGlEQXo1QQ?oc=5",
+   "date": "2026-09-23 05:52",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "QAD와 NVIDIA, 제조 지능 통합으로 업계 최초 연합 인텔리전스 계층 구축",
+    "korean_summary": "QAD와 NVIDIA가 Redzone과 함께 제조 지능 가속화를 위해 NVIDIA 기술을 통합하기로 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOVWotWnZINFgwZlJXc1V5dW9tRmE4Q1NXcEI2eWJFZTNDQzk5Y0pEX3FDSVdTRldHZGVkcHhQX2ljLW4zekMtX0RPeGxrc2hFaklXX01UU2pXZUJ2SW5SREg1UlZvMzhKSEpwTGZDRXgtNnNJWW5EVXg4V04xcjlDb2FmbDhkcU9pSzJ3T2NUZ21QNWVtdkNPbVVoMDVGUXNkSjhOQmM3bmhWN096YWJZdG0xcnBvY0dfN1ptc1JydUNqbG16S2F1WVVnOE1VNi1raEZFRjFGR0pxY1BSZDhwRGlEQXo1QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Alibaba Jumps 4% as Zhenwu V900 Chip Targets the Gap NVIDIA Left in China; Baidu Sits Tight",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmVNQWNJejZVVEdGa2VmeDFhc09Bb1VNYmpwSEdSZzNSeURqZ3pWbXEzSXhyVjgxeHpSbHl2aml3Ym1WZEhJZ080MHNOMXl0RVA2bzlxNzdXM3dUQjNLNUQ4OXZ5cVZxY0lGUGJUVlY5enp0UXhFV05jUkpnNndfWTM4dTh6OEpBY1FOeFVZYlZTcVRQbEE?oc=5",
+   "date": "2026-09-22 22:43",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Alibaba Zhenwu V900으로 NVIDIA 규제로 인한 중국 시장 공략",
+    "korean_summary": "Alibaba가 Zhenwu V900 AI 칩을 공개하며 수출 규제로 인한 NVIDIA의 중국 시장 공백을 노린다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 24/7 Wall St.",
+     "title": "Alibaba Jumps 4% as Zhenwu V900 Chip Targets the Gap NVIDIA Left in China; Baidu Sits Tight",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVzVYM0xXMXFBS29nZzhkSnZXZ3hLbFV6eWxFVG5MQ1hHRVBMX1N3ZXhwZjI3S1RsLU5qMXVsMGZrLTEtaW9fcTVzNTJlT2FXRTQ0YlptUjBkeFlFb1lzZEpTOEZnanhoeGx1a19jUHo1RldkUzVNTWNRS2tfcDd3aXRxRW9yR19HeVdoUHZjbG9jTGhRTTBvWEpCYTlEUllxcXVUaktQSmNWLWRTS3VwTjAxcGRDRkhHNHZtZmU5UlVWcnJlSklMdS1XbkUxUQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSmVNQWNJejZVVEdGa2VmeDFhc09Bb1VNYmpwSEdSZzNSeURqZ3pWbXEzSXhyVjgxeHpSbHl2aml3Ym1WZEhJZ080MHNOMXl0RVA2bzlxNzdXM3dUQjNLNUQ4OXZ5cVZxY0lGUGJUVlY5enp0UXhFV05jUkpnNndfWTM4dTh6OEpBY1FOeFVZYlZTcVRQbEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · insidermonkey.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Alibaba Just Unveiled an AI Chip 3x Faster Than Its Predecessor. Nvidia Has a China Problem to Watch",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ2dHZmtjQjBJQ3lDdkxnVHJzM0JRN2hwTTFwZFRXbDNGdlh6M21QS0x1MlQ4T3VFSktZamI1SkV3Rlg4c3RkZzNaUjV0anFfQlZDd3RoR09HbUtWSGliSFpTa0JVTlBlb3hia2dWeE1GU1VPV0RfSkpSd2x3TE93aGxkWHV5ck1JQUxBTzBnQ3ljZFlGQzBCanVvTnRycGJZQWZOT1dMM0Z0emQtOEoxZFJDR1dFTm5nbWs2TndPbFVYR01DWWpOTmM2UjNHa1VnNnFJaVBoWU51Q2fSAeMBQVVfeXFMTk95UFRrdlNHcXlNNkRFdzFWaWd1Nl9mVzkwZVV1UGZidU5uS3VBaXpwSHE1M1ZWd1VzVmo3TUhGVlRXeWxMbjVHT3h4UmRPWU9rZDl6S3VOUFMwd282Ql8tTTJHSVI0Q05La2VUdGRaUWdoclJYTGpmUHhFMlZmNzlIMEdLV1V2Skwzb2RXcEN5dWRQMXZPVkttWnZhUVdYN0c3WjJYMG9xN0RzZzc0UmU4UVN2dUc4RHRJSDJCQkxXWnNpVUU4VU1fNlp0eV9DQmtmLWNoUmdYdGx3V2IzM1E5Yjg?oc=5",
+   "date": "2026-09-23 07:14",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Alibaba AI 칩 성능 3배 향상, NVIDIA 중국 시장 과제 재부각",
+    "korean_summary": "Alibaba가 AI 칩의 성능을 전 세대 대비 3배로 높여 NVIDIA의 중국 시장 진출 문제를 다시 이슈화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ2dHZmtjQjBJQ3lDdkxnVHJzM0JRN2hwTTFwZFRXbDNGdlh6M21QS0x1MlQ4T3VFSktZamI1SkV3Rlg4c3RkZzNaUjV0anFfQlZDd3RoR09HbUtWSGliSFpTa0JVTlBlb3hia2dWeE1GU1VPV0RfSkpSd2x3TE93aGxkWHV5ck1JQUxBTzBnQ3ljZFlGQzBCanVvTnRycGJZQWZOT1dMM0Z0emQtOEoxZFJDR1dFTm5nbWs2TndPbFVYR01DWWpOTmM2UjNHa1VnNnFJaVBoWU51Q2fSAeMBQVVfeXFMTk95UFRrdlNHcXlNNkRFdzFWaWd1Nl9mVzkwZVV1UGZidU5uS3VBaXpwSHE1M1ZWd1VzVmo3TUhGVlRXeWxMbjVHT3h4UmRPWU9rZDl6S3VOUFMwd282Ql8tTTJHSVI0Q05La2VUdGRaUWdoclJYTGpmUHhFMlZmNzlIMEdLV1V2Skwzb2RXcEN5dWRQMXZPVkttWnZhUVdYN0c3WjJYMG9xN0RzZzc0UmU4UVN2dUc4RHRJSDJCQkxXWnNpVUU4VU1fNlp0eV9DQmtmLWNoUmdYdGx3V2IzM1E5Yjg",
+   "body": ""
+  },
+  {
+   "source": "Google News · TweakTown",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CyberPowerPC sells rigs with NVIDIA RTX 5070 and 5080 Founders Edition GPUs via Walmart, but latter models vanish in a flash",
+   "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQV2M1QkNydmd5VGppLW5ybU93XzlBSGpFQk84a0F4UHBkcDE2VXRYYjVnLUpPQ2EtWGZQVTQ3d1JpOUctQ3Q2c2RscklrdVdWb1g2bXBWUzhITU1kbVZjaTcwaU1nYWlZVzB1RXMxMUlPbHdobVkyOS1BaWVObFBXRHdNcTFkc0xSc2hSY3k3ZklvaUdfbFdlMmliR1J4d2tVM3BxOFdYNFk5NHg2M05TOXFHREJVZVhBSkp4ZWh2dk5tRmFiakVaMHhOMldrQkY0cFZwdEloSkxiWGNZeWhHY2ZMN0MwSl85UHJka1lkdzQ2dDJJaW9JTVBaeWVkaEFXTEE?oc=5",
+   "date": "2026-09-23 02:55",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "CyberPowerPC, RTX 5070/5080 Walmart 출시로 새 GPU 보급 확대",
+    "korean_summary": "CyberPowerPC가 NVIDIA RTX 5070 및 5080 Founders Edition 탑재 컴퓨터를 Walmart에서 판매하기 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQV2M1QkNydmd5VGppLW5ybU93XzlBSGpFQk84a0F4UHBkcDE2VXRYYjVnLUpPQ2EtWGZQVTQ3d1JpOUctQ3Q2c2RscklrdVdWb1g2bXBWUzhITU1kbVZjaTcwaU1nYWlZVzB1RXMxMUlPbHdobVkyOS1BaWVObFBXRHdNcTFkc0xSc2hSY3k3ZklvaUdfbFdlMmliR1J4d2tVM3BxOFdYNFk5NHg2M05TOXFHREJVZVhBSkp4ZWh2dk5tRmFiakVaMHhOMldrQkY0cFZwdEloSkxiWGNZeWhHY2ZMN0MwSl85UHJka1lkdzQ2dDJJaW9JTVBaeWVkaEFXTEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · ESS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia launches BESS qualification program for AI data centers, names just Tesla, LG, Hitachi",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORW5EOWhYdTBsNGZ1NDBraENDd0cyR2tIazJSeHR6R1Z0dThhazFoRGhXOFA0d0ItR09ST3B2Zkhwb25YZEIwLWxtblpnS0RscmRiSG9OZGFyRXRqU3pMakFnLURDM1Vuc2FQT1hwaW5GRnpZQWhvbHBWWVhIRlIyZWxfLVhDWXphT2ZuMFQ2Uk5QcVl5UDlzS25qWkpmSWEtMUREVDJoQkFRM0VBUHgtTnFrQWM0cFZCclk0c0NhOHR4SkVfdVE?oc=5",
+   "date": "2026-09-23 08:14",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, AI 데이터센터용 BESS 자격 프로그램 시작... Tesla·LG·Hitachi 지정",
+    "korean_summary": "NVIDIA가 배터리 에너지 저장 시스템(BESS) 인증 프로그램을 출범하고 Tesla, LG, Hitachi 3사를 초기 파트너로 지정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORW5EOWhYdTBsNGZ1NDBraENDd0cyR2tIazJSeHR6R1Z0dThhazFoRGhXOFA0d0ItR09ST3B2Zkhwb25YZEIwLWxtblpnS0RscmRiSG9OZGFyRXRqU3pMakFnLURDM1Vuc2FQT1hwaW5GRnpZQWhvbHBWWVhIRlIyZWxfLVhDWXphT2ZuMFQ2Uk5QcVl5UDlzS25qWkpmSWEtMUREVDJoQkFRM0VBUHgtTnFrQWM0cFZCclk0c0NhOHR4SkVfdVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Hitachi Energy",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Hitachi Energy’s battery energy storage system qualifies as NVIDIA DSX Ready BESS",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObDdNNE8zZE9XdUVacml2SlZPLWpUWEJvQ0VXZFQ2aU9kVnFwUnJkV2UycEFaVGNmOU9ZS1pyU0Vfc1R4Vm9MZGJoZjZQc09UejhPcEJJOU9HWkx6YV9XV0RkaGJLQlJkQnVtUGtITW11czBUUEUzTFBzVk9SRkE3TzUzdzdrekhPUkFYOEotaTZaeUI2eE9nRk9ONGxVV1huMHo1UDFGOVAySE96ZjZOaHYzNDVxRHRmNzNuLU10VnFKc3VFWUFiaVIzZnBZaEUtVzlfZjZLYktKWFBu?oc=5",
+   "date": "2026-09-22 22:07",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Hitachi Energy, 배터리 저장 시스템이 NVIDIA DSX Ready 자격 획득",
+    "korean_summary": "Hitachi Energy의 배터리 에너지 저장 시스템이 NVIDIA 인증 프로그램(DSX Ready BESS)을 통과했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObDdNNE8zZE9XdUVacml2SlZPLWpUWEJvQ0VXZFQ2aU9kVnFwUnJkV2UycEFaVGNmOU9ZS1pyU0Vfc1R4Vm9MZGJoZjZQc09UejhPcEJJOU9HWkx6YV9XV0RkaGJLQlJkQnVtUGtITW11czBUUEUzTFBzVk9SRkE3TzUzdzdrekhPUkFYOEotaTZaeUI2eE9nRk9ONGxVV1huMHo1UDFGOVAySE96ZjZOaHYzNDVxRHRmNzNuLU10VnFKc3VFWUFiaVIzZnBZaEUtVzlfZjZLYktKWFBu",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Just Gave Einride Stock a Big Boost. How to Play ENRD Here.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSGpQak1VRlRuRDhWVUJObTViUk12bDRrMmV0YUp5cW1vdWZpb3lQdXRpNlkzNjUtcVFBaHhSaWlMNHltalV3WTF0ZmxraHJXcG92N2dtd01DSWRtV1dWM00xX1BzQ2lqTUtBeEN0NnNYYnRQcnFUS1J3emJxSzJ0ekZ6WmxHU0hSU3hvc21QUUNyQnp0d29ycUhHNA?oc=5",
+   "date": "2026-09-23 00:42",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 기술 영향으로 자율주행 기업 Einride 주가 급등",
+    "korean_summary": "자율주행 트럭 기업 Einride의 주가가 NVIDIA 관련 소식에 따라 큰 폭으로 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSGpQak1VRlRuRDhWVUJObTViUk12bDRrMmV0YUp5cW1vdWZpb3lQdXRpNlkzNjUtcVFBaHhSaWlMNHltalV3WTF0ZmxraHJXcG92N2dtd01DSWRtV1dWM00xX1BzQ2lqTUtBeEN0NnNYYnRQcnFUS1J3emJxSzJ0ekZ6WmxHU0hSU3hvc21QUUNyQnp0d29ycUhHNA",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
+   "link": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph/",
+   "date": "2026-09-23 02:16",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "datacenter"
+    ],
+    "korean_title": "NVIDIA Topograph를 통한 AI 팩토리 워크로드 최적화",
+    "korean_summary": "NVIDIA가 전력 제약 환경에서 GPU 워크로드 배치를 최적화하는 Topograph 기술을 소개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXd1VnVnMUxubjVtSDJIV0VJZGxvN3FJcFNGMGJPSWNXMlhfVWg2LTU5Y3B5YThjT2FHZjd0MU9Id3BjQXp3QjVISUQ0ZFpOY3JnaXI0b0FCWk1iVVRlSnpQNWJHT0ZoMmMtbTMzRjFjbU5mcUU5eVM5dzRxODA0OTR0aWpyRTlmN0pqWC12MTVQRms0RWc?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph",
+   "body": "AI factories are power-limited systems that deliver maximum value when fully optimized. GPU workload placement is a key optimization. Poor workload placement... AI factories are power-limited systems that deliver maximum value when fully optimized. GPU workload placement is a key optimization. Poor workload placement fragments topology domains and forces traffic across shared links, reducing throughput, raising job costs, and leaving GPUs consuming provisioned power while waiting on data without advancing the workload. GPUs exchange data continuously… Source"
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+   "link": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing/",
+   "date": "2026-09-23 02:27",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "datacenter"
+    ],
+    "korean_title": "NVIDIA Confidential Computing으로 안전한 AI 추론 구현",
+    "korean_summary": "NVIDIA가 메모리 암호화 기반 Confidential Computing으로 민감한 LLM 추론을 보호하는 기술을 제시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Enabling Private High-Performance Production AI Inference with NVIDIA Confidential Computing",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV2Y4X19JUXBocDZwcm9ST2gyc25zU29vZjhkd2dVRjhfbjRHSll3cjNUT2RxdkFwd0I4QXgxaTFzQUp3bG14TGFyejc0OW5ROWZUdnFKRlR2a3hDMldZVjJCRnh0aEdYSEpmZ1ZxS0tYaGJTczgtOUVhd1BxNFM3aEY4UHl0aGNrb2pCYUxqZG5CZjBuOHh2S05QZzB2S3Z3TnFUV3kteVRCS0N1czkzWkRucTBNQTFKYk4wQ25NSTRybVgzSmc?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/enabling-private-high-performance-production-ai-inference-with-nvidia-confidential-computing",
+   "body": "As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and regulated... As large language model (LLM) inference increasingly processes sensitive information and proprietary model context across personal, enterprise, and regulated settings, data must be processed inside a trusted environment. NVIDIA Confidential Computing (CC) provides a pathway for running these workloads securely using memory-encrypted confidential virtual machines (CVMs), confidential GPUs… Source"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "AI 데이터센터 SB에너지, 시장 우려에 상장 속도 조절",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092170681",
+   "date": "2026-09-22 22:44",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "소프트뱅크·엔비디아·OpenAI 지원 SB에너지, IPO 속도 조절",
+    "korean_summary": "SB에너지가 500억 달러 기업가치 목표의 IPO를 AI 수요 우려로 인해 연기"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092170681",
+   "body": "소프트뱅크와 엔비디아, 오픈AI 등이 지원하는 미국 데이터센터 개발업체 SB에너지가 인공지능(AI) 산업의 성장 둔화 우려로 기업공개(IPO) 일정을 늦추고 있다. 21일(현지시각) 파이낸셜타임스(FT)에 따르면 약 500억달러(약 70조원)의 기업가치를 목표로 상장을 추진하던 SB에너지는 최근 AI 연산 수요에 대한 투자자들의 우려가 커지면서 시장 분위기가 안정될 때까지 상장 절차의 속도를 조절하기로 했다.SB에너지 측은 IPO를 철회한 것은 아니며 시장 상황을 살펴 상장을 계속 추진한다는 입장이다.SB에너지는 아직 가동에 들어간"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Backed SB Energy’s $50 Billion Valuation Push. Wall Street Just Hit the Brakes",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUZUVHJWbGFFMWNJT3pmSzJIX1FURXEzYWdOVVEzV3Vwb21XOE1ZdGR6cWFWdGF6R1lWVERKdmJIbnY3M0V6NUg5ZHJBRFZYUmRaQXZldm5wdjJHbVJ0NjV4eHktal9NVzQwV2xUcU84azJyZG9TcHZWVUl3dkJVMEVPdjA5OWROWk1UNk5fYm51OE1G?oc=5",
+   "date": "2026-09-23 07:17",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA가 지원한 SB Energy의 500억 달러 평가 추진, 월스트리트의 제동",
+    "korean_summary": "NVIDIA가 후원한 SB Energy의 500억 달러 기업가치 평가가 월스트리트의 회의적 반응에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUZUVHJWbGFFMWNJT3pmSzJIX1FURXEzYWdOVVEzV3Vwb21XOE1ZdGR6cWFWdGF6R1lWVERKdmJIbnY3M0V6NUg5ZHJBRFZYUmRaQXZldm5wdjJHbVJ0NjV4eHktal9NVzQwV2xUcU84azJyZG9TcHZWVUl3dkJVMEVPdjA5OWROWk1UNk5fYm51OE1G",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "QAD | Redzone Accelerates Manufacturing Intelligence with NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY2dpWEJLT2VLeE9fQXlYUlpoUnJhalIyRzUwck5yMGZYWEJ2MGl4WmFxVVEyUERZS2I2UmZCakhhZ0FWMEd5ZVRLRjNDR0ppSXdpRjZMQjdzdl9YaHBIaExLcGpOQy1KTjZRTTFPd0wxWTBwd05pa2JhX1hmWTdiMkdkeEQ3UFBhVzhRYjBZWjBaRGQwSUt3R3JDdktiS2NuN2ZNN3NvdVVFUEViWlp0RVdTcnNGbkozR1Fj?oc=5",
+   "date": "2026-09-22 21:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "QAD Redzone, NVIDIA로 제조 인텔리전스 가속화",
+    "korean_summary": "QAD의 Redzone이 NVIDIA를 활용하여 제조 인텔리전스를 가속화하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY2dpWEJLT2VLeE9fQXlYUlpoUnJhalIyRzUwck5yMGZYWEJ2MGl4WmFxVVEyUERZS2I2UmZCakhhZ0FWMEd5ZVRLRjNDR0ppSXdpRjZMQjdzdl9YaHBIaExLcGpOQy1KTjZRTTFPd0wxWTBwd05pa2JhX1hmWTdiMkdkeEQ3UFBhVzhRYjBZWjBaRGQwSUt3R3JDdktiS2NuN2ZNN3NvdVVFUEViWlp0RVdTcnNGbkozR1Fj",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRadar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple weighs its first server since the Xserve, and as always, Nvidia may hold the key",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORlkxNGF5LW5xNVRGZy0xd2t1S1RjNEU0SFd0UVc2MkZldlRPanpzLVE1ajB5TVZSeGlpRHRReHcyUmRYcEhUYkFGWVdiMEl4VVJhemhET0FxNWlrVWhyM0F5WjRUT0VORDFxZmdVWWxYNjRDVk1qUHJFN1p0MFlZRUR2UmZxa2lVMzdVS3lQdDdORDI2WWpvWGE5X29ZT1N6M1A0bzEzVzgzWnVkMzkwWGJiZDI?oc=5",
+   "date": "2026-09-23 07:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Apple, Xserve 이후 첫 서버 개발 검토...NVIDIA 역할 중요",
+    "korean_summary": "Apple이 자체 AI 서버 개발을 검토하고 있으며 여기서 NVIDIA의 역할이 중요할 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORlkxNGF5LW5xNVRGZy0xd2t1S1RjNEU0SFd0UVc2MkZldlRPanpzLVE1ajB5TVZSeGlpRHRReHcyUmRYcEhUYkFGWVdiMEl4VVJhemhET0FxNWlrVWhyM0F5WjRUT0VORDFxZmdVWWxYNjRDVk1qUHJFN1p0MFlZRUR2UmZxa2lVMzdVS3lQdDdORDI2WWpvWGE5X29ZT1N6M1A0bzEzVzgzWnVkMzkwWGJiZDI",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Takes Aim at Nvidia’s AI Economics: New Macs Have ‘No Cost per Token,’ Hardware Chief Says",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcTVGNlJBRjdXVndHdW96MnZNd0lacmlhdmduenF3WXlORzg4OF9HLTVGMHQyM2VGTi1DTXE0X0dZWEx2bEFLaEtXQVpydFBoWlQwR2k4WVJuYnVndW1sM1ZiNS0tOFBSeXBGUVVHbmF4bGk0aUV0Vl9vVWZXWXFHQm9YS3FrWUVudlB0LXQyekd6bUw5YURTSEhDR2hId05TLWY3RWZGeTY?oc=5",
+   "date": "2026-09-23 04:32",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "Apple 신 Mac '토큰당 비용 없음' 기능으로 NVIDIA AI 경제학 도전",
+    "korean_summary": "Apple 하드웨어 담당 임원이 신 Mac의 'No Cost per Token' 성능으로 NVIDIA AI 인프라의 경제 우위에 도전했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcTVGNlJBRjdXVndHdW96MnZNd0lacmlhdmduenF3WXlORzg4OF9HLTVGMHQyM2VGTi1DTXE0X0dZWEx2bEFLaEtXQVpydFBoWlQwR2k4WVJuYnVndW1sM1ZiNS0tOFBSeXBGUVVHbmF4bGk0aUV0Vl9vVWZXWXFHQm9YS3FrWUVudlB0LXQyekd6bUw5YURTSEhDR2hId05TLWY3RWZGeTY",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities",
+   "link": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities/",
+   "date": "2026-09-22 22:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "게임 개발자용 DLSS 5 및 RTX 플랫폼 업데이트",
+    "korean_summary": "NVIDIA가 DLSS 5의 3D 가이드 신경망 렌더링, NVIDIA ACE, RTX Mega Geometry 2.0 기능을 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "What’s New for Game Developers: DLSS 5 with 3D-Guided Neural Rendering, NVIDIA ACE Updates, and New RTX Kit Capabilities | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdjBVNDRmajkzWDRUZnFEYlNvQTZNVWhwOFVUR0k5OC1lejV5OEN2dlh4eVdkT2dpbFhCQk1GZGIyVVNZTFJ5cV9qSTVxWmdZNHJFZ0dOWXZSSHVOZ2tsdTdnb3NwU3BuR1VjbHI2VEZ4Tjk1cG5Fd0ZNcTVBTk1zZVpxUm5Tb2hxVHo5d0MyWFJGNEt2SEpRMjVaS25rYVlFaE1JUng5TWFGX3JtZXNfZHZQTnRyMFZ4cHZDLVEyZGEwc1FVLWZJbm1XdFQ3U1FOTWZPYWNXOTdvNHhUVmx1WDZZUjRidw?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/whats-new-for-game-developers-dlss-5-with-3d-guided-neural-rendering-nvidia-ace-updates-and-new-rtx-kit-capabilities",
+   "body": "NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while... NVIDIA DLSS 5 introduces DLSS 3D-Guided Neural Rendering and granular controls that help game developers add lifelike lighting and material detail while preserving their artistic intent. We also look at updates to NVIDIA ACE, RTX Mega Geometry 2.0, and RTX Kit across character AI, high-density geometry, and rendering workflows. This post covers: DLSS 5 with 3D-guided… Source"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "BDx breaks ground on AI Campus 2 in Jatiluhur, Indonesia",
+   "link": "https://www.datacenterdynamics.com/en/news/bdx-breaks-ground-on-ai-campus-2-in-jatiluhur-indonesia/",
+   "date": "2026-09-23 01:33",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "BDx, 인도네시아에 640MW 규모 AI 데이터센터 캠퍼스 착공",
+    "korean_summary": "BDx가 인도네시아 자틸루후르에 640MW 규모 AI 데이터센터 캠퍼스 개발 시작, 2027년 초 120MW 첫 건물 준공"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/bdx-breaks-ground-on-ai-campus-2-in-jatiluhur-indonesia",
+   "body": "BDx Data Centers has broken ground on its AI Campus 2 (CGK4) in Jatiluhur, West Java, Indonesia. The company – a joint venture of BDx Data Centers, Indosat Ooredoo Hutchison, and Lintasarta – this week announced that work has now begun on the 640MW AI data center campus. The first 120MW building is expected to enter service in early 2027. It will be the first of six planned buildings at the site. The company said that the facility is being built with a direct-to-chip liquid-cooling architecture engineered to support up to 500kW per rack for current and future AI accelerator generations. BDx previously launched a data center campus in Jatiluhur, Indonesia, back in 2024. Construction of the data center began a few months after BDx struck a number of power agreements across Indonesia with electrical utility PT Perusahaan Listrik Negara (PLN). In total, BDx secured 1.2GW of power from the utility, the single largest power commitment secured by any data center operator in Indonesia. This campus is backed by 845MVA of grid capacity, noted the company. BDx said it expects to develop CGK4 over the next three years, with buildings commissioned sequentially to support accelerating demand for high-density AI capacity. Last year, CGK4 achieved certification under the Nvidia DGX-Ready Colocation Data Center program. The site is located approximately five kilometers from the Jatiluhur Dam. \"Indonesia is entering a new phase of digital and AI development, and CGK4 is a long-term investment in the infrastructure that phase requires. It anchors a growing AI ecosystem in West Java: scalable, high-density capacity built to bring advanced AI workloads into production faster, with a reliable path for customers as demand grows,\" said Mayank Srivastava, chief executive officer, BDx Data Centers. \"This is a practical step forward for Indonesia's digital economy. We are putting sovereign, high-density AI infrastructure in place with our national partners. It allows local enterprises, government agencies, and developers to run advanced AI workloads domestically while creating skilled jobs and long-term value in West Java,\" added Agus Hartono Wijaya, chief executive officer, BDx Indonesia. BDx was founded in 2019 and is headquartered in Singapore. It has an extensive portfolio of data centers and Edge facilities across APAC, including Singapore, Indonesia, Hong Kong, Mainland China, and Taiwan. The company is seeking to grow its portfolio across APAC to 1GW, and last year announced that it had secured funding for its first hyperscale data center project in Hong Kong. It broke ground on CGK3A in 2023. Located in the TB Simatupang area of South Jakarta, the facility is set to span 14,125 sqm (152,000 sq ft). The existing CGK3 offers 2MW across 1,200 sqm (12,915 sq ft) of white space. In July 2024, BDx completed phase one of its 500MW CGK4 campus, with the initial phase offering 70MW. According to BDx, the data center is one of the first in Indonesia to have Nvidia DGX-Ready "
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkRTODEyMWV2N1ZEVVFFVXJva2hkQ1h0NTJaSXJKTTZqZXJXV29QalFHNmtReWpQU3V4N01ramJoSFQ4QkRNZXlIMUkwYWJpV2RwV01KQXYxOXFwUFRPVzBKUThDYUttMTQ1bnBxWnpQN3NWWkszTmVBSTZaclM1Tm5raEp6SENQMVRVWE1qU2hwbzlkTTAxekhyWV9EWW1sT1hfR1U4ZmFYY1BacDU1YTlsdDE5YTZLeXNVYkJZWllULXZTaFE?oc=5",
+   "date": "2026-09-23 05:39",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "칩 분석가가 엔비디아·브로드컴의 밝은 전망 제시",
+    "korean_summary": "칩 분석가가 엔비디아와 브로드컴이 큰 성장을 이룰 것으로 전망했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkRTODEyMWV2N1ZEVVFFVXJva2hkQ1h0NTJaSXJKTTZqZXJXV29QalFHNmtReWpQU3V4N01ramJoSFQ4QkRNZXlIMUkwYWJpV2RwV01KQXYxOXFwUFRPVzBKUThDYUttMTQ1bnBxWnpQN3NWWkszTmVBSTZaclM1Tm5raEp6SENQMVRVWE1qU2hwbzlkTTAxekhyWV9EWW1sT1hfR1U4ZmFYY1BacDU1YTlsdDE5YTZLeXNVYkJZWllULXZTaFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · mobihealthnews.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA-backed Iambic Therapeutics files for IPO",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSEZpTGlwcXBOWHZSaUFWTzNKWmlMQUN3ck50U01UWmFJckx3NURhb2FGRjBFOTJSUnUzS1c4SGlLazBxeGtlbVV0Nnpvcm1KUy1rTHNOdXJpNWdRSFZzSDdmbzQ0MXpDakNTWnpkdnNBQVRmNk9aXzhyVEFMczljYmNCN2Eydw?oc=5",
+   "date": "2026-09-23 02:21",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아 후원 바이오테크 회사, IPO 신청",
+    "korean_summary": "엔비디아가 투자한 바이오테크 회사 Iambic Therapeutics가 IPO를 신청했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSEZpTGlwcXBOWHZSaUFWTzNKWmlMQUN3ck50U01UWmFJckx3NURhb2FGRjBFOTJSUnUzS1c4SGlLazBxeGtlbVV0Nnpvcm1KUy1rTHNOdXJpNWdRSFZzSDdmbzQ0MXpDakNTWnpkdnNBQVRmNk9aXzhyVEFMczljYmNCN2Eydw",
+   "body": ""
+  },
+  {
+   "source": "Google News · thestreet.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang sends bold message to Nvidia shareholders",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVl9SdnVxSW1xUUxFY2Jma2tfcnM4WUJIZlY2MV81YXFkcnY1by1rdWZkSlVnTGxadU5la1ZEdTI2bS0xdi1xa1FmMVZFTUdDSHQ0VjBPVU42SUhzamNoNWJncDMteE0zYUk0U1RsMkdlWEZmUlhROFQ4bENxalRwM2Q0ZFpUdzg?oc=5",
+   "date": "2026-09-23 04:08",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang, NVIDIA 주주들에게 강한 메시지 전달",
+    "korean_summary": "Jensen Huang이 NVIDIA 주주들을 상대로 회사의 미래 방향에 대한 의지를 강하게 표현했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVl9SdnVxSW1xUUxFY2Jma2tfcnM4WUJIZlY2MV81YXFkcnY1by1rdWZkSlVnTGxadU5la1ZEdTI2bS0xdi1xa1FmMVZFTUdDSHQ0VjBPVU42SUhzamNoNWJncDMteE0zYUk0U1RsMkdlWEZmUlhROFQ4bENxalRwM2Q0ZFpUdzg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Alibaba Unveils AI Chip to Compete With Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTldOaU9HRjVRWjY3SHcyRnRlaURrVkt1eEV0MUN4YXI1M3BOZXNadFl2Sm14WlBHNldzeERUUW4zWVRaSFR0Vk9QM0RkNGE5cE10ZzBtVld5alMxQ0kwVHdIZ3BiaUphRzdQWXYzRFoxNnJiVG9Va2JlQVgwQXhKRUsxa213YTl0VV9yRE1fZGtYUmNnbG5lampSZ1BSRk5qdWZGcURNcHF6eTFCTmFUb2t4SU45MXRMbE1iSi1R?oc=5",
+   "date": "2026-09-22 23:05",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "알리바바, NVIDIA와 경쟁하는 AI칩 공개",
+    "korean_summary": "알리바바가 NVIDIA와 경쟁을 겨냥한 자체 개발 AI칩을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTldOaU9HRjVRWjY3SHcyRnRlaURrVkt1eEV0MUN4YXI1M3BOZXNadFl2Sm14WlBHNldzeERUUW4zWVRaSFR0Vk9QM0RkNGE5cE10ZzBtVld5alMxQ0kwVHdIZ3BiaUphRzdQWXYzRFoxNnJiVG9Va2JlQVgwQXhKRUsxa213YTl0VV9yRE1fZGtYUmNnbG5lampSZ1BSRk5qdWZGcURNcHF6eTFCTmFUb2t4SU45MXRMbE1iSi1R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Endpoints News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed Iambic files for IPO, disclosing new clinic and dealmaking details",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTDB2Rnl5VU05YmpnOUQ4SXRPM3RCUHdVaml1UTctdjhGS0w3MHdJX1lMempyYmNVUl9NNW5HemZoNDlzWE5wbjlaVEFHSDl1a0I0dnRNeFRzQzREM1FDZWhPSjJBWU5ZVThxRmFVMnRLYUJYX3F5cHVkOEtIVXNWakRmYnpISS1EQ1E?oc=5",
+   "date": "2026-09-22 23:37",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 투자사 Iambic, IPO 신청서에 신규 임상·거래 상세 공개",
+    "korean_summary": "NVIDIA가 지원하는 회사 Iambic이 기업공개를 신청하면서 새로운 임상 정보와 거래 내역을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTDB2Rnl5VU05YmpnOUQ4SXRPM3RCUHdVaml1UTctdjhGS0w3MHdJX1lMempyYmNVUl9NNW5HemZoNDlzWE5wbjlaVEFHSDl1a0I0dnRNeFRzQzREM1FDZWhPSjJBWU5ZVThxRmFVMnRLYUJYX3F5cHVkOEtIVXNWakRmYnpISS1EQ1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · thelec.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LG Chairman Koo Kwang-mo Expands AI Partnerships With Microsoft, Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CTDVNNFRiQ0JTUnU3NGN5MEZqTmJ6SGhYb3hkeENCYTEyUDNudHZPN25adEpINnNwVEtiWE1jUjNwU01pRHhQOVp2SmUyNjh0bzVOeXR1WTZGdDlmczVxMmVmSmpId0k?oc=5",
+   "date": "2026-09-23 07:44",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LG 구광모 회장, Microsoft·NVIDIA와 AI 파트너십 확대",
+    "korean_summary": "LG가 Microsoft, NVIDIA와의 AI 파트너십을 확대한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CTDVNNFRiQ0JTUnU3NGN5MEZqTmJ6SGhYb3hkeENCYTEyUDNudHZPN25adEpINnNwVEtiWE1jUjNwU01pRHhQOVp2SmUyNjh0bzVOeXR1WTZGdDlmczVxMmVmSmpId0k",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Micron reportedly ends production of 2GB GDDR7 used by GeForce RTX 50",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wnbzrp/micron_reportedly_ends_production_of_2gb_gddr7/",
+   "date": "2026-09-23 00:04",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Micron, GeForce RTX 50 탑재 2GB GDDR7 생산 중단",
+    "korean_summary": "Micron이 GeForce RTX 50 시리즈용 2GB GDDR7 메모리 생산을 중단한 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wnbzrp/micron_reportedly_ends_production_of_2gb_gddr7",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · Fast Company",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang: 'Irresponsible' AI leaders are scaring people for 'ulterior reasons'",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUt1eXluazN1Wnl3WWFrTzNSZ1pFbGNneVlGSnJlUGMzWjJhMmdDZG1TZFllTHU4bExIQ1RqcHV3MGhWMXhzUXFpemZueTBZS0FLdG5aTHFMNjZYTFA1RFRoY05naE1Yc3JHbnpVQlZ3ZUhZa2RIS3pIbEhDRFJIX3JhWkItREFQUlctRU9XUnhmaWtWa0NvUTNvUmtnUkVLUDdCM0R4aW9wbEZZNmdIOW5aQlBaS2MyaFBuOUkyWEJmRUk?oc=5",
+   "date": "2026-09-23 03:03",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang CEO, '무책임한' AI 리더들 비판",
+    "korean_summary": "Jensen Huang이 AI 업계의 책임감 부족을 지적하는 발언을 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQUt1eXluazN1Wnl3WWFrTzNSZ1pFbGNneVlGSnJlUGMzWjJhMmdDZG1TZFllTHU4bExIQ1RqcHV3MGhWMXhzUXFpemZueTBZS0FLdG5aTHFMNjZYTFA1RFRoY05naE1Yc3JHbnpVQlZ3ZUhZa2RIS3pIbEhDRFJIX3JhWkItREFQUlctRU9XUnhmaWtWa0NvUTNvUmtnUkVLUDdCM0R4aW9wbEZZNmdIOW5aQlBaS2MyaFBuOUkyWEJmRUk",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Here are Tuesday's biggest analyst calls: Nvidia, Netflix, Broadcom, SanDisk, Meta, CoreWeave & more",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsWGU1NEhCZ2VJb3hUUTJQR1dGWFBJZ0VodlhCU0luQ09tNHNOcXFGVkFRTmdZRXBRXzZxVHI0OXBCYk8wNXh0X3c1LWxDMzZOWEg0YWZEd28zbTgtcW5wcnZGeThFWlF3Ym9VUmNjV2VnbjhPZDlrOVd1NHA1UmM?oc=5",
+   "date": "2026-09-22 21:03",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "화요일 애널리스트 주요 평가: NVIDIA 등 다수 기업",
+    "korean_summary": "애널리스트들이 NVIDIA를 포함한 주요 기업들의 투자 평가를 내놓았다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsWGU1NEhCZ2VJb3hUUTJQR1dGWFBJZ0VodlhCU0luQ09tNHNOcXFGVkFRTmdZRXBRXzZxVHI0OXBCYk8wNXh0X3c1LWxDMzZOWEg0YWZEd28zbTgtcW5wcnZGeThFWlF3Ym9VUmNjV2VnbjhPZDlrOVd1NHA1UmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · AOL.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AMD Stock Beat Nvidia By 160 Points In 2026: A Historic AI Boom First",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9abzlndndTUGRtT1Z1SmtfejE1QjVIX083WG1zLWdBVGpRdVpWLVJGai1Ea1doQ3VlVjNOZHZjU3VKU2FrQUdaN2l4VmRpMW5LZDlRSjBCejhvMXZHbXo1LWs2X1dEVnRMbThCWVFlUW1lRmROV0ljVg?oc=5",
+   "date": "2026-09-23 02:45",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "2026년 AMD 주가, NVIDIA를 160포인트 상회하며 역사적 이변",
+    "korean_summary": "AI 호황 속 AMD 주가가 NVIDIA를 크게 앞지르는 사상 첫 현상이 나타났다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9abzlndndTUGRtT1Z1SmtfejE1QjVIX083WG1zLWdBVGpRdVpWLVJGai1Ea1doQ3VlVjNOZHZjU3VKU2FrQUdaN2l4VmRpMW5LZDlRSjBCejhvMXZHbXo1LWs2X1dEVnRMbThCWVFlUW1lRmROV0ljVg",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+   "date": "2026-09-23 06:49",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron VoiceChat 11B 모델 업그레이드",
+    "korean_summary": "NVIDIA가 실시간 음성 양방향 통신과 라이브 도구 호출 기능을 갖춘 NemotronLabs VoiceChat 11B를 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-NemotronLabs-VoiceChat-11B:2026-09-23",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: 미기재 · tags: safetensors, en, arxiv:2410.17196, arxiv:2503.04721, arxiv:2604.04847, arxiv:2609.21967, arxiv:2505.15670, arxiv:2507.08128, base_model:nvidia/NVIDIA-Nemotron-Nano-9B-v2, base_model:finetune:nvidia/NVIDIA-Nemotron-Nano-9B-v2 · downloads 3475 · likes 492. README:  # NVIDIA NemotronLabs VoiceChat 11B ▶ **Hear it first.** Natural turn-taking, barge-in and live tool calling. | Sample | What to listen for | Player | |---|---|---| | Natural turn-taking | Smooth back-and-forth, ~450 ms response | | | Barge-in / interruption | User cuts in; model yields instantly | | | Tool calling live | Tools are called when needed | | ▶ **Code:** On [Github](https://github.com/NVIDIA-NeMo/Speech/tree/nemotron-labs-voicechat) # Model Overview ## Description: NVIDIA NemotronLabs VoiceChat is a **11B end-to-end, real-time speech full duplex (FD)** model for conversational AI that jointly performs streaming speech understanding and speech generation [1, 2, 3]. Unlike traditional cascaded stacks (ASR → LLM → TTS), this model achieves full duplex, real-time, seamless voice interaction in one unified architecture, eliminating the need for multiple models or API handoffs, thus reducing end-to-end latency. It sets new benchmarks by bringing open, robust, and highly natural conversation capabilities. Moreover, NVIDIA NemotronLabs VoiceChat is **the first open full-duplex model to support tool calling** while maintaining a natural conversation flow during tool execution. For each tool, a specific “on-hold” message can be defined that will be spoken by the agent as soon as the LLM generates the text that will trigger the tool call and response. The model operates on audio signals, which are encoded using a fast conformer module. The resulting audio tokens are inputte"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/TensorRT TensorRT 11.3 Release",
+   "link": "https://github.com/NVIDIA/TensorRT/releases/tag/v11.3",
+   "date": "2026-09-23 04:39",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/TensorRT",
+    "version": "v11.3"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "TensorRT 11.3 유지보수 업데이트",
+    "korean_summary": "NVIDIA가 CUDA 13.4 업데이트 및 Polygraphy 도구 최적화를 포함한 TensorRT 11.3을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/TensorRT:v11.3",
+   "body": "For more information, see the 11.3 release notes : General Updated default CUDA version to 13.4 Demos Removed demoDiffusion. Parsers Refactored how external weights are handled in IParserRefitter Samples Removed the detectron2 python sample Tools Bumped Polygraphy version to v0.53.6"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 18,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 76.0
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 18,
+   "enriched": 18,
+   "error": "",
+   "sec": 5.7
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 24,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 14,
+   "error": "",
+   "sec": 5.2
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 24.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 20,
+   "error": "",
+   "sec": 5.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 38,
+   "enriched": 36,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 17,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
