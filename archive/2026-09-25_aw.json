@@ -1,0 +1,759 @@
+{
+ "subject": "autoware",
+ "date": "2026-09-25",
+ "window": [
+  "2026-09-24",
+  "2026-09-25"
+ ],
+ "generated": "2026-09-25T09:04:27+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 Autoware 기반 레이싱카트 자율주행 **레퍼런스 디자인**을 GitHub에 공개해 개발자 접근성을 높였다.",
+  "TIER IV의 공개 자료가 일본자동차기술회 주최 '자동운전 AI 챌린지'(2026년 7~9월)의 **공통 개발·평가 기반**으로 채택됐다.",
+  "약 240팀·600명 규모의 대회 참가자들이 동일한 **오픈소스 표준**을 기반으로 자율주행 기술을 경쟁하게 됐다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開",
+   "link": "https://prtimes.jp/main/html/rd/p/000000136.000040119.html",
+   "date": "2026-09-24 15:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Simulation-Tools",
+    "is_focus": false,
+    "signal_tags": [
+     "community",
+     "simulation"
+    ],
+    "korean_title": "TIER IV, 레이싱카트 자동운전 시스템 레퍼런스 디자인 공개",
+    "korean_summary": "TIER IV가 Autoware 기반 레이싱카트 자동운전 시스템의 레퍼런스 디자인과 개발·평가 환경을 공개하며 자동운전 AI 챌린지 참가자 240팀을 지원했다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 레이싱카트용 자율주행 시스템 레퍼런스 디자인을 GitHub에 공개",
+    "korean_summary": "TIER IV가 Autoware 기반 레이싱카트 자율주행 레퍼런스 디자인을 GitHub에 공개해 일본자동차기술회 주최 '자동운전 AI 챌린지'(2026년 7~9월, 240팀·약 600명)의 공통 개발·평가 기반으로 제공했다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "레이싱카트용 Autoware 기반 자율주행 소프트웨어·시뮬레이터·설계정보를 GitHub 공개 리포지토리에 공개하고, 실차·평가 환경과 결합해 대회 참가자에게 공통 개발 기반으로 제공",
+     "stage": "Available",
+     "timeline": "대회는 2026년 7월~9월 개최, 결승은 2026년 9월 19~20일",
+     "scope": "일본자동차기술회 주최 '自動運転AIチャレンジ' 참가자 240팀·약 600명, 소프트웨어·설계정보는 GitHub 통해 전 세계 공개"
+    },
+    "key_facts": [
+     "**Autoware 기반**의 레이싱카트용 자율주행 소프트웨어·시뮬레이터·설계정보를 GitHub 공개 리포지토리에 공개",
+     "공익사단법인 자동차기술회 주최 '自動運転AIチャレンジ' 2026년 7월~9월 개최, 결승 9월 19~20일",
+     "**240팀, 약 600명**의 참가자가 본 레퍼런스 디자인을 공통 기반으로 활용",
+     "차량·하드웨어 구성: TOM'S EV 레이싱카트, GNSS, IMU, 차량 탑재 컴퓨터",
+     "소프트웨어·시뮬레이터·설계정보는 GitHub 공개, 실차 및 대회용 온라인 평가 환경은 공개 자산과 결합해 별도 제공"
+    ],
+    "why_matters": "TIER IV는 완성차·상용 서비스 영역뿐 아니라 **교육·인재육성 단계에서부터 Autoware를 표준 개발 기반으로 심는 전략**을 통해 생태계 저변을 넓히고 있다. 레이싱카트라는 축소 플랫폼을 활용해 진입장벽을 낮춤으로써 향후 자율주행 산업 인재 풀과 Autoware 채택 저변을 동시에 확보하는 효과를 노린다.",
+    "subject_angle": "이번 사례는 TIER IV가 표방하는 '자동운전의 민주화' 비전을 **오픈소스 레퍼런스 디자인 배포 방식으로 구체화**한 것으로, Autoware Foundation 생태계 확장 전략의 교육·커뮤니티 축을 보여준다.",
+    "focus_angle": "상용화 관점에서는 완성차·로보택시가 아닌 **교육·경진대회 영역에서의 실증(레퍼런스 디자인 배포)** 단계이며, 고객 범위는 기업·연구기관이 아닌 학생~사회인 개발자 커뮤니티(240팀·600명, 일본 국내 대회이나 GitHub 공개로 글로벌 접근 가능)로 한정된다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "레퍼런스 디자인 구축 및 GitHub 공개 주체"
+     },
+     {
+      "name": "自動車技術会 (JSAE)",
+      "context": "'自動運転AIチャレンジ' 대회 주최"
+     },
+     {
+      "name": "TOM'S",
+      "context": "대회에 사용된 EV 레이싱카트 하드웨어 공급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "레퍼런스 디자인의 기반 오픈소스 자율주행 소프트웨어 플랫폼"
+     },
+     {
+      "name": "레이싱카트용 자율주행 레퍼런스 디자인",
+      "role": "소프트웨어·시뮬레이터·설계정보 일체로 GitHub 공개된 공통 개발·평가 기반"
+     }
+    ],
+    "watch_next": [
+     "레퍼런스 디자인이 향후 다른 차종·대회로 확장되는지 여부",
+     "GitHub 공개 리포지토리를 활용한 외부 기업·연구기관 채택 사례",
+     "'자동운전 AI 챌린지' 참가자 중 TIER IV 채용·파트너십 연계 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "レスポンス (response.jp)",
+     "title": "ティアフォー、レーシングカート向け自動運転リファレンスデザインをGitHub公開",
+     "link": "https://response.jp/article/2026/09/25/416963.html"
+    },
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wOWJ6bmtOWHdOYUJ2NFZLZm54dm8xa2hLTFdrelpuSlpmUFkxTEpTenlLcTl0Z3lnTG8yZWtnZkU1bTF0ZmFDSGg0VTJ1cHhGbE5XSGhZOXR0LTl3WXM1elJWX0ZvcDRiM1E?oc=5"
+    },
+    {
+     "source": "Google News · s.response.jp",
+     "title": "ティアフォー、レーシングカート向け自動運転リファレンスデザインをGitHub公開",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3RC1yZG5LcnpzUTFJdlVSOVkybVNkQ0RyVzJRVHVhZnZuc21qWTRlbjNrNHl5RTc3T2VMNkw5cS1oVkNkZC1BN0FvOHJCeEZWVmI4UmQwSUxDQVJwRnFWTUVn?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開 (2026年9月24日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mLTc1amt0RzZBQk52dlBSbXI3MWNjbFBzVXNfN05MeE9HRENBNmpFTXZiR2lwMk5aRFJNRXlENjdXSmU5cElEY0ZRejNrSmxVamc2Y1dzVE11cEN4RExjdnFB?oc=5"
+    },
+    {
+     "source": "Google News · s.response.jp",
+     "title": "ティアフォー、レーシングカート向け自動運転リファレンスデザインをGitHub公開",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3RC1yZG5LcnpzUTFJdlVSOVkybVNkQ0RyVzJRVHVhZnZuc21qWTRlbjNrNHl5RTc3T2VMNkw5cS1oVkNkZC1BN0FvOHJCeEZWVmI4UmQwSUxDQVJwRnFWTUVn?oc=5"
+    },
+    {
+     "source": "Google News · ニコニコニュース",
+     "title": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MZ05kdW05N01PaGJZcXBaLS01Vm96YjZOUi01OVlNemh0NW84MGJiclFzWDg2MXVjYzBDQzFrYXdBQ1BVUWNpeW1ENF9UeW1vQnFfcQ?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開 (2026年9月24日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5mLTc1amt0RzZBQk52dlBSbXI3MWNjbFBzVXNfN05MeE9HRENBNmpFTXZiR2lwMk5aRFJNRXlENjdXSmU5cElEY0ZRejNrSmxVamc2Y1dzVE11cEN4RExjdnFB?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000136.000040119.html",
+   "body": "ティアフォー、レーシングカート向け自動運転システムのリファレンスデザインを公開 自動運転AIチャレンジ参加者に開発・評価環境を提供 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 執行役員 CEO：加藤 真平、以下ティアフォー）は、レーシングカート向け自動運転システムのリファレンスデザインを構築し、そのソフトウェアや設計情報をGitHubの公開リポジトリ上で公開しました。本リファレンスデザインは、自動運転用オープンソースソフトウェア「Autoware」を基盤とし、シミュレーションから実車までの開発・評価を支える環境と併せて提供されます。公益社団法人自動車技術会が主催する「自動運転AIチャレンジ」が2026年7月から9月にかけて開催され、予選と決勝を通して240チーム、約600人の参加者が本リファレンスデザインを共通基盤として活用しました。この取り組みを通じてティアフォーは、オープンな技術開発と次世代人材の育成を支援します。 自動運転システムの開発には、車両、センサー、車載コンピューター、ソフトウェアなど、さまざまな要素を組み合わせ、実際に走行できるシステムへと統合する作業が必要です。さらに、開発した技術を評価するためには、シミュレーション環境や実車両での試験環境も欠かせません。こうした開発・評価環境を一から構築することは、新たに自動運転分野に参入する開発者にとって大きな負担となり、技術開発や人材育成の障壁の一つとなっています。 「自動運転AIチャレンジ」は、学生から社会人まで、さまざまな技術レベルの開発者に自動運転技術の開発機会を提供する競技大会です。参加者が自動運転ソフトウェアの開発を実践的に学び、技術を競い合うことを通じて、人材育成と自動運転分野への参入促進を目指しています。2026年9月19日と20日に開催された決勝では、レーシングカートを対象に、シミュレーションや実車両を用いた競技が行われました。 ティアフォーは、開発者が共通の出発点として利用し、目的に応じて改良・拡張できるよう、レーシングカート向け自動運転システムのリファレンスデザインを構築しました。本リファレンスデザインは「Autoware」を基盤とし、自動運転ソフトウェアやシミュレーター、その他の設計情報をGitHub上で公開しています。これらに実車両や開発・評価環境を組み合わせて提供することで、参加者はシステム全体を一から構築することなく、自動運転アルゴリズムやAIモデルの開発・改良に取り組むことができます。 本リファレンスデザインと、それを活用するための開発・評価環境は、主に以下の要素で構成されています。 - 車両・ハードウェア構成：トムスのEVレーシングカート、全球測位衛星システム（Global Navigation Satellite System：GNSS）、慣性計測ユニット（Inertial Measurement Unit：IMU）、車載コンピューター - 自動運転ソフトウェア：「Autoware」を基盤としたレーシングカート向けオープンソースソフトウェア - シミュレーション環境：レーシングカートの走行を再現するシミュレーターと、開発したソフトウェアをオンラインで評価する環境 - 開発・評価ツール：ソフトウェアの導入、実行、走行結果の確認などを支援するウェブプラットフォーム このうち、自動運転ソフトウェア、シミュレーター、設計情報はGitHubの公開リポジトリから利用できます。実車両や大会向けのオンライン評価環境などは、これらの公開資産と組み合わせて提供されました。 本大会では、240チーム、約600人の参加者が共通の技術基盤を活用し、それぞれの発想や技術力を生かして自動運転システムの開発・改良に取り組みました。参加者がシステム全体の構築に要する負担を抑えながら、多様なアプローチを試みられる環境を提供したことは、オープンな技術開発と人材育成に向けた実践的な取り組みとなりました。 ティアフォーは「自動運転の民主化」の実現を目指し、「Autoware」を中心としたオープンソースのエコシステムを世界各地に広げています。今後もオープンソースを通じた自動運転システムのリファレンスデザインの拡充や開発・評価環境の整備を進め、企業、研究機関、教育機関などのパートナーと共創しながら、自動運転の社会実装を支えるエコシステムの拡大を目指します。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ pr@tier4.jp ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像 - 種類 - 商品サービス - ビジネスカテゴリ - 自動車・カー用品システム・Webサイト・アプリ開発 - ダウンロード - プレスリリース素材このプレスリリース内で使われている画像ファイルがダウンロードできます"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV releases reference design for autonomous racing kart system, providing development and evaluation environment for autonomous driving competition",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUF4cjVkSHNxTzY1Sy1iSmlOT0FsZ2FmdnRWN0FHNkVDQ25Yem40ZWFrNG90Nml2cTJaVHJ1eEh6RE9sMlZYRXdGWnM4bHBMdHdYaDc0UDlNX0FWUXVEMnkwN1dMd0pxbElVbzVieDRGTkNRdmNVZ193T2ZkZlphYmtFejBZclgtQ3pKY0hyQUQxT2EzWG8tb3B1S0hfMEZEY3daejJISGRuN2ZJelFN0gGvAUFVX3lxTE4tQXhyNWRIc3FPNjVLLWJKaU5PQWxnYWZ2dFY3QUc2RUNDblh6bjRlYWs0b3Q2aXZxMlpUcnV4SHpET2wyVlhFd0ZaczhscEx0d1hoNzRQOU1fQVZRdUQyeTA3V0x3SnFsSVVvNWJ4NEZOQ1F2Y1VnX3dPZmRmWmFia0V6MFlyWC1DekpjSHJBRDFPYTNYby1vcHVLSF8wRkRjd1p6MkhIZG43Zkl6UU0?oc=5",
+   "date": "2026-09-24 06:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "TIER IV 레이싱카트 자동운전 시스템 레퍼런스 디자인 공개 보도",
+    "korean_summary": "TIER IV의 레이싱카트 자동운전 시스템 레퍼런스 디자인 공개 소식이 언론에 보도되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV releases reference design for autonomous racing kart system, providing development and evaluation environment for autonomous driving competition",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUF4cjVkSHNxTzY1Sy1iSmlOT0FsZ2FmdnRWN0FHNkVDQ25Yem40ZWFrNG90Nml2cTJaVHJ1eEh6RE9sMlZYRXdGWnM4bHBMdHdYaDc0UDlNX0FWUXVEMnkwN1dMd0pxbElVbzVieDRGTkNRdmNVZ193T2ZkZlphYmtFejBZclgtQ3pKY0hyQUQxT2EzWG8tb3B1S0hfMEZEY3daejJISGRuN2ZJelFN0gGvAUFVX3lxTE4tQXhyNWRIc3FPNjVLLWJKaU5PQWxnYWZ2dFY3QUc2RUNDblh6bjRlYWs0b3Q2aXZxMlpUcnV4SHpET2wyVlhFd0ZaczhscEx0d1hoNzRQOU1fQVZRdUQyeTA3V0x3SnFsSVVvNWJ4NEZOQ1F2Y1VnX3dPZmRmWmFia0V6MFlyWC1DekpjSHJBRDFPYTNYby1vcHVLSF8wRkRjd1p6MkhIZG43Zkl6UU0?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV releases reference design for autonomous racing kart system, providing development and evaluation environment for autonomous driving competition",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVGROU1dKcnhnTVE3RUNTTTNlWnkyVV9lWEdpbUpLUmFObF94cjBzZWRZOHJHbzQyRGxJQ3JQZVMtX0lfUUdiLUhHNWRObzM2R0VtcE9vd1VWakNYakRRbmlySkRCeFp4WXpOYW1nZHR1V0J3Ql8xWDlOZk01LWxoSTZJSmhlUWZEVGFGd1FCaU9nc2FPd0JHVVQ2cG5OM03SAa8BQVVfeXFMTi1BeHI1ZEhzcU82NUstYkppTk9BbGdhZnZ0VjdBRzZFQ0NuWHpuNGVhazRvdDZpdnEyWlRydXhIekRPbDJWWEV3RlpzOGxwTHR3WGg3NFA5TV9BVlF1RDJ5MDdXTHdKcWxJVW81Yng0Rk5DUXZjVWdfd09mZGZaYWJrRXowWXJYLUN6SmNIckFEMU9hM1hvLW9wdUtIXzBGRGN3WnoySEhkbjdmSXpRTQ?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV releases reference design for autonomous racing kart system, providing development and evaluation environment for autonomous driving competition",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVGROU1dKcnhnTVE3RUNTTTNlWnkyVV9lWEdpbUpLUmFObF94cjBzZWRZOHJHbzQyRGxJQ3JQZVMtX0lfUUdiLUhHNWRObzM2R0VtcE9vd1VWakNYakRRbmlySkRCeFp4WXpOYW1nZHR1V0J3Ql8xWDlOZk01LWxoSTZJSmhlUWZEVGFGd1FCaU9nc2FPd0JHVVQ2cG5OM03SAa8BQVVfeXFMTi1BeHI1ZEhzcU82NUstYkppTk9BbGdhZnZ0VjdBRzZFQ0NuWHpuNGVhazRvdDZpdnEyWlRydXhIekRPbDJWWEV3RlpzOGxwTHR3WGg3NFA5TV9BVlF1RDJ5MDdXTHdKcWxJVW81Yng0Rk5DUXZjVWdfd09mZGZaYWJrRXowWXJYLUN6SmNIckFEMU9hM1hvLW9wdUtIXzBGRGN3WnoySEhkbjdmSXpRTQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUF4cjVkSHNxTzY1Sy1iSmlOT0FsZ2FmdnRWN0FHNkVDQ25Yem40ZWFrNG90Nml2cTJaVHJ1eEh6RE9sMlZYRXdGWnM4bHBMdHdYaDc0UDlNX0FWUXVEMnkwN1dMd0pxbElVbzVieDRGTkNRdmNVZ193T2ZkZlphYmtFejBZclgtQ3pKY0hyQUQxT2EzWG8tb3B1S0hfMEZEY3daejJISGRuN2ZJelFN0gGvAUFVX3lxTE4tQXhyNWRIc3FPNjVLLWJKaU5PQWxnYWZ2dFY3QUc2RUNDblh6bjRlYWs0b3Q2aXZxMlpUcnV4SHpET2wyVlhFd0ZaczhscEx0d1hoNzRQOU1fQVZRdUQyeTA3V0x3SnFsSVVvNWJ4NEZOQ1F2Y1VnX3dPZmRmWmFia0V6MFlyWC1DekpjSHJBRDFPYTNYby1vcHVLSF8wRkRjd1p6MkhIZG43Zkl6UU0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "レーティング情報（投資判断変更・その２）＝太陽誘電、ティアフォーなど(ウエルスアドバイザー)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSF83c2oxZ2hFNlFFVnFpdHBYUEZ2X1FGOE5zWE5fU1JsWEs0NUZESkg3Z3VxWTZEd2taa0doOGxHOGkxcUlLQk5yZVBzR0ZmSUNlRlg1SWo0MFhCRHExUmM2d2JGWlZiNGpYbV9tdXZtUjA0dFdmWVRXRW9IeUhCNmRIQUlwT1U?oc=5",
+   "date": "2026-09-24 09:56",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "금융기관의 TIER IV 투자 판단 변경",
+    "korean_summary": "웨르스어드바이저가 TIER IV를 포함한 기업들의 투자 판단을 변경했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "レーティング情報（投資判断変更・その２）＝太陽誘電、ティアフォーなど(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSF83c2oxZ2hFNlFFVnFpdHBYUEZ2X1FGOE5zWE5fU1JsWEs0NUZESkg3Z3VxWTZEd2taa0doOGxHOGkxcUlLQk5yZVBzR0ZmSUNlRlg1SWo0MFhCRHExUmM2d2JGWlZiNGpYbV9tdXZtUjA0dFdmWVRXRW9IeUhCNmRIQUlwT1U?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSF83c2oxZ2hFNlFFVnFpdHBYUEZ2X1FGOE5zWE5fU1JsWEs0NUZESkg3Z3VxWTZEd2taa0doOGxHOGkxcUlLQk5yZVBzR0ZmSUNlRlg1SWo0MFhCRHExUmM2d2JGWlZiNGpYbV9tdXZtUjA0dFdmWVRXRW9IeUhCNmRIQUlwT1U",
+   "body": ""
+  },
+  {
+   "source": "Google News · kabushiki.jp",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、信用取引での増し担保措置解除 速報",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBQX3VMc2dFVktxdUtPLVVGbmIwNk9qeElNUlFZTHpad1ExM0c3Q05Hd284YW9hendIWlRBUjBsY044cXlUQWRB?oc=5",
+   "date": "2026-09-25 08:40",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 신용거래 담보 요건 해제",
+    "korean_summary": "TIER IV가 신용거래에서 담보 요건을 해제받았다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · kabushiki.jp",
+     "title": "ティアフォー、信用取引での増し担保措置解除 速報",
+     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBQX3VMc2dFVktxdUtPLVVGbmIwNk9qeElNUlFZTHpad1ExM0c3Q05Hd284YW9hendIWlRBUjBsY044cXlUQWRB?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー、信用取引での増し担保措置解除(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2ZLNkpxTGgzVWQzNDJlbW5ydHpmbWk5azA3MWp1Yl85RTFGTUE1bGJrOFRZZEozU19oQTd2TDRLWHVsM3ZjV0p4TXROak5NYzB3NFBWWWdVbDZ6ei01OTNMM1lsMEFxM09kQmJnYTJ1ZnVoYWhUWVRhUTIxbG1HUGZ3Uy00OEk?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー、信用取引での増し担保措置解除(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2ZLNkpxTGgzVWQzNDJlbW5ydHpmbWk5azA3MWp1Yl85RTFGTUE1bGJrOFRZZEozU19oQTd2TDRLWHVsM3ZjV0p4TXROak5NYzB3NFBWWWdVbDZ6ei01OTNMM1lsMEFxM09kQmJnYTJ1ZnVoYWhUWVRhUTIxbG1HUGZ3Uy00OEk?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBQX3VMc2dFVktxdUtPLVVGbmIwNk9qeElNUlFZTHpad1ExM0c3Q05Hd284YW9hendIWlRBUjBsY044cXlUQWRB",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーは大幅高、国内証券が新規カバレッジ開始",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92RmV2b3h2MHV0SHQ2QjlFSVl4WFlQcHRXbzFlZDNZbGFkN0hweEJoTDlZLWlwRk1vRmVKTXl1dTFZRlpOMFN5R1dTMlpJOEVUVU9FWEdzRERDODJHcFI0YQ?oc=5",
+   "date": "2026-09-24 12:57",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 주가 상승, 국내 증권사 신규 커버리지 시작",
+    "korean_summary": "TIER IV의 주가가 크게 상승했으며 국내 증권사가 신규 분석 커버리지를 시작했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "ティアフォーは大幅高、国内証券が新規カバレッジ開始",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92RmV2b3h2MHV0SHQ2QjlFSVl4WFlQcHRXbzFlZDNZbGFkN0hweEJoTDlZLWlwRk1vRmVKTXl1dTFZRlpOMFN5R1dTMlpJOEVUVU9FWEdzRERDODJHcFI0YQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE92RmV2b3h2MHV0SHQ2QjlFSVl4WFlQcHRXbzFlZDNZbGFkN0hweEJoTDlZLWlwRk1vRmVKTXl1dTFZRlpOMFN5R1dTMlpJOEVUVU9FWEdzRERDODJHcFI0YQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【IPO 10分解説】ティアフォー（593A）驚愕の半値上場 Pain In The Arsenal (4RuXHgt0vt)",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96amowdjZTR08wNzhOemt6VVZqMksxdC1TY01nb3ZXaGZMbkU1WjliTURndlpfN09uNXIzUFVtT3pPWHRybWJLWFMtX1AxZU9kamdVZXpNcldfeGxycGFoZVBTY2pkdw?oc=5",
+   "date": "2026-09-24 18:41",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV IPO 절반 가격 상장 분석",
+    "korean_summary": "TIER IV의 IPO 절반 가격 상장 현상에 대한 투자 분석 기사이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【IPO 10分解説】ティアフォー（593A）驚愕の半値上場 Pain In The Arsenal (4RuXHgt0vt)",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96amowdjZTR08wNzhOemt6VVZqMksxdC1TY01nb3ZXaGZMbkU1WjliTURndlpfN09uNXIzUFVtT3pPWHRybWJLWFMtX1AxZU9kamdVZXpNcldfeGxycGFoZVBTY2pkdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96amowdjZTR08wNzhOemt6VVZqMksxdC1TY01nb3ZXaGZMbkU1WjliTURndlpfN09uNXIzUFVtT3pPWHRybWJLWFMtX1AxZU9kamdVZXpNcldfeGxycGFoZVBTY2pkdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · kabushiki.jp",
+   "category": "media",
+   "kind": "gnews",
+   "title": "レーティング変更観測＞新規・ティアフォー／Ｊマテリアル格上げ、太陽誘電格下げなど 速報",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZbEVnTzdzM2djZ0ptTHY5THg1QURYdlM3S1lQZDc0VnBsMEJ6ejdzWlp2Zm1jcEFoU3RIMjZZUmE4TjhEcHI4?oc=5",
+   "date": "2026-09-24 08:53",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "증권사 TIER IV 신규 커버리지 및 레이팅 변동",
+    "korean_summary": "증권사들이 TIER IV에 대한 신규 커버리지를 시작하고 투자 레이팅을 변경했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "レーティング変更観測＞新規・ティアフォー／Ｊマテリアル格上げ、太陽誘電格下げなど(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMTRTRE0za3p3VWFwMEo2YXNXaVJFY01fRld4SU9CaVgyREsybDllZ1UtX01aUk1DWnNScVFfTWdTaTloSVJIeFI5dGo4NlRFc205ZUt3d3BaMWs1U0dia1RBWWlDTWxwVEZUXzJRWUFTMUU5MndURjFKRGxrWjlkQUJ2MlA2QlE?oc=5"
+    },
+    {
+     "source": "Google News · kabushiki.jp",
+     "title": "レーティング変更観測＞新規・ティアフォー／Ｊマテリアル格上げ、太陽誘電格下げなど 速報",
+     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZbEVnTzdzM2djZ0ptTHY5THg1QURYdlM3S1lQZDc0VnBsMEJ6ejdzWlp2Zm1jcEFoU3RIMjZZUmE4TjhEcHI4?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "レーティング変更観測＞新規・ティアフォー／Ｊマテリアル格上げ、太陽誘電格下げなど(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMTRTRE0za3p3VWFwMEo2YXNXaVJFY01fRld4SU9CaVgyREsybDllZ1UtX01aUk1DWnNScVFfTWdTaTloSVJIeFI5dGo4NlRFc205ZUt3d3BaMWs1U0dia1RBWWlDTWxwVEZUXzJRWUFTMUU5MndURjFKRGxrWjlkQUJ2MlA2QlE?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー、ＳＢＩ証が「買い」で新規カバレッジ(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTVp6YVVsR216TzVHc1JGVmwzT3BMQlV1ZkRPT04zRjdma1ZlQ0xqMXlNRTUyaEdMVnhkN0VBSjhteE16UEthMEpuREV2bjk2dTZET281QzNjU2p1NFdkTzdGR3VTTkw2Ri1pQzA5TlEzeW5YdXptM0cxc2VmeWh1el9WelRaX3M?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー、ＳＢＩ証が「買い」で新規カバレッジ(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTVp6YVVsR216TzVHc1JGVmwzT3BMQlV1ZkRPT04zRjdma1ZlQ0xqMXlNRTUyaEdMVnhkN0VBSjhteE16UEthMEpuREV2bjk2dTZET281QzNjU2p1NFdkTzdGR3VTTkw2Ri1pQzA5TlEzeW5YdXptM0cxc2VmeWh1el9WelRaX3M?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBZbEVnTzdzM2djZ0ptTHY5THg1QURYdlM3S1lQZDc0VnBsMEJ6ejdzWlp2Zm1jcEFoU3RIMjZZUmE4TjhEcHI4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "グロース２５０が３日ぶり反落、ティアフォーが大幅高＝新興市場・２４日(ウエルスアドバイザー)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObVFsZUxGWUxzYmJsWmpuZ2hueWNOOEs1ZW4zZ1FFNmJ1ZnRaWUxveFkwQmFLc0NPcXZpenVab01UcndzdU9nN19IRGlueV9xWE4wc3JwQTNQQUhUMGFnU1gzcHMwRFNGRWgwbDJ5dHBmdHVDb09Nal9hUHRtNXlIV3h6SWZSUWM?oc=5",
+   "date": "2026-09-24 15:42",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "성장주 지수 하락 중 TIER IV 대폭 상승",
+    "korean_summary": "성장주 지수가 하락하는 와중에 TIER IV가 크게 상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "グロース２５０が３日ぶり反落、ティアフォーが大幅高＝新興市場・２４日(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObVFsZUxGWUxzYmJsWmpuZ2hueWNOOEs1ZW4zZ1FFNmJ1ZnRaWUxveFkwQmFLc0NPcXZpenVab01UcndzdU9nN19IRGlueV9xWE4wc3JwQTNQQUhUMGFnU1gzcHMwRFNGRWgwbDJ5dHBmdHVDb09Nal9hUHRtNXlIV3h6SWZSUWM?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObVFsZUxGWUxzYmJsWmpuZ2hueWNOOEs1ZW4zZ1FFNmJ1ZnRaWUxveFkwQmFLc0NPcXZpenVab01UcndzdU9nN19IRGlueV9xWE4wc3JwQTNQQUhUMGFnU1gzcHMwRFNGRWgwbDJ5dHBmdHVDb09Nal9hUHRtNXlIV3h6SWZSUWM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ヴィッツ－急騰 国内証券会社がティアフォーのカバレッジ開始 自動運転関連に買い(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQenpmVmh5WE45RmJGMnAyLWctYUhlUENFM2l1ZlVoWVhGbTlWZXFiYW5yM0RUZjRFSDZJdnVCbGE1UGJfN3BOWVBiWnRlSF8yUHVRanhMZFByUTAtRVZaSHJpM29iNEJIeHNBcDNKWlJxMVJubTQyeEN2QVpEVEJMS3VBbkR5RGM?oc=5",
+   "date": "2026-09-24 14:00",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "증권사 TIER IV 커버리지 개시, 자동운전 관련 매수 의견",
+    "korean_summary": "국내 증권사가 TIER IV에 대한 커버리지를 시작하고 자동운전 관련 매수 의견을 제시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ヴィッツ－急騰 国内証券会社がティアフォーのカバレッジ開始 自動運転関連に買い(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQenpmVmh5WE45RmJGMnAyLWctYUhlUENFM2l1ZlVoWVhGbTlWZXFiYW5yM0RUZjRFSDZJdnVCbGE1UGJfN3BOWVBiWnRlSF8yUHVRanhMZFByUTAtRVZaSHJpM29iNEJIeHNBcDNKWlJxMVJubTQyeEN2QVpEVEJMS3VBbkR5RGM?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQenpmVmh5WE45RmJGMnAyLWctYUhlUENFM2l1ZlVoWVhGbTlWZXFiYW5yM0RUZjRFSDZJdnVCbGE1UGJfN3BOWVBiWnRlSF8yUHVRanhMZFByUTAtRVZaSHJpM29iNEJIeHNBcDNKWlJxMVJubTQyeEN2QVpEVEJMS3VBbkR5RGM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "前場コメント No.6 ａｒｔｉｅｎｃｅ、三井金属、住友電、ティアフォー、ＳＯＭＰＯＨＤ、ＴＲＥＨＤ(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY2Q0cmxjd3hQSzhIQkZKZkV6OVo0UEhCcEFIbzNpbWlBLTRKeUJENTFwQ1lkX2xlUzVXZkoybHhMcHlBWkh1VVB0TEN3b1A3Mkk3VmhueF9UeERNcEU1RVpyR3V2SjdVejloN0F1bnhtd2Q0T3I1OUNldWVKSl81VkREbnlUbTA?oc=5",
+   "date": "2026-09-24 11:38",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "시장 전망 코멘트에서 지나가듯 언급된 TIER IV",
+    "korean_summary": "트레이더스 웹의 시장 코멘트에서 TIER IV가 다른 여러 기업과 함께 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "前場コメント No.6 ａｒｔｉｅｎｃｅ、三井金属、住友電、ティアフォー、ＳＯＭＰＯＨＤ、ＴＲＥＨＤ(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY2Q0cmxjd3hQSzhIQkZKZkV6OVo0UEhCcEFIbzNpbWlBLTRKeUJENTFwQ1lkX2xlUzVXZkoybHhMcHlBWkh1VVB0TEN3b1A3Mkk3VmhueF9UeERNcEU1RVpyR3V2SjdVejloN0F1bnhtd2Q0T3I1OUNldWVKSl81VkREbnlUbTA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY2Q0cmxjd3hQSzhIQkZKZkV6OVo0UEhCcEFIbzNpbWlBLTRKeUJENTFwQ1lkX2xlUzVXZkoybHhMcHlBWkh1VVB0TEN3b1A3Mkk3VmhueF9UeERNcEU1RVpyR3V2SjdVejloN0F1bnhtd2Q0T3I1OUNldWVKSl81VkREbnlUbTA",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 114,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 7,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 21,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 19,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 17.8
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 15,
+   "enriched": 5,
+   "error": "",
+   "sec": 2.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 28.8
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='hnrss.org', port=443): Max retries exceeded with url: /newest?q=autoware (Caused by ConnectTimeoutError(<HTTPSConnection(host='hnrss.o",
+   "sec": 20.0
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
