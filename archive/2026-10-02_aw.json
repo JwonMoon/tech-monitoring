@@ -1,0 +1,954 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-02",
+ "window": [
+  "2026-10-01",
+  "2026-10-02"
+ ],
+ "generated": "2026-10-02T09:59:08+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 **Arm Total Design for Physical AI**에 참여해 Open AD Kit 기반 Autoware의 Arm 플랫폼 도입을 가속화한다.",
+  "TIER IV 주가가 **Renesas·ASTEMO** 협업 보도에 급등하며 상장 후 최고가를 경신했다.",
+  "TIER IV 주가가 상장 11영업일 만에 4배 상승했으나 흑자 전환 기준 800대에 못 미치는 **114대** 운영 규모가 거품 우려를 키운다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、Arm Total Design for Physical AIに参画",
+   "link": "https://prtimes.jp/main/html/rd/p/000000139.000040119.html",
+   "date": "2026-10-01 10:00",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "hardware"
+    ],
+    "korean_title": "TIER IV, Arm의 'Total Design for Physical AI' 프로그램 참여로 Autoware 생태계 확대",
+    "korean_summary": "TIER IV가 Arm의 Physical AI 이니셔티브에 참여하여 Open AD Kit을 통한 Autoware 도입을 가속화한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, Arm Total Design for Physical AI 참가 발표",
+    "korean_summary": "TIER IV가 Arm이 운영하는 'Arm Total Design for Physical AI' 프로그램에 참가하여 Open AD Kit을 통한 Autoware의 Arm 기반 플랫폼 도입을 가속화하고자 한다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "Arm Total Design for Physical AI 프로그램 참가 발표, Open AD Kit을 통한 Arm과의 협업 확대",
+     "stage": "Announced",
+     "timeline": "프로그램은 2026년 9월 Arm이 발표, TIER IV 참가는 보도자료 시점(2026년 10월경)",
+     "scope": "반도체 제조사·자동차 제조사 대상, Arm 기반 SoC 및 차량용 컴퓨팅 플랫폼 전반, 구체적 지역·고객사명은 미확인"
+    },
+    "key_facts": [
+     "**Arm이 2026년 9월 'Arm Total Design for Physical AI' 프로그램을 발표**했으며 TIER IV가 이에 참가",
+     "TIER IV는 기존에 The Autoware Foundation(AWF) 생태계의 'Open AD Kit'을 통해 Arm과 협업해옴",
+     "**2026년 1월 CES 2026에서 Arm 기반 컴퓨팅 플랫폼 위에 Open AD Kit을 구동하는 데모를 시연**",
+     "목표는 Arm 기반 SoC부터 차량용 컴퓨팅 플랫폼까지 개발에 바로 활용 가능한 구성으로 Autoware를 제공하는 것",
+     "TIER IV CEO 加藤真平과 Arm Physical AI GTM VP Dermot O'Driscoll이 각각 공식 코멘트 발표"
+    ],
+    "why_matters": "자동운전 소프트웨어 표준화 경쟁에서 **Arm 생태계 편입은 Autoware의 하드웨어 채택 장벽을 낮추는 전략적 포석**이며, 반도체·완성차 파트너 확대를 통한 레퍼런스 플랫폼 지위 강화를 노린다. 오픈소스 SW와 특정 실리콘 생태계의 결합은 경쟁 OSS 스택 대비 구현 용이성에서 우위를 만들 수 있다.",
+    "subject_angle": "**TIER IV는 Open AD Kit을 매개로 Arm 생태계에 공식 편입함으로써 Autoware를 '즉시 사용 가능한 레퍼런스 스택'으로 포지셔닝**하려 하며, 이는 Autoware Foundation 주도의 오픈소스 전략과 TIER IV의 상용화 지원 사업을 동시에 강화하는 움직임이다.",
+    "focus_angle": "사업 관점에서 이번 참가는 실제 고객 배치나 양산 계약이 아닌 **파트너십·에코시스템 단계(실증 단계: CES 2026 데모 기완료)**로, 구체적 고객사·지역·양산 일정은 미확인이며 반도체·완성차 업계 전반을 잠재 고객으로 겨냥한 생태계 확장 전략이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발 주도사, 프로그램 참가 주체"
+     },
+     {
+      "name": "Arm",
+      "context": "Arm Total Design for Physical AI 프로그램 운영사, Open AD Kit 협업 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "Arm 기반 플랫폼에서 구동 목표가 되는 자율주행 오픈소스 소프트웨어"
+     },
+     {
+      "name": "Open AD Kit",
+      "role": "TIER IV-Arm 협업의 기존 프레임워크, CES 2026 데모에 사용"
+     },
+     {
+      "name": "Arm Total Design for Physical AI",
+      "role": "TIER IV가 신규 참가한 Arm 운영 파트너 프로그램"
+     }
+    ],
+    "watch_next": [
+     "Arm 기반 SoC·차량용 컴퓨팅 플랫폼에서 Autoware 상용 구현 사례 발표 여부",
+     "프로그램 내 반도체·완성차 파트너사 명단 공개 여부",
+     "Open AD Kit의 차기 데모·실증(예: 차기 CES 또는 양산 적용) 일정"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · prtimes.jp",
+     "title": "ティアフォー、Arm Total Design for Physical AIに参画",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54NGl3ZllEOTk0cl85ZVVsaGFCYTZrR0l4QnYwNVZmWHhJaWVESmNPWEowQU5ZQm9uWFJ3c1hXQ09DdmdYVEx1U25QRUhNOENrSENUdWFhdTBkU211VkZ1WmZpam1EQ0dSZVE?oc=5"
+    },
+    {
+     "source": "Google News · prtimes.jp",
+     "title": "ティアフォー、Arm Total Design for Physical AIに参画",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54NGl3ZllEOTk0cl85ZVVsaGFCYTZrR0l4QnYwNVZmWHhJaWVESmNPWEowQU5ZQm9uWFJ3c1hXQ09DdmdYVEx1U25QRUhNOENrSENUdWFhdTBkU211VkZ1WmZpam1EQ0dSZVE?oc=5"
+    },
+    {
+     "source": "Google News · Infoseek",
+     "title": "ティアフォー、Arm Total Design for Physical AIに参画",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14bHdCZWw1SmZ6X2NxRXJFMjlrVE9ULWt1VkswcU16Z1lvVEVCWnE2ZngwaHBHVko2dnVnV3VKajNMenJrRm5oLTRrSWxwdXh5MUZLVWhTY1B3MFJMb0ExWGc0aEZMRXc3akdyNXhNcnIwUQ?oc=5"
+    },
+    {
+     "source": "Google News · ニュースメディアVOIX",
+     "title": "株式会社ティアフォー、Arm Total Design for Physical AIに新たに参画し自動運転を加速",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xRTdDUXc4TGpwYlhsTjdLbmVfLWxnN0ZDbVBmRVA2RzllQ2lna29oN3JmRkpaVkV6LS1IQkRhdjlla1dLM0pTOFJBaGNUY010U09SVkJTNFViZlUwNXUyTjIyMXVIWlV0YTBEZ05keEh4ZEdLbHpJZVpR?oc=5"
+    },
+    {
+     "source": "Google News · ニュースメディアVOIX",
+     "title": "株式会社ティアフォー、Arm Total Design for Physical AIに新たに参画し自動運転を加速",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xRTdDUXc4TGpwYlhsTjdLbmVfLWxnN0ZDbVBmRVA2RzllQ2lna29oN3JmRkpaVkV6LS1IQkRhdjlla1dLM0pTOFJBaGNUY010U09SVkJTNFViZlUwNXUyTjIyMXVIWlV0YTBEZ05keEh4ZEdLbHpJZVpR?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000139.000040119.html",
+   "body": "ティアフォー、Arm Total Design for Physical AIに参画 Open AD Kitを通じたAutowareの導入を加速 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）は、Armが運営する「Arm® Total Design for Physical AI」に参画しました。ティアフォーはこれまで、The Autoware Foundation（AWF）のエコシステムのもとで開発されるオープンフレームワーク「Open AD Kit」を通じてArmと協業してきました。今回の参画によりArmとの協業をさらに推進することで、Armを基盤としたシステム・オン・チップ（system-on-chip：SoC）や車載コンピューティングプラットフォームなど、さまざまな環境において自動運転用オープンソースソフトウェア「Autoware」を容易に利用できるようにすることを目指します。これにより、半導体メーカーや自動車メーカーが自動運転システムの開発を加速できるよう支援します。 オープンソースの自動運転技術をフィジカルAIのエコシステムへ 2026年9月、Armは「Arm Total Design for Physical AI」を発表しました。本プログラムにはコンピューティングやソフトウェアのエコシステムを構成するパートナー企業が集まり、実世界で動作するシステムの開発・実装の効率化を目指しています。 本プログラムにおいてティアフォーは、オープンソースによる自動運転技術や「Autoware」を活用したシステム開発で培った知見を提供します。また、より幅広いコンピューティングやその関連技術のパートナーとの連携を通じて「Autoware」のエコシステムを拡大し、自動運転ソフトウェアを実際の車両で利用するための開発を容易にすることを目指します。 「Open AD Kit」を通じた協業のさらなる発展 ティアフォーとArmはこれまで、さまざまなコンピューティングプラットフォームにおいて「Autoware」を容易に開発・実装できる環境の実現に向け、「Open AD Kit」を通じて協業してきました。両社は、オープンソースの自動運転ソフトウェアとArmを基盤としたコンピューティング技術を組み合わせ、ソフトウェアとハードウェアの統合を容易にする取り組みを進めています。 2026年1月に開催されたCES 2026では、Armを基盤としたコンピューティングプラットフォーム上で「Open AD Kit」を動作させるデモを行いました。今後は、これまでの取り組みをさらに発展させ、Armを基盤とするSoCから車載コンピューティングプラットフォームまで、開発にすぐ活用できる構成で「Autoware」を提供することを目指します。 ティアフォー 代表取締役 CEO 加藤真平のコメント より多くの企業が利用できる技術として自動運転を普及させるためには、オープンソースソフトウェアを提供するだけでなく、実際のシステムを支えるコンピューティングプラットフォーム上で利用するための実用的な環境を整えることが重要です。Armとはこれまで、「Open AD Kit」を通じて「Autoware」とArmを基盤とするコンピューティングプラットフォームを組み合わせる取り組みを進めてきました。今回「Arm Total Design for Physical AI」に加盟することで、より幅広いパートナーとの連携を通じてこの取り組みをさらに発展させ、自動運転の民主化を加速していきます。 Arm Physical AI Go-to-MarketのVice President Dermot O’Driscollのコメント 自動運転を大規模に展開していくためには、ソフトウェアとハードウェアが共に進化しやすい環境を整えることが重要です。ティアフォーとの「Open AD Kit」を通じた取り組みではすでにその可能性を実証しており、「Arm Total Design for Physical AI」によって、この協業をより幅広いエコシステムへと拡大できると考えています。 自動運転の民主化の推進に向けて ティアフォーは、今後もArmをはじめとする業界各社との協業を通じて、さまざまなコンピューティングプラットフォームにおいて「Autoware」を実装しやすい環境を拡充していきます。「Open AD Kit」とより広範なフィジカルAIのエコシステムを通じて、自動運転システムの開発における技術的なハードルを下げ、より多くの企業が自動運転システムを開発・実装できる環境の実現を目指します。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ pr@tier4.jp ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像 - 種類 - 経営情報 - ビジネスカテゴリ - 自動車・カー用品システム・Webサイト・アプリ開発 - ダウンロード - プレスリリース素材このプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV joins Arm Total Design for Physical AI to accelerate ready-to-use Autoware solutions through Open AD Kit",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMmw4Mk84LWdnMTlYcFA3cjBhTHh1aXZFZHpYazF4R2R2aEcxZDhiN2JoUVZiZTJOd19oRXFuTGxOdzJNWk5sdmVLOXBnM3hLSGtxUFhSeGhlNGxXUS1uQW9tanpSRjBKWXJhbEVBMFpnaElxQ01nNjFYZXdRX3cwYm10cEpKZ1kxVC1QbERpMUY2NXA3RnpwdFV2YnN5XzlVMnMtb2xycEpzbnJGWnp0ZkwwT2JLY2R5Q1dkNFF3aVVpMTBFM1B0VjhxbWVpc01HeHhvNy1fcW1NX2NEMUdET2tOekxxZjJKQk9yRWo5LTZVZXJDX2J2VXVxNEw?oc=5",
+   "date": "2026-10-01 10:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "hardware"
+    ],
+    "korean_title": "TIER IV, Arm Total Design for Physical AI 참여 발표",
+    "korean_summary": "TIER IV가 Arm의 Physical AI 프로그램에 참여하여 Open AD Kit을 통한 Autoware 솔루션 확대를 가속화한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV joins Arm Total Design for Physical AI to accelerate ready-to-use Autoware solutions through Open AD Kit",
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMmw4Mk84LWdnMTlYcFA3cjBhTHh1aXZFZHpYazF4R2R2aEcxZDhiN2JoUVZiZTJOd19oRXFuTGxOdzJNWk5sdmVLOXBnM3hLSGtxUFhSeGhlNGxXUS1uQW9tanpSRjBKWXJhbEVBMFpnaElxQ01nNjFYZXdRX3cwYm10cEpKZ1kxVC1QbERpMUY2NXA3RnpwdFV2YnN5XzlVMnMtb2xycEpzbnJGWnp0ZkwwT2JLY2R5Q1dkNFF3aVVpMTBFM1B0VjhxbWVpc01HeHhvNy1fcW1NX2NEMUdET2tOekxxZjJKQk9yRWo5LTZVZXJDX2J2VXVxNEw?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV joins Arm Total Design for Physical AI to accelerate ready-to-use Autoware solutions through Open AD Kit",
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMmw4Mk84LWdnMTlYcFA3cjBhTHh1aXZFZHpYazF4R2R2aEcxZDhiN2JoUVZiZTJOd19oRXFuTGxOdzJNWk5sdmVLOXBnM3hLSGtxUFhSeGhlNGxXUS1uQW9tanpSRjBKWXJhbEVBMFpnaElxQ01nNjFYZXdRX3cwYm10cEpKZ1kxVC1QbERpMUY2NXA3RnpwdFV2YnN5XzlVMnMtb2xycEpzbnJGWnp0ZkwwT2JLY2R5Q1dkNFF3aVVpMTBFM1B0VjhxbWVpc01HeHhvNy1fcW1NX2NEMUdET2tOekxxZjJKQk9yRWo5LTZVZXJDX2J2VXVxNEw?oc=5"
+    },
+    {
+     "source": "Google News · The Manila Times",
+     "title": "TIER IV joins Arm Total Design for Physical AI to accelerate ready-to-use Autoware solutions through Open AD Kit",
+     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOWVVmTWFYa2Nod0hJSHdtbTZ0QWJGd3RMdXlYUXAyTGdyQU93dHlvME90akpDUjRKRExOcnpOSXlsc0FSdjlnQWR6ZkZoUG51SGJ0N2pBSDFvOXBQWDhJMm05Z0lqTVFoc3k0YTJZZGdoY3RyekZvUVR4VjZoajc0cjg3M2FUNEtKNWE0YkcyN2REUm1qS28xUE9BaFpKOUhING5IWjJkQ1RSclpLclpTVXh5eGFzdXh5TzJrMUlDbTl1SlpjUnYxU0JfQWhTdnIyd1F1aVYtN09pMF9xb052Wi1kZ1hNS043YUZPdzB6aVZSV2NjR3VPZFVzQUNmbkdPemJoMTFMWlN6THFCcExpQUJn0gGXAkFVX3lxTE1WRFc3VWVtVi1YeGF1TnU1MmVzTmNZUS04MjRfQklPMVIzeWJYYlJPVS1DVmxYbEFsS2tGb24zVWdDXzJ6bXlsN3lyWXVMTmRkSTZIc01MYzFYenVWTVYwOEZHc0RPS0NtR2dXQnQ0X3Zyd1F0WG9kazUzMXBWcTZfOGFWQnMyLTFiMVA5TF8zbmNoRHQta0htMllrZzY1V1dzdllEenRDWU41aWdtUi1pTHJUTEFhUjM1SW5vUGV3WTNZZzBob3FHT0hROF91RVJMWkJJaUNPdTZDSWFyZWw1cnFTaUNTamFmb2xuLXZmVkE3OGE2WUlfUmcxTmpieVphbFNUQjNBMzB5NEpOMFhFUXF3VElZMA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQMmw4Mk84LWdnMTlYcFA3cjBhTHh1aXZFZHpYazF4R2R2aEcxZDhiN2JoUVZiZTJOd19oRXFuTGxOdzJNWk5sdmVLOXBnM3hLSGtxUFhSeGhlNGxXUS1uQW9tanpSRjBKWXJhbEVBMFpnaElxQ01nNjFYZXdRX3cwYm10cEpKZ1kxVC1QbERpMUY2NXA3RnpwdFV2YnN5XzlVMnMtb2xycEpzbnJGWnp0ZkwwT2JLY2R5Q1dkNFF3aVVpMTBFM1B0VjhxbWVpc01HeHhvNy1fcW1NX2NEMUdET2tOekxxZjJKQk9yRWo5LTZVZXJDX2J2VXVxNEw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【ティアフォー/593A】【IPO分析・上場】ダウンラウンド上場…資金枯渇 Brad Keller (VmeXrToXfM)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYW1RNzJZdDZ4SkVjeUVsZnZNNVhyaGIybG5EV2dUUlBVclRyVUt5QndPa3k4NnlRZzVkdjZ1eEpoYU55Sk55SHpUWEpQeUEtTjdqQlU1dG5LNUdUR0wwdkxaVGl4ZDctQUlYWV9UbWVCMjFqNVo1NzFZRXF6R2wtMlpYbUVNRGM?oc=5",
+   "date": "2026-10-01 02:11",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "ipo",
+     "funding"
+    ],
+    "korean_title": "TIER IV(593A) IPO 분석 - 다운라운드 상장과 자금 고갈",
+    "korean_summary": "TIER IV의 상장이 다운라운드 방식으로 진행되며 자금 고갈 우려가 제시되고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【ティアフォー/593A】【IPO分析・上場】ダウンラウンド上場…資金枯渇 Brad Keller (VmeXrToXfM)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYW1RNzJZdDZ4SkVjeUVsZnZNNVhyaGIybG5EV2dUUlBVclRyVUt5QndPa3k4NnlRZzVkdjZ1eEpoYU55Sk55SHpUWEpQeUEtTjdqQlU1dG5LNUdUR0wwdkxaVGl4ZDctQUlYWV9UbWVCMjFqNVo1NzFZRXF6R2wtMlpYbUVNRGM?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYW1RNzJZdDZ4SkVjeUVsZnZNNVhyaGIybG5EV2dUUlBVclRyVUt5QndPa3k4NnlRZzVkdjZ1eEpoYU55Sk55SHpUWEpQeUEtTjdqQlU1dG5LNUdUR0wwdkxaVGl4ZDctQUlYWV9UbWVCMjFqNVo1NzFZRXF6R2wtMlpYbUVNRGM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【8/27 速報】自動運転のティアフォーが急騰。ルネサス・アステモ協業のインパクトと今後の株価見通し Bears (FPnm0MtGHZ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd29yNm93eUFDc0lQQ3g0c1kyUDdueU9fS05qS0p4c2FXQ2g2ZExtbmpEVHR2MlVHWEF5Mi1nRXlLNEhySFhfdVlGNEQwa2xWVEhDTHp6NDd0ejJGODlCbWp0cmtMc3ZzM1JyOHhfd3BsYXVBaTBVNHBkd0FTSkN0dHdYYVZXaE0?oc=5",
+   "date": "2026-10-01 09:58",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "hardware"
+    ],
+    "korean_title": "자동운전 TIER IV 급등, Renesas·ASTEMO 협업 영향 분석",
+    "korean_summary": "반도체 기업 Renesas와 자동차 부품사 ASTEMO와의 협업 관련 보도로 TIER IV 주가 급등."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd29yNm93eUFDc0lQQ3g0c1kyUDdueU9fS05qS0p4c2FXQ2g2ZExtbmpEVHR2MlVHWEF5Mi1nRXlLNEhySFhfdVlGNEQwa2xWVEhDTHp6NDd0ejJGODlCbWp0cmtMc3ZzM1JyOHhfd3BsYXVBaTBVNHBkd0FTSkN0dHdYYVZXaE0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー（593A）はなぜ上場来高値に？ルネサスとの協業と拡大する赤字を検証 Brian Brobbey (OTFHO11Pkl)",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yb1VUa21zTXc4Ml85dlcyTFBkVWRhQmhZaUJ5c1VxdU5iZ0JDTHlaaS1Rd0R1eUI0Vm1JRER1WXVjWU9qWWkzdzJNdm9pTnZuUnoya2RId0VneDF4dE5uLUxmMU01Sk5CaEJFWkZR?oc=5",
+   "date": "2026-10-01 12:55",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV가 상장 이후 고가를 경신한 이유는?",
+    "korean_summary": "TIER IV의 상장 후 고점을 Renesas 협업 및 적자 확대 관점에서 분석한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "ティアフォー（593A）はなぜ上場来高値に？ルネサスとの協業と拡大する赤字を検証 Brian Brobbey (OTFHO11Pkl)",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yb1VUa21zTXc4Ml85dlcyTFBkVWRhQmhZaUJ5c1VxdU5iZ0JDTHlaaS1Rd0R1eUI0Vm1JRER1WXVjWU9qWWkzdzJNdm9pTnZuUnoya2RId0VneDF4dE5uLUxmMU01Sk5CaEJFWkZR?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yb1VUa21zTXc4Ml85dlcyTFBkVWRhQmhZaUJ5c1VxdU5iZ0JDTHlaaS1Rd0R1eUI0Vm1JRER1WXVjWU9qWWkzdzJNdm9pTnZuUnoya2RId0VneDF4dE5uLUxmMU01Sk5CaEJFWkZR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー株は何年先まで織り込んだ？Autowareの収益化・赤字・補助金・TOPIX候補を検証【593A】 Sally Field New Movie (mUoEsfV7UX)",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0lPdzdEZVRuQmNfRllSc1I0UkFfYmgwVG9FOVNwR3pBbzR6SzFfaXFtM0gzZi0yMHFJSkNRelBZMEJCWHFZVGZtTm11Nlp3TThKemxxRmxpQ0xuRzlFTnFMSFlYVDdmb3JfbGtNYzVIMUlnZlFKNEloWXhGU1pWaGJ3?oc=5",
+   "date": "2026-10-01 11:35",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 주가가 몇 년 앞까지 반영했나?",
+    "korean_summary": "TIER IV의 주가가 Autoware 수익화, 적자, 보조금, TOPIX 편입까지 반영했는지 검증한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "ティアフォー株は何年先まで織り込んだ？Autowareの収益化・赤字・補助金・TOPIX候補を検証【593A】 Sally Field New Movie (mUoEsfV7UX)",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0lPdzdEZVRuQmNfRllSc1I0UkFfYmgwVG9FOVNwR3pBbzR6SzFfaXFtM0gzZi0yMHFJSkNRelBZMEJCWHFZVGZtTm11Nlp3TThKemxxRmxpQ0xuRzlFTnFMSFlYVDdmb3JfbGtNYzVIMUlnZlFKNEloWXhGU1pWaGJ3?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY0lPdzdEZVRuQmNfRllSc1I0UkFfYmgwVG9FOVNwR3pBbzR6SzFfaXFtM0gzZi0yMHFJSkNRelBZMEJCWHFZVGZtTm11Nlp3TThKemxxRmxpQ0xuRzlFTnFMSFlYVDdmb3JfbGtNYzVIMUlnZlFKNEloWXhGU1pWaGJ3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【特集】ティアフォー(593A) 上場1か月 自動運転の国内唯一の専業は、何で稼ぐ会社になるのか Nazem Kadri (i4XSQcjd1x)",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03dDljMEZzcW9GZl80V1lLUVBJOGtValBWRTNtdkNRUHE5QlZRYTVWcHdFc2tudzgyWUJtVEszeHJmcXJHUklfdU5uQnhoZWZWeUxXYTN1VndGN01FY05qcXozRzNLLXc1RzlOOUVvSEtwZDRiZW5BV1hVbWg?oc=5",
+   "date": "2026-10-01 00:45",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 상장 1개월, 국내 유일 자동운전 전문기업의 수익 모델",
+    "korean_summary": "TIER IV가 상장 후 1개월 동안 국내 유일 자동운전 전문기업으로서 어떻게 수익을 창출할지 분석한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【特集】ティアフォー(593A) 上場1か月 自動運転の国内唯一の専業は、何で稼ぐ会社になるのか Nazem Kadri (i4XSQcjd1x)",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03dDljMEZzcW9GZl80V1lLUVBJOGtValBWRTNtdkNRUHE5QlZRYTVWcHdFc2tudzgyWUJtVEszeHJmcXJHUklfdU5uQnhoZWZWeUxXYTN1VndGN01FY05qcXozRzNLLXc1RzlOOUVvSEtwZDRiZW5BV1hVbWg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03dDljMEZzcW9GZl80V1lLUVBJOGtValBWRTNtdkNRUHE5QlZRYTVWcHdFc2tudzgyWUJtVEszeHJmcXJHUklfdU5uQnhoZWZWeUxXYTN1VndGN01FY05qcXozRzNLLXc1RzlOOUVvSEtwZDRiZW5BV1hVbWg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー（593A）11営業日で4倍の理由｜黒字化は800台、いま走っているのは114台【銘柄解剖 9/3】 Place Bell (m4krY7YFiq)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY0dfVUtGZFZWUld3LUpTQnBDNnVUdkhaR3Q5QmljenkxbjFmTUR4aTRzN2t3Y1RfcC12NTNXeGs4dlV6ZFlHdEV1T3JWRkduM3VrRDJTUEx6VE5vTjlzUmpXdjh4V0lHYnRHNFYwUXMzQ0NMaFQ0TlAwTTVVWGFfM0I4WG51eE0?oc=5",
+   "date": "2026-10-01 11:58",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 상장 11 영업일 만에 4배 상승한 이유",
+    "korean_summary": "TIER IV 주가가 11 영업일에 4배 상승한 이유를 흑자화 조건(800대)과 현재 운영 차량(114대) 규모 관점에서 분석한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "ティアフォー（593A）11営業日で4倍の理由｜黒字化は800台、いま走っているのは114台【銘柄解剖 9/3】 Place Bell (m4krY7YFiq)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY0dfVUtGZFZWUld3LUpTQnBDNnVUdkhaR3Q5QmljenkxbjFmTUR4aTRzN2t3Y1RfcC12NTNXeGs4dlV6ZFlHdEV1T3JWRkduM3VrRDJTUEx6VE5vTjlzUmpXdjh4V0lHYnRHNFYwUXMzQ0NMaFQ0TlAwTTVVWGFfM0I4WG51eE0?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY0dfVUtGZFZWUld3LUpTQnBDNnVUdkhaR3Q5QmljenkxbjFmTUR4aTRzN2t3Y1RfcC12NTNXeGs4dlV6ZFlHdEV1T3JWRkduM3VrRDJTUEx6VE5vTjlzUmpXdjh4V0lHYnRHNFYwUXMzQ0NMaFQ0TlAwTTVVWGFfM0I4WG51eE0",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【決算解説】Ｇ－ティアフォー（593A）｜2026年9月期 第3四半期 Drogheda United Vs Derry City (2ZC4vOU6ET)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaXBJYzFkakFLMmFiNGVDVzZxaHZpSDRsTXVqOG00di16cDFyZGZ1QlNmV2ZuZlVXSGgwTS1qcDNkSXJUeTJiUnB3M0p6ZDFpTUFRbzJ0NXN3SHYzRm5rNklHbzc1RnlHZW41VkdHRmI5dE12ODdyMWJ1Nm05WTNUV0ZYNFpaek0?oc=5",
+   "date": "2026-10-01 05:12",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "TIER IV(593A) 2026년 9월 기 3분기 실적 해설",
+    "korean_summary": "상장 기업 TIER IV의 2026년 9월 3분기 분기 실적이 공개되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【決算解説】Ｇ－ティアフォー（593A）｜2026年9月期 第3四半期 Drogheda United Vs Derry City (2ZC4vOU6ET)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaXBJYzFkakFLMmFiNGVDVzZxaHZpSDRsTXVqOG00di16cDFyZGZ1QlNmV2ZuZlVXSGgwTS1qcDNkSXJUeTJiUnB3M0p6ZDFpTUFRbzJ0NXN3SHYzRm5rNklHbzc1RnlHZW41VkdHRmI5dE12ODdyMWJ1Nm05WTNUV0ZYNFpaek0?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaXBJYzFkakFLMmFiNGVDVzZxaHZpSDRsTXVqOG00di16cDFyZGZ1QlNmV2ZuZlVXSGgwTS1qcDNkSXJUeTJiUnB3M0p6ZDFpTUFRbzJ0NXN3SHYzRm5rNklHbzc1RnlHZW41VkdHRmI5dE12ODdyMWJ1Nm05WTNUV0ZYNFpaek0",
+   "body": ""
+  },
+  {
+   "source": "Google News · 山陰中央新報デジタル",
+   "category": "media",
+   "kind": "gnews",
+   "title": "錦織圭、現役生活に終止符 ティアフォーにストレート負け",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxY3hYUm9sbnNlT3gxcTBLeURjWmloaDhxREVZQW1nVXZXMURRaUs5TmZZcHB2djVOeEZhdjZQYU9JanNfT2FNSDlGWUk2UFROdF9rUWJXNW9pams?oc=5",
+   "date": "2026-10-01 15:44",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "테니스 선수 錦織圭 현역 은퇴",
+    "korean_summary": "테니스 선수 錦織圭이 현역을 은퇴한다. (Autoware·TIER IV와 무관)"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 山陰中央新報デジタル",
+     "title": "錦織圭、現役生活に終止符 ティアフォーにストレート負け",
+     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxY3hYUm9sbnNlT3gxcTBLeURjWmloaDhxREVZQW1nVXZXMURRaUs5TmZZcHB2djVOeEZhdjZQYU9JanNfT2FNSDlGWUk2UFROdF9rUWJXNW9pams?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxY3hYUm9sbnNlT3gxcTBLeURjWmloaDhxREVZQW1nVXZXMURRaUs5TmZZcHB2djVOeEZhdjZQYU9JanNfT2FNSDlGWUk2UFROdF9rUWJXNW9pams",
+   "body": ""
+  },
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【テニス】錦織圭 涙のストレート負け…“聖地”有明で現役最終戦 世界8位ティアフォーに敗れる",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFpQR3NDdFI1MWY2aDl1dUF0aFRSUzlkcHRSZktDVFh6M1BZRkdJQmJtQkFYXzVGRVNHc09kdUUzRGVSWXV4N0tDck1iSU0xU2hQc2J2SnN3VXBkQlBVaFNIWjIxQ2hwT2RHcktabFYwZTNPaHlsakM2ZDdTVERYQlowWm1uNUlNZFZDZVpB0gGTAUFVX3lxTE4yTG1OT3FXTWdzWERRb2k1Rnh4eWxMQmJRNXNCdE9obldweWtCa00zV0kydE1DWUkzRHh5QnlwdXdFSFlQa3NZaDNPdDJwZTRWUWM2VFNxcERtRE15T1ZMVVJENzlVejRaSWNHN0ZBYlRJV3lBZGdSQlkyclRqUl9JZmlBR2pDeGJJLUdNa1AyZFZqMA?oc=5",
+   "date": "2026-10-01 15:45",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "테니스 錦織圭 세계 8위 선수에게 패배",
+    "korean_summary": "테니스 선수 錦織圭이 세계 8위 선수에게 스트레이트 패배한다. (Autoware·TIER IV와 무관)"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · スポニチ Sponichi Annex",
+     "title": "【テニス】錦織圭 涙のストレート負け…“聖地”有明で現役最終戦 世界8位ティアフォーに敗れる",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOem9JZ29UeDJGbEdjSVBMUWdOTVJ3eDBlaGVlX2lqQWdkYWF6elROeXFTbU1xTFRxdUhlbGY5U2lNZ0Q2cDdFbDRzdGMwb3B4dy01TEN3UG9SeVlUcWxTdFBqQmY5V0VSaXlieUZjbWYtdTFOUEFOcVFQd1d0QzZSSlJjTmNsaktNeGlxXw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFpQR3NDdFI1MWY2aDl1dUF0aFRSUzlkcHRSZktDVFh6M1BZRkdJQmJtQkFYXzVGRVNHc09kdUUzRGVSWXV4N0tDck1iSU0xU2hQc2J2SnN3VXBkQlBVaFNIWjIxQ2hwT2RHcktabFYwZTNPaHlsakM2ZDdTVERYQlowWm1uNUlNZFZDZVpB0gGTAUFVX3lxTE4yTG1OT3FXTWdzWERRb2k1Rnh4eWxMQmJRNXNCdE9obldweWtCa00zV0kydE1DWUkzRHh5QnlwdXdFSFlQa3NZaDNPdDJwZTRWUWM2VFNxcERtRE15T1ZMVVJENzlVejRaSWNHN0ZBYlRJV3lBZGdSQlkyclRqUl9JZmlBR2pDeGJJLUdNa1AyZFZqMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · スポニチ Sponichi Annex",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ジャパンオープンテニス＞コイントスに登場した伊達公子さんと記念撮影に臨む錦織（左）とティアフォー（撮影・田中 和也）",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDMtUnQ1R2VNcDlzVEFScFRGTFBtQUxfYjFHeDBYUzVLdnd0QXJtUC1Xcy1IbzV6NU5rdUhTWWhwVzNCT1lGaC1pWWRXTWR2X290cUwzaC0tOFdVZ05mNWhRYmVJM2FDcHhPWFl6SG5xTk4tSDdVN1kyY2ZYbnhJVm9RbDdSVmVRVHlnQg?oc=5",
+   "date": "2026-10-01 23:49",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "일본 오픈 테니스 - 기념사진",
+    "korean_summary": "테니스 선수 Francis Tiafoe가 일본 오픈 대회에 참석했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · スポニチ Sponichi Annex",
+     "title": "ジャパンオープンテニス＞コイントスに登場した伊達公子さんと記念撮影に臨む錦織（左）とティアフォー（撮影・田中 和也）",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDMtUnQ1R2VNcDlzVEFScFRGTFBtQUxfYjFHeDBYUzVLdnd0QXJtUC1Xcy1IbzV6NU5rdUhTWWhwVzNCT1lGaC1pWWRXTWR2X290cUwzaC0tOFdVZ05mNWhRYmVJM2FDcHhPWFl6SG5xTk4tSDdVN1kyY2ZYbnhJVm9RbDdSVmVRVHlnQg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaDMtUnQ1R2VNcDlzVEFScFRGTFBtQUxfYjFHeDBYUzVLdnd0QXJtUC1Xcy1IbzV6NU5rdUhTWWhwVzNCT1lGaC1pWWRXTWR2X290cUwzaC0tOFdVZ05mNWhRYmVJM2FDcHhPWFl6SG5xTk4tSDdVN1kyY2ZYbnhJVm9RbDdSVmVRVHlnQg",
+   "body": ""
+  },
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "錦織圭の現役ラスト大会が開幕！ 松岡修造氏「鍵は最初」世界ランク8位ティアフォーと試合開始（ABEMA TIMES）",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3J1VEk3WFcxbG53Z1JKd3NEQ0ptcFZpYkNCbmpfc0kzTURFLWpTM0d3cmtSd1ROY05BdHd5Z2tubUkyRWdMNHRwUVZmVGlyejVndEpzQXlPLXB6YnlHbDJUWF9LTkdVTEpxSFJvOTh2M0FkbXpKSUM2RE1INm5XQ0ZrMA?oc=5",
+   "date": "2026-10-01 14:30",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "니시코리 케이 현역 마지막 대회 개막",
+    "korean_summary": "테니스 선수 니시코리 케이가 현역 마지막 대회에서 Francis Tiafoe와 경기한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "錦織圭の現役ラスト大会が開幕！ 松岡修造氏「鍵は最初」世界ランク8位ティアフォーと試合開始（ABEMA TIMES）",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3J1VEk3WFcxbG53Z1JKd3NEQ0ptcFZpYkNCbmpfc0kzTURFLWpTM0d3cmtSd1ROY05BdHd5Z2tubUkyRWdMNHRwUVZmVGlyejVndEpzQXlPLXB6YnlHbDJUWF9LTkdVTEpxSFJvOTh2M0FkbXpKSUM2RE1INm5XQ0ZrMA?oc=5"
+    },
+    {
+     "source": "Google News · Infoseek",
+     "title": "錦織圭の現役ラスト大会が開幕！ 松岡修造氏「鍵は最初」世界ランク8位ティアフォーと試合開始",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IN0xuR3diaEtZWDNKM2xKQkNzQ0gyNWNyRHlHSjQ4SzdKZ2hNVkw3MVJleTU5VnVHdUtXSWU4QUd0bGhmOVNtekdsS2ZsbjktcHlBSkdWc3VVSEZ0UFkyR2RBNUNNbWZNcjJzM9IBbEFVX3lxTE5IN0xuR3diaEtZWDNKM2xKQkNzQ0gyNWNyRHlHSjQ4SzdKZ2hNVkw3MVJleTU5VnVHdUtXSWU4QUd0bGhmOVNtekdsS2ZsbjktcHlBSkdWc3VVSEZ0UFkyR2RBNUNNbWZNcjJzMw?oc=5"
+    },
+    {
+     "source": "Google News · デイリースポーツ",
+     "title": "３６歳、錦織圭が涙の現役ラスト試合「試合終わるまで泣くなんて思ってなかった」“エアＫ”もさく裂、世界８位ティアフォーと熱戦もストレート負けで１９年間のプロ生活に終止符「やり切ったという思いはある」",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyZFJKdzJoRlAtNUZDNV9UaU1xazY2WWpad1c3elR1TWFLRE9GcG1uTkotT1NETmVKV2RQMVRSZ3FHWWhjdUZWaVRFSE96a2tWUm9tLXdMQUdmakxDYjczN0c0c1FqanM0TGI4?oc=5"
+    },
+    {
+     "source": "Google News · デイリースポーツ",
+     "title": "３６歳、錦織圭が涙の現役ラスト試合「試合終わるまで泣くなんて思ってなかった」“エアＫ”もさく裂、世界８位ティアフォーと熱戦もストレート負けで１９年間のプロ生活に終止符「やり切ったという思いはある」",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyZFJKdzJoRlAtNUZDNV9UaU1xazY2WWpad1c3elR1TWFLRE9GcG1uTkotT1NETmVKV2RQMVRSZ3FHWWhjdUZWaVRFSE96a2tWUm9tLXdMQUdmakxDYjczN0c0c1FqanM0TGI4?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "３６歳、錦織圭が涙の現役ラスト試合「試合終わるまで泣くなんて思ってなかった」“エアＫ”もさく裂、世界８位ティアフォーと熱戦もストレート負けで１９年間のプロ生活に終止符「やり切ったという思いはある」",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5TG5NTGFQNlBVMV9Wb1RjaXdwbU9rbHl5a2xIM2JkT2hSaTN2b0N3U3ZSQ0tyUDhPQW1MOFd0bDQtRnlXMHVqSjZySVNQYzRpVV82aTBrb1NpenBZWVFEalhWdllxbkkwamV1YnZWSS02YWdTQ0pnN0tR0gF_QVVfeXFMTzA4SmFibWNSMUhBOVE1WGJSSS1DNkVsMnVEUUNBUlkyZFJEZEc5VFdRM01KQThVTzFNaWhmMTV3YUJZazM0bEw2bDJOTXRCem9lWEMyX0IyTTI2MEZNSGM4V3hWU25FVDdJX09XMi1mX0RETXJqRW1UeU1EWWhuRQ?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "錦織圭が現役最後の大会で世界8位ティアフォーに食らいつくも初戦敗退 (2026年10月1日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iNTMtNkRzekJpZVJ5aHhLWWo4eTVnNXE5UDRuN2xqclJKNHRBajZzSE5UMExsZ3NPVEw4bzlNUGJkRS1sVE40OGs1QzFlOE5ybTFwalBkMzdpOFZKZUE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3J1VEk3WFcxbG53Z1JKd3NEQ0ptcFZpYkNCbmpfc0kzTURFLWpTM0d3cmtSd1ROY05BdHd5Z2tubUkyRWdMNHRwUVZmVGlyejVndEpzQXlPLXB6YnlHbDJUWF9LTkdVTEpxSFJvOTh2M0FkbXpKSUM2RE1INm5XQ0ZrMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【テニス速報】 木下グループジャパンオープンテニスチャンピオンシップス 第2日 錦織 圭 vs フランシス ティアフォー",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkNraElIX2tKdmhMY1BPS0JLcmVPYUdNTWRObWg4VnhjMkc1cmFObENFbzlvRkFpNEVrUDB5MUlkTDktZ2I0MUJDRGdnVFlobjRQWW1tdkVWR3puT3dDZnZJVmU4RDVOQ0ZqUS05LUE0bFNTMjBYVW5sQUlTYVJPdDVwd3fSAYoBQVVfeXFMT3d4Znp0ODFHZEJ6MzJxTl9PWGhoTk9ERGJkT1hxMUdkd25OczRGZDFYam1RR1pSMHJwWEhVTjZzc3FzODlsVHJDZDNrUjlibktMVzI5bkRqSHlxVnVfbjFNcEdaTWVVQ01QanZaMWp0RmY5YWdFTXk2MFlGc0d6alJ2YlhDN191ZmFn?oc=5",
+   "date": "2026-10-01 15:52",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "일본 오픈 테니스 2일차 경기 속보",
+    "korean_summary": "일본 오픈 테니스 2일차에 니시코리 케이와 Francis Tiafoe의 경기가 진행되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · スポーツナビ",
+     "title": "テニス - 木下グループジャパンオープンテニスチャンピオンシップス - 錦織 圭 vs. フランシス ティアフォー- 試合速報",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObnNVaE1FYTZGRjRYQ2VaWmVsSnVOalBRTjlWd296UWtZWmZ1UzdvamQ4NGd0RWpJb1ZjamdzallRQVhOaDZYZkU4WmFHZ0dIX01PcmtDMDd3U0FIeTBEMUtHemY5cnVZZzdqTWd2U0pUZV9DUWdqRUwySm1FOVZkZUJDeERuNXlpZ0g3bERnSDA5S2JXOW9hTQ?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "【テニス速報】 木下グループジャパンオープンテニスチャンピオンシップス 第2日 錦織 圭 vs フランシス ティアフォー",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkNraElIX2tKdmhMY1BPS0JLcmVPYUdNTWRObWg4VnhjMkc1cmFObENFbzlvRkFpNEVrUDB5MUlkTDktZ2I0MUJDRGdnVFlobjRQWW1tdkVWR3puT3dDZnZJVmU4RDVOQ0ZqUS05LUE0bFNTMjBYVW5sQUlTYVJPdDVwd3fSAYoBQVVfeXFMT3d4Znp0ODFHZEJ6MzJxTl9PWGhoTk9ERGJkT1hxMUdkd25OczRGZDFYam1RR1pSMHJwWEhVTjZzc3FzODlsVHJDZDNrUjlibktMVzI5bkRqSHlxVnVfbjFNcEdaTWVVQ01QanZaMWp0RmY5YWdFTXk2MFlGc0d6alJ2YlhDN191ZmFn?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkNraElIX2tKdmhMY1BPS0JLcmVPYUdNTWRObWg4VnhjMkc1cmFObENFbzlvRkFpNEVrUDB5MUlkTDktZ2I0MUJDRGdnVFlobjRQWW1tdkVWR3puT3dDZnZJVmU4RDVOQ0ZqUS05LUE0bFNTMjBYVW5sQUlTYVJPdDVwd3fSAYoBQVVfeXFMT3d4Znp0ODFHZEJ6MzJxTl9PWGhoTk9ERGJkT1hxMUdkd25OczRGZDFYam1RR1pSMHJwWEhVTjZzc3FzODlsVHJDZDNrUjlibktMVzI5bkRqSHlxVnVfbjFNcEdaTWVVQ01QanZaMWp0RmY5YWdFTXk2MFlGc0d6alJ2YlhDN191ZmFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · ニコニコニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "錦織圭、万感プロ生活に幕 世界8位ティアフォーにストレート負け",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kQUZ4Sl9OMEZ0RnF1OTVaQjJxZlFxRFlxN3hRMFNYX1VfeW9oeUJfQWM1WXRsX0ZsejJTempvWnVVYklfTE13ZFY0Vk4tdlB4NFp1dWNEd2h0YkhDamNPU3N1S0dGYTA5UVFMTk1PbTRaUmM?oc=5",
+   "date": "2026-10-01 15:51",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "니시코리 케이 현역 마감 - 티아포어에 완패",
+    "korean_summary": "테니스 선수 니시코리 케이가 현역을 마감하며 Francis Tiafoe에게 완패했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5kQUZ4Sl9OMEZ0RnF1OTVaQjJxZlFxRFlxN3hRMFNYX1VfeW9oeUJfQWM1WXRsX0ZsejJTempvWnVVYklfTE13ZFY0Vk4tdlB4NFp1dWNEd2h0YkhDamNPU3N1S0dGYTA5UVFMTk1PbTRaUmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "錦織圭vsティアフォー、ジャパンOP1回戦 まもなく試合開始！＜男子テニス＞ (tennis365.net)",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY1NJZEdkRVl1N2Y4ekt6WERJZDVySWVFbmhYNWhOdWdMQXJjM29Uc0JDM09BQ2VCY1BfMk5UZmszbk9YZUVHVGloR3dSMDl3T0U3ZmRxVmxWS05VbDFQeW1hSWNGX2FreWNCSjJIQkV1TVFSTEJlNWpfMEp0Mm44UmhUXzJpUGlXM3d3RGd3?oc=5",
+   "date": "2026-10-01 14:16",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "니시오카 케이 vs 티아포, 재팬 오픈 1회전 경기 임박",
+    "korean_summary": "니시오카 케이와 프란시스 티아포의 경기가 곧 시작될 예정이었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY1NJZEdkRVl1N2Y4ekt6WERJZDVySWVFbmhYNWhOdWdMQXJjM29Uc0JDM09BQ2VCY1BfMk5UZmszbk9YZUVHVGloR3dSMDl3T0U3ZmRxVmxWS05VbDFQeW1hSWNGX2FreWNCSjJIQkV1TVFSTEJlNWpfMEp0Mm44UmhUXzJpUGlXM3d3RGd3",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "tier4/scenario_simulator_v2 25.1.0",
+   "link": "https://github.com/tier4/scenario_simulator_v2/releases/tag/25.1.0",
+   "date": "2026-10-01 17:20",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "tier4/scenario_simulator_v2",
+    "version": "25.1.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "scenario_simulator_v2 v25.1.0 릴리스",
+    "korean_summary": "scenario_simulator_v2가 25.0.22에서 25.1.0으로 버전 업그레이드되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:tier4/scenario_simulator_v2:25.1.0",
+   "body": "Bump version of scenario_simulator_v2 from version 25.0.22 to version…"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 117,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 6,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 30,
+   "in_window": 25,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 100,
+   "in_window": 91,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 19.9
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 3.7
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 29.0
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.1
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  }
+ ]
+}
