@@ -1,0 +1,1912 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-03",
+ "window": [
+  "2026-10-02",
+  "2026-10-03"
+ ],
+ "generated": "2026-10-03T09:36:04+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "美 DOJ가 Earthmade Computer CEO Greg Lui를 3억 달러 규모 **Nvidia H100 GPU 서버**의 중국 밀수출 혐의로 체포해 최대 20년형에 처해질 수 있다.",
+  "NVIDIA가 Acer·Dell 등을 통해 **DGX Spark 64GB**를 출시해 개발자들이 클라우드 없이 로컬에서 최대 1000억 파라미터 모델을 실행할 수 있게 했다.",
+  "[FOCUS] Seeing Machines가 NVIDIA Jetson Thor 플랫폼에서 **실시간 3D 인간 이해 기술**을 시연해 차량·로봇용 센싱 응용 가능성을 확인했다."
+ ],
+ "cards": [
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
+   "date": "2026-10-02 23:53",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 칩 3억 달러 불법 수출, California CEO 체포",
+    "korean_summary": "California 회사 Earthmade Computer 대표 Greg Lui가 2023~2024년 NVIDIA 칩 3억 달러 이상을 불법으로 중국 수출한 혐의로 체포됐다."
+   },
+   "summary_data": {
+    "korean_title": "美 캘리포니아 테크업체 CEO, 3억 달러 규모 Nvidia AI 서버 중국 밀수출 혐의로 체포",
+    "korean_summary": "Earthmade Computer Inc.의 CEO Greg Lui가 2023~2024년 **3억 달러 상당의 Nvidia 칩을 탑재한 고성능 서버를 말레이시아·싱가포르를 거쳐 중국(중국 정부 포함)에 밀수출**한 혐의로 미 DOJ에 체포되어 최대 20년 형에 처해질 수 있다.",
+    "action": {
+     "actor": "Greg Lui (Yiu Kong Lui), Earthmade Computer Inc. CEO",
+     "action": "수출통제 대상 Nvidia 칩 탑재 서버를 제3국(말레이시아·싱가포르) 경유 허위서류로 중국에 밀수출",
+     "stage": "Filed",
+     "timeline": "2023~2024년 밀수출 발생, 2025년 10월 1일 체포·기소 및 첫 출석",
+     "scope": "3억 달러 상당, 중국 내 구매자(중국 정부 포함)"
+    },
+    "key_facts": [
+     "DOJ가 2025년 10월 1일 보도자료로 발표, Greg Lui(Yiu Kong Lui)와 공동정범들을 기소",
+     "**3억 달러 이상 규모의 수출통제 대상 Nvidia 칩 탑재 서버**를 2023~2024년 밀수출",
+     "말레이시아·싱가포르로 먼저 수출 후 허위서류로 최종 목적지를 숨기고 중국(정부 포함)에 재수출",
+     "혐의: 수출통제개혁법(ECRA) 및 수출관리규정(EAR) 위반 공모, 밀수출, 자금세탁 공모 각 1건, 유죄 확정 시 최대 20년 형",
+     "FBI, 상무부 BIS 수출단속국, DCIS가 공동 수사 중이며, 지난달 대만에서 Nvidia B300 GPU 밀수출 관련 9명 기소된 사건과 연속선상"
+    ],
+    "why_matters": "이번 사건은 **미국의 대중국 AI 칩 수출통제가 강화되는 가운데도 Nvidia GPU의 밀수출 수요가 여전히 매우 높다**는 점을 보여주며, 제3국 경유·허위서류를 이용한 우회 수출 패턴이 반복적으로 적발되고 있음을 드러낸다. 이는 Nvidia의 중국 매출 공백이 합법 채널 밖에서 암암리에 메워지고 있는 현실과 미 정부의 집행 강화 의지를 동시에 보여주는 사례다.",
+    "subject_angle": "Nvidia는 직접적인 법적 책임 당사자는 아니지만, **자사 제품이 밀수출 범죄의 핵심 대상이 되는 패턴이 반복**되면서 수출통제 준수 리스크와 중국 시장 접근 제한이라는 양면 압박에 노출되어 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "밀수출 대상 AI 칩 제조사"
+     },
+     {
+      "name": "Earthmade Computer Inc.",
+      "context": "Greg Lui 소유 회사, 밀수출 주체"
+     },
+     {
+      "name": "U.S. Department of Justice (DoJ)",
+      "context": "기소 및 수사 발표 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia AI 칩 탑재 고성능 서버",
+      "role": "밀수출 대상 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "Greg Lui 재판 진행 상황 및 유죄 판결 여부",
+     "공동정범(unidentified co-conspirators) 신원 추가 공개 여부",
+     "미 정부의 추가 수출통제 강화 조치 또는 유사 사건 추가 기소 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
+   "body": "A California man has been arrested for smuggling over $300 million worth of restricted Nvidia chips to China in violation of U.S. export controls. According to a U.S. Department of Justice (DoJ) press release on October 1, the defendant — Greg Lui, also known as Yiu Kong Lui — and unidentified co-conspirators smuggled the chips in high-end servers from 2023 to 2024. He allegedly first exported the chips to Malaysia and Singapore, jurisdictions where the restrictions don't apply, before shipping them to buyers in China, including the Chinese government. Authorities say the defendant, owner of California-based company Earthmade Computer Inc., and his co-conspirators had used false paperwork to misrepresent the chips’ final destination, purporting that the controlled chips would be going to permissible end users and end destinations that did not require an export license. “This defendant allegedly used false paperwork and shipments through third countries to smuggle more than $300 million in export-controlled computer servers to China,” said First Assistant U.S. Attorney Bill Essayli for the Central District of California. The DOJ has charged Lui with “one count of conspiracy to violate the Export Control Reform Act and the Export Administration Regulations, one count of outbound smuggling, and one count of conspiracy to commit money laundering.” If convicted of all charges, the defendant could face up to 20 years in prison. He was arraigned and made his initial appearance on October 1. The FBI, the Department of Commerce’s Bureau of Industry and Security Office of Export Enforcement, and the Defense Criminal Investigative Service are jointly investigating the case. The incident is the latest in a series of indictments over the illegal export of restricted AI accelerators and GPUs to China. Last month, nine people were indicted in Taiwan over the illegal export of Nvidia B300 GPUs to China . The United States and its allies had placed broad export restrictions on several AI chips and the hardware required to make them in an effort to maintain its current lead over China in the AI race. China, meanwhile, insists the move has only bolstered its local AI ecosystem. However, the demand for powerful Nvidia GPUs remains sky-high in China and has created a teeming market for smuggled hardware . Speaking on the Liu incident, Special Agent in Charge John E. Helsing of the Department of Defense Office of Inspector General Defense Criminal Investigative Service (DCIS) Western Field Office said, “Preventing the illegal export of controlled technology is critical to protecting our national security. These technologies provide core advantages to U.S. forces, and ensuring they remain safeguarded prevents adversaries from exploiting them. Today’s action underscores our commitment to protecting advanced defense capabilities and enforcing the laws that keep them out of the hands of those who may threaten the United States.”"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Xeal wants to use spare EV charging capacity to power Edge data centers for AI inference",
+   "link": "https://www.datacenterdynamics.com/en/news/xeal-wants-to-use-spare-ev-charging-capacity-to-power-edge-data-centers-for-ai-inference/",
+   "date": "2026-10-02 22:32",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Xeal, EV 충전소 유휴 전력으로 NVIDIA GPU 100,000개 엣지 데이터센터 구축",
+    "korean_summary": "Xeal이 1,600개 위치의 EV 충전 인프라를 활용해 100,000개 NVIDIA GPU 배포 및 AI 추론 서비스 제공"
+   },
+   "summary_data": {
+    "korean_title": "Xeal, EV 충전소의 유휴 전력으로 AI 추론용 Edge 데이터센터 구축",
+    "korean_summary": "EV 충전 인프라 업체 Xeal이 미국 전역 1,600개 충전 사이트의 유휴 전력을 활용해 NVIDIA GPU 100,000개를 배치하는 Edge 데이터센터 네트워크 'Laitent'를 출시했다.",
+    "action": {
+     "actor": "Xeal",
+     "action": "EV 충전소의 유휴 전력 인프라를 활용해 NVIDIA Hopper/Blackwell GPU 기반 Edge AI 추론 데이터센터 'Laitent' 네트워크를 구축",
+     "stage": "Announced",
+     "timeline": "연말 이전 첫 배치 예정",
+     "scope": "미국 1,600개 EV 충전 사이트, 200MW 이상 전력 인프라, NVIDIA GPU 100,000개"
+    },
+    "key_facts": [
+     "Xeal은 미국 500개 도시에서 EV 충전 인프라를 운영 중이며, 1,600개 사이트에서 **200MW 이상의 허가·설치된 전력 인프라**를 활용할 계획",
+     "EV 충전 사이트는 통상 허가 용량의 10% 미만만 사용해 90%가 유휴 상태라고 주장",
+     "**100,000개 NVIDIA GPU**를 배치해 AI 추론 워크로드를 실행할 예정",
+     "Laitent Pod는 주차공간 1칸 크기로 최대 48개의 Hopper 또는 Blackwell GPU를 수용하며 수도 연결이 불필요",
+     "Rafay Systems(AI 인프라 오케스트레이션), Spectrum Business(광케이블), JVM Realty와 협력, 연말 이전 첫 배치 예정"
+    ],
+    "why_matters": "AI 추론 수요 급증 속에서 신규 데이터센터 건설의 시간·전력·용수 제약을 우회하는 대안적 Edge 컴퓨팅 모델이 부상하고 있음을 보여준다. **이미 허가된 유휴 전력망을 활용**하는 방식은 전통적 하이퍼스케일 데이터센터 대비 수개월 내 배치가 가능해 저지연 추론 시장에서 새로운 공급 경로가 될 수 있다.",
+    "subject_angle": "NVIDIA GPU가 **전통적 데이터센터 외 분산형 Edge 인프라**(주차장, EV 충전소)로까지 배치 범위가 확장되며, Hopper·Blackwell 아키텍처가 전력·용수 제약이 있는 비전통적 환경에서도 추론 워크로드를 수행할 수 있음을 입증하는 사례로, NVIDIA의 시장 침투 경로 다변화에 기여한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Xeal",
+      "context": "EV 충전 인프라 운영사, Laitent Edge 데이터센터 플랫폼 출시"
+     },
+     {
+      "name": "Rafay Systems",
+      "context": "AI 인프라 오케스트레이션 소프트웨어 제공"
+     },
+     {
+      "name": "Spectrum Business",
+      "context": "광케이블(fiber) 연결 제공"
+     },
+     {
+      "name": "JVM Realty",
+      "context": "부동산 파트너, Pod 배치 지원"
+     },
+     {
+      "name": "Auddia",
+      "context": "유사한 주차장 기반 AI 컴퓨팅 배치를 추진 중인 경쟁 사례"
+     },
+     {
+      "name": "Tonomia",
+      "context": "Panchaea와 협력해 솔라 캐노피 기반 분산 AI 플랫폼(eCloud)을 운영하는 유사 사례"
+     }
+    ],
+    "products": [
+     {
+      "name": "Laitent",
+      "role": "Xeal이 출시한 Edge 데이터센터 네트워크 브랜드"
+     },
+     {
+      "name": "Laitent Pods",
+      "role": "주차공간 크기의 GPU 수용 모듈, 수도 연결 불필요"
+     },
+     {
+      "name": "NVIDIA Hopper GPU",
+      "role": "Laitent Pod에 탑재되는 GPU 아키텍처"
+     },
+     {
+      "name": "NVIDIA Blackwell GPU",
+      "role": "Laitent Pod에 탑재되는 최신 GPU 아키텍처"
+     }
+    ],
+    "watch_next": [
+     "연말 예정된 첫 Laitent Pod 실제 배치 완료 여부 및 위치",
+     "100,000개 GPU 배치 규모의 구체적 확정 일정 및 고객사 공개 여부",
+     "타 EV 충전·주차장 기반 AI 컴퓨팅 경쟁사(Auddia, Tonomia 등)와의 시장 경쟁 구도 변화"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/xeal-wants-to-use-spare-ev-charging-capacity-to-power-edge-data-centers-for-ai-inference",
+   "body": "Xeal has launched a new platform that will use idle electric vehicle charging capacity to power AI compute. The company, which operates charging infrastructure in 500 cities across the US, has unveiled Laitent, a network of Edge data centers which it says will be able to tap into more than 200MW permitted and installed electrical infrastructure across 1,600 different locations. It intends to deploy 100,000 Nvidia GPUs at these locations, which will be available to run AI inference workloads. EV charging sites must be permitted for a maximum energy charging load, but typically operate at less than 10 percent of permitted capacity, Xeal claims. This means, in theory, 90 percent of capacity is spare and ready to route to GPUs. The Laitent Pods developed by Xeal use dynamic power orchestration software, capable of activating a single slice of a single GPU or orchestrating a network across several different installations in a single city. Each pod is approximately the size of one parking space, and can house up to 48 Hopper or Blackwell GPUs. They do not require a water connection. “If you need inference compute today and can’t wait for a new data center to come online, Laitent can accelerate your timeline from years to months,” said Nikhil Bharadwaj, co-founder and CEO of Xeal. “Laitent is the fastest way to bring new compute online, tapping already permitted and grid-connected, yet idle energy capacity, located right where it's needed for ultra-low latency, with no water hookup requirements.” Xeal was worked with Rafay Systems for AI infrastructure orchestration, Spectrum Business for fiber, and JVM Realty to bring the pods online, with first deployment expected before the end of the year. The company is touting big financial benefits for car park owners, claiming the pods could add $1 million to the value of their properties for “little or no investment.” It is not the first firm to think of putting AI compute in car parks. AI music platform-turned-data center firm Auddia said in March that it intends to deploy solar-powered GPUs in the parking lots of sites owned by a medical real estate firm, with a pilot set to be launched in the Dallas area. Belgian startup Tonomia last year announced it was working with UK hardware provider Panchaea to offer a distributed AI platform housed in solar canopy systems in parking lots, known as eCloud."
+  },
+  {
+   "source": "Google News · The Register",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTnI0WFRsbGY4RENpS2E0d1NHNGNOUGZDNFU4MnR0ZGFycFJwTkRTVkFFY0J3V2k2OUVHQ0s5bEhIZUprT0c5M25pbWxMUHlJSE1tbG5zVkVzRU05LWNVRUZpelNaWDZ1MTJSTVlyUFZzdmo1ZkdmQzV6WGFCUVFzM2N3RXNVU2Jqb3pILXE5TzhITmh5VUQzbUx2VFNqN1FKSjdsVFB3ZTRuWGY0X1ZIU0ltUjJPeUdvdGFIMVJ2eFJqT3daMTJXcW5BSU5nUDM4Z0ZOVmZnVk9idzZTV1NLOXRITUNFZw?oc=5",
+   "date": "2026-10-03 00:20",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "캘리포니아 주민, 3억 달러 규모 NVIDIA 칩 중국 불법 반출 혐의",
+    "korean_summary": "미국 캘리포니아의 한 주민이 승인 없이 3억 달러 규모의 NVIDIA 칩을 중국으로 반출한 혐의로 기소되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQTnI0WFRsbGY4RENpS2E0d1NHNGNOUGZDNFU4MnR0ZGFycFJwTkRTVkFFY0J3V2k2OUVHQ0s5bEhIZUprT0c5M25pbWxMUHlJSE1tbG5zVkVzRU05LWNVRUZpelNaWDZ1MTJSTVlyUFZzdmo1ZkdmQzV6WGFCUVFzM2N3RXNVU2Jqb3pILXE5TzhITmh5VUQzbUx2VFNqN1FKSjdsVFB3ZTRuWGY0X1ZIU0ltUjJPeUdvdGFIMVJ2eFJqT3daMTJXcW5BSU5nUDM4Z0ZOVmZnVk9idzZTV1NLOXRITUNFZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Northeast Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Officials Say NVIDIA Missed Red Flags in China Chip Smuggling Cases",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlBXUUMwVk1uZW1uMW1jSVFsVkQzNXZOMmJVSUgwTzU2bWJ5UVZfbTdMc3hGT3FQY2NseFNmalZOaFhmd0l2UjJjbW0tTHhzR0I3NEtnSmVPeFdJUmtGaWVta2dpX1BHQUMzMUR4WlVud181bk9vTjF1MERpWjRfdnJ2YXAzdVlOZnBTb18zNkZVM2s1YjhxcWxsM29RckVHb1lYMUJTZUpCZw?oc=5",
+   "date": "2026-10-03 01:49",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "당국, NVIDIA 불법 칩 반출 사건에서 위험신호 간과했다고 지적",
+    "korean_summary": "정부 관계자들이 NVIDIA가 중국 칩 밀수 사건의 여러 위험신호를 놓쳤다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlBXUUMwVk1uZW1uMW1jSVFsVkQzNXZOMmJVSUgwTzU2bWJ5UVZfbTdMc3hGT3FQY2NseFNmalZOaFhmd0l2UjJjbW0tTHhzR0I3NEtnSmVPeFdJUmtGaWVta2dpX1BHQUMzMUR4WlVud181bk9vTjF1MERpWjRfdnJ2YXAzdVlOZnBTb18zNkZVM2s1YjhxcWxsM29RckVHb1lYMUJTZUpCZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "California tech executive arrested for allegedly smuggling $300M in Nvidia AI chips to China",
+   "link": "https://qz.com/greg-lui-earthmade-nvidia-ai-chips-smuggling-china-100226",
+   "date": "2026-10-02 22:06",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "캘리포니아 IT 임원, 3억 달러 NVIDIA 칩 중국 밀수 혐의로 체포",
+    "korean_summary": "캘리포니아의 한 기술 임원이 3억 달러 규모의 NVIDIA 칩을 중국으로 밀수한 혐의로 체포되었다."
+   },
+   "summary_data": {
+    "korean_title": "캘리포니아 기술업체 대표, 3억 달러 규모 Nvidia AI 칩 밀반출로 체포",
+    "korean_summary": "Earthmade Computer Inc. 소유주 Greg Lui가 말레이시아·싱가포르를 경유해 Nvidia H100 GPU 탑재 서버를 중국으로 불법 밀반출한 혐의로 체포되었다.",
+    "action": {
+     "actor": "미국 법무부 (Justice Department)",
+     "action": "Greg Lui를 수출통제법 위반 공모, 밀반출, 자금세탁 공모 혐의로 기소·체포",
+     "stage": "Filed",
+     "timeline": "체포는 2026년 목요일 (정확한 날짜 미확인), 밀반출 행위는 2023~2024년",
+     "scope": "Nvidia GPU 탑재 서버, 미국-말레이시아/싱가포르-중국 경로"
+    },
+    "key_facts": [
+     "**3억 달러 이상 규모**의 수출통제 대상 Nvidia AI 칩 탑재 서버를 중국으로 밀반출한 혐의",
+     "2023~2024년 사이 Earthmade Computer Inc.를 통해 미국 상무부 라이선스 없이 서버 구매·경유 수출",
+     "허위 서류로 최종 목적지를 말레이시아·싱가포르로 위장한 뒤 **중국으로 재수출(transshipment)**",
+     "2024년 1~10월 사이 말레이시아 선적업체 2곳으로부터 1억 7,600만 달러 이상 수령",
+     "대표 사례: Nvidia H100 GPU 탑재 서버 27대(약 760만 달러)를 로스앤젤레스→쿠알라룸푸르 경유 중국 반출"
+    ],
+    "why_matters": "이번 사건은 Nvidia H100 등 첨단 AI 칩에 대한 대중국 수출통제가 **제3국 경유(transshipment) 방식으로 광범위하게 우회**되고 있음을 보여주는 구체적 증거다. 미국 정부의 단속 강화는 Nvidia의 중국向 GPU 공급망과 유통채널 전반에 대한 규제 리스크를 다시 부각시킨다.",
+    "subject_angle": "Nvidia는 직접 연루되지 않았으나, 자사 GPU가 **불법 밀수출의 핵심 대상**으로 지목되면서 중국向 공급 통제·고객 검증(KYC) 강화 압박이 커질 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "밀반출 대상 AI GPU(H100) 제조사"
+     },
+     {
+      "name": "Earthmade Computer Inc.",
+      "context": "밀반출 스킴에 사용된 Greg Lui 소유 기업"
+     },
+     {
+      "name": "U.S. Department of Justice",
+      "context": "기소 및 수사 주체"
+     },
+     {
+      "name": "FBI / Bureau of Industry and Security / Defense Criminal Investigative Service",
+      "context": "공동 수사 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia H100 GPU",
+      "role": "밀반출된 서버에 탑재된 핵심 수출통제 대상 AI 칩"
+     }
+    ],
+    "watch_next": [
+     "Greg Lui 재판 일정 및 유죄 판결 여부",
+     "미국 상무부(BIS)의 추가 대중국 수출통제 강화 조치 여부",
+     "Nvidia의 유통채널·재판매업체 검증 절차 변경 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "CA tech executive arrested for allegedly smuggling $300M in Nvidia chips to CN",
+     "link": "https://qz.com/greg-lui-earthmade-nvidia-ai-chips-smuggling-china-100226"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OdG03bTRxOTA0RWtNN1ZXMTJSYlREMlF0X0JXajF6MXRuMzlndGdadlBFQ0RMLWVTdGhnSFFwV29XcW5USVhyd0FPeDhja0hpOVFvT0tGMWlvemI4bXFFeGdhaHhqUFBiSG5zUFZBbktjclA4ZkFnV0tKOWg",
+   "body": "Greg Lui, the owner of a San Gabriel Valley-based technology company, was arrested Thursday on a three-count federal indictment charging him with smuggling more than $300 million worth of export-controlled computer servers containing Nvidia $NVDA artificial intelligence chips to China. Lui, 38, of San Gabriel, California, owns Earthmade Computer Inc., based in City of Industry, California. He faces one count of conspiracy to violate the Export Control Reform Act, one count of outbound smuggling, and one count of conspiracy to commit money laundering, the Justice Department said. A conviction on all three counts could bring a sentence of up to 20 years each on the two conspiracy charges and as many as 10 years on the smuggling count, the Justice Department said. Prosecutors said Lui and unnamed co-conspirators used Earthmade between 2023 and 2024 to buy export-controlled servers containing Nvidia GPUs and route them to China without the required U.S. Commerce Department licenses. To circumvent export controls, Lui and his co-conspirators submitted false documentation to U.S. manufacturers misrepresenting where the equipment would end up, then shipped the servers to Malaysia and Singapore — jurisdictions that do not require licenses for such purchases — before illegally re-exporting them to China, according to the Justice Department. Earthmade received more than $176 million from two Malaysia-based shipment companies as part of the scheme between January and October 2024. In one example detailed in the indictment, Lui submitted a purchase order for 27 servers containing Nvidia H100 GPUs at a cost of approximately $7.6 million, according to Bloomberg. Those servers were shipped from Los Angeles to Kuala Lumpur, Malaysia, and a co-conspirator subsequently emailed a Malaysian government official confirming they had been transshipped to a buyer in China, the Justice Department said. According to Bloomberg, federal prosecutors sought to keep Lui behind bars pending trial, citing concern that he posed a flight risk if let go. \"This defendant allegedly used false paperwork and shipments through third countries to smuggle more than $300 million in export-controlled computer servers to China,\" First Assistant U.S. Attorney Bill Essayli said in a statement. The FBI, the Commerce Department's Bureau of Industry and Security, and the Defense Criminal Investigative Service are investigating the case against Lui. Daily Brief The essential business news, delivered fresh every morning. Join 500,000+ readers who start their day with Quartz. Sign me up By subscribing, you agree to our Terms of Service and Privacy Policy."
+  },
+  {
+   "source": "Google News · TNGlobal",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Seeing Machines demonstrates real-time 3D human understanding for Physical AI on NVIDIA Jetson Thor",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcndTU29NMVFpOFZobmUyTVQ5eHA2MWRlUXJMUk5kaVZ6VVlubnZOTzhRMG4tNjZSNWJJT2FaYVo0WDdnMW1wSlJwYUdkbGc0WHBacmJYOFFmZlU5OWt3TFBDdDU5N2YxWlZyYUhMdjdNTHJHZVFIWFJCcnlpS0VMRDU5TlVCR2FZMVVhYVFzbGdPMkhqUHhOWGpyTmFJNDJEdzAtLXdmVUI?oc=5",
+   "date": "2026-10-02 10:30",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "Seeing Machines, NVIDIA Jetson Thor에서 3D 인간 이해 기술 시연",
+    "korean_summary": "Seeing Machines가 NVIDIA Jetson Thor 플랫폼에서 실시간 3D 인간 이해 기술을 시연했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcndTU29NMVFpOFZobmUyTVQ5eHA2MWRlUXJMUk5kaVZ6VVlubnZOTzhRMG4tNjZSNWJJT2FaYVo0WDdnMW1wSlJwYUdkbGc0WHBacmJYOFFmZlU5OWt3TFBDdDU5N2YxWlZyYUhMdjdNTHJHZVFIWFJCcnlpS0VMRDU5TlVCR2FZMVVhYVFzbGdPMkhqUHhOWGpyTmFJNDJEdzAtLXdmVUI",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+   "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+   "date": "2026-10-02 22:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA DGX Spark 64GB, 로컬 AI 개발자 타겟 6개 OEM 협력",
+    "korean_summary": "NVIDIA가 Grace Blackwell 기반 DGX Spark 64GB 버전을 Acer, ASUS, Dell, Gigabyte, HP, MSI와 협력하여 이달 출시한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA DGX Spark 64GB 출시, 로컬 AI 구축과 확장의 새로운 선택지 제공",
+    "korean_summary": "NVIDIA가 Acer·ASUS·Dell·Gigabyte·HP·MSI를 통해 **DGX Spark 64GB** 모델을 출시해 개발자들이 클라우드 없이 최대 1000억 파라미터 모델을 로컬에서 실행하고 NVIDIA Sync Cluster Assistant로 간편하게 클러스터링할 수 있게 했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DGX Spark의 64GB 메모리 신규 구성을 제조 파트너를 통해 출시하고, NVIDIA Sync Cluster Assistant/Model Launcher로 멀티노드 클러스터링을 단순화",
+     "stage": "Available",
+     "timeline": "Friday, Oct. 23 (연도 미확인); NVIDIA Sync Model Launcher는 월말 출시",
+     "scope": "DGX Spark 64GB, Acer·ASUS·Dell·Gigabyte·HP·MSI 6개 제조 파트너를 통한 글로벌 판매"
+    },
+    "key_facts": [
+     "DGX Spark 64GB는 **$4,999**부터 시작하며 Oct. 23 출시",
+     "GB10 Grace Blackwell Superchip, DGX OS, 전체 NVIDIA AI 소프트웨어 스택을 128GB 모델과 동일하게 탑재",
+     "단일 유닛은 최대 1000억 파라미터 모델 지원, QSFP 케이블로 2대 연결 시 메모리 128GB 풀링 및 **최대 2000억 파라미터 모델** 지원",
+     "Qwen 3.8 27B 테스트에서 2유닛 클러스터가 단일 시스템 대비 최대 1.7배 성능 제공",
+     "모든 유닛에 NVIDIA ConnectX-7 NIC 기본 탑재, 200GbE 패브릭으로 연결"
+    ],
+    "why_matters": "온디바이스에서 대형 모델을 구동할 수 있는 저렴한 개인용 AI 슈퍼컴퓨터가 등장하면서 **클라우드 의존 없는 로컬 에이전트 개발**이 대중화되는 변곡점이 될 수 있다. 이는 Apple Mac Studio, AMD 기반 미니 워크스테이션 등 로컬 AI 하드웨어 경쟁에서 NVIDIA가 가격·소프트웨어 생태계 양면으로 입지를 강화하는 움직임이다.",
+    "subject_angle": "NVIDIA는 **데이터센터를 넘어 데스크사이드 개인용 AI 컴퓨팅** 시장까지 CUDA·Grace Blackwell 스택을 확장하며, 저가 SKU와 손쉬운 클러스터링 소프트웨어(Sync)로 개발자 락인을 강화하려는 전략을 보인다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DGX Spark 플랫폼 및 Grace Blackwell 칩, Sync 소프트웨어 제공"
+     },
+     {
+      "name": "Acer",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "ASUS",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "Dell",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "Gigabyte",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "HP",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "MSI",
+      "context": "DGX Spark 64GB 제조 파트너"
+     },
+     {
+      "name": "Blender",
+      "context": "DGX Spark 플랫폼을 지원하는 초기 주요 창작 애플리케이션 제공업체"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DGX Spark 64GB",
+      "role": "신규 저가형 로컬 AI 슈퍼컴퓨터 구성"
+     },
+     {
+      "name": "GB10 Grace Blackwell Superchip",
+      "role": "DGX Spark의 핵심 컴퓨팅 칩"
+     },
+     {
+      "name": "NVIDIA ConnectX-7",
+      "role": "클러스터링용 내장 네트워킹 NIC"
+     },
+     {
+      "name": "NVIDIA Sync Cluster Assistant",
+      "role": "멀티노드 클러스터 자동 구성 소프트웨어"
+     },
+     {
+      "name": "NVIDIA Sync Model Launcher",
+      "role": "단일/클러스터 시스템에서 모델 실행을 단순화하는 도구(월말 출시)"
+     },
+     {
+      "name": "Nemotron",
+      "response_placeholder": ""
+     }
+    ],
+    "watch_next": [
+     "NVIDIA Sync Model Launcher 실제 출시 및 성능 검증",
+     "Blender 등 추가 크리에이터 앱의 DGX Spark 지원 확대 여부",
+     "DGX Spark 64GB의 실제 판매량 및 경쟁 제품(Mac Studio 등) 대비 시장 반응"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+     "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4tQkRUazBSYXFrUFhDd3A1anlHUzdWQVg0dDJZRmVqSU44eU0wZm9BYURqRDNfQXg4N2JHa2xXZU5oRkEySDQyMDNzcGlSc3c5QnVHdzVfc29GUzN6ei0tMldwS0tqNEZHWXpv?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+     "link": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+   "body": "Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory from top manufacturer partners — Acer, ASUS, Dell, Gigabyte, HP and MSI — giving developers, researchers and AI enthusiasts a new configuration with DGX OS and the NVIDIA AI software stack ready to use from day one. The new SKU runs capable local agents on device — privately, without cloud dependency. And when workloads grow, two units can cluster together via NVIDIA Sync Cluster Assistant without any additional setup. A New Starting Point for Personal AI Supercomputing DGX Spark combines NVIDIA Grace Blackwell compute, unified memory, NVIDIA ConnectX-7 networking and an NVIDIA CUDA -accelerated AI software stack in one system. It’s a complete local AI platform for agents, inference, fine-tuning, data science and edge development. The compact, personal AI supercomputer provides a place to experiment with models and developers’ own data without turning to a cloud instance for every task. The new 64GB configuration, available exclusively from manufacturer partners, keeps the platform at an accessible price point while retaining the GB10 Grace Blackwell Superchip, DGX OS and full NVIDIA AI software stack — same as the 128GB model. It supports up to 100-billion-parameter models and the agentic applications built on them, fully on device. Two 64GB units clustered together don’t just double the memory. In NVIDIA’s Qwen 3.8 27B test, two clustered 64 GB systems delivered up to 1.7x performance compared with a single system, with room to keep scaling as workloads demand. DGX Spark ships ready for agent development from day one — NVIDIA Agent Toolkit, CUDA-X AI libraries, Nemotron open models, and popular runtimes like Ollama, vLLM, and PyTorch with CUDA are all supported out of the box. Developers can go from power-on to running models in minutes. Blender is among the first major creator application providers to support the platform, with a prebuilt, downloadable installer coming soon . Scale Up With NVIDIA Sync Cluster Assistant Developers can start with the memory their projects need today and build on a platform designed to seamlessly scale multi-node clusters for larger workloads as their pipelines grow. Every DGX Spark ships with a built-in NVIDIA ConnectX-7 NIC right out of the box. Plus, two units can connect directly with a QSFP cable, pooling their memory to 128GB and expanding model support to up to 200 billion parameters while delivering twice the memory bandwidth and up to 1.7x the performance. The NVIDIA Sync app configures this multi-node cluster seamlessly. The cluster assistant feature detects connected units, validates device configuration and configures the ConnectX-7 network, so developers can focus on their work rather than the infrastructur"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "OpenAI’s Jalapeño ASICs are deployed alongside AMD EPYC ‘Turin’ CPUs as hosts, not Nvidia's Vera",
+   "link": "https://www.tomshardware.com/pc-components/cpus/openais-jalapeno-asics-are-deployed-alongside-amd-epyc-turin-cpus-as-hosts-hardware-vp-says-nvidias-vera-standalone-is-a-little-bit-behind-on-that-maturity-level",
+   "date": "2026-10-02 21:40",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "OpenAI Jalapeño ASIC, AMD EPYC Turin 선택, NVIDIA Vera 배제",
+    "korean_summary": "OpenAI가 자체 Jalapeño ASIC 배치에 AMD EPYC Turin CPU를 채택했으며, NVIDIA Vera의 성숙도 부족을 제외 사유로 명시했다."
+   },
+   "summary_data": {
+    "korean_title": "OpenAI, 자체 ASIC 'Jalapeño'에 Nvidia Vera 대신 AMD EPYC Turin CPU 선택",
+    "korean_summary": "OpenAI가 자체 설계 ASIC Jalapeño를 랙 스케일로 배치하면서 Nvidia의 신형 Vera CPU 대신 **AMD EPYC Turin**을 호스트로 채택한 이유를 Hardware 총괄 Richard Ho가 '성숙도 부족'과 '리스크 회피' 때문이라고 밝혔다.",
+    "action": {
+     "actor": "OpenAI",
+     "action": "자체 ASIC Jalapeño를 AMD EPYC Turin CPU(1.5TB 메모리)와 함께 랙 스케일로 내부 배치, Nvidia Vera는 미채택",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "OpenAI 내부 Jalapeño 랙 배치, Turin 호스트 기준"
+    },
+    "key_facts": [
+     "OpenAI의 Jalapeño ASIC이 **AMD EPYC Turin** 호스트(각 1.5TB 메모리)와 함께 내부 배치됨",
+     "Richard Ho(OpenAI VP, Head of Hardware)는 Nvidia Vera를 'a little bit behind on that maturity level'이라고 언급",
+     "Nvidia는 Vera가 AMD Turin 대비 1.8x 성능 우위를 주장했으나, 이는 SPEC CPU 2026 점수를 코어당으로 나눈 결과이며 **전체 벤치마크 기준으로는 3% 우위**에 불과",
+     "Vera는 보드 마운트 방식이고 Turin은 소켓형으로, 서비스 편의성에서 Turin이 유리함",
+     "OpenAI는 Arm AGI 배치 파트너이자 Nvidia Vera를 'exploring' 중인 고객 리스트에도 포함되어 있음"
+    ],
+    "why_matters": "Nvidia가 데이터센터 CPU 시장에서 처음 선보인 자체 커스텀 코어 Vera가 최대 협력 고객인 OpenAI로부터 '성숙도 부족'이라는 평가를 받으며 초기 채택에서 배제된 것은 **Vera의 시장 신뢰도 구축에 부정적 신호**다. 동시에 Nvidia가 제시한 1.8x 성능 우위 수치가 실제로는 3% 격차에 불과하다는 점이 드러나 벤치마크 마케팅의 신뢰성 문제도 부각된다.",
+    "subject_angle": "Nvidia의 Vera는 CPU 사업 확장을 위한 핵심 전략 제품이지만, **OpenAI 같은 핵심 고객조차 리스크 회피를 이유로 1세대 제품 도입을 유보**한 사례로, Nvidia가 CPU 시장에서 AMD·Arm 생태계 대비 입지를 다지기까지 시간이 더 필요함을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "OpenAI",
+      "context": "Jalapeño ASIC 설계·배치 주체, Turin 선택 결정"
+     },
+     {
+      "name": "AMD",
+      "context": "EPYC Turin CPU 공급, Jalapeño의 호스트 플랫폼 제공"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Vera CPU 개발사, OpenAI의 핵심 파트너이나 이번 배치에서 제외됨"
+     },
+     {
+      "name": "Arm",
+      "context": "AGI(Arm 자체 agentic CPU) 설계, OpenAI가 배치 파트너 중 하나"
+     },
+     {
+      "name": "SemiAnalysis",
+      "context": "Jalapeño 랙 스케일 배치 최초 보도"
+     }
+    ],
+    "products": [
+     {
+      "name": "Jalapeño",
+      "role": "OpenAI의 자체 설계 ASIC, 이번 배치의 핵심 칩"
+     },
+     {
+      "name": "AMD EPYC Turin",
+      "role": "Jalapeño의 호스트 CPU로 선택된 x86 플랫폼"
+     },
+     {
+      "name": "Nvidia Vera",
+      "role": "Nvidia의 신형 Arm 기반 커스텀 CPU, 이번 배치에서 미채택"
+     },
+     {
+      "name": "Arm AGI",
+      "role": "Agentic 워크로드용 Arm 자체 CPU, 비교 대상으로 언급"
+     }
+    ],
+    "watch_next": [
+     "Nvidia Vera의 추후 벤치마크 및 실제 워크로드 검증 결과",
+     "OpenAI가 향후 Jalapeño를 Vera 또는 Arm AGI와 함께 배치할지 여부",
+     "AMD Venice, Intel Diamond Rapids 등 차세대 서버 CPU와 Vera의 비교 벤치마크"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/cpus/openais-jalapeno-asics-are-deployed-alongside-amd-epyc-turin-cpus-as-hosts-hardware-vp-says-nvidias-vera-standalone-is-a-little-bit-behind-on-that-maturity-level",
+   "body": "OpenAI’s new Jalapeño ASIC is being deployed internally alongside AMD EPYC Turin hosts, each with 1.5TB of memory. SemiAnalysis described the rack-scale deployment of Jalapeño following the reveal of the chip, which we asked Richard Ho, VP and Head of Hardware at OpenAI, about in an interview. Ho told us that the decision to use Turin was “pragmatic,” describing Nvidia’s new Vera CPU as “a little bit behind… on that maturity level.” “The way we approached that design was really in terms of de-risking and being able to do that design fast. Vera, as a standalone, is a little bit behind on that maturity level. The Turing device is strong. It did what we needed to do, and partly our partners had some experience with it,” Ho told Tom’s Hardware Premium. “For the Jalapeño program, we were trying to make very pragmatic decisions. We wanted to be aggressive on the goals of the performance and the cost, but we didn’t want to take unnecessary risks. That felt like a good design decision that would fit within the parameters of how we make these design decisions.\" There are many Arm-based CPUs on the market, many of which are deployed internally at different hyperscalers, such as Google Cloud’s Axiom and AWS’ Graviton, but Vera and Arm’s own AGI have been described as agentic CPUs, purportedly accelerating the complex reasoning involved in agentic loops compared to their x86 counterparts from AMD and Intel. We asked Ho about this dynamic, and why Turin was the right choice given the close working relationship between OpenAI and Nvidia, who responded with the quote above. Arm has long touted the virtues of the AArch64 ISA compared to x86, going as far as to claim that its own AGI CPU provides more than twice the performance of modern x86 platforms. That claim is based on internal estimates, not real benchmarks, however. The company has been naturally bullish on AGI’s adoption in the market, though even with an impressive $2 billion in commitments, analysts say the market penetration will still be in the low single digits after two years. Nvidia shows Vera leading by up to 1.8x. However, that's due to dividing the overall score of SPEC CPU 2026 per-core. Overall, it's just 3% ahead. (Image credit: Nvidia) With the explosion of server CPU demand this year and evolving agentic workloads, Nvidia has been at the forefront of messaging, comparing its Arm-based Vera to the x86 competition, boldly claiming a 1.8x improvement over a competing AMD Turin chip; a figure that’s extracted from an overall benchmark suite showing Vera just 3% ahead of AMD’s EPYC 9755. Many semi-custom Arm designs, from Graviton to Azure’s Cobalt, have focused on core density and efficiency for cloud workloads. Vera and AGI are a shift toward messaging against peak performance. In early Vera benchmarks , Nvidia’s CPU looks impressive, though we’ve yet to see the chip in action in a wide variety of workloads, much less benchmarked against AMD’s upcoming Venice CPUs or Intel’s Diamond Rapids . "
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Sharon AI and Lambda secure GPU-backed debt funding",
+   "link": "https://www.datacenterdynamics.com/en/news/sharon-ai-and-lambda-secure-gpu-backed-debt-funding/",
+   "date": "2026-10-02 21:14",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "Sharon AI, 68,000개 NVIDIA GPU 배치 위해 3.65억 달러 부채 펀딩 조성",
+    "korean_summary": "오스트레일리아 Sharon AI가 2027년 중반까지 NVIDIA GPU 68,000개 배치를 위해 3.65억 달러의 GPU 담보 부채를 확보했다."
+   },
+   "summary_data": {
+    "korean_title": "Sharon AI와 Lambda, NVIDIA GPU를 담보로 대규모 부채 조달",
+    "korean_summary": "Neocloud 기업인 Sharon AI와 Lambda가 **NVIDIA GPU와 고객 계약을 담보로** 각각 3.65억 달러, 10억 달러 규모의 부채 조달에 성공해 GPU 인프라 확장 자금을 확보했다.",
+    "action": {
+     "actor": "Sharon AI, Lambda",
+     "action": "NVIDIA GPU 및 관련 현금흐름/고객 계약을 담보로 한 GPU-backed 부채 펀딩 확보",
+     "stage": "Announced",
+     "timeline": "미확인 (발표 시점 기준, Sharon AI는 68,000 GPU 배치를 2027년 중반까지 목표)",
+     "scope": "Sharon AI(Australia/APAC), Lambda(미국, 3개 고객 배치 지원)"
+    },
+    "key_facts": [
+     "Sharon AI는 **$365m 규모**의 senior secured GPU-backed SPV 부채를 9.95% 고정금리로 확보, 68,000 Nvidia GPU 배치(2027년 중반 목표)를 지원",
+     "Sharon AI의 최근 10개월간 누적 조달액은 debt+equity 합산 $2.6bn, 고객 offtake TCV는 $8.8bn 이상",
+     "Sharon AI는 Sydney GreenSquare 데이터센터에 **8,200 Nvidia Blackwell Ultra GPU** 배치 계약 체결",
+     "Lambda는 $1bn 규모 investment-grade delayed-draw term loan을 6.78% 고정금리로 확보, 이는 2026년 8월 $926m 시설 이후 두 번째 기관 신용시설이자 18개월 내 세 번째로 개설한 신용시장",
+     "CoreWeave, Nscale 등 다른 neocloud도 유사한 GPU-backed 대출을 확보한 바 있음"
+    ],
+    "why_matters": "GPU가 역사적으로 감가상각이 빠른 자산임에도 **AI 수요 지속으로 가치 유지 기간이 길어지면서 부채 담보로서의 신뢰도가 높아지고 있다**는 점을 보여준다. 이는 neocloud들이 NVIDIA GPU 대량 구매를 위한 자금조달 채널을 다변화(지분→부채→기관 신용시장)하고 있음을 시사하며, GPU 수요 지속성에 대한 시장의 신뢰를 반영한다.",
+    "subject_angle": "NVIDIA GPU 자체가 금융기관으로부터 **담보 가치를 인정받는 자산으로 자리잡은 것**은 NVIDIA 하드웨어의 장기 수요 안정성과 생태계 신뢰도를 간접적으로 입증하며, neocloud들의 대규모 GPU 조달 자금력 확대는 결국 NVIDIA의 매출 파이프라인 확장으로 이어질 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Sharon AI",
+      "context": "Australia 기반 neocloud, GPU-backed 부채로 68,000대 NVIDIA GPU 배치 추진"
+     },
+     {
+      "name": "Lambda",
+      "context": "미국 neocloud, $1bn 기관 신용시설로 GPU 클라우드 인프라 확장"
+     },
+     {
+      "name": "Jarden Australia",
+      "context": "Sharon AI 거래의 단독 financial advisor/arranger"
+     },
+     {
+      "name": "J.P. Morgan",
+      "context": "Lambda 거래의 sole coordinating lead arranger"
+     },
+     {
+      "name": "GreenSquare",
+      "context": "Sydney 데이터센터 임대 제공, Sharon AI의 GPU 배치 장소"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "유사 GPU-backed 대출을 확보한 비교 사례 neocloud"
+     },
+     {
+      "name": "Nscale",
+      "context": "유사 GPU-backed 대출을 확보한 비교 사례 neocloud"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia GPU (일반)",
+      "role": "Sharon AI의 68,000대 배치 및 부채 담보 자산"
+     },
+     {
+      "name": "Nvidia Blackwell Ultra GPU",
+      "role": "Sharon AI가 Sydney GreenSquare 데이터센터에 8,200대 배치 예정"
+     }
+    ],
+    "watch_next": [
+     "Sharon AI의 68,000 GPU 배치 진행 상황 및 추가 GPU-backed financing 시리즈 공개 여부",
+     "Lambda의 $1bn 대출로 지원되는 3개 고객 배치의 구체적 정체 및 완료 시점",
+     "다른 neocloud들의 GPU-backed 부채 조달 확산 여부 및 금리 추세"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/sharon-ai-and-lambda-secure-gpu-backed-debt-funding",
+   "body": "Neoclouds Sharon AI and Lambda have separately announced GPU-secured debt funding rounds. Australia's Sharon AI has secured a $365m senior secured, GPU-backed SPV debt at a fixed price of 9.95 percent. The funding is secured by Sharon AI's GPUs and associated cash flows, and is the company's first in an expected series of GPU financings to support its planned deployment of 68,000 Nvidia GPUs by mid-2027. The debt brings Sharon AI's total raised through debt and equity to $2.6bn during the past 10 months. “As demand for sovereign and secure, trusted AI infrastructure continues to outpace available supply globally, and particularly across Australia, New Zealand and the broader Asia-Pacific, access to scalable debt capital is an important enabler of our growth,” said James Manning, co-founder and CEO of Sharon AI. “This facility demonstrates how we expect to access debt markets to fund our GPU deployments, leveraging our book of quality customer offtake now standing at a TCV of over $8.8bn. This is designed to enhance return on equity and ultimately drive increased long-term shareholder value. With a strong balance sheet, growing contracted capacity pipeline and a disciplined approach to capital allocation, we believe we are well positioned to continue scaling our AI platform across the Asia-Pacific region.” Jarden Australia acted as sole financial advisor and arranger. Sharon AI recently signed an agreement to lease capacity from GreenSquare's data center in Sydney, where it plans to deploy 8,200 Nvidia Blackwell Ultra GPUs. Lambda, meanwhile, has secured $1bn in senior secured fixed-rate financing. The funding is an investment-grade, delayed-draw term loan that was marketed to insurance companies and fixed-income investors. It will be used to fund the purchasing and development of GPU cloud infrastructure needed for three customer deployments that Lambda is contracted to support. The loan has a 6.78 percent fixed interest rate. It is Lambda's second institutional credit facility following the $926 million facility secured in August 2026. “The capital in this offering underwrites infrastructure in decades, not quarters, and has funded us as a private company on the strength of our customer contracts,” said Michel Combes, CEO of Lambda. “Building on our investment-grade Term Loan B and bank lending facility, this is the third new credit market Lambda has opened in the last 18 months. Our progression into deeper and more diversified pools of capital is the market's verdict on the durability of our contracts and the scalability of our business.” J.P. Morgan acted as sole coordinating lead arranger, structuring agent, and bookrunner. GPU-backed loans are growing in popularity but are still a relatively new concept. Hardware historically depreciates in value over time, making it an unreliable asset to secure debt with. However, with demand for AI continuing, even older hardware is retaining its value for longer, and GPUs, alongside large customer commit"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Micro Center requires photo ID and signed no-export pledge to buy RTX 5090 gaming GPU",
+   "link": "https://www.tomshardware.com/pc-components/gpus/micro-center-requires-photo-id-and-signed-no-export-pledge-to-buy-rtx-5090-gaming-gpu-buyer-forced-to-sign-declaration-disclosing-install-location-and-promise-gpu-will-remain-in-the-us",
+   "date": "2026-10-02 20:15",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "RTX 5090 소매 판매 시 미국 수출금지 서약서 서명 의무화",
+    "korean_summary": "Micro Center가 RTX 5090 판매 시 수출금지 선언서 서명을 의무화하며 미국 수출 규제 강화 현황 반영"
+   },
+   "summary_data": {
+    "korean_title": "Micro Center, RTX 5090 구매 시 신분증 제출 및 수출 금지 서약서 요구",
+    "korean_summary": "미국 소매업체 Micro Center가 RTX 5090 구매 고객에게 사진 신분증 제출과 수출 금지 서약서 서명을 요구하기 시작했으며, 이는 중국으로의 밀수출을 막기 위한 조치로 보인다.",
+    "action": {
+     "actor": "Micro Center",
+     "action": "RTX 5090 구매자에게 Advanced Computing Product Purchaser Declaration 양식 서명을 요구, 실명·주소·신분증·최종 사용처·설치 장소 등을 기재하게 하고 수출·재수출·재판매를 금지",
+     "stage": "Report",
+     "timeline": "미확인 (최근 시작, 정확한 일자는 미확인)",
+     "scope": "미국 Tustin, California 매장 사례 확인, 다른 매장 적용 여부는 미확인"
+    },
+    "key_facts": [
+     "고객이 PowerSpec AI90 Workstation(AMD Ryzen 9 9950X, **RTX 5090 Founders Edition**, 64GB DDR5-6000, 2TB SSD) 구매 시 해당 양식 서명을 요구받음",
+     "양식에는 **'NO EXPORT - NO EXCEPTIONS'** 문구가 명시되어 미국 밖으로의 반출을 금지",
+     "RTX 4090급 이상 GPU는 2023년 11월부터 대중국 수출이 금지되었으나, 당국은 최근에서야 밀수 단속을 본격화",
+     "Supermicro 공동창업자 Yih-Shyan 'Wally' Liaw 등 3명이 25억 달러 상당의 Nvidia 하드웨어를 불법 선적한 혐의로 체포된 사례가 있음",
+     "양식에 GPU 시리얼 번호가 기재되지 않아 실효성에는 의문이 제기됨"
+    ],
+    "why_matters": "이번 조치는 미국 소비자 유통 채널까지 수출통제 집행이 확산되고 있음을 보여주며, **RTX 5090급 고성능 GPU의 대중국 밀수출 억제**가 소매 단계에서도 중요한 이슈로 부상했음을 시사한다. 이는 Nvidia 제품에 대한 규제 압박이 제조·유통 전반으로 확대되고 있다는 신호다.",
+    "subject_angle": "Nvidia는 자사 최상위 소비자용 GPU인 **RTX 5090**이 중국 수출통제 회피의 주요 표적이 되고 있어, 공급망 전반에서 규제 준수 이미지 관리와 밀수 방지 협력이 사업상 중요한 과제로 부각되고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Micro Center",
+      "context": "RTX 5090 판매 시 수출 금지 서약서를 요구한 소매업체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "수출통제 대상인 RTX 5090 GPU 제조사"
+     },
+     {
+      "name": "Supermicro",
+      "context": "불법 Nvidia 하드웨어 수출 혐의로 직원이 체포된 서버 업체"
+     },
+     {
+      "name": "Central Computers",
+      "context": "유사한 구매 양식을 요구한 또 다른 소매업체"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX 5090 Founders Edition",
+      "role": "수출 금지 서약서 서명 대상이 된 고성능 소비자용 GPU"
+     },
+     {
+      "name": "PowerSpec AI90 Workstation",
+      "role": "RTX 5090이 탑재된 구매 사례의 완제품 워크스테이션"
+     }
+    ],
+    "watch_next": [
+     "다른 소매업체(Best Buy, Newegg 등)로의 유사 정책 확산 여부",
+     "Micro Center의 공식 입장 및 정책 도입 배경 발표 여부",
+     "미국 정부의 추가 수출통제 단속 사례 및 소매 단계 규제 강화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/micro-center-requires-photo-id-and-signed-no-export-pledge-to-buy-rtx-5090-gaming-gpu-buyer-forced-to-sign-declaration-disclosing-install-location-and-promise-gpu-will-remain-in-the-us",
+   "body": "A Micro Center customer who bought an RTX 5090 in Tustin, California, was required to sign an Advanced Computing Product Purchaser Declaration form, which bars exporting the GPU, before being approved to purchase the GPU. According to u/Krothic’s post on the r/Microcenter subreddit , they bought a PowerSpec AI90 Workstation with an AMD Ryzen 9 9950X CPU, an RTX 5090 Founders Edition GPU, 64GB DDR5-6000 RAM, and a 2TB SSD from the retailer and were surprised when the manager required them to sign the form, which you can see in the post below. Form for 5090’s from r/Microcenter The form requires a prospective RTX 5090 buyer to give their full legal name, residential or business address, government-issued photo ID, phone & email, actual end user (if different from purchaser), location where the product will be installed, and its intended end use. It also says, “NO EXPORT - NO EXCEPTIONS. Micro Center will not sell this product to a purchaser who intends to export, reexport, resell, transfer, or otherwise cause it to leave the United States, regardless of destination.” Micro Center did not mention why it recently began requiring the form, especially as other commenters in the Reddit post said that they weren’t required to do so previously. However, one other person said in the thread that they had to fill out a similar but longer form when they bought a GPU from Central Computers last summer. Even though GPUs that have the processing power of RTX 4090s or higher were first banned for export to China in November 2023, U.S. authorities only started seriously clamping down on smuggling operations recently. One major arrest, so far, is that of three Supermicro employees, including its co-founder, Yih-Shyan “Wally” Liaw, who are suspected of illicitly shipping $2.5 billion worth of Nvidia hardware to China . There have also been anecdotal reports of people buying used RTX 5090s in the U.S. en masse, arriving with testing rigs built into their cars and paying sellers in cash. It’s unclear how these Micro Center forms will stop or prevent the smuggling of RTX 5090 GPUs, especially as they don’t list the serial number of the GPU being sold. The policy is possibly a deterrent for those who casually purchase high-end equipment like this and sell it to another buyer at a higher price, whether that buyer plans to use it locally or export it illegally. We have reached out to Micro Center for comment and will update as necessary."
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+   "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+   "date": "2026-10-03 03:39",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "미국, NVIDIA 칩 불법 밀수 혐의로 CEO 체포",
+    "korean_summary": "Earthmade Computer CEO Greg Lui가 $300M 규모의 NVIDIA A100/H100 칩을 중국으로 불법 반출한 혐의로 기소"
+   },
+   "summary_data": {
+    "korean_title": "美 법무부, 3억 달러 규모 Nvidia 칩 중국 밀반출 혐의로 테크 CEO 체포",
+    "korean_summary": "미국 법무부가 Earthmade Computer CEO Greg Lui를 허위 서류로 3억 달러 이상 규모의 Nvidia A100·H100 GPU 탑재 서버를 중국에 밀반출한 혐의로 체포했다.",
+    "action": {
+     "actor": "US Department of Justice / FBI",
+     "action": "Nvidia A100·H100 GPU 탑재 서버의 대중국 불법 밀반출 혐의로 Earthmade Computer CEO Greg Lui 체포",
+     "stage": "Filed",
+     "timeline": "2025년 (목요일, 정확한 날짜 미확인)",
+     "scope": "Nvidia A100·H100 GPU 탑재 서버, 말레이시아·싱가포르 경유 대중국 밀반출"
+    },
+    "key_facts": [
+     "**38세 Greg Lui가 3억 달러 이상 규모의 서버 밀반출 혐의로 체포됨**",
+     "Earthmade Computer의 CEO로서 허위 서류를 사용해 수출통제 대상 Nvidia 칩 출하를 은폐한 혐의",
+     "말레이시아·싱가포르 등 남아시아 화물운송업체들과 공모해 중국으로 칩을 우회 반입했다는 FBI 기소 내용",
+     "**밀반출된 칩은 Nvidia A100 및 H100 GPU이며, 이는 Nvidia 최상위 제품은 아님**",
+     "해당 칩은 대규모 데이터 처리 및 LLM 학습이 가능해 중국의 AI·군사력 강화에 대한 미국의 안보 우려 대상"
+    ],
+    "why_matters": "이번 체포는 Nvidia 칩에 대한 미국의 수출통제 집행이 개인·기업 차원까지 확대되고 있음을 보여주며, 밀반출 규모(3억 달러)가 상당해 AI 반도체 암시장 유통 문제의 심각성을 드러낸다. **A100·H100 같은 구형 고성능 칩조차 중국 AI 역량 강화에 전략적 가치가 있다는 점**이 재확인되며 관련 수출통제·단속이 더욱 강화될 가능성을 시사한다.",
+    "subject_angle": "Nvidia는 직접적 법적 책임이 없지만 자사 칩의 불법 유통이 반복적으로 적발되면서 **미국 정부의 대중 수출통제 압박이 Nvidia 제품 설계·공급망 관리에 지속적 영향**을 미칠 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "밀반출 대상 A100·H100 GPU 제조사"
+     },
+     {
+      "name": "Earthmade Computer",
+      "context": "밀반출 혐의 기업, Greg Lui가 CEO"
+     },
+     {
+      "name": "US Department of Justice",
+      "context": "기소 및 체포 주체"
+     },
+     {
+      "name": "FBI",
+      "context": "수사 및 기소 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia A100 GPU",
+      "role": "밀반출 대상 수출통제 칩"
+     },
+     {
+      "name": "Nvidia H100 GPU",
+      "role": "밀반출 대상 수출통제 칩"
+     }
+    ],
+    "watch_next": [
+     "Greg Lui에 대한 기소 세부 혐의 및 재판 진행 상황",
+     "추가 밀반출 경로(말레이시아·싱가포르 외) 적발 여부",
+     "미국의 대중 AI 칩 수출통제 정책 추가 강화 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Ars Technica",
+     "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVlhTZzZkSkdEUlZRM1lhSlFCbTJvU1BPOVRmX0RGeGlkWGU2RTBCZzdOQWJsTDlFY1g4Q1pRRFA2aVlaSDItaVpUaC1zNURkUFh1TlBzS3VqQU91Q0NqV254NXphOG1OTEpWUTVwVzA1SXVWbzVYRHVfWlBSTXV2MzlxV0dFLTZzZ2VEQ1QtMDFBa2ozWmw0ZEphUWl6bnB3OXNLU3JWNFU3MzJwcV96VFJhTWVfQWNr?oc=5"
+    }
+   ],
+   "uid": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china",
+   "body": "The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China. In a press release on Thursday, the Department of Justice accused 38-year-old Greg Lui of using false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China. As the CEO of Earthmade Computer, Lui allegedly conspired with freight-forwarding firms in South Asian countries like Malaysia and Singapore to illegally divert chip shipments into China, including Nvidia’s A100 GPUs and H100 GPUs, the FBI’s indictment alleged. These are not Nvidia’s most advanced chips. However, the chips can process large amounts of data and train large language models, which the US fears could pose national security risks if China suddenly gets access to enough chips to drastically advance its AI or strengthen its military. Read full article Comments"
+  },
+  {
+   "source": "Google News · tomshardware.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia introduces 64GB DGX Spark to throw local AI fans a lifeline amid the RAMpocalypse — new GB10 config starts at $4999 for those who can work with less",
+   "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNNFhTNUhxdDVQdjd4T3kwZUZfUWQwWDZ6V0NOSXhySzN3bmdsOFo1QUpqNWV4R1Q3VzFCZXpLMVYxZk1wYXJwUFl3cmFlbzBOWGdfRmhaOUdVM3JSQ1hBcWQtY1hjbVhIWHdXUkxMU1NIWWNvMHo1aXdwUXVYRmt5YXhRcFJPNUQ2aW5nNjhoLWRPWS0yVmp2NV9YcExOTTJiMnZ2TWRNaW5PNjEtZVppdmRKYkoydDZqS1VxZTg0R09tSERDUW4zY3k3NWdMb0tNcTBBVFZmLW1nUHRWS212dHlZNlVGSHdQcHRYQWRnSmd6RjZXWEtqU1VERGM1Q1hpREZTN3pCRkVaRG5menN6ak8wdmhyYnlkZFFidTFOWmRDZUMtU1ZtbmY4TQ?oc=5",
+   "date": "2026-10-02 22:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA 64GB DGX Spark 출시, GB10 모델 $4999부터",
+    "korean_summary": "NVIDIA가 메모리 부족 해결을 위해 64GB DGX Spark를 발표했으며 GB10 구성은 $4999부터 시작한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNNFhTNUhxdDVQdjd4T3kwZUZfUWQwWDZ6V0NOSXhySzN3bmdsOFo1QUpqNWV4R1Q3VzFCZXpLMVYxZk1wYXJwUFl3cmFlbzBOWGdfRmhaOUdVM3JSQ1hBcWQtY1hjbVhIWHdXUkxMU1NIWWNvMHo1aXdwUXVYRmt5YXhRcFJPNUQ2aW5nNjhoLWRPWS0yVmp2NV9YcExOTTJiMnZ2TWRNaW5PNjEtZVppdmRKYkoydDZqS1VxZTg0R09tSERDUW4zY3k3NWdMb0tNcTBBVFZmLW1nUHRWS212dHlZNlVGSHdQcHRYQWRnSmd6RjZXWEtqU1VERGM1Q1hpREZTN3pCRkVaRG5menN6ak8wdmhyYnlkZFFidTFOWmRDZUMtU1ZtbmY4TQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · finance.yahoo.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon Reportedly Seeks Investors for $8 Billion Nvidia Chip Financing Structure",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUjlYQzE1ZnFVZTBxYWJQdUIyc3kyQU5tRXNIRjBuWW5xY042NlIyaWdUOEpFY2t3V2hnZWlySmhOUTRlTERVX3JQbU9iUnhvWDlKaHh6RzIyYl80RWowZ2FMNkFqOVlWNUpFbHVwcTZQcHFsNzBKYU9qSGotRTZyRDl0WUpPcDd5LXJfa0NDY1p3eHZiSFc2X3NPQlhvOTcz?oc=5",
+   "date": "2026-10-02 19:29",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Amazon, NVIDIA 칩 구매 80억 달러 규모 자금 조달",
+    "korean_summary": "Amazon이 NVIDIA 칩 대량 구매를 위한 80억 달러 규모의 자금 조달 구조에 투자자를 모집 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUjlYQzE1ZnFVZTBxYWJQdUIyc3kyQU5tRXNIRjBuWW5xY042NlIyaWdUOEpFY2t3V2hnZWlySmhOUTRlTERVX3JQbU9iUnhvWDlKaHh6RzIyYl80RWowZ2FMNkFqOVlWNUpFbHVwcTZQcHFsNzBKYU9qSGotRTZyRDl0WUpPcDd5LXJfa0NDY1p3eHZiSFc2X3NPQlhvOTcz",
+   "body": ""
+  },
+  {
+   "source": "Google News · tomshardware.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China — federal prosecutors say chips were routed through Malaysia and Singapore using false paperwork",
+   "link": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE?oc=5",
+   "date": "2026-10-02 23:53",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "캘리포니아 기술 CEO 체포, NVIDIA AI 칩 3억 달러 중국 밀반출 혐의",
+    "korean_summary": "미국 연방검사가 말레이시아·싱가포르를 거쳐 위조 서류로 3억 달러 규모의 NVIDIA AI 서버를 중국으로 밀반출한 혐의로 캘리포니아 기술 회사 CEO를 기소했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPTS1ZdWR6VWFvcURsdGFQNUZjODR2QkZVOFk4c3hBT3hBNnlyY0k1Q0oyRzNFNk4wY0Q3VTlKdEU0aVdUdGZHNW1YWkN2LUxpcUE4MmJBdVhSRkFyLTFRSEhocUloZTB1MnFNYnV6TmN0WENtUC01aGc5WkpLazJBZGZuNGYtVzZNYmoyX2pDQjNYS1VYSHd5MklwTk1aVWYwNktaUm1JWms0SGFEbWlTMDBXYzJZRUYtWURTQ2lZaVZxMmptaDdnWDctek81dWJQME4xTHh4a1FQT1NPWHMycWptS0hvUzYxVWhOZXBqVWd2VVgxWWlOWWJRWDg3SGY4OVFMY3lPbGVyU3pXa3QzZnlnTGxtWGRicDhjYjdvbndvTzJGNHlxS05Ja25FRGMyeF96Q1hjLU9JWmlrQ2RBUkw3Tm42dDEzU245ZmxFdVZlT0RtbTVaRUcwTk5TbDJEa3FPdXpyeVZ6OUFxMWY3Yzkwa3JIcERwM0NmX3ozUjJaLWcwY3FXN1FKNm1lMUF4UFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Man Charged by US With Illegally Shipping Nvidia Chips to China",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaG1Cb2o1VlRFTXR6eE14TFgtMVEwbXM5OEJLekFLSXBOUVh2dGwwa3dQc0RhR0d1VjZLb3Y4UVZQb1AwRnpJcV9XNDZkYUs2T0hSQWR0V3JVYVBDTUczNEFOTHhGRjdSazBqVVBCeEhTT1Fncmo3a3l5Q0MwSnlRZTVJcnRTTDY2VjUzNERxeVVmcElpVFhpQTZXWE5ENS1EdFIxV0kwTTVNTE5JUUkwSmJnTUk?oc=5",
+   "date": "2026-10-03 02:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "미국, NVIDIA 칩 불법 반출 혐의 남성 기소",
+    "korean_summary": "미국 정부가 NVIDIA 칩을 중국으로 불법 반출한 혐의로 남성을 기소했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaG1Cb2o1VlRFTXR6eE14TFgtMVEwbXM5OEJLekFLSXBOUVh2dGwwa3dQc0RhR0d1VjZLb3Y4UVZQb1AwRnpJcV9XNDZkYUs2T0hSQWR0V3JVYVBDTUczNEFOTHhGRjdSazBqVVBCeEhTT1Fncmo3a3l5Q0MwSnlRZTVJcnRTTDY2VjUzNERxeVVmcElpVFhpQTZXWE5ENS1EdFIxV0kwTTVNTE5JUUkwSmJnTUk",
+   "body": ""
+  },
+  {
+   "source": "Google News · AOL.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Is Back at Its May Record. Its Quarterly Revenue Is 41% Higher.",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fd3ZyR3UxZE5YNVI2M2xHZjluX2k1T0V6VlZNNFhfeVEtVmlnUDk1ZDJJZDZGUDg4NWdBU1ktVTU4YVVQM3VITDRUNzRHNm5Ec3ZRa3ZzSk8xSjFmZ2tPSEFOa0p5bldsZmZFcWhod0tremdMMWR5OW9zS0M?oc=5",
+   "date": "2026-10-03 07:07",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 주가 5월 기록 회복, 분기 실적 41% 증가",
+    "korean_summary": "NVIDIA 주가가 5월 최고 기록을 회복했으며 분기 실적이 41% 증가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fd3ZyR3UxZE5YNVI2M2xHZjluX2k1T0V6VlZNNFhfeVEtVmlnUDk1ZDJJZDZGUDg4NWdBU1ktVTU4YVVQM3VITDRUNzRHNm5Ec3ZRa3ZzSk8xSjFmZ2tPSEFOa0p5bldsZmZFcWhod0tremdMMWR5OW9zS0M",
+   "body": ""
+  },
+  {
+   "source": "Google News · finance.yahoo.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Musk's robotic big bets will test Anthropic's latest projections",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzd0ZG1wZmNIY250ZFFXOEIzaVBocFlYMVBEVWVJV01wSGQzR3J2VGxYRmZMNEI0ZFdZTGhFTEotN3RsODNVYmlFS3EwSEd4OGp1NTg0V25KUVFYSko4SmZBcmR0X21PQUZBVUx0U3hqcU9fWlp0V21hZXdidnBwSFVLZFlaT3luc0hZTmN0bjI4ZndBeXlJQjdZcy1FcHlYWmxENDZ0LUFLclFITlBrcHJUZ1Y0bmRISU5xSTdDV2lQYWwtRm44TFRzZFRFZw?oc=5",
+   "date": "2026-10-02 18:56",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA와 Musk 로봇 투자, Anthropic 예측 검증",
+    "korean_summary": "NVIDIA와 Musk의 로봇 분야 대규모 투자가 Anthropic의 예측을 검증하게 될 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNRzd0ZG1wZmNIY250ZFFXOEIzaVBocFlYMVBEVWVJV01wSGQzR3J2VGxYRmZMNEI0ZFdZTGhFTEotN3RsODNVYmlFS3EwSEd4OGp1NTg0V25KUVFYSko4SmZBcmR0X21PQUZBVUx0U3hqcU9fWlp0V21hZXdidnBwSFVLZFlaT3luc0hZTmN0bjI4ZndBeXlJQjdZcy1FcHlYWmxENDZ0LUFLclFITlBrcHJUZ1Y0bmRISU5xSTdDV2lQYWwtRm44TFRzZFRFZw",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · qz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A Chinese state-backed firm financed purchases of restricted Nvidia AI chips, filings show",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5qZ1l6YUpqeUNocTVsOXVCa3F4Uko0NGlLUzU2aE82bFJzeFBpYWQxeHMtWTFsS3ZPRDl5OTFCVG1ZV2ZfcS13cUs3eEdOOEwwWm1PRDROTmdnVEgtbTF1eXVqcXA0YjNKYmd3NmpVUzdFZ1F6NW9aRTduYms?oc=5",
+   "date": "2026-10-02 22:21",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 정부 지원 기업, 제한된 NVIDIA 칩 구매 자금 조성",
+    "korean_summary": "중국 정부 지원 기업이 미국 수출 제한 NVIDIA AI칩 구매 자금을 조성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5qZ1l6YUpqeUNocTVsOXVCa3F4Uko0NGlLUzU2aE82bFJzeFBpYWQxeHMtWTFsS3ZPRDl5OTFCVG1ZV2ZfcS13cUs3eEdOOEwwWm1PRDROTmdnVEgtbTF1eXVqcXA0YjNKYmd3NmpVUzdFZ1F6NW9aRTduYms",
+   "body": ""
+  },
+  {
+   "source": "Google News · finance.yahoo.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon hiking AI chip rental prices, exploring Nvidia leaseback",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU3p6cTdLbEkwS1dOWDZMZnk5RURsTDlZVWhRZWQ5S29NSkI0OEI2YjBxSl9vdHAya3FleVRudWtnY21TZEZNMlhod3N4S1NIbjV6bE1fSTNiemU2RHEyLWpVZEMyVE0xa29WRHR6Z0ZNY1Q4cktOQ2RfLWRvNl9MYWk4X1J5eHljeGZXNjhRel9aUi1fZ0NV?oc=5",
+   "date": "2026-10-02 21:21",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Amazon, AI 칩 임대료 인상 및 NVIDIA 리스백 검토",
+    "korean_summary": "Amazon이 AI 칩 임대료를 인상하고 NVIDIA 리스백 도입을 검토 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPU3p6cTdLbEkwS1dOWDZMZnk5RURsTDlZVWhRZWQ5S29NSkI0OEI2YjBxSl9vdHAya3FleVRudWtnY21TZEZNMlhod3N4S1NIbjV6bE1fSTNiemU2RHEyLWpVZEMyVE0xa29WRHR6Z0ZNY1Q4cktOQ2RfLWRvNl9MYWk4X1J5eHljeGZXNjhRel9aUi1fZ0NV",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Ian Buck Says CoreWeave’s V100 GPUs Still Run Nearly A Decade Later, Even As Vera Rubin NVL72 Goes Live With a 4.8x Token Generation Speedup",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWi1NN0FPTl82U1JfTGpnVmwyYTQ4RUpnY3JyZ042UkJzQ1ZFOTU2TTlLZmRCUzAtbEhDdlhuWmRQdXg5ckkxZm8xa3hnaFQtT1lLQ1BqY1lJdVM5NWIxYXhHUmpXTUtGajNCeEZsV0s0WHBtZkNRbjYyRnlpTTU0bTJOakFqTlZGdkNYbDJuTW1DLVNYcWthemxIWV9XeDh3UVHSAacBQVVfeXFMTVFKd04wNXNRXzg0clNwdjZoUFBJaVZkUVJBeVdvQ09hMDRpY2QtdXNsQmQ1amU0ZjVqRUlPVmhwLW1uWi1KNlNJejdrUU1DTkdQMXRJOUJvbW50V1Brd1h2VmdhUjdKdERUQUlmX3c0dTJmY0NLLWRuOUhFNkZYWDRRRnZzMTF1RGRLcGlOb3RtTU9aRVNsdURtaDdLY3pSaVFORVR0d0k?oc=5",
+   "date": "2026-10-03 04:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "Ian Buck, V100 장수명 강조 및 Vera Rubin NVL72 성능 공개",
+    "korean_summary": "Ian Buck이 V100의 십년 이상 운영 가능성을 언급하며, Vera Rubin NVL72가 토큰 생성 속도에서 4.8배 성능 향상을 달성했다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWi1NN0FPTl82U1JfTGpnVmwyYTQ4RUpnY3JyZ042UkJzQ1ZFOTU2TTlLZmRCUzAtbEhDdlhuWmRQdXg5ckkxZm8xa3hnaFQtT1lLQ1BqY1lJdVM5NWIxYXhHUmpXTUtGajNCeEZsV0s0WHBtZkNRbjYyRnlpTTU0bTJOakFqTlZGdkNYbDJuTW1DLVNYcWthemxIWV9XeDh3UVHSAacBQVVfeXFMTVFKd04wNXNRXzg0clNwdjZoUFBJaVZkUVJBeVdvQ09hMDRpY2QtdXNsQmQ1amU0ZjVqRUlPVmhwLW1uWi1KNlNJejdrUU1DTkdQMXRJOUJvbW50V1Brd1h2VmdhUjdKdERUQUlmX3c0dTJmY0NLLWRuOUhFNkZYWDRRRnZzMTF1RGRLcGlOb3RtTU9aRVNsdURtaDdLY3pSaVFORVR0d0k",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Micro Center now requires RTX 5090 buyers to show ID and sign no-export declaration",
+   "link": "https://www.reddit.com/r/nvidia/comments/1wvnqqt/micro_center_now_requires_rtx_5090_buyers_to_show/",
+   "date": "2026-10-02 16:43",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Micro Center RTX 5090 구매 시 신원 확인 및 수출금지 서약 요구",
+    "korean_summary": "Micro Center가 RTX 5090 구매자에게 신원 확인과 미국 수출금지 서약을 요구하기 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1wvnqqt/micro_center_now_requires_rtx_5090_buyers_to_show",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · South China Morning Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "US man arrested over alleged $300 million Nvidia server smuggling to China",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUzhSSHFjVXlCV2w5cV85cVZEQmxndFQyTzJjby1FZG9Pa2wwdDA5WjN3QjRJVE5zeFJhMGh4UlkxYjJlVVVNbHJZRGxVb0g5aUR3UVdwU3R6aUE0VFZ6MkhsQ1lxSWs4R1dNeVFvQWcyTVRmRDljLU45TnJkRnhab3JpREIzOGNaMDUzOV9wOGhxbTJrMEE5MEd3c3l2MXZWcUpWUTItZGVpV3dpbUE3UHJvaG9nUGRvaU1xdGJsVEVyUdIBwgFBVV95cUxQcTd6MmRqbWhhaWJ1QVlER3ZPSXVSeWViUnBhU2xQNjc0VVdVMW53eGFhUGt4OXNwMUhMcjFldXJWUm1oWm9ILThSelJNOXpjRUhPRFBYT2lxaTR4OFo5Ri1tTXBNTlVocVJSVGh3Uks4S0J0ejllZjEyamRtb01wRlFQSWNCaUNhblVqOTVWalZ5Nnl4V0RhMzJBR24xa3RWd19KcnBYNlF1bDJwVTd1OWtma0NjZEtEMmFlcC02d1d1Zw?oc=5",
+   "date": "2026-10-03 06:57",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 서버 3억 달러 밀수 혐의로 미국인 체포",
+    "korean_summary": "미국인이 중국으로 3억 달러 규모의 NVIDIA 서버를 밀수입한 혐의로 체포되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUzhSSHFjVXlCV2w5cV85cVZEQmxndFQyTzJjby1FZG9Pa2wwdDA5WjN3QjRJVE5zeFJhMGh4UlkxYjJlVVVNbHJZRGxVb0g5aUR3UVdwU3R6aUE0VFZ6MkhsQ1lxSWs4R1dNeVFvQWcyTVRmRDljLU45TnJkRnhab3JpREIzOGNaMDUzOV9wOGhxbTJrMEE5MEd3c3l2MXZWcUpWUTItZGVpV3dpbUE3UHJvaG9nUGRvaU1xdGJsVEVyUdIBwgFBVV95cUxQcTd6MmRqbWhhaWJ1QVlER3ZPSXVSeWViUnBhU2xQNjc0VVdVMW53eGFhUGt4OXNwMUhMcjFldXJWUm1oWm9ILThSelJNOXpjRUhPRFBYT2lxaTR4OFo5Ri1tTXBNTlVocVJSVGh3Uks4S0J0ejllZjEyamRtb01wRlFQSWNCaUNhblVqOTVWalZ5Nnl4V0RhMzJBR24xa3RWd19KcnBYNlF1bDJwVTd1OWtma0NjZEtEMmFlcC02d1d1Zw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon seeks to offload $8 billion of Nvidia chips to investors, FT reports",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRWF3eFJHazFWalZDX1QwWHBoSWd5TEwxSW1ZRzNveVhxV1NwRGZVdlpCSHJLUVlVcm1TR1hpb09BZmhGeEFkTnkzQXJLcEh2S2xNaDVobGN3TV9Tc1p2N0UxUUhDdEU4djVpUjlLOXhGd0VReVdxaVBweUJWbk5ab0g5T0hTdTlzbWZiTkFqN3BtVW05WVNxam5WTzdTNkhVYlZlajRvV2lOU3JiekRsRzkxSGwyWjRqNldiaGxZWTlmQnM?oc=5",
+   "date": "2026-10-02 13:12",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Amazon, NVIDIA 칩 80억 달러 규모 투자자 매각 추진",
+    "korean_summary": "Amazon이 80억 달러 규모의 NVIDIA 칩을 투자자들에게 매각하려고 하는 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · finance.yahoo.com",
+     "title": "Amazon seeks to offload $8 bln of Nvidia chips to investors- FT",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUG1iZFZ3Z0NHdHJWNngwbk4zcWJSNUVqbzlDVnp2NWtCWUZRYVp0dGNBT3NQa3JHMEc0SHZkOVFOLVMxOFB1eS15T3pyOHJuR0NBREFwVE94eTNvS2wyUXFUZjRnNEcwd1VIMXJuWFUxaXh0RVdabGNidjYzOVN3dTVzck52Q2hkNEl4WHVNaUduTmY4?oc=5"
+    },
+    {
+     "source": "Google News · Financial Times",
+     "title": "Amazon seeks to offload $8bn of Nvidia chips to investors",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMlctbklMb2FKVW12SWZYdEpsVnl4UlNLUzNHNlpBcUstaUlwYlBrVEFVNWRZWkhBNTZZTGIzMjVpT2NtSzRfbktWeWFjbVlqX1k1TEl0SkJiTjFDekRsd2h2b2ZaYmNsdXp6NU42T2cwZzFiRmZTakRnLVpHek1LcXl3dUg?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Amazon seeks to offload $8B of Nvidia chips to investors",
+     "link": "https://www.reuters.com/business/retail-consumer/amazon-seeks-offload-8-billion-nvidia-chips-investors-ft-reports-2026-10-02/"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Amazon seeks to offload $8B of Nvidia chips to investors",
+     "link": "https://www.ft.com/content/97d8d346-519e-48fb-8df8-66cf5f12ef62"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRWF3eFJHazFWalZDX1QwWHBoSWd5TEwxSW1ZRzNveVhxV1NwRGZVdlpCSHJLUVlVcm1TR1hpb09BZmhGeEFkTnkzQXJLcEh2S2xNaDVobGN3TV9Tc1p2N0UxUUhDdEU4djVpUjlLOXhGd0VReVdxaVBweUJWbk5ab0g5T0hTdTlzbWZiTkFqN3BtVW05WVNxam5WTzdTNkhVYlZlajRvV2lOU3JiekRsRzkxSGwyWjRqNldiaGxZWTlmQnM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Transport Topics",
+   "category": "media",
+   "kind": "gnews",
+   "title": "California man charged in $300M Nvidia chip smuggling case",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OVWduc1VtN3BmelZ0M2xIbXZlcG9LWFBnb3RwSWJyNnhycEMyU3lNRlVHVXduRk9uc3NUWUt5dUViT0ZPSGY1MXdlQm9LRHA3WXRuZ3dzWG9CSGc1RkxjbUV0QVd3US1QN0ZqZHE1VQ?oc=5",
+   "date": "2026-10-03 04:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 칩 밀수 적발, 캘리포니아 남성 기소",
+    "korean_summary": "캘리포니아 남성이 3억 달러 규모의 NVIDIA 칩 불법 수출 혐의로 연방 당국에 기소됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OVWduc1VtN3BmelZ0M2xIbXZlcG9LWFBnb3RwSWJyNnhycEMyU3lNRlVHVXduRk9uc3NUWUt5dUViT0ZPSGY1MXdlQm9LRHA3WXRuZ3dzWG9CSGc1RkxjbUV0QVd3US1QN0ZqZHE1VQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Register",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZUItUThLNVBWMlBROG5BRlNCQzlZWVA2VjFEWG9CRTd4WFR0MkROVWN0eHNFZXMyNHVlRHdqZnY3UG00SzEwRXR1bFFVLWJVRU1kc2x6aWgxcW0yOWlxLWdGRHhtSktpTGIyRVc2X1UzVnk2VmFCaE1LMnJteEdLNXVYSzRERUZWUXdEZ0N3S21WdGpRdDlRNjdnVHlNU2RmVmVKRzc4WTdlMFd3OVEwWU9mU0c3dVlRZ3B3SVhrLXNLRzNjOWFrdUU1S2o?oc=5",
+   "date": "2026-10-02 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, 메모리 부족 속 DGX Spark 신제품 출시",
+    "korean_summary": "NVIDIA가 메모리 공급 제약 상황에서 축소 사양의 DGX Spark(4,999달러)를 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZUItUThLNVBWMlBROG5BRlNCQzlZWVA2VjFEWG9CRTd4WFR0MkROVWN0eHNFZXMyNHVlRHdqZnY3UG00SzEwRXR1bFFVLWJVRU1kc2x6aWgxcW0yOWlxLWdGRHhtSktpTGIyRVc2X1UzVnk2VmFCaE1LMnJteEdLNXVYSzRERUZWUXdEZ0N3S21WdGpRdDlRNjdnVHlNU2RmVmVKRzc4WTdlMFd3OVEwWU9mU0c3dVlRZ3B3SVhrLXNLRzNjOWFrdUU1S2o",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engadget",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA's Smuggling Problem Is Getting Worse",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNUROeUpLeEk2R3ZqejN3eWhjNWZRX3JTbTBUU2dKTjFqYUZ2b1FmLXB4WVF1WG5DcGNMTmZILVIxcHlMWHg3eTNQQTBwUVE5UGIwdDRSTGlVV0RzX0hIdzVLYlRMZkxTRWdTbW83VGZuYkk5WEs1bUszR2tsRUU0eS1B?oc=5",
+   "date": "2026-10-02 23:02",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "엔비디아 칩 밀수 문제 악화",
+    "korean_summary": "엔비디아 칩의 불법 밀수 및 수출통제 우회 시도가 증가하고 있다는 보도이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNUROeUpLeEk2R3ZqejN3eWhjNWZRX3JTbTBUU2dKTjFqYUZ2b1FmLXB4WVF1WG5DcGNMTmZILVIxcHlMWHg3eTNQQTBwUVE5UGIwdDRSTGlVV0RzX0hIdzVLYlRMZkxTRWdTbW83VGZuYkk5WEs1bUszR2tsRUU0eS1B",
+   "body": ""
+  },
+  {
+   "source": "Google News · pcmag.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Facing Memory Crunch, Nvidia Creates 64GB RTX Spark. It Still Costs $4,999",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFBzdF9IT1Y1REstWUdVenRYVjhfVUNEVXZaMlhMdnJHSkVJV0N1XzZqWnN4MWRyWTh4aGRBVjlWN1J5cnF3VTRpeWJfRTMzU2RybDU3cFRUZ3lqZmkwOTFyN1JWNXJkVGdHSTZkTzlfQm0yUU5KN1o1YmFVU3ZFMThjREZwSzhjTkl1dExpS0RHa3JiWXRuVWR5Q2dZZw?oc=5",
+   "date": "2026-10-02 23:36",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "메모리 부족 속 NVIDIA, 64GB RTX Spark 출시, 가격 4,999달러",
+    "korean_summary": "NVIDIA가 메모리 부족에 대응하여 64GB RTX Spark를 4,999달러에 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFBzdF9IT1Y1REstWUdVenRYVjhfVUNEVXZaMlhMdnJHSkVJV0N1XzZqWnN4MWRyWTh4aGRBVjlWN1J5cnF3VTRpeWJfRTMzU2RybDU3cFRUZ3lqZmkwOTFyN1JWNXJkVGdHSTZkTzlfQm0yUU5KN1o1YmFVU3ZFMThjREZwSzhjTkl1dExpS0RHa3JiWXRuVWR5Q2dZZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s 64 GB DGX Spark “AI Supercomputer” Launches This Month For $4999, While The 128 GB Spark Jumps Past $6000",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeDRDV2ZjaUlEczd2UllZN3JxeWJpSkZhRUV4VWI5RVUwUmFjSVNKZzc2SDl6VjJUeE1MeElDWlU3bHZ1V2J6bHZRRDBqdVBDN1N2V3hYN3lCcENSbXFZbmZiZERxTGVEeXhjTEFVTi0tVURWSVJxdktsajdNQ1EyMUtmYUVocEg4WHkwUHpJaHNmOEgwakllRlZSRlVEQdIBowFBVV95cUxPTWFLS0lobU5DNzB4NjhzSmVocTJLQmFtMVdmMGVVTG96VWk3M2s0b0hJeXNVUm5FZnJxNWpJbkhlT0JGazBjcjZqYWlDWDhnMGEzTEI3U1N5dWYwOWNSeU1PTmd0U01WdFBWbWFCenhhYlJyeDVZeUdpQTJuYXREUktzbmdwRnJTTzBoTGRLS3ZXZ3I0ckZIY2s2bi1qMXJ5cGFn?oc=5",
+   "date": "2026-10-02 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA DGX Spark AI 슈퍼컴퓨터 이달 출시, 64GB 4,999달러",
+    "korean_summary": "NVIDIA의 DGX Spark AI 슈퍼컴퓨터가 이달 출시되며 64GB 모델은 4,999달러이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeDRDV2ZjaUlEczd2UllZN3JxeWJpSkZhRUV4VWI5RVUwUmFjSVNKZzc2SDl6VjJUeE1MeElDWlU3bHZ1V2J6bHZRRDBqdVBDN1N2V3hYN3lCcENSbXFZbmZiZERxTGVEeXhjTEFVTi0tVURWSVJxdktsajdNQ1EyMUtmYUVocEg4WHkwUHpJaHNmOEgwakllRlZSRlVEQdIBowFBVV95cUxPTWFLS0lobU5DNzB4NjhzSmVocTJLQmFtMVdmMGVVTG96VWk3M2s0b0hJeXNVUm5FZnJxNWpJbkhlT0JGazBjcjZqYWlDWDhnMGEzTEI3U1N5dWYwOWNSeU1PTmd0U01WdFBWbWFCenhhYlJyeDVZeUdpQTJuYXREUktzbmdwRnJTTzBoTGRLS3ZXZ3I0ckZIY2s2bi1qMXJ5cGFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · CryptoRank",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Authorizes Record $150B Buyback as AI Cash Machine Grows",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ3lMcHhRY1VDM08xUFowbkk3Q2toUjJOdWRxdTd6U2UyYWY4bF9SMlBMUHdfMVFkX1JVVF9JRnY2dkg5cy1LQk9BdS1UZjU5dkFpTjJpN3NQWGhiM3JBdkVJZXdUUjRCVDFvWkxHb3lNWWRUSlZ6U25WSWk3S0RLcXZLbEU5SlVtZDl3dzRmajZ4OWpaS2VWdUtucS0tUnVCdkE?oc=5",
+   "date": "2026-10-03 05:08",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 사상 최대 규모 1,500억 달러 자사주 매입 인가",
+    "korean_summary": "NVIDIA가 현금 창출력 증가에 따라 사상 최대 규모인 1,500억 달러의 자사주 매입을 인가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ3lMcHhRY1VDM08xUFowbkk3Q2toUjJOdWRxdTd6U2UyYWY4bF9SMlBMUHdfMVFkX1JVVF9JRnY2dkg5cy1LQk9BdS1UZjU5dkFpTjJpN3NQWGhiM3JBdkVJZXdUUjRCVDFvWkxHb3lNWWRUSlZ6U25WSWk3S0RLcXZLbEU5SlVtZDl3dzRmajZ4OWpaS2VWdUtucS0tUnVCdkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Trucking Dive",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Einride taps Nvidia to scale autonomous trucking",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOUw5cUhjNTFRVm5oSURkQ1c1dE9GalVHNjlZLVJxeXF6VlBoaF9ET0loYkJSVzJ6VkdGSlh4eXZ5b1QzTmFWX1VYZkZ3Sjl2eXlQSndsMUdCdkYyeEtZNHkwbEtvTlBJRzhPRTNvcUk5Xy1DLXEzTFItZXFEb0NDNTZqNXFibWNFOGQ2cVRHTlk1RjZv?oc=5",
+   "date": "2026-10-02 23:13",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "자율주행 트럭 Einride, NVIDIA로 사업 확대",
+    "korean_summary": "Einride가 NVIDIA 기술을 활용해 자율주행 트럭 사업을 확대한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOUw5cUhjNTFRVm5oSURkQ1c1dE9GalVHNjlZLVJxeXF6VlBoaF9ET0loYkJSVzJ6VkdGSlh4eXZ5b1QzTmFWX1VYZkZ3Sjl2eXlQSndsMUdCdkYyeEtZNHkwbEtvTlBJRzhPRTNvcUk5Xy1DLXEzTFItZXFEb0NDNTZqNXFibWNFOGQ2cVRHTlk1RjZv",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+   "link": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+   "date": "2026-10-03 07:38",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Cerebras 주가 IPO 후 반토막, OpenAI의 NVIDIA GPU 선택에 충격",
+    "korean_summary": "OpenAI가 GPT-6.1 Sol 초고속 모드에 Cerebras 하드웨어 대신 NVIDIA GPU를 채택하면서 Cerebras 주가가 IPO 후 최저로 하락했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Cerebras stock hits post-IPO low, tumbling 20% for the week on Nvidia pressure and lockup expiration",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcGpZNU9hQWZGQVJxWVFoOFRqcDZ1eVh6RkNvUUlGUnMxYjBSY3lPOS1HOHU2cTlRMmQ1RVBieS1FekpCNkdtRkpQbkJOX1MxZnhlUWc3UWh5a0E5UG81LUJsOV9FQld6eDBHYU5HcUVJZ1AxbERSb3EtRGRHREVZZUdUbHl0ZXNscUJKWEJQeXJMLU5Rd3hQbjNOWWRMZWtiN2NUREplNENaZ9IBrwFBVV95cUxQRFFDMzBLbWk0ZjB0SzVPS3VNU3FqTGFMbXB3cU1BRlBnd0lZdnFYNXRBZlZtOF9kSnEzVUFRS2ROZTFmTURVaXZRVWtmUXlUeG0tRTVLdkxISDIyUkZsdXh1VjJYdkRyazI5dzREZFRTSEFJcDZ6RkR6cHdJS2lJLUVJRVJya1F4dGRWT0pYYTZHbkRzTWF2RzRuNkZHVTdicFY0aWl5aG1DajN6c08w?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
+   "body": "Cerebras stock plummeted nearly 20% this week to its lowest price since the company's monster IPO in May, after a report that chip giant Nvidia will power a crucial piece of OpenAI's latest model. Research firm SemiAnalysis posted on X on Wednesday that OpenAI will power its \"Ultrafast\" mode for GPT-6.1 Sol with Nvidia graphics processing units instead of Cerebras hardware. Cerebras shares are now down by more than half since their initial pop that followed the company's debut on the Nasdaq. The stock, which closed on Friday at $166.43, was also under pressure this week due to the expiration of post-IPO restrictions on some insider shares. However, it rose almost 3% in extended trading on Friday after OpenAI CEO Sam Altman responded to the \"speculation about our partnership with Cerebras.\" \"Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed,\" Altman wrote in a post on X. Still, it's been a brutal stretch for Cerebras, which closed at a $95 billion market cap on the first day of trading, just shy of joining the ranks of Meta, Alibaba and now SpaceX, which closed their initial day with valuations over $100 billion. Cerebras' market cap now sits at just over $39 billion. Investors were excited by the prospect of an alternative to Nvidia to power AI. Cerebras makes dinner plate-sized ASICs, or a custom microchip built for inference workloads, and leases them from inside its own data centers as a cloud service. In January, Cerebras struck a deal worth over $10 billion with OpenAI to supply it with 750 megawatts of computing power through 2028. Losing OpenAI inference to Nvidia has put a damper on that exuberance. According to McKinsey, inference is set to surpass training as the most dominant workload in AI data centers by the end of the decade. Meanwhile, as more time passes from the IPO, additional shares will hit the market. According to the company's prospectus, up to 19.4 million shares held by directors, officers, non-executive employees, and non-employee holders unlocked on Wednesday. That's equal to 8% of total shares outstanding. Prior to that, up to 14.6 million shares have been unlocked for sale every two weeks since Aug. 19. CEO Andrew Feldman and CTO Sean Lie, both minted billionaires by the IPO process, sold over $240 million of Class A shares between Aug. 20 and Sept. 25 under trading plans adopted shortly after the IPO. Other executives have also sold shares valued in the millions. WATCH: CNBC’s full interview with Cerebras Systems CEO Andrew Feldman"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "NetworkOcean runs GPU on floating data center powered by solar panels in San Francisco Bay",
+   "link": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay/",
+   "date": "2026-10-02 23:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NetworkOcean, 태양광 수상 데이터센터에서 NVIDIA H100 운영 파일럿",
+    "korean_summary": "샌프란시스코 스타트업이 20kW 태양광 배열로 구동되는 수상 데이터센터에서 NVIDIA H100 파일럿 운영"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/networkocean-runs-gpu-on-floating-data-center-powered-by-solar-panels-in-san-francisco-bay",
+   "body": "A San Francisco startup says it has become the first company to run customer AI workloads from a floating data center powered by solar panels. NetworkOcean says it has operated a single Nvidia H100 GPU powered by a 20kW solar array as part of a trial in San Francisco Bay. The customer using the GPU has not been disclosed. Footage posted by the company shows a set of 12 floating panels linked to a container on a ship with the GPU server inside. Founded in 2024 by Sam Mendel and Eric Kim, NetworkOcean was originally pursuing underwater data centers, but has now pivoted to a floating system utilizing solar energy. Writing on LinkedIn, CEO Mendel said: “Our future is bottlenecked by the speed at which we can deploy power. “We’re building floating solar arrays powering data centers at sea. This will soon be the fastest way to deploy new compute, skipping years of land, grid connections, and traditional infrastructure delays.” He said the company went from “design to deployed in the water” in 53 days, and added: “This will soon become the quickest way to deploy new power, powering the most efficient and sustainable data centers on the planet.” A spin-out from the Y Combinator incubator, NetworkOcean’s original plan for underwater data centers ran into difficulties when it was claimed the firm did not have the correct permits for a trial deployment in the Bay Area. On its website, the firm outlines a roadmap that could see a 1MW array deployed at sea next year. It is targeting up to 1GW of power for compute by 2030. DCD published an in-depth look at the burgeoning compute-at-sea sector in the latest edition of our magazine. Read it free of charge here."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "AI 속도조절론에도 대규모 자금 투입 '가속'",
+   "link": "https://www.hankyung.com/article/2026100208801",
+   "date": "2026-10-02 17:21",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, OpenAI에 100억달러 투자 완료",
+    "korean_summary": "NVIDIA와 Softbank가 OpenAI에 각각 100억달러를 납입하며 이전 약정 투자의 마지막 분할금 완료"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026100208801",
+   "body": "AI 추천 뉴스 AI 속도조절론에도 대규모 자금 투입 '가속' 브로드컴, 앤트로픽에 57조 대출 엔비디아와 소프트뱅크는 오픈AI에 13.5조씩 추가 투입 인공지능(AI) 개발 속도조절론이 제기되는 상황에서도 AI 모델 개발회사를 향한 대규모 자금 투입이 이어지고 있다. 로이터통신은 앤트로픽의 비공개 기업공개(IPO) 서류를 인용해 앤트로픽이 브로드컴으로부터 최대 420억달러(약 57조원) 규모의 대출을 받기로 합의했다고 1일(현지시간) 보도했다. 대출 방식은 앤트로픽 주식으로 바꿀 수 있는 전환사채다. 자금은 컴퓨팅 자원 임차 비용에 쓰일 예정이다. 이 대출은 앤트로픽이 향후 5년간 구글과 브로드컴이 공동 개발한 반도체 텐서프로세싱유닛(TPU)을 임차하기로 약정한 비용의 약 3분의 1에 해당한다. 브로드컴 제품을 고객사 앤트로픽이 쓸 수 있도록 자금을 지원하는 ‘순환금융’의 일종인 셈이다. 제이 골드버그 시포트리서치 애널리스트는 “엔비디아가 (순환금융에) 막대한 자산을 투입하고 있어 브로드컴도 이를 따라야 하는 상황”이라고 분석했다. 앤트로픽은 공모시장 진출에도 속도를 내고 있다. 블룸버그통신에 따르면 회사는 오는 14일 투자자 설명회를 열고, 내달 9일 무렵 IPO 마케팅을 시작할 계획이다. 11월 중순 상장해 추수감사절인 26일 전에 거래를 개시하는 게 목표다. 몸값은 1조8000억~2조달러로 평가된다. 상장을 내년으로 미룬 오픈AI도 추가 자금을 수혈했다. 디인포메이션에 따르면 엔비디아와 소프트뱅크는 오픈AI에 각각 100억달러(약 13조5000억원)를 납입했다. 두 회사가 올해 2월 각각 약정한 300억달러 투자의 마지막 납입분이다. 이번 투자로 소프트뱅크의 오픈AI 누적 투자액은 646억달러가 됐다. 지난해 말 약 11%이던 소프트뱅크 지분율은 이번 투자 이후 약 13%로 높아졌다. 오픈AI는 이와 별개로 신규 자금조달을 추진하고 있다. 블룸버그에 따르면 신규 투자금 유입 전 기업가치 약 1조4000억달러를 목표로 최소 300억달러를 조달하는 방안을 논의 중이다. 실리콘밸리=김인엽 특파원 inside@hankyung.com"
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Micron Can't Make AI Chips Without This Growth Stock. Here's Why It Could Soar.",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazZSOHNzQW9TSkJDNzlOYk5QOTVTbE9LeUd4S3RDb2tNZkQyUXItUklzMmhfckVZc2M3SDB3N1pSMGhXeThSOFdUeTZRNV9DVURmNWhiZjVwaHF3OGMyMWNsNlRMTWQ1a1VEUi1ZSHRIN3JHSlZrTl9fbHd2dVZCT3hJNktKNVVGdXJQSTVvbmYtSzlxYXZn?oc=5",
+   "date": "2026-10-02 21:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA와 Micron의 핵심 공급사 의존도 분석",
+    "korean_summary": "NVIDIA와 Micron이 AI 칩 생산을 위해 특정 성장주에 의존하고 있으며 그 회사의 전망을 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPazZSOHNzQW9TSkJDNzlOYk5QOTVTbE9LeUd4S3RDb2tNZkQyUXItUklzMmhfckVZc2M3SDB3N1pSMGhXeThSOFdUeTZRNV9DVURmNWhiZjVwaHF3OGMyMWNsNlRMTWQ1a1VEUi1ZSHRIN3JHSlZrTl9fbHd2dVZCT3hJNktKNVVGdXJQSTVvbmYtSzlxYXZn",
+   "body": ""
+  },
+  {
+   "source": "Google News · VideoCardz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA DGX Spark drops to 64GB memory but costs more than the original 128GB version",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjZwaS04eTFVM3NEVVk3V2RNMDgtRU9jdUI4MDJTeHNsMUtXSU5CM1phcFdCN0tkT0ZvWldmR0pTLTVKZDBlSVNoN2phenJRRFN0N3Fxc3Fla0R3NWlRNV9aYldmcEZBQm9OblNZd3NJSVc2Qm1GM0psRFZqQ0RzeGNDaU45bllmcmtqQ2xWQ2dpQTY1UXlrMUJ1VWN0TWNaMnZVTHFQVVQtOG1KX2hiWUx3?oc=5",
+   "date": "2026-10-02 22:42",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA DGX Spark 메모리 감소, 가격은 인상",
+    "korean_summary": "NVIDIA DGX Spark의 메모리가 128GB에서 64GB로 감소했지만 원래 128GB 모델보다 가격이 높다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcjZwaS04eTFVM3NEVVk3V2RNMDgtRU9jdUI4MDJTeHNsMUtXSU5CM1phcFdCN0tkT0ZvWldmR0pTLTVKZDBlSVNoN2phenJRRFN0N3Fxc3Fla0R3NWlRNV9aYldmcEZBQm9OblNZd3NJSVc2Qm1GM0psRFZqQ0RzeGNDaU45bllmcmtqQ2xWQ2dpQTY1UXlrMUJ1VWN0TWNaMnZVTHFQVVQtOG1KX2hiWUx3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investopedia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon Looks to Offload $8B of Nvidia AI Chips From Its Balance Sheet",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHphc3o4Y0dGRnBTaE5jUTd0S1dJWFA1OUppaXBsY1hhb0pkRHZZbUUwSWZYQnYyRTl2WDF6d084bnpLSFNZV3ZRRW5jcllFQ1dQWjFIMmZMTkZsYWZrNkNVM3FJazNxTEFfMHJBbzJxeVM4TU9iS1FBWFppYXNhNHh6OV80Rjg0dy0wVkVNOTg4eVJ5cEZva3l6b0J3S1k0QmlnbXZhOHh5S1JYMDFRREhuZ19SOXJ0WTBWTGFkYzZIVE1qcTdZM29R?oc=5",
+   "date": "2026-10-02 23:59",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Amazon, NVIDIA AI 칩 80억 달러 규모 감축",
+    "korean_summary": "Amazon이 자사 대차대조표에서 NVIDIA AI 칩 80억 달러 규모를 처분하려고 한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNHphc3o4Y0dGRnBTaE5jUTd0S1dJWFA1OUppaXBsY1hhb0pkRHZZbUUwSWZYQnYyRTl2WDF6d084bnpLSFNZV3ZRRW5jcllFQ1dQWjFIMmZMTkZsYWZrNkNVM3FJazNxTEFfMHJBbzJxeVM4TU9iS1FBWFppYXNhNHh6OV80Rjg0dy0wVkVNOTg4eVJ5cEZva3l6b0J3S1k0QmlnbXZhOHh5S1JYMDFRREhuZ19SOXJ0WTBWTGFkYzZIVE1qcTdZM29R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "California man smuggled $300 million in Nvidia chips to China, prosecutors say",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnJtOFFla1RVaDJqWWNWeEVfdWFWZDlrS1BKcGoxVXMtN3pRS3p2WkVHYmhSM1BzNzFKNzJJQ1lhT3dUdHQxS2tYSEVWcExxVExRTXF6ZXpyS1ZHYWlpOEJJRFl4dm5EOHhROTVDN19mS003SGdUUDd6MGlzR3hxdDJscHVHMnVaaVp1TTBHbS03YnE5YmV6UkpjQQ?oc=5",
+   "date": "2026-10-03 01:08",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "캘리포니아 주민, NVIDIA 칩 3억 달러어치 중국 밀반출",
+    "korean_summary": "미국 검사가 캘리포니아 주민이 NVIDIA 칩 3억 달러를 중국으로 불법 수출한 혐의로 기소했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMnJtOFFla1RVaDJqWWNWeEVfdWFWZDlrS1BKcGoxVXMtN3pRS3p2WkVHYmhSM1BzNzFKNzJJQ1lhT3dUdHQxS2tYSEVWcExxVExRTXF6ZXpyS1ZHYWlpOEJJRFl4dm5EOHhROTVDN19mS003SGdUUDd6MGlzR3hxdDJscHVHMnVaaVp1TTBHbS03YnE5YmV6UkpjQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Los Alamos Daily Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA CPU Arrives At Los Alamos",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUZvWXQzNEo5NVFMcUg3dUltWXgtaTlEbGM3cTJmcUs5bEV6SWJXUGtKbW16SGY0dmU5X2trZl9nVlg0dm5DYUtEYmMwUHRDN3Y2MjV4YW1WanM4a0tfR1RJbW82amhpdDZOQnNjMXpVeU9VaTB3NF9pTlhPcld0dFh0a3VZTEpNenNjc1hSdnczeFdrdW5rRHFlNUUtUHFFV24wQUt6Q1V0Z1l3elNULVFpakhFVnBGMURoX1NmM1poVHM?oc=5",
+   "date": "2026-10-03 05:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CPU, 로스알라모스 국립연구소 도착",
+    "korean_summary": "NVIDIA CPU가 Los Alamos 국립연구소에 배치되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVUZvWXQzNEo5NVFMcUg3dUltWXgtaTlEbGM3cTJmcUs5bEV6SWJXUGtKbW16SGY0dmU5X2trZl9nVlg0dm5DYUtEYmMwUHRDN3Y2MjV4YW1WanM4a0tfR1RJbW82amhpdDZOQnNjMXpVeU9VaTB3NF9pTlhPcld0dFh0a3VZTEpNenNjc1hSdnczeFdrdW5rRHFlNUUtUHFFV24wQUt6Q1V0Z1l3elNULVFpakhFVnBGMURoX1NmM1poVHM",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
+   "date": "2026-10-03 08:57",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis",
+    "version": "any-to-any"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-3-Nano-Omni 31B 멀티모달 모델, 스포츠 분석 특화 업데이트",
+    "korean_summary": "Nemotron 31B Mamba2-Transformer 하이브리드 MoE 모델이 테니스 경기 분석 기능을 추가하여 Hugging Face에 업데이트됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis:2026-10-03",
+   "body": "Hugging Face 모델 업데이트. pipeline: any-to-any · library: transformers · tags: transformers, safetensors, NemotronH_Nano_Omni_Reasoning_V3, feature-extraction, nvidia, pytorch, multimodal, any-to-any, custom_code, base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16, base_model:finetune:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16 · downloads 695 · likes 13. README:  # Model Overview ## NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis ## At a Glance | | | |---|---| | **Total parameters** | 31B (Mamba2-Transformer hybrid Mixture of Experts (MoE)) | | **Active parameters** | ~3B per token | | **Max context** | 256k tokens | | **Modalities (in)** | Video, Audio, Image, Text | | **Modality (out)** | Text | | **Best for** | Point-level tennis Q&A, shot and court understanding, match-state reasoning, rules knowledge, and audio-aware point analysis | | **Fine-tuning data** | 1.31M Q&A pairs over 43k point clips (239 matches) | | **Minimum GPU (BF16)** | 1× A100 80GB or 1× H100 80GB (single-GPU); 1× B200 / 1× H200 recommended | | **Precisions** | bfloat16 (BF16) (`NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis`, ~62 GB) — TBD | ### Description: NVIDIA-NemotronLabs-AI-for-Media-Sports-Tennis is a fine-tuned multimodal large language model derived from Nemotron 3 Nano Omni. It was further trained on an in-house NVIDIA tennis dataset of manually labeled point-level video clips to specialize in tennis match understanding. The model supports structured multiple-choice and open-ended Q&A over point clips, covering shot mechanics, court positioning, player movement, match facts, rules knowledge, and audio cues. It works best when a full tennis point clip is passed as input. This model is fine-tuned from Nemotron 3 Nano Omni on an in-house NVIDIA tennis dataset of tennis point video clips using the [NVIDIA Sports Intelligence playbooks](https://github.com"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.9
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 17,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 83,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 45.4
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 8.3
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 4,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 41,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 20.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 5.6
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 25,
+   "enriched": 25,
+   "error": "",
+   "sec": 5.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 27.2
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
