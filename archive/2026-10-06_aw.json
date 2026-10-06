@@ -1,0 +1,756 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-06",
+ "window": [
+  "2026-10-05",
+  "2026-10-06"
+ ],
+ "generated": "2026-10-06T10:56:02+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 일본 경제산업성 글로벌 사우스 보조금에 선정돼 사우디아라비아에서 **Autoware 기반 자율주행 버스 실증**과 현지 인재 육성을 추진한다.",
+  "TIER IV가 사우디아라비아에서 자동운전 버스 **실증사업**과 함께 현지 인재육성 프로그램을 진행한다.",
+  "TIER IV가 Waymo·Uber 등 글로벌 경쟁사에 맞선 일본의 자율주행 AI **개발 우위 전략**을 분석한다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、経済産業省の「グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国） 」に採択",
+   "link": "https://prtimes.jp/main/html/rd/p/000000140.000040119.html",
+   "date": "2026-10-05 10:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "regulation",
+     "deployment",
+     "partnership"
+    ],
+    "korean_title": "경제산업성 보조금 채택, TIER IV 사우디에서 자율주행 버스 실증",
+    "korean_summary": "TIER IV가 일본 경제산업성의 대형 실증 사업 보조금을 받아 사우디아라비아에서 자율주행 버스 실증 및 현지 인재육성을 추진한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 일본 경제산업성 글로벌 사우스 보조금 선정…사우디아라비아서 자율주행 버스 실증 추진",
+    "korean_summary": "TIER IV가 일본 경제산업성의 글로벌 사우스 미래지향형 공동창조 보조금(비ASEAN 가입국 대형 실증)에 선정되어, Saudi Vision 2030 목표 달성을 위해 사우디아라비아에서 Autoware 기반 자율주행 버스 실증과 현지 인재 육성을 추진한다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "경제산업성 보조금 사업 선정을 계기로 사우디아라비아에서 자율주행 버스 실증 및 현지 인재육성 프로그램 추진",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "사우디아라비아, 자율주행 버스(폐쇄공간→공도로 ODD 확대), 유럽 완성차 업체와 차량 구축 협업"
+    },
+    "key_facts": [
+     "경제산업성 '令和7年度補正グローバルサウス未来志向型共創等事業費補助金(大型実証 非ASEAN加盟国)'에 선정",
+     "**2025년 9월 사우디 Elm사와 MOU 체결**, 이를 기반으로 사업 추진",
+     "Saudi Vision 2030은 **2030년까지 공공교통의 15%를 자율주행화**하는 목표 제시",
+     "일본에서 개발한 자율주행 버스를 레퍼런스로 유럽 완성차 업체와 협업해 TIER IV 자율주행 시스템 탑재",
+     "TIER IV는 일본 120개 이상 지역, 해외는 영국·호주에서 실증 수행 이력 보유"
+    ],
+    "why_matters": "자국 보조금을 활용해 중동이라는 신규 지역(사막 기후·우측통행 등 특수 환경)으로 Autoware 기반 자율주행 서비스를 확장하려는 시도로, **오픈소스 Autoware 생태계의 지리적 확장성**을 검증하는 사례다. 사우디 정부의 명확한 자율주행 공공교통 전환 목표(2030년 15%)와 연계돼 있어, 성공 시 중동·주변국 추가 수주로 이어질 잠재력이 있다.",
+    "subject_angle": "TIER IV는 보조금을 활용해 **초기 진입 비용 부담을 낮추면서 해외 레퍼런스를 확보**하는 전략을 취하고 있으며, 이번 사업은 일본에서 축적한 Autoware 노하우를 해외(비ASEAN 신시장)로 이전·검증하는 첫 중동 거점 사례로 자리매김한다.",
+    "focus_angle": "사업·서비스 배치 관점에서 현재 단계는 '실증' 초입(폐쇄공간 주행 후 공도 ODD 확대 예정)이며, 상용 운행 모델 구축은 **아직 실증을 통한 검증 단계**로 고객은 현지 교통사업자·Elm·완성차 업체, 지역은 사우디아라비아(향후 주변국 확장 의도)로 한정된다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "사업 주체, Autoware 기반 자율주행 시스템 제공"
+     },
+     {
+      "name": "Elm",
+      "context": "2025년 9월 MOU 체결한 사우디 디지털·자율주행 모빌리티 대기업, 현지 파트너"
+     },
+     {
+      "name": "경제산업성(METI)",
+      "context": "글로벌 사우스 보조금 지급 주체"
+     },
+     {
+      "name": "미확인 유럽 완성차 업체",
+      "context": "자율주행 버스 차량 구축 협업 파트너(사명 미공개)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "자율주행 버스에 탑재되는 오픈소스 자율주행 소프트웨어 플랫폼"
+     },
+     {
+      "name": "자율주행 버스(일본 개발 레퍼런스 차량)",
+      "role": "사우디 현지 환경에 맞게 적용될 실증 차량"
+     }
+    ],
+    "watch_next": [
+     "유럽 완성차 업체의 구체적 사명 및 차량 사양 공개 여부",
+     "폐쇄공간 실증에서 공도 ODD 확대로의 전환 시점·일정",
+     "Elm과의 MOU가 실제 상업 운행 계약으로 발전하는지 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、経済産業省の「グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国） 」に採択",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTY1NCU2JLZ3lVNm1naGlpaFRpQWdjU1kydE5PWHo3Sk93bGQ0WlpIUkZ0NmdUQjlLWll2YmRUTHFmcHZSN3huMWdUZy1JY1hibXZkVnJSQlBCTFVsSklLZ01UZkxVc1U5dnc?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォー、経済産業省の「グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国） 」に採択",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMFdlQWo5QUVFSzZpYWlOamhNNVFCbW9MSW5INEpDT2NNbDJ0c0VtR002cEVtWkdGTDhyRkszand6UUlXS3dELU02SE5SQll2ZXJNckNHNHRFMHdocF9rNlU3TFJXTURPbUNhMDRWMUYtZlM4LTVuXzQ1THJDdE8taWptZXJlLWwzelAzUU5Jd3I3MzNXWlJaVzJ6Szd1b2plU3dyQTZsLWhXbGFsZGE4UVEwekVvbVE5MDVnN0l0ZlZ2dml3by15bjFPeUY4dWNxR1pZ0gHTAUFVX3lxTE4wV2VBajlBRUVLNmlhaU5qaE01UUJtb0xJbkg0SkNPY01sMnRzRW1HTTZwRW1aR0ZMOHJGSzNqd3pRSVdLd0QtTTZITlJCWXZlck1yQ0c0dEUwd2hwX2s2VTdMUldNRE9tQ2EwNFYxRi1mUzgtNW5fNDVMckN0Ty1pam1lcmUtbDN6UDNRTkl3cjczM1daUlpXMnpLN3VvamVTd3JBNmwtaFdsYWxkYThRUTB6RW9tUTkwNWc3SXRmVnZ2aXdvLXluMU95Rjh1Y3FHWlk?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000140.000040119.html",
+   "body": "ティアフォー、経済産業省の「グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国） 」に採択 サウジアラビアでの自動運転バスの実証と人材育成を推進 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）は、経済産業省が公募する「令和7年度補正グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国）」に採択されました。ティアフォーは、本採択を受け、日本で実績を有する自動運転技術を用いてサウジアラビアの環境に適した安全かつ拡張性の高いモビリティサービスの社会実装を目指し、自動運転バスの実証を推進します。また、現地の産業基盤の構築を目指し、現地の人材育成に寄与するプログラムを推進します。 背景 サウジアラビアでは、政府主導の長期計画「Saudi Vision 2030」のもと、「活気ある社会」「盛況な経済」「野心的な国家」をテーマに経済の多角化と社会変革が進められています。また、2030年までに公共交通の15％を自動運転化するという目標が掲げられています。加えて、都市開発が進むなか、公共交通の利便性向上、交通安全の確保、運転手の育成など、持続可能な移動手段の整備も必要です。 ティアフォーは、2025年9月にサウジアラビアでデジタル技術ソリューションと自動運転のモビリティを提供する大手企業のElmとMOUを締結しました。この取り組みを活かしながら、本事業では、ティアフォーが日本で培ったオープンソースを活用した自動運転バスおよび人材育成の知見を活用し、サウジアラビアにおける次世代モビリティの実現に貢献します。 本事業の概要 本事業では、以下の一連の活動を通じ、自動車メーカー、自動運転技術会社、現地の交通事業者との協業体制を深め、将来的な自動運転車両の商業運行に向けた事業モデルを構築することを目指します。 1．車両構築 日本で開発した自動運転バスをリファレンスとして、ティアフォーの自動運転システムを欧州自動車メーカーとの協業により車両に搭載し、現地で走行可能な自動運転バスを構築します。 2．現地適合と実証 オープンソースの技術を基盤とし、AIモデルを活用した自動運転システムに現地で収集したデータを学習させることで、中東の砂漠地帯での気温や砂嵐、右側走行などサウジアラビア特有の環境要件に適した自動運転システムを実現します。まずは閉鎖空間で走行実証を行い、その後公道へと運行設計領域（Operational Design Domain：ODD）を拡大しながら実証を進めます。 3．現地パートナー企業との共創と人材育成 現地のテクノロジー企業や交通事業者からは運行現場や地域の交通ニーズに関する知見を得るとともに、行政機関とも連携し、地域の交通課題や社会実装に向けた要件に関する知見を共有します。教育機関とは競技イベントを活用し、STEM（科学（Science）、技術（Technology）、工学（Engineering）、数学（Mathematics））における人材育成に寄与するプログラムを推進します。 政府による支援 ティアフォーはこれまで、日本では120以上の地域、海外では英国や豪州で自動運転の実証を進めてきましたが、自動運転システムの性能向上には各国や各地特有の走行環境や交通ルールへの適応が必要です。そのためには、膨大なデータの収集とAIモデルの学習など多大な初期導入コストがかかります。また、新たな市場で自動運転ソリューションを展開する際の需要や事業モデルの確立には不確実性があり、民間企業にとってこれらの初期投資は大きな負担となります。 ティアフォーは、本補助金を活用し、現地に適した高精度な自動運転システムを早期に確立することを目指すとともに、人材育成のプログラムを推進することで、「Saudi Vision 2030」の目標達成に向けて、サウジアラビアにおける次世代モビリティの実現に貢献します。 今後の展望 本事業を通じて、ティアフォーは日本とサウジアラビアの経済発展とイノベーションの共創に寄与し、自動運転モビリティを提供することで、サウジアラビアの持続可能な未来社会の実現を支援します。 また、日本発の自動運転技術をサウジアラビアおよび周辺国に展開することで得られた知見を日本の自動運転技術の開発に還元し、技術のさらなる高度化につなげるだけでなく、人材の育成や関連産業との連携拡大を図ることで、日本の自動運転産業の発展にも貢献します。 さらに、これらの知見を他国での車両開発や実証、異なる車種への実装に活かし、国際競争力の強化につなげます。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ pr@tier4.jp ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像"
+  },
+  {
+   "source": "Google News · ライブドアニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー大幅高、サウジアラビアで自動運転バスの実証と人材育成を推進 (2026年10月5日掲載)",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EYUl4VnhjZ1pPVF9qb2ZBaDVBTms3djVGVk9XQzJZdjFud2Z6aVdjTmRDZVdaWHNtMkxIZW85anhQa2tFaHRVdlNQV3Q5MDdJMnVBbGc0SjBNNU5qa1E?oc=5",
+   "date": "2026-10-05 13:16",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 사우디아라비아 자동운전 버스 실증사업 추진",
+    "korean_summary": "TIER IV가 사우디아라비아에서 자동운전 버스의 실증사업과 인재육성을 진행"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · LOGISTICS TODAY",
+     "title": "ティアフォー、サウジアラビアで自動運転バス実証",
+     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1TMG1ISkE5VmFjVVNRUF96ZEh6eTBMOHRJSFRTTE1TeVJ2SC1oMnZ3cE4tS042aWt2LTRzVFl2dXpoMnhDZS04UnhB?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EYUl4VnhjZ1pPVF9qb2ZBaDVBTms3djVGVk9XQzJZdjFud2Z6aVdjTmRDZVdaWHNtMkxIZW85anhQa2tFaHRVdlNQV3Q5MDdJMnVBbGc0SjBNNU5qa1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "「自動運転AI」開発、ティアフォーが見る“日本の勝ち筋” WaymoやUberら黒船続々、勝機はどこに？",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCYVNTa09xRFBWTl9TbDhpV21SV3VDbDcwZ25KdmFIUktmM1FWYXNRemFTajh1RkNmSi1WTnpKT21VSTVfZXh2STJidXJva1NnLTc1dHFyOWVGcTJmZjBzV2NidlhmNzcwc3lrYlV1RGZwY0F5U2JuR0RINmNUdkU?oc=5",
+   "date": "2026-10-05 12:21",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "자율주행 AI 개발, TIER IV가 본 일본의 승리 전략",
+    "korean_summary": "TIER IV가 Waymo와 Uber 같은 글로벌 경쟁사들에 대항하는 일본의 자율주행 AI 개발 우위 전략을 분석한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ニュース",
+     "title": "「自動運転AI」開発、ティアフォーが見る“日本の勝ち筋” WaymoやUberら黒船続々、勝機はどこに？",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaURvNno5U2Jub1NHUXR4TGF1dWQ5Y3BXc0xuODhUWEZWbDR6UmlObDFqNVg2Nk5ESnRRYkdyaW9leUN2TllpcTk5QU5QZkNOQVEzcnI2SFFiT0ppeVVRNm1vTHB6NDJkU24wd3J2aGNNdHVHX2pTOEtkaktTWTZQQU9WZUl3QlJ4?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCYVNTa09xRFBWTl9TbDhpV21SV3VDbDcwZ25KdmFIUktmM1FWYXNRemFTajh1RkNmSi1WTnpKT21VSTVfZXh2STJidXJva1NnLTc1dHFyOWVGcTJmZjBzV2NidlhmNzcwc3lrYlV1RGZwY0F5U2JuR0RINmNUdkU",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "ティアフォー、サウジで自動運転バスの実証を推進へ…株価が大幅高",
+   "link": "https://response.jp/article/2026/10/05/417393.html",
+   "date": "2026-10-05 16:05",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 주가 급등, 사우디 자율주행 버스 실증 소식 배경",
+    "korean_summary": "TIER IV의 사우디아라비아 자율주행 버스 실증 사업 발표로 주가가 크게 상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、サウジで自動運転バスの実証を推進へ…株価が大幅高",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNbkhrSWM1Q1NaeHh6SE5WNVNzXzh2RVE5ZExCcVVpbWF0TG1mUmVpYzUzRWEyUUVDRWhfNHNmbXZ5VEZ3d3hfRlJ4N21pN1V1c0o0eXhmdE9WR2VXU3Jv?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、サウジで自動運転バスの実証を推進へ…株価が大幅高 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HbFFwVGtEWmk5bXBPM1Jrb3VYTlU3emFnXzg4TnFJeFNQNE1HYXlrazR4OUZwejhXWkRXTlVlQlVjZy1CSi1zSDRGSHFzWl9YVlZBaXc5REJwRDFfMXJ4a2FHdEdNMUFSRGEzc05RTExKUQ?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、サウジで自動運転バスの実証を推進へ…株価が大幅高",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNbkhrSWM1Q1NaeHh6SE5WNVNzXzh2RVE5ZExCcVVpbWF0TG1mUmVpYzUzRWEyUUVDRWhfNHNmbXZ5VEZ3d3hfRlJ4N21pN1V1c0o0eXhmdE9WR2VXU3Jv?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、サウジで自動運転バスの実証を推進へ…株価が大幅高 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9HbFFwVGtEWmk5bXBPM1Jrb3VYTlU3emFnXzg4TnFJeFNQNE1HYXlrazR4OUZwejhXWkRXTlVlQlVjZy1CSi1zSDRGSHFzWl9YVlZBaXc5REJwRDFfMXJ4a2FHdEdNMUFSRGEzc05RTExKUQ?oc=5"
+    },
+    {
+     "source": "Google News · s.minkabu.jp",
+     "title": "ティアフォー大幅高、サウジアラビアで自動運転バスの実証と人材育成を推進",
+     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52a0FzWDZKV0RNOE9jdmlwWlBwUWtFYmRRZzBJalNKSmhTT0MyMWt5Z2o2aVVBd3BiNDRnaGxCNTZsUHpTemQ3Qg?oc=5"
+    },
+    {
+     "source": "Google News · s.minkabu.jp",
+     "title": "ティアフォー大幅高、サウジアラビアで自動運転バスの実証と人材育成を推進",
+     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52a0FzWDZKV0RNOE9jdmlwWlBwUWtFYmRRZzBJalNKSmhTT0MyMWt5Z2o2aVVBd3BiNDRnaGxCNTZsUHpTemQ3Qg?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー大幅高、サウジアラビアで自動運転バスの実証と人材育成を推進",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92ckFiVFJlOUlJYnZrME5PU0RrMHlTMi03Y3h2U1ZKeXVMTDU5TW9hRG4tcVJlRVFrM2JGdFdrMHdyVHFTTk1DSndsR1ZKMWRxOGpNV1JlcnpfbkpDUGJR?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/05/417393.html",
+   "body": "5日の日経平均株価は前週末比1637円40銭高の6万9946円86銭と大幅反発。米国株高を受け、投資家心理が改善。幅広い銘柄に買いが入り、一時7月1日以来3カ月ぶりに7万円台に乗せた。 先週末のニューヨークダウは250ドル高の5万1176ドルと続伸。米連邦準備理事会（FRB）による早期利上げ観測の後退から主力株が買われ、米原油先物相場の下落も相場を支えた。ハイテク株主体の米ナスダック市場は3日続伸。電気自動車（EV）のテスラは4.65％高。 外国為替市場で円相場は1ドル＝157円台後半で推移。自動車株は総じて堅調。"
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV secures Japanese government grant to advance autonomous bus field operational tests and talent development in Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFTUGhUTS1iVjFmQ0hnVEpBVno4cHB6RXZPR2hlVWdXenBnRThiOHVScHF4NXVVQUFHSzBRV2lpakVVRU0teEZjVWFYZlNnNl9DX0VDeHVoUk1WTWROWEEyb2xXNGo4QlR1M3RKeFNHR0c5S0s5eDJnbE9JcEs2U3ZqUE1UV3hnQmZWS3BzeEhQQWdPbzljemF3bExhdndwMC1tdWVidDdfVUJBNkRPVV83OHR0bXVXNHZjMkNsZHBPclJlTDZJ0gHXAUFVX3lxTE5QQ3NzY05EVU9pYm9IRThVWlZZcWE5VlRudGtENkc5bnlraVk0VHJzajNQai1ydi1sYUNmZkRFVnp6cW40RjBBQ3FvZWY4RjdGdnhaQnQyTC11LU5xTmo5VlFxeS1MVGJNcFZERDhvYzRsZ1N5aVRGTXVzSXpsQmYtWlN3azVOZjNkeHBhYXdydEx5OW9WQTc1UmlFVEJhbW9jclJlc3htdkFucm1veUNMVHVJeEdkUU1oUXdjZExma3VpXzN0Yl9ESy1IeUd4LWN6eTQ3aHVr?oc=5",
+   "date": "2026-10-05 10:02",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "일본, TIER IV 사우디 자율주행 버스 프로젝트 자금 지원",
+    "korean_summary": "TIER IV가 사우디아라비아의 자율주행 버스 필드 테스트 및 인재 개발을 위한 일본 정부 지원을 확보했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV secures Japanese government grant to advance autonomous bus field operational tests and talent development in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFTUGhUTS1iVjFmQ0hnVEpBVno4cHB6RXZPR2hlVWdXenBnRThiOHVScHF4NXVVQUFHSzBRV2lpakVVRU0teEZjVWFYZlNnNl9DX0VDeHVoUk1WTWROWEEyb2xXNGo4QlR1M3RKeFNHR0c5S0s5eDJnbE9JcEs2U3ZqUE1UV3hnQmZWS3BzeEhQQWdPbzljemF3bExhdndwMC1tdWVidDdfVUJBNkRPVV83OHR0bXVXNHZjMkNsZHBPclJlTDZJ0gHXAUFVX3lxTE5QQ3NzY05EVU9pYm9IRThVWlZZcWE5VlRudGtENkc5bnlraVk0VHJzajNQai1ydi1sYUNmZkRFVnp6cW40RjBBQ3FvZWY4RjdGdnhaQnQyTC11LU5xTmo5VlFxeS1MVGJNcFZERDhvYzRsZ1N5aVRGTXVzSXpsQmYtWlN3azVOZjNkeHBhYXdydEx5OW9WQTc1UmlFVEJhbW9jclJlc3htdkFucm1veUNMVHVJeEdkUU1oUXdjZExma3VpXzN0Yl9ESy1IeUd4LWN6eTQ3aHVr?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV secures Japanese government grant to advance autonomous bus field operational tests and talent development in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFTUGhUTS1iVjFmQ0hnVEpBVno4cHB6RXZPR2hlVWdXenBnRThiOHVScHF4NXVVQUFHSzBRV2lpakVVRU0teEZjVWFYZlNnNl9DX0VDeHVoUk1WTWROWEEyb2xXNGo4QlR1M3RKeFNHR0c5S0s5eDJnbE9JcEs2U3ZqUE1UV3hnQmZWS3BzeEhQQWdPbzljemF3bExhdndwMC1tdWVidDdfVUJBNkRPVV83OHR0bXVXNHZjMkNsZHBPclJlTDZJ0gHXAUFVX3lxTE5QQ3NzY05EVU9pYm9IRThVWlZZcWE5VlRudGtENkc5bnlraVk0VHJzajNQai1ydi1sYUNmZkRFVnp6cW40RjBBQ3FvZWY4RjdGdnhaQnQyTC11LU5xTmo5VlFxeS1MVGJNcFZERDhvYzRsZ1N5aVRGTXVzSXpsQmYtWlN3azVOZjNkeHBhYXdydEx5OW9WQTc1UmlFVEJhbW9jclJlc3htdkFucm1veUNMVHVJeEdkUU1oUXdjZExma3VpXzN0Yl9ESy1IeUd4LWN6eTQ3aHVr?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV secures Japanese government grant to advance autonomous bus field operational tests and talent development in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFTUGhUTS1iVjFmQ0hnVEpBVno4cHB6RXZPR2hlVWdXenBnRThiOHVScHF4NXVVQUFHSzBRV2lpakVVRU0teEZjVWFYZlNnNl9DX0VDeHVoUk1WTWROWEEyb2xXNGo4QlR1M3RKeFNHR0c5S0s5eDJnbE9JcEs2U3ZqUE1UV3hnQmZWS3BzeEhQQWdPbzljemF3bExhdndwMC1tdWVidDdfVUJBNkRPVV83OHR0bXVXNHZjMkNsZHBPclJlTDZJ0gHXAUFVX3lxTE5QQ3NzY05EVU9pYm9IRThVWlZZcWE5VlRudGtENkc5bnlraVk0VHJzajNQai1ydi1sYUNmZkRFVnp6cW40RjBBQ3FvZWY4RjdGdnhaQnQyTC11LU5xTmo5VlFxeS1MVGJNcFZERDhvYzRsZ1N5aVRGTXVzSXpsQmYtWlN3azVOZjNkeHBhYXdydEx5OW9WQTc1UmlFVEJhbW9jclJlc3htdkFucm1veUNMVHVJeEdkUU1oUXdjZExma3VpXzN0Yl9ESy1IeUd4LWN6eTQ3aHVr?oc=5"
+    },
+    {
+     "source": "Google News · Automotive World",
+     "title": "Japan funds Tier IV autonomous bus project in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcHZ2R1gzaU4wVV9ZQTUwbGFReV9mZXhOVjFzQTNZX3dFdmp3cU1MZVRyYnFCU0RFdzQ5SnVORG14TDVxYkxoUzdTbjBmTzNHbnBGU3dXVUdjRWtNNmM0TkNWUlNTUmpudVcxREhIY3JqZGt3MEU4eThGWTNfX2pCVXlfbDExWFgtQUxoNUhjZDd4SFpMajhDemozcHI?oc=5"
+    },
+    {
+     "source": "Google News · Automotive World",
+     "title": "Japan funds Tier IV autonomous bus project in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcHZ2R1gzaU4wVV9ZQTUwbGFReV9mZXhOVjFzQTNZX3dFdmp3cU1MZVRyYnFCU0RFdzQ5SnVORG14TDVxYkxoUzdTbjBmTzNHbnBGU3dXVUdjRWtNNmM0TkNWUlNTUmpudVcxREhIY3JqZGt3MEU4eThGWTNfX2pCVXlfbDExWFgtQUxoNUhjZDd4SFpMajhDemozcHI?oc=5"
+    },
+    {
+     "source": "Google News · Automotive World",
+     "title": "Japan funds Tier IV autonomous bus project in Saudi Arabia",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcHZ2R1gzaU4wVV9ZQTUwbGFReV9mZXhOVjFzQTNZX3dFdmp3cU1MZVRyYnFCU0RFdzQ5SnVORG14TDVxYkxoUzdTbjBmTzNHbnBGU3dXVUdjRWtNNmM0TkNWUlNTUmpudVcxREhIY3JqZGt3MEU4eThGWTNfX2pCVXlfbDExWFgtQUxoNUhjZDd4SFpMajhDemozcHI?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSVFTUGhUTS1iVjFmQ0hnVEpBVno4cHB6RXZPR2hlVWdXenBnRThiOHVScHF4NXVVQUFHSzBRV2lpakVVRU0teEZjVWFYZlNnNl9DX0VDeHVoUk1WTWROWEEyb2xXNGo4QlR1M3RKeFNHR0c5S0s5eDJnbE9JcEs2U3ZqUE1UV3hnQmZWS3BzeEhQQWdPbzljemF3bExhdndwMC1tdWVidDdfVUJBNkRPVV83OHR0bXVXNHZjMkNsZHBPclJlTDZJ0gHXAUFVX3lxTE5QQ3NzY05EVU9pYm9IRThVWlZZcWE5VlRudGtENkc5bnlraVk0VHJzajNQai1ydi1sYUNmZkRFVnp6cW40RjBBQ3FvZWY4RjdGdnhaQnQyTC11LU5xTmo5VlFxeS1MVGJNcFZERDhvYzRsZ1N5aVRGTXVzSXpsQmYtWlN3azVOZjNkeHBhYXdydEx5OW9WQTc1UmlFVEJhbW9jclJlc3htdkFucm1veUNMVHVJeEdkUU1oUXdjZExma3VpXzN0Yl9ESy1IeUd4LWN6eTQ3aHVr",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "＜動意株・５日＞（大引け）＝クリングル、ティアフォー、イントループなど",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wR19USUUtNGRuSGRmTEt0eHRRVE00bzlXUHpwZlM4UTBsSVpjVzBhWWJ3VXJsTWtRc1pYdmZjZUIxZTFJQ0pJdmtuLWdoR2dzZWRjOW5HQVZiU1ZtNkpPeXFn?oc=5",
+   "date": "2026-10-05 15:32",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "5일 동향주: 크링글, TIER IV 등 상승",
+    "korean_summary": "TIER IV가 일일 동향주 중 하나로 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "＜動意株・５日＞（大引け）＝クリングル、ティアフォー、イントループなど",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wR19USUUtNGRuSGRmTEt0eHRRVE00bzlXUHpwZlM4UTBsSVpjVzBhWWJ3VXJsTWtRc1pYdmZjZUIxZTFJQ0pJdmtuLWdoR2dzZWRjOW5HQVZiU1ZtNkpPeXFn?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wR19USUUtNGRuSGRmTEt0eHRRVE00bzlXUHpwZlM4UTBsSVpjVzBhWWJ3VXJsTWtRc1pYdmZjZUIxZTFJQ0pJdmtuLWdoR2dzZWRjOW5HQVZiU1ZtNkpPeXFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · YouTube",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【明日のテンバガー株】日経7万突破！半導体上昇か継続に注視？アドバンテスト！連日高値更新！ キオクシア！下落寄与一位？イビデン！GO！新規売りから上昇継続！ティアフォー！大幅反発！【20261005】",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56U1gxZ2FfMmF1ZzhoQy1iWE5zVHFGQ2pmR0ljcXdTY3VGbkhHcnRBYmdNRnZudEl5QWRHbHlvV3ZySEFhYVRsYjJQLThtd2YyZlZyY0dYWXpQYzNO?oc=5",
+   "date": "2026-10-05 20:03",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "명일의 테마주: TIER IV 연일 고점 경신",
+    "korean_summary": "TIER IV가 연일 신고가를 경신하며 급등세를 이어가고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · YouTube",
+     "title": "【明日のテンバガー株】日経7万突破！半導体上昇か継続に注視？アドバンテスト！連日高値更新！ キオクシア！下落寄与一位？イビデン！GO！新規売りから上昇継続！ティアフォー！大幅反発！【20261005】",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56U1gxZ2FfMmF1ZzhoQy1iWE5zVHFGQ2pmR0ljcXdTY3VGbkhHcnRBYmdNRnZudEl5QWRHbHlvV3ZySEFhYVRsYjJQLThtd2YyZlZyY0dYWXpQYzNO?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56U1gxZ2FfMmF1ZzhoQy1iWE5zVHFGQ2pmR0ljcXdTY3VGbkhHcnRBYmdNRnZudEl5QWRHbHlvV3ZySEFhYVRsYjJQLThtd2YyZlZyY0dYWXpQYzNO",
+   "body": ""
+  },
+  {
+   "source": "Google News · moomoo.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "東京市場サマリー：日経平均は大幅反発 ティアフォーが急騰 高市首相「経済成長がもたらす効果も踏まえ、国債発行額を適切にコントロール」",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzI2ZlEyWjQxenljRFlCZml1S2FmbFVFM0JBRTVyMUx5R0hDblNOSTd1S09RU25IOXJ5dzdWQnV3UC1JSTFsNkJlQ25tSDZyWkpMQTljbEUzdkZlSllZbDJSXzZYSkJoajl0MFhnZ09PRGFoeEM5Zm9fTWlMdmVuN09ra1ZHbFZpMkJjQmNVOFlEcGc1bm5OaDRySWFDNGg1bEt5emE5Y3hHWFdwNk1EM2JmM2FldXdZ?oc=5",
+   "date": "2026-10-05 16:23",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "도쿄 증시: 일경평균 대폭 반발, TIER IV 급등",
+    "korean_summary": "TIER IV의 급등이 도쿄 증시의 전반적 상승을 선도하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · moomoo.com",
+     "title": "東京市場サマリー：日経平均は大幅反発 ティアフォーが急騰 高市首相「経済成長がもたらす効果も踏まえ、国債発行額を適切にコントロール」",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzI2ZlEyWjQxenljRFlCZml1S2FmbFVFM0JBRTVyMUx5R0hDblNOSTd1S09RU25IOXJ5dzdWQnV3UC1JSTFsNkJlQ25tSDZyWkpMQTljbEUzdkZlSllZbDJSXzZYSkJoajl0MFhnZ09PRGFoeEM5Zm9fTWlMdmVuN09ra1ZHbFZpMkJjQmNVOFlEcGc1bm5OaDRySWFDNGg1bEt5emE5Y3hHWFdwNk1EM2JmM2FldXdZ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSzI2ZlEyWjQxenljRFlCZml1S2FmbFVFM0JBRTVyMUx5R0hDblNOSTd1S09RU25IOXJ5dzdWQnV3UC1JSTFsNkJlQ25tSDZyWkpMQTljbEUzdkZlSllZbDJSXzZYSkJoajl0MFhnZ09PRGFoeEM5Zm9fTWlMdmVuN09ra1ZHbFZpMkJjQmNVOFlEcGc1bm5OaDRySWFDNGg1bEt5emE5Y3hHWFdwNk1EM2JmM2FldXdZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "後場コメント No.5 塩野義、ティアフォー、ＭｒＭａｘＨＤ、ホンダ(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcWZZSmJrV3Bxc1k1dHQzYktPQmdrNURjTXA2dUFuaVVQWnhjSlRGeHJqZFlqSVRXTmo5MlNXWkpNMWtmWERpVGFtTkhCM1V2WFhFR05OOE9BTVhKaHYwNVNadS15bHZ5R1dVSXlDUWwtM09kWUpSRTFEX0drd2pvM1ozU2R6eVU?oc=5",
+   "date": "2026-10-05 15:31",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "후장 마감 코멘트: 塩野義, TIER IV 등 주목",
+    "korean_summary": "TIER IV가 후장 시장 동향 코멘트에 포함되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "後場コメント No.5 塩野義、ティアフォー、ＭｒＭａｘＨＤ、ホンダ(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcWZZSmJrV3Bxc1k1dHQzYktPQmdrNURjTXA2dUFuaVVQWnhjSlRGeHJqZFlqSVRXTmo5MlNXWkpNMWtmWERpVGFtTkhCM1V2WFhFR05OOE9BTVhKaHYwNVNadS15bHZ5R1dVSXlDUWwtM09kWUpSRTFEX0drd2pvM1ozU2R6eVU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcWZZSmJrV3Bxc1k1dHQzYktPQmdrNURjTXA2dUFuaVVQWnhjSlRGeHJqZFlqSVRXTmo5MlNXWkpNMWtmWERpVGFtTkhCM1V2WFhFR05OOE9BTVhKaHYwNVNadS15bHZ5R1dVSXlDUWwtM09kWUpSRTFEX0drd2pvM1ozU2R6eVU",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "東証グロース（前引け）＝売り買い拮抗、ティアフォー、カウリスが買われる",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUUZSb0FMNnJMS09yU1RwVjhZdGFKdW9Ebjgxdnl3QkM3REpMQ2pONld3Q3JoVkdOdjJ5eFBkYlJrV0MtNk51c25wU2RKMVF6aUE?oc=5",
+   "date": "2026-10-05 11:33",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "동경 그로스 시장, TIER IV 등 개별주 매수 우위",
+    "korean_summary": "주식시장 기술적 분석으로 TIER IV가 매수세를 보임"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "東証グロース（前引け）＝売り買い拮抗、ティアフォー、カウリスが買われる",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XLU0xYlpGdVZwLXBidnkxZXhCdGd3d01QWGNic0NaLXhIN19Hb3laMnVuZU5aTEVrVjVyWjl2QzVBZ18ya1lZb1h5YkxsNmpUZ1FmWGRNcW1Bb1pGaTh3?oc=5"
+    },
+    {
+     "source": "Google News · 株探",
+     "title": "東証グロース（前引け）＝売り買い拮抗、ティアフォー、カウリスが買われる",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUUZSb0FMNnJMS09yU1RwVjhZdGFKdW9Ebjgxdnl3QkM3REpMQ2pONld3Q3JoVkdOdjJ5eFBkYlJrV0MtNk51c25wU2RKMVF6aUE?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "東証グロース（前引け）＝売り買い拮抗、ティアフォー、カウリスが買われる",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XLU0xYlpGdVZwLXBidnkxZXhCdGd3d01QWGNic0NaLXhIN19Hb3laMnVuZU5aTEVrVjVyWjl2QzVBZ18ya1lZb1h5YkxsNmpUZ1FmWGRNcW1Bb1pGaTh3?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNUUZSb0FMNnJMS09yU1RwVjhZdGFKdW9Ebjgxdnl3QkM3REpMQ2pONld3Q3JoVkdOdjJ5eFBkYlJrV0MtNk51c25wU2RKMVF6aUE",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 118,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 5,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 5,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 20,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 30,
+   "in_window": 24,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 17.3
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 28.8
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.1
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
