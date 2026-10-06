@@ -1,0 +1,2121 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-06",
+ "window": [
+  "2026-10-05",
+  "2026-10-06"
+ ],
+ "generated": "2026-10-06T10:52:35+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Amazon이 **80억 달러 규모**의 NVIDIA 칩 구매 계획을 발표해 대규모 AI 인프라 투자를 확대한다.",
+  "로봇 사업 확대와 테스팅 파트너 협력에 힘입어 **엔비디아 주가**가 상승세를 보이고 있다.",
+  "삼성디스플레이와 LG디스플레이가 NVIDIA RTX SPARK 기반 OLED 노트북 7개 모델에 **패널을 독점 공급**하며 시장 주도권을 확보했다."
+ ],
+ "cards": [
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "AMD attempts to get ahead of expected RTX Spark launch with Gorgon Halo benchmarks",
+   "link": "https://www.tomshardware.com/pc-components/cpus/amd-attempts-to-get-ahead-of-expected-rtx-spark-launch-with-gorgon-halo-ai-benchmarks-company-says-it-has-shipped-over-half-a-million-agentic-pcs-to-date",
+   "date": "2026-10-06 00:38",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark 출시 임박, AMD가 Gorgon Halo 벤치마크로 선제 대응",
+    "korean_summary": "NVIDIA의 RTX Spark 출시(10월 7일) 직전에 AMD가 경쟁 제품 Gorgon Halo의 벤치마크를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "AMD, RTX Spark 출시 직전 Gorgon Halo 벤치마크 선제 공개로 견제",
+    "korean_summary": "AMD가 NVIDIA의 **RTX Spark 출시**(10월 7일 Microsoft 행사 전망)에 앞서 경쟁 칩 Gorgon Halo의 AI 성능 벤치마크를 공개하며 메모리 용량과 로컬 LLM 처리량을 앞세워 선제 견제에 나섰다.",
+    "action": {
+     "actor": "AMD",
+     "action": "Gorgon Halo(Ryzen AI Max+ Pro 495) 벤치마크를 공개하여 Intel Core Ultra X9 388H와 비교, RTX Spark 출시 전 경쟁 포지셔닝 시도",
+     "stage": "Report",
+     "timeline": "2026-10-06 보도, RTX Spark 출시는 2026-10-07 Microsoft 행사로 예상",
+     "scope": "RTX Spark 및 DGX Spark(GB10) 대비 Gorgon Halo 칩, 에이전틱 PC 카테고리"
+    },
+    "key_facts": [
+     "**RTX Spark는 2026년 10월 7일 Microsoft 이벤트에서 출시 예상**이며 가을 출시가 이미 공지됨",
+     "RTX Spark와 DGX Spark의 GB10 칩은 거의 동일하며 **통합 메모리 최대 128GB로 동일**",
+     "AMD Gorgon Halo(Ryzen AI Max+ Pro 495)는 **최대 192GB 메모리 지원**으로 RTX Spark보다 우위",
+     "DGX Spark는 GPT-OSS 120B(4-bit) 기준 **64 tokens/sec**, 전작 Ryzen AI Max+ 395는 56 tokens/sec 기록",
+     "AMD는 GLM 5.3 Flash(320B 파라미터)에서 peak 20 tokens/sec, Qwen 3.8 Flash Next에서 최대 42 tokens/sec 보고"
+    ],
+    "why_matters": "RTX Spark 실측 성능이 아직 공개되지 않은 가운데 AMD가 메모리 용량 우위(192GB vs 128GB)를 핵심 차별점으로 내세워 **로컬 LLM 추론 시장에서 선제적 내러티브 선점**에 나섰다는 점이 중요하다. 다만 DGX Spark의 토큰 처리량(64 tok/s)이 AMD 수치(20~42 tok/s)보다 높게 나타나 NVIDIA의 성능 우위 가능성도 동시에 시사된다.",
+    "subject_angle": "NVIDIA는 **RTX Spark/DGX Spark(GB10)를 통해 에이전틱·로컬 AI PC 카테고리를 선도**하려 하며, AMD의 선제 벤치마크 공개는 출시 전 시장 기대치 관리와 경쟁 구도 형성에 영향을 줄 수 있어 실제 성능·가격 공개 시점이 관건이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX Spark 및 DGX Spark(GB10) 개발사, 10월 7일 출시 예상"
+     },
+     {
+      "name": "AMD",
+      "context": "경쟁 칩 Gorgon Halo(Ryzen AI Max+ Pro 495) 벤치마크 공개"
+     },
+     {
+      "name": "Intel",
+      "context": "Core Ultra X9 388H(Panther Lake)로 AMD 벤치마크 비교 대상"
+     },
+     {
+      "name": "Microsoft",
+      "context": "10월 7일 RTX Spark 출시 예상 행사 주최"
+     },
+     {
+      "name": "Apple",
+      "context": "대형 M-series SoC로 간접 경쟁 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX Spark",
+      "role": "NVIDIA의 임박한 에이전틱 PC 디바이스, 경쟁 벤치마크의 대상"
+     },
+     {
+      "name": "DGX Spark (GB10)",
+      "role": "RTX Spark와 거의 동일한 칩, 성능 비교 기준점으로 사용"
+     },
+     {
+      "name": "Gorgon Halo / Ryzen AI Max+ Pro 495",
+      "role": "AMD의 경쟁 칩, 192GB 메모리로 RTX Spark 견제"
+     },
+     {
+      "name": "Core Ultra X9 388H (Panther Lake)",
+      "role": "AMD 벤치마크의 Intel 비교 대상"
+     }
+    ],
+    "watch_next": [
+     "RTX Spark의 실제 가격·사양·벤치마크 공개 여부(10월 7일 Microsoft 행사)",
+     "RTX Spark 실측 토큰 처리량이 DGX Spark 수치(64 tok/s)와 일치하는지",
+     "에이전틱 PC 시장에서 NVIDIA vs AMD 메모리 용량(128GB vs 192GB) 경쟁의 시장 반응"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/cpus/amd-attempts-to-get-ahead-of-expected-rtx-spark-launch-with-gorgon-halo-ai-benchmarks-company-says-it-has-shipped-over-half-a-million-agentic-pcs-to-date",
+   "body": "Nvidia is expected to launch RTX Spark devices later this week, following a not-so-subtle tease at the end of last week (and the chip’s announced fall release). Ahead of Microsoft’s event on Wednesday, October 7 (where the launch is expected) AMD has shared some benchmarks for its new Gorgon Halo chips — the range that will directly compete with RTX Spark devices. The extra insight comes a matter of days after the first Gorgon Halo devices launched, some of which cost upwards of $7,099. Go deeper with TH Premium: CPU (Image credit: Tom's Hardware) Intel VP Robert Hallock sets Nova Lake expectations, teases return to Raptor Lake for DDR4 platforms CPU scaling with DLSS Intel's one-two punch plan in desktop CPUs is taking shape Benchmarking AMD's BC-250, offering Steam Machine-like performance at half the price AMD splits Zen 7 into three EPYC families for 2028 and starts selling server CPUs by the agent Short of a few questionable Geekbench leaks , we haven’t seen any performance results for the RTX Spark yet, so AMD isn’t using it as a comparison point. Rather, it’s comparing the Ryzen AI Max+ Pro 495 to Intel’s Core Ultra X9 388H. These chips aren’t in the same class of device, though AMD would argue that it’s comparing its top-of-stack part to Intel’s top-of-stack part. AMD used ComfyUI to measure generative AI performance. AMD averaged multiple runs of various models, comparing total throughput to Intel’s competition. AMD used its top-spec 192GB configuration of the Ryzen AI Max+ Pro 495 and compared it to the Core Ultra X9 388H in a system with 64GB of memory (Panther Lake supports up to 128GB). The performance advantage ranges from 1.1x up to 32.2x, though the end point is a clear outlier. We searched for Yuve on Hugging Face and didn’t find any results. It’s possible this delta comes down to an optimization issue, or that it’s simply too big to run on the Panther Lake machine. (Image credit: AMD) We don’t have gaming or general application performance, but we don’t expect a major swing compared to last-gen Strix Halo chips. Gorgon Halo is largely a refresh of that range. Gorgon Halo isn’t getting into the ring with Panther Lake, however. It’s going mainly against the RTX Spark, and to a lesser extent, Apple’s larger M-series SoCs. This category of agentic PCs, as AMD calls it, is seemingly expanding, though it’s still far smaller than some of the hype around the RTX Spark would have you believe. AMD bragged in a prebriefing with the press about shipping “10s of millions” of AI PCs (read: laptops) before clarifying that it had slipped “over half a million” agentic PCs. Presumably, those are numbers for Strix/Gorgon Halo devices. The matchup between Gorgon Halo and the RTX Spark has, up to this point, focused mainly on memory capacity. RTX Spark devices top out at 128GB of unified memory, same as the GB10 in the DGX Spark (the two chips are nearly identical). AMD, on the other hand, supports up to 192GB with Gorgon Halo. Higher capacity means"
+  },
+  {
+   "source": "Google News · IBM",
+   "category": "media",
+   "kind": "gnews",
+   "title": "IBM chose NVIDIA Nemotron for IBM Bob self-hosted deployment",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnR4NHZoRTRaQmV2VGVMNHpQakZ3aDhvOWI3NnhlenNzbDB3eUJScXh2MHVSQWVxV2ViM0h5MEMzS0k1VGV6WVlJSDNRT0RmN0o3UjNoVVdXbE9YUGI3OGVOMGxBNFZwdUxmXzJ3SFFBdzJTN3lWeXUwRXhVY1dSVmdjYmF0eXd2YzI0aXNBRzBhVmFqYUE?oc=5",
+   "date": "2026-10-06 03:23",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "model-release"
+    ],
+    "korean_title": "IBM, 자체 AI 어시스턴트 Bob에 NVIDIA Nemotron 선택",
+    "korean_summary": "IBM이 자체 배포 AI 어시스턴트 Bob의 언어 모델로 NVIDIA Nemotron을 채택했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcnR4NHZoRTRaQmV2VGVMNHpQakZ3aDhvOWI3NnhlenNzbDB3eUJScXh2MHVSQWVxV2ViM0h5MEMzS0k1VGV6WVlJSDNRT0RmN0o3UjNoVVdXbE9YUGI3OGVOMGxBNFZwdUxmXzJ3SFFBdzJTN3lWeXUwRXhVY1dSVmdjYmF0eXd2YzI0aXNBRzBhVmFqYUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon’s $8 Billion Nvidia Chip Plan Shows the Cost of the AI Boom",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWXRseUxkMmlpNm1rVTJmMl9KTklXeVVEVVVuYzlQUkxsaGl0d1QxRU15Z1hXMHRQNkdOazJfM2JzdzZyVEoyLXZwZ2syOWZ6Y2drUmZvTjd0bFhmb01vSDVYRHgwaXMtOHFzVkQ5bDNiVEJXanlQMUozRG9TUFI5cnZsTXhyMzBHYVVTT2Jlaw?oc=5",
+   "date": "2026-10-06 06:29",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Amazon, 80억 달러 규모 NVIDIA 칩 구매 계획 공개",
+    "korean_summary": "Amazon이 80억 달러 규모의 NVIDIA 칩 구매 계획을 발표합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWXRseUxkMmlpNm1rVTJmMl9KTklXeVVEVVVuYzlQUkxsaGl0d1QxRU15Z1hXMHRQNkdOazJfM2JzdzZyVEoyLXZwZ2syOWZ6Y2drUmZvTjd0bFhmb01vSDVYRHgwaXMtOHFzVkQ5bDNiVEJXanlQMUozRG9TUFI5cnZsTXhyMzBHYVVTT2Jlaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Law.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Groq Shareholders Challenge Nvidia's $20B Reverse Acqui-Hire",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaGpWS1hYbGlFUFN1NU1UeW1ubWN5azV3RUpoOFV6cHdiWmg2RWs1ckp1ZDI1eWNlcHdVVk9iS081ME9GWXdyQnRCTFRjbm5WNzJFWUFLQV9XZkZVNmswa2s3N1pYRjlVM0dJdG9tS1VHNFI3ZTBUcmQ1c2toZ2RJOXMyTUF3M2lvSkQxakktSElpNGZhRkZucHpyZEt5VlM2MGx3Qw?oc=5",
+   "date": "2026-10-06 05:43",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a",
+     "regulation"
+    ],
+    "korean_title": "Groq 주주, 엔비디아의 200억 달러 역인수 이의 제기",
+    "korean_summary": "Groq 주주들이 엔비디아의 200억 달러 규모 역인수에 대해 법적 이의를 제기하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaGpWS1hYbGlFUFN1NU1UeW1ubWN5azV3RUpoOFV6cHdiWmg2RWs1ckp1ZDI1eWNlcHdVVk9iS081ME9GWXdyQnRCTFRjbm5WNzJFWUFLQV9XZkZVNmswa2s3N1pYRjlVM0dJdG9tS1VHNFI3ZTBUcmQ1c2toZ2RJOXMyTUF3M2lvSkQxakktSElpNGZhRkZucHpyZEt5VlM2MGx3Qw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investor's Business Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Testing Partner Takes Aim At AI-Fueled Breakout. Robotics Give Shares A Boost.",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFBSkY2WFd3eEV4aU9yNGJiSDl5ZWdWOHFVV2lYMTNBQkYwU2toWTVGYnVHSXI2VXZRT2Mzb0JZOUJsRUVYaGs5TWlPd0FrVHF1RENURUNBT3lTN1JrS3p3Nm1vSExCdjBXcnZ5OU9TbVBrd0l0N0lPVGFvcElmQkxVVTBlckpxT0RJcFdidEpwUV9QR3dyNDBUc1haY2NwRGs2TjVjVUFweTlNUUQ0V0Z1WFNIaDR6NnJLVVFfdTdXNl9xTDBhS2pYQQ?oc=5",
+   "date": "2026-10-05 23:51",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "로봇 사업 확대로 엔비디아 주가 상승",
+    "korean_summary": "테스팅 파트너 협력과 로봇 사업 부상이 엔비디아의 주가 상승을 견인하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZDFBSkY2WFd3eEV4aU9yNGJiSDl5ZWdWOHFVV2lYMTNBQkYwU2toWTVGYnVHSXI2VXZRT2Mzb0JZOUJsRUVYaGs5TWlPd0FrVHF1RENURUNBT3lTN1JrS3p3Nm1vSExCdjBXcnZ5OU9TbVBrd0l0N0lPVGFvcElmQkxVVTBlckpxT0RJcFdidEpwUV9QR3dyNDBUc1haY2NwRGs2TjVjVUFweTlNUUQ0V0Z1WFNIaDR6NnJLVVFfdTdXNl9xTDBhS2pYQQ",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+   "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+   "date": "2026-10-05 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "암 진단부터 치료까지, NVIDIA Inception 스타트업들의 의료 AI 솔루션",
+    "korean_summary": "NVIDIA Inception 프로그램의 스타트업들이 유방암 진단과 치료 계획에서 의료 공백을 해소하는 AI 애플리케이션을 개발 중이다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Inception 스타트업들, AI로 유방암 진단·치료 공백 해소",
+    "korean_summary": "iSono Health와 Whiterabbit.ai 등 NVIDIA Inception 소속 스타트업들이 **NVIDIA GPU 가속 AI**를 활용해 유방암 영상 검진부터 치료 계획까지 의료 현장의 인력 부족과 지연 문제를 해결하고 있다.",
+    "action": {
+     "actor": "NVIDIA Inception 소속 스타트업 (iSono Health, Whiterabbit.ai 등)",
+     "action": "AI 기반 유방암 영상 진단·위험 평가·치료 계획 플랫폼을 NVIDIA GPU 인프라로 개발·운영",
+     "stage": "Available",
+     "timeline": "미확인 (iSono Health ATUSA는 현재 상용화 중, Whiterabbit WRDensity는 이미 수십만 건 환자에 사용됨)",
+     "scope": "미국 내 유방암 검진·진단 분야, iSono Health는 California, Texas, Georgia, Tennessee, Washington D.C. 파트너 클리닉"
+    },
+    "key_facts": [
+     "미국에서 연간 약 **4000만 건의 유방촬영술**이 시행되나 향후 10년간 수만 명의 방사선과 전문의 부족이 예상됨",
+     "iSono Health의 FDA 승인 ATUSA 플랫폼은 유방 1개당 약 2분 만에 3D 초음파 스캔 가능(기존 핸드헬드 방식은 최대 45분), 150만 개 이상의 초음파 프레임으로 학습",
+     "ATUSA는 핸드헬드 2D 초음파보다 **28% 더 높은 민감도**를 제공한다고 회사 측 주장, UC Davis·Vanderbilt University Medical Center 주도로 3,200명 대상 다기관 임상 진행 중",
+     "Whiterabbit.ai의 FDA 승인 WRDensity 소프트웨어는 수십만 명 환자 진료에 사용됨, Washington University in St. Louis의 NVIDIA GPU 클러스터에서 모델 학습, 클리닉 현장 NVIDIA GPU에서 추론 수행",
+     "유방암 발생 빈도는 유방촬영술 200건당 약 1건으로, 방사선과 의사가 '건초 속 바늘 찾기' 문제에 직면"
+    ],
+    "why_matters": "방사선과 인력 부족과 진단 지연이라는 의료 시스템의 구조적 문제를 AI가 완화할 수 있음을 보여주는 사례로, 의료 AI 시장에서 영상진단·치료계획 전 영역에 걸친 NVIDIA 생태계의 확장을 입증한다. **FDA 승인을 받은 상용 제품들이 실제 임상 현장에 배치**되고 있다는 점에서 의료 AI의 실질적 채택 단계를 보여준다.",
+    "subject_angle": "NVIDIA는 Inception 프로그램을 통해 의료 AI 스타트업들의 학습·추론 인프라를 지원하며, 병원·클리닉 현장(edge)과 클라우드·HPC 클러스터 양쪽에서 **GPU 플랫폼의 의료 영상 밸류체인 전반 침투**를 확대하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Inception 프로그램 운영, GPU 가속 인프라 제공"
+     },
+     {
+      "name": "iSono Health",
+      "context": "NVIDIA Inception 스타트업, FDA 승인 3D 초음파 유방암 검진 플랫폼 ATUSA 개발"
+     },
+     {
+      "name": "Whiterabbit.ai",
+      "context": "NVIDIA Inception 스타트업, 유방암 검진용 AI(WRDensity, WRRisk) 개발"
+     },
+     {
+      "name": "UC Davis",
+      "context": "iSono Health ATUSA 임상시험 주요 연구 사이트"
+     },
+     {
+      "name": "Vanderbilt University Medical Center",
+      "context": "iSono Health ATUSA 임상시험 주요 연구 사이트"
+     },
+     {
+      "name": "Washington University in St. Louis",
+      "context": "Whiterabbit.ai AI 모델 학습용 NVIDIA GPU 클러스터 보유"
+     }
+    ],
+    "products": [
+     {
+      "name": "iSono Health ATUSA",
+      "role": "웨어러블 자동 3D 정량 초음파 유방암 검진 시스템, NVIDIA GPU 가속 활용"
+     },
+     {
+      "name": "Whiterabbit WRDensity",
+      "role": "유방촬영술 기반 유방 밀도 자동 평가 FDA 승인 소프트웨어"
+     },
+     {
+      "name": "Whiterabbit WRRisk",
+      "role": "장기 유방암 발병 위험도 추정 임상 의사결정 지지 소프트웨어"
+     },
+     {
+      "name": "NVIDIA GPU",
+      "context": "미확인",
+      "role": "스타트업들의 AI 모델 학습(클러스터) 및 클리닉 현장 추론 가속"
+     }
+    ],
+    "watch_next": [
+     "iSono Health의 멀티모달 진단(3D 초음파·유방촬영술·MRI·임상정보 통합) AI 파이프라인 확장 시점",
+     "Whiterabbit.ai의 차세대 유방촬영술 AI(음성 판독 자동화) FDA 승인 및 상용화 여부",
+     "치료 반응 예측 관련 유전체 분석 AI 스타트업의 구체적 제품·NVIDIA 인프라 활용 세부사항 (본문 말미 미완성)"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+     "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups",
+   "body": "Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatment can take weeks to return results. Companies in the NVIDIA Inception program for startups are building AI applications to support clinicians at each of these friction points, including imaging, risk assessment and treatment planning. About 40 million mammograms are performed in the U.S. each year, but a projected shortfall of tens of thousands of radiologists over the next decade is straining the system’s capacity to read them. At the other end of the care timeline, treatment decisions often hinge on genomic assays sent off to outside labs — assays that take weeks to process, at a moment when speed and certainty matter most. The companies below are addressing both ends of that gap, and everything in between, accelerated by NVIDIA AI infrastructure. Automated Imaging Delivers AI-Powered Insights For women struggling to find time or a nearby location for breast cancer screening, access is a practical barrier that translates into missed diagnoses. NVIDIA Inception startup iSono Health was built around simplifying this imaging workflow. The company’s FDA-cleared ATUSA platform — a wearable, automated 3D quantitative ultrasound system — captures a standardized breast volume in approximately two minutes per breast, compared with up to 45 minutes for a conventional handheld ultrasound. The system’s AI, trained on thousands of full-breast scans comprising over 1.5 million ultrasound frames, automates image acquisition. It uses NVIDIA GPU acceleration and open source medical imaging technology to deliver a 3D scan that the company says is 28% more sensitive than a handheld 2D ultrasound. https://blogs.nvidia.com/wp-content/uploads/2026/10/ATUSA_software_show_10s.mp4 Handheld ultrasound depends on whoever holds the probe, so a woman’s scans typically can’t be compared from one year to the next. ATUSA captures the whole breast the same way every time, creating a repeatable view of breast tissue that could help clinicians analyze how a patient’s tissue changes across successive scans, while also reducing operator errors and variability. ATUSA is commercially available through partner clinics across California, Texas, Georgia, Tennessee and Washington D.C., with new sites coming online regularly. “Getting the scan closer to the patient is the first breakthrough,” said Neda Razavi, CEO of iSono Health. “Our vision is to make that scan increasingly informative: helping clinicians see what is there, understand what has changed and make more informed decisions.” iSono Health has developed AI capabilities for lesion detection, 3D segmentation and lesion classification. It next plans to extend its AI pipeline into multimodal diagnostic intelligence spanning 3D ultrasou"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Germany’s Karlsruhe Institute of Technology unveils 33 petaflops HoreKa 2 supercomputer",
+   "link": "https://www.datacenterdynamics.com/en/news/germanys-karlsruhe-institute-of-technology-unveils-33-petaflops-horeka-2-supercomputer/",
+   "date": "2026-10-05 22:40",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "독일 칼스루에 공대, NVIDIA GB200 탑재 HoreKa 2 슈퍼컴퓨터 운영 시작",
+    "korean_summary": "칼스루에 공과대학이 NVIDIA GB200 GPU 및 NVLink 기술을 탑재한 33페타플롭스급 HoreKa 2 슈퍼컴퓨터(€17M)를 운영 개시했다."
+   },
+   "summary_data": {
+    "korean_title": "독일 KIT, NVIDIA GB200 탑재한 33페타플롭스 슈퍼컴퓨터 'HoreKa 2' 가동",
+    "korean_summary": "독일 Karlsruhe Institute of Technology가 기후·신소재·AI 연구를 위해 NVIDIA GB200 GPU 기반의 33페타플롭스급 슈퍼컴퓨터 HoreKa 2를 Lenovo와 함께 구축해 가동을 시작했다.",
+    "action": {
+     "actor": "Karlsruhe Institute of Technology (KIT)",
+     "action": "Lenovo 제조, NVIDIA GB200 GPU 및 NVLink 탑재 하이브리드 슈퍼컴퓨터 HoreKa 2 가동 시작",
+     "stage": "Available",
+     "timeline": "미확인 (본문상 'now operational')",
+     "scope": "KIT Campus North (독일 Baden-Württemberg) 내 기후·신소재·입자물리·에너지·모빌리티·AI 연구용"
+    },
+    "key_facts": [
+     "HoreKa 2는 **33 petaflops** 피크 성능으로, 2021년 가동된 전작 HoreKa(17 petaflops) 대비 약 2배 향상",
+     "총 구축 비용은 **€17 million ($19m)**",
+     "GPU 파티션은 Lenovo ThinkSystem SC777 V4 서버에 **NVIDIA GB200 GPU**와 NVIDIA NVLink 네트워킹 기술 적용",
+     "CPU 파티션은 AMD Epyc 9655 'Turin' 탑재 Lenovo SD665 V3 서버 사용, 전체 메모리는 250TB",
+     "Lenovo Neptune 액체냉각 기술 적용, Campus North 전력은 100% 재생에너지 기반"
+    ],
+    "why_matters": "유럽 주요 연구기관이 AI·과학 시뮬레이션 인프라 고도화를 위해 **NVIDIA GB200**을 채택한 사례로, 유럽 공공·학술 HPC 시장에서 NVIDIA GPU의 표준 플랫폼 지위를 재확인한다. 동시에 KIT가 별도로 €24 million 규모의 AI 데이터센터 구축 계획을 발표한 점은 후속 NVIDIA 플랫폼 수요로 이어질 가능성을 시사한다.",
+    "subject_angle": "NVIDIA는 GB200과 NVLink를 유럽 학술·공공 HPC 시스템에 공급하며 **AI 및 과학 컴퓨팅 수요가 결합된 하이브리드 슈퍼컴퓨터 시장**에서 Lenovo 등 OEM 파트너와의 생태계를 지속 확대하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Karlsruhe Institute of Technology (KIT)",
+      "context": "HoreKa 2 운영 기관, 신규 AI 데이터센터 구축 발표"
+     },
+     {
+      "name": "Lenovo",
+      "context": "HoreKa 2 시스템 제조사, Neptune 액체냉각 및 서버 플랫폼 공급"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GB200 GPU 및 NVLink 네트워킹 기술 공급"
+     },
+     {
+      "name": "AMD",
+      "context": "CPU 파티션용 Epyc 9655 'Turin' 프로세서 공급"
+     },
+     {
+      "name": "IBM",
+      "context": "Storage Scale Systems(SSS 6000) 기반 스토리지 시스템 공급"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GB200",
+      "role": "HoreKa 2 GPU 파티션의 핵심 가속기"
+     },
+     {
+      "name": "NVIDIA NVLink",
+      "role": "GPU 파티션 간 고속 인터커넥트 기술"
+     },
+     {
+      "name": "Lenovo ThinkSystem SC777 V4",
+      "role": "GB200 GPU 탑재 서버"
+     },
+     {
+      "name": "Lenovo SD665 V3",
+      "role": "AMD Epyc CPU 탑재 서버"
+     }
+    ],
+    "watch_next": [
+     "KIT의 신규 AI 데이터센터(€24m) 구축 일정 및 GPU 플랫폼 선정 여부",
+     "HoreKa 2의 구체적 가동 시작일 및 연구 성과 공개 여부",
+     "유럽 내 타 연구기관의 NVIDIA GB200 기반 슈퍼컴퓨터 도입 확산 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/germanys-karlsruhe-institute-of-technology-unveils-33-petaflops-horeka-2-supercomputer",
+   "body": "The Karlsruhe Institute of Technology’s (KIT) HoreKa 2 hybrid supercomputer is now operational. Housed at the university’s KIT Campus North in Baden-Württemberg, southwestern Germany, the system cost €17 million ($19m) and will support climate, new materials, particle physics, energy, mobility, and AI research. HoreKa 2 is the successor to HoreKa, the university’s 17 petaflops supercomputer that was inaugurated in 2021. The new Lenovo-manufactured supercomputer has a peak performance of 33 petaflops. The CPU partition uses Lenovo SD665 V3 servers featuring AMD Epyc 9655 ‘Turin’ CPUs, while the GPU partition is comprised of Lenovo ThinkSystem SC777 V4 servers, featuring Nvidia GB200 GPUs and interconnected by Nvidia’s NVLink networking technology. HoreKa 2 also has 250TB of memory and a storage system based on IBM Storage Scale Systems (SSS 6000), with a two-tier architecture consisting of NVMe and HDD tiers. The GPU partition is cooled using Lenovo’s Neptune liquid cooling technology, which utilizes hot water to ensure “particularly energy-efficient operation and free cooling all over the year.” The university further stated that during the system’s development and procurement phases, performance and energy efficiency were given equal priority and, as a result, it claims that HoreKa 2 is one of the most energy-efficient supercomputers of its performance class worldwide – with power supply at KIT’s Campus North 100 percent based on renewables. “HoreKa 2 strengthens the digital capabilities of KIT and combines cutting-edge research with a clear focus on sustainability. It will allow us to create the conditions necessary to conduct data-intensive research and run modern AI applications in an energy-efficient and sustainable manner,” said Professor Kora Kristof, VP of digitalization and sustainability at KIT. “Researchers from nearly all disciplines will benefit from the new system,” added Professor Martin Frank, member of the Board of Directors of the KIT Scientific Computing Center (SCC). “With the new system, we are able to double the computing power for simulations and AI applications.” In addition to unveiling its new supercomputer, last week KIT also announced plans to build an AI data center at Campus North. According to the university, the facility will cost an estimated €24 million ($27.2m) and be designed to support other higher education institutions, government organizations, and researchers."
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아 AI 노트북 OLED 한국이 독점",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=63239",
+   "date": "2026-10-05 21:26",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA RTX Spark AI 노트북 OLED 패널 한국 업체 독점 공급",
+    "korean_summary": "NVIDIA RTX Spark 기반 AI 노트북의 OLED 패널을 삼성디스플레이와 LG디스플레이가 독점 공급한다."
+   },
+   "summary_data": {
+    "korean_title": "엔비디아 RTX SPARK 기반 AI 노트북, OLED 패널 한국 기업이 독점 공급",
+    "korean_summary": "삼성디스플레이와 LG디스플레이가 엔비디아의 차세대 AI PC 플랫폼 RTX SPARK 기반 OLED 노트북 7개 모델 전량에 패널을 공급하며 초기 AI PC OLED 시장 주도권을 확보했다.",
+    "action": {
+     "actor": "Samsung Display, LG Display",
+     "action": "NVIDIA RTX SPARK 기반 AI 노트북용 OLED 패널 독점 공급",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "OLED 탑재 AI 노트북 7개 모델 (삼성디스플레이 6종, LG디스플레이 1종)"
+    },
+    "key_facts": [
+     "**NVIDIA RTX SPARK 기반 AI 노트북 중 OLED 탑재 7개 모델 전량이 Samsung Display·LG Display 패널을 사용**",
+     "Samsung Display가 6종, LG Display가 1종 공급",
+     "RTX SPARK는 NVIDIA가 올해 공개한 차세대 PC용 플랫폼",
+     "**Arm 기반 CPU와 NVIDIA GPU(블랙웰 계열 추정)를 결합한 구조**로 언급됨",
+     "중국 업체들은 IT용 OLED 투자를 늘리고 있으나 초기 AI PC 시장은 한국 업체가 주도"
+    ],
+    "why_matters": "**AI PC라는 신규 카테고리 초기 단계에서 한국 디스플레이 업체가 공급망을 독점**함으로써, 중국의 추격에도 불구하고 고부가 OLED 패널 시장에서 한국의 경쟁력이 재확인됐다. NVIDIA의 RTX SPARK 플랫폼 흥행 여부가 한국 디스플레이 업체들의 AI PC向 매출 확대와 직결되는 구조가 형성됐다.",
+    "subject_angle": "NVIDIA는 RTX SPARK 플랫폼으로 **Arm CPU+GPU 결합형 AI PC 생태계를 확장**하면서, 고사양 디스플레이 공급망을 한국 업체에 의존하는 구조를 가지게 되어 플랫폼 확산 시 한국 디스플레이 산업과의 동반 성장 가능성이 커졌다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX SPARK AI PC 플랫폼 공개, OLED 노트북 생태계 주도"
+     },
+     {
+      "name": "Samsung Display",
+      "context": "RTX SPARK 기반 OLED 노트북 7개 모델 중 6종에 패널 공급"
+     },
+     {
+      "name": "LG Display",
+      "context": "RTX SPARK 기반 OLED 노트북 7개 모델 중 1종에 패널 공급"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX SPARK",
+      "role": "NVIDIA의 차세대 AI PC용 플랫폼, Arm 기반 CPU와 GPU 결합"
+     },
+     {
+      "name": "OLED 패널",
+      "role": "RTX SPARK 기반 AI 노트북의 디스플레이 핵심 부품"
+     }
+    ],
+    "watch_next": [
+     "RTX SPARK 기반 AI 노트북의 실제 출시 일정 및 판매량",
+     "중국 OLED 업체의 AI PC向 패널 진입 시도 여부",
+     "NVIDIA RTX SPARK 플랫폼의 추가 파트너 OEM 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=63239",
+   "body": "엔비디아의 차세대 인공지능(AI) PC에 탑재되는 유기발광다이오드(OLED) 패널을 한국 기업이 독점 공급했다. 중국 업체들이 IT용 OLED 투자를 늘리고 있지만, 초기 AI PC는 한국 업체들이 주도권을 잡았다.5일 업계에 따르면 엔비디아의 'RTX 스파크' 기반 주요 AI 노트북 가운데 OLED를 탑재한 7개 모델은 모두 삼성디스플레이와 LG디스플레이 패널을 장착했다. 삼성디스플레이가 6종, LG디스플레이가 1종을 공급했다.RTX 스파크는 엔비디아가 올해 공개한 차세대 PC용 플랫폼이다. Arm 기반 중앙처리장치(CPU)와 블"
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft ASD Comes to NVIDIA RTX GPUs: 90% Faster Loads",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LWTFKekFXSzhyWmI0djV1SVhCT1l1NDdUOEluVmxXYU5PNDdJX1hCblNTU3RqWmswXzRYdVBrZ0kydFhoLTkyRHVNYTZudnVaWnlDd05OQVl0eVpET1ctNXFzWnlKXzV4TXdLdnhnOVkxRUtSOVE?oc=5",
+   "date": "2026-10-06 06:58",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Microsoft ASD, NVIDIA RTX GPU 지원으로 로드 속도 90% 향상",
+    "korean_summary": "Microsoft의 ASD 기술이 NVIDIA RTX GPU에 지원되어 로드 속도가 90% 개선되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LWTFKekFXSzhyWmI0djV1SVhCT1l1NDdUOEluVmxXYU5PNDdJX1hCblNTU3RqWmswXzRYdVBrZ0kydFhoLTkyRHVNYTZudnVaWnlDd05OQVl0eVpET1ctNXFzWnlKXzV4TXdLdnhnOVkxRUtSOVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FQR2h6dGd0eThzSjRKNENDQV9YMnpIZlVfWTNVV2tlSTEzZDJyU09MZ2s1Sk9lWVRESzdwQmdfQjlsRzZPVmJuUzRLQkp5UXhVUHpia2pZWHVfRmQyR21COWx2dGZxR0pzUmxvT3RUUDVhX1JRWm1LQXRfVmV5bGpIMFYtRHFoNW1UMlV3Q3h5X19QaVAxMnJ1SkxrU0pKVnJYcW9LNTNENVJldFc1VTNoRHdRRmNkVFM4?oc=5",
+   "date": "2026-10-06 05:54",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA 지원사 Reflection, 첫 AI 모델 공개로 중국 오픈 모델 경쟁",
+    "korean_summary": "NVIDIA 지원 기업 Reflection이 첫 AI 모델을 공개하여 중국의 오픈 소스 모델들과 경쟁한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPcTFmbFpzLWE4M3dTbFNmMW1OYTJ1S0JxcUFWNVptamNNWVdXQ0VwY2taZHZ0NE5tdWRHX05VQ2xaaENKWkJ5LW5JaVdxV2lpWFpRRkFneGxYNjhta1BFRGJCVURMMm9HbW9wUms2T2hNMTl5YWJDOTc4WU5iMElGMWp2NmpkM0ZfVjB2dGZLMTVpV1lXUE9uVDc3ZEQ1dURITVc3VDNTeV9kQWh1ZkRDSjREdkdKM1hhR1MxSWUxOUFKc0NGWTZfYlFVY25VZ1Axc0NBM2tMRTFQdUVqdWUxVEhB?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ2FQR2h6dGd0eThzSjRKNENDQV9YMnpIZlVfWTNVV2tlSTEzZDJyU09MZ2s1Sk9lWVRESzdwQmdfQjlsRzZPVmJuUzRLQkp5UXhVUHpia2pZWHVfRmQyR21COWx2dGZxR0pzUmxvT3RUUDVhX1JRWm1LQXRfVmV5bGpIMFYtRHFoNW1UMlV3Q3h5X19QaVAxMnJ1SkxrU0pKVnJYcW9LNTNENVJldFc1VTNoRHdRRmNkVFM4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Reflection Unveils Open AI Model, Taking on China",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1BvX0FBT0xBVGJmZGtmMjhGQVlkWXBoYzdvZEF3d3BXaklYQkFaQW0zZHBqTHJaVFhJTzRqSS1zYTdIcERqVFRjOUtIZFZHRXRRclg4c0VScG5NQ3JYX1lyTkstTlFzOVlOd0p4MDhZV1diTV9DQjZUZEtxLXdxelZ0U2FlOHZvUE0xTHBUSXVaLUxiQTVMcUFobHdUczdQMmVaTE9MeGM5MUhDUW5lclpkMA?oc=5",
+   "date": "2026-10-06 04:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "model-release",
+     "investment"
+    ],
+    "korean_title": "NVIDIA 투자사 Reflection, 중국 견제하며 오픈 AI 모델 공개",
+    "korean_summary": "NVIDIA가 지원하는 Reflection이 오픈소스 AI 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1BvX0FBT0xBVGJmZGtmMjhGQVlkWXBoYzdvZEF3d3BXaklYQkFaQW0zZHBqTHJaVFhJTzRqSS1zYTdIcERqVFRjOUtIZFZHRXRRclg4c0VScG5NQ3JYX1lyTkstTlFzOVlOd0p4MDhZV1diTV9DQjZUZEtxLXdxelZ0U2FlOHZvUE0xTHBUSXVaLUxiQTVMcUFobHdUczdQMmVaTE9MeGM5MUhDUW5lclpkMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Broadcom shielded as AI power crunch hits chip supply chain, says Morgan Stanley",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMF9lcTkxVU5OWUp5THhibUJWc3U0MWo5c2dreS02dFk3TGt4SlBXLVdpX0htOV85SnVsc3RUZjZJZDJac3p3bFgzS05uU2hjVXh5N0RjcFVtQml0TnBRSllwREVDdUVFOTBoTTRMT01RMnVUNGQtZk1ZY0ZIdUZHWHNBbjlaMk10dEpJZ3J5eTZHYjlDQW9JdEg4STBBLVNYNlFRb1J1aUJudHJkS2lmT0otSUJHdE5wVnJaXw?oc=5",
+   "date": "2026-10-05 23:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA·Broadcom, AI 전력 위기 속 공급망 경쟁우위 유지 (모건스탠리)",
+    "korean_summary": "Morgan Stanley가 NVIDIA와 Broadcom이 AI 인프라 전력 부족 위기에서 차별화된 지위를 유지한다고 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMF9lcTkxVU5OWUp5THhibUJWc3U0MWo5c2dreS02dFk3TGt4SlBXLVdpX0htOV85SnVsc3RUZjZJZDJac3p3bFgzS05uU2hjVXh5N0RjcFVtQml0TnBRSllwREVDdUVFOTBoTTRMT01RMnVUNGQtZk1ZY0ZIdUZHWHNBbjlaMk10dEpJZ3J5eTZHYjlDQW9JdEg4STBBLVNYNlFRb1J1aUJudHJkS2lmT0otSUJHdE5wVnJaXw",
+   "body": ""
+  },
+  {
+   "source": "Google News · PCMag",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft Is Betting on Local AI, With Nvidia as Its Wingman. On Oct. 7 We'll See If It Pays Off",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFdPck80bU5kSHJ2bE1yei1mb1p5WXM0dDlxUW9QRVRnTXF4bTBqc1RlRGVDVlhVS3UyOFF6aExYdWxsZEIwMW9GUlpjU0htdFBnTHJaRnZPOWphbENqQzBXVE0tQ1dHZndLWkFkM1MtbGVHc25POGNmOU5nQkFxZ1hDNC1QYVdIMjU4X21idUJyRW9Lc2pPdUFxbFlCazdjeFE?oc=5",
+   "date": "2026-10-06 08:39",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Microsoft, 로컬 AI 전략에서 NVIDIA를 핵심 파트너로",
+    "korean_summary": "Microsoft가 로컬 AI 추진 전략에서 NVIDIA를 주요 파트너로 선정합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbFdPck80bU5kSHJ2bE1yei1mb1p5WXM0dDlxUW9QRVRnTXF4bTBqc1RlRGVDVlhVS3UyOFF6aExYdWxsZEIwMW9GUlpjU0htdFBnTHJaRnZPOWphbENqQzBXVE0tQ1dHZndLWkFkM1MtbGVHc25POGNmOU5nQkFxZ1hDNC1QYVdIMjU4X21idUJyRW9Lc2pPdUFxbFlCazdjeFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · finance.biggo.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Shield TV Pro Price Jumps 50% to $299.99 Amid Component Shortage",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TVG56dXRydHllMGxNMzhOZU9QVTRjOGZwZWEzakwwQW1QZFE0b0ExX3VUYzBNVmZTVzlrQmpyT2M3cUtjb3BwbmhGczVmMk5jT2k3SUN6dEp3R1FsTEFVN095TlJBZC1QbFdiNHNBckdTQ25lRFE?oc=5",
+   "date": "2026-10-06 03:22",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA Shield TV Pro 가격 50% 인상, 부품 부족 영향",
+    "korean_summary": "부품 부족으로 NVIDIA Shield TV Pro 가격이 $199.99에서 $299.99로 인상됩니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TVG56dXRydHllMGxNMzhOZU9QVTRjOGZwZWEzakwwQW1QZFE0b0ExX3VUYzBNVmZTVzlrQmpyT2M3cUtjb3BwbmhGczVmMk5jT2k3SUN6dEp3R1FsTEFVN095TlJBZC1QbFdiNHNBckdTQ25lRFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Pulse 2.0",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Reactor Adds NVIDIA And Sapphire Ventures To Series A Round",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVFh1SDdKUTdXMHpOQlVIbjg2aTAyYTRxUW1iWUJPWGd1UkI1X05pZ0wwS25hOVFnX2Nmb2l1aG04cmt5SU96MnQwTGVvN3lvaWNhNlRCa3R3U0ViUVJuSm1NbllGc0ZyUGdHUWZCYWRHQ1dsdUxmSXhHbmlodlpTTEtndDN2UdIBiwFBVV95cUxPZDlnRU0tQ3p5SV9qdF91Y3FGc0JBTGIzR0tRZnZVbUpxcU80SFZ1bF9zUmx4MUxqNnJ6Z1ZvUkp6LWZNM1JKaDNrc1NCT2FFNldmLWY5WjhGYUlEcEtqUy1VclNWUkFVajVTLWNJaGEwY3ZvSjI4WkVXd1M5d0YyT04xM3BvMFdnY0Rj?oc=5",
+   "date": "2026-10-06 04:57",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "Reactor Series A에 NVIDIA 투자 참여",
+    "korean_summary": "NVIDIA와 Sapphire Ventures가 스타트업 Reactor의 Series A 펀딩에 참여했다"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · citybiz",
+     "title": "Reactor Adds NVIDIA and Sapphire Ventures to Series A Funding Round",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdnR5RXlXa0w3ZGkzck5JZEVsaEVyTkVVV09wZl8wYlM4bFhCNS0yUDZZMlBHaXVpVkhYdU9HQm4wQjJqbUJjZktDSWEzYWhBamJXQ3ZEZjJtVTh3ZFpuX2VkWk9PT2ZiQk5BYWRZUllid0NDaXpPa2RaWll5eXRMTXQ4bU9iVjJuV2ZqOTNTbTUtOUdrZkd2YWRWWjNpbmV4ZGJSNG9oVzRyUQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVFh1SDdKUTdXMHpOQlVIbjg2aTAyYTRxUW1iWUJPWGd1UkI1X05pZ0wwS25hOVFnX2Nmb2l1aG04cmt5SU96MnQwTGVvN3lvaWNhNlRCa3R3U0ViUVJuSm1NbllGc0ZyUGdHUWZCYWRHQ1dsdUxmSXhHbmlodlpTTEtndDN2UdIBiwFBVV95cUxPZDlnRU0tQ3p5SV9qdF91Y3FGc0JBTGIzR0tRZnZVbUpxcU80SFZ1bF9zUmx4MUxqNnJ6Z1ZvUkp6LWZNM1JKaDNrc1NCT2FFNldmLWY5WjhGYUlEcEtqUy1VclNWUkFVajVTLWNJaGEwY3ZvSjI4WkVXd1M5d0YyT04xM3BvMFdnY0Rj",
+   "body": ""
+  },
+  {
+   "source": "Google News · SiliconANGLE",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and CoreWeave tackle the CPU bottleneck in agentic AI infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTnpXd081S0pKZVZIQnBNRjZGZ2FmakJVa0FJMEtSQWdzYWNQbnAwVUpJQmJYbUdaNlFUa3N5QW05V2s3TWpnYld2a0VINEhGRnNONy16aWtkZGdEQk45a05ka25xRXVOTFUyZVM4XzY3My1xUlZVTmJGM3dsLXhlemZqN3dxaWdReWUwQ1VVLTdubWRWUmJtLTFueXBDR0twRGNQZTlqQ0xSRGVvVHZxYkJrYTRmY28?oc=5",
+   "date": "2026-10-06 01:46",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "엔비디아, CoreWeave와 AI 에이전트 인프라 CPU 병목 해결 협력",
+    "korean_summary": "엔비디아가 CoreWeave와 함께 AI 에이전트 인프라에서 CPU 병목 현상 해결에 협력한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTnpXd081S0pKZVZIQnBNRjZGZ2FmakJVa0FJMEtSQWdzYWNQbnAwVUpJQmJYbUdaNlFUa3N5QW05V2s3TWpnYld2a0VINEhGRnNONy16aWtkZGdEQk45a05ka25xRXVOTFUyZVM4XzY3My1xUlZVTmJGM3dsLXhlemZqN3dxaWdReWUwQ1VVLTdubWRWUmJtLTFueXBDR0twRGNQZTlqQ0xSRGVvVHZxYkJrYTRmY28",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Why October 15 Is the Most Important Day for NVIDIA and Broadcom Through Thanksgiving",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVIyTDVZakZidkhTQ1NDdWZiWDh0SG9iOTBZTVc4Qm9MRExicHRNanN0M1g1VTRCeEp3RXQ1UF9Od3V1WThkTDZqSGhwNl9xci16NENyTjl4WUtRNHJJVmdrdHFiTnh5LWk3d0k2RkxGdkF1VENfTGNpcDBDNWhqWWd3UV8yYnBRS0dEME1uT2hqQmNuWW9YOENyUnJiUEVLQXhFSFJkYnZlcDFlSndhdTFPMG9aNVpET0JmOHBMcmdpTTFydXc?oc=5",
+   "date": "2026-10-05 22:47",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "10월 15일, 엔비디아와 Broadcom의 중요 일정",
+    "korean_summary": "10월 15일부터 추수감사절까지가 엔비디아와 Broadcom의 중요한 기간이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVIyTDVZakZidkhTQ1NDdWZiWDh0SG9iOTBZTVc4Qm9MRExicHRNanN0M1g1VTRCeEp3RXQ1UF9Od3V1WThkTDZqSGhwNl9xci16NENyTjl4WUtRNHJJVmdrdHFiTnh5LWk3d0k2RkxGdkF1VENfTGNpcDBDNWhqWWd3UV8yYnBRS0dEME1uT2hqQmNuWW9YOENyUnJiUEVLQXhFSFJkYnZlcDFlSndhdTFPMG9aNVpET0JmOHBMcmdpTTFydXc",
+   "body": ""
+  },
+  {
+   "source": "The Next Platform",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI Spending Is The Honey Badger Of Budgets",
+   "link": "https://www.nextplatform.com/ai/2026/10/05/ai-spending-is-the-honey-badger-of-budgets/5301184",
+   "date": "2026-10-06 02:52",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 지출은 예산 집행의 '벌꿀 오소리'... IT 역사상 가장 극적 투자 사이클",
+    "korean_summary": "IT 역사상 가장 극적인 투자 사이클이 진행 중이며 AI 인프라 지출 규모 추정이 계속 상향되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.nextplatform.com/ai/2026/10/05/ai-spending-is-the-honey-badger-of-budgets/5301184",
+   "body": "AI Spending Is The Honey Badger Of Budgets Trying to figure out how much money is sloshing around for AI infrastructure and services is becoming a sport. We are living through the most dramatic IT investment cycle in the history of information technology, rivaling the debut of commercial computing systems six decades ago that made IBM and several other companies fabulously wealthy (relatively speaking) at that time. AI represents a new architecture – not so new in terms of hardware if you are a supercomputing geek, of course – and is a thing that is distinct in its own right and will be so until it becomes the dominant architecture in the datacenter. And that new architecture is growing like crazy, and the estimates for AI spending keep get revised upwards despite inflation, worries about the AI bubble bursting, power constraints, supply chain woes, political instabilities, and uncertain national and global economies. AI is the honey badger of IT budgets, and nothing is stopping forecasts revised more up as they move to the right. And, as you may surmise, as the AI budgets are accelerating, the traditional datacenter IT spending is in recession, as it has been since 2023 when the GenAI boom took off in earnest. And it looks like traditional IT will be in recession for the foreseeable future. This prognostication is reinforced by the latest AI spending forecasts coming out of Gartner, and specifically from John-David Lovelock, who is a distinguished vice president analyst and economist the company. As usual, I am doing to add some perspective to this forecast, and also talk about the revenue streams that support the debt that the hyperscalers, cloud builders, and AI model builders are deploying to support the $8.1 trillion investment in AI stuff from 2025 through 2027. The contrast between AI spending and non-AI spending in the IT market is not obvious, which is why we have paired the AI forecast from Gartner with its overall IT spending forecasts. Here’s a chart that makes the traditional IT recession obvious: If you do the math, as I did, total IT spending rose by 10.7 percent to $5.58 trillion in 2025 and is expected to rise by an even larger 14.2 percent to $6.37 trillion in 2027. Gartner has not yet provided a publicly available IT spending forecast for 2027, so I plugged in my estimate of $6.98 trillion, up 9.6 percent. Over that time, AI spending in the aggregate rose by 2.6X in 2025 to $1.79 trillion and is anticipated to rise by 49.7 percent in 2026 to $2.67 trillion and by 36 percent to $3.64 trillion in 2027. Next year will be, if my estimate for overall IT spending is in the right ballpark, the first year where AI spending will be larger than traditional IT spending, which shrunk by 12.5 percent in 2025 to $3.79 trillion, and is expected to shrink further by 2.5 percent in 2026 to $3.69 trillion, and will shrink by 9.5 percent in 2027 to $3.43 trillion. In this interpretation of the data, I am ignoring the fact that people talk about A"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "US Senate kills bill that could potentially shield Americans from skyrocketing power bills due to AI data centers",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/us-senate-kills-bill-that-could-potentially-shield-americans-from-skyrocketing-power-bills-due-to-ai-data-centers-opponents-say-bill-is-toothless-and-doesnt-do-enough-to-protect-citizens",
+   "date": "2026-10-05 19:25",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미 상원, AI 데이터센터 전력 요금 인상 제한 법안 부결",
+    "korean_summary": "데이터센터로 인한 전력 요금 인상을 제한하는 양당파 법안이 상원에서 3표 차이로 부결되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/us-senate-kills-bill-that-could-potentially-shield-americans-from-skyrocketing-power-bills-due-to-ai-data-centers-opponents-say-bill-is-toothless-and-doesnt-do-enough-to-protect-citizens",
+   "body": "The United States Senate has decided against advancing the Ratepayer Protection Act, a bipartisan bill designed to shield everyday Americans from rapidly rising electricity costs driven by data center buildouts nationwide. On September 30, the bill fell short of the 60 votes required to pass the bill by just three votes, ending 57-43, according to a Reuters report . The Ratepayer Protection Act bill had cleared the U.S. House of Representatives just two weeks earlier, with the Senate as the last procedural step before President Donald Trump could sign it into law. Following the vote, the bill is now officially dead. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible Introduced in the Senate by Senator Jon Husted, the bill was the legal culmination of President Trump’s “Ratepayer Protection Pledge .” It sought to institute a federal standard for states and Public Utility Commissions, directing regulators to consider whether entities that consume large amounts of electricity, such as data centers, should cover the incremental costs of energy infrastructure needed to serve them. Proponents say the act would prevent data center operators from passing infrastructure costs to residents and small businesses, a growing concern in communities seeing a rise in data center construction. “If America wants to lead the world in AI and strengthen our national security, we have to build the energy infrastructure to support it. But we must do that without passing the costs on to working families and small businesses. The Ratepayer Protection Act would keep America globally competitive while protecting Ohioans and Americans from higher electricity bills,” said Husted. On the other hand, opponents, mostly Democrats, labeled the bill “toothless,” arguing that its non-binding nature provided no real protection because it did not mandate that states adopt the standard; it simply directs regulators to consider it as part of their rate-setting processes. Only four Democrats voted for the bill; the general consensus was that it does not go far enough to protect consumers from soaring electricity bills. With the bill’s collapse, Congress has yet to impose any new federal protection on data center-related grid costs. Some lawmakers have suggested they may reevaluate the issue after the mid-term elections in November, possibly with revisions that would require utility regulators to ensure data center operators cover additional costs caused by their operations. The debate over data center energy costs and who should cover them will likely remain a key issue during campaigns, especially in states where new"
+  },
+  {
+   "source": "Google News · Morningstar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AI Financing Partnerships Are Credit-Positive for Nvidia and Data Center Operators",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTU5vTHBEbmdscEZ2Ri1YbkJ0VzdLVWg3b25RbHVUQWlMN3U2c0lqc0VzVFRfR2VWc0RzTXRTOGF3dG9qYWdld0hSVjVkdjN2Zkl4WVh4cjZ4ejdMUDhTZC1UUXI5ZER4MGp2Y0k0NldJNVJrak5NY0MyM25RbTZ0b2NIY0tNRTFZM3ZXVEZLOE8zbXRMUmF2TmcxTHpzdXEyci1HZmZ6c0x3ZF9H?oc=5",
+   "date": "2026-10-06 06:56",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "AI 자금조달 파트너십의 신용 긍정 효과",
+    "korean_summary": "신용분석가들이 AI 자금조달 파트너십이 NVIDIA와 데이터센터 사업자의 신용도를 높인다고 평가."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTU5vTHBEbmdscEZ2Ri1YbkJ0VzdLVWg3b25RbHVUQWlMN3U2c0lqc0VzVFRfR2VWc0RzTXRTOGF3dG9qYWdld0hSVjVkdjN2Zkl4WVh4cjZ4ejdMUDhTZC1UUXI5ZER4MGp2Y0k0NldJNVJrak5NY0MyM25RbTZ0b2NIY0tNRTFZM3ZXVEZLOE8zbXRMUmF2TmcxTHpzdXEyci1HZmZ6c0x3ZF9H",
+   "body": ""
+  },
+  {
+   "source": "Google News · Data Centre Magazine",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Jacobs' Digital Twin Deployment for NVIDIA Advances AI",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGwyUlQ1MFZyZHlLbXpwbUItUnFudllIS3ZSeVQ1YlRDaUpmZTFvak4yQUNVREJ5TzQyQjc0OGlxT1RjYTRld2JUeXE4MkRETktvQVR0bzNEYmRvSEJoWmhRRmxUZngydjVlcG5CZkpDMHljYXhlVWlvdEZkUWJXWU53QVVZRUNRVmhjeGRMY2ZRbUZHejZfag?oc=5",
+   "date": "2026-10-06 06:43",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Jacobs, NVIDIA를 위한 디지털 트윈 배포",
+    "korean_summary": "엔지니어링 회사 Jacobs가 NVIDIA를 위한 디지털 트윈 배포를 진행하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaGwyUlQ1MFZyZHlLbXpwbUItUnFudllIS3ZSeVQ1YlRDaUpmZTFvak4yQUNVREJ5TzQyQjc0OGlxT1RjYTRld2JUeXE4MkRETktvQVR0bzNEYmRvSEJoWmhRRmxUZngydjVlcG5CZkpDMHljYXhlVWlvdEZkUWJXWU53QVVZRUNRVmhjeGRMY2ZRbUZHejZfag",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Broadcom May Be Surprisingly Safe From a 32-GW Hole in the AI Boom, Morgan Stanley Says",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTZYODBrV041a0VWY2s3Y3F2d09YNEtZckVnVHRXVVUtRmx0S3NjN2pGYU5zcTBwZmswWmRRbnFJdS1PVVVTdUpycndDTkNxSENxbnNDYThMM3VSN0hsd3kwZ0Y0SWh0MG14TmEzRm4wT1hYTUozSFA2RmF5R2VCTXBER0NEaENrMm80Zkh4R1cxaDA4MWpiM3N3Q19OWFZkWGc?oc=5",
+   "date": "2026-10-06 03:51",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Morgan Stanley: NVIDIA·Broadcom이 AI 공급 부족장에서 의외로 견고할 수 있다",
+    "korean_summary": "Morgan Stanley 분석가가 32GW 부족 시나리오에서 NVIDIA와 Broadcom의 강점을 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZTZYODBrV041a0VWY2s3Y3F2d09YNEtZckVnVHRXVVUtRmx0S3NjN2pGYU5zcTBwZmswWmRRbnFJdS1PVVVTdUpycndDTkNxSENxbnNDYThMM3VSN0hsd3kwZ0Y0SWh0MG14TmEzRm4wT1hYTUozSFA2RmF5R2VCTXBER0NEaENrMm80Zkh4R1cxaDA4MWpiM3N3Q19OWFZkWGc",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Stocks are hitting records despite surging yields. Cramer explains why",
+   "link": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+   "date": "2026-10-06 07:18",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "기록 경신하는 주가, AI 거대 기업들이 채권 수익률 급등을 견디고 있다",
+    "korean_summary": "NVIDIA 등 AI 거대 기업들의 상승이 채권 수익률 급등 속에서도 지수 반등을 주도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/10/05/cramer-ai-stocks-treasury-yields.html",
+   "body": "CNBC's Jim Cramer said Monday that a handful of artificial intelligence giants are masking pressure from surging Treasury yields, creating an unusual disconnect between the stock and bond markets. The Nasdaq Composite jumped about 1% to close at a record Monday, while the S&P 500 gained 0.66%, finishing just 0.3% below its Aug. 13 record-close. Their advances came even as Treasury yields surged to multiyear highs and oil fell. The 10-year Treasury yield rose above 5.34%, while the 30-year approached 5.7%. That combination broke with a familiar market pattern since the Iran war broke out, Cramer said. Lower oil would typically ease inflation concerns and take some pressure off yields, but on Monday rates still went higher. Nevertheless, the Nasdaq and S&P 500 rallied, fueled by Meta, Microsoft and Nvidia. Meta rose 1.9%, Microsoft added 1.5%, and Nvidia gained 2.1% to secure its first record close since May. \"Here, I think there's tremendous distortion caused by some very big winners, namely Nvidia, Microsoft and Meta,\" the \"Mad Money\" host said. Cramer's Charitable Trust, the portfolio run by CNBC's Investing Club, owns shares of Meta, Microsoft and Nvidia. Cramer said each of those companies has a powerful catalyst that can keep investors buying despite the pressure from higher rates. Nvidia's latest chips are generating strong returns for customers, he said, pointing to SpaceX's large Nvidia-powered computing clusters and its efforts to make money by renting that computing capacity to companies developing AI. Microsoft, meanwhile, is benefiting from improved sentiment around its Copilot AI assistant, while Meta is gaining from enthusiasm around its Muse personal agent app and its potential to deepen the company's relationship with small businesses. The enormous weight of those companies in market-cap-weighted indexes means their gains can help propel the S&P 500 and Nasdaq higher even as rising rates weigh on much of the rest of the market. As of Friday's close, Nvidia alone accounted for about 8.5% of the S&P 500, while Microsoft made up roughly 5.8% and Meta about 2.4%. Together, the three stocks represented nearly 17% of the index heading into this week. Cramer said the continued sell-off in Treasurys, which has sent yields higher as bond prices fall, could reflect the government's massive borrowing needs, strong demand for money to fund data center projects, or hedge funds shorting bonds. Cramer lamented how even a weaker-than-expected jobs report last week, which would typically ease expectations for further Fed rate hikes and push Treasury yields lower, provided relief for less than a day. The pressure from higher rates is showing up beneath the surface of the S&P 500 and Nasdaq. Cramer pointed to weakness in traditional safety stocks and many utilities as evidence that higher yields continue to weigh on large parts of the market, despite the index-level strength. Those are the kind of stocks income-seeking investors typically seek out, b"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI cloud startup Verda raises $189m in Series B funding round",
+   "link": "https://www.datacenterdynamics.com/en/news/ai-cloud-startup-verda-raises-189m-in-series-b-funding-round/",
+   "date": "2026-10-05 22:20",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "유럽 클라우드 Verda 시리즈B 1억8900만 달러 조달",
+    "korean_summary": "유럽 네오클라우드 Verda가 1억8900만 달러 시리즈B 펀딩을 완료했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/ai-cloud-startup-verda-raises-189m-in-series-b-funding-round",
+   "body": "European neocloud startup Verda has secured $189 million in a Series B funding round. The round was led by Emergence Capital, with participation from MUFG Innovation Partners, Supermicro, Varma Mutual Pension Insurance Company, Lifeline Ventures, ENDUR, 6 Degrees Capital (6DC), byFounders, Tesi (Finnish Industry Investment Ltd), and a group of angel investors, including Ola Tørudbakken and Mark Saroufim. According to a company blog post announcing the fundraising, this brings Verda's total funding to more than $450 million. Previously, Verda secured $117m in an April 2026 round. The newly injected capital will support more data center capacity coming online as well as \"deeper investment in the platform.\" The company is targeting having more than 250MW of operational capacity by 2027. Formerly known as DataCrunch, Verda was founded in 2020, and currently has data centers in Finland, all of which run on 100 percent renewable energy. It also operates one in Reykjanesbær in Iceland, and has further sites planned to come online across Europe, the UK, the US, and Asia. In September detailed plans for a data center project in the Hanhela area of Pyhäjoki municipality in Finland. The company secured $64.6 million in a Series A funding round in September 2025, at the time noting it was planning an AI data center in Latvia. Prior to that, in an October 2024 seed funding round, the company raised $13m. \"There's a window right now to build one of the defining compute companies of this generation, and to do so from Europe. It won't be open for long,\" said Ruben Bryon, founder and CEO of Verda. In addition to increasing its data center footprint, Verda is also planning to deploy the Nvidia Vera Rubin NVL72 systems in the coming months. In terms of its platform, Verda is also \"on the path to release S3-compatible Object Storage.\" In April 2026, Verda said it would offer customers access to Arm's AGI CPU that was developed in conjunction with Meta. The AGI CPU would work alongside Nvidia GB300 racks. Built on TSMC’s 3nm process node, the AGI CPU comprises 136 Arm Neoverse V3 cores running up to 3.7GHz."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Cerebras stock pops 9% after Sam Altman calls the chipmaker a 'close partner'",
+   "link": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
+   "date": "2026-10-05 22:37",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Cerebras 주가 9% 상승, Sam Altman CEO의 'close partner' 발언",
+    "korean_summary": "OpenAI CEO Sam Altman의 Cerebras 파트너십 재확인 발언으로 경쟁사 Cerebras 주가가 9% 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/10/05/cerebras-cbrs-sam-altman-close-partner.html",
+   "body": "Cerebras stock climbed 9% on Monday, rebounding from last week's decline, after OpenAI's CEO Sam Altman reassured investors that the firm is a \"close partner.\" The AI hardware firm, which made its debut on the Nasdaq in a monster IPO in May, saw its stock plummet 20% to its lowest price last week after it was revealed that OpenAI would power its \"Ultrafast\" mode for GPT-6.1 Sol with Nvidia's graphics processing units instead of Cerebras' chips. \"There is some speculation about our partnership with Cerebras,\" Altman said in a post on X on Friday. \"Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.\" The company's stock rose almost 3% in extended trading on Friday following Altman's comments. Cerebras has seen its market cap plunge since its May debut and is now valued at about $43 billion, down from $95 billion. Cerebras, a Nvidia competitor, sells large computer chips and AI systems that are designed to run AI models faster than traditional GPUs. It claimed that its flagship product, the Wafer Scale Engine 3, runs faster than Nvidia's GPU. Cerebras signed a $10 billion deal with OpenAI in January to supply it with 750 megawatts of computing power through 2028. Citi analysts said that their view of Cerebras' revenue outlook between 2026 and 2028 remains \"unchanged.\" \"We believe frontier-AI labs' latest models would initially roll out on internal chips before running on third-party or Cerebras cloud, so it's too early to read much into it,\" they said in a note on Friday morning. \"We believe the stock's ability to outperform is increasingly tied to evidence that gross margins are stabilizing. Any further delay in the gross margin trough would likely weigh on sentiment, particularly given Cerebras' premium valuation,\" they added."
+  },
+  {
+   "source": "Google News · MarketWatch",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The case for Nvidia’s stock to march even higher after clinching its first record high in months",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNnE1ZVh1NDBVSlYyZ21pR3VfNTFaaGpqMVN1aTBIUzgzalZZTDVwZkZ1ekZ2cTZfaTdKWURBOUEteTRPSDVnV2hCWUEtTUhXZl96cVVmUlVqN1pkQ2xyT0ZGbkw1NzJwa1ZZZmhBQ2FYcDZoSi1QUGc1Y1BkZXVXT29IcUZscjhXWk02RHlHOWtFRGh5eDBzZHlXYV9XYnR5eEh2YjhfcnZvMGF1LWdHNE94SG9PT0FxbWJQMlcySW5zaWlFTUdHQmZIck1uMVZrZUZxeg?oc=5",
+   "date": "2026-10-06 06:52",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 신고가 경신 후 추가 상승 가능성 분석",
+    "korean_summary": "분석가들이 NVIDIA 주가 신고가 경신 후 추가 상승 여력을 평가."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 富途牛牛",
+     "title": "The Case for Nvidia's Stock to March Even Higher After Clinching Its First Record High in Months",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOVZhdkhSN0ZlNld0LU8wYUVuWG1DT084MWxrNDNyanRnWWtCSkFnSUFFOHpmTExOSGZYalNMWUhSc1NSS0ZJVkNfZThqVmkzMGVEWGprNmYwVjZ4aFFiVThVSTlyNnZyOU5URUxWbEFtWlktUjZfWU96THB0V2hkdlVXYlA0LWNFRFJzYkQxUjZNVjd1Umc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNnE1ZVh1NDBVSlYyZ21pR3VfNTFaaGpqMVN1aTBIUzgzalZZTDVwZkZ1ekZ2cTZfaTdKWURBOUEteTRPSDVnV2hCWUEtTUhXZl96cVVmUlVqN1pkQ2xyT0ZGbkw1NzJwa1ZZZmhBQ2FYcDZoSi1QUGc1Y1BkZXVXT29IcUZscjhXWk02RHlHOWtFRGh5eDBzZHlXYV9XYnR5eEh2YjhfcnZvMGF1LWdHNE94SG9PT0FxbWJQMlcySW5zaWlFTUdHQmZIck1uMVZrZUZxeg",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Spent $20 Billion on Buybacks Last Quarter. Here's What That Means for Your Shares.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOG9DejQ0NGM3cng4S0MtOURCd0dHMHNNRGZUUlVFM2taSDlUTW03T0xlZG5hQXZiekhNZFBqWVpfNWRRMGVlRkFuV29wbWdFbGlfSnIzY0d0Vkp6NFc2aU5hbG5LNzBITXNxdkFpZkMxbVQ0eTVlZXpJeEhtcFgzbEk2S2NZOU5iYmFKZFJsN2FCM0l4Rm1WeQ?oc=5",
+   "date": "2026-10-06 02:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 지난 분기 200억 달러 자사주 매입",
+    "korean_summary": "NVIDIA가 최근 분기에 200억 달러 규모 자사주 매입을 단행했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOG9DejQ0NGM3cng4S0MtOURCd0dHMHNNRGZUUlVFM2taSDlUTW03T0xlZG5hQXZiekhNZFBqWVpfNWRRMGVlRkFuV29wbWdFbGlfSnIzY0d0Vkp6NFc2aU5hbG5LNzBITXNxdkFpZkMxbVQ0eTVlZXpJeEhtcFgzbEk2S2NZOU5iYmFKZFJsN2FCM0l4Rm1WeQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · FXLeaders",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia NVDA Stock Hits New $240 Record as Chip Demand Meets Rising Costs",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHFaeVJVT3Z3MTd4Mjc3VnVLU0tyeGloS0NWeXlERjVreVlQVEtfQm4yR3BSTDM4S1RLVllkS0dTanQzR2J1Tm5nUmZseGlYaXdONGVSYzA0SmVUSGxuMU9Ha0puLVZsV25NdjEydldPUVF2NmpyR1dURDZxemp6c1A0aklzU3A4OWUyYWhGOUFBUVdOM2FmU1p0YjU0VHFfWXA1alJGdF9KWXNYLWRUQ2I2TjU?oc=5",
+   "date": "2026-10-06 07:17",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 240달러 신고가 도달",
+    "korean_summary": "NVIDIA 주가가 240달러 신고가를 기록하면서 칩 수요 증가와 비용 압박을 드러냈다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaHFaeVJVT3Z3MTd4Mjc3VnVLU0tyeGloS0NWeXlERjVreVlQVEtfQm4yR3BSTDM4S1RLVllkS0dTanQzR2J1Tm5nUmZseGlYaXdONGVSYzA0SmVUSGxuMU9Ha0puLVZsV25NdjEydldPUVF2NmpyR1dURDZxemp6c1A0aklzU3A4OWUyYWhGOUFBUVdOM2FmU1p0YjU0VHFfWXA1alJGdF9KWXNYLWRUQ2I2TjU",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketBeat",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Record High Raises a Bigger Question About How Far the Rally Can Run",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlJtX2hoSzhCb1hRMjY2V2hyZ3ZlMF93dTNfbXMwcVpwanVNZ1NqV0l3dTI5MHh5MHBHSWl1S1pIMTI0dHNyVVQwRU5lM2tyWXl4VS1XVDFyOGtmcjJUQUk2U0ktOTN5RXJtZ1FfQVI1MFdHWUVVUHRXcFlGOElaamEzUHpzZVhXREFYeXV4dWRaZUVlZm9mbVNaSlF6WG9qWHJodXJZV3g1UjZaamUxa09FWQ?oc=5",
+   "date": "2026-10-06 06:32",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 신고가 경신, 주가 상승 여력 논의",
+    "korean_summary": "투자 전문가들이 NVIDIA 신고가 경신 후 주가 상승의 한계를 논의."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSlJtX2hoSzhCb1hRMjY2V2hyZ3ZlMF93dTNfbXMwcVpwanVNZ1NqV0l3dTI5MHh5MHBHSWl1S1pIMTI0dHNyVVQwRU5lM2tyWXl4VS1XVDFyOGtmcjJUQUk2U0ktOTN5RXJtZ1FfQVI1MFdHWUVVUHRXcFlGOElaamEzUHpzZVhXREFYeXV4dWRaZUVlZm9mbVNaSlF6WG9qWHJodXJZV3g1UjZaamUxa09FWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Climbs as AI Finds New Growth Path in Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc1Jxd19qSU5hTnNhMjBKQjB1aXd6OGFjUkxmOUZSNHVZRVMtTzdhZTRVVGNwTUpjNGJhUTRVaGpROHdXUTZERld1UHdRdW1YYU5PVF94XzFGZ2FRcGdfeTctRFRzOEVqMjl2TVl4QVM0Z05VRFA3QUN2N3ViNXpVV3NNNzRzd1JOcG1zOW02TVp4Y01jN0dHTG9BMFBTbXpoOHdpN3Z0Tk9HWmFiMUxvc2tuZUxWTFpYMHd1eU1B?oc=5",
+   "date": "2026-10-06 04:50",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 상승, 헬스케어 AI 성장이 주도",
+    "korean_summary": "분석가들이 NVIDIA의 헬스케어 AI 성장 경로가 주가 상승을 이끌고 있다고 평가."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia Stock Climbs as AI Finds New Growth Path in Healthcare",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNekVyQ0luYTF5T2w3NmJyb0NnTzYyMGtKaUw5bDh4MXFiNDhaTWM1TmxacmhuRi1IaklqX1hyVm5qYXJDRXB5aVBuTmxyamdYSC1SbEtKOXM0eHRmOVMwZGhyMTVoRUxnZjdqZXk0YkRQV18tc1pYMEUzQmRGdU1zMXNDbTVnLTAxTGFoQU4zTmJLM2lVdXRV?oc=5"
+    },
+    {
+     "source": "Google News · GuruFocus",
+     "title": "Nvidia Stock Climbs as AI Finds New Growth Path in Healthcare",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONlREc1NNZF8xc0dPUVJtQjhuMnlzdFc1TTMtLV9IREQtTkMwYmRmOTQzbGN0LWtuRWhVLVFKV3EwUTU1R0steEdSQ0FTMW51RU9XZVpHbzhwRXE1clVkdzJUM1FvbDkxR0w2ckVXbE5ZaXUyZkJyUV95bVdSZlJaNk1tQTY4WnJSajBXdU90YTVQcE5TOEtvRV81aTBkTm1qUnc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc1Jxd19qSU5hTnNhMjBKQjB1aXd6OGFjUkxmOUZSNHVZRVMtTzdhZTRVVGNwTUpjNGJhUTRVaGpROHdXUTZERld1UHdRdW1YYU5PVF94XzFGZ2FRcGdfeTctRFRzOEVqMjl2TVl4QVM0Z05VRFA3QUN2N3ViNXpVV3NNNzRzd1JOcG1zOW02TVp4Y01jN0dHTG9BMFBTbXpoOHdpN3Z0Tk9HWmFiMUxvc2tuZUxWTFpYMHd1eU1B",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Why Nvidia Stock Hit a Record, and the $575 Target a Mid Case Points To",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdUs2RlY3R2FxM1Aza0VCZDYtOVFEVWd0cC01YVdtU2lOQUFNQmhSMzBoZ0hjdXlEUm9UeTh0dTlOY3E1ZTREdXBLbm8wYnBXV2VrNTBYZmdoaWhCalhyUURhZVB1aHdVbHB6R25UeExpSkpaVWRtYlJIUFp4T0VaRHp5Z1h1VmR3VlNkSUx5MXpQWlF6Z2RGSmhxaw?oc=5",
+   "date": "2026-10-05 23:21",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 신고가와 575달러 목표가 분석",
+    "korean_summary": "분석가들이 NVIDIA 신고가 경신 배경과 575달러 목표가를 설명."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdUs2RlY3R2FxM1Aza0VCZDYtOVFEVWd0cC01YVdtU2lOQUFNQmhSMzBoZ0hjdXlEUm9UeTh0dTlOY3E1ZTREdXBLbm8wYnBXV2VrNTBYZmdoaWhCalhyUURhZVB1aHdVbHB6R25UeExpSkpaVWRtYlJIUFp4T0VaRHp5Z1h1VmR3VlNkSUx5MXpQWlF6Z2RGSmhxaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock at New All-Time Highs: Market Expert Says ‘Cusp of a Major Breakout’",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNEJvNzhQLXd3QjdiMXltZ21STHJfWThfWjluXzRoTmM5dGdfN2VuaXF6bmFOUlVaNUJvR0dOSlNLUHhFV2c3VzNCdE5lbktJYjdmTEJ0U1NRM1ZOY2hscE5YNUlhZ25Bd0NDUlVwN1FLWm54TWxUbEl4M2xzVmc2cThBcGpxclczMDJ4QnlsSnp3bFlMdThNRE9DbURpRDBDN3FIQ0hhTm9EWVJ3SHlITVBBcGdiNENvNHlOZ2VqRVA2X00yOFk4d20yVzg2ejJSczFmN3RiMEFtbUU?oc=5",
+   "date": "2026-10-06 01:58",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 사상 최고가, 전문가 '대형 돌파' 진단",
+    "korean_summary": "시장 전문가가 NVIDIA 주가 사상 최고가 도달을 대형 강세 돌파의 신호로 평가."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia Stock at New All-Time Highs: Market Expert Says ‘Cusp of a Major Breakout’",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbF9MNkFmZ3R6c3M3bjBTdktjYW9DWXJUdXBfdUxfTkE5enlNNUx3VTgyQS1WTzg1emFYal9VWGd3WFR1R2QzdVRIOWRfa1pkNEotRlNjZnlaYnVVVmhrWDlGaDdmQURMMnYxOTA5RG1JWk9XTW5vc2drWmE0RVNpQUl3aHphQVVuTGp4eWtqYkVBbVJ1UGI2b0JFMHBEVExwWTUtZ2pxV3lKa1JqdVBua3pxQnJJV0J4Vm1tTXZnbERNQ1ozVzVrU2t1b1QwQmcyRllF?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNEJvNzhQLXd3QjdiMXltZ21STHJfWThfWjluXzRoTmM5dGdfN2VuaXF6bmFOUlVaNUJvR0dOSlNLUHhFV2c3VzNCdE5lbktJYjdmTEJ0U1NRM1ZOY2hscE5YNUlhZ25Bd0NDUlVwN1FLWm54TWxUbEl4M2xzVmc2cThBcGpxclczMDJ4QnlsSnp3bFlMdThNRE9DbURpRDBDN3FIQ0hhTm9EWVJ3SHlITVBBcGdiNENvNHlOZ2VqRVA2X00yOFk4d20yVzg2ejJSczFmN3RiMEFtbUU",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's $6 trillion milestone looms. Here's when options traders see it happening",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbG1XWTdSakZtY1ZyblBtWFdRdkF1eU54bklJQy04QjJkZjdtOXlZeWZudWVNOFRCY2dmR1VGSjdQVGI4cUxJWWhJV01JYmZhY2s4d01VNFAxNUpwMFRUdV9RaXR6ME9LTWhZUVZ2NUI4WHJNNGpTblQtQ3k5bDE1UGhZa1FiWXQtaHdwcGRITDVNVlFkdWt5Sy1PLU9VU2ZoM1FOeVVqRUEzdWtxNnlmVVJQOF9RUdIBuwFBVV95cUxNV2RaMmJOVzNLbm1HNXdwUWExdnltWFUzdHpLdGRuZjBjcEtXOTIyY2pBUms4UXQ5dGlrVXNzWmRabmpRazcyNnYtQ00zSUhkT19NcG9yRkNEWHVSNjBnblJ3UTM2Rl9RLTlCaER4WmRaLTlwVVpRWGlKYW5zMWk3NG5RNXdncGgxX25XSVJUVTN3M0IwYlc3SUliSWwzSWJ1YVlrV1dKMFo3SmU4WEF6bEdXQ0pXSjJpZDJB?oc=5",
+   "date": "2026-10-05 20:57",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 시가총액 6조 달러 마일스톤 전망",
+    "korean_summary": "옵션 거래자들이 NVIDIA 시가총액 6조 달러 달성 시점을 예측."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbG1XWTdSakZtY1ZyblBtWFdRdkF1eU54bklJQy04QjJkZjdtOXlZeWZudWVNOFRCY2dmR1VGSjdQVGI4cUxJWWhJV01JYmZhY2s4d01VNFAxNUpwMFRUdV9RaXR6ME9LTWhZUVZ2NUI4WHJNNGpTblQtQ3k5bDE1UGhZa1FiWXQtaHdwcGRITDVNVlFkdWt5Sy1PLU9VU2ZoM1FOeVVqRUEzdWtxNnlmVVJQOF9RUdIBuwFBVV95cUxNV2RaMmJOVzNLbm1HNXdwUWExdnltWFUzdHpLdGRuZjBjcEtXOTIyY2pBUms4UXQ5dGlrVXNzWmRabmpRazcyNnYtQ00zSUhkT19NcG9yRkNEWHVSNjBnblJ3UTM2Rl9RLTlCaER4WmRaLTlwVVpRWGlKYW5zMWk3NG5RNXdncGgxX25XSVJUVTN3M0IwYlc3SUliSWwzSWJ1YVlrV1dKMFo3SmU4WEF6bEdXQ0pXSjJpZDJB",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia looks to take out its record high close — plus, don't worry about Intel's dip",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSHA0b2x1ZkhXMzlJLXdCVHk1SExtYlBEbzdyS0cxakwtZzhOSjhocVZwdnRVZzg5SjlGUXNoMHRwOEtscDd5eDFBbFVhVkpNaGhJVlJzalhfUGthNHZYVXdhbEthQVRVRG5ZN1hPaHBiZ1hKTElfa2ItdTV3aWVwMmZoanR2eWJYeEV3VmNGNTN5UjVtY3E4M2owTTNFZTdEWkhDT0VKd0ZUOFVGS2QyQjNhaWpmV0ZUR0NzRlBudEszVVJ3QnVBLTJB?oc=5",
+   "date": "2026-10-06 03:25",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 사상 최고가 경신 목표, 인텔 하락은 우려 불필요",
+    "korean_summary": "NVIDIA 주가가 사상 최고가 경신을 시도 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSHA0b2x1ZkhXMzlJLXdCVHk1SExtYlBEbzdyS0cxakwtZzhOSjhocVZwdnRVZzg5SjlGUXNoMHRwOEtscDd5eDFBbFVhVkpNaGhJVlJzalhfUGthNHZYVXdhbEthQVRVRG5ZN1hPaHBiZ1hKTElfa2ItdTV3aWVwMmZoanR2eWJYeEV3VmNGNTN5UjVtY3E4M2owTTNFZTdEWkhDT0VKd0ZUOFVGS2QyQjNhaWpmV0ZUR0NzRlBudEszVVJ3QnVBLTJB",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The 1 Chart That Nvidia Bears Don't Want You to See",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQblJoLVNKOGRXUjIwRkFvOHdMNW9jYjVneFJycmJxZ3NtZUdrdFZVUXl4blhnRFltOHdDX1BwYmZORV93QkRxVFNUN09adWxvOHFMUzBYVUIwd0NUdEkwOGtDX2gydzF4ZE1LZHNNWnctZjZGVTFkdmVjVkNyZHRuc0s1UVJQZnhxeVdabHJObWdZcE1TSnNydA?oc=5",
+   "date": "2026-10-05 22:56",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 약세론자들이 보고 싶지 않은 1개 차트",
+    "korean_summary": "NVIDIA 기술지표의 강세 신호가 약세론자들의 우려를 무색하게 하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "The 1 Chart That Nvidia Bears Don't Want You to See",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYkplRU9ZOVJObGFVLUJOZ0dRS1lLOFR0ZS10ekRNUUpkMEVXNnFFaWgxUDgwZklyZkdacWVpZ3BYdGlVT1VHV0x1M2FHUHJXMnpiZ01HdFFRdjZCcnRSZWg5Z2FqNFU1UTRibU5YSWZoUWIxNXJGdzZybDJqeFl1c0htZEx4dlhZZ21rRG5GeWpOOTAz?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQblJoLVNKOGRXUjIwRkFvOHdMNW9jYjVneFJycmJxZ3NtZUdrdFZVUXl4blhnRFltOHdDX1BwYmZORV93QkRxVFNUN09adWxvOHFMUzBYVUIwd0NUdEkwOGtDX2gydzF4ZE1LZHNNWnctZjZGVTFkdmVjVkNyZHRuc0s1UVJQZnhxeVdabHJObWdZcE1TSnNydA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "3 reasons Nvidia and AMD stocks can't stop climbing",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzY3MWgyZW42dWxpbmhSQTE3OFJreE54a3cxLUw4QzJ4VWRORWxvT2l3eHhmR0dKRUxuZlRTcGVwa3dmLVBSbkdYVkpWU1RBaGRPejRJNFpCODBHS3E5SThHc29NU2dsMlN5Vl9JN1ZZOXF3UkpDeVppcmlpY29tZkwyODQ3WXlRdjc0OEprOTRSVWxtdXFvMGRLelRKdw?oc=5",
+   "date": "2026-10-06 00:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA와 AMD 주가가 계속 오르는 3가지 이유",
+    "korean_summary": "NVIDIA 주가 상승 배경을 분석한 기사이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRzY3MWgyZW42dWxpbmhSQTE3OFJreE54a3cxLUw4QzJ4VWRORWxvT2l3eHhmR0dKRUxuZlRTcGVwa3dmLVBSbkdYVkpWU1RBaGRPejRJNFpCODBHS3E5SThHc29NU2dsMlN5Vl9JN1ZZOXF3UkpDeVppcmlpY29tZkwyODQ3WXlRdjc0OEprOTRSVWxtdXFvMGRLelRKdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investor's Business Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Rebounds Sharply, Leads 17 Top Performers Onto IBD Best Stock Lists",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWHREQ2U2dUlSTHdia3VwSnBlaXZoYXdWdldMbXJPb3p2ZnhvSTZKVF9UYmRaZlVQOWFLT1padDlTZ09vTWVzbkxHcEhXcndGOEk2QV9ZcjJYZDRCc1BiMFNBdUdkOTJ3RlpJQ2pFY2JPWkhERzNMVEFRSDZlb2YyNUpZdk44cGI2c1B2U0dQNA?oc=5",
+   "date": "2026-10-06 07:51",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 급등, IBD 최우수 종목 목록 상위권 주도",
+    "korean_summary": "NVIDIA가 급등하며 IBD 최우수 종목 리스트에서 17개 우량주를 주도하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWHREQ2U2dUlSTHdia3VwSnBlaXZoYXdWdldMbXJPb3p2ZnhvSTZKVF9UYmRaZlVQOWFLT1padDlTZ09vTWVzbkxHcEhXcndGOEk2QV9ZcjJYZDRCc1BiMFNBdUdkOTJ3RlpJQ2pFY2JPWkhERzNMVEFRSDZlb2YyNUpZdk44cGI2c1B2U0dQNA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engineering.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jacobs to deploy digital twin at NVIDIA R&D facility",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZFY5aDhJOGxzaHE4c0k4WkdMQ2dheHlWak12cl92cmFpbEt1dFJaSXZTRGxlWmplUXZZUm5pSUdXYkFCajVOb1ZhSi1TMC0tRURicWZkekM4Yk5PcGduZjBBWG1pLUtSUFN6b1NHOWlHZGhQZGRMRW5MN3psYkhHNFdoRnk2TWM?oc=5",
+   "date": "2026-10-06 07:50",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "엔지니어링사 Jacobs, NVIDIA R&D 시설에 디지털 트윈 배포",
+    "korean_summary": "Jacobs가 NVIDIA 연구개발 시설에 디지털 트윈 솔루션을 배포한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZFY5aDhJOGxzaHE4c0k4WkdMQ2dheHlWak12cl92cmFpbEt1dFJaSXZTRGxlWmplUXZZUm5pSUdXYkFCajVOb1ZhSi1TMC0tRURicWZkekM4Yk5PcGduZjBBWG1pLUtSUFN6b1NHOWlHZGhQZGRMRW5MN3psYkhHNFdoRnk2TWM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia (NVDA) Outperforms Broader Market: What You Need to Know",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdkhKeFBXTUxJelpzWFVzRnlUeUExSFAtRTd6U2hrMVY3XzVaSEs1WE9BMGN4ZHJiMFdOSnl0RGdkelFEaGl6RUROUHNMOWdzZHBnaDV4OXVrYUhTeXNVd3NTcGJCWThoSmwzbUVTYkdVbm9qeG5IamZvTU9Rb2JjYXNDYV9VYWpCOUs1Q2tkeUNmYUFWT18xbFM0Ymh4dlJmU3h2M0Rn?oc=5",
+   "date": "2026-10-06 05:45",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 광범위 시장 대비 초과 수익 중",
+    "korean_summary": "NVIDIA 주가가 광범위 시장 평균을 초과 수익하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdkhKeFBXTUxJelpzWFVzRnlUeUExSFAtRTd6U2hrMVY3XzVaSEs1WE9BMGN4ZHJiMFdOSnl0RGdkelFEaGl6RUROUHNMOWdzZHBnaDV4OXVrYUhTeXNVd3NTcGJCWThoSmwzbUVTYkdVbm9qeG5IamZvTU9Rb2JjYXNDYV9VYWpCOUs1Q2tkeUNmYUFWT18xbFM0Ymh4dlJmU3h2M0Rn",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaXN3dlhwR1daNC13OHNZNFV2ZjhLdG1ZUmFPMDAzRVQ1MlU4WGVfcDQ5MHl6MkQ3cnZLS1hBeTc2QU5aUjBBd0NwV2s2TXdVM2pHclNiY0xtdUJzZjNKSHBMSmxzS1g1RS1fQnlGblhlMTl5ZG5EV1RkQ0M5dWtCd0FyTkhRY3FZSnhidmgySmRaQ1dHN3B0dTljMVhnYU9PUFF2bkxnS2pvRjlXU01QRGZiM1dfNHdvYzY2NElEcmxYdUwydGVPZlRST3pPMl9WLWhCTHp1WHJrTEta?oc=5",
+   "date": "2026-10-06 08:49",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA vs TSMC, 어느 기술주가 더 나을까",
+    "korean_summary": "NVIDIA와 TSMC 주식을 2026년 투자 관점에서 비교 분석합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaXN3dlhwR1daNC13OHNZNFV2ZjhLdG1ZUmFPMDAzRVQ1MlU4WGVfcDQ5MHl6MkQ3cnZLS1hBeTc2QU5aUjBBd0NwV2s2TXdVM2pHclNiY0xtdUJzZjNKSHBMSmxzS1g1RS1fQnlGblhlMTl5ZG5EV1RkQ0M5dWtCd0FyTkhRY3FZSnhidmgySmRaQ1dHN3B0dTljMVhnYU9PUFF2bkxnS2pvRjlXU01QRGZiM1dfNHdvYzY2NElEcmxYdUwydGVPZlRST3pPMl9WLWhCTHp1WHJrTEta",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Dan Ives on Nvidia: It's the one chip in the world fueling the AI revolution",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaUR1aHBuLXB5VzBZU0E3S19hamZfZHF0am1SRkVVNDZVYU5jdDVVT1RBUWlZODNnT0l1X0QyZlVZXy1XTzZIVTg0YnJwYll6Q1Jhc2lKM0FDYmhRR2M3aFprU09rSTExXzd1Sk02OFRmVWFHTWR2bUVOT0VocnJGZUM2MlBPNWlOd0loS1ltc2lyV1pvT3BPTU5lVWVudnhNcE1tZTgxX0k5TUZFYTQ4SDZpZ3BFS3BZ?oc=5",
+   "date": "2026-10-06 04:13",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "분석가 Dan Ives: NVIDIA가 AI 혁명을 주도하는 유일한 칩",
+    "korean_summary": "Dan Ives가 NVIDIA 칩이 AI 혁명을 주도한다고 평가합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaUR1aHBuLXB5VzBZU0E3S19hamZfZHF0am1SRkVVNDZVYU5jdDVVT1RBUWlZODNnT0l1X0QyZlVZXy1XTzZIVTg0YnJwYll6Q1Jhc2lKM0FDYmhRR2M3aFprU09rSTExXzd1Sk02OFRmVWFHTWR2bUVOT0VocnJGZUM2MlBPNWlOd0loS1ltc2lyV1pvT3BPTU5lVWVudnhNcE1tZTgxX0k5TUZFYTQ4SDZpZ3BFS3BZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance UK",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia stock hits all-time high, as market cap closes in on $6 trillion",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMThXVzlMT0xjcWh4MWtvSE1kYllodlVENmtRV0hxdS14VS1XS3MwdDktZ3VhZ1RxUEkxc3ZyU2ZEeXFnNGRqUU5rTE5DY1dFYnhYSGpOanh4TnBHUU5aZkVuLThsamcydmdGRVp0aFVuNnV5eW1YWVlOY1lWdUJhWFR2bUQxZnFvOV9qdmdmS2Q0QmZUMUxzZWVFZzFwd1ItZFRFQXB0MWVHSTZHbndWRmc4eVhoYi1MQUE?oc=5",
+   "date": "2026-10-06 04:22",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 사상 최고가, 시총 6조 달러 근처",
+    "korean_summary": "NVIDIA 주가가 사상 최고가를 기록하며 시가총액이 6조 달러에 근접합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMThXVzlMT0xjcWh4MWtvSE1kYllodlVENmtRV0hxdS14VS1XS3MwdDktZ3VhZ1RxUEkxc3ZyU2ZEeXFnNGRqUU5rTE5DY1dFYnhYSGpOanh4TnBHUU5aZkVuLThsamcydmdGRVp0aFVuNnV5eW1YWVlOY1lWdUJhWFR2bUQxZnFvOV9qdmdmS2Q0QmZUMUxzZWVFZzFwd1ItZFRFQXB0MWVHSTZHbndWRmc4eVhoYi1MQUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "VIDIZMO Joins NVIDIA Inception to Advance Agentic AI That Runs Inside the Customer's Boundary",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTFZCdTlHUlh6MXZta0dnT3hLZEdieVlob0EtR3o2bjlBOGhSTUVheW5rb2h4OVphWFRvYnlHWDFBZWowU2p3RU11ei1YSFJyM3I0TXZJaDhuWU16Y3NjcWp5T2NwUnNaSWR2aWJyb2MxZ0FPLVgwVjg3eXl3SUFMT1lTRGtZaGQxR1B6blBLWmhHRG10b00zdnVxYktsU0ZBNldVVQ?oc=5",
+   "date": "2026-10-06 03:15",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "VIDIZMO가 NVIDIA Inception 프로그램 참여",
+    "korean_summary": "VIDIZMO가 에이전틱 AI 개발을 위해 NVIDIA Inception에 참여했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTFZCdTlHUlh6MXZta0dnT3hLZEdieVlob0EtR3o2bjlBOGhSTUVheW5rb2h4OVphWFRvYnlHWDFBZWowU2p3RU11ei1YSFJyM3I0TXZJaDhuWU16Y3NjcWp5T2NwUnNaSWR2aWJyb2MxZ0FPLVgwVjg3eXl3SUFMT1lTRGtZaGQxR1B6blBLWmhHRG10b00zdnVxYktsU0ZBNldVVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Trefis",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Has NVIDIA’s Story Changed?",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmdpS3NQTDhUOVNOaXZpbWJnNXU1TWJsdmZUZG5ENkstc3Nab3JKczJJbTMxamp1Q2xtNG1GTlJkQnpIUFVqdGg2VkJTbjQtY2pYUkxfODNuYl9ETEdsTmd5cWZHMHUyNGdiU0VvSGpiSF9QYXRtNGtDeS0zRjBBOThyeXFXekJ6Yzdxa1U5dllVSmlw?oc=5",
+   "date": "2026-10-05 23:38",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아의 경영 스토리 변화 분석",
+    "korean_summary": "엔비디아의 사업 스토리가 어떻게 변해왔는지 분석하는 기사다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYmdpS3NQTDhUOVNOaXZpbWJnNXU1TWJsdmZUZG5ENkstc3Nab3JKczJJbTMxamp1Q2xtNG1GTlJkQnpIUFVqdGg2VkJTbjQtY2pYUkxfODNuYl9ETEdsTmd5cWZHMHUyNGdiU0VvSGpiSF9QYXRtNGtDeS0zRjBBOThyeXFXekJ6Yzdxa1U5dllVSmlw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Wall Street Lenders Challenge Nvidia Valuation on Advanced AI Hardware Assets",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmp3MHRsb2tuRmU1N2EzcG1kZmVSTjVxT2lBY09BZVM4VUxnczR6QS0ySGNhQzNtemRUaFZ3UTBFNWl6V1VDM3VBbWtPRktrbmNpaW15a09MWi15bk5ia3l1enAxTlpRMUNSaGUxQ0szSTliRmpkMzRxV1dES09PWkcxRXRPTnU5OEhNb2JhWk83T2VKUjU4?oc=5",
+   "date": "2026-10-06 01:07",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "월스트리트 대출기관, NVIDIA의 고급 AI 하드웨어 자산 평가에 의문 제기",
+    "korean_summary": "금융 기관들이 NVIDIA의 첨단 AI 하드웨어 자산에 대한 평가를 도전하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdmp3MHRsb2tuRmU1N2EzcG1kZmVSTjVxT2lBY09BZVM4VUxnczR6QS0ySGNhQzNtemRUaFZ3UTBFNWl6V1VDM3VBbWtPRktrbmNpaW15a09MWi15bk5ia3l1enAxTlpRMUNSaGUxQ0szSTliRmpkMzRxV1dES09PWkcxRXRPTnU5OEhNb2JhWk83T2VKUjU4",
+   "body": ""
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Generates $7.2 Million per Employee, Up 500% in 3 Years. This Number Is Even More Astounding.",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMmJfdTl1LVp0bFpaU3lGWXJBNmh1WFBVdjlIVTB1MG1oTWw2bk0wWGJDcUlrMlpsVEtHeVFHdTdRbkhRUUZMMXpjSHVrYnkwMW5LNU81NzdHRDl5bGVDRGFfNm1TcmRlYXJhLXFlV0M1U0ptcWVaVjJPTzg0eXl0bmJGdzZETlRWWjNGOEUxU21oNjlJVk1QM3U1amVmSUpxMm1Nd1gtNmVvbU01SG5UbTFMTUxQYmRjc0FxbEpQZTc5Njl1RFdEU29lR0FMWmc0MVRNVGRn?oc=5",
+   "date": "2026-10-06 00:51",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 직원당 매출 720만 달러로 3년간 500% 증가",
+    "korean_summary": "NVIDIA의 직원당 매출이 3년 동안 500% 증가했다는 분석이 발표되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMmJfdTl1LVp0bFpaU3lGWXJBNmh1WFBVdjlIVTB1MG1oTWw2bk0wWGJDcUlrMlpsVEtHeVFHdTdRbkhRUUZMMXpjSHVrYnkwMW5LNU81NzdHRDl5bGVDRGFfNm1TcmRlYXJhLXFlV0M1U0ptcWVaVjJPTzg0eXl0bmJGdzZETlRWWjNGOEUxU21oNjlJVk1QM3U1amVmSUpxMm1Nd1gtNmVvbU01SG5UbTFMTUxQYmRjc0FxbEpQZTc5Njl1RFdEU29lR0FMWmc0MVRNVGRn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "BNP Paribas raises Nvidia, Intel price targets on AI demand outlook (NVDA:NASDAQ)",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUxQVlUtc2c2NTJOYWttWkltSno2Ty05ZlpvT19QVzZCS3RuYmM2cVFlWFlRS2ZhNzdOXzk3SmJBRnI5WW5TeTRhV2VRZnJkbllORzZ5cG1CcVdfWVFlLWdHNklacGwwZW1oMVo0bWh6aGVjUTdDWWt3dXFXcjRVbU9aYUVueEYzN3gxalBDQWV3ejluZXo4MGJhdFQzY3AwRlRMbGppaw?oc=5",
+   "date": "2026-10-06 00:22",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "BNP Paribas가 AI 수요 전망에 따라 NVIDIA 목표가 인상",
+    "korean_summary": "BNP Paribas가 AI 수요 견조함을 바탕으로 NVIDIA의 목표주가를 올렸다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUxQVlUtc2c2NTJOYWttWkltSno2Ty05ZlpvT19QVzZCS3RuYmM2cVFlWFlRS2ZhNzdOXzk3SmJBRnI5WW5TeTRhV2VRZnJkbllORzZ5cG1CcVdfWVFlLWdHNklacGwwZW1oMVo0bWh6aGVjUTdDWWt3dXFXcjRVbU9aYUVueEYzN3gxalBDQWV3ejluZXo4MGJhdFQzY3AwRlRMbGppaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo! Finance Canada",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia stock tests all-time highs, market cap at $5.7 trillion",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS3plUmVDN1BCN2w4SFh3MXNieF9PZ1QxazFTX0RlRWNIeTdKc0NSMW9pY0lsMVlSUlk5X2paV09BcXlsakFsUXY1TGVLaERxTndLMnd4azFIQ2ZWelVfaE5zR2tPck1SOGh4dDU5STI5bjRTcXJXcVp1SVpaNUR5a3hpZkhVQWt0TWtBNGpDeDg0Z0lZWlBFMVVBb1lrZGNLNk03X003T0tUdjh1?oc=5",
+   "date": "2026-10-05 23:32",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아 주가 사상 고가 경신, 시가총액 5.7조 달러 도달",
+    "korean_summary": "엔비디아의 시가총액이 5.7조 달러에 이르며 주가 사상 고가를 경신했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS3plUmVDN1BCN2w4SFh3MXNieF9PZ1QxazFTX0RlRWNIeTdKc0NSMW9pY0lsMVlSUlk5X2paV09BcXlsakFsUXY1TGVLaERxTndLMnd4azFIQ2ZWelVfaE5zR2tPck1SOGh4dDU5STI5bjRTcXJXcVp1SVpaNUR5a3hpZkhVQWt0TWtBNGpDeDg0Z0lZWlBFMVVBb1lrZGNLNk03X003T0tUdjh1",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Where Will Nvidia Stock Be in 2030? Three Scenarios for the World's Most Valuable AI Company",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYV9Ua0NkT1o2QXlIR3RUUkFETXJvRUZjZmJPWmNna2hIcjJIWUIwR0ZmRXZrRnZjUENiSV9pakFDamdVOFNBck84TmlYOTZyQ0hGNG9JeE5tZVNkQXFORDc4eTZNUkhaNXFnWHlMRTUya1VZOHJGZXBvbnlYLUJQWnN4MGhTSG5hTUFJX1hzWnBzLVVXUmkwNmFR?oc=5",
+   "date": "2026-10-05 18:20",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "2030년 엔비디아 주가 전망: 세 가지 시나리오",
+    "korean_summary": "세계 최고 AI 기업인 엔비디아의 2030년 주가를 세 가지 시나리오로 분석한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYV9Ua0NkT1o2QXlIR3RUUkFETXJvRUZjZmJPWmNna2hIcjJIWUIwR0ZmRXZrRnZjUENiSV9pakFDamdVOFNBck84TmlYOTZyQ0hGNG9JeE5tZVNkQXFORDc4eTZNUkhaNXFnWHlMRTUya1VZOHJGZXBvbnlYLUJQWnN4MGhTSG5hTUFJX1hzWnBzLVVXUmkwNmFR",
+   "body": ""
+  },
+  {
+   "source": "Google News · NDTV Profit",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock In Focus: BNP Paribas Hikes Target To $345, Sees 47% Upside On AI Dominance",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcmVyNTZYaG1TMFY4M0FkV0tGZUNwTkZPU2RBdEtCVmYwZ2VsaHZuWjhJeDZTV0Q0bmlkQ1VSTk9lN0hqbDVXY2EtVGNCWUxjLVJ3Rm9QRmFtcWJFRUpNd3R3RUlrazhuVWg5V25NU0tuWXFrM1N6Z0NiSUpnajZRS01PU1BRSGhqYnpIU254UmhIWkR6eUNva01RTXB5VWpZZzJ1X29PdG1jV21wUjkzVVMxOWRuQU01eTkzdENjVVNvQ19UdXB30gHPAUFVX3lxTFBmOFd1OHhZZExNZ3VBdUJlaENsc1ktM0FUSHd2eVhDdUpuM0tiMEtuU0RFdkN1STVCcHlRSEt4MkRGYTlsaU9vU0xtb25KSGNuV3NsUkxFMXVHS1FMd2ZfcFJjdjM3SFJSVUhpU0Y4djVvRkIxYThtamp0emVBSkJQaS1yV1FWbDZQTE9FY2c4RFdwTzZfbFFWWEJGM19mc0ZSc2NQaGR4OTlTVXd6eWRrYzNkNmJINDUzS0VYU3FkbDJsQ3FlbElkNEhUTXdaYw?oc=5",
+   "date": "2026-10-06 00:51",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "BNP파리바 NVIDIA 목표가 345달러로 상향, AI 지배력 기반 47% 상승률 전망",
+    "korean_summary": "BNP파리바 애널리스트가 NVIDIA의 주가 목표가를 상향 조정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcmVyNTZYaG1TMFY4M0FkV0tGZUNwTkZPU2RBdEtCVmYwZ2VsaHZuWjhJeDZTV0Q0bmlkQ1VSTk9lN0hqbDVXY2EtVGNCWUxjLVJ3Rm9QRmFtcWJFRUpNd3R3RUlrazhuVWg5V25NU0tuWXFrM1N6Z0NiSUpnajZRS01PU1BRSGhqYnpIU254UmhIWkR6eUNva01RTXB5VWpZZzJ1X29PdG1jV21wUjkzVVMxOWRuQU01eTkzdENjVVNvQ19UdXB30gHPAUFVX3lxTFBmOFd1OHhZZExNZ3VBdUJlaENsc1ktM0FUSHd2eVhDdUpuM0tiMEtuU0RFdkN1STVCcHlRSEt4MkRGYTlsaU9vU0xtb25KSGNuV3NsUkxFMXVHS1FMd2ZfcFJjdjM3SFJSVUhpU0Y4djVvRkIxYThtamp0emVBSkJQaS1yV1FWbDZQTE9FY2c4RFdwTzZfbFFWWEJGM19mc0ZSc2NQaGR4OTlTVXd6eWRrYzNkNmJINDUzS0VYU3FkbDJsQ3FlbElkNEhUTXdaYw",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+   "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+   "date": "2026-10-06 04:33",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Reflection AI, 중국 모델과 경쟁하는 오픈웨이트 모델 Beam 공개",
+    "korean_summary": "Reflection AI가 DeepSeek·Qwen 등 중국 AI 모델에 대항하는 Beam(5,010억 파라미터) 모델을 낮은 연산 비용으로 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
+   "body": "Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model. The two-year-old, Brooklyn-based startup claims Beam matches the performance of leading Chinese open models on advanced reasoning benchmarks at dramatically lower costs, a claim that could heat up the race to build a Western answer to DeepSeek, Qwen, and Z.ai. Reflection’s announcement confirms reporting from Axios over the weekend that the startup was close to a launch. The company shared new details in a lengthy blog post Monday, which described Beam as a text-only mixture-of-experts model trained on high-compute reinforcement learning to be effective at reasoning, coding, and agentic tasks at “a fraction of the token cost and inference time compute” of rivals. Beam is a 501-billion-parameter model with 23 billion active parameters. It was pretrained on 23.8 trillion tokens and has a 1 million token context window. To compare, Z.ai’s GLM-5.2 has roughly 744 billion total parameters with 40 billion active. Reflection’s performance claims haven’t been independently verified, but on advanced reasoning benchmarks, the company says Beam scores on par with Z.ai’s GLM-5.2 and outperforms today’s leading Western open models while using “3-4x less inference compute.” Reflection calls it a “workhorse model” for enterprises, the public sector, and developers. Reflection is positioning itself against closed labs like Anthropic and OpenAI, against popular open models from Chinese developers, and against Western players like Mistral, Meta, and Cohere. Its most direct U.S. rival might be Inkling, the open model from Mira Murati’s Thinking Machines Lab released in July. Reflection’s own benchmarks show that Beam outscores Inkling on four coding tests where both report results, but Inkling is a multimodal model and Beam is text-only. Reflection was founded in 2024 by two former Google DeepMind researchers and has raised roughly $4.7 billion from backers, including Nvidia, Sequoia Capital, and Lightspeed Venture Partners, per PitchBook. Its last round valued the company at a $25 billion pre-money valuation. The startup has also been locking up compute — a key ingredient needed to train frontier models capable of luring customers away from Anthropic’s and OpenAI’s closed models, as well as the cheaper open-weight models from Chinese labs. This summer, Reflection signed deals collectively worth more than $7 billion with SpaceX and Nebius to secure access to Nvidia’s GB300 chips through 2029. Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data. Nvidia CEO Jensen Huang, whose company backs Reflection, has long championed the “AI factory” idea and pushed to strengthen the open AI ecosystem — a vision that would also benefit Nvidia, whose GPUs would power those systems. Ax"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia’s Shield TV Pro just got a $100 price hike",
+   "link": "https://www.theverge.com/tech/1004791/nvidia-shield-tv-pro-streaming-box-price-increase",
+   "date": "2026-10-06 00:43",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA Shield TV Pro 가격 100달러 인상",
+    "korean_summary": "NVIDIA Shield TV Pro가 메모리 부족으로 인한 부품비 증가로 199.99달러에서 299.99달러로 인상되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · theverge.com",
+     "title": "Nvidia’s Shield TV Pro just got a $100 price hike",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNWZmV2VGNWlCXzVLd0QzNS15RnRmeUNfMlNSLTA5ZFlXdEQyWURueUNsQXdJUFBxcS00UkpfczZ0d3ROdEJ3eW8yZnk0ay1sU0pKV2R4SGNLamdXWEYxTXlkOHRiUVdOcHg1cURYTXBjRlBDTUwxZWxoMERjQ2RyYTVFSUdMNi1jci13SC1jaXQ?oc=5"
+    }
+   ],
+   "uid": "https://www.theverge.com/tech/1004791/nvidia-shield-tv-pro-streaming-box-price-increase",
+   "body": "Nvidia's Shield TV streaming boxes are the latest victims of the memory shortage that has seen prices increase dramatically for everything from digital cameras to game consoles . When the Shield TV Pro launched nearly seven years ago with an upgraded Tegra X1+ processor, 3GB of RAM, and 16GB of storage, it sold for $199.99. But starting on October 2nd Nvidia increased its price by $100 to $299.99 as a result of the increased cost of components, according to Ars Technica . When the Pro model was first announced in 2019 Nvidia also debuted an updated entry-level version of the Shield TV with the same processor but 2GB of RAM and 8GB of storage … Read the full story at The Verge."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "'AI칩 큰손' 된 월가 퀀트트레이더",
+   "link": "https://www.hankyung.com/article/2026100537121",
+   "date": "2026-10-05 18:25",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "월가 퀀트트레이더가 AI 칩 업계 대형 수요처로 부상",
+    "korean_summary": "Jane Street 같은 퀀트트레이더들이 초고속 추론 칩의 주요 수요처가 되며 AI 반도체 기업들의 큰손으로 떠올랐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026100537121",
+   "body": "AI 추천 뉴스 'AI칩 큰손' 된 월가 퀀트트레이더 촉망받는 초고속 추론용 인공지능(AI) 반도체 기업 세레브라스 주가가 최근 급락하는 상황이 벌어졌다. 세레브라스의 핵심 고객인 오픈AI가 초고속 추론에 엔비디아 그래픽처리장치(GPU)를 사용한다는 보도가 나오면서다. 세레브라스가 핵심 시장을 엔비디아에 넘겨주는 것 아니냐는 우려가 주주들 사이에서 커졌다. 하지만 실상은 반대였다. 세레브라스 칩을 통한 초고속 추론 계약을 한 고객사가 ‘싹쓸이’해가면서 오픈AI가 새 계약을 체결할 수밖에 없었던 것으로 밝혀진 것이다. 해당 고객사는 바로 퀀트트레이딩 기업인 제인스트리트였다. 퀀트트레이더들이 AI 반도체 업계의 큰손으로 떠오르고 있다. 이들은 수학적 모델을 이용한 초고속 단타 거래로 수익을 낸다. 가령 적정 가격이 100달러인 상장지수펀드(ETF)가 시장에서 99.8달러로 거래되는 상황을 이용해 나노초(1나노초=10억분의1초) 단위로 차익거래를 반복한다. 간발의 차가 손익을 가르므로 추론 속도가 중요할 수밖에 없고, 속도를 높이기 위해 초고속 추론칩을 쓴다는 얘기다. 초단타 거래를 위해 제인스트리트는 맞춤형 AI 연산 하드웨어와 대규모언어모델(LLM), 최적화 소프트웨어까지 만들고 있다. 기존 LLM이 텍스트 중심이라면 제인스트리트 LLM은 초당 수백 메가바이트(MB) 규모의 ‘숫자’를 처리하는 데 최적화됐다. 이 LLM을 학습하기 위해서 4만장이 넘는 GPU까지 확보했다. 칩 기업에 대한 직접 투자에도 적극적이다. 제인스트리트는 작년 말부터 초고속 추론 칩 스타트업 에치드에 총 3번 투자했고 직접 이들의 칩을 쓰고 있다. 실리콘밸리=김인엽 특파원 inside@hankyung.com"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아, 이틀 연속 사상 최고가… 시총 6조달러 코앞",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092171441",
+   "date": "2026-10-06 18:56",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 이틀 연속 사상 최고가 경신, 시총 6조달러 임박",
+    "korean_summary": "NVIDIA 주가가 연속 최고가를 갱신하며 시가총액 5조7600억 달러로 6조 달러 진입을 눈앞에 두고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092171441",
+   "body": "엔비디아 주가가 이틀 연속 사상 최고가를 갈아치우며 시가총액 6조달러 돌파를 눈앞에 뒀다.5일(현지시각) 뉴욕증시에서 엔비디아는 전 거래일 대비 2.1% 상승한 238.90달러에 거래를 마쳤다. 장중에는 240.10달러까지 오르며 역대 최고가를 기록했다. 지난 2일 5월 이후 처음으로 최고가를 넘어선 데 이어 상승 흐름을 이어갔다.엔비디아의 시가총액은 5조7600억달러(약 7700조원)로 확대됐다. 시총 6조달러를 달성하려면 주가가 약 248달러까지 올라야 한다. 현재 종가보다 약 3.8% 높은 가격이다.옵션시장에서도 추가 상승 가"
+  },
+  {
+   "source": "Google News · Barron's",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Hits Record as Key Supplier’s Revenue Booms on AI Demand",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2JWNUhNcmRiRHFxQzdEUWlMVDI1d3VvYzFRTnFqT0V3RTdiRVhWUzU5NzhjNFhQdGVZYUdwSkhkWlpuT2RyLVhsYlljekxPeW0ycndId1Q0SThPWlpSMV9VNnV5QUstWkNDR1J4SF9Hc2Y5Rlh5eE93WnNoVk4xLQ?oc=5",
+   "date": "2026-10-06 05:21",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 최고가 경신, 주요 공급업체 수익 호황",
+    "korean_summary": "NVIDIA 주가가 최고가를 경신하는 가운데 주요 공급업체의 수익이 AI 수요로 호황을 맞고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2JWNUhNcmRiRHFxQzdEUWlMVDI1d3VvYzFRTnFqT0V3RTdiRVhWUzU5NzhjNFhQdGVZYUdwSkhkWlpuT2RyLVhsYlljekxPeW0ycndId1Q0SThPWlpSMV9VNnV5QUstWkNDR1J4SF9Hc2Y5Rlh5eE93WnNoVk4xLQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prediction: $1,000 Invested in Nvidia Today Will Be Worth This Much by 2030",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSXJ5THFyWEt5WlZ2Nnp4Sng3N05acEYyTE9seHh2UnRSV2pES1VsZjl4cF9mSU9lSE9CWDF3d2RQdFdOVllxRU1qUjFOWWNEYWNqLV95UnItM0hqWjkxakE3RGNtaDZtTEtadGRmZktYalVoSGZIU1NCcHQ1ck56bXZzQlg3VHhYR3k3b0ZBRkl5UnphaVJ0Mzg0cmZuejJTckp4eVkzdkRQaDByUVFvZHYwT2Z2VWJQMWU0?oc=5",
+   "date": "2026-10-05 23:23",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 장기 성장 예측: 2030년 수익률",
+    "korean_summary": "애널리스트가 현재 NVIDIA 투자 1000달러의 2030년 기대 수익률을 예측."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSXJ5THFyWEt5WlZ2Nnp4Sng3N05acEYyTE9seHh2UnRSV2pES1VsZjl4cF9mSU9lSE9CWDF3d2RQdFdOVllxRU1qUjFOWWNEYWNqLV95UnItM0hqWjkxakE3RGNtaDZtTEtadGRmZktYalVoSGZIU1NCcHQ1ck56bXZzQlg3VHhYR3k3b0ZBRkl5UnphaVJ0Mzg0cmZuejJTckp4eVkzdkRQaDByUVFvZHYwT2Z2VWJQMWU0",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.2
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 26,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 75.9
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 8,
+   "enriched": 8,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 25.0
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 13,
+   "error": "",
+   "sec": 4.1
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 24,
+   "enriched": 24,
+   "error": "",
+   "sec": 2.9
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
