@@ -1,0 +1,763 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-08",
+ "window": [
+  "2026-10-07",
+  "2026-10-08"
+ ],
+ "generated": "2026-10-08T10:16:18+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 **Arm Total Design for Physical AI**에 참여해 Arm 기반 차량용 컴퓨팅 플랫폼에서 Autoware 활용을 지원한다.",
+  "TIER IV가 사우디아라비아에서 **자동운전 버스 실증**을 추진하며 사막 환경과 우측 주행에 AI를 적응시킨다.",
+  "TIER IV가 **TOPIX 신규 구성종목**에 선정되며 주가가 상승해 시장에서 성장성을 인정받았다."
+ ],
+ "cards": [
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "ティアフォー、アームの「Total Design for Physical AI」に参画…自動運転の民主化を加速",
+   "link": "https://response.jp/article/2026/10/07/417497.html",
+   "date": "2026-10-07 13:45",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Ecosystem-Hardware",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "hardware"
+    ],
+    "korean_title": "TIER IV, ARM의 'Total Design for Physical AI' 프로그램 참여...자동운전 민주화 가속",
+    "korean_summary": "TIER IV가 ARM의 Total Design for Physical AI 프로그램에 참여하여 Arm 기반 SoC 및 차량용 컴퓨팅 플랫폼에서 Autoware를 용이하게 활용할 수 있도록 하겠다고 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, Arm의 'Total Design for Physical AI' 프로그램 참여…자율주행 소프트웨어 생태계 확장",
+    "korean_summary": "TIER IV가 Arm이 운영하는 'Arm Total Design for Physical AI'에 참여해 Arm 기반 SoC 및 차량용 컴퓨팅 플랫폼에서 Autoware를 쉽게 활용할 수 있도록 지원함으로써 반도체·자동차 제조사의 자율주행 개발을 가속화하고자 한다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "Arm이 운영하는 'Arm Total Design for Physical AI' 프로그램에 참여",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Arm 기반 SoC 및 차량용 컴퓨팅 플랫폼 전반, 특정 고객사·지역 미확인"
+    },
+    "key_facts": [
+     "TIER IV가 Arm 운영 'Arm Total Design for Physical AI'에 참여한다고 발표",
+     "기존에는 **Autoware Foundation(AWF) 생태계**의 오픈 프레임워크 'Open AD Kit'을 통해 Arm과 협업해 왔음",
+     "이번 참여로 **Arm 기반 SoC 및 차량용 컴퓨팅 플랫폼에서 Autoware를 용이하게 활용**할 수 있도록 하는 것이 목표",
+     "반도체 제조사와 자동차 제조사의 자율주행 시스템 개발 가속을 지원하는 취지"
+    ],
+    "why_matters": "자율주행 오픈소스 소프트웨어가 특정 하드웨어 종속 없이 **다양한 Arm 기반 SoC에서 구동 가능**해지면 Autoware의 채택 장벽이 낮아지고 생태계 확산 속도가 빨라질 수 있다. 이는 Qualcomm, NVIDIA 등 경쟁 SoC 진영 대비 Arm 생태계 내 자율주행 표준화 경쟁에서 TIER IV의 위치를 강화하는 움직임이다.",
+    "subject_angle": "Autoware를 특정 칩셋에 종속되지 않는 **범용 오픈소스 표준**으로 포지셔닝하려는 전략의 연장으로, TIER IV가 Autoware Foundation 활동을 넘어 반도체 업계 표준 프로그램에 직접 참여함으로써 하드웨어 파트너 저변을 넓히는 행보다.",
+    "focus_angle": "이는 사업·생태계 확장 관점의 소식으로, 상용화 단계는 아직 **실증 이전의 파트너십·플랫폼 호환성 확보 단계**에 해당하며 구체적 고객사·차종·지역·일정은 미확인이다. 반도체 레벨에서의 조기 협업 참여는 향후 완성차·Tier1이 Arm SoC를 채택할 때 Autoware가 기본 옵션으로 고려될 가능성을 높이는 간접적 채택 촉진 효과를 가진다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발사, Arm Total Design for Physical AI 참여 주체"
+     },
+     {
+      "name": "Arm",
+      "context": "Total Design for Physical AI 프로그램 운영사, SoC 아키텍처 제공"
+     },
+     {
+      "name": "Autoware Foundation (AWF)",
+      "context": "Open AD Kit 프레임워크를 운영하는 생태계 조직, 기존 협업 채널"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "context": "Arm 기반 플랫폼에서의 호환성 확대 대상 오픈소스 자율주행 SW",
+      "role": "Arm SoC·차량용 컴퓨팅 플랫폼에서 구동될 핵심 소프트웨어"
+     },
+     {
+      "name": "Open AD Kit",
+      "role": "TIER IV-Arm 간 기존 협업의 기반이 된 AWF 오픈 프레임워크"
+     },
+     {
+      "name": "Arm Total Design for Physical AI",
+      "role": "TIER IV가 새로 참여하는 Arm 운영 프로그램"
+     }
+    ],
+    "watch_next": [
+     "참여에 따른 구체적 SoC 제품군 또는 파트너사(반도체·완성차) 공개 여부",
+     "Autoware의 Arm 플랫폼 지원 범위·성능 벤치마크 공개 여부",
+     "Open AD Kit과 Total Design for Physical AI 간 역할 분담 구체화 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、アームの「Total Design for Physical AI」に参画…自動運転の民主化を加速",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKeHF2cWNzWWtBQ1pzMzdPaThlQUVVSjBPUzdZS3Z3UElRWHE3SDRKNl8xNnJvWHNkWVdXZjZaU0pucHBMdkwyV0RwbHowQW8ySGltcVF3RHdXNEdmSlJn?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、アームの「Total Design for Physical AI」に参画…自動運転の民主化を加速 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzUwdGV2U1ctV19Ld2xEZHRJTU81cUt4RmFHd1dwWDhpdWNINWsxeHduTzFxdmhLMG5yMmw1SVc1Ui1UUkdTcEd2QjhOU29SNTI0TkJRdi14bGRzNGpwV1dWLWdwYlJVa0FTeHk1cHRtSHhibEY2cm5WRXB1RjZ0aXdURkhFcXdBclRmejJudw?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、アームの「Total Design for Physical AI」に参画…自動運転の民主化を加速",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKeHF2cWNzWWtBQ1pzMzdPaThlQUVVSjBPUzdZS3Z3UElRWHE3SDRKNl8xNnJvWHNkWVdXZjZaU0pucHBMdkwyV0RwbHowQW8ySGltcVF3RHdXNEdmSlJn?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、アームの「Total Design for Physical AI」に参画…自動運転の民主化を加速 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTzUwdGV2U1ctV19Ld2xEZHRJTU81cUt4RmFHd1dwWDhpdWNINWsxeHduTzFxdmhLMG5yMmw1SVc1Ui1UUkdTcEd2QjhOU29SNTI0TkJRdi14bGRzNGpwV1dWLWdwYlJVa0FTeHk1cHRtSHhibEY2cm5WRXB1RjZ0aXdURkhFcXdBclRmejJudw?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/07/417497.html",
+   "body": "ティアフォーは、アームが運営する「Arm Total Design for Physical AI」への参画を発表した。 ティアフォーはこれまで、The Autoware Foundation（AWF）のエコシステムのもとで開発されるオープンフレームワーク「Open AD Kit」を通じてアームと協業してきた。 今回の参画により、アームを基盤としたシステム・オン・チップ（SoC）や車載コンピューティングプラットフォームなど、さまざまな環境において自動運転用オープンソースソフトウェア「Autoware」を容易に利用できるようにすることを目指す。これにより、半導体メーカーや自動車メーカーが自動運転システムの開発を加速できるよう支援する。"
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "ティアフォー、自動運転用車載カメラ「MPシリーズ」に120度広角モデル追加…死角低減と広範囲な状況把握を実現",
+   "link": "https://response.jp/article/2026/10/08/417531.html",
+   "date": "2026-10-08 09:45",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Ecosystem-Hardware",
+    "is_focus": true,
+    "signal_tags": [
+     "hardware",
+     "mass-production"
+    ],
+    "korean_title": "TIER IV, 자동운전 차량카메라 'MP시리즈'에 120도 광각 모델 추가",
+    "korean_summary": "TIER IV가 자동운전 차량카메라 'MP시리즈'에 120도 광각 렌즈를 채택한 'C1-120MP', 'C2-120MP' 모델을 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 자율주행용 차량 카메라 'MP 시리즈'에 120도 광각 모델 추가",
+    "korean_summary": "TIER IV가 자율주행 시스템용 차량 카메라 MP 시리즈에 120도 광각 렌즈를 적용한 C1-120MP·C2-120MP를 추가해 차량 주변 사각지대 감소와 광범위한 상황 인지를 구현했다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "MP 시리즈에 120도 광각 렌즈 탑재 신모델 C1-120MP, C2-120MP 추가 발표",
+     "stage": "Announced",
+     "timeline": "미확인 (MP 시리즈 자체는 2026년 5월 양산 대응 공급 시작)",
+     "scope": "버스·택시·트럭·건설기계·농기계 등 광범위한 분야 적용 대상, 구체 지역·고객은 미확인"
+    },
+    "key_facts": [
+     "TIER IV가 자율주행 시스템용 차량 카메라 **MPシリーズ**의 신모델로 120도 광각 렌즈 채용 'C1-120MP', 'C2-120MP'를 추가 발표",
+     "MP 시리즈는 2026년 5월 **양산 대응** 차량용 카메라로 제공 시작",
+     "버스, 택시, 트럭, 건설기계, 농기계 등 폭넓은 분야 전개를 상정",
+     "유연한 카메라 제어와 독자적인 화질 튜닝 기능을 기존 시리즈 특징으로 보유",
+     "신모델은 차량 주변 감시에 최적화된 사양으로 **120도 광각 렌즈**를 채용해 사각지대 저감과 광범위 상황 파악을 실현"
+    ],
+    "why_matters": "자율주행 차량용 카메라는 센서 스택의 핵심 구성요소로, 광각화는 다양한 차종(버스·트럭·건기·농기)에 걸친 사각지대 문제 해결에 직결된다. **TIER IV가 하드웨어 라인업을 세분화**함으로써 Autoware 기반 상용 적용처를 다각화하고 센서 공급까지 포괄하는 수직 통합 전략을 강화하는 신호로 해석된다.",
+    "subject_angle": "TIER IV가 소프트웨어(Autoware) 중심에서 벗어나 **자체 카메라 하드웨어 라인업을 확장**함으로써 센서-소프트웨어 통합 공급 역량을 보여주며, 다양한 모빌리티 세그먼트(버스·택시·트럭·건기·농기)에 대한 플랫폼 적용 범위를 넓히는 전략으로 보인다.",
+    "focus_angle": "기존 MP 시리즈 대비 **시야각을 120도로 확대**해 좁은 FOV 카메라 대비 사각지대 감시 범위를 넓힌 것이 핵심 변화이며, 이는 다차종 플랫폼에서 센서 구성 단순화와 Autoware 스택과의 퍼셉션 융합 설계에 유리해 채택 확대에 긍정적 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "MP 시리즈 카메라 개발·공급사이자 Autoware 생태계 주도 기업"
+     }
+    ],
+    "products": [
+     {
+      "name": "MPシリーズ (MP Series)",
+      "role": "자율주행 시스템용 양산 대응 차량 카메라 제품군"
+     },
+     {
+      "name": "C1-120MP",
+      "role": "120도 광각 렌즈 탑재 신모델 카메라"
+     },
+     {
+      "name": "C2-120MP",
+      "role": "120도 광각 렌즈 탑재 신모델 카메라"
+     }
+    ],
+    "watch_next": [
+     "C1-120MP, C2-120MP의 구체적 출시일 및 가격·사양 공개 여부",
+     "실제 버스·택시·트럭·건기·농기 분야 적용 사례 및 고객사 발표",
+     "Autoware 소프트웨어 스택과의 통합·검증 결과 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、自動運転用車載カメラ「MPシリーズ」に120度広角モデル追加…死角低減と広範囲な状況把握を実現",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53b2VlY3NRcHRIR1dVNHl2YXMxNDdDaFNVWU1BMjg3VEIzTmR4U0RtcjIyTVRTMjNuMnFXejVibEZFY0VRWlJtZTAzVURlbFlJdmVLaFlEYm1RVkp5Z3NF?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、自動運転用車載カメラ「MPシリーズ」に120度広角モデル追加…死角低減と広範囲な状況把握を実現",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE53b2VlY3NRcHRIR1dVNHl2YXMxNDdDaFNVWU1BMjg3VEIzTmR4U0RtcjIyTVRTMjNuMnFXejVibEZFY0VRWlJtZTAzVURlbFlJdmVLaFlEYm1RVkp5Z3NF?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/08/417531.html",
+   "body": "ティアフォーは、自動運転システム用の車載カメラ「MPシリーズ」の新モデルとして、120度の広角レンズを採用した「C1-120MP」および「C2-120MP」を追加したと発表した。 ティアフォーは2026年5月、量産に対応した自動運転システム用の車載カメラ「MPシリーズ」の提供を開始した。同シリーズはバス、タクシー、トラック、建機、農機など幅広い分野への展開を想定しており、柔軟なカメラ制御と独自の画質チューニング機能を備えている。 今回追加する新モデルは、「MPシリーズ」の特長を継承しつつ、車両周辺の監視に最適な仕様として120度の広角レンズを採用した。これにより、車両周辺の死角低減と広範囲な状況把握が可能になる。"
+  },
+  {
+   "source": "Google News · レスポンス（Response.jp）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、サウジアラビアで自動運転バス実証へ…AIで砂漠環境や右側走行に適合 1枚目の写真・画像",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NSkhsanpuTTVPeGg1TFo2MHdWQ0hXMGdBRGYyc3dTSi1fVDdEaXZzQW5KODFiZWVTdjZOZjNETXlIWjNmcEt4UlEwaGd0aEpkVmZUV1Mtd2lMNjNCNG54THV4eFU1MXAzUlFSYWxnYw?oc=5",
+   "date": "2026-10-07 06:30",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 사우디아라비아에서 자동운전 버스 실증 추진...사막 환경·우측 주행 AI 적응",
+    "korean_summary": "TIER IV가 사우디아라비아에서 자동운전 버스 실증을 추진하며 사막 환경과 우측 주행에 AI를 적응시킨다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、サウジアラビアで自動運転バス実証へ…AIで砂漠環境や右側走行に適合 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1rbVNQbFZTdDNKYm5iUmdqOHhsMEsyOHp2T1IxdXlXbG9HamVTWkZUYXFIX3pDbG1JRmpzcUExSEtQdzU5dzNyTl9TNU1vWDRTdTVXcGZwVHVQSy1TRlh4SG9oQXJNMVpTdncxSldQUDlxQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NSkhsanpuTTVPeGg1TFo2MHdWQ0hXMGdBRGYyc3dTSi1fVDdEaXZzQW5KODFiZWVTdjZOZjNETXlIWjNmcEt4UlEwaGd0aEpkVmZUV1Mtd2lMNjNCNG54THV4eFU1MXAzUlFSYWxnYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · AERA DIGITAL",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、経済産業省の「グローバルサウス未来志向型共創等事業費補助金（大型実証 非ASEAN加盟国） 」に採択",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwblBIRWhrYXZzemNZUWtBUHJ6T2s3bFdDRC1RWWdWV1J6Q1NnMTJzWk1ncWRFaEVWWmE1a0JWSTMydkM0QUtOX0pOTkw2T0JlbG9xRjdB?oc=5",
+   "date": "2026-10-08 02:33",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "funding",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 경제산업성의 '글로벌사우스 미래지향형 공창사업비 보조금' 선정",
+    "korean_summary": "TIER IV가 일본 경제산업성의 글로벌사우스 미래지향형 공창사업 대형 실증 보조금 대상으로 선정되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwblBIRWhrYXZzemNZUWtBUHJ6T2s3bFdDRC1RWWdWV1J6Q1NnMTJzWk1ncWRFaEVWWmE1a0JWSTMydkM0QUtOX0pOTkw2T0JlbG9xRjdB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Infoseek",
+   "category": "media",
+   "kind": "gnews",
+   "title": "パーソルクロステクノロジー、「TIER IV Autoware Partner Program」の国内4社目の認定パートナーに",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PZlBTN3JWSzNNRlNVUlk3dGZFNGk3cl9TS3NzVzVXZlZZUGhORXBRSm53UndQdk1TTFh0aTBOU3YxQU9KWENKaUU4MXFvTXlTbE01bDhFNFlySUZDU1dHMXJHVkE4RDBKRnFxWFBVWjlLdw?oc=5",
+   "date": "2026-10-07 04:10",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV, Autoware Partner Program 국내 4번째 파트너로 Persol Cross Technology 선정",
+    "korean_summary": "Persol Cross Technology가 TIER IV의 Autoware Partner Program 국내 4번째 인정 파트너로 지정되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PZlBTN3JWSzNNRlNVUlk3dGZFNGk3cl9TS3NzVzVXZlZZUGhORXBRSm53UndQdk1TTFh0aTBOU3YxQU9KWENKaUU4MXFvTXlTbE01bDhFNFlySUZDU1dHMXJHVkE4RDBKRnFxWFBVWjlLdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーがＰＴＳで上昇、ＴＯＰＩＸ新規銘柄追加でＱＤレーザやタイミーも高い",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yc1VTUmxnV2hBX0ZORG84c1dOMFB6dVlvRHhJeTA3V0ZpYzJ0Wk5vNDlVemhUbXNHRUZibXY2dFpOZzVyem9kN2dYbHA1dGNQTmVLM2gzcFBuemNHOHpQRw?oc=5",
+   "date": "2026-10-07 17:55",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV가 PTS에서 상승, TOPIX 신규 구성종목 추가로 QD Laser, Timee도 강세",
+    "korean_summary": "TOPIX 신규 구성종목 추가와 함께 TIER IV 주가가 상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "ティアフォーがＰＴＳで上昇、ＴＯＰＩＸ新規銘柄追加でＱＤレーザやタイミーも高い",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yc1VTUmxnV2hBX0ZORG84c1dOMFB6dVlvRHhJeTA3V0ZpYzJ0Wk5vNDlVemhUbXNHRUZibXY2dFpOZzVyem9kN2dYbHA1dGNQTmVLM2gzcFBuemNHOHpQRw?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーがＰＴＳで上昇、ＴＯＰＩＸ新規銘柄追加でＱＤレーザやタイミーも高い◇ (2026年10月7日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3VTNLNkZkM2hsbzh5cm03d202ZkhoNVljYTJNNW5jUGlRdWVWUEhHaWp3a0pKU1d3eUYzSGJSRXVDYmNGcU45ZUJGbWNXMGtKWWpYR2pDX1hQZkM1aUE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yc1VTUmxnV2hBX0ZORG84c1dOMFB6dVlvRHhJeTA3V0ZpYzJ0Wk5vNDlVemhUbXNHRUZibXY2dFpOZzVyem9kN2dYbHA1dGNQTmVLM2gzcFBuemNHOHpQRw",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "日本取引所、新基準のＴＯＰＩＸ構成銘柄にマクドナルドやティアフォーなどを採用",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzUE9YU2Y2LWhpQWdDbkR5Z0R4b1FhUUJpUU5rVUVJWnFCb0FjR19jZ3NRNnpQMkJmSWVTZmd5SlZrSzVQOFNDSTJnaFRlNW16TXU2STdnbk9WTFpwVWpKVQ?oc=5",
+   "date": "2026-10-07 16:32",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "일본거래소, 새 기준의 TOPIX 구성종목에 McDonald's, TIER IV 등 선정",
+    "korean_summary": "일본거래소가 새로운 기준에 따라 TOPIX 구성종목으로 TIER IV를 선정했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "日本取引所、新基準のＴＯＰＩＸ構成銘柄にマクドナルドやティアフォーなどを採用◇ (2026年10月7日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PXzRQNllvMnZXREZ2M0ppMG9RRGhHMk5uVC1zWWJlb2tydEN4V0NfYmdQdkpjWG02eDNuZ1U4RTZwbjk3QTktaUpweVR5V2lRYTctLXRUQk1KMmkwTmc?oc=5"
+    },
+    {
+     "source": "Google News · 株探",
+     "title": "日本取引所、新基準のＴＯＰＩＸ構成銘柄にマクドナルドやティアフォーなどを採用",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzUE9YU2Y2LWhpQWdDbkR5Z0R4b1FhUUJpUU5rVUVJWnFCb0FjR19jZ3NRNnpQMkJmSWVTZmd5SlZrSzVQOFNDSTJnaFRlNW16TXU2STdnbk9WTFpwVWpKVQ?oc=5"
+    },
+    {
+     "source": "Google News · みんかぶ",
+     "title": "日本取引所、新基準のＴＯＰＩＸ構成銘柄にマクドナルドやティアフォーなどを採用◇",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9HTDJOa0N4bXJlYlQySlFlcUI4VFp2ZGlDMGx6NHNSZkxaTzRGSkhXdm5SNmZLcXRhUWtJNmdCblRET01mTWxOcW9DekJNSXF1N2pGUw?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "日本取引所、新基準のＴＯＰＩＸ構成銘柄にマクドナルドやティアフォーなどを採用◇ (2026年10月7日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1PXzRQNllvMnZXREZ2M0ppMG9RRGhHMk5uVC1zWWJlb2tydEN4V0NfYmdQdkpjWG02eDNuZ1U4RTZwbjk3QTktaUpweVR5V2lRYTctLXRUQk1KMmkwTmc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzUE9YU2Y2LWhpQWdDbkR5Z0R4b1FhUUJpUU5rVUVJWnFCb0FjR19jZ3NRNnpQMkJmSWVTZmd5SlZrSzVQOFNDSTJnaFRlNW16TXU2STdnbk9WTFpwVWpKVQ",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "今朝の注目ニュース！ ★ファルコム、三協立山、ティアフォーなどに注目！",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42RDlWYWpFc05zR0MySV9RbjE5WTQtbzFtVVlQVm5YM1pOT2JwdmZzajBQSDhNRTFnLThqWU5hdmxjQy1DOFM4N0NrOVRHZTA3bGZrUlhVanh1Z3l3YmVuQQ?oc=5",
+   "date": "2026-10-08 07:30",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "오늘 아침 주목 뉴스!...Falcom, Sankyoritsu, TIER IV 등에 주목",
+    "korean_summary": "여러 종목 중 TIER IV가 주가 주목 종목으로 지나가듯 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "今朝の注目ニュース！ ★ファルコム、三協立山、ティアフォーなどに注目！",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42RDlWYWpFc05zR0MySV9RbjE5WTQtbzFtVVlQVm5YM1pOT2JwdmZzajBQSDhNRTFnLThqWU5hdmxjQy1DOFM4N0NrOVRHZTA3bGZrUlhVanh1Z3l3YmVuQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42RDlWYWpFc05zR0MySV9RbjE5WTQtbzFtVVlQVm5YM1pOT2JwdmZzajBQSDhNRTFnLThqWU5hdmxjQy1DOFM4N0NrOVRHZTA3bGZrUlhVanh1Z3l3YmVuQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "話題株先取り【寄り付き】（1）：ティアフォー、ＡＢＣマート、ツルハＨＤなど",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yLXZFLUtEVW1YMXFldFFUcnBrcE5ncGtzMXJEY19DMEZ1TEtiU2pYVGF4Y2ZZR3BCQzljNE1KYXpSc0ZOSjlwaVRXdm9kSUpSd0FVRm9PZDBseVhraFVScg?oc=5",
+   "date": "2026-10-08 09:07",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "화제주 선취【시작】(1): TIER IV, ABC-Mart, Tsuruha HD 등",
+    "korean_summary": "장 시작 시점에 TIER IV가 화제 매매 종목으로 지나가듯 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "話題株先取り【寄り付き】（1）：ティアフォー、ＡＢＣマート、ツルハＨＤなど",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yLXZFLUtEVW1YMXFldFFUcnBrcE5ncGtzMXJEY19DMEZ1TEtiU2pYVGF4Y2ZZR3BCQzljNE1KYXpSc0ZOSjlwaVRXdm9kSUpSd0FVRm9PZDBseVhraFVScg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yLXZFLUtEVW1YMXFldFFUcnBrcE5ncGtzMXJEY19DMEZ1TEtiU2pYVGF4Y2ZZR3BCQzljNE1KYXpSc0ZOSjlwaVRXdm9kSUpSd0FVRm9PZDBseVhraFVScg",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "＜特別気配＞ サイバーセキ、ティアフォー、ツルハＨＤが買い気配",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52OS1NOWV2S2dBUTdJUS0waW9DN25Kd25HbEdVd3FpNFkwc3ZNN0pTbzFBS0hKYVBtU3kySWJSbEwyTFhRTFlVbENLb1hRa3lSRW9tdE9lRGJic1J1S0pRSA?oc=5",
+   "date": "2026-10-08 09:03",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "＜특별기배＞ Cybersecurity, TIER IV, Tsuruha HD가 매수 기대",
+    "korean_summary": "TIER IV가 매수 기대감 있는 특별 기배 종목으로 지나가듯 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "＜特別気配＞ サイバーセキ、ティアフォー、ツルハＨＤが買い気配",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52OS1NOWV2S2dBUTdJUS0waW9DN25Kd25HbEdVd3FpNFkwc3ZNN0pTbzFBS0hKYVBtU3kySWJSbEwyTFhRTFlVbENLb1hRa3lSRW9tdE9lRGJic1J1S0pRSA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52OS1NOWV2S2dBUTdJUS0waW9DN25Kd25HbEdVd3FpNFkwc3ZNN0pTbzFBS0hKYVBtU3kySWJSbEwyTFhRTFlVbENLb1hRa3lSRW9tdE9lRGJic1J1S0pRSA",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 118,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 4.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 3,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 27,
+   "in_window": 25,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 39,
+   "in_window": 29,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 16.2
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 26,
+   "error": "",
+   "sec": 20.1
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.5
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
