@@ -1,0 +1,2148 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-10",
+ "window": [
+  "2026-10-09",
+  "2026-10-10"
+ ],
+ "generated": "2026-10-10T09:54:52+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 미국 과학 혁신을 위해 **5년간 10억 달러**를 양자·AI·의료 연구에 투자하기로 공약했다.",
+  "OpenAI·NVIDIA·Anthropic이 트럼프 행정부 Genesis Mission에 **24억 달러** 규모 컴퓨팅 자원 제공을 약속했다.",
+  "Astra AI 에이전트가 **NVIDIA Omniverse** 라이브러리를 시뮬레이션에 통합해 로봇·자율주행 개발을 가속화한다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Quantum Pledge—a Billion Dollars For US Science Over Five Years",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hRjRvVjhWRFd1RVJpcEFrVmpwOEtkdnRhOUlTM2ZrNEFGelpRZGhRNUxJaHAwRmJTektHYlNvUTdEUm5ySHBxRUowQWtmUWd0X3gweTNkaldrQTVHa2hSTDNCQzU1RUJQYzk2eU8zdVMzQm5uc1RKQQ?oc=5",
+   "date": "2026-10-09 22:47",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 미국 과학 지원에 5년간 10억 달러 양자 투자",
+    "korean_summary": "NVIDIA가 향후 5년간 미국 과학 발전을 위해 양자 컴퓨팅 분야에 10억 달러를 투자하기로 공약했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hRjRvVjhWRFd1RVJpcEFrVmpwOEtkdnRhOUlTM2ZrNEFGelpRZGhRNUxJaHAwRmJTektHYlNvUTdEUm5ySHBxRUowQWtmUWd0X3gweTNkaldrQTVHa2hSTDNCQzU1RUJQYzk2eU8zdVMzQm5uc1RKQQ",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Bitdeer AI signs 67MW AI cloud agreement in Malaysia",
+   "link": "https://www.datacenterdynamics.com/en/news/bitdeer-ai-signs-67mw-ai-cloud-agreement-in-malaysia/",
+   "date": "2026-10-09 19:58",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Bitdeer AI, 말레이시아 67MW 데이터센터 10년 계약 체결, NVIDIA GB300 NVL72 배치",
+    "korean_summary": "Bitdeer AI가 말레이시아 67MW 규모 A901 데이터센터 10년 계약을 체결하고 NVIDIA GB300 NVL72 시스템을 2027년 1분기부터 배치할 예정이다."
+   },
+   "summary_data": {
+    "korean_title": "Bitdeer AI, 말레이시아서 67MW AI 클라우드 데이터센터 10년 계약 체결",
+    "korean_summary": "Neocloud 업체 Bitdeer AI가 말레이시아 A901 데이터센터(67MW)를 10년간 임대하는 계약을 체결하며 NVIDIA GB300 NVL72 기반 liquid-cooled AI 인프라를 확충한다.",
+    "action": {
+     "actor": "Bitdeer AI",
+     "action": "말레이시아 A901 데이터센터(67MW) 10년 임대 계약 체결, NVIDIA GB300 NVL72 liquid-cooled 시스템용으로 설계",
+     "stage": "Announced",
+     "timeline": "용량 인도 시작 2027년 Q1, 완료 2027년 Q2",
+     "scope": "말레이시아 A901 캠퍼스(67MW), 말레이시아 내 세 번째 거점"
+    },
+    "key_facts": [
+     "A901은 67MW 규모로 Bitdeer의 말레이시아 내 세 번째 데이터센터(Cyberjaya, Johor에 이어)",
+     "말레이시아·노르웨이·미국 합산 글로벌 계약 용량이 **273.5MW**로, 2028년 Q1까지 350MW 목표의 78% 달성",
+     "A901은 **liquid-cooled NVIDIA GB300 NVL72 시스템**용으로 설계됨",
+     "용량 인도는 2027년 Q1 시작, 2027년 Q2 완료 예정",
+     "수 주 전 Johor Bahru의 65.1MW A202 시설 계약도 체결, Bhutan Gelephu Mindfulness City(30MW~500MW 확장 가능)와도 비구속 LOI 체결"
+    ],
+    "why_matters": "동남아시아에서 liquid-cooled, rack-scale AI 용량 수요가 공급을 앞지르고 있다는 CFO 발언은 **NVIDIA GB300 NVL72 기반 인프라 수요**가 지역 전역에서 조기·대규모로 확산되고 있음을 보여준다. 크립토마이너에서 AI 클라우드로 전환한 Bitdeer의 공격적 용량 확장은 Neocloud 사업자들이 NVIDIA 최신 플랫폼을 중심으로 글로벌 데이터센터 포트폴리오를 빠르게 재편하고 있음을 시사한다.",
+    "subject_angle": "Bitdeer의 A901·A202 연속 계약은 **NVIDIA GB300 NVL72**가 Neocloud 사업자들의 신규 liquid-cooled 인프라 표준 설계 기준으로 자리잡고 있음을 보여주며, NVIDIA가 하드웨어 공급을 넘어 데이터센터 설계 단계부터 영향력을 확대하고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Bitdeer Technologies Group",
+      "context": "Neocloud 사업자, A901 데이터센터 임대 계약 당사자"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GB300 NVL72 시스템 공급, A901 설계 기준 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GB300 NVL72",
+      "role": "A901 데이터센터가 liquid-cooled 방식으로 지원하도록 설계된 대상 시스템"
+     }
+    ],
+    "watch_next": [
+     "A901 데이터센터의 정확한 위치 및 운영사 공개 여부",
+     "2027년 Q1~Q2 용량 인도 일정 준수 여부",
+     "Bhutan Gelephu Mindfulness City 프로젝트의 비구속 LOI에서 실제 계약 전환 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/bitdeer-ai-signs-67mw-ai-cloud-agreement-in-malaysia",
+   "body": "Neocloud Bitdeer AI has entered into a 10-year data center services agreement in Malaysia. The company will lease the A901 data center in Malaysia, a 67MW campus in Malaysia. The exact location and operator of the data center have not been provided. A901 will be Bitdeer's third location in Malaysia, joining its data centers in Cyberjaya and Johor, and bringing its global contracted capacity across Malaysia, Norway, and the US to 273.5MW, 78 percent of its goal of 350MW by Q1 2028. Capacity at A901 is expected to start being delivered in Q1 of 2027, completing in Q2. The site will be engineered for liquid-cooled Nvidia GB300 NVL72 systems. “Demand for liquid-cooled, rack-scale AI capacity in Southeast Asia is running ahead of what the market can deliver, and customers are asking for it earlier and in larger blocks,” said Michael G. Potter, chief financial officer of Bitdeer Technologies Group. “A901 adds 67MW in a third Malaysian location, which widens the set of sites and delivery dates we can put in front of a customer.\" The lease comes just weeks after Bitdeer AI signed another agreement for A202, a 65.1MW data center facility in Johor Bahru. Bitdeer started as a cryptominer, but it has increasingly pivoted to data centers and cloud services. The firm is repurposing mining facilities in Washington, Tennessee, and Norway into AI hosting. The company also recently signed a non-binding letter of intent to develop an AI data center in Bhutan's Gelephu Mindfulness City, targeting an initial 30MW of renewable hydro/solar-powered capacity with a potential expansion pathway to 500MW."
+  },
+  {
+   "source": "Google News · The American Bazaar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "OpenAI, Nvidia, Anthropic, and others pledge $2.4B in computing resources for Trump’s Genesis Mission",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXlHTTZPZTBUWUFHTmotTi13NEZvcllqRERNZDIyTlM3Tm1iVmtaQmYyX2Z4ZW5tb0tOMWVoM0lwV2F4cGlGZ1U4UmJtSFhna2NpLUZ6MWI2OHBzQ2xFTVg1Z3VlX0tweXhxVHF6VWUtTUx2UWRJOXlHV0lZejlYUzNYczJlWUlKY1NUR1JrTUhuYnFEVnhack5jYUtTV1lCa1F3MkpTeElibWxsU0U0?oc=5",
+   "date": "2026-10-10 03:50",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "OpenAI, NVIDIA, Anthropic이 Trump Genesis Mission에 $2.4B 컴퓨팅 자원 제공 약속",
+    "korean_summary": "OpenAI, NVIDIA, Anthropic 등이 Trump 행정부의 Genesis Mission 지원을 위해 $2.4B 규모의 컴퓨팅 리소스 제공을 약속했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXlHTTZPZTBUWUFHTmotTi13NEZvcllqRERNZDIyTlM3Tm1iVmtaQmYyX2Z4ZW5tb0tOMWVoM0lwV2F4cGlGZ1U4UmJtSFhna2NpLUZ6MWI2OHBzQ2xFTVg1Z3VlX0tweXhxVHF6VWUtTUx2UWRJOXlHV0lZejlYUzNYczJlWUlKY1NUR1JrTUhuYnFEVnhack5jYUtTV1lCa1F3MkpTeElibWxsU0U0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quartz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia is committing $1 billion to U.S. science over 5 years",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2hCYUVNcUx0Tk15YWRsa1dQWEZLNG90THhKa3NnQ01PRUxUcmNSU2hRTThjY19VbGtJd2pfcndUWXlkWmx1TjVfc1hUTnl1ckNhWHBvVDhTMGpTZlE2NHVkU3FNRmNuVVpaT3lackdpeUs2UGU4LUxFWlBnUmtXQWNMVzRJWHZ6?oc=5",
+   "date": "2026-10-09 21:35",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 5년간 미국 과학 지원에 $1B 투자",
+    "korean_summary": "NVIDIA가 미국 과학 발전을 위해 5년간 10억 달러를 투자한다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2hCYUVNcUx0Tk15YWRsa1dQWEZLNG90THhKa3NnQ01PRUxUcmNSU2hRTThjY19VbGtJd2pfcndUWXlkWmx1TjVfc1hUTnl1ckNhWHBvVDhTMGpTZlE2NHVkU3FNRmNuVVpaT3lackdpeUs2UGU4LUxFWlBnUmtXQWNMVzRJWHZ6",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s $1 Billion Research Plan Targets AI, Quantum Computing and Medicine",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMjQ0X3hRUEQzUk9vM0ZsdE9hZ0hFVU9kdHZhbWEyTzV5MGFqOEttbWFvYUZaLW9LODd3ZjFfYTExQzZ4UzVXTUd6ZG1NRXZSZXppTVNpTFphbDZPTjNnMU9jQTZnU0xjamhqWUpLelZ5QmFIZlRzLUpWNm9DUElfc0pqVUtWRXB5cmo3RnZndWgyNGh1?oc=5",
+   "date": "2026-10-10 01:41",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "research"
+    ],
+    "korean_title": "NVIDIA, AI·양자·의료 분야 $10억 연구 투자 발표",
+    "korean_summary": "NVIDIA가 미국 과학 혁신을 위해 $10억 규모 연구 투자 계획을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMjQ0X3hRUEQzUk9vM0ZsdE9hZ0hFVU9kdHZhbWEyTzV5MGFqOEttbWFvYUZaLW9LODd3ZjFfYTExQzZ4UzVXTUd6ZG1NRXZSZXppTVNpTFphbDZPTjNnMU9jQTZnU0xjamhqWUpLelZ5QmFIZlRzLUpWNm9DUElfc0pqVUtWRXB5cmo3RnZndWgyNGh1",
+   "body": ""
+  },
+  {
+   "source": "Google News · Startup Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Is in Talks to Value Perplexity at More Than $30 Billion",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYzRRY1RoV2d6WGpQdnh1WjdCcTZsQmljX0NNNmNMUXJFanNRTEhPb19sZkswakFNZThtYVVsN0lydWowRGFGOElLcEZ3aG1jalBLM3ptTy13OWJfOXhpZy15b0FHSTVDYXptY3VzNXdOZGNTVVRhOVZoRWk5TlpHWHhZSW5Vc2UwRUNnOHBEazhXZmtu?oc=5",
+   "date": "2026-10-10 04:02",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, Perplexity AI 가치평가 $300억 이상 협상",
+    "korean_summary": "NVIDIA가 Perplexity AI의 기업 가치를 $300억 이상으로 평가하는 협상을 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYzRRY1RoV2d6WGpQdnh1WjdCcTZsQmljX0NNNmNMUXJFanNRTEhPb19sZkswakFNZThtYVVsN0lydWowRGFGOElLcEZ3aG1jalBLM3ptTy13OWJfOXhpZy15b0FHSTVDYXptY3VzNXdOZGNTVVRhOVZoRWk5TlpHWHhZSW5Vc2UwRUNnOHBEazhXZmtu",
+   "body": ""
+  },
+  {
+   "source": "Google News · marketscreener.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Plans to Invest in Chip Rival d-Matrix",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHE1TzRVY282QmkyRFZvcHEyb1NfMHo1SmxMZHpFVnZuVzVNSmFscnYxR1IzOHdKTXo1Q2wxVWFBTk0ydTQwY0FVQ3JmdGxZcnR1NlJmVE5oYUJCa1NFUnF2LVFOM2l5MDhla0VNRTB2TmdEZ0lnUmxMNUdXaWswVDlGS2RpTXMwemcwcVRNcWlmSHdoYnhWaGtKV0I4UTg?oc=5",
+   "date": "2026-10-10 03:57",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 칩 스타트업 d-Matrix 투자 계획",
+    "korean_summary": "NVIDIA가 AI 칩 경쟁사 d-Matrix에 투자를 계획 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHE1TzRVY282QmkyRFZvcHEyb1NfMHo1SmxMZHpFVnZuVzVNSmFscnYxR1IzOHdKTXo1Q2wxVWFBTk0ydTQwY0FVQ3JmdGxZcnR1NlJmVE5oYUJCa1NFUnF2LVFOM2l5MDhla0VNRTB2TmdEZ0lnUmxMNUdXaWswVDlGS2RpTXMwemcwcVRNcWlmSHdoYnhWaGtKV0I4UTg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Astra AI Agent Connects NVIDIA Omniverse Libraries For Simulations",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91N1Jpb3huRVJudUNsUUJDbS00OExXZnVDbU1Bd3lDMEYzNDduTGdPNDR0ZTF3NHZDYzItUVRzRkRDdzQwNGdzWElkckd3Q2lQcnJtUE9OTU14eWdiTlZ0UVhYWUNOY3d6RUo2UXJTNnFUZnNvamc?oc=5",
+   "date": "2026-10-10 01:42",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Astra AI 에이전트, NVIDIA Omniverse 통합",
+    "korean_summary": "Astra AI 에이전트가 NVIDIA Omniverse 라이브러리를 시뮬레이션에 연동한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Quantum Zeitgeist",
+     "title": "Astra AI Agent Connects NVIDIA Omniverse Libraries For Simulations",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91N1Jpb3huRVJudUNsUUJDbS00OExXZnVDbU1Bd3lDMEYzNDduTGdPNDR0ZTF3NHZDYzItUVRzRkRDdzQwNGdzWElkckd3Q2lQcnJtUE9OTU14eWdiTlZ0UVhYWUNOY3d6RUo2UXJTNnFUZnNvamc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE91N1Jpb3huRVJudUNsUUJDbS00OExXZnVDbU1Bd3lDMEYzNDduTGdPNDR0ZTF3NHZDYzItUVRzRkRDdzQwNGdzWElkckd3Q2lQcnJtUE9OTU14eWdiTlZ0UVhYWUNOY3d6RUo2UXJTNnFUZnNvamc",
+   "body": ""
+  },
+  {
+   "source": "The Next Platform",
+   "category": "media",
+   "kind": "feed",
+   "title": "Upscale AI Partners With Nvidia While Competing With It",
+   "link": "https://www.nextplatform.com/connect/2026/10/09/upscale-ai-partners-with-nvidia-while-competing-with-it/5302456",
+   "date": "2026-10-10 06:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Upscale AI, NVIDIA와 협력 및 경쟁 관계 진행",
+    "korean_summary": "Upscale AI가 NVIDIA와 협력하면서 동시에 경쟁하는 전략을 추진하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Upscale AI, NVLink Fusion으로 NVIDIA와 협력하면서도 스케일업 네트워킹에서 경쟁",
+    "korean_summary": "Upscale AI가 AI 클러스터용 스케일업/스케일아웃 네트워킹 ASIC 'SkyHammer'와 'SkyFabriX' 아키텍처를 공개하며 NVIDIA의 NVSwitch·NVLink 독점 구조에 도전하는 동시에 NVLink Fusion 생태계와도 접점을 가진다는 소식이다.",
+    "action": {
+     "actor": "Upscale AI",
+     "action": "SkyHammer 스케일업 스위치 ASIC과 SkyFabriX 네트워킹 아키텍처 공개(웨비나), 시리즈 펀딩 통해 총 5억 달러 조달 및 기업가치 20억 달러로 확대",
+     "stage": "Announced",
+     "timeline": "미확인 (이번 주 웨비나, SkyHammer는 수년간 개발 중)",
+     "scope": "AI 클러스터용 스케일업·스케일아웃 네트워킹, 고객·출시 일정 미확인"
+    },
+    "key_facts": [
+     "Upscale AI는 현재까지 총 5억 달러를 조달했고 기업가치는 20억 달러로 두 배, 직원 수는 300명 이상으로 두 배 이상 증가함",
+     "SkyHammer ASIC의 **집계 대역폭은 115.2 Tb/sec**로 Cisco, Broadcom, NVIDIA의 스케일아웃 네트워크 ASIC과 대등한 수준",
+     "SkyFabriX 아키텍처는 향후 여러 ASIC을 결합해 **페타비트/초 단위의 집계 대역폭**을 지원할 스위치 장비로 확장될 예정",
+     "NVIDIA는 NVLink Fusion을 통해 커스텀 CPU·XPU 제조사에 NVLink 포트를 허용하지만, 고객이 자체 CPU와 XPU 모두에 NVLink를 넣고 NVSwitch·프로토콜 라이선스만 구매하는 것은 아직 허용하지 않음",
+     "저자는 **AI 추론 분야에서는 NVIDIA가 업계 표준 스케일업 네트워크를 수용할 가능성**이 있으나, 트레이닝 시장에서는 점유율을 양보할 이유가 없다고 분석"
+    ],
+    "why_matters": "스케일업(NUMA형 GPU 상호연결) 네트워킹은 NVIDIA가 NVSwitch/NVLink로 프리미엄을 받는 핵심 수익원이자 경쟁 우위 요소인데, Upscale AI 같은 신생 업체가 경쟁 가능한 대역폭을 갖춘 자체 ASIC을 내놓으면서 이 영역에도 표준화·경쟁 압력이 커지고 있다. **NVIDIA가 NVLink Fusion으로 생태계를 개방한 틈을 타 경쟁사가 유사 기술로 시장에 진입하는 구도**는 향후 AI 인프라 네트워킹 시장의 지형 변화를 시사한다.",
+    "subject_angle": "NVIDIA는 NVLink Fusion을 통해 커스텀 CPU·XPU에 NVLink 포트를 개방해 생태계 록인을 유지하는 전략을 쓰고 있지만, **Upscale AI 같은 독립 스케일업 네트워킹 업체의 부상은 특히 AI 추론 영역에서 향후 NVIDIA가 업계 표준 프로토콜 수용 압박을 받을 가능성**을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "NVSwitch·NVLink·NVLink Fusion으로 스케일업 네트워킹 시장을 주도하며 비교 대상이자 부분적 협력 생태계 제공자"
+     },
+     {
+      "name": "Upscale AI",
+      "context": "SkyHammer ASIC과 SkyFabriX 아키텍처로 스케일업·스케일아웃 네트워킹 경쟁 제품을 개발 중인 스타트업"
+     },
+     {
+      "name": "Cisco Systems",
+      "context": "스케일아웃 네트워크 ASIC 경쟁사로 비교 대상"
+     },
+     {
+      "name": "Broadcom",
+      "context": "스케일아웃 네트워크 ASIC 및 멀티칩 스위치 설계 기법의 선도 기업으로 비교 대상"
+     },
+     {
+      "name": "Meta Platforms",
+      "context": "과거 Broadcom/Cisco 스위치 아키텍처 관련 발표 사례로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVSwitch / NVLink",
+      "role": "NVIDIA의 GPU 공유 메모리 스케일업 네트워킹 기술, 프리미엄 가격의 기준점"
+     },
+     {
+      "name": "NVLink Fusion",
+      "role": "NVIDIA가 커스텀 CPU·XPU 제조사에 NVLink 포트를 개방하는 프로그램"
+     },
+     {
+      "name": "NVL72",
+      "role": "NVIDIA의 72-GPU 랙스케일 공유 메모리 시스템"
+     },
+     {
+      "name": "SkyHammer",
+      "role": "Upscale AI의 115.2 Tb/sec 대역폭 스케일업 스위치 ASIC"
+     },
+     {
+      "name": "SkyFabriX",
+      "role": "Upscale AI의 스케일업·스케일아웃 네트워킹 아키텍처"
+     }
+    ],
+    "watch_next": [
+     "SkyHammer ASIC의 상세 사양(레이턴시, 포트 수, 출시일) 공개 여부",
+     "Upscale AI가 NVLink Fusion 생태계와 실제로 협력 또는 직접 경쟁하는 구체적 계약·고객 확보 여부",
+     "NVIDIA가 AI 추론용 업계 표준 스케일업 네트워크 프로토콜을 수용할지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.nextplatform.com/connect/2026/10/09/upscale-ai-partners-with-nvidia-while-competing-with-it/5302456",
+   "body": "Upscale AI Partners With Nvidia While Competing With It Every CPU maker always had its own and very proprietary way to link multiple CPUs into shared memory clusters and for the most part, this remains true despite the efforts of the CCIX consortium and even the CXL consortium to create a kind of universal glue to make many CPUs look like one much bigger CPU. Attempts to create CPU SMP and NUMA standards largely failed because as much as customers would have liked to have a standard way to link CPUs together, the odds that they had a workload that would mix and match CPUs of different architectures from different vendors together seemed small. Moreover, each vendor could innovate on their SMP and NUMA chipsets, which were eventually embedded in the CPUs themselves, at a pace that was distinct from advances in their core designs, memory subsystems, and I/O. And most importantly, they were not dependent on some standards body to approve features they needed and they could differentiate as they saw fit. So why do we think there will be a standard version of what amounts to a NUMA interconnect – what is commonly called scale up networking these days – for GPUs and XPUs? Because hope springs eternal, and because markets love competition because it drives down costs. (Substitution is a law of economics, not just a good idea. . . .) What is clear is that Nvidia can – and does – charge a hefty premium for its NVSwitch and NVLink ports, which offer unparalleled bandwidth and decent latency to glue as many as 72 GPUs to each other as a shared memory system that the company calls the NVL72 rackscale machine. With its NVLink Fusion effort, Nvidia is allowing those making custom CPUs to add NVLink ports to their devices so they can hook into the same memory space as Nvidia GPUs, and is similarly allowing XPU accelerators made by hyperscalers, cloud builders, and AI model builders to have NVLink ports so they can be put inside Nvidia’s rackscale architecture. Thus far, as far as we know, Nvidia is not allowing customers to add NVLink ports to both their own CPUs and their own XPUs and just buy NVSwitches and a license to the NVLink protocol from Nvidia to make shared memory systems. That day might come, though, as I talked about in August in In The Long Run, Nvidia NVSwitch Is The InfiniBand Of Scale Up AI Networks. And in the longest of runs, should the right technology come to the market, Nvidia could adopt an industry standard scale up network with its own protocol overlays – particularly when it comes to AI inference. (There is no reason for Nvidia to yield such ground for AI training, where it has the vast majority of the market locked up.) This is why Upscale AI, which I talked to back in January as it was raising $200 million in Series A funding, is so interesting. (I am not going to go over the history of the company here, and the serious players involved, so read that story if you want the background.) Upscale AI has raised $500 million in total so fa"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M?oc=5",
+   "date": "2026-10-10 08:18",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Super Micro 계약업체, NVIDIA 칩 탑재 서버 중국 우회 판매 계획 유죄 인정",
+    "korean_summary": "Super Micro의 계약업체 직원이 NVIDIA 칩이 탑재된 AI 서버를 중국으로 우회 판매하려는 계획에 유죄를 인정했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · WTVB",
+     "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRlRZdTBYaTNjZGtOaFZzRnNMRXJSd0NxSzI0bXk0bTUzRTcwSlFlcHBZQm5RNzJhUzdXbTZhbTd6bnBYMHhTalp0OGExZzMxRTRuc2Y3elFPVEdfWTVLb2E2eXB4dGNQRERYQjJDQkx0cHMzTjlRM21RUXhrS0F6QXRkR04xT0pEN0pqR1UtWktYM3RDQ3BhNUZaTkhEMHpJWHBqTGpmSmNDcFB2MVRfQVF0ckNnYzJUaDMwa1h6VHFSU0E?oc=5"
+    },
+    {
+     "source": "Google News · Investing.com",
+     "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China By Reuters",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWkJ1amRoRnhfLUlIRHNsWERyRE5lSUdXMkROYTU1MHF5eTlvNnYtNkZqU3NGbl9KVG9iZ2xxSjJWWjJSWUlnMjgzbTF2MVZOWkk4dEJGd3dUajV2THY5OXh0SHV1bXl6elNGanRfQjhFU015eUk3SEdGcGZTM0xKRlNmS3BrZURJUVBwLUdaNkt4MThGb0xhSFMwTjFzeDROeDE0c2ZOOVlDUjd6TUdNQWtjTzZuRkFoZWo1dFI5NmhQRWxraGhYQ01hVG1CMlU2R0JFZ1RpOFpRQ1NWeGx2REZPcDlzQQ?oc=5"
+    },
+    {
+     "source": "Google News · Central Oregon Daily",
+     "title": "Super Micro contractor pleads guilty in scheme to divert AI servers with Nvidia chips to China",
+     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNak5TTl9WdWZGZzFzOHIxcV9sbUZPLW1nVDFRczFJUlNxOGxRNGdMWHpQZXBVazZaOS02TnVJbnMtRlEzb0N3OEd6QkxiRy1BWTlOYm9nLVRmMFFoc3NaWDFGWjFicDBFNnFXLThmV0M0cWotVUZKY2VYVkZ1VHo3M0sxNHdGYkpoWjdqUW5qa3dtblkwTDBhTVlvRTNtYmV1ZU01c0lXNzhibDc0MDVUa2dWRlNjVzdVeUpQMVQ4TFRHYlQ4SzVKTnQ3NzhQMTBheEcxWUJnblVVWnBPS1lxbVRDWmZPdlFROEo1UmRCQUp3OHhiUVBOcGFIZEI5S3NveHZmZzU3UWd0XzVIRnBvMW9DQ3dtQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd1RmaEFMYlkxNEZMMFBaYmd6dlMxMkpXSW9rTDA2TVMxeHBDOFlJVjZPOE4zOWhCRUx5ZUVxcTdBQnhHd2c5TzJzQ25SQ2Y4SnhBb1I2M01Ndmh5V2NNMFFHODhlSHZVUHBCeUYzdUxDVFc5dlc1cFhYWkVFVVRjdWlEeExfbmJCZWhZLWJyMmFhM0l1TVJhd3RyamJoU1d5WFA1Z2NQSEw3bWtBc1h5SVhINEVMRmFRenVYRi12QkhaRlhJYWI0RHJGU1M",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Firmus Sought $30B Valuation on $51M Revenue - Meta Platforms (NASDAQ:META), NVIDIA (NASDAQ",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWjlIR191dk1HdDVXM0djbVFib3FaeVBncnphLTJ3S1R6T0RjUnRfZXZWRUt0d1VEYVF3RDJndGg5b0VnTnRxQXhBb0JHd25kNFNIR1BNb2xyNXhGZ1ZIOFZ6YW1YLWM0c2c3dV9RU1R1M0ZlZy0wMGYyb3JJckZoODFrbV91bmE3TkR4YWMxaC0tSlI0cHlfUTR6cmNndm5IM3J5N1htWkw5QQ?oc=5",
+   "date": "2026-10-10 03:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 투자사 Firmus, $30B 밸류에이션 추구",
+    "korean_summary": "NVIDIA가 투자한 Firmus가 $30B 밸류에이션을 목표로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWjlIR191dk1HdDVXM0djbVFib3FaeVBncnphLTJ3S1R6T0RjUnRfZXZWRUt0d1VEYVF3RDJndGg5b0VnTnRxQXhBb0JHd25kNFNIR1BNb2xyNXhGZ1ZIOFZ6YW1YLWM0c2c3dV9RU1R1M0ZlZy0wMGYyb3JJckZoODFrbV91bmE3TkR4YWMxaC0tSlI0cHlfUTR6cmNndm5IM3J5N1htWkw5QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · AI Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump Announces $2.4B in AI Compute Pledges From Nvidia, OpenAI and Other Tech Giants for Federal Genesis Mission",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON1h4d1NKSm5zTzBrOGF2YVlIVnFsR0lqVmZGMWN4YmFtMXlaR0RhWlZTVlAyalNpaS0wZ25XNGUyRVZrb1kybEtZbEdZdUVqS2dMMlFuU3BTUWNFV241RnEtUFlqcmdySlllSFNYVl9jOXM2STg0SC0wbl9zNTN6b3M1MGdWaDNHcDhxY3F1dlVLS2E1dDJiX0JybDRkNDlvd0t1QXBDRk5NbjhMYnZrNDFOQTNEZ3c4RWpNM3V4NmxPN25TWlF5S19pMUs0UmJZT2N3RmNNSWtiNWJNbU5YRWNQQQ?oc=5",
+   "date": "2026-10-10 02:32",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "트럼프 정부, NVIDIA 등에서 24억 달러 AI 컴퓨팅 투자 약속 발표",
+    "korean_summary": "트럼프 행정부가 NVIDIA, OpenAI 등 기술 기업들로부터 연방 Genesis 미션용 24억 달러 AI 컴퓨팅 투자 약속을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON1h4d1NKSm5zTzBrOGF2YVlIVnFsR0lqVmZGMWN4YmFtMXlaR0RhWlZTVlAyalNpaS0wZ25XNGUyRVZrb1kybEtZbEdZdUVqS2dMMlFuU3BTUWNFV241RnEtUFlqcmdySlllSFNYVl9jOXM2STg0SC0wbl9zNTN6b3M1MGdWaDNHcDhxY3F1dlVLS2E1dDJiX0JybDRkNDlvd0t1QXBDRk5NbjhMYnZrNDFOQTNEZ3c4RWpNM3V4NmxPN25TWlF5S19pMUs0UmJZT2N3RmNNSWtiNWJNbU5YRWNQQQ",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Mistral’s new Large 4 trails some Chinese open models in independent tests",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+   "date": "2026-10-09 20:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Mistral, NVIDIA Grace Blackwell으로 훈련한 1조 파라미터 Large 4 모델 공개",
+    "korean_summary": "Mistral이 NVIDIA Grace Blackwell GPU로 훈련한 1조 파라미터 혼합 전문가 모델 Large 4를 공개하여 오픈소스 AI 모델 생태계에 기여했다."
+   },
+   "summary_data": {
+    "korean_title": "Mistral의 신형 Large 4, 독립 벤치마크에서 중국 오픈모델에 뒤처져",
+    "korean_summary": "Mistral이 NVIDIA Grace Blackwell GPU로 학습한 1조 파라미터 모델 Large 4를 공개했으나, Artificial Analysis 독립 평가에서 다수 중국 오픈모델에 지능·비용 지표 모두 뒤처지는 것으로 나타났다.",
+    "action": {
+     "actor": "Mistral AI",
+     "action": "Large 4(ML4) 모델을 Research Public Preview로 공개하고 Artificial Analysis 벤치마크 결과를 발표",
+     "stage": "Available",
+     "timeline": "2026년 10월 6일 벤치마크 발표, 가중치는 10월 말 공개 예정",
+     "scope": "Mistral API를 통한 Research Public Preview, 오픈 가중치는 미공개"
+    },
+    "key_facts": [
+     "Mistral Large 4는 **NVIDIA Grace Blackwell GPU**에서 학습된 1.05T 파라미터(49B–52B 활성) MoE 모델",
+     "Artificial Analysis Intelligence Index에서 38점을 기록, 미국·중국 외 지역 모델 중 최고 성능으로 평가됨",
+     "DeepSeek V4.1 Flash(39), GLM-5.3-Flash(42), Kimi K3(44), GLM-5.3(45), MiMo-V2.6-Pro(46) 등 **5개 중국 오픈모델이 ML4보다 높은 점수**를 기록",
+     "비용은 AA 작업당 $1.13(출시 할인가 $0.57)로, MiMo-V2.6-Pro($0.13)·GLM-5.3-Flash($0.25) 대비 4배 이상 비쌈",
+     "CyberGym-E2E-AA 사이버보안 테스트에서는 81.7%로 역대 최고 점수를 기록했으나, Cyber Index 전체에서는 MiMo-V2.6-Pro(56)에 못 미치는 50점"
+    ],
+    "why_matters": "이번 결과는 미국·중국 외 지역 AI 모델의 경쟁력 지표로 주목받았지만, **중국 오픈모델들이 지능·비용 양면에서 서구 모델을 앞서는 추세**를 재확인시켰다. NVIDIA 입장에서는 자사 최신 GPU로 학습된 모델이 성능·비용 경쟁에서 밀리는 사례로, 하드웨어 우위가 곧바로 모델 경쟁력으로 전환되지 않는다는 점을 보여준다.",
+    "subject_angle": "Mistral Large 4가 **Grace Blackwell 플랫폼의 성능 레퍼런스 사례**로 언급되었으나 벤치마크 열세가 부각되면서, NVIDIA는 하드웨어 공급을 넘어 고객사의 모델 경쟁력 확보까지 지원해야 하는 과제를 안게 됐다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Mistral AI",
+      "context": "Large 4 모델 개발·공개"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Grace Blackwell GPU로 Large 4 학습 인프라 제공"
+     },
+     {
+      "name": "Artificial Analysis",
+      "context": "독립 AI 벤치마킹 및 순위 평가"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "경쟁 중국 오픈모델(V4.1 Flash, V4 Pro) 제공"
+     },
+     {
+      "name": "Z.ai",
+      "context": "경쟁 중국 오픈모델(GLM-5.3, GLM-5.3-Flash) 제공"
+     },
+     {
+      "name": "Moonshot",
+      "context": "경쟁 중국 오픈모델(Kimi K3) 제공"
+     },
+     {
+      "name": "Xiaomi",
+      "context": "경쟁 중국 오픈모델(MiMo-V2.6-Pro) 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Mistral Large 4 (ML4)",
+      "role": "평가 대상 1T 파라미터 MoE 모델"
+     },
+     {
+      "name": "NVIDIA Grace Blackwell",
+      "role": "ML4 학습에 사용된 GPU 플랫폼"
+     },
+     {
+      "name": "Artificial Analysis Intelligence Index / Cyber Index",
+      "role": "모델 성능·비용 비교 벤치마크"
+     }
+    ],
+    "watch_next": [
+     "10월 말 예정된 Mistral Large 4 오픈 가중치 공개 여부 및 이후 Cyber Index 순위",
+     "후속 학습(post-training) 완료 후 성능·비용 개선 여부",
+     "NVIDIA GPU 기반 서구 모델들의 중국 오픈모델 대비 경쟁력 변화 추이"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-tests-rank-mistrals-new-trillion-parameter-large-4-the-best-ai-model-outside-the-u-s-and-china-but-chinese-open-weights-still-overcome-europes-best-efforts",
+   "body": "Mistral launched its trillion-parameter Large 4 (ML4) model this week, saying it “pushes the frontier of open-weight performance.” Artificial Analysis (AA), an independent AI benchmarking firm, ranked Mistral's Large 4 as the best model available from outside the U.S. and China in its index. The mixture-of-experts model, trained on Nvidia’s Grace Blackwell GPUs, scored its personal best in AA’s CyberGym-E2E-AA end-to-end cybersecurity measure, although several Chinese open models beat it overall. Mistral has released Mistral Large 4, scoring 38 on the Artificial Analysis Intelligence Index; France is back to having the most intelligent model from outside the US and China@MistralAI has released Mistral Large 4 in Research Public Preview, with plans to release the weights of the 1T parameter (49B active) model at the end of October. It achieves 38 on the Artificial Analysis Intelligence Index, comparable to GPT-6 Luna (max, 38) and DeepSeek V4.1 Flash (max, 39). It also achieves 50% on the Artificial Analysis Cyber Index, level with GLM-5.3-Flash and ahead of models such as Kimi K3 and DeepSeek V4.1 Flash (max).Key benchmarking results for Mistral Large 4 Preview:➤ Most intelligent model from outside the US and China: Mistral Large 4 Preview scores 38 on the Intelligence Index, comparable to DeepSeek V4.1 Flash (max, 39) and GPT-6 Luna (max, 38). This makes it the most intelligent model from outside the US and China, ahead of countries such as South Korea and the United Arab Emirates➤ Level with GLM-5.3-Flash on cyber defense capability: Mistral Large 4 Preview scores 50 on the Artificial Analysis Cyber Index, level with GLM-5.3-Flash (50) and behind MiMo-V2.6-Pro (56). Once its weights are released, it will rank among the top three open weights models on the Cyber Index. Its strongest result is on CyberGym-E2E-AA, where it scores 82%, ahead of MiMo-V2.6-Pro (79%) and GPT-6 Luna (max, 78%)➤ Over 4x the Cost per Task of similar-intelligence open weights models: Mistral Large 4 Preview costs $1.13 per Intelligence Index task with standard pricing of $1.36/$4.18 per 1M input/output tokens, with $0.14 per 1M cached input tokens. For the first two weeks, Mistral Large 4 Preview will be served at a 50% launch discount, bringing its Cost per Task down to $0.57. This is still more costly than GLM-5.3-Flash ($0.25) and DeepSeek V4.1 Flash (max, $0.27)➤ Strong document and image reasoning: Mistral Large 4 Preview scores 19% on GDP.pdf, on par with MiMo-V2.6-Pro (19%) and behind Kimi K3 (22%). This is an 18-point improvement from Mistral Large 3, partly driven by improvements in their API, which now accepts 100 images per request, up from 8 for previous Mistral modelsKey model details:➤ Context Window: 512k tokens➤ Multimodality: Text and image input, with text output➤ Pricing: $1.36/$4.18 per 1M input/output tokens ($0.14 per 1M cached input tokens), with 50% off for the first two weeks ($0.68/$2.09)➤ Availability: Research Public Preview on Mistral's API, w"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Report: Nvidia plans to invest in inference chip startup d-Matrix",
+   "link": "https://www.datacenterdynamics.com/en/news/report-nvidia-plans-to-invest-in-inference-chip-startup-d-matrix/",
+   "date": "2026-10-09 21:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 추론 칩 스타트업 d-Matrix에 투자 계획",
+    "korean_summary": "NVIDIA가 NVLink Fusion 프로그램의 일환으로 추론 칩 스타트업 d-Matrix에 투자할 계획이다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 추론 칩 스타트업 d-Matrix에 투자 검토",
+    "korean_summary": "NVIDIA가 자사 기술을 경쟁 칩 설계와 호환시키려는 전략의 일환으로 추론 칩 스타트업 d-Matrix에 투자할 계획이라고 The Information이 보도했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "추론 칩 스타트업 d-Matrix에 투자 계획",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "d-Matrix (추론 가속기 스타트업), 투자 규모 미확인"
+    },
+    "key_facts": [
+     "The Information이 3명의 관계자를 인용해 NVIDIA의 d-Matrix 투자 계획을 보도함",
+     "이 투자는 **NVIDIA 기술을 경쟁 칩 설계와 호환시키려는 노력**의 일환으로 설명됨",
+     "한 달 전 d-Matrix는 자사 Raptor 프로세서를 NVIDIA 하드웨어와 랙 스케일로 연결하기 위해 **NVLink Fusion**을 채택하기로 발표함",
+     "d-Matrix는 2025년 11월 Series C 라운드에서 2억 7,500만 달러를 유치, 기업가치 20억 달러로 평가됨",
+     "2026년 7월 The Information은 d-Matrix가 50억 달러 가치평가를 목표로 추가 자금 조달을 추진 중이라고 별도 보도함"
+    ],
+    "why_matters": "NVIDIA가 경쟁 가속기 업체에 투자하며 NVLink Fusion 생태계를 확장하는 것은 **non-NVIDIA 가속기도 자사 인터커넥트 표준에 묶어두려는 전략**을 보여준다. 이는 추론 전용 칩 스타트업들이 부상하는 가운데 NVIDIA가 경쟁과 협력을 동시에 취하는 양면 전략을 구사함을 시사한다.",
+    "subject_angle": "**NVLink Fusion을 통해 경쟁사 가속기까지 자사 인터커넥트 표준 안으로 끌어들이는 플랫폼 전략**이며, 투자를 통해 잠재적 경쟁자를 생태계 파트너로 편입시키려는 움직임이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "d-Matrix에 투자 계획, NVLink Fusion 기술 제공"
+     },
+     {
+      "name": "d-Matrix",
+      "context": "추론 칩 스타트업, NVLink Fusion 채택, NVIDIA 투자 대상"
+     },
+     {
+      "name": "The Information",
+      "context": "투자 계획 및 추가 펀딩 소식 보도 매체"
+     },
+     {
+      "name": "Arm",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "Fujitsu",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "Intel",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "MediaTek",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "Qualcomm",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "SiFive",
+      "context": "NVLink Fusion 파트너"
+     },
+     {
+      "name": "Synopsys",
+      "context": "NVLink Fusion 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVLink Fusion",
+      "role": "non-NVIDIA 가속기와 NVIDIA 하드웨어를 연결하는 세미커스텀 AI 인프라 인터커넥트 기술"
+     },
+     {
+      "name": "Corsair",
+      "role": "d-Matrix의 추론 가속기"
+     },
+     {
+      "name": "Raptor",
+      "role": "d-Matrix의 프로세서, NVLink로 NVIDIA 하드웨어와 연결"
+     },
+     {
+      "name": "JetStream NICS",
+      "role": "d-Matrix 풀스택 플랫폼의 네트워킹 구성요소"
+     },
+     {
+      "name": "Aviator",
+      "role": "d-Matrix의 소프트웨어 스택"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 d-Matrix 투자 규모 및 지분율 확정 여부",
+     "d-Matrix의 $5bn 밸류에이션 추가 펀딩 라운드 성사 여부",
+     "다른 NVLink Fusion 파트너사에 대한 NVIDIA의 유사 투자 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "Report: Nvidia plans to invest in inference chip startup d-Matrix",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ1YzTkNWY1FUc2had1NodFZjRHZaY1BTTDk3TXFQWVRkbGc3Z00tWkFVWUpkeEhHRkFybHRJanZ5NDNZaUZmcU9lRndVYVNieFdYMHpwajFGYzAtOVUxVEJTM1BtUVZCNmRjSWM5b0Zrb2hIRGxKQjRIY3dROURBZGVHR0VhUzZkclhMSW1MdVR1S0NJUjNzdEY4NFFqZEF1aW1xYjdsQzc1RklT?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/report-nvidia-plans-to-invest-in-inference-chip-startup-d-matrix",
+   "body": "Nvidia is planning to invest in inference chip startup d-Matrix, according to a report from The Information. Citing three people with knowledge of the deal, the report said the planned investment is part of an effort by Nvidia to make its technology compatible with rival chip designs. The report comes a month after d-Matrix announced it would adopt Nvidia’s NVLink technology to connect its Raptor processors with the chip giant’s hardware in rack-scale solutions. First unveiled in May 2025 and known as NVLink Fusion, the interconnect technology allows partners to build semi-custom AI infrastructure linking non-Nvidia accelerators with Nvidia hardware. Other NVLink Fusion partners include the likes of Arm, Fujitsu, Intel, MediaTek, Qualcomm, SiFive, and Synopsys. Founded in 2019 and headquartered in Santa Clara, d-Matrix develops accelerator cards that aim to make AI inferencing workloads quicker and more efficient. Its full-stack platform is powered by the company’s Corsair inference accelerators, JetStream NICS, and Aviator software, which it claims can deliver 10X faster performance, 3X lower cost, and 3–5X better energy efficiency than GPU-based systems. In November 2025, the startup closed a $275 million Series C funding round, valuing the company at $2 billion. The Information separately reported in July 2026 that d-Matrix was looking to raise additional financing, targeting a $5bn valuation."
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Subtle Change to How It Counts Cash Flow Has Big Implications for Buybacks",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVmJUdUJkbjREV3NKakY5WFJwN3k3dzhmYzZoMjN1QnJjVFo0QWhiUUh0aFpXQWQ5T21famNzdUdzR21rc1B0SFM2QjB4R0lsQ2Q3WV9haU9jLWZ1LU9kQ1E4VHdhXzFvSkFtQVo1VGZOMXRCRnZ4ODNsNUFmOTFSZFZKQ25VSFo3V0c5Z1A4dGVIZjBXYm1rY2pQc1c2Vm1TYTF1OGZnWGJlWDBGY2Y4cDhydUVXSmd2eTRncUx1OWFPcExSRTUybA?oc=5",
+   "date": "2026-10-09 18:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA의 현금흐름 회계 변경, 자사주 매입에 영향",
+    "korean_summary": "NVIDIA가 현금흐름 계산 방식을 변경하여 자사주 매입 전략에 미친다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVmJUdUJkbjREV3NKakY5WFJwN3k3dzhmYzZoMjN1QnJjVFo0QWhiUUh0aFpXQWQ5T21famNzdUdzR21rc1B0SFM2QjB4R0lsQ2Q3WV9haU9jLWZ1LU9kQ1E4VHdhXzFvSkFtQVo1VGZOMXRCRnZ4ODNsNUFmOTFSZFZKQ25VSFo3V0c5Z1A4dGVIZjBXYm1rY2pQc1c2Vm1TYTF1OGZnWGJlWDBGY2Y4cDhydUVXSmd2eTRncUx1OWFPcExSRTUybA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Simply Wall Street",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Funding Puts IonQ Stock And Quantum Computing Shares In Focus",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZU12T3RiZnhYZEtWS1JzaWg4Ny1vU3FvelRFb3ZXMFI0ekhSUVl3MnBSd3llWkI0SVFPWTRFY1lIWlV5czRDSGRzcmoxc0ZITWFaaDVzeURCcVZDQUY3eXZaaUJDX2JUZU9uV0tGU2UyMnkzZUIxMWV1RXhwQ0hXVU1JaWZFRlIwWHJoakVFMXl3ZDFhY0dwTjk2MTZnTFpmZWhIVFlIQ2RNTDA5U2l6d2ZZX0RHOUJIdU43Z3B4SU9CeHp5MUhvUmRR0gHKAUFVX3lxTE5lTXZPdGJmeFhkS1ZLUnNpaDg3LW9TcW96VEVvdlcwUjR6SFJRWXcycFJ3eWVaQjRJUU9ZNEVjWUhaVXlzNENIZHNyajFzRkhNYVpoNXN5REJxVkNBRjd5dlppQkNfYlRlT25XS0ZTZTIyeTNlQjExZXVFeHBDSFdVTUlpZkVGUjBYcmhqRUUxeXdkMWFjR3BOOTYxNmdMWmZlaEhUWUhDZE1MMDlTaXp3ZllfREc5Qkh1TjdncHhJT0J4enkxSG9SZFE?oc=5",
+   "date": "2026-10-10 07:52",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 IonQ 투자, 양자컴퓨팅 관심 고조",
+    "korean_summary": "NVIDIA가 양자컴퓨팅 기업 IonQ에 펀딩하면서 양자컴퓨팅 산업에 주목이 집중됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZU12T3RiZnhYZEtWS1JzaWg4Ny1vU3FvelRFb3ZXMFI0ekhSUVl3MnBSd3llWkI0SVFPWTRFY1lIWlV5czRDSGRzcmoxc0ZITWFaaDVzeURCcVZDQUY3eXZaaUJDX2JUZU9uV0tGU2UyMnkzZUIxMWV1RXhwQ0hXVU1JaWZFRlIwWHJoakVFMXl3ZDFhY0dwTjk2MTZnTFpmZWhIVFlIQ2RNTDA5U2l6d2ZZX0RHOUJIdU43Z3B4SU9CeHp5MUhvUmRR0gHKAUFVX3lxTE5lTXZPdGJmeFhkS1ZLUnNpaDg3LW9TcW96VEVvdlcwUjR6SFJRWXcycFJ3eWVaQjRJUU9ZNEVjWUhaVXlzNENIZHNyajFzRkhNYVpoNXN5REJxVkNBRjd5dlppQkNfYlRlT25XS0ZTZTIyeTNlQjExZXVFeHBDSFdVTUlpZkVGUjBYcmhqRUUxeXdkMWFjR3BOOTYxNmdMWmZlaEhUWUhDZE1MMDlTaXp3ZllfREc5Qkh1TjdncHhJT0J4enkxSG9SZFE",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · eeNews Europe",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA cuPhoton accelerates scientific image analysis ...",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xTjY2elZTX2l4X3NRdDh5ZXgzUVo3Y2NTQndlTVA0X0xfM25MdVFYSExKT1pRNkkzUXRnZlp4YTFBNGxlaEZoOVg0UmZVQk92bEd1UEJjOWtHQUZmTUFZQjJ5cVVBMGxHTjVuVTk0VHhiVnpvbTl3UVhMdlNOYW8?oc=5",
+   "date": "2026-10-10 04:52",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA cuPhoton, 과학적 이미지 분석 가속",
+    "korean_summary": "NVIDIA cuPhoton이 과학 이미지 분석을 가속화한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xTjY2elZTX2l4X3NRdDh5ZXgzUVo3Y2NTQndlTVA0X0xfM25MdVFYSExKT1pRNkkzUXRnZlp4YTFBNGxlaEZoOVg0UmZVQk92bEd1UEJjOWtHQUZmTUFZQjJ5cVVBMGxHTjVuVTk0VHhiVnpvbTl3UVhMdlNOYW8",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Wall Street is inventing an entirely new financial system around Nvidia's AI chips",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMEpqbXIyV2NmNG9fQUpudG13WWZUbUJMdlQxRU51Qy12cTVEUlNYZlp4d3J5dkUweDhhUURFUDVPYlFWLU9pNlJfd0FkOEFkb2JWQ1FOcUJTYWJZeDJFQzJEdHpxVkk0bkNRVDJYdUI4YXRSVlFfNjZyUUxUQm9zRU9uY3dNa2ZkcDBfWHhNQlIxRkZ1Y2JF?oc=5",
+   "date": "2026-10-09 18:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "월스트리트, NVIDIA AI칩 중심 금융 시스템 창출",
+    "korean_summary": "금융권이 NVIDIA AI칩 중심의 새로운 금융 체계를 설계하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMEpqbXIyV2NmNG9fQUpudG13WWZUbUJMdlQxRU51Qy12cTVEUlNYZlp4d3J5dkUweDhhUURFUDVPYlFWLU9pNlJfd0FkOEFkb2JWQ1FOcUJTYWJZeDJFQzJEdHpxVkk0bkNRVDJYdUI4YXRSVlFfNjZyUUxUQm9zRU9uY3dNa2ZkcDBfWHhNQlIxRkZ1Y2JF",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AI Chips Update - NVIDIA's $1B Boost for US Scientific Innovation",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWlZbHBaakEwclBEWnlLVTFNQ0htZ2dtZF82ZnBIdlI4bm12TmM1NUhoMkVUR2lzTDBpVnRKVzlZSkJ0MEN5WkxLeGN3cUFkTHo4R1I3OTU3MHBDbWc1dGZ2LUR0X0FUdnpXbko0bERUYjdvQTRvaElBRGFIZ3VCbU42SzRPVV9lQ25kT3Fzd1Zldm8?oc=5",
+   "date": "2026-10-09 20:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA $10억 투자로 미국 과학 혁신 지원",
+    "korean_summary": "NVIDIA $10억 과학 혁신 투자가 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTWlZbHBaakEwclBEWnlLVTFNQ0htZ2dtZF82ZnBIdlI4bm12TmM1NUhoMkVUR2lzTDBpVnRKVzlZSkJ0MEN5WkxLeGN3cUFkTHo4R1I3OTU3MHBDbWc1dGZ2LUR0X0FUdnpXbko0bERUYjdvQTRvaElBRGFIZ3VCbU42SzRPVV9lQ25kT3Fzd1Zldm8",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stocks Edge Higher as $1 Billion Science Bet Tests Returns",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOem9zN21CWFFkLTUtWDNBY0wwbk9neTZFeHJVeXNzQUotQ3NRV3lmZExVRThtbkdZa2lmU0V1U1JNalhmSUhQT0xUbkR0UFFWVkpaV1I2QmlwWXlrb3kyV1VLb09udkVWVUxMLXQxbnQ4VlZMYm8xTVBXMFlsbFRjb3p3YW1sNXNpVHNCdWY2WHVDdjhHZnNTbkFVcVlxMnhKaWUyeDNUWnQxZmh0QmUxc2ZkbmhRRkVxT0l5anlINk9kdw?oc=5",
+   "date": "2026-10-10 05:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 10억 달러 과학 투자 수익성 검증",
+    "korean_summary": "NVIDIA가 10억 달러 규모 과학 분야 투자를 추진 중이며 수익성이 검증되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOem9zN21CWFFkLTUtWDNBY0wwbk9neTZFeHJVeXNzQUotQ3NRV3lmZExVRThtbkdZa2lmU0V1U1JNalhmSUhQT0xUbkR0UFFWVkpaV1I2QmlwWXlrb3kyV1VLb09udkVWVUxMLXQxbnQ4VlZMYm8xTVBXMFlsbFRjb3p3YW1sNXNpVHNCdWY2WHVDdjhHZnNTbkFVcVlxMnhKaWUyeDNUWnQxZmh0QmUxc2ZkbmhRRkVxT0l5anlINk9kdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Channel Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Dell XPS 16 Creator Edition Launches: What Nvidia RTX Spark Means for the Channel",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUm5kUHRTT1oyRGdDTHdiX2xkaUxXMmgtUjd5bjB2MkpGbVJQTFhocl9HQTNLMzJ0QXVPcXhxOE82ZFNWVndsdk5ScjNWVkEySUl0Q3JibVpEQUFJb0k2M3RxZzVoZzJHNFBXMFdVZlcxeVdwdC1vM0JFNDNXbmZpcWNWc3g3SlpVclVrbmNoODNvWUkyRHVzTkF4SEFkNWVVeXEw?oc=5",
+   "date": "2026-10-09 19:31",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Dell XPS 16 Creator Edition, NVIDIA RTX Spark 통합",
+    "korean_summary": "Dell이 XPS 16 Creator Edition 출시 시 NVIDIA RTX Spark 기술을 탑재했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUm5kUHRTT1oyRGdDTHdiX2xkaUxXMmgtUjd5bjB2MkpGbVJQTFhocl9HQTNLMzJ0QXVPcXhxOE82ZFNWVndsdk5ScjNWVkEySUl0Q3JibVpEQUFJb0k2M3RxZzVoZzJHNFBXMFdVZlcxeVdwdC1vM0JFNDNXbmZpcWNWc3g3SlpVclVrbmNoODNvWUkyRHVzTkF4SEFkNWVVeXEw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Vera CPU Brings 2,000 Sandboxes Online Faster Than AMD’s EPYC “Zen 5” Can Boot Just 1,000 In Agentic AI",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWZDOVV2dnpQdm9oUFBBZ2pydFpwVV9oRjlOb05CbFpqbE5hNlJaSjNqTmI5aXFJRGdiT2F2d2U4RDM2emg0RTZSRmNpZUlBUDU0RDI2RFF6ekxpMmFNZGh2eTdYcHBPd1VlUHNWV0lxM2ZPVGcyYTRqRl9VTW4tRjJQUE80YnJPbVl6Szd2clotenVZbHpEN2JZU0wzeENlSnJQaW5OMkkwaUlD0gGsAUFVX3lxTE41ZkM5VXZ2elB2b2hQUEFnanJ0WnBVX2hGOU5vTkJsWmpsTmE2UlpKM2pOYjlpcUlEZ2JPYXZ3ZThEMzZ6aDRFNlJGY2llSUFQNTREMjZEUXp6TGkyYU1kaHZ5N1hwcE93VWVQc1ZXSXEzZk9UZzJhNGpGX1VNbi1GMlBQTzRick9tWXpLN3ZyWi16dVlsekQ3YllTTDN4Q2VKclBpbk4ySTBpSUM?oc=5",
+   "date": "2026-10-10 06:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Vera CPU, Agentic AI 처리에서 AMD EPYC 압도",
+    "korean_summary": "NVIDIA의 신규 CPU 아키텍처 Vera가 AMD EPYC Zen 5보다 Agentic AI 처리 성능에서 우위를 보였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONWZDOVV2dnpQdm9oUFBBZ2pydFpwVV9oRjlOb05CbFpqbE5hNlJaSjNqTmI5aXFJRGdiT2F2d2U4RDM2emg0RTZSRmNpZUlBUDU0RDI2RFF6ekxpMmFNZGh2eTdYcHBPd1VlUHNWV0lxM2ZPVGcyYTRqRl9VTW4tRjJQUE80YnJPbVl6Szd2clotenVZbHpEN2JZU0wzeENlSnJQaW5OMkkwaUlD0gGsAUFVX3lxTE41ZkM5VXZ2elB2b2hQUEFnanJ0WnBVX2hGOU5vTkJsWmpsTmE2UlpKM2pOYjlpcUlEZ2JPYXZ3ZThEMzZ6aDRFNlJGY2llSUFQNTREMjZEUXp6TGkyYU1kaHZ5N1hwcE93VWVQc1ZXSXEzZk9UZzJhNGpGX1VNbi1GMlBQTzRick9tWXpLN3ZyWi16dVlsekQ3YllTTDN4Q2VKclBpbk4ySTBpSUM",
+   "body": ""
+  },
+  {
+   "source": "Google News · NVIDIA Blog",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzZkVrZUh6N3UtV3N1WUY4ZUk2dENpQlB0WnRIQUpfT0JVUURWaE1Oc08yd0Y4eFdMOFdfMkJEcVJTc1JkbVFfNjJ2cUJTdS10VXN4XzdsMm0wdEJiOG5yY1VJRHFhdjZXSE9LUEZINl9tRzJ2UVhWV3h2eC0?oc=5",
+   "date": "2026-10-09 06:13",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Into the Omniverse: Frontier AI 에이전트로 아이디어를 시뮬레이션으로 구현하기",
+    "korean_summary": "NVIDIA 블로그가 Omniverse 플랫폼에서 Frontier AI 에이전트를 활용하여 개발자가 아이디어를 시뮬레이션으로 변환하는 방법을 소개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzZkVrZUh6N3UtV3N1WUY4ZUk2dENpQlB0WnRIQUpfT0JVUURWaE1Oc08yd0Y4eFdMOFdfMkJEcVJTc1JkbVFfNjJ2cUJTdS10VXN4XzdsMm0wdEJiOG5yY1VJRHFhdjZXSE9LUEZINl9tRzJ2UVhWV3h2eC0",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Scrapped IPO of Nvidia-Backed Company Points to Limits of AI Boom",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaWFkcXdfaE16UDI1bFo3blBEbDdtT0NRZjN0WkR3aTczRHBBOWJmMTI1empxRm5MRU9nMHRITlNWaGl5Zm9LZk5KTVhyWHdWT2NteXJxbUFxNUZSSFVtbWtYanNaa0lUTHBjdF9zOXBBX0JlYUFOVDBKSlpQeWYtUzRFQjJuMWs5dHlkUk9RdHBvQzNHNmUtSWszNnhwZ1pjX3MwM3hLY2FOMGZrVVE?oc=5",
+   "date": "2026-10-09 16:18",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원 스타트업 IPO 취소, AI 붐의 한계 드러나",
+    "korean_summary": "NVIDIA가 지원하는 회사의 IPO 취소가 발표되면서 AI 산업의 과열과 한계를 우려하는 목소리가 커지고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaWFkcXdfaE16UDI1bFo3blBEbDdtT0NRZjN0WkR3aTczRHBBOWJmMTI1empxRm5MRU9nMHRITlNWaGl5Zm9LZk5KTVhyWHdWT2NteXJxbUFxNUZSSFVtbWtYanNaa0lUTHBjdF9zOXBBX0JlYUFOVDBKSlpQeWYtUzRFQjJuMWs5dHlkUk9RdHBvQzNHNmUtSWszNnhwZ1pjX3MwM3hLY2FOMGZrVVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Is Making a Bold Move in AI Chips -- Here's What's Behind It",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSTJSUlQ4Mi1DMUtOWFhQQy1UMkNobGN1QW5TcGxDUGtEWkZfYjd4R2pvWlh5djNtMHJRbUxDek96a2w2YzRJemFFc0tUcGZxZ2Rsd0dGZzJQS3pGczJCRFh1YXV3Rnc3VnJSanBOUWUxNnlfUmNKWG40RW42amt2UW9TZTBod3VEZG1VZ093QjRGVFNE?oc=5",
+   "date": "2026-10-10 04:49",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA의 AI 칩 대담한 움직임",
+    "korean_summary": "NVIDIA가 AI 칩에서 새로운 전략을 추진하고 있으나 구체적 내용이 불명확하다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia Is Making a Bold Move in AI Chips -- Here's What's Behind It",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONXB0cncySGhVT2YwTEFTdFNIamEyTmxfQXpvay1ZS2lkSXV1ZWNSY19USWR0el9KLTZpeWk1alJFUG4xd0hWd3pEQTlRY3hKQ1FlR29YWG4zanN1N3g2Z2FWanI1QXdmT2dkUnpKenVSMW40NG5EQllvRHJfQ29ZeE5UVDZyV0k1ZU9hUUgxcjZ5SzF6Y3NrVVVKQnZZSVhNQ0ZNN0JjNkFvMGhfd1FVa253VlZJVGdKZllBX0Y1cTVCZw?oc=5"
+    },
+    {
+     "source": "Google News · GuruFocus",
+     "title": "Nvidia Is Making a Bold Move in AI Chips -- Here's What's Behind It",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWWtCajcxcDlqMDBEUFc2RHBaQXNxWUlNV2w5bFlCcUJRa3hrSHJ6aDd0a1JpeVJWUDRrWVhqeVpYQ1ktSGFWYVNacERWQXZ4MGVWX2lTcHFSVktlakx1a0dybFBPRWpSS0xQTWF0YURsaGstYWYwaHpTVUkxRVVRcENIeldRbGU4Q2I3UTJxSzlYdDZBQ1B6ZllWU2pNeWJpWDNz?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSTJSUlQ4Mi1DMUtOWFhQQy1UMkNobGN1QW5TcGxDUGtEWkZfYjd4R2pvWlh5djNtMHJRbUxDek96a2w2YzRJemFFc0tUcGZxZ2Rsd0dGZzJQS3pGczJCRFh1YXV3Rnc3VnJSanBOUWUxNnlfUmNKWG40RW42amt2UW9TZTBod3VEZG1VZ093QjRGVFNE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Arista Stocks Rise 2% as Ethernet Enters Nvidia's Stronghold",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMGdZb3FOQTYyRFNBSXZwS3V5U1B2S0o4elc1Y0c3am5mYUhTNENJVXFVSkJSWkhhQ2ptS0hwcC1aRUtXdEFkdW56RUl0ekY0elhjR1JxcDBXYlRvdTZkQzd3dmNwZkFfaE9KWkJkeWo5d0NVU2FiZ0U0NHNVa0F1ZVZWLXJmdFZ2ek9rQm1QcTl5MXVCV0dpcmZB?oc=5",
+   "date": "2026-10-10 04:10",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Arista, 이더넷 진출로 NVIDIA 시장 도전",
+    "korean_summary": "Arista가 이더넷 시장에서 NVIDIA를 견제하며 주가가 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMGdZb3FOQTYyRFNBSXZwS3V5U1B2S0o4elc1Y0c3am5mYUhTNENJVXFVSkJSWkhhQ2ptS0hwcC1aRUtXdEFkdW56RUl0ekY0elhjR1JxcDBXYlRvdTZkQzd3dmNwZkFfaE9KWkJkeWo5d0NVU2FiZ0U0NHNVa0F1ZVZWLXJmdFZ2ek9rQm1QcTl5MXVCV0dpcmZB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Firm Seeks Major Reset After IPO Collapse",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdk42Q29CY045bHFRTGxRZ0N0S3RfSW0wZGw5bjZUcDUtVE9ZQTdQQllHZW92eEhIUUtoUFo1M0c3bG9obFdDRmkxSm83UzJCdzhTYVZ2SzBaY1NwWmJCUm9LSkN2V3p2S2p4VE1RTXFhZGthYm1KWWl6a0V2WDdpcmpZRTkxUHBjS2JfSlNqOWg0RGdkdkhIY1hn?oc=5",
+   "date": "2026-10-10 01:09",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원사, IPO 실패 후 구조 재편 추진",
+    "korean_summary": "NVIDIA가 투자한 회사가 IPO 실패 후 경영 재구조화를 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdk42Q29CY045bHFRTGxRZ0N0S3RfSW0wZGw5bjZUcDUtVE9ZQTdQQllHZW92eEhIUUtoUFo1M0c3bG9obFdDRmkxSm83UzJCdzhTYVZ2SzBaY1NwWmJCUm9LSkN2V3p2S2p4VE1RTXFhZGthYm1KWWl6a0V2WDdpcmpZRTkxUHBjS2JfSlNqOWg0RGdkdkhIY1hn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Watch Nvidia-Backed Firmus IPO Collapses as AI Valuation Concerns Grow",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcERlVDFfVG1DRG84WUFuM2k1R01BeVhrcW1KMnAyc0pwenNJcFkydGdDSEhmMjZOa3ZXWGQyMWV6cjh0TS0yOUViMThuSDc5NVpBWVVVaXhPYjhZQWJ4cll4b3R3SDFBOE9RTWdDRThXQkozR3BNTnRCVmxKeWZ2ZmR5Tk13MVgxZTFXSzlGRGhvUHZmVlN6SGRSSU9MLTAtTWQ0RmpzRU5PZURNVHc?oc=5",
+   "date": "2026-10-09 17:04",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원사 Firmus IPO 붕괴, AI 밸류에이션 우려",
+    "korean_summary": "NVIDIA가 투자한 Firmus의 IPO 실패로 AI 기업 밸류에이션 과다에 대한 우려가 증가하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcERlVDFfVG1DRG84WUFuM2k1R01BeVhrcW1KMnAyc0pwenNJcFkydGdDSEhmMjZOa3ZXWGQyMWV6cjh0TS0yOUViMThuSDc5NVpBWVVVaXhPYjhZQWJ4cll4b3R3SDFBOE9RTWdDRThXQkozR3BNTnRCVmxKeWZ2ZmR5Tk13MVgxZTFXSzlGRGhvUHZmVlN6SGRSSU9MLTAtTWQ0RmpzRU5PZURNVHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Lumentum Says It Can’t Keep Up With AI Demand. The Stock Is Surging",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUm5jdWFnSDZ0NXFqc09WLURkS3V1YTZZS2hsX3poTEdMT0x5Ujd4N1ZmUWozRTBYenB1eWNMZ1B5dVFHQnNPWE4yMDM1eXZxTHVGWXEzeWo2d0dRQkc2Z1NRWm0wcUo2Mkp1S1JvanpfLVdOOE5Xek9LeWFiR1dJYmhQUGdHMkNEcTY0WWhiX2ZORkZiYmJjYlBB?oc=5",
+   "date": "2026-10-10 00:55",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 협력사 Lumentum, AI 수요 대응에 분주",
+    "korean_summary": "NVIDIA와 협력하는 Lumentum이 급증하는 AI 수요를 감당하기에 역부족인 상황이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUm5jdWFnSDZ0NXFqc09WLURkS3V1YTZZS2hsX3poTEdMT0x5Ujd4N1ZmUWozRTBYenB1eWNMZ1B5dVFHQnNPWE4yMDM1eXZxTHVGWXEzeWo2d0dRQkc2Z1NRWm0wcUo2Mkp1S1JvanpfLVdOOE5Xek9LeWFiR1dJYmhQUGdHMkNEcTY0WWhiX2ZORkZiYmJjYlBB",
+   "body": ""
+  },
+  {
+   "source": "Google News · SDxCentral",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed Upscale unveils fabric that lets engineers break vendor lock-in and mix rival XPUs",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXpJVlF1QnNzUHdzbDhLYnJRZTBfekpocmZjSkw1WkFsbWRoenVFM0R5WmdmQ3ptY2Y2eGhTbWN6MGs5NlNwS2w5VWlSME1TMkVmMDNuNVJlOHJjRlNUM2h5NVlsamlrdzNxNk81eGt4UV92UVVmUHVodXlEWGdvLWZWbUlNVVBmSnFjdVFxNmxOZXJCR3pfcnRkOUd0MHF0Mnl4aER2RC1EZ25CNFdNTm9HR2o1VHpYNktheXI0Ry0wSHBrTnItdQ?oc=5",
+   "date": "2026-10-10 03:13",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 지원 Upscale, 벤더 락인 해제 패브릭 기술 공개",
+    "korean_summary": "NVIDIA 백업 스타트업 Upscale이 엔지니어들이 벤더 락인을 해제하고 다양한 XPU를 혼용할 수 있는 패브릭 기술을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLXpJVlF1QnNzUHdzbDhLYnJRZTBfekpocmZjSkw1WkFsbWRoenVFM0R5WmdmQ3ptY2Y2eGhTbWN6MGs5NlNwS2w5VWlSME1TMkVmMDNuNVJlOHJjRlNUM2h5NVlsamlrdzNxNk81eGt4UV92UVVmUHVodXlEWGdvLWZWbUlNVVBmSnFjdVFxNmxOZXJCR3pfcnRkOUd0MHF0Mnl4aER2RC1EZ25CNFdNTm9HR2o1VHpYNktheXI0Ry0wSHBrTnItdQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "RTX Spark Builder PCs: Microsoft, Nvidia Debut [2026]",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kNkMwalNXNnhEWDJOd3g5b3hLM0JEX2JBNFFzcWNTOTFIN2R0c21jREVLVkFCN3RFUmV2MGlCYXdmVmkxc3FyYjRDdXpnYkVHOHpvN3lXWXNLcS1QUGhWTWVkdGRrWUQwSjNyQUNXcnZqdkdLM0gybQ?oc=5",
+   "date": "2026-10-09 19:59",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX Spark Builder PC: 마이크로소프트와 NVIDIA의 신규 AI PC 라인 출시",
+    "korean_summary": "마이크로소프트와 NVIDIA가 RTX Spark Builder를 통해 새로운 AI PC 라인을 공동 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kNkMwalNXNnhEWDJOd3g5b3hLM0JEX2JBNFFzcWNTOTFIN2R0c21jREVLVkFCN3RFUmV2MGlCYXdmVmkxc3FyYjRDdXpnYkVHOHpvN3lXWXNLcS1QUGhWTWVkdGRrWUQwSjNyQUNXcnZqdkdLM0gybQ",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia RTX Spark Pre-Orders Open: N1X Runs 45-80W in Laptops, 140W in Desktops",
+   "link": "https://www.storagereview.com/news/nvidia-rtx-spark-pre-orders-n1x-laptop-desktop-tdp-mxc-dgx-station-for-windows",
+   "date": "2026-10-09 19:16",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark 사전주문 개시 및 사양 공개",
+    "korean_summary": "NVIDIA RTX Spark의 사전주문이 시작되었으며 N1X는 노트북 45-80W, 데스크톱 140W의 전력으로 구동된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.storagereview.com/news/nvidia-rtx-spark-pre-orders-n1x-laptop-desktop-tdp-mxc-dgx-station-for-windows",
+   "body": "Article URL: https://www.storagereview.com/news/nvidia-rtx-spark-pre-orders-n1x-laptop-desktop-tdp-mxc-dgx-station-for-windows Comments URL: https://news.ycombinator.com/item?id=50018442 Points: 6 # Comments: 0"
+  },
+  {
+   "source": "Google News · Facebook",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA supplies self-driving technology to companies ranging from Uber and Lyft to Tesla, Waymo and Stellantis. See link below ⬇️ 📸 Christina Hall/Detroit Free Press",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPN3k1d05md2dwZDZZSTRUTDIzNmhIVkJhX0pvLUtKWGlfV3F4Yklwc2JaU3o5QXBOanFNWG90TWJ2NWF6SHB5YTZJN1dRbWVDZVF1dElGcjUtYUNoY05YVjBCZExtZl9KdERxMXZaaFg2eFNUZ0JfemxTY1NReGo0d05EdnlwX0RSWjYtZ28yTENzS3RhT1JUNUR3NnVNUWdQYVRyZHIzYkl5OEhIb0ZWdEsweFNTczZmQWpJZDU4eGtwcl9xQzl4RE9PbEVpWW4wdF9HdXRNSTVjSl9ZcnpF?oc=5",
+   "date": "2026-10-09 07:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 자율주행 기술 다양한 기업과 협력",
+    "korean_summary": "NVIDIA의 자율주행 기술이 Uber, Lyft, Tesla, Waymo, Stellantis 등 주요 기업들에 공급되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPN3k1d05md2dwZDZZSTRUTDIzNmhIVkJhX0pvLUtKWGlfV3F4Yklwc2JaU3o5QXBOanFNWG90TWJ2NWF6SHB5YTZJN1dRbWVDZVF1dElGcjUtYUNoY05YVjBCZExtZl9KdERxMXZaaFg2eFNUZ0JfemxTY1NReGo0d05EdnlwX0RSWjYtZ28yTENzS3RhT1JUNUR3NnVNUWdQYVRyZHIzYkl5OEhIb0ZWdEsweFNTczZmQWpJZDU4eGtwcl9xQzl4RE9PbEVpWW4wdF9HdXRNSTVjSl9ZcnpF",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "An Nvidia Director Sold $947 Million of Stock Last Quarter, More Than Any Other U.S. Insider",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSy1SdG1waFdLcF9mUXVhVk12bzNWY2NvLVRvWU5ObW9qNnhtTUFLb0VCU2ZYT05feGowZk11dHVjMW0tUEVNYzFEdmE1Q2VVUGQ4bzh5QUtXbmFzM0FHNGN5RE5HcFcyVlo2Nll3UWVXd193OFVudExMRFctdi1sSTJWcFNaS0RfTHQ0QkZaRTUtR2FMdks0WVAxc3BwQQ?oc=5",
+   "date": "2026-10-09 22:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 임원, 지난 분기 $947M 규모 주식 매도",
+    "korean_summary": "NVIDIA 이사가 지난 분기에 9억 4,700만 달러 규모로 주식을 매도했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 24/7 Wall St.",
+     "title": "An Nvidia Director Sold $947 Million of Stock Last Quarter, More Than Any Other U.S. Insider",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQTIxZ0Z5SVdUTUNlN2FBYzF6WGhoMTdISE5XbVh1TUg5WmlrX1JON0VvTVFUTWN3cnlGTmtXc2RkX2xaNFRIU0lxVHl1Qjl0aU5laTVBQl9raFpBejM0cFhsYkJZSWR5LTJfMjBZN0F1OTFWekViU1AzNmRFd0ZQVy1UQnNtdTdMTDNoSkFsd1hESlVRRXFFY2RLY0U3ZTg2WXAwUERkaFo0QUkxSG9ZM0NjSE84a2IzbHlvaGwya3ozSFF5ejBUa3pFMXEtUQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSy1SdG1waFdLcF9mUXVhVk12bzNWY2NvLVRvWU5ObW9qNnhtTUFLb0VCU2ZYT05feGowZk11dHVjMW0tUEVNYzFEdmE1Q2VVUGQ4bzh5QUtXbmFzM0FHNGN5RE5HcFcyVlo2Nll3UWVXd193OFVudExMRFctdi1sSTJWcFNaS0RfTHQ0QkZaRTUtR2FMdks0WVAxc3BwQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · CSO Online",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Exposed Nvidia GPU monitors can reveal AI infrastructure secrets",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ2xxOGpTMDFtRVQ4OGlvZDU2R09udVJ3d29pMGpfdU5HaEliODRBczFSV0NubzZYWFNBV1FtNHMwWWVuNlFiQVhTa1pScGE1d1FlYWlaTUg1TWVtakd3NGo2aElzRTN1YkozamtJdW1ZTHp3VkYxenBKV2dzbWthWEpremJ5YkpwcUx3bEN5Z0I4YndfT0V2T1l0c3NFZVhvbmw5eWRzdkQ3TmctRTNISA?oc=5",
+   "date": "2026-10-09 21:36",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "노출된 NVIDIA GPU 모니터 도구, AI 인프라 정보 유출 위험",
+    "korean_summary": "NVIDIA GPU 모니터링 도구의 보안 결함이 AI 인프라 정보를 노출할 수 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ2xxOGpTMDFtRVQ4OGlvZDU2R09udVJ3d29pMGpfdU5HaEliODRBczFSV0NubzZYWFNBV1FtNHMwWWVuNlFiQVhTa1pScGE1d1FlYWlaTUg1TWVtakd3NGo2aElzRTN1YkozamtJdW1ZTHp3VkYxenBKV2dzbWthWEpremJ5YkpwcUx3bEN5Z0I4YndfT0V2T1l0c3NFZVhvbmw5eWRzdkQ3TmctRTNISA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Why Nvidia (NVDA) Stock Is Trading Lower Today",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV295TG93WHFzalBJS0VBUFFFSy1tVFNDS0hxY1I4R0NPWTk0cm9iZ05pZERubmFIU0tiZzV3ZGlZQnhpT1o0Nm5ST1N3aUVBZzB4X21NV0xkN2hmaUdzOVY0UWgycFU3bFVHY3dtMERIYjd1eUY2eUNwZDdjUWhIMXN3MXUtSkRfalNYNWY0SzVmTEJ5cFJsUENB?oc=5",
+   "date": "2026-10-09 09:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 하락 원인 분석",
+    "korean_summary": "NVIDIA 주가 하락의 배경을 해설했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNV295TG93WHFzalBJS0VBUFFFSy1tVFNDS0hxY1I4R0NPWTk0cm9iZ05pZERubmFIU0tiZzV3ZGlZQnhpT1o0Nm5ST1N3aUVBZzB4X21NV0xkN2hmaUdzOVY0UWgycFU3bFVHY3dtMERIYjd1eUY2eUNwZDdjUWhIMXN3MXUtSkRfalNYNWY0SzVmTEJ5cFJsUENB",
+   "body": ""
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Wall Street May Not Be Ready for What’s Coming Next for NVIDIA, Micron, and SanDisk",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONDdqMHFWWEZvMlJLczlaLVBHWU9PcDI5OXlabko1T3Z1WFR0c3NWUlZRV1J4OXpfci1uRGhWN1E0eTZDQUF6eVVXZldMRXU2QnlEbE9oLUVuMzlLYjZaNEtaRkVHNDZvbi1nZGZibVdIUG5SSjZBbVdEZE52dGQ2QnRyN1R1d2ViQk1hNW1PWk9pa3VUV3daVDVVVEtZTmo0Z0dEdmRSRkFkbFJscF9YdjhCVkVNSEs0SzBRQTBUNEo0QQ?oc=5",
+   "date": "2026-10-09 22:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "월스트리트, NVIDIA 미래 전략에 대한 준비 부족",
+    "korean_summary": "분석가들이 NVIDIA, Micron, SanDisk의 향후 전망에 대해 평가하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONDdqMHFWWEZvMlJLczlaLVBHWU9PcDI5OXlabko1T3Z1WFR0c3NWUlZRV1J4OXpfci1uRGhWN1E0eTZDQUF6eVVXZldMRXU2QnlEbE9oLUVuMzlLYjZaNEtaRkVHNDZvbi1nZGZibVdIUG5SSjZBbVdEZE52dGQ2QnRyN1R1d2ViQk1hNW1PWk9pa3VUV3daVDVVVEtZTmo0Z0dEdmRSRkFkbFJscF9YdjhCVkVNSEs0SzBRQTBUNEo0QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia (NVDA) More Than Doubled Revenue, Yet Its Multiple Sits Below History. Bargain or Warning?",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSllnZUxfMEdNUVB4TlJJaW9NVmhOT2NjN0F2bVdiRkxRS2QyQ1pSS0p3eWN1dFNqX09aRnUzZ0EzdzBCR053SEJqWDlLUmhwY0ZlaXgtdHp4aDA3ZnVrNGN4aUpxczlsQlR3Ym81ODhqcktLMzZXRzZIOEpoMEhFaTlMWDlyVTREeHd3WWZRVVZlNU5XUkR1ajdMaDczQQ?oc=5",
+   "date": "2026-10-09 22:25",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 수익 두 배 증가에도 역사적 수준 이하의 PER",
+    "korean_summary": "NVIDIA 매출이 2배 이상 증가했으나 주가 멀티플이 역사 평균 이하라는 분석이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSllnZUxfMEdNUVB4TlJJaW9NVmhOT2NjN0F2bVdiRkxRS2QyQ1pSS0p3eWN1dFNqX09aRnUzZ0EzdzBCR053SEJqWDlLUmhwY0ZlaXgtdHp4aDA3ZnVrNGN4aUpxczlsQlR3Ym81ODhqcktLMzZXRzZIOEpoMEhFaTlMWDlyVTREeHd3WWZRVVZlNU5XUkR1ajdMaDczQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "One of the Most Important AI Stocks Isn’t Nvidia. It’s TSMC",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaE1Dbjlfb3ZWeFB6YTNPZUlWS01UV2hsQ2RFQkd4YWFLLUsyUVotNHJFVi1DdzJoZ0Z3Q0ZzakE4VHRNUjJieU84ZVRRN1pnT19VRTJNNDlkczdNRGxCOUVYQTJBcjNrNmhBdDlaUTBrQzN6XzBFZDZURjZCWWxSZ3ZrUTBMY01MTXRvT0hTNUdkQnNlc0VLaVdISmNLYWZjVGc?oc=5",
+   "date": "2026-10-10 01:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA보다 중요한 AI 수혜주는 TSMC",
+    "korean_summary": "분석가들이 NVIDIA의 파운드리 파트너인 TSMC의 AI 산업 중요성을 강조하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaE1Dbjlfb3ZWeFB6YTNPZUlWS01UV2hsQ2RFQkd4YWFLLUsyUVotNHJFVi1DdzJoZ0Z3Q0ZzakE4VHRNUjJieU84ZVRRN1pnT19VRTJNNDlkczdNRGxCOUVYQTJBcjNrNmhBdDlaUTBrQzN6XzBFZDZURjZCWWxSZ3ZrUTBMY01MTXRvT0hTNUdkQnNlc0VLaVdISmNLYWZjVGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · TheStreet",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Micron are about to lord their successes all over Wall Street",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmlzVm5iREgzRG0tc19lcHZCQkZWcV9fOFc2ekZGZWVZUnR4ZDVsbEV3dXFCNzAzU1FyZnpiU1RWcUtpQ3ZLQnhGZGRXYXNNa1RUX0owSG9yektaQmFoRzA0bWk2NzRqVVQzNHNGMzNzV1QyUUx6bDVIdjJzQ1RfaHlVYjhoQ3BwNFpyVEwycGtBX0xHd3dRMGtwNVRrT0RwazFnYTVHU3phWkNlbmNLV1JibjltQQ?oc=5",
+   "date": "2026-10-09 22:37",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Micron, 월스트리트에서의 성공 강조",
+    "korean_summary": "NVIDIA와 Micron이 최근의 사업 성공을 월스트리트에 강조하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRmlzVm5iREgzRG0tc19lcHZCQkZWcV9fOFc2ekZGZWVZUnR4ZDVsbEV3dXFCNzAzU1FyZnpiU1RWcUtpQ3ZLQnhGZGRXYXNNa1RUX0owSG9yektaQmFoRzA0bWk2NzRqVVQzNHNGMzNzV1QyUUx6bDVIdjJzQ1RfaHlVYjhoQ3BwNFpyVEwycGtBX0xHd3dRMGtwNVRrT0RwazFnYTVHU3phWkNlbmNLV1JibjltQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Is Opening the Door to Rival Chips",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWRIeGlFYVR2dVU0Q3hFMEhrWkw5dGRxdHMtNFVJZUdGSzlhZ29ndjdzVkZheGFnRzdHMVI4dVhzVE9VSzBvUnVDdE5oQ2lBc19RUjBYcUs1TnJramtlZkpxc29TZUlxMzlEdVVzemJhb25pMlVGZ2I0Mkc5MkRjVlhGZU5RWUp2cHhrMXE3U2NpZktZdVl5Q3N5LWFZTU5STmJN?oc=5",
+   "date": "2026-10-10 02:14",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 경쟁사 칩에 개방적 태도 보이다",
+    "korean_summary": "NVIDIA가 경쟁사 칩 제품에 대해 개방적 입장을 취하는 것으로 나타났다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWWRIeGlFYVR2dVU0Q3hFMEhrWkw5dGRxdHMtNFVJZUdGSzlhZ29ndjdzVkZheGFnRzdHMVI4dVhzVE9VSzBvUnVDdE5oQ2lBc19RUjBYcUs1TnJramtlZkpxc29TZUlxMzlEdVVzemJhb25pMlVGZ2I0Mkc5MkRjVlhGZU5RWUp2cHhrMXE3U2NpZktZdVl5Q3N5LWFZTU5STmJN",
+   "body": ""
+  },
+  {
+   "source": "Google News · Constellation Research",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia makes case AI factories, its stack are enduring capital assets",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYnYwOXl5NEZ2TVdNeEdNdkpiZjh3Z2M2Vl9oajlycDBac3NjVmNIYnhLWlRUV3FRVlZBcGJIYnZGaEluc01IdkJfZ0FFZ2l0R29jVDRuWnpwc2tJcGdGc3lyTjZ0b1U3TWNldmstc2RNaGNKNmh2MXJnNzBlY2dSZWtmdUdmaUVaazV0YXRVc0JXX0hBX25HeGdmNWZybGttd0oyMkxkUWFtWFVvWHNRek1rSQ?oc=5",
+   "date": "2026-10-09 19:10",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, AI 팩토리와 자체 스택을 지속적 자본자산으로 주장",
+    "korean_summary": "NVIDIA가 AI 팩토리와 자신의 스택이 장기적으로 지속되는 자본 자산임을 강조했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYnYwOXl5NEZ2TVdNeEdNdkpiZjh3Z2M2Vl9oajlycDBac3NjVmNIYnhLWlRUV3FRVlZBcGJIYnZGaEluc01IdkJfZ0FFZ2l0R29jVDRuWnpwc2tJcGdGc3lyTjZ0b1U3TWNldmstc2RNaGNKNmh2MXJnNzBlY2dSZWtmdUdmaUVaazV0YXRVc0JXX0hBX25HeGdmNWZybGttd0oyMkxkUWFtWFVvWHNRek1rSQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Update: Market Chatter: Nvidia-Backed Firmus Reportedly Scraps $5 Billion IPO",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkoyQWJUWXhzMHZxejhvWnk2czlpT0N0bVl3czRvUnIyZ3VseFJqdXFVcm1GemZsU1hRUTJJZnl1MkR6Q21mMWpDb3FubEFkNk9sS0gySWpqVUlYSmhraWppZlRaenRraERrS1BtMUZ3LVoxb20yU3VBVTZmNDNneUZDUWxncmVJSENfR1VoOGREZFhrcUFhLTdmUVpNTFRRWUE?oc=5",
+   "date": "2026-10-09 18:28",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원 스타트업 Firmus, 50억 달러 규모 IPO 취소",
+    "korean_summary": "NVIDIA가 지원하는 스타트업 Firmus가 예정된 50억 달러 규모의 IPO 추진을 철회했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTkoyQWJUWXhzMHZxejhvWnk2czlpT0N0bVl3czRvUnIyZ3VseFJqdXFVcm1GemZsU1hRUTJJZnl1MkR6Q21mMWpDb3FubEFkNk9sS0gySWpqVUlYSmhraWppZlRaenRraERrS1BtMUZ3LVoxb20yU3VBVTZmNDNneUZDUWxncmVJSENfR1VoOGREZFhrcUFhLTdmUVpNTFRRWUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Data Center IPO Collapses—OpenAI Revenue Questions—Apple customers Are Not Price Insensitiv",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUWwteWVBbnlLSGNTcnM1cjVPTTRLMkp1MlIwOUcwcms2SnlQZHVjWnlMbWgzQWlkRnh5OUhqbHZBU294djczTEY0bXhSZkJWVzRwOGxzSEVQX3dwcmctZE4xQUVicVFwQW5zemVraV9oa1EwTElCNk43U1BSMy0ybEptNE1CZ0xBTHFVSDJRNHlOVmhzWlk4V2FSbXUtTHlSR3V6cHN6NFNFQURZa3EwVHhseGJ2Q3ozb3Q4ZlAzeDBiYkM4ejdCaFZnX1NaLU50bENvMmVyX1QxMk9ITHNkX3dQbkVqTThualE?oc=5",
+   "date": "2026-10-10 01:28",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 투자사 데이터센터 IPO 무산",
+    "korean_summary": "NVIDIA가 지원하는 데이터센터 회사의 IPO가 시장 변동성으로 인해 무산되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNUWwteWVBbnlLSGNTcnM1cjVPTTRLMkp1MlIwOUcwcms2SnlQZHVjWnlMbWgzQWlkRnh5OUhqbHZBU294djczTEY0bXhSZkJWVzRwOGxzSEVQX3dwcmctZE4xQUVicVFwQW5zemVraV9oa1EwTElCNk43U1BSMy0ybEptNE1CZ0xBTHFVSDJRNHlOVmhzWlk4V2FSbXUtTHlSR3V6cHN6NFNFQURZa3EwVHhseGJ2Q3ozb3Q4ZlAzeDBiYkM4ejdCaFZnX1NaLU50bENvMmVyX1QxMk9ITHNkX3dQbkVqTThualE",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Firmus Cancels Mega IPO Over Market Volatility",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObkdXVmcwSWNQaTQ4UmkyVkV3eWc4QjRFWGg4QVBzQ3Y5M1lUYWlQNDVJMGx6eGd3SzhXaTYwUm5tcDFMb3E3eGhCaDRVRVZFTTN2NHg4a1ZGVTBvaDA1SFQxZVc4Yi1acVV1eEJka0hacEFGTzhCTXRmSVlVUnBuMnp3?oc=5",
+   "date": "2026-10-09 22:03",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 투자사 Firmus IPO 취소",
+    "korean_summary": "NVIDIA가 투자한 Firmus의 대규모 IPO가 시장 변동성으로 인해 취소되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObkdXVmcwSWNQaTQ4UmkyVkV3eWc4QjRFWGg4QVBzQ3Y5M1lUYWlQNDVJMGx6eGd3SzhXaTYwUm5tcDFMb3E3eGhCaDRVRVZFTTN2NHg4a1ZGVTBvaDA1SFQxZVc4Yi1acVV1eEJka0hacEFGTzhCTXRmSVlVUnBuMnp3",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos-H-Surgical-Simulator (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator",
+   "date": "2026-10-09 23:18",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos-H-Surgical-Simulator",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos-H 수술 로봇 시뮬레이터 업데이트 공개",
+    "korean_summary": "엔비디아가 Cosmos 물리 AI 모델을 기반으로 수술 로봇용으로 파인튜닝한 Cosmos-H-Surgical-Simulator를 Hugging Face에 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos-H-Surgical-Simulator:2026-10-09",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: nv-medtech · tags: nv-medtech, custom, simulation, surgical-robotics, video-generation, policy-evaluation, vla-evaluation, healthcare-robotics, world-model, image-to-video, dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment, arxiv:2511.00062 · downloads 355 · likes 23. README:  # Cosmos-H-Surgical-Simulator ## Description Cosmos-H-Surgical-Simulator is a kinematic action-conditioned surgical world foundation model, built on the public NVIDIA [Cosmos-Predict2.5-2B](https://huggingface.co/nvidia/Cosmos-Predict2.5-2B) for physical AI and fine-tuned on the Open-H multi-embodiment surgical benchmark. Unlike the text-conditioned base model, it is driven directly by robot kinematics: given a surgical context frame and a sequence of 44-dimensional action vectors encoding end-effector poses and gripper commands (unified across 9 embodiments), it generates future video of the resulting surgical scene. The model is intended for evaluating surgical robotics policies in simulation and for synthetic data generation prior to deployment on a physical system. It covers CMR Surgical Versius clinical procedures (cholecystectomy, prostatectomy, inguinal hernia, hysterectomy) as well as dVRK, MITIC, and other surgical platforms across tasks such as suturing, tissue manipulation, and peg transfer. This model is for commercial/non-commercial use. ## Updates - **April 2026** — Released updated checkpoint after fixing an action-embedder MLP initialization bug. Aggregate quality improves on all three metrics: FDS (L1) 0.223 → **0.184** (−17%), GATC 0.417 → **0.472** (+13%), TCD 83.68 → **67.03** (−20%). ## License/Terms of Use Use of this model is governed by the [NVIDIA Open Model License Agreement](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-mo"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/TensorRT TensorRT 11.4 Release",
+   "link": "https://github.com/NVIDIA/TensorRT/releases/tag/v11.4",
+   "date": "2026-10-10 02:55",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/TensorRT",
+    "version": "v11.4"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "TensorRT 11.4 릴리스 발표",
+    "korean_summary": "엔비디아가 TensorRT 11.4를 릴리스하며 IRefitterObserver 클래스와 C++20 지원을 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/TensorRT:v11.4",
+   "body": "For more information, see the 11.4 release notes : Parsers Added IRefitterObserver class and IParser::setRefitObserver to better handle refittable weights when parsing. Plugins Added various C++20 updates to plugin source code. Samples Moved samples/common files only relevant to trtexec to samples/trtexecCommon."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_pickplace_ssd_n2_18200 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_pickplace_ssd_n2_18200",
+   "date": "2026-10-10 09:17",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_pickplace_ssd_n2_18200",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S Pick-Place 작업용 GR00T N2 체크포인트 공개",
+    "korean_summary": "엔비디아가 Agile One S 로봇의 물체 집기와 놓기 작업을 위한 GR00T N2 배포 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_pickplace_ssd_n2_18200:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: 미기재 · tags: onnx, safetensors, gr00t, n2, robotics, multitask · downloads 0 · likes 0. README:  # SSD Pick196 + Place149 — GR00T N2 checkpoint18200 Native split ONNX export of `pick196-place149-n2-c32-4cam-20260930/checkpoint-18200`. Source corpus: 196 SSD pickup episodes and 149 SSD placement episodes; 310 training and 35 validation episodes. ## Task selection One shared set of model graphs supports both original training instructions: | task_id | Exact instruction | | --- | --- | | 0 | `pick up the SSD` | | 1 | `place the SSD` | Select the corresponding context from `task-prompts.pt` using `task-instructions.json`. The `task_id` is a host-side selector, not an ONNX graph input. Do not load duplicate model graphs per task. ## Model contract - Cameras in order: head_left, head_right, wrist_left, wrist_right. - State54 and absolute Action54: left_arm7, right_arm7, left_hand20, right_hand20. - Logical action chunk32; internal padding48×128 is not the deployment action shape. - Original checkpoint processor, percentile normalization statistics and tokenizer are included unchanged. - No base navigation or locomotion outputs. ## Package and validation Download the entire repository, not only the three `.onnx` files. External tensor files, original checkpoint weights/processor/statistics, auxiliary VAE, validation samples and runtime helpers are required. Completion receipts describe ONNX structural/reference checks and same-instance eager Pick→Place→Pick validation. This is not a TensorRT engine package or a robot-ready `policy.yaml`; build and validate on the target platfo"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_walk_n2_1680 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_walk_n2_1680",
+   "date": "2026-10-09 17:28",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_walk_n2_1680",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S 보행 작업용 GR00T N2 배포 모델 공개",
+    "korean_summary": "엔비디아가 테이블 간 보행을 수행하는 Agile One S 로봇용 GR00T N2 배포 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_walk_n2_1680:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: custom · tags: custom, onnx, safetensors, robotics, gr00t, tensorrt · downloads 0 · likes 0. README:  # Agile One S Walk — GR00T N2, checkpoint 1680 Walking deployment model with four cameras. Original instruction: walk to another table. This repository contains one deployment model only. It republishes the original deployment assets; no retraining, ONNX re-export, or engine rebuild was performed. Entry configuration: `policy.yaml`. All model files are at the repository root. Includes 3 ONNX graphs, their external tensor files, and 3 existing TensorRT BF16 plans/engines, with original configurations and build metadata. The original checkpoint safetensors, tokenizer, statistics, auxiliary VAE, and ONNX external tensors are included. The shared upstream dependency `nvidia/Cosmos-Reason1-7B` at revision `375e24000b24baed78f4618d3dd779e47cd96323` is not duplicated here. The target Python environment and Isaac/GR00T runtime must be prepared separately. ## Download ```bash hf download nvidia/agile_one_s_walk_n2_1680 --local-dir /mnt/ssd/models/walk-n2-c32-4cam-formal-20260924-200600-checkpoint-1680 ``` Keep all files together: ONNX `.data` files and other external tensor files are required, not optional. Original YAML and build receipts can contain absolute source-machine paths; adapt target runtime paths before use. Engine compatibility depends on the target GPU and TensorRT environment. File availability is not a robot deployment or safety qualification."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_pick_ssd_n17_58000 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n17_58000",
+   "date": "2026-10-09 17:28",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_pick_ssd_n17_58000",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S SSD Pick 작업용 GR00T N1.7 체크포인트 공개",
+    "korean_summary": "엔비디아가 SSD 반도체를 집어올리는 로봇 작업을 위한 GR00T N1.7 체크포인트(58000)를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_pick_ssd_n17_58000:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: custom · tags: custom, onnx, robotics, gr00t, tensorrt · downloads 0 · likes 0. README:  # Agile One S SSD Pick — GR00T N1.7, checkpoint 58000 SSD pickup deployment model with three cameras: ego view, left wrist, and right wrist. This repository contains one deployment model only. It republishes the original deployment assets; no retraining, ONNX re-export, or engine rebuild was performed. Entry configuration: `agile_one_s_pick_up_ssd_n17_3cam_58k.yaml`. All model files are at the repository root. Includes 5 ONNX graphs, their external tensor files, and 2 existing TensorRT BF16 plans/engines, with original configurations and build metadata. The original export reports `COMPLETED_WITH_NUMERICAL_WARNING`: full FP32/node/BF16 parity did not pass all tolerances. Original reports are preserved. Publishing these files does not certify numerical parity. ## Download ```bash hf download nvidia/agile_one_s_pick_ssd_n17_58000 --local-dir /mnt/ssd/models/ssd-pick-n17-3cam-checkpoint-58000 ``` Keep all files together: ONNX `.data` files and other external tensor files are required, not optional. Original YAML and build receipts can contain absolute source-machine paths; adapt target runtime paths before use. Engine compatibility depends on the target GPU and TensorRT environment. File availability is not a robot deployment or safety qualification."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_place_ssd_n17_24050 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_place_ssd_n17_24050",
+   "date": "2026-10-09 17:29",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_place_ssd_n17_24050",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S SSD Place 작업용 GR00T N1.7 체크포인트 공개",
+    "korean_summary": "엔비디아가 SSD 반도체를 놓는 로봇 작업을 위한 GR00T N1.7 체크포인트(24050)를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_place_ssd_n17_24050:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: custom · tags: custom, onnx, robotics, gr00t, tensorrt · downloads 0 · likes 1. README:  # Agile One S SSD Place — GR00T N1.7, checkpoint 24050 SSD placement deployment model with three cameras. Original deployment instruction: pick up and place the SSD. This repository contains one deployment model only. It republishes the original deployment assets; no retraining, ONNX re-export, or engine rebuild was performed. Entry configuration: `policy.yaml`. All model files are at the repository root. Includes 5 ONNX graphs, their external tensor files, and 2 existing TensorRT BF16 plans/engines, with original configurations and build metadata. ## Download ```bash hf download nvidia/agile_one_s_place_ssd_n17_24050 --local-dir /mnt/ssd/models/exported_ssd-n17-place-c32-unifiedtext-resume-20260924-100109-checkpoint-24050 ``` Keep all files together: ONNX `.data` files and other external tensor files are required, not optional. Original YAML and build receipts can contain absolute source-machine paths; adapt target runtime paths before use. Engine compatibility depends on the target GPU and TensorRT environment. File availability is not a robot deployment or safety qualification."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_pick_ssd_n17_40000 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n17_40000",
+   "date": "2026-10-09 17:28",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_pick_ssd_n17_40000",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S SSD Pick 작업용 GR00T N1.7 체크포인트 공개",
+    "korean_summary": "엔비디아가 Pick196과 기존 Pick54 데이터로 학습한 SSD 집기 작업용 GR00T N1.7 체크포인트(40000)를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_pick_ssd_n17_40000:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: custom · tags: custom, onnx, robotics, gr00t, tensorrt · downloads 0 · likes 0. README:  # Agile One S SSD Pick — GR00T N1.7, checkpoint 40000 SSD pickup deployment model, trained using new Pick196 and old Pick54 data; four cameras. This repository contains one deployment model only. It republishes the original deployment assets; no retraining, ONNX re-export, or engine rebuild was performed. Entry configuration: `policy.yaml`. All model files are at the repository root. Includes 5 ONNX graphs, their external tensor files, and 2 existing TensorRT BF16 plans/engines, with original configurations and build metadata. ## Download ```bash hf download nvidia/agile_one_s_pick_ssd_n17_40000 --local-dir /mnt/ssd/models/leapp-pick196-old54-n17-c32-4cam-resume-20260930-214643-checkpoint-40000 ``` Keep all files together: ONNX `.data` files and other external tensor files are required, not optional. Original YAML and build receipts can contain absolute source-machine paths; adapt target runtime paths before use. Engine compatibility depends on the target GPU and TensorRT environment. File availability is not a robot deployment or safety qualification."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_pick_ssd_n2_1120 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_pick_ssd_n2_1120",
+   "date": "2026-10-10 09:20",
+   "score": 3,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_pick_ssd_n2_1120",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S SSD Pick 작업용 GR00T N2 체크포인트 공개",
+    "korean_summary": "엔비디아가 로봇 집기 작업용 GR00T N2 체크포인트를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_pick_ssd_n2_1120:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: 미기재 · library: 미기재 · tags: onnx, safetensors · downloads 0 · likes 0. README: version https://git-lfs.github.com/spec/v1 oid sha256:79c0d7edfbd4b7e67d1e7cb898efa6273181da7e33765324d163cb8e80214638 size 987"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/agile_one_s_place_ssd_n2_1260 (신규)",
+   "link": "https://huggingface.co/nvidia/agile_one_s_place_ssd_n2_1260",
+   "date": "2026-10-10 09:18",
+   "score": 3,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/agile_one_s_place_ssd_n2_1260",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Agile One S SSD Place 작업용 GR00T N2 체크포인트 공개",
+    "korean_summary": "엔비디아가 로봇 놓기 작업용 GR00T N2 체크포인트를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/agile_one_s_place_ssd_n2_1260:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: 미기재 · library: 미기재 · tags: onnx, safetensors · downloads 0 · likes 0. README: version https://git-lfs.github.com/spec/v1 oid sha256:125f6ff0ff93479793f644f2fdd24088aef2db42f4a3a4b0df3ef180f247ed90 size 990"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/DALI v2.5.0-dev: Update VERSION to 2.5.0dev",
+   "link": "https://github.com/NVIDIA/DALI/releases/tag/v2.5.0-dev",
+   "date": "2026-10-09 22:43",
+   "score": 2,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/DALI",
+    "version": "v2.5.0-dev"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "DALI 개발 버전 2.5.0dev 업데이트",
+    "korean_summary": "엔비디아가 데이터 로딩 라이브러리 DALI의 버전을 2.5.0dev로 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/DALI:v2.5.0-dev",
+   "body": "Signed-off-by: Kamil Tokarski ktokarski@nvidia.com"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.9
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.7
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 18,
+   "enriched": 18,
+   "error": "",
+   "sec": 8.0
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 98,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 6,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 28,
+   "enriched": 3,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 26,
+   "error": "",
+   "sec": 19.6
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 17,
+   "error": "",
+   "sec": 5.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 8,
+   "enriched": 8,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
