@@ -1,0 +1,593 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-10",
+ "window": [
+  "2026-10-09",
+  "2026-10-10"
+ ],
+ "generated": "2026-10-10T09:58:55+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 **TOPIX** 신규 편입 종목으로 선정되어 일본 증시에서의 위상이 높아졌다.",
+  "TIER IV가 2026년 EdgeTech+에서 **Autoware**와 E2E 자율주행 기술 기조연설을 통해 자율주행 민주화 비전을 재확인한다.",
+  "TIER IV가 Waymo, Uber 등과 경쟁하는 자동운전 AI 개발에서 **일본의 경쟁력**을 분석한다."
+ ],
+ "cards": [
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に",
+   "link": "https://response.jp/article/2026/10/09/417591.html",
+   "date": "2026-10-09 10:30",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [],
+    "korean_title": "TIER IV, 도쿄 주가지수 TOPIX 신규 구성 종목 선정",
+    "korean_summary": "TIER IV가 도쿄 증권거래소의 TOPIX 신규 편입 35개 종목에 포함되어 10월 30일부터 적용되며 일본 주요 기업으로 공인받는다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 도쿄증권거래소 TOPIX 신규 편입 종목으로 선정",
+    "korean_summary": "JPX종합연구소가 10월 30일 시행되는 TOPIX 정기 입체 교체에서 TIER IV를 35개 신규 편입 종목 중 하나로 선정했다.",
+    "action": {
+     "actor": "JPX総研(일본거래소그룹)",
+     "action": "TOPIX 구성종목 정기 교체에서 TIER IV를 신규 채용 종목으로 선정",
+     "stage": "Announced",
+     "timeline": "2026-10-07 발표, 2026-10-30 시행",
+     "scope": "일본 TOPIX 지수(프라임·스탠다드·그로스 시장 전체), 자동차 관련주 중 TIER IV·GO 등 포함"
+    },
+    "key_facts": [
+     "JPX総研이 10월 7일 TOPIX 구성종목 정기 입체 교체 선정 결과를 발표했다",
+     "**10월 30일 시행되는 1차 정기 교체에서 35개 종목이 신규 채용되며 TIER IV와 택시 배차 서비스 GO가 포함됐다**",
+     "기존 683개 종목(닛산차체, 아케보노 브레이크 공업, 후타바 산업 등)은 이행조치 대상이 됐다",
+     "이번 개편은 2022년 4월 도쿄증권거래소 시장구분 재편을 계기로 시작된 TOPIX 개혁의 2단계이며, 유동성을 중시해 프라임·스탠다드·그로스 전 시장에서 종목을 선정한다",
+     "**TOPIX에 연동하는 운용자산은 2026년 6월 기준 약 160조 엔에 달한다**"
+    ],
+    "why_matters": "TIER IV가 자율주행 스타트업으로서 일본 대표 주가지수인 TOPIX에 편입된 것은 자본시장에서 성장성과 유동성을 인정받았다는 신호다. **약 160조 엔 규모의 TOPIX 추종 패시브 자금이 자동으로 매수 대상에 포함**되면서 기관투자자 접근성과 기업 인지도가 높아질 수 있다.",
+    "subject_angle": "Autoware 생태계의 상업화 역량을 입증하는 재무적 지표로, **TIER IV가 스타트업에서 상장 대형주 수준의 자본시장 지위로 이동**함을 보여주며 향후 R&D·해외 확장 자금조달에 우호적 환경을 제공할 수 있다.",
+    "focus_angle": "이번 TOPIX 편입은 Autoware 기술 자체의 실증·양산 단계와는 무관한 자본시장 이벤트이지만, **패시브 자금 유입을 통한 주식 유동성·기관 신뢰도 상승**이 TIER IV의 사업 확장과 투자 유치 역량에 간접적으로 긍정적 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "자율주행 기술 기업, TOPIX 신규 편입 종목"
+     },
+     {
+      "name": "GO",
+      "context": "택시 배차 서비스 기업, TOPIX 신규 편입 종목"
+     },
+     {
+      "name": "日産車体(Nissan Shatai)",
+      "context": "이행조치 대상 종목"
+     },
+     {
+      "name": "曙ブレーキ工業(Akebono Brake Industry)",
+      "context": "이행조치 대상 종목"
+     },
+     {
+      "name": "フタバ産業(Futaba Industrial)",
+      "context": "이행조치 대상 종목"
+     },
+     {
+      "name": "JPX総研(JPX Research Institute)",
+      "context": "TOPIX 구성종목 선정·발표 주체"
+     },
+     {
+      "name": "東京証券取引所(Tokyo Stock Exchange)",
+      "context": "2022년 시장구분 재편으로 TOPIX 개혁을 촉발한 거래소"
+     }
+    ],
+    "products": [
+     {
+      "name": "TOPIX(Tokyo Stock Price Index)",
+      "role": "TIER IV가 신규 편입되는 일본 대표 주가지수"
+     }
+    ],
+    "watch_next": [
+     "10월 30일 실제 TOPIX 편입 시행 후 TIER IV 주가·거래량 변화",
+     "TOPIX 개혁 3단계(향후 추가 정기 교체) 일정 및 Autoware 생태계 관련 기업의 추가 편입 여부",
+     "TIER IV의 TOPIX 편입이 해외 투자자 유치·IR 활동에 미치는 영향 공시 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zbTBHMnB6dGwyQ1RDSGhTelhXTXI0YURYQ2gwaFdETHA4MmRwQ21oTm11U3VlTGNFM2NpeGxVRHJzRFJUYkNyRktCbndEU3BzVG9LVHdCSWhjTmIwRm1Z?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOW5PTjlQREtyUjRfV2hVT005TTV0aXZvTnNVclhFRWgtS09RRTEwV0NOZTFiNUJhOU9fX1NRZExSclZELVlIQnk4NGdGcTRJb2ZaWmhEcVMtdG1EQkxyQ0FOV1JXQW02Tkx5eDZzLVZIOVRXNnljMlAzM0Nnd09uLUtOLU1ZS3dKZWU5V2pxdlo?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に 7枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YMVc1azA3RVJmeTFBckVjLXM5X3pReThxZzRhZXcxN3VkZXNfSkRSbV85Nl9hT2hpUVlpTzREQUFScTJSWVdCclNjQlRvMW8zQURTOHZPQ3N6LU5jVFltbzhQdTcyTkFldmZxZ05ZakRndw?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5zbTBHMnB6dGwyQ1RDSGhTelhXTXI0YURYQ2gwaFdETHA4MmRwQ21oTm11U3VlTGNFM2NpeGxVRHJzRFJUYkNyRktCbndEU3BzVG9LVHdCSWhjTmIwRm1Z?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBIMUcxdGw2RlNkdmI0eXAxVzZwSG9HZ0ZpaXU5RHJ2YzlTY2M1QXZSejVDU283Mkxzb2dPRnFUWHFtcy1uM3kyVTk5QV9iNElwUlVCYjlTeWVEdzJoZGdfc290TWxtQzNLTUVQVVFKNA?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "東証株価指数「TOPIX」見直し…ティアフォーなど35銘柄採用、日産車体など683銘柄が移行措置に 7枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YMVc1azA3RVJmeTFBckVjLXM5X3pReThxZzRhZXcxN3VkZXNfSkRSbV85Nl9hT2hpUVlpTzREQUFScTJSWVdCclNjQlRvMW8zQURTOHZPQ3N6LU5jVFltbzhQdTcyTkFldmZxZ05ZakRndw?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/09/417591.html",
+   "body": "日本取引所グループのJPX総研は10月7日、東証株価指数（TOPIX）の構成銘柄の定期入替について、選定結果を発表した。10月30日に実施する初回の定期入替では、35銘柄を新たに採用し、既存の683銘柄を移行措置の対象とする。 自動車関連では、自動運転技術を手がけるティアフォーや、タクシー配車サービスのGOなどが新規採用される。いっぽう、日産車体や曙ブレーキ工業、フタバ産業などが移行措置銘柄となった。今回の見直しは、2022年4月の東京証券取引所の市場区分再編を契機に始まったTOPIX改革の第2段階だ。 ●流動性を重視し、全市場から銘柄を選定 TOPIXは、日本の株式市場全体の動向を示す代表的な株価指数だ。1969年に算出を開始し、国内外の投資家が運用成績を比較する指標などに利用している。 従来は東証1部の全銘柄を原則として採用していたが、2022年の市場再編を機に見直しを開始した。今回の第2段階では、株式の売買の活発さを示す流動性をより重視する。また、採用対象をプライム市場だけでなく、スタンダード市場、グロース市場にも広げる。市場区分にかかわらず、一定の基準を満たした銘柄を採用する仕組みだ。 JPX総研によると、TOPIXに連動する運用資産は2026年6月時点で約160兆円に達する。見直しでは、指数の連続性を維持しながら、投資対象としての機能を高めることをめざす。"
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "自動運転の民主化：ティアフォーが最新技術を講演予定…EdgeTech+ 2026",
+   "link": "https://response.jp/article/2026/10/09/417593.html",
+   "date": "2026-10-09 11:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV, EdgeTech+ 2026에서 Autoware와 End-to-End 기술 기조강연",
+    "korean_summary": "TIER IV가 11월 18-20일 EdgeTech+ 2026 오토모티브 소프트웨어 엑스포에서 Autoware의 민주화와 End-to-End 자동운전 기술의 최신 동향을 기조강연한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, EdgeTech+ 2026에서 Autoware와 E2E 자율주행 기술 기조연설 예정",
+    "korean_summary": "TIER IV가 2026년 11월 18일 EdgeTech+ 2026의 오토모티브 소프트웨어 엑스포에서 Autoware 생태계와 End-to-End 자율주행 기술 최신 동향을 발표하며 '자율주행의 민주화' 비전을 재확인한다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "Autoware 및 End-to-End(E2E) 자율주행 기술에 대한 기조연설 진행",
+     "stage": "Announced",
+     "timeline": "2026년 11월 18일 10:15~11:00",
+     "scope": "일본 요코하마 Pacifico Yokohama, 오토모티브 소프트웨어 엑스포(EdgeTech+ 2026 구성 이벤트) 참관객 대상"
+    },
+    "key_facts": [
+     "**2026년 11월 18~20일** 파시피코 요코하마에서 열리는 EdgeTech+ 2026의 구성 이벤트 '오토모티브 소프트웨어 엑스포'에서 TIER IV 기조연설 예정",
+     "발표 시간은 11월 18일 10시15분~11시, 주제는 '자동운전의 민주화: Autoware와 End-to-End 기술의 최전선'",
+     "발표자는 TIER IV 선단기술부 매니저 겸 테크니컬 프로젝트 매니저, 프린시펄 사이토 유키히로(齋藤幸裕)",
+     "**오픈소스 Autoware 생태계를 통한 자율주행 민주화**와 차세대 E2E 기술 진전을 실제 개발 사례 기반으로 소개할 예정",
+     "EdgeTech+ 2026은 JASA(組込みシステム技術協会) 주최 임베디드·엣지 기술 종합전시회로, 입장은 온라인 사전등록제 무료"
+    ],
+    "why_matters": "TIER IV가 오픈소스 Autoware 외에 **End-to-End 자율주행 기술**을 공식 발표 주제로 명시한 것은 전통적 모듈형 스택에서 E2E 패러다임으로의 기술적 확장을 시사한다. SDV(소프트웨어 정의 차량) 전문 전시회라는 산업 맥락에서 발표되는 만큼, 완성차·부품업체 대상 생태계 영향력 확대 의도가 읽힌다.",
+    "subject_angle": "TIER IV는 Autoware를 축으로 한 오픈소스 생태계 리더십을 지속 강조하면서, **E2E 기술을 신규 어젠다로 공식 제시**함으로써 Autoware의 기술 로드맵을 모듈형에서 E2E 포함 방향으로 확장하려는 전략적 신호로 해석할 수 있다.",
+    "focus_angle": "본 소식은 기술(아키텍처·AI 모델) 관점의 사전 발표로, **기존 모듈형 Autoware 스택에 End-to-End 기술을 병행 소개**한다는 점이 핵심이며, 구체적 아키텍처 변경·채택 영향은 발표 내용 공개 전까지 미확인이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발 주도사, 본 기조연설 발표사"
+     },
+     {
+      "name": "JASA(組込みシステム技術協会)",
+      "context": "EdgeTech+ 2026 주최 단체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "TIER IV가 주도하는 오픈소스 자율주행 소프트웨어, 발표 핵심 주제"
+     },
+     {
+      "name": "End-to-End(E2E) 자율주행 기술",
+      "role": "차세대 자율주행을 형성하는 기술로 발표에서 함께 소개될 주제"
+     }
+    ],
+    "watch_next": [
+     "11월 18일 실제 발표 내용에서 E2E 기술의 구체적 적용 사례·로드맵 공개 여부",
+     "Autoware 생태계에 E2E 모듈 공식 통합 계획 발표 여부",
+     "발표 후 파트너사·완성차업체의 반응 또는 후속 협력 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "自動運転の民主化：ティアフォーが最新技術を講演予定…EdgeTech+ 2026",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KUHM4Y1FuQl9iTjNRbVcxMk51MWVyeEc2ZEQyRjhnVThPbHh6SnFaTy0ySUdkcEx0YXBvSEM5cC1USGZ0R0RjdjBMcWxiM1UzbmhJa2RNY3Bld0hkZmg4?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "自動運転の民主化：ティアフォーが最新技術を講演予定…EdgeTech+ 2026 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVVE40LS1UZ1oxT1BudllHQUxLNGliM1lTd2hMazNVWkdmR0UzZVN0RTRURXA2Y2hUZXpBX3NEUWVOTmE3NHVJa1RmVS00ZDl5cFUzam5zalJXWmtUWjgyWUViYnRoRmdxRXROODhGbw?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "自動運転の民主化：ティアフォーが最新技術を講演予定…EdgeTech+ 2026",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5KUHM4Y1FuQl9iTjNRbVcxMk51MWVyeEc2ZEQyRjhnVThPbHh6SnFaTy0ySUdkcEx0YXBvSEM5cC1USGZ0R0RjdjBMcWxiM1UzbmhJa2RNY3Bld0hkZmg4?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "自動運転の民主化：ティアフォーが最新技術を講演予定…EdgeTech+ 2026 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVVE40LS1UZ1oxT1BudllHQUxLNGliM1lTd2hMazNVWkdmR0UzZVN0RTRURXA2Y2hUZXpBX3NEUWVOTmE3NHVJa1RmVS00ZDl5cFUzam5zalJXWmtUWjgyWUViYnRoRmdxRXROODhGbw?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/09/417593.html",
+   "body": "11月18～20日にパシフィコ横浜で開催される「EdgeTech+ 2026」の構成イベント「オートモーティブ ソフトウエア エキスポ」で、ティアフォーによる自動運転技術の基調講演が行なわれる。 講演は11月18日10時15分から11時まで。「自動運転の民主化：AutowareとEnd-to-End技術の最前線」をテーマに、オープンソースの自動運転ソフトウェア『Autoware（オートウェア）』と、次世代の自動運転を支えるEnd-to-End（E2E）技術の最新動向を紹介する。 講演者は、ティアフォーの先端技術部マネージャー、テクニカルプロジェクトマネージャー、プリンシパルを務める齋藤幸裕氏だ。 講演では、オープンソースのAutowareを中心とするエコシステムによって実現する自動運転の民主化を取り上げる。また、次世代の自動運転を形づくるE2E技術の進展についても解説する。実際の開発活動や具体的な事例をもとに、近年の技術的な進歩と今後の方向性を示す。 ティアフォーが掲げる「自動運転の民主化」とは、自動運転技術を特定の企業だけが保有するのではなく、さまざまな企業や研究機関、個人が開発に参加し、成果を共有・活用できるようにすることだ。同社はオープンソースの自動運転ソフトウェア、Autowareの開発を主導し、世界各地のパートナーとの共同開発を通じて、自動運転技術の普及と社会実装を進めている。 ●SDV時代の自動車ソフトウェア技術を紹介 オートモーティブ ソフトウエア エキスポは、SDV（ソフトウェア定義車両）時代に向けた自動車開発とソフトウェア技術の専門イベントだ。 自動車開発に関するソフトウェア技術に焦点を当て、関連技術や業界動向、製品の最新情報を紹介する。同イベントを構成する基調講演として、ティアフォーが自動運転のオープンソース技術とE2E技術の最前線を取り上げる。 EdgeTech+ 2026は、一般社団法人組込みシステム技術協会（JASA）が主催する、組込み・エッジ技術の総合展示会だ。会期は11月18～20日、会場はパシフィコ横浜の展示ホールとアネックスホール。入場はオンライン事前登録制で無料となっている。"
+  },
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "「自動運転AI」開発、ティアフォーが見る“日本の勝ち筋” WaymoやUberら黒船続々、勝機はどこに？",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFY3Q05NZGpnNGhtVVVOWDFtb291ZGZMMkpiUWlKYmlMUG9lRm5LN09nT21qeDJIb0RNSVNmQUlwYWJmUEpkdjlNbWQzY2RlY2stWVlIX0tqOWRBdi1sVDRaT3lseUdsVnAwQm54RlI4Yk0zaE9td21Sak5FemRBbFlHSW5IRkRIeWRoOFR4eTJ3VGN0UER1Q05YUk11TTNuOVHSAZwBQVVfeXFMTlRxM3RaOTZOX1JPMnFCbzJISVB3R1J4X3g1VmMyZkhwdVBraXZUbmdPTVdQWmZJaGJNc3BENUFGNE43c2stelRBVmZpVFpYOXpSd2E0ejN1R3VRVTdrbEU1ajM2cHR3M18tRFVDRDN2RXlsaXBEalJrYkFkZmdrZDBTSndSS0Q2MzRwNFZOcGpYOElxSG5fbnNrNG9n?oc=5",
+   "date": "2026-10-10 01:48",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV가 보는 자동운전 AI 개발의 일본 경쟁력",
+    "korean_summary": "TIER IV가 Waymo, Uber 등 글로벌 기업과의 경쟁에서 일본의 자동운전 AI 개발 승기를 분석한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "「自動運転AI」開発、ティアフォーが見る“日本の勝ち筋” WaymoやUberら黒船続々、勝機はどこに？",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFY3Q05NZGpnNGhtVVVOWDFtb291ZGZMMkpiUWlKYmlMUG9lRm5LN09nT21qeDJIb0RNSVNmQUlwYWJmUEpkdjlNbWQzY2RlY2stWVlIX0tqOWRBdi1sVDRaT3lseUdsVnAwQm54RlI4Yk0zaE9td21Sak5FemRBbFlHSW5IRkRIeWRoOFR4eTJ3VGN0UER1Q05YUk11TTNuOVHSAZwBQVVfeXFMTlRxM3RaOTZOX1JPMnFCbzJISVB3R1J4X3g1VmMyZkhwdVBraXZUbmdPTVdQWmZJaGJNc3BENUFGNE43c2stelRBVmZpVFpYOXpSd2E0ejN1R3VRVTdrbEU1ajM2cHR3M18tRFVDRDN2RXlsaXBEalJrYkFkZmdrZDBTSndSS0Q2MzRwNFZOcGpYOElxSG5fbnNrNG9n?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZFY3Q05NZGpnNGhtVVVOWDFtb291ZGZMMkpiUWlKYmlMUG9lRm5LN09nT21qeDJIb0RNSVNmQUlwYWJmUEpkdjlNbWQzY2RlY2stWVlIX0tqOWRBdi1sVDRaT3lseUdsVnAwQm54RlI4Yk0zaE9td21Sak5FemRBbFlHSW5IRkRIeWRoOFR4eTJ3VGN0UER1Q05YUk11TTNuOVHSAZwBQVVfeXFMTlRxM3RaOTZOX1JPMnFCbzJISVB3R1J4X3g1VmMyZkhwdVBraXZUbmdPTVdQWmZJaGJNc3BENUFGNE43c2stelRBVmZpVFpYOXpSd2E0ejN1R3VRVTdrbEU1ajM2cHR3M18tRFVDRDN2RXlsaXBEalJrYkFkZmdrZDBTSndSS0Q2MzRwNFZOcGpYOElxSG5fbnNrNG9n",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【テニス速報】 上海マスターズ 第3日 ヤニック ハンフマン vs フランシス ティアフォー",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSTdIZjFaLWdPbVdfb2xnV0UwUEI2eHN3d0tocG9LX2xDdEpoUVJZZFNpbGR1cUNtY0JCMGlJQTJkemthT252S3hYMzI2UVVOdXRSRUxENWJoZGxvUlBGbXZPSlBuXy1ad3dPUTNIdmY3ZWNidHFRQzNFQU1ZZ0d1RzVsZ1l1OE5rOHfSAYoBQVVfeXFMT0k3SGYxWi1nT21XX29sZ1dFMFBCNnhzd3dLaHBvS19sQ3RKaFFSWWRTaWxkdXFDbWNCQjBpSUEyZHprYU9udkt4WDMyNlFVTnV0UkVMRDViaGRsb1JQRm12T0pQbl8tWnd3T1EzSHZmN2VjYnRxUUMzRUFNWWdHdUc1bGdZdThOazh3?oc=5",
+   "date": "2026-10-09 17:22",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "테니스: 상하이 마스터스 경기",
+    "korean_summary": "테니스 선수 Francis Tiafoe의 상하이 마스터스 경기 보도로 Autoware·TIER IV와 무관하다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "【テニス速報】 上海マスターズ 第3日 ヤニック ハンフマン vs フランシス ティアフォー",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSTdIZjFaLWdPbVdfb2xnV0UwUEI2eHN3d0tocG9LX2xDdEpoUVJZZFNpbGR1cUNtY0JCMGlJQTJkemthT252S3hYMzI2UVVOdXRSRUxENWJoZGxvUlBGbXZPSlBuXy1ad3dPUTNIdmY3ZWNidHFRQzNFQU1ZZ0d1RzVsZ1l1OE5rOHfSAYoBQVVfeXFMT0k3SGYxWi1nT21XX29sZ1dFMFBCNnhzd3dLaHBvS19sQ3RKaFFSWWRTaWxkdXFDbWNCQjBpSUEyZHprYU9udkt4WDMyNlFVTnV0UkVMRDViaGRsb1JQRm12T0pQbl8tWnd3T1EzSHZmN2VjYnRxUUMzRUFNWWdHdUc1bGdZdThOazh3?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "【テニス速報】 上海マスターズ 第3日 ヤニック ハンフマン vs フランシス ティアフォー (2026年10月9日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BeXNEN2V0dFBHakR4U1hOVXhsUmRZY3FFYloyVVo4NW1RSkdmQkdCc1ZGVFZVVGJQQXJlc3ktWVgyUXVmMFJKNHZ3OXM4YnBGZGswY2wwa1YzYlkzREE?oc=5"
+    },
+    {
+     "source": "Google News · スポーツナビ",
+     "title": "テニス - 上海マスターズ - アレハンドロ ダビドビッチ フォキナ vs. フランシス ティアフォー- 試合対戦データ",
+     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OTWZaQUJzUFRYQnV4eDlpMUR3WGNoYXNRQ29hZGhwbFNQY2dzVmJ0M0VsN2duMlE0YmJGRktBeER6d3hOcTNxX3lRcHlWTkx0SHBJM1JVYXU3Zw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSTdIZjFaLWdPbVdfb2xnV0UwUEI2eHN3d0tocG9LX2xDdEpoUVJZZFNpbGR1cUNtY0JCMGlJQTJkemthT252S3hYMzI2UVVOdXRSRUxENWJoZGxvUlBGbXZPSlBuXy1ad3dPUTNIdmY3ZWNidHFRQzNFQU1ZZ0d1RzVsZ1l1OE5rOHfSAYoBQVVfeXFMT0k3SGYxWi1nT21XX29sZ1dFMFBCNnhzd3dLaHBvS19sQ3RKaFFSWWRTaWxkdXFDbWNCQjBpSUEyZHprYU9udkt4WDMyNlFVTnV0UkVMRDViaGRsb1JQRm12T0pQbl8tWnd3T1EzSHZmN2VjYnRxUUMzRUFNWWdHdUc1bGdZdThOazh3",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 119,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 3,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 21,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 24,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 18.6
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 29,
+   "enriched": 4,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 28.6
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 2.3
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  }
+ ]
+}
