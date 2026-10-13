@@ -1,0 +1,1903 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-13",
+ "window": [
+  "2026-10-12",
+  "2026-10-13"
+ ],
+ "generated": "2026-10-13T11:41:47+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 OCP Global Summit에서 **Vera Rubin 랙 설계**를 공개 기증해 데이터센터 업계 표준화를 주도한다.",
+  "LTTS와 NVIDIA가 벵갈루루에 **AI 네이티브 제조 랩**을 공동 개설해 스마트 팩토리 혁신을 가속화한다.",
+  "NVIDIA가 사상 최대인 **1,500억 달러 자사주 매입** 계획을 공시해 주주환원 의지를 강조했다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+   "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+   "date": "2026-10-13 00:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Vera Rubin 아키텍처를 OCP에 공개해 AI 인프라 표준화 주도",
+    "korean_summary": "NVIDIA가 OCP Global Summit에서 Vera Rubin 랙·컴퓨트 트레이 설계를 오픈 MGX 아키텍처로 기여하여 AI Factory 인프라 표준화를 주도한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, OCP 글로벌 서밋에서 Vera Rubin 아키텍처 개방해 AI 팩토리 확장 생태계 조성",
+    "korean_summary": "NVIDIA가 OCP Global Summit에서 **Vera Rubin 랙·컴퓨트 트레이 설계를 MGX 아키텍처 기반으로 OCP에 기여**하고 Meta·Google·Cisco·Visionbay 등과 개방형 네트워킹·전력·냉각 표준을 발표해 기가와트급 AI 팩토리 확산을 가속화하려 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera Rubin 랙 및 컴퓨트 트레이 설계를 OCP(Open Compute Project)에 MGX 아키텍처를 통해 기여하고, DSX AI Factory용 오픈소스 소프트웨어 컴포넌트 및 다수 파트너십(네트워킹 표준, 전력 설계 등)을 발표",
+     "stage": "Announced",
+     "timeline": "OCP Global Summit 행사 기간 중(미확인 정확한 날짜), San Jose McEnery Convention Center",
+     "scope": "NVIDIA Vera Rubin 기반 AI 팩토리 전체(랙, 네트워킹, 전력, 냉각, 소프트웨어), 하이퍼스케일러 및 OEM/파트너 생태계 대상"
+    },
+    "key_facts": [
+     "NVIDIA가 **Vera Rubin 랙·컴퓨트 트레이 설계를 MGX 아키텍처를 통해 OCP에 기여**",
+     "MGX 1.2 규격은 랙당 최대 250kW 배치를 지원하며 5,000A 버스바, 블라인드메이트 액체냉각, 19인치 장비 지원 추가",
+     "Vera CPU 랙 설계는 tool calling, orchestration, sandboxed execution 등 에이전틱 AI를 위한 전용 플랫폼으로 MGX 3세대 아키텍처 기반",
+     "NVIDIA와 Cisco가 400Gb/s 기반 네트워킹 패브릭용 업계 최초 USFP(Ultra-Dense Small Form Factor Pluggable) 표준 발표",
+     "NVIDIA와 Google이 미래 ConnectX-10 SuperNIC 및 BlueField DPU에서 Falcon Transport 지원 발표",
+     "Meta와 NVIDIA가 Spectrum-X Ethernet SuperNIC 및 Spectrum-6 기반 개방형 AI 네트워킹 발전 발표"
+    ],
+    "why_matters": "AI 인프라가 메가와트에서 기가와트 규모로 확장되는 가운데, **NVIDIA가 핵심 랙·전력·냉각 설계를 개방형 표준(OCP/MGX)으로 제공**함으로써 하이퍼스케일러·OEM들이 더 빠르고 상호운용 가능한 방식으로 Vera Rubin 기반 AI 팩토리를 구축할 수 있게 한다. 이는 Cisco, Google, Meta 등 주요 플레이어들과의 네트워킹·전력 표준 협력을 통해 NVIDIA 아키텍처를 업계 표준으로 고착시키는 전략으로 해석된다.",
+    "subject_angle": "NVIDIA는 Vera Rubin 세대 하드웨어 설계를 **개방형 표준으로 선제 공개**함으로써 생태계 전체(부품 제조사, 하이퍼스케일러, OEM)를 자사 아키텍처에 맞춰 조율하고, 이를 통해 tokens-per-watt 성능과 배포 속도에서 경쟁 우위를 유지하려는 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin 아키텍처 및 MGX 설계 OCP 기여 주체, DSX OS 오픈소스 컴포넌트 발표"
+     },
+     {
+      "name": "Meta",
+      "context": "Spectrum-X Ethernet SuperNIC 및 Spectrum-6 기반 개방형 AI 네트워킹 공동 발전"
+     },
+     {
+      "name": "Cisco",
+      "context": "USFP(Ultra-Dense Small Form Factor Pluggable) 표준 공동 발표"
+     },
+     {
+      "name": "Google",
+      "context": "ConnectX-10 SuperNIC 및 BlueField DPU에서 Falcon Transport 지원 공동 발표"
+     },
+     {
+      "name": "Visionbay",
+      "context": "Vera Rubin 시대를 위한 800V DC AI 팩토리 설계 도입"
+     },
+     {
+      "name": "Open Compute Project (OCP)",
+      "context": "NVIDIA의 MGX 랙 설계 및 개방형 표준이 기여되는 산업 표준화 기구"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin",
+      "role": "차세대 AI 팩토리를 위한 GPU/CPU 아키텍처, MGX를 통해 설계 공개"
+     },
+     {
+      "name": "NVIDIA MGX (1.2)",
+      "role": "랙·컴퓨트 트레이 개방형 레퍼런스 아키텍처, 250kW 랙 지원 및 액체냉각 확장"
+     },
+     {
+      "name": "Vera CPU rack",
+      "role": "에이전틱 AI를 위한 tool calling·orchestration 전용 랙 설계"
+     },
+     {
+      "name": "NVIDIA DSX AI Factory / DSX OS",
+      "role": "컴퓨팅·네트워킹·전력·냉각 통합 운영을 위한 개방형 운영 레이어, 오픈소스 컴포넌트(Config Manager 등) 신규 공개"
+     },
+     {
+      "name": "NVIDIA Spectrum-X Ethernet SuperNIC / Spectrum-6",
+      "role": "Meta와 공동 개방형 AI 네트워킹 혁신"
+     },
+     {
+      "name": "USFP (Ultra-Dense Small Form Factor Pluggable)",
+      "role": "400Gb/s 네트워킹 패브릭용 신규 모듈 표준"
+     },
+     {
+      "name": "ConnectX-10 SuperNIC / BlueField DPU",
+      "role": "Google과 Falcon Transport 지원 예정 차세대 네트워킹 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "MGX 1.2 및 Vera CPU rack 설계의 실제 파트너사 채택 및 양산 일정",
+     "USFP 표준 및 Falcon Transport 지원 ConnectX-10/BlueField 제품의 출시 시점",
+     "DSX OS 오픈소스 컴포넌트의 생태계 확산 및 추가 기능 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+     "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdHRtZFJkSHY5UmNqNElRSWs1Uk4tNTFMb09nWHl5Y0haeU1DcVVTYU1zdldja3lfY2hiTnZsNGJxek1OZzMtaDhMLWtyRUpqZHZtbzNvb19HYm1wbVVlcmR3cC1Qbk12VjU0U3V5cHduTW9ZQ1M1WlZaQzVNYnltLW5SYUQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
+   "body": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at creating a common foundation for next-generation AI infrastructure. NVIDIA contributed key NVIDIA Vera Rubin rack and compute tray designs to OCP through the open NVIDIA MGX architecture, giving system builders a common foundation for developing next-generation AI factory infrastructure. Together, these efforts span the AI factory itself, the utility grid that powers it and the rack-scale architecture at the heart of modern accelerated computing. NVIDIA and Partners Announce Open Architecture Advances At the OCP event, NVIDIA and partners made a handful of announcements: NVIDIA and hyperscalers published open standards for next-generation AI factories, including AI factory design standards and grid resilience. NVIDIA launched new open source software components for NVIDIA DSX AI Factory. Meta and NVIDIA advanced open AI networking with NVIDIA Spectrum-X Ethernet SuperNIC and Spectrum-6 innovations. Visionbay introduced an 800V DC AI factory design for the Vera Rubin era. NVIDIA and Cisco announced the Ultra-Dense Small Form Factor Pluggable (USFP) standard, the industry’s first module ​for 400Gb/s-based networking fabrics. NVIDIA and Google announced Falcon Transport support on future NVIDIA ConnectX-10 SuperNICs and BlueField DPUs. Before a packed audience, Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA, discussed how open infrastructure is becoming a critical ingredient for scaling AI factories worldwide. The news at OCP spotlights how NVIDIA’s extreme codesign combined with open standards is accelerating deployment, improving power efficiency and driving tokens-per-watt performance. Vera Rubin AI Factories Advance With MGX Rack Contributions at OCP NVIDIA joined industry leaders in contributing to the third-generation MGX AI data center reference design through OCP’s Open DC Initiative. Combined with open liquid-cooling technologies such as MQD and MQDB, the effort helps turn proven AI factory designs into industry standards that others can adopt, manufacture and scale. For NVIDIA Vera Rubin AI factories, the updated MGX 1.2 specification extends the open architecture for AI factories with rack-scale blind-mate liquid cooling, interoperable rack-scale interconnect infrastructure and a liquid-cooled 5,000A busbar designed for higher-power AI systems. It also adds native 19-inch equipment support and higher-density rack designs. MGX 1.2 further expands modularity with configurable I/O bays, fanless liquid-cooled compute trays, standardized power and cooling interfaces, and a common infrastructure that helps ecosystem partners build interoperable "
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아, 1.3조 투자해 R&D용 초지능 인프라 구축",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=63586",
+   "date": "2026-10-13 18:08",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 슈퍼인텔리전스 구축에 10억 달러 투자",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 향후 5년간 슈퍼인텔리전스 R&D 인프라 구축에 10억 달러를 투자할 계획을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 미국 과학 연구용 초지능 인프라에 5년간 1조3300억원 투자",
+    "korean_summary": "NVIDIA가 미국 고등교육 연구기관의 의학·에너지·소재 분야 혁신을 가속화하기 위해 향후 5년간 10억달러 규모의 초지능 인프라 구축에 투자하기로 했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "미국 내 고등교육 연구기관 지원 등 초지능(슈퍼인텔리전스) 역량 구축에 투자",
+     "stage": "Announced",
+     "timeline": "2026-10-12 발표, 투자 기간은 향후 5년",
+     "scope": "미국 내 고등교육 연구기관, 의학·에너지·소재 분야"
+    },
+    "key_facts": [
+     "NVIDIA는 **향후 5년간 총 10억달러(약 1조3300억원)** 투자를 2026년 10월 12일 공식 발표했다",
+     "Jensen Huang CEO가 10월 8일(현지시간) 워싱턴 DC '사이언스: 뉴 골든 에이지' 행사에서 투자 계획을 밝혔다",
+     "투자 목적은 미국 과학자들에게 고도화한 초지능을 제공해 **의학, 에너지, 소재 분야 혁신**을 가속화하는 것",
+     "Huang은 '미국은 과학 주도권을 산업 주도권으로 전환하고 혁신을 일자리와 기회로 바꿀 것'이라고 발언",
+     "투자금은 미국 내 고등교육 연구기관 지원, 양자컴퓨팅 관련 분야 등에 배분될 예정(세부 배분 내용은 본문에서 미확인)"
+    ],
+    "why_matters": "이번 투자는 NVIDIA가 단순 하드웨어 공급자에서 **국가 과학 인프라 조성자**로 영향력을 확장하는 행보로, 미국 정부·학계와의 전략적 결속을 강화한다. 경쟁사들이 AI 칩 성능 경쟁에 집중하는 사이 NVIDIA는 연구 생태계 전반을 선점해 장기적 수요 기반을 다지려는 것으로 해석된다.",
+    "subject_angle": "NVIDIA는 GPU·AI 플랫폼 판매를 넘어 **미국 과학 연구 인프라에 직접 투자**함으로써 자사 기술을 국가 혁신 전략의 핵심 축으로 위치시키고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "투자 주체, 초지능 인프라 구축 발표"
+     }
+    ],
+    "products": [
+     {
+      "name": "초지능(Superintelligence) 인프라",
+      "role": "미국 과학 연구 가속화를 위한 투자 대상 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "투자 대상 고등교육 연구기관 및 세부 집행 계획 공개 여부",
+     "양자컴퓨팅 관련 협력 내용의 구체화",
+     "미국 정부의 유사 지원책 또는 정책과의 연계 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=63586",
+   "body": "엔비디아가 향후 5년간 총 10억달러(약 1조3300억원)를 투자해 초지능(슈퍼 인텔리전스) 역량을 구축한다고 12일 밝혔다.젠슨 황 엔비디아 창립자 겸 최고경영자(CEO)는 지난 8일(현지시간) 미국 워싱턴 DC에서 열린 '사이언스: 뉴 골든 에이지' 행사에서 \"10억달러 투자로 미국 과학자들에게 고도화한 초지능을 제공해 의학, 에너지, 소재 분야의 혁신을 가속화하겠다\"며 \"미국은 과학 주도권을 산업 주도권으로 전환하고 혁신을 일자리와 기회로 바꿀 것\"이라고 말했다.엔비디아는 투자 금액을 미국 내 고등교육 연구기관 지원, 양자 컴"
+  },
+  {
+   "source": "Google News · GuruFocus",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA (NVDA) Announces Historic $150 Billion Stock Buyback Plan",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVUJpZFZWXzV2eF9SZE5RZV9jUXc3ckt4YmRFNnpWVnQzMTdaa3FHV0Y3dEtLc3htRXRnS2doUndpTV9ZalpfQ01tRlUxR0tSTzEtOWFyUzBzMHd5MGJ0X25HUE1aalhXTlI5Y0pUcmNoaGhHbXNueW56bzF3UzlmOGpvZlpDZURQSUM5M25ZTXVHTXdrWkowVzdGVHdYdE9ISXc?oc=5",
+   "date": "2026-10-13 09:11",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 사상 최대 규모 1,500억 달러 자사주 매입 계획 발표",
+    "korean_summary": "NVIDIA가 1,500억 달러 규모의 자사주 매입 계획을 공식 공시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVUJpZFZWXzV2eF9SZE5RZV9jUXc3ckt4YmRFNnpWVnQzMTdaa3FHV0Y3dEtLc3htRXRnS2doUndpTV9ZalpfQ01tRlUxR0tSTzEtOWFyUzBzMHd5MGJ0X25HUE1aalhXTlI5Y0pUcmNoaGhHbXNueW56bzF3UzlmOGpvZlpDZURQSUM5M25ZTXVHTXdrWkowVzdGVHdYdE9ISXc",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
+   "date": "2026-10-13 00:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Cisco, 차세대 AI Factory용 USFP 광학 모듈 공동 개발",
+    "korean_summary": "NVIDIA와 Cisco가 12.8Tb/s 대역폭 지원 Ultra-Dense Small Form Factor Pluggable(USFP) 모듈을 공동 개발하여 AI 인프라 네트워킹을 확장한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA와 Cisco, AI 팩토리 확장을 위한 신규 Pluggable Optics 폼팩터 USFP 공동 발표",
+    "korean_summary": "NVIDIA와 Cisco가 레인당 400Gb/s 전기 신호를 지원하는 첫 모듈인 USFP(Ultra-Dense Small Form Factor Pluggable)를 공동 발표해, AI 팩토리가 네트워크 계층 추가 없이 더 많은 컴퓨팅 시스템을 연결할 수 있도록 Ethernet AI 패브릭 확장을 지원한다.",
+    "action": {
+     "actor": "NVIDIA and Cisco",
+     "action": "레인당 400Gb/s를 지원하는 고밀도 광모듈 규격 USFP 공동 발표 및 TE Connectivity, Amphenol과 하드웨어 생태계 구축",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "스위치 및 SuperNIC용 OSFP 사이즈 트랜시버, 16레인(향후 32레인 이상 확장 가능)"
+    },
+    "key_facts": [
+     "USFP는 **레인당 400Gb/s 전기 신호를 지원하는 최초의 모듈**로 설계되었으며 전체 용량 최대 12.8Tb/s 달성 가능",
+     "200Gb/s-per-lane 광모듈 대비 **4배의 대역폭 밀도와 약 1.3배의 전력 효율** 제공",
+     "첫 USFP 기반 트랜시버는 OSFP 사이즈 폼팩터에 16개 풀듀플렉스 레인을 탑재, 향후 32레인 이상으로 확장 가능",
+     "별도의 전용 임베디드 냉각 회로 없이 최대 100W 전력 소모 지원",
+     "NVIDIA, Cisco는 TE Connectivity, Amphenol과 함께 USFP 기반 멀티소스 하드웨어 생태계 구축 중"
+    ],
+    "why_matters": "AI 모델과 추론 수요 확대로 AI 팩토리는 네트워크 복잡성, 전력, 비용을 관리하면서 더 많은 컴퓨팅 시스템을 연결해야 하는데, **USFP는 네트워크 계층 추가 없이 1.6Tb/s 엔드포인트를 더 많이 연결**할 수 있게 해 이러한 확장 과제를 해결한다. 이는 광학 인터커넥트 분야에서 NVIDIA가 네트워킹 파트너(Cisco)와 커넥터 업체(TE Connectivity, Amphenol)를 아우르는 생태계를 주도하려는 움직임으로, 차세대 AI 네트워크 표준을 선점하려는 경쟁 구도를 보여준다.",
+    "subject_angle": "NVIDIA는 GPU·네트워킹을 넘어 **광학 인터커넥트 폼팩터 표준화까지 생태계를 확장**함으로써 AI 팩토리 전체 스택(실리콘-시스템-옵틱스-네트워크 OS)에서의 지배력을 강화하려는 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "USFP 규격 공동 설계, AI 팩토리 네트워킹 생태계 주도"
+     },
+     {
+      "name": "Cisco",
+      "context": "USFP 공동 설계, 광학 시스템 및 풀스택 최적화 파트너"
+     },
+     {
+      "name": "TE Connectivity",
+      "context": "USFP 하드웨어 생태계 구축 협력사"
+     },
+     {
+      "name": "Amphenol",
+      "context": "USFP 하드웨어 생태계 구축 협력사"
+     }
+    ],
+    "products": [
+     {
+      "name": "USFP (Ultra-Dense Small Form Factor Pluggable)",
+      "role": "레인당 400Gb/s 지원하는 신규 고밀도 pluggable optics 폼팩터"
+     },
+     {
+      "name": "OSFP",
+      "role": "USFP가 기존 폼팩터 사이즈를 유지하며 호환되는 기준 규격"
+     },
+     {
+      "name": "SuperNIC",
+      "role": "USFP 트랜시버가 지원하는 적용 대상"
+     }
+    ],
+    "watch_next": [
+     "USFP 기반 트랜시버 상용화 일정 및 출시 시점",
+     "추가 파트너사(스위치·NIC 제조사) 참여 발표 여부",
+     "32레인 이상 확장 버전의 로드맵 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU25leElMeUlqdXdSV1pBVElBWWh2aU5tSElwcG9RSFR4d1A3TlRSeE40M3N2a1htZ25BcDlyMHJsdmRwcWRmSDlXbTBha1J5RkFwVzVGMjdNVjJ0RDBWX3lpTXBrQW51MnhGa2xBX0kxell3QlFKNG9vTERORmd6TDdLbDlwUFg5bGRmVXh3Z2VTbGhCQk4yd1hkRHlUZFNvclR4MG1LUFlkcktHUDZWNEJyTjlPckU?oc=5"
+    },
+    {
+     "source": "Google News · Fierce Network",
+     "title": "NVIDIA and Cisco intro pluggable optics form factor for AI factories",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeEROdndWYkF3dWNDUUxMWjFKUFdVOWpzVjduRlhYV1R5XzY0a2tRRThDNl9tUWdPVkJQM3J5TGMzNTFPbjVhNU5BcHVLN0VGa2hYaTM0VVd0eTFQWHpwc09vVGl4Y3R0MnFnd3UxMnplYXZjZUxvV051S2JNZDQ1WEFWenBEVzdJVEZLUWVJMHMydXIyLXh0UFF2aDdOYkRxbWlhbmRSSQ?oc=5"
+    },
+    {
+     "source": "Google News · HPCwire",
+     "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTFgtWWU3SDF6YXJucDFrbEUwSEZOZDBvazJtaklEMFlhalZJMER1SU9KY1BNc3FFOU9EZDZESzN1YWhWSGlMbi1falFYQ0tvV3plZFR3alo3aE5XQnZPc3o0Z0JQbFgzQ0MxNU5RSnBCc2VrWmFfNmM5M2MzZmdJZmR3TzAzRmpfcFZzcDZnaHJpSmQ0bDVZWjhEYTkxb3BOaEdTVU1hWm9aYXRQWEN6WWVKYWdISDdyMHNn?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia, Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+     "link": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
+   "body": "News Summary: - Ultra-Dense Small Form Factor Pluggable (USFP) is designed to be the first module to support 400Gb/s-per-lane electrical signals, enabling capacity up to 12.8Tb/s so AI factory builders can scale Ethernet AI fabrics, while extending a proven deployment model across multiple generations of data center networks. - USFP delivers 4x the bandwidth density and 1.3x the power efficiency of 200Gb/s-per-lane optics so AI factories can connect more computing systems without adding network tiers, while using less power to move each bit of data. - NVIDIA and Cisco are working with TE Connectivity and Amphenol to build a multi-source hardware ecosystem around USFP. NVIDIA and Cisco today announced plans for Ultra-Dense Small Form Factor Pluggable (USFP), a new high-density 400Gb/s-per-lane optical module designed to equip the hardware ecosystem for the next generation of AI factories using pluggable transceivers. As AI models grow and inference demand expands, AI factories must connect more computing systems while managing network complexity, power and costs. Moving more data per watt and per switch helps operators make better use of their infrastructure investments. Scaling AI factories requires more bandwidth per connection and more connections per switch. When a switch reaches its capacity, further network expansion can require additional switch layers and optical links, increasing latency, power consumption and costs. USFP is designed to enable AI factory builders to scale from 200 Gb/s per lane to 400Gb/s-per-lane Ethernet AI fabrics, while extending a deployment model proven at scale across multiple generations of data center networks. With USFP, customers can embrace next-generation optical technology and meet the performance demand of AI workloads without overhauling their data center infrastructure. The first planned USFP-based transceivers will pack 16 full-duplex lanes in an octal small form factor (OSFP)-sized footprint supporting both switches and SuperNICs, with the ability to expand to 32 and more lanes in the future. By doubling both the lane count and bandwidth per lane, USFP enables AI fabrics to connect more 1.6Tb/s endpoints without adding network tiers. Customers will be able to achieve 12.8Tb/s of overall capacity with USFP. Comparable with an OSFP-sized module, it delivers 4x the bandwidth and front-panel bandwidth density, with approximately 1.3x the power efficiency, versus 200Gb/s-per-lane pluggable modules. This means AI builders can increase their compute scale within the same network footprint, while decreasing networking’s share of the overall AI factory power budget. “Building the world’s largest AI factories starts with rethinking the smallest of connections,” said Gilad Shainer, senior vice president NVIDIA. “With USFP, NVIDIA and Cisco are building an ecosystem to reinvent pluggable optics — connecting more computing with greater efficiency to power the next generation of AI factories.” “AI builders need an in"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Supermicro contractor Ting-Wei “Willy” Sun pleads guilty to four counts associated with Nvidia chip smuggling charges",
+   "link": "https://www.datacenterdynamics.com/en/news/supermicro-contractor-ting-wei-willy-sun-pleads-guilty-to-four-counts-associated-with-nvidia-chip-smuggling-charges/",
+   "date": "2026-10-12 22:26",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Supermicro 직원, NVIDIA 칩 밀수 약 25억 달러 규모 유죄 인정",
+    "korean_summary": "Supermicro 계약직원 Ting-Wei Sun이 약 25억 달러 규모의 NVIDIA GPU 서버를 중국으로 밀수한 혐의로 유죄를 인정했다."
+   },
+   "summary_data": {
+    "korean_title": "Supermicro 하도급업자, Nvidia 칩 중국 밀수 혐의로 유죄 인정",
+    "korean_summary": "Supermicro 계약직 직원 Ting-Wei 'Willy' Sun이 Nvidia AI GPU 서버를 중국으로 불법 밀수출한 혐의 중 4개 항목에 대해 유죄를 인정했다.",
+    "action": {
+     "actor": "Ting-Wei \"Willy\" Sun",
+     "action": "수출통제 위반 공모, 물품 밀수 공모, 미국 기만 공모, 사법방해 공모 등 4개 항목에 대해 유죄 인정",
+     "stage": "Filed",
+     "timeline": "2026년 10월 9일 (유죄 인정), 2027년 9월 8일 (선고 예정)",
+     "scope": "Nvidia GPU 탑재 Supermicro 서버의 대중국 밀수출 사건, 약 $2.5 billion 규모"
+    },
+    "key_facts": [
+     "Sun은 **10월 9일 Manhattan 연방법원**에서 4개 혐의에 대해 유죄를 인정함",
+     "기소 내용에 따르면 **$2.5 billion 규모의 Supermicro 서버가 Commerce Department 라이선스 없이 중국으로 선적**됨",
+     "공동피고인인 Supermicro 공동창업자 Yih-Shyan 'Wally' Liaw는 이사회에서 사퇴했고 4월 무죄를 주장함",
+     "서버를 무표식 상자로 재포장하고 시리얼넘버를 가짜 서버로 옮기는(헤어드라이어 사용) 방식으로 감사를 회피했다는 혐의",
+     "동남아 소재 '패스스루' 업체가 2024 회계연도 4분기 Supermicro 매출 $99.7 million을 차지, Supermicro 최대 고객 중 하나로 성장"
+    ],
+    "why_matters": "이 사건은 **Nvidia GPU의 대중국 수출통제 우회 시도**가 OEM 파트너(Supermicro) 공급망 내부에서 조직적으로 이루어졌음을 보여주는 대표적 사례로, 미 당국의 단속 강도와 범위를 가늠하게 한다. Supermicro 자체는 기소되지 않았으나 공동창업자가 연루된 점은 Nvidia 생태계 전반의 **컴플라이언스 리스크**를 부각시킨다.",
+    "subject_angle": "Nvidia는 직접 당사자가 아니지만, 자사 **GPU의 불법 유통 경로가 OEM 파트너를 통해 지속적으로 발견**되는 현실은 수출통제 준수 체계와 파트너 관리 강화의 필요성을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "밀수 대상이 된 AI GPU 서버의 제조사"
+     },
+     {
+      "name": "Supermicro",
+      "context": "Nvidia GPU 탑재 서버 제조사, 공동창업자가 밀수 혐의로 기소되었으나 회사 자체는 미기소"
+     },
+     {
+      "name": "Southeast Asia pass-through entity (미확인 명칭)",
+      "context": "대만-중국 간 서버 선적을 위한 패스스루 업체, Supermicro 최대 고객 중 하나"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia GPU servers",
+      "role": "불법 수출통제 위반 및 밀수 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "공동피고인 Yih-Shyan 'Wally' Liaw의 재판 진행 및 결과",
+     "Supermicro 대만 사무실 직원 4명에 대한 추가 조사 및 청문 결과",
+     "미 당국의 추가 기소 또는 Supermicro에 대한 제재 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/supermicro-contractor-ting-wei-willy-sun-pleads-guilty-to-four-counts-associated-with-nvidia-chip-smuggling-charges",
+   "body": "Seven months after his initial arrest for allegedly conspiring to smuggle Nvidia AI chips into China, Ting-Wei “Willy” Sun has pled guilty to four counts. Sun entered the pleas in a Manhattan federal court on October 9. The charges he’s admitted to include conspiracies to violate export controls, smuggle goods, defraud the US, and obstruct justice. His sentencing date has been scheduled for September 8, 2027. Sun was one of three Supermicro workers whom the US government charged with illegally smuggling Nvidia GPU servers into China. The indictment claims that some $2.5 billion in servers were shipped to China, despite Supermicro lacking a Commerce Department license. The accused included Supermicro’s co-founder, Yih-Shyan “Wally” Liaw, who resigned from Supermicro’s board of directors following his arrest. In early April, he pled not guilty to the charges in a Manhattan federal court. At the time of the arrests, prosecutors allege that the scheme involved the defendants repackaging Supermicro servers into unmarked boxes to disguise the contents and using ‘dummy’ replica servers to fool audits. Surveillance footage shows individuals using a hair dryer to move serial numbers from real servers to dummy servers. The defendants then used a company based in Southeast Asia as a “pass-through entity” to ship the chips from Taiwan to China using third parties. According to the indictment, the pass-through entity became one of Supermicro’s largest customers in 2024, accounting for $99.7 million in revenue in the final quarter of that financial year. No charges have been brought against Supermicro, and earlier this year, the company publicly declared it was “committed to protecting our advanced technologies and intellectual property,” revealing in a statement that it had been working “closely with the Taiwanese authorities” to prevent the \"illicit diversion of our highly sought-after systems into the restricted China market.“ As a result of the collaboration, the authorities have seized 50 servers that had been “deceptively acquired after being sold by Supermicro to an authorized reseller,” the company said at the time. Following reports that its Taiwanese office was raided in June 2026, the company published an open letter stating that the authorities had confirmed that Supermicro “is not the target of this investigation,” adding that its offices in Taiwan were not in fact raided by any government authorities, as was “widely misreported.” However, the company did confirm that four of its employees in Taiwan had been detained for questioning with regard to the company’s sale of products to an unnamed technology firm in the country, and that Supermicro had cooperated with authorities to provide access to the desks and electronic devices of those workers. Two of the four employees have been detained pending a hearing, while the other two have been released on bail."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia gears up to smash CPU hegemony as Vera starts shipping",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-gears-up-to-smash-cpu-hegemony-as-vera-starts-shipping/",
+   "date": "2026-10-13 00:06",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA Vera CPU, 여러 형태로 배송 개시",
+    "korean_summary": "NVIDIA의 Vera CPU가 여러 형태로 배송을 시작했으며, 에이전트 워크로드에서 Grace 세대 대비 2배 이상 성능을 제공한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Vera CPU, 다중 폼팩터로 출하 시작... CPU 시장 지형 흔들기",
+    "korean_summary": "NVIDIA가 에이전틱 워크로드 전용으로 설계한 Vera CPU를 랙 플랫폼 등 다중 형태로 출하 시작하며 AMD·Intel 중심의 CPU 시장 재편을 시도하고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera CPU를 다중 폼팩터(단독 프로세서, Vera CPU 랙, Vera Rubin Superchip용)로 출하 시작",
+     "stage": "Shipping",
+     "timeline": "OCP Global Summit(San Jose) 발표 시점 기준 '현재 출하 중', Vera Rubin Superchip은 올 하반기 출시 예정",
+     "scope": "Vera CPU 랙 플랫폼(MGX 기반), Meta·CoreWeave가 초기 고객, AWS도 도입 예정"
+    },
+    "key_facts": [
+     "Vera CPU 랙은 NVIDIA MGX 모듈형 레퍼런스 아키텍처를 기반으로 하며, NVL72 옆에 배치되는 **별도 디스크리트 시스템**으로 에이전틱 워크로드 전담",
+     "SPEC CPU 2026 벤치마크 기준 이전 세대 Grace 대비 **2배 이상의 에이전틱 워크로드 성능** 제공, Terminal Bench에서는 1.8배 성능",
+     "Vera CPU 랙 1대당 에이전트 작업을 위한 2만 개 이상의 코어 제공",
+     "Vera는 올봄 양산(full production) 돌입, Grace를 대체할 NVIDIA의 차세대 플래그십 프로세서",
+     "Arm v9.2-A 아키텍처는 유지하되 코어 설계는 대부분 자체 개발(in-house)로 전환"
+    ],
+    "why_matters": "에이전틱 AI 워크로드 수요 급증으로 CPU 설계 패러다임이 바뀌는 가운데, **NVIDIA가 AMD·Intel의 CPU 헤게모니에 정면 도전**하며 Arm조차 직접 칩 설계로 전환하는 경쟁 지형 변화를 가속화하고 있다. Meta, CoreWeave, AWS 등 주요 하이퍼스케일러가 초기 고객으로 참여해 시장 채택 속도를 뒷받침한다.",
+    "subject_angle": "NVIDIA는 GPU 중심 사업에서 벗어나 **CPU까지 자체 생태계로 통합**함으로써 NVL72-Vera 랙 결합 구조를 통해 AI 인프라 전반을 독점적으로 장악하려는 전략을 구체화하고 있으며, Arm 설계 의존을 줄이는 자체 코어 개발로 기술 자립도를 높이고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera CPU 및 Vera CPU 랙 플랫폼 출하사"
+     },
+     {
+      "name": "Meta",
+      "context": "Vera 초기 고객"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "Vera 초기 고객"
+     },
+     {
+      "name": "Amazon Web Services",
+      "context": "Vera 도입 예정 하이퍼스케일러, 에이전틱 워크로드용 추가 컴퓨트 옵션으로 활용"
+     },
+     {
+      "name": "AMD",
+      "context": "기존 CPU 시장 경쟁자"
+     },
+     {
+      "name": "Intel",
+      "context": "기존 CPU 시장 경쟁자"
+     },
+     {
+      "name": "Arm",
+      "context": "NVIDIA Vera가 사용하는 Arm v9.2-A 아키텍처 제공사, 동시에 자체 칩 출시로 라이선스 사업 모델 변화"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera CPU",
+      "role": "NVIDIA의 신규 플래그십 CPU, Grace 후속작, 에이전틱 워크로드 전용 설계"
+     },
+     {
+      "name": "Vera CPU Rack",
+      "role": "MGX 기반 디스크리트 랙 시스템, NVL72와 병치되어 에이전틱 작업 전담"
+     },
+     {
+      "name": "NVL72",
+      "role": "기존 Vera Rubin 플랫폼의 핵심 랙, 오케스트레이션 관리 담당"
+     },
+     {
+      "name": "Vera Rubin Superchip",
+      "role": "Vera CPU가 CPU 부분을 담당할 차세대 통합 칩, 하반기 출시 예정"
+     },
+     {
+      "name": "MGX",
+      "context": "모듈형 레퍼런스 아키텍처",
+      "role": "Vera CPU 랙의 기반 설계"
+     },
+     {
+      "name": "Grace",
+      "role": "Vera로 대체되는 이전 세대 CPU, 성능 비교 기준"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin Superchip의 하반기 정식 출시 일정 및 사양 공개 여부",
+     "AWS의 Vera 실제 도입 시점 및 인스턴스 라인업 발표",
+     "AMD·Intel·Arm의 에이전틱 워크로드 대응 CPU 전략 및 신제품 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · SDxCentral",
+     "title": "Nvidia gears up to smash CPU hegemony as Vera starts shipping",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMkEwQXRvWDNqSUMzVDZjZ3pOdWwwM2x5ZGdJdFNqNWtaVUJGREZ3eHU4ZXhRbVlWV1FUbTRmRURNekNCSlNXQVFJVTNkb094d2l5c0NkOFpFUUw2cTJLTzNfbHd4M0RSVGVqMnpwLThwOUJISFpURXBBNEJGcVpQQndzNk84MmlfZFBDbjN2RXcwSWkzRklRQWx3?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-gears-up-to-smash-cpu-hegemony-as-vera-starts-shipping",
+   "body": "Nvidia’s Vera CPU offerings have commenced shipping in “multiple form factors,” the company confirmed. Speaking ahead of the OCP Global Summit in San Jose, Joe DeLaere, Nvidia’s product lead for AI infrastructure solutions, said in a press briefing that dedicated Vera racks were “shipping now.” The Vera CPU rack platform leans on Nvidia’s MGX modular reference architecture and acts as a dedicated side-cabinet for handling agentic workloads. The “discrete system” placed next to an NVL72, as DeLaere described it, is separated from the core Vera Rubin platform, as the CPUs in an NVL72 are “dealing with other types of orchestration management,” leaving not enough cores to perform tasks needed in agentic workflows. DeLaere told press that Vera provides more than two-fold performance on agentic workloads compared to the previous Grace generation, measured using the SPEC CPU 2026 benchmark. He also cited 1.8-fold performance on Terminal Bench, which he described as measuring agent tasks involving real code running in real containers. “If you get a Vera CPU rack, it's got over 20,000 cores available for agents to operate quickly and complete these tasks as fast as possible,” DeLaere explained during a briefing. “Because Vera CPU was designed specifically for agents with its high bandwidth and its high single-threaded performance, we see that it really accelerates the agentic tool calling and execution of code … and having those separate is really how we can achieve these tremendous agentic workload benchmarks.” Nvidia has been gearing up to take on the CPU hegemony of AMD and Intel at a time when the demand for agentic workloads has shaken up the processor space, with Arm even breaking its long-standing licensing wheelhouse to launch physical chips. Nvidia first announced plans for a standalone CPU business at the turn of the year, with the likes of Meta and CoreWeave among early customers. Amazon Web Services is also in line for Vera, with the hyperscaler billing it as an additional compute option for agentic workloads. Vera entered full production in the spring, with it set to replace Grace as Nvidia’s flagship processor. It also marks somewhat of a departure from Nvidia’s traditional reliance on Arm designs for CPUs in that it features a core design developed largely in-house, though it does still use the Arm v9.2-A architecture. In addition to availability as a standalone processor and a dedicated rack platform, Vera will also provide the CPU portion for the Vera Rubin Superchip, also set to release in the latter half of this year."
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, AMD, Google, and Meta team up on global blueprint for data center design",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdFN3R3NFLVVVZE40T3c5ZmVhdzFFQ24taFViMElfVC1STTkwSWlIMHJ5X1BCZWJWQ2Vkck1EWklDS2Z1cEktb3NyY2FNMzBST2ozM08wUU44VnUwc3hKQ0pwT2JtQlpsd1RrMzlPbWh1UVQxM2Z1ZzRNclhCbTFMdDd0LU56MmRIYTM3cGpBZl9zaklycS1VMmlycHNPTGpQN21lNUxEbDVzMXByMDBrazZfbmRCLXlialBEbFVaN1N5SFRnRlRFOThFUXA0Yl9jdjNN?oc=5",
+   "date": "2026-10-13 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·AMD·Google·Meta 글로벌 데이터센터 표준화 협력",
+    "korean_summary": "NVIDIA, AMD, Google, Meta가 글로벌 데이터센터 설계 표준화를 위한 청사진에 참여하기로 합의했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdFN3R3NFLVVVZE40T3c5ZmVhdzFFQ24taFViMElfVC1STTkwSWlIMHJ5X1BCZWJWQ2Vkck1EWklDS2Z1cEktb3NyY2FNMzBST2ozM08wUU44VnUwc3hKQ0pwT2JtQlpsd1RrMzlPbWh1UVQxM2Z1ZzRNclhCbTFMdDd0LU56MmRIYTM3cGpBZl9zaklycS1VMmlycHNPTGpQN21lNUxEbDVzMXByMDBrazZfbmRCLXlialBEbFVaN1N5SFRnRlRFOThFUXA0Yl9jdjNN",
+   "body": ""
+  },
+  {
+   "source": "Google News · StorageReview.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Cisco USFP Optics Target 400Gb/s per Lane, With MGX 1.2 and DSX OS Updates at OCP 2026",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbkxodTk4bThUT0hvcE9kMndOdDVEMU1CN3hWRjQ0MUM0RUJjTUhQRjR3TTRibVpCNVpYY0hrR3JfREE2ekZLRXEwX0V6UW10U29kcFVtVHkwVzJjSk5EcC1RbzVuR0lpUDhKT1FMOThCb0V0cEtvRHppZUhad2hKYVJRRGw3YW5DZURpS1d30gGTAUFVX3lxTE5ZdElBb0lGZ0tUVUo1YU5SNW9GSnVybldCVHpseWJwelNXejBXUV9XLVFWUnAtQlhIZFlCS3dwNjdRZHJSV1dLQjlKYllQRnFtZk1qc0xVWE1BTkYxU2t0X2I1MjVZcS1sVFN2ZXk2eHp6Y1F1Q0RLZTFuaE10dGpuTzFVS2Iwel85WDBZM2lKWGV2Zw?oc=5",
+   "date": "2026-10-13 05:45",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Cisco, OCP 2026에서 400Gb/s USFP 광학 기술 협력",
+    "korean_summary": "NVIDIA와 Cisco가 OCP 2026에서 MGX 1.2와 DSX OS 업데이트를 통해 400Gb/s USFP 광학 기술을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbkxodTk4bThUT0hvcE9kMndOdDVEMU1CN3hWRjQ0MUM0RUJjTUhQRjR3TTRibVpCNVpYY0hrR3JfREE2ekZLRXEwX0V6UW10U29kcFVtVHkwVzJjSk5EcC1RbzVuR0lpUDhKT1FMOThCb0V0cEtvRHppZUhad2hKYVJRRGw3YW5DZURpS1d30gGTAUFVX3lxTE5ZdElBb0lGZ0tUVUo1YU5SNW9GSnVybldCVHpseWJwelNXejBXUV9XLVFWUnAtQlhIZFlCS3dwNjdRZHJSV1dLQjlKYllQRnFtZk1qc0xVWE1BTkYxU2t0X2I1MjVZcS1sVFN2ZXk2eHp6Y1F1Q0RLZTFuaE10dGpuTzFVS2Iwel85WDBZM2lKWGV2Zw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quiver Quantitative",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Cisco Announce USFP, a 400Gb/s-per-Lane Optical Module for Next-Generation AI Fabrics",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnVOQjBrRVJ6WjZmUmhaWUlqMnFKM1pnXzNpMDU3LW1wUzk2MFlFLWRoTldIMV9nYW1EejA4UGoyMDlodHZmUFp1dFJra2NIUkk4NDVhc2FTVXRad1N2dEhocTdqSzhDRXB6RWl1bmh2bXFNdVlRcHc2TXdIa3ZEZFRlZXM0dGJ6ZTFyX0tmcUx6RTVGQVUxZGs2T3BRV05hbERrM3V6ZVNjRDVaQjB6QkpLN1REckV1LUJ1SlBQYzcyUW44VGUxRVN2b1dtQQ?oc=5",
+   "date": "2026-10-13 00:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Cisco, 차세대 AI 광 모듈 USFP 발표",
+    "korean_summary": "NVIDIA와 Cisco가 차세대 AI 패브릭용 400Gb/s 광 모듈 USFP를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRnVOQjBrRVJ6WjZmUmhaWUlqMnFKM1pnXzNpMDU3LW1wUzk2MFlFLWRoTldIMV9nYW1EejA4UGoyMDlodHZmUFp1dFJra2NIUkk4NDVhc2FTVXRad1N2dEhocTdqSzhDRXB6RWl1bmh2bXFNdVlRcHc2TXdIa3ZEZFRlZXM0dGJ6ZTFyX0tmcUx6RTVGQVUxZGs2T3BRV05hbERrM3V6ZVNjRDVaQjB6QkpLN1REckV1LUJ1SlBQYzcyUW44VGUxRVN2b1dtQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Hands Its Vera Rubin Rack Designs To OCP, Stripping Compute Trays Of Every Cable, Hose, And Fan",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjBrUXRWSTc3NEVTc294M1NIQXY4MTV1a1l1NXJjZlVKWXUwNmo4YW5pYUlLVWJsVWZTMURLZUNOSzRLaVp5VkhFU2ZtSXpmZWtYb3k0aUdRcDZIYmF5OEs1aG0tWjVhQ3JLbF9wdW1LU1dRQm5jQlR3dEFCMFVzeHhoeDNDUWVjcHhFZnBR0gGTAUFVX3lxTE1HX0Utc3dQVTZ3M2pFamQwQWlTbE00Q3BPTjZITXpLZXY1eHc3aVEwb2xBV01yemp1UHJKQ081OGJnUzdFcWpncVNSOTg5YUpKaWJ6YnRCTDZZM2lKVlVTRHJTZzA5VjJkWjVjel9KVGlBVHNaMkJzLTFlZ1Q3eXpkX3o0bHVrMTBXRkRkT0lBeHB1WQ?oc=5",
+   "date": "2026-10-13 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Vera Rubin 랙 설계를 Open Compute Project에 기증",
+    "korean_summary": "NVIDIA가 자체 설계한 Vera Rubin 랙을 OCP에 기증하여 데이터센터 표준화를 주도한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjBrUXRWSTc3NEVTc294M1NIQXY4MTV1a1l1NXJjZlVKWXUwNmo4YW5pYUlLVWJsVWZTMURLZUNOSzRLaVp5VkhFU2ZtSXpmZWtYb3k0aUdRcDZIYmF5OEs1aG0tWjVhQ3JLbF9wdW1LU1dRQm5jQlR3dEFCMFVzeHhoeDNDUWVjcHhFZnBR0gGTAUFVX3lxTE1HX0Utc3dQVTZ3M2pFamQwQWlTbE00Q3BPTjZITXpLZXY1eHc3aVEwb2xBV01yemp1UHJKQ081OGJnUzdFcWpncVNSOTg5YUpKaWJ6YnRCTDZZM2lKVlVTRHJTZzA5VjJkWjVjel9KVGlBVHNaMkJzLTFlZ1Q3eXpkX3o0bHVrMTBXRkRkT0lBeHB1WQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX 5080 24 GB GPU Expected To Arrive In Q1 2027 As The New Flagship Blackwell GeForce GPU",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUG1BTVJER212NndfQ21KRlFEM2ZBNExrTVROb0dRdjlld0ZPZG9IcWVIcmxKRGdPMDJZMHB2VVpqckhzSElXQjNtMFROY2p2U2FIZk9pX25IVkNuTWtlZ290NGItMTExbWhPczhqYzRaTzN5b2VXRklJcWtDd3BUQXlWY9IBiAFBVV95cUxQcldxQmZmd1JuZlBmX0ZWay1IQmdQUXh1NVJpb3NtNDAxUk9XdnVOeTJiY2R1aWVtUmIxci1qazVsdkVmaWVUQlhEUTFBX0U4Ri1MUVBXTHZFcjcyYzNQdDhQaUJXUS1ZRjBJakVKeFMxTTV3cHlUT3NsTGE2VUV0TUdHSG1FMTNM?oc=5",
+   "date": "2026-10-13 00:13",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX 5080, 2027년 1분기 출시 예상",
+    "korean_summary": "블랙웰 아키텍처 기반 신형 플래그십 GeForce GPU인 RTX 5080이 24GB 메모리 구성으로 2027년 1분기에 출시될 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUG1BTVJER212NndfQ21KRlFEM2ZBNExrTVROb0dRdjlld0ZPZG9IcWVIcmxKRGdPMDJZMHB2VVpqckhzSElXQjNtMFROY2p2U2FIZk9pX25IVkNuTWtlZ290NGItMTExbWhPczhqYzRaTzN5b2VXRklJcWtDd3BUQXlWY9IBiAFBVV95cUxQcldxQmZmd1JuZlBmX0ZWay1IQmdQUXh1NVJpb3NtNDAxUk9XdnVOeTJiY2R1aWVtUmIxci1qazVsdkVmaWVUQlhEUTFBX0U4Ri1MUVBXTHZFcjcyYzNQdDhQaUJXUS1ZRjBJakVKeFMxTTV3cHlUT3NsTGE2VUV0TUdHSG1FMTNM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quartz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia is in talks to acquire or deepen its stake in AI startup Reflection",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pUDJkYVZtbzB2czB3X3pzVnlxVUJESThMY2JmTDBMYm4tQTN2WTZJTHNqZ0FUVlZLTVJIRFFhSDRuWUdBaTFYaGZ6Qkdib3RyUlBNTmZzX1VWUmo2VjdoR1NjcEhyaXJrQ1o4aWFJM2xuYktLM1JxMDAybw?oc=5",
+   "date": "2026-10-12 20:22",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a",
+     "investment"
+    ],
+    "korean_title": "NVIDIA, AI 스타트업 Reflection 인수 또는 지분 확대 협상 진행 중",
+    "korean_summary": "NVIDIA가 AI 스타트업 Reflection을 인수하거나 지분을 확대하기 위한 협상을 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pUDJkYVZtbzB2czB3X3pzVnlxVUJESThMY2JmTDBMYm4tQTN2WTZJTHNqZ0FUVlZLTVJIRFFhSDRuWUdBaTFYaGZ6Qkdib3RyUlBNTmZzX1VWUmo2VjdoR1NjcEhyaXJrQ1o4aWFJM2xuYktLM1JxMDAybw",
+   "body": ""
+  },
+  {
+   "source": "Google News · DQ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LTTS launches EI Lab for manufacturing and operations, featuring NVIDIA accelerated AI-native factory",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbE93b29VaHFyLWgwSWFBOTF0TEd4U1VyUXVvbVpuUHBIRUF1ZGJNczUxSk9ZNVo2dXdScEhJLTBwMTdnVGtEZmxLVWstZ3pEbjhocjdXY01Wb01IczlDSGJ0Rk5xdnN3bkczUHpNVmJoZEluZHpWNkoxV0Q4WG1STFVjREptS3UtSlNHM1F6eFJFUDVPUUM1emRMaC1jc00tZWNKVDBORXNjNUxka001X1pjVFV0bmsxRlFkNExpb2thRmF3eFBLQ1A1dkx2MHplem0yTzJwN0gxSmZ0Sk54UjdB0gHiAUFVX3lxTE1sT3dvb1VocXItaDBJYUE5MXRMR3hTVXJRdW9tWm5QcEhFQXVkYk1zNTFKT1k1WjZ1d1JwSEktMHAxN2dUa0RmbEtVay1nekRuOGhyN1djTVZvTUhzOUNIYnRGTnF2c3duRzNQek1WYmhkSW5kelY2SjFXRDhYbVJMVWNESm1LdS1KU0czUXp4UkVQNU9RQzV6ZExoLWNzTS1lY0pUME5Fc2M1TGRrTTVfWmNUVXRuazFGUWQ0TGlva2FGYXd4UEtDUDV2THYwemV6bTJPMnA3SDFKZnRKTnhSN0E?oc=5",
+   "date": "2026-10-12 20:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LTTS, 엔비디아와 AI 네이티브 제조 랩 개설",
+    "korean_summary": "LTTS가 엔비디아의 가속 AI 기술을 활용한 스마트 팩토리 랩을 론칭했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbE93b29VaHFyLWgwSWFBOTF0TEd4U1VyUXVvbVpuUHBIRUF1ZGJNczUxSk9ZNVo2dXdScEhJLTBwMTdnVGtEZmxLVWstZ3pEbjhocjdXY01Wb01IczlDSGJ0Rk5xdnN3bkczUHpNVmJoZEluZHpWNkoxV0Q4WG1STFVjREptS3UtSlNHM1F6eFJFUDVPUUM1emRMaC1jc00tZWNKVDBORXNjNUxka001X1pjVFV0bmsxRlFkNExpb2thRmF3eFBLQ1A1dkx2MHplem0yTzJwN0gxSmZ0Sk54UjdB0gHiAUFVX3lxTE1sT3dvb1VocXItaDBJYUE5MXRMR3hTVXJRdW9tWm5QcEhFQXVkYk1zNTFKT1k1WjZ1d1JwSEktMHAxN2dUa0RmbEtVay1nekRuOGhyN1djTVZvTUhzOUNIYnRGTnF2c3duRzNQek1WYmhkSW5kelY2SjFXRDhYbVJMVWNESm1LdS1KU0czUXp4UkVQNU9RQzV6ZExoLWNzTS1lY0pUME5Fc2M1TGRrTTVfWmNUVXRuazFGUWQ0TGlva2FGYXd4UEtDUDV2THYwemV6bTJPMnA3SDFKZnRKTnhSN0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · electronics.economictimes.indiatimes.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LTTS, Nvidia open AI-native lab in Bengaluru for manufacturing vertical",
+   "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcVphRGFkSW84bjdOODgzZTB1SjJBd3BMUkRIeFE0dU1FOFRabzZWd0phRklVb2ZpZFNCVEtSam5tZkdsTWl4VFhpbWpRQlJTZ3pzS2YwNTBWdVhQTnFlZXM5bVV0OEhCbUlfQVN3ZXRZbEZCenBteWtHenI2c3haVjRTM2xzSE53NnJqVTVZUm1rOUVkS05nSVR6MDlKd3JwTjY0Z01aLTQ3dGF0ZmpicEpoeGR5cjM4ZkZZZ1FCUV82RU5jVHZmSDNRekhGdm1ocmlGNlRlU3I0RXFPeWIzLWNYZFBLMnY4NGhrNFZB0gHyAUFVX3lxTE1paG9ia05vcDBRdFNaRVNKbDhOVnpVbEduelY5QnNOcVZGeEIwT1ItM1lKdUd3Z1BiN0x0ODFmNUZMeXVRX0N6anItWllteUZ5VmdmMjVBd2pKZDg0dmpsUTNaNmVFTGg0bXhpTVhXdnh3cjk0Y1lxTldlWFFxZkFiNmRsRlhrMkIxRmE1d2doLU5FVDdpZ0h3VEtMRlBqWWI3eVVmZ3RERHIzOEVVb3czandYa3Yxblpyb1FEVjE1amtwX1lfWXRhTnhhRTIxQjJXMHh0Z1pOamNJWXhzNnlUNThXT2d1emszMkk1bi0tV3ZR?oc=5",
+   "date": "2026-10-12 19:35",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LTTS와 엔비디아, 벵갈루루에 AI 네이티브 랩 공동 개설",
+    "korean_summary": "LTTS와 엔비디아가 벵갈루루에 제조 산업용 AI 네이티브 랩을 공동으로 개설했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcVphRGFkSW84bjdOODgzZTB1SjJBd3BMUkRIeFE0dU1FOFRabzZWd0phRklVb2ZpZFNCVEtSam5tZkdsTWl4VFhpbWpRQlJTZ3pzS2YwNTBWdVhQTnFlZXM5bVV0OEhCbUlfQVN3ZXRZbEZCenBteWtHenI2c3haVjRTM2xzSE53NnJqVTVZUm1rOUVkS05nSVR6MDlKd3JwTjY0Z01aLTQ3dGF0ZmpicEpoeGR5cjM4ZkZZZ1FCUV82RU5jVHZmSDNRekhGdm1ocmlGNlRlU3I0RXFPeWIzLWNYZFBLMnY4NGhrNFZB0gHyAUFVX3lxTE1paG9ia05vcDBRdFNaRVNKbDhOVnpVbEduelY5QnNOcVZGeEIwT1ItM1lKdUd3Z1BiN0x0ODFmNUZMeXVRX0N6anItWllteUZ5VmdmMjVBd2pKZDg0dmpsUTNaNmVFTGg0bXhpTVhXdnh3cjk0Y1lxTldlWFFxZkFiNmRsRlhrMkIxRmE1d2doLU5FVDdpZ0h3VEtMRlBqWWI3eVVmZ3RERHIzOEVVb3czandYa3Yxblpyb1FEVjE1amtwX1lfWXRhTnhhRTIxQjJXMHh0Z1pOamNJWXhzNnlUNThXT2d1emszMkk1bi0tV3ZR",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "FiveNines Group and Nexus Core Systems partner on 20MW data center in Morocco",
+   "link": "https://www.datacenterdynamics.com/en/news/fivenines-group-and-nexus-core-systems-partner-on-20mw-data-center-in-morocco/",
+   "date": "2026-10-13 01:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "FiveNines·Nexus Core, Morocco 20MW 데이터센터 구축 (Vera Rubin 탑재)",
+    "korean_summary": "FiveNines Group과 Nexus Core Systems가 Casablanca 인근에 20MW 규모의 NVIDIA Vera Rubin NVL72 탑재 데이터센터를 구축한다."
+   },
+   "summary_data": {
+    "korean_title": "FiveNines Group과 Nexus Core Systems, 모로코에 20MW AI 데이터센터 구축 파트너십 체결",
+    "korean_summary": "FiveNines Group과 Nexus Core Systems가 모로코 카사블랑카 외곽에 **NVIDIA Vera Rubin NVL72 시스템**을 탑재할 20MW 규모의 고밀도 AI 데이터센터를 공동 구축한다.",
+    "action": {
+     "actor": "FiveNines Group & Nexus Core Systems",
+     "action": "모로코 카사블랑카 인근에 20MW 규모의 고밀도 AI 컴퓨팅 데이터센터 구축 파트너십 체결, NVIDIA Vera Rubin NVL72 시스템 수용 예정",
+     "stage": "Announced",
+     "timeline": "2026년 4월 Nexus가 20MW 시설 계획 공개, 현재 파트너십 발표",
+     "scope": "모로코 카사블랑카, 20MW 데이터센터 (Nexus AI Factory Platform의 일부로 궁극적으로 180MW 규모 허브 목표)"
+    },
+    "key_facts": [
+     "데이터센터는 **NVIDIA Vera Rubin NVL72 시스템**을 수용할 예정",
+     "FiveNines는 설계 관리, 기술 거버넌스, 컨설턴트 조정, 시공성, 조달 전략을 담당",
+     "이 시설은 Nexus AI Factory Platform의 일부로, 재생에너지 기반 **180MW 규모의 첨단 인프라 허브** 구축을 목표로 함",
+     "Nexus는 이전에 한국 Naver와 모로코에서 500MW 프로젝트(초기 40MW 목표)를 추진한다고 알려졌음",
+     "Nexus는 랙당 최대 400kW를 액체 냉각으로 지원 가능하다고 주장"
+    ],
+    "why_matters": "이는 **NVIDIA의 차세대 Vera Rubin 플랫폼**이 북아프리카 신흥 데이터센터 시장으로 확장되는 사례로, AI 인프라 수요가 전통적 하이퍼스케일 지역을 넘어 지리적으로 다변화되고 있음을 보여준다. 모로코는 현재 데이터센터 footprint가 작은 지역이지만 재생에너지 기반 AI 팩토리 허브로 부상할 가능성을 시사한다.",
+    "subject_angle": "**NVIDIA의 Vera Rubin NVL72**가 신흥 시장(모로코)의 고밀도 AI 인프라 프로젝트에 조기 채택되는 것은 NVIDIA 플랫폼이 글로벌 AI Factory 확산의 표준 레퍼런스 아키텍처로 자리잡고 있음을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "FiveNines Group",
+      "context": "데이터센터 설계·엔지니어링·시공 담당, 설계 관리 및 조달 전략 수행"
+     },
+     {
+      "name": "Nexus Core Systems",
+      "context": "데이터센터 프로젝트 소유자, Nexus AI Factory Platform 운영"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin NVL72 시스템 공급을 통해 데이터센터의 핵심 AI 컴퓨팅 플랫폼 제공"
+     },
+     {
+      "name": "Naver",
+      "context": "이전에 Nexus와 모로코 500MW 프로젝트 협력 관계로 언급됨"
+     },
+     {
+      "name": "Northern Data",
+      "context": "Nexus CEO Christopher Yoshida의 전직 회사(전 CFO)"
+     },
+     {
+      "name": "Pinetree Partners",
+      "context": "Nexus CEO Christopher Yoshida가 managing partner로 소속된 투자 자문사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin NVL72",
+      "role": "모로코 20MW 데이터센터에 탑재될 고밀도 AI 컴퓨팅 시스템"
+     },
+     {
+      "name": "Nexus AI Factory Platform",
+      "role": "180MW 규모 첨단 인프라 허브를 목표로 하는 Nexus의 전체 플랫폼 전략"
+     }
+    ],
+    "watch_next": [
+     "20MW 시설의 구체적 완공 일정 및 가동 시점",
+     "Naver와의 500MW 프로젝트 진행 상황 및 20MW 시설과의 관계 명확화",
+     "180MW AI Factory 허브로의 단계적 확장 계획 세부사항"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/fivenines-group-and-nexus-core-systems-partner-on-20mw-data-center-in-morocco",
+   "body": "Design, engineering, and construction company FiveNines Group and Nexus Core Systems are teaming up to establish a 20MW data center on the outskirts of Casablanca, Morocco. The data center will be designed for high-density AI computing and will house Nvidia Vera Rubin NVL72 systems. FiveNines will handle the project’s design management, technical governance, consultant coordination, constructability, and procurement strategy. Gerry Curran, CEO of FiveNines Group, said: “We are delighted to partner with Nexus Core Systems in order to construct an advanced data center in North Africa. This project will bring together our international data center expertise with Moroccan architects, engineers, technical advisers, and relevant authorities.” Bastian Remmlinger, head of infrastructure at Nexus Core Systems, added: “We are very pleased with the cooperation and services FiveNines Group has provided so far. Their team has supported us well as we shape the design and delivery approach for the Morocco data center. We look forward to continuing our work together on this ambitious project.” The data center will form part of the Nexus AI Factory Platform, in which Nexus aims to establish a 180MW \"advanced infrastructure hub\" that runs on renewable energy. Nexus revealed its plans for a 20MW facility in the region in April 2026. Prior to that, Nexus was said to be working with Korea's Naver on a 500MW project in Morocco. That data center was targeting an initial 40MW. On its website, Nexus Core Systems lists plans for a 12-hectare Moroccan site, as well as plans for a 10MW site in Charlotte, North Carolina, and capacity totaling 40MW across Sweden. The company claims to be able to support up to 400kW per rack via liquid cooling. The 20MW data center in Casablanca is not listed. The company’s CEO and cofounder is listed as Christopher Yoshida, who is a managing partner at boutique global advisory and private investment vehicle Pinetree Partners. He was previously CFO at Northern Data. FiveNines is a UK-based construction company, not to be confused with 5Nines, a colocation provider. The company recently delivered a 9.6MW data center to a hyperscale customer in Austria. Morocco has a small data center footprint at present. Casablanca and Rabat are its largest data center markets, with operators including Orange, N+One, and Inwi."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia opens up Vera Rubin rack and tray designs to OCP",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-opens-up-vera-rubin-rack-and-tray-designs-to-ocp/",
+   "date": "2026-10-13 00:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, OCP에 Vera Rubin 설계 기여",
+    "korean_summary": "NVIDIA가 액체냉각식 Vera Rubin 데이터센터 설계를 오픈컴퓨트 프로젝트에 개방했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Vera Rubin 랙·트레이 설계를 OCP에 오픈소스로 공개",
+    "korean_summary": "NVIDIA가 Vera Rubin 랙·트레이 설계와 MGX 1.2 규격을 Open Compute Project에 기여해 공급망 확장과 업계 표준화를 가속화하려 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera Rubin 랙·트레이 설계(액체냉각 컴퓨트 트레이, 상호운용 랙스케일 인터커넥트, 5,000암페어 액체냉각 버스바)를 Open Compute Project(OCP)에 기여하고 MGX 1.2 규격 공개",
+     "stage": "Announced",
+     "timeline": "미확인 (발표 시점, 구체적 날짜 없음)",
+     "scope": "Vera Rubin 플랫폼, MGX 1.2 규격, 랙 배치 최대 250kW까지"
+    },
+    "key_facts": [
+     "NVIDIA는 **cable-and fan-free 액체냉각 컴퓨트 트레이**, 상호운용 가능한 랙스케일 인터커넥트, 5,000암페어 액체냉각 버스바를 OCP에 기여",
+     "이번 업데이트는 모듈형 레퍼런스 디자인 표준 **MGX 1.2 버전**과 연계됨",
+     "MGX 1.2는 19인치 장비 네이티브 지원과 고밀도 랙 설계를 추가하며 최대 250kW 랙 배치를 지원",
+     "별도 규격으로 MGX를 GPU 이외의 신규 Vera CPU 랙까지 확장했으며, 해당 Vera CPU 랙은 이미 출하가 시작됨",
+     "NVIDIA는 이전에도 Blackwell 설계를 동일하게 오픈한 전례가 있음"
+    ],
+    "why_matters": "NVIDIA는 설계를 공개함으로써 제조사와 부품업체가 단일 고객의 독점 규격을 기다리지 않고 즉시 생산에 착수할 수 있게 하여 **AI 팩토리 구축의 병목인 제조·배포 속도**를 해결하려 한다. 이는 표준화를 통한 생태계 확장과 동시에 NVIDIA 컴퓨트 하드웨어를 공급망의 중심에 계속 묶어두는 전략적 의미를 지닌다.",
+    "subject_angle": "NVIDIA는 **오픈 표준화 전략**을 통해 하드웨어 생태계(랙·전력·냉각 인프라)를 확장시키면서도 자사 GPU/CPU 컴퓨트를 그 중심에 유지함으로써, 경쟁사 대비 공급망 확장 속도와 업계 지배력을 동시에 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Vera Rubin 설계와 MGX 1.2 규격을 OCP에 기여한 주체"
+     },
+     {
+      "name": "Open Compute Project (OCP)",
+      "context": "NVIDIA의 랙·트레이 설계가 기여되는 개방형 표준화 단체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin",
+      "role": "오픈소스로 공개된 차세대 랙·트레이 아키텍처"
+     },
+     {
+      "name": "MGX 1.2",
+      "role": "랙 설계의 모듈형 레퍼런스 표준 규격, 이번 업데이트의 기술적 기반"
+     },
+     {
+      "name": "Vera CPU rack",
+      "role": "MGX 확장 규격이 적용된 신규 CPU 전용 랙, 이미 출하 시작"
+     }
+    ],
+    "watch_next": [
+     "MGX 1.2 기반 장비를 채택하는 제조사·OEM 명단 및 발표 시점",
+     "Vera CPU rack의 구체적 출하 규모 및 고객사 공개 여부",
+     "250kW 랙 배치를 지원하는 실제 데이터센터 구축 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · SDxCentral",
+     "title": "Nvidia opens up Vera Rubin rack and tray designs to OCP",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWZyanhYM1hVUThrdFNRUmt0emN4WXBhTmM1WHQ0UTNfNlN0Q2VxS09xd1ZOb3lwWFZ3b3daTXMwNjB3MkNoTERFQ3JVWlZFX2c2UzEtbVotUVZUUmd0R0FPLXFWbEJ6T2txTHlLNGM0ZmlDd3pINTZ0SkZITGJJaHBwM0pQcGFpTlVmb1o2V3dzdw?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-opens-up-vera-rubin-rack-and-tray-designs-to-ocp",
+   "body": "Nvidia is contributing its Vera Rubin rack and tray designs to the Open Compute Project (OCP), a move it claims will foster open standards. Included in the tech giant’s infra gift are cable-and fan-free liquid-cooled compute trays, interoperable rack-scale interconnect infrastructure, and a liquid-cooled 5,000 amp busbar built for higher-power systems. The Vera Rubin update ties to version 1.2 of its modular reference design standard, MGX. Opening up its infrastructure designs is not a new thing for Nvidia; it previously did the same with Blackwell. The standardization move lets manufacturers build around its platform, while keeping its compute hardware directly intertwined and therefore the center of attention. This latest effort doubles down on liquid cooling, featuring connector solutions for inside trays that allow for cold plates to be swapped out more easily without any unwanted spillage. The MGX 1.2 spec also adds native 19-inch equipment support and higher-density rack designs, and supports rack deployments of up to 250 kilowatts. “The bottleneck for AI factory buildouts is how fast we can manufacture and deploy,” Joe DeLaere, Nvidia’s product lead for AI infrastructure solutions, said during a press briefing. “So when the specification is open, the equipment makers and component developers can start fabricating right away and build a supply chain instead of waiting for a singular customer with one proprietary spec. So overall, that accelerates the entire industry. The ecosystem grows, and we grow with them.” A separate spec extends the MGX beyond GPUs to cover the new Vera CPU rack, which Nvidia revealed has started shipping."
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Navitas Collaborates with NVIDIA on 800 V-to-12 V Power Delivery Board for Next-Generation AI Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT21HRnZDOE9CaElINGNmam5GMHdnNFY0TzhMOHRONzRScXBGaGtGMjJ3YnRWM2prcU5naTJhX1BFNnhpdHpDSmxJZDhZZGdXTXJxVzIzRnItcGwyM0tnR3FaZDlCZ2liVUNjOW1TZjdQUFRXbkMwVV9jMEN3RkxnYnQzZ2E1TzFzaHdUVzRUY3R0YVBwbm9zeXF4UmtzUQ?oc=5",
+   "date": "2026-10-13 05:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Navitas, NVIDIA와 협력해 AI 인프라용 전원 관리 기판 개발",
+    "korean_summary": "Navitas가 NVIDIA와 협력해 차세대 AI 인프라용 800V-12V 전원 공급 기판을 개발하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT21HRnZDOE9CaElINGNmam5GMHdnNFY0TzhMOHRONzRScXBGaGtGMjJ3YnRWM2prcU5naTJhX1BFNnhpdHpDSmxJZDhZZGdXTXJxVzIzRnItcGwyM0tnR3FaZDlCZ2liVUNjOW1TZjdQUFRXbkMwVV9jMEN3RkxnYnQzZ2E1TzFzaHdUVzRUY3R0YVBwbm9zeXF4UmtzUQ",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Financial Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "China faces uphill battle to wean tech firms off Nvidia chips",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI?oc=5",
+   "date": "2026-10-13 09:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "중국, NVIDIA 칩 대체의 어려움 직면",
+    "korean_summary": "Financial Times에서 중국 기업들이 NVIDIA 의존도 탈피에 난항을 겪고 있다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYXhEbjZpZnZxdThlX0h6OVZGSEZ4cUpMekJwOWVlUWZBTU5hZUwzSWh3Slp4UHZDN01faEtCTnZ6U3pxemd0SlVwTzdOYUtMNDd5emVZZF9JdG8yRzNWLXFnT0YzRjJRbk5lYTlZLWJhd2lVSjhxS21hSmN2amxsNTNmVHI",
+   "body": ""
+  },
+  {
+   "source": "Google News · Stock Titan",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA worked with Navitas on a board that skips a power step for AI data centers.",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaHlOYTJIUDIyb241bUV6aVZHYWY2akllWmQ1X1VSNG9xbkpLUTdMMHVKUUlzazdKRHlwV0x4VzJtRElIV2pvckNhR05FVjJXb1BZSHRoYmpiR0xFa0NVV3Y5U1JWN2NaeWpJdjNYTlU3RDVwR0xjelRqWGhKaDhrTnp2MUV3LVRQZ1ZrTmdqQlB4V1ZVTUJZZXdydjFycGM1eDk1RGtYbF9BaHdyelk0R1lQUmdWYmoxdDJN?oc=5",
+   "date": "2026-10-13 05:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Navitas, AI 데이터센터 전력 효율 기술 협력",
+    "korean_summary": "NVIDIA가 Navitas와 협력하여 전력 단계를 스킵하는 AI 데이터센터 보드를 개발했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaHlOYTJIUDIyb241bUV6aVZHYWY2akllWmQ1X1VSNG9xbkpLUTdMMHVKUUlzazdKRHlwV0x4VzJtRElIV2pvckNhR05FVjJXb1BZSHRoYmpiR0xFa0NVV3Y5U1JWN2NaeWpJdjNYTlU3RDVwR0xjelRqWGhKaDhrTnp2MUV3LVRQZ1ZrTmdqQlB4V1ZVTUJZZXdydjFycGM1eDk1RGtYbF9BaHdyelk0R1lQUmdWYmoxdDJN",
+   "body": ""
+  },
+  {
+   "source": "Google News · Breakingthenews.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Cisco plan new optics for AI networks",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjJzM19IejQ5dHZKbXpmc2lZUnZBR3VaZnFOcldyTkRhNFlrWW40WFVJbjQwdmpfcTRkdWZXNm81NXNNYmQtYmpMQU1TWWE4WEpua1hvLWVjcXFYdC13NnluM3ptR2ZZdXhGNTk2UlJQeE16eW40bW1uY19fMVdId2N4Tk9GMzJ4d0FQN1NDcGZtcEE?oc=5",
+   "date": "2026-10-13 00:24",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA·Cisco, AI 네트워크 광학 기술 협력 계획",
+    "korean_summary": "NVIDIA와 Cisco가 AI 네트워크를 위한 신규 광학 기술 협력을 추진 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjJzM19IejQ5dHZKbXpmc2lZUnZBR3VaZnFOcldyTkRhNFlrWW40WFVJbjQwdmpfcTRkdWZXNm81NXNNYmQtYmpMQU1TWWE4WEpua1hvLWVjcXFYdC13NnluM3ptR2ZZdXhGNTk2UlJQeE16eW40bW1uY19fMVdId2N4Tk9GMzJ4d0FQN1NDcGZtcEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · StreetInsider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHBfelUyYlByWHpsUU85MVh3VnE2ZzJUZ0tqRHhjVGNhcVl2RzQ0bUVVYzR6SkRHeDJSZ0ZqVnEzVGZuUTRHbmVUV0NON1NSeDJHS0FGMUlDYWRJZjJHd3pPcllSZlNXRVF6bGowVF9EeEpoSl9EY1drdzVPQlN4Q1dwb3BnUmphVmgxaFZxZVlodzFSUVVKOEFSZEZkQW53cGZRczNwSWdrLVFhNHBiVmI4T3BkbmN2S3pqb1FxTQ?oc=5",
+   "date": "2026-10-13 11:34",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 시장에서 NVIDIA AI칩 점유율 하락, Huawei 격차 축소",
+    "korean_summary": "중국 AI칩 시장에서 NVIDIA의 점유율이 하락하는 가운데 Huawei가 기술 격차를 좁혀가고 있다는 보도가 나왔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaHBfelUyYlByWHpsUU85MVh3VnE2ZzJUZ0tqRHhjVGNhcVl2RzQ0bUVVYzR6SkRHeDJSZ0ZqVnEzVGZuUTRHbmVUV0NON1NSeDJHS0FGMUlDYWRJZjJHd3pPcllSZlNXRVF6bGowVF9EeEpoSl9EY1drdzVPQlN4Q1dwb3BnUmphVmgxaFZxZVlodzFSUVVKOEFSZEZkQW53cGZRczNwSWdrLVFhNHBiVmI4T3BkbmN2S3pqb1FxTQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The National CIO Review",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft to Reduce Nvidia Reliance With Maia 300 AI Chip",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGtINjRIUndlZkUxdUd6QTVoa2dSdDNaR1R1Ylp0cC1kOFpXZHNXdGVYWHpUMG9xVWRWYXVyRkJ4UG1DSjRvTWhIYzRGYmVkVVo5WHZfZ29lc0k2dEM1bUprdVN4Sy1wLVpxOFZzaEdLYkV6b25hRG9jdjNvRm4zS0tmbEZET3laUXRkVGtvRkJ0eEZIbExqQS0yRVllTXJQdUxWaF9aTDlIcW5nZEpCLUgxMmdGQWpJM1E?oc=5",
+   "date": "2026-10-13 03:43",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Microsoft, 자체 Maia 300으로 NVIDIA 의존성 감소 추진",
+    "korean_summary": "Microsoft가 자체 개발한 Maia 300 AI 칩으로 NVIDIA 의존성을 줄이려 한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaGtINjRIUndlZkUxdUd6QTVoa2dSdDNaR1R1Ylp0cC1kOFpXZHNXdGVYWHpUMG9xVWRWYXVyRkJ4UG1DSjRvTWhIYzRGYmVkVVo5WHZfZ29lc0k2dEM1bUprdVN4Sy1wLVpxOFZzaEdLYkV6b25hRG9jdjNvRm4zS0tmbEZET3laUXRkVGtvRkJ0eEZIbExqQS0yRVllTXJQdUxWaF9aTDlIcW5nZEpCLUgxMmdGQWpJM1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Negotiates Investment or Acquisition of Open Source Startup Reflection AI",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX0V1TXBRMUFGaUExSUsxbjBNNS05R18xT0JZN2Y5QnNPVzMzc1FuN2h3dEFXdDlRb3lBbnVtNVFMVlVPLU96S3RtX0dzYTVCWlN3czRGS0tiNUNEWHpORWRsamhjNTd0S0w2QlFETXd6ZEFvSnhLWm5VQzRjZTlrVQ?oc=5",
+   "date": "2026-10-12 22:15",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a",
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 오픈소스 스타트업 Reflection AI 투자·인수 협상",
+    "korean_summary": "NVIDIA가 오픈소스 AI 스타트업 Reflection AI에 대한 투자 또는 인수를 협상 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQX0V1TXBRMUFGaUExSUsxbjBNNS05R18xT0JZN2Y5QnNPVzMzc1FuN2h3dEFXdDlRb3lBbnVtNVFMVlVPLU96S3RtX0dzYTVCWlN3czRGS0tiNUNEWHpORWRsamhjNTd0S0w2QlFETXd6ZEFvSnhLWm5VQzRjZTlrVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Moomoo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Cisco Release New Optical Module With Higher Capacity",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNSkNFTDR6cE9fTUFNenMzdzNuVl8wMEVfRGN0S29BU0oxQVp4cG16TUVJNWdIekNHN0ZpQVNIRTNXVmpQZ0tjM0d6MlctNWd6Z1JTVGpkSXhlSFFEcTBXd1FxcmFjWGtRcXhObmlaeV9hTVZpQ3NjaFJJQlEtVVYtZDAzbXZ4eXJxdDl5Vlp5VVlBTHROdFJZMUdLa3FiZlRrQkxtRQ?oc=5",
+   "date": "2026-10-13 09:38",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Cisco, 초고용량 광학 모듈 공동 개발",
+    "korean_summary": "NVIDIA와 Cisco가 AI 데이터센터의 컴퓨터 밀도를 높이는 새로운 광학 모듈을 함께 개발한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNElNSkNFTDR6cE9fTUFNenMzdzNuVl8wMEVfRGN0S29BU0oxQVp4cG16TUVJNWdIekNHN0ZpQVNIRTNXVmpQZ0tjM0d6MlctNWd6Z1JTVGpkSXhlSFFEcTBXd1FxcmFjWGtRcXhObmlaeV9hTVZpQ3NjaFJJQlEtVVYtZDAzbXZ4eXJxdDl5Vlp5VVlBTHROdFJZMUdLa3FiZlRrQkxtRQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cisco Announces G302 Silicon and USFP Optics With NVIDIA at OCP 2026",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMGJJY3loRjBPT2NZbjd1UlQ0VFhUdHEzS2E4ZXNGUHNsQU1ZMVpZUHN1T3dvd3Zva2xkaGRqeXZTWGpDVDVhdHlUNEYtU2Z6VzgzUk9rbERMaFhLVG13cnNxeG81VkRKdHJKR3RUdkJDOFJnNGF4Q0JSRGFnTzUyR2JkVUc1Zy0zcmphSkVxYklfRl80?oc=5",
+   "date": "2026-10-13 00:23",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco, OCP 2026에서 NVIDIA와 협력하여 G302 실리콘 및 USFP 광학 제품 공개",
+    "korean_summary": "Cisco가 NVIDIA와 협력하여 OCP 2026에서 G302 실리콘과 USFP 광학 제품을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMGJJY3loRjBPT2NZbjd1UlQ0VFhUdHEzS2E4ZXNGUHNsQU1ZMVpZUHN1T3dvd3Zva2xkaGRqeXZTWGpDVDVhdHlUNEYtU2Z6VzgzUk9rbERMaFhLVG13cnNxeG81VkRKdHJKR3RUdkJDOFJnNGF4Q0JSRGFnTzUyR2JkVUc1Zy0zcmphSkVxYklfRl80",
+   "body": ""
+  },
+  {
+   "source": "Google News · Techzine Global",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Cisco develop USFP form factor: up to 12.8 Tb/s capacity",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1FCQjhxeW43RklxZ2R1aGszNE12cmdwSXoybEdEZVJQZ0JXeVphSmluMEcwTWIxbE5jUTVackJzUk9wWUpTM2h5dEIzNUxjWHg0R0c1a0doLVpmWHJkQ0x3LUNkNENpbTNwMm1SUEl3RWR4N3FXcXktd3pFQ0NzSXhJMUtwb3BQTVl0S1RPTnZ5MzJkNmtBVWtJd0M2UW9OVFRTN3JJNXhhX08wMGY1YU1wb0ZGaEliblE?oc=5",
+   "date": "2026-10-13 00:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Cisco, 12.8 Tb/s 용량의 USFP 폼팩터 공동 개발",
+    "korean_summary": "NVIDIA와 Cisco가 최대 12.8 Tb/s 전송 용량의 USFP 폼팩터를 공동으로 개발했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1FCQjhxeW43RklxZ2R1aGszNE12cmdwSXoybEdEZVJQZ0JXeVphSmluMEcwTWIxbE5jUTVackJzUk9wWUpTM2h5dEIzNUxjWHg0R0c1a0doLVpmWHJkQ0x3LUNkNENpbTNwMm1SUEl3RWR4N3FXcXktd3pFQ0NzSXhJMUtwb3BQTVl0S1RPTnZ5MzJkNmtBVWtJd0M2UW9OVFRTN3JJNXhhX08wMGY1YU1wb0ZGaEliblE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ASUS Debuts XA P2N-E2 Server With Dual NVIDIA Vera CPUs at OCP",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVHlyUDdFSVZMTG9qYVQ4YzZRek5RbFpkWjE5UmFLaFdGcXoxUENra2M3OTZ0SkdFbkw4X3dPYlRfOGx5TzJ6RzhFaWlaR2l3WHJVSHJEWVVNSEotbjZqMlFCVEg0NUQzZDBSc3otRXdPSl9qRTZJSUtSdkNuaVB4a3dUam1MeVJDTVkxNA?oc=5",
+   "date": "2026-10-13 00:56",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "ASUS, OCP에서 듀얼 NVIDIA Vera CPU 탑재 XA P2N-E2 서버 공개",
+    "korean_summary": "ASUS가 OCP에서 NVIDIA Vera CPU 2개를 탑재한 XA P2N-E2 서버를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVHlyUDdFSVZMTG9qYVQ4YzZRek5RbFpkWjE5UmFLaFdGcXoxUENra2M3OTZ0SkdFbkw4X3dPYlRfOGx5TzJ6RzhFaWlaR2l3WHJVSHJEWVVNSEotbjZqMlFCVEg0NUQzZDBSc3otRXdPSl9qRTZJSUtSdkNuaVB4a3dUam1MeVJDTVkxNA",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechPowerUp",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX 5080 24 GB Reportedly Planned For Q1 2027, but Board Partners Are Still in the Dark",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUExRTkY1alI0QzBEeWp0Nld6cjBZT3ZtdEtRcmtoMlJRVmpDcFFxYmNKaFV2RVBuVTVITk1TMEo2VEVkZFh4UVJoZU8yQTFpblZIellsMlZLS0RWeTlMQXFCLXRFMlI1OUdYQkdzZ3hUdlVkczNiLWNuazlvRUVBdWRvZEg3aUFUc1o4RnB3djdjaV90dGwxSkdvVzctN0lvcjhmME1pM05XaFV1OE5pZGlacTdtQnBXNTB5RmFzOXBsMkZ1QzVZ0gHMAUFVX3lxTE5kU3ltcGtsMk9YdGxOZWczb2NBaElGMGRDM04zYmZabnZEZDl4OGJKajBWMzdlbEkwLWRBNV91aGVPTE0xd1FPVUEyNXcxb21TTWRnY3hCMkhKTXdhdExMLTVNR0Nmcm5IODUzcWxqNmdTN1BNRUROMXFCRkQzblpRWnltbzVWdW5Pbkd3MldZRGU0Um9EY3o1VXV2MWtoV2dhT2JiMHpTXzdCNm9RVzEwek1IWDVkUmhuYUJ6VTd6V0ZoZVlZV2V1NDdJLQ?oc=5",
+   "date": "2026-10-13 03:02",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX 5080 24GB 2027년 1분기 출시 예정, 보드 파트너 미통보 상태",
+    "korean_summary": "RTX 5080이 2027년 1분기 출시될 예정이지만 OEM 보드 파트너들은 아직 공식 통보를 받지 못한 상태다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUExRTkY1alI0QzBEeWp0Nld6cjBZT3ZtdEtRcmtoMlJRVmpDcFFxYmNKaFV2RVBuVTVITk1TMEo2VEVkZFh4UVJoZU8yQTFpblZIellsMlZLS0RWeTlMQXFCLXRFMlI1OUdYQkdzZ3hUdlVkczNiLWNuazlvRUVBdWRvZEg3aUFUc1o4RnB3djdjaV90dGwxSkdvVzctN0lvcjhmME1pM05XaFV1OE5pZGlacTdtQnBXNTB5RmFzOXBsMkZ1QzVZ0gHMAUFVX3lxTE5kU3ltcGtsMk9YdGxOZWczb2NBaElGMGRDM04zYmZabnZEZDl4OGJKajBWMzdlbEkwLWRBNV91aGVPTE0xd1FPVUEyNXcxb21TTWRnY3hCMkhKTXdhdExMLTVNR0Nmcm5IODUzcWxqNmdTN1BNRUROMXFCRkQzblpRWnltbzVWdW5Pbkd3MldZRGU0Um9EY3o1VXV2MWtoV2dhT2JiMHpTXzdCNm9RVzEwek1IWDVkUmhuYUJ6VTd6V0ZoZVlZV2V1NDdJLQ",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "NVIDIA Rubin PCIe GPUs confirmed in HPE ProLiant Gen13 presentation",
+   "link": "https://www.reddit.com/r/nvidia/comments/1x415j0/nvidia_rubin_pcie_gpus_confirmed_in_hpe_proliant/",
+   "date": "2026-10-12 21:57",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA Rubin PCIe GPU, HPE ProLiant Gen13에 통합 확인",
+    "korean_summary": "NVIDIA의 데이터센터 신제품 Rubin PCIe GPU가 HPE ProLiant Gen13 프레젠테이션에서 공식 확인되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1x415j0/nvidia_rubin_pcie_gpus_confirmed_in_hpe_proliant",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · Cisco Blogs",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cisco and NVIDIA Announce USFP: Expanding the Path to AI Connectivity",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORW82XzZySmhBUllpTmFFR1RWSVBWUGN0UUZjOE1FNlFsYzg3WlJXRjMzWHRBdWZvRE9GUDRCWkF5UGl2NG9EbG9abGVFMkVlYWFsRFV5cDVqLWZ6bG4ta3g4NENfTkcxQzIyOUpla0cwVEtrdE16dFhvcTVYcDFiNnFWSGRWSWRwQ2J5SERJTTRMWmpkV1M5MGRvdEZMZw?oc=5",
+   "date": "2026-10-13 00:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco와 NVIDIA, USFP AI 연결성 표준 발표",
+    "korean_summary": "Cisco와 NVIDIA가 AI 인프라의 연결성 확대를 위한 USFP 표준을 공동 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxORW82XzZySmhBUllpTmFFR1RWSVBWUGN0UUZjOE1FNlFsYzg3WlJXRjMzWHRBdWZvRE9GUDRCWkF5UGl2NG9EbG9abGVFMkVlYWFsRFV5cDVqLWZ6bG4ta3g4NENfTkcxQzIyOUpla0cwVEtrdE16dFhvcTVYcDFiNnFWSGRWSWRwQ2J5SERJTTRMWmpkV1M5MGRvdEZMZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · GeekWire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft makes ‘biggest bet yet’ on its own silicon, unveils new AI chip to reduce reliance on Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn?oc=5",
+   "date": "2026-10-12 22:22",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "Microsoft, NVIDIA 의존성 감축 위해 자체 AI 칩 공개",
+    "korean_summary": "Microsoft가 자체 개발한 AI 칩을 공개하며 NVIDIA 의존성을 줄이려는 의도를 드러냈다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUEZEbjdfOE1lY3RRLVpLcGZDNlUtLU93MTlhbW9JYzRoMmlGZHJsNmd5UFRXNjZkWE9FUmhLRFNqOTZVQ3dKaHkyNm15blIwSXduVk9wb18wV1d4djQ5Sm9Fc1E0aFA3cC0wbjhubVFHRlM2emVWTGhvRGNDYmJiN0JwV2tfQ2xHelBzUEU5R1ZPNVZPNW4tY1VhbjhuQUtHMXZILWdqTDgwdkFHZU5XbnZKNEdWUjk2M01jQ1pUeV9tQ2NUQ3FEV0Rn",
+   "body": ""
+  },
+  {
+   "source": "Google News · CoStar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "News | Nvidia joins tech firms' push to standardize data center development",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlhlaWZUUkN0WmpwOGlWQWU0dzB4SDluTmdZUGowTE9KNDlWX2RNSWt3blBnTURSQ2Exc0Y5TlFWQUFKUmlHMENaSWRacHZ6WlRkQW1NbDBYc0RhYlRDdGVUcmUzLTFwXy1LN0YtVWNldWUyQjJlWlh2dFlLcGl3REktZWg0WFAwTzJROV9zWGFCXzVWNlFza21Eek1NTWpPU1g1UHM1c1cwT1FB?oc=5",
+   "date": "2026-10-13 08:24",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 데이터센터 표준화 추진에 참여",
+    "korean_summary": "NVIDIA가 주요 기술 기업들과 함께 데이터센터 설계 표준화를 추진하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlhlaWZUUkN0WmpwOGlWQWU0dzB4SDluTmdZUGowTE9KNDlWX2RNSWt3blBnTURSQ2Exc0Y5TlFWQUFKUmlHMENaSWRacHZ6WlRkQW1NbDBYc0RhYlRDdGVUcmUzLTFwXy1LN0YtVWNldWUyQjJlWlh2dFlLcGl3REktZWg0WFAwTzJROV9zWGFCXzVWNlFza21Eek1NTWpPU1g1UHM1c1cwT1FB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft reveals Maia 300 AI chip as it works to reduce dependence on Nvidia, AMD",
+   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdzlOWjZPREptdmhCandwSVY1VlRpbGZfbTFKalh1a29UT192S0FiVnpQSHZKb1ZiRjRWQnVMLW5LdTVxUjBWbWM5VXl4czJnLWM4aFpnWU1NYk80VW5KYjJxQUt5THB5QkpVZkFXU2hNQ28wdlIwWmhyRENSTWY0d2phRklOb05XdFVaQS1YRFNyZHE3blRsYk12X2hZS0MySlBSb0ZUUGJPYS1rNUR1N0NCczZneFcyVUk1cTVSaXZURWVwTXV6SGJ6RG5TNzFOd1p2TDhodGM?oc=5",
+   "date": "2026-10-12 22:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "Microsoft Maia 300 AI 칩 공개, NVIDIA·AMD 의존성 감축 추진",
+    "korean_summary": "Microsoft가 Maia 300 AI 칩을 공개하며 NVIDIA와 AMD 의존성 감축을 가속화하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TweakTown",
+     "title": "Microsoft bets big on new Maia 300 AI chip to reduce reliance on NVIDIA GPUs",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXpua0RYZHQ5QnM1T3EyLU85UzE3VC1FT2lsUlZETEpUcXd1bWtTaFBSVUpwZGplMmdhU2tjOUd6cDJ6Q0g5Q2xmeDZBQjBiazNGT2QwRDZsb09kSTVnMXNzQ0xVMjRnRkNOa1lpdTFYWGVrT3d6TFZuSHE2ZmNqMmFDTE4tTUVidUtTbVF6LXg4d0dUa3M5MnhhSzJoUW10Z210UklUZkd6LVk2MFZMX292TzVtd1ZDQi0xMFM2RmZ3bFU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdzlOWjZPREptdmhCandwSVY1VlRpbGZfbTFKalh1a29UT192S0FiVnpQSHZKb1ZiRjRWQnVMLW5LdTVxUjBWbWM5VXl4czJnLWM4aFpnWU1NYk80VW5KYjJxQUt5THB5QkpVZkFXU2hNQ28wdlIwWmhyRENSTWY0d2phRklOb05XdFVaQS1YRFNyZHE3blRsYk12X2hZS0MySlBSb0ZUUGJPYS1rNUR1N0NCczZneFcyVUk1cTVSaXZURWVwTXV6SGJ6RG5TNzFOd1p2TDhodGM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Watch Cisco, Nvidia Tackle AI’s Growing Data Center Bottleneck",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3A0ZVhpdnpoV0UzVzdXMkxVb1dJcnV4S25HV2RXSnl1aTVDYWR1Z1g3X0k2NDdQWUNmU0F0VWlJYkpGQ2pQQXo2cmFVVGdsay1tWHZUbVIzZ2VEQjNpSU82ZmVIVFpHdTNlSVFfYVZoTGl5TTJib1AwdmRFQVdiRy10LUt0ajhQLWJKeUlGendvMEUwMzZ3akc1YVdOTmhrbDh1TVhpelM3TW4wTFBV?oc=5",
+   "date": "2026-10-13 03:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco와 NVIDIA, AI 데이터센터 병목 현상 해결 협력",
+    "korean_summary": "Bloomberg에서 Cisco와 NVIDIA가 데이터센터 문제 해결을 위해 협력한다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · marketscreener.com",
+     "title": "Cisco, Nvidia Tackle AI's Growing Data Center Bottleneck",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR3lFR3VqY0t2eTJPTFBqTEE2WVZocGlGejloRzFnV0tfNGNyNnpFOW9qM1hicEVfQ1hGTDFLNVEzZ0RfcUhfaVJYdEp0eVExdUx3TWk0U3NlUWlpOWRfZTg2d29JZ2FmQ0JhSzhLMVhFMUt4cjBMNlgzd0NfcmR1WjZKYldoUk9oekRFQkNsTDc1c3hDOHZqVEM3Vjd5RnRDeWdMLVBfd0o0aXFW?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3A0ZVhpdnpoV0UzVzdXMkxVb1dJcnV4S25HV2RXSnl1aTVDYWR1Z1g3X0k2NDdQWUNmU0F0VWlJYkpGQ2pQQXo2cmFVVGdsay1tWHZUbVIzZ2VEQjNpSU82ZmVIVFpHdTNlSVFfYVZoTGl5TTJib1AwdmRFQVdiRy10LUt0ajhQLWJKeUlGendvMEUwMzZ3akc1YVdOTmhrbDh1TVhpelM3TW4wTFBV",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barron's",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Microsoft Unveils New Maia AI Chips on a Rough Day for Nvidia Stock",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg?oc=5",
+   "date": "2026-10-13 00:39",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "마이크로소프트 Maia AI 칩 공개... NVIDIA 주가 하락",
+    "korean_summary": "Microsoft가 신형 Maia AI 칩을 공개하면서 NVIDIA 주가가 하락했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0xiX25MdWZKcWVyVVUyN013VnRRQkhXRzlqeUtaeHVmc2ExMjVKb1k4bmRWTzFRY0pUQXItRE1TcWs1RUxpSVVvU2Zmb0s2TkRsMVN1cnFYeTlydmlSVUZxOXUweXBobGZrcGU5WUs5ODU1eVBORW95UmpncmZBVg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investing.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Navitas shares surge 5% on Nvidia AI infrastructure partnership",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHdlWGZYUnl3Z1dyNF9ZaGJfeVB1bHFrV0tVQ3RBbnAya2R3Um1OaDM1Mjd2OHVySkdIM21XR09GemQwUFlMb3hPV1ZuY1psd0Ztd0RobGgxUE1lNFlRY0hhOU1BdnRQODYxRDRTVVI0d1JUd2lMaFVGZEJqaVdITEJHeHRzNkdwSDZWZ1FXa3AtR28yc2d1OFdzbE5OeV91UFdpekp1dUIxY1gzdTFoV1M3X1RCWmYxOEpn?oc=5",
+   "date": "2026-10-13 06:34",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Navitas와 NVIDIA AI 인프라 파트너십, Navitas 주가 5% 상승",
+    "korean_summary": "Navitas가 NVIDIA의 AI 인프라 파트너십을 통해 주가가 5% 상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance Singapore",
+     "title": "Navitas shares surge 5% on Nvidia AI infrastructure partnership",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUZlZUZ0YUQtU19Va3pPUHE5ZXFhZ29acUZ4ZjZXWnVWQXptOHljbW9NSTdhQkNSajR4U1FXb05XblNWMnd4Mk5DSU82a0NwLUNqNnVUZ1dZN3ZvcVhreFN6QnQ1QUNUWEcyajhIOHJiZ1lhWG9lRHpfUS15TTd4ajJ5N0g?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVHdlWGZYUnl3Z1dyNF9ZaGJfeVB1bHFrV0tVQ3RBbnAya2R3Um1OaDM1Mjd2OHVySkdIM21XR09GemQwUFlMb3hPV1ZuY1psd0Ztd0RobGgxUE1lNFlRY0hhOU1BdnRQODYxRDRTVVI0d1JUd2lMaFVGZEJqaVdITEJHeHRzNkdwSDZWZ1FXa3AtR28yc2d1OFdzbE5OeV91UFdpekp1dUIxY1gzdTFoV1M3X1RCWmYxOEpn",
+   "body": ""
+  },
+  {
+   "source": "Google News · SiliconANGLE",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia tackles AI factory scaling bottlenecks with open rack designs and networking advances",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdDR5LVBqRE1pV3NhandIU1ZqdG9SN3JPeHNQMF9VN3QxWWRQZEFibEZlSld2aDBRMTlVZnBLenhOenBtdUtacjloRFIwdjloMnY1OUxKWGF6bVlwZVpkdGtsRVZNVXIwdzRoS09fdHVvNFMybjBLdWM5N1FKU19tRzNEeWFMR3NWUThieEJCUWtsRGtlS2ZjSWdkaXlVaC1GaHBxd1Y5eG5OWjJIVjNlTkMxc3pKT0FfY3VUTmJsWWhCei01MTYzaQ?oc=5",
+   "date": "2026-10-13 00:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, 오픈 랙 설계와 네트워킹 기술로 AI 공장 확장 병목 해결",
+    "korean_summary": "NVIDIA가 오픈 랙 설계와 네트워킹 기술 발전으로 AI 데이터센터 확장 병목을 극복하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdDR5LVBqRE1pV3NhandIU1ZqdG9SN3JPeHNQMF9VN3QxWWRQZEFibEZlSld2aDBRMTlVZnBLenhOenBtdUtacjloRFIwdjloMnY1OUxKWGF6bVlwZVpkdGtsRVZNVXIwdzRoS09fdHVvNFMybjBLdWM5N1FKU19tRzNEeWFMR3NWUThieEJCUWtsRGtlS2ZjSWdkaXlVaC1GaHBxd1Y5eG5OWjJIVjNlTkMxc3pKT0FfY3VUTmJsWWhCei01MTYzaQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Startup Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's RTX 5080 Super 24GB slips toward CES 2027 as AI eats the memory",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFEyaHVLejVCZDdxSFlqZWpqZmllTHpmZXhnTGp3OVN6U1c4NWRpeTB1YzRPZG0xcVZHOU1vcWNDN0ZLbjZkNUNibjNKSlh2clZCQ3FwYjhCUjE0aXZaSGhuMDVsUlU5ZncwUEpvNXppVEZ5WVd3OUdEanhpZ0N1TXVrLVRLUmt3Y2F0eEF3T0puOGVaTE1SNVlOeUIzRlF1?oc=5",
+   "date": "2026-10-13 03:39",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX 5080 Super, 메모리 부족으로 CES 2027 출시 연기",
+    "korean_summary": "AI 메모리 수요 급증으로 인해 RTX 5080 Super의 출시 일정이 2027년으로 밀렸다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFEyaHVLejVCZDdxSFlqZWpqZmllTHpmZXhnTGp3OVN6U1c4NWRpeTB1YzRPZG0xcVZHOU1vcWNDN0ZLbjZkNUNibjNKSlh2clZCQ3FwYjhCUjE0aXZaSGhuMDVsUlU5ZncwUEpvNXppVEZ5WVd3OUdEanhpZ0N1TXVrLVRLUmt3Y2F0eEF3T0puOGVaTE1SNVlOeUIzRlF1",
+   "body": ""
+  },
+  {
+   "source": "Google News · Stock Titan",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Cisco plan a data-center module to connect more AI computers in the same space",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVm5TMTRVS0tzZkxTc1hyRlVaSUQ4ZXZoZm01U0F0NVczb1JWelNySU42eG9kdUpzaGZRSnlqWXFCWkpjX0F6STZudG5ieF9rNWhkRGVhMUR2WXpocFBYcGlyZGlWVzNCb0NQMTlEckdiamVNZEhSTHJxV0lsZU9sUXVqYWJ2N1lJR2FHQ0ZEby1FczhRX01VQlhTVXpoVUdaMUdhSVM1ZEpBWHFRM09VZ2pIQVhUSVdEeTVrR3dXb3U?oc=5",
+   "date": "2026-10-13 00:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Cisco, 데이터센터 AI 컴퓨터 고밀도 연결 모듈 계획",
+    "korean_summary": "NVIDIA와 Cisco가 같은 공간에 더 많은 AI 컴퓨터를 연결하는 데이터센터 모듈을 개발 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVm5TMTRVS0tzZkxTc1hyRlVaSUQ4ZXZoZm01U0F0NVczb1JWelNySU42eG9kdUpzaGZRSnlqWXFCWkpjX0F6STZudG5ieF9rNWhkRGVhMUR2WXpocFBYcGlyZGlWVzNCb0NQMTlEckdiamVNZEhSTHJxV0lsZU9sUXVqYWJ2N1lJR2FHQ0ZEby1FczhRX01VQlhTVXpoVUdaMUdhSVM1ZEpBWHFRM09VZ2pIQVhUSVdEeTVrR3dXb3U",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Navitas, NVIDIA collaborate on power delivery board for AI data centers",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcHVoRkhNSzFKNFFMMEFWUG5EbVNIM0djRXZLNTVjbUd6TkV5c056alNab3l6eUp4OHNsaWljM0dLTV9FOE9mc0dlVWt1bjZ3WEJfaEdnVy1xQ0cxcjdkQUxiVGF0bGE1MjhYSHdQUkE1QW5RNGpITVF1VkctRVl1QVl0OFY1SEt6VnFGTlVLX0o2NElsT2UwOGQyV04zUjZDaWt1aEVFZlFKMXVxXzdGTVh1djFJSEEweW9oSjRiSU80QUxvODRySU9JaHpIdw?oc=5",
+   "date": "2026-10-13 05:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Navitas와 NVIDIA, AI 데이터센터 전력 공급 기판 협력",
+    "korean_summary": "Navitas가 NVIDIA와 함께 AI 데이터센터용 전력 전달 기판을 공동 개발한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOcHVoRkhNSzFKNFFMMEFWUG5EbVNIM0djRXZLNTVjbUd6TkV5c056alNab3l6eUp4OHNsaWljM0dLTV9FOE9mc0dlVWt1bjZ3WEJfaEdnVy1xQ0cxcjdkQUxiVGF0bGE1MjhYSHdQUkE1QW5RNGpITVF1VkctRVl1QVl0OFY1SEt6VnFGTlVLX0o2NElsT2UwOGQyV04zUjZDaWt1aEVFZlFKMXVxXzdGTVh1djFJSEEweW9oSjRiSU80QUxvODRySU9JaHpIdw",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
+   "date": "2026-10-13 02:37",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-3.5-Lightning 모델 DSpark 체크포인트 업데이트",
+    "korean_summary": "NVIDIA가 Nemotron-3.5-Lightning-30B 모델의 DSpark 추측 디코딩 체크포인트를 Hugging Face에 업데이트한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark:2026-10-13",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: Model Optimizer · tags: Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Lightning, latent-moe, mtp, DSpark, text-generation, arxiv:2607.05147, base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16 · downloads 132091 · likes 36. README:  # Model Overview ## Description: The NVIDIA Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark model is the DSpark speculative decoding checkpoint for NVIDIA's Nemotron-3.5-Lightning-30B-A3B model family, which is a hybrid LatentMoE language model designed for reasoning, chat, and agentic workflows. For more information, please check [BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16), [NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4). The NVIDIA Nemotron-3.5-Lightning-30B-A3B-DSpark-NVFP4 model is intended for DSpark speculative decoding deployments tuned for DGX Spark and low-concurrency data centre workflows. This model is ready for commercial or non-commercial use. ## License/Terms of Use: **GOVERNING DOWNLOAD TERMS:** Use of this model is governed by the [OpenMDW-1.1 model license](https://openmdw.ai/license/1-1/). ## Deployment Geography: Global ## Use Case: Developers deploying Nemotron-3.5-Lightning-30B-A3B for reasoning, chat, RAG, and agentic workflows that benefit from lower-latency speculative decoding on DGX Spark and data centre GPUs. This release is intended for DSpark-assisted serving of Nemotron-3.5-Lightning-30B-A3B rather than as a standalone target model checkpoint. ## Release Date: Hugging Face 08/11/2026 via [https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-DSpark) ## References - NVIDIA Model"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 23,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 3,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 75.6
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 11,
+   "enriched": 11,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 3,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 31,
+   "enriched": 7,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 22.1
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 43,
+   "enriched": 43,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 5.5
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 12,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
