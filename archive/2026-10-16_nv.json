@@ -1,0 +1,2970 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-16",
+ "window": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "generated": "2026-10-16T08:51:10+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Volvo Cars가 NVIDIA와 파트너십을 확대해 Hyperion·Halos·Alpamayo 스택 기반 **핸즈프리 자율주행**을 2030년까지 도입한다.",
+  "NVIDIA가 1200억 파라미터 **Nemotron 3.5 Super VL**과 Bolt 모델을 공개해 서버부터 로컬까지 에이전트 배포를 지원한다.",
+  "NVIDIA Isaac Lab이 브라우저 기반 **Newton 물리엔진** 인터랙티브 데모를 공개해 로보틱스 개발자 접근성을 높였다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+   "link": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+   "date": "2026-10-16 02:30",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "볼보 자동차, NVIDIA 자율주행 파트너십 확대 - Hyperion 아키텍처 차세대 모델 탑재",
+    "korean_summary": "볼보 자동차가 NVIDIA의 Hyperion 센서·컴퓨팅 아키텍처와 Halos OS를 차세대 자율주행 시스템에 적용한다."
+   },
+   "summary_data": {
+    "korean_title": "Volvo Cars, NVIDIA와 파트너십 확대해 안전한 자동화 주행 기술 고도화",
+    "korean_summary": "Volvo Cars가 차세대 차량의 자율주행 안전성을 높이기 위해 NVIDIA와 파트너십을 확대하며 Hyperion 아키텍처와 Halos OS, Alpamayo Stack을 도입한다.",
+    "action": {
+     "actor": "Volvo Cars",
+     "action": "NVIDIA와의 파트너십을 확대하여 Hyperion 센서·컴퓨트 아키텍처, Halos OS, Alpamayo Stack 기반 자동화 주행 기술 개발",
+     "stage": "Announced",
+     "timeline": "차세대 Volvo 차량에 데뷔 예정, 구체적 시점 미확인",
+     "scope": "Volvo 차세대 전기차 라인업, 최근 발표된 최대 규모 제품 확장 계획의 일부"
+    },
+    "key_facts": [
+     "**Volvo Cars와 NVIDIA의 협력은 2017년부터 시작된 10년 이상의 관계**",
+     "기술은 NVIDIA Hyperion 센서·컴퓨트 아키텍처, Halos OS, Alpamayo Stack 주행 소프트웨어를 결합",
+     "**고속도로, 도심, 주차 시나리오를 포함한 door-to-door 복잡한 실제 환경 주행을 목표**",
+     "eyes-off, mind-off 주행을 점진적으로 도입할 계획",
+     "해당 기술은 Volvo의 최근 발표된 역대 최대 규모 제품 확장(product push)의 차세대 차량에 처음 탑재될 예정"
+    ],
+    "why_matters": "**Volvo의 ‘안전’ 브랜드 역사와 NVIDIA의 AI 컴퓨팅 기술이 결합되어 완전자율주행(eyes-off/mind-off) 경쟁에서 안전성 차별화 포인트를 만든다.** 이는 소프트웨어 정의 차량(SDV) 경쟁에서 전통 완성차업체가 NVIDIA 풀스택(Hyperion+Halos+Alpamayo)을 채택하는 대표 사례로 자리잡는다.",
+    "subject_angle": "**NVIDIA는 Hyperion·Halos·Alpamayo로 구성된 자율주행 풀스택을 완성차 OEM에 공급하는 핵심 파트너로서의 지위를 강화**하며, Volvo를 통해 안전성 중심의 프리미엄 브랜드 레퍼런스를 확보한다.",
+    "focus_angle": "완성차 OEM 입장에서는 자체 안전 노하우와 NVIDIA의 AI 컴퓨팅·자율주행 소프트웨어 스택을 결합해 자율주행 경쟁에서 차별화된 안전성을 내세울 수 있으며, **eyes-off/mind-off 단계적 도입은 Level 3/4 자율주행 상용화 경쟁에 직접 영향을 미친다.** 이는 로보택시·휴머노이드向 자율주행 기술과도 공유되는 Hyperion/Halos 플랫폼의 범용성을 보여준다.",
+    "companies": [
+     {
+      "name": "Volvo Cars",
+      "context": "NVIDIA와 파트너십을 확대하는 완성차 OEM, 안전 기술과 차세대 전기차 개발 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Hyperion, Halos OS, Alpamayo Stack 등 자율주행 풀스택을 제공하는 기술 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Hyperion",
+      "role": "자율주행용 센서·컴퓨트 아키텍처"
+     },
+     {
+      "name": "Halos OS",
+      "role": "차량용 운영체제 플랫폼"
+     },
+     {
+      "name": "Alpamayo Stack",
+      "role": "주행 소프트웨어 스택"
+     }
+    ],
+    "watch_next": [
+     "차세대 Volvo 차량의 구체적 출시 시점 및 모델명 공개 여부",
+     "eyes-off/mind-off 주행 기능의 단계별 상용화 일정",
+     "다른 완성차 OEM의 NVIDIA Hyperion/Halos/Alpamayo 채택 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5"
+    },
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYURrcF9BTUJoeTZhQ2NQLTFnUEs0M2o5TnQyN0FmdjJHYm5iOUFtUVYxalZCVWMwbkpQSi11djI0SUs0UVR0ODNEcWlyQ09zSUxYbmloZURidVB2clU5VVI4OTg4QVZkYjN6SGM2U0tNNk8yS21TbkFkQ3AzY0lKbTI2OUJLSDJQSUREdmw1ZDdHLWJ2SXpKeVgzT2plcjZfS25VUTNqcFRJSW1pMXc?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+   "body": "Volvo Cars today announced it is expanding its partnership with NVIDIA to unlock new levels of safety in automated driving technology in future cars from Volvo, building on the companies’ decade-long collaboration. Guided by Volvo Cars’ pioneering safety knowledge and powered by the NVIDIA Hyperion sensor and compute architecture, the technology will enable future Volvo cars to safely navigate complex real-world environments from door to door. This includes everything from highways and busy urban streets to parking scenarios. The technology will make its debut in a next-generation Volvo car as part of the company’s recently announced largest-ever product push. Volvo Cars will combine its industry-leading vehicle safety systems and engineering expertise with NVIDIA’s AI and accelerated computing technologies. These include the Hyperion sensor and compute architecture, Halos OS, and Alpamayo Stack driving software. Together, the companies will raise the bar for AI-enabled car safety while making driving feel easier and more effortless for customers, with a gradual introduction of eyes-off and mind-off driving. Volvo Cars brings nearly a century of real-world safety research and its human-centric approach to this development. The ambition is to set a new benchmark for automated driving that is safe, convenient and worthy of customer trust. “Volvo has been synonymous with car safety for almost 100 years,” said Håkan Samuelsson, president and CEO of Volvo Cars. “By working with NVIDIA, we bring together two distinct strengths: industry-leading safety knowledge and world-class AI technology. That combination gives us a unique opportunity to create safer and more attractive cars for our customers.” “Accelerated computing has transformed the car into an intelligent machine that can understand the world around it,” said Jensen Huang, founder and CEO of NVIDIA. “Volvo has spent nearly a century protecting people on the road. Together, we’re combining Volvo’s extraordinary vehicle safety systems with NVIDIA Hyperion and Halos to build a new generation of cars that make driving safer and more effortless.” This expanded partnership marks another milestone in the companies’ long-standing collaboration, which began in 2017. Volvo Cars is bringing the industry’s most advanced computing capabilities into its next generation of electric cars, establishing it as a leader in software-defined cars."
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
+   "link": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
+   "date": "2026-10-16 02:34",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Volvo, NVIDIA와 자율주행 파트너십 확대—Hyperion·Alpamayo·Halos",
+    "korean_summary": "Volvo가 NVIDIA Hyperion, Alpamayo, Halos로 도시·고속도로 자율주행 시스템 개발"
+   },
+   "summary_data": {
+    "korean_title": "Volvo, 핸즈프리 자율주행 위해 NVIDIA와 파트너십 확대",
+    "korean_summary": "Volvo가 도심·고속도로 핸즈프리 자율주행 구현을 위해 NVIDIA의 Hyperion, Alpamayo, Halos 세 가지 하드웨어·소프트웨어 스택을 전면 도입하는 방식으로 거의 10년간 이어온 협력을 확대한다.",
+    "action": {
+     "actor": "Volvo",
+     "action": "NVIDIA의 Hyperion 센서·컴퓨트 아키텍처, Alpamayo 주행 소프트웨어 스택, Halos 안전성 평가 레이어를 결합한 자동화 주행 시스템 도입",
+     "stage": "Announced",
+     "timeline": "신차는 '10년 이내(within the decade)' 출시, 구체적 모델·일정은 미확인",
+     "scope": "Volvo의 미래 차량 전반(EV, PHEV, 내연기관 포함), 특정 모델은 미확인"
+    },
+    "key_facts": [
+     "Volvo와 NVIDIA는 **Hyperion(센서·컴퓨트), Alpamayo(주행 SW 스택), Halos(안전성 평가 레이어)** 세 가지를 결합한 확장 파트너십을 목요일 발표",
+     "오픈소스 Alpamayo 소프트웨어는 **650,000명 이상의 개발자**가 다운로드",
+     "현재 Volvo의 모든 배터리 전기차는 NVIDIA의 Orin 칩을 사용 중",
+     "Volvo는 향후 센서 세트 측면에서도 Hyperion으로 표준화할 계획",
+     "파트너십 금액과 최초 적용 차량 모델은 공개되지 않음"
+    ],
+    "why_matters": "NVIDIA는 **Orin에서 차세대 Hyperion/Alpamayo/Halos 풀스택으로 레벨업**하며 자동차 자율주행 플랫폼 공급자로서의 입지를 공고히 하고, 완성차 업체가 사내 개발이 아닌 NVIDIA 플랫폼에 전면 의존하는 구조를 보여준다. 이는 Tesla, Mobileye 등과의 자율주행 플랫폼 경쟁에서 NVIDIA가 EV뿐 아니라 PHEV·내연기관까지 포괄하는 전차종 표준으로 확장하려는 전략을 시사한다.",
+    "subject_angle": "NVIDIA는 단일 칩(Orin) 공급에서 **센서·컴퓨트·소프트웨어·안전성 평가를 포함한 통합 자율주행 플랫폼 공급자**로 포지션을 전환하고 있으며, Alpamayo의 오픈소스 생태계(65만 다운로드)를 통해 개발자 저변을 넓혀 자동차 업계 표준화를 주도하려는 전략을 보여준다.",
+    "focus_angle": "Volvo는 차량 계열(car-line) 기반 개발에서 **'풀테크스택 기업(full-tech stack company)'**으로 전환을 선언하며, OEM이 자율주행 SW·HW 개발을 자체 역량이 아닌 NVIDIA 플랫폼 표준화에 맡기는 산업 구조 변화를 보여준다. 이는 완성차 OEM의 자율주행 경쟁력이 자체 기술보다 플랫폼 파트너 선택에 좌우되는 흐름을 가속화할 수 있다.",
+    "companies": [
+     {
+      "name": "Volvo",
+      "context": "NVIDIA 플랫폼을 도입해 핸즈프리 자율주행 시스템을 구축하는 완성차 업체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Hyperion, Alpamayo, Halos, Orin 등 자율주행 하드웨어·소프트웨어 플랫폼 공급자"
+     }
+    ],
+    "products": [
+     {
+      "name": "Hyperion",
+      "role": "센서·컴퓨트 아키텍처"
+     },
+     {
+      "name": "Alpamayo",
+      "role": "AI 모델·데이터셋·시뮬레이션 기반 주행 소프트웨어 스택(오픈소스)"
+     },
+     {
+      "name": "Halos",
+      "role": "안전성 평가 레이어"
+     },
+     {
+      "name": "Orin",
+      "role": "현재 Volvo EV에 탑재된 컴퓨트 칩"
+     }
+    ],
+    "watch_next": [
+     "Hyperion/Alpamayo/Halos를 최초 탑재할 Volvo 신차 모델 및 출시 시점 공식 발표",
+     "파트너십 계약 규모 및 상세 조건 공개 여부",
+     "Alpamayo 오픈소스 생태계의 타 완성차 업체 채택 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oQnk1LVdjelNqTXl1NXFRcERUa0tpZ2htVzBVWUxYTFB5ZXhxYWRJbEtNTXYwOVBYRHBBZlJtNUQ4am5iODdjbDlJLUw2Z1RwTXNSZmZYbmktekNLdVZxVmZKc2wxVmFqQ1J5WC1jSGdOWjBFc2lTVQ?oc=5"
+    },
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Volvo makes a bigger bet on Nvidia for hands-free automated driving",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oQnk1LVdjelNqTXl1NXFRcERUa0tpZ2htVzBVWUxYTFB5ZXhxYWRJbEtNTXYwOVBYRHBBZlJtNUQ4am5iODdjbDlJLUw2Z1RwTXNSZmZYbmktekNLdVZxVmZKc2wxVmFqQ1J5WC1jSGdOWjBFc2lTVQ?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia",
+   "body": "Volvo is leveling up its automated driving system through an expansion of its nearly decade-long partnership with Nvidia. The companies announced on Thursday that Volvo will use three pieces of Nvidia hardware and software in its future vehicles to provide an automated driving system that can navigate urban streets and highways. Under the expanded partnership, Volvo will combine its vehicle safety systems and engineering with Nvidia’s Hyperion sensor and compute architecture, Alpamayo driving software stack, and Halos safety evaluation layer. The Alpamayo stack is redundant and diverse, according to Ali Kani, who heads up Nvidia’s automotive division. It combines Alpamayo, a family of AI models, datasets, and simulation and development tools used to build autonomous-driving software, with classical software that uses machine learning and camera and radar perception, he said. “The point is we run these two stacks at the same time, and we have multimodal sensors in our philosophy because it’s a safer product that way,” Kani said, adding that the open source Alpamayo software has now been downloaded by more than 650,000 developers. Volvo didn’t reveal the value of the partnership or which vehicle model would be the first to use this new Nvidia tech stack. But Alwin Bakkenes, Volvo’s head of software development, hinted at the scale of the deal and how it represents the automaker’s evolution toward developing a full-tech stack designed for its electric vehicles as well as its plug-in hybrids and gas-powered vehicles. “Automakers used to be very much like car-line-based development and working with various suppliers, etc. and we have completely changed and migrated into being a full-tech stack company,” Bakkenes said, adding that Volvo will start this partnership with a brand new vehicle that “will come in the not-too-near future.” He said the first vehicle with this new Nvidia tech stack will debut within the decade, and “then of course the technology can go beyond that.” While Volvo’s relationship with Nvidia isn’t new, the expanded partnership represents the automaker’s effort to bring the latest automated driving software to all of its vehicles — not just its EVs. All of Volvo’s battery-electric vehicles use Nvidia’s Orin computer chip, which processes information from cameras, radar, and other sensors to help a vehicle understand its surroundings and make driving decisions. “What we’re going to do in the future is actually standardize more on Hyperion — also from a sensor set perspective — to really open up the stack for the wider partnership with Nvidia,” Bakkenes said."
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
+   "link": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+   "date": "2026-10-16 02:30",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Volvo, 2030년 NVIDIA 자율주행 스택 기반 무핸들 드라이빙 출시 예정",
+    "korean_summary": "Volvo가 NVIDIA 자율주행 기술을 탑재해 2030년까지 도시 자동주행(Level 2++)을 구현할 계획을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "Volvo, 2030년까지 NVIDIA 기반 핸즈프리 point-to-point 주행 시스템 도입",
+    "korean_summary": "Volvo가 복잡한 도심 환경까지 대응하는 Level 2++ 핸즈프리 주행 시스템을 2030년까지 NVIDIA의 자율주행 스택 기반으로 출시할 계획이다.",
+    "action": {
+     "actor": "Volvo",
+     "action": "NVIDIA의 자율주행 스택을 활용해 핸즈프리 point-to-point 주행 시스템 개발",
+     "stage": "Announced",
+     "timeline": "2030년까지",
+     "scope": "Volvo 차량, Level 2++ 등급"
+    },
+    "key_facts": [
+     "Volvo는 **2030년까지 핸즈프리 point-to-point 주행 시스템 출시**를 발표함",
+     "이 시스템은 신호등, 정지 표지판, 무보호 좌회전 등 복잡한 도심 환경을 운전자 개입 없이 처리하는 **Level 2++** 등급임",
+     "Tesla의 Full Self-Driving (Supervised)과 유사한 부분 자동화 시스템임",
+     "Mercedes-Benz가 최근 출시한 NVIDIA 기반 시스템과도 유사하다고 언급됨"
+    ],
+    "why_matters": "자율주행 Level 2++ 경쟁이 Tesla 중심에서 **NVIDIA 플랫폼 기반 OEM 연합**으로 확장되고 있음을 보여준다. Volvo와 Mercedes-Benz가 동일한 NVIDIA 스택을 채택함으로써 NVIDIA가 완성차 업체들의 표준 자율주행 인프라 공급자로 자리매김하고 있다.",
+    "subject_angle": "NVIDIA는 **복수 글로벌 OEM(Mercedes-Benz, Volvo)에 걸쳐 자율주행 스택을 표준화**함으로써 자동차 산업 내 플랫폼 지배력을 강화하는 전략을 보여준다.",
+    "focus_angle": "자동차 OEM 입장에서는 자체 자율주행 스택 개발 대신 **NVIDIA 플랫폼을 채택해 Tesla FSD 수준의 기능을 빠르게 확보**하려는 흐름이 확산되고 있으며, 이는 Level 2++ 경쟁이 자율주행 소프트웨어 자체 개발보다 NVIDIA 중심 생태계 의존으로 재편되는 신호다.",
+    "companies": [
+     {
+      "name": "Volvo",
+      "context": "NVIDIA 자율주행 스택을 채택해 핸즈프리 주행 시스템 개발"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "자율주행 AI 기술 및 스택 제공"
+     },
+     {
+      "name": "Tesla",
+      "context": "FSD(Supervised) 시스템이 비교 대상으로 언급됨"
+     },
+     {
+      "name": "Mercedes-Benz",
+      "context": "NVIDIA 기반 유사 시스템을 최근 출시한 선례로 언급됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA 자율주행 스택",
+      "role": "Volvo의 point-to-point 주행 시스템 구동 기술 기반"
+     }
+    ],
+    "watch_next": [
+     "Volvo의 구체적 하드웨어(칩/센서) 사양 및 NVIDIA 플랫폼 세부 명칭 공개 여부",
+     "2030년 출시 전 중간 마일스톤 또는 파일럿 지역 발표 여부",
+     "Mercedes-Benz 시스템과의 기술적 차별점 또는 공유 아키텍처 범위"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · The Verge",
+     "title": "Volvo will use Nvidia’s tech for hands-free, point-to-point driving",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSTZmaUgzdlgzal9mVlpQc0taWk9NSTlvbldybDhwc1lvelBwQm41S2NvN1ZxSGlkQVM4UzdFcl9TTXZOMUFjdlM2ZlRWbUZKZm9abzhxaGNpU29heTZFSlVsZDE4dlhNN0lBVkU2MFpJUTREUDdxX1hVSXAycEZrYTE1bTdSYmZCM2JNSUhETWQ0N1lQWTdyMkVnWW1tT1pvOFYya2FCZw?oc=5"
+    }
+   ],
+   "uid": "https://www.theverge.com/transportation/1011653/volvo-nvidia-autonomous-driving-level-2-hands-free-urban",
+   "body": "Volvo plans to launch hands-free, point-to-point driving by 2030, powered by Nvidia's latest AI technology. The Chinese-owned, Swedish-designed automaker said Thursday it would use Nvidia's autonomous driving stack to power a new partially automated driving system similar to Tesla's Full Self-Driving (Supervised). Volvo says the new point-to-point system will be Level 2++, meaning it can handle complex urban environments, including traffic lights, stop signs, and unprotected left turns without explicit driver control. In addition to Tesla's FSD, it will also resemble the Nvidia-powered system that Mercedes-Benz recently rolled out for the … Read the full story at The Verge."
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Cars Expands NVIDIA Partnership for Door-to-Door Automated Driving",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMWhJcEJ3TmJmQ0hZNWhIU3cybnFoX0dTUGZEZlFmQ09BSXI1Y1pXbjhKd3hCQjExOFpJRWxWYXNCTEpXQVI0cFlRejZzT0tPLVVXWDAxN0RtOUI3OGlhQmxxTVc5ZWRlbkY4YXdoU3JsREItMzJXbXhnZ0MzNXVrZHM0dEdMNGxDeUVwMTg4aE5tWktLODE1ZWZB?oc=5",
+   "date": "2026-10-16 02:53",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Volvo Cars NVIDIA와 협력 확대, 도어투도어 자동주행 기술 추진",
+    "korean_summary": "Volvo Cars가 NVIDIA와의 협력을 확대하여 도어투도어 자동주행 기술을 개발·배포한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Innovation Village",
+     "title": "Volvo Expands Nvidia Partnership for Automated Driving",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNVkxeTFETnk0Ym1pMGpmenNwM190Q2ZjTVZVZ1NDVV9pOVlYRkxBUnR3WEVaVEgyTWprOUV5eUR4YzZOSHlKajZ3SFY5SlphTFFjU3UzRzA0aVkxWVh0eERkUmU3bDI1QlpLV19POTZieUFrRGtOYjBYUHhhYjRNVm9FQXZ6SzYwZnV0ekVSRQ?oc=5"
+    },
+    {
+     "source": "Google News · Blockchain News",
+     "title": "Volvo Cars expands NVIDIA partnership on automated driving",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTzRTQldJb3hibFRwTUdBN19nWkJCZTVmU2NkZFBEZktValdpOXdnS2R5ckNnaXVHbUdfU0JJZ1h4WU1YYkNLUjkzVlpHZFFBMlpsaU9aRkF2RlJ6bFFUY24wVTVWVTFZMEwwM1pHUDlDR1U0M2daczlOdGVwSFdYQkhOdzl3Mm1mbWRYYQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMWhJcEJ3TmJmQ0hZNWhIU3cybnFoX0dTUGZEZlFmQ09BSXI1Y1pXbjhKd3hCQjExOFpJRWxWYXNCTEpXQVI0cFlRejZzT0tPLVVXWDAxN0RtOUI3OGlhQmxxTVc5ZWRlbkY4YXdoU3JsREItMzJXbXhnZ0MzNXVrZHM0dEdMNGxDeUVwMTg4aE5tWktLODE1ZWZB",
+   "body": ""
+  },
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Deepens Nvidia Ties to Roll Out Hands-Free Driving Before 2030",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SSG5CT21qazluMDJ3eW9PUWRSLVpiYzdTTzN4a2hSVmVldmRBbzdKMFJfbzcySlppVkRZZWlsQ19jSWFNeGVVQVh6WGNjOUhlUmx3cGFiU0h5bk54bmw5M1pmYklpTV9QSHRiZkFBcDVVdjNQZXc?oc=5",
+   "date": "2026-10-16 03:19",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Volvo NVIDIA 협력 심화, 2030년 전 핸즈프리 주행 출시",
+    "korean_summary": "Volvo가 NVIDIA와의 관계를 심화하여 2030년 이전에 핸즈프리 자동주행을 출시할 계획이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SSG5CT21qazluMDJ3eW9PUWRSLVpiYzdTTzN4a2hSVmVldmRBbzdKMFJfbzcySlppVkRZZWlsQ19jSWFNeGVVQVh6WGNjOUhlUmx3cGFiU0h5bk54bmw5M1pmYklpTV9QSHRiZkFBcDVVdjNQZXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Cars expands automated driving partnership with Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLWtIdFNOaHNvOGk3ZDB4eHM3LWhYaWhNX3hDdE16S3RIMW1PanNrX0RDdWthRDV1ZGxaUVlQQXRuN2RsZ3Z2WkMzUWx5amJSdDdiOEFqaEo1Z3JsV0s0UkttS3I3dTJWYUtzR3hlRjl2WmM2enZkNGM3bGwtYzVyVWdGNFZOUzFuYW5MSFpiOUlxQmNKTlBfTVdZRUlaUU1nVC1rRVBUY2RoSUh4NV90WDF6Zjc5MlpneTZVWFB5RmFNZkFG?oc=5",
+   "date": "2026-10-16 06:27",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Volvo Cars, NVIDIA와 자동화 운전 협력 확대",
+    "korean_summary": "Volvo Cars가 NVIDIA와의 자동화 운전 파트너십을 확대했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Idaho Statesman",
+     "title": "Volvo Cars expands automated driving partnership with Nvidia",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TcGpOOWFqanB4aGE2Yk1Md0xNM2xaejJ4N3hRTTJiT2FZck9EQmhJTFdia3pOWlA0bFlXQjRYRVBiSXJPZ2hvdndibWdsSFF1VEh5OFJkakd4SWZhVmRIR1dpcmVXV3d6UjJjRW9PZkRhVVFS?oc=5"
+    },
+    {
+     "source": "Google News · Tacoma News Tribune",
+     "title": "Volvo Cars expands automated driving partnership with Nvidia",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wampfemZMeTRFZGlxTjRTeVBMdDY1eXcwVW9Fc21WVl9udGd1TFhNcmZEZ1RRLWZhX0steTFvODhIVURIQzdqLU5YaGRfcW1lZ2F0V0dBd1Y5TFdLaURRcTQ2UmlOQ1htSEhFdE9PQ3lZLXZm?oc=5"
+    },
+    {
+     "source": "Google News · The Mighty 790 KFGO",
+     "title": "Volvo Cars expands automated driving partnership with Nvidia",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYTZyZnFwam5OdUJXdEd6a2I1RjNpTDR6TnFVNGc0ZmE2N1NKZzFiRGNobXdRT3hNRkRrVjJLZUlWeVdqXzNSUXYyOWUwUWpHZlBHY1FDOFk1Nk50TWVuMDlHblhwRGx5Uk5KTkx4TnpRd1pjNmFDb0E2VlNNd1hnVjV2bS1zQWhobUQxbDFJMzY5MTA?oc=5"
+    },
+    {
+     "source": "Google News · Seeking Alpha",
+     "title": "Volvo expands partnerships with NVIDIA on automated driving (VOLAF:OTCMKTS)",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYUotRjZnUVZXRlh2TVN0dFYzNUFmT3BYZzg4OWF6cUNWZzlrcWNwY05lWjBBTUpydVB0TUxzd3RPLS1MUXFZazRaLVhBXzRnT21Lb0RWUGF2ME11aG5NS3FEdEVOTGhqb0tUWWlGbmJFMlBhY1lHNHplOTQxZlVLbU9pTkQ2Mks2SzRpV0VjOW9iZnRCbWFnUG94MXpGQQ?oc=5"
+    },
+    {
+     "source": "Google News · TradingView",
+     "title": "Volvo expands partnerships with NVIDIA on automated driving",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYTV3R0dfSDR6Nkc1eVBZc1F1U2Qyd3h0MGFEdXo1bV9SekRUQTQ1TVlDb3RWR2FjcGxpNXIzTGZxVjd6U1kwS0ViVlBzcEo3aTJBLVptZGtMLWhhUTNXUHNwcHdFTHB2ejJNdkhwRHN2V2lKUldfY0ZEekl5bUFEdVQwLXM3Yk5PQ2pKMGlUbGtfN1ZSTXlES1lYbHROcTk4T2JENjI5SDFDb2tCMkF5bUI3MFo5enVGVVY3VXJLTQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOLWtIdFNOaHNvOGk3ZDB4eHM3LWhYaWhNX3hDdE16S3RIMW1PanNrX0RDdWthRDV1ZGxaUVlQQXRuN2RsZ3Z2WkMzUWx5amJSdDdiOEFqaEo1Z3JsV0s0UkttS3I3dTJWYUtzR3hlRjl2WmM2enZkNGM3bGwtYzVyVWdGNFZOUzFuYW5MSFpiOUlxQmNKTlBfTVdZRUlaUU1nVC1rRVBUY2RoSUh4NV90WDF6Zjc5MlpneTZVWFB5RmFNZkFG",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+   "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+   "date": "2026-10-16 00:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, Nemotron 3.5 슈퍼 VL 및 볼트 모델 출시로 엣지부터 데이터센터까지 AI 에이전트 확대",
+    "korean_summary": "NVIDIA가 120B 파라미터 Nemotron 3.5 Super VL과 에지 최적화 Bolt 74B, Bolt 4GB 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 데이터센터부터 데스크톱까지 커버하는 Nemotron 패밀리 확장 — Super VL 및 Bolt 모델 공개",
+    "korean_summary": "NVIDIA가 1200억 파라미터 오픈 모델 Nemotron 3.5 Super VL과 엣지용 Bolt 74B-A9B·Bolt E4B를 공개해 대규모 서버부터 로컬 하드웨어까지 전 영역의 에이전트 배포를 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "오픈 모델 Nemotron 3.5 Super VL(120B)과 엣지용 Bolt 74B-A9B 24GB, Bolt E4B 4GB를 공개",
+     "stage": "Available",
+     "timeline": "Super VL 및 Bolt 74B-A9B는 즉시 이용 가능, Bolt E4B는 Oct. 23 출시",
+     "scope": "NVIDIA RTX/DGX Spark, GeForce RTX, Jetson 등 엣지 디바이스부터 대규모 엔터프라이즈 서버까지"
+    },
+    "key_facts": [
+     "Nemotron 3.5 Super VL은 **120억이 아닌 1200억(120B) 파라미터** 오픈 모델로, 가장 큰 reasoning 모델 대비 약 1/5 크기로 유사한 정확도를 달성",
+     "Super VL은 Artificial Analysis Intelligence Index 기준 동급 모델 대비 **최대 5배 빠른 처리량**을 기록",
+     "Bolt 74B-A9B 24GB는 native 2-bit quantization으로 24GB 메모리에 적재되며 PinchBench 동급 1위, BrowseComp 2위",
+     "Scale AI, EY, Atlassian, CrowdStrike, Dassault Systèmes, Perplexity, Salesforce, Synopsys 등 다수 기업이 Super VL을 post-training·통합 중",
+     "Nemotron 패밀리는 Lightning(고처리량), Ultra(고난도 reasoning), Bolt(엣지)로 구성"
+    ],
+    "why_matters": "NVIDIA는 오픈 모델을 데이터센터부터 엣지 디바이스까지 전 계층에 제공함으로써 **엔터프라이즈가 자체 인프라에서 커스터마이징 가능한 에이전트 모델**을 선택하도록 유도하며, 이는 폐쇄형 프론티어 모델 대비 데이터 소유권과 비용 효율성을 강조하는 경쟁 전략이다. 다수의 주요 엔터프라이즈·소프트웨어 플랫폼이 즉시 채택에 나선 점은 Nemotron이 생태계 내 실질적 확산 기반을 확보했음을 보여준다.",
+    "subject_angle": "NVIDIA는 오픈 모델(Nemotron)을 자사 하드웨어(RTX, DGX Spark, Jetson)와 결합해 **소프트웨어-하드웨어 수직 통합 전략**을 강화하며, 에이전트 AI 워크로드 전 영역에서 자사 인프라 종속성을 높이려는 의도를 보인다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron 3.5 Super VL·Bolt 모델 개발 및 공개"
+     },
+     {
+      "name": "Scale AI",
+      "context": "Super VL post-training (Skydance, EY 에이전트)"
+     },
+     {
+      "name": "EY",
+      "context": "M&A due diligence 에이전트에 Super VL 적용"
+     },
+     {
+      "name": "AfterQuery",
+      "context": "Hebbia용 Super VL 커스터마이징"
+     },
+     {
+      "name": "AI21",
+      "context": "사이버보안 공격 복원력 post-training"
+     },
+     {
+      "name": "Mercor",
+      "context": "코딩 에이전트용 APEX-SWE 벤치마크 post-training"
+     },
+     {
+      "name": "ModelScope",
+      "context": "ms-swift 프레임워크로 fine-tuning 지원"
+     },
+     {
+      "name": "Atlassian",
+      "context": "Jira, Confluence 에이전틱 검색에 통합"
+     },
+     {
+      "name": "CrowdStrike",
+      "context": "에이전틱 블루팀 보안에 커스터마이징"
+     },
+     {
+      "name": "Dassault Systèmes",
+      "context": "엔지니어링 설계·시뮬레이션에 활용"
+     },
+     {
+      "name": "Perplexity",
+      "context": "Perplexity Search/Computer에 적용"
+     },
+     {
+      "name": "Salesforce",
+      "context": "Missionforce Operations 정부 워크플로우 자동화"
+     },
+     {
+      "name": "Synopsys",
+      "context": "반도체 설계 검증 소프트웨어 연동"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nemotron 3.5 Super VL (120B)",
+      "role": "최고 정확도·속도의 오픈 멀티모달 에이전트 모델"
+     },
+     {
+      "name": "Nemotron 3.5 Bolt 74B-A9B 24GB",
+      "role": "로컬 에이전틱 워크로드용 엣지 모델"
+     },
+     {
+      "name": "Nemotron 3.5 Bolt E4B 4GB",
+      "role": "대화형 에이전트용 초경량 엣지 모델"
+     },
+     {
+      "name": "NVIDIA RTX/DGX Spark",
+      "region": "Bolt 모델 구동 대상 하드웨어"
+     },
+     {
+      "name": "GeForce RTX, Jetson",
+      "role": "Bolt E4B 구동 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Bolt E4B 4GB 정식 출시(Oct. 23) 이후 실제 성능·채택 현황",
+     "Nemotron Super VL을 커스터마이징한 기업들의 상용 서비스 출시 여부",
+     "Nemotron Lightning·Ultra와 Super VL·Bolt 간 포지셔닝 및 가격 정책 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+     "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVVU0zYjltcWc5TzJiNlRiOC13eUlPV2NLb0lBYlRCTDVIZHZDeTBlWW1nTU1idlQ2aGNHX0xGWjBDSXJ6VTFrWGVaa1M1UHRNTXFHUUp1bWZNOXJsVDNCSkZn?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+   "body": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized for intelligence per GB for fast conversational agents. Super VL and Bolt 74B-A9B are available now, with Bolt E4B coming Oct. 23. The three open models together cover the full range of agent deployments, from large enterprise servers down to edge devices and local hardware. Any organization that wants to run agents on NVIDIA infrastructure now has an open, optimized model for their tier, without having to choose between capability and deployability. Super VL and Bolt join the Nemotron family alongside Lightning and Ultra. Lightning, released in August, handles high-throughput workloads; Ultra handles the hardest reasoning tasks; and Bolt brings intelligence to the edge. Nemotron 3.5 Super VL: Frontier Accuracy at One-Fifth the Size Super VL, built in collaboration with the Nemotron Coalition , delivers leading accuracy on multimodal agentic tasks — instruction following, tool use, multistep business workflows, and visual understanding — comparable with NVIDIA’s largest reasoning model at roughly one-fifth the parameter count. Nemotron 3.5 Super VL delivers frontier-level intelligence in its class for high-volume agentic workflows. As the fastest open agentic model in its class — 5x faster than the next best — it helps enterprise agents complete high-volume tasks faster across workflows that span days or weeks. Nemotron 3.5 Super VL, on Artificial Analysis Intelligence Index leadboard, achieves up to 5x faster throughput compared to other models in its class. Unlike closed frontier models, organizations can post-train Super VL on their own data, deploy it on their own infrastructure and oversee what they build. Nemotron 3.5 Bolt: Agentic Intelligence at the Edge Bolt 74B-A9B 24GB is designed to run everyday agentic tasks locally on NVIDIA RTX/DGX Spark, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. Relative to other models with a similar memory footprint, it provides a good balance of intelligence and speed: smart enough to get most jobs done, yet much faster than the smartest models. With Bolt 74B-A9B 24GB, users can delegate their projects to popular local agent harnesses — from researching the web to writing to debugging code — all without sending those workloads to the cloud. It is the #1 open model in its class on PinchBench , and the #2 open model for BrowseComp . Bolt E4B 4GB is built for physical and conversational agents on GeForce RTX, Jetson, and RTX/DGX Spark. It combines natural conversation with multi-turn agentic capabilities to power fast local voice assistants, interactive characters and embedded interfaces. Adoption of"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "We tested the RTX Spark Superchip in Microsoft's Surface Laptop Ultra",
+   "link": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
+   "date": "2026-10-15 21:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "RTX Spark 플랫폼 탑재 Surface Laptop Ultra 테스트",
+    "korean_summary": "Tom's Hardware가 NVIDIA RTX Spark 플랫폼 기반 Microsoft Surface Laptop Ultra의 성능을 실제 테스트했다."
+   },
+   "summary_data": {
+    "korean_title": "Tom's Hardware, Microsoft Surface Laptop Ultra로 NVIDIA RTX Spark Superchip 첫 성능 테스트 진행",
+    "korean_summary": "Tom's Hardware가 **NVIDIA RTX Spark Superchip**(GB10)을 탑재한 Microsoft Surface Laptop Ultra 최상위 트림을 테스트해 Apple M5 Max MacBook Pro 및 AMD Ryzen AI Halo와 로컬 AI 에이전트 성능을 비교했다.",
+    "action": {
+     "actor": "Tom's Hardware",
+     "action": "RTX Spark Superchip 탑재 Microsoft Surface Laptop Ultra의 로컬 AI 성능을 Apple M5 Max MacBook Pro, AMD Ryzen AI Halo와 비교 테스트",
+     "stage": "Available",
+     "timeline": "리뷰 엠바고 발표 시점(기사 작성 시점), Computex 2026에서 플랫폼 발표",
+     "scope": "RTX Spark 플랫폼 탑재 Microsoft Surface Laptop Ultra 최상위 트림(20 CPU 코어, 6144 CUDA 코어, 128GB LPDDR5X-9400)"
+    },
+    "key_facts": [
+     "NVIDIA CEO Jensen Huang가 Computex 2026에서 RTX Spark 플랫폼을 발표하며 'PC 재발명'을 목표로 제시",
+     "RTX Spark는 GB10 Superchip과 Windows on Arm을 결합해 로컬 AI 에이전트 실행을 지원하며 Microsoft, Dell, HP, MSI, Lenovo, Asus가 파트너로 참여",
+     "테스트 기기는 20 CPU 코어, **6144 CUDA 코어**, 128GB LPDDR5X-9400 RAM 탑재",
+     "Artificial Analysis가 개발한 신규 벤치마크 AgentPerf-local로 Qwen 3.8-27B, Qwen 3.6 35B A3B 모델 테스트 수행",
+     "**Qwen 3.8 27B 테스트에서 M5 Max MacBook Pro가 Surface Laptop Ultra(RTX Spark)보다 약 25% 더 오래 걸려**, RTX Spark가 현재 해당 작업에서 가장 빠름"
+    ],
+    "why_matters": "로컬 AI 에이전트 실행을 위한 PC 하드웨어 경쟁에서 NVIDIA의 GB10 기반 RTX Spark가 Apple Silicon 및 AMD 대비 실제 에이전트 워크플로우 완료 속도에서 우위를 보였다는 초기 제3자 검증 데이터가 나왔다는 점이 중요하다. **메모리 대역폭 수치상 우위에도 불구하고 M5 Max가 더 느린 결과**는 소프트웨어 최적화와 생태계 성숙도가 로컬 AI 성능 경쟁의 핵심 변수임을 시사한다.",
+    "subject_angle": "NVIDIA는 GB10 Superchip과 CUDA 생태계를 Windows on Arm PC로 확장해 **데이터센터 AI 역량을 로컬 엣지 디바이스로 이전**하는 전략을 구체화하고 있으며, Microsoft·Dell·HP·MSI·Lenovo·Asus 등 광범위한 OEM 파트너십을 통해 PC 폼팩터에서도 AI 가속 표준을 선점하려는 포지션을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX Spark 플랫폼 및 GB10 Superchip 설계·발표"
+     },
+     {
+      "name": "Microsoft",
+      "context": "Surface Laptop Ultra로 RTX Spark 하드웨어 구현, Windows on Arm 제공"
+     },
+     {
+      "name": "Dell",
+      "context": "RTX Spark 플랫폼 파트너"
+     },
+     {
+      "name": "HP",
+      "context": "RTX Spark 플랫폼 파트너"
+     },
+     {
+      "name": "MSI",
+      "context": "RTX Spark 플랫폼 파트너"
+     },
+     {
+      "name": "Lenovo",
+      "context": "RTX Spark 플랫폼 파트너"
+     },
+     {
+      "name": "Asus",
+      "context": "RTX Spark 플랫폼 파트너"
+     },
+     {
+      "name": "Apple",
+      "context": "M5 Max MacBook Pro로 경쟁 비교 대상"
+     },
+     {
+      "name": "AMD",
+      "context": "Ryzen AI Halo로 경쟁 비교 대상"
+     },
+     {
+      "name": "Artificial Analysis",
+      "context": "AgentPerf-local 벤치마크 개발"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA RTX Spark / GB10 Superchip",
+      "role": "테스트 대상 로컬 AI PC 플랫폼"
+     },
+     {
+      "name": "Microsoft Surface Laptop Ultra",
+      "role": "RTX Spark Superchip 탑재 테스트 기기"
+     },
+     {
+      "name": "Apple M5 Max (MacBook Pro)",
+      "role": "비교 경쟁 제품"
+     },
+     {
+      "name": "AMD Ryzen AI Halo",
+      "role": "비교 경쟁 제품"
+     },
+     {
+      "name": "AgentPerf-local 벤치마크",
+      "role": "에이전틱 AI 작업 완료 시간 측정 도구"
+     }
+    ],
+    "watch_next": [
+     "Tom's Hardware의 시스템별 상세 리뷰(배터리 수명, 빌드·디스플레이 품질) 공개 여부",
+     "AMD Ryzen AI Max+ 395 시스템과의 직접 비교 데이터 추가 여부",
+     "다른 OEM(Dell, HP, MSI, Lenovo, Asus)의 RTX Spark 탑재 기기 출시 및 성능 비교"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/laptops/we-test-the-rtx-spark-superchip-in-microsofts-surface-laptop-ultra-nvidias-windows-on-arm-platform-impresses-in-local-ai-but-gaming-isnt-its-strong-suit",
+   "body": "Nvidia CEO Jensen Huang announced the RTX Spark platform with the grand ambition to “reinvent the PC” back at Computex 2026. By pairing the GB10 Superchip with a version of Windows on Arm tailored for the secure and contained execution of local AI agents, Nvidia and its partners at Microsoft, Dell, HP, MSI, Lenovo, and Asus are all hoping to pave the way to a future where the PC is an active, autonomous companion for work and creation. The hardware foundation for that vision of the future is now in place. Last week, we flew out to San Francisco to get all the details on the RTX Spark platform, and we returned home with Microsoft’s Surface Laptop Ultra in top-end trim to put it all to the test. This system has the full RTX Spark Superchip with 20 CPU cores and 6144 CUDA cores alongside 128GB of LPDDR5X-9400 RAM, and I’ve been putting it through its paces over the past week to see just what it can do. The embargoes for the RTX Spark launch are a bit peculiar. Today, we’ll be sharing our broad experience with the Spark platform, as well as competitive performance evaluations, but not any system-specific results such as battery life, build or display quality, or other details of that nature. We have other RTX Spark laptops in the Tom’s Hardware labs, and detailed reviews of those systems will be coming soon. No, this approach doesn’t make a lot of sense when the experience of a mobile platform is intimately and inextricably tied to the specific implementation of that chip in a particular laptop design. And we know that battery life is the first and foremost concern of many interested in this platform. But again, all that information is coming soon. For this first round of testing, we compared the Microsoft Surface Laptop Ultra with RTX Spark against two systems. The first is a 14\" MacBook Pro with Apple's highest-end M5 Max SoC inside. That Mac has a 40-core GPU and an 18-core CPU, as well as 128 GB of LPDDR5X RAM. We don't have a mobile Ryzen AI Max+ 395 system in the labs right now, but we do have AMD's compact Ryzen AI Halo as a source of fresh data with the latest ROCm stack and llama.cpp builds. Local AI performance Judging local AI performance is a constantly moving target, and this review is no different. Our past testing has exercised the prompt processing and token generation phases of AI inference separately, with the understanding that a system that's fast at both those phases provides the best experience. But in an agentic workflow, that benchmarking technique doesn't capture the total time required to complete a task across all the inference turns needed to reach a particular goal. To capture that entire end-to-end time, the folks at Artificial Analysis have developed a new benchmark, AgentPerf-local , that precisely replays inference traces across several agentic AI tasks. The value of this approach should make immediate sense: the faster an AI agent finishes a job, the more productive a system can be. So instead of presenting raw time-"
+  },
+  {
+   "source": "Google News · Interesting Engineering",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s latest 120-billion-parameter model completes agent tasks 5x faster than rivals",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUEhVVXpYdVRTNmU4TFFVWEFUbkdIaGQtM21QR08yZXZsX3NYZWktZjMzSDExMVc5SXNwOG1LdW82Y04xYlpMNDkxVGd2TXduXzdkWi1QQ0l2SkRqY3BNLWg2RG5heG80WU85bzNMcktqNm8tWGt3UlpOZUVxMlpkNWlqVlVBdTdOU2tTRQ?oc=5",
+   "date": "2026-10-16 02:41",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA 1,200억 파라미터 모델, 에이전트 작업에서 경쟁사 대비 5배 성능",
+    "korean_summary": "NVIDIA의 최신 1,200억 파라미터 AI 모델이 에이전트 작업 완료 속도에서 경쟁사 모델 대비 5배 향상된 성능을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUEhVVXpYdVRTNmU4TFFVWEFUbkdIaGQtM21QR08yZXZsX3NYZWktZjMzSDExMVc5SXNwOG1LdW82Y04xYlpMNDkxVGd2TXduXzdkWi1QQ0l2SkRqY3BNLWg2RG5heG80WU85bzNMcktqNm8tWGt3UlpOZUVxMlpkNWlqVlVBdTdOU2tTRQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Channel Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s $250M UK AI Safety Push Will Rely on Cloud Partners",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVHN3LUs2TC1zRjNiVGRTWDZVU2lfVm1BNGJzeXNRNGZRQWNSX19WRGFZeGpQWHNObFNSXzIzVTZnek5nOGVxeURyMDdKc2M3cHpxbTFuMlJNZGhpN0otWjRoQ1ozVGFLb0hDRWk4cFNGZGptREI0eFoxdkNhbFVHdkR4ZmMzZzYybjFZVXNuV3JGUHgxRk1RR3p3eV9ybGk3?oc=5",
+   "date": "2026-10-16 03:56",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "NVIDIA 영국 AI 안전 투자 250백만 달러 규모 추진",
+    "korean_summary": "NVIDIA가 영국에서 AI 안전 관련 250백만 달러를 클라우드 파트너와 함께 투자한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVHN3LUs2TC1zRjNiVGRTWDZVU2lfVm1BNGJzeXNRNGZRQWNSX19WRGFZeGpQWHNObFNSXzIzVTZnek5nOGVxeURyMDdKc2M3cHpxbTFuMlJNZGhpN0otWjRoQ1ozVGFLb0hDRWk4cFNGZGptREI0eFoxdkNhbFVHdkR4ZmMzZzYybjFZVXNuV3JGUHgxRk1RR3p3eV9ybGk3",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarkTechPost",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWXdidGdZalpSdkhXVHZNZFdEMm1rQnhPWWJzMWJTNXpNV0JZZ25Kckkyakk5UXpRcWkwM0cwTGw5bGNaZnpXdWNNRDc0dUVZYTJDZlYwZk94emdRSm1oYjhIeUlBaGdHNTZiRFdYek1WRGNZT3NGZnAtUjlHT2JQODFLMNIBgwFBVV95cUxNWXdidGdZalpSdkhXVHZNZFdEMm1rQnhPWWJzMWJTNXpNV0JZZ25Kckkyakk5UXpRcWkwM0cwTGw5bGNaZnpXdWNNRDc0dUVZYTJDZlYwZk94emdRSm1oYjhIeUlBaGdHNTZiRFdYek1WRGNZT3NGZnAtUjlHT2JQODFLMA?oc=5",
+   "date": "2026-10-16 04:53",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Super VL 120B 오픈 멀티모달 에이전트 모델 공개",
+    "korean_summary": "NVIDIA가 120B 규모의 Nemotron 3.5 Super VL 오픈 멀티모달 에이전트 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWXdidGdZalpSdkhXVHZNZFdEMm1rQnhPWWJzMWJTNXpNV0JZZ25Kckkyakk5UXpRcWkwM0cwTGw5bGNaZnpXdWNNRDc0dUVZYTJDZlYwZk94emdRSm1oYjhIeUlBaGdHNTZiRFdYek1WRGNZT3NGZnAtUjlHT2JQODFLMNIBgwFBVV95cUxNWXdidGdZalpSdkhXVHZNZFdEMm1rQnhPWWJzMWJTNXpNV0JZZ25Kckkyakk5UXpRcWkwM0cwTGw5bGNaZnpXdWNNRDc0dUVZYTJDZlYwZk94emdRSm1oYjhIeUlBaGdHNTZiRFdYek1WRGNZT3NGZnAtUjlHT2JQODFLMA",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab Interactive browser demos",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/interactive-demos",
+   "date": "2026-10-16 01:54",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "interactive-demos"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA Isaac Lab 인터랙티브 브라우저 데모 출시",
+    "korean_summary": "NVIDIA가 Isaac Lab에 WebAssembly 기반 로봇 시뮬레이션 브라우저 데모를 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "Isaac Lab, 브라우저 기반 Newton 물리엔진 인터랙티브 데모 공개",
+    "korean_summary": "NVIDIA의 Isaac Lab 문서 팀이 Newton WebAssembly 시뮬레이션을 브라우저에서 바로 실행할 수 있는 인터랙티브 데모 번들과 뷰어를 공개하여 로보틱스 개발자의 접근성을 높였다.",
+    "action": {
+     "actor": "isaac-sim/IsaacLab (NVIDIA 산하 오픈소스 프로젝트)",
+     "action": "Newton WebAssembly 시뮬레이션의 프리빌트 브라우저 데모 번들과 뷰어, 익스포터 소스를 공식 릴리즈로 게시",
+     "stage": "Available",
+     "timeline": "미확인 (Documentation PR #8559 연동, 구체적 날짜 미확인)",
+     "scope": "Isaac Lab 문서 사이트를 통해 제공되는 브라우저 기반 인터랙티브 데모, 공식 저장소 릴리즈로 호스팅"
+    },
+    "key_facts": [
+     "**Newton WebAssembly 기반 프리빌트 시뮬레이션**과 브라우저 뷰어, 익스포터 소스코드를 포함한 단일 릴리즈 번들 제공",
+     "문서는 커밋명 기반 아카이브 하나를 스테이징하며 **SHA-256 체크섬으로 무결성 검증**",
+     "이 릴리즈는 영구 번들 컨테이너로, 신규 번호 릴리즈 생성 없이 자산만 추가되는 구조",
+     "실행은 브라우저만 있으면 가능하나, 물리 리빌드는 pinned Newton Web 컴파일러와 Emscripten이 필요",
+     "공식 저장소에서의 publishing branch 생성은 관리자 권한이 필요한 branch-creation 규칙 적용 대상"
+    ],
+    "why_matters": "브라우저만으로 실행 가능한 물리 시뮬레이션 데모는 **로보틱스 시뮬레이션 진입장벽을 크게 낮춰** 개발자 생태계 확산에 기여한다. 이는 NVIDIA가 Isaac Lab을 오픈소스 커뮤니티 표준 도구로 자리매김시키려는 전략의 일환으로 해석된다.",
+    "subject_angle": "Omniverse/Newton 물리엔진 기반 시뮬레이션을 **웹 접근성 강화**로 확장함으로써 NVIDIA는 로보틱스 개발자 유입 장벽을 낮추고 Isaac 생태계 저변을 넓히는 전략을 취하고 있다.",
+    "focus_angle": "브라우저 기반 물리 시뮬레이션 데모는 휴머노이드·자율주행 로봇 개발자가 **별도 설치 없이 시뮬레이션 결과를 빠르게 검증**할 수 있게 하여, OEM·스타트업의 Isaac Lab 채택 및 프로토타이핑 속도를 높일 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Isaac Lab 및 Newton 물리엔진을 개발·배포하는 주체"
+     },
+     {
+      "name": "isaac-sim/IsaacLab",
+      "context": "GitHub 상의 오픈소스 프로젝트, 본 릴리즈 게시 저장소"
+     }
+    ],
+    "products": [
+     {
+      "name": "Isaac Lab",
+      "role": "로보틱스 시뮬레이션 프레임워크, 문서 및 데모 호스팅 주체"
+     },
+     {
+      "name": "Newton",
+      "role": "WebAssembly로 컴파일되어 브라우저에서 구동되는 물리 시뮬레이션 엔진"
+     },
+     {
+      "name": "Newton Web compiler / Emscripten",
+      "role": "물리 시뮬레이션 리빌드에 필요한 pinned 내부 컴파일 도구"
+     }
+    ],
+    "watch_next": [
+     "Documentation PR #8559의 공식 병합 및 반영 시점",
+     "공식 저장소에 publishing branch 생성 여부(관리자 승인 필요)",
+     "향후 Newton WebAssembly 데모에 추가되는 로봇·시나리오 자산 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:interactive-demos",
+   "body": "Prebuilt Newton WebAssembly simulations, their browser viewer, and exporter source for Isaac Lab documentation. The documentation stages one reviewed, commit-named archive and verifies its SHA-256. This release is the permanent bundle container; updates add assets here without creating a new numbered release. Existing assets remain available for reproducible builds. Documentation update PR #8559 · Review the gallery Preview a bundle Download the archive selected by .github/actions/_lib/stage-browser-demos.sh , extract it, and enter its top-level directory. Then run: python -m http.server 8000 --directory site Open http://localhost:8000/interactive/ . The archive includes exporters/ , scene and rebuild instructions, licenses, and tools/publish.py . Running the demos needs only a browser. Rebuilding physics requires the pinned internal Newton Web compiler and Emscripten. Publish an update Reuse the interactive-releases publishing branch. Commit the reviewed site, create a commit-named archive and checksum, and upload both to this same release. Update the archive URL and SHA-256 together in the docs PR. Keep earlier assets and compatibility directories. The current publishing branch is available in the contributor fork . Creating it in the official repository requires an administrator under the repository's branch-creation rule. Runtime bundles are hosted in this official release and served by Isaac Lab documentation."
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+   "link": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/",
+   "date": "2026-10-16 03:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Meta, Muse Spark Open 코딩 모델 공개 - NVIDIA GB300 NVL72 Blackwell에서 학습",
+    "korean_summary": "Meta가 NVIDIA의 Blackwell 기반 GB300 NVL72 칩에서 학습한 816B MoE 코딩 모델 Muse Spark Open을 오픈소스로 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "Meta의 코딩 특화 Muse Spark Open 모델, NVIDIA GB300 NVL72에서 학습",
+    "korean_summary": "Meta가 에이전틱 코딩 워크플로우에 최적화된 816B MoE 모델 Muse Spark Open을 공개했으며, 이를 NVIDIA GB300 NVL72 Blackwell Ultra 플랫폼으로 학습했다.",
+    "action": {
+     "actor": "Meta",
+     "action": "코딩 특화 MoE 모델 Muse Spark Open을 출시하고 NVIDIA GB300 NVL72에서 학습",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "에이전틱 코딩 워크플로우, 멀티 레포지토리 코드베이스"
+    },
+    "key_facts": [
+     "**816B 파라미터 Mixture-of-Experts(MoE) 모델**, 활성 파라미터 42B",
+     "**1M 토큰 컨텍스트 윈도우**로 전체 코드베이스 처리 가능",
+     "**NVIDIA GB300 NVL72 Blackwell Ultra**에서 학습",
+     "에이전틱 코딩 워크플로우에 맞춰 1차 시도 정확도 향상, 신뢰성 있는 도구 호출(tool calling) 지원"
+    ],
+    "why_matters": "AI 코딩 에이전트 경쟁이 심화되는 가운데 Meta가 대형 MoE 아키텍처와 초장문 컨텍스트를 결합한 모델로 **코드 생성·에이전틱 워크플로우 시장**에 진입했다. 이는 NVIDIA의 최신 Blackwell Ultra 플랫폼이 초대형 MoE 모델 학습의 실질적 레퍼런스 사례로 자리잡고 있음을 보여준다.",
+    "subject_angle": "Meta와 같은 빅테크가 **GB300 NVL72**를 차세대 대형 모델 학습의 표준 인프라로 채택한 사례로, NVIDIA는 에이전틱 AI·코딩 어시스턴트 트렌드 확산에 따른 대규모 학습 수요의 핵심 공급자로서 포지션을 강화한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Meta",
+      "context": "Muse Spark Open 모델 개발 및 출시, NVIDIA 플랫폼으로 학습"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GB300 NVL72 Blackwell Ultra 플랫폼 제공, 학습 인프라 담당"
+     }
+    ],
+    "products": [
+     {
+      "name": "Muse Spark Open",
+      "role": "Meta의 코딩 특화 816B MoE 모델, 에이전틱 코딩 워크플로우용"
+     },
+     {
+      "name": "NVIDIA GB300 NVL72",
+      "role": "Blackwell Ultra 기반 모델 학습 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Muse Spark Open의 공개/상용 출시 일정 및 라이선스 조건",
+     "실제 코딩 벤치마크 성능 비교 결과",
+     "다른 하이퍼스케일러의 GB300 NVL72 채택 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72 | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSGRJekpZczhaUHVVVVJDeUY0R0NvZFktQm5BTXBteVhUdWJ6OWYxMW8xZEtqTmxGbVpVV0FGM0I3WHYxVUZkY2dRbzl4d3gzV2kxQ3F3UXNjRXVGcjR1VlFuZWhEenk1SEZqWjRlMlZrNmdYRHZTcU9pMElTRXVVeHpGTzA5elJUTzhkalNVazhHNEt4UU0tVmZNSTFWX0tFcDdNajRSR3ViMTZJVFhKUlZWTEU?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
+   "body": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on... Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on NVIDIA GB300 NVL72 Blackwell Ultra specifically for agentic coding workflows, it delivers higher first attempt accuracy, reliable tool calling, and deep codebase understanding across repositories. The 1M token context window holds an entire… Source"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+   "link": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+   "date": "2026-10-16 02:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Adobe와 NVIDIA 협력 확대, AI 창작 도구 최적화",
+    "korean_summary": "Adobe의 Photoshop, Premiere, Substance 3D 등 주요 도구에 NVIDIA AI 기능을 최적화하는 파트너십을 확대한다고 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "Adobe-NVIDIA, 에이전틱 창작 가속화를 위한 협력 확대",
+    "korean_summary": "Adobe와 NVIDIA가 Photoshop, Premiere, Substance 3D, Frame.io, Brand Concierge 등 Adobe 핵심 도구를 최적화하기 위해 **파트너십을 확대**한다고 발표했다.",
+    "action": {
+     "actor": "Adobe와 NVIDIA",
+     "action": "Adobe 주요 창작 도구(Photoshop, Premiere, Substance 3D, Frame.io, Brand Concierge)를 NVIDIA 기술로 최적화하는 협력 확대",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Adobe Photoshop, Premiere, Substance 3D, Frame.io, Brand Concierge"
+    },
+    "key_facts": [
+     "Adobe(Nasdaq: ADBE)와 NVIDIA가 파트너십 확대를 공식 발표",
+     "대상 제품은 Photoshop, Premiere, Substance 3D, Frame.io, Brand Concierge",
+     "목표는 **더 빠른 AI 기반 창작, 프로덕션, 개인화** 제공",
+     "구체적 기술 스펙·일정·수치는 본문에 명시되지 않음"
+    ],
+    "why_matters": "크리에이티브 소프트웨어 시장 선두주자인 Adobe와의 협력은 NVIDIA GPU·AI 기술이 전문 창작 워크플로우 전반에 더 깊이 통합됨을 의미한다. **생성형 AI 기반 에이전틱 창작** 트렌드가 주요 소프트웨어 벤더로 확산되는 흐름을 보여준다.",
+    "subject_angle": "NVIDIA는 하드웨어 가속기를 넘어 **소프트웨어 생태계 파트너십**을 통해 AI 창작 플랫폼 전반에 자사 기술 스택을 확장하는 전략을 지속하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Adobe",
+      "context": "크리에이티브 소프트웨어 제공사, 협력 확대 발표 당사자"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "AI/GPU 기술 제공, Adobe 도구 최적화 협력 당사자"
+     }
+    ],
+    "products": [
+     {
+      "name": "Adobe Photoshop",
+      "role": "NVIDIA 기술로 최적화되는 창작 도구"
+     },
+     {
+      "name": "Adobe Premiere",
+      "role": "NVIDIA 기술로 최적화되는 영상 편집 도구"
+     },
+     {
+      "name": "Adobe Substance 3D",
+      "role": "NVIDIA 기술로 최적화되는 3D 창작 도구"
+     },
+     {
+      "name": "Adobe Frame.io",
+      "role": "NVIDIA 기술로 최적화되는 협업/리뷰 플랫폼"
+     },
+     {
+      "name": "Adobe Brand Concierge",
+      "role": "NVIDIA 기술로 최적화되는 개인화 도구"
+     }
+    ],
+    "watch_next": [
+     "구체적으로 어떤 NVIDIA 기술(GPU, SDK, 모델)이 적용되는지 공개 여부",
+     "최적화 기능의 출시 일정 및 가용성",
+     "성능 개선 수치나 벤치마크 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeDBoazRVektwUFEyamlIT0hOcjJLZ1hhbEpKZ1NKRzRQNzh3Ykg2UlhBakRTZGd0dDNJTzJza1dBdXJMTGRiVmRYZkZoN0FwQk41MWY1d091SUxiNEx1Rkp6UjNudDd2UUxqUFVITGp3czVLRjBUcnJVem84NzZfNkVmME94Y3M2MFZNNmVvaldFMXZyM3FaUXhvR2FLSTA?oc=5"
+    },
+    {
+     "source": "Google News · Investing News Network",
+     "title": "Adobe and NVIDIA Expand Collaboration to Speed Agentic Creation",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRXhESnFLU3dQbWw1VGlHeC1jcnY4UXg4WXk3ZU5Odk1Na1FxZEhWVjNGZ25ZRXpDUGRHSEFnRm1JNnFyWUZHSGVFaWhPZHUtY3BjajFCcFpsZ29oNXhzbUtnQnNHRklQaTNIVDM5Q2E1TTBmZ3RVeDVxNHNJYjh6cVVaSmdOMGJhVnRZRTZ1Q2NpVUVo?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+   "body": "Adobe (Nasdaq: ADBE), the global technology leader that unleashes creativity, productivity and customer experiences through innovative tools and platforms, and NVIDIA today announced an expansion of their partnership to optimize Adobe’s flagship tools including Adobe Photoshop, Premiere, Substance 3D, Frame.io and Brand Concierge, delivering faster AI-powered creation, production and personalization."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "TSMC chip capacity is ‘fierce’ battleground for AI customers, amid record quarter",
+   "link": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+   "date": "2026-10-16 01:56",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "TSMC 기록적 실적, AI 칩 생산 용량 수급 심화",
+    "korean_summary": "TSMC의 레코드 분기 실적과 AI 칩 제조 용량 부족으로 NVIDIA 등 주요 고객 간 경합이 심화되고 있다."
+   },
+   "summary_data": {
+    "korean_title": "TSMC, AI 칩 수요 폭증 속 사상 최대 실적…웨이퍼 생산능력이 핵심 전쟁터로",
+    "korean_summary": "TSMC가 AI 붐에 따른 공급 부족 속 6분기 연속 사상 최대 실적을 기록했으며, Nvidia를 비롯한 고객사들은 제한된 생산능력을 확보하기 위해 치열한 경쟁을 벌이고 있다.",
+    "action": {
+     "actor": "TSMC",
+     "action": "AI 칩 수요 급증에 대응해 대만·일본·미국(Arizona) 신규 팹 증설 및 ASML EUV 장비 추가 도입으로 생산능력 확충",
+     "stage": "Report",
+     "timeline": "2025년 실적 발표(목요일), 향후 12~18개월 공급제약 우려",
+     "scope": "TSMC 전 고객사(Nvidia, AMD, Broadcom, Apple, Google, Amazon, Microsoft, Meta, OpenAI 등)"
+    },
+    "key_facts": [
+     "TSMC는 **6분기 연속 사상 최대 분기 이익**을 기록했으며 4분기 매출은 전년 대비 58% 증가 예상",
+     "2025년 기준 TSMC 고객 534곳 중 **상위 10개 고객이 매출의 78%**를 차지(상위 2곳이 19%, 17%)",
+     "TSMC는 Arizona 팹에 **$100 billion을 추가**해 총 투자액이 $265 billion으로 확대되었고, Texas 신규 팹 부지도 검토 중",
+     "SEMI는 2029년까지 전 세계 **102개 신규 팹**(미국 15개, 아시아 78개) 가동 예상, 중국이 2030년까지 생산능력 거의 3배 증가 전망",
+     "Nvidia CEO Jensen Huang과 AMD CEO Lisa Su는 올해 여러 차례 대만을 방문"
+    ],
+    "why_matters": "AI 인프라 투자가 연 $700 billion을 넘어서는 가운데 **TSMC의 생산능력 제약이 Nvidia·AMD 등 선단 로직칩 업체들의 공급과 매출 성장 목표를 위협**할 수 있어, 업계 전체의 확장 속도를 좌우하는 병목으로 부상했다. 동시에 Samsung·Intel이 '2차 공급원'으로 반사이익을 노릴 기회가 열리고 있다.",
+    "subject_angle": "Nvidia는 TSMC와 수년 전부터 **장기 계약과 맞춤형 딜을 통해 선단 공정 물량을 선점**해왔으나, 공급 경쟁이 심화되는 상황에서 CEO가 직접 대만을 수차례 방문하는 등 생산능력 확보가 전략적 핵심 과제로 부각되고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "TSMC",
+      "context": "세계 최대 선단 반도체 파운드리, Nvidia GPU 등 생산"
+     },
+     {
+      "name": "Nvidia",
+      "context": "TSMC의 최대 고객 중 하나, AI GPU 제조 의존"
+     },
+     {
+      "name": "AMD",
+      "context": "TSMC 고객, CPU/GPU 제조"
+     },
+     {
+      "name": "Broadcom",
+      "context": "TSMC 고객, AI 가속기 제조"
+     },
+     {
+      "name": "Apple, Google, Amazon, Microsoft, Meta, OpenAI",
+      "context": "자체 AI 가속기 제조를 위해 TSMC 활용하는 고객군"
+     },
+     {
+      "name": "ASML",
+      "context": "TSMC에 EUV 리소그래피 장비 공급"
+     },
+     {
+      "name": "Samsung, Intel",
+      "context": "TSMC의 대체 2차 공급원 후보"
+     },
+     {
+      "name": "D-Matrix",
+      "context": "TSMC와 20년 이상 관계 구축한 AI 칩 스타트업"
+     },
+     {
+      "name": "Mizuho Securities, TechInsights, SEMI",
+      "context": "분석 및 업계 전망 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "12-inch equivalent wafers",
+      "role": "TSMC 생산능력 단위, 2024년 기준 1700만 장 이상 생산 가능"
+     },
+     {
+      "name": "EUV lithography machines",
+      "role": "TSMC가 기존 팹 생산능력 증대를 위해 추가 도입하는 ASML 장비"
+     }
+    ],
+    "watch_next": [
+     "TSMC Arizona·Texas 신규 팹의 실제 가동 시점 및 고객 배정 현황",
+     "Nvidia·AMD의 향후 TSMC 장기 계약 조건 변화 여부",
+     "Samsung·Intel 파운드리가 2차 공급원으로서 실제 고객 확보에 성공하는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/10/15/nvidia-apple-broadcom-in-fierce-battle-to-make-chips-at-tsmc.html",
+   "body": "As Taiwan Semiconductor Manufacturing Co.'s record quarter makes clear, demand from chipmakers shows no sign of slowing down. In fact, TSMC can't manufacture quickly enough. The artificial intelligence boom has created unending need for space on factory lines at the world's leading chip manufacturer, and it could put a chokehold on the entire industry's ability to scale. Last year, TSMC said it had the capacity to make more than 17 million 12-inch equivalent wafers. But customers want more. \"The competition is extremely fierce,\" said Jordan Klein, an analyst at Mizuho Securities. \"It's a game of who can get the most leverage and supply.\" TSMC makes the vast majority of the world's most advanced semiconductors, the graphics processors and central processors from Nvidia, AMD and Broadcom that are necessary for running AI workloads. Now a growing number of tech firms – Apple, Google, Amazon, Microsoft, Meta and OpenAI – also rely on TSMC to make custom in-house AI accelerators. TSMC North American CEO Sajiv Dalal told CNBC he gets at least 10 calls a day about wafer capacity. TSMC posted record profit for a sixth straight quarter on Thursday and expects fourth-quarter revenue to be 58% higher than a year earlier, driven by strong demand for its advanced chipmaking technologies. If compute demand continues to grow at the current rate over the next 12 to 18 months, Klein said capacity constraints at TSMC could threaten some of the industry's massive infrastructure investments and the \"aggressive revenue growth targets\" from the AI companies. U.S. hyperscalers are projecting well over $700 billion in capital expenditures this year, and analysts expect that figure to jump in 2027. AI ambitions are also threatened by a global shortage of memory chips. The logic chips that TSMC manufactures are more complex and expensive to produce. That means GPU and CPU leaders like Nvidia and AMD work out lengthy contracts and bespoke deals with TSMC behind closed doors years in advance. Nvidia CEO Jensen Huang and AMD CEO Lisa Su have both visited Taiwan multiple times this year. Sid Sheth, CEO of AI chip startup D-Matrix, has fostered a relationship with TSMC for more than 20 years, and his company relies on TSMC to manufacture its processors. For TSMC customers, many roads lead to Kevin Zhang, a senior vice president of the Taiwanese company and a central figure in determining which chipmakers get access to its coveted factory lines. He's \"currently probably the most popular person on the planet,\" Sheth said in an interview. Sheth said that Jerry Qubain, D-Matrix's vice president of manufacturing, has been visiting TSMC since 1992 and goes to Taiwan three to four times a year. \"This was even before Nvidia was founded,\" Sheth said. \"That's a good example of a person we brought on board because of the relationships he has at TSMC.\" Qubain joined D-Matrix in 2024. TSMC declined to participate in this story. Betting on startups TSMC had 534 customers in 2025. While it d"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia debuts three new open AI models",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVW9sWFJ6TXBCVE1GNXVKV0g4MEt0WU1WUjh4WHkxMmVrOHdIajlLMXFZZ2ZZWk1uUVlxclpfVHNFYV9QT3QzRHlsTGlZZGlsZEJ6SGJWNFZ3NTFYZ2M4YUV3dm9tQXRQOGl2M0pOVDRlN1UzMU9seV9IZ095S0pBNFA4VWVMa285RDdaN1h3dzNUWnk3NXNxUUE3OXp6Sk0?oc=5",
+   "date": "2026-10-16 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 새로운 오픈 AI 모델 3종 공개",
+    "korean_summary": "NVIDIA가 3개의 새로운 오픈 소스 AI 모델을 정식 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVW9sWFJ6TXBCVE1GNXVKV0g4MEt0WU1WUjh4WHkxMmVrOHdIajlLMXFZZ2ZZWk1uUVlxclpfVHNFYV9QT3QzRHlsTGlZZGlsZEJ6SGJWNFZ3NTFYZ2M4YUV3dm9tQXRQOGl2M0pOVDRlN1UzMU9seV9IZ095S0pBNFA4VWVMa285RDdaN1h3dzNUWnk3NXNxUUE3OXp6Sk0",
+   "body": ""
+  },
+  {
+   "source": "Google News · SiliconANGLE",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia expands Nemotron LLM family with hyper-efficient models for agentic systems",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2R6eWRBdi0xYkROSUpfQngtRTBhYWl3Sng3VHJZMEV1a3F1VnRocWgwYkhOTkFYZXVNX3dfLXFJaTVNMDhwUnBNSFFOMDZMYXJYU0FDZlZ6VFNpdXlDSzJHaG1fdUNWYkN3UFFDUTQ4Y2hxMEdMenhheW9BTF8zQjRuQzBQbk9GckV4YjBBME93MzkyWjdZV1pvMkxJTkNkTjhRcEFQclNsRnBTVVZNVklZWnpWenp1dlJJ?oc=5",
+   "date": "2026-10-16 02:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 에이전트 시스템용 초효율 Nemotron LLM 모델 공개",
+    "korean_summary": "NVIDIA가 Nemotron LLM 제품군을 에이전트 시스템 최적화 초효율 모델로 확장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY2R6eWRBdi0xYkROSUpfQngtRTBhYWl3Sng3VHJZMEV1a3F1VnRocWgwYkhOTkFYZXVNX3dfLXFJaTVNMDhwUnBNSFFOMDZMYXJYU0FDZlZ6VFNpdXlDSzJHaG1fdUNWYkN3UFFDUTQ4Y2hxMEdMenhheW9BTF8zQjRuQzBQbk9GckV4YjBBME93MzkyWjdZV1pvMkxJTkNkTjhRcEFQclNsRnBTVVZNVklZWnpWenp1dlJJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Decoder",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV3FldmQtcVFnTWoyb1BWelp0S3NTc01zZkRFcTFwVGN4S1dZU1NjR3RBcjVkbkc5TWp6Z1RIOTJRem9NbFdxUUVCUEtQWDBGYUZFV1RDS0tkNHNOeWdTUVNiQzFxSi1SaVEwUk9SVFlWR2NOTzRFbmp1N1FVT3ZnQWVNYzRjSDE3SnVtM2tnclZtSUlNQUhvN29ia0FqRE44RS1jTVg5VE5JOFhIWmVKcEV2WQ?oc=5",
+   "date": "2026-10-16 02:02",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 엔터프라이즈 AI 에이전트용 Nemotron 3.5 Super VL 공개",
+    "korean_summary": "NVIDIA가 엔터프라이즈 AI 에이전트의 지속 운영을 위해 설계한 Nemotron 3.5 Super VL 오픈모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV3FldmQtcVFnTWoyb1BWelp0S3NTc01zZkRFcTFwVGN4S1dZU1NjR3RBcjVkbkc5TWp6Z1RIOTJRem9NbFdxUUVCUEtQWDBGYUZFV1RDS0tkNHNOeWdTUVNiQzFxSi1SaVEwUk9SVFlWR2NOTzRFbmp1N1FVT3ZnQWVNYzRjSDE3SnVtM2tnclZtSUlNQUhvN29ia0FqRE44RS1jTVg5VE5JOFhIWmVKcEV2WQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · ZDNET",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s new Nemotron 3.5 Super VL is another step forward for US open-weight AI",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZS04S3VOcXI5X3NUSEEtVWxPRTMzelVGUDNhR3JyanVaR0lWd21OenRaMG9ZRERkTDNmSkRxLWRpWEFUelRDdWtIM3dBanBqRF96TzB5M1J2SGlSMm14aVV4eFZWbU1ocWNuc3Y3UUFFNWUzbl9qRzZhNUVpWnQwWFN4dzhvQ1hCMXdoS1NYUQ?oc=5",
+   "date": "2026-10-16 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Super VL, 미국 오픈웨이트 AI 생태계 견인",
+    "korean_summary": "NVIDIA의 Nemotron 3.5 Super VL 모델이 미국 오픈웨이트 AI 발전에 기여하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · https://tech-insider.org/",
+     "title": "NVIDIA Nemotron 3.5 Super VL: 120B Open AI Model",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FdFhxbU5DVmNER0JpeGkzTU1ZYlhoMGpLWG5ocHUtb1F2ellqWnVuMXBibE5jUkxDQXVpdFVkeHJGcU92dW1JdDhVU1UxamRKV3dHRUZVOExpRDNrTkprX2ppMHFFeFlGb2NV?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZS04S3VOcXI5X3NUSEEtVWxPRTMzelVGUDNhR3JyanVaR0lWd21OenRaMG9ZRERkTDNmSkRxLWRpWEFUelRDdWtIM3dBanBqRF96TzB5M1J2SGlSMm14aVV4eFZWbU1ocWNuc3Y3UUFFNWUzbl9qRzZhNUVpWnQwWFN4dzhvQ1hCMXdoS1NYUQ",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "NTT deploys Nvidia GPU test cluster at Munich 2 data center",
+   "link": "https://www.datacenterdynamics.com/en/news/ntt-deploys-nvidia-gpu-test-cluster-at-munich-2-data-center/",
+   "date": "2026-10-16 01:17",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NTT, 뮌헨 데이터센터에 NVIDIA Blackwell GPU 클러스터 배포",
+    "korean_summary": "NTT가 Spectrum-X 기술로 연결한 Blackwell GPU 클러스터를 AI Factory Munich으로 운영 개시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "NTT deploys Nvidia GPU test cluster at Munich 2 data center",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWDZRWUFfU0hTUmxvbm9USHdIS2VQU0g0T0gwRF9XX2ZpX000VVNQTWdxSnhTa0pMM21seDAyOU1mWHpJUUZYOTVrUEc3OWxHSWJXTHNUcm9NWWVKVjRKdjIxdDBPVkVMSFNVMlhsbkV2T2JrakJBSnNRRElrNFpFdVhWUTRNRDJuNHgzbnMxTlplVjl6b0tmME5ELUpNcThUa1FnZzNB?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/ntt-deploys-nvidia-gpu-test-cluster-at-munich-2-data-center",
+   "body": "NTT Global Data Centres has deployed an Nvidia GPU cluster at its Munich 2 data center. According to the company, the cluster provides clients with a “real-world environment” where they can test how their AI applications will perform at scale before investing in broad deployments themselves. Unlike a traditional AI demonstration or innovation lab, the cluster – which NTT has dubbed AI Factory Munich – allows customers to evaluate AI workloads against the infrastructure, security, data, governance and operational requirements they will face in production. In a post on LinkedIn, Anne-Sophie Lotgering, CEO Europe, NTT, said that Nvidia and Dell provided the infrastructure whilst Red Hat and Mistral AI worked with the company on the platform and the model. The cluster is comprised of Nvidia Blackwell GPUs interconnected via Nvidia Spectrum-X Ethernet technology, with servers and storage provided by Dell’s AI Factory, with Nvidia offering. “Every leader I speak to wants AI they own, control and trust. At NTT Data's AI factory Munich, they can run their own applications and data in a production data center, on their terms, before they commit to deployment. It‘s the difference between a slide and a decision,” said Graham Clarke, managing director, global private and sovereign AI, NTT Data. Located in the German town of Unterschleißheim outside Munich, Bavaria, NTT’s 6,300 sqm (67,813 sq ft) Munich 2 campus consists of two buildings offering 14MW of critical IT load."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "베슬AI \"2030년까지 GPU 20만개 확보\"",
+   "link": "https://www.hankyung.com/article/2026101547511",
+   "date": "2026-10-15 17:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "partnership"
+    ],
+    "korean_title": "베슬AI, 2030년까지 GPU 20만개 확보 계획 공개",
+    "korean_summary": "베슬AI 대표가 GPU 20만개 확보와 2조원 규모 GPU 금융 계획을 발표하며 내년 NVIDIA 베라 루빈 기반 클러스터 도입을 언급했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026101547511",
+   "body": "AI 추천 뉴스 베슬AI \"2030년까지 GPU 20만개 확보\" 네오클라우드 사업 전략 발표 안재만 대표 \"GPU금융 2조로\" “2030년까지 그래픽처리장치(GPU) 20만개를 확보하겠습니다.” 안재만 베슬AI 대표는 15일 서울 드림플러스 강남에서 열린 ‘2026 네오클라우드 전략 발표회’에서 이같이 말했다. 네오클라우드는 인공지능(AI) 기업이 값비싼 GPU를 직접 구매하지 않고도 AI 모델을 개발하고 운영할 수 있도록 컴퓨팅 자원을 빌려주는 서비스다. 2020년 설립된 베슬AI는 GPU 관리 소프트웨어 개발에서 출발해 네오클라우드 사업으로 영역을 넓히고 있다. 업스테이지 등 국내외 AI 기업에 서비스를 제공 중이다. 베슬AI는 현재 약 7000개인 GPU를 올해 말 1만개, 내년 5만개, 2030년 20만개까지 늘리겠다고 강조했다. 안 대표는 “2028년까지 500MW 정도의 데이터센터를 확보할 계획”이라며 전국 8곳에 AI 데이터센터 거점을 마련한다는 구상을 밝혔다. GPU 확보에 필요한 자금은 금융사와의 협력 및 외부 투자 유치로 마련한다. 현재 4000억원 규모의 GPU 금융을 추진 중이며, 내년에는 2조원 규모로 확대할 계획이다. 안 대표는 “글로벌 투자은행들과 수 조원 단위의 GPU 금융을 협의하고 있다”고 말했다. 베슬AI의 올해 상반기 매출은 약 1300억원이다. 안 대표는 연간 매출로 2500억원을 제시하면서 “내년에는 7000억원, 2028년에는 2조원 이상으로 늘리겠다”고 강조했다. 이어 “베슬AI는 리벨리온, 퓨리오사AI 등 국내 반도체 기업과 협력해 국산 신경망처리장치(NPU)를 활용한 AI 인프라도 구축할 예정”이라며 “내년 상반기에는 엔비디아의 차세대 GPU인 베라 루빈 기반 클러스터를 도입할 계획”이라고 덧붙였다. 유지희 기자 keephee@hankyung.com"
+  },
+  {
+   "source": "Google News · Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s European spending spree is about much more than Europe",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRnZMOVR6VEh2X0kxOUsyY2VpZTNhZHZnSlVCNGwyS1lSTDc0aHJyQmhKVURCejZMbGdUVWR3Rlc3a0d5ZTVOWnhYM1ZJLVEtS1BUVlhjMW9RQWViMFVLeTRlb0gtZWo3OXdVdndPSjF4RlNMTzdEcDlsYndXdmRwc3BKUnFUdTNLc1RSRWdIQ0pJc0ZqWHFubzNB?oc=5",
+   "date": "2026-10-16 02:37",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 유럽 지출, 단순 지역 투자가 아닌 글로벌 전략의 일환",
+    "korean_summary": "NVIDIA가 유럽에서 추진하는 대규모 지출이 글로벌 사업 전략의 핵심임을 보도한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRnZMOVR6VEh2X0kxOUsyY2VpZTNhZHZnSlVCNGwyS1lSTDc0aHJyQmhKVURCejZMbGdUVWR3Rlc3a0d5ZTVOWnhYM1ZJLVEtS1BUVlhjMW9RQWViMFVLeTRlb0gtZWo3OXdVdndPSjF4RlNMTzdEcDlsYndXdmRwc3BKUnFUdTNLc1RSRWdIQ0pJc0ZqWHFubzNB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's Huang Signals CoreWeave Financials Improving, With Decreasing Cost Of Capital",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeTdGTVZGcnBSUERLQnMwQnl4S3J6UUYtcVliak9QNDdtMVRjVUc5U2NjaThwbC1KU3U4RnhwODFFX2dKdlNDc2NpTUNRR2RRZjRiZFBFQ3VmT2JkZGJUOWs0VU5MSjhhU0huZWJkT2VXWkFYVkFJcDctMkhacHh5Vkhib2tpNVRwRi00dlY5YVp0UEFWcHhzRXhWdFVpTV9MVWtjMWtlS29BMUU?oc=5",
+   "date": "2026-10-16 02:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "황젠순 NVIDIA CEO, CoreWeave 재무 개선·자본비용 감소 신호",
+    "korean_summary": "NVIDIA의 황젠순 CEO가 투자사 CoreWeave의 재무가 개선되고 자본 비용이 감소 중이라고 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeTdGTVZGcnBSUERLQnMwQnl4S3J6UUYtcVliak9QNDdtMVRjVUc5U2NjaThwbC1KU3U4RnhwODFFX2dKdlNDc2NpTUNRR2RRZjRiZFBFQ3VmT2JkZGJUOWs0VU5MSjhhU0huZWJkT2VXWkFYVkFJcDctMkhacHh5Vkhib2tpNVRwRi00dlY5YVp0UEFWcHhzRXhWdFVpTV9MVWtjMWtlS29BMUU",
+   "body": ""
+  },
+  {
+   "source": "Google News · Jon Peddie Research",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia RTX Spark: A new beginning for Windows PCs",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWXVWMWNwMmZGVWIwNENuX3BwOGFlQ2RSV3VRYjZZQUxwZDAzTDdDdTNtWXN0S2dCRklnRGkwclJJa1BwZ3lIY1pIQW1nb3ktMF9mNXA3UVd2LTM1Snd1djEzb2FVS0lCU0JFTGVkLTBmaHB0di1lVWoybklFT1lXbHBXckZtdUk?oc=5",
+   "date": "2026-10-16 03:27",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA RTX Spark, Windows PC 시장을 위한 새 플랫폼",
+    "korean_summary": "NVIDIA가 Windows PC 환경에서의 AI 활용을 위한 새로운 RTX Spark 플랫폼을 선보였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWXVWMWNwMmZGVWIwNENuX3BwOGFlQ2RSV3VRYjZZQUxwZDAzTDdDdTNtWXN0S2dCRklnRGkwclJJa1BwZ3lIY1pIQW1nb3ktMF9mNXA3UVd2LTM1Snd1djEzb2FVS0lCU0JFTGVkLTBmaHB0di1lVWoybklFT1lXbHBXckZtdUk",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Adobe Expands NVIDIA Collaboration as RTX Spark Reaches Creative Apps",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdHdlMnYwQlRtZXBINlRuRGdPdnF2N3dHOFhiM3JCYXF1UGpydGdhcDhDSFVDbkxRcnc2SlR3MUJYLTdRMWtublRqMVVUZFRhNWViV3pjRnJ3MHBTYWdxOWN4Wm85ck9CTUZBOEZKOXU5bDFGaXFXcUlYLTJtNXFWYy1LSXNkUF8zOWtBOVZfYks1Mi1DSHc?oc=5",
+   "date": "2026-10-16 02:24",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "Adobe NVIDIA 협력 확대, RTX Spark 크리에이티브 앱 진출",
+    "korean_summary": "Adobe가 NVIDIA와의 협력을 확대하여 RTX Spark를 크리에이티브 애플리케이션에 통합하기 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdHdlMnYwQlRtZXBINlRuRGdPdnF2N3dHOFhiM3JCYXF1UGpydGdhcDhDSFVDbkxRcnc2SlR3MUJYLTdRMWtublRqMVVUZFRhNWViV3pjRnJ3MHBTYWdxOWN4Wm85ck9CTUZBOEZKOXU5bDFGaXFXcUlYLTJtNXFWYy1LSXNkUF8zOWtBOVZfYks1Mi1DSHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Blockonomi",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Cars (VOLCAR) Stock: Expands Nvidia Partnership to Advance Self-Driving Technology",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMl9vLWhGblk2MlprV010aUg3elduRDZMVE1LcHo5VTZxeUl0TjZxc1RMZW1nV0hvT0x5c05SN1B3OUx5WGhrWVBRemRxRktNUmFvQVZEUFNoVE9aUldDTVpVWmNLaDdTcDBucEZoWlBjRE9ETERYRmdFUjg5b1I4VmtVcmJiaXE1a1FSSjFyb3ZQcVdfSU1acDlnU1BzajZrRjVmNDJEekFKUmVXbVE?oc=5",
+   "date": "2026-10-16 05:37",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "볼보, 자율주행 기술 발전 위해 엔비디아와 파트너십 확대",
+    "korean_summary": "Volvo Cars가 자율주행 기술 개발을 위해 NVIDIA와의 파트너십을 확대했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMl9vLWhGblk2MlprV010aUg3elduRDZMVE1LcHo5VTZxeUl0TjZxc1RMZW1nV0hvT0x5c05SN1B3OUx5WGhrWVBRemRxRktNUmFvQVZEUFNoVE9aUldDTVpVWmNLaDdTcDBucEZoWlBjRE9ETERYRmdFUjg5b1I4VmtVcmJiaXE1a1FSSjFyb3ZQcVdfSU1acDlnU1BzajZrRjVmNDJEekFKUmVXbVE",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+   "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+   "date": "2026-10-15 14:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 북유럽 AI 스타트업 생태계 투자 전개",
+    "korean_summary": "NVIDIA가 스웨덴의 Lovable, Legora 등 북유럽 스타트업에 투자하며 지역 혁신 생태계 지원을 강화했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 북유럽 지역의 AI 인프라·스타트업 생태계 구축에 집중 투자",
+    "korean_summary": "NVIDIA가 Lovable, Legora 등 스웨덴 스타트업 투자와 Nemotron, DGX GB300 등 자사 플랫폼 공급을 통해 북유럽을 유럽 AI 인프라·스타트업 허브로 성장시키는 데 핵심 역할을 하고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "북유럽 스타트업(Lovable, Legora 등)에 투자하고, Nemotron·DGX GB300·Dynamo·TensorRT-LLM·Omniverse 등 자사 플랫폼을 Spotify, ABB Robotics, Elisa, Ericsson 컨소시엄 등 지역 기업·기관에 공급",
+     "stage": "Available",
+     "timeline": "최근 1년간(과거 1년 투자), 2027년 말까지 1GW 클라우드 용량 전망",
+     "scope": "스웨덴·핀란드 등 북유럽 전역, 스타트업·대기업·클라우드 공급업체 포함"
+    },
+    "key_facts": [
+     "NVIDIA는 **지난 1년간 스웨덴 스타트업 Lovable, Legora에 투자**",
+     "스웨덴 컨소시엄(Ericsson, AstraZeneca, Saab, SEB, Wallenberg Investments, SKF)이 **NVIDIA DGX GB300 시스템 16랙, 1,152개 GPU로 구성된 Sferical One 수퍼컴퓨터** 가동",
+     "북유럽 AI 클라우드는 **2027년 말까지 1GW 용량 확충 전망** (Bitdeer, CoreWeave, Crusoe, Hyperstack, Nscale, Verda, Volta 등 참여)",
+     "Spotify는 NVIDIA TensorRT-LLM을 활용해 팟캐스트 추천을 더 빠르고 저렴하게 제공",
+     "스웨덴 스타트업 생태계는 2026년 상반기 28억 달러 투자 유치, 연간 50억 달러 전망"
+    ],
+    "why_matters": "북유럽은 재생에너지, 데이터 거버넌스, 학계-산업 연계라는 구조적 강점을 바탕으로 **유럽 내 AI 인프라 허브로 빠르게 성장**하고 있으며, 이는 NVIDIA의 유럽 시장 확장 전략에 중요한 거점이 된다. 동시에 다수의 클라우드 공급업체와 스타트업이 NVIDIA 생태계(Nemotron, DGX, Omniverse 등)에 집중되는 현상은 지역 차원의 플랫폼 종속을 심화시킨다.",
+    "subject_angle": "NVIDIA는 투자·인프라 공급·오픈모델(Nemotron) 제공을 결합해 **북유럽을 자사 AI 스택의 쇼케이스 지역으로 삼아** 유럽 전반의 소버린 AI·클라우드 전략에서 영향력을 확대하고 있다.",
+    "focus_angle": "ABB Robotics는 NVIDIA Omniverse 기반 RobotStudio HyperReality로 로봇 시뮬레이션 정확도 최대 99%, 커미셔닝 시간 최대 80% 단축을 달성해 **산업용 로봇 디지털 트윈 분야에서 NVIDIA 플랫폼의 실질적 적용 사례**를 보여준다.",
+    "companies": [
+     {
+      "name": "Lovable",
+      "context": "NVIDIA가 투자한 스톡홀름 소프트웨어 생성 플랫폼 스타트업"
+     },
+     {
+      "name": "Legora",
+      "context": "NVIDIA가 투자한 법률 에이전틱 OS 스타트업"
+     },
+     {
+      "name": "Ericsson",
+      "context": "Sferical One 컨소시엄 앵커 기업"
+     },
+     {
+      "name": "AstraZeneca",
+      "context": "Sferical One 컨소시엄 참여"
+     },
+     {
+      "name": "Saab",
+      "context": "Sferical One 컨소시엄 참여"
+     },
+     {
+      "name": "SEB",
+      "context": "Sferical One 컨소시엄 참여"
+     },
+     {
+      "name": "Wallenberg Investments",
+      "context": "Sferical One 컨소시엄 참여"
+     },
+     {
+      "name": "SKF",
+      "context": "Sferical One 전략적 파트너"
+     },
+     {
+      "name": "Spotify",
+      "context": "TensorRT-LLM으로 추천 시스템 추론 효율화"
+     },
+     {
+      "name": "ABB Robotics",
+      "context": "Omniverse 기반 로봇 시뮬레이션 솔루션 개발"
+     },
+     {
+      "name": "Elisa",
+      "context": "Nemotron 기반 Moontalk AIRI 베타 출시"
+     },
+     {
+      "name": "Stilta",
+      "context": "Nemotron으로 특허 분석 스케일업"
+     },
+     {
+      "name": "ConfidentialMind",
+      "context": "Nemotron-3-Embed 기반 SampoTron 개발"
+     },
+     {
+      "name": "Agaton",
+      "context": "Nemotron 3.5 Lightning 활용"
+     },
+     {
+      "name": "Klang",
+      "context": "Parakeet v3 파인튜닝으로 Pianissimo 개발"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "북유럽 AI 클라우드 공급업체"
+     },
+     {
+      "name": "Crusoe",
+      "context": "북유럽 AI 클라우드 공급업체"
+     },
+     {
+      "name": "Nscale",
+      "context": "북유럽 AI 클라우드 공급업체"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "다수 북유럽 기업·스타트업이 활용하는 오픈 모델"
+     },
+     {
+      "name": "NVIDIA DGX GB300 / DGX SuperPOD",
+      "role": "Sferical One 수퍼컴퓨터 하드웨어 기반"
+     },
+     {
+      "name": "NVIDIA TensorRT-LLM",
+      "role": "Spotify 추천 시스템 추론 가속"
+     },
+     {
+      "name": "NVIDIA Omniverse",
+      "role": "ABB Robotics 로봇 시뮬레이션 플랫폼"
+     },
+     {
+      "name": "NVIDIA Dynamo",
+      "role": "Lovable의 추론 최적화 소프트웨어"
+     },
+     {
+      "name": "NVIDIA Parakeet v3",
+      "role": "Klang의 스웨덴어 전사 모델 Pianissimo 기반"
+     }
+    ],
+    "watch_next": [
+     "1GW 클라우드 용량 확충 계획의 구체적 진행 상황",
+     "Sferical One의 상용 서비스 출시 및 활용 사례",
+     "스웨덴 스타트업 생태계의 2026년 연간 투자 유치 실적 50억 달러 달성 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+     "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1VnZ3Q0NabGw5VDBWc3RjSEotNnNaRDhyMTRJcF9VczhMTTB5Ui1ad2FQZllkTy1WNUhubmNBLXdjcDVQc3V3VzJsWkhjWlF2M044SWNVWGQxYkhBajBXeGVEeEpDU0UxZWZr?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem",
+   "body": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway in the Nordics, combined with the opportunity that lies ahead, signal a region moving from ambition to application. NVIDIA’s Investments in the Nordics Over the past year, NVIDIA has invested in the technology ecosystem in the Nordics, including Sweden’s leading startups Lovable and Legora. Read All NVIDIA in Europe Announcements Lovable , a Stockholm-based startup, provides a software creation platform that enables anyone to build and run software using plain language. In collaboration with NVIDIA, Lovable is optimizing inference for open models and training its models using NVIDIA Dynamo software and Nemotron tools. Legora provides an agentic operating system for legal work, supporting lawyers in research, review and drafting across complex matters. Nordics Emerge as Infrastructure Hub The foundation for establishing the Nordics as a technology powerhouse is already being built and the region holds a structural advantage: abundant renewable energy, rigorous data governance and a research tradition that bridges academia and industry. The Nordics are one of Europe’s fastest growing hubs for infrastructure. AI clouds are expanding with a projected 1 gigawatts of capacity to be deployed across the region by the end of 2027. Among these cloud providers are Bitdeer, CoreWeave , Crusoe , Hyperstack, Nscale , Verda and Volta . In Sweden, a consortium anchored by Ericsson, AstraZeneca, Saab, SEB and Wallenberg Investments, with SKF as strategic partner, launched Sferical One — a shared supercomputer running on two NVIDIA DGX SuperPODs with 16 racks of NVIDIA DGX GB300 systems and 1,152 GPUs. The consortium will build services using NVIDIA Nemotron open models, which allow researchers to customize and deploy their models in a secure environment. Nordic-Built Intelligence Some of the Nordics’ leading technology companies are now building proprietary intelligence on NVIDIA infrastructure. Spotify , which personalizes music, podcasts and audiobooks for hundreds of millions of listeners, uses NVIDIA TensorRT-LLM inference software to run AI-powered podcast recommendations faster and cheaper at scale. The deployment is a case study in inference efficiency: delivering the same recommendations to a global audience at a lower cost per query. ABB Robotics developed RobotStudio HyperReality using NVIDIA Omniverse libraries to bridge the gap between robot simulations and real-world performance. By combining NVIDIA’s advanced simulation capabilities with ABB Robotics’ virtual controller, running the same firmware as its physical robots, the solution enables engineers to train, test and validate robots virtually, wh"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+   "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+   "date": "2026-10-15 19:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 유럽 과학 커뮤니티 가속 컴퓨팅 지원 확대",
+    "korean_summary": "NVIDIA가 AI in Science Enablers Initiative에 참여하여 유럽 과학자들에게 가속 컴퓨팅 도구와 컴퓨트 자원을 제공한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 유럽 과학계 대상 오픈 리소스·협력·컴퓨팅 접근 확대",
+    "korean_summary": "NVIDIA가 유럽연합 집행위원회의 AI in Science Enablers Initiative에 참여하여 유럽 연구자·스타트업에게 오픈 모델, 교육, 클라우드 컴퓨팅 접근을 제공하는 이유는 소규모 연구실과 초기 연구자가 과학 연구 이전 단계에서 겪는 도구·컴퓨팅·전문성 장벽을 낮추기 위함이다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "European Commission의 AI in Science Enablers Initiative(RAISE 연계)에 합류하여 오픈 모델, 컴퓨팅, 교육, 협업 프로젝트, 스타트업 지원을 제공",
+     "stage": "Announced",
+     "timeline": "2026년 10월, AI in Science Summit (Dublin)",
+     "scope": "유럽 연구 커뮤니티, 스타트업·SME, EuroHPC AI factories(France, Spain, Sweden 등)"
+    },
+    "key_facts": [
+     "NVIDIA는 **250개 이상의 오픈 모델, 250개 오픈 데이터셋, 1,400개 이상의 오픈소스 소프트웨어 프로젝트**를 Hugging Face와 GitHub에 공개",
+     "NVIDIA Deep Learning Institute가 등록비·마감 없는 오픈소스 코스웨어 허브를 신규 출범",
+     "AI2F(France)는 Inception 프로그램과 4개월간 협업하며 성과를 입증했고, BSC AI Factory(Spain)는 파일럿을 마치고 첫 풀 액셀러레이터 프로그램을 출시, **2027년** 타 AI factory 확산 관심 증가",
+     "Sweden AI Factory는 EuroHPC 19개 AI factory 중 하나로 Inception 스타트업·SME에 인프라 개방 협력을 발표",
+     "NVIDIA는 **유럽 전역에서 35개 슈퍼컴퓨터를 개발 중**이며 유럽 최대 규모의 AI 인프라 확장을 추진"
+    ],
+    "why_matters": "유럽은 주권적(sovereign) AI 컴퓨팅 확보와 과학 연구 가속화를 국가 전략으로 추진 중이며, NVIDIA는 민간 기업으로서 이 공공 이니셔티브에 깊이 결합함으로써 **EuroHPC 및 국가 AI factory 생태계 전반에 플랫폼 종속성을 심화**시킬 수 있다. 이는 연구·스타트업 단계부터 NVIDIA 스택(GPU, NIM, Nemotron 등)을 표준화하는 효과를 낳아 장기적 시장 선점에 기여한다.",
+    "subject_angle": "NVIDIA는 오픈모델·교육·컴퓨팅을 결합한 **생태계 선점 전략**을 통해 유럽 공공·학술 연구 인프라에 깊숙이 자리잡으며, 하드웨어 판매를 넘어 소프트웨어·플랫폼 종속을 확대하는 방향으로 사업을 전개하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "European Commission",
+      "context": "AI in Science Enablers Initiative 및 RAISE 프레임워크 주관"
+     },
+     {
+      "name": "AI2F (France)",
+      "context": "NVIDIA Inception 프로그램과 협업한 첫 AI factory"
+     },
+     {
+      "name": "BSC AI Factory (Spain)",
+      "context": "파일럿 완료 후 풀 액셀러레이터 프로그램 운영"
+     },
+     {
+      "name": "Sweden AI Factory",
+      "context": "EuroHPC AI factory, Inception 스타트업·SME에 인프라 개방"
+     },
+     {
+      "name": "CINECA, JSC",
+      "context": "EuroHPC 슈퍼컴퓨팅 센터, 무료 GPU 인프라 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "에이전틱 추론 모델 패밀리, 오픈 웨이트/소스 제공"
+     },
+     {
+      "name": "NVIDIA BioNeMo Agent Toolkit",
+      "role": "생물학 연구 가속 소프트웨어"
+     },
+     {
+      "name": "NVIDIA PhysicsNeMo",
+      "role": "물리/재료과학 연구용 라이브러리"
+     },
+     {
+      "name": "NVIDIA Earth-2",
+      "role": "기후·날씨 모델링"
+     },
+     {
+      "name": "NVIDIA ALCHEMI NIM microservices",
+      "role": "분자 설계·화학 연구 가속"
+     },
+     {
+      "name": "NVIDIA Inception",
+      "context": "스타트업 컴퓨팅·기술 지원 프로그램",
+      "role": "스타트업 컴퓨팅·기술 지원 프로그램"
+     }
+    ],
+    "watch_next": [
+     "BSC AI Factory 액셀러레이터 프로그램의 2027년 타 AI factory 확산 여부",
+     "유럽 35개 슈퍼컴퓨터 개발의 구체적 일정 및 고객·지역 배분",
+     "AI in Science Enablers Initiative에 참여하는 타 민간 기업과의 경쟁·협력 구도"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+     "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9salcyRThmRUNNMy1DTjRZWF9Ob3NpS3I2Q0Zqd1ItZUdHeW9SbXI3VFJ0ejV5X1BCRzJKMEZzMEhxNF9zR1c5aUwzWWFWaHFsVW4yZFlSTFY2bWEwOVpwSS02LWl6NnVfZFB1R1B3?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge",
+   "body": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: assembling tools, finding compute and building the expertise to use both. At the AI in Science Summit in Dublin today, the European Commission launched the AI in Science Enablers Initiative, a shared framework connected to RAISE — the Resource for AI Science in Europe — that brings private-sector support closer to Europe’s research community. Read All NVIDIA in Europe Announcements NVIDIA is joining the campaign , providing: Access to accelerated tools, models and platforms Compute, cloud resources, data and scientific resources Skills, training and technical support Collaborative projects and pilots along with support for researchers and talent Support for startups and ecosystem development “Europe’s ambition in AI in science can only become reality if we bring together the strengths of our research community, industry and other partners,” Ekaterina Zaharieva, European Commissioner for Startups, Research and Innovation. “Through the AI in Science Enablers campaign, we are turning this ambition into concrete commitments that give researchers access to the tools, expertise and resources they need to innovate.” Open Models NVIDIA’s pledge begins with open source technology. NVIDIA has released more than 250 open models, 250 open datasets and over 1,400 open source software projects spanning large language models, healthcare, robotics, climate science, physical AI, autonomous vehicles and scientific research. The models and datasets are available on Hugging Face and GitHub. Building on this open ecosystem, researchers can build agentic reasoning capabilities with NVIDIA Nemotron — a family of architectures, open weights, open source models, training data and recipes — and scientific software including NVIDIA BioNeMo Agent Toolkit , NVIDIA PhysicsNeMo libraries, NVIDIA Earth-2 models and NVIDIA ALCHEMI NIM microservices to accelerate research across biology, chemistry, molecular design, weather and climate, energy, engineering, physics and material sciences. Skills and Training Building advanced intelligence capability across Europe requires knowledge that travels as freely as compute. The NVIDIA Deep Learning Institute has launched a new open source courseware hub with hands-on course materials covering accelerated computing and deep learning — freely downloadable and openly licensed, with no enrollment, fees or deadline. Modular by design, the courses can be adapted for university curricula, supercomputing center bootcamps or developer community events, and serve as a direct bridge to NVIDIA’s broader training and certification programs . "
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "ASML struggling to keep up with demand for chipmaking equipment as AI spending continues to boom",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/asml-struggling-to-keep-up-with-demand-for-chipmaking-equipment-as-ai-spending-continues-to-boom-chipmakers-are-already-looking-to-place-orders-for-2029-and-2030-output-ceo-says-demand-could-surpass-capacity-despite-massive-expansion-plans",
+   "date": "2026-10-15 20:30",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "ASML Q3 실적, AI 수요로 2029-2030년 칩장비 선주문 폭주",
+    "korean_summary": "ASML이 AI 붐으로 인한 칩메이킹 장비 수요 급증 및 2027년부터 가격 인상"
+   },
+   "summary_data": {
+    "korean_title": "ASML, AI 반도체 장비 수요 폭증에 2029~2030년까지 주문 밀려",
+    "korean_summary": "ASML이 AI 붐에 따른 첨단 리소그래피 장비 수요가 2029~2030년 주문까지 쌓일 정도로 지속되고 있다고 밝히며, TSMC 등 NVIDIA의 파운드리 공급망 투자가 계속 확대될 것임을 시사했다.",
+    "action": {
+     "actor": "ASML",
+     "action": "AI發 반도체 장비 수요 급증 속 2027~2028년 생산능력 60% 확대 및 가격 인상 계획 발표, Q3 2026 실적 및 연간 매출 전망 상향",
+     "stage": "Report",
+     "timeline": "2026-10-14 (Q3 실적 발표), 가격 인상 2027년 시작~2028년 전면 반영",
+     "scope": "ASML 고객사 전반(TSMC, Samsung, Intel, SK Hynix, Micron 등), 글로벌"
+    },
+    "key_facts": [
+     "ASML CEO Christophe Fouquet는 **2027년·2028년 각각 30%씩 생산능력 확대 계획에도 수요를 따라가기 어렵다**고 언급",
+     "고객사들이 이미 **2029~2030년분 첨단 장비 주문**을 넣고 있음",
+     "Q3 2026 순이익 €4.96 billion, 매출 €11.7 billion, 연간 매출 전망을 €43 billion에서 €44-45 billion으로 상향",
+     "ASML은 2027년부터 가격 인상, 2028년 전면 반영 예정이며 주가는 올해 약 70% 상승, 시가총액 €586 billion으로 **유럽 최대 기업** 등극",
+     "TSMC(NVIDIA 칩 생산), Samsung, Intel, SK Hynix, Micron 모두 ASML 장비 기반 생산 확대 중"
+    ],
+    "why_matters": "ASML의 호실적과 장기 주문 잔고는 **AI 인프라 투자 둔화 우려를 정면으로 반박**하는 신호로, TSMC·Samsung·Intel 등 파운드리의 생산능력 확장이 적어도 2027년 이후까지 지속될 것임을 뒷받침한다. 이는 NVIDIA가 의존하는 첨단 파운드리 공급망의 투자 사이클이 꺾이지 않았다는 의미로, 공급 병목 완화 기대와 동시에 장비 가격 인상에 따른 웨이퍼 원가 상승 리스크도 공존한다.",
+    "subject_angle": "NVIDIA의 GPU 생산을 담당하는 TSMC가 ASML 장비에 의존해 지속적으로 생산능력을 확충하고 있어, **ASML 수요 지속은 NVIDIA의 차세대 칩(향후 세대) 공급 확대 여력과 직결**된다. 다만 장비 가격 인상 및 메모리·부품 단가 상승은 NVIDIA 생태계 전반의 원가 구조에 간접적 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "ASML",
+      "context": "첨단 리소그래피 장비 공급사, 실적·수요 전망 발표 주체"
+     },
+     {
+      "name": "TSMC",
+      "context": "NVIDIA 칩 생산 파운드리, ASML 장비 기반 생산능력 확대 중"
+     },
+     {
+      "name": "Samsung",
+      "context": "로직 칩 제조사, ASML 고객"
+     },
+     {
+      "name": "Intel",
+      "context": "로직 칩 제조사, ASML 고객"
+     },
+     {
+      "name": "SK Hynix",
+      "context": "메모리 칩 제조사, ASML 장비 기반 확장 계획 발표"
+     },
+     {
+      "name": "Micron",
+      "context": "메모리 칩 제조사, ASML 장비 기반 확장 계획 발표"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "TSMC를 통해 ASML 장비로 생산된 칩을 사용하는 AI 칩 설계사"
+     },
+     {
+      "name": "Google/Alphabet, Amazon, Microsoft, Meta",
+      "context": "AI 데이터센터 capex 급증 주체, 반도체 수요의 최종 소비처"
+     }
+    ],
+    "products": [
+     {
+      "name": "EUV lithography tools",
+      "role": "AI 칩 제조에 필수적인 ASML 첨단 장비, 수요 급증 대상"
+     },
+     {
+      "name": "Terafab (xAI/Elon Musk 프로젝트)",
+      "role": "ASML이 검토 중인 대규모 반도체 생산시설, 2027년 중반 첫 EUV 장비 수령 예정"
+     }
+    ],
+    "watch_next": [
+     "ASML 2027년 가격 인상이 TSMC 등 파운드리 원가·NVIDIA 칩 가격에 미치는 영향",
+     "TSMC의 ASML 장비 기반 N2/CoWoS 등 첨단 공정 증설 구체 일정",
+     "Terafab 프로젝트에 대한 ASML의 실제 장비 공급 규모 확정 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/asml-struggling-to-keep-up-with-demand-for-chipmaking-equipment-as-ai-spending-continues-to-boom-chipmakers-are-already-looking-to-place-orders-for-2029-and-2030-output-ceo-says-demand-could-surpass-capacity-despite-massive-expansion-plans",
+   "body": "ASML has said that the unprecedented spending and investment brought about by the artificial intelligence (AI) boom is not slowing down at all, as customers are already lining up to place orders for its advanced chipmaking tools for 2029 and 2030, according to a Reuters report citing ASML's Q3 2026 earnings published today, October 14. ASML CEO Christophe Fouquet said that the company would struggle to meet the demand despite plans announced in July to raise capacity by 30% in 2027 and another 30% in 2028. The company also confirmed on Wednesday that it will raise prices starting in 2027, with the full effect showing in 2028. Go deeper with TH Premium: Chipmaking (Image credit: tsmc) Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks Leading-edge foundry roadmaps for TSMC, Intel, and Samsung ASML's roadmap for chipmaking lithography tools examined Chinese chipmaking tool roadmaps examined The Dutch company's comments follow its Q3 2026 earnings report, which detailed a net profit of €4.96 billion on net sales of €11.7 billion. It projects Q4 sales of €14.2 billion to €15.2 billion ($15.9 billion to $17 billion), boosting its full-year sales projections from at least €43 billion to €44-45 billion. ASML's shares rose 2% on Wednesday, up almost 70% so far this year, with its €586 billion market valuation making it Europe's largest firm by market cap. According to Reuters , there had been concerns that the AI investment boom was losing steam. However, positive projections from the largest manufacturer of the tools for making AI chips and advanced semiconductors signal that chipmakers will keep expanding, sustaining demand across the AI industry well into the foreseeable future. \"There were concerns that the AI trade was running out of steam,\" Gordon Kerr, European macro strategist at KBRA, said. \"Demand for chips remains strong, and infrastructure spending is likely to continue well into 2027.\" ASML's customers include logic chip manufacturers such as Samsung, Intel, and TSMC, which manufactures chips for Nvidia, all of whom are heavily investing in increasing chip production . Memory chip makers SK Hynix and Micron ⁠have also announced expansion plans that involve ASML machines. Meanwhile, the company's CFO Roger Dassen said it is \"still kicking the tires on the exact size of that (Terafab) opportunity,\" referring to Elon Musk's 100 million square feet semiconductor manufacturing facility that aims to output millions of logic and memory chips. Terafab will reportedly receive its first EUV chipmaking tool from ASML in mid-2027 . ASML's order book reflects a wave of spending across the AI industry. As of April this year, Google, Amazon, Microsoft, and Meta reportedly collectively planned to spend $725 billion on capex in 2026 , up 77% from last year's record $410 billion. Since then, Alphabet has raised its 2026 capex guidance from $180–190 billion to $195–205 billion, Amazon from $200 billion to $220 bi"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+   "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+   "date": "2026-10-16 02:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark 플랫폼 출시, AI 에이전트 시대 Windows PC 시장 진출",
+    "korean_summary": "NVIDIA가 AI 에이전트, 창작자, 게이머를 위한 RTX Spark 노트북 플랫폼을 출시했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+     "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4RTJoRXBqang2M2NNT0RtYXRvX1dGYmtSXy1GMmMzbHJuRnZHVmpXcXkzWGN1U2k5Q0FLUkVKd1E5bWFLeG1xZlBXemxxSjBBQVFKUnRlVE1LWjc2aUVVektyeDVqWGtuUjN0aDFJSHVQX09hdHRUUg?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite",
+   "body": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and what did it spark a love for? Join the celebration online by sharing responses with #ShareYourSpark for a chance to win an ASUS ProArt P14 RTX Spark laptop signed by NVIDIA founder and CEO Jensen Huang. See the campaign and official rules . See What Reviewers Are Saying From local AI workflows to creative apps and gaming, see what reviewers are saying about RTX Spark — then experience it at a launch celebration. “The fact that NVIDIA, Microsoft and their partners have delivered such a capable, compatible and polished platform even in its first at-bat should put the rest of the PC industry on notice.” — Tom’s Hardware “I tested NVIDIA’s RTX Spark for gaming and local AI – the performance absolutely stunned me.” — TrustedReviews , UK “I’m very happy to report that performance is actually looking really good when it comes to AI, gaming and creative workflows.” — Microcenter “[RTX Spark] is a different species of computer that has arrived early. It is a statement of intent from NVIDIA about where computing is going — trading raw benchmarking crowns for the ability to carry a self-rewriting, fully autonomous, CUDA-accelerated digital brain in your backpack.” — Tom’s Guide “One of the most impressive parts of the launch is how many apps NVIDIA has worked with to ensure optimisation with the Spark technology.” — Creative Bloq Independent testing from Artificial Analysis offers an early look at the powerful local AI performance RTX Spark brings to a laptop. Join the Launch Celebrations On Friday, Oct. 16, get hands on with RTX Spark at launch events around the world. Explore demos for creating, developing and gaming, connect with fellow enthusiasts and discover what local AI can do. Times below are local. Follow each event’s entry instructions. Space is limited. San Francisco — Best Buy, 1717 Harrison Street, 10 a.m.-12 p.m . Try hands-on demos, meet iJustine and hear fireside conversations with local tech founders. Free, first-come, first-served entry; no ticket required. Event details . Berlin — Xperion at Saturn, Alexanderplatz 3, 7-10:30 p.m . Explore hands-on demos and stage programming with creators and developers. Registration required. RSVP . Taipei — Muse Garden, No. 88 Yanchang Road . Join an evening of demos, music and AI community discussions, with shopping and networking continuing until 10:15 p.m. Registration required . Beijing — JD MALL Beijing Shuangjing Store, No. 31 Guangqu Road . Check in begins at 7 p.m. Launch celebration starts at 8 p.m., followed by hands-on demos. Event concludes at 9:30 p.m. Register through WeChat. Istanbul — Vatan Bilgisayar Topkapı, Mevlana Caddesi No. 138 . Explore hands-on demos and local creator programming. Walk"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Cheers to the UK’s AI builders. 🇬🇧",
+   "link": "https://www.youtube.com/shorts/mGQHufCewjc",
+   "date": "2026-10-15 06:50",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA CEO, 영국 AI 스타트업 5개사 투자 발표",
+    "korean_summary": "Jensen Huang CEO가 Boltz, Foresight, Hiverge, Prima Mente, Riverlane 등 영국 AI 스타트업에 투자했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/shorts/mGQHufCewjc",
+   "body": "Tonight in London, our CEO Jensen Huang celebrated the people behind the UK’s AI ecosystem and announced new investments in Boltz, Foresight, Hiverge, Prima Mente, and Riverlane. Boltz, a London-based AI startup founded by MIT researchers, builds biomolecular models and AI agents that help scientists predict molecular structures and interactions, and design potential new medicines. Foresight, a London-based startup, helps owners of major infrastructure projects, including hyperscale data centers, predict completion dates, mitigate risks and accelerate time to revenue. Hiverge, a Cambridge-based AI startup founded by researchers from Google DeepMind and the University of Cambridge, builds an AI discovery engine that automatically writes and optimizes algorithms for tasks such as faster AI training and complex logistics planning. Prima Mente, a London-based AI biology startup, focuses on building biological foundation models to decode complex diseases and identify novel therapeutic targets, starting with Alzheimer’s, Parkinson’s and ALS. Riverlane, a Cambridge-based quantum computing startup, builds real-time error correction hardware and software that work across all major qubit types, helping quantum computers become reliable enough for practical use. From new medicines to quantum computing, there’s plenty to build."
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+   "link": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+   "date": "2026-10-16 03:01",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Super VL, 엔터프라이즈 에이전트 다중모달 추론 기술 상세 분석",
+    "korean_summary": "NVIDIA의 120B MoE Nemotron 3.5 Super VL이 복합 엔터프라이즈 워크플로우와 도구 호출용 다중모달 추론을 지원한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSW82SDRIOTB3UElVN0NhamZVakJWcEF2ZHg4aWhfODdHYTVmRTFlQzdaR005SXV4U2d0d0FJUnAtenRibGNLUHMxUmM1N24tdS04a3phX1E2ZzEySVZsMFZKQmVoVU9yMk50b2t5bG0wN3BCeUoxaGg5ai1ndzZKNk9XUzY3SUlXNHo3bkprYUU2SmY5TGFJNUEyYUxJVmlwbExoRW5QSE9mQmx4c2FmbXRSbFFWQQ?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
+   "body": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources, following company policy, and calling several tools. NVIDIA Nemotron 3.5 Super VL is an open, customizable multimodal model for these specialized workflows. Its 120B-parameter mixture-of-experts (MoE) architecture activates 12B… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Sipeed reveals Chinese-made DGX Spark and Ryzen AI Halo rival, expected to cost $3,999",
+   "link": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+   "date": "2026-10-15 23:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Sipeed MaixStation, DGX Spark 경쟁 제품 공개",
+    "korean_summary": "Sipeed가 NVIDIA DGX Spark와 경쟁하는 중국산 AI 슈퍼칩 MaixStation을 $3,999 가격으로 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+   "body": "A Chinese rival to the DGX Spark and the Ryzen AI Halo, at least on paper, has emerged with Sipeed’s announcement of the MaixStation. The system, built on Axera’s new AX8860P, is in the same memory class with 128GB of LPDDR5X on a 256-bit bus at 273 GB/s. Sipeed told Tom’s Hardware Premium it expects the 128GB model to cost around $3,999, with launch discounts on Kickstarter, putting it level with the 128GB Ryzen AI Halo and well under the DGX Spark’s current MSRP of $6,950. Sign-ups are open now on Sipeed’s MaixStation page ahead of a Kickstarter campaign at the end of the year, with units shipping within three months after it closes. The NPU toolchain is due by the end of this month. Coming today! Beat DGX Spark!MaixStation soon～ https://t.co/e7DvWweVnt October 13, 2026 The AX8860P is a 16-core Arm Cortex-A55 part with an in-house NPU rated at 256 TOPS at native FP4 with no sparsity. The chip is produced in the 6nm process, Axera says. Sipeed claims the system has 25% faster prefill and 30% faster decode than the DGX Spark when running Qwen 27B (the company did not disclose which specific model, but later details that it expects a single MaixStation to run Qwen 3.8-27B) from a single node. In its email, though, the company put its MaixStation about 10% ahead on both prefill and decode when compared to DGX Spark, with FP4 on each machine, with speculative decoding off, and said newer runs with a wider lead aren’t official yet. It teased the new product on its X account, showing a photo from the AX8860P’s announcement at an industrial fair in Shanghai on Tuesday. Sipeed MaixStation vs Nvidia DGX Spark vs AMD Ryzen AI Halo Sipeed MaixStation (Axera AX8860P) Nvidia DGX Spark (GB10) AMD Ryzen AI Halo (Ryzen AI Max+ PRO 495) AMD Ryzen AI Halo (Ryzen AI Max+ 395) Status Kickstarter at the end of 2026; specs are Sipeed’s claims 128GB on sale; 64GB due Oct. 23 through partners On sale On sale CPU 16 Arm Cortex-A55 cores 20 Arm cores (10 Cortex-X925, 10 Cortex-A725) 16 Zen 5 cores 16 Zen 5 cores Memory 128GB LPDDR5X; 512GB on MaixStation Pro 128GB LPDDR5X; 64GB through partners 192GB LPDDR5X-8533 128GB LPDDR5X-8000 Memory bandwidth 273 GB/s 273 GB/s 273 GB/s 256 GB/s AI compute (rated peak) NPU: 256 TOPS FP4, no sparsity Blackwell GPU: up to 1 PFLOP FP4 with sparsity, about 500 TFLOPS dense Radeon 8065S GPU (40 CUs): up to 61 TFLOPS FP16; NPU: up to 55 TOPS Radeon 8060S GPU (40 CUs); NPU: up to 50 TOPS Software Debian 13; NPU toolchain due at the end of October; Sipeed claims vLLM, SGLang and PyTorch support DGX OS (Ubuntu 24.04 LTS) with CUDA and Nvidia’s AI software stack preinstalled ROCm, validated as a “Best-Known Configuration”; Linux now, Windows “coming soon” Linux or Windows 11 Pro Networking 10G SFP+; 256 Gbps C2C link (up to 384 Gbps), up to eight nodes without a switch, per Sipeed 10GbE; ConnectX-7 at 200 Gbps, up to four systems (four need a switch) 10GbE 10GbE Price About $3,999 expected (128GB), per Sipeed $6,950 (128GB); 64GB from $4,999 "
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
+   "link": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
+   "date": "2026-10-16 01:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark, ARM 윈도우 PC의 완전 소프트웨어 호환성 달성",
+    "korean_summary": "NVIDIA의 RTX Spark 칩이 ARM 기반 윈도우 노트북에서 기존 애플리케이션과의 완전 호환을 지원한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Verge",
+     "title": "The best reason to care about Nvidia’s RTX Spark: ‘everything’ will run on Arm",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQTI5WmFKQzhPZWdRWS1PeEp1SHlaUmI4M0FZekdBOFRSYV85OTZmZmtHb0JkU19ER0dwMjgyd01STzhvelEzTW94UVphcDZEbnE5Tk9uTlR3WFkxOXg0MXgteGhRVnFSTTZLZ2FvR1pUc3FQdVA3N2NKRVhpUzBxSU9xRQ?oc=5"
+    }
+   ],
+   "uid": "https://www.theverge.com/tech/1011705/nvidia-rtx-spark-everything-runs-on-arm",
+   "body": "An Nvidia RTX Spark chip aboard an Asus laptop motherboard. | Photo by Sean Hollister / The Verge Fourteen years ago this month, Microsoft released an Nvidia-powered Windows PC that would become one of the greatest tech flops in modern history. The original Microsoft Surface, which ran a stripped-down version of Windows on an Nvidia Tegra chip, bombed so hard that Microsoft had to write off $900 million in inventory . The problem was that Nvidia's Arm chip couldn't run existing Windows apps. Buyers had to leave their legacy programs behind. This Friday, October 16th, Nvidia will once again be at the heart of Arm-powered Windows PCs with the first wave of RTX Spark laptops . But now, the company says, they'll run everything . Adobe. Offic … Read the full story at The Verge."
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "RTX 5090 disappears from Nvidia marketplace amid rumors of a production halt — flagship no longer carried as stock mysteriously vanishes (Updated)",
+   "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNY1NQUEdyNndVajlUbDJnX3lZd3BNaHFpOFV6Nm00RkFxellpOGl0ZVlVSkdRRVhWdWg0V1BnWVo1RWFoZ2U3alFwaXViZVliUVBsY3puNFJoYkpKaHh6TEJ0cl9YbFYwR1hYLURDdldHZVZBTlFDbU0wSW13aDhmb25fV0NEc0FrUnNZcE96TUN3cFk2WU1aZFZBYl9aMV84Q2U0dnBIeU5XZFNQNnp2MEpCT1B3SlRoYncwaVZCb3l2X20zMUF0WjlDa0ZOaEtEaFNSRUZUZk0yYm5oQm9mN3M4bl9FWDlncWdRZTd1bE5CMllpaUZCbVYzYTJJS2l3LVJGQndrSWVGckFMWk9HTUg0SmdnQlBGUVVYYzQ5Z0I?oc=5",
+   "date": "2026-10-16 00:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA RTX 5090 마켓플레이스에서 사라짐, 생산 중단 루머 확산",
+    "korean_summary": "NVIDIA의 플래그십 GPU RTX 5090이 공식 마켓플레이스에서 사라지며 생산 중단 루머가 나돈다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNY1NQUEdyNndVajlUbDJnX3lZd3BNaHFpOFV6Nm00RkFxellpOGl0ZVlVSkdRRVhWdWg0V1BnWVo1RWFoZ2U3alFwaXViZVliUVBsY3puNFJoYkpKaHh6TEJ0cl9YbFYwR1hYLURDdldHZVZBTlFDbU0wSW13aDhmb25fV0NEc0FrUnNZcE96TUN3cFk2WU1aZFZBYl9aMV84Q2U0dnBIeU5XZFNQNnp2MEpCT1B3SlRoYncwaVZCb3l2X20zMUF0WjlDa0ZOaEtEaFNSRUZUZk0yYm5oQm9mN3M4bl9FWDlncWdRZTd1bE5CMllpaUZCbVYzYTJJS2l3LVJGQndrSWVGckFMWk9HTUg0SmdnQlBGUVVYYzQ5Z0I",
+   "body": ""
+  },
+  {
+   "source": "Google News · TVTechnology",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Adobe, NVIDIA Expand Their AI Partnership",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNER6cmtrUzU2TWxZMVhNM0pzbEZoVlRmM24tbE8zY0h0UFNGN2c2bk5GTDlEOUdrbkxrRExjc1R2bFlvVVcwaEdkUHl0bTRmV0ZZMko5YUZGbVIyYU9LUm1EZ0hBeWpUZWh1aW9MQ2VQaEdQbVZlLWxVZjhrNWh5QXdrQ2lvWkU?oc=5",
+   "date": "2026-10-16 05:34",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Adobe와 NVIDIA, AI 파트너십 확대",
+    "korean_summary": "Adobe와 NVIDIA가 기존 AI 협력을 더욱 확대한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNER6cmtrUzU2TWxZMVhNM0pzbEZoVlRmM24tbE8zY0h0UFNGN2c2bk5GTDlEOUdrbkxrRExjc1R2bFlvVVcwaEdkUHl0bTRmV0ZZMko5YUZGbVIyYU9LUm1EZ0hBeWpUZWh1aW9MQ2VQaEdQbVZlLWxVZjhrNWh5QXdrQ2lvWkU",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Supermicro hires a new CFO after $2.5 billion Nvidia smuggling case and a 2-year search",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZXM4OG01V1pDLUhUYWlVWmpQTzY2QU9GS0U2VU9vLXR3UXJISllQbjAzMHhhRlp2OXlXaWxhS2ZnaVhTZ1RnSmo3ZjVmejZDY0M2aHE3bGVleEQzNjI1R0xPOXFYVnpFejl3QXUxWWtIMEFUTTBaUjNxT3Z2Q3dzWm1zUjRjTHpXQTNZYjE3bGZINXExd3V4RA?oc=5",
+   "date": "2026-10-16 06:44",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Supermicro, NVIDIA 밀수 사건 이후 새 CFO 영입",
+    "korean_summary": "Supermicro가 NVIDIA 관련 25억 달러 밀수 사건 이후 2년간의 CFO 공석을 메웠다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZXM4OG01V1pDLUhUYWlVWmpQTzY2QU9GS0U2VU9vLXR3UXJISllQbjAzMHhhRlp2OXlXaWxhS2ZnaVhTZ1RnSmo3ZjVmejZDY0M2aHE3bGVleEQzNjI1R0xPOXFYVnpFejl3QXUxWWtIMEFUTTBaUjNxT3Z2Q3dzWm1zUjRjTHpXQTNZYjE3bGZINXExd3V4RA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Scale AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Scale Partners With NVIDIA on Post Training",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKVWs3MHNQb3ZaRmtIdlc2QzFWV3ZBdHFvRmwzWVZUVnFvVXRVbERsbWQ0SkFYc2ZTV2ZrQXpMLW1ZalRpb185VDZ3ajkwNEFIaVdLdVZ2REZEYlhTMXc?oc=5",
+   "date": "2026-10-15 23:52",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Scale AI, NVIDIA와 사후 훈련 협력 파트너십",
+    "korean_summary": "Scale AI가 NVIDIA와 Post Training 분야에서 파트너십을 체결했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKVWs3MHNQb3ZaRmtIdlc2QzFWV3ZBdHFvRmwzWVZUVnFvVXRVbERsbWQ0SkFYc2ZTV2ZrQXpMLW1ZalRpb185VDZ3ajkwNEFIaVdLdVZ2REZEYlhTMXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Run Is Now Open Source: What’s Free and Paid",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWG1Jc3RINWxEMHNKdEhZRzc5elJpMjJLa3FvSDMxYTJYX2dWcHpJeDBmbWRNTEdTYVZuZEQyQ2ZYbUtSYmhwQXd6Mm9veWNsX2VzdWhZYVZZZ2hNbDk0dnhpc0syeXNBN2x5eU5tR1RYY0QtdG5xSmlFSlBmT3ZuVHR2NA?oc=5",
+   "date": "2026-10-16 03:05",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA Run, 오픈소스 전환 - 무료·유료 기능 분류",
+    "korean_summary": "NVIDIA Run이 오픈소스가 되면서 무료와 유료 기능이 구분되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWG1Jc3RINWxEMHNKdEhZRzc5elJpMjJLa3FvSDMxYTJYX2dWcHpJeDBmbWRNTEdTYVZuZEQyQ2ZYbUtSYmhwQXd6Mm9veWNsX2VzdWhZYVZZZ2hNbDk0dnhpc0syeXNBN2x5eU5tR1RYY0QtdG5xSmlFSlBmT3ZuVHR2NA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Germany to partner with Nvidia on AI development initiative - report",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR0xPMXlWMEw0MXl3YmJhekhXQ2x5dVZJZ29GRVNCdmRIZlA5YUFIQWlvaTdXQTUzR2VtR3paVnRFQUU3VFNGMEgtT2U0TklvdzFETDRIZWY5eFBacGpjSEEwTjVmS3BLTWdyVjJqU2d0U053SGxvQlBnOWZ4RTRIdml1Vmk5OG9oVHVabGw4Y3Y4SWI5eG52alpCZS1WTXgwY25N?oc=5",
+   "date": "2026-10-16 00:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "독일, NVIDIA와 AI 개발 이니셔티브 파트너십 추진",
+    "korean_summary": "독일 정부가 NVIDIA와 AI 개발 협력 이니셔티브를 추진할 계획이라고 보도됐다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Investing.com",
+     "title": "Germany to partner with Nvidia on AI development initiative - report",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRjZmaExSOXZTVWtuOHEwVzJjM2dhSWxwcXE0TGNGMFBDa3k0MnE5bktQT1RDTHNJaGFYZDZIVmIwUkM2M3lwOXpETTR0Wm9ydnpCb2xHTWZqelNoYmRrUXVoS29UUXpuc1FqZFNfWjI3ZHB2dGs4Nkl2TEdyU0dfdTgxa2owcF9oZEZVNWJOMTRFLVNWQi1PY053cG0wZVdtcXl1Uy1tMk9CY29YbF8xeWxhUUF6ckxCRjA1d2NXaFRSZw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR0xPMXlWMEw0MXl3YmJhekhXQ2x5dVZJZ29GRVNCdmRIZlA5YUFIQWlvaTdXQTUzR2VtR3paVnRFQUU3VFNGMEgtT2U0TklvdzFETDRIZWY5eFBacGpjSEEwTjVmS3BLTWdyVjJqU2d0U053SGxvQlBnOWZ4RTRIdml1Vmk5OG9oVHVabGw4Y3Y4SWI5eG52alpCZS1WTXgwY25N",
+   "body": ""
+  },
+  {
+   "source": "Google News · Advanced Manufacturing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Expands CUDA-X Tools for AI Semiconductor Manufacturing",
+   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNFp4TDF6dTA2RXZzNHc4R3pwbVpocGFVRXYtYzlyNjYybDB0MWtHM1lqOE05eTdfYU9pTUFLSlV0eXA5Y1M2NEpZaUY1aFFvWDZVQUowcDhGQVRuYU9ZVTU5TGo2d2JyV2VJSXAzakM1TkttSlRURTZQSjJxazRmLThha0JoMUZxS3l3a2lsRHlVd3RtYVdVd202TU9qM3RxRHJveDU5N2k5dnVwLWsxZzQ4ZUxfVjlpa25aekRTMEhLLVRnZUE4Z1NPVkNLNVhtUkVqaUxBT1pTekRjMGxCNFNONkVNbnJRMTVjdnBWSnhNdw?oc=5",
+   "date": "2026-10-16 04:40",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, AI 반도체 제조용 CUDA-X 도구 확대",
+    "korean_summary": "NVIDIA가 인공지능 반도체 설계 및 제조 최적화를 위한 CUDA-X 도구를 확장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNFp4TDF6dTA2RXZzNHc4R3pwbVpocGFVRXYtYzlyNjYybDB0MWtHM1lqOE05eTdfYU9pTUFLSlV0eXA5Y1M2NEpZaUY1aFFvWDZVQUowcDhGQVRuYU9ZVTU5TGo2d2JyV2VJSXAzakM1TkttSlRURTZQSjJxazRmLThha0JoMUZxS3l3a2lsRHlVd3RtYVdVd202TU9qM3RxRHJveDU5N2k5dnVwLWsxZzQ4ZUxfVjlpa25aekRTMEhLLVRnZUE4Z1NPVkNLNVhtUkVqaUxBT1pTekRjMGxCNFNONkVNbnJRMTVjdnBWSnhNdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Delta Highlights Collaboration with NVIDIA in Advancing Energy-efficient 800 VDC Power and Cooling Solutions for AI Data Centers at OCP Global Summit 2026",
+   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTmhmVlQxVVZkanB4ZGpGaG5LYTFqQ0JRdE8yVDdPZzVQdUd6eGlUeFlkZDV6SUxZMmJpNmdMdzdjREdJRWhVLU5fQUJmRkdqWndyTTJVR0tqcUJPQVBBZkVYWTFTaHhUUkRQeVd3Vjh3U3dZSGR1dnlNa1FyU2tIbE9zSFFIX1FXTDAxR2luOUlsNlcyb0N1RHFlMmo5NThRUl9VT0ltSExjUkpGUFVCOTdBcWxnd2FUNWZIaGNXMFI4M0pxUC1tUVFzMlpOb0FpUURET0Z6M1JOZFJEMzJUbU1zeGZjdERXa1p3NHlNZDN4R3lrejQweFhtanNsNW0ydXVrdjQzMTdHMnJXcXludHdHVG9pMW9qdTlyV19qQjNoaWo4VTJOX2cwSzRwYVpoYVVtag?oc=5",
+   "date": "2026-10-16 01:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Delta, NVIDIA와 AI 데이터센터 전력 솔루션 협력",
+    "korean_summary": "Delta가 NVIDIA와 협력하여 AI 데이터센터용 에너지 효율 전력 및 냉각 솔루션을 개발한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNTmhmVlQxVVZkanB4ZGpGaG5LYTFqQ0JRdE8yVDdPZzVQdUd6eGlUeFlkZDV6SUxZMmJpNmdMdzdjREdJRWhVLU5fQUJmRkdqWndyTTJVR0tqcUJPQVBBZkVYWTFTaHhUUkRQeVd3Vjh3U3dZSGR1dnlNa1FyU2tIbE9zSFFIX1FXTDAxR2luOUlsNlcyb0N1RHFlMmo5NThRUl9VT0ltSExjUkpGUFVCOTdBcWxnd2FUNWZIaGNXMFI4M0pxUC1tUVFzMlpOb0FpUURET0Z6M1JOZFJEMzJUbU1zeGZjdERXa1p3NHlNZDN4R3lrejQweFhtanNsNW0ydXVrdjQzMTdHMnJXcXludHdHVG9pMW9qdTlyV19qQjNoaWo4VTJOX2cwSzRwYVpoYVVtag",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "M4 Max with 5090 e-gpu running much faster than 2x Nvidia sparks",
+   "link": "https://www.reddit.com/r/nvidia/comments/1x6id5x/m4_max_with_5090_egpu_running_much_faster_than_2x/",
+   "date": "2026-10-15 19:44",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX Spark, Mac Studio와의 LLM 벤치마크 성능 비교",
+    "korean_summary": "개발자가 RTX Spark와 Mac Studio의 LLM 추론 성능을 벤치마킹하여 구체적인 수치를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1x6id5x/m4_max_with_5090_egpu_running_much_faster_than_2x",
+   "body": "So I was reading some reviews of people comparing the 256GB Mac Studio vs 2 of the Nvidia spark workstations. They mentioned costs of between $10k and $15k and posted some numbers. A few guys mentioned a video that ran the two machines head to head on various models. One of the models was qwen flash which I have and can run. You guys may have seen my post a few weeks back about getting my 5090 working on my Mac. Well the thing that stuck out to me was that the Mac was quicker in some things but was much slower on prefill and multi user. That is specifically what my shim can accomplish so I ran some tests. These are the numbers I got from the video: ┌────────────────────┬──────┬──────────┬──────────────┐ │ │ Us │ M5 Ultra │ 2× DGX Spark │ ├────────────────────┼──────┼──────────┼──────────────┤ │ Single-user decode │ 68.4 │ 45 │ 38 │ ├────────────────────┼──────┼──────────┼──────────────┤ │ 8 users, total │ 155 │ 66–70 │ 120 │ ├────────────────────┼──────┼──────────┼──────────────┤ │ 32k cold prefill │ 27 s │ 26 s │ 11.2 s │ └────────────────────┴──────┴──────────┴──────────────┘ And these are numbers I get with llamacpp with my m4 128gb laptop and 5090 As you can see I'm still working on cold prefill but for a $6k investment for the M4 and the 5090 box you get better performance on the split system. The 5090 probably blows both systems out of the water on a smaller model that fits fully in the cards Vram too. I don't have these other systems but these are the numbers I've found. feel free to correct me if my numbers are not what you are seeing in real world testing. If you want to test this yourself I'm updating the macuda project tonight with the changes that enabled these results. I've go the driver and shim working on 3060 and 5090. I haven't tested the 3060 on these latest features yet but it's shim work mostly so it should carry over. edited 8 user to 155 from 133 after retest submitted by /u/LioDavinchy [link] [comments]"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "How NVIDIA AI Is Transforming Chip Design and Manufacturing",
+   "link": "https://www.youtube.com/watch?v=rBN0PDfJWIc",
+   "date": "2026-10-15 01:46",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "NVIDIA AI, 반도체 칩 설계·제조 자동화 프로세스 고도화",
+    "korean_summary": "NVIDIA가 CUDA-X, Cosmos, 디지털 트윈, AI 에이전트를 활용하여 반도체 제조 AI 시스템의 설계 및 최적화를 가속화했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, AI와 가속컴퓨팅으로 반도체 설계·제조 혁신 가속화",
+    "korean_summary": "NVIDIA가 CUDA-X 라이브러리, AI 물리 모델, 디지털 트윈, AI 에이전트, 로보틱스를 결합해 'AI-defined fab'을 구현함으로써 반도체 설계부터 품질 검사까지 전 공정을 가속화한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "AI 및 가속컴퓨팅 기술(CUDA-X, AI 물리 모델, 디지털 트윈, AI 에이전트, 로보틱스, Cosmos)을 반도체 설계·제조 공정에 적용",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "반도체 설계 및 제조(팹) 전반, 반도체 업계 리더들과 협력"
+    },
+    "key_facts": [
+     "**NVIDIA CUDA-X 라이브러리, AI 물리 모델, 디지털 트윈, AI 에이전트, 로보틱스가 통합되어 시뮬레이션 가속·팹 최적화를 지원**",
+     "**NVIDIA Cosmos가 웨이퍼 결함 분류(wafer defect classification)를 지원**",
+     "생산 현장의 인사이트가 모델에 피드백되어 지속적인 학습·개선 사이클 형성",
+     "AI가 반도체 제조 전 과정에서 사람, 장비, 프로세스를 연결",
+     "반도체 수요 증가로 설계·제조 복잡성이 커지는 상황에서 'AI-defined fab' 구현을 목표로 함"
+    ],
+    "why_matters": "반도체 수요 급증과 공정 복잡성 증가 속에서 **NVIDIA는 설계·제조 인프라 자체를 AI로 재정의하는 'AI-defined fab' 개념**을 제시하며 반도체 생태계 전반에 대한 영향력을 확대한다. 이는 단순 GPU 공급자에서 반도체 산업의 핵심 인프라·플랫폼 제공자로 포지션을 넓히는 전략적 움직임이다.",
+    "subject_angle": "**NVIDIA는 자사 기술(CUDA-X, Cosmos, 디지털 트윈)을 반도체 제조 공급망에 깊이 통합함으로써 파트너사(팹, 장비업체)와의 생태계 종속성을 강화**하고, AI 인프라 수요를 자사 플랫폼으로 흡수하는 전략을 취하고 있다.",
+    "focus_angle": "자율주행 및 휴머노이드 로봇에 필요한 고성능 반도체(센서·AI 가속 칩)의 설계·생산 리드타임과 수율이 개선되면, **OEM과 로보틱스 기업들은 더 빠르고 안정적인 칩 공급을 기대**할 수 있어 자율주행·로봇 플랫폼의 하드웨어 로드맵에 간접적 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 기반 반도체 설계·제조 솔루션 제공, CUDA-X/Cosmos/디지털 트윈 기술 주도"
+     }
+    ],
+    "products": [
+     {
+      "name": "CUDA-X",
+      "role": "반도체 설계·제조 시뮬레이션 가속 라이브러리"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "웨이퍼 결함 분류 지원 AI 모델"
+     },
+     {
+      "name": "Digital Twins",
+      "role": "팹 공정 최적화를 위한 가상 시뮬레이션 환경"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA와 협력하는 구체적 반도체 리더(팹·장비업체) 명단 및 계약 세부사항",
+     "AI-defined fab 적용에 따른 실제 수율·생산성 개선 수치 공개 여부",
+     "해당 기술이 자동차·로봇용 칩 생산 리드타임에 미치는 구체적 영향 데이터"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=rBN0PDfJWIc",
+   "body": "Demand for advanced chips is accelerating, bringing greater complexity to semiconductor design and manufacturing. See how NVIDIA accelerated computing and AI are helping the industry build the AI-defined fab. Explore how NVIDIA CUDA-X libraries, AI physics models, digital twins, AI agents, and robotics work together to accelerate simulation, optimize the fab, and support engineers and operators. See how NVIDIA Cosmos supports wafer defect classification and how production insights feed back into models to create a continuous cycle of learning and improvement. From chip design to quality inspection, discover how AI connects people, equipment, and processes across semiconductor manufacturing. Learn more about NVIDIA solutions for semiconductor design and manufacturing: nvidia.com/en-us/industries/semiconductor Learn how NVIDIA and semiconductor leaders are advancing AI across chip design and manufacturing for AI-defined fabs: https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs #NVIDIA #Semiconductors #PhysicalAI #DigitalTwins #AcceleratedComputing"
+  },
+  {
+   "source": "Google News · ad-hoc-news.de",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's Product Blitz Collides With a Costlier Funding Climate",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNazgtTzdlNV9hMlhJcXpnR3V1YXNRV21Ra3FvYTM4cVF6a3YxRFFROUFYRS1Na0NKbnpoWEc4WG5pTW52MXE4ZWhfd2EyNHNNWHc5WlFIekJvaXpxQ3Z0cXl3WUtXakVzR1RDWVp0MlpvTDU5enJGalYyZ2NnUW82Smt3MDRhbF9RRWVHbW1aTEpMRmlOQkpNeEI5ZWEzRnVqdnUzU1VGcXM1STRCRDdBTjl0NjhkWHQyTUkzNjJlSDN5VXc2bUpBNEJGRXpGRnNP?oc=5",
+   "date": "2026-10-16 04:51",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 제품 공세, 상승한 펀딩 비용과 충돌",
+    "korean_summary": "NVIDIA의 적극적인 제품 출시 전략이 높아진 펀딩 환경 비용과 맞닥뜨리고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNazgtTzdlNV9hMlhJcXpnR3V1YXNRV21Ra3FvYTM4cVF6a3YxRFFROUFYRS1Na0NKbnpoWEc4WG5pTW52MXE4ZWhfd2EyNHNNWHc5WlFIekJvaXpxQ3Z0cXl3WUtXakVzR1RDWVp0MlpvTDU5enJGalYyZ2NnUW82Smt3MDRhbF9RRWVHbW1aTEpMRmlOQkpNeEI5ZWEzRnVqdnUzU1VGcXM1STRCRDdBTjl0NjhkWHQyTUkzNjJlSDN5VXc2bUpBNEJGRXpGRnNP",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "SKAI, 국가 피지컬AI 얼라이언스 참여",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092172104",
+   "date": "2026-10-16 00:42",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Automotive-Robotics",
+    "is_focus": false,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "SKAI, 정부 피지컬 AI 얼라이언스 참여, NVIDIA 협력 경험 활용",
+    "korean_summary": "SKAI가 국내 피지컬 AI 산업 육성 얼라이언스에 참여하며 NVIDIA와의 협력 경험을 활용할 계획이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092172104",
+   "body": "스카이월드와이드와 계열사 스카이인텔리전스가 정부의 피지컬 인공지능(AI) 산업 육성을 위한 민관 협력체인 ‘피지컬 AI 얼라이언스’에 참여한다. 양사는 각각 데이터 기술과 글로벌 제조 협력 분야에서 활동할 계획이다. 15일 스카이월드와이드에 따르면 회사는 피지컬 AI 얼라이언스의 ‘K-피지컬 AI 풀스택 분과’ 데이터 액션그룹에 참여한다. 스카이인텔리전스는 ‘기반 거버넌스 분과’ 글로벌 협력 액션그룹에 참여한다. 피지컬 AI 얼라이언스는 국내 피지컬 AI 기술 개발과 산업 적용을 지원하는 민관 협력체다. 얼라이언스는 핵심 기술 확보를 담당하는 ‘K-피지컬 AI 풀스택 분과’와 산업별 적용을 추진하는 ‘버티컬 산업 브릿지 분과’로 구성된다. 표준·신뢰·인재·국제 협력 등을 다루는 ‘기반 거버넌스 분과’도 운영한다. 정부는 2027년 피지컬 AI 관련 예산안을 올해 9000억원에서 3조1000억원으로 늘려 편성했다. 정부는 기술 개발과 학습 인프라 구축 및 현장 실증 지원을 확대할 계획이다. 양사는 지난 13~14일 서울 코엑스에서 열린 ‘피지컬 AI Tech Week’에서 기술과 협력 계획을 소개했다. 신재혁 스카이월드와이드 대표와 한동균 스카이인텔리전스 사업부장은 한국지능정보사회진흥원(NIA)과 KAIST가 주관한 기반 거버넌스 분과 행사에서 각각 발표했다. 스카이월드와이드는 자체 그래프 데이터베이스(DB) 기술을 활용해 기업 데이터를 AI가 활용할 수 있는 지식으로 전환하는 역할을 맡는다. 회사는 공공·금융·제조 분야의 고객사 130곳 이상을 대상으로 사업 337건을 수행했다고 설명했다. 스카이인텔리전스는 산업용 로봇 기업 ABB 로보틱스와 진행한 정밀 합성데이터 검증 경험을 활용할 계획이다. 회사는 ABB 로보틱스·엔비디아 공동 백서에 주요 기여자로 참여한 경험을 토대로 국내 기업 및 연구기관과 AI 학습·검증 사례를 공유할 예정이다. 신재혁 스카이월드와이드 대표는 “데이터 활용과 학습·검증 분야의 협력을 확대해 실제 산업 현장에서 성과를 내도록 지원하겠다”고 말했다. 한동균 스카이인텔리전스 사업부장은 “다양한 제조 조건을 정밀하게 학습 데이터에 반영하는 것이 핵심”이라며 “글로벌 검증 경험을 AI 학습 자산으로 축적해 국내 기업·연구기관의 현장 적용을 뒷받침하겠다”고 밝혔다. 박혜원 기자 sunone@chosunbiz.com"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+   "date": "2026-10-16 06:36",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Super-VL-120B NVFP4 양자화 최적화 버전",
+    "korean_summary": "NVIDIA가 Nemotron-3.5-Super-VL-120B 모델을 NVFP4 양자화로 메모리 효율화한 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 81 · likes 60. README:  # NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 ## Description **NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4** is the quantized release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. It uses NVFP4 quantization to reduce memory requirements, with quantization-aware distillation from the [BF16 model](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16). The model combines interleaved Mamba-2, Mixture-of-Experts (MoE), and attention layers with a C-RADIO vision encoder and a vision-language connector. It has **120B total parameters** and **12B active parameters** and supports context lengths up to **1M tokens**. Multi-Token Prediction (MTP) enables native speculative decoding. This model is ready for commercial or non-commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 120B (12B active) | | **Architecture** | Mamba-2–Transformer hybrid Mixture of Experts with a C-RADIO vision encoder | | **Precision** | NVFP4 (mixed-precision quantized weights) | | **Context Length** | Up to 1M tokens; deployment settings are listed below | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 1× DGX Spark, 1× H200, 2× H100, or 1× GB200 | | **Speculative Decoding** | Native Multi-Token Prediction (MTP) | | **Reasoning Mode** | Configurable through the chat template (`enable_thinking=True/False`) | | **Recommended Sampling** | Text: temp"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Rerank-8B-BF16 (신규)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
+   "date": "2026-10-15 17:42",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
+    "version": "text-ranking"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Rerank-8B 신규 모델 공개",
+    "korean_summary": "NVIDIA가 RAG 파이프라인용 Nemotron-3.5-Rerank-8B 신규 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Rerank-8B-BF16:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: text-ranking · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, text-classification, reranker, cross-encoder, visual-document-retrieval, multimodal reranking, semantic-search, rag, transformers, vllm · downloads 439 · likes 1. README:  # Nemotron-3.5-Rerank-8B-BF16 Overview ## Description: **Nemotron-3.5-Rerank-8B-BF16** was developed by NVIDIA for multilingual and multimodal question-answering retrieval. It is a world-class reranker optimized to produce a logit representing the relevance of a document to a text query. Documents may contain text, page images, or both, including charts, tables, and infographics. The model can be integrated into classical or agentic vision RAG pipelines. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-8B-Instruct-2512-BF16](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16) b"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+   "date": "2026-10-16 06:37",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Super-VL-120B BF16 풀프레젼션 버전 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Super-VL-120B 비전-언어 모델 풀프레젼션 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 142 · likes 40. README:  # NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16 ## Description **NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16** is the full-precision release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. The BF16 weights support customization, domain adaptation, and full-precision evaluation. For optimized deployment, see the [NVFP4 release](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4). The model combines interleaved Mamba-2, Mixture-of-Experts (MoE), and attention layers with a C-RADIO vision encoder and a vision-language connector. It has **120B total parameters** and **12B active parameters** and supports context lengths up to **1M tokens**. Multi-Token Prediction (MTP) enables native speculative decoding. This model is ready for commercial or non-commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 120B (12B active) | | **Architecture** | Mamba-2–Transformer hybrid Mixture of Experts with a C-RADIO vision encoder | | **Precision** | BF16 (full-precision reference weights) | | **Context Length** | Up to 1M tokens; deployment settings are listed below | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 4× H100 or 2× GB200 | | **Speculative Decoding** | Native Multi-Token Prediction (MTP) | | **Reasoning Mode** | Configurable through the chat template (`enable_thinking=True/False`) | | **Recommended Sampling** | Text: tem"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+   "date": "2026-10-16 03:09",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB 버전 업데이트",
+    "korean_summary": "NVIDIA가 로컬 AI 에이전트 실행용 Nemotron 3.5 Bolt 74B-A9B 24GB 양자화 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 58 · likes 70. README:  # nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB ## Description **NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB** is a vision-language model (VLM) designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. It optimizes intelligence and speed per GB. It aims to achieve the optimal balance between speed and intelligence, being faster than most popular dense models while smarter than most popular MoE models with a similar memory footprint. This model is ready for commercial or non‑commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 74B (9B active) | | **Architecture** | Mamba-2–Transformer hybrid LatentMoE with a C-RADIO v4-H vision encoder | | **Precision** | IQ2 (2-bit quantization with quantization-aware training) | | **Context Length** | Up to 256K tokens | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 24GB packed model; vLLM on NVIDIA Ampere (A100), Hopper (H100-80GB), or Blackwell | | **Speculative Decoding** | LiLiCorr drafter via DFlash; 7 speculative tokens in the companion Bolt vLLM recipes | | **Reasoning Mode** | Chat-template controls (`enable_thinking=True/False`), inherited from the Super 3.5 VL client | | **Recommended Sampling** | Text: temperature 1.0, top_p 0.95 (inherited from the Super 3.5 VL client) | | **Best For** | Running everyday agentic tasks locally | | **License** | [OpenMDW-1.1](https://openmdw.ai/license/1-1/) | ## Mo"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+   "date": "2026-10-16 00:42",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Bolt LiLiCorr 최적화 버전 공개",
+    "korean_summary": "NVIDIA가 Nemotron-3.5-Bolt-74B 모델에 LiLiCorr speculative decoding 기능을 추가한 버전을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: Model Optimizer · tags: Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Bolt, latent-moe, LiLiCorr, text-generation, arxiv:2608.20530, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB · downloads 20 · likes 6. README:  # NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr ## Description NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr is the LiLiCorr speculative-decoding checkpoint for the [NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB). The compatible target is a hybrid LatentMoE vision-language model for reasoning, chat, and agent workflows. For more information, see the [NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB) target card. This checkpoint supports LiLiCorr-assisted serving of the compatible NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB target. This checkpoint is not a standalone language model. It proposes draft token candidates that the compatible 24GB target verifies; the target produces the user-visible text. This model is ready for commercial or non-commercial use. ## License/Terms of Use **GOVERNING DOWNLOAD TERMS:** Use of this model is governed by the [OpenMDW-1.1 model license](https://openmdw.ai/license/1-1/). ## Deployment Geography Global ## Use Case Developers can pair this draft with NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB for text generation. The target supports reasoning, chat, retrieval-augmented generation, visual understanding, and agent workflows. The draft accelerates generation through speculative decoding. ## Release Date Hugging Face 10/15/2026 via https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr ## References - [NVIDIA Model"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
+   "date": "2026-10-15 23:22",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Super-VL-120B LiLiCorr 최적화 버전",
+    "korean_summary": "NVIDIA가 Nemotron-3.5-Super-VL-120B 모델에 LiLiCorr speculative decoding 기능을 추가한 버전을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr:2026-10-15",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: Model Optimizer · tags: Model Optimizer, safetensors, qwen3, nvidia, ModelOpt, Nemotron-3.5-Super, latent-moe, mtp, LiLiCorr, text-generation, arxiv:2608.20530, base_model:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16 · downloads 137 · likes 5. README:  # Model Overview ## Description: The NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr model is the LiLiCorr speculative decoding checkpoint for NVIDIA's Nemotron-3.5-Super-VL-120B-A12B model family, which is a hybrid LatentMoE vision-language model designed for reasoning, chat, visual understanding, and agentic workflows. For details about the target model, see the [BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16) and [NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4) model cards. The NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4-LiLiCorr model is intended for LiLiCorr speculative decoding deployments tuned for DGX Spark and low-concurrency data center workflows. This model was built through our [ModelOpt](https://github.com/NVIDIA/Model-Optimizer) library which is a library of model optimization techniques including quantization, pruning, Neural Architecture Search (NAS), distillation, speculative decoding and sparsity to accelerate models. This model is ready for commercial or non-commercial use. ## License/Terms of Use: **GOVERNING DOWNLOAD TERMS:** Use of this model is governed by the [OpenMDW-1.1 model license](https://openmdw.ai/license/1-1/). ## Deployment Geography: Global ## Use Case: Developers deploying Nemotron-3.5-Super-VL-120B-A12B for reasoning, chat, RAG, and agentic workflows that benefit from lower-latency speculative decoding on DGX Spark and data center GPUs. Load this draft checkpoint a"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+   "date": "2026-10-16 02:03",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Super VL 120B 베이스 모델 업데이트",
+    "korean_summary": "NVIDIA가 비전-언어 모델 Nemotron 3.5 Super VL 120B 베이스 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, mtp, conversational, custom_code, en, es · downloads 4 · likes 24. README:  # NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16 > *Looking for a post-trained model? See the [BF16 release](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16) for customization or the [NVFP4 release](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4) for optimized deployment.* ## Model Overview **Model Developer:** NVIDIA Corporation ## Description **NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-Base-BF16** is the base vision-language checkpoint of the Nemotron 3.5 Super family. It provides a starting point for continued training, domain adaptation, and developing custom post-trained vision-language models. The language backbone is initialized from Nemotron 3 Super Base and further trained through distillation from Nemotron 3 Ultra Base. The model underwent continued pre-training on indic languages, long-context training, and software-engineering mid-training. A vision encoder and connector extend the language backbone to visual inputs. The model combines interleaved Mamba-2, Mixture-of-Experts (MoE), and attention layers with a C-RADIO vision encoder and a vision-language connector. It has **120B total parameters** and **12B active parameters** and supports context lengths up to **1M tokens**. Multi-Token Prediction (MTP) enables native speculative decoding. This model is ready for commercial or non-commercial use. ### What is Nemotron? NVIDIA Nemotron™ is a family of open models with open weights, training data, and recipes, del"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+   "date": "2026-10-16 03:06",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Bolt 74B BF16 전정밀도 버전 업데이트",
+    "korean_summary": "NVIDIA가 커스터마이제이션 및 포스트-트레이닝용 Nemotron 3.5 Bolt 74B BF16 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 4 · likes 28. README:  # NVIDIA-Nemotron-3.5-Bolt-74B-A9B-BF16 ## Description NVIDIA Nemotron 3.5 Bolt 74B-A9B is a vision-language model (VLM) designed to run everyday agentic tasks locally. This is the full-precision (BF16) release of this model, intended primarily for **customization and post-training** rather than direct production inference. The 24GB version of this model uses a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. It aims to achieve the optimal balance between speed and intelligence, being faster than most popular dense models while smarter than most popular MoE models with a similar memory footprint. For latency- and throughput-optimized inference, use this 24GB version for [llama.cpp](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF) or [vLLM](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB) instead. This model is ready for commercial or non‑commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 74B (9B active) | | **Architecture** | Mamba-2–Transformer hybrid LatentMoE with a C-RADIO v4-H vision encoder | | **Precision** | BF16 (full-precision weights) | | **Context Length** | Up to 256K tokens | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | vLLM on NVIDIA Ampere (A100), Hopper (H100-80GB), or Blackwell | | **Speculative Decoding** | LiLiCorr drafter via DFlash; 7 speculative tokens in the supplied vLLM recipes | | **Reasoning Mode** | Chat-te"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+   "date": "2026-10-16 03:10",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Bolt 74B GGUF 포맷 버전 업데이트",
+    "korean_summary": "NVIDIA가 로컬 실행용 Nemotron 3.5 Bolt 74B GGUF 포맷 버전을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, gguf, nvidia, pytorch, nemotron-3.5, image-text-to-text, en, es, fr, de, it, ja · downloads 119 · likes 45. README:  # NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF ## Description **NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB** is a vision-language model (VLM) designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. It optimizes intelligence and speed per GB. It aims to achieve the optimal balance between speed and intelligence, being faster than most popular dense models while smarter than most popular MoE models with a similar memory footprint. This model is ready for commercial or non‑commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 74B (9B active) | | **Architecture** | Mamba-2–Transformer hybrid LatentMoE with a C-RADIO v4-H vision encoder | | **Precision** | IQ2 (2-bit quantization with quantization-aware training), GGUF format | | **Context Length** | Up to 256K tokens | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | llama.cpp on RTX/DGX Spark (64GB / 128GB) or RTX discrete GPUs (32GB+ / 48GB+); 28GB and 32GB recipes below | | **Speculative Decoding** | DFlash with a separate GGUF drafter; up to 7 draft tokens in the 32GB recipe or 6 in the 28GB recipe | | **Reasoning Mode** | Chat-template controls (`enable_thinking=True/False`), inherited from the Super 3.5 VL client | | **Recommended Sampling** | Text: temperature 1.0, top_p 0.95 | | **Best For** | Running everyday agentic tasks locally with llama.cpp | | **License** | [OpenMDW-1.1](https://openm"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
+   "date": "2026-10-16 00:42",
+   "score": 2,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Bolt GGUF 포맷 변환 버전 공개",
+    "korean_summary": "Nemotron-3.5-Bolt-74B 모델을 GGUF 포맷으로 변환한 버전을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: gguf · tags: gguf, nvidia, ModelOpt, Nemotron-3.5-Bolt, latent-moe, LiLiCorr, text-generation, arxiv:2608.20530, base_model:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF, base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF, conversational · downloads 42 · likes 10. README:  # NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF ## Description NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF is the LiLiCorr speculative-decoding checkpoint for [NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF). The compatible target is a hybrid LatentMoE vision-language model for reasoning, chat, and agent workflows. For more information, see the [NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF) target card. This checkpoint is not a standalone language model. It proposes draft token candidates that the compatible [24GB target](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF) verifies; the target produces the user-visible text. This model is ready for commercial or non-commercial use. ## License/Terms of Use **GOVERNING DOWNLOAD TERMS:** Use of this model is governed by the [OpenMDW-1.1 model license](https://openmdw.ai/license/1-1/). ## Deployment Geography Global ## Use Case Developers can pair this draft with Nemotron-3.5-Bolt-74B-A9B-24GB-GGUF for text generation. The target supports reasoning, chat, retrieval-augmented generation, visual understanding, and agent workflows. The draft accelerates generation through speculative decoding. ## Release Date Hugging Face 10/15/2026 via https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr-GGUF ## References - [NVIDIA Model Optimizer]"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Embed-8B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
+   "date": "2026-10-16 07:08",
+   "score": 2,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Embed-8B-BF16",
+    "version": "visual-document-retrieval"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Embed-8B 멀티모달 임베딩 모델 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Embed-8B 멀티모달 임베딩 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Embed-8B-BF16:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: visual-document-retrieval · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, feature-extraction, multimodal-embedding, image-embeddings, text-embeddings, retrieval, rag, semantic-search, transformers, vllm · downloads 182 · likes 0. README:  **NVIDIA Nemotron 3.5 Embed** &nbsp; &nbsp; # Nemotron-3.5-Embed-8B-BF16 Overview ## Description: **Nemotron-3.5-Embed-8B-BF16** is a state-of-the-art, versatile embedding model developed by NVIDIA for multimodal and multilingual question-answering retrieval. The model can embed a document page in the form of an image, text, or combined image–text input. Documents can be retrieved given a user query in text form. The model supports page images containing text, tables, charts, and infographics. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-8B-Instruct-2512-BF16](https://huggingface.co/mistra"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Embed-1B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16",
+   "date": "2026-10-16 07:04",
+   "score": 2,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Embed-1B-BF16",
+    "version": "visual-document-retrieval"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Embed-1B 경량 임베딩 모델 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Embed-1B 경량 임베딩 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Embed-1B-BF16:2026-10-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: visual-document-retrieval · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, feature-extraction, multimodal-embedding, image-embeddings, text-embeddings, retrieval, rag, semantic-search, transformers, vllm · downloads 743 · likes 3. README:  **NVIDIA Nemotron 3.5 Embed** &nbsp; &nbsp; # Nemotron-3.5-Embed-1B-BF16 Overview ## Description: **Nemotron-3.5-Embed-1B-BF16** is a versatile embedding model developed by NVIDIA for multimodal and multilingual question-answering retrieval. The model can embed a document page in the form of an image, text, or combined image–text input. Documents can be retrieved given a user query in text form. The model supports page images containing text, tables, charts, and infographics. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-3B-Instruct-2512-BF16](https://huggingface.co/mistralai/Ministral-3-3B"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 8,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 12,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 22,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 121.0
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 4.0
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 26,
+   "enriched": 26,
+   "error": "",
+   "sec": 7.2
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 10,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 20.1
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 13,
+   "error": "",
+   "sec": 4.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 35,
+   "enriched": 35,
+   "error": "",
+   "sec": 5.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=nvidia",
+   "sec": 4.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
