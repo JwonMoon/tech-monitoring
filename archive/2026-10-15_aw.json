@@ -1,0 +1,756 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-15",
+ "window": [
+  "2026-10-14",
+  "2026-10-15"
+ ],
+ "generated": "2026-10-15T09:06:25+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 타이세이건설과 함께 일본 국토교통성의 **자동물류도로** 사회실증 실험에 선정되어 Autoware 기반 복수 차량 자율주행을 검증한다.",
+  "TIER IV가 자동운전 **OS 민주화**를 핵심 비전으로 내세워 IPO를 추진 중이다.",
+  "퍼소널크로스테크놀로지가 TIER IV의 **Autoware 공식 인정 파트너**로 국내 4사째 선정되며 생태계가 확장된다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "国土交通省「自動物流道路の社会実装に向けた実証実験」に採択",
+   "link": "https://prtimes.jp/main/html/rd/p/000000142.000040119.html",
+   "date": "2026-10-14 13:00",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 국토교통성 자동물류도로 실증사업 채택",
+    "korean_summary": "TIER IV가 대성건설, 대성로텍과 함께 국토교통성의 자동물류도로 실증사업에 선정되어 Autoware 기반의 Pilot.Auto 검증을 2026년 10월 말부터 진행한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 타이세이건설과 함께 일본 국토교통성 '자동물류도로' 실증실험에 선정",
+    "korean_summary": "TIER IV가 타이세이건설·타이세이로텍과 함께 일본 국토교통성의 2026년도 자동물류도로 사회실장 실증실험에 선정되어 Autoware 기반 Pilot.Auto로 복수 차량 자율주행과 센서·인프라 간소화를 검증한다.",
+    "action": {
+     "actor": "TIER IV, Taisei Corporation, Taisei Rotec",
+     "action": "국토교통성 '令和8年度自動物流道路の社会実装に向けた実証実験'에 공동 선정되어 전용공간(터널 등)에서 복수 자율주행차량 주행성능 및 센서·인프라 간소화 검증 실시",
+     "stage": "Announced",
+     "timeline": "2026년 10월 하순~11월 상순 (8일간)",
+     "scope": "일본 국토교통성 국토기술정책종합연구소 실대터널실험시설·시험주행로(도쿄 인근), 차량 3대"
+    },
+    "key_facts": [
+     "3개사(Taisei Corporation, TIER IV, Taisei Rotec)가 국토교통성 2026년도(令和8年度) 자동물류도로 실증실험에 선정됨",
+     "**승용차 기반 실험용 자율주행차량 3대**를 사용해 추종·정지·대면·병주·분류·합류·낙하물 회피 등 주행성능 검증",
+     "자율주행 시스템은 **오픈소스 Autoware 기반 TIER IV의 Pilot.Auto** 사용",
+     "타이세이건설의 자기위치추정 지원기술 T-Localizer®의 유효성과 Pilot.Auto의 적용성·확장성을 병행 검증",
+     "2025년도 실증(T-Localizer®, T-iPower® Road 대상)에서 적용 가능성과 운용 과제를 이미 확인했으며, 이번은 그 후속 단계"
+    ],
+    "why_matters": "일본 정부가 추진하는 전용공간 기반 '자동물류도로' 정책에 Autoware/Pilot.Auto가 공식 실증 파트너로 재선정됨으로써 **일반도로 대비 규제·인프라 부담이 낮은 물류 전용 자율주행 시장**에서 TIER IV의 레퍼런스가 축적되고 있다. 이는 Waymo·Aurora식 완전자율 트럭 노선과 달리 인프라-차량 협조형 간소화 모델을 지향하는 일본식 상용화 경로의 한 축이 될 수 있다.",
+    "subject_angle": "TIER IV는 승용차 중심 Robotaxi 경쟁과 별도로 **건설사(Taisei)와의 인프라 협조형 자율주행 노선**을 통해 물류 전용도로라는 틈새 상용화 트랙을 구축하고 있으며, Autoware 생태계의 공공 인프라 프로젝트 적용 사례를 확대하는 전략으로 해석된다.",
+    "focus_angle": "본 실증은 실증(2025)→실증 2차(2026) 단계로, 아직 **양산형 물류 전용 반송기기가 아닌 승용차 베이스 차량으로 시스템 검증 중**이며 서비스 상용화까지는 추가 단계가 필요하다. 고객은 일본 정부(국토교통성) 단일 발주처이며 지역은 국내 시험시설로 한정되어 해외 확장 여부는 미확인이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 기반 자율주행 시스템 Pilot.Auto 및 차량 제공, 주행실증 지원·데이터 분석"
+     },
+     {
+      "name": "Taisei Corporation",
+      "context": "실증 계획·실시 총괄, T-Localizer® 자기위치추정 기술 및 인프라 간소화 검증"
+     },
+     {
+      "name": "Taisei Rotec",
+      "context": "반사체 설치계획·시공·계측 등 실증 지원"
+     }
+    ],
+    "products": [
+     {
+      "name": "Pilot.Auto",
+      "role": "Autoware 기반 자율주행 시스템, 복수 차량 주행성능 검증 대상"
+     },
+     {
+      "name": "Autoware",
+      "role": "Pilot.Auto의 오픈소스 기반 플랫폼"
+     },
+     {
+      "name": "T-Localizer®",
+      "role": "자기위치추정 지원 인프라 기술, Pilot.Auto와 연계 검증"
+     },
+     {
+      "name": "T-iPower® Road",
+      "role": "주행 중 무선급전 기술, 2025년도 실증에서 검증, 이번 실증에는 언급 없음(미확인)"
+     }
+    ],
+    "watch_next": [
+     "2026년 10~11월 실증 결과 및 센서·인프라 간소화 수준 공개 여부",
+     "승용차 베이스가 아닌 실제 물류 전용 반송기기 시제품 개발 일정",
+     "자동물류도로 사회실장(상용화) 목표 시점 및 사업자 구조 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · 物流ニュースのLNEWS",
+     "title": "大成建設・ティアフォーほか／国交省の自動物流道路社会実装に向けた実証実験に採択",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90LU5qVF9aaHFkUUw0cktldWRxQ29wWlpUTWhsalFHZXNBanhxbWNGR0liRWtaSkFLMmUtY0tUN3lDNGk4akdLYWdCWEtKN3VFbkU0WQ?oc=5"
+    },
+    {
+     "source": "Google News · 物流ニュースのLNEWS",
+     "title": "大成建設・ティアフォーほか／国交省の自動物流道路社会実装に向けた実証実験に採択",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90LU5qVF9aaHFkUUw0cktldWRxQ29wWlpUTWhsalFHZXNBanhxbWNGR0liRWtaSkFLMmUtY0tUN3lDNGk4akdLYWdCWEtKN3VFbkU0WQ?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000142.000040119.html",
+   "body": "国土交通省「自動物流道路の社会実装に向けた実証実験」に採択 専用空間に適した自動運転システム・インフラの簡素化と複数台走行を検証 大成建設株式会社、株式会社ティアフォー、大成ロテック株式会社の3社は、国土交通省が実施する「令和8年度自動物流道路の社会実装に向けた実証実験」に採択されました。 国土交通省の推進する「自動物流道路」とは、物流専用の空間において無人化・自動化された搬送機器により貨物を輸送する新しい物流システムです。本実証では、自動物流道路の社会実装を見据え、トンネル環境下などにおいて複数台の自動運転車両を走行させ、追従走行や対面走行、車線変更、分流・合流、障害物回避などの走行性能や、専用空間を念頭に、自動運転に必要な車載センサーと路側インフラの簡素化を検証します。あわせて、大成建設の保有する自己位置推定支援技術「T-Localizer®」の有効性とティアフォーが開発する自動運転システム「Pilot.Auto」の適用性と拡張性を検証します。 実証概要 今回の実証では、直線部、曲線部において、3台の自動運転車両を用い、先行・追従、追従・停止、対面、並走、停止機器すれ違い、分流・合流、落下物を想定した回避・追い越し、停止位置正確性などを検証するほか、標準幅員・中間幅員・最小幅員等、自動物流道路に必要な走行空間について確認します。 | 実証テーマ | 複数台の搬送機器の自動走行の検証 | |---|---| | 実施場所 | 国土交通省 国土技術政策総合研究所 実大トンネル実験施設、試験走路（東直線、南ループ） | | 実施時期 | 2026年10月下旬～11月上旬（8日間） | | 使用車両 | 実験用自動運転車両 3台 ※ | | 自動運転システム | 自動運転用オープンソースソフトウェア「Autoware」を基盤としてティアフォーが開発する自動運転システム「Pilot.Auto」 | ※本実証では、複数台走行における自動運転システム・制御機能の検証を目的として、乗用車ベースの自動運転車両を使用しています。（将来的な物流専用搬送機器の試作・選定とは異なります） | 企業名 | 主な役割 | |---|---| | 大成建設株式会社 | 実証実験の計画・実施、自己位置推定支援技術および自動運転設備簡素化の検証、データ分析・評価 | | 株式会社ティアフォー | 自動運転車両・自動運転システムの提供、走行設定・走行実証支援、走行データの取得・分析 | | 大成ロテック株式会社 | 反射体の設置計画・施工・計測、実証実験支援 | 自動物流道路の実現へ向けた技術開発 自動物流道路は専用空間となり、一般公道とは異なる交通環境や設備条件となることから、車両側の自動運転機能と道路側のインフラを組み合わせ、社会実装に適した空間構築を検討することが重要です。 これまで、大成建設は、自動物流道路の社会実装に向けて自動運転車両の自己位置推定を支援するインフラ技術「T-Localizer®」や、走行中の車両への電力供給を可能とする無線給電技術「T-iPower® Road」を、大成ロテックは、T-Localizer®で車載LiDARが認識しやすい塗料など、ティアフォーは、自動運転用オープンソースソフトウェア「Autoware」を用いた自動運転車両の提供など、次世代モビリティを支えるインフラ技術の開発・実証を進めてきました。 これらの技術の自動物流道路への適用性検証のため、2025年度には、国土交通省「自動物流道路の社会実装に向けた実証実験」に参画し、「T-Localizer®」を活用したティアフォー車両の自動走行支援と無線給電技術「T-iPower® Road」に関する実証実験を実施し、その結果、適用可能性の実現性と、運用の課題抽出を確認してきました。 2026年度はその成果を踏まえ、大成建設、ティアフォー、大成ロテックの3社で、複数台の自動運転車両による実際の運用を想定した走行性能を検証するとともに、自動物流道路のような専用空間の特性を生かし、車載センサーや路側インフラなど、自動運転に必要となる設備の合理化・簡素化について検証します。 今後の展開 3社は、本実証で得られる知見をもとに、自動物流道路に求められる車両側の自動運転機能と道路インフラの役割を整理し、専用空間に適した自動運転システム・インフラ構成の合理化・簡素化を検討します。車両とインフラの双方から自動物流道路の社会実装に向けた技術基盤の構築に取り組んでまいります。 ※本資料の実証内容・役割等は、国土交通省へ提出した申請書に基づく現時点の計画です。 参考ウェブサイト T-Localizer® https://www.taisei.co.jp/about_us/wn/2025/251215_10821.html https://chizu.taisei.co.jp/trend/selection/09.html https://chizu.taisei.co.jp/trend/selection/10.html T-iPower® Road https://www.taisei.co.jp/about_us/wn/2025/250718_10570.html Pilot.Auto https://pilot.auto/ お問い合わせ 大成建設株式会社 コーポレート・コミュニケーション部 広報室 Tel：03-5381-5011 株式会社ティアフォー 広報担当 email：pr@tier4.jp 大成ロテック株式会社 広報部 Tel：03-5925-9431 すべての画像 - 種類 - 経営情報 - ビジネスカテゴリ - 自動車・カー用品システム・Webサイト・アプリ開発 - ダウンロード - プレスリリース素材 このプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー[593A]：国土交通省「自動物流道路の社会実装に向けた実証実験」の採択に関するお知らせ 2026年10月14日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00YWdYOEd3RXBVZlUwZW1Ccm9qWUVaX1ViR0N3eWZKYjNSUEc5OHc3c3J1VFZXX2dqUTlJdWpBX0J6ay14NWw1U0R6ejE1LXRFWlRSclFyNEtRdllxQ1o2YWZMSE5uNlJNR0E?oc=5",
+   "date": "2026-10-14 13:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 일본 자동물류도로 사회실증 사업 선정",
+    "korean_summary": "TIER IV가 일본 국토교통성의 자동물류도로 사회실현 실증 프로젝트에 채택되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00YWdYOEd3RXBVZlUwZW1Ccm9qWUVaX1ViR0N3eWZKYjNSUEc5OHc3c3J1VFZXX2dqUTlJdWpBX0J6ay14NWw1U0R6ejE1LXRFWlRSclFyNEtRdllxQ1o2YWZMSE5uNlJNR0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【注目IPO】ティアフォー(593A)が目指す「自動運転OSの民主化」とは？ Eli White (GLmXxX7XE3)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1RyNC0xLVFpOFB0eEFCLWx5TG5Yems1NEY3QUktV2pHV3N0blNiMWFac0tsc1pBQ3p5SkxPamdadEF2Y2dTb1VGNEx1TUtOMnphQWFTWkN5dU00U2ZCU19iM3ZiUTVIQmFtUkdUMjgzRGo5SGo0VlF0SHBaQ3RnN3AxSlJMNWs?oc=5",
+   "date": "2026-10-14 05:19",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "주목할 IPO, TIER IV의 '자동운전OS 민주화' 비전",
+    "korean_summary": "TIER IV가 자동운전 OS의 민주화를 핵심 전략으로 하여 IPO를 추진 중이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【注目IPO】ティアフォー(593A)が目指す「自動運転OSの民主化」とは？ Eli White (GLmXxX7XE3)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1RyNC0xLVFpOFB0eEFCLWx5TG5Yems1NEY3QUktV2pHV3N0blNiMWFac0tsc1pBQ3p5SkxPamdadEF2Y2dTb1VGNEx1TUtOMnphQWFTWkN5dU00U2ZCU19iM3ZiUTVIQmFtUkdUMjgzRGo5SGo0VlF0SHBaQ3RnN3AxSlJMNWs?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX1RyNC0xLVFpOFB0eEFCLWx5TG5Yems1NEY3QUktV2pHV3N0blNiMWFac0tsc1pBQ3p5SkxPamdadEF2Y2dTb1VGNEx1TUtOMnphQWFTWkN5dU00U2ZCU19iM3ZiUTVIQmFtUkdUMjgzRGo5SGo0VlF0SHBaQ3RnN3AxSlJMNWs",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Taisei Corporation, TIER IV, and Taisei Rotec Partner to Advance Autoflow Road Deployment through a Japanese Government Project",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0RiRXRpRDduV1Q1NTBBdGFkZV9nN2JqeTdSZ2xJd3ZCaG9CYnBGeWt1UXlKbGxlMmFNU0dORzRqaWw4OFZiekRydmNqUjl3dGNnVjB5UThlbmthaXRuSkFGNWNickFMamZtdFhjRGxZZjd0VU9QZy1SNXl1ekFNSC1SRzlvTzZTMWk4b240Y0piLUF3Q2U1UHBUMmhQcktWcUFKSlBMQmxqZzMwN1pISkdMcUt0Sml6UlVQYkgzazEzX1FHREVyQlNFLThSRXfSAc8BQVVfeXFMTmdEYkV0aUQ3bldUNTUwQXRhZGVfZzdiank3UmdsSXd2QmhvQmJwRnlrdVF5SmxsZTJhTVNHTkc0amlsODhWYnpEcnZjalI5d3RjZ1YweVE4ZW5rYWl0bkpBRjVjYnJBTGpmbXRYY0RsWWY3dFVPUGctUjV5dXpBTUgtUkc5b082UzFpOG9uNGNKYi1Bd0NlNVBwVDJoUHJLVnFBSkpQTEJsamczMDdaSEpHTHFLdEppelJVUGJIM2sxM19RR0RFckJTRS04UkV3?oc=5",
+   "date": "2026-10-14 04:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "일본 자동물류도로 실증에 TIER IV 선정",
+    "korean_summary": "TIER IV가 대성건설과 함께 일본 정부의 자동물류도로 실증 프로젝트 대상에 선정되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "Taisei Corporation, TIER IV, and Taisei Rotec Partner to Advance Autoflow Road Deployment through a Japanese Government Project",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmlLcmRtSkZDdGRhZE9DWEpwZ1NrUnRuWUdkaTBjLWdGZ3FNNVhDZHg1OGFuck51aEJTWVJFdGE0dmJsdXBtWmVuZHlpM0lFc3JGY3M4VVVWTWZlVlFyWmI3dlZSTmNlazZBbVVQX2duREN1X19LOHp3S3dob2tCSE9QbnFETGh6UUZqNWQ1bHc4YVBGTFVUbnJYZTVHZFN5UzVvY1dRRVFSOEFtQk1XMnlNNHFQd0xSZFBQOV9rb9IBzwFBVV95cUxOZ0RiRXRpRDduV1Q1NTBBdGFkZV9nN2JqeTdSZ2xJd3ZCaG9CYnBGeWt1UXlKbGxlMmFNU0dORzRqaWw4OFZiekRydmNqUjl3dGNnVjB5UThlbmthaXRuSkFGNWNickFMamZtdFhjRGxZZjd0VU9QZy1SNXl1ekFNSC1SRzlvTzZTMWk4b240Y0piLUF3Q2U1UHBUMmhQcktWcUFKSlBMQmxqZzMwN1pISkdMcUt0Sml6UlVQYkgzazEzX1FHREVyQlNFLThSRXc?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "Taisei Corporation, TIER IV, and Taisei Rotec Partner to Advance Autoflow Road Deployment through a Japanese Government Project",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmlLcmRtSkZDdGRhZE9DWEpwZ1NrUnRuWUdkaTBjLWdGZ3FNNVhDZHg1OGFuck51aEJTWVJFdGE0dmJsdXBtWmVuZHlpM0lFc3JGY3M4VVVWTWZlVlFyWmI3dlZSTmNlazZBbVVQX2duREN1X19LOHp3S3dob2tCSE9QbnFETGh6UUZqNWQ1bHc4YVBGTFVUbnJYZTVHZFN5UzVvY1dRRVFSOEFtQk1XMnlNNHFQd0xSZFBQOV9rb9IBzwFBVV95cUxOZ0RiRXRpRDduV1Q1NTBBdGFkZV9nN2JqeTdSZ2xJd3ZCaG9CYnBGeWt1UXlKbGxlMmFNU0dORzRqaWw4OFZiekRydmNqUjl3dGNnVjB5UThlbmthaXRuSkFGNWNickFMamZtdFhjRGxZZjd0VU9QZy1SNXl1ekFNSC1SRzlvTzZTMWk4b240Y0piLUF3Q2U1UHBUMmhQcktWcUFKSlBMQmxqZzMwN1pISkdMcUt0Sml6UlVQYkgzazEzX1FHREVyQlNFLThSRXc?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "Taisei Corporation, TIER IV, and Taisei Rotec Partner to Advance Autoflow Road Deployment through a Japanese Government Project",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVmlLcmRtSkZDdGRhZE9DWEpwZ1NrUnRuWUdkaTBjLWdGZ3FNNVhDZHg1OGFuck51aEJTWVJFdGE0dmJsdXBtWmVuZHlpM0lFc3JGY3M4VVVWTWZlVlFyWmI3dlZSTmNlazZBbVVQX2duREN1X19LOHp3S3dob2tCSE9QbnFETGh6UUZqNWQ1bHc4YVBGTFVUbnJYZTVHZFN5UzVvY1dRRVFSOEFtQk1XMnlNNHFQd0xSZFBQOV9rb9IBzwFBVV95cUxOZ0RiRXRpRDduV1Q1NTBBdGFkZV9nN2JqeTdSZ2xJd3ZCaG9CYnBGeWt1UXlKbGxlMmFNU0dORzRqaWw4OFZiekRydmNqUjl3dGNnVjB5UThlbmthaXRuSkFGNWNickFMamZtdFhjRGxZZjd0VU9QZy1SNXl1ekFNSC1SRzlvTzZTMWk4b240Y0piLUF3Q2U1UHBUMmhQcktWcUFKSlBMQmxqZzMwN1pISkdMcUt0Sml6UlVQYkgzazEzX1FHREVyQlNFLThSRXc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ0RiRXRpRDduV1Q1NTBBdGFkZV9nN2JqeTdSZ2xJd3ZCaG9CYnBGeWt1UXlKbGxlMmFNU0dORzRqaWw4OFZiekRydmNqUjl3dGNnVjB5UThlbmthaXRuSkFGNWNickFMamZtdFhjRGxZZjd0VU9QZy1SNXl1ekFNSC1SRzlvTzZTMWk4b240Y0piLUF3Q2U1UHBUMmhQcktWcUFKSlBMQmxqZzMwN1pISkdMcUt0Sml6UlVQYkgzazEzX1FHREVyQlNFLThSRXfSAc8BQVVfeXFMTmdEYkV0aUQ3bldUNTUwQXRhZGVfZzdiank3UmdsSXd2QmhvQmJwRnlrdVF5SmxsZTJhTVNHTkc0amlsODhWYnpEcnZjalI5d3RjZ1YweVE4ZW5rYWl0bkpBRjVjYnJBTGpmbXRYY0RsWWY3dFVPUGctUjV5dXpBTUgtUkc5b082UzFpOG9uNGNKYi1Bd0NlNVBwVDJoUHJLVnFBSkpQTEJsamczMDdaSEpHTHFLdEppelJVUGJIM2sxM19RR0RFckJTRS04UkV3",
+   "body": ""
+  },
+  {
+   "source": "Google News · レスポンス（Response.jp）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "パーソルクロステクノロジー、ティアフォーの自動運転ソフト「Autoware」の認定パートナーに…国内4社目として選定",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LUjRLMmljOGxFQWsyeTc2bDlfRG5qU3N5M2ZIWi01eXZncGJMOTJEMWFDUlRfdE9JaDYwNmNsR0J5cmZISGtUbmx6X2JaRnJ0UlJrazdZU3gxNjhxdVVB?oc=5",
+   "date": "2026-10-14 09:30",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "퍼소널크로스테크놀로지, TIER IV Autoware 인정 파트너 선정",
+    "korean_summary": "퍼소널크로스테크놀로지가 TIER IV의 Autoware 공식 인정 파트너로서 국내 4사째로 선정되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "パーソルクロステクノロジー、ティアフォーの自動運転ソフト「Autoware」の認定パートナーに…国内4社目として選定",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LUjRLMmljOGxFQWsyeTc2bDlfRG5qU3N5M2ZIWi01eXZncGJMOTJEMWFDUlRfdE9JaDYwNmNsR0J5cmZISGtUbmx6X2JaRnJ0UlJrazdZU3gxNjhxdVVB?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LUjRLMmljOGxFQWsyeTc2bDlfRG5qU3N5M2ZIWi01eXZncGJMOTJEMWFDUlRfdE9JaDYwNmNsR0J5cmZISGtUbmx6X2JaRnJ0UlJrazdZU3gxNjhxdVVB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Taisei, TIER IV, Taisei Rotec Selected for Japan Autoflow Road Trials",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGpaRU5xa215UGw1dVNTbDZBWTltRk9PUGFsNVFHWDhoV3h4OFRoSE55b2ZxdWRvTXBaZFBzNVA2RzJob3dFX0haY3JUMldjVDlkbjF0RXNycGN0Q2hnTWFwNE82b05ZRWwyZWMwRU5RU3o0ejJndXQxNndTTlR0dnF3dnNMNDZRWjZoS0V2RDktNU0?oc=5",
+   "date": "2026-10-14 13:26",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, Autoflow Road 시범사업 대상 선정",
+    "korean_summary": "TIER IV와 대성건설이 일본의 Autoflow Road 시범 사업 선정 대상으로 확정되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unite.AI",
+     "title": "Taisei, TIER IV, Taisei Rotec Selected for Japan Autoflow Road Trials",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGpaRU5xa215UGw1dVNTbDZBWTltRk9PUGFsNVFHWDhoV3h4OFRoSE55b2ZxdWRvTXBaZFBzNVA2RzJob3dFX0haY3JUMldjVDlkbjF0RXNycGN0Q2hnTWFwNE82b05ZRWwyZWMwRU5RU3o0ejJndXQxNndTTlR0dnF3dnNMNDZRWjZoS0V2RDktNU0?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "Taisei, TIER IV, Taisei Rotec Selected for Japan Autoflow Road Trials",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGpaRU5xa215UGw1dVNTbDZBWTltRk9PUGFsNVFHWDhoV3h4OFRoSE55b2ZxdWRvTXBaZFBzNVA2RzJob3dFX0haY3JUMldjVDlkbjF0RXNycGN0Q2hnTWFwNE82b05ZRWwyZWMwRU5RU3o0ejJndXQxNndTTlR0dnF3dnNMNDZRWjZoS0V2RDktNU0?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGpaRU5xa215UGw1dVNTbDZBWTltRk9PUGFsNVFHWDhoV3h4OFRoSE55b2ZxdWRvTXBaZFBzNVA2RzJob3dFX0haY3JUMldjVDlkbjF0RXNycGN0Q2hnTWFwNE82b05ZRWwyZWMwRU5RU3o0ejJndXQxNndTTlR0dnF3dnNMNDZRWjZoS0V2RDktNU0",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーが後場急上昇、国交省の「自動物流道路の社会実装に向けた実証実験」に採択",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zR2xMZ0xWdjI0RVYydFJ1N1ZVdFNwYTlxakdWd29mVXBweWljR0hPVFBNVHBaSDladmdodUNzUUVTSlozNlVqU0hKX041WXgtM0E?oc=5",
+   "date": "2026-10-14 13:30",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "자동물류도로 실증 채택으로 TIER IV 주가 급등",
+    "korean_summary": "TIER IV가 국토교통성의 자동물류도로 실증사업 선정에 따라 후장에서 주가가 급상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーが後場急上昇、国交省の「自動物流道路の社会実装に向けた実証実験」に採択◇",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JWngxZXFqZGQwaVBucVdaMTVmWDRKMDYyZkZQRVFkNTVlV2RrN1dBZHdXQXBsUGVQMjB6LV9wM294bEFhd3FIX0g0VEY5MGE4Rm1QZ1hsT0VQMGdlNlIw?oc=5"
+    },
+    {
+     "source": "Google News · 株探",
+     "title": "ティアフォーが後場急上昇、国交省の「自動物流道路の社会実装に向けた実証実験」に採択",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zR2xMZ0xWdjI0RVYydFJ1N1ZVdFNwYTlxakdWd29mVXBweWljR0hPVFBNVHBaSDladmdodUNzUUVTSlozNlVqU0hKX041WXgtM0E?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーが後場急上昇、国交省の「自動物流道路の社会実装に向けた実証実験」に採択◇",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JWngxZXFqZGQwaVBucVdaMTVmWDRKMDYyZkZQRVFkNTVlV2RrN1dBZHdXQXBsUGVQMjB6LV9wM294bEFhd3FIX0g0VEY5MGE4Rm1QZ1hsT0VQMGdlNlIw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zR2xMZ0xWdjI0RVYydFJ1N1ZVdFNwYTlxakdWd29mVXBweWljR0hPVFBNVHBaSDladmdodUNzUUVTSlozNlVqU0hKX041WXgtM0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー－後場プラス転換 国交省の自動物流道路実証に採択 大成建設などと共同(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWjVGaUZzZll3LUVRMmpURlp0ZEZTZ0hvQlBzUm9vQWpZU1RubGNxOWV2SzBIY1Fjc0NNYmhhZTlxa25GRTBIcjNtdVM0aDAxeWNCeTBUVkg2WWIwX0g3U0F0LTg1NXlFY2xKT1Q4Mnh1MzJDR3RxeEFmWjViTllPR2h6S0NVTlE?oc=5",
+   "date": "2026-10-14 13:08",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV 후장 플러스 전환, 자동물류도로 실증 채택으로",
+    "korean_summary": "TIER IV가 국토교통성의 자동물류도로 실증 프로젝트 선정에 따라 후장에서 상승 전환했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー－後場プラス転換 国交省の自動物流道路実証に採択 大成建設などと共同(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWjVGaUZzZll3LUVRMmpURlp0ZEZTZ0hvQlBzUm9vQWpZU1RubGNxOWV2SzBIY1Fjc0NNYmhhZTlxa25GRTBIcjNtdVM0aDAxeWNCeTBUVkg2WWIwX0g3U0F0LTg1NXlFY2xKT1Q4Mnh1MzJDR3RxeEFmWjViTllPR2h6S0NVTlE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWjVGaUZzZll3LUVRMmpURlp0ZEZTZ0hvQlBzUm9vQWpZU1RubGNxOWV2SzBIY1Fjc0NNYmhhZTlxa25GRTBIcjNtdVM0aDAxeWNCeTBUVkg2WWIwX0g3U0F0LTg1NXlFY2xKT1Q4Mnh1MzJDR3RxeEFmWjViTllPR2h6S0NVTlE",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "後場コメント No.3 インタファクトリ、エクシオＧ、ティアフォー、岡山製紙、リクルートＨＤ、テラドローン(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzB0MUdWaHVibk1ZSXdXeHI5bTUyaGp2NWV3b3NNWDlDb3BvWkw3OUI0aUR2SmNXRGliaUNUM0RKa1hUaXRraEZjQW1FZG9Uc2RMVjBzdGJhd2s2Q09KT0hLUy1ZaFRpdXMxQ20xcEJrOHRRT2EzQm1qaWk2Y3E2ak5PRFhCQnM?oc=5",
+   "date": "2026-10-14 15:32",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "후장 코멘트, 여러 기업 시가총액 변동 종합",
+    "korean_summary": "여러 기업의 시가총액 변동을 다룬 시장 분석 코멘트에서 TIER IV가 지나가듯 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "後場コメント No.3 インタファクトリ、エクシオＧ、ティアフォー、岡山製紙、リクルートＨＤ、テラドローン(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzB0MUdWaHVibk1ZSXdXeHI5bTUyaGp2NWV3b3NNWDlDb3BvWkw3OUI0aUR2SmNXRGliaUNUM0RKa1hUaXRraEZjQW1FZG9Uc2RMVjBzdGJhd2s2Q09KT0hLUy1ZaFRpdXMxQ20xcEJrOHRRT2EzQm1qaWk2Y3E2ak5PRFhCQnM?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzB0MUdWaHVibk1ZSXdXeHI5bTUyaGp2NWV3b3NNWDlDb3BvWkw3OUI0aUR2SmNXRGliaUNUM0RKa1hUaXRraEZjQW1FZG9Uc2RMVjBzdGJhd2s2Q09KT0hLUy1ZaFRpdXMxQ20xcEJrOHRRT2EzQm1qaWk2Y3E2ak5PRFhCQnM",
+   "body": ""
+  },
+  {
+   "source": "Google News · ライブドアニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "みや氏がティアフォーの板を見て即乗り、寄り付き30分で勝負に出た朝 (2026年10月14日掲載)",
+   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsSDdZQTd0SjBTSGdkY0VVZjY1SzZRVnZnNExjbEVNc1EwNXRuai15OHVHazFYRTdEV1o5UlRTVkNHWHBCZXhpbmhEeVFnUGFOMUFLS3dWU3NMSzQzN3c?oc=5",
+   "date": "2026-10-14 09:16",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 주식의 개인 투자자 매수 활동",
+    "korean_summary": "개인 투자자가 TIER IV 공개 주식에 대한 관심을 표현함"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "みや氏がティアフォーの板を見て即乗り、寄り付き30分で勝負に出た朝 (2026年10月14日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsSDdZQTd0SjBTSGdkY0VVZjY1SzZRVnZnNExjbEVNc1EwNXRuai15OHVHazFYRTdEV1o5UlRTVkNHWHBCZXhpbmhEeVFnUGFOMUFLS3dWU3NMSzQzN3c?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBsSDdZQTd0SjBTSGdkY0VVZjY1SzZRVnZnNExjbEVNc1EwNXRuai15OHVHazFYRTdEV1o5UlRTVkNHWHBCZXhpbmhEeVFnUGFOMUFLS3dWU3NMSzQzN3c",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "autowarefoundation/autoware_universe 0.53.0",
+   "link": "https://github.com/autowarefoundation/autoware_universe/releases/tag/0.53.0",
+   "date": "2026-10-14 22:06",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "autowarefoundation/autoware_universe",
+    "version": "0.53.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "Autoware Universe 0.53.0 릴리스",
+    "korean_summary": "autoware_universe 0.53.0 마이너 버전이 릴리스되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:autowarefoundation/autoware_universe:0.53.0",
+   "body": "chore: bump version to 0.53.0 ( #13493 )"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 4.7
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 120,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 8.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 4,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 2,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 3,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 4,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 15,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 26,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 13.8
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 22.1
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 5.0
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 6.7
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
