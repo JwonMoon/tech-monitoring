@@ -1,0 +1,2056 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-15",
+ "window": [
+  "2026-10-14",
+  "2026-10-15"
+ ],
+ "generated": "2026-10-15T09:02:28+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 영국 agentic AI 안전·보안 연구에 **5년간 2.5억 달러** 컴퓨팅을 지원해 영국 AI 생태계 육성을 가속화한다.",
+  "Applied Materials·Cadence 등 반도체 선도기업들이 NVIDIA의 **cuPotential** 라이브러리를 도입해 AI-defined fab 구현을 위한 설계·제조 공정을 가속화한다.",
+  "[FOCUS] Danaher가 NVIDIA와 협력해 의료·생명과학 실험실에 **Physical AI**와 가속컴퓨팅을 도입해 연구 효율을 높인다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+   "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+   "date": "2026-10-14 15:04",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, UK 스타트업 에코시스템에 5년간 2억 5천만 달러 투자 약정",
+    "korean_summary": "NVIDIA가 UK의 에이전틱 AI 안전·보안 연구 강화를 위해 5년간 2억 5천만 달러를 투자하고 Boltz 등 5개 스타트업 신규 투자를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 영국 스타트업 생태계에 신규 투자 발표",
+    "korean_summary": "NVIDIA가 영국의 agentic 안전·보안 연구를 위해 5년간 2.5억 달러 컴퓨트를 공약하고 Boltz, Foresight, Hiverge, Prima Mente, Riverlane 등 신규 스타트업 투자와 산업별(에너지·헬스케어·스마트시티·금융) 파트너십을 확대했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "영국 스타트업 5개사(Boltz, Foresight, Hiverge, Prima Mente, Riverlane)에 신규 투자 발표 및 5년 2.5억 달러 컴퓨트 공약, Earthshot Prize 파트너십 체결",
+     "stage": "Announced",
+     "timeline": "미확인 (발표 시점은 본문 기준 'Today')",
+     "scope": "영국(U.K.) 스타트업·공공기관·기업 전반"
+    },
+    "key_facts": [
+     "NVIDIA는 **5년간 2.5억 달러 규모의 컴퓨트 공약**을 통해 영국의 agentic 안전·보안 연구를 지원",
+     "Boltz, Foresight, Hiverge, Prima Mente, Riverlane 5개 스타트업에 신규 투자 발표",
+     "Fuse Energy는 **NVIDIA B300 Blackwell Ultra** 기반 자체 인프라로 45만 가구 이상에 AI 고객 지원 제공",
+     "OneAdvanced는 NVIDIA Agent Toolkit과 오픈 모델로 영국 최초 Primary Care AI-triage용 fine-tuned LLM 배포",
+     "Apian, Synnovis는 NVIDIA Cosmos를 활용해 병원 로봇이 실험실 샘플 운반을 수행하도록 지원"
+    ],
+    "why_matters": "NVIDIA는 단순 하드웨어 공급을 넘어 국가 단위 AI 생태계(스타트업 투자·주권 컴퓨트·공공 인프라)에 깊이 침투하며 영국을 유럽 sovereign AI 전략의 거점으로 삼고 있다. **의료·금융·스마트시티 등 전 산업에 NVIDIA 스택(Cosmos, BioNeMo, Nemotron, Agent Toolkit)이 표준처럼 자리잡으면서** 경쟁사(AMD, Google, Microsoft)와의 플랫폼 종속성 격차가 커질 수 있다.",
+    "subject_angle": "NVIDIA는 GPU 판매를 넘어 **스타트업 지분 투자·주권 AI 인프라·수직 산업 파트너십을 결합한 플랫폼 전략**으로 국가 단위 AI 생태계 전체를 자사 소프트웨어·하드웨어 스택에 묶어두는 포지셔닝을 강화하고 있다.",
+    "focus_angle": "Apian과 Synnovis가 NVIDIA Cosmos 기반 디지털 시뮬레이션을 활용해 **병원 로봇이 실험실 샘플 운반 등 물리적 작업을 수행**하도록 지원하는 사례로, NVIDIA의 physical AI/로보틱스 플랫폼이 의료 현장 자동화로 확장되고 있음을 보여준다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "투자자 및 컴퓨트·소프트웨어 스택 제공자"
+     },
+     {
+      "name": "Boltz",
+      "context": "신규 투자 대상, 생체분자 모델 및 신약 설계 AI 스타트업"
+     },
+     {
+      "name": "Foresight",
+      "context": "신규 투자 대상, 인프라 프로젝트 완공 예측 스타트업"
+     },
+     {
+      "name": "Hiverge",
+      "context": "신규 투자 대상, AI 알고리즘 자동 발굴 엔진 개발"
+     },
+     {
+      "name": "Prima Mente",
+      "context": "신규 투자 대상, 질병 해독용 생물학 파운데이션 모델 개발"
+     },
+     {
+      "name": "Riverlane",
+      "context": "신규 투자 대상, 양자컴퓨터 오류 정정 하드웨어·소프트웨어 개발"
+     },
+     {
+      "name": "Fuse Energy",
+      "context": "NVIDIA B300 Blackwell Ultra 기반 자체 AI 인프라 구축"
+     },
+     {
+      "name": "OneAdvanced",
+      "context": "NVIDIA Agent Toolkit 기반 Primary Care AI-triage LLM 배포"
+     },
+     {
+      "name": "Heidi",
+      "context": "NVIDIA Nemotron 오픈 모델 통합"
+     },
+     {
+      "name": "Speechmatics",
+      "context": "NVIDIA Triton Inference 기반 의료 음성인식 모델 Oak 배포"
+     },
+     {
+      "name": "Apian",
+      "context": "NVIDIA Cosmos 활용, 병원 로봇 실험실 샘플 운반 지원"
+     },
+     {
+      "name": "Synnovis",
+      "context": "Apian·NVIDIA와 협력, 병원 로봇 솔루션 공동 개발"
+     },
+     {
+      "name": "Danaher",
+      "context": "NVIDIA BioNeMo 활용 자율 실험실 및 단백질 설계 워크플로우 협력"
+     },
+     {
+      "name": "Liverpool City Region",
+      "context": "NVIDIA 기반 'City Brain' sovereign AI 전략 구축"
+     },
+     {
+      "name": "LSEG",
+      "context": "NVIDIA와 GPU 가속 시장 분석 협력"
+     },
+     {
+      "name": "Revolut",
+      "context": "PRAGMA 뱅킹 파운데이션 모델 개발"
+     },
+     {
+      "name": "Lloyds Banking Group",
+      "context": "ATUM 트랜잭션 파운데이션 모델 구축"
+     },
+     {
+      "name": "Starling",
+      "context": "Civo 영국 주권 클라우드 기반 뱅킹 모델 개발"
+     },
+     {
+      "name": "NatWest",
+      "context": "NVIDIA Nemotron Voice 협력"
+     },
+     {
+      "name": "Earthshot Prize",
+      "context": "NVIDIA가 Global Alliance Founding Partner로 참여"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA B300 Blackwell Ultra",
+      "role": "Fuse Energy의 자체 AI 인프라 기반 GPU"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "병원 로봇의 물리적 작업(샘플 운반) 시뮬레이션 지원"
+     },
+     {
+      "name": "NVIDIA BioNeMo",
+      "role": "Danaher 자율 실험실 단백질 설계 워크플로우에 활용"
+     },
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "Heidi·NatWest 등에서 오픈 모델로 활용"
+     },
+     {
+      "name": "NVIDIA Agent Toolkit",
+      "role": "OneAdvanced의 Primary Care AI-triage LLM 구축에 사용"
+     },
+     {
+      "name": "NVIDIA Triton Inference",
+      "role": "Speechmatics의 의료 음성인식 모델 Oak 배포 기반"
+     }
+    ],
+    "watch_next": [
+     "5년 2.5억 달러 컴퓨트 공약의 구체적 집행 일정 및 수혜 기관 공개 여부",
+     "Apian·Synnovis의 NVIDIA Cosmos 기반 병원 로봇 솔루션의 실제 배치 시점",
+     "Boltz, Foresight, Hiverge, Prima Mente, Riverlane에 대한 투자 금액 및 지분 조건 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
+     "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xdXdCcE1NZkd1c0VFQ0RrbHRFcjQ3UVRDOG1NWkpFLUxVdUFwdFNNbHF4N2hjRUxmWS1XWDZ6dXNyLVYyblhqUkx1N3NUZzJsWmxoMEZ6RlhiTnBtVGMyV25VOVQ?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment",
+   "body": "Across industries, the U.K. is putting the full stack to work. T he scale of deployment is growing fast, from enterprises transforming their businesses to startups solving some of the planet’s hardest problems. NVIDIA is putting that principle into practice, including through a five-year, $250 million compute commitment to strengthen the U.K.’s agentic safety and security research. NVIDIA’s Investments in the UK NVIDIA has been investing in the U.K. startup ecosystem, supporting companies including Basecamp Research , Ineffable Intelligence , Synthesia , Wayve and many more. Today, NVIDIA announced new planned investments in Boltz , Foresight , Hiverge, Prima Mente and Riverlane . Boltz , a London-based AI startup founded by MIT researchers, builds biomolecular models and AI agents that help scientists predict molecular structures and interactions, and design potential new medicines. Foresight, a London-based startup, helps owners of major infrastructure projects, including hyperscale data centers, predict completion dates, mitigate risks and accelerate time to revenue. Hiverge , a Cambridge-based AI startup founded by researchers from Google DeepMind and the University of Cambridge, builds an AI discovery engine that automatically writes and optimizes algorithms for tasks such as faster AI training and complex logistics planning. Prima Mente , a London-based AI biology startup, focuses on building biological foundation models to decode complex diseases and identify novel therapeutic targets, starting with Alzheimer’s, Parkinson’s and ALS. Riverlane, a Cambridge-based quantum computing startup, builds real-time error correction hardware and software that work across all major qubit types, helping quantum computers become reliable enough for practical use. In addition, NVIDIA is partnering with the Earthshot Prize , joining as a Global Alliance Founding Partner to bring compute and technical expertise to innovators working on solutions for the world’s greatest climate and sustainability challenges. Read All NVIDIA in Europe Announcements Technology Leaders Pioneer Intelligent Solutions Across the UK In energy, Fuse Energy is moving its customer AI onto its own in-house infrastructure, built on NVIDIA B300 Blackwell Ultra, delivering faster, more responsive support to over 450,000 U.K. households. Meanwhile, sovereign AI company Locai Labs released Nemotron-Personas-UK — an open source dataset of one million synthetic personas representing the UK’s demographic, regional and cultural diversity — helping developers build fairer, more representative AI systems. Healthcare In healthcare, OneAdvanced is deploying what it calls the U.K.’s first and most advanced fine-tuned LLM for Primary Care AI-triage — built with NVIDIA Agent Toolkit software and open models — supporting millions of National Health Service patients. Heidi has now integrated NVIDIA Nemotron open models to give clinicians faster access to trusted medical evidence. Speechmatics is deploy"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+   "date": "2026-10-14 15:01",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, UK 에이전틱 AI 안전·보안 연구에 5년간 2억 5천만 달러 약정",
+    "korean_summary": "NVIDIA가 UK의 에이전틱 AI 안전·보안 연구 역량 강화를 위해 5년간 2억 5천만 달러의 컴퓨팅 리소스 기부를 공식 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 영국 에이전틱 AI 안전·보안 연구에 5년간 2억 5천만 달러 컴퓨팅 지원",
+    "korean_summary": "NVIDIA가 영국의 에이전틱 AI 안전·보안 연구 역량 강화를 위해 향후 5년간 2억 5천만 달러 상당의 컴퓨팅 자원을 BOLD, SOFAIR, Imperial College London 등에 제공하기로 했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "영국 에이전틱 AI 안전·보안 연구 지원을 위한 5년간 컴퓨팅 기부(연간 5천만 달러) 발표",
+     "stage": "Announced",
+     "timeline": "5년간, 연간 5천만 달러",
+     "scope": "영국 전역 AI 안전·보안 연구 커뮤니티, BOLD(Oxford), SOFAIR(UCL), Imperial College London"
+    },
+    "key_facts": [
+     "**5년간 총 2억 5천만 달러 상당의 컴퓨팅 기부, 연간 5천만 달러 규모**",
+     "지원 대상은 영국 전역 AI 안전·보안 연구 커뮤니티이며, 일부는 BOLD, SOFAIR, Imperial College London에 배정",
+     "컴퓨팅은 영국 기반 NVIDIA Cloud Partners를 통해 제공되며 인프라는 영국 내 호스팅",
+     "**연구 프로그램은 secure agents, open-model security, real-world threat mitigation에 초점**, NVIDIA OpenShell 및 NVIDIA Sentry reference design 활용",
+     "Bristol 대학의 Isambard-AI 슈퍼컴퓨터(NVIDIA Grace Hopper Superchips 기반) 협력을 토대로 한 확장"
+    ],
+    "why_matters": "AI 역량 확대와 함께 안전성·보안 연구 인프라를 국가 단위로 선점함으로써 **NVIDIA가 글로벌 AI 거버넌스 논의의 핵심 인프라 공급자로 자리매김**하려는 시도로 해석된다. 영국은 G20 의장국 역할과 맞물려 frontier AI safety를 국가 전략으로 삼고 있어, 이번 투자는 정책·학계·산업을 아우르는 장기적 영향력 확보 수단이 된다.",
+    "subject_angle": "**NVIDIA는 컴퓨팅 기부를 통해 자사 플랫폼(OpenShell, Sentry, Cloud Partners 생태계)을 안전성 연구 표준으로 내재화**하며, 정부·학계와의 전략적 파트너십을 통해 규제 환경 형성에도 영향력을 확대하려는 포지셔닝을 보인다.",
+    "focus_angle": "Imperial College London의 연구 범위에 **로봇공학 안전(safety engineering and robotics) 및 physical AI(로봇·자율 에이전트)**가 포함되어 있어, NVIDIA의 안전 연구 지원이 자율 로봇 시스템의 신뢰성 확보로도 연결될 가능성이 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "컴퓨팅 기부 주체, OpenShell·Sentry·Cloud Partners 제공"
+     },
+     {
+      "name": "University of Oxford",
+      "context": "BOLD 연구소 주관"
+     },
+     {
+      "name": "UCL (University College London)",
+      "context": "SOFAIR 연구소 주관"
+     },
+     {
+      "name": "Imperial College London",
+      "context": "safety engineering 및 robotics 연구 수행"
+     },
+     {
+      "name": "University of Bristol",
+      "context": "Isambard-AI 슈퍼컴퓨터 운영, 기존 협력 사례"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA OpenShell",
+      "role": "오픈 보안 런타임 소프트웨어, 연구에 활용"
+     },
+     {
+      "name": "NVIDIA Sentry reference design",
+      "role": "안전성 평가 기준 설계로 연구에 활용"
+     },
+     {
+      "name": "NVIDIA Grace Hopper Superchips",
+      "role": "Isambard-AI 슈퍼컴퓨터 동력원"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA Cloud Partners 선정 및 기술 아키텍처·상업 조건 확정 여부",
+     "BOLD·SOFAIR·Imperial의 구체적 연구 성과 및 안전성 벤치마크 공개 시점",
+     "영국 G20 의장국 AI 안전 의제와의 연계 및 타국 유사 투자 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObFZSeVlfYXk3T3JDamt0enRzU3UwYVpvSmlfcVlrdkJSbmtxSTg2eVR5bkRYNmlHVDdDeWtiVVBmYUdyajNSRWhwTkRxVTltaGVIVEg2VGJ2ZU5nb1RETW9jMnVFbWtNWF9OZUdSeGZnZ0FxNExYZVJzSlFtQ25tdVpSbmlYUlVYVC1LQW5DN01Lck9pNWNXdGlIOF90UVhERzBjMGtJVEVqUWJIb1Zsdm5OSkdPV0xmT1BaZ1h6M1NtNjdzYklhOUNudko0V2dxLXRn?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years",
+   "body": "News Summary: - NVIDIA announces a compute donation valued at $250 million over five years to support U.K. agentic safety and security research. - The program will support the wider U.K. research community, with a proportion of the commitment supporting BOLD, SOFAIR and Imperial College London across fundamental agentic foundation models and robotics safety. - Compute access will be delivered through U.K.-based NVIDIA Cloud Partners, supporting the nation’s research capability and compute ecosystem. NVIDIA today announced a five-year compute donation valued at $250 million to strengthen the United Kingdom’s agentic safety and security research capability. The commitment will provide $50 million in compute access annually to support agentic safety and security research across the U.K. The majority will support the wider U.K. AI safety and security research community, with a proportion supporting work with the British Open-Ended Learning and Discovery Lab (BOLD), the Science of Fundamental AI Research Lab (SOFAIR) and Imperial College London. “AI capability and safety must advance together,” said Jensen Huang, founder and CEO of NVIDIA. “The U.K. brings world-class scientific rigor to this essential engineering challenge. With this $250 million commitment, NVIDIA will put accelerated computing in the hands of U.K. researchers to develop, test and strengthen safeguards for increasingly powerful AI. This is how the U.K. turns research leadership into real-world solutions — and scientific progress into a future that benefits everyone.” “This commitment is a vote of confidence in our world-leading strength and expertise in AI research — and, in particular, frontier AI safety that is becoming ever more important as AI’s capabilities develop,” said U.K. AI Minister Kanishka Narayan. “NVIDIA’s donation will help Britain’s AI innovators access the resources they need to bring their ideas to life — and, in the process, help build a distinctly British AI future that is safe, secure and that serves people’s best interests, objectives that will be central to the U.K.’s G20 presidency.” “To realise the opportunities of AI, people need to feel the technology is safe and secure. The government is committed to ensuring AI can be securely harnessed to fuel new discoveries and drive growth,“ said U.K. Business Secretary Jonathan Reynolds. “NVIDIA’s investment will help British researchers continue to lead the world in that effort — accelerating the breakthroughs that build trust and help us deploy AI safely.” Strengthening UK Leadership in Agentic Safety and Security Compute provided through the initiative will be dedicated to agentic safety and security research. The program will connect complementary areas of U.K. research, including in AI safety and security. BOLD, led by the University of Oxford, is developing approaches that help AI systems learn, adapt and operate alongside people. SOFAIR, led by UCL, is exploring new open source AI architectures and more acce"
+  },
+  {
+   "source": "Google News · Streetwise Reports",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Commits US$1B to American Science Push in Tech Energy & Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMDA2dl9xWlBxaFZCYTZ5X29nMXpFR2ZibnNNdWpDRF9yY0dtWGhfWmwwdE0tdXNQcXJKTVFBa3ZocHV6QUFXcFBwRUpKcS1UeGV4WVdvQm1icmVUTWNINng3amZQTFl3VWFlOGRtWF9aS1RCS2kxWEtRNko2TG9ubk5vV3JZcVFPOG4xRXp5YzJKU2dQWGdncTk5cjBKRF9HTzdXRnl2b25UcjQydk1UVFUzZzJwckF4bnJFRm1oR0JEQXlhd1FzQ2hhSkhBUQ?oc=5",
+   "date": "2026-10-14 23:23",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 미국 과학 및 기술·에너지·의료 분야에 10억 달러 투자",
+    "korean_summary": "NVIDIA가 미국의 과학·기술·에너지·의료 분야 진흥을 위해 10억 달러를 투자하기로 약속했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMDA2dl9xWlBxaFZCYTZ5X29nMXpFR2ZibnNNdWpDRF9yY0dtWGhfWmwwdE0tdXNQcXJKTVFBa3ZocHV6QUFXcFBwRUpKcS1UeGV4WVdvQm1icmVUTWNINng3amZQTFl3VWFlOGRtWF9aS1RCS2kxWEtRNko2TG9ubk5vV3JZcVFPOG4xRXp5YzJKU2dQWGdncTk5cjBKRF9HTzdXRnl2b25UcjQydk1UVFUzZzJwckF4bnJFRm1oR0JEQXlhd1FzQ2hhSkhBUQ",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+   "date": "2026-10-15 01:10",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 반도체 설계·제조 가속화 위한 cuPotential·NanoVDB·NPP 라이브러리 공개",
+    "korean_summary": "NVIDIA가 AI 정의 팹(AI-defined fabs) 가속화를 위해 새로운 CUDA-X 라이브러리들을 공개하고 Lam Research와 KLA 등 반도체 업체들의 채택을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 반도체 선도기업들과 협력해 AI 팹 시대를 위한 칩 설계·제조 AI 가속화",
+    "korean_summary": "NVIDIA가 신규 CUDA-X 라이브러리 cuPotential을 출시하고 Applied Materials, Cadence, KLA, Lam Research, Siemens, Synopsys 등 반도체 선도기업들이 이를 도입해 AI-defined fab 구현을 위한 칩 설계·제조·검사 공정을 가속화한다고 발표했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "신규 CUDA-X 라이브러리 cuPotential 출시 및 cuEST·cuDSS·NanoVDB·NPP 등 기존 라이브러리를 통해 반도체 선도기업들의 AI-defined fab 구축 지원",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Applied Materials, Cadence, KLA, Lam Research, Siemens, Synopsys, COMSOL, Voltai 등 반도체 설계·제조·검사 분야"
+    },
+    "key_facts": [
+     "cuPotential은 **원자·분자 상호작용을 시뮬레이션하는 AI 에이전트** 구축용 신규 CUDA-X 라이브러리로, 이미 GPU 최적화된 워크플로우를 조기 접근 테스트에서 추가로 2-3배 가속",
+     "NanoVDB는 Lam Research의 칩 제조 시뮬레이션을 **30배 가속**, NVIDIA NPP는 KLA의 검사 공정 가속에 기여",
+     "Synopsys는 cuEST로 QuantumATK 30배 속도 향상, cuDSS로 S-Device 벤치마크 12배 속도 향상 달성, AgentEngineer는 NVIDIA Nemotron·NeMo와 연동",
+     "Cadence AuraStack AI Super Agent는 cuDSS와 Celsius 결합으로 패키지 열·응력 최적화를 **8배 가속**, COMSOL은 cuDSS로 최대 10배 빠른 멀티피직스 시뮬레이션 구현",
+     "Voltai는 Voltaire 플랫폼(3D-IC 설계·시뮬레이션)에 NVIDIA GPU 가속 솔버를 적용(세부 수치 미확인)"
+    ],
+    "why_matters": "반도체 수요 급증에 따라 팹들은 생산 확장과 복잡한 공정 관리를 동시에 요구받고 있으며, **AI 에이전트 기반 시뮬레이션·검사 자동화**가 수율 개선과 생산능력 확대의 핵심 수단으로 부상하고 있다. EDA·장비·검사 전 영역의 주요 기업들이 동시에 NVIDIA 스택을 채택함으로써 AI-defined fab이 업계 표준 방향으로 자리잡고 있음을 보여준다.",
+    "subject_angle": "NVIDIA는 GPU 하드웨어를 넘어 **CUDA-X 라이브러리와 Nemotron 모델을 반도체 설계·제조 전 과정에 결합하는 수직적 AI 스택 공급자**로 포지셔닝하며, EDA·장비·검사 생태계 전반에 종속적 플랫폼 역할을 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "cuPotential 등 CUDA-X 라이브러리 및 Nemotron 모델 제공"
+     },
+     {
+      "name": "Synopsys",
+      "context": "cuPotential·cuEST·cuDSS 조기 도입, AgentEngineer를 Nemotron/NeMo와 연동"
+     },
+     {
+      "name": "Cadence",
+      "context": "AuraStack AI Super Agent, ChipStack AI Super Agent에 Nemotron·cuDSS 적용"
+     },
+     {
+      "name": "Lam Research",
+      "context": "NanoVDB로 칩 제조 시뮬레이션 30배 가속"
+     },
+     {
+      "name": "KLA",
+      "context": "NVIDIA NPP로 검사 공정 가속"
+     },
+     {
+      "name": "Applied Materials",
+      "context": "NVIDIA 가속 컴퓨팅·AI 스택 활용 (세부 미확인)"
+     },
+     {
+      "name": "Siemens",
+      "context": "NVIDIA 가속 컴퓨팅·AI 스택 활용 (세부 미확인)"
+     },
+     {
+      "name": "COMSOL",
+      "context": "cuDSS로 멀티피직스 시뮬레이션 10배 가속, Nemotron Ultra 기반 MCP Server 출시 예정"
+     },
+     {
+      "name": "Voltai",
+      "context": "Voltaire 플랫폼에 NVIDIA GPU 가속 솔버 적용"
+     }
+    ],
+    "products": [
+     {
+      "name": "cuPotential",
+      "role": "원자·분자 상호작용 시뮬레이션용 신규 CUDA-X 라이브러리"
+     },
+     {
+      "name": "cuEST",
+      "role": "전자적 거동 모델링 라이브러리"
+     },
+     {
+      "name": "cuDSS",
+      "role": "복잡한 엔지니어링 시뮬레이션 솔버"
+     },
+     {
+      "name": "NanoVDB",
+      "role": "3D 데이터 처리 오픈소스 라이브러리, 칩 제조 시뮬레이션 가속"
+     },
+     {
+      "name": "NVIDIA NPP",
+      "role": "GPU 기반 이미지 처리 라이브러리, 검사 공정 가속"
+     },
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "오픈 모델, 각사 AI 에이전트와 연동"
+     },
+     {
+      "name": "NVIDIA NeMo",
+      "role": "AI 에이전트 지원 프레임워크"
+     }
+    ],
+    "watch_next": [
+     "cuPotential의 정식 출시 일정 및 추가 고객사 공개 여부",
+     "Applied Materials, Siemens의 구체적 적용 사례 및 성과 수치 공개",
+     "AI-defined fab 개념이 실제 생산 라인에 적용되는 구체적 시점 및 범위"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY0JQSW1rVk16Vk96aEt1QzRJeHNUNXZfclVRVlBFdmhhQ09HS2N3YUlfRnRTejgtdGkwc040QWdHbXkyVXFJcW1uaTdZdV9EMUo0ZDN6cnFiOWxneTlidVpIYmljSHJkTVJaNmhUTDRwb2czQXNtN00taFQ5MkhBZVlITUN6QTBYcUVrdV8tQXFtcDJ2d2EwRjVONU1VdGRCNUhRRnBUbUp1UFRfMmNqaWFJMVdRVXRLa2UzTF9yVmhnM0VadXk3TzRSTjJMZGJn?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
+   "body": "News Summary: - NVIDIA introduces cuPotential, a new NVIDIA CUDA-X library developers can use to build AI agents that simulate how atoms and molecules interact, accelerating already GPU-optimized workflows by an additional 2-3x in early-access testing. - NanoVDB, an open source library for working with 3D data, accelerates chipmaking simulation for AI-defined fabs, helping Lam Research achieve 30x faster simulation. - NVIDIA NPP, a library for processing images on GPUs, accelerates chipmaking inspection for AI-defined fabs, helping KLA accelerate inspection. - Applied Materials, Cadence, KLA, Lam Research, Siemens, Synopsys and other semiconductor leaders are using NVIDIA’s accelerated computing and AI stack across chip design, manufacturing and testing, helping drive faster development, better yield and greater production capacity. NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined fabs. AI-defined fabs are semiconductor factories where AI helps engineers optimize processes, solve production issues and improve production efficiency. As demand for advanced chips rises, such fabs must expand production while managing increasingly complex manufacturing processes. Engineers need new ways to model materials, analyze inspection data and test process changes in digital twins before applying them in production. The expanded CUDA-X portfolio gives AI agents and engineering applications accelerated tools for semiconductor simulation, 3D data processing and image analysis, helping automate more engineering work across chip design and manufacturing so fabs can predict process behavior and improve yield. “The semiconductor industry made the AI revolution possible. Now, AI is transforming how chips are built,” said Tim Costa, vice president and general manager of industrial and computational engineering at NVIDIA. “As fabs race to meet demand for advanced chips, NVIDIA CUDA-X and Omniverse libraries give AI agents accelerated simulation and inspection tools to help engineers manage complexity, improve yield and advance AI-defined fabs.” NVIDIA cuPotential Accelerates How Researchers Model Atomic Interactions Understanding how atoms and molecules interact is critical to modeling semiconductor materials and manufacturing processes, but these calculations can take significant amounts of time, even in software already optimized for GPUs. NVIDIA cuPotential accelerates atomic-scale simulation with specialized GPU-accelerated functions developers can add to existing software. It helps researchers model electrical forces and other interactions across large numbers of atoms to test and refine simulations faster. Synopsys is among the early adopters using cuPotential to accelerate materials simulations. By making these modeling capabilities available to AI agents, cuPotential "
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "광학엔진, 기판에서 인터포저로...엔비디아 차세대 CPO 기술 개발",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=63707",
+   "date": "2026-10-15 04:13",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "research",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, 차세대 CPO 기술 'Optics on Interposer' 공개",
+    "korean_summary": "NVIDIA가 Semicon West 2026에서 광학 엔진을 칩 인터포저 위에 배치하는 차세대 공동광학패키징 기술을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 인터포저 기반 차세대 CPO(Co-Packaged Optics) 기술 공개",
+    "korean_summary": "NVIDIA가 광학엔진을 패키지 기판 대신 연산칩이 실린 인터포저 위에 탑재하는 차세대 CPO 기술 'OOI(Optics-on-Interposer)'를 공개해 대역폭 밀도 향상과 전력 소모 절감을 노린다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "광학엔진을 패키지 기판이 아닌 인터포저 위에 집적하는 차세대 CPO 기술(OOI) 연구 결과 발표 및 시제품 확보",
+     "stage": "Report",
+     "timeline": "2026년 10월 13일(현지시간), SEMICON West 2026 발표",
+     "scope": "미확인 (특정 제품·고객 적용 범위 불명)"
+    },
+    "key_facts": [
+     "NVIDIA 수석연구원 Nikola Nedovic이 SEMICON West 2026(샌프란시스코)에서 연구 내용 발표",
+     "**광학엔진을 패키지 기판이 아닌 연산칩이 실린 인터포저 위에 탑재**하는 구조",
+     "전기 신호가 유기기판을 거치지 않아 **대역폭 밀도 증가 및 전력 소모 감소** 효과 기대",
+     "해당 기술은 NVIDIA 내부적으로 OOI(Optics-on-Interposer)로 명명",
+     "현재 시제품(prototype) 확보 단계"
+    ],
+    "why_matters": "CPO는 AI 데이터센터에서 GPU 간 초고속·저전력 인터커넥트를 구현하는 핵심 기술로, 기존 기판 기반 CPO의 전력·대역폭 한계를 인터포저 통합으로 돌파하려는 시도다. **NVIDIA가 차세대 CPO 아키텍처를 선제적으로 연구·공개**함으로써 향후 GPU-네트워킹 패키징 경쟁에서 기술 방향성을 주도하려는 신호로 해석된다.",
+    "subject_angle": "NVIDIA는 GPU 연산 성능뿐 아니라 **패키징·인터커넥트 기술 내재화**를 통해 AI 인프라 전체 스택에서의 경쟁 우위를 확대하려는 전략을 보이고 있으며, 이는 차세대 GPU·Networking 제품 로드맵과 연계될 가능성이 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "OOI 기술 연구·발표 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "OOI (Optics-on-Interposer)",
+      "role": "인터포저 기반 차세대 CPO 기술, 광학엔진을 연산칩과 동일 인터포저에 통합"
+     }
+    ],
+    "watch_next": [
+     "OOI 기술의 상용화 시점 및 적용 제품(GPU·네트워킹 칩) 공개 여부",
+     "경쟁사(Broadcom, TSMC 등) CPO 로드맵과의 비교 발표",
+     "시제품 이후 양산·파트너십(패키징·파운드리) 관련 추가 공시"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=63707",
+   "body": "엔비디아가 광학엔진을 패키지 기판이 아니라 연산칩이 실린 인터포저 위에 올리는 차세대 공동광학패키징(CPO:Co-Packaged Optics) 기술을 공개했다.전기 신호가 유기기판을 거치지 않아 대역폭 밀도를 높이고 전력 소모를 줄일 수 있다. 시제품을 확보한 단계라고 밝혔다.니콜라 네도비치(Nikola Nedovic) 엔비디아 수석연구원은 13일(현지시간) 미국 샌프란시스코에서 열린 '세미콘 웨스트 2026'에서 이 같은 연구 내용을 발표했다.엔비디아가 옵틱스온인터포저(OOI)라고 부르는 이 기술은 유기 패키지 기판 위에 집적하던"
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아, RTX 스파크 최적화 소프트웨어 배포...이달 노트북 출시",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=63706",
+   "date": "2026-10-15 02:56",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark 노트북 10월 16일 출시, 소프트웨어 최적화 배포",
+    "korean_summary": "NVIDIA가 Blackwell 기반 RTX Spark SoC 노트북의 소프트웨어 최적화 업데이트를 배포하고 이달 16일부터 PC 제조사들의 대량 판매를 개시한다."
+   },
+   "summary_data": {
+    "korean_title": "엔비디아, RTX 스파크 노트북 출시 앞두고 소프트웨어 최적화 업데이트 배포",
+    "korean_summary": "엔비디아가 10월 16일 RTX 스파크 노트북 시장 출시에 맞춰 AI 모델·에이전트 도구·창작·게임 성능을 강화하는 소프트웨어 최적화 업데이트를 전날부터 배포했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "RTX 스파크 노트북 출시에 대비해 AI 모델, 에이전트 도구, 창작 기능, 게임 성능 강화 소프트웨어 업데이트 배포",
+     "stage": "Available",
+     "timeline": "업데이트 배포: 10월 13일(전날)부터, 노트북 출시: 10월 16일",
+     "scope": "RTX 스파크 탑재 PC 제조사 노트북 (지역 미확인)"
+    },
+    "key_facts": [
+     "RTX 스파크는 NVIDIA가 개발한 개인 PC용 고성능 SoC",
+     "**Blackwell 아키텍처 기반 GPU와 Grace CPU를 내장**",
+     "RTX 5070급 그래픽 성능 특징",
+     "PC 제조사들은 **10월 16일부터 RTX 스파크 노트북을 시장 출시**",
+     "소프트웨어 업데이트는 AI 모델, 에이전트 도구, 창작 기능, 게임 성능 강화 목적으로 전날부터 배포 시작"
+    ],
+    "why_matters": "NVIDIA가 GPU·CPU 통합 SoC를 노트북 폼팩터로 확장해 개인 PC 시장에서 AI 추론·창작 워크로드까지 포괄하는 전략을 강화하고 있다. **하드웨어 출시 전 소프트웨어 최적화를 선행 배포**함으로써 출시 초기 사용자 경험을 보장하고 생태계 완성도를 높이려는 의도가 드러난다.",
+    "subject_angle": "NVIDIA는 데이터센터 중심 Blackwell·Grace 조합을 **개인 PC/노트북 영역까지 수직 확장**하며, AI PC 시장에서 하드웨어-소프트웨어 통합 전략을 지속하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX 스파크 SoC 개발 및 소프트웨어 최적화 업데이트 배포 주체"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "본문 중 언급 시작되나 구체 내용 미확인"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX Spark",
+      "role": "Blackwell GPU·Grace CPU 내장 개인 PC용 고성능 SoC, 노트북 형태로 출시"
+     },
+     {
+      "name": "Blackwell architecture",
+      "role": "RTX 스파크의 GPU 아키텍처 기반"
+     },
+     {
+      "name": "Grace CPU",
+      "role": "RTX 스파크에 내장된 CPU"
+     }
+    ],
+    "watch_next": [
+     "RTX 스파크 탑재 노트북의 실제 제조사 및 가격·지역 출시 범위",
+     "소프트웨어 업데이트의 구체적 AI 모델·에이전트 도구 목록 및 Hugging Face 연계 세부 내용",
+     "RTX 5070급 성능 실측 벤치마크 및 경쟁 제품(AMD, Apple 등) 대비 포지셔닝"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=63706",
+   "body": "엔비디아가 'RTX 스파크' 신규 노트북 출시 전 소프트웨어 최적화 업데이트를 배포한다고 14일 밝혔다.RTX 스파크는 엔비디아가 개발한 개인 PC용 고성능 시스템온칩(SoC)이다. 엔비디아 블랙웰 구조(아키텍처) 기반 그래픽처리장치(GPU)와 그레이스 중앙처리장치(CPU)를 내장한다. RTX 5070급 그래픽 성능이 특징이다.PC 제조사들은 이달 16일부터 RTX 스파크 노트북을 시장에 출시한다. 이에 대비해 전날부터 인공지능(AI) 모델, 에이전트 도구, 창작 기능, 게임 성능을 강화하는 소프트웨어 업데이트를 시작했다.우선 허깅"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+   "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+   "date": "2026-10-14 15:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "유럽 도시들, NVIDIA 물리 AI 에이전트로 스마트시티 운영 혁신",
+    "korean_summary": "유럽의 ABA Technology, Akila 등 소프트웨어 파트너들이 NVIDIA 가속 컴퓨팅과 Cosmos 모델을 활용한 도시 운영 AI 솔루션을 개발 중이다."
+   },
+   "summary_data": {
+    "korean_title": "유럽 도시들, NVIDIA 기반 AI 에이전트로 스마트 도시 운영 추진",
+    "korean_summary": "유럽 전역의 도시와 소프트웨어·인프라 파트너들이 NVIDIA의 가속 컴퓨팅, Cosmos, Nemotron, Omniverse를 활용해 교통·에너지·안전 등 도시 운영을 최적화하는 물리적 AI 에이전트와 디지털 트윈을 구축하고 있다.",
+    "action": {
+     "actor": "European cities and local software/infrastructure partners",
+     "action": "NVIDIA 물리적 AI 및 에이전틱 AI 기술(Cosmos, Nemotron, Omniverse, Metropolis VSS)을 활용해 도시 운영용 AI 에이전트 및 디지털 트윈 구축",
+     "stage": "Announced",
+     "timeline": "미확인 (2026년 10월 블로그 게시)",
+     "scope": "Belgium, Finland, France, Italy, Netherlands, Poland, Sweden, UK 등 유럽 다수 도시 및 Dubai Fairmont Hotel"
+    },
+    "key_facts": [
+     "**프랑스 Côte-d'Or 지방 500개 이상 공공건물에서 Akila·ThinkDeep이 운영 비용 10% 절감(목표 30%), 문서 검색 시간을 수 주에서 수 분으로 단축**",
+     "Milan 지역 Cinisello Balsamo에서 Galene.AI, Dell Technologies, TD Synnex가 AI factory 구축, 4개 추가 자치단체로 확장 계획",
+     "**Honeywell Technologies가 Dubai Fairmont Hotel에 Nemotron·Cosmos·Omniverse·VSS 기반 Forge Cognition 배포**",
+     "Port of Antwerp-Bruges에서 Milestone·Dell이 Cosmos와 VSS로 합성 데이터 기반 유출 경보 시스템 테스트",
+     "Cisco, Dell Technologies, HPE, Lenovo, Supermicro 등이 NVIDIA 가속 컴퓨팅·네트워킹을 패키징하여 인프라 제공"
+    ],
+    "why_matters": "**NVIDIA가 Cosmos, Nemotron, Omniverse, Metropolis VSS를 결합한 풀스택 플랫폼으로 스마트시티라는 신규 수직시장을 공략**하고 있으며, 소프트웨어·시스템빌더 생태계(Dell, HPE, Lenovo, Cisco 등)를 통해 파일럿에서 실제 운영으로의 확산을 꾀하고 있다. 유럽 다수 국가·도시에서 동시다발적으로 검증 사례가 나오면서 AI factory 모델의 지역 주권(sovereign) 수요에 부응하는 전략적 포지셔닝이 드러난다.",
+    "subject_angle": "**NVIDIA는 Cosmos(비전)·Nemotron(추론)·Omniverse(디지털 트윈)를 묶은 통합 스택을 도시 인프라 영역까지 확장하며, 하드웨어 판매를 넘어 에이전틱 AI 플랫폼 공급자로서의 위치를 강화**하고 있다.",
+    "focus_angle": "Cosmos와 Metropolis VSS는 교통 혼잡·안전 위험을 실시간 분석하는 비전 AI로, 자율주행 차량의 도시 인프라 연동(V2X) 및 스마트 모빌리티 데이터 파이프라인 구축에 직접 활용 가능한 기술이다. **합성 데이터 기반 희귀 상황(오일 유출 등) 학습 방식은 자율주행·로봇 안전 검증에도 적용될 수 있는 접근법**으로, OEM들의 시뮬레이션 기반 엣지케이스 훈련 전략과 맞닿아 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos, Nemotron, Omniverse, Metropolis VSS 등 플랫폼 제공"
+     },
+     {
+      "name": "Dell Technologies",
+      "context": "AI factory 인프라 구축 파트너 (Milan, Antwerp-Bruges)"
+     },
+     {
+      "name": "HPE",
+      "context": "시스템빌더/인프라 파트너"
+     },
+     {
+      "name": "Lenovo",
+      "context": "시스템빌더/인프라 파트너"
+     },
+     {
+      "name": "Cisco",
+      "context": "네트워킹 인프라 파트너"
+     },
+     {
+      "name": "Supermicro",
+      "context": "시스템빌더 파트너"
+     },
+     {
+      "name": "Honeywell Technologies",
+      "context": "Forge Cognition으로 건물 시스템 AI 에이전트 연동 (Dubai)"
+     },
+     {
+      "name": "K2K",
+      "context": "UK Liverpool, Jersey, Belfast 도시 AI 프로젝트 파트너"
+     },
+     {
+      "name": "Akila",
+      "context": "프랑스 Côte-d'Or 디지털 트윈 구축"
+     },
+     {
+      "name": "ThinkDeep",
+      "context": "프랑스 Côte-d'Or 및 Port Sud de France 에이전틱 플랫폼"
+     },
+     {
+      "name": "Galene AI",
+      "context": "Milan 지역 AI factory 구축"
+     },
+     {
+      "name": "TD Synnex",
+      "context": "Milan AI factory 인프라 파트너"
+     },
+     {
+      "name": "Milestone",
+      "context": "Antwerp-Bruges 비전 AI 테스트"
+     },
+     {
+      "name": "Younite AI",
+      "context": "Gothenburg 디지털 트윈 개발"
+     },
+     {
+      "name": "ABA Technology",
+      "context": "소프트웨어 파트너"
+     },
+     {
+      "name": "Linker Vision",
+      "context": "소프트웨어 파트너"
+     },
+     {
+      "name": "Onetera",
+      "context": "소프트웨어 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "비디오 해석 및 교통 혼잡·안전 위험 식별용 오픈 모델"
+     },
+     {
+      "name": "NVIDIA Metropolis Blueprint (VSS)",
+      "role": "비디오 검색 및 요약 기능 제공"
+     },
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "자연어 추론 및 에이전트 구축용 오픈 모델"
+     },
+     {
+      "name": "NVIDIA Omniverse",
+      "role": "디지털 트윈 구축 라이브러리"
+     }
+    ],
+    "watch_next": [
+     "프랑스 Côte-d'Or 사례의 30% 비용절감 목표 달성 시점 및 실제 수치",
+     "Milan 지역 4개 자치단체 확장 일정 구체화 여부",
+     "유럽 외 지역(미국·아시아)으로의 유사 스마트시티 AI factory 모델 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+     "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mU01rUUJVYmZVeVFELWp3azNXc2xOTGF2cGg4clFwSlpyTmhLRmdFV0ZhcU5kOE5fWlBEbEx0WDhYOTdtQWp6VnFZT0FPUmNJVjFoX2p2b2pFZEZQUEs1SXQtdlBUaThzeDFjNkJ1bWQtOVgtTzRUU0hR?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "European Cities Deploy Nvidia-Powered AI Agents to Run Smarter Urban Operations",
+     "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations",
+   "body": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are using NVIDIA accelerated computing to build physical AI agents and digital twins that help teams make those decisions. These applications can anticipate maintenance needs, guide urban planning and make public services more responsive. Software partners including ABA Technology , Akila , Galene AI , Honeywell Technologies , K2K , Linker Vision , Milestone , Onetera , ThinkDeep and Younite AI are using NVIDIA physical and agentic AI to develop solutions for city operations and public services. https://blogs.nvidia.com/wp-content/uploads/2026/10/linker-vision.mp4 Video courtesy of Linker Vision. NVIDIA Cosmos open models and the NVIDIA Metropolis Blueprint for video search and summarization (VSS) help agents interpret video and identify conditions, such as traffic congestion, equipment condition, underused spaces and safety hazards, that need attention. NVIDIA Nemotron open models enable developers to build agents that reason over information, respond in natural language and deploy digital twins with NVIDIA Omniverse libraries. Projects span Belgium, Finland, France, Italy, the Netherlands, Poland, Sweden, the U.K. and elsewhere. Read All NVIDIA in Europe Announcements In the U.K., the Liverpool City Region , K2K is exploring how to build AI factories using NVIDIA accelerated computing, Cosmos and the VSS blueprint that can support urban planning and public services — testing applications for mobility and safety. The Island of Jersey is working with K2K to strengthen decision-making, mobility and urban planning while advancing clean energy and public services. Innovation City Belfast is exploring a pilot with K2K focused on smart mobility, transport systems, citizen safety and event and response management. https://blogs.nvidia.com/wp-content/uploads/2026/10/IKM®-�-Video-GTC-V.10.10.2-compressed.mp4 Video courtesy of K2K. In France, the Department of Côte-d’Or , Akila and ThinkDeep built operations agents that combine sensor, infrastructure and historical data in a sovereign digital twin using NVIDIA Nemotron, Omniverse and accelerated computing, with Cosmos adoption planned for video data. Across more than 500 public buildings, the agents support energy, compliance, safety and climate resilience, and cut document search time from weeks to minutes and reduce total operating costs by 10%, targeting 30% at scale. https://blogs.nvidia.com/wp-content/uploads/2026/10/Akila-CGCO-compressed.mp4 Video courtesy of Akila. In addition, Port Sud de France in Sète is working with ThinkDeep’s agentic platform that uses Cosmos and Nemotron to analyze cargo and safety data, coordinate operations and guide secure handling of hazardous materials. In Italy’s Milan region, Galene.AI , Dell Technologies and TD Synnex are deploying an"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "HBM4E 스펙 ‘무승부’…삼성은 IDM, SK는 엔비디아 동맹 과시",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092172041",
+   "date": "2026-10-15 02:24",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "HBM4E 메모리 경쟁에서 삼성·SK 동일 성능 목표 제시",
+    "korean_summary": "삼성전자와 SK하이닉스가 SEDEX 2026에서 HBM4E 메모리의 최대 16.0Gbps 속도와 4.0TB/s 대역폭이라는 동일한 성능 목표를 제시했다."
+   },
+   "summary_data": {
+    "korean_title": "삼성전자·SK하이닉스, HBM4E 스펙 공개…SK하이닉스는 NVIDIA 협력 강조",
+    "korean_summary": "삼성전자와 SK하이닉스가 SEDEX 2026에서 HBM4E 성능을 공개하며 기술 주도권 경쟁을 벌였고, SK하이닉스는 **NVIDIA와의 동맹**을 부각했다.",
+    "action": {
+     "actor": "Samsung Electronics, SK hynix",
+     "action": "HBM4E(7세대 고대역폭메모리) 실물 및 성능 지표 전시",
+     "stage": "Announced",
+     "timeline": "2026년 10월 14일 (SEDEX 2026 개막)",
+     "scope": "HBM4E 제품, 서울 코엑스 전시"
+    },
+    "key_facts": [
+     "삼성전자와 SK하이닉스가 **HBM4E에서 동일한 최대 16.0Gbps 속도, 최대 4.0TB/s 대역폭**을 제시함",
+     "삼성전자는 부스에 HBM4E 실물을 전시하고 투명 디스플레이로 세부 성능 지표 공개",
+     "삼성전자는 최대 48GB 용량, 최대 16.0Gbps 속도, 최대 4.0TB/s 대역폭을 명기",
+     "SK하이닉스는 **NVIDIA와의 협력(동맹)**을 전시에서 강조한 것으로 제목에 언급됨 (세부 내용 미확인)",
+     "5월 고객사 관련 언급이 있으나 본문이 중단되어 구체적 내용은 미확인"
+    ],
+    "why_matters": "HBM4E는 차세대 AI 가속기의 메모리 성능을 좌우하는 핵심 부품으로, 삼성전자와 SK하이닉스가 **동일한 스펙 목표치**를 제시하며 경쟁이 치열해지고 있음을 보여준다. SK하이닉스가 NVIDIA와의 협력을 전면에 내세운 것은 **AI GPU 공급망 내 메모리 벤더 간 포지셔닝 경쟁**이 본격화되고 있음을 시사한다.",
+    "subject_angle": "NVIDIA는 차세대 GPU/가속기 플랫폼에 탑재될 HBM4E 공급사를 선택하는 입장에서, **SK하이닉스와의 협력관계**가 전시를 통해 부각된 것은 향후 HBM 공급 전략 및 멀티벤더 구도에 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Samsung Electronics",
+      "context": "HBM4E 실물 및 성능 지표 전시, IDM 전략 강조"
+     },
+     {
+      "name": "SK hynix",
+      "context": "HBM4E 전시 및 NVIDIA와의 협력 관계 부각"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "SK hynix가 전시에서 강조한 협력 파트너 (세부 내용 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "HBM4E (7세대 고대역폭메모리)",
+      "role": "양사가 공개한 차세대 메모리 스펙 경쟁 제품"
+     }
+    ],
+    "watch_next": [
+     "SK하이닉스-NVIDIA 간 HBM4E 공급 계약 또는 협력 세부 내용 공개 여부",
+     "삼성전자·SK하이닉스 HBM4E 고객사(5월 관련) 확정 및 양산 일정",
+     "NVIDIA 차세대 GPU 플랫폼에서의 HBM4E 벤더 채택 비중"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092172041",
+   "body": "삼성전자와 SK하이닉스가 7세대 고대역폭메모리(HBM4E)에서 동일한 최고 목표 성능을 내걸며 기술 주도권 경쟁을 이어갔다. 양사는 14일 서울 코엑스에서 개막한 ‘SEDEX 2026(제28회 반도체대전)’에서 HBM4E를 전시한 가운데 ‘최대 16.0Gbps’ 속도와 ‘최대 4.0TB/s’ 대역폭 성능을 나란히 제시했다. 삼성전자는 부스 중심에 HBM4E 실물을 전시하고, 투명 디스플레이에 HBM4E의 세부 성능 지표를 공개했다. 최대 48GB 용량, 최대 16.0Gbps 속도, 최대 4.0TB/s 대역폭을 명기했다. 5월 고객사"
+  },
+  {
+   "source": "Google News · The Guardian",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls?oc=5",
+   "date": "2026-10-15 02:37",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 영국 AI 안전 연구에 2.5억 달러 기부",
+    "korean_summary": "가치 5.5조 달러의 NVIDIA가 영국 AI 안전 연구에 2.5억 달러를 기부했다"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia Commits $250 Million to UK Agentic AI Safety Research",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQazBFOHhLYXVPN2tMRC1wMktLSnFvd0dIUmVLN19KN0UyLVQ5Ny0wTmg2Wm5RbEhhRlh3VHBSRmlXUVRLM3k1WmI1YjFhM1dtZEhwMi1EWjFpREVjd1A2aVFScm5WVDgwZy1aMHNMSHNWdnNOQ2diSld5TUJfUkdNR2tYMVhTUkxudzJ3VkpzRlJZZG9NNEdiRg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWhacFk5eXRXWGhJdTUwN3JPX3ZCMl9YVndTQWVkNG42NFc5M1ZFamVJMUJraTh6VUstNDBSZERqT29uUzBISndQLXBTRUFldThYOER4d1NIZl82UldNQ1RWZGhHeUFBQU5FR2c1NnhlZWx0QlM0RlFKYTZxXzVQNjV5dDI0eDkwZXNkWmE2aWZET2ls",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Is Pledging $250 Million for AI Safety. The U.K. Gets Five Years of Computing Power",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0xSSkdITlp2dXI4Tl9qREZzMXJEMzhHdHZ6dmFhbFZNbFFRT0FYUFByTk9jR1RQN1JwS0dDdzdUZ2poQV9PaGpUSnJUOThQUVRYSGNIUGpXVjlwVG9zUHZiWUdycDROTjRzNUdzTDV2OVNfZ0t5TU03R3BBUDIyYWg5V2RqQThDSFlsTURLSFV1RkxSanhEU1dR?oc=5",
+   "date": "2026-10-14 21:15",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아, UK AI 안전 연구에 2억5천만 달러 투자",
+    "korean_summary": "엔비디아가 영국 AI 안전 연구 초기화에 2억5천만 달러를 투자하고 5년간 컴퓨팅 성능 제공"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Reuters",
+     "title": "Nvidia pledges $250 million to UK AI safety research",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1pFUmU1TjNGdW44THRFdlVLU285bHh3azlnTGNFWEJqcnF3T0lzc0pRWi1aTnZOeXlJY1VrbXBXSUxFNTdlS3NCYkptd0ZFb283c1NRc2dLRk9zcEJXenlrV3Q0UVhYTFQ4b1lnVTdLUzFrejJLMFpBcUhLVTRlZC13ZUNXZXk1RU5yWkVEd3M2RWVFUkJlOTlvQVBwRlJRR3dN?oc=5"
+    },
+    {
+     "source": "Reddit r/nvidia",
+     "title": "Nvidia pledges $250 million to UK AI safety research",
+     "link": "https://www.reddit.com/r/nvidia/comments/1x5otpt/nvidia_pledges_250_million_to_uk_ai_safety/"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNb0xSSkdITlp2dXI4Tl9qREZzMXJEMzhHdHZ6dmFhbFZNbFFRT0FYUFByTk9jR1RQN1JwS0dDdzdUZ2poQV9PaGpUSnJUOThQUVRYSGNIUGpXVjlwVG9zUHZiWUdycDROTjRzNUdzTDV2OVNfZ0t5TU03R3BBUDIyYWg5V2RqQThDSFlsTURLSFV1RkxSanhEU1dR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Forbes",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Opens Its Vera Rubin Rack Design To Speed Up AI Data Centers",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWlEYWF6NHFBdWZ3SjA4c0lNX1J3Sk8tVFlZb2d3UkwwbnpzSThoSExCWVFCZkpjMHUzRUFWaDFxM3V0WXRpdkpwU1BLSmtZSE1wa1dqSDk5Mml0R3NZMk9YXzUwOXYtSjd5bFNLWEJ0a0FIOGlDYkFMSGxBX0phSnZiZGNGVEZ0ZjJHMWdlNFRTTTgxR2IzTXJoWjJpU2gxMWJQLVdqajBZSjFmYmNYUmtkTGpEUWo5T0Vr?oc=5",
+   "date": "2026-10-15 00:45",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, Vera Rubin 랙 설계 오픈, AI 데이터센터 가속화",
+    "korean_summary": "NVIDIA가 Vera Rubin 랙 설계를 오픈하여 AI 데이터센터 속도를 높이고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWlEYWF6NHFBdWZ3SjA4c0lNX1J3Sk8tVFlZb2d3UkwwbnpzSThoSExCWVFCZkpjMHUzRUFWaDFxM3V0WXRpdkpwU1BLSmtZSE1wa1dqSDk5Mml0R3NZMk9YXzUwOXYtSjd5bFNLWEJ0a0FIOGlDYkFMSGxBX0phSnZiZGNGVEZ0ZjJHMWdlNFRTTTgxR2IzTXJoWjJpU2gxMWJQLVdqajBZSjFmYmNYUmtkTGpEUWo5T0Vr",
+   "body": ""
+  },
+  {
+   "source": "Google News · Pulse 2.0",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Commits $250 Million To Advance UK Agentic AI Safety And Security Research",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORk5QUHVaR1RUZ1FYenlzQnpzQ1l4YXVsQzNPMkdja3dQTTJtbXhSVGhQcFFUd3hBTHdXdFJ3UmhvR0lYZzVGdC12NWNkZVFJWEQ5RUVZWUY2SDVwWWRRVUxxV1hPZU1KN29MN0dJSldOV2R4Q2oya19oVXR4VGhvbFdvUzVqTkxFdFhVSndZYVItOG1BZ2JNZDFqemQxb25vQ3c?oc=5",
+   "date": "2026-10-15 01:31",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "엔비디아, 영국 에이전트 AI 안전 연구에 2억 5천만 달러 투자",
+    "korean_summary": "엔비디아가 영국의 에이전트 AI 안전·보안 연구 발전을 위해 2억 5천만 달러를 약정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORk5QUHVaR1RUZ1FYenlzQnpzQ1l4YXVsQzNPMkdja3dQTTJtbXhSVGhQcFFUd3hBTHdXdFJ3UmhvR0lYZzVGdC12NWNkZVFJWEQ5RUVZWUY2SDVwWWRRVUxxV1hPZU1KN29MN0dJSldOV2R4Q2oya19oVXR4VGhvbFdvUzVqTkxFdFhVSndZYVItOG1BZ2JNZDFqemQxb25vQ3c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Honeywell Technologies Launches Forge Cognition with NVIDIA and Dell Technologies, Advancing Physical AI Across Buildings and Industrial Operations",
+   "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPclY5M016S05GSmdJdER5d0c0a1JYdEdETFpuR1B1WVBTQTY3RXBlblhaUEpRTW5NYVhJd3hYTVAxV29ULVVSYWU1N09lelFyQ2JJcUp6Um1LWTJWX19HM3hPbVNXaGFYZHVUeHQ3NmlqOExfblBRYjhEZWR6aFR6U2JqN2Ftd25XLWxWcDlqZ2hrOXl3bHpOemI0bV9tRzNRUDYyclE2Rl8xX3d1Tk1MeDd2cElHc19peE9oSEtuLWE4UmZJMU8tYktkNkxUVVVmTWpvMHZ4VnhSZWxndFY5OS1mUkg3aWVTYnJkMk5kaXNzQXRXenpBNUhDam1Ibk50WWNCV1ZWN3RSRUx6dFZ4V00xLWRqYklFVnVjclcwVEs3aHNZejZIM2FIVQ?oc=5",
+   "date": "2026-10-14 22:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Honeywell, NVIDIA·Dell과 협력 Physical AI 솔루션 Forge Cognition 출시",
+    "korean_summary": "Honeywell이 NVIDIA, Dell과 함께 건물·산업 운영용 Physical AI 플랫폼 Forge Cognition을 출시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPclY5M016S05GSmdJdER5d0c0a1JYdEdETFpuR1B1WVBTQTY3RXBlblhaUEpRTW5NYVhJd3hYTVAxV29ULVVSYWU1N09lelFyQ2JJcUp6Um1LWTJWX19HM3hPbVNXaGFYZHVUeHQ3NmlqOExfblBRYjhEZWR6aFR6U2JqN2Ftd25XLWxWcDlqZ2hrOXl3bHpOemI0bV9tRzNRUDYyclE2Rl8xX3d1Tk1MeDd2cElHc19peE9oSEtuLWE4UmZJMU8tYktkNkxUVVVmTWpvMHZ4VnhSZWxndFY5OS1mUkg3aWVTYnJkMk5kaXNzQXRXenpBNUhDam1Ibk50WWNCV1ZWN3RSRUx6dFZ4V00xLWRqYklFVnVjclcwVEs3aHNZejZIM2FIVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Medical Device Network",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA donates $250m to support UK’s AI research and security",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjEyVGRGWVhUeEhTaWFKRFQyNWxXY1NJNXpoQzE0VlhQcnhLV2VsUlJudk50bGFaWFUzNnYtYVB4WGg0ZG9kR0JsdmhMUldJYlBwNVlkbG1ZcGk5M0kyd3BpTlpTaWhCUC1Za05wd3pFdWMyUEpHRTlHd2hZYkFNY3Q1TVF3NGo4SjMwRDR4VElMTE9jVm5XQU02M2hWZHB6ZDJIUw?oc=5",
+   "date": "2026-10-15 00:52",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 영국 AI 연구·보안 지원에 2억5천만 달러 투자",
+    "korean_summary": "NVIDIA가 영국의 AI 연구 및 보안 역량 강화를 위해 2억5천만 달러를 기부했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjEyVGRGWVhUeEhTaWFKRFQyNWxXY1NJNXpoQzE0VlhQcnhLV2VsUlJudk50bGFaWFUzNnYtYVB4WGg0ZG9kR0JsdmhMUldJYlBwNVlkbG1ZcGk5M0kyd3BpTlpTaWhCUC1Za05wd3pFdWMyUEpHRTlHd2hZYkFNY3Q1TVF3NGo4SjMwRDR4VElMTE9jVm5XQU02M2hWZHB6ZDJIUw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LSEG taps Nvidia for faster historical market data processing",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYy1XWU5PM1RfaklzejU4RG1OOEV6YTkyTms1aGNfbTFiSXJmNkdTbkpSeWo2VElLV2ZCMVlta29aSWlGMHR5c3QyQV9hS0xSaDZCUjZxaU1QeGtaNHgwd0l2Nm9tR2ZaaFBRdFd4TF9Jb0lHdnR2eXI4ZzVjaGhDMDRUU0ZPcVdVb2Q1TlpqT2YxaDdoYjVScFZNVVg1YVdkWkE?oc=5",
+   "date": "2026-10-14 15:21",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LSEG, 역사적 시장 데이터 처리 성능 향상을 위해 NVIDIA 기술 도입",
+    "korean_summary": "런던 증권거래소(LSEG)가 역사적 시장 데이터 처리 성능 향상을 위해 NVIDIA 기술을 선택했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYy1XWU5PM1RfaklzejU4RG1OOEV6YTkyTms1aGNfbTFiSXJmNkdTbkpSeWo2VElLV2ZCMVlta29aSWlGMHR5c3QyQV9hS0xSaDZCUjZxaU1QeGtaNHgwd0l2Nm9tR2ZaaFBRdFd4TF9Jb0lHdnR2eXI4ZzVjaGhDMDRUU0ZPcVdVb2Q1TlpqT2YxaDdoYjVScFZNVVg1YVdkWkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Exclusive: Honeywell Technologies launches a 'brain behind the building' with Nvidia and Dell. Its CTO says humans will run it for now",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTk96d3BrbmFqMkItamwwUGhJWUZnVTdDVWJhbFJCakRXS09YVjNERnhFNVB0amViS1FKdFhjZjNhVHQ1LWVWSWFadlJjbTRPcXpacXZMWjV2VDlkcE8yNjBrRHM1ZldHTDdrcllab0hRWWFMVEdBZUFfTFNvclExaVVJMzZfUk81aEdndXh5eC1LaHh2TmxGRHNRN0JiVUJOM20xdEtSTmRtb2s?oc=5",
+   "date": "2026-10-14 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "하니웰, 엔비디아·델과 협력하여 '빌딩 두뇌' AI 솔루션 출시",
+    "korean_summary": "하니웰이 엔비디아와 델과 협력하여 건물 관리용 AI 솔루션을 공개"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTk96d3BrbmFqMkItamwwUGhJWUZnVTdDVWJhbFJCakRXS09YVjNERnhFNVB0amViS1FKdFhjZjNhVHQ1LWVWSWFadlJjbTRPcXpacXZMWjV2VDlkcE8yNjBrRHM1ZldHTDdrcllab0hRWWFMVEdBZUFfTFNvclExaVVJMzZfUk81aEdndXh5eC1LaHh2TmxGRHNRN0JiVUJOM20xdEtSTmRtb2s",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Simply Wall Street",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Navitas Stock In Focus After Nvidia AI Power Board Launch",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVEU3QkFuTE1LOV9nNUpEUjR1NFJpNnJnNXJVNG41bl9udmppRXdtN0xidEJyaTZnZjh2c3pVOHNPNUoxa2hQQTF6SHlxTHpJNzFuMkdxVnF1RmNjY3N4N1FMSy1GWmNaaWFzVE1WMmZ6MWJSOUN0bEdEanpmNEtjQkNMVTc3Smo4a0tJalg3U3hWUTZrcmViMUlPM0VJdjJrUWQ4cEJ5b3Jhb2ZSME5YSGRXVkdRRzdKcUdsNEppMGhVdU0tVTVXNFNKYjFjc09Ta194LXNfa2RPbVHSAeABQVVfeXFMT3p1YUJhcGpIc2dFcFQyU0VVcGxMVzhFaTV5dDZRamtGWUEycGQ3amoxd1ByRUYyMGs3Rl9LcGd3aHdaZ2M3R2pvaDVRSHdnSnlrOHZKZTRaZnpPTVhCTk53ek10aDBncjJsVWhKQzVuU3I2N1Fxc2ZEWHRZaXRtWXpiNFJRM2ViZVFJZVFzSHlsTEw2R0R2RjZXcUpmaE9Ha0JCdWtCREFPLXp6SEdJcTdpaXdJbGt5bXpUc3cxU01EQ2E5S0RNZ1g4WFBVaHQ0ZTFQVW1DTEVqOXBVTWY5eVM?oc=5",
+   "date": "2026-10-15 08:48",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "엔비디아 AI Power Board 출시 후 나비타스 주가 주목",
+    "korean_summary": "엔비디아가 AI Power Board를 출시하며 전력 관리 칩 기업 Navitas에 관심 집중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVEU3QkFuTE1LOV9nNUpEUjR1NFJpNnJnNXJVNG41bl9udmppRXdtN0xidEJyaTZnZjh2c3pVOHNPNUoxa2hQQTF6SHlxTHpJNzFuMkdxVnF1RmNjY3N4N1FMSy1GWmNaaWFzVE1WMmZ6MWJSOUN0bEdEanpmNEtjQkNMVTc3Smo4a0tJalg3U3hWUTZrcmViMUlPM0VJdjJrUWQ4cEJ5b3Jhb2ZSME5YSGRXVkdRRzdKcUdsNEppMGhVdU0tVTVXNFNKYjFjc09Ta194LXNfa2RPbVHSAeABQVVfeXFMT3p1YUJhcGpIc2dFcFQyU0VVcGxMVzhFaTV5dDZRamtGWUEycGQ3amoxd1ByRUYyMGs3Rl9LcGd3aHdaZ2M3R2pvaDVRSHdnSnlrOHZKZTRaZnpPTVhCTk53ek10aDBncjJsVWhKQzVuU3I2N1Fxc2ZEWHRZaXRtWXpiNFJRM2ViZVFJZVFzSHlsTEw2R0R2RjZXcUpmaE9Ha0JCdWtCREFPLXp6SEdJcTdpaXdJbGt5bXpUc3cxU01EQ2E5S0RNZ1g4WFBVaHQ0ZTFQVW1DTEVqOXBVTWY5eVM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Unveils cuPotential as Semiconductor Leaders Adopt CUDA-X",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSTBlMkt5YnRVNk1IT3psUzdWQ1JYTkdfYi1saEZOWTlJZS12Z3BJeC1YcEl1dWNRLTJBVDliaWdrbXBaTUJidU5ObDFFeUJaYkFBbUlhRjZvb3JwVTloTzNWbDVBZ0ZzUnZHeEpHUUlqZVA2RmJOTjNzMmoyS0dkTVZUY2ZmMlJZTG5NVi1wSQ?oc=5",
+   "date": "2026-10-15 01:48",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, cuPotential 공개 및 CUDA-X 업계 채택 확대",
+    "korean_summary": "NVIDIA가 cuPotential을 발표했으며 반도체 업계 리더들이 CUDA-X 채택을 확대하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSTBlMkt5YnRVNk1IT3psUzdWQ1JYTkdfYi1saEZOWTlJZS12Z3BJeC1YcEl1dWNRLTJBVDliaWdrbXBaTUJidU5ObDFFeUJaYkFBbUlhRjZvb3JwVTloTzNWbDVBZ0ZzUnZHeEpHUUlqZVA2RmJOTjNzMmoyS0dkTVZUY2ZmMlJZTG5NVi1wSQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Buys Into Doctolib and Genesis AI as Its Investment Book Tops $51 Billion",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQODY5bUJ4YXdZNHlKRUlQV0xJa3VuR3VBYzlZQ0xHYkVNVmlkQ3lKc0xManY1QkI3X1JubjlUdXlHUGhPVkNLYzNCUEo2NURXZklPSlRpMk9hT0xLU053S3g1NmZCYS0zYVhpbDltUU5tQVlfUTVLci1OOTJ1bUplOEhtSjlFQnUyY0N6YkFOVVJxZDEtN3ZLbkpFNA?oc=5",
+   "date": "2026-10-14 16:50",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "m&a"
+    ],
+    "korean_title": "엔비디아, Doctolib·Genesis AI 투자로 포트폴리오 510억 달러 돌파",
+    "korean_summary": "엔비디아가 Doctolib과 Genesis AI에 투자하면서 누적 투자액이 510억 달러에 달했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQODY5bUJ4YXdZNHlKRUlQV0xJa3VuR3VBYzlZQ0xHYkVNVmlkQ3lKc0xManY1QkI3X1JubjlUdXlHUGhPVkNLYzNCUEo2NURXZklPSlRpMk9hT0xLU053S3g1NmZCYS0zYVhpbDltUU5tQVlfUTVLci1OOTJ1bUplOEhtSjlFQnUyY0N6YkFOVVJxZDEtN3ZLbkpFNA",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Danaher Teams Up With NVIDIA, Aims To Bring Accelerated Computing, Physical AI Into Labs",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRHRfdDBGT01pWEJZZmU0NjZId2NMTzBhZjlTdWowQ3k3MzlWaHozbUJFNGh6TEFleUtUOFJqRWVCNjBZOUJ1OC1nZGpNNXgwMm42UDJmY2Robk41eTVLdWhyZktiTVNuTHd6bTNHSzBrQ3hPSDFWYkx3anZLU2dQT3l1czJBNExQcW5vU0llMGVYcERNUktIY0NSeTNpRVJlS2Q1bmV5V2dUdGZ4eENPS1h4NUtxQV9VZEFMX1ZvNjlqelNwU3c3UGdtVEM0NFJ1THdycnVsN1hDZ0hOeU5fWg?oc=5",
+   "date": "2026-10-14 19:57",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Danaher, NVIDIA와 협력해 실험실에 가속컴퓨팅·Physical AI 도입",
+    "korean_summary": "Danaher가 NVIDIA와 손잡고 의료 및 생명과학 랩 환경에 가속컴퓨팅과 Physical AI 기술을 적용한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRHRfdDBGT01pWEJZZmU0NjZId2NMTzBhZjlTdWowQ3k3MzlWaHozbUJFNGh6TEFleUtUOFJqRWVCNjBZOUJ1OC1nZGpNNXgwMm42UDJmY2Robk41eTVLdWhyZktiTVNuTHd6bTNHSzBrQ3hPSDFWYkx3anZLU2dQT3l1czJBNExQcW5vU0llMGVYcERNUktIY0NSeTNpRVJlS2Q1bmV5V2dUdGZ4eENPS1h4NUtxQV9VZEFMX1ZvNjlqelNwU3c3UGdtVEM0NFJ1THdycnVsN1hDZ0hOeU5fWg",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+   "link": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+   "date": "2026-10-15 01:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA NeMo Gym으로 칩 설계 AI 에이전트 신뢰성·효율성 최적화",
+    "korean_summary": "NVIDIA가 NeMo Gym을 활용하여 칩 설계 워크플로우의 AI 에이전트 신뢰성과 Tool Calling 효율성을 개선하는 기술을 소개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUUtZWjdMZWpRUFVYTHNFTTRJNUNnclI4R2ttbmhfamJMX1R0Sk1JOEZfR2wxMXg2enlYOWxVMjhudDl3Wk5jaWluNEN1RHVhdWhSN2hoYm53WkRQZm0xVWc2ZzJjT0pUeHlFeHhOTUNIOGh2emhzR0R1SVh6bjRiX1pjRWJtd2JXVmRJdFJZcDZEZkpuLV95V3VVVTBRYnN1QnI2Z0ZIOVFkdlh5YXhRck1hZzNieUFXQXU3T3ZHZVFzVy1zRDlTWQ?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
+   "body": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes... AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes reliability a major barrier to production adoption. In multistage engineering workflows, an undetected error early in setup can silently propagate through downstream stages and final artifact generation. Evaluating and refining these agents against… Source"
+  },
+  {
+   "source": "Google News · Fierce Network",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s SVP of networking explains the 5 types of networks needed for AI factories",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaHpEdlhqaktRNkJJNmFSYjJaNk5hazRvalVvRzBrWlF2MXpNMm5XRHhyOGg3MTkwOTg4bWlNbmRvMFNrOHlHS0NjR2NLbmIzLWdLUlRRakNTOGZqLXpYSGl3YV9fSnFVQWJFR191cElMQkRuTHdlZXoyNmp0bmRKd1NfV1I0enZIX181VTVJcXA3WXliVE5tQkJ4TWxmbF9kNVFVY1B3VXRETTZROVE?oc=5",
+   "date": "2026-10-15 07:45",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 네트워킹 부사장, AI 팩토리 구축에 필요한 5가지 네트워크 유형 설명",
+    "korean_summary": "NVIDIA 네트워킹 부사장이 AI 데이터센터 구축에 필요한 5가지 네트워크 유형을 설명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaHpEdlhqaktRNkJJNmFSYjJaNk5hazRvalVvRzBrWlF2MXpNMm5XRHhyOGg3MTkwOTg4bWlNbmRvMFNrOHlHS0NjR2NLbmIzLWdLUlRRakNTOGZqLXpYSGl3YV9fSnFVQWJFR191cElMQkRuTHdlZXoyNmp0bmRKd1NfV1I0enZIX181VTVJcXA3WXliVE5tQkJ4TWxmbF9kNVFVY1B3VXRETTZROVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia GPU prices spike in Japan; prices up to 41% higher than Amazon US — RTX 5060 Ti sees the biggest increase among the RTX 50-series stack",
+   "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVzc5Vi0weEhxV1ZUNWNnUmc5X1B6N0VPOUdFX2JTU0pvemhpQW9remVidnBrOWV5WEV3ZWdaaWpmX3dRZ0MtSV9mZ0VhaW5XZndCMjZVNG50a05ZYkJDUGpyQ0o2bGZyeHJUVnIwSlpiXzA4QTh6TmU0T19KYXh2bjVyZUQ3bVVHc0p4VC1IYVUtc0w3WmRKdDdUcjRBdTgwVjcyZm8wOWFrdVBISUdlYkQ5RnBCYUpxdU5vM2VKcTY0SDIwWnFPNDlZajZUNmZ2MGhKT0lMam5uRlJZZ0dXeUhEZ0xYalkyOVp3R0NKT3Q4R2V4dXFhcERzRE9NajFCRWR4aENEXzdzQUo2YkdlUjR6b3dfQ3hubHdubmwtSQ?oc=5",
+   "date": "2026-10-14 19:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "일본 NVIDIA GPU 가격 급등, 미국보다 최대 41% 비싼 상황",
+    "korean_summary": "일본에서 RTX 50시리즈 GPU 가격이 미국 Amazon 대비 최대 41% 인상되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOVzc5Vi0weEhxV1ZUNWNnUmc5X1B6N0VPOUdFX2JTU0pvemhpQW9remVidnBrOWV5WEV3ZWdaaWpmX3dRZ0MtSV9mZ0VhaW5XZndCMjZVNG50a05ZYkJDUGpyQ0o2bGZyeHJUVnIwSlpiXzA4QTh6TmU0T19KYXh2bjVyZUQ3bVVHc0p4VC1IYVUtc0w3WmRKdDdUcjRBdTgwVjcyZm8wOWFrdVBISUdlYkQ5RnBCYUpxdU5vM2VKcTY0SDIwWnFPNDlZajZUNmZ2MGhKT0lMam5uRlJZZ0dXeUhEZ0xYalkyOVp3R0NKT3Q4R2V4dXFhcERzRE9NajFCRWR4aENEXzdzQUo2YkdlUjR6b3dfQ3hubHdubmwtSQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fox Business",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How money and GPUs flow between Nvidia and CoreWeave",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XRko0YV9pLWx6NkFScUVUcWZucUVKN3psaEZ6VWczS1drMl9OblVXSlhOU0VNaWFKaGxiQzFaNHBkR25pMWNfRk1LTDdSSUJ4LV9USllkd09jNEk?oc=5",
+   "date": "2026-10-15 04:09",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "엔비디아와 CoreWeave 간 자금 및 GPU 흐름",
+    "korean_summary": "엔비디아와 GPU 클라우드 인프라 기업 CoreWeave 간의 자본 및 기술 협력 관계 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XRko0YV9pLWx6NkFScUVUcWZucUVKN3psaEZ6VWczS1drMl9OblVXSlhOU0VNaWFKaGxiQzFaNHBkR25pMWNfRk1LTDdSSUJ4LV9USllkd09jNEk",
+   "body": ""
+  },
+  {
+   "source": "Google News · CRN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "6 Big Intel, AMD And Nvidia AI Data Center Announcements At OCP 2026",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQXFXSTFqS2F1Y1A2MG9IVlBuSkNSMHRmcEtyRUpEUVhHc3pNU3lyUWpPekJXUlBuV3J2SWhCT0VTaW5rQkF0UTB6OUJmaS1oSHBNZDQtTHU3TVFpME9aWC16dG5OLTRoTXVrTnduVzRaRXJwVHJmWTN1TURsYW11VTJNR1VJQ1pIdVdZbjNNZnRMTGN1QUd2eU1YRTBtNlBSU3JEZEdPRVZmNjBrZ0VsS0tZMUdybzB4eExsMg?oc=5",
+   "date": "2026-10-15 07:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "OCP 2026에서 공개된 인텔, AMD, 엔비디아의 데이터센터 발표 6가지",
+    "korean_summary": "OCP 2026 컨퍼런스에서 주요 칩 제조사들의 AI 데이터센터 관련 발표 소개"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQXFXSTFqS2F1Y1A2MG9IVlBuSkNSMHRmcEtyRUpEUVhHc3pNU3lyUWpPekJXUlBuV3J2SWhCT0VTaW5rQkF0UTB6OUJmaS1oSHBNZDQtTHU3TVFpME9aWC16dG5OLTRoTXVrTnduVzRaRXJwVHJmWTN1TURsYW11VTJNR1VJQ1pIdVdZbjNNZnRMTGN1QUd2eU1YRTBtNlBSU3JEZEdPRVZmNjBrZ0VsS0tZMUdybzB4eExsMg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed AI Drugmaker Iambic Raises $150 Million in US IPO",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQmFQcmdOT3FfeXMxT2l5S21ycVFKSXBQRFdKN0FsdW1BWHpjNE9hWTNwYm1vdGhESUVGN2tBV1A3YzhOWVE2WDhId3k3SHNxQlZBdTM4clVkTF93dm1VSEJrRWxMMEQ1dEg4dHo3dWV6Q3hvek1mbWxCa0tGcmNfR01nLWNTaU9CWF9VYlViMF9jSkF0TW1VYkVxSVItMU82TGVsQ1JOUzhxM0JTcm1VZDd3d25LTUotNkxGMEk3NmJJOXh4VVUtQUhLOTU1djg?oc=5",
+   "date": "2026-10-15 08:11",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아 지원 AI 신약개발사 Iambic, IPO로 1억5천만 달러 조성",
+    "korean_summary": "엔비디아가 지원하는 AI 신약개발 회사 Iambic이 미국 IPO를 통해 1억5천만 달러 모금"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQmFQcmdOT3FfeXMxT2l5S21ycVFKSXBQRFdKN0FsdW1BWHpjNE9hWTNwYm1vdGhESUVGN2tBV1A3YzhOWVE2WDhId3k3SHNxQlZBdTM4clVkTF93dm1VSEJrRWxMMEQ1dEg4dHo3dWV6Q3hvek1mbWxCa0tGcmNfR01nLWNTaU9CWF9VYlViMF9jSkF0TW1VYkVxSVItMU82TGVsQ1JOUzhxM0JTcm1VZDd3d25LTUotNkxGMEk3NmJJOXh4VVUtQUhLOTU1djg",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Register",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cisco, Nvidia team up to build fatter, faster pluggable",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWt5Zmt6OHhZSk1qZ1djZjFWSmp1NDU2M2QxNy1OYjd5VTNNYXA2MEZqcWlHVUhhOWJSQm5ZWXY5M1ViVmxfTVF3SlRyX2JRVk1SZnk0bzBTUmV0dW1CQ0VJSHR0elFGU1NCajV0OTZDeGdxOW12bW1zQlJaWUZjNmdtYmNNcHZZWlJ0eVJvTTNOa2U0RjBSVlN4YmsyYXFQS1NWd01tTEZaXzFfeGc?oc=5",
+   "date": "2026-10-14 22:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco, NVIDIA와 협력해 고성능 플러거블 제품 개발",
+    "korean_summary": "Cisco와 NVIDIA가 더 빠르고 효율적인 플러거블 장비 개발을 위해 협력한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcWt5Zmt6OHhZSk1qZ1djZjFWSmp1NDU2M2QxNy1OYjd5VTNNYXA2MEZqcWlHVUhhOWJSQm5ZWXY5M1ViVmxfTVF3SlRyX2JRVk1SZnk0bzBTUmV0dW1CQ0VJSHR0elFGU1NCajV0OTZDeGdxOW12bW1zQlJaWUZjNmdtYmNNcHZZWlJ0eVJvTTNOa2U0RjBSVlN4YmsyYXFQS1NWd01tTEZaXzFfeGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Breakingthenews.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia unveils AI tools to accelerate chipmaking",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFc2Tm5PSnVEdFZpNkpXYWNHWDlPWEZsaDEtRmtyQXFKMkFoR2VzZWRXam1vT1RJSEdGb0VSWFctUldyckdxYnUxbkNHaVZCRE5GVmoxOWNoTlJqdmFzTHNDYlpmSFhGdHowOXRtdUJPaHF2Q2dRV181MkowcGdaUXRtcGI0SFBHLW12VERkVFJ1LTVKNk1RMw?oc=5",
+   "date": "2026-10-15 01:20",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, 반도체 설계 가속화를 위한 AI 도구 공개",
+    "korean_summary": "NVIDIA가 칩 제조 속도를 높이기 위한 AI 도구를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVFc2Tm5PSnVEdFZpNkpXYWNHWDlPWEZsaDEtRmtyQXFKMkFoR2VzZWRXam1vT1RJSEdGb0VSWFctUldyckdxYnUxbkNHaVZCRE5GVmoxOWNoTlJqdmFzTHNDYlpmSFhGdHowOXRtdUJPaHF2Q2dRV181MkowcGdaUXRtcGI0SFBHLW12VERkVFJ1LTVKNk1RMw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ChipAgents Collaborates With NVIDIA to Launch Build-A-Chip-Bench for Autonomous Chip Design and Implementation",
+   "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNVNGdExHRDhlWkxNcnJLVXg3WVB2WE9tV2V1MWlabGN1Sk43bDVEcHJYdFg0bzJmZk54V2xaZDMtZnlFdnh0VjdGLWVZbWNlQm5NbndZLWZqSnQ2YzlVb3B2SFUzbHpjNkY0a3JyMzNITkNEbXB0WlNpOW1pSUlHNnEydHFOckpRakFaVlZ1YThpYlhKVlFGR0xZaEQ2V29IQTk4Sm1xUW92ZFRUUXNpdWVNLVRHamdmSi1oSzJ1OWZkQXYtT0JaZTB5NHhtVG81MmF6OUR0NkxkSWluVkRLa2FUZUswQ05DTjZFZHVKTENlM1F5eER6Q2pERQ?oc=5",
+   "date": "2026-10-15 01:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "ChipAgents, NVIDIA와 협력하여 자동 칩 설계용 Build-A-Chip-Bench 출시",
+    "korean_summary": "ChipAgents가 NVIDIA와 협력하여 자동 칩 설계 및 구현을 위한 벤치마크 플랫폼을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNNVNGdExHRDhlWkxNcnJLVXg3WVB2WE9tV2V1MWlabGN1Sk43bDVEcHJYdFg0bzJmZk54V2xaZDMtZnlFdnh0VjdGLWVZbWNlQm5NbndZLWZqSnQ2YzlVb3B2SFUzbHpjNkY0a3JyMzNITkNEbXB0WlNpOW1pSUlHNnEydHFOckpRakFaVlZ1YThpYlhKVlFGR0xZaEQ2V29IQTk4Sm1xUW92ZFRUUXNpdWVNLVRHamdmSi1oSzJ1OWZkQXYtT0JaZTB5NHhtVG81MmF6OUR0NkxkSWluVkRLa2FUZUswQ05DTjZFZHVKTENlM1F5eER6Q2pERQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Pulse 2.0",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Riverlane: Collaboration With NVIDIA Accelerates Quantum Error Correction Calibration With AI And GPUs",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVFVOEg2STdlcXVpenUxYWwzbld2ODRDNzlTVDVhYV9VS1FMN1FMYklpRHppRjN0RFZtUElBZjdqUmZCNVhoWERqWWVGVDd2UW1jeVJkSGdkMTdYMkNYZThfd2QtLVJEYm5UeFZtdTdMRHhCRkpJcW5yUlNXZmxnemcyQ002b1ZwWWpfS2tRVDE2eHdYVUFkSUpDcW9xUU5aY2pESkF0NmNsSVF2UHBqVWtsUEplVlZzN19XcHln?oc=5",
+   "date": "2026-10-15 05:33",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Riverlane, NVIDIA와 협력으로 양자 오류 정정 교정 AI 가속화",
+    "korean_summary": "Riverlane이 NVIDIA와 협력하여 AI와 GPU를 활용한 양자 오류 정정 기술을 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVFVOEg2STdlcXVpenUxYWwzbld2ODRDNzlTVDVhYV9VS1FMN1FMYklpRHppRjN0RFZtUElBZjdqUmZCNVhoWERqWWVGVDd2UW1jeVJkSGdkMTdYMkNYZThfd2QtLVJEYm5UeFZtdTdMRHhCRkpJcW5yUlNXZmxnemcyQ002b1ZwWWpfS2tRVDE2eHdYVUFkSUpDcW9xUU5aY2pESkF0NmNsSVF2UHBqVWtsUEplVlZzN19XcHln",
+   "body": ""
+  },
+  {
+   "source": "Google News · GenomeWeb",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Danaher, Nvidia Ink AI-Driven Science Automation Collaboration",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ2RKLVRacVFHMVJ5Z1NuOEpQYTdxaEJ0Z0lzQktTdGRrMDZsVHZhUmQzWFktODBJRDJCT1FkdmtHd0hWU2N2S3BaTzlVSW8wWUxZN1RueVdGX1JpbDlPLTVoMTNZR3VwWl9SN2s1MC1Vc0lyQnJpYTlsNXNoeGJqR0VXTzlQQUVLU1BmQWlpSU8xUjkzVXlHQkE3cVhOYlFH?oc=5",
+   "date": "2026-10-14 23:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "다나허와 NVIDIA, AI 기반 과학 자동화 협력",
+    "korean_summary": "다나허가 NVIDIA와 AI 기반 과학 자동화 협력을 체결했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ2RKLVRacVFHMVJ5Z1NuOEpQYTdxaEJ0Z0lzQktTdGRrMDZsVHZhUmQzWFktODBJRDJCT1FkdmtHd0hWU2N2S3BaTzlVSW8wWUxZN1RueVdGX1JpbDlPLTVoMTNZR3VwWl9SN2s1MC1Vc0lyQnJpYTlsNXNoeGJqR0VXTzlQQUVLU1BmQWlpSU8xUjkzVXlHQkE3cVhOYlFH",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA GPUs Accelerate Quantum Error Correction Calibration",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13enMzdzk5VDhYSzlLZy1kSVQ4Z29MRWNodW1kTnI0SUxwUXpQLWZpVjRGMGk2WnMzMWltcWMycm00UkswMWpWckJEcG1BUGRkR3FyMU41Z01FYl81S3lFX3gyeE1BMnRzeFVmVFNqS1hMN2VjMEdxUQ?oc=5",
+   "date": "2026-10-15 01:04",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "NVIDIA GPU, 양자 에러 정정 캘리브레이션 가속화",
+    "korean_summary": "NVIDIA GPU가 양자 에러 정정 캘리브레이션을 가속화하는 데 활용되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE13enMzdzk5VDhYSzlLZy1kSVQ4Z29MRWNodW1kTnI0SUxwUXpQLWZpVjRGMGk2WnMzMWltcWMycm00UkswMWpWckJEcG1BUGRkR3FyMU41Z01FYl81S3lFX3gyeE1BMnRzeFVmVFNqS1hMN2VjMEdxUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Tech Buzz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Unveils cuPotential Library for AI-Powered Chip Design",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3JadG0wZzlWNjRkRjVCb2YxWnFBMmFqOHNERUtibVlRTUY3TnVjNjFMdDRyVHVEU0NncnlzS1ZNZkRBRXV5MnIweW5oRXFzcmRqQktkdldaTGpOXzl4MjlHLTBrQnEwX0FGaE9oci1aTExtUWR3SXR0MzNZYlJhU0Q4MHJfc0JTS3RPY2JLb3RhR0RQZkxnNURB?oc=5",
+   "date": "2026-10-15 01:42",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "엔비디아, AI 기반 칩 설계용 cuPotential 라이브러리 공개",
+    "korean_summary": "엔비디아가 AI 지원 칩 설계를 위한 cuPotential 라이브러리를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON3JadG0wZzlWNjRkRjVCb2YxWnFBMmFqOHNERUtibVlRTUY3TnVjNjFMdDRyVHVEU0NncnlzS1ZNZkRBRXV5MnIweW5oRXFzcmRqQktkdldaTGpOXzl4MjlHLTBrQnEwX0FGaE9oci1aTExtUWR3SXR0MzNZYlJhU0Q4MHJfc0JTS3RPY2JLb3RhR0RQZkxnNURB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Zeitgeist",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Riverlane And Nvidia Speed Up Quantum Error Correction With AI",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84LTRSUTY4bXBJeXZiUVAtZlZJMUdXOEpDeXp0dVQ5d0RHQlgtY1RVNWV5TzFTZDRadnIwaE83ZF9fWDlKZFktMkZyRDhRNGlXR19JbzhKQi1hUE5qOGpUaDZMS3A2TXRZRlBHMnpNLUoyd3NDSUpNMkpWaw?oc=5",
+   "date": "2026-10-14 21:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Riverlane과 NVIDIA, AI로 양자 에러 정정 가속화",
+    "korean_summary": "Riverlane과 NVIDIA가 AI 기반 양자 에러 정정 기술 개발 협력"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84LTRSUTY4bXBJeXZiUVAtZlZJMUdXOEpDeXp0dVQ5d0RHQlgtY1RVNWV5TzFTZDRadnIwaE83ZF9fWDlKZFktMkZyRDhRNGlXR19JbzhKQi1hUE5qOGpUaDZMS3A2TXRZRlBHMnpNLUoyd3NDSUpNMkpWaw",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia's Nemotron 3.5 Bolt 74B Brings 74B AI Models to Local Hardware",
+   "link": "https://maraissoftware.co.za/loco/blog/nvidia-s-nemotron-3-5-bolt-74b-brings-74b-ai-models-to-local-hardware",
+   "date": "2026-10-14 23:50",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Bolt 74B 공개, 일반 하드웨어에서 대규모 AI 모델 실행 가능",
+    "korean_summary": "NVIDIA의 Nemotron 3.5 Bolt 74B 모델이 로컬 컴퓨터에서도 74억 파라미터 AI 모델을 구동할 수 있게 한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://maraissoftware.co.za/loco/blog/nvidia-s-nemotron-3-5-bolt-74b-brings-74b-ai-models-to-local-hardware",
+   "body": "Article URL: https://maraissoftware.co.za/loco/blog/nvidia-s-nemotron-3-5-bolt-74b-brings-74b-ai-models-to-local-hardware Comments URL: https://news.ycombinator.com/item?id=50088575 Points: 4 # Comments: 0"
+  },
+  {
+   "source": "Google News · Liverpool City Region Combined Authority",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Liverpool City Region works with NVIDIA to explore secure shared computing for public services research and AI",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkMyLWw5SkFzLWtjU0VDYUs1djBwT05Wc1Y2NmpEWE5mc2JCbC1yU3JwTHZiazF6SUotSWY4STN4ellpbzNZT2NuWFJ3SU1HVVJicS1ZRHhNcy1WSkk5SU1UTG43RXJCdmVsWXBSTnc5Mmt1UWFfZ1E4a3lnNUtTUFdLaTZBejhoLW1QZnh1ZjdUZDI2YXZmc0NNV0hqVDg?oc=5",
+   "date": "2026-10-14 14:57",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Liverpool City Region, NVIDIA와 공공서비스 AI 연구 협력",
+    "korean_summary": "Liverpool City Region Combined Authority가 NVIDIA와 협력해 공공부문과 연구개발용 보안 공유 컴퓨팅 플랫폼을 탐색한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUkMyLWw5SkFzLWtjU0VDYUs1djBwT05Wc1Y2NmpEWE5mc2JCbC1yU3JwTHZiazF6SUotSWY4STN4ellpbzNZT2NuWFJ3SU1HVVJicS1ZRHhNcy1WSkk5SU1UTG43RXJCdmVsWXBSTnc5Mmt1UWFfZ1E4a3lnNUtTUFdLaTZBejhoLW1QZnh1ZjdUZDI2YXZmc0NNV0hqVDg",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia's China AI-chip share falls to 34% as Huawei reaches 28%",
+   "link": "https://technode.com/2026/10/14/nvidias-china-ai-chip-share-falls-to-34-as-huawei-reaches-28/",
+   "date": "2026-10-15 07:30",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 AI칩 시장, NVIDIA 점유율 34%로 하락, Huawei 28%로 추격",
+    "korean_summary": "중국의 AI칩 시장에서 NVIDIA의 점유율이 34%로 내려앉은 가운데 Huawei가 28%까지 성장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://technode.com/2026/10/14/nvidias-china-ai-chip-share-falls-to-34-as-huawei-reaches-28",
+   "body": "Article URL: https://technode.com/2026/10/14/nvidias-china-ai-chip-share-falls-to-34-as-huawei-reaches-28/ Comments URL: https://news.ycombinator.com/item?id=50096399 Points: 3 # Comments: 0"
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Honeywell Technologies just launched an AI platform in partnership with Nvidia and Dell",
+   "link": "https://www.reddit.com/r/nvidia/comments/1x65wgf/honeywell_technologies_just_launched_an_ai/",
+   "date": "2026-10-15 08:06",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Honeywell Technologies, NVIDIA·Dell과 AI 플랫폼 협력",
+    "korean_summary": "Honeywell Technologies가 NVIDIA, Dell과 협력해 새로운 AI 플랫폼을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1x65wgf/honeywell_technologies_just_launched_an_ai",
+   "body": "submitted by /u/LinkedInNews [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/TensorRT-LLM v1.4.0rc0",
+   "link": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.4.0rc0",
+   "date": "2026-10-15 01:35",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/TensorRT-LLM",
+    "version": "v1.4.0rc0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "TensorRT-LLM v1.4.0rc0 릴리스, GLM·Qwen·K-EXAONE 신규 모델 지원",
+    "korean_summary": "NVIDIA TensorRT-LLM이 메이저 버전 1.4.0rc0으로 업데이트되어 GLM-5.3-Flash, K-EXAONE-2, Qwen3 등 신규 모델 지원을 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:NVIDIA/TensorRT-LLM:v1.4.0rc0",
+   "body": "Highlights Known Issues Multi-GPU (TP2) streaming or RPC executor workloads may hang during worker initialization when MPI worker pools are reused across LLM instances (observed on H100). DeepSeek MLA models on SM120/SM121 GPUs (for example RTX PRO 6000 Blackwell) may crash with an illegal memory access when CUDA graphs are captured with BF16 BMM. GPT-OSS models on SM120 GPUs may fail with attention data parallelism when automatic communication selects NCCL EP for unsupported hidden sizes. Qwen3 models with tied embeddings (for example Qwen3-0.6B) may fail at model construction when attention data parallelism is enabled with TP greater than 1. OpenTelemetry tracing may export additional FastAPI spans when FastAPI 0.142 or newer is installed. Model Support Add GLM-5.3-Flash (glm5_next) support #19136 Support K-EXAONE-2 in the PyTorch backend #17067 Add Qwen-Image-Layered with FP8 and Cache-DiT support #16889 Load static FP8 Cosmos3 Nano/Super checkpoints without re-quantization #17476 Enable EVS for Nemotron Super 3.5 VL and EVS handoff for Nemotron-H in EPD #19648 , #19702 Load quantized Nemotron-H MTP heads #19558 , #19597 Add MiniMax-M3 NVFP4 KV cache support with query-length buffer reuse and a native draft KV view #19422 , #19768 , #19731 Add MiniMax H3 ref2va mode and Turbo LoRA tensor-name mapping #19657 , #19701 Route Qwen3.6/3.8 vision-language checkpoints to the generic Qwen3.5 VLM wrapper #19892 API Remove the Python backend of KVCacheManagerV2 (BREAKING) #19154 Migrate LlmRequest fields to Python (BREAKING) #19484 Add command-line configuration overrides #19555 Report per-request speculative-decoding acceptance in responses #19311 Return OpenAI-style errors when a request exceeds the context length #19457 Add a per-model serving-extension registry to the OpenAI server #19499 Ship the OpenEngine gRPC bindings in the wheel, so no separate package install is needed #19371 Feature Add a Mooncake store pool, CLI, and V2 scheduler preemption (part 1) #19235 Add"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab Browser demos v4",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/browser-demos-v4",
+   "date": "2026-10-14 20:40",
+   "score": 4,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "browser-demos-v4"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "Isaac Lab 브라우저 데모 v4, 웨어하우스 상호작용 기능 추가",
+    "korean_summary": "NVIDIA Isaac Lab이 브라우저 기반 시뮬레이션 데모 v4를 릴리스하여 MicroDuck 웨어하우스 장면에 엣지-래치 조이스틱 기능을 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:browser-demos-v4",
+   "body": "Add edge-latched viewport joysticks and the bounded MicroDuck warehouse scene. Pull a stick back or press Escape to stop; arrows remain momentary. Turning from rest uses a visible 0.25 m/s forward assist. Robot dragging still applies 2 N. The authored Factory meshes and base-color textures use 94 shared prototypes and 797 instances. The Newton/BAM simulation includes 25 static boxes for perimeter, shelf-row and clutter collisions. This is a browser adaptation of the scene, not the native training environment or complete warehouse dynamics. Original robot CAD and policy files reuse v2 assets. Deploy the complete archive: v1, v2 and v3 are unchanged and v4 reuses their files. Attribution and warehouse asset license notices are included. Exporters: #7974 , source revision 0c89d1c46 . Docs: #8559 . Validation: native/captured walking and observation checks; all twelve demos; mouse/touch latching, cancellation, pause/reset, turning assist, mobile layout; four physical boundary contacts. Software-rendered browser playback measured about 95% of real time after visual mesh reduction. SHA-256 ( isaaclab-browser-demos-v4.tar.gz ): d0b21f7ba4d556181c3f32130a8bd1a456f16b3de2c2fff5cd8d810b9a159abf ."
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab Browser demos v5",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/browser-demos-v5",
+   "date": "2026-10-14 21:38",
+   "score": 4,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "browser-demos-v5"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "Isaac Lab 브라우저 데모 v5, 웨어하우스 물리 시뮬레이션 개선",
+    "korean_summary": "NVIDIA Isaac Lab 브라우저 데모 v5가 웨어하우스 장면의 볼록 충돌체 및 복합 랙 구성 요소와 물리 시뮬레이션 정확도를 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:browser-demos-v5",
+   "body": "MicroDuck warehouse interactions: convex colliders derived from enabled scene geometry, compound rack/pallet components, and 12 movable floor props. Other props and fixtures remain fixed. Free props use nominal 250 kg/m³ density and calculated mass/inertia. Physics retains native BAM drives, the Newton constraint solver, 50 Hz policy control, and four 5 ms physics steps. Reset restores the captured robot and prop state. Robot/policy assets from v2 and warehouse visuals/textures from v4 are reused; v1–v4 remain unchanged in this archive. Play the preview · Exporter source #7974 · Docs integration #8559 Source revision: 2c6eda6d0e8065b1b0af998c6774369453fcc7a7 . Archive SHA-256: 08de8419b05815c629bc92d25826eee472cb6ee36d977f61611962ac977c4964 . Validated native observations/graph replay, browser contact-driven prop motion, gravity, reset, room containment, mouse/touch controls, and public preview loading/stepping. The docs workflow stages this checksum-pinned archive; it does not compile WASM."
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab Interactive browser demos v6",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/browser-demos-v6",
+   "date": "2026-10-15 02:37",
+   "score": 4,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "browser-demos-v6"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "Isaac Lab 인터랙티브 브라우저 데모 v6, 도미노·케이블·보행 시뮬레이션 확장",
+    "korean_summary": "NVIDIA Isaac Lab 브라우저 데모 v6가 도미노 캐스케이드, VBD 케이블 벤딩, Ant 보행 시뮬레이션을 추가하고 WebAssembly 기반으로 서버 없이 동작한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:browser-demos-v6",
+   "body": "Prebuilt browser simulations for Isaac Lab documentation. Adds a compact 24-slab domino cascade, VBD cable bending, and Ant walking with steering and direct perturbations. Includes all earlier version directories unchanged. Physics uses captured Newton Warp kernels compiled to CPU WebAssembly; Three.js renders the state and the shared JavaScript actor evaluates policy weights. The archive is served as static files and needs no simulation server. Preview gallery · Exporter reference #7974 · Docs integration #8559 Documentation deployment verifies the accompanying SHA-256 before staging the archive. Serve extracted files over HTTP for local previews."
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.2
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 21,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.7
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 23,
+   "enriched": 23,
+   "error": "",
+   "sec": 9.2
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 94,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 8,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 4.1
+  },
+  {
+   "source": "전자신문",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section902.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.e",
+   "sec": 20.4
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.6
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 36,
+   "enriched": 36,
+   "error": "",
+   "sec": 3.2
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
