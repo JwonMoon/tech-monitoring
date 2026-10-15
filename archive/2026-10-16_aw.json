@@ -1,0 +1,750 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-16",
+ "window": [
+  "2026-10-15",
+  "2026-10-16"
+ ],
+ "generated": "2026-10-16T08:54:21+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 Munich Technical University와 함께 **'TUM Autoware Research Center'**를 설립해 유럽 내 자율주행 안전성 연구를 공동 추진한다.",
+  "일본 국토교통성이 TIER IV 등 3개사를 자동물류도로 실증사업자로 채택해 **터널형 군집주행** 기술 검증에 나선다.",
+  "한국공학대 권우진 학생이 Autoware Universe **국내 유일 공식 Maintainer**로 선임돼 오픈소스 생태계 기여를 인정받았다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォーとミュンヘン工科大学、「Autoware」研究拠点を設立",
+   "link": "https://prtimes.jp/main/html/rd/p/000000143.000040119.html",
+   "date": "2026-10-15 12:00",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV와 뮌헨공과대학, Autoware 연구센터 설립…유럽 생태계 강화",
+    "korean_summary": "TIER IV가 뮌헨공과대학(TUM)과 함께 'TUM Autoware Research Center'를 설립하고 다년간 연구 협업을 시작했으며, EDGAR 자동운전 차량으로 뮌헨-베를린 간 실증을 진행 중이다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 독일 뮌헨공대와 'Autoware' 연구거점 설립",
+    "korean_summary": "TIER IV가 Munich Technical University(TUM)와 함께 'TUM Autoware Research Center by TIER IV'를 설립해 유럽 내 Autoware 생태계 확산과 자율주행 안전성·검증 연구를 다년간 공동 추진한다.",
+    "action": {
+     "actor": "TIER IV, Technical University of Munich (TUM)",
+     "action": "TIER IV의 연구자금 지원으로 TUM 내 Autoware 연구거점을 설립하고 다년간 공동 연구 협업 개시",
+     "stage": "Announced",
+     "timeline": "미확인(복수년 협업, 구체적 종료 시점 미확인)",
+     "scope": "독일·유럽 중심, TUM 3개 연구그룹(FTM, CPS, AVS) 참여, 상업 고객사는 미확인"
+    },
+    "key_facts": [
+     "TIER IV의 연구자금 지원을 통해 'TUM Autoware Research Center by TIER IV'를 설립, **다년간 연구 협업**을 시작",
+     "TUM의 Chair of Automotive Technology(FTM), Cyber Physical Systems(CPS), Autonomous Vehicle Systems(AVS) 3개 연구그룹이 참여",
+     "TUM의 Autoware 기반 연구차량 'EDGAR'가 IAA MOBILITY 2025에서 Messe München~뮌헨 시내 구간 일반인 시승을 실시",
+     "**TÜV-Verband와 협력해 EDGAR를 1주일 내 베를린 교통환경에 적응**시켜 독일 정부 대상 레벨4 평가기법 실증을 수행",
+     "연구는 안전성(Safety Guardian 하이브리드 아키텍처), 평가(EDGAR·CommonRoad 기반 벤치마크), 확장성(재현 가능한 Autoware 적용 프로세스 및 오픈소스 환원) 3개 영역 중심"
+    ],
+    "why_matters": "유럽연합이 소프트웨어 정의 차량(SDV)과 오픈소스 전략을 산업 경쟁력의 핵심으로 명시한 상황에서, **TIER IV가 독일 명문대와 공식 연구거점을 설립**함으로써 Autoware를 유럽 표준 평가·검증 체계의 레퍼런스로 자리매김시키려는 시도다. 이는 유럽 완성차 업체들의 자율주행 상용화 기술·평가 기준에 Autoware가 관여할 가능성을 높인다.",
+    "subject_angle": "TIER IV는 직접 차량 공급보다 **연구·표준화 거점 투자를 통해 유럽 Autoware 커뮤니티와 완성차 업계 연결고리를 선점**하는 전략을 취하고 있으며, 이는 글로벌 오픈소스 생태계 확장과 박사급 인재 파이프라인 확보라는 중장기 사업 기반 구축에 해당한다.",
+    "focus_angle": "현재 단계는 IAA MOBILITY 2025 시승 및 베를린 1주 적응 실증 등 **실증(PoC) 단계**이며, 완성차 양산 공급이나 상업 서비스 계약은 아직 미확인이다. 고객·지역 범위는 독일을 거점으로 한 유럽 자동차업계·공공교통 프로젝트로 한정되어 있어, 상용화 전 단계의 학술-산업 연결 플랫폼 구축에 초점이 맞춰져 있다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "연구자금 지원 및 Autoware 개발 주도, 연구거점 공동 설립 주체"
+     },
+     {
+      "name": "Technical University of Munich (TUM)",
+      "context": "3개 연구그룹 참여, EDGAR 연구차량 운용, 연구거점 공동 설립 주체"
+     },
+     {
+      "name": "TÜV-Verband",
+      "context": "베를린 실증에서 레벨4 평가기법 검증 협력 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "연구거점의 기반 오픈소스 자율주행 소프트웨어 스택"
+     },
+     {
+      "name": "EDGAR",
+      "role": "TUM의 Autoware 기반 자율주행 연구차량, 뮌헨·베를린 실증에 사용"
+     },
+     {
+      "name": "CommonRoad",
+      "role": "평가·검증 벤치마크 프레임워크 구축에 활용되는 지식 자원"
+     },
+     {
+      "name": "Safety Guardian",
+      "role": "딥러닝 운전모델과 룰베이스 감시를 결합한 검증 가능 안전 모니터링 메커니즘"
+     }
+    ],
+    "watch_next": [
+     "Safety Guardian 아키텍처의 기술 상세 공개 또는 오픈소스 환원 시점",
+     "TUM 외 유럽 완성차 업체와의 구체적 공동 프로젝트 또는 계약 체결 여부",
+     "독일 정부 대상 레벨4 평가기법의 공식 표준화 채택 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」研究拠点を設立",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aYnJ0cUpON1VFZDZDRjBjbU1pd085enprQWluN0RLcEFJOWE1TFZSLWVQSEx4LVpUMU13cGxNSExEYkhtMFZVcmNsTTN6M0x6c2JQNi1kb09CSVNQZFh4QThYVXBnejNBTmc?oc=5"
+    },
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」研究拠点を設立",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aYnJ0cUpON1VFZDZDRjBjbU1pd085enprQWluN0RLcEFJOWE1TFZSLWVQSEx4LVpUMU13cGxNSExEYkhtMFZVcmNsTTN6M0x6c2JQNi1kb09CSVNQZFh4QThYVXBnejNBTmc?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000143.000040119.html",
+   "body": "ティアフォーとミュンヘン工科大学、「Autoware」研究拠点を設立 自動運転の普及に向けたエコシステム構築を加速 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）とミュンヘン工科大学（Technical University of Munich、以下TUM）は、自動運転用オープンソースソフトウェア「Autoware」を基盤とした「TUM Autoware Research Center by TIER IV」を設立し、複数年にわたる研究協業を開始します。本協業は、TUMの3つの研究グループの専門知識を結集し、安全で拡張性の高い自動運転システムの実現に向けた研究開発を推進します。また、欧州における「Autoware」コミュニティへのTUMの貢献をさらに強化するとともに、研究成果の実社会への応用を加速し、自動運転の普及に向けたエコシステムの発展を目指します。 背景 自動運転やコネクテッド化、ソフトウェア定義型車両への移行が進む中、オープンソースソフトウェアは欧州の自動車業界においてますます重要な役割を担っています。欧州委員会が発表した「欧州のオープンなソフトウェア定義型車両プラットフォーム」に関するコンセプトでは、欧州における連携と競争力を支える基盤として、オープンソース戦略、リファレンス実装、ソフトウェアコンポーネントの標準化、共通の検証ツールの重要性が示されています。 TUMは、「Autoware」を搭載した自動運転研究車両「EDGAR」を用いて、こうした取り組みを進めています。2025年に開催されたIAA MOBILITY 2025では、「EDGAR」を用いて、メッセミュンヘンからミュンヘン市中心部まで一般向けの試乗を実施しました。市街地、郊外、高速道路など、さまざまな交通環境下で自動運転を実証し、オープンソースソフトウェアを基盤とした研究開発のあり方や評価手法を提示しました。 また、TUMは新たな都市環境への迅速な適応も実証しています。わずか1週間で「EDGAR」をベルリンの交通環境に適応させ、市内の一般道で自動運転を実現しました。この実証はTÜV-Verbandとの協力のもと、ドイツ政府向けに、実際の交通環境下における自動運転レベル4の新たな評価手法を検証する取り組みとして実施されました。 本協業の概要 ティアフォーによる研究資金を通じて設立する「TUM Autoware Research Center by TIER IV」には、TUMのChair of Automotive Technology（FTM）、Professorships of Cyber Physical Systems（CPS）、Autonomous Vehicle Systems（AVS）の3つの研究グループが参画します。本研究拠点は、自動運転に関する研究、オープンソースソフトウェアの開発、博士人材の育成に継続的に取り組む拠点とともに、大学、産業界、公共交通分野のプロジェクトをつなぐ役割を担います。また、実証実験や共通の評価基準に基づくベンチマークを実施するための基盤としても活用します。 本協業では、以下の3つの領域を中心に研究開発を進めます。 - 安全性：深層学習に基づく運転モデルとルールベースの監視機構を組み合わせたハイブリッドアーキテクチャを開発します。検証可能な監視機構「セーフティガーディアン」が車両の走行状態を監視し、あらかじめ定義された安全制約に基づいて必要に応じて介入することで、安全性の確保を目指します。 - 評価：シミュレーション、オフライン解析、実環境での運用を横断し、コンポーネントレベルからシステムレベルまでの試験を可能にするベンチマークと検証フレームワークを構築します。TUMが開発する「EDGAR」やCommonRoadに関する知見を活用します。 - 拡張性：新たな環境への「Autoware」の適用と評価を再現可能なプロセスを確立します。また、研究開発を通じて得られた成果は、適切な範囲でオープンソースプロジェクトに還元します。 今後の展望 ティアフォーとTUMは、本研究拠点を通じて、学術研究、産業界における技術開発、公共交通分野のプロジェクトを結びつけ、ドイツを起点とした欧州におけるオープンなエコシステムの発展を目指します。本協業では、欧州の自動車メーカーに対し、オープン性、安全性、拡張性を備え、製品化を見据えた自動運転システムの開発を支える技術や評価手法を提供していきます。また、オープンソースソフトウェア、共通の評価手法、実環境での実証を通じて、さまざまな組織が技術検証や人材育成に取り組み、自動運転の商用化と社会実装を推進できる共通基盤を構築していきます。 ティアフォー 代表取締役 CEO 加藤真平のコメント 安全な自動運転を広く社会に普及させるためには、AI、システムアーキテクチャ、比較・検証、実運用への展開など、さまざまな領域での技術革新が必要です。TUMの優れた研究力とティアフォーの実用的な技術力を組み合わせることで、幅広い企業や研究機関が活用できる技術とオープンな評価基盤を構築していきます。本協業は、欧州の自動車メーカーによる安全で拡張性の高い自動運転システムの開発を支えるとともに、自動運転の普及に向けたオープンなエコシステムを発展させる重要な一歩となると考えています。 ミュンヘン工科大学 自動運転システム教授 Johannes Betzのコメント TUMでは、機械学習を活用した手法と従来のルールベースシステムを組み合わせることで、拡張可能でありながら検証可能な安全性を備えた自動運転システムの実現と、実世界への展開に取り組んでいます。オープンソースのソフトウェアスタックである「Autoware」を基盤として構築されたTUMの自動運転研究車両「EDGAR」は、自動運転の研究や教育において優れた基盤となっています。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 ミュンヘン工科大学について ミュンヘン工科大学は、研究、教育、イノベーションの分野で世界をリードする大学の一つです。約700の教授職、52,000人の学生、13,000人の教"
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "国交省が推進、自動物流道路の実証実験へ…ティアフォーら3社が採択",
+   "link": "https://response.jp/article/2026/10/16/417850.html",
+   "date": "2026-10-16 06:30",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 일본 국토교통성 자동물류도로 실증 사업 채택",
+    "korean_summary": "TIER IV가 대성건설·대성로텍과 함께 일본 국토교통성의 자동물류도로 실증 사업에 선정되어 터널 환경 및 로드사이드 인프라 간소화를 검증한다."
+   },
+   "summary_data": {
+    "korean_title": "국토교통성, 자동물류도로 실증실험 추진…TIER IV 등 3개사 채택",
+    "korean_summary": "일본 국토교통성이 2026년도(令和8年度) 자동물류도로 사회실장 실증실험 사업자로 Taisei Corporation, TIER IV, Taisei Rotec 3개사를 채택하여 터널형 전용공간에서 복수 자율주행차량의 군집·합류 주행 성능을 검증한다.",
+    "action": {
+     "actor": "국토교통성(MLIT)",
+     "action": "자동물류도로 실증실험 사업자로 Taisei Corporation·TIER IV·Taisei Rotec 3개사 채택",
+     "stage": "Announced",
+     "timeline": "令和8年度(2026 일본 회계연도)",
+     "scope": "일본 국내, 터널 환경을 가정한 전용 물류공간, 복수 자율주행차량"
+    },
+    "key_facts": [
+     "국토교통성의 '令和8年度 자동물류도로 사회실장 실증실험'에 Taisei Corporation, TIER IV, Taisei Rotec 3개사가 채택됨",
+     "자동물류도로는 **물류 전용 공간에서 무인화·자동화 반송기기로 화물을 운송**하는 신개념 물류 시스템",
+     "실증에서는 터널 환경 등을 가정해 복수의 자율주행차량을 주행시킴",
+     "추종주행, 대면주행, 차선변경, 분류·합류, 장애물 회피 등 주행성능 확인 예정",
+     "전용공간을 전제로 **차량탑재 센서·노측 인프라의 간소화 여부도 함께 검증**"
+    ],
+    "why_matters": "자동물류도로는 일본 정부 주도의 신규 물류 인프라 정책으로, 자율주행 기술이 일반 도로가 아닌 전용·통제된 공간에서 먼저 상용화될 수 있는 경로를 제시한다. TIER IV가 건설사 2곳(Taisei 계열)과 함께 정부 실증사업에 선정된 것은 **민관 협력형 인프라 자율주행 시장 진입**의 발판이 될 수 있다.",
+    "subject_angle": "TIER IV가 일반 도로 자율주행뿐 아니라 **정부 주도 전용 물류 인프라 실증에도 참여**함으로써 Autoware 생태계의 적용 영역을 물류·인프라 분야로 확장하려는 전략을 보여준다.",
+    "focus_angle": "현재 단계는 실증(demonstration) 단계로, 전용공간이라는 통제된 환경 특성상 **센서·노측 인프라 간소화 가능성**을 검증한다는 점에서 일반 도로 대비 낮은 비용·복잡도로 자율주행을 양산 적용할 수 있는 경로를 모색한다는 의미가 있다. 다만 구체적으로 Autoware 소프트웨어 스택이 이 실증에 사용되는지는 본문에 명시되지 않아 미확인이다.",
+    "companies": [
+     {
+      "name": "Taisei Corporation",
+      "context": "실증실험 공동 채택 건설사"
+     },
+     {
+      "name": "TIER IV",
+      "context": "실증실험 공동 채택 자율주행 기술 기업"
+     },
+     {
+      "name": "Taisei Rotec",
+      "context": "실증실험 공동 채택 건설사(Taisei 계열)"
+     },
+     {
+      "name": "국토교통성(MLIT)",
+      "context": "실증실험 사업 주관 정부기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "자동물류도로(自動物流道路)",
+      "role": "실증 대상인 물류 전용 자율주행 인프라 시스템"
+     }
+    ],
+    "watch_next": [
+     "실증실험 구체적 일정 및 장소 공개 여부",
+     "해당 실증에 Autoware 소프트웨어 스택이 실제 적용되는지 여부",
+     "실증 결과에 따른 자동물류도로 본사업(상용화) 전환 계획"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "国交省が推進、自動物流道路の実証実験へ…ティアフォーら3社が採択",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4eGY5WXVNaUR5UEx1S1oxOG1WRVZNTWlrbktrazRuZG1icTFBUnRaYjJybmpsVUtZOFhEQjRKekpUSl92ZkY1ejFTV2VheWxTaV9Ka2toRkVrUi1Qd3dz?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "国交省が推進、自動物流道路の実証実験へ…ティアフォーら3社が採択",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4eGY5WXVNaUR5UEx1S1oxOG1WRVZNTWlrbktrazRuZG1icTFBUnRaYjJybmpsVUtZOFhEQjRKekpUSl92ZkY1ejFTV2VheWxTaV9Ka2toRkVrUi1Qd3dz?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "国交省が推進、自動物流道路の実証実験へ…ティアフォーら3社が採択 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXpIT3JEXzZCZldKd2ZYOXJjb3JMdHRQaGlfZUhleGNldXpYai05Q0syOU5MRmJOSlBkWDNfZDcyQ3B6OEVIc3BVZmdwckM3Z2xJM19hRUk3WDlSMXZSRzBJbVcxOUtZcUNhdG41eEIzN2NwV19KM3BTYVNCb3dkUGcyXzdWZFhJOWFJUUxIU0k?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/10/16/417850.html",
+   "body": "国土交通省が実施する「令和8年度自動物流道路の社会実装に向けた実証実験」に、大成建設、ティアフォー、大成ロテックの3社が採択された。 自動物流道路は、物流専用の空間で無人化・自動化された搬送機器により貨物を輸送する新しい物流システムである。 本実証では、トンネル環境下などを想定し、複数台の自動運転車両を走行させる。追従走行や対面走行、車線変更、分流・合流、障害物回避などの走行性能を確認するほか、専用空間を念頭に自動運転に必要な車載センサーと路側インフラの簡素化も検証する。 パーソルクロステクノロジー、ティアフォーの自動運転ソフト「Autoware」の認定パートナーに…国内4社目として選定 2026年10月14日 パーソルクロステクノロジーは、ティアフォーが運営する開発パ…"
+  },
+  {
+   "source": "Google News · 베리타스알파",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "한국공학대 권우진 학생 글로벌 자율주행 오픈소스 'Autoware Universe' 국내 유일 공식 Maintainer 선임",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FeDg4b2tDQTR3WjNoMjdkM1ViN29zclc1bDd6SFd1Z1J1VkVvNHJncWNucTJXZDZtMVRlX19xbzVpUXFMV21COTQyVjdpR3BOdXBIR1JsaFdBOXN3SUR0Xzh2TmlDY3dMMkNTNg?oc=5",
+   "date": "2026-10-16 08:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "한국공학대 권우진 학생, Autoware Universe 국내 유일 공식 Maintainer 선임",
+    "korean_summary": "한국공학대 권우진 학생이 글로벌 오픈소스 Autoware Universe의 국내 유일 공식 유지보수자로 선임되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FeDg4b2tDQTR3WjNoMjdkM1ViN29zclc1bDd6SFd1Z1J1VkVvNHJncWNucTJXZDZtMVRlX19xbzVpUXFMV21COTQyVjdpR3BOdXBIR1JsaFdBOXN3SUR0Xzh2TmlDY3dMMkNTNg",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Funds New Autoware Research Hub at Munich University",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVU5GOGRFLUthc3o0cFNvQzN2cnJTVTBXN0Rtc2ltTnQ3TmVBNVkzNWdKbHZOZmNNblE2cFNJcGotVlpMRmhqajFZWGxEZzdBX2NSU1RHRk5fNk11SU1WamthMVVBYmpQemt5TWl2cF9CLW0weTIzV1dCZzFDUlN1cm16ZlNBZkFoc1E?oc=5",
+   "date": "2026-10-15 16:27",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV 뮌헨공과대학 Autoware 연구센터 설립 소식 (Unite.AI 보도)",
+    "korean_summary": "[0] 사건의 해외 미디어 아그리게이션 기사이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Funds New Autoware Research Hub at Munich University",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVU5GOGRFLUthc3o0cFNvQzN2cnJTVTBXN0Rtc2ltTnQ3TmVBNVkzNWdKbHZOZmNNblE2cFNJcGotVlpMRmhqajFZWGxEZzdBX2NSU1RHRk5fNk11SU1WamthMVVBYmpQemt5TWl2cF9CLW0weTIzV1dCZzFDUlN1cm16ZlNBZkFoc1E?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Funds New Autoware Research Hub at Munich University",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVU5GOGRFLUthc3o0cFNvQzN2cnJTVTBXN0Rtc2ltTnQ3TmVBNVkzNWdKbHZOZmNNblE2cFNJcGotVlpMRmhqajFZWGxEZzdBX2NSU1RHRk5fNk11SU1WamthMVVBYmpQemt5TWl2cF9CLW0weTIzV1dCZzFDUlN1cm16ZlNBZkFoc1E?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVU5GOGRFLUthc3o0cFNvQzN2cnJTVTBXN0Rtc2ltTnQ3TmVBNVkzNWdKbHZOZmNNblE2cFNJcGotVlpMRmhqajFZWGxEZzdBX2NSU1RHRk5fNk11SU1WamthMVVBYmpQemt5TWl2cF9CLW0weTIzV1dCZzFDUlN1cm16ZlNBZkFoc1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV and Technical University of Munich establish Autoware research center to advance the open autonomous driving ecosystem",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObVB5VVVHbHhDME1xdG51WTF5RURCSmwyMXlfbk1PQ0d2bGhqTW56dTdfejBzOEF2ZEE2b1ViNFB3T2V2eTdpbHd1R3N5czJ1dkFFZDZsMUV6MlBxTHkzX2NZRWF6NXFUcl9USTZZVDh6aUJ6a1czclhSWFZwc0hjYm8zeUZpOGpvRFhJMjVZQk1rZ0IxTWhubF9NQkpBeS1MMmM3VnJPcTNRc1UxUzFTZFJ2eW5kcS05R1pBTy1zbVp1c0UxLWNHbTNKUXNJak1hRHNfM1F1ckxBQzhvYWhQU2E1VUlmM3BoblF3SjdCUE9ueG4zZG9USjBYY1VVQjdZRjJEeUVsOU16SDJhTE1J?oc=5",
+   "date": "2026-10-15 16:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 TUM의 Autoware 연구센터 설립 공식 배포 (PR Newswire)",
+    "korean_summary": "[0] 사건의 PR Newswire 공식 배포판이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · www.marketscreener.com",
+     "title": "TIER IV, Inc. and Technical University of Munich Establish Tum Autoware Research Center by Tier IV to Advance the Open Autonomous Driving Ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVVRGbDBsM3B5ZkNHM0hNUnFKSVphR0dmdkR1TE8tQXhlWnRNSG1SdU9EZVByalk4S3hRSEZwN0VXdUY2RllXLXZYNlk5aEZITWFJM3dGbTY3eTZzRWUwS2JPOXBqZGRpN2p1SmZrcE5GcExKYzFJNFduUF9WY09KQ1YxZ1Q3Z1l1cDNnYTM4M3dGZkl4TjkwTFU5UFBaaXZYNXFDNUtZbG4wbl8tTHRXWXF4MUwwb3l6SDZvOHFmMWd3MjY5SGZlZnMxcTRTUVZiUi1FMjJMMTM4VDE1SU5vNFdDdVo2UQ?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV and Technical University of Munich establish Autoware research center to advance the open autonomous driving ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObVB5VVVHbHhDME1xdG51WTF5RURCSmwyMXlfbk1PQ0d2bGhqTW56dTdfejBzOEF2ZEE2b1ViNFB3T2V2eTdpbHd1R3N5czJ1dkFFZDZsMUV6MlBxTHkzX2NZRWF6NXFUcl9USTZZVDh6aUJ6a1czclhSWFZwc0hjYm8zeUZpOGpvRFhJMjVZQk1rZ0IxTWhubF9NQkpBeS1MMmM3VnJPcTNRc1UxUzFTZFJ2eW5kcS05R1pBTy1zbVp1c0UxLWNHbTNKUXNJak1hRHNfM1F1ckxBQzhvYWhQU2E1VUlmM3BoblF3SjdCUE9ueG4zZG9USjBYY1VVQjdZRjJEeUVsOU16SDJhTE1J?oc=5"
+    },
+    {
+     "source": "Google News · www.marketscreener.com",
+     "title": "TIER IV, Inc. and Technical University of Munich Establish Tum Autoware Research Center by Tier IV to Advance the Open Autonomous Driving Ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVVRGbDBsM3B5ZkNHM0hNUnFKSVphR0dmdkR1TE8tQXhlWnRNSG1SdU9EZVByalk4S3hRSEZwN0VXdUY2RllXLXZYNlk5aEZITWFJM3dGbTY3eTZzRWUwS2JPOXBqZGRpN2p1SmZrcE5GcExKYzFJNFduUF9WY09KQ1YxZ1Q3Z1l1cDNnYTM4M3dGZkl4TjkwTFU5UFBaaXZYNXFDNUtZbG4wbl8tTHRXWXF4MUwwb3l6SDZvOHFmMWd3MjY5SGZlZnMxcTRTUVZiUi1FMjJMMTM4VDE1SU5vNFdDdVo2UQ?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and Technical University of Munich establish Autoware research center to advance the open autonomous driving ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQ2hNYjFwX2UtQzAyRjlpWEsxZzc0Xy1HUGl5Unh3MFJEbFFyYnRvNTV0eEhlcGVZaHhoWkxIQlpHbFh5TDJZazFVZ0pPUTlkemY4UUxnalVNOFkxUGpRbXQ3bHNtN2hhRW1leWwzVjBjY29sZjFEbFpjdGVLWjB3LTRydDIxbldLdk9nNjJpSzMtWWFKMHdrTHdHZ3g3SGVvM3ZfUDJFWEdFanJzcGxraXpOcFZLQdIBtgFBVV95cUxQQ2hNYjFwX2UtQzAyRjlpWEsxZzc0Xy1HUGl5Unh3MFJEbFFyYnRvNTV0eEhlcGVZaHhoWkxIQlpHbFh5TDJZazFVZ0pPUTlkemY4UUxnalVNOFkxUGpRbXQ3bHNtN2hhRW1leWwzVjBjY29sZjFEbFpjdGVLWjB3LTRydDIxbldLdk9nNjJpSzMtWWFKMHdrTHdHZ3g3SGVvM3ZfUDJFWEdFanJzcGxraXpOcFZLQQ?oc=5"
+    },
+    {
+     "source": "Google News · www.marketscreener.com",
+     "title": "TIER IV, Inc. and Technical University of Munich Establish Tum Autoware Research Center by Tier IV to Advance the Open Autonomous Driving Ecosystem",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVVRGbDBsM3B5ZkNHM0hNUnFKSVphR0dmdkR1TE8tQXhlWnRNSG1SdU9EZVByalk4S3hRSEZwN0VXdUY2RllXLXZYNlk5aEZITWFJM3dGbTY3eTZzRWUwS2JPOXBqZGRpN2p1SmZrcE5GcExKYzFJNFduUF9WY09KQ1YxZ1Q3Z1l1cDNnYTM4M3dGZkl4TjkwTFU5UFBaaXZYNXFDNUtZbG4wbl8tTHRXWXF4MUwwb3l6SDZvOHFmMWd3MjY5SGZlZnMxcTRTUVZiUi1FMjJMMTM4VDE1SU5vNFdDdVo2UQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijwJBVV95cUxObVB5VVVHbHhDME1xdG51WTF5RURCSmwyMXlfbk1PQ0d2bGhqTW56dTdfejBzOEF2ZEE2b1ViNFB3T2V2eTdpbHd1R3N5czJ1dkFFZDZsMUV6MlBxTHkzX2NZRWF6NXFUcl9USTZZVDh6aUJ6a1czclhSWFZwc0hjYm8zeUZpOGpvRFhJMjVZQk1rZ0IxTWhubF9NQkpBeS1MMmM3VnJPcTNRc1UxUzFTZFJ2eW5kcS05R1pBTy1zbVp1c0UxLWNHbTNKUXNJak1hRHNfM1F1ckxBQzhvYWhQU2E1VUlmM3BoblF3SjdCUE9ueG4zZG9USjBYY1VVQjdZRjJEeUVsOU16SDJhTE1J",
+   "body": ""
+  },
+  {
+   "source": "Google News · Automotive Industry Portal MarkLines",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV, Japan, and TUM, Germany, establish Autoware research center for autonomous driving",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sbVE0RW9LREZOX0wyWU1OTXhsNzEwYWowcUV3alVIUkk1Q09pT2d4aDRXNWdQYmdmYVBjaUFKa2JsWExOWGszQkhEdDlTZ1dYWHc?oc=5",
+   "date": "2026-10-15 20:25",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "자동차산업포털의 TIER IV·TUM Autoware 연구센터 보도",
+    "korean_summary": "[0] 사건의 MarkLines 아그리게이션 기사이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Automotive Industry Portal MarkLines",
+     "title": "TIER IV, Japan, and TUM, Germany, establish Autoware research center for autonomous driving",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sbVE0RW9LREZOX0wyWU1OTXhsNzEwYWowcUV3alVIUkk1Q09pT2d4aDRXNWdQYmdmYVBjaUFKa2JsWExOWGszQkhEdDlTZ1dYWHc?oc=5"
+    },
+    {
+     "source": "Google News · Automotive Industry Portal MarkLines",
+     "title": "TIER IV, Japan, and TUM, Germany, establish Autoware research center for autonomous driving",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sbVE0RW9LREZOX0wyWU1OTXhsNzEwYWowcUV3alVIUkk1Q09pT2d4aDRXNWdQYmdmYVBjaUFKa2JsWExOWGszQkhEdDlTZ1dYWHc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sbVE0RW9LREZOX0wyWU1OTXhsNzEwYWowcUV3alVIUkk1Q09pT2d4aDRXNWdQYmdmYVBjaUFKa2JsWExOWGszQkhEdDlTZ1dYWHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【新規上場会社紹介】ティアフォー（2026/7/22上場）（593A） Edmonton Weather (NpX3GItdyW)",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XMjFqODhJdUtPU3gyZGlIYUcwUVlaTXFQUVNoYXdVb3JmZ2lGc1g3UXg2S0hUYkNrUkRYY1JNWjdrRm5fSkN3djFiNzZpN2NYeFMyczFXMFFjVkd3SlFVZGJWXzdKdw?oc=5",
+   "date": "2026-10-15 04:32",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 신규 상장 회사 소개 (2026년 7월 22일)",
+    "korean_summary": "TIER IV의 2026년 7월 22일 신규 상장 후 진행된 회사 소개 기사이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【新規上場会社紹介】ティアフォー（2026/7/22上場）（593A） Edmonton Weather (NpX3GItdyW)",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XMjFqODhJdUtPU3gyZGlIYUcwUVlaTXFQUVNoYXdVb3JmZ2lGc1g3UXg2S0hUYkNrUkRYY1JNWjdrRm5fSkN3djFiNzZpN2NYeFMyczFXMFFjVkd3SlFVZGJWXzdKdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XMjFqODhJdUtPU3gyZGlIYUcwUVlaTXFQUVNoYXdVb3JmZ2lGc1g3UXg2S0hUYkNrUkRYY1JNWjdrRm5fSkN3djFiNzZpN2NYeFMyczFXMFFjVkd3SlFVZGJWXzdKdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日刊自動車新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーなど3社、自動運転物流道路を想定した実証 専用空間に適した自動運転車と路側インフラの簡素化検証",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wWllXRkdlSmg3ZlIybVZ4VG1JQUFkbkVNWGloSElVZzFlY05LSmZRWHpDNWNsbGU3REFkeTRYV3pRLUduTU43MWNwaXFpYVhuVXc?oc=5",
+   "date": "2026-10-15 05:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "pilot"
+    ],
+    "korean_title": "TIER IV 등 3사 자동물류도로 실증…로드사이드 인프라 간소화 (일간자동차신문)",
+    "korean_summary": "[2] 사건의 일간자동차신문 보도이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wWllXRkdlSmg3ZlIybVZ4VG1JQUFkbkVNWGloSElVZzFlY05LSmZRWHpDNWNsbGU3REFkeTRYV3pRLUduTU43MWNwaXFpYVhuVXc",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "tier4/nebula v1.3.1",
+   "link": "https://github.com/tier4/nebula/releases/tag/v1.3.1",
+   "date": "2026-10-15 18:02",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "tier4/nebula",
+    "version": "v1.3.1"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "Nebula 센서 드라이버 v1.3.1 릴리스…Agnocast 마이그레이션 버그 수정",
+    "korean_summary": "Nebula v1.3.1에서 Agnocast 마이그레이션 과정의 Hesai 수신기 및 ARS548 노드 버그를 수정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:tier4/nebula:v1.3.1",
+   "body": "Release Notes This release restores the Agnocast CIE thread configurator registration of the Hesai UDP receiver thread, which was lost in the migration of HesaiRosWrapper to agnocast_wrapper::Node , and fixes the ARS548 node dying at startup under Agnocast because its TF listener had not been migrated to agnocast_wrapper . Users not using Agnocast are unaffected. What's Changed fix(nebula_continental): use agnocast_wrapper TF listener in ARS548 set_sensor_mounting by @kazushi67 in #499 ci(pre-commit): fix sort-package-xml and clang-format failures on main by @mojomex in #500 fix(nebula_hesai): register the UDP receiver thread with the CIE thread configurator again by @atsushi421 in #498 chore: release v1.3.1 by @mojomex in #502 New Contributors @kazushi67 made their first contribution in #499 Full Changelog : v1.3.0...v1.3.1"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 121,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 7,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 4,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 16,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 4,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 29,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 14.7
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 23.8
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 1.3
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
