@@ -1,0 +1,804 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-17",
+ "window": [
+  "2026-10-16",
+  "2026-10-17"
+ ],
+ "generated": "2026-10-17T08:45:18+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 **TOPIX** 정기 종목 교체에서 신규 편입 35종목 중 하나로 선정되며 시장 위상이 높아졌다.",
+  "TIER IV가 독일 **TUM**(뮌헨공과대학)과 제휴해 Autoware 오픈소스 자율주행 플랫폼의 신규 연구거점 설립을 자금 지원한다.",
+  "TIER IV를 포함한 3개 업체가 일본 국토교통성의 **자동물류도로** 실증사업에 채택되어 기술 실용화 범위를 넓혔다."
+ ],
+ "cards": [
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "トヨタ自動車が中国で新たな動き…今週のビジネス記事ランキング",
+   "link": "https://response.jp/article/2026/10/16/417861.html",
+   "date": "2026-10-16 09:30",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV, 도쿄증권거래소 TOPIX 신규 편입 확정",
+    "korean_summary": "TIER IV가 2026년 10월 30일 도쿄증권거래소 TOPIX 지수 정기 편입 대상으로 선정되어 상장 후 주요 지수 편입 인정을 받음."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, TOPIX 정기 종목 교체에서 신규 편입 종목으로 선정",
+    "korean_summary": "JPX총연이 TOPIX 구성종목 정기 입替 결과를 발표하며, 자율주행 기술기업 TIER IV를 10월 30일 시행되는 신규 편입 35종목 중 하나로 선정했다.",
+    "action": {
+     "actor": "JPX総研 (Japan Exchange Group 산하)",
+     "action": "TOPIX 구성종목 정기 입替 결과 발표, TIER IV를 신규 채용 종목으로 선정",
+     "stage": "Announced",
+     "timeline": "발표 2026-10-07, 시행 2026-10-30",
+     "scope": "TOPIX 지수 편입 35종목 중 1개, 일본 증시 대상"
+    },
+    "key_facts": [
+     "JPX総研이 2026-10-07 TOPIX 구성종목 정기 입替 선정 결과를 발표함",
+     "**10월 30일 시행되는 1차 정기 입替에서 신규 35종목을 채용**하고 기존 683종목은 이행조치 대상으로 분류",
+     "자동차 관련 신규 채용 종목으로 **자율주행 기술기업 TIER IV와 택시 배차서비스 GO가 포함**됨",
+     "본 기사는 비즈니스 기사 주간 랭킹 중 하나로, 1위는 토요타·중국일기·광기집단의 전략적 제휴 협정 조인식 소식"
+    ],
+    "why_matters": "TOPIX 신규 편입은 **일본 자본시장에서 기관투자자의 지수 추종 수요(패시브 자금 유입)를 유발**할 수 있어 TIER IV의 자금 조달·기업 인지도 측면에서 긍정적 신호로 해석될 수 있다. 다만 이는 자율주행 기술 자체의 상용화 진전이 아니라 상장 기업으로서의 자본시장 이벤트라는 점에서 기술·사업 실질 변화와는 구분된다.",
+    "subject_angle": "Autoware 생태계의 핵심 주체인 TIER IV가 **일본 주요 지수(TOPIX)에 편입**됨으로써 상장사로서의 시장 신뢰도와 자금 접근성이 강화될 가능성이 있으며, 이는 향후 Autoware 상용화 투자 재원 확보에 간접적으로 영향을 줄 수 있다.",
+    "focus_angle": "이 소식은 TIER IV의 기술·제품 로드맵이 아닌 **자본시장 지위 변화(TOPIX 편입)**에 관한 것으로, 본문에는 Autoware 기술의 실증·양산·서비스 단계에 대한 구체적 언급이 없어 상용화 단계는 미확인이다. 고객·지역 범위 역시 일본 증시라는 자본시장 범위로 한정되며 기술 채택 영향은 본문상 확인되지 않는다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "자율주행 기술기업, TOPIX 신규 편입 종목으로 선정됨"
+     },
+     {
+      "name": "GO",
+      "context": "택시 배차서비스 기업, 자동차 관련 신규 편입 종목"
+     },
+     {
+      "name": "Japan Exchange Group (JPX総研)",
+      "context": "TOPIX 구성종목 정기 입替 발표 주체"
+     },
+     {
+      "name": "Toyota Motor",
+      "context": "중국일기·광기집단과 전략적 제휴 협정 체결 (별도 1위 기사)"
+     }
+    ],
+    "products": [
+     {
+      "name": "TOPIX",
+      "role": "TIER IV가 신규 편입되는 일본 대표 주가지수"
+     }
+    ],
+    "watch_next": [
+     "2026-10-30 TOPIX 정기 입替 실제 시행 및 TIER IV 주가·수급 영향",
+     "TIER IV의 TOPIX 편입이 Autoware 관련 사업·투자에 미치는 구체적 효과 공개 여부",
+     "TIER IV의 향후 실적·사업 공시(자율주행 서비스 확대 관련) 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://response.jp/article/2026/10/16/417861.html",
+   "body": "10月8～14日に公開された有料会員記事について、アクセス数を元に独自ポイントで集計したランキングです。ビジネスパーソンが注目したのはトヨタ・中国一汽・広汽集団が新たな戦略提携でした。 トヨタ自動車は10月8日、中国第一汽車（中国一汽）、広州汽車集団（広汽集団）と、新たな戦略提携に関する枠組み協定の調印式を開催。新たな3社間の戦略提携の枠組みを構築し、合弁事業の持続的かつ健全な発展を推進することを決定した。 日本自動車輸入組合（JAIA）が発表した2026年度上半期（4～9月）の「外国メーカー車モデル別新車登録台数順位」で、BMWグループのMINI『MINI』が8635台で首位となった。2位はフォルクスワーゲン『ゴルフ』の4898台、3位は同『Tクロス』の3965台だった。 村田製作所は、6Gでの活用が期待される100GHz超の高周波帯「D-band（110～170GHz）」に対応したアンテナモジュールを開発したと発表した。通信評価の結果、135GHz帯での無線通信動作と最大8GHzの帯域幅での信号伝送、および送受信双方の2次元ビーム制御を確認した。 日本取引所グループのJPX総研は10月7日、東証株価指数（TOPIX）の構成銘柄の定期入替について、選定結果を発表した。10月30日に実施する初回の定期入替では、35銘柄を新たに採用し、既存の683銘柄を移行措置の対象とする。自動車関連では、自動運転技術を手がけるティアフォーや、タクシー配車サービスのGOなどが新規採用される。 三菱自動車は10月7日、米国子会社のMitsubishi Motors North America（MMNA）に対する訴訟について、和解が成立し、10月6日（米国現地時間）をもって訴訟が終了したと発表した。この訴訟は、2017年に発生した1992年製三菱『3000GT』（日本名：『GTO』）の事故に起因する。"
+  },
+  {
+   "source": "Google News · 月刊「事業構想」オンライン",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーとミュンヘン工科大 自動運転OSS「Autoware」の研究拠点設立",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcE5UMndxcWJHSlJORGJpV29PUTlVeDMzYkF4WEpadnZuNDZZb0VRa3VnUDdZRUlQLUh6MFFVb2ZvbEZseWVxeDI5eEJwN3NrV0FWYldJcU1RZ21CVWwwempoeTFzY3llOGJTYWVqZkNORVJ5TUh5VXFSekVMS1Y3LWNnS1B3QQ?oc=5",
+   "date": "2026-10-16 10:37",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 TUM(뮌헨공대), Autoware 연구센터 설립",
+    "korean_summary": "TIER IV가 독일 TUM(뮌헨공과대학)과 협력하여 Autoware 오픈소스 자동운전 플랫폼의 신규 연구거점을 설립하기로 제휴함."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 月刊「事業構想」オンライン",
+     "title": "ティアフォーとミュンヘン工科大 自動運転OSS「Autoware」の研究拠点設立",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcE5UMndxcWJHSlJORGJpV29PUTlVeDMzYkF4WEpadnZuNDZZb0VRa3VnUDdZRUlQLUh6MFFVb2ZvbEZseWVxeDI5eEJwN3NrV0FWYldJcU1RZ21CVWwwempoeTFzY3llOGJTYWVqZkNORVJ5TUh5VXFSekVMS1Y3LWNnS1B3QQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcE5UMndxcWJHSlJORGJpV29PUTlVeDMzYkF4WEpadnZuNDZZb0VRa3VnUDdZRUlQLUh6MFFVb2ZvbEZseWVxeDI5eEJwN3NrV0FWYldJcU1RZ21CVWwwempoeTFzY3llOGJTYWVqZkNORVJ5TUh5VXFSekVMS1Y3LWNnS1B3QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ミュンヘン大学にTIER IVが新たなAutoware研究拠点を設立",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVHZNWmlEelF3aHZUZkdDY2lUVGZUaTFIenBPN1ZLTU5DckxUTHp3UlYwVjlDV1dyNXV4aTN6YzZMeWg3U05YY2lHTXZZOWNIWUdQVnBPZnYxRHNuYm1PZXFBTUNFaEpObDc5ZU9MYXVuVGlOckRKakdlUExDc0dLbHVGczJjOTBWd1JQTVNR?oc=5",
+   "date": "2026-10-16 14:35",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TUM(뮌헨공대)에 TIER IV 신규 Autoware 연구센터 설립",
+    "korean_summary": "TIER IV가 TUM(뮌헨공과대학)에 Autoware 오픈소스 자동운전 플랫폼의 새로운 연구거점을 설립하기로 제휴함."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVHZNWmlEelF3aHZUZkdDY2lUVGZUaTFIenBPN1ZLTU5DckxUTHp3UlYwVjlDV1dyNXV4aTN6YzZMeWg3U05YY2lHTXZZOWNIWUdQVnBPZnYxRHNuYm1PZXFBTUNFaEpObDc5ZU9MYXVuVGlOckRKakdlUExDc0dLbHVGczJjOTBWd1JQTVNR",
+   "body": ""
+  },
+  {
+   "source": "Google News · レスポンス（Response.jp）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "国交省が推進、自動物流道路の実証実験へ…ティアフォーら3社が採択 1枚目の写真・画像",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZVHp1amE3djJzZTFDSnlvc1psb2RmU1U5U0RmR0ZyQ3RIblN3cEhWOEZsdVV4UUZXc0haMi1uQWxqSHFmM2Z0WjNNYWtpamN5bGM1N3pxdzRuREsyRnNOV25tdXdONjQ3Sm0zLUxZYw?oc=5",
+   "date": "2026-10-16 06:30",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "pilot"
+    ],
+    "korean_title": "일본 국교성 자동물류도로 실증, TIER IV 등 3사 採택",
+    "korean_summary": "일본 국토교통성이 추진하는 자동물류도로 실증사업에 TIER IV를 포함한 3개 업체가 採택되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZVHp1amE3djJzZTFDSnlvc1psb2RmU1U5U0RmR0ZyQ3RIblN3cEhWOEZsdVV4UUZXc0haMi1uQWxqSHFmM2Z0WjNNYWtpamN5bGM1N3pxdzRuREsyRnNOV25tdXdONjQ3Sm0zLUxZYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "TIER IV, 뮌헨 공과대학교에 신규 Autoware 연구 허브 조성 자금 지원",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMS1SYnM5Q2tOM0VHTlVnVllHYkN4R0kxdFE0MmtJb05IZHM5RDVBb1B1WC1HMzFQV0Zkb0M5TTRmUFVoZ21FYm5TelpsY2h3Y3pOeU9tZWJ2aEpVZ2lnZmt5RG5uQzJ6LUNEb1pfRnE0ZTZIa1hyeTVSeTczc3NlZjdybGF1V2hHZXRoNnJn?oc=5",
+   "date": "2026-10-17 07:08",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV, 뮌헨 공과대학 Autoware 연구 허브 조성 지원",
+    "korean_summary": "TIER IV가 뮌헨 공과대학에 새로운 Autoware 연구 허브 조성을 위한 자금을 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMS1SYnM5Q2tOM0VHTlVnVllHYkN4R0kxdFE0MmtJb05IZHM5RDVBb1B1WC1HMzFQV0Zkb0M5TTRmUFVoZ21FYm5TelpsY2h3Y3pOeU9tZWJ2aEpVZ2lnZmt5RG5uQzJ6LUNEb1pfRnE0ZTZIa1hyeTVSeTczc3NlZjdybGF1V2hHZXRoNnJn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【決算解説】Ｇ－ティアフォー（593A）｜2026年9月期 第3四半期 Trump Posts (sNAncdlO4E)",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyU1VVNERBa0EzVDRJME9halEzbG90amN0cmRrcjkzNXpOaTBFU3BNcXYtMlpxa0RENGpSWks0SnBrc0Z5eGZSOFdQWG1aa0kxbUdGVlRpU3NnTHNYYVVVSndDNDg2LTZMUmdR?oc=5",
+   "date": "2026-10-16 21:19",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 2026년도 3분기 실적 해설",
+    "korean_summary": "TIER IV의 2026년 회계연도 3분기 매출, 영업이익, 향후 가이던스 등 재무 결과를 해석하는 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【決算解説】Ｇ－ティアフォー（593A）｜2026年9月期 第3四半期 Trump Posts (sNAncdlO4E)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyU1VVNERBa0EzVDRJME9halEzbG90amN0cmRrcjkzNXpOaTBFU3BNcXYtMlpxa0RENGpSWks0SnBrc0Z5eGZSOFdQWG1aa0kxbUdGVlRpU3NnTHNYYVVVSndDNDg2LTZMUmdR?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyU1VVNERBa0EzVDRJME9halEzbG90amN0cmRrcjkzNXpOaTBFU3BNcXYtMlpxa0RENGpSWks0SnBrc0Z5eGZSOFdQWG1aa0kxbUdGVlRpU3NnTHNYYVVVSndDNDg2LTZMUmdR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【ティアフォー（593A）徹底分析】自動運転本命株のリアル／Autowareの収益化構造・黒字化ライン・3つの監視KPIを徹底分析【日本株】 Katy Perry (wexoFFylZy)",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HRHBfTmplRDVaLURIU2pzY1BlV2U3VUQ0NHFoV1hEZnFnal82VTVzN3JSeTItUGpfRUZLa2NzUDFBMFBIUW1ZMURxWVp4Y2gwYUxkZS1IdWpQX2R5MlBYLVhHMnh0Q2ZyMjdJ?oc=5",
+   "date": "2026-10-16 12:48",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 자동운전 본명주 철저 분석...Autoware 수익화와 KPI",
+    "korean_summary": "TIER IV의 Autoware 기반 수익화 모델, 흑자화 시점, 핵심 경영 지표를 분석하는 투자 평가 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【ティアフォー（593A）徹底分析】自動運転本命株のリアル／Autowareの収益化構造・黒字化ライン・3つの監視KPIを徹底分析【日本株】 Katy Perry (wexoFFylZy)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HRHBfTmplRDVaLURIU2pzY1BlV2U3VUQ0NHFoV1hEZnFnal82VTVzN3JSeTItUGpfRUZLa2NzUDFBMFBIUW1ZMURxWVp4Y2gwYUxkZS1IdWpQX2R5MlBYLVhHMnh0Q2ZyMjdJ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HRHBfTmplRDVaLURIU2pzY1BlV2U3VUQ0NHFoV1hEZnFnal82VTVzN3JSeTItUGpfRUZLa2NzUDFBMFBIUW1ZMURxWVp4Y2gwYUxkZS1IdWpQX2R5MlBYLVhHMnh0Q2ZyMjdJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【ティアフォー/593A】【IPO分析・決算】半値上場で大口売り！決算未達の地獄 The Sun Uk (QI7i35dEfe)",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BQlhPbUVnYUNhRjNTUzBXOHpXLUZOc3BMaGMzdUV6cWdBTG83eEZTRHA3R2Exc2xtUlIxdWx5M3I3bElDdDdFRHY5SVR3SFB1WVV1SFRCZWYtb3U1THJ5dDFjMk9VQQ?oc=5",
+   "date": "2026-10-16 16:43",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV IPO 분석: 반값 상장, 실적 미달의 악재",
+    "korean_summary": "TIER IV의 IPO 이후 공모가 대비 저평가 현황과 실적 부진을 비판적으로 분석하는 후속 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【ティアフォー/593A】【IPO分析・決算】半値上場で大口売り！決算未達の地獄 The Sun Uk (QI7i35dEfe)",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BQlhPbUVnYUNhRjNTUzBXOHpXLUZOc3BMaGMzdUV6cWdBTG83eEZTRHA3R2Exc2xtUlIxdWx5M3I3bElDdDdFRHY5SVR3SFB1WVV1SFRCZWYtb3U1THJ5dDFjMk9VQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BQlhPbUVnYUNhRjNTUzBXOHpXLUZOc3BMaGMzdUV6cWdBTG83eEZTRHA3R2Exc2xtUlIxdWx5M3I3bElDdDdFRHY5SVR3SFB1WVV1SFRCZWYtb3U1THJ5dDFjMk9VQQ",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【IPO分析】ティアフォー（593A） Pascal Struijk (uzAnnOR879)",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPUER2TU5vQmtpakFSTDhFMXZORHdCMjk4UnVqRHZzWER0ZldFbTVXRHpsaGdqMWNnXzZSYWhkeUI5cU4xTnFzdkVOTnRZQ2U5SHdvWEtMTzNkcV9nekVYV0tBNTFJY1lfWWpF?oc=5",
+   "date": "2026-10-16 11:39",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV IPO 분석",
+    "korean_summary": "TIER IV의 기업공개 공모가, 상장가, 주가 추이 등을 분석하는 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "【IPO分析】ティアフォー（593A） Pascal Struijk (uzAnnOR879)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPUER2TU5vQmtpakFSTDhFMXZORHdCMjk4UnVqRHZzWER0ZldFbTVXRHpsaGdqMWNnXzZSYWhkeUI5cU4xTnFzdkVOTnRZQ2U5SHdvWEtMTzNkcV9nekVYV0tBNTFJY1lfWWpF?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPUER2TU5vQmtpakFSTDhFMXZORHdCMjk4UnVqRHZzWER0ZldFbTVXRHpsaGdqMWNnXzZSYWhkeUI5cU4xTnFzdkVOTnRZQ2U5SHdvWEtMTzNkcV9nekVYV0tBNTFJY1lfWWpF",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日刊自動車新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "自動運転への通信インフラ ティアフォーの加藤社長「日本の競争力強化に必要」",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85aTVsdkwtcVRSc0l1dGZNVlVsVzlKN1FxSTdRcVRkaDdZOVA2WmNSUjdzTkp4VWJGVzRyZTNhcWo5aEF5WlVabW5kaEJqdDFuX2c?oc=5",
+   "date": "2026-10-16 05:00",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 사장, 자동운전 통신 인프라 중요성 강조",
+    "korean_summary": "TIER IV 가토 사장이 자동운전을 위한 통신 인프라가 일본의 경쟁력 강화에 필수적이라고 언급했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85aTVsdkwtcVRSc0l1dGZNVlVsVzlKN1FxSTdRcVRkaDdZOVA2WmNSUjdzTkp4VWJGVzRyZTNhcWo5aEF5WlVabW5kaEJqdDFuX2c",
+   "body": ""
+  },
+  {
+   "source": "Google News · 교수신문",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "한국공학대 권우진, 글로벌 오픈소스 ‘Autoware Universe’ 공식 Maintainer 선임",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42ejdHWmFnLWstWVd1U0JrS09wRFljR2ZYZkxSM1NzZVV1QXRMNHloZzY2TXJGRk5pS0QyYWh1VTZtYUhSYU13RjktZk5BNE5rai1pZDJndHZCaklGRVVCYXpTTGlTOFE?oc=5",
+   "date": "2026-10-16 14:43",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "한국공학대 권우진, Autoware Universe 공식 Maintainer 선임",
+    "korean_summary": "한국공학대 권우진이 글로벌 오픈소스 Autoware Universe의 공식 유지관리자로 선임되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42ejdHWmFnLWstWVd1U0JrS09wRFljR2ZYZkxSM1NzZVV1QXRMNHloZzY2TXJGRk5pS0QyYWh1VTZtYUhSYU13RjktZk5BNE5rai1pZDJndHZCaklGRVVCYXpTTGlTOFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · 自動運転ラボ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー「もう株価2倍」！自動運転ブームで高騰",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xd19fSml0eEQyWWI5OE1uRzE0NjQ4dHc4WUVDT3RIU0oxLTZ4dUxFSzlqT1FrbmtPRFJJdGhMdGt1RmdhcHJ2VA?oc=5",
+   "date": "2026-10-17 06:40",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "ipo"
+    ],
+    "korean_title": "TIER IV 주가 2배 상승...자동운전 열풍으로 급등",
+    "korean_summary": "TIER IV의 주가가 자동운전 산업 활황에 힘입어 급등하고 있다는 시장 반응 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 自動運転ラボ",
+     "title": "ティアフォー「もう株価2倍」！自動運転ブームで高騰",
+     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xd19fSml0eEQyWWI5OE1uRzE0NjQ4dHc4WUVDT3RIU0oxLTZ4dUxFSzlqT1FrbmtPRFJJdGhMdGt1RmdhcHJ2VA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xd19fSml0eEQyWWI5OE1uRzE0NjQ4dHc4WUVDT3RIU0oxLTZ4dUxFSzlqT1FrbmtPRFJJdGhMdGt1RmdhcHJ2VA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、この株価上昇に乗っても大丈夫なのか？｜自動運転銘柄の将来性は？｜財務懸念や増資リスクを分析【株】【決算】 War Vs Yor (XcrPIzeQyv)",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WVhJbG9FZkV5YXQ2MEFINko4OWJJQlhfR2N1SklXWnFwXzZpT3lSeEg2emhZRGZERTVzN3Y2NDJibUp2bGZXejc0Q3JRTUVTeVZ3MFBLQzRjYXQwS0pZVWczbDNWbG85RDZz?oc=5",
+   "date": "2026-10-16 14:03",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 주가 급등 우려...재무 건전성과 증자 리스크 분석",
+    "korean_summary": "TIER IV의 주가 상승 지속 가능성과 재무 건강도, 자본 증가 계획 관련 리스크를 분석하는 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "ティアフォー、この株価上昇に乗っても大丈夫なのか？｜自動運転銘柄の将来性は？｜財務懸念や増資リスクを分析【株】【決算】 War Vs Yor (XcrPIzeQyv)",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WVhJbG9FZkV5YXQ2MEFINko4OWJJQlhfR2N1SklXWnFwXzZpT3lSeEg2emhZRGZERTVzN3Y2NDJibUp2bGZXejc0Q3JRTUVTeVZ3MFBLQzRjYXQwS0pZVWczbDNWbG85RDZz?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83WVhJbG9FZkV5YXQ2MEFINko4OWJJQlhfR2N1SklXWnFwXzZpT3lSeEg2emhZRGZERTVzN3Y2NDJibUp2bGZXejc0Q3JRTUVTeVZ3MFBLQzRjYXQwS0pZVWczbDNWbG85RDZz",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unisba Media",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、自動運転が総崩れの中で1社だけ+5.8%｜ダイナミックマップ-12.7%、マクアケは引け後に上方修正【明日の仕込み 9/1(火)】 Pga Leaderboard Today (IyRA2eYRgk)",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ySU0zX0t5eXFpa3NZT0ZDMEh1ZmVKMXZFTXppVTdYaUZhbV9laEZlNHJzd19EWEh6VmVOOW5UOWVuR3ktdnBFSGhHUTN2WlpZVTZrZVlyLTlMaUtRRXExUk1sQlBNdw?oc=5",
+   "date": "2026-10-16 15:03",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV +5.8% vs 자동운전 산업 약세...DynamicMap -12.7%",
+    "korean_summary": "TIER IV가 다른 자동운전 관련주들의 약세 속에서 상승세를 보인 주식시장 현황 기사."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unisba Media",
+     "title": "ティアフォー、自動運転が総崩れの中で1社だけ+5.8%｜ダイナミックマップ-12.7%、マクアケは引け後に上方修正【明日の仕込み 9/1(火)】 Pga Leaderboard Today (IyRA2eYRgk)",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ySU0zX0t5eXFpa3NZT0ZDMEh1ZmVKMXZFTXppVTdYaUZhbV9laEZlNHJzd19EWEh6VmVOOW5UOWVuR3ktdnBFSGhHUTN2WlpZVTZrZVlyLTlMaUtRRXExUk1sQlBNdw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ySU0zX0t5eXFpa3NZT0ZDMEh1ZmVKMXZFTXppVTdYaUZhbV9laEZlNHJzd19EWEh6VmVOOW5UOWVuR3ktdnBFSGhHUTN2WlpZVTZrZVlyLTlMaUtRRXExUk1sQlBNdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · 머니투데이",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "한국공학대 학부생이 글로벌 자율주행 주도…오토웨어 메인테이너 선임 - 머니투데이",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZTmpZblY4X0pHdnJtT1VNM2VHeWpVWHFDc01QYTF5bE55Wm9nS0VidHlfa2RjdEhpYUF0bVBDeXZNZ3FwdjAtcnZSM1FFVUpjNUdTTHVSOHBvdW1YR0hzcUZhUUtla2YxWnExdTlrZ9IBb0FVX3lxTE5ZTmpZblY4X0pHdnJtT1VNM2VHeWpVWHFDc01QYTF5bE55Wm9nS0VidHlfa2RjdEhpYUF0bVBDeXZNZ3FwdjAtcnZSM1FFVUpjNUdTTHVSOHBvdW1YR0hzcUZhUUtla2YxWnExdTlrZw?oc=5",
+   "date": "2026-10-16 10:53",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "",
+    "korean_summary": "한국공학대 학부생이 글로벌 Autoware 메인테이너로 선임된 내용의 재보도."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZTmpZblY4X0pHdnJtT1VNM2VHeWpVWHFDc01QYTF5bE55Wm9nS0VidHlfa2RjdEhpYUF0bVBDeXZNZ3FwdjAtcnZSM1FFVUpjNUdTTHVSOHBvdW1YR0hzcUZhUUtla2YxWnExdTlrZ9IBb0FVX3lxTE5ZTmpZblY4X0pHdnJtT1VNM2VHeWpVWHFDc01QYTF5bE55Wm9nS0VidHlfa2RjdEhpYUF0bVBDeXZNZ3FwdjAtcnZSM1FFVUpjNUdTTHVSOHBvdW1YR0hzcUZhUUtla2YxWnExdTlrZw",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 121,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 5,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 3,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 16,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 29,
+   "in_window": 23,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 13.1
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 49,
+   "enriched": 11,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 20.7
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 3.6
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
