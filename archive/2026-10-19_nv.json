@@ -1,0 +1,2244 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-19",
+ "window": [
+  "2026-10-18",
+  "2026-10-19"
+ ],
+ "generated": "2026-10-19T08:15:02+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Mercedes-Benz가 NVIDIA와 협력을 확대해 **Level 4 자율주행 OS**와 로보-리무진 서비스를 공동 개발한다.",
+  "NVIDIA가 2028 회계연도 **70% 매출 성장**을 전망하며 공급 제약 이슈를 공식 언급했다.",
+  "NVIDIA가 GB300 GPU로 학습한 **Cosmos3-Nano** 로봇 액션 정책 체크포인트를 Hugging Face에 공개했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes Expands Nvidia Partnership on Autonomous Driving, Building Next-Gen OS With Level 4 and Robo-Limousines in Sight",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTWFNJNUpkMUhuY05Ra1JGTEM4NEd1YXZDc3ZPRlN2eHQ4ZmJVRmpILS16dVpDYzg1ZTlmYXhuOURmeXpDdkhFV1dNeElLSWRwa1Z1M0VmWGVHaWlIM0drS3pHWFRna09QNzZ3TGFfYWtXamZMc0E?oc=5",
+   "date": "2026-10-19 07:25",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz, NVIDIA 자율주행 파트너십 확대, Level 4 OS 및 로보-리무진 추진",
+    "korean_summary": "Mercedes-Benz가 NVIDIA와의 협력을 확대해 Level 4 자율주행 OS를 개발하고 로봇 택시 서비스를 시작할 예정이다"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · BigGo Finance",
+     "title": "Mercedes Expands Nvidia Partnership on Autonomous Driving, Building Next-Gen OS With Level 4 and Robo-Limousines in Sight",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTWFNJNUpkMUhuY05Ra1JGTEM4NEd1YXZDc3ZPRlN2eHQ4ZmJVRmpILS16dVpDYzg1ZTlmYXhuOURmeXpDdkhFV1dNeElLSWRwa1Z1M0VmWGVHaWlIM0drS3pHWFRna09QNzZ3TGFfYWtXamZMc0E?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBTWFNJNUpkMUhuY05Ra1JGTEM4NEd1YXZDc3ZPRlN2eHQ4ZmJVRmpILS16dVpDYzg1ZTlmYXhuOURmeXpDdkhFV1dNeElLSWRwa1Z1M0VmWGVHaWlIM0drS3pHWFRna09QNzZ3TGFfYWtXamZMc0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · TOKENPOST",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Forecasts 70% Fiscal 2028 Revenue Growth, Calls Outlook Supply-Constrained",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSbUd0cHdMM1lJREVYbm1waTdSRzdNVnFtNnlkSVFBYkt1eUF4aEZSbXY1dDg5V05tSEMzZWtVbXFRM1BpY2ZlQlFpNnZlQk5oVmNhNW9YaDE?oc=5",
+   "date": "2026-10-18 23:43",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA, 2028 회계연도 70% 매출 성장 전망 및 공급 제약 언급",
+    "korean_summary": "NVIDIA가 2028 회계연도에 70% 매출 성장을 예상하며 공급 제약이 존재한다고 공식 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSbUd0cHdMM1lJREVYbm1waTdSRzdNVnFtNnlkSVFBYkt1eUF4aEZSbXY1dDg5V05tSEMzZWtVbXFRM1BpY2ZlQlFpNnZlQk5oVmNhNW9YaDE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Autoblog",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Taps NVIDIA for Cars That Could Let Drivers Take Their Eyes Off the Road",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0NTenN0aEZuX19LRDV0RklTZU5TT0JuaTBDbEN6SVotVDFfVWl3WjJEanp4aUNqUlZEenpheEJuNzVDQTB4eUVRRjhsbWJJNWdUMkNURDZYQVVIcUFHTXR6a2JIaXowcHJ4SDI1VkQ2SDZ5MmNUMWY4a1lyUTBuMmZFeWV5SVlDa2l6V3pHd3lFcUhLWUVrNmlHcjVZTjN5dDFsbUJhbkNCNmhu?oc=5",
+   "date": "2026-10-19 06:01",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "볼보, NVIDIA와 협력해 완전자율주행 자동차 개발",
+    "korean_summary": "볼보가 NVIDIA와 손을 잡고 운전자가 시선을 도로에서 돌려도 운행 가능한 자동차 개발을 추진한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb0NTenN0aEZuX19LRDV0RklTZU5TT0JuaTBDbEN6SVotVDFfVWl3WjJEanp4aUNqUlZEenpheEJuNzVDQTB4eUVRRjhsbWJJNWdUMkNURDZYQVVIcUFHTXR6a2JIaXowcHJ4SDI1VkQ2SDZ5MmNUMWY4a1lyUTBuMmZFeWV5SVlDa2l6V3pHd3lFcUhLWUVrNmlHcjVZTjN5dDFsbUJhbkNCNmhu",
+   "body": ""
+  },
+  {
+   "source": "Google News · Qazinform",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz to develop self-driving cars with NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT0p0Rmw4TEExUlhrbktyWThzM1FrdU5SR3VvbnJraS1rNjM0QlZ5SGItTFV2RXdWSmliTUZUbWNxLU1fSmJnMFltcUNkSmZqTmtGa2pmRTBWRFFEZ1hPRE0wQldaYnNidzlkVGZiTFRWMGx3WWUzWkxZT1l0alIySHU1QnlsM3dxLVlIZHk0NkpHQdIBkgFBVV95cUxPcGk4T1lpVHpIZGdtWlBTY2JRYmpnVkM3RXdjUEY2UzVfTU1fa05BekpObzdaQ3RBWnZFd2U2bmRLUXJzSFpzanJxWXB0OGM0YkpNencwQkwwYUQ4LUVTTU9QREZiMUtzYThrUmNwMFh3Wk0tR25oZ2VrMkNBSHB1akJNbG5yYi04SVBQbHFMdkFiQQ?oc=5",
+   "date": "2026-10-18 23:21",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz, NVIDIA와 자율주행 자동차 공동 개발",
+    "korean_summary": "Mercedes-Benz가 NVIDIA와 자율주행 자동차 개발을 진행하기로 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Qazinform",
+     "title": "Mercedes-Benz to develop self-driving cars with NVIDIA",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT0p0Rmw4TEExUlhrbktyWThzM1FrdU5SR3VvbnJraS1rNjM0QlZ5SGItTFV2RXdWSmliTUZUbWNxLU1fSmJnMFltcUNkSmZqTmtGa2pmRTBWRFFEZ1hPRE0wQldaYnNidzlkVGZiTFRWMGx3WWUzWkxZT1l0alIySHU1QnlsM3dxLVlIZHk0NkpHQdIBkgFBVV95cUxPcGk4T1lpVHpIZGdtWlBTY2JRYmpnVkM3RXdjUEY2UzVfTU1fa05BekpObzdaQ3RBWnZFd2U2bmRLUXJzSFpzanJxWXB0OGM0YkpNencwQkwwYUQ4LUVTTU9QREZiMUtzYThrUmNwMFh3Wk0tR25oZ2VrMkNBSHB1akJNbG5yYi04SVBQbHFMdkFiQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT0p0Rmw4TEExUlhrbktyWThzM1FrdU5SR3VvbnJraS1rNjM0QlZ5SGItTFV2RXdWSmliTUZUbWNxLU1fSmJnMFltcUNkSmZqTmtGa2pmRTBWRFFEZ1hPRE0wQldaYnNidzlkVGZiTFRWMGx3WWUzWkxZT1l0alIySHU1QnlsM3dxLVlIZHk0NkpHQdIBkgFBVV95cUxPcGk4T1lpVHpIZGdtWlBTY2JRYmpnVkM3RXdjUEY2UzVfTU1fa05BekpObzdaQ3RBWnZFd2U2bmRLUXJzSFpzanJxWXB0OGM0YkpNencwQkwwYUQ4LUVTTU9QREZiMUtzYThrUmNwMFh3Wk0tR25oZ2VrMkNBSHB1akJNbG5yYi04SVBQbHFMdkFiQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Electric Cars Report",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz and NVIDIA Expand Partnership to Advance Autonomous Driving",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXdGdGtEa0tZODd4UDBjRFZlZmM0eUZIdlFGSTQzRWxzcU1Tdm9fdGFDeGNOZU5OeF83QzFuTVJjSkVKYTJIdksybTA5ako0Umo4YUVEQmFZWWw3b0NLUmJmWXlGc25PSjMxYjdaOEVLdzhjQzlXNTRiXzc1VmdhTEZfa3YzVVJyMmhlUjdkNHdvTzB1SHc?oc=5",
+   "date": "2026-10-18 15:51",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz와 NVIDIA, 자율주행 파트너십 확대",
+    "korean_summary": "Mercedes-Benz와 NVIDIA가 자율주행 기술 발전을 위한 협력을 확대했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · THE ELEC, Korea Electronics Industry Media",
+     "title": "Nvidia, Mercedes-Benz Expand AI Autonomous Driving Partnership",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BRTQ2SDZDVE9hRTN1Xzd1N3QyTFRLYzByTktVZXl4dm92bjNWb0V0SXBXLTB5RENYOEhaWnVCVVhGTmV1LXIzQldyanhZV0lYdDlYd05LTmFTczZDZVlsX1ZLNHoxWk0?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWXdGdGtEa0tZODd4UDBjRFZlZmM0eUZIdlFGSTQzRWxzcU1Tdm9fdGFDeGNOZU5OeF83QzFuTVJjSkVKYTJIdksybTA5ako0Umo4YUVEQmFZWWw3b0NLUmJmWXlGc25PSjMxYjdaOEVLdzhjQzlXNTRiXzc1VmdhTEZfa3YzVVJyMmhlUjdkNHdvTzB1SHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · VOI.ID",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Volvo Partners with NVIDIA to Develop Driverless Driving Technology",
+   "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBSUWpFSTZLYUloM2swUzdDbm5Ic0YxNE9vaGNoTFczREJUNmpJNHh6Z3NLUDh1bV8xa0dvQmdMd1BKQdIBQkFVX3lxTFBSUWpFSTZLYUloM2swUzdDbm5Ic0YxNE9vaGNoTFczREJUNmpJNHh6Z3NLUDh1bV8xa0dvQmdMd1BKQQ?oc=5",
+   "date": "2026-10-18 16:32",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Volvo, NVIDIA와 무인 자율주행 기술 개발 협력",
+    "korean_summary": "Volvo가 NVIDIA와 협력해 무인 자율주행 기술을 개발하기로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBSUWpFSTZLYUloM2swUzdDbm5Ic0YxNE9vaGNoTFczREJUNmpJNHh6Z3NLUDh1bV8xa0dvQmdMd1BKQdIBQkFVX3lxTFBSUWpFSTZLYUloM2swUzdDbm5Ic0YxNE9vaGNoTFczREJUNmpJNHh6Z3NLUDh1bV8xa0dvQmdMd1BKQQ",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-D5 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D5",
+   "date": "2026-10-19 05:16",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-D5",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 파인튜닝 정책 모델 (Cell D5) 공개",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano로 로봇 조작 작업을 학습한 LIBERO-10 정책 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos3-Nano 기반 LIBERO-10 로봇 정책 체크포인트 공개",
+    "korean_summary": "NVIDIA가 합성 데이터 리스타일링 효과를 측정하는 Cosmos Cookbook 연구의 일환으로 Cosmos3-Nano를 LIBERO-10 과제에 post-training한 정책 체크포인트(D5 셀)를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 베이스 모델을 LIBERO-10 로봇 조작 벤치마크에 post-training하여 체크포인트(bf16 safetensors, EMA 가중치)를 Hugging Face에 업로드",
+     "stage": "Available",
+     "timeline": "미확인 (모델 업데이트 시점 기준)",
+     "scope": "LIBERO-10 10개 태스크, cosmos-framework 정책 서버 로드용 export"
+    },
+    "key_facts": [
+     "학습 데이터: 실제 LIBERO-10 데모 379개 + 중복본 1895개, 반복 0→2000, 글로벌 배치 2048",
+     "**표준 씬 성공률 93.4±1.2%**, 교란 씬(조명·텍스처·스카이박스·카메라 지터 랜덤화) 성공률 82.9±1.9%",
+     "베이스 모델은 nvidia/Cosmos3-Nano (revision e59a53c2), cosmos-framework v1.2.2 사용",
+     "체크포인트는 bf16 safetensors, EMA 가중치, 7개 샤드, 약 30GB 용량",
+     "다운로드 18회, 좋아요 0회로 **아직 초기 단계의 연구용 공개 자료**"
+    ],
+    "why_matters": "이 공개는 NVIDIA가 합성 데이터 리스타일링(Cosmos3-Nano-Sim-Transfer)이 실제 로봇 정책 성능에 미치는 영향을 통제된 실험으로 정량화하려는 시도를 보여준다. **합성 데이터 기반 sim-to-real 전이**의 재현 가능한 벤치마크를 제공함으로써 로봇 파운데이션 모델 생태계의 투명성과 검증 가능성을 높이는 의미가 있다.",
+    "subject_angle": "NVIDIA는 Cosmos 플랫폼을 단순 월드모델 제공을 넘어 **VLA(Vision-Language-Action) 정책 학습과 합성 데이터 생성의 end-to-end 레시피**로 확장하며, Omniverse·Isaac 생태계와 연계된 로봇 AI 인프라 포지션을 강화하고 있다.",
+    "focus_angle": "자동차·로봇 OEM 입장에서는 실데이터 379개에 합성 중복 데이터를 더해 93% 이상의 조작 성공률을 달성한 사례가 **데이터 수집 비용을 낮추는 실전 가이드**로 활용될 수 있으며, 교란 환경에서도 82.9%의 견고성을 보인 점은 휴머노이드·매니퓰레이션 로봇의 실환경 배치 신뢰성 검증에 참고 자료가 된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Nano 베이스 모델 및 cosmos-framework 개발, 체크포인트 공개 주체"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano",
+      "role": "로봇 정책 post-training의 베이스 파운데이션 모델"
+     },
+     {
+      "name": "cosmos-framework",
+      "role": "정책 학습 및 서빙을 위한 프레임워크(v1.2.2)"
+     },
+     {
+      "name": "LIBERO-10 / LIBERO_LeRobot_v3",
+      "role": "로봇 조작 벤치마크 및 학습 데이터셋"
+     },
+     {
+      "name": "Cosmos Cookbook",
+      "context": "합성 데이터 리스타일링 효과를 측정하는 레시피/연구 문서",
+      "role": "실험 설계 및 방법론 제공"
+     }
+    ],
+    "watch_next": [
+     "Cosmos Cookbook 레시피의 다른 셀(통제군 대비 리스타일링 효과) 결과 공개 여부",
+     "cosmos-framework 및 Cosmos3-Nano의 실제 로봇 하드웨어 적용 사례",
+     "NVIDIA Open Model License 하에서의 상업적 활용 범위 및 커뮤니티 반응(다운로드·파생 모델) 추이"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-D5:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 18 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell D5 A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1895 duplicates | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.4 +/- 1.2 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 82.9 +/- 1.9 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-D (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D",
+   "date": "2026-10-19 05:15",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-D",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 파인튜닝 정책 모델 (Cell D) 공개",
+    "korean_summary": "NVIDIA가 합성 데이터 재구성 기법으로 파인튜닝한 로봇 행동 정책 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos3-Nano 기반 LIBERO-10 로봇 정책 모델 업데이트 공개",
+    "korean_summary": "NVIDIA가 합성 데이터(SDG) 효과를 검증하는 Cosmos Cookbook 실험의 일환으로 Cosmos3-Nano를 LIBERO-10 데이터셋에 후속학습(post-train)한 로봇 조작 정책 모델을 Hugging Face에 업데이트했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 기반 LIBERO-10 액션 정책 모델(cell D)을 post-training 후 체크포인트로 export하여 Hugging Face에 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "LIBERO-10 로봇 조작 벤치마크, cosmos-framework 정책 서버에서 로드 가능"
+    },
+    "key_facts": [
+     "**실제 LIBERO-10 시연 379개 + 중복 1137개**로 학습, 반복횟수 0→2000 (global batch 2048, seed 42)",
+     "표준 씬 성공률 **94.2±2.4%**, 조명·텍스처·카메라 지터 등 교란 씬 성공률 85.3±2.7%",
+     "base model은 nvidia/Cosmos3-Nano (revision e59a53c2), cosmos-framework v1.2.2 사용",
+     "bf16 safetensors, EMA weights, 7 shards, 약 30GB 체크포인트로 export",
+     "다운로드 17회, likes 0 — Cosmos Cookbook의 'Restyle LIBERO-10 Demonstrations' 레시피 중 한 개 cell(대조군 비교용)"
+    ],
+    "why_matters": "이는 NVIDIA가 **합성 데이터 생성(SDG)이 로봇 조작 정책 학습 성능에 실제로 기여하는지**를 통제된 실험(대조군 vs 리스타일 데이터)으로 정량 검증하는 연구 인프라를 구축하고 있음을 보여준다. 로봇 파운데이션 모델 학습에서 실데이터 부족 문제를 Cosmos 월드모델 기반 합성데이터로 보완하려는 전략의 재현 가능한 근거 자료를 커뮤니티에 공개한 사례다.",
+    "subject_angle": "NVIDIA는 Cosmos3-Nano를 **범용 로봇 파운데이션 모델이자 합성데이터 생성 엔진**으로 포지셔닝하며, cosmos-framework라는 자체 정책 서빙 생태계로 로봇 소프트웨어 스택 전반을 묶어내고 있다.",
+    "focus_angle": "휴머노이드·로봇 암 OEM과 자율주행 업체 입장에서는 **Cosmos3-Nano의 합성데이터 리스타일링이 실측 데이터 수집 비용을 줄이면서 조작 정책 성능을 유지(85%대 교란 내성)**할 수 있음을 시사해, 실데이터 확보가 어려운 로봇 조작·매니퓰레이션 학습 파이프라인에 NVIDIA 플랫폼 종속도를 높일 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발 및 공개 주체, Cosmos3-Nano·cosmos-framework 제공"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano",
+      "role": "로봇 액션 정책 학습의 base model"
+     },
+     {
+      "name": "cosmos-framework",
+      "role": "정책 서버 및 학습 프레임워크 (v1.2.2)"
+     },
+     {
+      "name": "LIBERO-10 / LIBERO_LeRobot_v3",
+      "role": "로봇 조작 벤치마크 및 학습 데이터셋"
+     },
+     {
+      "name": "Cosmos Cookbook",
+      "context": "합성데이터 효과 검증 레시피 모음",
+      "role": "실험 설계 및 재현 가이드"
+     }
+    ],
+    "watch_next": [
+     "Cosmos Cookbook의 다른 cell(대조군)과의 성능 비교 결과 공개 여부",
+     "Cosmos3-Nano 기반 정책이 실제 로봇 하드웨어(휴머노이드·로봇암)에 배포된 사례 확인",
+     "NVIDIA Open Model License 하에서 OEM·로보틱스 스타트업의 상업적 활용 동향"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-D:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 17 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell D A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 duplicates | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 94.2 +/- 2.4 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 85.3 +/- 2.7 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-R (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-R",
+   "date": "2026-10-19 05:15",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-R",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 파인튜닝 정책 모델 (Cell R) 공개",
+    "korean_summary": "NVIDIA가 Cosmos Cookbook 레시피로 합성 데이터 변환을 거쳐 파인튜닝한 로봇 정책 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos3-Nano 기반 LIBERO-10 로봇 정책 모델 'cell R' 공개",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano를 LIBERO-10 데이터로 post-training한 로봇 행동 정책 체크포인트를 Hugging Face에 공개해, 합성 데이터 리스타일링이 정책 성능에 미치는 효과를 통제된 실험으로 측정했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 기반 로봇 행동 정책 모델(cosmos3-nano-libero10-sdg-export-R) 체크포인트를 Hugging Face에 export",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "LIBERO-10 벤치마크, cosmos-framework 정책 서버 사용자"
+    },
+    "key_facts": [
+     "base model은 `nvidia/Cosmos3-Nano` (revision e59a53c2)이며 `cosmos-framework` v1.2.2로 학습",
+     "**학습 데이터는 실제 LIBERO-10 데모 379개**, iteration 0->2000, global batch 2048",
+     "표준 씬 성공률 93.9±1.0%, 조명·텍스처·카메라 지터를 가한 **perturbed 씬 성공률 85.1±0.6%**",
+     "체크포인트는 bf16 safetensors, EMA weights, 7 shards, 약 30GB 용량",
+     "Cosmos Cookbook 레시피 'Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer'의 한 셀(cell R)로, 통제 비교군(control) 대비 2.5점 이내 차이는 시드 편차 범위 내"
+    ],
+    "why_matters": "이는 **합성 데이터(SDG) 리스타일링이 실제 로봇 정책 성능 향상에 기여하는지**를 정량 검증하는 재현 가능한 실험 자산으로, NVIDIA가 로봇 파운데이션 모델의 데이터 효율성 주장을 벤치마크 수준에서 입증하려는 시도다. 경쟁사(Physical Intelligence, Google DeepMind 등)의 VLA 정책 대비 NVIDIA Cosmos 생태계의 실증 데이터를 축적하는 효과가 있다.",
+    "subject_angle": "NVIDIA는 **Cosmos3-Nano를 로봇 VLA(Vision-Language-Action) 정책의 기반 모델로 자리매김**시키며, Cosmos Cookbook을 통해 합성 데이터 생성-훈련-평가 전 과정을 패키지화해 로봇 개발사들의 Lock-in을 유도하는 전략을 보여준다.",
+    "focus_angle": "**휴머노이드·매니퓰레이션 로봇 개발사에게는 실제 데모 379개만으로 85% 이상의 perturbed 씬 성공률을 달성한 사례**로, 데이터 수집 비용을 줄이면서 Sim-to-Real 일반화를 개선하려는 OEM·로보틱스 스타트업에 실질적 참고 모델이 될 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Nano 및 cosmos-framework 개발사, 모델 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano",
+      "role": "로봇 행동 정책의 기반(base) 모델"
+     },
+     {
+      "name": "cosmos-framework",
+      "role": "정책 체크포인트 로딩 및 서빙 프레임워크"
+     },
+     {
+      "name": "LIBERO-10 / LIBERO_LeRobot_v3",
+      "role": "학습·평가에 사용된 로봇 매니퓰레이션 벤치마크 데이터셋"
+     },
+     {
+      "name": "Cosmos Cookbook",
+      "role": "합성 데이터 리스타일링 효과를 측정하는 레시피 모음"
+     }
+    ],
+    "watch_next": [
+     "다른 cell(비-R, control 셋)과의 성능 비교 결과 공개 여부",
+     "Cosmos3-Nano 기반 정책의 실제 로봇 하드웨어(물리 로봇)로의 transfer 검증 사례",
+     "Cosmos Cookbook 레시피의 다른 태스크·벤치마크 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-R:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 18 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell R A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.9 +/- 1.0 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 85.1 +/- 0.6 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Google News · بوابة التكنولوجيا المالية",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz and NVIDIA Expand Partnership to Develop Next-Generation Automated Driving Systems",
+   "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5jRGUzazlKQUlha3oyWmpPTGxBa0NqT0FWaDNRb0NTVG52bWZSaDViZUFCdmxVSENpZGlVZDZZUDRGeEdH?oc=5",
+   "date": "2026-10-18 20:14",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz, NVIDIA와 차세대 자동 운전 시스템 개발 협력 확대",
+    "korean_summary": "Mercedes-Benz가 NVIDIA와의 협력을 확대해 차세대 자동 운전 시스템을 공동 개발한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · بوابة التكنولوجيا المالية",
+     "title": "Mercedes-Benz and NVIDIA Expand Partnership to Develop Next-Generation Automated Driving Systems",
+     "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5jRGUzazlKQUlha3oyWmpPTGxBa0NqT0FWaDNRb0NTVG52bWZSaDViZUFCdmxVSENpZGlVZDZZUDRGeEdH?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5jRGUzazlKQUlha3oyWmpPTGxBa0NqT0FWaDNRb0NTVG52bWZSaDViZUFCdmxVSENpZGlVZDZZUDRGeEdH",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Official DLSS 5 running on unsupported games delivers up to 90% better performance than the leaked version — Nvidia says the new NR model uses 20% less VRAM and processes neural workloads up to 2x faster",
+   "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOVTZOc1FvOFNWbzJCaUVaRC1XSjQyVVlmN2xiTmhmbGNfRFRsRDh3NnRzVXByX2M3OGJlVHJTMTlGSWloRU1HQkV6LW0xb0ZQOXRkMll2RHZENDVMYUYxY3VRWG5neDRHOGx5UTlaVFdkYll3UEVTMnpQRmYwbVgwTm9xTWJjTTczZ0VDQVZhdVc2YU1SOTJzV0J0X3NyZV94Y21zSkRucVpKcERlaXNjODZNUENnaXpUM2N0V2poNzBxd1JKaHhNWkF3c3lVSE9zUm8zZ0dCTnRXc1ozd04zRGpPSFJhemh4RjhQN1ZJekJyVEZoMzNDLWZ2b0hMUV9JSFpWWHkzQjBLbk9WNnpXdFhCaFcxY2NiX3hYR3dQT094VFNQV2hGMUtwbmpQTk5ua20yYTlRZVRKQkFwQXMybEUtOWlha1lqd3lRdUZIRThVRWxudmFwdl9pR0VkNlVSMC1Xbngyd01YaFd3allYaU9pUldXYkV1YU11VW85YnJnQlpSR1d3SzQ3RVdSa0Q0c3U4?oc=5",
+   "date": "2026-10-18 21:45",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "공식 DLSS 5, 비공식 버전 대비 90% 성능 개선·메모리 20% 감소",
+    "korean_summary": "NVIDIA DLSS 5 정식 버전이 메모리 효율과 신경망 처리 속도를 대폭 개선했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOVTZOc1FvOFNWbzJCaUVaRC1XSjQyVVlmN2xiTmhmbGNfRFRsRDh3NnRzVXByX2M3OGJlVHJTMTlGSWloRU1HQkV6LW0xb0ZQOXRkMll2RHZENDVMYUYxY3VRWG5neDRHOGx5UTlaVFdkYll3UEVTMnpQRmYwbVgwTm9xTWJjTTczZ0VDQVZhdVc2YU1SOTJzV0J0X3NyZV94Y21zSkRucVpKcERlaXNjODZNUENnaXpUM2N0V2poNzBxd1JKaHhNWkF3c3lVSE9zUm8zZ0dCTnRXc1ozd04zRGpPSFJhemh4RjhQN1ZJekJyVEZoMzNDLWZ2b0hMUV9JSFpWWHkzQjBLbk9WNnpXdFhCaFcxY2NiX3hYR3dQT094VFNQV2hGMUtwbmpQTk5ua20yYTlRZVRKQkFwQXMybEUtOWlha1lqd3lRdUZIRThVRWxudmFwdl9pR0VkNlVSMC1Xbngyd01YaFd3allYaU9pUldXYkV1YU11VW85YnJnQlpSR1d3SzQ3RVdSa0Q0c3U4",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung Taps TSMC 3nm for Nvidia NVHBM Chips [2026]",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lU3VIa096VDdKaTZIU3VFWEtqa1V1UVpzR1gzWlNYR0g1bElnbGVWN2d6T1JUR1c5aVlUcGNRR3d3UVRYS2thVWRSYTRkTHhUTFFpaXh3alNIU0NoTEJYcHUxN2ZMODd6UDFkNkU2TWROVV9SYUVUMXh6ZC1TUQ?oc=5",
+   "date": "2026-10-19 01:36",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, TSMC 3nm 기술로 NVIDIA NVHBM 칩 생산",
+    "korean_summary": "Samsung이 TSMC의 3nm 기술을 활용하여 NVIDIA NVHBM 메모리 칩을 2026년에 생산할 예정"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lU3VIa096VDdKaTZIU3VFWEtqa1V1UVpzR1gzWlNYR0g1bElnbGVWN2d6T1JUR1c5aVlUcGNRR3d3UVRYS2thVWRSYTRkTHhUTFFpaXh3alNIU0NoTEJYcHUxN2ZMODd6UDFkNkU2TWROVV9SYUVUMXh6ZC1TUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · finchannel",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung to use TSMC technology for Nvidia memory chips, report says",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORUpndWR5TEJGR1FEVGc2ckNybXN2bjU5TTFCRVNFR1hqMDJoTEUwem5LVE5yUU5HYjBfeVFub3FNUTlRTUxXdHEyTEJ0bGFabzBqVDNoOEJJWlVaUkVuQnRuSENwQzNFcVgwVnpsRmJVMjJQSjFXZDlsUXhOaU5SQmdBemFwT0NTWTFDQVlYckdWU0dmTVpXN2dBdnl4eDZUZUV0YXJUcUN1THJ1QUdicDV1bzlyQmdTVmQtZ3pyUEtHM21WME9RM3dR?oc=5",
+   "date": "2026-10-19 01:22",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, TSMC 기술로 NVIDIA 메모리 칩 제조",
+    "korean_summary": "Samsung이 TSMC 기술을 활용하여 NVIDIA 메모리 칩을 제조하는 것으로 보도됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORUpndWR5TEJGR1FEVGc2ckNybXN2bjU5TTFCRVNFR1hqMDJoTEUwem5LVE5yUU5HYjBfeVFub3FNUTlRTUxXdHEyTEJ0bGFabzBqVDNoOEJJWlVaUkVuQnRuSENwQzNFcVgwVnpsRmJVMjJQSjFXZDlsUXhOaU5SQmdBemFwT0NTWTFDQVlYckdWU0dmTVpXN2dBdnl4eDZUZUV0YXJUcUN1THJ1QUdicDV1bzlyQmdTVmQtZ3pyUEtHM21WME9RM3dR",
+   "body": ""
+  },
+  {
+   "source": "Google News · semivision",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Cisco Introduce New Pluggable Optics Form Factor to Scale AI Factories",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXR4LTdLOGVrSGJPVlVZb3FNcVlPNFZqQ0c4UVNvNXlfMmZWVTdWUWRvS1Q4MFl0SkdLaVlmX1hQcTR2aGdiOExmaVFFcG5sb2JnT05pcGZYY09hS0FMby1FeFFaSWNWMHJ6N2piRFR0SkVib3g1YWZPQllxNi1OZHFaQmg4N1ZT?oc=5",
+   "date": "2026-10-18 21:49",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA와 Cisco, AI 팩토리 확장용 새로운 플러거블 광학 폼팩터 출시",
+    "korean_summary": "NVIDIA와 Cisco가 AI 팩토리 인프라 확장을 위한 새로운 플러거블 광학 폼팩터를 공개했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZXR4LTdLOGVrSGJPVlVZb3FNcVlPNFZqQ0c4UVNvNXlfMmZWVTdWUWRvS1Q4MFl0SkdLaVlmX1hQcTR2aGdiOExmaVFFcG5sb2JnT05pcGZYY09hS0FMby1FeFFaSWNWMHJ6N2piRFR0SkVib3g1YWZPQllxNi1OZHFaQmg4N1ZT",
+   "body": ""
+  },
+  {
+   "source": "Google News · Firstpost",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung to use TSMC’s 3nm process for Nvidia’s next-generation HBM chips: Report",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaHVWYXBYbEJyaEFzY0dLMnNMRFpQeWZQbm5pSHZxU3p0UGtnUmJ6R1UxVl93LXBUSXRoZThFRFdLOVpOOXMwTUZxMXBFSDA5M2VaZ09CcFVrQWJNaWUzbnRwMEIwdHNxRHVHbklzRVZGbmMyZjhPVGFNbFdvWHZmVmc0TzZLRFlSTzV0cFBZTkRwU3dUQTRZNG12QXNMUmhTOXA2RV8xWVBwU2pPeVNQV1VyZDFCZ3Y1bTg2NVZsa9IBxAFBVV95cUxOYzY2UUFvcC1Wc1hVVEV1WEkwUjlYYjJSRWtwVWItSklOaDFVT0Q5THRYb0tBbVJqdW81QWtUQzJwSVRaRnVIQ092UzBucjhlTTliNzhPR0lnWThyb19qY2p1WTktY1pSeUVyZWg3UmdOdlhPMi05UHF4SF8xalJUNldUb2lXb1hiTVZxTG8zT1pYZUJ3Y2FyMzAydkFVNDM3UHYxZ0x0bkhGelJad0VxdlVjek53dGwxa29Ga29BNU02MDds?oc=5",
+   "date": "2026-10-19 05:44",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, NVIDIA 차세대 HBM칩을 TSMC 3nm으로 제조",
+    "korean_summary": "Samsung이 NVIDIA의 차세대 HBM 칩을 TSMC의 3nm 공정으로 제조할 것으로 보도됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaHVWYXBYbEJyaEFzY0dLMnNMRFpQeWZQbm5pSHZxU3p0UGtnUmJ6R1UxVl93LXBUSXRoZThFRFdLOVpOOXMwTUZxMXBFSDA5M2VaZ09CcFVrQWJNaWUzbnRwMEIwdHNxRHVHbklzRVZGbmMyZjhPVGFNbFdvWHZmVmc0TzZLRFlSTzV0cFBZTkRwU3dUQTRZNG12QXNMUmhTOXA2RV8xWVBwU2pPeVNQV1VyZDFCZ3Y1bTg2NVZsa9IBxAFBVV95cUxOYzY2UUFvcC1Wc1hVVEV1WEkwUjlYYjJSRWtwVWItSklOaDFVT0Q5THRYb0tBbVJqdW81QWtUQzJwSVRaRnVIQ092UzBucjhlTTliNzhPR0lnWThyb19qY2p1WTktY1pSeUVyZWg3UmdOdlhPMi05UHF4SF8xalJUNldUb2lXb1hiTVZxTG8zT1pYZUJ3Y2FyMzAydkFVNDM3UHYxZ0x0bkhGelJad0VxdlVjek53dGwxa29Ga29BNU02MDds",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Pkrevenue.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes and Nvidia target Level 4 autonomous driving technology",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX25zYVE3UkpJVFBVZFJXU3VjNkw5MERocTBlYm1SbGozMjdmYUJySFVIeDRPZW1tOGlwbWpDWU5TT202V1I4NnJBT245WHMyaGNDOGxhMHlDV0VONGRJUmhyZjAxYU5kUTdjTzBobnl6Vmc1U05tbndGZmxhanVNejVHMjFnaEl5ODRZWS1rZlY?oc=5",
+   "date": "2026-10-18 03:05",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz와 NVIDIA, Level 4 자율주행 기술 개발 목표",
+    "korean_summary": "Mercedes-Benz와 NVIDIA가 레벨 4 자율주행 기술 개발을 목표로 협력한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX25zYVE3UkpJVFBVZFJXU3VjNkw5MERocTBlYm1SbGozMjdmYUJySFVIeDRPZW1tOGlwbWpDWU5TT202V1I4NnJBT245WHMyaGNDOGxhMHlDV0VONGRJUmhyZjAxYU5kUTdjTzBobnl6Vmc1U05tbndGZmxhanVNejVHMjFnaEl5ODRZWS1rZlY",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sft-exports (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sft-exports",
+   "date": "2026-10-19 05:21",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sft-exports",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "model-release"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 로봇 행동 정책 체크포인트 공개",
+    "korean_summary": "NVIDIA Cosmos3-Nano이 LIBERO-10 로봇 태스크에서 95.1% 성공률의 행동 정책 감독 학습 체크포인트를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, GB300 단일 GPU로 학습한 Cosmos3-Nano 로봇 액션 정책 체크포인트 공개",
+    "korean_summary": "NVIDIA가 LIBERO-10 로봇 조작 벤치마크에서 단일 GB300 GPU로 미세조정한 Cosmos3-Nano 액션 정책 모델의 safetensors 체크포인트를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 액션 정책 모델의 LIBERO-10 SFT 체크포인트(iter1000, iter2000)를 HF-safetensors 포맷으로 내보내 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "LIBERO-10 로봇 조작 벤치마크, Cosmos 프레임워크 사용자 대상"
+    },
+    "key_facts": [
+     "15.2B 파라미터 Cosmos3-Nano 베이스 모델을 단일 NVIDIA GB300 GPU(256GB GPU 메모리, Grace aarch64 호스트)에서 미세조정",
+     "**iter2000 체크포인트가 LIBERO-10 표준 성공률 95.1±0.1%(3시드), 변형 시각 조건 88.9±0.3% 달성**",
+     "학습 데이터셋은 nvidia/LIBERO_LeRobot_v3로 379개 인간 시연, 101,469 프레임, 10개 태스크 구성",
+     "글로벌 배치 2048(64 샘플×32 그래디언트 누적)을 유지하며 16-rank HSDP 레시피를 단일 GPU용으로 축소 적용",
+     "각 체크포인트는 EMA 가중치·bf16 포맷, 31.5GB 크기로 Cosmos 프레임워크 LIBERO 정책 서버가 직접 로드 가능"
+    ],
+    "why_matters": "이는 NVIDIA가 Cosmos 세계모델 프레임워크를 단순 비전 생성 모델을 넘어 실제 **로봇 조작 액션 정책(VLA) 학습 파이프라인**으로 확장하고 있음을 보여준다. 또한 GB300 단일 GPU로 150억 파라미터급 모델을 미세조정할 수 있다는 점은 로봇 개발사들의 자체 정책 학습 진입장벽을 낮추는 하드웨어·소프트웨어 통합 전략의 일환이다.",
+    "subject_angle": "NVIDIA는 Cosmos 프레임워크와 LIBERO 데이터셋, GB300 하드웨어를 하나의 레퍼런스 레시피로 묶어 **휴머노이드·로봇 조작 정책 학습의 표준 스택**으로 자리매김하려는 전략을 보이고 있다.",
+    "focus_angle": "LIBERO-10은 로봇팔 조작(그리핑, 배치) 벤치마크로, 이번 공개는 **휴머노이드 및 산업용 로봇 OEM이 Cosmos 기반으로 자체 매니퓰레이션 정책을 파인튜닝할 수 있는 레퍼런스**를 제공하며, 자율주행보다는 피지컬 AI/로보틱스 수직 시장에서 NVIDIA 생태계 종속도를 높이는 의미가 크다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Nano 모델, GB300 하드웨어, cosmos-framework 및 LIBERO_LeRobot_v3 데이터셋 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano",
+      "role": "15.2B 파라미터 베이스 액션 정책 모델"
+     },
+     {
+      "name": "NVIDIA GB300",
+      "role": "256GB GPU 메모리 탑재, 단일 GPU 미세조정에 사용된 하드웨어"
+     },
+     {
+      "name": "cosmos-framework",
+      "role": "학습·내보내기·정책 서빙에 사용된 NVIDIA 오픈 프레임워크"
+     },
+     {
+      "name": "LIBERO_LeRobot_v3",
+      "role": "LIBERO-10 로봇 조작 벤치마크용 학습 데이터셋"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Nano 외 더 큰 Cosmos3 모델 변형의 유사 액션 정책 공개 여부",
+     "실제 로봇 제조사의 Cosmos 프레임워크 채택 및 자체 데이터셋 적용 사례",
+     "다중 GPU/대규모 HSDP 레시피 대비 성능·효율 비교 결과 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sft-exports:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, robotics, libero, action-policy, sft · downloads 0 · likes 0. README:  # Cosmos3-Nano — LIBERO-10 action-policy SFT exports (one-GPU run, Station 2) Exported Cosmos3-Nano action-policy checkpoints from a single-GPU LIBERO-10 supervised fine-tune (run \"run02\", Station 2 = one NVIDIA GB300 with 256 GB of GPU memory, aarch64 Grace host). Two folders, each a complete HF-safetensors export (EMA weights, bf16) that the Cosmos framework's LIBERO policy server loads directly: | folder | source checkpoint | LIBERO-10 success (standard) | perturbed-visual | size | |---|---|---|---|---| | `iter2000/` | run02 `checkpoints/iter_000002000` (end of the 2000-iteration run) | **95.1 ± 0.1 %** (3 seeds) | 88.9 ± 0.3 % (2 seeds, third running) | 31.5 GB (29.3 GiB) | | `iter1000/` | run02 `checkpoints/iter_000001000` | **88.4 %** (1 seed) | 71.3 ± 1.3 % (3 seeds) | 31.5 GB (29.3 GiB) | ## Recipe - Framework: `NVIDIA/cosmos-framework` @ `c23e51f`; launcher `examples/launch_sft_action_policy_libero_10_nano.sh` (experiment `action_policy_libero_10_nano`), base model `nvidia/Cosmos3-Nano` (15.2 B parameters; DCP checkpoint), Wan2.2 VAE. - Dataset: `nvidia/LIBERO_LeRobot_v3`, suite `libero_10` — 379 human demonstrations, 101,469 frames, 20 fps, 10 tasks, agentview + wrist cameras at 256×256, 8-D state (eef xyz, axis-angle, gripper ×2), 7-D actions (frame-wise relative, 6-D rotation → action_dim 10). - One-GPU form of the reference 16-rank HSDP recipe, same global batch 2048 = 64 samples per micro-batch × 32 gradient-accumulation steps, FSDP shard degree 1. Hydra tail o"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Official DLSS 5 running on unsupported games delivers up to 90% better performance than the leaked version",
+   "link": "https://www.tomshardware.com/pc-components/gpus/modders-used-the-official-dlss-5-release-on-unsupported-games-and-are-seeing-up-to-90-percent-better-performance-than-the-leaked-dlss-5-nvidia-says-new-nr-model-uses-20-percent-less-vram-and-processes-neural-workloads-up-to-2x-faster",
+   "date": "2026-10-18 21:45",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "model-release"
+    ],
+    "korean_title": "DLSS 5 신규 Neural Rendering 모델 40~90% 성능 향상",
+    "korean_summary": "NVIDIA가 NBA 2K27 추출 DLSS 5 Neural Rendering 모델 최적화로 기존 모델 대비 최대 90% 성능 개선과 24% 모델 크기 감축을 달성했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA DLSS 5 공식 Neural Rendering 모델, 유출판보다 최대 90% 성능 향상",
+    "korean_summary": "NVIDIA가 NBA 2K27에 탑재한 DLSS 5의 새 Neural Rendering 모델을 모더들이 추출해 비공식 게임에 적용한 결과, 모델 경량화를 통해 이전 유출 버전보다 최대 90% 빠른 성능을 보였다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DLSS 5의 새로운 Neural Rendering(NR) 모델을 NBA 2K27에 공식 배포, 모더들이 이를 추출해 비지원 게임에서 테스트",
+     "stage": "Available",
+     "timeline": "2026-10-16 (관련 비교 영상 게시 기준)",
+     "scope": "NBA 2K27(공식 지원), The Witcher 3 등 비지원 게임(모드 기반), RTX 20/30/40 시리즈 GPU"
+    },
+    "key_facts": [
+     "새 DLSS NR 모델(310.9.16.0)은 이전 모델보다 **AI 모델 크기 24% 축소**, 4K에서 VRAM 사용량 20% 감소",
+     "NVIDIA에 따르면 신경망 렌더링 워크로드 처리 속도가 **최대 2배 빨라짐**",
+     "The Witcher 3에서 DLSS 5 네이티브 적용 시 구버전 대비 최대 90% 성능 향상 확인(Gaming Optimized 테스트)",
+     "새 DLL에는 Preset A(구 모델)와 Preset B(신 모델) 두 가지가 포함되어 비교 테스트가 용이해짐",
+     "모딩 커뮤니티가 RenoDX, OptiScaler를 이용해 DLSS를 그래픽 파이프라인에 주입하고, RTX 20-series까지 지원하도록 런타임을 수정"
+    ],
+    "why_matters": "NVIDIA는 소비자용 GPU의 VRAM 한계 때문에 모델 크기를 키우는 대신 **효율성 개선**으로 성능을 높이는 전략을 택했으며, 이는 AI 업스케일링 경쟁에서 하드웨어 제약을 우회하는 핵심 접근법이다. 모딩 커뮤니티가 공식 지원 범위를 넘어 RTX 20/30-series까지 DLSS 5를 확장시키는 상황은 NVIDIA의 세대별 기능 차별화 전략에 변수를 만들고 있다.",
+    "subject_angle": "NVIDIA는 DLSS 5를 통해 **AI 모델 경량화와 처리 속도 최적화**를 동시에 달성하며 Neural Rendering 기술력을 입증했지만, 공식 RTX 40-series 중심 출시 계획과 달리 커뮤니티가 구형 GPU까지 확장시키는 점은 제품 로드맵 통제력 측면에서 주목할 변수다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DLSS 5 Neural Rendering 모델 개발 및 NBA 2K27에 공식 배포"
+     },
+     {
+      "name": "Visual Concepts/2K",
+      "context": "NBA 2K27 개발사로 DLSS 5 공식 지원 타이틀 제공 (추정, 본문 미명시)"
+     }
+    ],
+    "products": [
+     {
+      "name": "DLSS 5",
+      "role": "새로운 Neural Rendering 모델을 포함한 NVIDIA의 최신 업스케일링 기술"
+     },
+     {
+      "name": "RenoDX / OptiScaler",
+      "role": "모딩 커뮤니티가 DLSS를 비지원 게임 및 구형 GPU에 주입하는 도구"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 DLSS 5 RTX 40-series 공식 출시 일정 및 세부 사양 공개 여부",
+     "RTX 30/20-series에 대한 NVIDIA의 공식 지원 발표 여부",
+     "추가 게임 타이틀에서의 Preset B(신 모델) 성능 비교 데이터 확산"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/modders-used-the-official-dlss-5-release-on-unsupported-games-and-are-seeing-up-to-90-percent-better-performance-than-the-leaked-dlss-5-nvidia-says-new-nr-model-uses-20-percent-less-vram-and-processes-neural-workloads-up-to-2x-faster",
+   "body": "A new version of DLSS 5 on NBA 2K27 was just released, and modders have already extracted it and are running it on unsupported games. Modders are comparing performance between the older and newer Neural Rendering (NR) model and found it up to 40% faster than the previous one. While many are still experimenting with leaked and first-release builds, Renan Maniero has already extracted the new 310.9.16.0 DLSS NR build, letting other modders use it in unsupported games and compare performance. Gaming Optimized on X compared the new NR model to the old one and found massive improvements of up to 90% in The Witcher 3 running DLSS 5 natively. Running a full NR model to modify your game's image is resource-intensive, just as LLMs require a lot of RAM; DLSS NR does, too. To improve performance, Nvidia made the AI model 24% smaller, using 20% less VRAM at 4K, and, according to Nvidia, processes its neural rendering workload up to 2x faster. I Uploaded a new Video about the new DLSS 5 Model that got released by Nvidia.The new model can be up to 90% Faster (The Witcher 3) compared to the older one, but the performance boost varies depending on the game tested.Video link below!!https://t.co/aohckywbty https://t.co/8dwSHMqIig October 16, 2026 Typically, improving an AI model means increasing its parameters and size—in other words, giving it a bigger brain. However, because consumer GPUs have limited, non-upgradable VRAM, Nvidia can't improve by adding a bigger model; instead, the AI needs to become more efficient while reducing resource usage. These comparisons were much easier than switching back and forth between updates, since the latest version still includes the older model as a preset. The new DLL has two Neural Rendering presets: Preset A is the old model, and Preset B is the newer model. As with many other DLSS 5 experiments like those Valery Kryzhanovsky does, DLSS is injected into the graphics pipeline using RenoDX or OptiScaler, both of which let you tweak the DLL settings to get different results. To run DLSS NR on older RTX GPUs, the modding community also modified the runtime to support RTX 20-series GPUs, as the OptiScaler GitHub README notes. Nvidia plans to release DLSS 5 to RTX 40-series GPUs , but there are no reports of it officially coming to RTX 30- or RTX 20-series cards; the modding community seems to have done it anyway."
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아 \"소비자 GPU 품귀, 우리 통제 영역 아냐\"",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=63864",
+   "date": "2026-10-18 20:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 임원 소비자 GPU 품귀는 메모리 공급 부족 발언, RTX Spark 출시",
+    "korean_summary": "NVIDIA 이다 케이타 부사장이 소비자 GPU 부족을 반도체 산업 공급망 문제로 설명하고 온디바이스 AI용 RTX Spark 노트북을 출시했다."
+   },
+   "summary_data": {
+    "korean_title": "엔비디아, 소비자 GPU 품귀는 메모리 공급 부족 탓...\"우리 통제 밖\"",
+    "korean_summary": "엔비디아 임원이 소비자용 GPU 품귀와 가격 급등의 원인을 D램 등 반도체 산업 전반의 공급망 문제로 돌리며 회사 책임이 아니라고 밝혔다.",
+    "action": {
+     "actor": "NVIDIA (이다 케이타 개발자 협력 부문 부사장)",
+     "action": "소비자 GPU 품귀 원인을 메모리 공급 부족으로 설명, RTX 5090 가격 급등 및 RTX 스파크 고가 책정 배경 언급",
+     "stage": "Available",
+     "timeline": "2026-10-16 (RTX 스파크 출시 행사)",
+     "scope": "소비자용 GPU 및 RTX 스파크 전반, 한국 시장(코엑스 행사)"
+    },
+    "key_facts": [
+     "**RTX 5090은 권장소비자가격의 약 5배인 최대 1500만원 이상에 거래**되고 있음",
+     "RTX 스파크 기반 노트북 가격은 약 470만원부터 시작해 사양에 따라 최대 1000만원까지 상승",
+     "RTX 스파크는 **1000억개 이상 매개변수 AI 모델을 기기 내에서 구동** 가능, 외부 클라우드 토큰 비용 없음",
+     "엔비디아 관계자는 128GB 메모리 탑재를 최적점으로 설계했으나 메모리 가격 급등은 예상하지 못했다고 밝힘",
+     "엔비디아 측은 품귀 원인이 D램 등 반도체 산업 전반의 공급망 문제이며 자사가 통제할 수 없는 영역이라고 주장"
+    ],
+    "why_matters": "소비자 GPU 가격이 권장가의 5배까지 치솟는 상황에서 **엔비디아가 공급 책임을 메모리 산업으로 돌린 것**은 수요 대응 실패 논란을 외부 요인으로 전가하려는 전략으로 해석될 수 있다. 동시에 메모리 가격 상승이 RTX 스파크 같은 신제품 가격 정책에도 직접적인 영향을 미치고 있어, AI PC·엣지 디바이스 시장에서도 공급망 리스크가 확대되고 있음을 보여준다.",
+    "subject_angle": "엔비디아는 **GPU 품귀·고가화의 책임을 메모리 공급망 문제로 명확히 분리**하는 공식 입장을 취하며, RTX 스파크를 고가 로컬 AI 추론 디바이스로 포지셔닝해 클라우드 비용 절감이라는 가치 제안으로 가격 정당화를 시도하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "RTX 스파크 및 소비자 GPU 제조사, 공급망 이슈에 대한 공식 입장 표명"
+     }
+    ],
+    "products": [
+     {
+      "name": "RTX 5090",
+      "role": "품귀 및 고가 거래의 대표 사례로 언급된 소비자용 최상위 GPU"
+     },
+     {
+      "name": "RTX Spark",
+      "role": "로컬 AI 모델 구동용 신제품으로 이날 한국 출시, 고가 책정 배경 설명 대상"
+     }
+    ],
+    "watch_next": [
+     "메모리(D램) 가격 상승 추세가 향후 NVIDIA 제품 가격 정책에 추가로 미치는 영향",
+     "RTX 5090 등 소비자 GPU 공급 정상화 시점 및 엔비디아의 추가 공급 대응 조치 여부",
+     "RTX 스파크의 실제 판매 성과 및 시장 반응(가격 대비 가치 수용 여부)"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=63864",
+   "body": "엔비디아 임원이 소비자용 그래픽처리장치(GPU) 품귀 원인을 메모리 공급 부족 때문이라고 말했다. 이다 케이타 엔비디아 개발자 협력 부문 부사장은 16일 삼성동 코엑스에서 열린 RTX 스파크 출시 행사 직후 기자와 만나 \"게이머를 포함한 일반 소비자가 겪는 수급 난항은 GPU뿐 아니라 D램 등 반도체 산업 전반의 공급망 문제\"라며 \"엔비디아가 통제할 수 있는 영역이 아니다\"라고 했다. 소비자 GPU 품귀 관련 질문에 대한 답이었다. 소비자용 그래픽카드 인기 모델은 수량이 제한돼 추첨이나 선착순으로 판매된다. 엔비디아 소비자용 최상위 제품 RTX 5090은 최대 1500만원 이상에 거래되고 있다. 세금 포함 권장소비자가격의 약 5배다. 이다 부사장은 이날 출시한 RTX 스파크를 예로 들며 \"RTX 스파크가 할 수 있는 작업을 고려하면 다른 컴퓨터를 구매하는 것보다 장기적으로 엄청난 돈을 절약할 수 있다\"고 말했다. 1000억개 이상 매개변수를 가진 AI 모델을 기기 안에서 돌릴 수 있다면서 \"외부 클라우드 서비스를 거치지 않으므로 토큰 사용 비용이 없다\"고도 했다. 비싸지만 돈값은 한다는 의미다. RTX 스파크 기반 노트북 가격은 약 470만원부터 시작한다. 사양에 따라 판매가는 최대 1000만원까지 올라간다. 회사는 가격이 높은 이유로 메모리 가격 상승을 꼽았다. 행사장에서 만난 엔비디아 관계자는 \"개발 당시 128GB는 감당할 만한 가격대였고 이를 최적점으로 봤다\"며 \"메모리 가격이 이렇게까지 오를 줄은 예상하지 못했다\"고 말했다."
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y?oc=5",
+   "date": "2026-10-18 21:09",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "삼성, TSMC 기술로 NVIDIA 차세대 메모리칩 제조",
+    "korean_summary": "삼성이 TSMC 기술을 활용하여 NVIDIA 차세대 메모리칩 생산을 추진할 것으로 알려졌다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TradingView",
+     "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcU56OTlMLVFabURtYWJQTThtUW93SExmTmF6aGFJeVdqMklyNzZTLXpsOTd2UFd0VzJSRUo4UllVcEh0QXBIZTRzakpJTGp6aU9IZlBOcjBqbm5kUXZkRUw5NzQ0TC1HYUEzVEdsdkE1eldKM2JRNlFtUG1OVVF4VTdIM2lRb2VxZXdIRkhOMkVRLWNGbFFqVjlsaDY0blVkZDE0V0d2TXRlUGhLX1N2eVl6WmdDaEQwN0dWNU5sV1JiOHdpckFOY2ZHY0lic3AtSkFyQ0FFcGNtQjltV2R5b2hoZVBTUENHemwwTFFhRU9kVVpKdHM0UXpR?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLVd3RU5QdzNwZHd0cUNCbUQxM3B6M2JOTXZZbEE4b3Y4czkxSjBuNklIRXU2S1VyRld6WTlRQUdlZkN3TGNRcng5cjR6ZEViNXNqcHh2RnlRU2hWVXRPUVFjVXRvd2FaaTVkd002aUk4WHlEQ2wxTGk3alF5S0FUTGNMUXF2dV9QUjk4eThjcWVPaVBLYzc2c0NUaUN4UUVMcVZTSERiMDE5VXp0NDdoVFpuS2E0TGZoUnBrRTExcnZDRlJia1VNcU40SUxQcE1y",
+   "body": ""
+  },
+  {
+   "source": "Google News · VideoCardz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "All main NVIDIA DLSS technologies have now been ported to AMD Radeon GPUs",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZURwX2o1aXQyTFkzX29MRjFwNnB0dnJLamRxc0VRXy15R05pZmp1NWVMeW45dW04RG00SjFYZzQwcDdTZ3JERi0yeHVBV2xwREJyMThRSVZDWUpaMnRXaGI0ZG5ROENsMjdwVWZBQzgxNFlNSFJfcVRBRno1THNRSGZLekNMNjg0UzlzWTNpbE1JT05rNWJQdXlTVlN2TktqU0hR?oc=5",
+   "date": "2026-10-18 19:12",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA DLSS 모든 기술이 AMD Radeon GPU에 포팅됨",
+    "korean_summary": "NVIDIA의 독점 기술이던 DLSS 기술 전부가 AMD GPU에서 작동하도록 포팅되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZURwX2o1aXQyTFkzX29MRjFwNnB0dnJLamRxc0VRXy15R05pZmp1NWVMeW45dW04RG00SjFYZzQwcDdTZ3JERi0yeHVBV2xwREJyMThRSVZDWUpaMnRXaGI0ZG5ROENsMjdwVWZBQzgxNFlNSFJfcVRBRno1THNRSGZLekNMNjg0UzlzWTNpbE1JT05rNWJQdXlTVlN2TktqU0hR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Exclusive: NVIDIA’s Vera Team Says Chiplet Designs Sacrificed Single-Threaded Performance For Core Counts, And Agentic AI Is Now Forcing A Reversal",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVlA2RVA3clNBZnp3N1plRXhaQXREdWhxbE9YSDNPa0tHMHBBelFNN2pfOFNSVkJ0MEoyMTAzUmhwNWk1TTBUalZMeHJmQUpLSGEzNlZ1VmhYMC1qeVIwNWRGOXhOalhwckdobjVtM3Zpd2lwamZKRjlvcmMtMGsxYmZyN2cwbG9sczdqMnotcHJJT2NWaUpGMXNPdDNMYVN2RDlvNXh1N184Mi1qWTNxQzQ4cWladVdtd2pZMVlSdk9KbUx1MWhza3VXU2E2dndQSFJYaHk1UjloYzk4RGl1ZjQ4TW04RXpuVzNRNkR5QUFQTVdyYlY1MdIB_gFBVV95cUxQWVJjTmZvUmZ4Z1FkY3ZGZGRmUDEzdDJqVDY1bzF4bUE5UUxlbVhBTjI4MGNnYlhVQVJueW1MZHhyNjNPNkVwTjBFa3RJLU0zMjBFUG1wczRXSFlWNng5NjNnT2dWVWw4bjBZanU4a0dkYXpIaFZSc2k1RFNXaHZpZ29LdXhabDVqWEFCOEQyemFUU0dUc1d0WFRiLXhqMmRQbzFlVW1yLVI0cVFJVE1rOXJuWEV3RXFpaTR4TDJnYi1sTmFZaDBtWW5GQ0pFdEdTUXlEXzViblItVHhGZ09lWnhucC0xNVpyb1hvSjVpNlpBWjRrcTFfanpQVklTQQ?oc=5",
+   "date": "2026-10-19 04:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Vera팀 독점: 칩렛 설계를 에이전틱 AI 시대에 맞춰 전환",
+    "korean_summary": "NVIDIA가 단일 스레드 성능을 희생한 칩렛 설계 전략을 에이전틱 AI 요구에 맞춰 근본적으로 변경 중이다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNVlA2RVA3clNBZnp3N1plRXhaQXREdWhxbE9YSDNPa0tHMHBBelFNN2pfOFNSVkJ0MEoyMTAzUmhwNWk1TTBUalZMeHJmQUpLSGEzNlZ1VmhYMC1qeVIwNWRGOXhOalhwckdobjVtM3Zpd2lwamZKRjlvcmMtMGsxYmZyN2cwbG9sczdqMnotcHJJT2NWaUpGMXNPdDNMYVN2RDlvNXh1N184Mi1qWTNxQzQ4cWladVdtd2pZMVlSdk9KbUx1MWhza3VXU2E2dndQSFJYaHk1UjloYzk4RGl1ZjQ4TW04RXpuVzNRNkR5QUFQTVdyYlY1MdIB_gFBVV95cUxQWVJjTmZvUmZ4Z1FkY3ZGZGRmUDEzdDJqVDY1bzF4bUE5UUxlbVhBTjI4MGNnYlhVQVJueW1MZHhyNjNPNkVwTjBFa3RJLU0zMjBFUG1wczRXSFlWNng5NjNnT2dWVWw4bjBZanU4a0dkYXpIaFZSc2k1RFNXaHZpZ29LdXhabDVqWEFCOEQyemFUU0dUc1d0WFRiLXhqMmRQbzFlVW1yLVI0cVFJVE1rOXJuWEV3RXFpaTR4TDJnYi1sTmFZaDBtWW5GQ0pFdEdTUXlEXzViblItVHhGZ09lWnhucC0xNVpyb1hvSjVpNlpBWjRrcTFfanpQVklTQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Healthcare Digital",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Danaher and NVIDIA Partner to Accelerate Autonomous Science",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW5xT0xNSmF5MW9ibHp2T1BrWlUwLWtValNZWXp4NzBWV3VzZlhMMC1KOGZndVdLUXprS29lSUR0Qkhua1pNb3BHeGpMMWtUOVFDeUFKVVpmZWVxZVpKUFhEZVRyQWRyTUNGTnpXTF9JemM3UlNZTUpCdENoaVctM1dHeUN6RnB3dFVMNXM0Wm52S3RyX3MtNUhCRQ?oc=5",
+   "date": "2026-10-18 17:04",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Danaher와 NVIDIA, 자율 과학 가속화 파트너십 체결",
+    "korean_summary": "Danaher가 NVIDIA와 협력해 자율 과학 기술 개발을 가속화한다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW5xT0xNSmF5MW9ibHp2T1BrWlUwLWtValNZWXp4NzBWV3VzZlhMMC1KOGZndVdLUXprS29lSUR0Qkhua1pNb3BHeGpMMWtUOVFDeUFKVVpmZWVxZVpKUFhEZVRyQWRyTUNGTnpXTF9JemM3UlNZTUpCdENoaVctM1dHeUN6RnB3dFVMNXM0Wm52S3RyX3MtNUhCRQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s Development Of Custom HBM Drops Samsung’s And TSMC’s Foundry Rivalry, As Both Manufacturers Join Forces To Develop “Base Die” On The 3nm Node",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkpLWnF6anJoSlk0V0pXOWpCYUJnSWYweVdzS2Q0MDRTZG53alNxSVhPNXVmSEZBSWt2VW9RSzItRkJ4Ul9ISGQxNllIYXVzTFZSTXZ5N3pZNy05RHNWU3J2bUs0R1dhc1Jzc3MwSFdYd1XSAXhBVV95cUxNREVfbGx3VXpvejk1WFFUVDFEVzdnZzZ0MjRGTFhCYl9MTEZuNFNteHBURmtPeGpHdkEtZjFGbW9vRWdtNGdkc2E4bW1aTExhWXpvMXhmdlY4OGdzMEMxeXpuYW9zakMzSGxvbzVDbVVLLW9uSFVDN3g?oc=5",
+   "date": "2026-10-18 19:23",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 커스텀 HBM 개발로 Samsung·TSMC 3nm Base Die 공동 개발",
+    "korean_summary": "NVIDIA의 커스텀 HBM 개발이 진행되면서 Samsung과 TSMC가 3nm 노드의 Base Die 개발에 협력한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTkpLWnF6anJoSlk0V0pXOWpCYUJnSWYweVdzS2Q0MDRTZG53alNxSVhPNXVmSEZBSWt2VW9RSzItRkJ4Ul9ISGQxNllIYXVzTFZSTXZ5N3pZNy05RHNWU3J2bUs0R1dhc1Jzc3MwSFdYd1XSAXhBVV95cUxNREVfbGx3VXpvejk1WFFUVDFEVzdnZzZ0MjRGTFhCYl9MTEZuNFNteHBURmtPeGpHdkEtZjFGbW9vRWdtNGdkc2E4bW1aTExhWXpvMXhmdlY4OGdzMEMxeXpuYW9zakMzSGxvbzVDbVVLLW9uSFVDN3g",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX Spark Laptops Debut at $2,599 [2026]",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vWEhBRk03cDdFUVJaQnJ4ZzZmTmFSQW95elh1TENaUWtFX1NKUU5hZ0E0Uko5cTJlYTZfaWdJR3QzOFpIZ21vVkJRN18zM1diYVl0ZXIzN3dPd0huMXhySDMyUEdQWGluWWFzR0YtYUROZURNbEE?oc=5",
+   "date": "2026-10-19 00:49",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark 노트북 2,599달러로 공개",
+    "korean_summary": "NVIDIA가 신규 RTX Spark 노트북을 2,599달러 가격대로 출시했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vWEhBRk03cDdFUVJaQnJ4ZzZmTmFSQW95elh1TENaUWtFX1NKUU5hZ0E0Uko5cTJlYTZfaWdJR3QzOFpIZ21vVkJRN18zM1diYVl0ZXIzN3dPd0huMXhySDMyUEdQWGluWWFzR0YtYUROZURNbEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX Spark Undercuts $18,600 AI Workstations by 86% [2026]",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qU0VMOXJPczdoTVlRY1M1blBGYVJJN3ZDVlJiX3pRaDl3S0tCeGdNM2thY1NocDU4c2dXWE5HU3FkNXdnVUJMdVpTU3dBeVJoZFZEZ0tWeEJnejBhQl9QbFpxMW8wdE1UX2FJNWIwd2MzVC1NMllDSG5uV2RIZw?oc=5",
+   "date": "2026-10-19 01:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX Spark, 18,600달러 AI 워크스테이션 가격을 86% 인하",
+    "korean_summary": "RTX Spark 노트북이 기존 AI 워크스테이션 대비 획기적인 가격 경쟁력을 보인다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qU0VMOXJPczdoTVlRY1M1blBGYVJJN3ZDVlJiX3pRaDl3S0tCeGdNM2thY1NocDU4c2dXWE5HU3FkNXdnVUJMdVpTU3dBeVJoZFZEZ0tWeEJnejBhQl9QbFpxMW8wdE1UX2FJNWIwd2MzVC1NMllDSG5uV2RIZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's $500B AI Financing Bet Explained [2026]",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wc3NJRnJ5eEdEb0F2N1RUYTRfWDRYYWNkREJtYzZ2R3l5T0F5Mng3ZzFJeHQ5RzZRN1hOVzB5ZGJSbTdFeThHVWFnMTJ3RVQ3eHU2bUZReXFOeEMtclcydmFhT3RsdmtQVE9xZ2x2VWFrTVNkaXVVR3N3SXE?oc=5",
+   "date": "2026-10-18 15:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA의 5000억 달러 AI 파이낸싱 전략 분석 [2026]",
+    "korean_summary": "NVIDIA가 AI 인프라 파이낸싱에 5000억 달러 규모의 투자 전략을 추진하는 것으로 분석되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wc3NJRnJ5eEdEb0F2N1RUYTRfWDRYYWNkREJtYzZ2R3l5T0F5Mng3ZzFJeHQ5RzZRN1hOVzB5ZGJSbTdFeThHVWFnMTJ3RVQ3eHU2bUZReXFOeEMtclcydmFhT3RsdmtQVE9xZ2x2VWFrTVNkaXVVR3N3SXE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Ynetnews",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Israeli AI firms train NVIDIA models to resist hackers and dangerous chatbot behavior",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aMGM5WWNtaU9GQnVxbkJjS3BZMFdyS2VIVl9MNWtqQXhIVXZuUDJJeFY3bDhyNE96THBJZ0hLUnUtN1Q2MjVZbmhSaDFaM0VtLW9FeDNPU1hRNWJmUmFTRW5R?oc=5",
+   "date": "2026-10-18 22:48",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "이스라엘 AI 기업, NVIDIA 모델 보안 강화 연구 수행",
+    "korean_summary": "이스라엘의 AI 회사들이 NVIDIA 모델을 해킹과 위험한 행동에 대항하도록 학습시키는 연구를 진행하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aMGM5WWNtaU9GQnVxbkJjS3BZMFdyS2VIVl9MNWtqQXhIVXZuUDJJeFY3bDhyNE96THBJZ0hLUnUtN1Q2MjVZbmhSaDFaM0VtLW9FeDNPU1hRNWJmUmFTRW5R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Elon Musk Says Jensen Huang 'Rocks' as SpaceX, Nvidia Team Up on AI Data Centers in Space: ‘Far Better Than Almost Anyone Expects’",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc?oc=5",
+   "date": "2026-10-18 09:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "SpaceX와 NVIDIA, 우주 AI 데이터센터 협력",
+    "korean_summary": "Elon Musk가 SpaceX와 NVIDIA의 우주 기반 AI 데이터센터 협력을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdDZlRzVyQ1ZRaHRqajVXVFNJckVBeE4xaFR2bUVFcVF0OEVVWVNPakZTcThwRXREY01QY2c0SzdXQXM2RGZvSTdIRzVGY3ZHWWpmSzlMeEhhQnpoUVF6bVdRWmhFblRxOU5iUmdKYmdaTGo4emRVSmExTFdqbWdNM1JlUnRmSURfU01JNEVJNWtldkpRRmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Vocal",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA’s RTX Spark Wants to Put an AI Agent on Your Laptop. The 128GB Number Matters Most.",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQek9nNWRnR2V5Z0Fld3RmcDhoM0EwWGNsZUlQUEkxNnRWbTVuR1Y0M2h1cGllTU1HWEtqRVdoRGxSMHhyeEVERFRCSXY0dUNTNTI4Y09hMDBmaEZJbm1VZkJqVU56MTFqWUV1S3VpcXczVEpXRFM3bXlfZ0JYeDRCYWlEZ2tTWnFEbTd1VUZ5Nm56NndHNjl0U2hrbVlJcktCT004QUlRQ1dlNjhaUDd3?oc=5",
+   "date": "2026-10-18 18:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX Spark, 라이프스타일 노트북을 위한 AI 에이전트",
+    "korean_summary": "NVIDIA의 RTX Spark가 128GB 메모리로 노트북에 AI 에이전트를 탑재한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQek9nNWRnR2V5Z0Fld3RmcDhoM0EwWGNsZUlQUEkxNnRWbTVuR1Y0M2h1cGllTU1HWEtqRVdoRGxSMHhyeEVERFRCSXY0dUNTNTI4Y09hMDBmaEZJbm1VZkJqVU56MTFqWUV1S3VpcXczVEpXRFM3bXlfZ0JYeDRCYWlEZ2tTWnFEbTd1VUZ5Nm56NndHNjl0U2hrbVlJcktCT004QUlRQ1dlNjhaUDd3",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarkTechPost",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNURsV1RQNGJfbGlURFRndkhLcDRtOVZrb0xzRHF2ZGhGdkdvV1dfdHF0c00tYlBBSmhldnY2ZEl0d0t1eVZ3b1BlU3FPSGl6aTExeHZlWDhZdmZGTlR3R2NGbDRnc1hFMDNVOEdLVnZoRm5LOWg3Q2U5dE9IQUFrZ1F6b3RsZHBwNTloQm02WkllR3lBZHQ2NmtwT29IN2lCWURMWEx4eHNhWjJuVjM4Y0p5YU0tcFFwcWo4NkRB0gG-AUFVX3lxTE81RGxXVFA0Yl9saVREVGd2SEtwNG05VmtvTHNEcXZkaEZ2R29XV190cXRzTS1iUEFKaGV2djZkSXR3S3V5VndvUGVTcU9IaXppMTF4dmVYOFl2ZkZOVHdHY0ZsNGdzWEUwM1U4R0tWdmhGbks5aDdDZTl0T0hBQWtnUXpvdGxkcHA1OWhCbTZaSWVHeUFkdDY2a3BPb0g3aUJZRExYTHh4c2FaMm5WMzhjSnlhTS1wUXBxajg2REE?oc=5",
+   "date": "2026-10-18 14:56",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 구조화된 데이터 모델을 이용한 제로 트레이닝 예측",
+    "korean_summary": "MarkTechPost가 NVIDIA의 구조화된 데이터 모델로 사전 학습 없이 테이블형 데이터 예측을 하는 방법을 소개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNURsV1RQNGJfbGlURFRndkhLcDRtOVZrb0xzRHF2ZGhGdkdvV1dfdHF0c00tYlBBSmhldnY2ZEl0d0t1eVZ3b1BlU3FPSGl6aTExeHZlWDhZdmZGTlR3R2NGbDRnc1hFMDNVOEdLVnZoRm5LOWg3Q2U5dE9IQUFrZ1F6b3RsZHBwNTloQm02WkllR3lBZHQ2NmtwT29IN2lCWURMWEx4eHNhWjJuVjM4Y0p5YU0tcFFwcWo4NkRB0gG-AUFVX3lxTE81RGxXVFA0Yl9saVREVGd2SEtwNG05VmtvTHNEcXZkaEZ2R29XV190cXRzTS1iUEFKaGV2djZkSXR3S3V5VndvUGVTcU9IaXppMTF4dmVYOFl2ZkZOVHdHY0ZsNGdzWEUwM1U4R0tWdmhGbks5aDdDZTl0T0hBQWtnUXpvdGxkcHA1OWhCbTZaSWVHeUFkdDY2a3BPb0g3aUJZRExYTHh4c2FaMm5WMzhjSnlhTS1wUXBxajg2REE",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "The end of independent infrastructure roadmaps: how AI is forcing data center co-design",
+   "link": "https://www.datacenterdynamics.com/en/opinions/the-end-of-independent-infrastructure-roadmaps-how-ai-is-forcing-data-center-co-design/",
+   "date": "2026-10-18 23:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 시대의 데이터센터 인프라 공동 설계 필요성",
+    "korean_summary": "DataCenterDynamics가 AI 워크로드 확대에 따른 가속기·메모리·네트워킹·전력 인프라의 통합 설계 전환을 분석했다."
+   },
+   "summary_data": {
+    "korean_title": "AI가 강제하는 데이터센터 공동설계 시대: 독립적 인프라 로드맵의 종언",
+    "korean_summary": "DataCenterDynamics는 AI 가속기 성능이 컴퓨트 단일 요소가 아닌 메모리·네트워킹·전력·냉각의 통합 설계에 좌우되면서, NVIDIA를 포함한 주요 플레이어들이 독립적 인프라 로드맵에서 시스템 단위 공동설계로 전환하고 있다고 분석한다.",
+    "action": {
+     "actor": "NVIDIA 및 주요 클라우드·칩 업체",
+     "action": "GPU, NVLink, NVSwitch, 네트워킹, CUDA, DGX 시스템을 통합 설계하여 컴퓨트·메모리·네트워킹·전력·냉각이 상호 결합된 시스템으로 운영",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "대규모 AI 트레이닝·추론 인프라 전반"
+    },
+    "key_facts": [
+     "**모던 가속기 플랫폼은 컴퓨트 단일 요소가 아닌 메모리, 네트워킹, 전력, 냉각 시스템의 통합에 의해 설계**된다",
+     "고대역폭 메모리(HBM) 채택이 메모리 대역폭과 고급 패키징의 중요성을 부각시켰다",
+     "NVIDIA는 GPU, NVLink, NVSwitch, networking, CUDA, DGX 시스템을 통합하는 방식으로 이러한 흐름을 대표한다",
+     "**Google의 TPU-소프트웨어-데이터센터 공동설계, AWS Trainium, Microsoft Maia 등 수직통합 플랫폼이 동일한 경쟁 흐름을 보여준다**",
+     "멀티 테라바이트급 메모리 대역폭과 킬로와트급 전력을 요구하는 가속기는 이전 세대용으로 지어진 시설에서는 설계된 성능을 달성할 수 없다"
+    ],
+    "why_matters": "AI 인프라 경쟁력의 핵심이 단일 칩 성능이 아니라 **컴퓨트-메모리-네트워킹-전력-냉각을 아우르는 전체 시스템 최적화 능력**으로 이동하고 있어, 수직통합 역량이 없는 사업자는 경쟁에서 밀릴 수 있다. 이는 콜로케이션 사업자의 시설 로드맵조차 고객의 가속기 선택에 종속되도록 만들어 산업 구조 자체를 재편한다.",
+    "subject_angle": "NVIDIA는 GPU 단품이 아닌 **NVLink·NVSwitch·CUDA·DGX를 아우르는 풀스택 통합 설계** 전략을 통해 Google TPU, AWS Trainium, Microsoft Maia와 같은 수직통합 경쟁자들과의 플랫폼 경쟁에서 시스템 공동설계 역량을 핵심 차별화 요소로 삼고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "GPU, NVLink, NVSwitch, CUDA, DGX를 통합한 시스템 공동설계 대표 사례"
+     },
+     {
+      "name": "Google",
+      "context": "TPU를 자체 소프트웨어 스택 및 데이터센터 인프라와 공동설계"
+     },
+     {
+      "name": "AWS",
+      "context": "Trainium 가속기로 수직통합 플랫폼 구축"
+     },
+     {
+      "name": "Microsoft",
+      "context": "Maia 가속기로 수직통합 플랫폼 구축"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVLink/NVSwitch",
+      "role": "GPU 간 고대역폭 인터커넥트, 시스템 공동설계의 핵심 요소"
+     },
+     {
+      "name": "CUDA",
+      "context": "소프트웨어 레이어 통합",
+      "role": "NVIDIA 풀스택 통합의 소프트웨어 기반"
+     },
+     {
+      "name": "DGX 시스템",
+      "role": "컴퓨트·네트워킹·전력·냉각이 통합된 NVIDIA의 시스템 레벨 제품"
+     },
+     {
+      "name": "HBM(High-Bandwidth Memory)",
+      "role": "가속기 메모리 대역폭 병목 해소를 위한 핵심 기술"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 차세대 플랫폼이 전력·냉각 요구사항을 얼마나 구체화하는지 확인",
+     "콜로케이션 사업자들이 특정 가속기 벤더에 맞춘 시설 투자를 공식화하는지 추적",
+     "AWS Trainium, Microsoft Maia의 차기 세대가 NVIDIA 플랫폼과의 성능·효율 격차를 어떻게 좁히는지 모니터링"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/opinions/the-end-of-independent-infrastructure-roadmaps-how-ai-is-forcing-data-center-co-design",
+   "body": "For decades, most data center infrastructure evolved as a collection of largely independent technology domains. Processor performance improved through architectural and process innovations, memory and networking advanced on their own roadmaps, and facility infrastructure scaled predictably to support successive generations of hardware. Moore's Law, standardized interfaces, and steady technology scaling allowed operators to upgrade servers, networks, and facilities on different timelines with confidence. AI has fundamentally changed that model. Today’s accelerator platforms derive their performance not from compute engines alone, but from the interaction of memory subsystems, networking fabrics, advanced packaging technologies, power delivery systems, and cooling infrastructure. As AI deployments scale, the traditional separation between these domains is diminishing. What was historically viewed as a collection of independent infrastructure layers is now operating more as a tightly coupled system in which decisions made in one domain influence the outcomes across others. Unlike traditional enterprise workloads, where performance improvements could often be realized within a single subsystem, large-scale AI training and inference are constrained by the efficiency with which data moves across the entire platform. Every training iteration requires continuous movement and synchronization of model parameters, activations, and gradients across thousands of accelerators, making memory capacity, memory bandwidth, interconnect latency, and communication overhead as critical to performance as the compute engines themselves. Hence, idle accelerators represent stranded capital, wasted energy, and lower returns on some of the most expensive infrastructure investments in the data center. Evidence from recent AI infrastructure deployments Recent AI infrastructure deployments illustrate these dependencies clearly. Modern accelerator platforms are increasingly designed around the integration of compute, memory, networking, power delivery, and cooling systems rather than advances in any single component. The adoption of high-bandwidth memory has highlighted the growing importance of memory bandwidth and advanced packaging, while power availability and cooling capacity have emerged as major deployment constraints for large-scale AI clusters. Together, these developments demonstrate that system performance increasingly depends on co-design rather than independent optimization. The clearest evidence of this shift is organizational as much as technical. Nvidia'sintegration of GPUs, NVLink, NVSwitch, networking, CUDA, and DGX systems, Google's co-design of TPUs with its software stack and data center infrastructure, and the emergence of vertically integrated platforms such as AWS Trainium and Microsoft's Maia all reflect the same underlying trend. Competitive advantage now comes from minimizing inefficiencies across the entire compute system and optimizing interactions "
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Denies RTX 5090 Death, $1,999 Supply Tight [2026]",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaM0VSVkljNFc1S2JQV1Z4dDZyRnZXLXM2SGd6bUJLSlZkME5KUjR2aVhzUUUwUFBPdkQ2SnNPM2F0RFhDeWdTc1JXV3ZybFN4MFZEQlhsRGR0SjRYV3dQc1kxYjN3YmZhYVo5cWN6cTZuMFNsMlJneg?oc=5",
+   "date": "2026-10-19 06:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX 5090 단종설 부인, 공급 부족 심각",
+    "korean_summary": "NVIDIA가 RTX 5090의 단종 루머를 부인했으나 공급 부족이 심각한 것으로 보도됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBaM0VSVkljNFc1S2JQV1Z4dDZyRnZXLXM2SGd6bUJLSlZkME5KUjR2aVhzUUUwUFBPdkQ2SnNPM2F0RFhDeWdTc1JXV3ZybFN4MFZEQlhsRGR0SjRYV3dQc1kxYjN3YmZhYVo5cWN6cTZuMFNsMlJneg",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Inworld AI vs Convai vs NVIDIA ACE 2026 Comparison",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YZmlzdklSc1FVMUtwLVp4NzBBdjJqbWZmc2RVZGlLSEp6NkxfaFU1ekY0NGs1ZnhXbHZldS11Y3hoUEZWbkpHXzZ2OWdOUWM2REZjM3NFc29CM1RjVG5Wcjd2ZHlKSE5aZHUtOGE0VVlrSGc?oc=5",
+   "date": "2026-10-19 04:27",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Inworld AI vs Convai vs NVIDIA ACE 2026 비교분석",
+    "korean_summary": "Inworld AI, Convai, NVIDIA ACE 플랫폼의 2026년 기능을 비교 분석한 자료가 공개됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5YZmlzdklSc1FVMUtwLVp4NzBBdjJqbWZmc2RVZGlLSEp6NkxfaFU1ekY0NGs1ZnhXbHZldS11Y3hoUEZWbkpHXzZ2OWdOUWM2REZjM3NFc29CM1RjVG5Wcjd2ZHlKSE5aZHUtOGE0VVlrSGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Modder brings full Nvidia DLSS 5 suite to three generations of AMD gaming GPUs — plans to match native Nvidia GPU performance",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQWFN1SGtVNEFFN1E1THdKUGtnbXZnbTEycnNadlI3Njh6RFdEMDVPQ0k0azBPYlR4anZBREpvejFRMG45OE00REtrTy1FbEN2TUgxTkZ6U2tDU19jbHNZSVFVaTYtcTQ5dFgxTFVIT1hYNlZaVnhaWndDNy1RazNqRmdsd1NnQlZJWHZNOUNCS0tZRXN4T0cwa0FNaXNKei0xTF95RDkwX1lmN19WZ2hnWmFjUXVLQURsTW5EZFo0bmwtX3ZrZTVFV0M2TTFlN25WTlZvdm5hQXdlYkZMbEM0akU2dVFyTERKbm1GRXVtN1FueGc?oc=5",
+   "date": "2026-10-19 01:03",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "모더, NVIDIA DLSS 5를 AMD GPU 3세대에 포팅",
+    "korean_summary": "한 모더가 NVIDIA의 DLSS 5 기능을 AMD 그래픽카드 3세대에 구현하고 성능 동등화를 목표로 하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQWFN1SGtVNEFFN1E1THdKUGtnbXZnbTEycnNadlI3Njh6RFdEMDVPQ0k0azBPYlR4anZBREpvejFRMG45OE00REtrTy1FbEN2TUgxTkZ6U2tDU19jbHNZSVFVaTYtcTQ5dFgxTFVIT1hYNlZaVnhaWndDNy1RazNqRmdsd1NnQlZJWHZNOUNCS0tZRXN4T0cwa0FNaXNKei0xTF95RDkwX1lmN19WZ2hnWmFjUXVLQURsTW5EZFo0bmwtX3ZrZTVFV0M2TTFlN25WTlZvdm5hQXdlYkZMbEM0akU2dVFyTERKbm1GRXVtN1FueGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What a New Nvidia-Backed AI Platform Means for Honeywell Stock",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbk1EeDdqMm9weEtscHJScW5FeTY5aEtfV3hwb3ZnVjJJa0ZtRWNmSXZWZm5sYm1Jdi1ubnpLOTNjRk1CMVNKMkF2VTdwVmhxWXBETGc0S2prYjM1T1hHZ0YwendsMWw5MDFMYzFFeXZuT0FWcXYwblJPemdtN21BUnBldkFfZVJuYWhTQ0gxR2V1XzAtVkNqTnJRNGdwNUZpSkpOeEYyb3VyQQ?oc=5",
+   "date": "2026-10-19 03:30",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Honeywell, NVIDIA 지원 AI 플랫폼 도입",
+    "korean_summary": "Honeywell이 NVIDIA가 지원하는 새로운 AI 플랫폼을 도입하고 있음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbk1EeDdqMm9weEtscHJScW5FeTY5aEtfV3hwb3ZnVjJJa0ZtRWNmSXZWZm5sYm1Jdi1ubnpLOTNjRk1CMVNKMkF2VTdwVmhxWXBETGc0S2prYjM1T1hHZ0YwendsMWw5MDFMYzFFeXZuT0FWcXYwblJPemdtN21BUnBldkFfZVJuYWhTQ0gxR2V1XzAtVkNqTnJRNGdwNUZpSkpOeEYyb3VyQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · jawlah.co",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia reshapes AI memory market with TSMC",
+   "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rTE1aTkFxTVFPY0RJakZNeEJUZVhfQlVtR3dOZHZvcFhpeVBzanRPX1JhbmFwZUxzUzdWSlEzcw?oc=5",
+   "date": "2026-10-19 05:05",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, TSMC와 협력하여 AI 메모리 시장 재편",
+    "korean_summary": "NVIDIA가 TSMC와 협력하면서 AI 메모리 시장을 재편하고 있음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9rTE1aTkFxTVFPY0RJakZNeEJUZVhfQlVtR3dOZHZvcFhpeVBzanRPX1JhbmFwZUxzUzdWSlEzcw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Neocloud Shakeout Looms, and Nvidia Has a Lot to Lose",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVVydlVtRDNpV0d6X3JIZlJENk5sSzU2YmlWYlBvRFllQTBTRjZEMk9lblVPMno3aG9Jc1NRRFlhQy1IdktiVUUtM1JoWEI1UHVlV1RuaVp6WDBaS01rTktSU0hLZE82RkFPaWI5ekk0TU04RHphakZKbGtmNmVLWFJGRGkxbkNsdFozNXBudC1ObjIxbjNDdUtYSHVVRjdqLUE?oc=5",
+   "date": "2026-10-19 00:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "네오클라우드 격변 속 NVIDIA 손실 위험 커진다",
+    "korean_summary": "클라우드 시장 변동 속 NVIDIA가 큰 손실을 입을 가능성이 높다는 분석이 제시됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVVVydlVtRDNpV0d6X3JIZlJENk5sSzU2YmlWYlBvRFllQTBTRjZEMk9lblVPMno3aG9Jc1NRRFlhQy1IdktiVUUtM1JoWEI1UHVlV1RuaVp6WDBaS01rTktSU0hLZE82RkFPaWI5ekk0TU04RHphakZKbGtmNmVLWFJGRGkxbkNsdFozNXBudC1ObjIxbjNDdUtYSHVVRjdqLUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "History Says Nvidia Stock Does This in November. Here's the 1 Thing That Could Break the Pattern.",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWJ0SURkS2FydW9RTU5veXNxdmZmdFJfZGRkYTZOdG9CN2Jva2czT1dMV3JKRF9Ta25IOTZheV8zWUdxWjRHZ1BKdE5RcXEzeGRKTE1SdHNmdXpKSmk5YWJZc3Z0cjhzMFZBNTB2MFJrV0ozQlJTcnVXUzIxd3dicjJQMHdmS3BOMkVTelY3TEZ5eEpuV2QxWUxLcw?oc=5",
+   "date": "2026-10-19 01:51",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가, 11월의 역사적 패턴이 올해도 반복될까",
+    "korean_summary": "NVIDIA 주가가 역사적으로 11월에 보이는 패턴을 분석한 의견 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUWJ0SURkS2FydW9RTU5veXNxdmZmdFJfZGRkYTZOdG9CN2Jva2czT1dMV3JKRF9Ta25IOTZheV8zWUdxWjRHZ1BKdE5RcXEzeGRKTE1SdHNmdXpKSmk5YWJZc3Z0cjhzMFZBNTB2MFJrV0ozQlJTcnVXUzIxd3dicjJQMHdmS3BOMkVTelY3TEZ5eEpuV2QxWUxLcw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Why Did NVIDIA (NVDA) Rise Only 19% While Its Suppliers Did Far Better?",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXBTejZkWTlFVVQxUzJWMldfak96aEdzT0czU3dwaDVrMnJVNC13Tm1TWnlxRjZNX0tfNld1d09XNGtaX2hqRFBqcnFyNTdHMm0xSHZDRVpxamJseXZLeXFsXzJ0b1FhOW1rR3VZakQ2R1FHNkpDVXNzR0RUeWdQemlPRktsVzliSkRWUHFHYkRZZDQ?oc=5",
+   "date": "2026-10-18 23:34",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 19% 상승, 공급업체보다 수익률 낮은 이유",
+    "korean_summary": "NVIDIA와 공급업체의 주가 수익률 격차를 분석한 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVXBTejZkWTlFVVQxUzJWMldfak96aEdzT0czU3dwaDVrMnJVNC13Tm1TWnlxRjZNX0tfNld1d09XNGtaX2hqRFBqcnFyNTdHMm0xSHZDRVpxamJseXZLeXFsXzJ0b1FhOW1rR3VZakQ2R1FHNkpDVXNzR0RUeWdQemlPRktsVzliSkRWUHFHYkRZZDQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · www.thelec.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Says Consumer GPU Shortages Are Beyond Its Control",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVRXpoN2t5amhWRFNlZkFRREhSbzRqLUFxbm9saUlhWlg2d0JQMGlzbVdKZmgwMWVGSmpZR0loTm80b2RFRVdaY0hTSnlxV25wV1gwZE5VZEdON3QwYUo1cWZlUnEzTHc?oc=5",
+   "date": "2026-10-19 07:56",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, 소비자 GPU 공급 부족은 회사 통제 불가",
+    "korean_summary": "NVIDIA가 소비자 GPU 공급 부족은 회사 통제를 벗어난 문제라는 입장을 밝힘"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVRXpoN2t5amhWRFNlZkFRREhSbzRqLUFxbm9saUlhWlg2d0JQMGlzbVdKZmgwMWVGSmpZR0loTm80b2RFRVdaY0hTSnlxV25wV1gwZE5VZEdON3QwYUo1cWZlUnEzTHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Digital Trends",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA thinks the CPU industry chased too many cores, and AI agents are bringing single-core speed back",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSGFYTzVLZmdQQXgtUHhQZmUyTjNHMTNELW1ZeklJVFZFTDJsb0REVEhnZkxZaU1NXzZQNEFZX2RFV1pRVDhJZGtJZzZNbUJqb0xVbzhZYVU4RDlCSUE4Vm94dUtmSk1PNldHLVNnNTRtTnE2SmNCWldiR3R6T3FJX19SNXFHajlFWEE?oc=5",
+   "date": "2026-10-19 06:25",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, CPU 산업 멀티코어 경쟁 비판 및 AI 에이전트 시대 강조",
+    "korean_summary": "NVIDIA가 CPU 산업의 과도한 멀티코어 경쟁을 비판하고 AI 에이전트 시대에 단일 코어 성능의 중요성을 주장"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSGFYTzVLZmdQQXgtUHhQZmUyTjNHMTNELW1ZeklJVFZFTDJsb0REVEhnZkxZaU1NXzZQNEFZX2RFV1pRVDhJZGtJZzZNbUJqb0xVbzhZYVU4RDlCSUE4Vm94dUtmSk1PNldHLVNnNTRtTnE2SmNCWldiR3R6T3FJX19SNXFHajlFWEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Dr. Robert Castellano's Semiconductor Deep Dive Newsletter",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's AI Financing Model Is Spreading to Rivals, but Who Ultimately Pays?",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1R0Wk41Mk9BbGJTaWZSblRvcVJmVW0xbTZIWU5rMjlZaXoweVhmWWtzc2Z1dHQxRmFHLWpNUjB1SFhlN1JFR01uU01DLVNzOVpob0NuODhtLTJEUlVIQVZsaXV3eUttbTNIRFV5RjByQ3AwT2gzOXZSY0JFaUNscnBTNHZuRTho?oc=5",
+   "date": "2026-10-19 01:37",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA의 AI 파이낸싱 모델, 경쟁사로 확산 중",
+    "korean_summary": "NVIDIA의 AI 파이낸싱 모델이 경쟁사들에게 확산되면서 최종 비용 부담 주체에 대한 논의가 진행 중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1R0Wk41Mk9BbGJTaWZSblRvcVJmVW0xbTZIWU5rMjlZaXoweVhmWWtzc2Z1dHQxRmFHLWpNUjB1SFhlN1JFR01uU01DLVNzOVpob0NuODhtLTJEUlVIQVZsaXV3eUttbTNIRFV5RjByQ3AwT2gzOXZSY0JFaUNscnBTNHZuRTho",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Nvidia Could Make $150 Billion Look Small",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFdsamNWSmhkU1VYem1fX3NkalE1cjBtWEtLbENaYURTZ1lRaDBoX2s4LUdnWk5hMlV0b0FVcERKck9fUXM0amZuVkk5ZEJkOEVmZUtHeXg0Y0REcEtUakhuVlNTUWo3bm84ZzFoa1h3OUhWU0VIQkpwQkwtcnFGTXJiS1dpNzM0SWc3WDVjOVZMeVlW?oc=5",
+   "date": "2026-10-18 10:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA가 1,500억 달러 규모를 훨씬 초과할 가능성 분석",
+    "korean_summary": "The Motley Fool이 NVIDIA의 앞으로의 성장 가능성에 대해 낙관적 전망을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFdsamNWSmhkU1VYem1fX3NkalE1cjBtWEtLbENaYURTZ1lRaDBoX2s4LUdnWk5hMlV0b0FVcERKck9fUXM0amZuVkk5ZEJkOEVmZUtHeXg0Y0REcEtUakhuVlNTUWo3bm84ZzFoa1h3OUhWU0VIQkpwQkwtcnFGTXJiS1dpNzM0SWc3WDVjOVZMeVlW",
+   "body": ""
+  },
+  {
+   "source": "Google News · Simply Wall Street",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia (NVDA) Stock Trades Below Fair Value On Cash Flow",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHRaSVVUVjhFLThyZzczVVVhM1ROd1VrWkFpdzczeFRaamNUd0FsMzFBTVZQakVPRDc2MUNBZlNHTkxrTEdHdzRGZy1uaG5mLXlLVFBJMC1zVEwtTnFEVXZWbzB3aXpZdkpwWVBzZVZjT25rdDRHVlFPNjlfT285S0RjV0t0R3lSeF8tUTZvM2dNLVZBemFBZ055T3h5d1F1bm9VbkhURHlUdGlGaEt3Q1lyaHRkci1VQzB0WmpYUWF2NTjSAcgBQVVfeXFMTnI5NVNVTWloZ0Q1SldST3dDcV9CdmJSeVY3RVBUYnA2STRoWjE4N01YYmxMTmxESUIybzJBd2tTejQ0M2szMGxuNU1YQWtpNy1nT01Hb0ZrVnk4V0VfLVQxOVJONEM4Q1djVnBkZE1RMzAyRFRsaWFsbU8xT0gtMmY5akVINEhVZWVhVFZTdHhoU3BTdmsxR291OVVMUloyREJoSFNTOHYtTEZzNUo1RXFpNlZTN25KeHQ0SGFiYzI0TDg2aS00d1c?oc=5",
+   "date": "2026-10-18 10:40",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 현금흐름 대비 공정가치 이하 거래 평가",
+    "korean_summary": "분석가들이 NVIDIA가 현금흐름 기준 공정가치보다 낮은 가격에 거래 중이라고 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTHRaSVVUVjhFLThyZzczVVVhM1ROd1VrWkFpdzczeFRaamNUd0FsMzFBTVZQakVPRDc2MUNBZlNHTkxrTEdHdzRGZy1uaG5mLXlLVFBJMC1zVEwtTnFEVXZWbzB3aXpZdkpwWVBzZVZjT25rdDRHVlFPNjlfT285S0RjV0t0R3lSeF8tUTZvM2dNLVZBemFBZ055T3h5d1F1bm9VbkhURHlUdGlGaEt3Q1lyaHRkci1VQzB0WmpYUWF2NTjSAcgBQVVfeXFMTnI5NVNVTWloZ0Q1SldST3dDcV9CdmJSeVY3RVBUYnA2STRoWjE4N01YYmxMTmxESUIybzJBd2tTejQ0M2szMGxuNU1YQWtpNy1nT01Hb0ZrVnk4V0VfLVQxOVJONEM4Q1djVnBkZE1RMzAyRFRsaWFsbU8xT0gtMmY5akVINEhVZWVhVFZTdHhoU3BTdmsxR291OVVMUloyREJoSFNTOHYtTEZzNUo1RXFpNlZTN25KeHQ0SGFiYzI0TDg2aS00d1c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Storyboard18",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang rejects Sam Altman's AI cybersecurity trade-off argument",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanhXaTZtT0xPMkxxZGtrR0VQLURFeHlaWGdzZVR2OVZnYzU1ZnBVNXVkNWk1N3RLOFVvTU5LOGtYNGZkTER5QTd4dDNsbjhfZEF5UzJUMEZUUjFWeHNDdnNnX3AtQXljS0JmMFNoa3NSSUpOa3J0MGJ2ZHZaTGdlYkY0cTFEQm5pY0RmcHNGSm5JVjY4dU53aUFCRFpyYnRneWlFSVBlQlVBQmY1UW1rOWFvT2F4dFNHbnNOc2NiSjBiSzlaUGJNSkxDcGLSAdIBQVVfeXFMUHFUSzRpdU53SkV4dEgwLXlKdjNRMzdhNGRzZUhxbDJKOHZ2Z0tINVRxSldnNGhnYUVGMVh5Nm9aVWQwcXFKWnhzdmQ1NFJSbWtLVEhkNVZvYVJKZkhwdGNRSDVLeDV6ZkluajlDaTh6NkNXbnVYUm5ONS1CcFJOOFQtWE1QaXVhUmV2TjNRNzBia2xpN0Vxa3hBNDVGQXBldGw2ZDZZVmpZWnR3SWR2WU1CWlo4NmxNY3RkYWFCTEtiQzd5MXFOaUhMTWNpLXpLRHN3?oc=5",
+   "date": "2026-10-18 20:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang CEO, Sam Altman의 AI 보안 트레이드오프 주장 거부",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 OpenAI CEO Sam Altman의 AI 사이버보안 트레이드오프 주장에 반박했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPanhXaTZtT0xPMkxxZGtrR0VQLURFeHlaWGdzZVR2OVZnYzU1ZnBVNXVkNWk1N3RLOFVvTU5LOGtYNGZkTER5QTd4dDNsbjhfZEF5UzJUMEZUUjFWeHNDdnNnX3AtQXljS0JmMFNoa3NSSUpOa3J0MGJ2ZHZaTGdlYkY0cTFEQm5pY0RmcHNGSm5JVjY4dU53aUFCRFpyYnRneWlFSVBlQlVBQmY1UW1rOWFvT2F4dFNHbnNOc2NiSjBiSzlaUGJNSkxDcGLSAdIBQVVfeXFMUHFUSzRpdU53SkV4dEgwLXlKdjNRMzdhNGRzZUhxbDJKOHZ2Z0tINVRxSldnNGhnYUVGMVh5Nm9aVWQwcXFKWnhzdmQ1NFJSbWtLVEhkNVZvYVJKZkhwdGNRSDVLeDV6ZkluajlDaTh6NkNXbnVYUm5ONS1CcFJOOFQtWE1QaXVhUmV2TjNRNzBia2xpN0Vxa3hBNDVGQXBldGw2ZDZZVmpZWnR3SWR2WU1CWlo4NmxNY3RkYWFCTEtiQzd5MXFOaUhMTWNpLXpLRHN3",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_2",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S5_2 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S5_2의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S5_2:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 13 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S5_2 A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1895 restyled from iteration 1000 | | Iterations | resume R at 1000 -> 2000 (global batch 2048, training seed 42) | | Success, standard scenes | 94.4 +/- 2.1 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 89.2 +/- 1.3 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-D2 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D2",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-D2",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 D2 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 D2의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-D2:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 12 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell D2 A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 duplicates from iteration 1000 | | Iterations | resume R at 1000 -> 2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.9 +/- 0.8 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 84.7 +/- 2.3 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S2 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S2",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S2",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S2 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S2의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S2:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 11 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S2 A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 restyled from iteration 1000 | | Iterations | resume R at 1000 -> 2000 (global batch 2048, training seed 42) | | Success, standard scenes | 95.2 +/- 0.7 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 87.9 +/- 2.7 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S_worst (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S_worst",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S_worst",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S_worst 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S_worst의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S_worst:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 5 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S_worst A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 568 restyled the gate scored worst | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.3 +/- 0.3 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 88.4 +/- 1.7 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S_best (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S_best",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S_best",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S_best 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S_best의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S_best:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 5 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S_best A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 568 restyled the gate scored best | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.3 +/- 1.2 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 83.2 +/- 1.6 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S5_all (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_all",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S5_all",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S5_all 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S5_all의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S5_all:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 14 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S5_all A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1895 restyled (styles 1-5) | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 93.6 +/- 1.0 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 87.1 +/- 1.4 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S_all (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S_all",
+   "date": "2026-10-19 05:15",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S_all",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 S_all 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 S_all의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S_all:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 16 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S_all A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 restyled (styles 1-3) | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 94.5 +/- 1.2 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 87.1 +/- 1.2 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-D_half (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D_half",
+   "date": "2026-10-19 05:16",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-D_half",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Nano LIBERO-10 합성 데이터 연구 셀 D_half 모델 공개",
+    "korean_summary": "NVIDIA가 로봇 학습 합성 데이터 재구성 연구 조건 D_half의 Cosmos3-Nano 정책 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-D_half:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 15 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell D_half A Cosmos3-Nano action policy post-trained on LIBERO-10, one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 568 duplicates | | Iterations | 0->2000 (global batch 2048, training seed 42) | | Success, standard scenes | 94.0 +/- 0.5 % (10 tasks x 50 initial states, three evaluation seeds) | | Success, perturbed scenes | 85.9 +/- 2.6 % (same initial states with randomised lighting, textures, skybox and camera jitter) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-seed spread. Licence: derivative of `nvidia/Cosmos3-Nano`; the NVIDIA Open Model License applies."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Parse (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+   "date": "2026-10-19 03:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Parse",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Parse 모델 업데이트",
+    "korean_summary": "NVIDIA의 문서 이미지 파서 VLM Nemotron-3.5-Parse가 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Parse:2026-10-19",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse, text-generation, VLM, OCR, Parse, image-text-to-text, conversational, custom_code, eval-results · downloads 333 · likes 16. README:  # Nemotron 3.5 Parse ### Description: Nemotron 3.5 Parse is a document image parser that produces structured, machine-readable text with semantic layout classes, bounding boxes, and reading order. It combines a C-RADIOv4-SO400M vision encoder with a 10-layer mBART decoder that consumes the visual sequence as a causal prefix. The release uses dynamic rectangular NaViT preprocessing, content-normalized coordinates, grouped-query self-attention (16 query heads and 8 key/value heads), a 72,505-token multilingual tokenizer, and chart-aware output through the ` ` token. It is intended for document understanding, information retrieval, data extraction, and multimodal data-curation workflows. Nemotron 3.5 Parse was developed by NVIDIA as a part of Nemotron. This model is ready for commercial or non-commercial use. ## Benchmark highlights Detailed benchmarks: [ParseBench](#parsebench) · [IndicVisionBench](#indicvisionbench-ocr) · [MOSCAR](#moscar-multilingual-ocr). | Model | Mean ↑ | Tables ↑ | Charts ↑ | Content Faithfulness ↑ | Semantic Formatting ↑ | Visual Grounding ↑ | | :--- | ---: | ---: | ---: | ---: | ---: | ---: | | **Nemotron 3.5 Parse** | **75.20** | **84.67** | **64.40** | **87.96** | **68.28** | **70.67** | ParseBench results use triple pass with region union on 2,078 unique pages. See [pipeline details](#parsebench), [reproduction instructions](reference/parsebench/pipeline/README.md), and [evaluation results](reference/parsebench/pipeline/validation_metrics.json). Add"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.6
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 96,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 8,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 20.0
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 47,
+   "enriched": 18,
+   "error": "",
+   "sec": 4.8
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 10,
+   "enriched": 10,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
