@@ -1,0 +1,2229 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-21",
+ "window": [
+  "2026-10-20",
+  "2026-10-21"
+ ],
+ "generated": "2026-10-21T08:59:44+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "중국 ByteDance·Alibaba·Tencent가 수출규제 준수형 **RTX Pro 5500** GPU 350억 달러를 주문했으나 생산능력 초과로 공급에 차질이 발생했다.",
+  "NVIDIA가 Isaac Lab 3.0을 정식 출시해 **Newton 물리 백엔드**와 Kit-less 실행으로 로봇 강화학습 아키텍처를 재편했다.",
+  "NVIDIA가 독일 Agile Robots 등 AI 스타트업 4곳에 투자하며 **유럽 100억 달러** 규모 AI 파트너십 확대에 나섰다."
+ ],
+ "cards": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "isaac-sim/IsaacLab v3.0.0",
+   "link": "https://github.com/isaac-sim/IsaacLab/releases/tag/v3.0.0",
+   "date": "2026-10-20 11:32",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "isaac-sim/IsaacLab",
+    "version": "v3.0.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "Isaac Lab 3.0 메이저 릴리스",
+    "korean_summary": "NVIDIA Isaac Lab 3.0이 Newton 물리 엔진, OV Libraries 등 신규 아키텍처를 포함한 메이저 업데이트를 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "Isaac Lab 3.0 정식 출시, Newton 물리 백엔드와 Kit-less 실행으로 로봇 학습 아키텍처 재편",
+    "korean_summary": "NVIDIA의 Isaac Lab 프로젝트가 v3.0.0을 정식 출시해 Newton 물리 백엔드와 OV 라이브러리를 통한 Kit-less 실행을 도입함으로써 Isaac Sim 없이도 로봇 강화학습을 수행할 수 있는 모듈형 구조를 구축했다.",
+    "action": {
+     "actor": "Isaac Lab (isaac-sim/IsaacLab, NVIDIA 주도 오픈소스 프로젝트)",
+     "action": "v3.0.0 정식 릴리스 발표 및 Newton 물리 백엔드·OV 라이브러리 기반 Kit-less 실행 구조 도입",
+     "stage": "Available",
+     "timeline": "미확인 (릴리스 태그 v3.0.0, 구체 발표일은 본문에 없음)",
+     "scope": "Isaac Sim 6.2, Python 3.12, PyTorch 2.11/CUDA 13.0, Warp 1.17, Newton 1.6.1, RSL-RL 5.5.1 환경 지원, 신규 프로젝트 및 Isaac Lab 2.x 마이그레이션 대상"
+    },
+    "key_facts": [
+     "**v3.0.0은 Isaac Lab 2.x에서 마이그레이션하는 신규 프로젝트의 공식 권장 베이스라인**",
+     "Newton은 Warp-native 물리 백엔드로 MuJoCo-Warp, VBD, MPM 등 다중 솔버 경로를 지원하며 rigid body, deformable, particle을 하나의 엔진에 묶지 않고 처리",
+     "**OV Libraries(OVPhysX, OVRTX)를 통해 PhysX와 RTX 렌더링을 Isaac Sim 없이 독립 라이브러리로 사용 가능(Kit-less)**",
+     "Isaac Sim은 ROS bridge, XR, livestreaming, Kit tooling 등 전체 스택이 필요할 때 선택적으로 사용되는 완전한 경로로 유지됨",
+     "타겟 스택: Isaac Sim 6.2, Python 3.12, PyTorch 2.11+CUDA 13.0, NVIDIA Warp 1.17, Newton 1.6.1, RSL-RL 5.5.1"
+    ],
+    "why_matters": "**로봇 학습 파이프라인이 단일 물리 엔진 종속에서 벗어나 다중 솔버·백엔드를 선택적으로 조합하는 모듈형 구조로 전환**되는 것은 시뮬레이션 기반 RL 워크플로우의 설치·실행 장벽을 낮추는 구조적 변화다. 이는 Isaac Sim 풀스택 없이도 경량 학습 루프를 구성할 수 있게 하여, 개발자 저변 확대와 클라우드/분산 학습 효율화에 영향을 줄 수 있다.",
+    "subject_angle": "**NVIDIA는 Isaac Sim을 선택적 옵션으로 두고 Warp-native 경량 백엔드(Newton, OV Libraries)를 전면에 내세워 Isaac 생태계의 진입장벽을 낮추는 전략**을 취하고 있으며, 이는 자체 생태계(Warp, CUDA) 의존도는 유지하면서 외부 물리 엔진(MuJoCo 등)과의 상호운용성을 넓히는 포지셔닝으로 읽힌다.",
+    "focus_angle": "자율주행·휴머노이드 로봇 OEM 입장에서는 Kit-less 구조로 무거운 Isaac Sim 설치 없이도 강화학습 파이프라인을 구축할 수 있어, **대규모 분산 학습 환경에서의 비용·인프라 부담이 줄고 다양한 물리 시뮬레이션(변형체·입자 포함) 기반 휴머노이드 조작 학습이 용이해질 수 있다**. 다만 본문에 구체적 OEM 적용 사례나 자율주행 적용 일정은 언급되지 않아 산업 적용 시점은 미확인이다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Isaac Lab, Isaac Sim, Warp, Newton 등 핵심 기술 스택 제공 주체(추정, 본문에 명시적 소유 표기는 없으나 isaac-sim 조직 및 Isaac Sim 연계로 확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Isaac Lab",
+      "role": "로봇 학습을 위한 통합 태스크 API 및 워크플로우 프레임워크, v3.0.0 릴리스 대상"
+     },
+     {
+      "name": "Newton",
+      "role": "Warp-native 물리 백엔드, MuJoCo-Warp/VBD/MPM 솔버 지원"
+     },
+     {
+      "name": "OV Libraries (OVPhysX, OVRTX)",
+      "role": "Kit 없이 PhysX 물리와 RTX 렌더링을 독립적으로 제공하는 라이브러리"
+     },
+     {
+      "name": "Isaac Sim",
+      "role": "ROS bridge, XR, livestreaming 등 풀스택 기능이 필요할 때 사용하는 완전한 시뮬레이션 환경(이제 선택적)"
+     },
+     {
+      "name": "NVIDIA Warp",
+      "role": "데이터 경로 및 Newton 백엔드의 기반 프레임워크, v1.17 지원"
+     },
+     {
+      "name": "RSL-RL",
+      "role": "강화학습 라이브러리, v5.5.1 지원 대상"
+     }
+    ],
+    "watch_next": [
+     "Newton 백엔드의 MuJoCo-Warp 솔버가 실제 휴머노이드/매니퓰레이션 벤치마크에서의 성능 비교 공개 여부",
+     "Isaac Lab 2.x에서 3.0으로의 커뮤니티 마이그레이션 사례 및 호환성 이슈",
+     "Kit-less 워크플로우가 실제 OEM·로보틱스 기업의 대규모 학습 파이프라인에 채택되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "gh:isaac-sim/IsaacLab:v3.0.0",
+   "body": "Isaac Lab 3.0 Isaac Lab 3.0 is now generally available. v3.0.0 is the official Isaac Lab 3.0 release and the recommended baseline for new projects and migrations from Isaac Lab 2.x. Isaac Lab 3.0 establishes the foundation for the next generation of robot learning in Isaac Lab: one task API across multiple physics, rendering, and visualization backends; kit-less execution with Newton and OV library backends; Warp-native data paths; and unified workflows from installation through training, evaluation, and deployment. Newton is a Warp-native physics backend with multiple solver paths, including MuJoCo-Warp, VBD, and MPM. It lets Isaac Lab support rigid bodies, deformables, and particles without tying tasks to one physics engine. OV Libraries provide OVPhysX for PhysX and OVRTX for RTX rendering as standalone libraries. Isaac Sim remains the complete path when a workflow needs the full PhysX/RTX stack, ROS bridge, XR, livestreaming, or Kit tooling, but now fully optional. MicroDuck rendering VBD cable insertion MPM liquid pouring One task API; install and run only the capabilities you need. This release targets Isaac Sim 6.2, Python 3.12, PyTorch 2.11 with CUDA 13.0, NVIDIA Warp 1.17, Newton 1.6.1, and RSL-RL 5.5.1. Try Isaac Lab 3.0 Install uv , clone the official release, and launch a Newton workflow: git clone --branch v3.0.0 --depth 1 https://github.com/isaac-sim/IsaacLab.git cd IsaacLab uv run isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole \\ --viz newton_gl \\ physics=newton_mjwarp For standalone PhysX and RTX rendering, install the OV libraries: uv run --extra ov isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole-Camera \\ --viz newton_gl \\ physics=ovphysx \\ renderer=ovrtx \\ presets=rgb For the complete Isaac Sim experience, including Isaac Sim PhysX, Isaac Sim RTX, ROS bridge, XR, livestreaming, and Kit tooling: uv run --extra isaacsim isaaclab train \\ --rl_library rsl_rl \\ --task Isaac-Cartpole \\ --viz kit \\ physics=isaacsim_physx See the"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+   "link": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+   "date": "2026-10-20 11:16",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, 유럽 AI 부문에 100억 달러 투자 약속, 독일 로봇 회사 Agile Robots 포함",
+    "korean_summary": "NVIDIA가 유럽 AI 부문에 거의 100억 달러 투자를 약속하면서 제조용 AI 로봇 개발사 Agile Robots를 포함한 4개 독일 스타트업에 자금 지원 계획 발표"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 독일 AI 스타트업 4곳에 투자 발표…독일 총리 '기업들, AI에 문을 열어라'",
+    "korean_summary": "NVIDIA가 독일 산업용 AI 경쟁력 강화를 위해 Agile Robots 등 4개 스타트업에 투자하며 유럽 전역에 약 100억 달러 투자 계획의 일환임을 밝혔다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "독일 스타트업 4곳(Agile Robots, Avelios Medical, Mirelo, Reflex Aerospace) 투자 발표 및 독일 연방정부와 Industry 4.0 Platform 협력 확대, 산업용 AI 모델 공동 선언문 서명",
+     "stage": "Announced",
+     "timeline": "2026년 10월 Invest in Germany Summit(베를린), Huang은 수요일 베를린 키노트 예정",
+     "scope": "독일 산업 AI 생태계, 유럽 전역 약 $10 billion 투자 공약의 일부"
+    },
+    "key_facts": [
+     "**NVIDIA는 유럽 전역 기업·대학·연구기관에 약 $10 billion 투자 공약의 일환으로 이번 발표를 진행했다**",
+     "투자 대상 4개 스타트업 중 Agile Robots는 제조·물류·헬스케어용 AI 기반 로봇을 개발",
+     "투자 규모는 공개되지 않음(미확인)",
+     "독일 정부는 NVIDIA와 산업용 AI 모델 발전을 위한 공동 의향서(joint declaration of intent)에 서명",
+     "**Siemens는 NVIDIA와 협력해 Erlangen 공장에서 엔지니어링 작업을 최대 85%, 생산계획 비용을 최대 20% 절감하는 AI 솔루션을 발표**"
+    ],
+    "why_matters": "**NVIDIA는 산업용 AI·제조업 분야로 투자를 확장하며 유럽, 특히 독일의 전통 제조 강국을 AI 생태계로 끌어들이고 있다**. Siemens와의 협업 성과(엔지니어링 85% 절감)는 산업 자동화·로봇 분야에서 NVIDIA 플랫폼의 실질적 ROI를 입증하는 사례로 경쟁사 대비 영향력을 강화한다.",
+    "subject_angle": "**NVIDIA는 칩 판매를 넘어 스타트업 투자·정부 협력·산업 플랫폼(Industry 4.0 Platform) 구축을 통해 유럽 산업 AI 생태계의 핵심 허브로 자리매김하려는 전략을 보인다**. 프랑스에 이어 독일에서도 동일한 투자·파트너십 모델을 반복하며 유럽 전역에 걸친 지역 확장 전략을 공식화하고 있다.",
+    "focus_angle": "**Agile Robots에 대한 투자는 NVIDIA가 제조·물류·헬스케어용 AI 로봇 개발 기업을 직접 지원함으로써 휴머노이드·산업로봇 생태계로의 영향력을 확대하려는 움직임을 보여준다**. 또한 Siemens의 공장 자동화 AI 사례는 자동차 산업 등 제조업 전반에 적용 가능한 생산계획·엔지니어링 최적화 모델로, OEM들의 스마트 팩토리 전환 논의에 참고 사례가 될 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "투자자, 독일 정부·Siemens와 협력 주체"
+     },
+     {
+      "name": "Agile Robots",
+      "context": "NVIDIA 투자 대상, 제조·물류·헬스케어용 AI 로봇 개발사"
+     },
+     {
+      "name": "Avelios Medical",
+      "context": "NVIDIA 투자 대상, AI 기반 병원관리 소프트웨어 개발사"
+     },
+     {
+      "name": "Mirelo",
+      "context": "NVIDIA 투자 대상, 영상용 AI 오디오 생성 모델 개발사"
+     },
+     {
+      "name": "Reflex Aerospace",
+      "context": "NVIDIA 투자 대상, 위성 설계·제작사"
+     },
+     {
+      "name": "Siemens",
+      "context": "NVIDIA와 협력해 Erlangen 공장용 AI 산업 솔루션 발표"
+     },
+     {
+      "name": "German Federal Government",
+      "context": "NVIDIA와 Industry 4.0 Platform 협력 확대, 공동 의향서 서명"
+     }
+    ],
+    "products": [
+     {
+      "name": "Industry 4.0 Platform",
+      "role": "독일 정부·산업·연구기관이 참여하는 산업 AI 가속 협력체"
+     }
+    ],
+    "watch_next": [
+     "4개 독일 스타트업에 대한 NVIDIA 투자 규모 공개 여부",
+     "수요일 베를린에서 예정된 Jensen Huang 키노트 내용",
+     "Siemens-NVIDIA 산업 AI 솔루션의 자동차 제조 분야 적용 확대 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "‘Open your doors for AI’: German chancellor urges businesses to embrace AI as Nvidia announces new investments",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWY2TFFHY3ZtRy1oc2w2YkZyQ0FxSnhSRzZCTmxBVVJNNFdtUXZEQ29UZ1FXYm5yMXFXZ1NZSHVKMjBuWm9ydVc1bVp4cXBwZnFqcmFZOFl5MnZvM2psWlM5aTNuNlUwbDhjejBBMTZQT1JBSkk4bDFYWkV0SEQ2WGp4SUVkaUFnY3lZa19R0gGTAUFVX3lxTE5RaEk5ZVNWazYwOHFKT1ZxaGpBUVY3em5JX1hxS3Y3Q0NTZE96QnhKWVd1dHVpb25YS09Ielc1RjNCN0ktUERHMllFSV9fMllzNDZRbTQyTGEwZ2YyTHRmSlFjMXlBcjBtcHpjNGhOZTQ3MEpGTURzZzR4bEctbldqRkgzNC1sd21CY24zTk1MYllyOA?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/10/20/german-chancellor-urges-businesses-to-embrace-ai.html",
+   "body": "Nvidia is increasing its investments in Europe's artificial intelligence sector, unveiling plans to back four German startups as the country pushes to strengthen its position in industrial AI. The investments are part of the U.S. chipmaker's nearly $10 billion commitment to invest in companies, universities and research institutions across Europe, as announced at the Invest in Germany Summit in Berlin on Monday. The four startups are Agile Robots, Avelios Medical, Mirelo and Reflex Aerospace. However, Nvidia did not disclose the size of the planned investments. Agile Robots develops AI-powered robots for manufacturing, logistics and healthcare, while Avelios Medical builds AI-powered hospital management software. Mirelo develops AI models that generate audio for videos, while Reflex Aerospace designs and builds satellites. The announcement comes as Germany seeks to accelerate AI adoption across its industrial sector, with Chancellor Friedrich Merz saying the country aims to become a leader in integrating AI into key sectors. Merz, who described the technology as a major opportunity for the country's economy, named manufacturing, machinery and the automotive industry for integrating AI. He also urged Germany's small- and medium-sized businesses to capitalize on the data they already hold. \"Please open your doors for AI to make use of your data,\" Merz said. \"This is a real secret and a real advantage for Germany to make use of all the data which is already available in our companies.\" Nvidia CEO Jensen Huang echoed Merz's remarks while highlighting Germany's expertise in manufacturing, mathematics and science, saying that AI would strengthen rather than replace the country's industrial capabilities. \"AI can only augment your capability, it will not replace your capability,\" Huang said, describing the technology as a new instrument for businesses. Nvidia is also expanding its collaboration with the German federal government and its \"Industry 4.0 Platform,\" bringing together representatives from government, industry, research and trade associations, to accelerate the adoption of industrial AI. On Monday, the government signed a joint declaration of intent with Nvidia to advance AI models for industrial applications. Earlier in the day, Siemens had also announced new AI solutions developed with Nvidia at its factory in Erlangen, Germany. Siemens said the technologies could reduce engineering work involved in preparing production by up to 85%, while AI-powered production planning could cut costs by as much as 20%. Huang had also visited France last week, where he announced investments in four French startups and met with French President Emmanuel Macron to discuss AI development. The Nvidia boss is scheduled to deliver a keynote address in Berlin on Wednesday."
+  },
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "South Korea's MDS Tech to Supply approximately $3 Million Nvidia 'Jetson Full Package' for Home Humanoid Robot Project",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ucU9kbGdFdnRkNjRkLThSOTE3YkdPUk1oamhJejBFMTVZSWdDMk1WQll0M1VDdkEta2h1UHRVZndGTVBwNTFwd2lzWXp5R0NpNFJKMURqMDdMRUl5a2I0M2ctRS1FU3NWblhIUERkb21zUk1vX0E?oc=5",
+   "date": "2026-10-21 07:05",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "MDS Tech, 홈 휴머노이드 로봇용 NVIDIA Jetson 약 300만 달러 규모 공급",
+    "korean_summary": "남한 MDS Tech가 홈 휴머노이드 로봇 프로젝트용으로 약 300만 달러의 NVIDIA Jetson Full Package를 공급하기로 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ucU9kbGdFdnRkNjRkLThSOTE3YkdPUk1oamhJejBFMTVZSWdDMk1WQll0M1VDdkEta2h1UHRVZndGTVBwNTFwd2lzWXp5R0NpNFJKMURqMDdMRUl5a2I0M2ctRS1FU3NWblhIUERkb21zUk1vX0E",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "China’s tech giants drop $35 billion on export-compliant Nvidia RTX Pro 5500 workstation GPU orders to power AI ambitions, according to reports",
+   "link": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+   "date": "2026-10-20 21:10",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "regulation"
+    ],
+    "korean_title": "중국 기업 ByteDance·Alibaba·Tencent가 350억 달러 규모 RTX Pro 5500 주문",
+    "korean_summary": "중국 기술 거대기업 3사가 미국 수출 규제 준수 제품인 RTX Pro 5500에 330만 개 이상, 350억 달러를 초과하는 주문을 했으나 NVIDIA가 생산 능력 부족으로 일부 주문을 충족할 수 없다고 발표"
+   },
+   "summary_data": {
+    "korean_title": "ByteDance·Alibaba·Tencent, 수출규제 준수형 Nvidia RTX Pro 5500에 350억 달러 주문... 생산능력 초과로 공급 차질",
+    "korean_summary": "중국 빅테크 3사가 AI 역량 확보를 위해 수출규제를 준수하는 Nvidia RTX Pro 5500 워크스테이션 GPU 300만 장 이상을 주문했으나, Nvidia의 계획된 생산량을 크게 초과해 수요의 일부만 충족 가능한 상황이다.",
+    "action": {
+     "actor": "ByteDance, Alibaba, Tencent",
+     "action": "Nvidia RTX Pro 5500 GPU 300만 장 이상, 총 350억 달러 규모 주문",
+     "stage": "Report",
+     "timeline": "미확인 (Nvidia는 2027년까지 300만 장 생산 가능으로 보도됨)",
+     "scope": "RTX Pro 5500 워크스테이션 GPU, 중국 시장"
+    },
+    "key_facts": [
+     "소식통에 따르면 **중국 3사의 주문 규모가 300만 장 이상, 총 350억 달러**에 달함",
+     "GPU 1장당 가격은 약 $11,400로 추정됨",
+     "Nvidia는 **2027년까지 전 세계적으로 RTX Pro 5500을 300만 장만 생산 가능**하다고 보도됨",
+     "한 소식통은 Nvidia가 파트너들에게 수요의 5~10%만 충족 가능하다고 통보했다고 전함",
+     "RTX Pro 5500은 RTX 5090과 동일한 CUDA 코어 수에 84GB GDDR7 메모리를 탑재했으며, 현재 미국의 대중국 수출 제한 대상이 아님"
+    ],
+    "why_matters": "H200, B300 등 고성능 AI GPU가 수출 제한된 상황에서 **RTX Pro 5500이 중국 AI 모델 개발의 사실상 대체재로 부상**했으며, 수요가 Nvidia의 생산능력을 압도적으로 초과하는 상황은 미국 수출통제의 실효성과 공급망 병목 문제를 동시에 드러낸다. 이는 미중 AI 경쟁 구도에서 수출규제의 허점과 반도체 공급 부족이라는 두 가지 이슈가 겹치는 사례다.",
+    "subject_angle": "Nvidia는 **대중국 수출규제를 준수하면서도 AI 수요를 흡수할 수 있는 제품 라인(RTX Pro 5500)**을 통해 중국 시장 매출을 유지하고 있으나, 생산능력 한계로 인해 이 수요를 충분히 포착하지 못하고 있어 추가 생산 확대나 공급망 투자 필요성이 커지고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "ByteDance",
+      "context": "RTX Pro 5500 대량 주문 고객"
+     },
+     {
+      "name": "Alibaba",
+      "context": "RTX Pro 5500 대량 주문 고객"
+     },
+     {
+      "name": "Tencent",
+      "context": "RTX Pro 5500 대량 주문 고객"
+     },
+     {
+      "name": "Nvidia",
+      "context": "GPU 공급사, 생산능력 초과로 주문 충족 불가"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia RTX Pro 5500",
+      "role": "수출규제 준수형 워크스테이션 GPU, 중국 AI 애플리케이션용 핵심 주문 대상"
+     },
+     {
+      "name": "Nvidia H200",
+      "role": "비교 대상, 수출 제한/금지된 고성능 AI GPU"
+     },
+     {
+      "name": "Nvidia B300",
+      "role": "비교 대상, 수출 제한/금지된 고성능 AI GPU"
+     }
+    ],
+    "watch_next": [
+     "Nvidia의 RTX Pro 5500 생산능력 확대 계획 발표 여부",
+     "미국 정부의 추가 수출규제 또는 RTX Pro 5500 규제 대상 포함 여부",
+     "실제 공급 물량 및 중국 기업들의 공식 확인 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/chinas-tech-giants-drop-usd35-billion-on-export-compliant-nvidia-rtx-pro-5500-workstation-gpu-orders-to-power-ai-ambitions-according-to-reports-bytedance-alibaba-and-tencent-order-3-million-cards-despite-warnings-that-only-10-percent-of-orders-are-fulfillable",
+   "body": "Chinese technology giants ByteDance, Alibaba and Tencent have reportedly spent over $35 billion on orders for more than 3 million Nvidia RTX Pro 5500 workstation GPUs. The huge order for the RTX Pro 5500, fully compliant with U.S. restrictions on exports of AI-capable GPUs to China, is reportedly far beyond Nvidia's planned production for this card. As a result, Nvidia has, according to sources who spoke to Reuters , told its customers that it isn't in a position to fill the orders as it far outstrips its planned production for this GPU. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible The RTX Pro 5500 is a workstation GPU with the same number of CUDA cores as its flagship RTX 5090 GPU, but with 84GB of GDDR7 memory attached, making it a good option for AI applications. The RTX Pro 5500 is a popular choice at the moment for Chinese buyers as exporting it isn't currently restricted by the U.S. government. It's less powerful than the H200 and B300, Nvidia's AI-focused GPUs for the enterprise market, but those GPUs remain either banned or heavily restricted. As China competes with the U.S. in the race to produce newer, better AI models, GPUs like the RTX Pro 5500 continue to be indispensable. The report reveals some interesting data about the Chinese tech firms orders. Two of its sources revealed that the cards are priced at around $11,400 each, reaching a total order value of $35 billion. Meanwhile, another source suggested that Nvidia has informed its partners that it may only be able to deliver enough cards to meet between 5% and 10% of the demand. Meanwhile, Nvidia is reportedly in a position to only produce 3 million RTX Pro 5500 cards globally in 2027. Neither Nvidia nor the three Chinese companies have confirmed any of this on the record. However, an Nvidia spokesman told Reuters that demand from the Chinese market for these chips has faced \"unprecedented growth since 2022\" since export restrictions were introduced. \"U.S. firms continue to be restricted by a combination of outdated U.S. export controls, which cover gaming products released nearly half a decade ago, and China's own limits on U.S. imports.\" While trade hostility between the U.S. and China shows no sign of abating, demand for Nvidia's GPUs hasn't slowed down, despite U.S. attempts to restrict Nvidia's ability to export to China. Meanwhile, export-restricted Nvidia AI chips continue to reach China despite the restrictions, bypassing the Trump administration's efforts in the process."
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "EXCLUSIVE: ByteDance, Alibaba, Tencent place over $35 billion worth of Nvidia chip orders",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw?oc=5",
+   "date": "2026-10-21 00:51",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "ByteDance·Alibaba·Tencent, 350억 달러 규모 엔비디아 칩 주문 확인",
+    "korean_summary": "중국 주요 IT 기업 3사가 350억 달러 이상 규모의 엔비디아 칩을 주문했다는 로이터 단독 보도"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Taipei Times",
+     "title": "ByteDance, Alibaba, Tencent place over US$35 bn worth of Nvidia chip orders",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwX3ZjOGNSSGNQWHVZZWhvYXNJZllweVFGd0pNanRuQXRHYXZuWC1SdGdyNUlyc0g0R3JrbGcwc0lBZERoN1RDQjFVTmpDc1ZNV0Jud2Ffc05iV3V1ZHNmaFVYTVA0emp0c0VzcHByVVNEOUFzU3c?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOXBuUld1bXhxNWlQNktuUmYxOWpVRFlnN0dialpvZlhYM1JLVzE1N0VBSUVNbUlCNmwtN2RVWXRkd1VUV3BRSV9aMGJGMkpxQUk4VWZ1dUt5YjZpdmthQVZ3REFHUzBmV3B0SFJwOFFsMl9fb3l0Y3F0Z1FXbDAxSFhTbV9peVVDQ3FKRnp3NjVDdEpRVHdIOG04SjctLWRRTzN2bDM1a2QxaGdZMHlJV0hGS1FObHFKTVNiS3hvXzZsUzdvMktteFBvSGNEZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reportedly Sees Alibaba, ByteDance, Tencent Order $35B In RTX PRO 5500 Chips Amid US Export Curbs",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2RVUTh6TU1FUnhqeTlFQi10b3RublpRWmUwSnNBNlA0SXlyTGxGd2lfNmxFSFpMQlh2WEdKZlVHMExtbjV5azVUbE1fV3RLMmtvRG1vQnFNS2o2V0p4SzJRSGlWNC1rTkFGOU1IaEFDUHMzSjhjNV9tbTBVNW5USGtQOXQ2cEpzelVKZUhkMnhGZmJMNE5obW5XOHphYzFkYXdQRWFTUQ?oc=5",
+   "date": "2026-10-20 19:48",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 미국 수출 규제 와중 중국 기업들의 RTX PRO 5500 칩 $35B 주문 획득",
+    "korean_summary": "Alibaba, ByteDance, Tencent 등이 미국 수출 규제를 앞두고 RTX PRO 5500 칩 $35B 규모 주문 체결"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2RVUTh6TU1FUnhqeTlFQi10b3RublpRWmUwSnNBNlA0SXlyTGxGd2lfNmxFSFpMQlh2WEdKZlVHMExtbjV5azVUbE1fV3RLMmtvRG1vQnFNS2o2V0p4SzJRSGlWNC1rTkFGOU1IaEFDUHMzSjhjNV9tbTBVNW5USGtQOXQ2cEpzelVKZUhkMnhGZmJMNE5obW5XOHphYzFkYXdQRWFTUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reportedly Just Landed $35 Billion In Chip Orders From Chinese Companies. Here's Why That Could Be Great News for the Stock",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdGNMZVNmM3VNVm45Ym1FR0Vfa25pZ29uTV9YQWNJbWljWnhEaUM5T2RudzVCQkduSjdWUkNseDhIemJ6VXo0c3lIOFl2UVN0Y2R0ZlpiTU1zeFdRVU1pNERmMVpMYWc0VVZuOW1fSXl5aVVXblpsY1pqb0lZSHlLQTJ0YjJYWGdoWEJVWnRZNHBqUzk0N0hxcmZWakxoQQ?oc=5",
+   "date": "2026-10-21 03:28",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 중국 기업들로부터 $35B 칩 주문 획득...주가 상승 신호",
+    "korean_summary": "NVIDIA가 중국 회사들로부터 $35B 규모의 칩 주문을 받아 긍정적 전망 제시"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Nvidia Reportedly Just Landed $35 Billion In Chip Orders From Chinese Companies. Here's Why That Could Be Great News for the Stock",
+     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPQzRGV0hXSU9UUkFyeVFmQ1lqaC15clpqaWFnRkFJdm5TRjg5cVZfdVpRN2toc1FnaXJWZHdybzAwS1I2U3RwblA5NU80T21NVFBrYko1M1BsOXQxemJGRERHc1hnNmxsOVVPQXZqd2c3TnZBZ3NxZENsUFhabFJiRFJERjUzSnFSR0tVQ21fS3VRdFJWOUtLZXhYYUhzTmxjV3gzZHhSM0V2SzVLWnRMTk9LeVN0Umx5OWk5YVR3YlhJaW0wUnRSUTgtMFV4a0NvNkJydFVWd25EdE9TNmh2WkhXczZqcTFrU1pNZHFVNEs2amdNaF9OLWdmMF9OTnI1TGozcw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdGNMZVNmM3VNVm45Ym1FR0Vfa25pZ29uTV9YQWNJbWljWnhEaUM5T2RudzVCQkduSjdWUkNseDhIemJ6VXo0c3lIOFl2UVN0Y2R0ZlpiTU1zeFdRVU1pNERmMVpMYWc0VVZuOW1fSXl5aVVXblpsY1pqb0lZSHlLQTJ0YjJYWGdoWEJVWnRZNHBqUzk0N0hxcmZWakxoQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quartz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ByteDance, Alibaba and Tencent ordered over $35 billion of Nvidia chips at list price",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD?oc=5",
+   "date": "2026-10-21 02:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "바이트댄스·알리바바·텐센트, NVIDIA 칩 350억 달러 규모 구매",
+    "korean_summary": "중국 주요 기술 회사들이 NVIDIA 칩 350억 달러 이상을 정가로 주문했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · RTTNews",
+     "title": "ByteDance, Alibaba, Tencent Order Over $35 Bln Of Nvidia Chips: Reports",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdG53NTNyYnlFOHBVcFI4Sk11TDQwendmUFAwcF9MYnNwcDdtN0tuRmRfNHAxeGloNXZCXzNaRDA2RnZMTlNjRTl0M09iYzV5UkhtVzMtWVRGd0t5aGwyZ1hOOGxnNWI0ZXprVzdZMlhZU2dKMUk4dGVHRlVYMnVKMzh3UUgtREVWSjc1S1RiS25SUkxiS2lxbDV1R2lmY1JXWGU3bTloUk9SbkRR?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbEFyVG5DU1FlMGlta2xxNGoyYkVfalJtcHJfUVdYVkNnMjluNVVGLXNmUzBnczVFWGtiUmNKNEhBYjc0NHM4UlVIRXV6cDZ0MW5oUmFXTHltZFRMam9CX3J4YmdYNERKb3VjNlEteVNTSzBD",
+   "body": ""
+  },
+  {
+   "source": "Google News · Semafor",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Chinese tech firms purchase more than $35 billion of Nvidia chips: Reuters",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObkVSTm9IU1ZCbVg4MzFEdFc4Qi1QQTFWWVkyMUNpbld5WHVoRVh0MHBWU05RZnF6MS1JNkdyc2ZvdFEwZC1IX2N1algwSmhZQnRFYWFiR2lqX0hZZmJpdnNOUmNrUnpyQmk1N0hnZFgyX0c5ZEllTjk0T0VJUEVjdV9CY2lOd0R1b2FBUC1QcmktXzc2aVZzM0lqeUZOalJWSVhlNnVXY25heHRCVG9hWldxdWpwZw?oc=5",
+   "date": "2026-10-21 07:44",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국 기술 회사, NVIDIA 칩 350억 달러 이상 구매 (Reuters)",
+    "korean_summary": "Reuters 보도에 따르면 중국 기업들이 NVIDIA 칩을 350억 달러 이상 구매했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObkVSTm9IU1ZCbVg4MzFEdFc4Qi1QQTFWWVkyMUNpbld5WHVoRVh0MHBWU05RZnF6MS1JNkdyc2ZvdFEwZC1IX2N1algwSmhZQnRFYWFiR2lqX0hZZmJpdnNOUmNrUnpyQmk1N0hnZFgyX0c5ZEllTjk0T0VJUEVjdV9CY2lOd0R1b2FBUC1QcmktXzc2aVZzM0lqeUZOalJWSVhlNnVXY25heHRCVG9hWldxdWpwZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Has Put More Than $170 Billion on the Line for Neoclouds",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOODVkMllFWHVFZGhLWXdiSGdOVHF3UjBsVUdMMGxoRFF2aUJNRU13TkhKSzdjblI3a0FGVjE2TjRFUS1vRXJjLVJ5Z1A1M0Y4UTFmT0lGWXQ4NU9XNG1mNjZaU2c4NHU1REFLMXA4cC1hcDhsRFc3aF9zbEFsUDBqbEJmdw?oc=5",
+   "date": "2026-10-21 07:09",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아, 신규 클라우드 인프라에 1,700억 달러 이상 투자",
+    "korean_summary": "엔비디아가 Neoclouds 등 신규 클라우드 사업에 1,700억 달러를 초과하는 자금을 투입했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOODVkMllFWHVFZGhLWXdiSGdOVHF3UjBsVUdMMGxoRFF2aUJNRU13TkhKSzdjblI3a0FGVjE2TjRFUS1vRXJjLVJ5Z1A1M0Y4UTFmT0lGWXQ4NU9XNG1mNjZaU2c4NHU1REFLMXA4cC1hcDhsRFc3aF9zbEFsUDBqbEJmdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia secures $35B in orders for new export-compliant GPU from Chinese tech giants: report (NVDA:NASDAQ)",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcDdhT2VESW5tcVFjMFMyM19Bb1cwQkJRN1ozdHd4Z2h1SnV0SllPQ2lDUkRwUHA0UjZLcldtNTB1WExDRVJlc1pnejBIMzg5aVdsaXc2WmZDZ0FxZjNLR1lQX0c0bzl3V3lWS3RtOVVNMlJHNVZpUG5nTU9MZUJLVm52M3hDQ0M3UHZZbVVlQXNCT3VLWGFnMWdCNWJxMVM4S3pwNHZibUNjOWlqcGplZlY0UFJiMWoxa2dtamVfX0FNQnRhd2c?oc=5",
+   "date": "2026-10-20 23:08",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "export-control"
+    ],
+    "korean_title": "엔비디아, 중국 기술 거대 기업으로부터 350억 달러 수출규제 준수 GPU 주문 확보",
+    "korean_summary": "중국 기술 거대 기업들이 엔비디아의 수출규제 준수 GPU 350억 달러 주문을 확보했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcDdhT2VESW5tcVFjMFMyM19Bb1cwQkJRN1ozdHd4Z2h1SnV0SllPQ2lDUkRwUHA0UjZLcldtNTB1WExDRVJlc1pnejBIMzg5aVdsaXc2WmZDZ0FxZjNLR1lQX0c0bzl3V3lWS3RtOVVNMlJHNVZpUG5nTU9MZUJLVm52M3hDQ0M3UHZZbVVlQXNCT3VLWGFnMWdCNWJxMVM4S3pwNHZibUNjOWlqcGplZlY0UFJiMWoxa2dtamVfX0FNQnRhd2c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Germany and NVIDIA Expand AI Partnership With a $10 Billion Commitment",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON09XNXR0RGl6ckxmV3I3STVkSW9vVTk5d21NZ3Jfa1huT1RtTU1GVFZoZlplTTNYUWVfVHpBT2diRmszSm5wSDloZ0tiRXdIUGZ1WU5uZkVYc3plazJKbDJqckhZMkRjV29aUEI5NXZGY0xwWXFqaWwzV1Zid1BTVG5Qb1lWMFY1VXlYQ0RxdnoyNWJCUzR1UHlKZU9qTUsteHc?oc=5",
+   "date": "2026-10-20 21:24",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "독일과 엔비디아, 100억 달러 규모 AI 파트너십 확대",
+    "korean_summary": "독일과 엔비디아가 100억 달러 규모의 AI 협력을 추진하기로 합의했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON09XNXR0RGl6ckxmV3I3STVkSW9vVTk5d21NZ3Jfa1huT1RtTU1GVFZoZlplTTNYUWVfVHpBT2diRmszSm5wSDloZ0tiRXdIUGZ1WU5uZkVYc3plazJKbDJqckhZMkRjV29aUEI5NXZGY0xwWXFqaWwzV1Zid1BTVG5Qb1lWMFY1VXlYQ0RxdnoyNWJCUzR1UHlKZU9qTUsteHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "China’s $35B Nvidia GPU Order Tests Export Limits [2026]",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoekl3ZF9ackFFeXlsbmdtMmd3aDBHcmo3Vy03TWtrbFMtVXRndlRVMUY0VnZHY3Y5SVoyUDVKSUtHNVRwbHJaQTR5TDZOMXNVZHhhMjJ3ZUJRa2h6QWgxMGo2bGsyeEd1a0dvU1I4MHUwellyU3RXbA?oc=5",
+   "date": "2026-10-21 00:46",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "중국 350억 달러 NVIDIA GPU 주문, 수출 규제 한계 도전",
+    "korean_summary": "중국의 NVIDIA GPU 350억 달러 주문이 미국 수출 통제 한계를 시험한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoekl3ZF9ackFFeXlsbmdtMmd3aDBHcmo3Vy03TWtrbFMtVXRndlRVMUY0VnZHY3Y5SVoyUDVKSUtHNVRwbHJaQTR5TDZOMXNVZHhhMjJ3ZUJRa2h6QWgxMGo2bGsyeEd1a0dvU1I4MHUwellyU3RXbA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo! Finance Canada",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Market Chatter: Nvidia Receives Over $35 Billion in Chip Orders From ByteDance, Tencent, Alibaba",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkhSUkNBVHg3UXJZZ2c0bnFfM3NyVWFaNG1OUHlnOVBuWExoYnlzUWZ0UjcyZE04TXFuNUNVMHJJZndBdWxYQzlFVVdjSVg2aU05U3E4N2ZwSXFteVJXQ2Vmejd6V0JXbjZOdWYzMmdKd1FET0dpMEhSeWR4LUprRXBra2Z2UTNnZVVIeQ?oc=5",
+   "date": "2026-10-20 18:46",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, ByteDance·Tencent·Alibaba로부터 350억 달러 이상 칩 수주",
+    "korean_summary": "NVIDIA가 중국의 ByteDance, Tencent, Alibaba로부터 350억 달러를 초과하는 규모의 칩 주문을 확보했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkhSUkNBVHg3UXJZZ2c0bnFfM3NyVWFaNG1OUHlnOVBuWExoYnlzUWZ0UjcyZE04TXFuNUNVMHJJZndBdWxYQzlFVVdjSVg2aU05U3E4N2ZwSXFteVJXQ2Vmejd6V0JXbjZOdWYzMmdKd1FET0dpMEhSeWR4LUprRXBra2Z2UTNnZVVIeQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Capitol Forum",
+   "category": "media",
+   "kind": "gnews",
+   "title": "European Antitrust Agenda: EU Commission Advances Nvidia Probe; Ministers Take on China Trade Strategy",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2hoNHZkdjZJUC1zdE9QVlEwekMxV3gtWEt1NHVnUjJNMjRWdVpmdHZ0NWYtb2lFaDE5LWVFU0FEZHowOFpkWHZQUXVYd1AtLTBfdE5lUHFoWl9WM25NckZHdkE1WmRpZHNrRDk2cXo0aGhhWERjQzhhaklaMzgzU1JOTmJEQm5OYzFFUTZXUHJOMDNPRGlId0FTVm1Dd0otVE1TVmVxblZZR2dvTkdCUTM2TGNuQm5qOHVsdC1LZ001TUQtSkJtUA?oc=5",
+   "date": "2026-10-21 06:07",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "EU 반독점 당국, NVIDIA 조사 진전 추진",
+    "korean_summary": "EU 집행위원회가 NVIDIA에 대한 반독점 조사를 진전시켰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2hoNHZkdjZJUC1zdE9QVlEwekMxV3gtWEt1NHVnUjJNMjRWdVpmdHZ0NWYtb2lFaDE5LWVFU0FEZHowOFpkWHZQUXVYd1AtLTBfdE5lUHFoWl9WM25NckZHdkE1WmRpZHNrRDk2cXo0aGhhWERjQzhhaklaMzgzU1JOTmJEQm5OYzFFUTZXUHJOMDNPRGlId0FTVm1Dd0otVE1TVmVxblZZR2dvTkdCUTM2TGNuQm5qOHVsdC1LZ001TUQtSkJtUA",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Chinese Tech Giants Order $35 Billion In Compliant Nvidia Chips",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwc0RZbnd3OVF0ZzN5WnhLRkFUX1pNWlN3UFZwRk5ETmNaOG9OdzhWbnJRUHNLdDI5TGktOFNZTkYzNjQ0dC1BWEVsRDRPSGpXVVViTWYzQTBHcEdIdnhjdHZzMlJlVGFsZElyaXJDM2F4TFFEbXBqc1NOQQ?oc=5",
+   "date": "2026-10-21 00:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국 기술 대형사, 엔비디아 칩 350억 달러 규모 대량 주문",
+    "korean_summary": "중국의 주요 기술 기업들이 규제 준수 엔비디아 칩을 350억 달러 규모로 주문했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwc0RZbnd3OVF0ZzN5WnhLRkFUX1pNWlN3UFZwRk5ETmNaOG9OdzhWbnJRUHNLdDI5TGktOFNZTkYzNjQ0dC1BWEVsRDRPSGpXVVViTWYzQTBHcEdIdnhjdHZzMlJlVGFsZElyaXJDM2F4TFFEbXBqc1NOQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Stocktwits",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Reported $70B China Chip Rush Faces A Roadblock",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRkFpd183TG1tLUJ6YnpMVEpBbnBRclotZ284QVhsZ1A3NFQtOVBCNDVsNkFYNk1HN3IySm9Ccmd5Q094clRZS3hwTkNTRFFGSlBPNWppUWk1aXhQMHNvUEpONmZUNUJodHh5Y01oSm5uYTJQbW5hTDhrOVR2aEdHeFVrVUhtazZMSWhfQ2o1T2ZfTFk1OFV5b3Y2TWVBUFpPWkRPQ3lDU0U4bzdqR3c?oc=5",
+   "date": "2026-10-21 01:30",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 700억 달러 중국 칩 구매, 수출 규제로 차질",
+    "korean_summary": "NVIDIA의 중국향 700억 달러 칩 대량 구매 계획이 수출 규제 장애에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRkFpd183TG1tLUJ6YnpMVEpBbnBRclotZ284QVhsZ1A3NFQtOVBCNDVsNkFYNk1HN3IySm9Ccmd5Q094clRZS3hwTkNTRFFGSlBPNWppUWk1aXhQMHNvUEpONmZUNUJodHh5Y01oSm5uYTJQbW5hTDhrOVR2aEdHeFVrVUhtazZMSWhfQ2o1T2ZfTFk1OFV5b3Y2TWVBUFpPWkRPQ3lDU0U4bzdqR3c",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43 (신규)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
+   "date": "2026-10-20 06:19",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Cosmos3-Nano LIBERO-10 로보틱스 정책 모델 신규 공개",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano 기반 로보틱스 제어 정책 모델을 신규 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos3-Nano 기반 LIBERO-10 로봇 정책 모델 신규 공개",
+    "korean_summary": "NVIDIA가 Cosmos Cookbook 레시피의 합성데이터 연구 일환으로 Cosmos3-Nano를 LIBERO-10 데이터셋에 post-training한 로봇 조작 정책 모델을 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 기반 로봇 조작(VLA) 정책 모델의 학습 체크포인트를 Hugging Face에 공개",
+     "stage": "Available",
+     "timeline": "평가 기록 2026-10-19 기준, 공개 시점 미확인",
+     "scope": "LIBERO-10 벤치마크(10개 task), nvidia/Cosmos3-Nano 기반 파생 모델, 다운로드 10회"
+    },
+    "key_facts": [
+     "**Cosmos3-Nano를 LIBERO-10에 post-training**한 action policy로, bf16 safetensors EMA 가중치 7샤드(약 30GB) 형태로 공개됨",
+     "학습 데이터는 실제 LIBERO-10 데모 379개 + 반복(iteration) 1000에서 생성된 restyled 데이터 1895개(training seed 43)로 구성",
+     "표준 씬 성공률 **91.8±0.5%**, 조명·텍스처·카메라 지터 등 교란 씬에서는 86.8±1.1%로 측정됨(2026-10-19 평가)",
+     "대조군(D2_s43) 대비 교란 씬에서 1.3점 차이로, 레시피 기준 2.5점 미만 차이는 학습 노이즈 범위 내로 간주됨",
+     "`cosmos-framework`(v1.2.2)로 로드 가능하며 base model은 nvidia/Cosmos3-Nano revision e59a53c2"
+    ],
+    "why_matters": "이 공개는 NVIDIA가 **시뮬레이션 기반 합성데이터(restyling)가 실제 로봇 정책 학습에 얼마나 기여하는지를 정량적으로 검증**하려는 체계적 연구 흐름을 보여준다. LIBERO 벤치마크와 Cosmos3-Nano 생성모델을 결합한 이런 재현 가능한 실험 레시피는 로봇 파운데이션 모델 경쟁에서 데이터 효율성 입증 수단으로 활용될 수 있다.",
+    "subject_angle": "NVIDIA는 Cosmos 월드모델을 **단순 생성모델이 아닌 로봇 정책 학습용 합성데이터 엔진으로 포지셔닝**하며, Cosmos Cookbook 레시피를 통해 Sim-to-Real 성능 향상을 체계적으로 입증하려는 전략을 보인다.",
+    "focus_angle": "휴머노이드·매니퓰레이션 로봇 OEM 입장에서는 **실제 데모 데이터 부족을 Cosmos 기반 합성 restyling으로 보완**해 조작 정책의 일반화 성능(교란 씬 86.8%)을 확보할 수 있다는 점이 중요하며, 이는 데이터 수집 비용이 큰 자율주행·로봇 암 학습 파이프라인에도 적용 가능한 방법론적 참고 사례가 된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Nano 및 LIBERO-10 기반 로봇 정책 모델 개발·공개"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano",
+      "role": "로봇 정책 학습의 base model, 합성데이터(restyling) 생성원"
+     },
+     {
+      "name": "LIBERO-10",
+      "role": "조작(manipulation) 정책 평가용 벤치마크 데이터셋"
+     },
+     {
+      "name": "cosmos-framework",
+      "role": "학습 체크포인트를 로드·서빙하는 정책 서버 프레임워크"
+     }
+    ],
+    "watch_next": [
+     "Cosmos Cookbook 레시피의 다른 셀(S5_2 외 조합)에서 restyling 효과가 일관되게 나타나는지",
+     "해당 정책 모델이 실제 로봇 하드웨어(sim-to-real)에 배포·테스트되는지 여부",
+     "NVIDIA가 이 방법론을 다른 벤치마크(예: RoboCasa, BridgeData)로 확장하는지"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S5_2_s43:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 10 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S5_2_s43 (training seed 43) A Cosmos3-Nano action policy post-trained on LIBERO-10, the second training seed of one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1895 restyled from iteration 1000 (training seed 43) | | Iterations | resume R(seed 43) at 1000 -> 2000 (global batch 2048, training seed 43) | | Success, standard scenes | 91.8 +/- 0.5 % (10 tasks x 50 initial states, three evaluation seeds; values reported by the training run, record pending) | | Success, perturbed scenes | 86.8 +/- 1.1 % (same initial states with randomised lighting, textures, skybox and camera jitter; measured on the evaluation bed, 2026-10-19) | | Control | D2_s43 (1.3 points on perturbed scenes) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the trainin"
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "美서 1200억원 유치한 20대 韓창업가",
+   "link": "https://www.hankyung.com/article/2026102040611",
+   "date": "2026-10-20 18:29",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "엔비디아 GR00T 프로젝트 리드, 드림랩스 설립 후 1200억원 로봇 AI 투자 유치",
+    "korean_summary": "엔비디아 GR00T 프로젝트를 이끈 장요엘이 드림랩스를 창업해 AI 로봇 플랫폼으로 9000만 달러 시드 투자를 확보하고 로보티즈 등 20개 업체와 협력"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA 출신 한국인 창업가, 로봇 'AI 두뇌' 스타트업으로 1200억원 시드 투자 유치",
+    "korean_summary": "NVIDIA의 GR00T 프로젝트를 이끈 장요엘 대표가 설립한 드림랩스가 범용 로봇 AI '드림-1'과 API를 공개하며 미국 B캐피털 주도로 9000만달러 시드 투자를 유치했다.",
+    "action": {
+     "actor": "DreamLabs (장요엘 대표)",
+     "action": "범용 로봇 AI '드림-1' 개발 및 '드림 API' 공개, 시드 투자 유치",
+     "stage": "Announced",
+     "timeline": "2026-10-19 (현지시간)",
+     "scope": "로봇 하드웨어 업체 20개 이상(Unitree, ROBOTIS 등)과 협력 중"
+    },
+    "key_facts": [
+     "창업 3개월 만에 **9000만달러(약 1200억원)** 규모 시드 투자 유치",
+     "투자는 미국 VC **B Capital**이 주도, 한국 Base Ventures 참여",
+     "장요엘 대표는 NVIDIA에서 AI 로봇 개발 프로젝트 **'GR00T'** 연구를 이끈 인물",
+     "범용 로봇 AI '드림-1'과 이를 외부 제공하는 '드림 API' 공개",
+     "현재 Unitree(중국), ROBOTIS(한국) 등 20개 이상 로봇 하드웨어 업체와 협력 중"
+    ],
+    "why_matters": "휴머노이드·범용 로봇 시장에서 하드웨어와 분리된 '공통 AI 두뇌' 플랫폼 경쟁이 본격화되고 있으며, NVIDIA 출신 인재가 독자 창업으로 이 영역에 뛰어든 것은 NVIDIA GR00T 생태계의 파급력과 동시에 경쟁 구도 형성을 보여준다. **NVIDIA 핵심 기술 인력의 외부 유출과 독립 플랫폼화**는 로봇 파운데이션 모델 시장의 다변화 신호로 해석될 수 있다.",
+    "subject_angle": "DreamLabs는 NVIDIA의 GR00T 연구 성과를 기반으로 설립된 만큼 **NVIDIA 로봇 AI 생태계의 영향력과 기술 유출 양면성**을 동시에 드러내며, NVIDIA 입장에서는 로봇 파운데이션 모델 분야의 잠재적 경쟁자 출현 가능성을 주시해야 한다.",
+    "focus_angle": "다양한 로봇 하드웨어에 공통 적용 가능한 'AI 두뇌'와 API 공개는 **휴머노이드·로봇 OEM들이 하드웨어와 AI 소프트웨어를 분리 조달**할 수 있는 선택지를 넓히며, Unitree·ROBOTIS 등 로봇 제조사들의 AI 공급망 다변화 전략에 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "DreamLabs",
+      "context": "로봇용 범용 AI '드림-1' 및 '드림 API' 개발사, NVIDIA 출신 창업가 설립"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "창업자 장요엘 대표의 전 소속사, GR00T 프로젝트 연구 리드 경력 기반"
+     },
+     {
+      "name": "B Capital",
+      "context": "시드 투자 주도 미국 VC"
+     },
+     {
+      "name": "Base Ventures",
+      "context": "시드 투자 참여 한국 VC"
+     },
+     {
+      "name": "Unitree",
+      "context": "드림-1 API 협력 로봇 하드웨어 업체(중국)"
+     },
+     {
+      "name": "ROBOTIS",
+      "context": "드림-1 API 협력 로봇 하드웨어 업체(한국)"
+     }
+    ],
+    "products": [
+     {
+      "name": "드림-1 (Dream-1)",
+      "role": "여러 로봇에 공통 적용 가능한 'AI 두뇌', 언어 이해 및 상황 판단 기반 동작 결정"
+     },
+     {
+      "name": "드림 API (Dream API)",
+      "role": "외부 로봇 제조사가 드림-1 기술을 활용할 수 있도록 공개한 API"
+     },
+     {
+      "name": "GR00T",
+      "role": "NVIDIA의 AI 로봇 개발 프로젝트, 장요엘 대표의 이전 연구 배경"
+     }
+    ],
+    "watch_next": [
+     "드림-1의 구체적 성능·공개 일정 및 추가 파트너사 확보 여부",
+     "NVIDIA GR00T와 드림-1 간 기술적 차별점 및 경쟁/협력 관계 명확화",
+     "투자금 집행에 따른 컴퓨팅 자원 확보 및 후속 투자 라운드 진행 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026102040611",
+   "body": "AI 추천 뉴스 美서 1200억원 유치한 20대 韓창업가 스타트업 드림랩스 장요엘 대표 엔비디아 출신…'AI 두뇌' 개발 20대 한국인이 미국에서 설립한 스타트업이 창업 3개월 만에 시드 투자로 1200억원 규모의 자금을 유치했다. 미국 샌프란시스코의 드림랩스는 9000만달러(약 1200억원) 규모의 투자를 유치했다고 19일(현지시간) 발표했다. 창업 후 처음으로 투자받은 이번 시드는 미국 벤처캐피털(VC)인 B캐피털이 주도했으며, 국내에선 베이스벤처스가 참여했다. 드림랩스는 엔비디아에서 인공지능(AI) 로봇 개발 프로젝트인 ‘그루트(GR00T)’ 연구를 이끈 장요엘 대표(사진)가 설립한 회사로, 여러 로봇에 공통으로 사용할 수 있는 ‘AI 두뇌’(드림-1)를 개발하고 있다. 드림-1은 사람의 말을 이해하고 주변 상황을 살펴 로봇의 움직임을 결정하도록 하는 기술이다. 드림랩스는 다른 로봇 제조사들도 이 기술을 사용할 수 있도록 ‘드림 API’를 이날 공개했다. 현재 중국 유니트리, 한국 로보티즈 등 20개 이상의 로봇 하드웨어 업체와 협력 중이다. 이번에 유치한 투자금은 AI 개발에 필요한 컴퓨팅 자원 확보 등에 사용할 예정이다. 장 대표는 “새로운 로봇도 몇 분 만에 유용한 작업을 수행할 수 있도록 하는 게 회사의 목표”라고 말했다. 유지희 기자 keephee@hankyung.com"
+  },
+  {
+   "source": "Google News · WardsAuto",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz and Nvidia extend strategic technology partnership",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc2bWNFcV8wVVVsNnhIRzJfeENTTC1lM1BiOW9oYVA0Mm9lVzV5MVB4ZU91VVd3M1NoMkx0RUMwMXFCTW5QRThTWDBVM1VyMzFhZHQ5RklFVzBwMDE0TzQ1ZFNMSlpubEJSaDdmRWxvVDVtZTVqal9YY2E1a3YzdW5nbHpvYzZPcDBCQ2o5ZGpYMDhOZ3owWFpubW9NcjN2S1lyTENn?oc=5",
+   "date": "2026-10-21 00:37",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz, 엔비디아와 전략적 기술 파트너십 확대",
+    "korean_summary": "Mercedes-Benz가 엔비디아와의 자율주행 기술 협력 범위를 확장하기로 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · WardsAuto",
+     "title": "Mercedes-Benz and Nvidia extend strategic technology partnership",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc2bWNFcV8wVVVsNnhIRzJfeENTTC1lM1BiOW9oYVA0Mm9lVzV5MVB4ZU91VVd3M1NoMkx0RUMwMXFCTW5QRThTWDBVM1VyMzFhZHQ5RklFVzBwMDE0TzQ1ZFNMSlpubEJSaDdmRWxvVDVtZTVqal9YY2E1a3YzdW5nbHpvYzZPcDBCQ2o5ZGpYMDhOZ3owWFpubW9NcjN2S1lyTENn?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYXc2bWNFcV8wVVVsNnhIRzJfeENTTC1lM1BiOW9oYVA0Mm9lVzV5MVB4ZU91VVd3M1NoMkx0RUMwMXFCTW5QRThTWDBVM1VyMzFhZHQ5RklFVzBwMDE0TzQ1ZFNMSlpubEJSaDdmRWxvVDVtZTVqal9YY2E1a3YzdW5nbHpvYzZPcDBCQ2o5ZGpYMDhOZ3owWFpubW9NcjN2S1lyTENn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quartz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia plans to invest in 4 German startups, including Agile Robots",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcVdkOU1YQlZBd0JkcG9VZmVsb3hlN2NNdFZtVXFJWG9OYVRISkkzMy1hdlBJQl9tMWpEeGdsS0V5Q1ZKcXNKUVU4b0N5bVYxaFFSUlR3MDBWUFlzOTlwZjI4MUtlMTFkUlc0eno2bkg4N0U?oc=5",
+   "date": "2026-10-20 21:24",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "robotics"
+    ],
+    "korean_title": "엔비디아, Agile Robots 포함 독일 스타트업 4곳 투자 추진",
+    "korean_summary": "엔비디아가 Agile Robots를 포함한 독일 스타트업 4곳에 투자할 계획을 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcVdkOU1YQlZBd0JkcG9VZmVsb3hlN2NNdFZtVXFJWG9OYVRISkkzMy1hdlBJQl9tMWpEeGdsS0V5Q1ZKcXNKUVU4b0N5bVYxaFFSUlR3MDBWUFlzOTlwZjI4MUtlMTFkUlc0eno2bkg4N0U",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Modal taps Nvidia Vera CPUs after firm's internal tests show 2x throughput over Intel and AMD chips",
+   "link": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+   "date": "2026-10-20 20:50",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "Modal이 NVIDIA Vera CPU 설계 승인, Intel/AMD 대비 2배 처리량 달성",
+    "korean_summary": "AI 클라우드 공급업체 Modal이 NVIDIA의 Vera CPU에 대한 설계 승인을 확보했으며, 예비 평가에서 기존 AMD/Intel 프로세서 대비 2배 처리량을 달성했다고 보도됨"
+   },
+   "summary_data": {
+    "korean_title": "Modal, 내부 테스트서 Nvidia Vera CPU가 Intel·AMD 대비 2배 처리량 확인 후 채택",
+    "korean_summary": "AI 클라우드 제공업체 Modal이 agentic AI 워크로드용으로 Nvidia Vera CPU를 도입하기로 했는데, 이는 사내 평가에서 기존 AMD·Intel 프로세서 대비 **2배의 처리량**을 보였기 때문이다.",
+    "action": {
+     "actor": "Modal",
+     "action": "Nvidia Vera CPU를 자사 이기종 서버 플릿에 도입하기로 결정",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Modal의 agentic AI 워크로드 인프라, 기존 AMD·Intel CPU와 병행 운영"
+    },
+    "key_facts": [
+     "Modal의 사전 평가에서 Vera가 기존 AMD·AMD 및 Intel 프로세서 대비 **2배의 처리량**을 보임",
+     "Vera는 Arm v9.2 기반 Olympus 코어 사용, 사이클당 최대 10개 명령어 디코드/실행 가능, 메모리 대역폭 1.2 TB/s",
+     "Nvidia는 Vera 매출이 올해 회계연도 최소 200억 달러를 창출할 것으로 예상하며, 전체 가용시장(TAM)은 약 2000억 달러로 추정",
+     "Nvidia는 회계연도 2026에 Vera CPU 최소 400만 개 판매 전망",
+     "Modal은 최근 Accel 주도로 7.5억 달러 투자 유치(기업가치 157.5억 달러), 연 매출은 전년 대비 15배 이상 증가"
+    ],
+    "why_matters": "Nvidia가 GPU 가속기를 넘어 **서버용 CPU 시장**에서 실질적 설계 수주(design win)를 확보했다는 점에서 의미가 크며, agentic AI 워크로드 증가로 CPU 역할이 커지는 흐름에서 AMD·Intel의 x86 독점 구도에 균열을 낼 수 있다. 다만 Modal은 전면 전환이 아닌 이기종 플릿 운영을 택해, Vera의 시장 침투는 점진적일 가능성이 높다.",
+    "subject_angle": "Nvidia는 GPU 중심 사업에서 벗어나 Vera를 통해 **독립형 서버 CPU 사업자**로 포지셔닝을 확장하고 있으며, 2000억 달러 규모 TAM을 제시하며 AMD·Intel과의 정면 경쟁을 공식화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Vera CPU 공급자, 서버 CPU 시장 진입을 추진"
+     },
+     {
+      "name": "Modal",
+      "context": "AI 클라우드 인프라 제공업체, Vera CPU 채택 고객"
+     },
+     {
+      "name": "AMD",
+      "context": "Modal의 기존 CPU 공급사, Vera와 비교 대상"
+     },
+     {
+      "name": "Intel",
+      "context": "Modal의 기존 CPU 공급사, Vera와 비교 대상"
+     },
+     {
+      "name": "Accel",
+      "context": "Modal의 7.5억 달러 투자 라운드 주도"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Vera",
+      "role": "Arm 기반 신규 서버 CPU, 이번 소식의 핵심 제품"
+     },
+     {
+      "name": "Olympus CPU core",
+      "role": "Vera에 탑재된 Arm v9.2 기반 코어, 성능 우위의 잠재 원인"
+     }
+    ],
+    "watch_next": [
+     "Modal의 Vera CPU 실제 배포 시점 및 규모",
+     "AMD·Intel 차세대 프로세서와의 추가 비교 벤치마크 공개 여부",
+     "Nvidia의 Vera 매출·출하량이 가이던스(연 400만개, 200억달러)에 부합하는지"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/cpus/nvidia-vera-cpu-deployed-at-ai-startup-modal-alongside-existing-x86-fleet-internal-testing-showed-2x-throughput-compared-to-amd-and-intel",
+   "body": "Nvidia has earned billions selling AI accelerators, but with the emergence of agentic AI, CPUs are going to play a considerably more significant role than before, which creates new opportunities for the company. Reuters reports that Nvidia has secured a major design win with its Vera CPUs with AI cloud provider Modal. According to Modal , preliminary evaluations showed that Vera could deliver twice the throughput of its existing AMD and Intel processors, although the company does not intend to cease using CPUs from its current suppliers. Go deeper with TH Premium: CPU (Image credit: Tom's Hardware) Intel VP Robert Hallock sets Nova Lake expectations, teases return to Raptor Lake for DDR4 platforms CPU scaling with DLSS Intel's one-two punch plan in desktop CPUs is taking shape Benchmarking AMD's BC-250, offering Steam Machine-like performance at half the price AMD splits Zen 7 into three EPYC families for 2028 and starts selling server CPUs by the agent Modal provides cloud infrastructure that enables AI developers to deploy AI agents that can perform complex operations autonomously over extended periods. Such workloads require substantial CPU resources for software execution, data processing, and other tasks that cannot be efficiently handled by GPUs. Modal currently relies exclusively on AMD and Intel processors for these operations, but its tests indicate that Nvidia's new Vera CPUs could significantly improve performance in its specific workloads. Of course, since Vera is based on an Arm instruction set architecture, Modal's decision to adopt Vera will require substantial modifications to its software. Nevertheless, Modal believes that the potential performance improvements justify the additional engineering effort. The reported 2x throughput advantage is particularly interesting because agentic AI workloads can involve numerous independent tasks that compete for CPU cores, cache capacity, and memory bandwidth. However, Modal has not disclosed detailed benchmark configurations it used, specific AMD and Intel processor models, or performance-per-watt figures. Consequently, it remains unclear whether Vera's advantage is enabled by advantages of its Arm v9.2-based Olympus CPU cores that can decode and execute up to 10 instructions per cycle, its memory subsystem with 1.2 TB/s of bandwidth, or other architectural characteristics. Also note that tests compared Vera against currently available AMD and Intel processors rather than their upcoming generations that will compete against Vera in the coming years. Since Modal cannot port all of its software to Arm ISA overnight, the company will continue using x86 CPUs from AMD and Intel, according to Modal chief executive Erik Bernhardsson. Rather than sticking to one ISA for everything, Modal intends to operate a heterogeneous server fleet and select the most suitable processors for each workload. Naturally, the company intends to evaluate upcoming AMD and Intel processors once they become available to "
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+   "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+   "date": "2026-10-20 14:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "스페인 스타트업, Barcelona Supercomputing Center와 AI 혁신 협력",
+    "korean_summary": "Barcelona Supercomputing Center의 AI Factory Accelerator 프로그램이 NVIDIA Inception과 연계하여 스페인 스타트업에 계산 리소스와 기술 지원을 제공한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+     "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+   "body": "The Barcelona Supercomputing Center (BSC) ’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some of the BSC AI Factory services are available through the NVIDIA Inception portal . NVIDIA Inception complements the BSC AI Factory Accelerator Programme by providing members with training through NVIDIA Deep Learning Institute open courses, business mentoring, venture capital connections and other resources. An upcoming extension of MareNostrum 5 — BSC’s public infrastructure serving scientific and technological innovation, powered by NVIDIA accelerated computing — will deliver supercomputing access through the BSC AI Factory and other AI Factories across Europe. BSC AI Factory is among Europe’s first AI factories and the first in Spain, and has delivered more than 800 services to private and public-sector clients since its April 2025 launch. Read All NVIDIA in Europe Announcements Three Inception members were recently named the BSC AI Factory Accelerator Programme’s AI Champions at the pilot initiative’s demo day: Qatium ’s water-network platform — already used by more than 250 utilities in 16 countries — is now in early production with its Neural Water Intelligence technology, powered by proprietary AI models trained on MareNostrum 5. Built on NVIDIA accelerated computing, the NVIDIA cuGraph library, the NVIDIA PhysicsNeMo framework and NVIDIA Nemotron open models, the technology helps water utilities make better operational decisions every day. OneCareAI , a research spin-off from BSC, used NVIDIA NIM microservices to develop technology designed to identify signs of hidden atrial fibrillation — an irregular heart rhythm — in seemingly normal ECGs, helping clinicians identify patients who may be at risk of stroke before one occurs. Avatia built a voice-first, multi-agent system that provides pharmaceutical companies with agentic coworkers that support sales representatives and give doctors transparent, curated information about medicines, ultimately helping the right treatment reach the right patient sooner. The system taps into NVIDIA NIM microservices, the NVIDIA Nemotron 3 open model family and the open source NVIDIA NeMo Curator library. Other BSC AI Factory startups — Agrikola AI , Elna Health , Lokutor , Montevive AI , Oppy , Pack2Earth and Up2Smart — span precision agriculture, medical imaging and knowledge access, speech services, enterprise security, sales intelligence and sustainable packaging. The cohort reflects the breadth of what advanced intelligence can now unlock: preventing strokes, detecting breast cancer subtypes before biopsy, putting medical knowledge at doctors’ fingertips faster, replacing petroleum-based plastic with biobased compostable materials"
+  },
+  {
+   "source": "ServeTheHome",
+   "category": "media",
+   "kind": "feed",
+   "title": "NVIDIA BlueField-4 STX Server for CMX at OCP 2026",
+   "link": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026/",
+   "date": "2026-10-20 12:53",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA BlueField-4 STX Context Memory 버전, OCP 2026에서 공개",
+    "korean_summary": "NVIDIA가 Context Memory CMX 용도의 BlueField-4 STX 서버를 OCP 2026에서 선보였으며, 기존 이중 Vera CPU 설계보다 저비용 옵션으로 설계됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.servethehome.com/nvidia-bluefield-4-stx-server-for-cmx-at-ocp-2026",
+   "body": "At OCP 2026, we saw the new NVIDIA BlueField-4 STX Server for Context Memory (CMX). Partners had been asking for this, and NVIDIA delivered. Onboard, we have a lower-cost design than the dual-Vera setup we saw previously. Let us take a look at the new board. NVIDIA BlueField-4 STX Server for CMX at OCP 2026 For context, this is the previously shown BlueField-4 DPU. That one, pictured below, is a dual Vera CPU setup, each with SOCAMM memory, plus four ConnectX-9 SuperNICs. NVIDIA calls this a DPU, but it is clearly more costly than a BlueField-1 or BlueField-3, which are much smaller and lower-power devices. For partners looking at building storage platforms, the below is more akin to a dual CPU server than a traditional DPU. At OCP 2026, multiple partners showed off the BlueField-4 STX server for context memory (CMX). Here is the much smaller card, which still uses high-density connectors for PCIe and system connectivity. NVIDIA BlueField-4 DPUs encompass both NVIDIA Grace and Vera CPU cores, but this one looks like a Vera package. That is a very substantial CPU. To be clear, this is not like the embedded-class CPUs that we typically have seen in DPUs previously. This is more like having a high-end single-socket server platform. Another interesting feature is that the boards at OCP 2026 are using SOCAMM memory, so these should be relatively easy to put either a heatsink or a liquid cooling block on top of it. Onboard, there is an M.2 slot. Usually these are for OS drives, but if you saw our recent Inside the Secretive AWS Networking Lab, the M.2 SSDs there are being used for log devices. This may seem like a small feature, but it means NVIDIA designed this less like a traditional motherboard replacement and more like something that is easy to assemble automatically. Something that may not immediately hit you if you are looking at photos is just the size of this board. A soldered CPU and LPDDR5X here, over traditional DDR5 DIMM slots, give NVIDIA a platform where the “motherboard” is roughly the size of an Intel DMR 16-channel socket or a 16-channel AMD EPYC Venice platform. Final Words This is just a neat platform. It almost feels like NVIDIA needs some brand between the Vera server line and the traditional BlueField DPU line. Something notable that we did not see on the boards shown at OCP 2026, or at least in our photos of them from various booths, is an NVIDIA ConnectX-9 SuperNIC. We expected that, but did not see it on this board. For context memory platforms, a single Vera versus a dual Vera makes this a lower-cost platform, and that will likely help the STX/ CMX systems come to market as the price of NAND has been rising meaningfully over the past year."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아·마이크론, 시간외 거래서 반등",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092172435",
+   "date": "2026-10-21 16:29",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "stock",
+     "supply-chain"
+    ],
+    "korean_title": "중국 빅테크의 350억 달러 엔비디아 칩 대량 주문에 시간외 거래서 주가 반등",
+    "korean_summary": "ByteDance, Alibaba, Tencent가 RTX PRO 5500 300만 개 이상을 주문했고 엔비디아 주가가 시간외 거래에서 2.11% 상승"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092172435",
+   "body": "엔비디아와 마이크론이 장 마감 이후 시간외 거래에서 반등했다. 인공지능(AI) 투자 수익성에 대한 우려가 이어지는 가운데 엔비디아의 대규모 반도체 주문과 스페이스X의 실적 호조가 AI 산업의 성장 기대를 뒷받침했다. 미국 반도체주의 반등이 전날 급락한 삼성전자와 SK하이닉스 등 국내 반도체주에도 긍정적인 영향을 미칠지 주목된다. 20일(현지시각) 뉴욕증시에서 엔비디아는 전 거래일보다 0.29%, 마이크론은 0.98% 하락 마감했다. 필라델피아 반도체지수도 0.29% 내렸다. 전날 1.6% 상승하며 8거래일 연속 하락세에서 벗어났지만 하루 만에 다시 약세로 돌아섰다. 그러나 정규장 마감 이후 시간외 거래에서는 일부 반도체주가 상승 전환했다. 미국 동부시각 20일 오후 6시 10분(한국시각 21일 오전 7시 10분) 기준 엔비디아는 정규장 종가 대비 2.11%, AMD는 2.35%, 마이크론은 2.75%, 샌디스크는 3.01%, SK하이닉스 미국예탁증서(ADR)는 2.85% 각각 상승했다. 엔비디아의 AI 반도체 수요가 여전히 견조하다는 소식이 전해졌다. 로이터에 따르면 중국 바이트댄스와 알리바바, 텐센트는 엔비디아의 RTX PRO 5500 그래픽카드를 300만개 이상 주문했다. 주문액은 제품 정가 기준 350억달러(약 46조원)를 웃돈다. 미국의 대중국 반도체 수출 규제에도 중국 빅테크 기업들의 AI 연산 수요가 이어지고 있는 것이다. 다만 엔비디아는 생산능력의 한계로 주문량을 모두 공급할 수 있을지 확답하지 못한 것으로 전해졌다. 스페이스X의 실적 호조도 AI 산업의 성장 기대를 뒷받침했다. 스페이스X는 이날 정규장 마감 이후 3분기 매출 145억8000만달러, 순이익 44억달러를 기록했다고 밝혔다. 매출은 전년 동기 대비 161% 증가했고 순이익은 적자에서 흑자로 돌아섰다. 특히 AI 사업 매출은 76억달러로 전년 동기 대비 9배 이상 급증했다. 앤스로픽과 구글 등 외부 기업에 데이터센터 컴퓨팅 자원을 임대하는 사업이 성장을 이끌었다. AI 인프라 투자에 대한 우려가 커진 상황에서 관련 수요가 실제 매출 증가로 이어지고 있다는 점이 주목받았다. 마이크론은 생산 관련 불확실성도 안고 있다. 로이터에 따르면 마이크론 대만 사업장 노동조합은 성과급과 이익 배분을 둘러싼 갈등으로 22일 하루 파업을 예고했다. 파업이 실제 생산 차질로 이어질지는 불확실하지만 메모리 반도체 공급 측면에서 주목할 변수다. 미국의 반도체주가 시간외 거래에서 상승 전환하면서 이날 오전 국내 반도체주도 반등할 수 있을지 관심이 쏠린다. 삼성전자는 전날 4.13%, SK하이닉스는 6.81% 각각 급락했다. 엔비디아는 삼성전자와 SK하이닉스의 고대역폭메모리(HBM) 사업과 밀접하게 연결돼 있다. 마이크론은 두 회사와 글로벌 D램·HBM 시장에서 경쟁하는 기업이다. 엔비디아의 반도체 수요 확대와 미국 메모리주의 시간외 반등은 국내 반도체주 투자심리에 긍정적으로 작용할 수 있다. 최근 AI 투자 부담으로 삼성전자와 SK하이닉스가 약세를 보였던 만큼 미국 시장의 분위기 변화가 국내 증시에서도 매수세 유입으로 이어질지 주목된다. 에드워드존스의 앤젤로 쿠르카파스 투자전략가는 블룸버그에 “AI 수요가 둔화하고 있다는 징후는 없다”며 “AI 관련주가 일제히 상승하던 시기를 지나 기업의 경쟁력과 투자에 필요한 자금을 조달할 능력을 더욱 중시하는 방향으로 시장이 변화하고 있다”고 말했다. 윤승준 기자 sjyoon@chosunbiz.com"
+  },
+  {
+   "source": "Google News · The Futurum Group",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA DGX Spark 64GB’s Low Price-Point Aims To Accelerate Local AI Inference",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUtYeXJCekFXcHR5UzlJMWpCcmMxaUYyVGl1Q05WbE5KVTNuN211aHR3QVBqQ1JMN2hxUlRzemE1cjhIX21aMXR0c21Gb1JMdlJ3MlFGTWVpeUt5NVBlVUJRMHlrUFVyVVZMNmdqZm9MNXFzdmpXWldjLUtOWW12TEMwbGxJRlhIdmxOME5vTFdCMEZGNmcwNHJUTExiTGdqT3pWajZjN0lhSXFNWlRKMA?oc=5",
+   "date": "2026-10-21 00:07",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA DGX Spark 64GB, 저가 포지셔닝으로 로컬 AI 추론 확대",
+    "korean_summary": "NVIDIA가 DGX Spark 64GB를 출시하여 저가 로컬 AI 추론 시장 공략"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQUtYeXJCekFXcHR5UzlJMWpCcmMxaUYyVGl1Q05WbE5KVTNuN211aHR3QVBqQ1JMN2hxUlRzemE1cjhIX21aMXR0c21Gb1JMdlJ3MlFGTWVpeUt5NVBlVUJRMHlrUFVyVVZMNmdqZm9MNXFzdmpXWldjLUtOWW12TEMwbGxJRlhIdmxOME5vTFdCMEZGNmcwNHJUTExiTGdqT3pWajZjN0lhSXFNWlRKMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Moves to Back GPU Cloud Provider Firmus After Investors Balk at Its IPO",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSUhDX045dFpuNEV5Ul9vOGlYb2prbGg4X1dVMGdHYkR2bThwWGFpV1pFejNfMGtEd3dHaGtKTFc0UHh6d3pIYjZVQWE5c2R0U3R5OElfLWhYWmJldVJmWHZhRGRQUDJTWmRpZUVaWjdKem8xVWRkT01BZG1zUlpRblY0ak5nckRNU3RkRjNuRVhMdzBWWmVycHJvbHBXQjVId3BPaQ?oc=5",
+   "date": "2026-10-21 08:40",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "엔비디아, Firmus GPU 클라우드 사업에 투자",
+    "korean_summary": "엔비디아가 IPO 여건 악화에도 불구하고 GPU 클라우드 제공업체 Firmus에 자금을 지원하기로 결정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSUhDX045dFpuNEV5Ul9vOGlYb2prbGg4X1dVMGdHYkR2bThwWGFpV1pFejNfMGtEd3dHaGtKTFc0UHh6d3pIYjZVQWE5c2R0U3R5OElfLWhYWmJldVJmWHZhRGRQUDJTWmRpZUVaWjdKem8xVWRkT01BZG1zUlpRblY0ak5nckRNU3RkRjNuRVhMdzBWWmVycHJvbHBXQjVId3BPaQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Raises Stakes With Massive New AI Investment",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2tJaVJDQnJ5TWFzSkRjRjQtQnZxT0VGbTJOWWtCNnFqR2ZMbzVrdWFfZnRIbzE5LWFBdW5fcUVZUjdrX2s4SXdHV0dMVTNCaVVLcE5xQjQ2dEFhb2hiRms1aFRsMXA5YmFEMnAwQktxdXE4UmFCZTk3TWxEWDR3QlFSTUJEQmlna0JGeTh4d3A5dUhoWGtaOGxHMA?oc=5",
+   "date": "2026-10-21 00:16",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "엔비디아, 대규모 AI 인프라 투자 강화",
+    "korean_summary": "엔비디아가 인공지능 인프라 구축에 막대한 규모의 투자를 단행하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON2tJaVJDQnJ5TWFzSkRjRjQtQnZxT0VGbTJOWWtCNnFqR2ZMbzVrdWFfZnRIbzE5LWFBdW5fcUVZUjdrX2s4SXdHV0dMVTNCaVVLcE5xQjQ2dEFhb2hiRms1aFRsMXA5YmFEMnAwQktxdXE4UmFCZTk3TWxEWDR3QlFSTUJEQmlna0JGeTh4d3A5dUhoWGtaOGxHMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Tech Buzz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Google Launches PyTorch Tool to Break Nvidia's GPU Lock-In",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXRGcmVfOWdwZVZVZVJHOTRqanJUZk5VZnJlSlhIZlB1X3ZyNnRsZ0Nva3JSb1lQanVUQjF1MlU1OHU2NTg5YkVBdWozeEI5MXl1TVp5cUt5V3FPRHlIVE5lY256YkV2VlhoWm9DZk1RQ19FU3BNNEh0ZHVHdV9USzc2b05FX0luckVnWW5XWXF6MzBONkE?oc=5",
+   "date": "2026-10-21 04:07",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "구글, 엔비디아 GPU 독점 탈피 목표 PyTorch 도구 개발",
+    "korean_summary": "구글이 엔비디아 GPU 의존도를 줄이기 위한 PyTorch 기반 도구를 새로 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOXRGcmVfOWdwZVZVZVJHOTRqanJUZk5VZnJlSlhIZlB1X3ZyNnRsZ0Nva3JSb1lQanVUQjF1MlU1OHU2NTg5YkVBdWozeEI5MXl1TVp5cUt5V3FPRHlIVE5lY256YkV2VlhoWm9DZk1RQ19FU3BNNEh0ZHVHdV9USzc2b05FX0luckVnWW5XWXF6MzBONkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Manufacturing Digital",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How 100 AI Agents Run Siemens & NVIDIA’s German Plant",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORXY1a1RpZWx1aE01VjFkb01jNVNWbk1ybDdvOVVRWkNPa0dQYmNPV0xSejF6VlFFa0N3ajFPaU1jdXhhRmFxa3ZqNmRKR25KUHdKbTVWaURZZjlJd3lzMGc1T2FETmRuOEFoSHE0ekM0b1Z4bmpjcFBBMkxqUV9UNXJad2dIMWZZSGhwdlhjeDRsdw?oc=5",
+   "date": "2026-10-21 00:02",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Siemens·NVIDIA 독일 공장, 100개 AI 에이전트 운영",
+    "korean_summary": "Siemens와 NVIDIA가 독일 공장에서 100개의 AI 에이전트를 배치하여 운영하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORXY1a1RpZWx1aE01VjFkb01jNVNWbk1ybDdvOVVRWkNPa0dQYmNPV0xSejF6VlFFa0N3ajFPaU1jdXhhRmFxa3ZqNmRKR25KUHdKbTVWaURZZjlJd3lzMGc1T2FETmRuOEFoSHE0ekM0b1Z4bmpjcFBBMkxqUV9UNXJad2dIMWZZSGhwdlhjeDRsdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Pledges Millions To German Startups Under $10 Billion European AI Initiative",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbFhsTHk0TkJVVWJRYWVvcldEYkgxeTJOVlh6ZkJ3OGVOWG8zU3ZELVdTRTNRTkxMUHFHdXNCZ1lsRjVSS3l1VnF6WW54Sm51MnFtVXI5QzJXNjF6MzBUM2lQdXlUbHFpSWk5U2k4NDZkcDJBYzlTYUlBUldsa3ZaRXJOYnlUalhOQjdPeGZ3VFFwQ0FzNXZHRUlBUWVPUlgwQ3VGdDlB?oc=5",
+   "date": "2026-10-20 21:23",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 100억 달러 EU AI 이니셔티브 아래 독일 스타트업 투자",
+    "korean_summary": "NVIDIA가 100억 달러 규모 유럽 AI 이니셔티브의 일환으로 독일 스타트업에 수백만 달러를 투자하겠다고 약속했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbFhsTHk0TkJVVWJRYWVvcldEYkgxeTJOVlh6ZkJ3OGVOWG8zU3ZELVdTRTNRTkxMUHFHdXNCZ1lsRjVSS3l1VnF6WW54Sm51MnFtVXI5QzJXNjF6MzBUM2lQdXlUbHFpSWk5U2k4NDZkcDJBYzlTYUlBUldsa3ZaRXJOYnlUalhOQjdPeGZ3VFFwQ0FzNXZHRUlBUWVPUlgwQ3VGdDlB",
+   "body": ""
+  },
+  {
+   "source": "Google News · Newsquawk",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon (AMZN) is buying billions in Nvidia (NVDA) AI systems it can't yet turn on, Business Insider reports",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTWhkUUEyTUU3UjRIVHdyZWJIU0tISDdIZWZsVmViUlVNWHlqQnJZT3BkX0oyNzZldGNSRnROTEttRFRZOE9yWk5NSVI1a3ZBZmJqVmhjalAtSkdTZGJRenN0NC03ZTd5NzE1d3J4QV8zQ2VnMzdocko1TmdaRjhSY3R0Z29SYlROOF9nUzZSRDdRTDFCSlV4elBobWgxNi1hemd5Z3Yxdk9zUW0xS2Y5X3ROMVBkYnhHd2V0dHhFOG5mMEt4UHc?oc=5",
+   "date": "2026-10-21 03:51",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Amazon, NVIDIA AI 시스템 수십억 달러 규모 구매 중 미가동",
+    "korean_summary": "Amazon이 NVIDIA AI 시스템을 수십억 달러 규모로 구매했으나 아직 가동하지 못하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTWhkUUEyTUU3UjRIVHdyZWJIU0tISDdIZWZsVmViUlVNWHlqQnJZT3BkX0oyNzZldGNSRnROTEttRFRZOE9yWk5NSVI1a3ZBZmJqVmhjalAtSkdTZGJRenN0NC03ZTd5NzE1d3J4QV8zQ2VnMzdocko1TmdaRjhSY3R0Z29SYlROOF9nUzZSRDdRTDFCSlV4elBobWgxNi1hemd5Z3Yxdk9zUW0xS2Y5X3ROMVBkYnhHd2V0dHhFOG5mMEt4UHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Wire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Infinity and HP Deliver 2X Performance Gains on NVIDIA's GB300 Grace Blackwell Ultra Desktop Superchip",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcjVtbGRkSU45VWt2WG5SZHJWQjlhWi1FaklHMFRrZ0d5SUR1dmFON1hNbXJHWDhCdHAya0NzT2NSTko0N3dlVEwyUWlNRTVXTlJXMFYxMC1tRi1OdDdaY3RZbTkyQlhIWHZpMzhvdDlSRDEwbi1wNFN1SmJRTWdNZFBSLUl5OUtaZTVjVFZ2Z3lmYXM3c1UzdjFLeS1RTGNQVy1Ed2RIREdwalhpOWFPckVzQXVpeDNqNWx2eWt5dHVaTE54M25tWV9sZGF1M2xHeGJBUDA1bE1SNlctbXdtajZhWXpTY2RvQ285dmlnVQ?oc=5",
+   "date": "2026-10-21 02:33",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Infinity, HP, NVIDIA GB300 Grace Blackwell에서 2배 성능 향상",
+    "korean_summary": "Infinity와 HP가 NVIDIA의 GB300 Grace Blackwell 칩을 활용한 데스크톱 슈퍼컴퓨터에서 2배 성능 향상을 달성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNcjVtbGRkSU45VWt2WG5SZHJWQjlhWi1FaklHMFRrZ0d5SUR1dmFON1hNbXJHWDhCdHAya0NzT2NSTko0N3dlVEwyUWlNRTVXTlJXMFYxMC1tRi1OdDdaY3RZbTkyQlhIWHZpMzhvdDlSRDEwbi1wNFN1SmJRTWdNZFBSLUl5OUtaZTVjVFZ2Z3lmYXM3c1UzdjFLeS1RTGNQVy1Ed2RIREdwalhpOWFPckVzQXVpeDNqNWx2eWt5dHVaTE54M25tWV9sZGF1M2xHeGJBUDA1bE1SNlctbXdtajZhWXpTY2RvQ285dmlnVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · AI Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AWS Takes Aim at Nvidia’s PyTorch Advantage While Nvidia Expands Open-Weight Nemotron Models for Agents",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZWo4LTRpaWpNNlAtOGxmT0JiVTk4QUMtdVhQVDBhWTJCalFjS3NzenBac1NhSHpPVkR4VjlDbWM2VjN1TFd1OC1vTEdDcGdrMGxIYzNyOWo4cjQ1Wjd1MHZSRG1qNVphOHhGTkJaZHo5N0tWQVdDMUlyQ1VtUUxDQ1I4dkFuQjZuX3RUeDhvZ2E4TXI5U1FIbzRRckFvNnp0MXgxUlpKbWEzaDBmQWJjTVBZY2xWYW5Jb1EzeE5TRFIzbTl3LVJ4NGVxd2docFJrLU9ZS2xFMA?oc=5",
+   "date": "2026-10-21 01:10",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 에이전트용 Nemotron 오픈웨이트 모델 확대",
+    "korean_summary": "NVIDIA가 에이전트 애플리케이션을 위한 Nemotron 오픈웨이트 모델을 확대하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZWo4LTRpaWpNNlAtOGxmT0JiVTk4QUMtdVhQVDBhWTJCalFjS3NzenBac1NhSHpPVkR4VjlDbWM2VjN1TFd1OC1vTEdDcGdrMGxIYzNyOWo4cjQ1Wjd1MHZSRG1qNVphOHhGTkJaZHo5N0tWQVdDMUlyQ1VtUUxDQ1I4dkFuQjZuX3RUeDhvZ2E4TXI5U1FIbzRRckFvNnp0MXgxUlpKbWEzaDBmQWJjTVBZY2xWYW5Jb1EzeE5TRFIzbTl3LVJ4NGVxd2docFJrLU9ZS2xFMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Mezha.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Google brings open-source TorchTPU to challenge Nvidia’s AI hardware dominance",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQkJlVlNXWWNCOHpsekpjT2JtTnY4MkpGYk1DTjNQSV9WdVRQeGdhQWxhY2lCcXV0clY0WUhpMWlYd29QeFNzR29aZFRxN2dNbXV4cGQ4ZzVqZnoxTFpBVUFHQVMtRHhOUzQ3eWdNemswSTg0RDdJX1EycEdPX3A5ZDd1c1Rsdi1Fa3pCOA?oc=5",
+   "date": "2026-10-21 04:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release",
+     "research"
+    ],
+    "korean_title": "Google, TorchTPU 오픈소스 공개로 NVIDIA의 AI 칩 지배력 도전",
+    "korean_summary": "Google이 오픈소스 TorchTPU를 공개하여 NVIDIA의 AI 하드웨어 지배력에 도전하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQkJlVlNXWWNCOHpsekpjT2JtTnY4MkpGYk1DTjNQSV9WdVRQeGdhQWxhY2lCcXV0clY0WUhpMWlYd29QeFNzR29aZFRxN2dNbXV4cGQ4ZzVqZnoxTFpBVUFHQVMtRHhOUzQ3eWdNemswSTg0RDdJX1EycEdPX3A5ZDd1c1Rsdi1Fa3pCOA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Chinese tech giants are buying Nvidia gaming chips for AI. Here's why.",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU2ZyUlNRZm5FbVVqUngtQWc2eGczUWhFdnNPUEM3aVlXX1VKem9lZXpwWFphVVZ2U1gwOVh4UW85VlNQa29pYXFTYmxvd3FPNGRheXR0ZjFXRE55eHQ0Snc4UUpQT2s?oc=5",
+   "date": "2026-10-20 23:57",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 기술 거대 기업들, AI용 엔비디아 게이밍 칩 구매 중",
+    "korean_summary": "중국 기술 거대 기업들이 AI 용도로 엔비디아 게이밍 칩을 구매하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU2ZyUlNRZm5FbVVqUngtQWc2eGczUWhFdnNPUEM3aVlXX1VKem9lZXpwWFphVVZ2U1gwOVh4UW85VlNQa29pYXFTYmxvd3FPNGRheXR0ZjFXRE55eHQ0Snc4UUpQT2s",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia RTX Spark Brings Local AI Agents to Windows Laptops",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTXAtZHRHWDBfTWJfdTVybkpDWXA1RmtYZDViTWh0akVCQkQ1RWp1bU93b0VXbmNCcTdTVUFrRm9LVE9BUm04RHNMVDlaeXhrUUZrLVVJS1R0eGhPNmZOdHZRNEZHRDFjRThEenFjTWFvLVBmRTMyN1ZCbHRpQ1pGVzlBMWNLUU10M2ZWTQ?oc=5",
+   "date": "2026-10-20 22:13",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "엔비디아 RTX Spark, 윈도우 노트북의 로컬 AI 에이전트 실행 지원",
+    "korean_summary": "엔비디아가 RTX Spark로 윈도우 노트북에서 로컬 AI 에이전트를 실행할 수 있게 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTXAtZHRHWDBfTWJfdTVybkpDWXA1RmtYZDViTWh0akVCQkQ1RWp1bU93b0VXbmNCcTdTVUFrRm9LVE9BUm04RHNMVDlaeXhrUUZrLVVJS1R0eGhPNmZOdHZRNEZHRDFjRThEenFjTWFvLVBmRTMyN1ZCbHRpQ1pGVzlBMWNLUU10M2ZWTQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Financial Regulation News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Banco Santander expands partnership with Nvidia on AI lab",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSTd4VkxaeXRVLTdXd3FSY1kzaVRlTkt5V0Jub2ZzSmRIblBJbEF2bjBsZ0I4S2NxQ2dnQ3VybEU0dDFyN0NDV2FfN25fZllRZmZBNUR4Vl8tbXlBY184N1JQbVVEWHo1RWNXS1l4azFaUURTclpqelo4UnRwTzdENkgtdHhSWkdKY0xUdWtBM0I?oc=5",
+   "date": "2026-10-21 01:13",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Banco Santander, NVIDIA와 AI 랩 파트너십 확대",
+    "korean_summary": "Banco Santander가 NVIDIA와의 AI 랩 협력을 확대한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSTd4VkxaeXRVLTdXd3FSY1kzaVRlTkt5V0Jub2ZzSmRIblBJbEF2bjBsZ0I4S2NxQ2dnQ3VybEU0dDFyN0NDV2FfN25fZllRZmZBNUR4Vl8tbXlBY184N1JQbVVEWHo1RWNXS1l4azFaUURTclpqelo4UnRwTzdENkgtdHhSWkdKY0xUdWtBM0I",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-Backed Pigment Raises $250 Million - Bloomberg News",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcGtwQXJlRjJCYXZyWFNVbFZFQjhaeWtVeTQtTV8xeFNNQ3lkOUdhTThHeFlvNURfclRpNFNyTWE2SVVkWlFMS3BmdHBfdzdNbkpubV9zRlE5Z1lqZ2pVZzlFY01hMnZ1NzVHLWtoc3A1Q2ZmUWo5aWtZZW5iQTg0eG9OT2lXYXZpS1Rocm8ybk5tV1dRS2t2SWRKQ2dTUU8yeWxNeVRvVmxjTVlwVDRqdzFXenRMWG1ETkF3R0J4czBMd2M?oc=5",
+   "date": "2026-10-21 05:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원 Pigment, 2억 5천만 달러 자금 조달",
+    "korean_summary": "NVIDIA가 지원하는 데이터 운영 플랫폼 Pigment가 2억 5천만 달러 규모의 펀딩을 완료했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcGtwQXJlRjJCYXZyWFNVbFZFQjhaeWtVeTQtTV8xeFNNQ3lkOUdhTThHeFlvNURfclRpNFNyTWE2SVVkWlFMS3BmdHBfdzdNbkpubV9zRlE5Z1lqZ2pVZzlFY01hMnZ1NzVHLWtoc3A1Q2ZmUWo5aWtZZW5iQTg0eG9OT2lXYXZpS1Rocm8ybk5tV1dRS2t2SWRKQ2dTUU8yeWxNeVRvVmxjTVlwVDRqdzFXenRMWG1ETkF3R0J4czBMd2M",
+   "body": ""
+  },
+  {
+   "source": "Google News · AI News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Germany and NVIDIA sign industrial AI declaration in Berlin",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNODZoenhYRGtDQm4tTlRoMnpKTXRfenM3ODNGS2ZJNjJDdFJXOVFDZDZMVldzU0JMT19PZFFfbFU4WjllcThaN0huX0RhY2NRVUdsMlZROXpldUd5NmVHZlFTMEVlUjd6TmdOR2EweVRkNVlkcGROTXlCMXhDOVdrSkZKTUJMRmNNWjVYVTJwRVgtZzFJZEF4N3lQTTlxZXJSU2VkOGQzRXk?oc=5",
+   "date": "2026-10-21 00:02",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "독일과 NVIDIA, 산업용 AI 협력 선언",
+    "korean_summary": "독일 정부와 NVIDIA가 베를린에서 산업용 AI 발전을 위한 협력 선언에 서명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNODZoenhYRGtDQm4tTlRoMnpKTXRfenM3ODNGS2ZJNjJDdFJXOVFDZDZMVldzU0JMT19PZFFfbFU4WjllcThaN0huX0RhY2NRVUdsMlZROXpldUd5NmVHZlFTMEVlUjd6TmdOR2EweVRkNVlkcGROTXlCMXhDOVdrSkZKTUJMRmNNWjVYVTJwRVgtZzFJZEF4N3lQTTlxZXJSU2VkOGQzRXk",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engineering.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "HP expands local AI portfolio with NVIDIA-powered systems",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVRNd1VfQWs4Y2diUlhMWF9YaUFWcVc5SzJBcWRWMWVGN0RVaFVQLWRoMF9fNU9aWjl4UHh5VVVCVVhkcjliX255MWJrM1BFWUVtQ2ZZM0g5M0ExWnV0YjU2WW02VFpfRVJMV1B3ZXgyaXhHTG93Qk1IbjVKSjZGbTZ4b3RzVFFPMkl4bHRGNA?oc=5",
+   "date": "2026-10-20 22:35",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "HP, NVIDIA 기반 지역 AI 포트폴리오 확대",
+    "korean_summary": "HP가 NVIDIA 기술 기반의 지역별 AI 시스템 포트폴리오를 확대하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVRNd1VfQWs4Y2diUlhMWF9YaUFWcVc5SzJBcWRWMWVGN0RVaFVQLWRoMF9fNU9aWjl4UHh5VVVCVVhkcjliX255MWJrM1BFWUVtQ2ZZM0g5M0ExWnV0YjU2WW02VFpfRVJMV1B3ZXgyaXhHTG93Qk1IbjVKSjZGbTZ4b3RzVFFPMkl4bHRGNA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Computer Weekly",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, German government team to advance industrial AI",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEI3UEFZckI5amJtYWlFb3owcFpoLUtDNm1Ga0dGT3RsVnNOMThXZE45TVdHVlJSWDNVXzItSW94cHhPS1FGdU5haGNGUjVJaGhIenlfYnBLUHA3ZXRIemxBSlByaG9TNjRJSmx0RWhHRXVsZ3VibnNFY21tdHNlQjZuRmFrekVQSlJidDlXYTJBM1I3SkJRT1BYY2NZVEdnT3c?oc=5",
+   "date": "2026-10-20 23:24",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 독일 정부와 산업용 AI 발전 협력",
+    "korean_summary": "NVIDIA가 독일 정부와 산업용 AI 분야 협력을 체결했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTEI3UEFZckI5amJtYWlFb3owcFpoLUtDNm1Ga0dGT3RsVnNOMThXZE45TVdHVlJSWDNVXzItSW94cHhPS1FGdU5haGNGUjVJaGhIenlfYnBLUHA3ZXRIemxBSlByaG9TNjRJSmx0RWhHRXVsZ3VibnNFY21tdHNlQjZuRmFrekVQSlJidDlXYTJBM1I3SkJRT1BYY2NZVEdnT3c",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-H-Embodied-Nano (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-H-Embodied-Nano",
+   "date": "2026-10-21 02:26",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-H-Embodied-Nano",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-H-Embodied-Nano 수술 로봇 전용 모델 공개",
+    "korean_summary": "NVIDIA가 수술 로봇용으로 파인튠된 Cosmos3-H-Embodied-Nano 월드 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-H-Embodied-Nano:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: nv-medtech · tags: nv-medtech, custom, simulation, surgical-robotics, video-generation, world-model, forward-dynamics, inverse-dynamics, policy, policy-evaluation, imitation-learning, healthcare-robotics · downloads 0 · likes 2. README:  # Cosmos3-H-Embodied-Nano ## Description Cosmos3-H-Embodied-Nano is [Cosmos3-Nano](https://huggingface.co/nvidia/Cosmos3-Nano) (16B) post-trained for 50,000 iterations on the [Open-H-Embodiment](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Open-H-Embodiment) surgical robotics data (15 dataset families) jointly for **forward dynamics**, **inverse dynamics** and **policy**, with up to 16 past actions as clean conditioning. It is a single Mixture-of-Transformers (MoT) that couples video, action, and text in one multimodal sequence. One model predicts robot actions and endoscopic video for dVRK-style and other surgical robots on 2.4 s clips (25 frames and 24 actions at 10 Hz): - **Forward dynamics:** first frame and actions → video. - **Inverse dynamics:** video → actions. - **Policy:** first frame, text (task instruction) and action history → actions and video. The three tasks are mixed 0.4 / 0.2 / 0.4 (forward dynamics / inverse dynamics / policy) during training. Because they are conditioning patterns of one shared model, a single checkpoint learns both directions of the surgical world–action relationship. It can be used directly in any of the three modes or fine-tuned further, for example on a single mode or on a new robot. For more information on the base model, please view the [Cosmos3-Nano Model Card](https://huggingface.co/nvidia/Cosmos3-Nano). Cosmos3-H-Embodied-Nano is the successor of [Cosmos-H-Surgical-Simulator](https://huggingface.co/nvidia/Cosmos-H-S"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-H-Dreams (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-H-Dreams",
+   "date": "2026-10-20 01:38",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-H-Dreams",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-H-Dreams 실시간 수술 월드 모델 공개",
+    "korean_summary": "NVIDIA가 CMR Surgical Versius 로봇 시스템을 위한 Cosmos3-H-Dreams 실시간 월드 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-H-Dreams:2026-10-20",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: nv-medtech · tags: nv-medtech, custom, simulation, surgical-robotics, video-generation, real-time, interactive, autoregressive, policy-evaluation, vla-evaluation, healthcare-robotics, world-model · downloads 0 · likes 1. README:  # Cosmos3-H-Dreams ## Description Cosmos3-H-Dreams is a real-time, action-conditioned surgical world model for the CMR Surgical Versius robotic system. It is fine-tuned on CMR Surgical Versius clinical cholecystectomy data and distilled into a causal, few-step student for interactive, streaming video generation. Given a single endoscopic camera frame, a short history of recent robot commands and a stream of future kinematic and control commands for both arms, the model generates the resulting endoscopic video autoregressively. The model is intended for surgical robotics policy evaluation in simulation, interactive (teleoperated) world-model exploration and synthetic data generation for robotic cholecystectomy, before transitioning to a physical system. Cosmos3-H-Dreams is the successor of Cosmos-H-Dreams ([arXiv:2608.24199](https://arxiv.org/abs/2608.24199)), which was based on Cosmos-Predict2.5. Cosmos3-H-Dreams is based on Cosmos3-H-Embodied-Nano, which is in turn based on the NVIDIA Cosmos3-Nano world foundation model for physical AI. This model is ready for commercial or non-commercial use. ## License/Terms of Use GOVERNING DOWNLOAD TERMS: Use of the model is governed by the [NVIDIA Open Model License Agreement](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/). Additional Information: Use of the [Cosmos3-H-Embodied-Nano](https://huggingface.co/nvidia/Cosmos3-H-Embodied-Nano) base model is governed by the [NVIDIA Open Model License A"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-Parse-v1.1 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1",
+   "date": "2026-10-21 05:26",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-Parse-v1.1",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron Parse v1.1 문서 이해 능력 강화",
+    "korean_summary": "NVIDIA Nemotron Parse v1.1이 문서 의미론 이해와 텍스트·테이블 추출 기능을 개선하여 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-Parse-v1.1:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse, feature-extraction, nvidia, VLM, OCR, image-text-to-text, conversational, custom_code, arxiv:2511.20478 · downloads 131529 · likes 173. README:  # NVIDIA Nemotron Parse v1.1 Overview NVIDIA Nemotron Parse v1.1 is designed to understand document semantics and extract text and tables elements with spatial grounding. Given an image, NVIDIA Nemotron Parse v1.1 produces structured annotations, including formatted text, bounding-boxes and the corresponding semantic classes, ordered according to the document's reading flow. It overcomes the shortcomings of traditional OCR technologies that struggle with complex document layouts with structural variability, and helps transform unstructured documents into actionable and machine-usable representations. This has several downstream benefits such as increasing the availability of training-data for Large Language Models (LLMs), improving the accuracy of extractor, curator, retriever and AI agentic applications, and enhancing document understanding pipelines. This model is ready for commercial use. **[Note]:** we recently released an updated [Nemotron-Parse-v1.2](https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.2) ## License GOVERNING TERMS: The NIM container is governed by the [NVIDIA Software License Agreement](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/) and [Product-Specific Terms for NVIDIA AI Products](https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/). Use of this model is governed by the [ NVIDIA Open Model License Agreement](https://www.nvidia.com/en-us/agreements/ent"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-Parse-2.0 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-2.0",
+   "date": "2026-10-21 05:22",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-Parse-2.0",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron Parse 2.0 업데이트, 문서 처리 성능 개선",
+    "korean_summary": "NVIDIA가 Nemotron Parse 2.0을 업데이트하여 2만 토큰의 어휘를 확장하고 문서 이미지 처리 성능을 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-Parse-2.0:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse, feature-extraction, VLM, OCR, Parse, image-text-to-text, conversational, custom_code, deploy:sagemaker · downloads 19137 · likes 125. README:  # Model Overview ### Description: NVIDIA Nemotron Parse 2.0 transforms document images into structured, machine-readable representations with text, layout classes, bounding boxes, and reading-order information. Given a Red, Green, Blue (RGB) document image and a task prompt, the model produces formatted text and spatial annotations for document elements such as titles, paragraphs, captions, tables, charts, page headers, page footers, footnotes, pictures, and bibliography entries. Compared with NVIDIA Nemotron Parse v1.2, NVIDIA Nemotron Parse 2.0 adds an approximately 20k-token vocabulary expansion for more efficient multilingual support, chart-aware document parsing with the ` ` class token, and updated training coverage for chart/table-heavy documents. NVIDIA Nemotron Parse 2.0 is intended for document understanding, information retrieval, data extraction, and multimodal data-curation workflows. This model is ready for commercial or non-commercial use. ### License/Terms of Use: This model and its associated configuration files are licensed under the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). Use of the tokenizer included in this model is governed by the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/). This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use. Contributions are accepted under the policy in [CONT"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+   "date": "2026-10-21 05:02",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 3.5 Bolt 74B 업데이트, 24GB 메모리 최적화",
+    "korean_summary": "NVIDIA가 Nemotron 3.5 Bolt 74B를 업데이트하여 2-bit 양자화로 24GB 메모리에서 에이전틱 작업을 실행 가능하게 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 6820 · likes 138. README:  # nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB ## Description **NVIDIA Nemotron 3.5 Bolt 74B-A9B 24GB** is a vision-language model (VLM) designed to run everyday agentic tasks locally, using a native 2-bit quantization to fit in 24GB of memory and run alongside other applications. It optimizes intelligence and speed per GB. It aims to achieve the optimal balance between speed and intelligence, being faster than most popular dense models while smarter than most popular MoE models with a similar memory footprint. This model is ready for commercial or non‑commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 74B (9B active) | | **Architecture** | Mamba-2–Transformer hybrid LatentMoE with a C-RADIO v4-H vision encoder | | **Precision** | IQ2 (2-bit quantization with quantization-aware training) | | **Context Length** | Up to 256K tokens | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 24GB packed model; vLLM on NVIDIA Ampere (A100), Hopper (H100-80GB), or Blackwell | | **Speculative Decoding** | LiLiCorr drafter via DFlash; 7 speculative tokens in the companion Bolt vLLM recipes | | **Reasoning Mode** | Chat-template controls (`enable_thinking=True/False`), inherited from the Super 3.5 VL client | | **Recommended Sampling** | Text: temperature 1.0, top_p 0.95 (inherited from the Super 3.5 VL client) | | **Best For** | Running everyday agentic tasks locally | | **License** | [OpenMDW-1.1](https://openmdw.ai/license/1-1/) | ## Mo"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-S2_s43 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
+   "date": "2026-10-21 01:53",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-S2_s43",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Cosmos3-Nano LIBERO-10 S2 로보틱스 정책 모델 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano 기반 로보틱스 정책 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-S2_s43:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 15 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell S2_s43 (training seed 43) A Cosmos3-Nano action policy post-trained on LIBERO-10, the second training seed of one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 restyled from iteration 1000 (training seed 43) | | Iterations | resume R(seed 43) at 1000 -> 2000 (global batch 2048, training seed 43) | | Success, standard scenes | 94.9 +/- 0.4 % (10 tasks x 50 initial states, three evaluation seeds; values reported by the training run, record pending) | | Success, perturbed scenes | 89.7 +/- 1.8 % (same initial states with randomised lighting, textures, skybox and camera jitter; measured on the evaluation bed, 2026-10-19) | | Control | D2_s43 (4.2 points on perturbed scenes) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points are within the training-"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/cosmos3-nano-libero10-sdg-export-D2_s43 (업데이트)",
+   "link": "https://huggingface.co/nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
+   "date": "2026-10-21 01:53",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/cosmos3-nano-libero10-sdg-export-D2_s43",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Cosmos3-Nano LIBERO-10 D2 로보틱스 정책 모델 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano 기반 로보틱스 정책 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/cosmos3-nano-libero10-sdg-export-D2_s43:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: cosmos · tags: cosmos, safetensors, cosmos3_omni, robotics, libero, vla, custom_code, base_model:nvidia/Cosmos3-Nano, base_model:finetune:nvidia/Cosmos3-Nano · downloads 14 · likes 0. README:  # Cosmos3-Nano LIBERO-10 policy, cell D2_s43 (training seed 43) A Cosmos3-Nano action policy post-trained on LIBERO-10, the second training seed of one cell of the controlled synthetic-data study in the Cosmos Cookbook recipe \"Restyle LIBERO-10 Demonstrations with Cosmos3-Nano-Sim-Transfer and Measure the Gain Against a Matched Control\". Export of the training checkpoint (bf16 safetensors, EMA weights, 7 shards, about 30 GB); loadable by the `cosmos-framework` policy server. The training data is not redistributed here: LIBERO-10 is at `nvidia/LIBERO_LeRobot_v3`, and the restyled sets are regenerated by the recipe. | | | |---|---| | Training data | 379 real LIBERO-10 demonstrations + 1137 duplicates from iteration 1000 (training seed 43) | | Iterations | resume R(seed 43) at 1000 -> 2000 (global batch 2048, training seed 43) | | Success, standard scenes | 93.3 +/- 0.7 % (10 tasks x 50 initial states, three evaluation seeds; values reported by the training run, record pending) | | Success, perturbed scenes | 85.5 +/- 2.5 % (same initial states with randomised lighting, textures, skybox and camera jitter; measured on the evaluation bed, 2026-10-19) | | Control | R(seed 43) ( not evaluated at 2000 points on perturbed scenes) | | Base model | `nvidia/Cosmos3-Nano`, revision `e59a53c2` | | Framework | `cosmos-framework` `c23e51f2` (v1.2.2) | Read the recipe before comparing cells: a restyled cell is only interpretable next to its duplicate control, and differences under 2.5 points"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
+   "date": "2026-10-21 05:26",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-Parse-v1.1-TC",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron Parse v1.1-TC 텍스트 중심 버전 공개",
+    "korean_summary": "NVIDIA Nemotron Parse v1.1의 텍스트 중심 변형 버전(TC)이 Hugging Face에서 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-Parse-v1.1-TC:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse_tc, feature-extraction, nvidia, VLM, OCR, image-text-to-text, conversational, custom_code, arxiv:2511.20478 · downloads 327 · likes 13. README:  # NVIDIA Nemotron Parse v1.1 TC Overview NVIDIA Nemotron Parse v1.1 TC is designed to understand document semantics and extract text and tables elements with spatial grounding. Given an image, NVIDIA Nemotron Parse v1.1 TC produces structured annotations, including formatted text, bounding-boxes and the corresponding semantic classes, ordered according to the document's reading flow. It overcomes the shortcomings of traditional OCR technologies that struggle with complex document layouts with structural variability, and helps transform unstructured documents into actionable and machine-usable representations. This has several downstream benefits such as increasing the availability of training-data for Large Language Models (LLMs), improving the accuracy of extractor, curator, retriever and AI agentic applications, and enhancing document understanding pipelines. This model is ready for commercial use. The NVIDIA Nemotron Parse v1.1 TC version extends on top of [NVIDIA Nemotron Parse v1.1](https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.1) and offers 20% speed improvement due to additional 4x vision token length compression (TC) on top of vision encoder representation. Additionally, unlike Nemotron-Parse-v1.1, Nemotron-Parse-v1.1-TC preserves the page order of un-ordered element: Tables, Captions, Pictures, Footnotes. ## License GOVERNING TERMS: The NIM container is governed by the [NVIDIA Software License Agreement](https://www.nvidia.com/en-us/agreements/enterprise-so"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Embed-1B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-1B-BF16",
+   "date": "2026-10-21 06:07",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Embed-1B-BF16",
+    "version": "visual-document-retrieval"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Embed-1B 모델 업데이트",
+    "korean_summary": "NVIDIA의 다국어·멀티모달 임베딩 모델 Nemotron-3.5-Embed-1B가 Hugging Face에서 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Embed-1B-BF16:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: visual-document-retrieval · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, feature-extraction, multimodal-embedding, image-embeddings, text-embeddings, retrieval, rag, semantic-search, transformers, vllm · downloads 1855 · likes 23. README:  **NVIDIA Nemotron 3.5 Embed** &nbsp; &nbsp; # Nemotron-3.5-Embed-1B-BF16 Overview ## Description: **Nemotron-3.5-Embed-1B-BF16** is a versatile embedding model developed by NVIDIA for multimodal and multilingual question-answering retrieval. The model can embed a document page in the form of an image, text, or combined image–text input. Documents can be retrieved given a user query in text form. The model supports page images containing text, tables, charts, and infographics. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-3B-Instruct-2512-BF16](https://huggingface.co/mistralai/Ministral-3-3B"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Embed-8B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Embed-8B-BF16",
+   "date": "2026-10-21 06:10",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Embed-8B-BF16",
+    "version": "visual-document-retrieval"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Embed-8B 모델 업데이트",
+    "korean_summary": "NVIDIA의 다국어·멀티모달 임베딩 모델 Nemotron-3.5-Embed-8B가 Hugging Face에서 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Embed-8B-BF16:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: visual-document-retrieval · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, feature-extraction, multimodal-embedding, image-embeddings, text-embeddings, retrieval, rag, semantic-search, transformers, vllm · downloads 702 · likes 9. README:  **NVIDIA Nemotron 3.5 Embed** &nbsp; &nbsp; # Nemotron-3.5-Embed-8B-BF16 Overview ## Description: **Nemotron-3.5-Embed-8B-BF16** is a state-of-the-art, versatile embedding model developed by NVIDIA for multimodal and multilingual question-answering retrieval. The model can embed a document page in the form of an image, text, or combined image–text input. Documents can be retrieved given a user query in text form. The model supports page images containing text, tables, charts, and infographics. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-8B-Instruct-2512-BF16](https://huggingface.co/mistra"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Rerank-8B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-8B-BF16",
+   "date": "2026-10-21 06:28",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Rerank-8B-BF16",
+    "version": "text-ranking"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Rerank-8B 모델 업데이트",
+    "korean_summary": "NVIDIA의 다국어·멀티모달 리랭킹 모델 Nemotron-3.5-Rerank-8B가 Hugging Face에서 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Rerank-8B-BF16:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-ranking · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, text-classification, reranker, cross-encoder, visual-document-retrieval, multimodal reranking, semantic-search, rag, transformers, vllm · downloads 1196 · likes 19. README:  # Nemotron-3.5-Rerank-8B-BF16 Overview ## Description: **Nemotron-3.5-Rerank-8B-BF16** was developed by NVIDIA for multilingual and multimodal question-answering retrieval. It is a world-class reranker optimized to produce a logit representing the relevance of a document to a text query. Documents may contain text, page images, or both, including charts, tables, and infographics. The model can be integrated into classical or agentic vision RAG pipelines. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-8B-Instruct-2512-BF16](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512-BF16) b"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-Parse-v1.2 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Parse-v1.2",
+   "date": "2026-10-21 05:26",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-Parse-v1.2",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron Parse v1.2 업데이트",
+    "korean_summary": "NVIDIA가 Nemotron Parse v1.2 문서 처리 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-Parse-v1.2:2026-10-21",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse, feature-extraction, VLM, OCR, Parse, image-text-to-text, conversational, custom_code · downloads 28829 · likes 74. README:  # Model Overview ### Description: NVIDIA Nemotron Parse v1.2 is designed to understand document semantics and extract text and tables elements with spatial grounding. Given an image, NVIDIA Nemotron Parse v1.2 produces structured annotations, including formatted text, bounding-boxes and the corresponding semantic classes, ordered according to the document's reading flow. It overcomes the shortcomings of traditional OCR technologies that struggle with complex document layouts with structural variability, and helps transform unstructured documents into actionable and machine-usable representations. This has several downstream benefits such as increasing the availability of training-data for Large Language Models (LLMs), improving the accuracy of extractor, curator, retriever and AI agentic applications, and enhancing document understanding pipelines. This model is ready for commercial use. ## Release Notes Compared to NVIDIA-Nemotron-Parse v1.1 the following changes are made in v1.2: #### Updated prompt interface NVIDIA-Nemotron-Parse v1.2 extends the prompt interface with a fourth prompt token category — **Text-in-picture prompts** — controlling whether the model extracts text from embedded images (e.g. photographs, figures): - ` `: extract text found inside pictures. - ` `: skip text extraction from pictures, reducing generation time by avoiding unnecessary tokens. The full v1.2 prompt now consists of four prompt tokens (one from each category): ` ` > **Important:** NVIDIA-N"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 21,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 105.8
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 16,
+   "enriched": 16,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 12,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 7,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 19.4
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 39,
+   "enriched": 39,
+   "error": "",
+   "sec": 3.7
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
