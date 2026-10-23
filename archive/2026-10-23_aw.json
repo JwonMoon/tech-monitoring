@@ -1,0 +1,628 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-23",
+ "window": [
+  "2026-10-22",
+  "2026-10-23"
+ ],
+ "generated": "2026-10-23T09:11:26+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 뮌헨공대와 **NVIDIA Hyperion**에 Autoware를 결합해 독일 전역 자율주행 레벨4 개발을 가속화한다",
+  "TIER IV가 **Arm의 Physical AI** 에코시스템 프로그램에 새로 참여해 하드웨어 협력 기반을 넓힌다",
+  "TIER IV와 뮌헨공대가 **NVIDIA Hyperion** 도입을 통한 독일 레벨4 자동운전 협력을 공식 발표했다"
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
+   "link": "https://prtimes.jp/main/html/rd/p/000000145.000040119.html",
+   "date": "2026-10-22 11:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 뮌헨공대, 독일 레벨4 개발 협력 확대... NVIDIA Hyperion 통합",
+    "korean_summary": "TIER IV와 뮌헨공대가 NVIDIA Hyperion 플랫폼을 Autoware와 통합하여 독일에서 레벨4 자동운전 개발을 가속화한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 뮌헨공대와 협업 확대…NVIDIA Hyperion과 Autoware 결합해 독일 자율주행 레벨4 가속",
+    "korean_summary": "TIER IV와 뮌헨공과대학(TUM)이 NVIDIA GTC Berlin에서 NVIDIA Hyperion과 Autoware를 통합하여 독일 전역의 자율주행 레벨4 차량·로보택시 개발 프로젝트에 적용하는 협업 확대를 발표했다.",
+    "action": {
+     "actor": "TIER IV, TUM, NVIDIA",
+     "action": "NVIDIA Hyperion(NVIDIA DRIVE AGX Thor 2기 탑재, NVIDIA Halos 안전 시스템 포함)과 Autoware를 통합하여 TUM Autoware Research Center by TIER IV를 기반으로 독일 각지 자율주행 개발 프로젝트에 도입",
+     "stage": "Announced",
+     "timeline": "미확인 (NVIDIA GTC Berlin에서 발표)",
+     "scope": "독일 전역 자율주행 개발 프로젝트, 향후 레벨4 공공교통 서비스 및 로보택시 응용 목표"
+    },
+    "key_facts": [
+     "NVIDIA GTC Berlin에서 TIER IV-TUM 협업 확대 발표",
+     "**TUM Autoware Research Center by TIER IV**를 기반으로 Autoware와 NVIDIA Hyperion 통합",
+     "NVIDIA Hyperion은 NVIDIA DRIVE AGX Thor 2기를 탑재하는 고성능 구성 포함",
+     "NVIDIA Halos 안전 시스템도 함께 도입",
+     "**레벨4 공공교통 서비스·로보택시 응용**을 목표로 독일 각지 프로젝트에 적용 예정(구체적 일정·차종·대수는 미확인)"
+    ],
+    "why_matters": "오픈소스 Autoware가 NVIDIA의 차세대 레퍼런스 하드웨어(Hyperion/Thor)와 안전 프레임워크(Halos)에 공식 결합됨으로써 **폐쇄형 독자 스택 대비 개방형 아키텍처의 실용화 신뢰성**을 입증하는 사례가 된다. 유럽 최대 완성차 생산국 독일에서 학계-기업-반도체사가 결집한 구조는 향후 레벨4 로보택시·공공교통 상용화 경쟁에서 Autoware 생태계의 표준 플랫폼 지위 강화에 기여할 수 있다.",
+    "subject_angle": "TIER IV는 TUM이라는 유럽 핵심 연구거점과 NVIDIA의 최신 하드웨어 레퍼런스를 결합해 **Autoware를 유럽 자율주행 레벨4 개발의 기본 소프트웨어 스택으로 자리매김**시키려는 전략을 재확인했다.",
+    "focus_angle": "이번 발표는 사업 단계상 아직 실증 이전의 **협업 발표(Announced)** 수준으로, 양산·서비스 일정은 명시되지 않았으나 독일 전역 다수 프로젝트에 적용되며 향후 레벨4 공공교통·로보택시로 확장할 고객·지역 범위(독일/유럽)를 설정한 것이 핵심이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발 주도사, 협업 발표 주체"
+     },
+     {
+      "name": "Technical University of Munich (TUM)",
+      "context": "연구 파트너, TUM Autoware Research Center 공동 설립"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Hyperion·DRIVE AGX Thor·Halos 하드웨어/안전 플랫폼 제공사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "오픈소스 자율주행 소프트웨어, 통합 대상"
+     },
+     {
+      "name": "NVIDIA Hyperion",
+      "role": "센서·컴퓨팅 통합 레퍼런스 플랫폼, Autoware와 통합"
+     },
+     {
+      "name": "NVIDIA DRIVE AGX Thor",
+      "role": "Hyperion 내 고성능 연산 칩(2기 탑재 구성)"
+     },
+     {
+      "name": "NVIDIA Halos",
+      "role": "자율주행 안전 시스템"
+     }
+    ],
+    "watch_next": [
+     "독일 내 구체적 적용 프로젝트명·차종·투입 시기 공개 여부",
+     "TUM Autoware Research Center의 레벨4 공도 실증 결과 및 규모 확대 여부",
+     "NVIDIA Hyperion·Halos 기반 Autoware 스택의 타 지역(유럽 외) 확산 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oR2hsUllLXzh6NlladnZsYmtkYy03OE8tdzEtaWxVQUdHdXdUOXY4S1VwZE1VbnBqYzZZdERLQ2dYV2p1UWp1c1ltY0oyZ2xDS0o1b3FPQnNUZVJ4a2xONDc1cDR2VWw1YlE?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlcUVodDFRSmJPM25wY09vLUFLczZkRVpNZmZwUnVWU1UzNE9qdWE4Q1A1aHJ2bTFuSXRiN2x2Z2R5R0pONE9MNWlLblFBNUM0MFFKYXNVdG9IYS1sZTJCQTNR?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUkJ4SmlOcE1vTXFrRE92eE45ZGVPd0t0ZE5tWTBRZVkzRE5GNUN3bGR6MWZYZVloZ1dsNHF6SnJ6YklrLVNydlpWNTJqREI4NU9STUc3U3pHS3ljaW9yc2N1QXBPbWlnR2E4S2lfcFNTUEt4d2RROHRJbXZ5WVdHZHE0ZXZjeFVNUXFoZGg5a3Naam5fTEZEQlBEazVXV1dvVUJ5SHc1dUlGT1RzdjhDUFNRakNBZEZwQjdYYW1WSXVidVhYdTJV0gHHAUFVX3lxTE9SQnhKaU5wTW9NcWtET3Z4TjlkZU93S3RkTm1ZMFFlWTNETkY1Q3dsZHoxZlhlWWhnV2w0cXpKcnpiSWstU3J2WlY1MmpEQjg1T1JNRzdTekdLeWNpb3JzY3VBcE9taWdHYThLaV9wU1NQS3h3ZFE4dEltdnlZV0dkcTRldmN4VU1RcWhkaDlrc1pqbl9MRkRCUERrNVdXV29VQnlIdzV1SUZPVHN2OENQU1FqQ0FkRnBCN1hhbVZJdWJ1WFh1MlU?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBlcUVodDFRSmJPM25wY09vLUFLczZkRVpNZmZwUnVWU1UzNE9qdWE4Q1A1aHJ2bTFuSXRiN2x2Z2R5R0pONE9MNWlLblFBNUM0MFFKYXNVdG9IYS1sZTJCQTNR?oc=5"
+    },
+    {
+     "source": "Google News · 글로벌이코노믹",
+     "title": "TIER IV·뮌헨공대, 독일 레벨4 자율주행에 엔비디아 하이페리온 통합",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb2t5a1NJTTNlc0dET3FaWlE4Y3V2dUItRzl3YXBVY29TdDlzdnlzUnZlNHY2YWJLNFhza253X01QMjlJODFoenI5bUQzZHduWHB5aDY5ejdwd3U5UmtJSmNuQUdrZGNXSXVsUDJqQjRWZ2tFczMya1RZclZSek5ZV3BfcVF3Vm5r?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000145.000040119.html",
+   "body": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速 NVIDIA GTC Berlinで協業を発表 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）とミュンヘン工科大学（Technical University of Munich、以下TUM）は、「NVIDIA Hyperion」と「NVIDIA Halos」の導入を通じて協業を拡大し、ドイツにおける安全で高性能な自動運転システムの開発を推進します。 「NVIDIA Hyperion」は、自動運転レベル4に対応する車両やロボットタクシー向けに、センサーとコンピューターシステムを統合したリファレンスプラットフォームとして開発されました。「NVIDIA DRIVE AGX Thor」による高性能な演算処理と「NVIDIA Halos」の安全システムを組み合わせることで、実用化を見据えた自動運転システムの開発を支援します。 本取り組みでは、ティアフォーとTUMが設立した研究拠点「TUM Autoware Research Center by TIER IV」を基盤として、自動運転用のオープンソースソフトウェア「Autoware」と「NVIDIA Hyperion」を統合し、ドイツ各地で進める自動運転車両の開発プロジェクトに導入します。「NVIDIA Hyperion」には2基の「NVIDIA DRIVE AGX Thor」を搭載する高性能なシステム構成も含まれます。 ティアフォーが開発を主導する自動運転用オープンソースソフトウェア「Autoware」、TUMが有する自動車分野の研究知見、NVIDIAの車載向けコンピューティング技術と安全技術を融合させることで、研究者や開発者が次世代の自動運転システムを開発・試験・検証するための統合環境を提供します。また、研究成果を実社会での活用につなげ、安全で拡張性の高い自動運転システムの普及を目指すとともに、自動運転レベル4による公共交通サービスやロボットタクシーなどへの応用を進めます。 ティアフォー 代表取締役 CEO 加藤真平のコメント 安全な自動運転を世界規模で普及させるためには、閉鎖的なブラックボックス型のシステムから、オープンで相互運用可能なアーキテクチャへの転換が重要です。TUMは最先端の研究開発を推進するうえで欠かせないパートナーです。また、NVIDIAは「NVIDIA Hyperion」をはじめとする高性能コンピューティング技術を先導しながら、オープンソースのエコシステム構築にも大きく貢献しています。これらの技術と研究成果を組み合わせることで、ドイツをはじめとする世界各地で、安全で拡張性が高く、社会から信頼される自動運転の実現を加速できると考えています。 ミュンヘン工科大学 教授 Markus Lienkampのコメント 自動運転モビリティを学術研究から信頼される実社会での運用へと移行させるには、「Autoware」のような先進的なオープンソースプラットフォームと「NVIDIA Hyperion」のような最先端のハードウェアを組み合わせて活用することが不可欠です。今回の協業により、ドイツの公道で自動運転システムを厳格に検証し、閉鎖的な独自技術ではなく、透明性が高く、安全性を検証でき、多くの関係者と使える技術基盤の上に公共交通のソリューションを構築することが可能になります。 ミュンヘン工科大学 教授 Johannes Betzのコメント ティアフォーとTUMが「Autoware」を通じて長年にわたり積み重ねてきた協業を基盤に、「NVIDIA Hyperion」のような先進的なプラットフォームを統合することで、リアルタイムの車両制御とソフトウェアアーキテクチャを新たなレベルへと引き上げることができます。 NVIDIA Automotive Vice President Rishi Dhallのコメント 「NVIDIA Hyperion」は、自動運転レベル4車両やロボットタクシーを大規模に開発するために必要な、センサーおよびコンピューティングのリファレンスアーキテクチャを提供します。ティアフォーとTUMとともに、「NVIDIA DRIVE AGX Thor」と「NVIDIA Halos」の安全システムをオープンソースの自動運転プラットフォームと組み合わせることで、安全性を確保しながら、実用化に向けた自動運転技術の開発を加速していきます。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像 - 種類 - 経営情報 - ビジネスカテゴリ - 自動車・カー用品システム・Webサイト・アプリ開発 - ダウンロード - プレスリリース素材 このプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "source": "Google News · Dellows News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーがArmのPhysical AIエコシステムプログラムに参画",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HU1I1N0RPczR6SzVSeFgzVTN6NzNMMmV4Uko4aXdnZGdEQXRQVk1tdEVVSXFvbDN1TVJ1Q29wOTRtZDJIX1E?oc=5",
+   "date": "2026-10-22 06:09",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Ecosystem-Hardware",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "hardware"
+    ],
+    "korean_title": "TIER IV, Arm의 Physical AI 에코시스템 프로그램 참여",
+    "korean_summary": "TIER IV가 Arm의 Physical AI 에코시스템 프로그램에 새로이 참여한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Dellows News",
+     "title": "ティアフォーがArmのPhysical AIエコシステムプログラムに参画",
+     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HU1I1N0RPczR6SzVSeFgzVTN6NzNMMmV4Uko4aXdnZGdEQXRQVk1tdEVVSXFvbDN1TVJ1Q29wOTRtZDJIX1E?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1HU1I1N0RPczR6SzVSeFgzVTN6NzNMMmV4Uko4aXdnZGdEQXRQVk1tdEVVSXFvbDN1TVJ1Q29wOTRtZDJIX1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Automotive World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tier IV and TUM bring Nvidia Hyperion to German L4 work",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXZpUzhBcUhIY2NwRl9GWVFhY1JEbUpTSHQzVFF6ZUxxdVJwQ2tIV180dDVBVDREUG94NHI0ZmZuSjNNY3Vid0FQS1p1cFg0bXYyUXFKcDRORnUwSnZxcjBhaUduaW5kT2FWYUF6dmlxbXRYYzdIT1hwTmxjQmszVmpwdjRmemF6LThuM1ZqaWRUbjhHWnR4aw?oc=5",
+   "date": "2026-10-22 22:39",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 TUM, 독일 레벨4 자동운전에 NVIDIA Hyperion 도입",
+    "korean_summary": "TIER IV와 뮌헨공대가 NVIDIA Hyperion을 독일 레벨4 자동운전 개발에 도입한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Automotive World",
+     "title": "Tier IV and TUM bring Nvidia Hyperion to German L4 work",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXZpUzhBcUhIY2NwRl9GWVFhY1JEbUpTSHQzVFF6ZUxxdVJwQ2tIV180dDVBVDREUG94NHI0ZmZuSjNNY3Vid0FQS1p1cFg0bXYyUXFKcDRORnUwSnZxcjBhaUduaW5kT2FWYUF6dmlxbXRYYzdIT1hwTmxjQmszVmpwdjRmemF6LThuM1ZqaWRUbjhHWnR4aw?oc=5"
+    },
+    {
+     "source": "Google News · Automotive World",
+     "title": "Tier IV and TUM bring Nvidia Hyperion to German L4 work",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXZpUzhBcUhIY2NwRl9GWVFhY1JEbUpTSHQzVFF6ZUxxdVJwQ2tIV180dDVBVDREUG94NHI0ZmZuSjNNY3Vid0FQS1p1cFg0bXYyUXFKcDRORnUwSnZxcjBhaUduaW5kT2FWYUF6dmlxbXRYYzdIT1hwTmxjQmszVmpwdjRmemF6LThuM1ZqaWRUbjhHWnR4aw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeXZpUzhBcUhIY2NwRl9GWVFhY1JEbUpTSHQzVFF6ZUxxdVJwQ2tIV180dDVBVDREUG94NHI0ZmZuSjNNY3Vid0FQS1p1cFg0bXYyUXFKcDRORnUwSnZxcjBhaUduaW5kT2FWYUF6dmlxbXRYYzdIT1hwTmxjQmszVmpwdjRmemF6LThuM1ZqaWRUbjhHWnR4aw",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV and Technical University of Munich Bring NVIDIA Hyperion to Level 4 Autonomous Driving in Germany",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON1dNSjFaMk83UFM4YWdIdUotOEZ6TllNMHltMk9pei13TUFNcW9HVGt5NWFBQ3BzbUllY3V4WEYzdVd6N2lGQ05JWHBVUjlLMngzRUllcDZlT1otVU5DYld6eElwUndfZnp4MmVxWVpWbzhEbkRfXy1XU2RxakVmcUlKVXFmOG14UjJBaE41ZVVKNGRnTl9oaElfdTA4akh3NFo4SHdMOGpsd0VOd2FMYm5FUTEtRmZjTEZoMHNwdkRoeGNJZEROONIBywFBVV95cUxOazZWUGN2cDlrM0ZxcUlhMmoxZlI5czk2dEFJaEsyYVBkSThyWU94T0d1MW40Z2xVU2lfUmpRV3lOMGFnRm1YQkNtd3h2T2VSYk9GMm9uRkxqclFlSmNfSzFtLXVkRGJBaXZ1bnRvOE9ndUtIb2t1VG9WUV9lY0Q1MWNRRzNJckJvN3JRU0J6dkZjbncwbHZoTTBMdm1qUEtuQVNTSjlYV2RZeU9hdm42UGJZSW5ydTZETkJFY3VJcFJjc1hHVHBhcFlGOA?oc=5",
+   "date": "2026-10-22 14:10",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 뮌헨공대, NVIDIA Hyperion으로 독일 레벨4 협력 공식 발표",
+    "korean_summary": "TIER IV와 뮌헨공대가 NVIDIA Hyperion을 활용한 독일 레벨4 자동운전 협력을 공식 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and Technical University of Munich Bring NVIDIA Hyperion to Level 4 Autonomous Driving in Germany",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWF9sb2pDVmZVU2xZYnRDQ2NJVDhRanFMSzd6eHVYR2RaTTlHQW9vdVNIZGJwREFrQWVuVG5RVXUyUHpYVWIxWjdhWjBDSHJtTnJ3TzlSajF1Q3RVYlNvQVRUTFJ4S1dkOXhYcnN4QzdhSG9JdzcyNmRQdWthX0JJNzhUOFhmWVVCNk5vR0ZaTzRsZUlJTmtVQXRuVXVvZ1pXYXlMWHRRaHhLRzlrdlMyTU5SdG0tNENXZ18w0gHLAUFVX3lxTE5rNlZQY3ZwOWszRnFxSWEyajFmUjlzOTZ0QUloSzJhUGRJOHJZT3hPR3UxbjRnbFVTaV9SalFXeU4wYWdGbVhCQ213eHZPZVJiT0Yyb25GTGpyUWVKY19LMW0tdWREYkFpdnVudG84T2d1S0hva3VUb1ZRX2VjRDUxY1FHM0lyQm83clFTQnp2RmNudzBsdmhNMEx2bWpQS25BU1NKOVhXZFl5T2F2bjZQYllJbnJ1NkROQkVjdUlwUmNzWEdUcGFwWUY4?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and Technical University of Munich Bring NVIDIA Hyperion to Level 4 Autonomous Driving in Germany",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWF9sb2pDVmZVU2xZYnRDQ2NJVDhRanFMSzd6eHVYR2RaTTlHQW9vdVNIZGJwREFrQWVuVG5RVXUyUHpYVWIxWjdhWjBDSHJtTnJ3TzlSajF1Q3RVYlNvQVRUTFJ4S1dkOXhYcnN4QzdhSG9JdzcyNmRQdWthX0JJNzhUOFhmWVVCNk5vR0ZaTzRsZUlJTmtVQXRuVXVvZ1pXYXlMWHRRaHhLRzlrdlMyTU5SdG0tNENXZ18w0gHLAUFVX3lxTE5rNlZQY3ZwOWszRnFxSWEyajFmUjlzOTZ0QUloSzJhUGRJOHJZT3hPR3UxbjRnbFVTaV9SalFXeU4wYWdGbVhCQ213eHZPZVJiT0Yyb25GTGpyUWVKY19LMW0tdWREYkFpdnVudG84T2d1S0hva3VUb1ZRX2VjRDUxY1FHM0lyQm83clFTQnp2RmNudzBsdmhNMEx2bWpQS25BU1NKOVhXZFl5T2F2bjZQYllJbnJ1NkROQkVjdUlwUmNzWEdUcGFwWUY4?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON1dNSjFaMk83UFM4YWdIdUotOEZ6TllNMHltMk9pei13TUFNcW9HVGt5NWFBQ3BzbUllY3V4WEYzdVd6N2lGQ05JWHBVUjlLMngzRUllcDZlT1otVU5DYld6eElwUndfZnp4MmVxWVpWbzhEbkRfXy1XU2RxakVmcUlKVXFmOG14UjJBaE41ZVVKNGRnTl9oaElfdTA4akh3NFo4SHdMOGpsd0VOd2FMYm5FUTEtRmZjTEZoMHNwdkRoeGNJZEROONIBywFBVV95cUxOazZWUGN2cDlrM0ZxcUlhMmoxZlI5czk2dEFJaEsyYVBkSThyWU94T0d1MW40Z2xVU2lfUmpRV3lOMGFnRm1YQkNtd3h2T2VSYk9GMm9uRkxqclFlSmNfSzFtLXVkRGJBaXZ1bnRvOE9ndUtIb2t1VG9WUV9lY0Q1MWNRRzNJckJvN3JRU0J6dkZjbncwbHZoTTBMdm1qUEtuQVNTSjlYV2RZeU9hdm42UGJZSW5ydTZETkJFY3VJcFJjc1hHVHBhcFlGOA",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー－続伸 ミュンヘン工科大学と自動運転レベル4の開発で協業拡大(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVW81SXN1VVZjRUpVc3U5Nkh0NXlJd2NCR3RFVHlrVEpIV1pKaTNSOTRCR2RKZHdmemtkcU11RXh3YWZsbDdVUFJYamM4enM1aEJHcnNOYldMNDNSa0dzZHBTUnFrZ2NPenVlbjlQY0pkRHJXVHlsMVNyUUZKWTBHdUJzb3RmT1U?oc=5",
+   "date": "2026-10-22 11:10",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV 주가 계속 상승, 뮌헨공대 레벨4 협업 호재",
+    "korean_summary": "TIER IV가 뮌헨공대와의 레벨4 자동운전 개발 협업 확대 소식으로 주가가 계속 상승했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォー－続伸 ミュンヘン工科大学と自動運転レベル4の開発で協業拡大(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVW81SXN1VVZjRUpVc3U5Nkh0NXlJd2NCR3RFVHlrVEpIV1pKaTNSOTRCR2RKZHdmemtkcU11RXh3YWZsbDdVUFJYamM4enM1aEJHcnNOYldMNDNSa0dzZHBTUnFrZ2NPenVlbjlQY0pkRHJXVHlsMVNyUUZKWTBHdUJzb3RmT1U?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVW81SXN1VVZjRUpVc3U5Nkh0NXlJd2NCR3RFVHlrVEpIV1pKaTNSOTRCR2RKZHdmemtkcU11RXh3YWZsbDdVUFJYamM4enM1aEJHcnNOYldMNDNSa0dzZHBTUnFrZ2NPenVlbjlQY0pkRHJXVHlsMVNyUUZKWTBHdUJzb3RmT1U",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日経CNBC online",
+   "category": "media",
+   "kind": "gnews",
+   "title": "銘柄チェック～FFRI、ティアフォー、テラドローン、GRCS、TWOST、GAテクノ、BASE",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWaVFxQVpQeGVhN3ZCVFVxVkEzMG5Dbno0VzNVVENJS3pNaVA4YVVYM0JMbE5rZGcxT0hyM1pvWG1WTXJLRDJGby03cW9rcGRXaWt5cA?oc=5",
+   "date": "2026-10-22 15:22",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "주식 시황 종목 체크에 TIER IV 포함",
+    "korean_summary": "여러 IT 및 첨단기술 기업 중 하나로 TIER IV가 지나가듯 언급되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 日経CNBC online",
+     "title": "銘柄チェック～FFRI、ティアフォー、テラドローン、GRCS、TWOST、GAテクノ、BASE",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWaVFxQVpQeGVhN3ZCVFVxVkEzMG5Dbno0VzNVVENJS3pNaVA4YVVYM0JMbE5rZGcxT0hyM1pvWG1WTXJLRDJGby03cW9rcGRXaWt5cA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWaVFxQVpQeGVhN3ZCVFVxVkEzMG5Dbno0VzNVVENJS3pNaVA4YVVYM0JMbE5rZGcxT0hyM1pvWG1WTXJLRDJGby03cW9rcGRXaWt5cA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "前場コメント No.7 ｉｓｐａｃｅ、コプロＨＤ、ティアフォー、リョーサン菱(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLVdRRURKTE1YNXV4VzdzQ0dzc0QzZU51cWd5TTB4NWpGTThSSG1OcHY3OEYtcFY2MWV1ZXRPUEdZVHNLclVCb3hNdWtlNFROUkw2MGhhVFlMSGpvSS1NQkNOT2txUGhaclJYNnVUVTZXRDk3dkg1WHRuMThhSDVRMmdXNWRDUU0?oc=5",
+   "date": "2026-10-22 11:31",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "시장 전 코멘트에 TIER IV 포함",
+    "korean_summary": "여러 기업 종목에 대한 전장 코멘트에 TIER IV가 포함되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "前場コメント No.7 ｉｓｐａｃｅ、コプロＨＤ、ティアフォー、リョーサン菱(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLVdRRURKTE1YNXV4VzdzQ0dzc0QzZU51cWd5TTB4NWpGTThSSG1OcHY3OEYtcFY2MWV1ZXRPUEdZVHNLclVCb3hNdWtlNFROUkw2MGhhVFlMSGpvSS1NQkNOT2txUGhaclJYNnVUVTZXRDk3dkg1WHRuMThhSDVRMmdXNWRDUU0?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLVdRRURKTE1YNXV4VzdzQ0dzc0QzZU51cWd5TTB4NWpGTThSSG1OcHY3OEYtcFY2MWV1ZXRPUEdZVHNLclVCb3hNdWtlNFROUkw2MGhhVFlMSGpvSS1NQkNOT2txUGhaclJYNnVUVTZXRDk3dkg1WHRuMThhSDVRMmdXNWRDUU0",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 122,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 7,
+   "enriched": 7,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 3,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 14,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 10,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 37,
+   "enriched": 37,
+   "error": "",
+   "sec": 11.3
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.7
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 26,
+   "error": "",
+   "sec": 24.1
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "Hacker News",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 21.3
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
