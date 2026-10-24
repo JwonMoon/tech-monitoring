@@ -1,0 +1,1959 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-25",
+ "window": [
+  "2026-10-24",
+  "2026-10-25"
+ ],
+ "generated": "2026-10-25T08:16:03+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Mercedes-Benz와 NVIDIA가 자율주행 **Level 4** 단계로 파트너십을 확대해 상용화 수준 자율주행 협력을 심화한다.",
+  "NVIDIA가 Isaac Lab 3.0을 공개하며 MicroDuck 로봇과 **Newton 물리엔진**을 탑재해 로봇 시뮬레이션 역량을 강화했다.",
+  "NVIDIA의 AI 생태계 백스톱·지분 투자 전략이 네오클라우드 주가 급락으로 **첫 스트레스 테스트**에 직면했다."
+ ],
+ "cards": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video",
+   "date": "2026-10-24 14:08",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Super-Image2Video: Physical AI 플랫폼 이미지-비디오 생성 모델",
+    "korean_summary": "NVIDIA가 자율주행 및 로봇 개발을 위한 Cosmos3 플랫폼의 Super 이미지-비디오 생성 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Physical AI용 월드 파운데이션 모델 'Cosmos 3' 이미지-to-비디오 체크포인트 공개",
+    "korean_summary": "NVIDIA가 로보틱스·자율주행·스마트스페이스 적용을 위한 옴니모달 월드 모델 Cosmos3의 포스트트레이닝 버전인 Cosmos3-Super-Image2Video를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3 베이스 모델을 포스트트레이닝한 image-to-video 체크포인트 Cosmos3-Super-Image2Video를 Hugging Face에 업데이트 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "상업적·비상업적 사용 모두 가능, 로보틱스·자율주행·스마트스페이스(산업·공장 규모 포함) 적용 대상"
+    },
+    "key_facts": [
+     "**Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력을 조합해 비디오, 이미지, 오디오, 액션 커맨드를 생성하는 옴니모달 월드 모델**",
+     "Cosmos3-Super-Image2Video는 Cosmos3-Super 베이스 모델의 post-trained 버전으로, 하나의 입력 이미지와 텍스트 지시로 시간적으로 일관된(temporally coherent) 비디오 시퀀스를 생성",
+     "다운로드 45,554회, 좋아요 164회 기록",
+     "**해당 모델은 상업적·비상업적 사용 모두 허용되는 라이선스로 공개됨**",
+     "라이브러리로 cosmos, diffusers, safetensors를 지원하며 vllm-omni, sglang, sglang-diffusion 등 추론 프레임워크 태그 포함"
+    ],
+    "why_matters": "**World Foundation Model은 로봇·자율주행차가 물리 세계를 이해·시뮬레이션하는 핵심 기반 기술로, NVIDIA는 이를 오픈소스·상업 겸용으로 배포해 Physical AI 생태계 선점을 노린다.** 경쟁사들이 개별 시뮬레이션·생성 모델에 머무는 상황에서 멀티모달 통합 플랫폼을 제공함으로써 개발자 락인 효과를 강화할 수 있다.",
+    "subject_angle": "**NVIDIA는 GPU 하드웨어를 넘어 Physical AI용 파운데이션 모델(Cosmos)까지 수직 통합하여 로보틱스·자율주행 소프트웨어 스택 전반을 장악하려는 전략을 이어가고 있다.** Hugging Face를 통한 공개 배포는 개발자 생태계 확산과 NVIDIA 플랫폼(CUDA, Omniverse 등) 연계 수요를 동시에 노린 행보로 해석된다.",
+    "focus_angle": "자율주행 OEM과 휴머노이드 로봇 개발사는 Cosmos3-Super-Image2Video를 활용해 단일 이미지로부터 시간적으로 일관된 주행·조작 시나리오 비디오를 합성, 희소한 엣지케이스 데이터를 저비용으로 증강하는 시뮬레이션 파이프라인 구축이 가능해진다. 이는 실제 주행·로봇 데이터 수집 비용과 안전성 검증 부담을 줄이는 대안으로, Physical AI 개발 경쟁에서 데이터 생성 속도가 핵심 변수로 부상함을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 모델 개발사 및 공개 주체"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 및 배포 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Super-Image2Video",
+      "role": "이미지+텍스트 입력으로 비디오 생성하는 포스트트레이닝 체크포인트"
+     },
+     {
+      "name": "Cosmos3-Super",
+      "role": "포스트트레이닝의 기반이 된 베이스 모델"
+     },
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "Physical AI용 월드 파운데이션 모델 플랫폼 전체"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3의 자율주행·로보틱스 실제 고객사 채택 사례 공개 여부",
+     "Cosmos3 다른 모달리티(오디오, 액션 커맨드 생성) 체크포인트 공개 일정",
+     "Omniverse·Isaac 등 NVIDIA 로보틱스 스택과의 공식 통합 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, image-to-video, video-generation · downloads 45554 · likes 164. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video The highlighted checkpoint, Cosmos3-Super-Image2Video, is a post-trained image-to-video variant of the Cosmos3-Super base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Image2Video: - Given one input image and text instructions, generate temporally coherent video sequences t"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+   "date": "2026-10-24 14:08",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "research"
+    ],
+    "korean_title": "Cosmos3-Super-Text2Image: Physical AI 플랫폼 텍스트-이미지 생성 모델",
+    "korean_summary": "NVIDIA가 Cosmos3 세계 모델 플랫폼의 Super 텍스트-이미지 생성 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Physical AI용 옴니모달 월드 모델 'Cosmos 3' 텍스트-투-이미지 체크포인트 공개",
+    "korean_summary": "NVIDIA가 로보틱스·자율주행·스마트 공간용 Physical AI 개발을 가속하기 위해 Cosmos3 월드 파운데이션 모델의 포스트트레이닝 버전인 Cosmos3-Super-Text2Image 체크포인트를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Super 베이스 모델의 포스트트레이닝 변형인 Text2Image 체크포인트를 Hugging Face에 업데이트·공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Cosmos3 모델 컬렉션 내 Text2Image 체크포인트, 상업적·비상업적 사용 모두 허용"
+    },
+    "key_facts": [
+     "Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력으로부터 비디오, 이미지, 오디오, 액션 커맨드를 생성하는 **옴니모달 월드 모델 컬렉션**",
+     "Cosmos3-Super-Text2Image는 Cosmos3-Super 베이스 모델의 포스트트레이닝된 text-to-image 변형",
+     "다운로드 7,916회, 좋아요 194개를 기록",
+     "로보틱스, 자율주행, 스마트 스페이스(산업·팩토리 스케일 포함) 전반의 **Physical AI** 개발 가속을 목표로 설계",
+     "모델은 상업적·비상업적 용도 모두에 사용 가능하도록 공개됨"
+    ],
+    "why_matters": "World foundation model은 로봇·자율주행차가 물리 세계를 이해·시뮬레이션·상호작용하도록 돕는 핵심 인프라로, 데이터 생성과 정책 학습(embodied policy learning)의 병목을 줄일 수 있다. NVIDIA가 이를 **오픈 모델로 공개**함으로써 생태계 확산과 개발자 락인을 동시에 추구하는 전략적 포지셔닝을 보여준다.",
+    "subject_angle": "Cosmos는 NVIDIA가 하드웨어(GPU) 중심에서 **Physical AI 소프트웨어 플랫폼**으로 영역을 확장하는 핵심 축으로, World Foundation Model을 오픈소스화해 로보틱스·자율주행 개발자들을 자사 생태계(diffusers, vllm-omni, sglang 등 추론 스택 포함)로 유입시키려는 의도가 뚜렷하다.",
+    "focus_angle": "**자율주행 OEM과 휴머노이드 로봇 개발사**는 Cosmos3을 활용해 합성 데이터 생성과 시뮬레이션 기반 정책 학습을 가속화할 수 있어, 실세계 주행·조작 데이터 수집 비용과 시간을 줄이는 대안으로 주목할 가치가 있다. 다만 본 체크포인트는 Text2Image 단계로, **실제 로봇·차량 제어 액션 생성까지의 적용 범위는 미확인**이다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 모델 개발사 및 Hugging Face 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Super-Text2Image",
+      "role": "Cosmos3-Super 베이스 모델의 post-trained text-to-image 체크포인트"
+     },
+     {
+      "name": "Cosmos3-Super",
+      "role": "Cosmos3-Super-Text2Image의 베이스 모델"
+     },
+     {
+      "name": "Cosmos (NVIDIA Cosmos™)",
+      "role": "로보틱스·자율주행·스마트 스페이스용 world foundation model 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3 컬렉션 내 비디오·액션 생성 체크포인트 공개 여부 및 로봇 제어 적용 사례",
+     "자율주행·휴머노이드 기업의 Cosmos3 기반 시뮬레이션/데이터 생성 도입 사례",
+     "White Paper/Technical Report를 통한 모델 아키텍처 및 성능 벤치마크 상세 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, text-to-image, image-generation · downloads 7916 · likes 194. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image The highlighted checkpoint, Cosmos3-Super-Text2Image, is a post-trained text-to-image variant of the Cosmos3-Super base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Text2Image: - Given text input, generate high-fidelity images that are consistent with the provided descripti"
+  },
+  {
+   "source": "Google News · Yahoo Autos",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mercedes-Benz And Nvidia Are Taking Their Self-Driving Partnership To Level 4",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjdFbE5UNFJNYUluMnhDd0xoZm9WSWNZVXpZdHRPYzRYOXhicjdyZDBIUXZ4dWtoNVAxS1N4Y1V1akR1c2I3dVJ4SVBuLVRiM3BiMGFxNnRETW9UR2VyWklpWjFxUGNzejE0blhFYU44U1NVcmlHODRLbUVYUm9DNHZiS19jbkg0TVFRMzlBcEJMNENwOUE0RzJTcE5PTWtj?oc=5",
+   "date": "2026-10-25 04:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "Mercedes-Benz와 NVIDIA, 자율주행 Level 4 단계로 파트너십 확대",
+    "korean_summary": "Mercedes-Benz와 NVIDIA가 자율주행 기술 협력을 Level 4 단계로 진전시키기로 결정"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjdFbE5UNFJNYUluMnhDd0xoZm9WSWNZVXpZdHRPYzRYOXhicjdyZDBIUXZ4dWtoNVAxS1N4Y1V1akR1c2I3dVJ4SVBuLVRiM3BiMGFxNnRETW9UR2VyWklpWjFxUGNzejE0blhFYU44U1NVcmlHODRLbUVYUm9DNHZiS19jbkg0TVFRMzlBcEJMNENwOUE0RzJTcE5PTWtj",
+   "body": ""
+  },
+  {
+   "source": "Google News · NewsCord",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Introduces MicroDuck Mini Robots With Isaac Lab 3.0 And Newton Physics Engine: 5 outlets compared",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQN3ctcnRTcFlzTDdieE9na1JvVEJuR2I4UjJPdzBsdUVXTjF2aUZSLTRobXBZbHVwQzEycHVHUmtnbU9OWVh1aVI0dnNiU3puWkt1S0JZUFRkQWJyeWJBNGNMVGNrS2Z3X3d3RXRsWlVKZElLLVZiZGk1MjFJUTRqaEpqdHMzMWVMSEVFQmc3aW1qemtzdFdoYWthN0pfSXdKZkx6U0pSMTNHR3VzN09OSDNaRktmVloydlNXcnhxUk5lbl9xTzFQUXk0ZlY4Yk5kT3lQZVZSWU9HeFg2b3o2LVQwTzNzUXV2cGc?oc=5",
+   "date": "2026-10-24 14:24",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "sdk-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac Lab 3.0 공개, MicroDuck 로봇과 Newton 물리엔진 포함",
+    "korean_summary": "NVIDIA가 로봇 시뮬레이션 플랫폼 Isaac Lab 3.0을 공개하며 MicroDuck 미니 로봇과 Newton 물리엔진을 선보였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQN3ctcnRTcFlzTDdieE9na1JvVEJuR2I4UjJPdzBsdUVXTjF2aUZSLTRobXBZbHVwQzEycHVHUmtnbU9OWVh1aVI0dnNiU3puWkt1S0JZUFRkQWJyeWJBNGNMVGNrS2Z3X3d3RXRsWlVKZElLLVZiZGk1MjFJUTRqaEpqdHMzMWVMSEVFQmc3aW1qemtzdFdoYWthN0pfSXdKZkx6U0pSMTNHR3VzN09OSDNaRktmVloydlNXcnhxUk5lbl9xTzFQUXk0ZlY4Yk5kT3lQZVZSWU9HeFg2b3o2LVQwTzNzUXV2cGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · TOKENPOST",
+   "category": "media",
+   "kind": "gnews",
+   "title": "SpaceX’s $40 Billion Nvidia Financing Faces Higher Borrowing Costs",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BelEwVkNLLVIxc21wM0RRMXFDdHZHRmU3Qjdkcm91b2VPOFF1YXFYZ2ptSE1vSERkZWVPOFAwWWNKeGllWWFLdUk1NUx0M2JYQnR2LUk2dVU?oc=5",
+   "date": "2026-10-25 01:31",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "SpaceX의 400억 달러 NVIDIA 칩 구매 자금, 차입 비용 증가",
+    "korean_summary": "SpaceX가 NVIDIA 칩 구매를 위한 400억 달러 규모 자금 조달에서 차입 비용 증가에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BelEwVkNLLVIxc21wM0RRMXFDdHZHRmU3Qjdkcm91b2VPOFF1YXFYZ2ptSE1vSERkZWVPOFAwWWNKeGllWWFLdUk1NUx0M2JYQnR2LUk2dVU",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos-H-Dreams (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos-H-Dreams",
+   "date": "2026-10-25 01:38",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos-H-Dreams",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos-H-Dreams: 실시간 외과 수술 로봇 시뮬레이션 모델",
+    "korean_summary": "NVIDIA가 실시간 수술 로봇 세계 모델인 Cosmos-H-Dreams를 Hugging Face에서 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 수술 로봇 실시간 월드 모델 'Cosmos-H-Dreams' 업데이트 — 후속 모델 Cosmos3-H-Dreams로 전환 안내",
+    "korean_summary": "NVIDIA가 da Vinci Research Kit 기반 수술 로봇 정책을 실시간으로 시뮬레이션·평가할 수 있는 action-conditioned 월드 모델 Cosmos-H-Dreams를 Hugging Face에서 업데이트하며 최신 버전 Cosmos3-H-Dreams를 안내했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Hugging Face 모델 카드 업데이트 및 후속 모델(Cosmos3-H-Dreams)로의 전환 안내",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "da Vinci Research Kit (dVRK) tabletop suturing 시뮬레이션에 한정"
+    },
+    "key_facts": [
+     "Cosmos-H-Dreams는 **단일 GPU에서 실시간 스트리밍**으로 동작하는 action-conditioned 수술 월드 모델",
+     "비동기(bidirectional, offline) 모델 Cosmos-H-Surgical-Simulator를 교사로 하는 **causal, few-step self-forcing distilled student** 구조",
+     "공개 체크포인트는 **da Vinci Research Kit (dVRK) tabletop suturing**에 특화",
+     "NVIDIA Cosmos-Predict2.5-2B world foundation model에서 파생, 교사 모델은 Open-H 44D action-conditioned checkpoint로 warm-start",
+     "Hugging Face 다운로드 1534회, 좋아요 19개; 최신 버전은 nvidia/Cosmos3-H-Dreams"
+    ],
+    "why_matters": "수술 로봇 정책을 실시간 시뮬레이션에서 폐루프 평가(closed-loop evaluation)할 수 있다는 것은 **NVIDIA의 physical AI 월드 모델이 헬스케어 로보틱스 정책 검증 도구로 구체화**되고 있음을 보여준다. 이는 범용 world model이 고위험·고정밀 산업(의료)에서도 실사용 가능한 수준으로 특화되고 있음을 시사한다.",
+    "subject_angle": "NVIDIA는 Cosmos 월드 모델 패밀리를 범용 기반에서 **도메인 특화(수술 로봇) 애플리케이션으로 세분화**하여, 로봇 정책 학습·평가 생태계 전반에 Cosmos 플랫폼의 침투를 넓히는 전략을 이어가고 있다.",
+    "focus_angle": "수술 로봇이라는 특수 도메인이지만 action-conditioned 실시간 월드 모델로 로봇 정책을 폐루프 평가하는 구조는 휴머노이드 로봇이나 자율주행 VLA 정책 검증에도 동일하게 적용 가능해, NVIDIA Cosmos가 로봇 산업 전반의 synthetic data·policy evaluation 표준 플랫폼으로 확장될 잠재력을 보여준다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos-H-Dreams 모델 개발 및 Hugging Face 공개·업데이트"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos-H-Dreams",
+      "role": "실시간 action-conditioned 수술 월드 모델(구버전)"
+     },
+     {
+      "name": "Cosmos3-H-Dreams",
+      "role": "후속 최신 버전 모델"
+     },
+     {
+      "name": "Cosmos-H-Surgical-Simulator",
+      "role": "오프라인 양방향 교사 모델"
+     },
+     {
+      "name": "Cosmos-Predict2.5-2B",
+      "role": "기반 physical AI world foundation model"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-H-Dreams의 구체적 개선 사항 및 사양",
+     "dVRK 외 수술 로봇 플랫폼으로의 확장 여부",
+     "상업적 수술 로봇 업체와의 파트너십 또는 임상 적용 여부(미확인)"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos-H-Dreams:2026-10-25",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: nv-medtech · tags: nv-medtech, custom, simulation, surgical-robotics, video-generation, real-time, interactive, autoregressive, policy-evaluation, vla-evaluation, healthcare-robotics, world-model · downloads 1534 · likes 19. README:  # Cosmos-H-Dreams Please see https://huggingface.co/nvidia/Cosmos3-H-Dreams to see the latest version of this model. ## Description Cosmos-H-Dreams is a real-time, action-conditioned generative surgical world model that lets a human operator or a learned surgical-robotics policy act inside a synthesized surgical scene and observe the interactions live. Given a surgical context frame and a stream of robot kinematic actions, the model autoregressively generates the resulting future video in short blocks, streaming interactively on a single GPU. Unlike the bidirectional, offline [Cosmos-H-Surgical-Simulator](https://huggingface.co/nvidia/Cosmos-H-Surgical-Simulator), Cosmos-H-Dreams is a **causal, few-step self-forcing distilled student**: it is distilled from a bidirectional teacher into a streaming model that responds immediately to actions, turning a passive video generator into a controllable surgical simulator. The released checkpoint specializes the model to da Vinci Research Kit (dVRK) tabletop suturing. The model is intended for real-time surgical-skills rehearsal, interactive demonstration, closed-loop evaluation of surgical robotics policies, and synthetic data generation. The released model is derived from the public NVIDIA Cosmos-Predict2.5-2B world foundation model for physical AI, and its teacher is warm-started from Cosmos-H-Surgical-Simulator (the Open-H 44D action-conditioned checkpoint). This model is ready for commercial or non-commercial use. ## License/Term"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Policy-DROID",
+   "date": "2026-10-24 14:08",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Nano-Policy-DROID: 로봇 정책 제어 모델",
+    "korean_summary": "NVIDIA가 DROID 기반 로봇 정책 제어를 위한 Cosmos3 Nano 정책 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, DROID 로봇 플랫폼용 Cosmos3-Nano 정책 모델 공개",
+    "korean_summary": "NVIDIA가 Cosmos3 월드 파운데이션 모델 플랫폼의 후속 학습 버전인 Cosmos3-Nano-Policy-DROID를 Hugging Face에 공개해 언어 지시와 시각 관측으로부터 로봇 행동 명령을 생성하도록 했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 베이스 모델을 DROID 로봇 플랫폼 데이터로 후속 학습(post-training)한 정책 모델 체크포인트를 Hugging Face에 업데이트·공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "DROID 로봇 플랫폼, 상업적·비상업적 사용 가능"
+    },
+    "key_facts": [
+     "모델명은 Cosmos3-Nano-Policy-DROID로, **Cosmos3-Nano 베이스 모델의 post-trained robot-policy 변형**이다",
+     "다운로드 1,229회, 좋아요 40개를 기록했다",
+     "library는 cosmos, tags에는 cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model이 포함된다",
+     "**언어 지시(language instructions)와 DROID 로봇 플랫폼의 시각 관측(visual observations)을 입력받아 로봇 행동 명령을 생성**한다",
+     "Cosmos3는 텍스트·이미지·비디오·행동 궤적 입력으로부터 비디오·이미지·오디오·행동 명령을 생성하는 Omnimodal 월드 모델 컬렉션이다"
+    ],
+    "why_matters": "범용 월드 모델을 특정 로봇 플랫폼(DROID)에 맞춰 정책 모델로 특화한 사례로, **Physical AI 파운데이션 모델이 실제 로봇 제어로 전환되는 구체적 경로**를 제시한다. NVIDIA가 로보틱스·자율주행 생태계에서 범용 시뮬레이션·정책 학습 인프라를 상업·비상업 모두에 개방함으로써 개발자 생태계 확장을 노린다는 점이 경쟁 구도상 의미를 가진다.",
+    "subject_angle": "NVIDIA는 Cosmos를 단순 비디오 생성 모델이 아니라 **로봇 정책 학습까지 확장되는 Physical AI 플랫폼 전략의 핵심 축**으로 포지셔닝하고 있다. 특정 로봇 플랫폼(DROID)용 체크포인트를 공개함으로써 Cosmos가 다양한 하드웨어·임무에 적응 가능한 범용 월드 모델임을 입증하려는 의도로 해석된다.",
+    "focus_angle": "DROID와 같은 오픈 로봇 플랫폼 기반 정책 모델이 상업적 사용까지 허용되면서, **휴머노이드·매니퓰레이션 로봇 OEM들이 자체 정책 학습 비용을 줄이고 Cosmos 기반 베이스 모델을 파인튜닝하는 방식으로 개발 사이클을 단축**할 수 있다. 자율주행 영역에서도 동일한 Omnimodal 월드 모델 아키텍처가 시뮬레이션·정책 생성에 재사용될 가능성이 있어 NVIDIA의 로봇-자율주행 공통 기반 전략이 강화된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 플랫폼 및 Cosmos3-Nano-Policy-DROID 모델 개발사"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3",
+      "role": "Physical AI용 Omnimodal 월드 파운데이션 모델 컬렉션"
+     },
+     {
+      "name": "Cosmos3-Nano",
+      "role": "Policy-DROID 모델의 베이스 모델"
+     },
+     {
+      "name": "Cosmos3-Nano-Policy-DROID",
+      "role": "DROID 로봇 플랫폼용 후속 학습 정책 모델 체크포인트"
+     },
+     {
+      "name": "DROID",
+      "role": "로봇 데이터 수집·학습에 사용된 로봇 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Nano-Policy-DROID가 실제 DROID 하드웨어에서의 성능·벤치마크 공개 여부",
+     "Cosmos3 컬렉션 내 다른 로봇 플랫폼용 정책 모델 추가 여부",
+     "자율주행·휴머노이드 OEM의 Cosmos3 기반 파인튜닝 또는 파트너십 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Policy-DROID:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 1229 · likes 40. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Nano-Policy-DROID The highlighted checkpoint, Cosmos3-Nano-Policy-DROID, is a post-trained robot-policy variant of the Cosmos3-Nano base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Nano-Policy-DROID: - Given language instructions and visual observations from the DROID robot platform, generate ro"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Edge-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Edge-Policy-DROID",
+   "date": "2026-10-24 14:08",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Edge-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "Cosmos3-Edge-Policy-DROID: 엣지 컴퓨팅 로봇 정책 모델",
+    "korean_summary": "NVIDIA가 엣지 디바이스에서 구동 가능한 Cosmos3 DROID 정책 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Cosmos 3 기반 로봇 정책 모델 'Cosmos3-Edge-Policy-DROID' 업데이트",
+    "korean_summary": "NVIDIA가 Physical AI용 월드 파운데이션 모델 Cosmos3의 엣지 로봇 정책 체크포인트 Cosmos3-Edge-Policy-DROID를 Hugging Face에서 업데이트해 DROID 데이터 기반 언어-시각 조건 로봇 액션 생성 능력을 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Edge 기반 로봇 정책 모델(Cosmos3-Edge-Policy-DROID) 체크포인트를 Hugging Face에 공개/업데이트",
+     "stage": "Available",
+     "timeline": "2026-07-20 (Released on) / Hugging Face 업데이트 시점은 미확인",
+     "scope": "Cosmos3 모델 컬렉션 내 Cosmos3-Edge 베이스의 post-trained 로봇 정책 변형, DROID 데이터셋 기반"
+    },
+    "key_facts": [
+     "**모델명은 Cosmos3-Edge-Policy-DROID로, Cosmos3-Edge 베이스 모델의 post-trained 로봇 정책(policy) 변형**",
+     "Release 날짜는 2026-07-20으로 명시됨",
+     "**Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력을 결합해 비디오·이미지·오디오·액션 커맨드를 생성하는 Omnimodal world model 컬렉션**",
+     "로보틱스, 자율주행, 스마트 스페이스(산업·팩토리 규모 포함) 적용을 가속화하기 위한 Physical AI 플랫폼으로 소개됨",
+     "다운로드 1,905회, 좋아요 15회, 상업적·비상업적 사용 모두 허용"
+    ],
+    "why_matters": "본 모델은 로봇이 언어 지시와 시각 관찰로부터 직접 액션을 생성하도록 학습된 embodied policy로, **NVIDIA가 World Foundation Model을 로보틱스 정책 학습 영역까지 확장하고 있음을 보여준다**. 이는 Physical AI 생태계에서 시뮬레이션-정책 학습-실제 배치를 잇는 수직 통합 전략의 연장선으로, 경쟁사의 범용 로봇 파운데이션 모델과 직접 경쟁하는 구도를 형성한다.",
+    "subject_angle": "**Cosmos 플랫폼을 단순 월드 시뮬레이터에서 실제 로봇 제어 정책(policy) 생성까지 확장**함으로써 NVIDIA는 Isaac·Omniverse 생태계와 연계된 Physical AI 풀스택 포지셔닝을 강화하고 있다.",
+    "focus_angle": "DROID 데이터 기반 언어-비전 조건 로봇 정책 모델은 **휴머노이드·매니퓰레이션 로봇의 범용 액션 생성 기반 기술로 활용될 수 있으며**, 자율주행 OEM 입장에서는 Cosmos3 월드모델이 시뮬레이션 기반 정책 사전학습에 적용될 잠재력을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 월드 파운데이션 모델 및 Cosmos3-Edge-Policy-DROID 모델 개발사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3",
+      "role": "Omnimodal world foundation model 플랫폼, Physical AI 개발 가속화 기반"
+     },
+     {
+      "name": "Cosmos3-Edge",
+      "role": "엣지향 베이스 모델, Policy-DROID의 기반 모델"
+     },
+     {
+      "name": "Cosmos3-Edge-Policy-DROID",
+      "role": "DROID 데이터로 post-training된 로봇 정책 모델, 언어·시각 입력으로 액션 생성"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Edge-Policy-DROID의 실제 로봇 플랫폼(휴머노이드/매니퓰레이터) 적용 사례 및 성능 벤치마크 공개 여부",
+     "Cosmos3 컬렉션 내 자율주행 특화 체크포인트 추가 여부",
+     "Hugging Face 외 NVIDIA Isaac/Omniverse와의 통합 로드맵 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Edge-Policy-DROID:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 1905 · likes 15. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Edge-Policy-DROID The highlighted checkpoint, Cosmos3-Edge-Policy-DROID, is a post-trained robot-policy variant of the Cosmos3-Edge base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions **Released on: 07/20/2026** - Cosmos3-Edge-Policy-DROID: - Given language instructions and visual observations from the DROID"
+  },
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tesla, Nvidia to Bankroll $2.8 Billion Samsung Substrate Buildout as AI's Next Shortage Takes Shape",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxd2ZWZDAtZTV1ckRRTkZpYWhHVFR1VEFnNzR4REVQT0w5STJ4azNjVzBYX0ItUmQ5alZFUDFOQzhKcVdJaXJya2l4YVVBOHZ1Y1JxR0VrbmpzU3NfNHlmT1lsYkNLa0F4QVpoai03TEozVDRveXc?oc=5",
+   "date": "2026-10-25 03:17",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "investment"
+    ],
+    "korean_title": "테슬라·엔비디아, 삼성 28억 달러 기판 증설 펀딩",
+    "korean_summary": "테슬라와 엔비디아가 삼성의 28억 달러 기판 생산 증설에 자금을 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxd2ZWZDAtZTV1ckRRTkZpYWhHVFR1VEFnNzR4REVQT0w5STJ4azNjVzBYX0ItUmQ5alZFUDFOQzhKcVdJaXJya2l4YVVBOHZ1Y1JxR0VrbmpzU3NfNHlmT1lsYkNLa0F4QVpoai03TEozVDRveXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times of India",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang backed a Seattle lab with nearly 7 million GPU hours; its new AI model designs pr",
+   "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNa2F5OUJTOVNNdUJwdHNtSzJUTUQ5Ymg5RGtjNXd0aUMzczBSNmhwYUUxMms4MjBVTmFBVzF2S1Fud1RKNVduLXBqX0lpMjVzclJ4TjhFVXdfSXI2QjA0NlFPaGRrWnVaM2hacDBFNFNZRE5jcEVMN1FXdFNraVZnZVJVOWdaeUhFaFduVkw5VWE5MVlWNnFxSFRMaTZkSkZYN1pUaHdNSnRpUW5SRV9Yd0xzWHcwOVZlOWg4a0pCVlk5WE9tWTlFUGpMeDRobWpFV2pfTk40bnRvRDB5WGY1M0xpcXB2djA3bFYyVWJ6YlhJWHItaDJwc05oaEtHNmxLTEp2Q2JwZzNkQ3Y3V3Jxem95VTEzNUp5WkpjdGQtZXM5QWZhelp2STVUaXU1VzRUZ1RuZ1M3cVVmRmNUcm00ODhPclMtVGdHdkZib2lrR2dxTGVEVmk3aFdhMEtDSUnSAeQCQVVfeXFMTVpLU2NpVU5fdjVKbnZqX2dBdGxPbllzS1NBZ1ZWNUxSQW5lUFRKT0s3UzF1RnpTRDVzdU40NEpvUGdTZ085dUpBcEFqNi1RQ2RETHlLYTdra0FQUDV6YVJISnpnZXN3ZFdfTHFmNm5waTZaSnR1QkNwN2ZvTnFOS19VVFc2SjRnTWFvSjB2dnBIR1ROV1hhdk4xUW1sVng4VUhuNDVFZEdkWk1lQ1JPTVB1c3ZBNXZ5LUF0SHZCM1Z3TTVXRmlqeUtsNGkzZnp5NDB3c1VoVHNtYUFpNUlUdnBkaTJvVEVKU3N6V21VSl91dkFmQ2tDRHFMSHhDTFdqeUVCRWhxNVFHN2toZ09pYUI1R3pBSlpOWTlYTHFJZlIyb1oyUEhsRHBiRHlrbHJyWVFHY2JfYXZlRHhWeF93NGF4MDRWZTVPbVhvTmhpQzhhS3RnWWNQVXVXai16bllhaDZ2enk?oc=5",
+   "date": "2026-10-24 19:41",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA CEO Jensen Huang, 시애틀 AI 연구소에 700만 GPU 시간 지원",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 시애틀 연구소에 약 700만 GPU 시간 규모의 지원을 제공하여 AI 모델 개발을 지원했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNa2F5OUJTOVNNdUJwdHNtSzJUTUQ5Ymg5RGtjNXd0aUMzczBSNmhwYUUxMms4MjBVTmFBVzF2S1Fud1RKNVduLXBqX0lpMjVzclJ4TjhFVXdfSXI2QjA0NlFPaGRrWnVaM2hacDBFNFNZRE5jcEVMN1FXdFNraVZnZVJVOWdaeUhFaFduVkw5VWE5MVlWNnFxSFRMaTZkSkZYN1pUaHdNSnRpUW5SRV9Yd0xzWHcwOVZlOWg4a0pCVlk5WE9tWTlFUGpMeDRobWpFV2pfTk40bnRvRDB5WGY1M0xpcXB2djA3bFYyVWJ6YlhJWHItaDJwc05oaEtHNmxLTEp2Q2JwZzNkQ3Y3V3Jxem95VTEzNUp5WkpjdGQtZXM5QWZhelp2STVUaXU1VzRUZ1RuZ1M3cVVmRmNUcm00ODhPclMtVGdHdkZib2lrR2dxTGVEVmk3aFdhMEtDSUnSAeQCQVVfeXFMTVpLU2NpVU5fdjVKbnZqX2dBdGxPbllzS1NBZ1ZWNUxSQW5lUFRKT0s3UzF1RnpTRDVzdU40NEpvUGdTZ085dUpBcEFqNi1RQ2RETHlLYTdra0FQUDV6YVJISnpnZXN3ZFdfTHFmNm5waTZaSnR1QkNwN2ZvTnFOS19VVFc2SjRnTWFvSjB2dnBIR1ROV1hhdk4xUW1sVng4VUhuNDVFZEdkWk1lQ1JPTVB1c3ZBNXZ5LUF0SHZCM1Z3TTVXRmlqeUtsNGkzZnp5NDB3c1VoVHNtYUFpNUlUdnBkaTJvVEVKU3N6V21VSl91dkFmQ2tDRHFMSHhDTFdqeUVCRWhxNVFHN2toZ09pYUI1R3pBSlpOWTlYTHFJZlIyb1oyUEhsRHBiRHlrbHJyWVFHY2JfYXZlRHhWeF93NGF4MDRWZTVPbVhvTmhpQzhhS3RnWWNQVXVXai16bllhaDZ2enk",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Georgia's Silk Cloud deploys Nvidia Blackwell Ultra GPUs",
+   "link": "https://www.datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus/",
+   "date": "2026-10-24 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-chip"
+    ],
+    "korean_title": "조지아 Silk Cloud, NVIDIA Blackwell Ultra GPU 배포 발표",
+    "korean_summary": "조지아의 클라우드 회사 Silk Cloud가 HPE NVIDIA HGX B300 시스템을 2027년 배포할 계획을 밝혔다."
+   },
+   "summary_data": {
+    "korean_title": "조지아 Silk Cloud, Nvidia Blackwell Ultra GPU 기반 클라우드 서비스 2027년 출시 계획",
+    "korean_summary": "조지아의 Silk Cloud가 HPE Nvidia HGX B300 시스템을 도입해 **2027년 AI 클라우드 서비스를 출시**할 계획이며, 영국 Fuse Energy도 128기 Nvidia GPU를 12월부터 가동하는 등 각지에서 Nvidia GPU 기반 AI 인프라 확산이 이어지고 있다.",
+    "action": {
+     "actor": "Silk Cloud (Silknet/Silk Road Group 자회사)",
+     "action": "Nvidia Blackwell Ultra 기반 HPE HGX B300 시스템을 Tbilisi 데이터센터에 배치하여 AI 클라우드 서비스 출시 준비",
+     "stage": "Announced",
+     "timeline": "2027년 출시 목표 (필요 허가 획득 후); 데이터센터는 2026년 8월 착공, 내년(2027년) 가동 예정",
+     "scope": "조지아 Tbilisi 데이터센터, GPU 수량 미확인"
+    },
+    "key_facts": [
+     "Silk Cloud는 **HPE Nvidia HGX B300 시스템**을 도입해 2027년 출시를 목표로 함",
+     "Tbilisi 데이터센터는 2026년 8월 착공, 2MW 컴퓨팅 용량으로 내년 가동 예정",
+     "Silknet은 4,000km 이상의 섬유 백본을 보유하며 Armenia, Azerbaijan, Turkey 등과 국경 간 연결",
+     "영국 Fuse Energy는 **128기 Nvidia GPU를 2026년 12월 가동**, 2027년 2분기 1,024기로 확대 예정이며 역시 B300 GPU 채택",
+     "GPU 배치 수량은 Silk Cloud 측에서 아직 공개되지 않음"
+    ],
+    "why_matters": "조지아, 영국 등 지역 통신·에너지 기업들이 **Nvidia Blackwell Ultra(B300) 플랫폼**을 앞다퉈 도입하며 AI 클라우드 인프라 경쟁이 신흥 시장까지 확산되고 있음을 보여준다. 이는 Nvidia GPU가 하이퍼스케일러를 넘어 지역 통신사·에너지 기업의 AI 주권 전략 수단으로 자리잡고 있음을 시사한다.",
+    "subject_angle": "Nvidia는 **Blackwell Ultra(B300) 플랫폼**을 통해 미국·유럽 거점을 넘어 조지아 같은 신흥 지역 통신사까지 고객층을 확대하며, 전력 인프라를 보유한 에너지 기업(Fuse Energy)과의 협력을 통해 GPU 공급 채널을 다변화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Silk Cloud",
+      "context": "Nvidia GPU 기반 AI 클라우드 서비스 출시 주체, Silknet 자회사"
+     },
+     {
+      "name": "Silknet",
+      "context": "조지아 통신사, Silk Cloud 모회사, 데이터센터 및 네트워크 인프라 제공"
+     },
+     {
+      "name": "Silk Road Group",
+      "context": "Silknet의 모기업"
+     },
+     {
+      "name": "HPE",
+      "context": "HGX B300 시스템 공급 파트너"
+     },
+     {
+      "name": "Fuse Energy",
+      "context": "영국 에너지 기업, Nvidia GPU 기반 'Fuse Compute' AI 클라우드 서비스 출시"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Blackwell Ultra (B300)",
+      "role": "Silk Cloud 및 Fuse Energy가 도입하는 핵심 GPU 플랫폼"
+     },
+     {
+      "name": "HPE Nvidia HGX B300",
+      "role": "Silk Cloud가 Tbilisi 데이터센터에 배치할 시스템"
+     }
+    ],
+    "watch_next": [
+     "Silk Cloud의 실제 GPU 배치 수량 및 허가 획득 여부",
+     "Fuse Energy의 128기→1,024기 GPU 확장 일정 이행 여부(2026년 12월, 2027년 2분기)",
+     "Tbilisi 데이터센터의 2027년 실제 가동 개시 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "Georgia's Silk Cloud deploys Nvidia Blackwell Ultra GPUs",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNREdBbUlzTjJwaVZxY2oyTF9BM05GbTZ3U0dUOFZOMkxoME00ZTRoMmZzdTZYODdLWnk3MU0tb0hoWTZGdmZiR3RKNkVuZnNFXzBPT0xVcTNFSEhTcDlXeUJzRFQ1Vkd4YkxJQzE1VVg3WUlRc2JzOFJoZ0VOdWZNaFE5c2Zpa05BbDB4WGZYVTk2Z0JaYXlySWQ3aUFzM1FQ?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/georgias-silk-cloud-deploys-nvidia-blackwell-ultra-gpus",
+   "body": "Silk Cloud, a cloud company based in the country of Georgia, has revealed plans to offer Nvidia Blackwell Ultra GPUs. Elsewhere, UK-based Fuse Energy has also announced it is now offering GPU compute, starting with 128 Nvidia GPUs due online in December. Silk Cloud, a subsidiary of Silknet and part of the Silk Road Group, is set to deploy HPE Nvidia HGX B300 systems at its data centers in Georgia. The offering is targeting a launch date in 2027, once the company has obtained the \"necessary permits.\" The number of GPUs set to be deployed has not been provided. Giorgi Ramishvili, chairman of Silk Road Group, said: “This investment is the first step in creating capabilities that will help Georgia position itself in the emerging global AI economy and allow it to become part of the infrastructure on which this economy relies.” David Mamulaishvili, CEO of Silknet, added: “Georgia should have the opportunity not only to use AI, but also to create it itself. This will contribute to the country’s competitiveness, the pace of innovation and the creation of new business opportunities. The introduction of the first Nvidia Blackwell Ultra system in Georgia is part of Silknet’s long-term strategy, which envisages promoting advanced digital and AI development and strengthening the company’s technological capabilities.\" Silknet is a telecommunications provider in Georgia, having operated since 2009. Silk Cloud was launched by the company in 2025 and offers cybersecurity, cloud systems, data management, and artificial intelligence implementation services to business organizations. Silknet broke ground on a data center in Tbilisi, Georgia, in August 2026 for use by Silk Cloud. The data center will offer 2MW of compute capacity and be operational next year. The data center will sit on top of Silknet's national infrastructure, including more than 4,000 km (2,485 miles) of fiber backbone with cross-border connections into Armenia, Azerbaijan, and Turkey, and onward routes to Europe, the Middle East, and Asia. Fuse Energy adds GPU compute Meanwhile, in the UK, Fuse Energy has announced \"Fuse Compute,\" an AI cloud offering. Fuse Energy describes itself as a full-stack energy company aiming to lower the cost of energy and increase its availability. Earlier this week, the company revealed that it would be deploying Nvidia GPUs in UK data centers that would be hosted and powered by Fuse. In a LinkedIn post, Fuse wrote: \"The hardest part of scaling compute today is getting power to the site, which is the part we already do. With 142MW of data center connections in the pipeline across 15 projects, compute is our next step. We have the infrastructure to deliver this to businesses globally. \"Our first 128 Nvidia GPUs are due online in December 2026, followed by 1,024 in Q2 2027.\" On Fuse Energy's website, the company states that it will have 700kW of capacity live in December, followed by 3.25MW in Q2 of 2027. This then rapidly jumps to 22MW by Q4 2027, and 116MW in 2028 and "
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA GPUs Are Becoming Appreciating Assets In The Rental Space, With Models As Old As The A100 Reaching Up To A 143% Price Premium Due To AI Token Consumption",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xOHJVYnZDQ2ljUl9UbW9iZ0U5OEt3TVp5TC1ZQ0dWOW5pU1pmT0ZpYklxOHh0R0tmb1J1ZkhDQ2t3RlJwSXc2SFVBTTk2VGNmZVlYQ3hGZVljaGNGTEJZbThLSEhibG0xSE84VzJjeUVmc3J5QWhiV0diREpNd9IBgwFBVV95cUxNSVlBWHphV0plOUxxOUtCMXZvSmV5THdrd191N1FFUEhybWJyWGRXUUt3SUZPMkRWZ25HRjRqTHlwUkN6STRQZ093M0VreHM4aHlrVVVScnpXaG94TW1GVkt5RFlfbVZlakxFRTE3N2p1dHE2Uk9KTU5SYXpybl95UGRRdw?oc=5",
+   "date": "2026-10-24 21:05",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA A100 등 구형 GPU, 렌탈 시장에서 143% 프리미엄 가격",
+    "korean_summary": "A100 같은 구형 NVIDIA GPU가 AI 토큰 소비로 인해 렌탈 시장에서 정가 대비 143% 프리미엄으로 거래되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xOHJVYnZDQ2ljUl9UbW9iZ0U5OEt3TVp5TC1ZQ0dWOW5pU1pmT0ZpYklxOHh0R0tmb1J1ZkhDQ2t3RlJwSXc2SFVBTTk2VGNmZVlYQ3hGZVljaGNGTEJZbThLSEhibG0xSE84VzJjeUVmc3J5QWhiV0diREpNd9IBgwFBVV95cUxNSVlBWHphV0plOUxxOUtCMXZvSmV5THdrd191N1FFUEhybWJyWGRXUUt3SUZPMkRWZ25HRjRqTHlwUkN6STRQZ093M0VreHM4aHlrVVVScnpXaG94TW1GVkt5RFlfbVZlakxFRTE3N2p1dHE2Uk9KTU5SYXpybl95UGRRdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Small Business Trends",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cisco and NVIDIA Unveil High-Density USFP Module to Elevate AI Factory Networks",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVlmaGJ6SjNSS1duZGwwdXdmMDR4TzRjRS1tQ1JhUmpQOTltQVJqMlZjSmIzZUVnU2FYVVdaRHNhVGlVY25ibzdZamN4NnNyaUdTaXpKNkFqYklpZHZJc3AtNlFfYVlmR1E0UUxNVEVEVnc3STIyZVZmSm1NREs3OFNScmxYOFhZQkk0TEtXLU9iUGtOMTlVb3ZwQmw4VnJQVmY4N21VS05iQms?oc=5",
+   "date": "2026-10-24 23:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cisco와 NVIDIA, AI 팩토리 네트워크용 고밀도 USFP 모듈 공개",
+    "korean_summary": "Cisco와 NVIDIA가 AI 팩토리 네트워크 고도화를 위해 고밀도 USFP 모듈을 공동 개발·공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVlmaGJ6SjNSS1duZGwwdXdmMDR4TzRjRS1tQ1JhUmpQOTltQVJqMlZjSmIzZUVnU2FYVVdaRHNhVGlVY25ibzdZamN4NnNyaUdTaXpKNkFqYklpZHZJc3AtNlFfYVlmR1E0UUxNVEVEVnc3STIyZVZmSm1NREs3OFNScmxYOFhZQkk0TEtXLU9iUGtOMTlVb3ZwQmw4VnJQVmY4N21VS05iQms",
+   "body": ""
+  },
+  {
+   "source": "Google News · TOKENPOST",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Customers Book Most AWS 2027 Capacity as NVIDIA Invests in Higgsfield",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ndFJkSHNEQjd4X3dXVFRzWjZKa19GV0NzWnpfdkRHazY2QUxWZElXUFJnamU4c2RuUlNzWmRtMVhkTXItelVsdmlXaUIwMm9GWkVKZ2o4TzY?oc=5",
+   "date": "2026-10-25 02:29",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "AWS 2027 용량 대량 예약, 엔비디아 Higgsfield 투자",
+    "korean_summary": "AWS 고객들이 2027년 용량을 대량 예약하는 가운데 엔비디아는 Higgsfield에 투자한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ndFJkSHNEQjd4X3dXVFRzWjZKa19GV0NzWnpfdkRHazY2QUxWZElXUFJnamU4c2RuUlNzWmRtMVhkTXItelVsdmlXaUIwMm9GWkVKZ2o4TzY",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA B300 China Telecom: 32 GPUs Spotted [2026]",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TMGVIaTZWdkhvdVE4Q0RZTEk3cnZZblFMWFhVTmQ4OXZSam53YWpCdVk5YUNMTU1GUlZGVWQwVjJpOUNNdjc2VUlWRnd6enRsbUZaWENqN2FFeWQ1U1U4NFNfYWlTQ0lnQjhTcDE0Rk5RanhhM1VrR1g1U0M?oc=5",
+   "date": "2026-10-24 13:08",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA B300이 China Telecom에서 32개 단위로 배치된 것으로 확인",
+    "korean_summary": "NVIDIA의 신규 데이터센터 칩 B300이 중국 China Telecom 환경에서 32개 GPU 규모로 배치되는 것이 포착되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TMGVIaTZWdkhvdVE4Q0RZTEk3cnZZblFMWFhVTmQ4OXZSam53YWpCdVk5YUNMTU1GUlZGVWQwVjJpOUNNdjc2VUlWRnd6enRsbUZaWENqN2FFeWQ1U1U4NFNfYWlTQ0lnQjhTcDE0Rk5RanhhM1VrR1g1U0M",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · digital terminal",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Siemens, NVIDIA Enhance PCB Inspection with Digital Twin Technology",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNemNrckUzczBRRWswaFh6OUkydDh3MHNiWDZySjBPTlpiNUowR0x6ZW1Jc090bGt4ZW5fT0Q3SXNTci1ZM0dtQUVmclZEYVU5a0RSTHN2eHpDY3BPd3V1TUdWbFNMMEtSNDRvcjdUZ0pQYUZ6R2RBcWZlMnd1ZTVpRExUamozVWpzTWJseXN2SkpjbTFySzYza0wzUkx5X1F1dXl2LWhybEJXVVZu0gG6AUFVX3lxTE1WbEljdVJsclh6ckZPRkE1WVlkbWpocGphR29UQW54M0stUEZUSXBvdEQ3UUN5cFhqdXJRWUdib2xqbl91cEwxNV9VNjRwaDVjNzUzZTdpNEpxNXl3UExhVGF0RW1QNUMxemQ3dnVXVnZSWUZCZERKLWFYcld4OXNJZVUtSlRvZFhVV3BqY1gzd0pRV29EbXhBdEJOaXVQZU1QVm1qUlVoNUplNjlhVXpwSk5qc3FCa1FEdw?oc=5",
+   "date": "2026-10-24 13:51",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Siemens와 NVIDIA, Digital Twin으로 PCB 검사 기술 강화",
+    "korean_summary": "Siemens와 NVIDIA가 Digital Twin 기술을 활용하여 인쇄 회로판 검사를 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNemNrckUzczBRRWswaFh6OUkydDh3MHNiWDZySjBPTlpiNUowR0x6ZW1Jc090bGt4ZW5fT0Q3SXNTci1ZM0dtQUVmclZEYVU5a0RSTHN2eHpDY3BPd3V1TUdWbFNMMEtSNDRvcjdUZ0pQYUZ6R2RBcWZlMnd1ZTVpRExUamozVWpzTWJseXN2SkpjbTFySzYza0wzUkx5X1F1dXl2LWhybEJXVVZu0gG6AUFVX3lxTE1WbEljdVJsclh6ckZPRkE1WVlkbWpocGphR29UQW54M0stUEZUSXBvdEQ3UUN5cFhqdXJRWUdib2xqbl91cEwxNV9VNjRwaDVjNzUzZTdpNEpxNXl3UExhVGF0RW1QNUMxemQ3dnVXVnZSWUZCZERKLWFYcld4OXNJZVUtSlRvZFhVV3BqY1gzd0pRV29EbXhBdEJOaXVQZU1QVm1qUlVoNUplNjlhVXpwSk5qc3FCa1FEdw",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+   "link": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "date": "2026-10-24 20:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, AI 금융자 역할의 첫 번째 시험대에",
+    "korean_summary": "NVIDIA가 AI 클라우드 파트너들을 위해 투자와 대출 보증을 제공하고 있으며, 360억 달러 규모의 오프밸런스시트 계약이 있다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA의 AI 금융업자 역할, 네오클라우드 시장 침체로 첫 시험대에",
+    "korean_summary": "NVIDIA가 칩 판매를 넘어 OpenAI·네오클라우드에 대규모 백스톱 보증과 지분 투자로 AI 생태계 확장을 지원해왔는데, CoreWeave·Nebius·IREN 등 포트폴리오 기업 주가가 급락하고 신용 스프레드가 치솟으면서 이 전략이 **첫 번째 주요 스트레스 테스트**에 직면했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "AI 모델 개발사·데이터센터·네오클라우드에 대한 백스톱 보증, 테넌트 리스, 지분 투자 등 대규모 금융 지원을 제공해 자사 GPU 수요를 뒷받침",
+     "stage": "Report",
+     "timeline": "미확인 (최근 분기 실적 발표 기준 2025년 7월·8월 filing)",
+     "scope": "OpenAI Ohio 데이터센터($105B 보증), 네오클라우드 전반($36B 오프밸런스시트 약정), $500B 이상 장기 커미트먼트"
+    },
+    "key_facts": [
+     "NVIDIA는 7월 분기 filing 기준 네오클라우드 대상 **$36 billion 오프밸런스시트 AI 클라우드 백스톱**을 보유, 추가로 OpenAI Ohio 10GW 데이터센터에 최대 $105 billion 보증 제공",
+     "NVIDIA는 향후 데이터센터 리스 $20 billion어치에 테넌트로 서명, 추후 제3자에 양도 예정이며 8월 filing 기준 **$500 billion 이상의 오프밸런스시트 커미트먼트**가 FY2029까지 만기 도래",
+     "포트폴리오 기업 CoreWeave, Nebius, IREN 주가가 10월 중 최소 30% 하락했고, CoreWeave의 CDS 스프레드는 11% 이상으로 급등",
+     "NVIDIA가 투자한 Firmus는 IPO 계획을 철회했고, Nscale·SB Energy는 9월 미국 IPO 신청 후 업데이트가 없는 상태",
+     "NVIDIA는 2025년 상반기 **$70 billion의 자유현금흐름**을 창출(AMD $4B, Alphabet은 음(-)의 FCF), 지분 포트폴리오 가치는 2분기 기준 $99 billion"
+    ],
+    "why_matters": "NVIDIA의 GPU 수요 성장은 이제 칩 성능뿐 아니라 **네오클라우드의 신용·자금조달 여력**에 의존하게 되어, 수요가 기대에 못 미치면 NVIDIA의 금융 보증이 실질적 부담으로 전환될 위험이 커졌다. 동시에 Google TPU, AMD Helios 등 경쟁이 부상하는 상황에서 NVIDIA의 막대한 현금력이 생태계 전체를 묶어두는 핵심 경쟁우위로 작용하고 있다.",
+    "subject_angle": "NVIDIA는 단순 반도체 기업에서 **소프트웨어·하드웨어·금융을 결합한 풀서비스 플랫폼 제공자**로 전환하며 AI 인프라 자산군 자체를 조성하려 하지만, 이는 자사 매출 성장을 자사 보증으로 지지하는 순환적 리스크를 수반한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "OpenAI",
+      "context": "NVIDIA가 지분 투자 및 Ohio 데이터센터($105B) 보증을 제공한 핵심 AI 모델 개발사"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "NVIDIA 포트폴리오의 최대 네오클라우드, CDS 스프레드 급등으로 신용 리스크 부각"
+     },
+     {
+      "name": "Nebius",
+      "context": "NVIDIA 지원 네오클라우드, 10월 주가 30% 이상 하락"
+     },
+     {
+      "name": "IREN",
+      "context": "NVIDIA 지원 네오클라우드, 주가 급락"
+     },
+     {
+      "name": "Firmus",
+      "context": "NVIDIA 투자 호주 AI 클라우드, 이달 IPO 계획 철회"
+     },
+     {
+      "name": "Nscale",
+      "context": "NVIDIA 투자 영국 AI 클라우드, 9월 미국 IPO 신청 후 업데이트 없음"
+     },
+     {
+      "name": "SB Energy",
+      "context": "SoftBank 계열, NVIDIA 투자 대상, IPO 신청 후 업데이트 없음"
+     },
+     {
+      "name": "Google/Alphabet",
+      "context": "TPU 임대로 NVIDIA와 경쟁, 2분기 현금흐름 음(-) 기록"
+     },
+     {
+      "name": "AMD",
+      "context": "Helios AI 랙으로 경쟁 진입, 현금흐름 규모는 NVIDIA 대비 훨씬 작음"
+     },
+     {
+      "name": "Anthropic",
+      "context": "NVIDIA의 대형 지분 투자 대상"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin",
+      "role": "NVIDIA 차세대 플래그십 랙 시스템, 72 GPU 탑재, 대당 $7 million 이상(Morgan Stanley 추정)"
+     },
+     {
+      "name": "Helios",
+      "role": "AMD의 첫 AI 랙 제품, 7월 출시, NVIDIA 경쟁 제품"
+     },
+     {
+      "name": "TPU",
+      "role": "Google의 자체 AI 칩, 클라우드 임대 형태로 NVIDIA GPU와 경쟁"
+     }
+    ],
+    "watch_next": [
+     "CoreWeave, Nebius, IREN 등 네오클라우드의 실제 디폴트 발생 여부 및 신용시장 추가 악화 여부",
+     "Nscale, SB Energy의 미국 IPO 진행 상황 업데이트",
+     "6개 자산운용사와의 $500 billion 컴퓨트 인프라 자산화 파트너십의 구체적 집행 내역"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia's role as AI financier faces first big test as neoclouds take market hit",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN1kwNGVDOVM2RzM1UHRXSGxMb2t0bVR5U3F2ektqUGFGSDFwcEx4MzVsUVJWNjZobzhHSWoydXFZSVc0Y2ZuVmtGaWZ4UlpIelVnWlRGeF9fSllBSXlDNDd2U0NLenF4aVlGRy1MQWZ2bHVlTWVROUh6cVdrT2ZZU1E4N1ZaS2MxZEIyaG5QeXBEVUx0X1dLZmd5bk01RXVtc0stTG5oT1RJNk1tQ2lndi1jYV85QdIBuwFBVV95cUxQWkFsODZMbW1ZMjhwOXdUcHFSZ01La3kteUFsVXBPVWV1RnRqVzRmLXZZOXZpWklDTk52T3k4ZGkwbHduZHJkdW9rYjhEbXBPLWFiZURiNmt1UUdyaUpqdS1kS1lXTjRJWnA2N0Z4UlR3NnJhUkNyZ3RYMGF4VTRfWDg3emVCWEZ5R1dYcFk3RXc3RjRqQXNhMG82MlR4d2RaNFU2OUNxQmVJcU9OOTNyaXluSjI0N1d6WFg4?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "body": "Nvidia's emergence as financier for the global AI buildout is facing its first major stress test as credit markets tighten for key partners. After creating the chips that powered the early stages of the generative artificial intelligence era, Nvidia turned to using its financial prowess to fund AI model developers, data center companies and a host of so-called neoclouds. CEO Jensen Huang's strategy has been to not only build the most advanced technology but to provide customers with investment as well as help them take out loans so his systems can reach many more hands. That's meant taking full advantage of Nvidia's investment grade credit rating and providing backstop guarantees on mega-projects for OpenAI so that buildouts can get funded at lower interest rates. As of its last quarterly financial filing in July, Nvidia had $36 billion in off-balance-sheet AI cloud agreements, or backstops, for neoclouds, in addition to its guarantee on up to $105 billion for chips, land and power at a proposed 10 gigawatt OpenAI data center in Ohio. The company signed as a tenant for $20 billion in future data center leases, which will later be assigned to third parties. For the vast majority of these deals, Nvidia won't have to pay up unless participants in the project default. \"If the demand for compute doesn't meet these really super lofty expectations, we're going to have a problem,\" said David Trainer, founder and CEO of financial research firm New Constructs, in an interview. Nvidia declined to comment for this story. Market conditions may soon test Nvidia's mettle. Shares of neoclouds CoreWeave, Nebius and IREN, all cash-burning companies in Nvidia's portfolio, are down at least 30% this month. CoreWeave, the biggest of the group, has seen the spread on its credit default swaps soar past 11%, as investors are forced to pay up for insurance against default. Nvidia has backed other neoclouds that have run into challenges. The company is an investor in Australian AI cloud provider Firmus, which abruptly withdrew its IPO plans this month, as well as Nscale out of the U.K. and SoftBank-backed SB Energy. Both of those companies filed to go public in the U.S. in September but haven't provided updates on their plans in weeks. Nvidia wrapped up a third straight down week on Wall Street on Friday, with its stock now off 7.6% in October, on pace for its worst month since November of last year. Huang reiterated his confidence in the market this week, telling CNBC on Thursday that demand for neoclouds is \"off the charts.\" \"What is missing in the middle is the working capital to fuel that growth,\" Huang told CNBC's Arjun Kharpal on the sidelines of the company's GTC conference in Berlin. \"Because there's just so much demand across so many sectors of AI, there's a scarcity of capital.\" Nvidia has taken equity stakes in dozens of companies, including big investments in OpenAI and Anthropic. Its portfolio is worth $99 billion as of the second quarter. Building the ecosys"
+  },
+  {
+   "source": "Google News · The Times Of Central Asia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huang Backs Kazakhstan’s AI Plans as NVIDIA Expands Partnerships",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSGJ1SlZ4NHN6MjkwSjRsbDQ4Rk1IZjdoNEY0bEZHZ0xkLTczZUJQaUFuRkpiR2wxeTY4aWxFYS1DS3c5VUY1ZklaVHNUay1Ic2ZZOHFMR3o5MkFObldNNTZHQy1ROTAteWl0QmhmdFdTNTFkNDU0cnh0Z0l6SHpyTktLcjZHRURSQVMyZg?oc=5",
+   "date": "2026-10-24 11:29",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Jensen Huang, 카자흐스탄 AI 계획 지원으로 NVIDIA 파트너십 확대",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 카자흐스탄의 AI 계획을 지원하며 지역 파트너십을 확대하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSGJ1SlZ4NHN6MjkwSjRsbDQ4Rk1IZjdoNEY0bEZHZ0xkLTczZUJQaUFuRkpiR2wxeTY4aWxFYS1DS3c5VUY1ZklaVHNUay1Ic2ZZOHFMR3o5MkFObldNNTZHQy1ROTAteWl0QmhmdFdTNTFkNDU0cnh0Z0l6SHpyTktLcjZHRURSQVMyZg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tech in Asia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia backs AI video startup Higgsfield in series B extension",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN0lJRWFqbDZURVYyWXdpT09IYl9BZWkxWnU5SFE0a0NMRzVKdU94TlozRFY5TnlTQS1PbUsyVk9lVXZ3dDhOSlJSUXpUdGh5VXNVTGF4X1IxMEV4RDRsWWNxYTdBeWxNMDllNGFXcS1aYThUc3FMbk9ydGx3MW1qMEZIaEdrRGpuRkxzWnpR?oc=5",
+   "date": "2026-10-24 18:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, AI 영상 스타트업 Higgsfield Series B 연장 투자",
+    "korean_summary": "NVIDIA가 AI 비디오 생성 스타트업 Higgsfield의 Series B 라운드 연장에 참여했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN0lJRWFqbDZURVYyWXdpT09IYl9BZWkxWnU5SFE0a0NMRzVKdU94TlozRFY5TnlTQS1PbUsyVk9lVXZ3dDhOSlJSUXpUdGh5VXNVTGF4X1IxMEV4RDRsWWNxYTdBeWxNMDllNGFXcS1aYThUc3FMbk9ydGx3MW1qMEZIaEdrRGpuRkxzWnpR",
+   "body": ""
+  },
+  {
+   "source": "Google News · AzerNews",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang proposes making Kazakhstan global physical AI Hub",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KYWdmOHVWbTVHRWdTNXN4SDhlbENDX2ZMY2R0VkRIbUkxMHJ0TEJBY1R2UjJBQWZoWUdtaVQtVlYtc3M2U3p6b012d2ppVGFVYzg5UA?oc=5",
+   "date": "2026-10-24 19:04",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO, 카자흐스탄을 글로벌 Physical AI 허브로 육성 제안",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 카자흐스탄을 세계적 Physical AI 중심지로 만들 것을 제안했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KYWdmOHVWbTVHRWdTNXN4SDhlbENDX2ZMY2R0VkRIbUkxMHJ0TEJBY1R2UjJBQWZoWUdtaVQtVlYtc3M2U3p6b012d2ppVGFVYzg5UA",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia wins fast-growing AI startup Modal for new central processors",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xehaju/nvidia_wins_fastgrowing_ai_startup_modal_for_new/",
+   "date": "2026-10-25 04:18",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, AI 인프라 스타트업 Modal 확보",
+    "korean_summary": "NVIDIA가 빠르게 성장하는 AI 인프라 스타트업 Modal을 확보했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xehaju/nvidia_wins_fastgrowing_ai_startup_modal_for_new",
+   "body": "submitted by /u/Sufficient_Flower415 [link] [comments]"
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia vs. Broadcom: One Grew AI Revenue 221% Last Quarter. The Other Grew 117%.",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUZXZ0JzckR5ZHE5Qnl4bkgzVlhpWWFIUU5IbFNSenNva0EwcEdDbzQxcEx2ckFOZ2RMclF2eVBGVVcyQnQtOVFYRG1WMzFtUV8td2pCMkVjMEtfeVlaR2UwV0ZEUXBsTllGX1VWYnVtaGNtR1hfODV5UGFIYlhNaVVDY3l0aUJJRHVjWWhPZmVqaFZtdnZ4UXJLNXl5UHpYcWp2bEt2dmxxalVNREt3Zl84Sng1d0FQNmc?oc=5",
+   "date": "2026-10-24 23:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA vs Broadcom, 분기 AI 수익 성장률 비교",
+    "korean_summary": "NVIDIA가 Broadcom보다 분기별 AI 수익 성장률이 높다는 비교 분석이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUZXZ0JzckR5ZHE5Qnl4bkgzVlhpWWFIUU5IbFNSenNva0EwcEdDbzQxcEx2ckFOZ2RMclF2eVBGVVcyQnQtOVFYRG1WMzFtUV8td2pCMkVjMEtfeVlaR2UwV0ZEUXBsTllGX1VWYnVtaGNtR1hfODV5UGFIYlhNaVVDY3l0aUJJRHVjWWhPZmVqaFZtdnZ4UXJLNXl5UHpYcWp2bEt2dmxxalVNREt3Zl84Sng1d0FQNmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers — GPU die and memory desoldered and transplanted to blower designs; custom cards to Nvidia Founders Editions on the chopping b",
+   "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWEJjQi1za1l1bTI1SFNZcVBMeDJ6RFVQNWJ1RU5iWWVBQzFUN18wTndLek15MWplRmpTSW1rMklpSFBDbUZobk5WMXBsTlY2YzI5dVByWVdXTHYyNUp2OGUxaUk0c0NvSkZBcC1NbWtnQVR1ZXN6NDd6WmhBZ2lIbS1rVmhDVWlWbHJqZTh0UF9xLXpKSXYwNlYxUFJCUEJKTjNEVmVabTdRaDZ2RUIwNFBkUmd2T3FLNW1ZOHc5V1JDTkphb2JidEFhRjQ3Y3Q1RXRPajZRektKNG9KUVRQaVBQbkpJOXhXb2NrcVlnbW9ycTgwVE1CX0s1R3c5MVRDczZDRDZUNHlSTEVES1JlUzFENWprQTVWR2NNTlNtT05xUQ?oc=5",
+   "date": "2026-10-24 20:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국 공장, RTX 5090 수천 개 분해해 다이 재활용",
+    "korean_summary": "중국 산업 규모 공장이 RTX 5090을 수천 개 분해하여 GPU 다이와 메모리를 AI 서버 카드에 재활용"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPWEJjQi1za1l1bTI1SFNZcVBMeDJ6RFVQNWJ1RU5iWWVBQzFUN18wTndLek15MWplRmpTSW1rMklpSFBDbUZobk5WMXBsTlY2YzI5dVByWVdXTHYyNUp2OGUxaUk0c0NvSkZBcC1NbWtnQVR1ZXN6NDd6WmhBZ2lIbS1rVmhDVWlWbHJqZTh0UF9xLXpKSXYwNlYxUFJCUEJKTjNEVmVabTdRaDZ2RUIwNFBkUmd2T3FLNW1ZOHc5V1JDTkphb2JidEFhRjQ3Y3Q1RXRPajZRektKNG9KUVRQaVBQbkpJOXhXb2NrcVlnbW9ycTgwVE1CX0s1R3c5MVRDczZDRDZUNHlSTEVES1JlUzFENWprQTVWR2NNTlNtT05xUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang Says Nvidia GPUs Could Last Over 8 Years, Not 4, Carry ‘Really High’ Residual Value: ‘Lowest Risk’ Assets for Lenders",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnp5Ml93RVNUTDJEdTNnd1Fpd01oY29XZVREOFBKSkpOS251djUtTE9fRW9HXy14VW4yaWFnRkFVTEZ5bHRHNzdid3dDVkJ4Q0xLTDhLa2VCNkotbWViZ2NlRW13bm1kNU5LVEJtQVJWLV9YeTdSX0xlSHFIcnI2dDc2cFZwWDR4N21EUm11Xy1zajdUNkpxbw?oc=5",
+   "date": "2026-10-24 20:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA GPU, 4년 아닌 8년 이상 수명·높은 잔존가치 강조",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 NVIDIA GPU의 내용 연수가 4년이 아니라 8년 이상이며 높은 잔존가치를 갖춘 저위험 자산이라고 주장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUnp5Ml93RVNUTDJEdTNnd1Fpd01oY29XZVREOFBKSkpOS251djUtTE9fRW9HXy14VW4yaWFnRkFVTEZ5bHRHNzdid3dDVkJ4Q0xLTDhLa2VCNkotbWViZ2NlRW13bm1kNU5LVEJtQVJWLV9YeTdSX0xlSHFIcnI2dDc2cFZwWDR4N21EUm11Xy1zajdUNkpxbw",
+   "body": ""
+  },
+  {
+   "source": "Google News · GameGPU",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A classified Broadcom presentation with AMD and NVIDIA roadmaps through 2034 has leaked online.",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3I0cmJtX2t2UzYweUUyM0xIZTBVU2JXNE80LVBfZmZMQ3RlcUpEU2ZwVTYwOV93UllPNEVwaDVaV3RIb1ZxdmdDMzlVTnktYldndkRCdTNIOWRibUpUQm91RFVNc2FEdE9jQm80c3FTRXozWkZrTFlVWjY1cWlMZHUwcE5zcWFiWWgyVnZZVmcwZWNjaEI4N2N5OERGeldEUkVrMnFPYUhCYUlkMFVRR240LUZGQQ?oc=5",
+   "date": "2026-10-25 04:57",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "유출된 Broadcom 기밀 프레젠테이션: NVIDIA·AMD 2034년 로드맵",
+    "korean_summary": "Broadcom의 기밀 프레젠테이션이 온라인 유출로 NVIDIA와 AMD의 2034년까지의 향후 로드맵이 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3I0cmJtX2t2UzYweUUyM0xIZTBVU2JXNE80LVBfZmZMQ3RlcUpEU2ZwVTYwOV93UllPNEVwaDVaV3RIb1ZxdmdDMzlVTnktYldndkRCdTNIOWRibUpUQm91RFVNc2FEdE9jQm80c3FTRXozWkZrTFlVWjY1cWlMZHUwcE5zcWFiWWgyVnZZVmcwZWNjaEI4N2N5OERGeldEUkVrMnFPYUhCYUlkMFVRR240LUZGQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · XDA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's RTX Spark has an NPU it barely mentions, and I spent a week figuring out what it actually is",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUi1MREE0X2pWeEg3R3pvMmJ0TFQzNWRkUHJpQU1DbWhrMi1uZmdsb2F0bVhEYVh1SWIzMXJ4QlhyWWxxU2xLX2s2OHVVd1Zka2w1MDlLdXRlMzdUaGJYdmtFLVZfODRVZnBmM2tsQjRLSjdoTjZvM1JxaHFiQlhCeGdYWlNyWDJFNk1NUjVpbUprWEh5Ni1J?oc=5",
+   "date": "2026-10-24 20:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "엔비디아 RTX Spark의 숨겨진 NPU 정체 규명",
+    "korean_summary": "엔비디아 RTX Spark에 탑재된 거의 언급되지 않는 NPU의 정체가 일주일 분석을 통해 규명되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUi1MREE0X2pWeEg3R3pvMmJ0TFQzNWRkUHJpQU1DbWhrMi1uZmdsb2F0bVhEYVh1SWIzMXJ4QlhyWWxxU2xLX2s2OHVVd1Zka2w1MDlLdXRlMzdUaGJYdmtFLVZfODRVZnBmM2tsQjRLSjdoTjZvM1JxaHFiQlhCeGdYWlNyWDJFNk1NUjVpbUprWEh5Ni1J",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quantum Computing Report",
+   "category": "media",
+   "kind": "gnews",
+   "title": "QCentroid Unveils “Missions” on NVIDIA CUDA-Q to Benchmark Classical, Quantum-Inspired, and QPU Workloads",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3FfU1l0N1dwYWkxRTMxOHRKcjBvT2ZtWnVZSVN1b3pLVXV1ekxvOXBOek5EcDNick9hSGpSVEZnYnNIZFBocmRhaXZGeW9iTUFkOEhVd1F2SnFUU21Hb19ST3pMRlhqUHdDNmgxRXFPcnhMNXFTTlNmWEg1LVNZUjRVYzFlTjhNem56X2ZuR0xCZFJWbGRmYTBDZUFlbGxyZjI2UTVWTUV1MWtwNk9qYVV6V29rbFBtX0NRYi1OeHVqdEFHeHJpckU3TVpzSXZlSmpJ0gHYAUFVX3lxTFBvbVRaSGNwMVVHYVc0VzlDV2JENWlpQk0yblMtSzM0aEk1MmdCTDdFLVJZVlBLQjdaaF9kSGxOVDRrSlBCZ0NBUHpRRVVlZmdGSm9kaHpGV3N3Z3FUU25ZYWM5VEdCemJ2WENKaDJEX0ktZlpIeG1zWFpMS2M3bXNudnhCOUVhc0lVQzJtUkh0b0Y5UHQxQW1CWVk1MTNDeVZDdUNFNlJIQ3pqNnlCTHpZMkJrZ3ljTmZHMkZWM3hBVFFRZmQyUmlFTTdBSmYxYUNwRlBXMHVlaA?oc=5",
+   "date": "2026-10-24 11:43",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "QCentroid, NVIDIA CUDA-Q로 양자-고전 벤치마킹 'Missions' 출시",
+    "korean_summary": "QCentroid가 NVIDIA CUDA-Q를 활용해 고전, 양자 영감, QPU 작업량을 벤치마킹하는 'Missions'을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX3FfU1l0N1dwYWkxRTMxOHRKcjBvT2ZtWnVZSVN1b3pLVXV1ekxvOXBOek5EcDNick9hSGpSVEZnYnNIZFBocmRhaXZGeW9iTUFkOEhVd1F2SnFUU21Hb19ST3pMRlhqUHdDNmgxRXFPcnhMNXFTTlNmWEg1LVNZUjRVYzFlTjhNem56X2ZuR0xCZFJWbGRmYTBDZUFlbGxyZjI2UTVWTUV1MWtwNk9qYVV6V29rbFBtX0NRYi1OeHVqdEFHeHJpckU3TVpzSXZlSmpJ0gHYAUFVX3lxTFBvbVRaSGNwMVVHYVc0VzlDV2JENWlpQk0yblMtSzM0aEk1MmdCTDdFLVJZVlBLQjdaaF9kSGxOVDRrSlBCZ0NBUHpRRVVlZmdGSm9kaHpGV3N3Z3FUU25ZYWM5VEdCemJ2WENKaDJEX0ktZlpIeG1zWFpMS2M3bXNudnhCOUVhc0lVQzJtUkh0b0Y5UHQxQW1CWVk1MTNDeVZDdUNFNlJIQ3pqNnlCTHpZMkJrZ3ljTmZHMkZWM3hBVFFRZmQyUmlFTTdBSmYxYUNwRlBXMHVlaA",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+   "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/",
+   "date": "2026-10-24 02:27",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA TensorRT 11.1 글로벌 성능 튜너로 모델별 자동 최적화",
+    "korean_summary": "NVIDIA가 TensorRT 11.1의 글로벌 성능 튜너로 딥러닝 모델의 자동 성능 최적화를 제공한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Technical Blog",
+     "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+     "link": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1/"
+    },
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1 | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSlJ2NG1IeUFBamtLaDJBdXVLN2M2aFFrUmk5UXNHakxZOUd0d3NRMEZHTHYyczhPNU9DdS1KR3RieE5SRlpNZVdRYnY0MmRMZmR0c1VkU3NfQ0F0Nl9ZTVdtbm55TkZmUFptOFptTFdrOGVubDh5UGFhaFJJN243azN5eHR4QTR6RUhDRktBS1Jka3licUZoRDY2RTVWOXBXM1l5V3djSHpFam5UalJFWVZ6bmVIUHMxTEFsQnVldHdoQzZIbjlOdHVkN1l3blhFZDViZHN5czJxZ1lmMXdVcVVyZmMxZUU?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2",
+   "body": "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and... The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and end-to-end performance tuning within TensorRT by customizing different optimizations for different models. For more details, see Part 1 of this series, which introduces the challenges associated with scheduling (a critical stage in deep learning… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Leaked video exposes how industrial-scale Chinese factories are dismantling RTX 5090s by the thousands to fuel AI servers",
+   "link": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
+   "date": "2026-10-24 20:15",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국 공장, RTX 5090 수천 개 분해해 AI 서버로 전환",
+    "korean_summary": "중국의 산업 규모 공장들이 소비자용 RTX 5090을 대량 분해하여 AI 서버용으로 재용도화하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/leaked-video-exposes-how-chinese-factories-are-stripping-rtx-5090s-to-fuel-ai-custom-partner-cards-to-nvidia-founders-editions-on-the-chopping-block",
+   "body": "If you are wondering why the GeForce RTX 5090 , despite being one of the best graphics cards , has evaporated from retail shelves, the answer lies in China’s industrial conversion factories. A newly surfaced video reveals the staggering scale of the country’s grey-market AI operations, showing industrial workshops dismantling brand-new GeForce RTX 5090 graphics cards to repurpose them for the AI boom. Go deeper with TH Premium: GPUs (Image credit: Noctua) Desktop GPU Roadmap Nvidia's Enterprise GPU Roadmap Testing DirectStorage with GPU decompression The GeForce RTX 30-series upgrade matrix — does your Ampere GPU need an upgrade in 2026? Rubin in-depth The Stout Owl: The ultimate Noctua G2 PC So, what exactly is a GeForce RTX 5090 doing in China when the graphics card is not even officially available there? The answer is simple. They are there to be transformed into AI workhorses. The recently leaked footage offers a glimpse inside these Chinese workshops, where skilled technicians meticulously desolder the pricey flagship’s GB202 silicon and GDDR7 memory chips. They then transplant the components into a dual-slot blower design tailored for server use. The GeForce RTX 5090 blower graphics cards will ultimately end up in high-density server racks where they will become the backbone of massive AI compute clusters. The scale and efficiency of these operations are impressive, with production lines converting shipments of brand-new GeForce RTX 5090 graphics cards, from Nvidia's custom partner models to the chipmaker's highly coveted Founders Edition. After testing and validation, workers would repackage these modified GeForce RTX 5090 graphics cards and ship them to clients, likely data centers or AI labs. Many of these Chinese factories are scattered throughout the country. The conversion process is massive in scale, and probably thousands of GeForce RTX 5090 graphics cards are being repurposed every day. Middlemen in these grey-market supply chains are constantly hunting for GeForce RTX 5090 stock to fuel these operations. 【太精彩了吧 😱】近日，社交媒體 X 上流出多段顯示卡改裝工場內部影片，可以看到大量 GeForce RTX 5090 頂級遊戲顯示卡並未流向一般消費級零售市場，而是被整批運往大型改裝工廠。廠內工人在具備完整流水線的作業環境下，進行大規模拆解與改裝，將原本針對電競設計的三風扇散熱架構全數替換為 Dual Slot 渦輪散熱器，以符合 AI 伺服器機箱的高密度排列需求。 https://t.co/2wzPmweU3s從曝光的工廠現場畫面可見，流水線工作枱上堆滿了來自各大廠商的 GeForce RTX 5090 零售彩盒包裝與全新裸卡，甚至連 NVIDIA 自家 GeForce RTX 5090 FE 也有。工人正以熟練的工序，迅速卸除原廠龐大的風扇與散熱鰭片模組，將完整的 PCB 電路板分離出來。隨後，GPU 與 VRAM 會被「吹」出來移植至另一片 PCB 上，再統一換裝上厚度僅有 2-Slot 的厚銅底座渦輪鼓風散熱系統。 改裝完畢後，廠方隨即將顯示卡送往專門的測試檢驗產線。在多組相連的開放式測試平台上，數十張已換裝渦輪散熱器的顯示卡正同步運行圖形效能負載與穩定性跑分測試，確保每張改裝後的繪圖卡皆能正常運作。通過嚴格檢測的顯示卡將被分層整齊陳列並重新裝箱，準備直接交付給相關客戶，流程非常專業。 傳統消費級高階顯示卡通常採用三風扇大型散熱設計，厚度普遍佔用 3 至 4 個插槽，且出風方向為機箱內部側吹，難以在 4U 伺服器或多卡並聯環境中並排安裝。換裝雙槽渦輪散熱系統後，散熱器能利用鼓風風扇將廢熱直接排出機箱後方，大幅提升多卡伺服器內部的散熱效率與空間相容性。 面對 AI 運算需求持續殷切，在算力緊缺的情況下，GeForce RTX 5090 遊戲顯示卡依然是 AI 算力市場的熱門替代品。目前，GeForce RTX 5090 售價已經被炒上接近一萬美元水平，這個價位遊戲玩家根本無力負擔。 October 23, 2026 Nvidia has reportedly halted production of the GeForce RTX 5090 and is, in all likelihood, redirecting the valuable si"
+  },
+  {
+   "source": "Google News · TheStreet",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tesla and Nvidia just found another AI bottleneck",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd3VpUERiNUd0STJ4bmRZdGpiMEphUUFzOVd5MUNuelhKLThPdUFUY1VTaHpXcE1NaFhzM2VKYW1HSUVyMkpLVlFXQmJaQXF2NmVkMkxrTmdKam1ZekNlT1o2ZHBHblI5eGxFNU9EN0VRTjM4cjRSdkI4UnktRDdjbWJ5MURQVkJKYzAzcDltT1RnTlhDSEswdm0tZjhEeVN5RFU4?oc=5",
+   "date": "2026-10-24 19:03",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Tesla와 NVIDIA, AI 시스템의 새로운 병목 지점 발견",
+    "korean_summary": "Tesla와 NVIDIA가 협력 과정에서 AI 시스템의 새로운 병목 문제를 발견했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd3VpUERiNUd0STJ4bmRZdGpiMEphUUFzOVd5MUNuelhKLThPdUFUY1VTaHpXcE1NaFhzM2VKYW1HSUVyMkpLVlFXQmJaQXF2NmVkMkxrTmdKam1ZekNlT1o2ZHBHblI5eGxFNU9EN0VRTjM4cjRSdkI4UnktRDdjbWJ5MURQVkJKYzAzcDltT1RnTlhDSEswdm0tZjhEeVN5RFU4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Martin Cid Magazine",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Jensen Huang wants lenders to finance Nvidia chips as neocloud bonds hit 16%",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaUtmaGNjbGNIOFpsMnc1dlZaT09QaEoxSFFWTWVMdFZhMjJ1MDJMc3JQTTdXRTV3a2N3ZW9PNTRrMHhQTVJoc19KaFJHbUV3OXpGZHlGNkFkbnlPTlU4NzlLR1dSY2Jkd2hESFVKWUllX0RGeEVfWWFTRkxWdVM0aWpQU3lybVZnSzJYZnhkU1hJRVAyZXZ1ak9n?oc=5",
+   "date": "2026-10-24 21:41",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang, 금융 기관에 NVIDIA 칩 자금화 제안",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 금융 기관에 NVIDIA 칩 자금 조달을 제안하면서 neocloud 채권이 16% 수익률을 기록했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaUtmaGNjbGNIOFpsMnc1dlZaT09QaEoxSFFWTWVMdFZhMjJ1MDJMc3JQTTdXRTV3a2N3ZW9PNTRrMHhQTVJoc19KaFJHbUV3OXpGZHlGNkFkbnlPTlU4NzlLR1dSY2Jkd2hESFVKWUllX0RGeEVfWWFTRkxWdVM0aWpQU3lybVZnSzJYZnhkU1hJRVAyZXZ1ak9n",
+   "body": ""
+  },
+  {
+   "source": "Google News · TOKENPOST",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s AI Guarantees Carry Up to $108.5 Billion in Gross Exposure",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KVFY0RGJfSmF1ejJ5WmdVWWpnSjJDWnRpV2FoeXdWRUpDLWRmQ25SbTFpdVNVS282TDdveWJON0wwWnVuVjBHRXZLN2IyUHhUUnZQTWdDeXk?oc=5",
+   "date": "2026-10-25 02:53",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아의 AI 보증, 1085억 달러 재무 노출 초래",
+    "korean_summary": "엔비디아의 AI 관련 보증이 1085억 달러의 재무 노출을 초래하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9KVFY0RGJfSmF1ejJ5WmdVWWpnSjJDWnRpV2FoeXdWRUpDLWRmQ25SbTFpdVNVS282TDdveWJON0wwWnVuVjBHRXZLN2IyUHhUUnZQTWdDeXk",
+   "body": ""
+  },
+  {
+   "source": "Google News · VideoCardz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA simplifies DLSS 5 modding for classic PC games with RTX Remix 1.6",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmprTEtDWTZIbUhWNi1jLUVFWjZNcl9HdzZ6WldFTWN2cjJOMWhaVHMzVDV1aGcweHBJQnF4NmRSa1FmcDUxYTZyTnVYQ0xPRjFEcWVadmtwM0ZuS19OX0ozVWNoSkJQaVZUZWozOHljWFN1OVlwTmFmVHVDYWdtbThBUUhJSFRNaDE3OFVWMUNHU000dTRwWVJrYWtVR2xLR2c?oc=5",
+   "date": "2026-10-25 01:46",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "RTX Remix 1.6, 기존 게임 DLSS 5 모딩 간소화",
+    "korean_summary": "엔비디아가 RTX Remix 1.6으로 기존 PC 게임의 DLSS 5 모딩을 간소화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmprTEtDWTZIbUhWNi1jLUVFWjZNcl9HdzZ6WldFTWN2cjJOMWhaVHMzVDV1aGcweHBJQnF4NmRSa1FmcDUxYTZyTnVYQ0xPRjFEcWVadmtwM0ZuS19OX0ozVWNoSkJQaVZUZWozOHljWFN1OVlwTmFmVHVDYWdtbThBUUhJSFRNaDE3OFVWMUNHU000dTRwWVJrYWtVR2xLR2c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX Remix 1.6 Launches With DLSS 5, 6X Multi Frame Generation, Minecraft Java Edition Support, And More",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUWpBMXNZVjNUcHZDM2RXcXd6eWtXUFljY0tnajdWb3Q0bUJoaU5uMWtSaXRTSVpiZmhtTzFneFc1a00yQlU3NDlQbE5PWThhb0kxNlpUVWNTVmo3VWJOM1FqTk5neFZRNjNZT3M3ODFGb3pxdXNYeElhLW1PV2tLZE1HNVNSY2tXTTUwRl9GMDcyMktDNG1Cek4xRWlpWHl5LThLUGxMTng1ZjV6VGdkVGtFb3hXOUdNcU9GVFBybm1PSmtqOFlLMtIBzgFBVV95cUxNOFpvRnA0R0hJMl9TdHZ3dWwwaGNoeTBsSnZLWndybWtoLU1sRFdlelRtbHlDdW8wOTdEZXdLRHBBNmJFNmlpcUhOWUpjckRBLTZvcTAxdmtYQVRZT2RpOUZURi1mVDA1aFBMLWZLdUxYZkZUOVlYNF9rcExhS3VPT0Y0d2tBYzZ0Zk53UlZlcGpWbnQxbVFIbFBNMWJDMFNrUDcxX0QtQlJQUEJrMVppdnd6c2JPMVZJNi16WGpDcnRPbEdLcUwzOG84QWxHUQ?oc=5",
+   "date": "2026-10-24 07:20",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "RTX Remix 1.6 정식 출시, 마인크래프트 자바 에디션 지원",
+    "korean_summary": "엔비디아가 DLSS 5, 6배 멀티프레임 생성, 마인크래프트 자바 에디션 지원을 포함한 RTX Remix 1.6을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUWpBMXNZVjNUcHZDM2RXcXd6eWtXUFljY0tnajdWb3Q0bUJoaU5uMWtSaXRTSVpiZmhtTzFneFc1a00yQlU3NDlQbE5PWThhb0kxNlpUVWNTVmo3VWJOM1FqTk5neFZRNjNZT3M3ODFGb3pxdXNYeElhLW1PV2tLZE1HNVNSY2tXTTUwRl9GMDcyMktDNG1Cek4xRWlpWHl5LThLUGxMTng1ZjV6VGdkVGtFb3hXOUdNcU9GVFBybm1PSmtqOFlLMtIBzgFBVV95cUxNOFpvRnA0R0hJMl9TdHZ3dWwwaGNoeTBsSnZLWndybWtoLU1sRFdlelRtbHlDdW8wOTdEZXdLRHBBNmJFNmlpcUhOWUpjckRBLTZvcTAxdmtYQVRZT2RpOUZURi1mVDA1aFBMLWZLdUxYZkZUOVlYNF9rcExhS3VPT0Y0d2tBYzZ0Zk53UlZlcGpWbnQxbVFIbFBNMWJDMFNrUDcxX0QtQlJQUEJrMVppdnd6c2JPMVZJNi16WGpDcnRPbEdLcUwzOG84QWxHUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA DLSS 5 Neural Rendering Now Available In Portal With RTX And Half-Life 2 RTX Demo, Alongside 6X Multi Frame Generation",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeDEzbnFOT3BES19qS1hhaWhyQjRrNkNxaXctY3F0aE81VTJ4LWF4b0hEbVlENEphckNiMllUZy1mbnExSTVXUWlFcGZlZ19tZTIxd2VJTG52bGlRWFE1aE13UFdkUkkxVXRRSG1CVl94TGt3OHkyd3VESkV4UExnTlhsQnpWUFJ0eDN0WHFYSzNOU0NULW5SNkFNSE0taXdKYk45d1JLY19rMXFhNHBYQ1Z0WGd5WkYzUGJITDd4UnRmUFpDaU02bHZPSkhWdmlHSV9yY2hOOGp4bTVUalE00gHkAUFVX3lxTE5WWWxiR2N1ZHNnVGhMa0EzU1NsenprM0Z0Smc3S2xqV0JKalBiTVVlaXVTd3JJNmxickhreDc3Z2FxSFZ4a21IV2tNVFhOU092TzN2ZGFXc054YU43cS0yb2Vmc1ZiQ1lod1lGVDBQa0dqY0RIWld5NDZQZUdvSlV3Q0dyLWZkZTJVZU5aRmNFeU1PbjJ0SGF5UmxaVlItYWotLW1fTGxXcks4REY1YXlsOGU0SjZFc24xMXgyb2liWGt3MWdkdE01RzJlRno5OUtqdmpOdmdaTFQxQlBSdTM1dFZJQw?oc=5",
+   "date": "2026-10-25 00:29",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "DLSS 5 신경 렌더링, 포탈·하프라이프 2에 적용",
+    "korean_summary": "DLSS 5 신경 렌더링이 포탈과 하프라이프 2 RTX 데모에 6배 멀티프레임 생성과 함께 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeDEzbnFOT3BES19qS1hhaWhyQjRrNkNxaXctY3F0aE81VTJ4LWF4b0hEbVlENEphckNiMllUZy1mbnExSTVXUWlFcGZlZ19tZTIxd2VJTG52bGlRWFE1aE13UFdkUkkxVXRRSG1CVl94TGt3OHkyd3VESkV4UExnTlhsQnpWUFJ0eDN0WHFYSzNOU0NULW5SNkFNSE0taXdKYk45d1JLY19rMXFhNHBYQ1Z0WGd5WkYzUGJITDd4UnRmUFpDaU02bHZPSkhWdmlHSV9yY2hOOGp4bTVUalE00gHkAUFVX3lxTE5WWWxiR2N1ZHNnVGhMa0EzU1NsenprM0Z0Smc3S2xqV0JKalBiTVVlaXVTd3JJNmxickhreDc3Z2FxSFZ4a21IV2tNVFhOU092TzN2ZGFXc054YU43cS0yb2Vmc1ZiQ1lod1lGVDBQa0dqY0RIWld5NDZQZUdvSlV3Q0dyLWZkZTJVZU5aRmNFeU1PbjJ0SGF5UmxaVlItYWotLW1fTGxXcks4REY1YXlsOGU0SjZFc24xMXgyb2liWGt3MWdkdE01RzJlRno5OUtqdmpOdmdaTFQxQlBSdTM1dFZJQw",
+   "body": ""
+  },
+  {
+   "source": "Google News · VideoCardz.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "OBS Studio 33 released, adds NVIDIA NVENC on Arm64",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZGE2YmFfcXlOUWRQd2NwbXJTYkFma2pIbVA0NVpJS2ZpdGVtdjdjX1p5VW5yTGxZUXFOSTBtU0dJWTV2Q0N5eDNKazZ3MWU0SmFRbEhweldPcnJBeUlGLTU1U0NKWE5NcU9MOHNKcnVyQ3ktOG5vODY3dFE0Ykl1MHIwMA?oc=5",
+   "date": "2026-10-25 00:36",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "OBS Studio 33 릴리스, NVIDIA NVENC Arm64 지원 추가",
+    "korean_summary": "OBS Studio 33에서 NVIDIA NVENC 인코딩 기술의 Arm64 아키텍처 지원이 추가되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZGE2YmFfcXlOUWRQd2NwbXJTYkFma2pIbVA0NVpJS2ZpdGVtdjdjX1p5VW5yTGxZUXFOSTBtU0dJWTV2Q0N5eDNKazZ3MWU0SmFRbEhweldPcnJBeUlGLTU1U0NKWE5NcU9MOHNKcnVyQ3ktOG5vODY3dFE0Ykl1MHIwMA",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Portal with RTX and Half-Life 2 RTX demo now support DLSS 5 Neural Rendering",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xe39lw/portal_with_rtx_and_halflife_2_rtx_demo_now/",
+   "date": "2026-10-24 17:27",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Portal RTX·Half-Life 2 RTX, DLSS 5 Neural Rendering 지원",
+    "korean_summary": "Portal과 Half-Life 2의 RTX 버전이 NVIDIA 최신 DLSS 5 Neural Rendering 기술을 지원하기 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xe39lw/portal_with_rtx_and_halflife_2_rtx_demo_now",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · Briefs Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's AI bankroll meets its first real market test",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZm4teGt0WXdHeVpqWC1SNWtqbmxCbzRjekxrT0hLZXd1U3dtNW96dmxRU21DcUVyZHgxX0oyVFAzX2d4cXlzMldudVlJVEwtWDlQWnhEdUhWbVJWeFJBaXVPMjV2ZGlTaTJZSTFzWHp6VHVfVjlVZGt1MjVLUFhLM2F0Rzk2ZDM3?oc=5",
+   "date": "2026-10-24 21:54",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA의 AI 투자, 첫 번째 실제 시장 시험 맞이",
+    "korean_summary": "NVIDIA의 AI 자금이 실제 시장 환경에서 검증되기 시작했다는 분석이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZm4teGt0WXdHeVpqWC1SNWtqbmxCbzRjekxrT0hLZXd1U3dtNW96dmxRU21DcUVyZHgxX0oyVFAzX2d4cXlzMldudVlJVEwtWDlQWnhEdUhWbVJWeFJBaXVPMjV2ZGlTaTJZSTFzWHp6VHVfVjlVZGt1MjVLUFhLM2F0Rzk2ZDM3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Data Center Richness | Substack",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Will NVIDIA’s DSX Pods Shift the AI Landscape?",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZzdSelI5ZUNYeEdwekk5eU0wR19Rd3NYemU5V0thb0JJOEYwNlByd3duYkU3bzRyM0VPNGJJMTZKTnRnRVc1cHZZY3V1ejBGZ1gwOEJFOVdBSVpWQXUwVVc1Y0YxSUZWdmlMRHFBek9pbUQzNTZ2alc5R3VWQ0Joc3ln?oc=5",
+   "date": "2026-10-24 20:10",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA DSX Pods, AI 시장의 판도를 바꿀까?",
+    "korean_summary": "NVIDIA의 DSX Pods 플랫폼이 AI 인프라 시장을 재편할 가능성을 분석한 기사이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZzdSelI5ZUNYeEdwekk5eU0wR19Rd3NYemU5V0thb0JJOEYwNlByd3duYkU3bzRyM0VPNGJJMTZKTnRnRVc1cHZZY3V1ejBGZ1gwOEJFOVdBSVpWQXUwVVc1Y0YxSUZWdmlMRHFBek9pbUQzNTZ2alc5R3VWQ0Joc3ln",
+   "body": ""
+  },
+  {
+   "source": "Google News · Manufacturing Digital",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Toyota, Siemens & NVIDIA: Top Manufacturing News This Week",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRFhhSUV2Sk85cVphdzVBeVczcHRIWmhNUGFwTkdVbW53UTBtR0tDN0VSWm4tZEVLQUJVVmtuVzFkVF9PWXhDYVAxLXBJTVB5THhra3NGd1lwT3JPRHpKTmdKeXVfMzhNN05wc3Y5SGI1RHQ3aWlnOEpSZ1ZiZC00TU5yM2xQNWJDX2NSVjFJcUwyU1ZWTWdj?oc=5",
+   "date": "2026-10-24 16:09",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "도요타, 지멘스, 엔비디아 제조 산업 이주 주요 뉴스",
+    "korean_summary": "도요타, 지멘스, 엔비디아가 이주의 제조 산업 주요 뉴스로 선정되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRFhhSUV2Sk85cVphdzVBeVczcHRIWmhNUGFwTkdVbW53UTBtR0tDN0VSWm4tZEVLQUJVVmtuVzFkVF9PWXhDYVAxLXBJTVB5THhra3NGd1lwT3JPRHpKTmdKeXVfMzhNN05wc3Y5SGI1RHQ3aWlnOEpSZ1ZiZC00TU5yM2xQNWJDX2NSVjFJcUwyU1ZWTWdj",
+   "body": ""
+  },
+  {
+   "source": "Google News · GameGPU",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA has officially acknowledged the presence of a critical error in the GeForce 621.01 driver.",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEhTc18xTjJSVVBsY0Njb2RNamRwOXBoUzFGY3lGZzdJS3QxZXBOSmJrU1dBTlNfNVlMVmNndmMzYnFRT2VUYW1JY3BSaHJrUkNlcGJtUWlCUHhMS1FMQ2tPX08yR3dqVjlvdm9Mamo1cHUxS3p5UGVVeUVVLVlwZHNrXzVFLTFUaVNTMzBKYVl1dV9CbER2N2FuOVhHQWkxeVBrd1pvd2xiVkpTdVNlVlo1U0Nudw?oc=5",
+   "date": "2026-10-24 21:11",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA GeForce 621.01 드라이버 심각한 오류 공식 인정",
+    "korean_summary": "NVIDIA가 GeForce 621.01 드라이버에서 발견된 중대 결함을 공식 인정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEhTc18xTjJSVVBsY0Njb2RNamRwOXBoUzFGY3lGZzdJS3QxZXBOSmJrU1dBTlNfNVlMVmNndmMzYnFRT2VUYW1JY3BSaHJrUkNlcGJtUWlCUHhMS1FMQ2tPX08yR3dqVjlvdm9Mamo1cHUxS3p5UGVVeUVVLVlwZHNrXzVFLTFUaVNTMzBKYVl1dV9CbER2N2FuOVhHQWkxeVBrd1pvd2xiVkpTdVNlVlo1U0Nudw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Qazinform",
+   "category": "media",
+   "kind": "gnews",
+   "title": "President of Kazakhstan highlights value of NVIDIA CEO’s insights",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRURKdXRGa1NsU2J1LTJIcWZUZ1lya01ua0ZPZzdxeWlTZkJHSXM3NmpxNDdzUE1nck53WGg1OUF5clA5NU9aQzNSRElUSzF3WTlXSWZzNnZLczNRNlJuTEpnandFTGZoWURKR042MUVkVk9tTlZSR0RkMTBCSzhDNTRJWWR6Q1NaNWNqSWN5eWN3bTJhaUFLN01tcFZWb03SAZ8BQVVfeXFMUEVESnV0RmtTbFNidS0ySHFmVGdZcmtNbmtGT2c3cXlpU2ZCR0lzNzZqcTQ3c1BNZ3JOd1hoNTlBeXJQOTVPWkMzUkRJVEsxd1k5V0lmczZ2S3MzUTZSbkxKZ2p3RUxmaFlESkdONjFFZFZPbU5WUkdEZDEwQks4QzU0SVlkekNTWjVjakljeXljd20yYWlBSzdNbXBWVm9N?oc=5",
+   "date": "2026-10-24 20:07",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "카자흐스탄 대통령, NVIDIA CEO 인사이트 가치 평가",
+    "korean_summary": "카자흐스탄 대통령이 NVIDIA CEO의 전략적 통찰이 국가 발전에 미치는 가치를 강조했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRURKdXRGa1NsU2J1LTJIcWZUZ1lya01ua0ZPZzdxeWlTZkJHSXM3NmpxNDdzUE1nck53WGg1OUF5clA5NU9aQzNSRElUSzF3WTlXSWZzNnZLczNRNlJuTEpnandFTGZoWURKR042MUVkVk9tTlZSR0RkMTBCSzhDNTRJWWR6Q1NaNWNqSWN5eWN3bTJhaUFLN01tcFZWb03SAZ8BQVVfeXFMUEVESnV0RmtTbFNidS0ySHFmVGdZcmtNbmtGT2c3cXlpU2ZCR0lzNzZqcTQ3c1BNZ3JOd1hoNTlBeXJQOTVPWkMzUkRJVEsxd1k5V0lmczZ2S3MzUTZSbkxKZ2p3RUxmaFlESkdONjFFZFZPbU5WUkdEZDEwQks4QzU0SVlkekNTWjVjakljeXljd20yYWlBSzdNbXBWVm9N",
+   "body": ""
+  },
+  {
+   "source": "Google News · Korea IT Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jung Yeon-tae’s Professional GPT Revolution 8 | NVIDIA’s Vision for the AI Industrial Revolution",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xLWJwREZaRy14Qi1aQm9ST29jajdhOWtkYVZqWTg4b3F1YWc5ZTQ3bFNYdHJVS3F3a1c5ZldXWHJYcjJsNjZESlVrNURsdXh5Vlg5VVAxY0I3TE44a29EVm1YLVhySVFwSDRpdWZWaDM?oc=5",
+   "date": "2026-10-25 07:48",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA의 AI 산업혁명 비전 분석 기사",
+    "korean_summary": "분석가가 NVIDIA의 AI 산업혁명 비전에 대해 해설했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xLWJwREZaRy14Qi1aQm9ST29jajdhOWtkYVZqWTg4b3F1YWc5ZTQ3bFNYdHJVS3F3a1c5ZldXWHJYcjJsNjZESlVrNURsdXh5Vlg5VVAxY0I3TE44a29EVm1YLVhySVFwSDRpdWZWaDM",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step",
+   "date": "2026-10-24 14:08",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video-4Step",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Cosmos3-Super-Image2Video-4Step: 경량화 이미지-비디오 생성 모델",
+    "korean_summary": "NVIDIA가 Cosmos3의 4-Step 경량화 이미지-비디오 생성 모델을 Hugging Face에서 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video-4Step:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, image-to-video, video-generation, arxiv:2405.14867 · downloads 609 · likes 35. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video-4Step The highlighted checkpoint, Cosmos3-Super-Image2Video-4Step, is a step-distilled variant of Cosmos3-Super-Image2Video. ## Description Cosmos3-Super-Image2Video-4Step is a 4-step distilled version of the base [Cosmos3-Super-Image2Video](https://huggingface.co/nvidia/Cosmos3-Super-Image2Video) model. Given an input image plus an optional text prompt, it generates a temporally coherent video. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Image2Video model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-model evaluations per video (see [PBR](https://huggingface.co/nvidia/Cosmos3-"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
+   "date": "2026-10-24 14:08",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image-4Step",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Cosmos3-Super-Text2Image-4Step: 경량화 텍스트-이미지 생성 모델",
+    "korean_summary": "NVIDIA가 Cosmos3의 4-Step 경량화 텍스트-이미지 생성 모델을 Hugging Face에서 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image-4Step:2026-10-24",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, text-to-image, image-generation, arxiv:2405.14867 · downloads 423 · likes 20. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Model Collection](https://huggingface.co/collections/nvidia/cosmos3)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image-4Step The highlighted checkpoint, Cosmos3-Super-Text2Image-4Step, is a step-distilled variant of Cosmos3-Super-Text2Image. ## Description Cosmos3-Super-Text2Image-4Step is a 4-step distilled version of the base [Cosmos3-Super-Text2Image](https://huggingface.co/nvidia/Cosmos3-Super-Text2Image) model. Given a text prompt, it generates a high-fidelity image. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Text2Image model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-model evaluations per image (see [PBR](https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step#pbr-performance-benc"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 15.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 14,
+   "enriched": 14,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 11,
+   "enriched": 11,
+   "error": "",
+   "sec": 3.7
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 88,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 17,
+   "enriched": 4,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section902.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.e",
+   "sec": 20.2
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 13,
+   "error": "",
+   "sec": 4.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 4,
+   "enriched": 4,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=nvidia",
+   "sec": 0.2
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
