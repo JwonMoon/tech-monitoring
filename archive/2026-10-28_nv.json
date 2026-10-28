@@ -1,0 +1,2458 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-28",
+ "window": [
+  "2026-10-27",
+  "2026-10-28"
+ ],
+ "generated": "2026-10-28T09:37:28+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 네이버·Brookfield와 3자 연합을 구성해 국내 대기업용 **AI 팩토리**를 본격 가동한다.",
+  "NVIDIA가 Meta의 975억 달러 지분 공모에 30억 달러를 투자해 **Muse AI 에이전트** 인프라 협력을 확대한다.",
+  "NVIDIA가 자율주행 시뮬레이션용 경량 모델 **Cosmos3-Nano-Sim-Auto**를 Hugging Face에 공개했다."
+ ],
+ "cards": [
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "본궤도 오른 네이버 글로벌 AI팩토리…본격 실행",
+   "link": "https://www.hankyung.com/article/202610278549i",
+   "date": "2026-10-27 17:08",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Naver에 $10억 투자하며 3대주주 지위 확보",
+    "korean_summary": "NVIDIA가 Naver의 제3자 배정 유상증자에 $10억을 투자하고 Brookfield와 함께 $90억 규모의 글로벌 AI 인프라 사업에 3자 연합 구조로 참여한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 네이버 3대주주 등극…네이버·NVIDIA·Brookfield 3자 연합으로 'AI 팩토리' 가동",
+    "korean_summary": "NVIDIA가 네이버에 전략적 지분 투자를 단행하고 Brookfield가 GPU·데이터센터 인프라를 제공하는 3자 연합 구조로 네이버가 국내 대기업 고객사 대상 AI 컴퓨팅 서비스 사업을 본격화한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Naver에 10억달러 규모 제3자 배정 유상증자 참여로 전략적 지분 투자, 자본 및 차세대 고성능 컴퓨팅 플랫폼 기술 협력 제공",
+     "stage": "Announced",
+     "timeline": "2026-10-27 공시, 증자 완료 시점은 미확인",
+     "scope": "한국, Naver AI Factory, 국내 대기업 고객사 대상"
+    },
+    "key_facts": [
+     "Naver가 Brookfield와 **90억달러 규모 컴퓨팅 인프라 확보 계약**을 체결했으며, 이는 NVIDIA의 전략적 지분 투자를 위한 선결 조건",
+     "Brookfield는 특수목적법인 'Asset Co.'를 설립해 GPU·데이터센터 등 인프라 자산을 네이버에 제공, 네이버는 매출 발생 시 사용료 지급",
+     "증자 완료 시 NVIDIA는 **네이버 지분 4.5%(신주 724만1564주)를 취득해 국민연금, BlackRock에 이은 3대주주**가 됨",
+     "네이버클라우드가 'Naver AI Factory' 운영을 주도하며 국내 대기업 고객사와 계약 협상 진행 중",
+     "구체적 GPU·데이터센터 규모 및 비중은 비공개"
+    ],
+    "why_matters": "**자본·기술·인프라를 NVIDIA-Brookfield-Naver가 분담하는 3자 연합 구조**는 CoreWeave식 고금리 부채 조달 리스크를 피하면서 AI 인프라를 확장하는 대안 모델로 주목받고 있다. AI 인프라 경쟁의 축이 설비 규모 경쟁에서 투자 효율·재무 안정성 경쟁으로 전환되는 흐름을 보여준다.",
+    "subject_angle": "NVIDIA는 단순 GPU 판매를 넘어 **지분 투자와 기술 생태계 확장을 결합한 'AI Factory' 모델**을 아시아 주요 클라우드 사업자에 적용하며 자사 플랫폼 종속성을 심화시키는 전략을 구사하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "자본 투자 및 차세대 컴퓨팅 플랫폼 기술 제공, 네이버 3대주주 예정"
+     },
+     {
+      "name": "Naver",
+      "context": "AI Factory 운영 주체, 대기업 고객사 대상 AI 컴퓨팅 서비스 판매"
+     },
+     {
+      "name": "Naver Cloud",
+      "context": "AI Factory 운영 주도 자회사"
+     },
+     {
+      "name": "Brookfield",
+      "context": "SPV 'Asset Co.' 설립, GPU·데이터센터 등 인프라 자산 제공 및 사용료 수취"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "비교 사례, 회사채 금리 급등으로 자금조달 리스크 부각된 네오클라우드 기업"
+     }
+    ],
+    "products": [
+     {
+      "name": "Naver AI Factory (가칭)",
+      "role": "GPU·데이터센터 기반 AI 컴퓨팅 서비스 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 대상 10억달러 제3자 배정 유상증자 완료 시점 및 지분 취득 확정 여부",
+     "Naver AI Factory 고객사 계약 체결 현황 및 매출 규모",
+     "GPU·데이터센터 구체적 규모·사양 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/202610278549i",
+   "body": "- 기사 스크랩 - 댓글 - 공유 - 글자크기 - 프린트 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. 엔비디아, 네이버 3대주주로 3자 연합모델로 안정성·경쟁력 확보 네이버는 “브룩필드로부터 90억달러 규모의 컴퓨팅 인프라를 확보하는 계약을 맺었다”며 “엔비디아의 전략적 지분 투자를 위한 선결 조건을 충족했다”고 27일 공시했다. 계약에 따라 브룩필드는 특수목적법인(SPV)인 ‘에셋코(Asset Co.)’를 설립하고 그래픽처리장치(GPU)와 데이터센터 등 컴퓨팅 인프라 자산을 네이버에 제공한다. 구체적인 GPU와 데이터센터의 규모 및 비중은 공개하지 않았다. 네이버는 이렇게 확보한 GPU와 데이터센터 등으로 가칭 ‘네이버 AI팩토리’를 운영하면서 국내 대기업 고객사에 AI 컴퓨팅 서비스를 판매하는 역할을 맡는다. 매출이 발생할 때마다 에셋코에 사용료를 지급하는 구조다. 네이버 AI팩토리 운영은 네이버클라우드가 주도하기로 했다. 네이버는 대기업 고객사 여러 곳과 계약 협상을 진행 중인 것으로 전해졌다. 이번 계약으로 네이버는 엔비디아를 대상으로 한 10억달러 규모 제3자 배정 유상증자 절차에도 속도를 낼 방침이다. 증자가 완료되면 엔비디아는 네이버 주식 4.5%(신주 724만1564주)를 취득해 국민연금, 블랙록에 이은 3대주주에 오른다. 네이버와 엔비디아, 브룩필드 3자 연합의 ‘AI 팩토리’ 사업의 핵심은 자본·기술·운영 역량을 나눠 맡는 구조에 있다. 엔비디아는 자본과 차세대 고성능 컴퓨팅 플랫폼 관련 기술 협력을 제공하고, 브룩필드는 GPU와 데이터센터 등 인프라 자산을 확보해 제공하는 역할을 맡는다. 네이버는 대규모 데이터센터를 직접 건립하거나 GPU를 매입하는 데 필요한 초기 자금 부담을 줄이면서 AI 인프라 사업을 신성장 동력으로 확보할 수 있게 됐다. 엔비디아는 자사 기술 기반의 컴퓨팅 인프라 생태계를 확장하고, 브룩필드는 인프라 투자 자산에서 수익을 창출하는 구조다. 글로벌 클라우드·AI 인프라 기업들이 대규모 투자에 따른 자금 조달 부담을 안고 있는 상황에서 이번 사업 모델에도 관심이 쏠린다. 글로벌 네오클라우드 기업 코어위브는 한때 회사채 금리가 15%까지 치솟으며 자금 조달 비용에 대한 우려가 부각됐다. 업계에서는 AI 인프라 경쟁의 무게중심이 단순한 설비 확충에서 투자 효율과 재무 안정성으로 옮겨갈 수 있다는 전망이 나온다. 업계 관계자는 “3자 연합 구조가 가진 재무적 안정성은 글로벌 투자 시장에서 새로운 대안으로 떠오를 수 있다”고 말했다. 투자은행(IB) 업계 관계자도 “지금까지는 누가 더 많은 빚을 내 칩을 확보하느냐는 규모의 경쟁이었다면, 이제는 재무 리스크를 관리하면서 얼마나 효율적으로 인프라를 운용하느냐의 구조적 경쟁으로 진화하고 있다”고 했다. 정지은 기자 jeong@hankyung.com 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia to invest $3bn in Meta’s $97.5bn equity offering, as social media giant plans to deploy more Nvidia hardware",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-to-invest-3bn-in-metas-975bn-equity-offering-as-social-media-giant-plans-to-deploy-more-nvidia-hardware/",
+   "date": "2026-10-27 23:22",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta의 $97.5B 유상증자에 $3B 투자",
+    "korean_summary": "NVIDIA가 Meta의 유상증자에 $3B를 투자하고 Muse AI 에이전트 협력을 확대하며 Vera Rubin·Vera CPU·Spectrum-X·BlueField-4 배치를 지원한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 메타 975억 달러 지분 공모에 30억 달러 투자…AI 에이전트 인프라 파트너십 확대",
+    "korean_summary": "NVIDIA가 메타의 975억 달러 규모 지분 공모에 30억 달러를 투자하며, 메타는 Muse AI 에이전트 운영을 위해 NVIDIA의 Vera Rubin, Spectrum-X, BlueField-4 등 하드웨어 배치를 확대하기로 했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Meta의 지분 공모(equity offering)에 30억 달러 투자 및 AI 에이전트 인프라 파트너십 확대",
+     "stage": "Announced",
+     "timeline": "미확인 (Meta의 10월 26일 공모 확대 발표 이후 보도)",
+     "scope": "Meta의 Muse AI 에이전트 플랫폼 및 관련 데이터센터 인프라"
+    },
+    "key_facts": [
+     "NVIDIA가 **Meta의 975억 달러 규모 지분 공모에 30억 달러를 투자**한다.",
+     "Meta는 Vera Rubin, Vera CPU, Spectrum-X 이더넷, BlueField-4 DPU 등 NVIDIA 하드웨어 배치를 확대할 계획이다.",
+     "양사는 NVIDIA의 **OpenShell 및 Sentry**를 활용해 AI 에이전트의 안전한 배치를 위한 추가 협력을 검토 중이다.",
+     "Meta는 공모 규모를 975억 달러로 확대했으며, 이 중 250억 달러는 보통주, 125억 달러는 전환우선주(건당 50달러, 2.5억 주)로 조달된다.",
+     "Meta의 Muse는 2026년 9월 출시된 개인용 AI 에이전트로, 전용 가상머신(VM)에서 사용자 데이터와 함께 구동된다."
+    ],
+    "why_matters": "이번 투자는 NVIDIA가 단순 하드웨어 공급자에서 AI 에이전트 생태계의 전략적 파트너로 지위를 강화하는 사례다. **에이전트형 컴퓨팅이라는 새로운 패러다임**에서 NVIDIA의 풀스택 인프라(GPU·DPU·네트워킹)가 하이퍼스케일러의 핵심 기반으로 자리잡고 있음을 보여준다.",
+    "subject_angle": "NVIDIA는 하드웨어 판매를 넘어 **지분 투자를 통한 고객사와의 수요 선순환 구조**를 구축하며, OpenShell·Sentry 같은 안전성 소프트웨어 스택으로 에이전트 AI 시장의 표준을 선점하려는 전략을 보인다.",
+    "focus_angle": "Vera Rubin, Spectrum-X, BlueField-4로 구성된 end-to-end 에이전트 인프라는 **자율주행 및 로보틱스에서 요구되는 실시간 추론·안전 검증 아키텍처**와 기술적으로 맞닿아 있어, NVIDIA가 완성차 OEM·휴머노이드 기업에 동일한 에이전트 컴퓨팅 스택을 확장 적용할 가능성을 시사한다. 특히 Sentry와 같은 안전 배치 기술은 자율주행·휴머노이드 로봇의 기능안전(functional safety) 요구와 연결될 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Meta 지분 공모에 30억 달러 투자, 하드웨어 및 소프트웨어 파트너십 확대"
+     },
+     {
+      "name": "Meta",
+      "context": "975억 달러 지분 공모 주체, Muse AI 에이전트 운영을 위해 NVIDIA 인프라 확대 배치"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin",
+      "role": "Meta에 확대 배치되는 NVIDIA의 차세대 GPU 플랫폼"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "Meta 인프라에 배치되는 NVIDIA CPU"
+     },
+     {
+      "name": "Spectrum-X",
+      "role": "Meta 데이터센터용 이더넷 네트워킹 기술"
+     },
+     {
+      "name": "BlueField-4 DPU",
+      "role": "Meta 인프라에 배치되는 데이터 프로세싱 유닛"
+     },
+     {
+      "name": "OpenShell / Sentry",
+      "role": "AI 에이전트 안전 배치를 위한 추가 협력 검토 대상 NVIDIA 솔루션"
+     },
+     {
+      "name": "Muse",
+      "context": "Meta의 개인용 AI 에이전트, 이번 파트너십의 핵심 적용 사례",
+      "role": "NVIDIA 인프라 최적화 대상 AI 에이전트 제품"
+     }
+    ],
+    "watch_next": [
+     "OpenShell·Sentry 관련 추가 협력의 구체적 발표 시점 및 내용",
+     "Meta의 Class C 주식 2027년 1분기 거래 개시 이후 공모 완료 규모",
+     "Vera Rubin·BlueField-4의 Meta 데이터센터 실제 배치 일정 및 규모"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "Nvidia to invest $3bn in Meta’s $97.5bn equity offering, as social media giant plans to deploy more Nvidia hardware",
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMGJlVXRqQjlRbUdIbGM3UllyVWRvVEFVcmtSSjVFRXplVmNad0dnVlRwU1l2WnRvMEtVazJTVjhoTm1sMG5EczJQcTRxallJRjZwNE4xZjRnWC1uTm9tcnRiZkI0R1FtVWl1eVJtRm9UbXljc0hJdEhJQzVvRDBBclYtWFB2VEtRYmh5QzJ4Vzg5ZHA0NlE4bmF4SmxMRmdjWk0zb1N0LVVyTHF5eUdnN0dNSE5DaGVoa2ZvZTB1Ym1LdU9rOEhUMU9GZUZNQllwc0tldHhzWGhEOERXUndqblA5RGNtNFl3cGc?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-to-invest-3bn-in-metas-975bn-equity-offering-as-social-media-giant-plans-to-deploy-more-nvidia-hardware",
+   "body": "Nvidia will invest $3 billion in Meta’s equity offering as part of an expanded partnership between the two companies, focused on Meta’s Muse family of AI agents. The partners will collaborate on “optimizations across workflows” to boost inference and training performance and improve total cost of ownership, Nvidia said. Under the terms of the agreement, Meta will expand its deployment of Nvidia hardware, including Vera Rubin and Vera CPUs, Spectrum-X Ethernet networking technology, and BlueField-4 DPUs. The companies also said they would consider “additional collaboration opportunities” centered around Nvidia’s OpenShell and Sentry offerings to support the safe deployment of AI agents. “AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf,” said Jensen Huang, founder and CEO of Nvidia. “This changes how we use computers, from operating applications to working with intelligent agents. Nvidia and Meta are expanding our partnership to optimize the computing infrastructure end-to-end for capable, efficient and secure AI agents, so Muse can empower billions of people to achieve more and pursue greater ambitions.” The news follows an announcement from Meta on October 26 that the company had raised the size of its planned equity offering to $97.5bn. Of that total, $25bn will be raised through common stock, with an additional $12.5bn to be raised through the sale of 250 million convertible preferred depositary shares at $50 each. Meta is also planning to sell up to $60bn in shares after its planned non-voting Class C shares start trading in the first quarter of 2027. Meta introduced its Muse AI agent in September 2026. Described by the company as a personal AI agent “that proactively helps with people’s goals and suggests ideas.” It runs on a dedicated virtual machine (VM) that plays host to both the agent and a user’s data. While the agent was first introduced to the consumer market primarily through the Tamagotchi-like Charm device, Meta has also debuted a version of Muse designed for small and medium enterprises that incorporates tools such as Dropbox, Slack, and Zoom into Muse’s agentic workflow. More in Investment / M&A / Financing - Episode 2027 Trends and Outlooks: Europe"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+   "date": "2026-10-28 01:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "new-platform"
+    ],
+    "korean_title": "Oracle Cloud Infrastructure에 Vera Rubin 다중 기가와트 규모 배포",
+    "korean_summary": "NVIDIA와 Oracle이 OCI Superclusters를 Vera Rubin NVL72 및 Vera CPU로 다중 기가와트 규모로 확장하기로 합의했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA-Oracle, Vera Rubin을 멀티 기가와트급으로 확장하고 Vera CPU를 OCI에 공급",
+    "korean_summary": "NVIDIA와 Oracle이 OCI Superclusters를 Vera Rubin NVL72 기반 멀티 기가와트 규모로 확장하고 Vera CPU를 일반 출시해 AI 학습·추론·에이전트 워크로드 전반을 지원한다.",
+    "action": {
+     "actor": "NVIDIA, Oracle",
+     "action": "OCI Superclusters를 Vera Rubin NVL72 시스템으로 멀티 기가와트급으로 확장하고, Vera Rubin NVL72 및 Vera CPU를 OCI에서 일반 출시(GA)",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "OCI Superclusters, OpenAI 등 초기 고객"
+    },
+    "key_facts": [
+     "**Vera Rubin NVL72와 Vera CPU가 OCI에서 일반 출시(GA)됨**",
+     "각 랙은 NVLink로 72개 GPU 연결, OCI 멀티플레인 네트워크는 수십만 개 GPU까지 확장",
+     "OCI는 HGX Rubin NVL8(x86 서버, Rubin GPU 8개, Intel Xeon 6 CPU 2개, DDR5 4TB, 6.4Tbps RDMA) 도입 계획",
+     "**OpenAI는 Abilene에서 10만 개 이상의 NVIDIA Blackwell GPU로 구성된 OCI Supercluster에서 GPT-6 Astra를 학습·서빙**",
+     "네트워킹은 Oracle Acceleron과 NVIDIA Spectrum-X Ethernet(Spectrum-6 스위치, BlueField-4 DPU) 결합"
+    ],
+    "why_matters": "**NVIDIA는 GPU뿐 아니라 CPU(Vera)까지 결합한 풀스택 AI 팩토리 아키텍처를 하이퍼스케일러에 공급**함으로써 에이전틱 AI 시대의 CPU-GPU 분리형 확장 수요를 선점한다. OpenAI의 대규모 실사용 사례는 Blackwell에서 Vera Rubin으로의 세대 전환 수요와 경쟁사(AMD 등) 대비 CUDA 생태계 종속성을 강화하는 신호다.",
+    "subject_angle": "**NVIDIA는 GPU 단일 제품이 아닌 Vera CPU+Rubin GPU+Spectrum-X 네트워킹을 묶은 '랙 스케일 AI 팩토리' 플랫폼 전략**을 고객사 인프라 설계 단계부터 선점하며, CUDA 공통 소프트웨어 기반으로 세대 간 호환성을 강조해 장기 록인 효과를 노린다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin GPU, Vera CPU, Spectrum-X 네트워킹 등 플랫폼 공급"
+     },
+     {
+      "name": "Oracle",
+      "context": "OCI Superclusters 운영 및 Acceleron 네트워킹 제공"
+     },
+     {
+      "name": "OpenAI",
+      "context": "OCI Supercluster에서 GPT-6 Astra 학습·서빙 및 Vera CPU 초기 도입 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera Rubin NVL72",
+      "role": "OCI Superclusters 멀티 기가와트 확장의 핵심 GPU 랙 시스템, GA 출시"
+     },
+     {
+      "name": "NVIDIA Vera CPU",
+      "role": "에이전트의 CPU 집약적 작업(툴 호출, 코드 실행) 가속, OCI GA 출시"
+     },
+     {
+      "name": "NVIDIA HGX Rubin NVL8",
+      "role": "x86 기반 8-GPU 소형 구성, OCI 도입 예정 플랫폼"
+     },
+     {
+      "name": "NVIDIA Spectrum-X Ethernet / Spectrum-6 / BlueField-4",
+      "role": "OCI 네트워킹 인프라 구성 요소"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72 및 HGX Rubin NVL8의 구체적 출시 일정 및 규모",
+     "멀티 기가와트 확장 계획의 구체적 용량·투자 규모 공개 여부",
+     "다른 하이퍼스케일러(AWS, Azure, Google Cloud)의 Vera Rubin 채택 동향"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNMkc2eEt1TWtsdGMyakwwbENvTldlM2tKNjJTb1RwSTdnbXgxOTVwWmRyTlVSeElfcmtGclZnbThpR05IOVQ2SmdxMlpZMVByMFRZU29aeVNXSHR3VWpZWDJ2M2FROFVwZlZOUkdFTXRKR0U3M1hCLTVNSE84V25YZnEwYXRkRTFPVXV0QWdZdzdSVnhtYzVLajlLQlo3bUFTRUc3VWtsUGswdWJraVQxXzU3MExyZGhpNmY0a2FCRUU4NE1Ma3lSYnFGbE41OTNnLUU1MmhaaWc5a25qMjVnTENtQ2JIbFRMTmt0blhfWQ?oc=5"
+    },
+    {
+     "source": "Google News · marketscreener.com",
+     "title": "Nvidia Corporation and Oracle Corporation Expand Nvidia Vera Rubin to Multi-Gigawatt Scale and Bring Nvidia Vera Cpu to Oracle Cloud Infrastructure",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU0d1RmlNWHB0SVlhTk9jUjhlTWhVR3VSR0tpYlhlUkhRWFVIaEpIU0FaMFJQTVY0ZURjQzU4SHpQQjQ5NTRtU1dBTDZXSVVUUklCbTlURzV4dEwtaWNzdEdUbThZZFdVM3RDZG9qSmJlS0k3ZnJ4Rl9TbXI2azRWM3B0clVlVEVXQkh4ODB0Q3JTY19obV9YcldVbWpJdkhza3BPOTlBejl0QW1KaDFxUHNKdkJEdFAwRWY4dngwTjd2TEZKZVBmdS1rZmNuNnRLOERwRUlfV1J2aldIWFh5LWNCX3p2SUNx?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+   "body": "NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI) Superclusters with NVIDIA Vera Rubin NVL72 systems to multi-gigawatt scale, supporting growing customer demand for AI training, inference and agentic applications. Oracle and NVIDIA also expanded their AI infrastructure collaboration with the general availability of NVIDIA Vera Rubin NVL72 and NVIDIA Vera CPUs on OCI. The expanded collaboration gives customers infrastructure for both the GPU-intensive work of training and serving frontier models and the CPU-intensive tasks agents perform between model calls, including executing tools, testing code and retrieving data. Customers can scale CPU and GPU resources independently to match their workloads, helping reduce idle capacity and put more of their infrastructure to productive use. OCI Superclusters Help Organizations Bring Frontier AI to Market Faster at Multi-Gigawatt Scale OCI Superclusters combine NVIDIA NVL72 rack-scale systems, Oracle Acceleron networking with NVIDIA Spectrum-X™ Ethernet networking featuring NVIDIA Spectrum™-6 switches and NVIDIA BlueField®-4 DPUs, and gigawatt-class power and cooling to train and serve the largest AI models. Each rack connects 72 GPUs through NVIDIA NVLink™ scale-up networking, while OCI’s resilient, multiplanar network scales across hundreds of thousands of GPUs. The planned Vera Rubin expansion builds on OCI’s existing NVIDIA-powered infrastructure, including NVIDIA GB200 and GB300 NVL72 systems. NVIDIA’s common CUDA® software foundation and continued software optimization help customers support evolving models and workloads across hardware generations. OCI also plans to introduce NVIDIA HGX Rubin NVL8, delivering eight Rubin GPUs connected through NVLink in an x86-based server configuration. The planned platform features two 64-core Intel Xeon 6 CPUs, 4TB of DDR5 memory and 6.4 Tbps of high-speed RDMA networking, providing a flexible deployment option for AI training, fine-tuning and inference. HGX Rubin NVL8 enables customers to adopt next-generation Rubin GPU technology in a smaller eight-GPU configuration while maintaining compatibility with x86-based applications. This flexibility enables customers to adapt their AI infrastructure to different models and workloads as their needs evolve, using accelerated computing capacity across both training and inference to make better use of their infrastructure investments. OpenAI has demonstrated how this infrastructure supports frontier AI. In Abilene, OpenAI has trained and served GPT-6 Astra on an OCI Supercluster with more than 100,000 NVIDIA Blackwell GPUs. “As our frontier models advance, we need infrastructure that can keep pace,” said Sreekanth Pothanis, engineering leader, compute infra at OpenAI. “NVIDIA Vera Rubin on OCI gives us the computing performance and scale to accelerate model training and serve increasingly demanding AI workloads.” NVIDIA Vera CPUs on OCI Accelerate the Work Behind AI Agents AI agents do mor"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+   "date": "2026-10-27 14:52",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Meta, Muse 모델 협력 확대 및 Vera 플랫폼 배포",
+    "korean_summary": "Meta가 Muse 모델 협력을 확대하고 Vera Rubin, Vera CPU, Spectrum-X, BlueField-4를 배포한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Meta와 Muse AI 에이전트 모델 협력 확대 및 30억 달러 지분 투자",
+    "korean_summary": "NVIDIA가 Meta의 Muse AI 에이전트 모델 패밀리에 대한 인프라 협력을 확대하고 Meta 지분 공모에 **30억 달러를 투자**하여 AI 에이전트 컴퓨팅 생태계를 공동 구축한다.",
+    "action": {
+     "actor": "NVIDIA, Meta",
+     "action": "Muse 및 Muse family of models의 추론·훈련 성능 최적화를 위한 파트너십 확대, Vera Rubin 및 Vera CPU 등 차세대 인프라 배치 확대, NVIDIA는 Meta 지분 공모에 30억 달러 투자",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Meta의 Muse 모델 및 AI 에이전트 인프라 전반"
+    },
+    "key_facts": [
+     "NVIDIA가 Meta의 지분 공모(equity offering)에 **30억 달러를 투자**",
+     "Meta는 NVIDIA Vera Rubin 및 Vera CPU 배치를 확대하여 성능당 전력 효율을 극대화할 계획",
+     "Meta는 NVIDIA Spectrum-X Ethernet 네트워킹과 BlueField-4를 네트워크 효율·처리량 지원을 위해 배치할 예정",
+     "양사는 안전한 에이전트 배포를 위한 NVIDIA OpenShell Reference Architecture와 모니터링용 NVIDIA Sentry 관련 추가 협력을 검토 중",
+     "Meta의 Muse 모델은 출시 이후 프론티어급 벤치마크 성능과 소비자 다운로드 급증을 기록"
+    ],
+    "why_matters": "AI 에이전트가 애플리케이션 운영 방식을 바꾸는 **새로운 컴퓨팅 패러다임**으로 부상하는 가운데, 빅테크의 대규모 인프라 투자와 NVIDIA의 하드웨어·소프트웨어 스택이 긴밀히 결합되는 구조가 공식화됐다. 이는 Meta의 AI 에이전트 전략(Muse, personal superintelligence)과 NVIDIA의 차세대 플랫폼(Vera Rubin, Spectrum-X, BlueField-4) 간 상호의존을 심화시켜 경쟁사 대비 NVIDIA의 하이퍼스케일러 락인(lock-in)을 강화한다.",
+    "subject_angle": "NVIDIA는 단순 GPU 공급을 넘어 **지분 투자(30억 달러)**를 통해 Meta와 전략적 동맹을 맺으며, 차세대 CPU·네트워킹(Vera Rubin, Spectrum-X, BlueField-4)과 에이전트 보안·모니터링 소프트웨어(OpenShell, Sentry)까지 포함한 엔드투엔드 AI 에이전트 인프라 공급자로 포지셔닝을 확대하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 에이전트 인프라 제공 및 Meta 지분에 30억 달러 투자"
+     },
+     {
+      "name": "Meta",
+      "context": "Muse 모델 개발 및 NVIDIA 인프라 확대 배치"
+     }
+    ],
+    "products": [
+     {
+      "name": "Muse (and Muse family of models)",
+      "role": "Meta의 AI 에이전트 모델, 이번 협력 확대의 핵심 대상"
+     },
+     {
+      "name": "NVIDIA Vera Rubin",
+      "role": "Meta가 확대 배치할 차세대 AI 인프라"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "Meta가 성능당 전력 효율을 위해 배치 확대"
+     },
+     {
+      "name": "NVIDIA Spectrum-X Ethernet",
+      "role": "네트워크 효율·처리량 지원용 네트워킹 솔루션"
+     },
+     {
+      "name": "BlueField-4",
+      "role": "네트워크 처리량 지원용 DPU"
+     },
+     {
+      "name": "NVIDIA OpenShell Reference Architecture / OpenShell",
+      "role": "에이전트 안전 배포를 위한 보안 아키텍처, 추가 협력 검토 대상"
+     },
+     {
+      "name": "NVIDIA Sentry",
+      "role": "에이전트 행동 모니터링 및 구조화·비구조화·그래프 데이터 처리 도구"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 Meta 지분 투자(30억 달러) 공모 완료 시점 및 조건",
+     "OpenShell, Sentry 관련 추가 협력의 구체화 여부",
+     "Vera Rubin·Vera CPU의 Meta 데이터센터 실제 배치 일정"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNzg1REp1LUMyZ2Njb0RyaWx2cHJSVU8taDFsUHBtcjlhUDlsT25MYmY4NGxrRElZbUNrNFJGRDBiSjlGOFdHbXhseXNJYTk4eFpvMXhGUTh1QXVDQmdFem43dWZId01nNzRndVRGU0c1ckJaam03ZG0yckJMNjYySUdDTGhvSFJSMmRoaDliRjFXcTNIVmduQ2JoVndfREtsYXlBUldNeE1PQmRSLVRqejhNWFYzUWVpMXBnRkFlNU9nZ1ljLVE?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+   "body": "News Summary: - NVIDIA and Meta will expand their partnership on Muse and the Muse family of models, reflecting popular demand for AI agents. - The companies are also considering other technological collaborations, including NVIDIA OpenShell Reference Architecture to strengthen agency security and NVIDIA Sentry for monitoring, structured, unstructured and graph data processing. - Meta to expand NVIDIA Vera Rubin and Vera CPU deployment to boost performance and scale workloads with NVIDIA Spectrum-X Ethernet networking and BlueField-4. NVIDIA and Meta today announced they will partner to expand their work on Muse and the Muse family of models to improve inference and training performance, reflecting popular demand for useful AI agents. Meta’s Muse models and agents, which leverage NVIDIA’s infrastructure, have delivered frontier-level benchmark performance and surging consumer downloads since launch. Meta and NVIDIA intend to further deepen their collaboration by partnering on optimizations across workflows to maximize performance and improve total cost of ownership. Meta and NVIDIA will also consider additional collaboration opportunities with NVIDIA on its NVIDIA OpenShell Reference Architecture, including NVIDIA OpenShell™ for safe deployment and NVIDIA Sentry for monitoring agent behavior. This announcement reinforces Meta and NVIDIA’s strong long-term partnership to support Meta’s AI infrastructure ambitions. Meta intends to expand the deployment of NVIDIA infrastructure, including Vera Rubin and Vera CPUs for next-generation AI agents to deliver maximum performance per watt. Meta will also deploy NVIDIA Spectrum-X™ Ethernet networking and BlueField-4® to support network efficiency and throughput. In addition, NVIDIA will invest $3 billion in Meta’s equity offering. “AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf,” said Jensen Huang, founder and CEO of NVIDIA. “This changes how we use computers, from operating applications to working with intelligent agents. NVIDIA and Meta are expanding our partnership to optimize the computing infrastructure end to end for capable, efficient and secure AI agents, so Muse can empower billions of people to achieve more and pursue greater ambitions.” “Muse is how we bring personal superintelligence to everyone. We’re excited to keep working with NVIDIA to deliver the best personal agents and frontier models for billions of people,” said Mark Zuckerberg, founder and CEO of Meta."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "네이버 '글로벌 AI팩토리' 닻 올렸다",
+   "link": "https://www.hankyung.com/article/2026102786581",
+   "date": "2026-10-27 17:37",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "네이버, 브룩필드와 90억달러 AI 인프라 계약…엔비디아 10억달러 투자",
+    "korean_summary": "네이버가 브룩필드와 90억달러 규모의 AI 컴퓨팅 인프라 계약을 체결하면서 엔비디아의 10억달러 지분 투자 조건을 충족했다."
+   },
+   "summary_data": {
+    "korean_title": "네이버, 엔비디아·브룩필드와 3자 연합으로 '글로벌 AI 팩토리' 본격 가동",
+    "korean_summary": "네이버가 브룩필드와 90억달러 규모 컴퓨팅 인프라 계약을 체결하며 엔비디아의 10억달러 지분 투자 선결 조건을 충족시켜, 자본·인프라·운영을 분담하는 AI 팩토리 사업을 본격화했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Naver 대상 10억달러 규모 제3자 배정 유상증자(지분 투자) 이행 예정",
+     "stage": "Announced",
+     "timeline": "2026-10-27 계약 체결, 증자는 미확인 시점",
+     "scope": "Naver 지분 4.5%(신주 724만1564주) 취득 예정"
+    },
+    "key_facts": [
+     "Naver가 Brookfield와 **90억달러(약 12조원) 규모 컴퓨팅 인프라 확보 계약**을 10월 27일 체결",
+     "이 계약 체결로 NVIDIA의 10억달러 지분 투자 선결 조건이 충족됨",
+     "Brookfield는 SPV '**Asset Co.**'를 설립해 GPU·데이터센터 등 인프라를 Naver에 제공, 구체적 규모는 미공개",
+     "증자 완료 시 NVIDIA는 Naver 지분 4.5%를 취득해 국민연금, BlackRock에 이어 3대주주 등극",
+     "NaverCloud가 'Naver AI Factory'(가칭) 운영을 주도하며, 대기업 고객사와 계약 협상 진행 중"
+    ],
+    "why_matters": "AI 인프라 경쟁의 축이 설비 확충에서 **투자 효율·재무 안정성**으로 이동하는 가운데, 자본(NVIDIA)·인프라(Brookfield)·운영(Naver)을 분담하는 신모델이 등장했다. CoreWeave 등 네오클라우드의 회사채 금리 급등(한때 연 15%)으로 자금 조달 부담이 부각된 상황에서, 이 구조는 대안적 자금 조달 모델로 업계 관심을 받고 있다.",
+    "subject_angle": "NVIDIA는 직접 자본을 투입해 Naver 지분 3대주주로 올라서며 **자사 플랫폼 기반 생태계를 지분 투자로 고착화**하는 전략을 취하고 있으며, 이는 단순 GPU 판매를 넘어 고객사의 지분까지 확보해 장기적 종속 관계를 구축하려는 움직임으로 해석된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Naver",
+      "context": "AI 인프라 확보 및 AI Factory 운영 주체, NVIDIA 지분 투자 수혜자"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "10억달러 지분 투자자, 고성능 컴퓨팅 플랫폼 기술 제공자, Naver 3대주주 예정"
+     },
+     {
+      "name": "Brookfield",
+      "context": "90억달러 규모 GPU·데이터센터 인프라 확보 및 SPV(Asset Co.) 운영, 인프라 자산 투자 수익 창출"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "비교 대상 네오클라우드 기업, 회사채 금리 급등으로 자금 조달 부담 사례"
+     },
+     {
+      "name": "NaverCloud",
+      "context": "Naver AI Factory 운영 주도 자회사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Naver AI Factory (가칭)",
+      "role": "GPU·데이터센터 기반 AI 컴퓨팅 서비스를 국내 대기업 고객사에 판매하는 플랫폼"
+     },
+     {
+      "name": "Asset Co. (SPV)",
+      "role": "Brookfield가 설립한 특수목적법인으로 GPU·데이터센터 등 인프라 자산을 소유·제공"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 10억달러 제3자 배정 유상증자 완료 시점 및 공식 절차",
+     "Naver AI Factory의 구체적 GPU·데이터센터 규모 및 대기업 고객사 계약 체결 현황",
+     "유사한 '자본-인프라-운영' 분담형 AI 인프라 투자 모델이 다른 클라우드 사업자로 확산되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026102786581",
+   "body": "AI 추천 뉴스 네이버 '글로벌 AI팩토리' 닻 올렸다 브룩필드와 90억弗 인프라 계약 엔비디아, 네이버 3대주주로 '3자 연합모델'로 경쟁력 확보 네이버와 엔비디아, 브룩필드가 함께 추진하는 ‘글로벌 인공지능(AI) 팩토리’ 구축 사업이 본격화한다. 네이버가 브룩필드로부터 90억달러(약 12조원) 규모의 컴퓨팅 인프라를 확보하는 계약을 27일 체결하면서 엔비디아는 네이버에 10억달러(약 1조3300억원) 규모의 지분 투자를 이행해야 한다. 네이버는 이날 “브룩필드로부터 90억달러 규모의 컴퓨팅 인프라를 확보하는 계약을 맺었다”며 “엔비디아의 전략적 지분 투자를 위한 선결 조건을 충족했다”고 공시했다. 계약에 따라 브룩필드는 특수목적법인(SPV)인 ‘애셋코(Asset Co.)’를 설립하고 그래픽처리장치(GPU)와 데이터센터 등 컴퓨팅 인프라 자산을 네이버에 제공한다. 구체적인 GPU와 데이터센터 규모는 공개하지 않았다. 네이버는 이렇게 확보한 GPU와 데이터센터 등으로 가칭 ‘네이버 AI팩토리’를 운영하면서 국내 대기업 고객사에 AI 컴퓨팅 서비스를 판매하는 역할을 맡는다. 매출이 발생할 때마다 애셋코에 사용료를 지급한다. 네이버 AI팩토리 운영은 네이버클라우드가 주도하기로 했다. 네이버는 대기업 고객사 여러 곳과 계약 협상을 진행 중인 것으로 전해졌다. 이번 계약으로 네이버는 엔비디아를 대상으로 한 10억달러 규모 제3자 배정 유상증자 절차에도 속도를 낼 방침이다. 증자가 완료되면 엔비디아는 네이버 주식 4.5%(신주 724만1564주)를 취득해 국민연금, 블랙록에 이어 3대주주에 오른다. 네이버와 엔비디아, 브룩필드 3자 연합의 ‘AI 팩토리’ 사업의 핵심은 자본·기술·운영 역량을 나눠 맡는 구조에 있다. 엔비디아는 자본과 차세대 고성능 컴퓨팅 플랫폼 관련 기술을 제공하고, 브룩필드는 GPU와 데이터센터 등 인프라 자산을 확보한다. 네이버는 대규모 데이터센터를 직접 건립하거나 GPU를 매입하는 데 필요한 초기 자금 부담을 줄이면서 AI 인프라 사업을 신성장 동력으로 확보할 수 있게 됐다. 엔비디아는 자사 기술 기반의 컴퓨팅 인프라 생태계를 확장하고, 브룩필드는 인프라 투자 자산에서 수익을 창출하는 구조다. 글로벌 클라우드·AI 인프라 기업이 대규모 투자에 따른 자금 조달 부담을 안고 있는 상황에서 이번 사업 모델에 관심이 쏠렸다. 글로벌 네오클라우드 기업 코어위브의 회사채 금리는 한때 연 15%까지 치솟으며 자금 조달 비용에 대한 우려가 부각됐다. 업계에서는 AI 인프라 경쟁의 무게중심이 단순한 설비 확충에서 투자 효율과 재무 안정성으로 옮겨갈 수 있다는 전망이 나온다. 정지은 기자 jeong@hankyung.com"
+  },
+  {
+   "source": "전자신문",
+   "category": "kr",
+   "kind": "feed",
+   "title": "메타, AI 인프라 투자 자금 조달 129조원으로 확대",
+   "link": "https://www.etnews.com/20261028000023",
+   "date": "2026-10-28 08:54",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "메타, 975억달러 자금조달 확대…엔비디아 30억달러 투자 확정",
+    "korean_summary": "메타가 AI 인프라 구축을 위한 자금조달 규모를 975억달러로 확대하면서 엔비디아가 30억달러를 투자하기로 확정했다."
+   },
+   "summary_data": {
+    "korean_title": "메타, AI 인프라 자금조달 975억 달러로 확대…엔비디아·AMD도 지분 투자",
+    "korean_summary": "메타가 AI·연산 인프라 구축 자금을 975억 달러로 늘려 조달했고 엔비디아가 이 공모에 30억 달러를 투자하며 파트너십을 강화했다.",
+    "action": {
+     "actor": "Meta",
+     "action": "클래스 A 보통주·전환우선주 공모 증자로 AI 인프라 자금 975억 달러 조달, NVIDIA·AMD가 지분 투자 참여",
+     "stage": "Announced",
+     "timeline": "2026-10-27(현지시간)",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "메타는 클래스 A 보통주 공모 규모를 225억 달러에서 250억 달러로 상향, 전체 자금조달은 950억 달러에서 **975억 달러(약 129조원)**로 확대",
+     "보통주 공모가는 직전 종가(642달러) 대비 2.7% 할인한 625달러로 확정, 공모 물량 4000만주",
+     "전환우선주는 주당 50달러에 2억5000만주 발행, 양쪽 모두 몇 배수 초과 청약 기록",
+     "**엔비디아 30억 달러, AMD 10억 달러**를 메타 주식 공모에 투자",
+     "메타 3분기 잉여현금흐름(FCF)이 21억2000만 달러 적자로 전환, 자금 압박에 대응한 조달"
+    ],
+    "why_matters": "메타의 대규모 자금조달은 AI 인프라 투자 경쟁이 하이퍼스케일러의 현금흐름을 압박할 정도로 치열해지고 있음을 보여주며, **엔비디아의 직접 지분 투자**는 공급자가 고객의 자본조달에까지 참여하는 새로운 생태계 결속 방식을 드러낸다. AMD도 동반 투자하면서 메타를 둘러싼 반도체 공급사 간 경쟁과 협력이 동시에 심화되는 구도가 형성됐다.",
+    "subject_angle": "엔비디아는 단순 하드웨어 공급을 넘어 **핵심 고객의 자본구조에 직접 투자**함으로써 장기 수요 락인과 '연산 인프라 전 과정 최적화' 파트너십을 강화하려는 전략을 보이고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Meta",
+      "context": "AI 인프라 및 초지능(SI) 개발 자금 조달 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "메타 주식 공모에 30억 달러 투자, 연산 인프라 파트너십 확장"
+     },
+     {
+      "name": "AMD",
+      "context": "메타 주식 공모에 10억 달러 투자"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "메타의 조달 자금이 실제 어떤 AI 인프라·데이터센터 투자로 집행되는지",
+     "엔비디아의 메타 지분 투자가 향후 GPU 공급계약·협력 조건에 미치는 영향",
+     "메타의 FCF 적자 지속 여부 및 추가 자금조달 가능성"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.etnews.com/20261028000023",
+   "body": "메타가 인공지능(AI)과 연산 인프라 구축을 위해 전날 발표했던 자금조달 규모를 25억 달러 늘리기로 했다. 메타의 증자 공모에는 발행 물량의 5배에 달하는 매수 주문이 몰리는 등 시장 관심이 집중됐다. 메타는 기존에 발표한 A형(클래스 A) 보통주 공모 규모를 애초 계획했던 225억 달러에서 250억 달러로 상향 조정했다고 27일(현지시간) 밝혔다. 이에 따라 메타의 이번 자금조달 전체 규모는 950억 달러에서 975억 달러(약 129조원)로 확대됐다. 메타는 A형 보통주 공모가를 발표 전 마지막 거래일인 지난 23일 종가(642달러) 대비 약 2.7% 할인한 625달러(약 83만원)로 확정했다. 이에 따라 공모 물량은 4000만주가 됐다. 함께 진행되는 전환우선주 공모는 주당 50달러에 2억5000만주 발행하는 것으로 결정됐다. 이번 보통주 공모 증자에는 발행 물량의 약 5배에 달하는 청약 주문이 들어오는 등 시장에서 크게 흥행했다고 블룸버그 통신이 소식통을 인용해 보도했다. 물량의 절반 이상은 장기 투자자와 기존 주주에게 배정됐으며, 상위 15개 기관투자자가 전체 물량의 70%를 인수했다. 전환우선주 공모도 몇 배에 달하는 초과 청약을 기록했다. AI 반도체 핵심 파트너사들의 지분 투자도 확정됐다. 엔비디아는 메타의 이번 주식 공모에 30억 달러(약 4조원)를, AMD는 10억 달러(약 1조3000억원)를 투자한다고 각각 밝혔다. 젠슨 황 엔비디아 최고경영자(CEO)는 “연산 인프라를 처음부터 끝까지 최적화하기 위해 메타와의 파트너십을 확장하고 있다”고 설명했다. 앞서 메타는 AI 인프라 확충과 개인용 초지능(SI) 개발 자금 확보를 위해 보통주·전환우선주 증자와 최근 신설한 C형(클래스 C) 무의결권 주식 장내 매각을 합해 총 950억 달러의 자금 조달에 나선다고 전날 발표했다. 메타는 3분기 잉여현금흐름(FCF)이 21억2000만 달러 적자로 돌아서는 등 자금 압박이 거세지자 이에 대응해 자금 조달에 나선 것으로 풀이된다. 정현정 기자 iam@etnews.com - 정현정 기자기사 더보기 - ET Events"
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMS1rOWJqeXdBVWd4M0V6T21RcTRWZGQ5U3ZWUUVib0Z6dzJGR3RpTGRMa092ckpTanNHelVtQ1BJaDVKOTFRWDhNZWpRQjJfdjdqdVdqenJiWVJLMmdRYm1kaS01ZTZsTk5oWVYxTTRlNTNEeFV1dm5HbkNrVG5OaUVIajYtSWdYYjYxVV9JTEg4TzdJUTZMNVRXX28yNUJ4MnQ0aA?oc=5",
+   "date": "2026-10-28 06:35",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 주요 고객사에 30억 달러 AI 투자",
+    "korean_summary": "NVIDIA가 자사 고객사 중 하나에 30억 달러 규모의 신규 AI 투자를 결정했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR3llTkxNaWxNc1hqa3J6UEJQbXlTelByVXhXRlFrNWJLX0ZJN2NTY3p5bWRCU3otdzhoN3lWYXI4TEgxMkd6Yl9pNGNobFJ2RXZiSTFSekRFY0FsOTRuMjhzdVBIY3V0UlRxYUNhWG0xTmVQMFV2ZEpDSHFCMjBYY0lVYXE0bmt1ejdmMF9BSFI?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMS1rOWJqeXdBVWd4M0V6T21RcTRWZGQ5U3ZWUUVib0Z6dzJGR3RpTGRMa092ckpTanNHelVtQ1BJaDVKOTFRWDhNZWpRQjJfdjdqdVdqenJiWVJLMmdRYm1kaS01ZTZsTk5oWVYxTTRlNTNEeFV1dm5HbkNrVG5OaUVIajYtSWdYYjYxVV9JTEg4TzdJUTZMNVRXX28yNUJ4MnQ0aA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Just Announced Plans to Pour Billions Into Meta's Muse",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcnBDUk5TZnFUMDl2S0QzQ2ZfaHo1YmFsN2VWNXpVNWw1NV9uT2dWUHdzakRtbXF3VjgzdVgwVW1xeTl0Y0lEbnI3ZlpwbjVUcWkwRnJsd2xsXzJzZ1h2Rkp6RHB3R0V5ak0xWVAwLWRObFRTRUJFV05xekZWYVU1UVpTUGdSaGtmMnZnVVB6MERDQTFqaERfalJmVUU?oc=5",
+   "date": "2026-10-28 03:08",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta의 Muse 개발에 수십억 달러 투자 계획",
+    "korean_summary": "NVIDIA가 Meta의 Muse 프로젝트 개발에 수십억 달러 규모의 투자를 계획하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Nvidia Just Announced Plans to Pour Billions Into Meta's Muse",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQklZdXZGd3E4dUlIenhZRDQzRXNXQmlBcW03ZU9qcmlBdmRSakY5THJCVUtxTGpSUlVTSld1WjRiOVEwQ3ZTUFRYeUJNQkt0RlhoN3hCY3BrNHRSY3VXRGhsYVoyRThBTlM1OTlEbEU1NDY5NDZ3WXM5dUpTVkdPSUlVWFFkYjF5ODRNS0RRbVJZajJYX1JPRDN6M1dHSEhMR2ZJT0h3?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcnBDUk5TZnFUMDl2S0QzQ2ZfaHo1YmFsN2VWNXpVNWw1NV9uT2dWUHdzakRtbXF3VjgzdVgwVW1xeTl0Y0lEbnI3ZlpwbjVUcWkwRnJsd2xsXzJzZ1h2Rkp6RHB3R0V5ak0xWVAwLWRObFRTRUJFV05xekZWYVU1UVpTUGdSaGtmMnZnVVB6MERDQTFqaERfalJmVUU",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia to invest $3 billion in Meta, expand partnership on Muse",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWFVwN1hfQVhaWm9LZkY0bERYY0JtOVBtR2dSSHV4T1c0eU91TjN6WXAwTHNvZmhnQlpkUENkSGhYT21aNWlBWjM0dXNFSHp5andOeTlKRzhDN3NremU5QzhTdDlRMThvMGZFck02ZnUtRWIybmloSTJPVnktWlVSRWdOZ1c3QWY3bk1GVUN1YWx4aExfRnJ4b2VtNlFia0wtVWNQZE5mcl9Ld2JUT3g5X1FRT1lYSUVpVWc?oc=5",
+   "date": "2026-10-27 21:52",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta와 협력 확대로 Muse에 30억 달러 투자",
+    "korean_summary": "NVIDIA가 Meta와의 파트너십을 확대하며 Muse 개발에 30억 달러를 투자하기로 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWFVwN1hfQVhaWm9LZkY0bERYY0JtOVBtR2dSSHV4T1c0eU91TjN6WXAwTHNvZmhnQlpkUENkSGhYT21aNWlBWjM0dXNFSHp5andOeTlKRzhDN3NremU5QzhTdDlRMThvMGZFck02ZnUtRWIybmloSTJPVnktWlVSRWdOZ1c3QWY3bk1GVUN1YWx4aExfRnJ4b2VtNlFia0wtVWNQZE5mcl9Ld2JUT3g5X1FRT1lYSUVpVWc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Makes Whopping $3 Billion Bet on Meta",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFFzdUF6SmVrQV9oUzhLQkdPSmx3MHlBbXMwcG9ZcUN2bzNTYkxPcEV2V2QxX0FCNUIwTXNkQUJIb1QwLUZGeWd0UXFHQ2wtR3gteGNtcDV6eUxGbThKRks5UEZzbTlvUlhXWDAyc29jLXdYMjhtamdBRDdkN3Nma2IxUUlBaGFQcHRzSGJkVG9Ca2g0S1lLNVdYYw?oc=5",
+   "date": "2026-10-28 03:59",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta에 30억 달러 투자",
+    "korean_summary": "NVIDIA가 Meta와의 전략적 파트너십을 통해 30억 달러 규모의 투자를 실행"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TradingView",
+     "title": "Nvidia Makes Whopping $3 Billion Bet on Meta",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNXpaOWllbk9LMktIZFNyZVRnczNiNzdIeGZhdHBVTGJsME1Ob3BTNVJkdnZlcTl2V2VzMzU1NzVpUmZkcFpLU1loQzhUaHdUeDM4VWtaOHZYTkNVQmY1R1NTNVhqdElrMVhyMkhPRUdZS0dzYU80Ukttd2pqd3RQR0NSS1NIRm5YQ1BJekVuNWpVT3B2ZkVpbkd5Zm9OUlBGd0JsWFdR?oc=5"
+    },
+    {
+     "source": "Google News · Shacknews",
+     "title": "Nvidia (NVDA) & AMD to invest combined $4 billion into Facebook (META)",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONFFOZ2xUb1ZUZ2hQaXNiOW4ycjZMT1pEOWNmY29VTm56ajBnejJ1WDJYRFBITnFOUC1kaDlucVRwVkx3d19TR3V4Y3JjUnBGYmU4R3g2TWIzNFVUbGs2c256NTlsSm9Yb1h3dFNuLWdVbGthZFhQa21HUkFTXy12ZGZmVlJqWkktb0E?oc=5"
+    },
+    {
+     "source": "Google News · Investing.com",
+     "title": "Nvidia to commit $3 bln to Meta share offering as part of bigger AI partnership",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUUNYWGNnb3JkWU9jQm5pVk5vbjBRS2QySl9UWDQzU0FOM0M1U2xNTHRtZ1JxLVlHNHVLRFpELUVaeFJwdFIzMnRYTTFEdVJsZEF4Z3NrYW51QVZHYjlfNXg4Si1SRHJFQ1F2UExLUmZOZnlsczJfNmhuZ0pfaGt1V29sdHNmYmVFS1c2eVduS21pMG5BTGJUV0dMcGEtMjBpaXNBRUM0ZnFjX2gzZkFPNUNiWEVHdGpJOHd5TVhyRUgyOUVBQXJMWkczb3FQc3lF?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFFzdUF6SmVrQV9oUzhLQkdPSmx3MHlBbXMwcG9ZcUN2bzNTYkxPcEV2V2QxX0FCNUIwTXNkQUJIb1QwLUZGeWd0UXFHQ2wtR3gteGNtcDV6eUxGbThKRks5UEZzbTlvUlhXWDAyc29jLXdYMjhtamdBRDdkN3Nma2IxUUlBaGFQcHRzSGJkVG9Ca2g0S1lLNVdYYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Axios",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia investing $3 billion in Meta in Muse partnership",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WWFCR1ItajdJSVpLRVB2U0FhNVRSRG1YMTBxSVRJeEYtZUNZVnFGa2RPd0NCN3M0RjRmQUpRUUhCYjBkRFQxVW1IS0RvMXMzdGN2YWdWVUlZN3RKdVRFeVUtLVNTZE5pUlJDZw?oc=5",
+   "date": "2026-10-27 18:42",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Muse AI 파트너십으로 Meta에 30억 달러 투자",
+    "korean_summary": "NVIDIA가 Meta와의 기술 협력을 위해 30억 달러 규모의 투자 결정"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia investing $3 billion in Meta in Muse partnership",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY3ZzMkpTR19HVVJVcFpWMHpXaHpuZ3dhZjE1UExKNXAtQ0tNQS1oYXk1RmdWcW5jU0Z4NTRuYmVBRTBWN2xxVjJEVW1yR3FwZ3A2dzJyWHRPSUZaclc1b1RfTGQ4VlpjUzZKWExuam1oWk82dVBHbW9yS3JmdklqOVJ1YllxeGE0OUJFaVpzbERZQzk1MTIzUUFkNA?oc=5"
+    },
+    {
+     "source": "Google News · Mexico Business News",
+     "title": "Nvidia Invests US$3 Billion in Meta AI Partnership",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSm5UR0RoZlhwTWF0MEIxWmgzTEc3TXpjVnUwd2F1c2JON21PNldDb3NXV0RiS2l0TlpWRTBfQ29lam1UT2dCc1RCLWFQdnZDMzhBWUY2RXhzMzRJMjNaaUtZRVMyWnFGNmNsRjZrb1gzT2RGSGoyZDVpcWs0d0lZd29KRWd0SVdiWTJRNWY3UkJJS1dUTDhB?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4WWFCR1ItajdJSVpLRVB2U0FhNVRSRG1YMTBxSVRJeEYtZUNZVnFGa2RPd0NCN3M0RjRmQUpRUUhCYjBkRFQxVW1IS0RvMXMzdGN2YWdWVUlZN3RKdVRFeVUtLVNTZE5pUlJDZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia to Invest $3 Billion in Meta’s Equity Offering as They Expand AI Partnership",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVBNdzlMTTN3TWNmZmkyRFNZREhOcThOQWhMRk14VWlReXF4LW5DR2hsSjJneG1JeEdQM0VmX2tPNHJrVXdrdHhZbURadXZMdXczRkxjakpQbWFGQzBGX0lMN09mc0hQamNGX21PUnFNNDliVHZuQi02YWhucmE1SEVPcG5nSGc2aktVRUo5T1hpaEZtSnJyQTZDdHFGaXVTN1FyeU04U0YyaU5rcEZKbkhvTVdoMXFNMVE?oc=5",
+   "date": "2026-10-27 16:01",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta에 30억 달러 투자해 AI 파트너십 확대",
+    "korean_summary": "NVIDIA가 Meta의 지분 공모에 30억 달러를 투자해 AI 협력 관계를 강화한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia (NASDAQ:NVDA) to Invest $3 Billion in Meta (NASDAQ:META) Share Offering as AI Partnership Expands",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPa3p2ZDNFSE9sdnIwSWVWN1hTX2JaUzV0am9lNlNzS3VKbEpBbDRaWjRORlVOUjNSam9jdjF1anE1eVkzZlFUWTc5X0Y4VHJqaVd2anVKS09CQWNVSHliMUFkNERSbU1sOTZ2OUxOSW8tVmZlVEhrNjYwLUhUZVFVLVpxUmFkaXdyMVhlYU5jVk45NEY1VXc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeVBNdzlMTTN3TWNmZmkyRFNZREhOcThOQWhMRk14VWlReXF4LW5DR2hsSjJneG1JeEdQM0VmX2tPNHJrVXdrdHhZbURadXZMdXczRkxjakpQbWFGQzBGX0lMN09mc0hQamNGX21PUnFNNDliVHZuQi02YWhucmE1SEVPcG5nSGc2aktVRUo5T1hpaEZtSnJyQTZDdHFGaXVTN1FyeU04U0YyaU5rcEZKbkhvTVdoMXFNMVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · HPCwire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA to Invest $3B in Meta, Optimize Muse Training and Inference",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTVxSThxSVNldUtWWjBPM21MeG0yYXhrRTktWC1GcDRqbWpoVG40dnB0UEFnVjBLX1FZNWVBVnRKODRaSWZWT0Y2cTQ4WXE5WmxtSHRrd3ZPa0pOWkRpekZnVEZFbmF2YjYtX1hWRDFFV3FKVTd2T2VXTldSOElIM3F1Vnk4Nkx3QURfSlJkcEhvRnJIMkY5dlVXZXhlSVhBdFJzN3JHTmc2dXc?oc=5",
+   "date": "2026-10-28 07:36",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 30억 달러로 Meta Muse 모델 최적화 추진",
+    "korean_summary": "NVIDIA가 Meta에 30억 달러를 투자하며 Muse 학습·추론 최적화를 진행한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZTVxSThxSVNldUtWWjBPM21MeG0yYXhrRTktWC1GcDRqbWpoVG40dnB0UEFnVjBLX1FZNWVBVnRKODRaSWZWT0Y2cTQ4WXE5WmxtSHRrd3ZPa0pOWkRpekZnVEZFbmF2YjYtX1hWRDFFV3FKVTd2T2VXTldSOElIM3F1Vnk4Nkx3QURfSlJkcEhvRnJIMkY5dlVXZXhlSVhBdFJzN3JHTmc2dXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Meta Doubles Down On NVIDIA Vera Rubin And Vera CPU Racks For Its Muse AI Models, While NVIDIA Puts $3 Billion Into Meta’s Equity Offering",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdjNqVmp0SDY1X2xvRnltQjhXZGhnaGZxc1FuMXV2TE4xSGxSNzNRMXQ4TmFMblliTmJ0a1hCSzdLeFl3S3YwUjlsSXJzQ3ROcmQtTXFnYnRpMnltbXp5czI3alZIeDBMSVlSRllIbnVSNzk1LXZ1YUVYckt0ejF0QnBWN2JONy1qOGk2ZXZsbFlOeXZJSThmbHhVc3NweDFzSHpZMdIBqgFBVV95cUxQeklwRlNaYlBvVElCR2NDNFZoaURRQmRMRm9WZk56Q0lIUVRSeVhJTkJIUGxQQXFzZFpZb0lVcDllYmFOUU5LQWZtQjdDMlhZb0c1Nkg2UU11Ym1Gb2QzalhCbHVXbnZ0dEFoVVVUbElZY2o5d1ZxNUttSlhSV0NyQ0hOakI5YkZWa0FkRVFraFpSTDVfMzJyQldRNXAyMjdZeVg3S3g1RFNGdw?oc=5",
+   "date": "2026-10-28 01:45",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "Meta, NVIDIA Vera Rubin 및 Vera CPU 랙 확대, NVIDIA는 30억 달러 투자",
+    "korean_summary": "Meta가 NVIDIA의 Vera Rubin과 Vera CPU Racks를 확대 도입하고, NVIDIA가 Meta에 30억 달러를 투자한다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdjNqVmp0SDY1X2xvRnltQjhXZGhnaGZxc1FuMXV2TE4xSGxSNzNRMXQ4TmFMblliTmJ0a1hCSzdLeFl3S3YwUjlsSXJzQ3ROcmQtTXFnYnRpMnltbXp5czI3alZIeDBMSVlSRllIbnVSNzk1LXZ1YUVYckt0ejF0QnBWN2JONy1qOGk2ZXZsbFlOeXZJSThmbHhVc3NweDFzSHpZMdIBqgFBVV95cUxQeklwRlNaYlBvVElCR2NDNFZoaURRQmRMRm9WZk56Q0lIUVRSeVhJTkJIUGxQQXFzZFpZb0lVcDllYmFOUU5LQWZtQjdDMlhZb0c1Nkg2UU11Ym1Gb2QzalhCbHVXbnZ0dEFoVVVUbElZY2o5d1ZxNUttSlhSV0NyQ0hOakI5YkZWa0FkRVFraFpSTDVfMzJyQldRNXAyMjdZeVg3S3g1RFNGdw",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Crude Oil Prices Today | OilPrice.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "45,000 Nvidia Blackwell GPUs Cleared for Kazakhstan Data Center",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnA3MTRNWXdkT2REMVBpX19ubTlrbXdjSzVzT3hkdEhYblVZT04xVWhwQlJsQ0ZIZ0J4NS05dE5nbXphR0dKT1UtUWQxYVBicnlYdFRFSkxPRXJ1M2xKMFhZMGRzdWpPZ01KQXR2YWRVOFpYU0RwdDZFcW41Y0NCZTRyRGFPelE4RnRheXpWZzFSV1JBQVJhT2lpd3JWaUpVa3JReGIxVXNNWm5veGNv0gG0AUFVX3lxTE9TbjEzT2dYMmpyLTN5SnZaeVlPcXVWbWk5MlJ4R1RsNEZ5akV1d1hXQUhENmZRTkNZdHlJVnRTT1RHQ01vSzN4N0xFNVBsWFlEOVJfejdFS3hJSWJfQ1NhVWNUdFpLY2xlSHlyWlRCRkxuV3NaUnhpdGNpbFVVUFBNTTNvQ19HMG56UWRDQ2hvQmEyc09Pc2RodDViakxlNUh2a3ZWQ0NUSml5TWFJcm9tUmQtVQ?oc=5",
+   "date": "2026-10-28 02:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "45,000개 NVIDIA Blackwell GPU, 카자흐스탄 데이터센터 배치 승인",
+    "korean_summary": "45,000대의 NVIDIA Blackwell GPU가 카자흐스탄의 대규모 데이터센터에 배치될 예정"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnA3MTRNWXdkT2REMVBpX19ubTlrbXdjSzVzT3hkdEhYblVZT04xVWhwQlJsQ0ZIZ0J4NS05dE5nbXphR0dKT1UtUWQxYVBicnlYdFRFSkxPRXJ1M2xKMFhZMGRzdWpPZ01KQXR2YWRVOFpYU0RwdDZFcW41Y0NCZTRyRGFPelE4RnRheXpWZzFSV1JBQVJhT2lpd3JWaUpVa3JReGIxVXNNWm5veGNv0gG0AUFVX3lxTE9TbjEzT2dYMmpyLTN5SnZaeVlPcXVWbWk5MlJ4R1RsNEZ5akV1d1hXQUhENmZRTkNZdHlJVnRTT1RHQ01vSzN4N0xFNVBsWFlEOVJfejdFS3hJSWJfQ1NhVWNUdFpLY2xlSHlyWlRCRkxuV3NaUnhpdGNpbFVVUFBNTTNvQ19HMG56UWRDQ2hvQmEyc09Pc2RodDViakxlNUh2a3ZWQ0NUSml5TWFJcm9tUmQtVQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA, Oracle Plan Multi-Gigawatt Vera Rubin Expansion on OCI",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3FvUHk3aVV0R2Vaa3NwS0stVDBQYVJ1VHJrbEx2VnJ3dGJxZ29QLWk1bGVPUHU3NjZfcXRWb01oU3ZrRFFYVGRFS2N0djVydWpfakYwZlEweFNaOWJ6eHpoeFc5YVIyNDZHaUpKd0duRGROT2N5R0hNZ19zejZXc291aUdDWmNFVm9J?oc=5",
+   "date": "2026-10-28 01:28",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Oracle, OCI에서 다기가와트급 Vera Rubin 인프라 확장",
+    "korean_summary": "NVIDIA와 Oracle이 Oracle Cloud Infrastructure에서 다기가와트급 규모의 인프라 확장 계획을 발표한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY3FvUHk3aVV0R2Vaa3NwS0stVDBQYVJ1VHJrbEx2VnJ3dGJxZ29QLWk1bGVPUHU3NjZfcXRWb01oU3ZrRFFYVGRFS2N0djVydWpfakYwZlEweFNaOWJ6eHpoeFc5YVIyNDZHaUpKd0duRGROT2N5R0hNZ19zejZXc291aUdDWmNFVm9J",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia to Expand Meta Partnership on Muse AI Models, Invest $3 Billion in Offering",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQU9IVFZlNjB3clFhdmdMbDhaYmwzS3ctYUY5R1lwN21ISzQ3ZjI3a0FBNWlQX2pZS2U2MEw1NF9ITG4tdm45NVh1cDBxRDZCZ3cyZnBsZkVBRFZvR05kbUxKT3pkYjVIa1JiTDdkVTlyUnZVZ1d3eGNudndBdWpyWGhsQ0MwVTNvTzF2SDZaSWU0WTVkbDdSLUFQTmZETktU?oc=5",
+   "date": "2026-10-27 17:37",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Meta 파트너십 확대 및 Muse AI 모델에 30억 달러 투자",
+    "korean_summary": "NVIDIA가 Muse AI 모델 협력을 확대하면서 Meta에 30억 달러를 투자한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQU9IVFZlNjB3clFhdmdMbDhaYmwzS3ctYUY5R1lwN21ISzQ3ZjI3a0FBNWlQX2pZS2U2MEw1NF9ITG4tdm45NVh1cDBxRDZCZ3cyZnBsZkVBRFZvR05kbUxKT3pkYjVIa1JiTDdkVTlyUnZVZ1d3eGNudndBdWpyWGhsQ0MwVTNvTzF2SDZaSWU0WTVkbDdSLUFQTmZETktU",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Decoder",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWhlTVNVd2xXZ0JoZGE5RnpuRjVZbWNPdDZ5YjhfZXhFUnV5ak9PcC11YzRGd3J5R1NJdE85UUswR09iemZuN05IeDA4SFZNSDJkbEhEZ2ZEdVR2RDNuYnU1UzRMYXZsM2dFWDBjMHAwZ0JTZ2hwSS03RnJoRWhDdkQweDV4SU1DTUZVMlMxTjYyWHhjSGdyelZYZDE?oc=5",
+   "date": "2026-10-27 19:10",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "Meta, NVIDIA로부터 30억 달러 투자받고 향후 칩 지출 확대 계획",
+    "korean_summary": "Meta가 NVIDIA로부터 30억 달러 투자를 받았으며 향후 NVIDIA 칩 구매를 더 늘릴 계획이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYWhlTVNVd2xXZ0JoZGE5RnpuRjVZbWNPdDZ5YjhfZXhFUnV5ak9PcC11YzRGd3J5R1NJdE85UUswR09iemZuN05IeDA4SFZNSDJkbEhEZ2ZEdVR2RDNuYnU1UzRMYXZsM2dFWDBjMHAwZ0JTZ2hwSS03RnJoRWhDdkQweDV4SU1DTUZVMlMxTjYyWHhjSGdyelZYZDE",
+   "body": ""
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Puts $3B Into Meta’s $95B Stock Raise [2026]",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkozQ0E5b0N4bXRZZnF0QVpwa3NrOHFSMEtsb29GSHJuQnVQWVBtNDlXcVg2N2lCNllCUzV2OHFiYUM3WDJlcXN6ckFvamlzV1FjZk1lZ3NpQl9GNWVuTVFITWZ5OUotc1dUR0R2MWVSdHhxOTR1bXBGWXhfREkyc2ZYc1BlLVU?oc=5",
+   "date": "2026-10-27 23:50",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, Meta 95억 달러 유상증자에 30억 달러 투자",
+    "korean_summary": "NVIDIA가 Meta의 95억 달러 유상증자에 30억 달러를 투자했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkozQ0E5b0N4bXRZZnF0QVpwa3NrOHFSMEtsb29GSHJuQnVQWVBtNDlXcVg2N2lCNllCUzV2OHFiYUM3WDJlcXN6ckFvamlzV1FjZk1lZ3NpQl9GNWVuTVFITWZ5OUotc1dUR0R2MWVSdHhxOTR1bXBGWXhfREkyc2ZYc1BlLVU",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Sim-Auto (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto",
+   "date": "2026-10-28 09:14",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Sim-Auto",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "automotive"
+    ],
+    "korean_title": "Cosmos3-Nano-Sim-Auto로 실시간 자동차 폐루프 시뮬레이션",
+    "korean_summary": "Cosmos3-Nano-Sim-Auto가 실시간 폐루프 자동차 주행 시뮬레이션을 위한 동기화 멀티뷰 비디오를 생성한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 실시간 자율주행 시뮬레이션용 Cosmos3-Nano-Sim-Auto 모델 공개",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano-Transfer-Auto의 causal-distilled 경량 버전인 Cosmos3-Nano-Sim-Auto를 Hugging Face에 공개하여 텍스트 프롬프트와 World Scenario Map 제어 기반의 실시간 멀티뷰 카메라 및 LiDAR 시뮬레이션을 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano-Sim-Auto 모델 체크포인트를 Hugging Face에 업데이트/공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "자율주행(AV) 시뮬레이션, 최대 11개 카메라 뷰 및 LiDAR 지원"
+    },
+    "key_facts": [
+     "**Cosmos3-Nano-Transfer-Auto의 causal-distilled 변형 모델**로 실시간 closed-loop 주행 시뮬레이션을 목표로 설계됨",
+     "텍스트 프롬프트와 World Scenario Map(WSM) 제어를 조건으로 동기화된 멀티뷰 카메라 비디오와 LiDAR 관측을 생성",
+     "**최대 11개의 표준 및 fisheye 카메라 뷰**를 지원하며, 공간·시간적으로 정렬된 LiDAR를 3D point cloud로 변환",
+     "AV 정책 또는 인간 스티어링휠 인터페이스의 주행 입력을 WSM 렌더러가 장면 제어로 변환",
+     "다운로드 723회, 좋아요 12개 기록"
+    ],
+    "why_matters": "이 모델은 **AV 인식 스택과 주행 정책을 동일 롤아웃 내에서 멀티센서 기반으로 평가**할 수 있게 해 시뮬레이션 기반 자율주행 개발 파이프라인의 신뢰성을 높인다. 경쟁사 대비 NVIDIA가 월드 모델 기반 폐쇄루프 시뮬레이션 역량을 선점하며 AV 개발 생태계 내 플랫폼 종속성을 강화할 수 있다.",
+    "subject_angle": "Cosmos3 라인업 확장은 NVIDIA가 **Physical AI 전략의 핵심인 월드 파운데이션 모델을 자율주행 도메인에 특화**시켜, 데이터 생성·시뮬레이션·검증까지 아우르는 풀스택 AV 개발 플랫폼 포지셔닝을 강화하는 행보다.",
+    "focus_angle": "자동차 OEM과 AV 개발사 입장에서는 **실제 주행 데이터 없이도 다양한 센서 구성(카메라+LiDAR)의 시나리오를 생성·테스트**할 수 있어 검증 비용과 시간을 절감할 수 있으며, 이는 자율주행 정책 및 인식 스택 학습·평가의 실환경 의존도를 낮추는 데 기여할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발 및 Hugging Face 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano-Sim-Auto",
+      "role": "실시간 멀티뷰 카메라+LiDAR 주행 시뮬레이션 모델"
+     },
+     {
+      "name": "Cosmos3-Nano-Transfer-Auto",
+      "role": "Sim-Auto의 원본(distillation 대상) 모델"
+     },
+     {
+      "name": "World Scenario Map (WSM)",
+      "role": "주행 입력을 장면 제어로 변환하는 렌더러/제어 체계"
+     }
+    ],
+    "watch_next": [
+     "Technical Report 공개 시 모델 아키텍처 및 성능 수치 확인",
+     "실제 AV OEM 또는 로보틱스 기업의 Cosmos3 도입 사례 발표 여부",
+     "Cosmos3 Examples Collection 내 추가 변형 모델(Transfer, Sim 등) 공개 현황"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Sim-Auto:2026-10-28",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, omnimodel, arxiv:1706.08500, arxiv:1812.01717, arxiv:2603.03283 · downloads 723 · likes 12. README:  # **Interactive World Simulation with Cosmos for Physical AI** **[Cosmos3 Examples Collection](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf)** (coming soon) | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/)** # Model Overview: Cosmos3-Nano-Sim-Auto The highlighted checkpoint, Cosmos3-Nano-Sim-Auto, is a causal-distilled variant of Cosmos3-Nano-Transfer-Auto. ## Description Cosmos3-Nano-Sim-Auto is designed for real-time, closed-loop driving simulation by generating synchronized multi-view camera videos and LiDAR observations conditioned on a text prompt and World Scenario Map (WSM) controls, including aligned LiDAR controls when LiDAR output is requested. A WSM renderer converts driving inputs from an autonomous vehicle (AV) policy or a human-operated steering-wheel interface into scene controls. The model generates video in small latent-frame chunks conditioned on cached history and incoming WSM controls, enabling subsequent observations to reflect updated driving inputs. It supports up to 11 standard and fisheye camera views, with spatially and temporally aligned LiDAR output converted to 3D point clouds. The joint sensor outputs support evaluation of multi-sensor perception stacks and driving policies within the same rollout. Inference throughput depends on the hardware and gen"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+   "link": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "date": "2026-10-27 23:19",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 AMD, Meta의 AI 인프라에 총 $4B 투자",
+    "korean_summary": "NVIDIA와 AMD가 각각 $3B, $1B를 투자해 Meta의 $95B AI 인프라 투자를 지원하고 Vera 칩과 Muse 파트너십을 심화한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA·AMD, Meta에 총 40억 달러 투자…AI 인프라 파트너십 심화",
+    "korean_summary": "NVIDIA와 AMD가 Meta의 950억 달러 AI 인프라 증자에 각각 30억·10억 달러를 투자하며 Vera Rubin 플랫폼과 AI 에이전트 Muse 협력을 확대한다.",
+    "action": {
+     "actor": "NVIDIA, AMD",
+     "action": "Meta의 공모 증자에 지분 투자(각각 30억 달러, 10억 달러) 및 Vera Rubin/Vera CPU 배치 확대, Muse AI 에이전트 협력 심화",
+     "stage": "Announced",
+     "timeline": "2026-10-27 (화요일 발표)",
+     "scope": "Meta의 AI 인프라 투자($95B 조달 계획) 중 지분 투자 부분"
+    },
+    "key_facts": [
+     "Meta는 월요일 **950억 달러 규모의 AI 인프라 투자 자금 조달 계획**(선행 공모 350억 달러 + ATM 프로그램 600억 달러)을 발표함",
+     "NVIDIA는 화요일 Meta 지분에 **30억 달러 투자**를 발표, AMD는 10억 달러 투자 발표",
+     "NVIDIA는 Meta의 **Vera Rubin 및 Vera CPU 배치 확대**와 AI 에이전트 Muse 협력 심화를 함께 발표",
+     "AMD의 Helios 랙이 Meta에서 가동 중이며 EPYC 프로세서가 Muse를 구동 중",
+     "NVIDIA는 올해 Dealroom 기준 121건의 투자 라운드에 참여(2022년 13건 대비 급증), OpenAI·Anthropic·Intel·XAI 등에도 투자"
+    ],
+    "why_matters": "AI 인프라를 둘러싼 칩-하이퍼스케일러 간 지분 투자가 단순 공급계약을 넘어 생태계 고착화 전략으로 확대되고 있음을 보여준다. **NVIDIA·AMD가 동시에 Meta에 투자**함으로써 GPU 공급 경쟁이 자본 동맹 경쟁으로 전환되는 양상이다.",
+    "subject_angle": "NVIDIA는 단순 하드웨어 판매에서 **지분 투자를 통한 고객 락인 및 AI 에이전트(Muse) 플랫폼 공동개발**로 사업 모델을 확장하며, Vera Rubin 세대 플랫폼의 조기 대규모 도입처를 확보하고 있다.",
+    "focus_angle": "Vera Rubin·Vera CPU는 NVIDIA의 차세대 컴퓨팅 아키텍처로 데이터센터뿐 아니라 **자율주행(DRIVE) 및 휴머노이드 로봇(Jetson Thor 계열) 로드맵과 공통 기반**을 이루므로, Meta향 대규모 배치 확대는 NVIDIA의 물리적 AI(Physical AI) 전략 전반의 자본력과 생태계 지배력을 강화하는 신호로 해석될 수 있다. 다만 본문에는 자동차·로봇 OEM과의 직접 연계는 언급되지 않아 해당 파급효과는 미확인이다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Meta 지분에 30억 달러 투자, Vera Rubin/Muse 협력 확대"
+     },
+     {
+      "name": "AMD",
+      "context": "Meta 지분에 10억 달러 투자, Helios 랙·EPYC 프로세서로 Meta 인프라 지원"
+     },
+     {
+      "name": "Meta",
+      "context": "950억 달러 AI 인프라 자금 조달, Muse AI 에이전트 운영"
+     },
+     {
+      "name": "Broadcom",
+      "context": "Meta 지분 최대 50억 달러 매입 관심 표명(본문 언급, 투자 확정 여부 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin",
+      "role": "Meta에 배치 확대되는 NVIDIA 차세대 플랫폼"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "Vera Rubin과 함께 Meta에 배치 확대되는 NVIDIA CPU"
+     },
+     {
+      "name": "Muse",
+      "role": "Meta의 AI 에이전트, NVIDIA·AMD와 협력 심화 대상"
+     },
+     {
+      "name": "Helios racks / EPYC",
+      "role": "AMD의 Meta 인프라 구동 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "Broadcom의 Meta 지분 투자 확정 여부 및 규모",
+     "Vera Rubin/Vera CPU의 실제 배치 규모 및 일정 공개",
+     "NVIDIA·AMD의 유사한 하이퍼스케일러 지분 투자 확대 지속 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership",
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lRlJvNzJPYWpWVDdDUjQwTFZVZC1Ibk54Zk43SEc1LUE0ZXpweFJZcUo2TVYwYTVWcDZrdEVpMFFpeXNIUkU2MTVNa1FXaC1Pdm5yWkhUYlptVVUzbjNuWlZ2NlVVZ9IBa0FVX3lxTFBTQXJKZC1wR0l4eGtlcFlaODVRTGRvWlR0Y3dhZnhMZFFxbzRHSEJ0RjFMNVh3R1h4bnZzaWc0U2JIYWExUlZCRzRNZWlFcF9QcWhiZUFHRWM2VWwzd0lFUGhzSUFVd0lVREtN?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "body": "Nvidia and Advanced Micro Devices have said they will invest a total of $4 billion in Meta after the social media and artificial intelligence giant announced plans to raise $95 billion to support its investments in AI infrastructure. Meta on Monday said it would initially raise $35 billion in underwritten public equity offerings, before raising an additional $60 billion with an at-the-market program. Nvidia on Tuesday said it would invest $3 billion in Meta's equity offering, with AMD announcing it would invest $1 billion. Meta's Monday announcement said Nvidia, AMD and Broadcom were interested in purchasing up to $5 billion in shares. Nvidia, AMD deepen Meta ties Nvidia announced its investment on Tuesday, adding that Meta would expand Vera Rubin and Vera CPU deployment, and that the two companies would deepen their partnership on Muse, the social media giant's AI agent that launched last month. \"AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf,\" said Nvidia CEO Jensen Huang in a statement. \"This changes how we use computers, from operating applications to working with intelligent agents.\" \"We're excited to keep working with NVIDIA to deliver the best personal agents and frontier models for billions of people,\" said Meta CEO Mark Zuckerberg. AMD said that its Helios racks were running at Meta and its EPYC processors were powering Meta's Muse. \"Together, we are building and deploying infrastructure at gigawatt scale and shaping future generations of silicon, software and systems to enable Meta's most ambitious superintelligence models and services,\" AMD CEO Lisa Su said in a statement. AMD was up 3% on Tuesday, while Nvidia stayed flat. Meta was down 1%. Nvidia and AMD have been rapidly building up stakes in companies powering the AI boom. Nvidia has invested in OpenAI, Anthropic, Intel and XAI and participated in 121 investment rounds so far this year, according to Dealroom, up from just 13 in 2022. AMD in July said it would make an equity investment of up to $5 billion in Anthropic. The company has been involved in 25 funding rounds in 2026, up from just two in 2022."
+  },
+  {
+   "source": "Google News · The Malaysian Reserve",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Agile Robots Launches Agile ONE SN Humanoid at NVIDIA GTC Berlin and Pilots Humanoids with Audi",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQlhxQkRtU0lGZnhKd1NRM2ZlQng1cHVtdXNRVGsxZmlkQ0NDVGlwcmlLSlVVUzFjd0FXMWxfdjU4RFloRWRLLThuZkFFdm5JRkxuaUo3OWYyd2o2TDNxbmFsTnFLS2l5cjZZN21JMFRYeE1uNUJCNGpXdW1GclpzaThPUWI5RTFzTHkxTk9MWmRySEpqVzNTc3g0RFM5dGFMc0tDNHE1OGhBRUZBUDFyaXh3MHMyalRiUGJHcFpMQW5mRDMwdVduX0ZWUUl2RE5ObVFFUENB?oc=5",
+   "date": "2026-10-27 20:15",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Agile Robots, NVIDIA GTC Berlin에서 Agile ONE SN 휴머노이드 로봇 공개 및 Audi 파일롯",
+    "korean_summary": "Agile Robots가 NVIDIA GTC Berlin에서 Agile ONE SN 휴머노이드 로봇을 공개하고 Audi와 파일롯을 진행한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQlhxQkRtU0lGZnhKd1NRM2ZlQng1cHVtdXNRVGsxZmlkQ0NDVGlwcmlLSlVVUzFjd0FXMWxfdjU4RFloRWRLLThuZkFFdm5JRkxuaUo3OWYyd2o2TDNxbmFsTnFLS2l5cjZZN21JMFRYeE1uNUJCNGpXdW1GclpzaThPUWI5RTFzTHkxTk9MWmRySEpqVzNTc3g0RFM5dGFMc0tDNHE1OGhBRUZBUDFyaXh3MHMyalRiUGJHcFpMQW5mRDMwdVduX0ZWUUl2RE5ObVFFUENB",
+   "body": ""
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia Vera Rubin and Vera CPUs now generally available on Oracle",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-vera-rubin-and-vera-cpus-now-generally-available-on-oracle/",
+   "date": "2026-10-28 05:41",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA Vera Rubin/Vera CPU, Oracle OCI에서 일반 공급 시작",
+    "korean_summary": "NVIDIA의 Vera Rubin NVL72 시스템과 Vera CPU가 Oracle OCI에서 일반 공급되기 시작했으며 Superclusters에도 추가될 예정이다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia Vera Rubin NVL72 및 Vera CPU, Oracle Cloud Infrastructure에서 정식 출시",
+    "korean_summary": "Oracle이 Oracle AI World에서 Nvidia의 차세대 Vera Rubin NVL72 시스템과 Vera CPU를 OCI에 정식 출시해, Grace Blackwell에 이어 프론티어 AI 모델 학습·추론 인프라를 확장한다고 밝혔다.",
+    "action": {
+     "actor": "Oracle",
+     "action": "Nvidia Vera Rubin NVL72 시스템과 Vera CPU를 OCI에 정식 출시하고, 향후 Superclusters 및 Rubin HGX NVL8 시스템도 추가할 계획",
+     "stage": "Available",
+     "timeline": "Oracle AI World 행사 발표 시점(현재), Rubin HGX NVL8은 '후일(at a later date)' 추가 예정",
+     "scope": "Oracle Cloud Infrastructure(OCI), OpenAI 등 프론티어 AI 모델 고객"
+    },
+    "key_facts": [
+     "**Nvidia Vera Rubin NVL72 시스템과 Vera CPU가 OCI에서 General Availability** 상태로 전환됨",
+     "OCI Superclusters는 랙당 72개 GPU를 NVLink로 연결하며, Oracle Acceleron 네트워킹과 Nvidia Spectrum-X Ethernet(Spectrum-6 스위치, BlueField-4 DPU)을 결합",
+     "OpenAI는 기존 **100,000개 이상의 Blackwell GPU로 구성된 OCI Supercluster**를 Abilene에서 GPT-6 Astra 학습에 사용했음",
+     "Rubin HGX NVL8 시스템(8개 Rubin GPU, x86 서버 구성)은 추후 추가 예정",
+     "Vera CPU는 에이전틱 AI 워크로드를 위한 단일 스레드 성능과 메모리 대역폭에 초점"
+    ],
+    "why_matters": "Nvidia의 차세대 Vera Rubin 플랫폼이 Grace Blackwell에 이은 후속 세대로 하이퍼스케일 클라우드에 빠르게 투입되며, **OpenAI 같은 프론티어 모델 기업이 이미 대규모 Blackwell 클러스터를 운영 중인 상황에서 세대 전환 수요를 선점**하는 의미가 있다. 동시에 Oracle이 Intel, AMD, Cerebras, SambaNova 등 다양한 칩 아키텍처를 동시에 도입하면서 Nvidia GPU의 클라우드 내 상대적 비중과 경쟁 구도가 부각된다.",
+    "subject_angle": "Nvidia는 Vera Rubin NVL72·Vera CPU를 통해 **GPU-CPU 통합 풀스택 플랫폼 전략**을 강화하며, Spectrum-X·BlueField-4 등 자사 네트워킹 생태계를 클라우드 하이퍼스케일러에 묶어 판매함으로써 세대 교체 수요를 선점하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Oracle",
+      "context": "OCI를 통해 Nvidia Vera Rubin/Vera CPU를 정식 출시하고 Superclusters를 확장하는 클라우드 제공업체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Vera Rubin NVL72, Vera CPU, Spectrum-X, BlueField-4 등 하드웨어·네트워킹 공급"
+     },
+     {
+      "name": "OpenAI",
+      "context": "기존 Blackwell 기반 OCI Supercluster(100,000+ GPU)를 GPT-6 Astra 학습에 사용한 고객"
+     },
+     {
+      "name": "Intel",
+      "context": "Oracle과 다년 협력을 통해 Xeon 기반 컴퓨팅(차세대 Diamond Rapids 포함)을 OCI에 확장"
+     },
+     {
+      "name": "AMD",
+      "context": "6세대 Epyc 프로세서 기반 OCI E7 인스턴스 제공, Pensando DPU 지원"
+     },
+     {
+      "name": "Cerebras",
+      "context": "웨이퍼 스케일 추론 칩을 OCI 플랫폼에 통합 예정"
+     },
+     {
+      "name": "SambaNova",
+      "context": "OCI에 자사 칩 아키텍처 도입 예정"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Vera Rubin NVL72",
+      "role": "OCI에 정식 출시된 차세대 랙스케일 GPU 시스템"
+     },
+     {
+      "name": "Nvidia Vera CPU",
+      "role": "에이전틱 AI 워크로드를 위한 고성능 CPU, OCI에 단독 출시"
+     },
+     {
+      "name": "Rubin HGX NVL8",
+      "role": "향후 추가될 x86 기반 8-GPU 서버 시스템"
+     },
+     {
+      "name": "Nvidia Spectrum-X / Spectrum-6 / BlueField-4",
+      "role": "OCI Superclusters 네트워킹 구성 요소"
+     },
+     {
+      "name": "OCI Superclusters",
+      "context 생략": "",
+      "role": "멀티 기가와트급 Nvidia GPU 대규모 배포 플랫폼"
+     },
+     {
+      "name": "Oracle Acceleron",
+      "role": "OCI 자체 네트워킹 기술, Nvidia 및 AMD 인스턴스 지원"
+     }
+    ],
+    "watch_next": [
+     "Rubin HGX NVL8 시스템의 OCI 추가 정확한 시점",
+     "Vera Rubin 기반 Superclusters의 실제 가동 규모 및 고객사 발표",
+     "Intel Diamond Rapids 기반 OCI X14, AMD E7 인스턴스의 정식 가동 시점과 Nvidia 플랫폼과의 경쟁·보완 관계"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "Nvidia Vera Rubin and Vera CPUs now generally available on Oracle",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZExmMUs5T2pCQkdfNzVjVUEwVDlQbmpqMl9BYWQtTnQ1NUFYLWUzajBPLV9VaXRCOFRKUmk5MnRFN3I4MTdZTDhHaE15MzdwQ2F0YU5nVm5nWXpTTEZhNk9uSllsakUyRE54NWU3VEI0WjE3WGQzUTB5c2NxaWYyZ1NqN0FmZXBPZ2pJaG1MYmswek4xbk9OU3A5Z1pSbURLd2pyVWVuU2V1SHV0eUE?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-vera-rubin-and-vera-cpus-now-generally-available-on-oracle",
+   "body": "The latest generation of Nvidia hardware is entering general availability on Oracle Cloud Infrastructure. Announced during the Oracle AI World event, the Nvidia Vera Rubin NVL72 systems and Vera CPUs are now generally available on Oracle’s cloud platform. Oracle is also set to add the Nvidia Vera Rubin systems to its “Superclusters” offering, which will be a multi-gigawatt-scale deployment. At a later date, the Rubin HGX NVL8 Systems will also be added, which will offer eight Rubin GPUs connected through NVLink in an x86-based server configuration. OCI Superclusters combine Nvidia NVL72 rack-scale systems, Oracle Acceleron networking with Nvidia Spectrum-X Ethernet networking featuring Nvidia Spectrum-6 switches and Nvidia BlueField-4 DPUs, and gigawatt-class power and cooling to train and serve the largest AI models. Each rack connects 72 GPUs through Nvidia NVLink scale-up networking, while OCI’s resilient, multiplanar network scales across hundreds of thousands of GPUs. The addition of Vera Rubin to Superclusters builds on Oracle’s existing Nvidia Grace Blackwell compute that is available in the formation and was used in Abilene by OpenAI to train GPT-6 Astra. OpenAI used an OCI Supercluster of more than 100,000 Blackwell GPUs. “As our frontier models advance, we need infrastructure that can keep pace,” said Sreekanth Pothanis, engineering leader, compute infra at OpenAI. “Nvidia Vera Rubin on OCI gives us the computing performance and scale to accelerate model training and serve increasingly demanding AI workloads.” The deployment of Vera CPUs alone is targeting agentic AI workloads, combining high single-thread performance with memory bandwidth to help agents complete CPU-intensive tasks faster. “Oracle Cloud Infrastructure gives customers the performance, security and scale to advance frontier AI,” said Mahesh Thiagarajan, president of Oracle Cloud Infrastructure, Oracle. “Our collaboration with Nvidia extends those capabilities across training, inference and agentic AI. By combining Nvidia Vera Rubin GPUs and Vera CPUs with Oracle Acceleron networking and AI-optimized data centers, we’re helping customers keep GPUs productive, secure, and scale efficiently as their needs grow.” Oracle goes CPU crazy Beyond Nvidia hardware, Oracle has announced a multi-year collaboration with Intel to expand Intel Xeon-based computing on OCI, including current Xeon platforms and the planned OCI X14 offerings based on Intel’s next-generation server processor codenamed Diamond Rapids. CPUs are becoming increasingly important to AI workloads as AI agents are being rapidly adopted. The partnership with Intel will increase CPU capacity on OCI, while giving customers access to familiar tooling and software environments. “As AI agents scale, they need processors that can run software, move and secure data, and accelerate inference. Xeon brings together performance and hardware-based confidential computing, giving organizations a trusted, cost-effective foundation "
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
+   "date": "2026-10-27 23:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "TSMC, NVIDIA Blackwell/Rubin 수요로 CoWoS 가격 20% 인상 검토",
+    "korean_summary": "TSMC가 NVIDIA Blackwell과 Rubin 칩의 수요 압박으로 고급 패키징 기술 CoWoS의 가격을 최대 20% 인상할 것으로 알려졌다."
+   },
+   "summary_data": {
+    "korean_title": "TSMC, Nvidia Blackwell·Rubin 수요로 CoWoS 패키징 가격 최대 20% 인상 검토",
+    "korean_summary": "TSMC가 Nvidia의 Blackwell·Rubin 칩으로 인한 AI 패키징 수요 압박 속에 CoWoS 가격을 최대 20% 인상하는 방안을 검토 중이라고 Trendforce가 보도했다.",
+    "action": {
+     "actor": "TSMC",
+     "action": "CoWoS 첨단 패키징 가격 최대 20% 인상 검토",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "CoWoS 패키징 고객 전반(Nvidia 등 AI 가속기 제조사 포함)"
+    },
+    "key_facts": [
+     "**TSMC가 CoWoS 가격을 최대 20% 인상하는 방안을 검토 중**이라고 Trendforce가 공급망 소스를 인용해 보도",
+     "Nvidia Blackwell은 GPU 다이 2개와 HBM3E 스택 8개를 결합하며, Rubin·Rubin Ultra는 통합도가 더 높아질 것으로 예상",
+     "**Blackwell 테스트 시간은 Hopper 대비 3~4배, Rubin은 최대 7배까지 소요될 수 있음**",
+     "장비 리드타임이 기존 3~6개월에서 최대 8개월로 연장됨",
+     "GlobalFoundries가 TSMC CoWoS용 실리콘 인터포저를 미국에서 생산하는 5년, 20억 달러 계약 체결(2028년 상반기 양산 목표)",
+     "TSMC는 2027년 2nm·3nm급 웨이퍼 가격도 5~10% 인상, 추가 할당 요청 시 최대 25%까지 프리미엄 가능성 검토 중"
+    ],
+    "why_matters": "CoWoS는 AI 가속기 공급망에서 가장 타이트한 병목 구간 중 하나로, **가격 인상은 AI 하드웨어 전체 비용 상승으로 이어져 Nvidia 등 고객사의 마진과 공급 일정에 직접적 영향**을 줄 수 있다. 테스트 시간 증가와 장비 리드타임 연장은 Blackwell·Rubin 세대의 생산 확장 속도 자체를 제약할 가능성을 시사한다.",
+    "subject_angle": "**Nvidia는 자사 최대 공급 제약 요인인 CoWoS 패키징 용량과 가격 리스크를 직접 통제하기 어려운 구조에 놓여 있으며**, Rubin 세대의 통합도 증가가 패키징·테스트 부담을 더 키워 향후 출하 일정과 비용 구조에 변수로 작용할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "TSMC",
+      "context": "CoWoS 패키징 및 웨이퍼 가격 인상 검토 주체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Blackwell·Rubin GPU로 CoWoS 패키징 수요를 견인하는 핵심 고객"
+     },
+     {
+      "name": "GlobalFoundries",
+      "context": "TSMC CoWoS용 실리콘 인터포저를 미국에서 생산하는 5년·20억 달러 계약 파트너"
+     },
+     {
+      "name": "Trendforce",
+      "context": "가격 인상 검토 소식을 보도한 매체"
+     }
+    ],
+    "products": [
+     {
+      "name": "CoWoS",
+      "role": "로직 다이와 HBM 스택을 결합하는 TSMC 첨단 패키징 기술, 가격 인상 대상"
+     },
+     {
+      "name": "Nvidia Blackwell",
+      "role": "GPU 2개 다이 + HBM3E 8스택 구성, 패키징·테스트 부담 가중 요인"
+     },
+     {
+      "name": "Nvidia Rubin / Rubin Ultra",
+      "role": "차세대 GPU로 통합도 및 테스트 시간이 더 증가할 것으로 예상되는 제품"
+     }
+    ],
+    "watch_next": [
+     "TSMC의 CoWoS 가격 인상 공식 발표 여부 및 구체적 인상률",
+     "2027년 웨이퍼 가격 인상(5~10%) 확정 여부와 Nvidia 등 고객 대응",
+     "GlobalFoundries 인터포저 양산(2028년 상반기) 진행 상황 및 CoWoS 공급망 완화 효과"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
+   "body": "TSMC is weighing raising prices for its Chip on Wafer on Substrate (CoWoS) advanced packaging technology by as much as 20%, reports Trendforce , citing supply chain sources and local media. The increase reflects strained capacity amid AI demand and longer delivery times for chipmaking tools. Such a hike would be significant, as CoWoS is already one of the tightest links in the AI supply chain. TSMC has yet to confirm the report. Go deeper with TH Premium: Chipmaking (Image credit: tsmc) Analyzing TSMC's fab expansion roadmap — multi-fab N2 ramp, CoWoS, SoIC, and uncorking bottlenecks Leading-edge foundry roadmaps for TSMC, Intel, and Samsung ASML's roadmap for chipmaking lithography tools examined Chinese chipmaking tool roadmaps examined CoWoS combines logic dies and high-bandwidth memory (HBM) stacks within a single package, which is how AI accelerators get the data bandwidth that demanding workloads require. Building these packages is only getting harder as chip designers cram in more compute and memory. Nvidia’s Blackwell already pairs two large GPU dies with eight HBM3E stacks, whereas the upcoming Rubin and Rubin Ultra are expected to push integration further, which will increase pressure on packaging and the supply chain that supports it. Testing is turning into another bottleneck. Blackwell reportedly takes three to four times longer to test than Nvidia’s previous-generation Hopper, and Rubin could need as much as seven times longer. Extended test cycles keep equipment occupied for longer, which makes it harder to increase output as demand grows. GPUs are not the only products competing for capacity either, as server CPUs and custom ASICs also need advanced packaging, adding more strain to an already crowded supply chain. Tools are also taking longer to arrive, as equipment lead times have reportedly stretched from three to six months to as long as eight months, making timely access to fab equipment increasingly important. As a result, TSMC has reportedly placed this year’s equipment orders at existing prices instead of negotiating discounts or extra features — a departure from its customary approach of using its purchasing power to secure better terms. Essentially, getting the tools on time now appears to matter more to the company than getting them cheaply. The squeeze echoes a report from September, which said that TSMC’s projected semiconductor equipment requirements had almost doubled in six months as the company expanded production to meet AI demand. Cliff Hou, deputy co-COO at TSMC, said that by July the company’s expected equipment needs had reached 1.9 times its original estimate as AI demand accelerated. “Compared with the pattern 30 years ago, we have never seen the demand increase that much, that frequency of changes,” Hou said at the time. TSMC is also trying to broaden its packaging supply chain. Earlier this month, GlobalFoundries agreed to produce silicon interposers for TSMC’s CoWoS in the U.S. under a five-year contract "
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang's Late-Night Calls With President Trump Come as Nvidia's China AI Chip Shipments Fall 44% in the First Half of 2026. Here's Why His Access Matters.",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxEM0ZFcFBLMXZZMjNickc1dS1EX0UwR3VkNWdIWWFWa3pLdUM1WVlpYTNURHpBRUVLcG5jcnEyNXVpN3Q3T3RpTVBRTmJYY04tVXlmaVV5amJlbmYyeDI0THdvVk1sTVBwVGZRT2RJZ3BnUFBraUM3NTdpWGZBVkotT2w1Slh0ZndzNnpUZ3c5c0ZWTlNHVnI5Nk0wRzVD?oc=5",
+   "date": "2026-10-28 06:39",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "중국 출하 44% 급감, Jensen Huang의 정치적 영향력 부각",
+    "korean_summary": "NVIDIA의 2026년 상반기 중국 AI 칩 출하량이 44% 감소한 가운데 CEO Jensen Huang의 정부 관계 중요성이 주목받고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxEM0ZFcFBLMXZZMjNickc1dS1EX0UwR3VkNWdIWWFWa3pLdUM1WVlpYTNURHpBRUVLcG5jcnEyNXVpN3Q3T3RpTVBRTmJYY04tVXlmaVV5amJlbmYyeDI0THdvVk1sTVBwVGZRT2RJZ3BnUFBraUM3NTdpWGZBVkotT2w1Slh0ZndzNnpUZ3c5c0ZWTlNHVnI5Nk0wRzVD",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
+   "date": "2026-10-27 20:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 공급망 파트너와 수십억 달러 규모 용량 확장 협력 발표",
+    "korean_summary": "NVIDIA가 GTC Berlin에서 CoWoS, HBM, 광학 엔진 등 공급망 파트너들과 2028년까지의 다중 수십억 달러 규모 협력을 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Tom's Hardware",
+     "title": "Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity",
+     "link": "https://news.google.com/rss/articles/CBMilANBVV95cUxQSGZheUpEUC1EN2c5VFB0NEp1TldOUmhTVnZCMnRNdmZGVmIxa01nMndWUUFKM3hXblczTklSWE9WVDJSZ0dNMnN3Tm1XaW1LZVAzODdMV2FsTjh1d011ZUJ6S3BKWFdiS0lad1VLOHJPTFZDRV8zYjl1blNhTVV0X1VnZ2IzVXgtLV9feXFkX0pBV2xscmhjb0c2b2daWTIyRUtaMW5jQkZpbjdkeGNJNXBNZVJOR2N5d2k4NnZfNUI2OHI4alFHc1g4dXk2OHJ6bC1xbDZpLVVXVFNfYmxUeW9mRHBQV3RJZ2JpVUVpN201N2dtcHpha2NIOF8wbTl4cGRuZDF0YjdtRXpTWVp5RG5tOGFGV092SDRKSkl5QmU5WV9oamdxdWJXWFNSay1haVRiakxpQ3Ewc1RhS0ZJblRRNDhRRWNHZVkxdG95U1FUZjZXZnNybUhGVDN0a2JUTTByU1ZudWNXX2R3WmhHSUttYXVpbVRqdzBpVUt0VHBTbExWVUlhazhnUEYyQ0RyY1F2Yg?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-is-bankrolling-ai-accelerator-supply-chain-buildout-to-reserve-production-capacity-announces-billion-dollar-deals-with-six-major-suppliers-across-substrates-advanced-packaging-semiconductor-testing-and-optical-engines",
+   "body": "On October 21, during GTC Berlin, Nvidia announced several massive, multi-billion-dollar deals with supply chain partners across substrates, advanced packaging, semiconductor testing, and optical engines to expand production capacity. Aimed at overcoming severe bottlenecks restricting the current and future AI infrastructure buildouts, the deals feature commitments and production roadmaps stretching through 2028, securing capacity for Nvidia and ensuring resiliency and redundancy in its AI accelerator supply chain. “We are in the midst of the largest infrastructure buildout in human history. Demand is extraordinary. Capacity is the constraint,” said Nvidia CEO Jensen Huang. “Our supply chain partners are the world’s best manufacturers. I’m grateful they are expanding capacity around the globe to scale production and help us deliver the AI supercomputing systems powering this new industrial revolution.” The deals cover two major AI accelerator supply chain categories: hardware interconnects and OSAT (Outsourced Semiconductor Assembly and Test). Under hardware interconnects, Nvidia is securing capacity for both substrates and co-packaged optics. Nvidia has signed deals with Ibiden, Unimicron, and Samsung Electro-Mechanics — three of the world's five largest substrate manufacturers — to support its production capacity expansion and reserve significant portions of that capacity for the chipmaker. The company says it plans to secure 2.5x dedicated substrate capacity over the next three years. Nvidia has also signed agreements with SPIL (Siliconware Precision Industries Co., Ltd) to expand manufacturing capacity for the optical engines used in co-packaged optics by 15x by mid-2027. On the OSAT side, Nvidia and Amkor are targeting a 300% increase in interposer wafer capacity by the end of 2028 through expanded advanced packaging capacity in South Korea, to support higher production volumes for Nvidia's platform. The company also plans to double its semiconductor testing capacity by 2027, investing $1.1 billion to reserve capacity from KYEC (King Yuan Electronics Co., Ltd.), the world's largest semiconductor testing company, which currently handles nearly all of Nvidia's chip testing. Nvidia currently leads the AI chip market by a considerable margin, with its extremely powerful accelerators sitting in a vast majority of AI data centers globally. These deals target major bottlenecks in the AI chip supply chain, suggesting Nvidia doesn't plan to relinquish its position soon. So, why these specific deals? What are the exact details? What's the broader play? And where do Nvidia's competitors and the rest of the AI industry stand? Uncorking bottlenecks The substrate base, a specialized intermediary layer in every accelerator package that connects the tiny silicon chips above it to the board below, is one of the most critical bottlenecks in the AI chip supply chain. As we detailed in our comprehensive substrates roadmap , this indispensable physical layer, ma"
+  },
+  {
+   "source": "Google News · Oracle Blogs",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Vera Rubin NVL72 & Vera CPUs on OCI | Oracle",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVlhbnlEZWk5ODRPbzhqa19hanFXNWZHcHdfSnV3Y2JMWlQ2bVBxTkl1V09yRVFjeXJ0ekZROTVfQld6aFlsWVdjQU5xTnNPS0ZRdkdlaXJaUGRTOC1tc0hpOG1XMWZsdG4wbWFJR1lobmtyejVjYlh6emFpMkVZa1E0OA?oc=5",
+   "date": "2026-10-28 02:24",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "partnership"
+    ],
+    "korean_title": "Oracle OCI에 NVIDIA Vera CPU 플랫폼 공개",
+    "korean_summary": "Oracle이 NVIDIA Vera CPU를 탑재한 OCI 컴퓨트 인스턴스를 일반 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLVlhbnlEZWk5ODRPbzhqa19hanFXNWZHcHdfSnV3Y2JMWlQ2bVBxTkl1V09yRVFjeXJ0ekZROTVfQld6aFlsWVdjQU5xTnNPS0ZRdkdlaXJaUGRTOC1tc0hpOG1XMWZsdG4wbWFJR1lobmtyejVjYlh6emFpMkVZa1E0OA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Oracle Blogs",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Announcing General Availability of OCI Compute with NVIDIA Vera CPUs",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iRnBOVFlGUXhQTllUQ1NVZkxWUmdYQVFNZ0YzUTEwbEM5eWluSHJTTHpjQS1SZDhyVGRIeHNaOWZRWjRCRTdmM01KZXFveEtFS0NCYjBRS2huV21TS29STEtWUkliaDdvNkdpSGVJSHZGWnBI?oc=5",
+   "date": "2026-10-28 02:24",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "partnership"
+    ],
+    "korean_title": "OCI 컴퓨트, NVIDIA Vera CPU 일반 제공 시작",
+    "korean_summary": "Oracle이 NVIDIA Vera CPU를 탑재한 OCI 컴퓨트 서비스의 일반 제공을 공식 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5iRnBOVFlGUXhQTllUQ1NVZkxWUmdYQVFNZ0YzUTEwbEM5eWluSHJTTHpjQS1SZDhyVGRIeHNaOWZRWjRCRTdmM01KZXFveEtFS0NCYjBRS2huV21TS29STEtWUkliaDdvNkdpSGVJSHZGWnBI",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barron's",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and AMD Take $4B Chunk of Meta’s Equity. They Are Fighting Custom Chips.",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWRsM3hhTFdOVTR4S2dZWkdCM2lLdUNvajFzRTRIN0wyQXRKUkdYd3hJWlNPQzEtYl8xa0paU3VSNzJUbnI4eE5fdzRGMktOUWE2cFpYMVZ5MEtPaWxuWU9uMUVaMko5dklsM0RmYWM0TGRzejRyRkl5UWt5SHJxag?oc=5",
+   "date": "2026-10-27 23:05",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA·AMD, Meta 40억 달러 지분 획득으로 맞춤형 칩 경쟁 심화",
+    "korean_summary": "NVIDIA와 AMD가 Meta 지분을 각각 획득하면서 Meta의 커스텀 칩 전략에 대항"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWRsM3hhTFdOVTR4S2dZWkdCM2lLdUNvajFzRTRIN0wyQXRKUkdYd3hJWlNPQzEtYl8xa0paU3VSNzJUbnI4eE5fdzRGMktOUWE2cFpYMVZ5MEtPaWxuWU9uMUVaMko5dklsM0RmYWM0TGRzejRyRkl5UWt5SHJxag",
+   "body": ""
+  },
+  {
+   "source": "Google News · PC Gamer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and AMD pump billions more into Meta in an effort to grow global AI efforts",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmtteXg4aHpET2xqd3BOemRxaVNhZUVHdTRoWFE4ejZKNFR0YUJLcm5BSkhDdFRJMFFJNlpZd1M5eTNjRFZtZkxzTUUtdHR3UHo3RGtXLUhFaVpkd01vWmZoN2U5NE85Qk4wZF9RbXdFbGpCN1kxV25BNDc5R0s3c0NmRGV5dDMxUm5ScHNVZVA1TmtnVWVieFYtZk5zU3FmLWg5TlA0dDZvSXZaWS1tbEtmV3ByaDdYb2NVYzdPV3dqc0JLS2NlT2Zubw?oc=5",
+   "date": "2026-10-28 01:34",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA와 AMD, Meta에 수십억 달러 규모 추가 투자",
+    "korean_summary": "NVIDIA와 AMD가 Meta의 글로벌 AI 사업을 위해 수십억 달러 규모를 추가 투자한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdmtteXg4aHpET2xqd3BOemRxaVNhZUVHdTRoWFE4ejZKNFR0YUJLcm5BSkhDdFRJMFFJNlpZd1M5eTNjRFZtZkxzTUUtdHR3UHo3RGtXLUhFaVpkd01vWmZoN2U5NE85Qk4wZF9RbXdFbGpCN1kxV25BNDc5R0s3c0NmRGV5dDMxUm5ScHNVZVA1TmtnVWVieFYtZk5zU3FmLWg5TlA0dDZvSXZaWS1tbEtmV3ByaDdYb2NVYzdPV3dqc0JLS2NlT2Zubw",
+   "body": ""
+  },
+  {
+   "source": "Google News · PC Guide",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia says RTX 5090 is not discontinued, but board partners reportedly can't place any new orders",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXhudExzSUo1Zmp5djkyemU5SWpIMFo2NmtSQkNMUHpmSjlxdkhFTnRHTWM2VU9pTlRJOS15MmVMekhpbDMzcmFMSnRJd3BfMGJJS0pKbEl3UmdGTlZiX0syT1E3THZEZHE4Ty1lMTBKVmdjRjBLdV9VY3dKcmRuelVjc29nNTJvRXNCYXJFRURaemhyQ2tzbThjeVZWbGlPczZnWVVISjFUYWRFQWFoWVhMZDV3bmhkaTF2ZktucHY?oc=5",
+   "date": "2026-10-27 19:48",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA RTX 5090, 단절 아니나 보드 파트너 신규 주문 불가",
+    "korean_summary": "NVIDIA가 RTX 5090을 폐지하지 않았다고 밝혔으나 보드 파트너들이 신규 주문을 받지 못하는 상황이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONXhudExzSUo1Zmp5djkyemU5SWpIMFo2NmtSQkNMUHpmSjlxdkhFTnRHTWM2VU9pTlRJOS15MmVMekhpbDMzcmFMSnRJd3BfMGJJS0pKbEl3UmdGTlZiX0syT1E3THZEZHE4Ty1lMTBKVmdjRjBLdV9VY3dKcmRuelVjc29nNTJvRXNCYXJFRURaemhyQ2tzbThjeVZWbGlPczZnWVVISjFUYWRFQWFoWVhMZDV3bmhkaTF2ZktucHY",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Transfer-Auto (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Transfer-Auto",
+   "date": "2026-10-28 09:14",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Transfer-Auto",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "automotive"
+    ],
+    "korean_title": "Cosmos3-Nano-Transfer-Auto로 자동차 월드 시뮬레이션",
+    "korean_summary": "Cosmos3-Nano-Transfer-Auto가 동기화된 멀티뷰 카메라 비디오와 LiDAR 데이터로 자동차 물리 AI 시뮬레이션을 지원한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 자율주행용 멀티뷰 센서 합성 모델 'Cosmos3-Nano-Transfer-Auto' 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano 베이스 모델의 사후학습 버전인 Cosmos3-Nano-Transfer-Auto를 업데이트해, 텍스트·WSM(World Scenario Map)·LiDAR 조건에 따라 최대 11개 카메라 뷰와 LiDAR를 동시에 합성하는 자율주행 시뮬레이션 모델을 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano-Transfer-Auto 체크포인트를 Hugging Face에 업데이트 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "자율주행 멀티뷰 카메라·LiDAR 합성 모델, Cosmos3-Nano 기반"
+    },
+    "key_facts": [
+     "**최대 11개 표준·어안(fisheye) 카메라 뷰와 LiDAR 관측을 동기화 생성**",
+     "텍스트 프롬프트, 카메라별 World Scenario Map(WSM) 컨트롤, LiDAR 컨트롤을 조건으로 생성",
+     "WSM은 교통표지, 신호등, 차선, 객체 큐보이드 등 주행 장면 구조를 인코딩하고 텍스트는 날씨·조명·시간대 등 외관 속성 지정",
+     "**양방향(bidirectional) 생성 방식으로 배치 합성 데이터 생성에 사용되며, 동일 체크포인트가 causal distillation을 거쳐 폐루프 시뮬레이션용 Cosmos3-Nano-Sim-Auto의 소스가 됨**",
+     "Hugging Face 다운로드 1601회, 좋아요 11개 기록"
+    ],
+    "why_matters": "자율주행 데이터 합성·시뮬레이션은 실차 데이터 수집 비용과 edge-case 커버리지 문제를 해결하는 핵심 수단으로, **멀티뷰+LiDAR 동시 생성 능력은 OEM·자율주행 스택 개발사의 대규모 시나리오 증강에 직접 활용 가능**하다. 동일 체크포인트가 폐루프 시뮬레이션 모델로 증류되는 구조는 생성형 월드모델이 데이터 생성과 실시간 시뮬레이션 양쪽에 재사용되는 플랫폼 전략을 보여준다.",
+    "subject_angle": "**NVIDIA는 Cosmos를 Physical AI 전반의 월드 시뮬레이션 기반 모델로 포지셔닝**하며, 자율주행 전용 변형(Transfer-Auto, Sim-Auto)을 통해 자동차 산업에 특화된 합성 데이터·시뮬레이션 파이프라인을 플랫폼화하고 있다.",
+    "focus_angle": "WSM 기반 제어 가능한 멀티뷰·LiDAR 합성은 **OEM 및 자율주행 개발사가 희소한 edge-case 시나리오를 대량 생성·검증하는 데 활용**할 수 있으며, 폐루프 시뮬레이션용 Sim-Auto로의 증류 구조는 자율주행 스택의 시뮬레이션 기반 검증 및 강화학습 트레이닝에도 연결될 잠재력이 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3-Nano-Transfer-Auto 모델 개발·공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano-Transfer-Auto",
+      "role": "텍스트·WSM·LiDAR 조건 기반 멀티뷰 카메라+LiDAR 합성 모델"
+     },
+     {
+      "name": "Cosmos3-Nano",
+      "role": "본 모델의 베이스 모델"
+     },
+     {
+      "name": "Cosmos3-Nano-Sim-Auto",
+      "role": "causal distillation을 통해 파생되는 폐루프 시뮬레이션 모델"
+     }
+    ],
+    "watch_next": [
+     "Technical Report(coming soon) 공개 시 아키텍처·성능 벤치마크 세부 확인",
+     "Cosmos3-Nano-Sim-Auto의 폐루프 시뮬레이션 실제 활용 사례·파트너 공개 여부",
+     "자동차 OEM·자율주행 업체의 Cosmos3 기반 데이터 파이프라인 채택 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Transfer-Auto:2026-10-28",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, omnimodel, arxiv:1706.08500, arxiv:1812.01717, arxiv:2603.03283 · downloads 1601 · likes 11. README:  # **Interactive World Simulation with Cosmos for Physical AI** **[Cosmos3 Examples Collection](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf)** (coming soon) | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/)** # Model Overview: Cosmos3-Nano-Transfer-Auto The highlighted checkpoint, Cosmos3-Nano-Transfer-Auto, is a post-trained variant of the Cosmos3-Nano base model. ## Description Cosmos3-Nano-Transfer-Auto generates synchronized multi-view camera videos and LiDAR observations. It supports up to 11 standard and fisheye camera views. Generation is conditioned on a text prompt, World Scenario Map (WSM) controls for each camera view, and aligned LiDAR controls when LiDAR output is requested. The WSM inputs encode driving-scene structure, including traffic signs, traffic lights, lane markings, and object cuboids, while the text prompt specifies appearance attributes such as weather, lighting, and time of day. This enables the same driving scenario to be regenerated at scale with controlled variations in scene appearance. The model uses bidirectional generation for batch synthetic data generation and serves as the source checkpoint for causal distillation into Cosmos3-Nano-Sim-Auto, which provides closed-loop simulation with the same multi-view, multi-sensor output modalities. Cosmos3-N"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Metatron-v1 (신규)",
+   "link": "https://huggingface.co/nvidia/Metatron-v1",
+   "date": "2026-10-28 06:43",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/Metatron-v1",
+    "version": "reinforcement-learning"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Metatron v1 휴머노이드 로봇 정책 모델 공개",
+    "korean_summary": "NVIDIA가 Unitree G1 휴머노이드 로봇용 통합 정책 모델 Metatron v1을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 휴머노이드 로봇용 통합 정책 모델 'Metatron v1' 공개",
+    "korean_summary": "NVIDIA가 Unitree G1 휴머노이드 로봇의 보행·장면 상호작용·회복 동작을 하나의 정책으로 통합 처리하는 ONNX 모델 'Metatron v1'을 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Unitree G1 로봇용 통합 scene/recovery 정책의 ONNX 추론 모델(Metatron v1)을 Hugging Face에 신규 공개",
+     "stage": "Available",
+     "timeline": "미확인 (epoch-6410 체크포인트 기준)",
+     "scope": "Unitree G1 휴머노이드 로봇, 브라우저 데모(Metatron demo, G1 Racer) 및 기타 시뮬레이터/실물 로봇 배포 워크플로우"
+    },
+    "key_facts": [
+     "모델명은 Metatron v1으로, **Unitree G1 로봇(29개 제어 관절)**을 대상으로 함",
+     "MaskedMimic 스타일 transformer student 구조에 deterministic prior와 decoder를 사용, FP32 추론",
+     "보행, 장면 상호작용, 회복(recovery) 동작을 별도 어댑터 없이 **단일 정책으로 통합 처리**",
+     "ONNX Runtime Web(WebGPU 또는 WebAssembly) 기반 브라우저 추론 지원, demo/model.onnx(약 403MB)와 racer/network.onnx 두 가지 인터페이스 제공",
+     "다운로드 0, 좋아요 3회로 공개 직후 초기 단계이며 실물 하드웨어 검증 여부는 미확인"
+    ],
+    "why_matters": "휴머노이드 로봇 제어에서 보행·상호작용·회복을 분리된 모듈이 아닌 **단일 통합 정책**으로 처리하는 접근은 복잡한 다중 모드 제어의 안정성과 단순성을 높이는 흐름을 보여준다. NVIDIA가 이를 브라우저에서 바로 실행 가능한 ONNX 형태로 공개함으로써 로보틱스 개발자 생태계 접근성을 낮추는 시도로 해석된다.",
+    "subject_angle": "NVIDIA가 Isaac 계열 시뮬레이션·강화학습 역량을 활용해 **휴머노이드 정책 모델을 직접 배포**함으로써, 하드웨어(Jetson, GPU)뿐 아니라 로봇 소프트웨어 스택까지 영향력을 확대하려는 전략의 일환으로 볼 수 있다.",
+    "focus_angle": "**Unitree G1 같은 휴머노이드 플랫폼에 통합 보행·회복 정책을 제공**함으로써 로봇 OEM과 자율 제어 개발자가 별도 모듈 설계 없이 NVIDIA 생태계(Isaac/ONNX) 위에서 빠르게 실증할 수 있는 기반을 마련하며, 이는 휴머노이드 상용화 경쟁에서 소프트웨어 표준화 주도권 경쟁의 신호로 읽힌다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발 및 Hugging Face 공개 주체"
+     },
+     {
+      "name": "Unitree",
+      "context": "모델이 대상으로 하는 G1 휴머노이드 로봇 제조사"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Metatron v1",
+      "role": "G1 로봇용 통합 보행/장면상호작용/회복 정책 모델"
+     },
+     {
+      "name": "Unitree G1",
+      "role": "정책이 적용되는 29관절 휴머노이드 로봇 플랫폼"
+     },
+     {
+      "name": "ONNX Runtime Web",
+      "role": "WebGPU/WebAssembly 기반 브라우저 추론 런타임"
+     }
+    ],
+    "watch_next": [
+     "실물 G1 하드웨어에서의 검증 결과 공개 여부",
+     "Metatron 정책의 다른 로봇 플랫폼 확장 여부",
+     "NVIDIA Isaac 생태계와의 통합 로드맵 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Metatron-v1:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: reinforcement-learning · library: onnx · tags: onnx, robotics, reinforcement-learning, humanoid, metatron, en · downloads 0 · likes 3. README:  # Metatron v1 — G1 Browser Exports ## Overview ONNX inference exports of the unified Metatron G1 scene/recovery policy used by the Metatron browser demo and G1 Racer. Both files use the same learned policy weights, with different runtime interfaces. They are **not interchangeable**. The current exports are the epoch-6410 SAMP-capable unified student. Walking, scene interaction and recovery share one policy, with no separate recovery adapter. | Field | Value | | --- | --- | | Robot | Unitree G1, 29 controlled joints | | Model | MaskedMimic-style transformer student with deterministic prior and decoder | | Inference | Deterministic learned prior; FP32 | | Format | ONNX | | Integration | ONNX Runtime Web with WebGPU or WebAssembly | ## Intended Use Interactive humanoid control, locomotion and recovery evaluation with the matching browser applications. The applications provide physics, observations, task goals and control logic; the ONNX files alone are not complete demos. Metatron supports deployment workflows beyond the browser, including other simulators and real G1 robots. These particular browser exports require their matching observation and control interfaces: compatibility is not a safety certification or a claim that these exact files have been validated on hardware. ## Artifacts | File | Interface | Size | | --- | --- | --- | | `demo/model.onnx` | Single-robot pipeline, including observation processing and action conversion | 403,375,789 bytes | | `racer/network.onnx`"
+  },
+  {
+   "source": "Google News · https://mikekalil.com/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Is NVIDIA Building a Humanoid Reference Platform or Showcasing Its Partners?",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhSmFtZzYwT29TaXAtSXJ1Mmx2dDNOaG5teFkwUTdQTERXUzYxNjJ0TzBaMnBxdUdJbk1QUlFfOWJ3cDNPQ05CQ2RwZ28tQnRvdkd2bHpmNzU3b2tfaEZoVjRKd3M?oc=5",
+   "date": "2026-10-28 02:22",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, 휴머노이드 레퍼런스 플랫폼을 구축하는가 vs 파트너사를 선보이는가",
+    "korean_summary": "NVIDIA가 독자적 휴머노이드 플랫폼을 개발하는지 또는 파트너사의 솔루션을 추진하는지 분석한 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhSmFtZzYwT29TaXAtSXJ1Mmx2dDNOaG5teFkwUTdQTERXUzYxNjJ0TzBaMnBxdUdJbk1QUlFfOWJ3cDNPQ05CQ2RwZ28tQnRvdkd2bHpmNzU3b2tfaEZoVjRKd3M",
+   "body": ""
+  },
+  {
+   "source": "Google News · OrcaRouter",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Metatron-v1: NVIDIA's Silent Humanoid Robot Policy",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBObTNGQjBiZjVvMFM3X0c5NEd0YWJVQWZpY1VCa01RZEw2WG1CWUFZSEo0empGVUhvVzk1Y3hpRmtTRjJVRDhJOFdUQ2V0R1laQW4wZTJ4aExmaHJmaEhEZUZXUGp4ZXdT?oc=5",
+   "date": "2026-10-28 08:26",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics"
+    ],
+    "korean_title": "Metatron-v1: NVIDIA 휴머노이드 로봇 정책",
+    "korean_summary": "NVIDIA가 휴머노이드 로봇 정책 메타트론-v1을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBObTNGQjBiZjVvMFM3X0c5NEd0YWJVQWZpY1VCa01RZEw2WG1CWUFZSEo0empGVUhvVzk1Y3hpRmtTRjJVRDhJOFdUQ2V0R1laQW4wZTJ4aExmaHJmaEhEZUZXUGp4ZXdT",
+   "body": ""
+  },
+  {
+   "source": "Google News · Logistics Magazine - Australia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Dexory expands warehouse intelligence and robotics safety capabilities with NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ?oc=5",
+   "date": "2026-10-27 08:59",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "Dexory, NVIDIA와 창고 자동화 및 로봇 안전 기능 확대",
+    "korean_summary": "Dexory가 NVIDIA와의 협력으로 창고 자동화 및 로봇 안전 기능을 확대했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQWl3WUd6MDNfaW82bDE0RC1wOWlncFlCY19QdUtjREE5b2V6UERVakVWQXBZLXhaN2JGMlBxWmJ4SEczWkFMay14MnlucVA0OW9obUNiVGQ2OW1WVkoxMy1HT3FfeGs3YXNpVWR3YVZMNU8zNGhQdWJtRWlZLV9RWExVVHRBMWpwQ3l3SVBPdERLUlhBa2RtYlhTQkh1SFpPZzJuS2JVWFI3eEVTYnQ3T1NYS2ZEUXJHZm92N2ItVTI0UQ",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+   "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "date": "2026-10-27 20:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, AI 효율화 스타트업 Simplismart에 1,400만 달러 투자",
+    "korean_summary": "NVIDIA가 GPU 효율성 개선 소프트웨어 개발사 Simplismart의 Series B 펀딩에 참여했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVU1oenJIXzh6LWNpZ2tHNnh3RWptVTFTS25tOUtjd0RxaDE1eEJBT2MyVkRUOS1GSjFUS0xoQ0w0OUxiOEY0Q3ZjMlFEcG82UlU5ejlLSk1BOVpvRkRucldrM2tWV2lZQmtPZ1RFYkIycjZ6a1VKSUxzb3ZwZ1l0VW4tanZyc2lVNk9ESjB5MnVsLVJZbmYwRlFoMXhTeUZpWXpVY0IyUFZpS1FPOVNv?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+     "link": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+   "body": "As the AI boom strains computing capacity, Nvidia has backed Indian startup Simplismart in a $14 million funding round, betting on software that helps companies run AI models more efficiently and, in some cases, with fewer GPUs. Nvidia participated in the all-primary Series B round alongside Accel, Shastra VC, and Micromax, with Dallas Venture Capital leading the investment. The deal values the four-year-old startup at about $100 million, including the new funding. Companies are nowadays spending heavily on GPUs to power AI applications, but running those models reliably and economically at scale remains a challenge. Different workloads demand distinct trade-offs between speed, cost, and performance. Deploying and operating AI models to meet business requirements often also requires complex adjustments. Simplismart says its software automates much of that work, tailoring how models run on existing computing infrastructure instead of requiring customers to manage those configurations themselves. “Nobody actually needs the fastest or the cheapest inference,” Amritanshu Jain (pictured above, left), co-founder and CEO of Simplismart, said in an interview. He added that companies instead need to run AI models at speeds and costs that make sense for their specific applications. Simplismart’s software sits between AI models and the computing infrastructure they run on and adjusts how models are deployed and managed to meet customers’ requirements. It says it can optimize factors such as how quickly a model responds, how many requests it handles, and how much computing power it consumes, helping companies get more out of their existing GPU stack. The Bengaluru-based startup offers companies a way to deploy and run AI models through its own platform or within their existing cloud and on-premises infrastructure. It also provides tools to fine-tune models, automatically scale computing resources as demand changes, and monitor performance. Additionally, Simplismart allows cloud providers to build and operate their own AI inference services on GPU infrastructure using its software. Simplismart says it helped AI video-generation platform InVideo cut its GPU serving costs by 56% using its software. The startup also works with AI video companies HeyGen and Higgsfield, as well as enterprise AI startup Ema, among others. Moreover, Indian cloud provider Yotta uses Simplismart’s technology to power the serverless AI inference service within its Shakti Studio platform. Simplismart’s annualized revenue run rate has grown 14-fold over the past six months to an eight-figure sum, Jain told TechCrunch. The figure is based on recent customer usage rather than contracted recurring revenue and excludes revenue passed through to infrastructure providers, the company said. He did not disclose the exact figure. More than half of Simplismart’s revenue comes from the U.S., despite the startup having more customers in India, Jain said. Alongside its investment, Nvidia has been wor"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "SpaceX closes $40 billion debt financing for GPUs expected in the first half of 2027, Musk says",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
+   "date": "2026-10-27 18:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "SpaceX, 400억 달러 규모 GPU 확보 채권 조달 완료",
+    "korean_summary": "SpaceX가 GPU 확보를 위해 400억 달러 규모 채권 조달을 완료했으며 칩은 2027년 상반기 도착 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/spacex-closes-usd40-billion-debt-financing-for-gpus-expected-in-the-first-half-of-2027-musk-says-company-faces-up-to-usd40-billion-in-additional-fourth-quarter-capital-spending-as-ai-infrastructure-costs-soar",
+   "body": "Elon Musk has confirmed that SpaceX closed $40 billion in debt financing for graphics processing units (GPUs), with the chips expected to arrive in the first half of 2027. He disclosed the deal on X, October 25 (embedded below) while responding to investor Chamath Palihapitiya, who had warned that mounting financing pressures and delays in data center construction could leave AI computing capacity sitting idle next year. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible Musk agreed with that assessment, but argued that SpaceX is better positioned than many of its competitors because it can borrow against revenue from businesses outside AI. “Pretty much,” Musk replied to Palihapitiya on X explaining that debt markets had largely shut off funding for companies without substantial revenue independent of AI data centers. He further said SpaceX had closed $40 billion in debt for GPUs because it has investment-grade status and revenue from its Starlink satellite internet and space businesses. “That means the 200+ neoclouds are going to see guppy-level death and consolidation. Some will make it through, but not many,” Musk wrote. Pretty much. As of the past few weeks, debt markets have almost entirely shut off access to money for any company that doesn’t have substantial revenue independent of AI data centers. SpaceX closed $40B of debt for GPUs, but we’re investment grade and have Starlink & launch revenue.That means the 200+ neoclouds are going to see guppy-level death and consolidation. Some will make it through, but not many. October 25, 2026 It is still, however, unclear what Musk meant by “closed” or whether investors had agreed to the final debt pricing. The disclosure comes as SpaceX prepares for another enormous spending period. CFO Bret Johnsen had stated during SpaceX’s Q3 2026 earnings call that the company expects capital expenditure of $35 billion to $40 billion in Q4 “because of the additional capacity coming online this quarter.” Musk also clarified that the borrowing was primarily callable debt for GPU purchases expected to arrive in the first and second quarters of 2027. “This is primarily callable debt for GPU purchases that will arrive in Q1 and Q2. Not a major factor this quarter,” Musk wrote. Earlier this month, it emerged SpaceX had proposed a $40 billion debt package for Nvidia hardware , estimating that the proposed funding could cover roughly 360,000 Rubin GPUs across 5,000 Nvidia NVL72 racks. The proposed package reportedly included $10 billion in bank loans and $30 billion in investment-grade debt. Musk has now said the financing has closed, but has not c"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "SoleCrypt ups size of planned data center campus in Bizerte, Tunisia",
+   "link": "https://www.datacenterdynamics.com/en/news/solecrypt-ups-size-of-planned-data-center-campus-in-bizerte-tunisia/",
+   "date": "2026-10-28 00:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "SoleCrypt, Tunisia에 NVIDIA Rubin GPU 1,728개 배치 계획",
+    "korean_summary": "SoleCrypt가 Tunisia Bizerte에 40MW 규모 AI 데이터센터 캠퍼스를 개발하며, 첫 7MW에서 NVIDIA Rubin NVL8 1,728개를 배치해 2028년 초 가동할 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/solecrypt-ups-size-of-planned-data-center-campus-in-bizerte-tunisia",
+   "body": "SoleCrypt has grown the size of a planned data center in Tunisia and provided details on the project timelines. The company last week announced plans for the SoleCrypt AI Campus in Bizerte. The first 7MW of the planned 40MW campus will be designed to host Nvidia’s HGX Rubin NVL8 hardware. The first phase, designed to deploy 1,728 Nvidia Rubin GPUs, could go live in early 2028. Full details haven’t been shared, but the project will reportedly be located approximately 3.6 km (2.23 miles) from the Medusa subsea cable landing site in Bizerte, via a routed fiber path. SoleCrypt said the development is supported by a dedicated 60MW solar and Battery Energy Storage System (BESS) project across 100 hectares, some 525km (326 miles) away in Tozeur. Launched in 2022, SoleCrypt focuses on developing data centers powered by solar assets. The company previously outlined plans to develop a 20MW data center in Bizerte. SoleCrypt signed a Memorandum of Understanding (MoU) with Safozi, a Tunisian cloud and data infrastructure provider, late last year. The first phase of the Medusa cable, linking Marseille in France and Bizerte in Tunisia, went live earlier this year."
+  },
+  {
+   "source": "Google News · VentureBeat",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Oracle expand Vera Rubin cloud infrastructure, pitching better utilization as enterprises report idle GPUs",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZmFjeGg0ZE1xWE9hdllqNDdLNEpYaFd4dmpzTl84dmNkVGpvYXNXR3M2dkczcHJZWjE1bWtubzdqa2tkWkR1UXVrTHpmUDVvQ19VcmdzTUI5M01vYUJfSlkyNHlQcE9DWUVRcl9KSmJmb0pLVWRJN0YwTWJVaEhZTzR1UjRSQThZN0JvU0QweFFmUDV4UUg1eUtCVmV5dzVibk5BTnNpSTVtcElZOHBUSVg2MnZ0SW96Z1UxVEtNb1NVZFBwcEJzeVR2WnlHbmQtaGxCSW9tTUFqS3lvbFNwQktOdU9JUi1yWmNn?oc=5",
+   "date": "2026-10-28 04:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Oracle, Vera Rubin 클라우드 인프라 확대",
+    "korean_summary": "NVIDIA와 Oracle이 클라우드 인프라를 확대하며 GPU 활용도 개선을 강조한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZmFjeGg0ZE1xWE9hdllqNDdLNEpYaFd4dmpzTl84dmNkVGpvYXNXR3M2dkczcHJZWjE1bWtubzdqa2tkWkR1UXVrTHpmUDVvQ19VcmdzTUI5M01vYUJfSlkyNHlQcE9DWUVRcl9KSmJmb0pLVWRJN0YwTWJVaEhZTzR1UjRSQThZN0JvU0QweFFmUDV4UUg1eUtCVmV5dzVibk5BTnNpSTVtcElZOHBUSVg2MnZ0SW96Z1UxVEtNb1NVZFBwcEJzeVR2WnlHbmQtaGxCSW9tTUFqS3lvbFNwQktOdU9JUi1yWmNn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Oracle Adds Nvidia Vera CPU, Intel Diamond Rapids, Cerebras AI Inference to Cloud Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1ZCMjJqRnNHQUlGckw2YjRHQkl6Znh6MDFCdGItajdheC1fU29yS3pqTzlacE10Z0h5RjkweEFDNmRZM0wwS3NRVF8zNzlDaEtDdm1xMkhfdzhONThBcnNIM0lBRWdwM0RRNmVMN2NOY3FSWU5fdGdvVDNST1J2RHFxNTdlSHVtRFNCdWRoXzFtR0sxSmc?oc=5",
+   "date": "2026-10-28 02:43",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Oracle 클라우드, NVIDIA Vera CPU 지원 추가",
+    "korean_summary": "Oracle이 클라우드 인프라에 NVIDIA Vera CPU와 경쟁사 AI 칩들을 추가 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd1ZCMjJqRnNHQUlGckw2YjRHQkl6Znh6MDFCdGItajdheC1fU29yS3pqTzlacE10Z0h5RjkweEFDNmRZM0wwS3NRVF8zNzlDaEtDdm1xMkhfdzhONThBcnNIM0lBRWdwM0RRNmVMN2NOY3FSWU5fdGdvVDNST1J2RHFxNTdlSHVtRFNCdWRoXzFtR0sxSmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · MIXED News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huang puts Nvidia software licensing at about $2,000 per GPU a year, report says",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN0xXZ2lGczlFTFVGaFNmYmVyQVhjNmtaWG55NF9ZOUw5VWxXczdfQ3dWdXRQd3Y3OTNCRmNMb1M1VDJ0QVpHOEJQbVNheXNVRU03MTh4RlZ2X3pFd29jd0tkUFI4Z2k1QjBSZTZoYTRrbTNxY1ZmWmJmRnV1ZUZrVWl3?oc=5",
+   "date": "2026-10-28 09:06",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, GPU당 소프트웨어 라이선싱 연간 2,000달러 수준",
+    "korean_summary": "NVIDIA CEO 황젠순이 소프트웨어 라이선싱 모델에서 GPU당 연간 약 2,000달러 가격을 제시한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN0xXZ2lGczlFTFVGaFNmYmVyQVhjNmtaWG55NF9ZOUw5VWxXczdfQ3dWdXRQd3Y3OTNCRmNMb1M1VDJ0QVpHOEJQbVNheXNVRU03MTh4RlZ2X3pFd29jd0tkUFI4Z2k1QjBSZTZoYTRrbTNxY1ZmWmJmRnV1ZUZrVWl3",
+   "body": ""
+  },
+  {
+   "source": "Google News · SDxCentral",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia pushes beyond GPUs with $2K-per-GPU enterprise software licensing strategy",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWZqMnh4ZExGSmFQdC1objVUdi1VdWdCWHkyUDZfV2xxWEdETHNMS1k1YXlUSHBVOW50VW05WjFfN1ExcWhmUDRiVmxfUWFtV1k0dEpqeGVzdzN2S1ByVm1yclMyTmpFZnlGUjRZOVkwT2s1OE9qNHQzb2Q5MzFBR3ltV1gxMHg3TGpERkNuN0NCWkdTY0ZEUkZhQ1doQ3FoVVUxM0l0RlpncGdqTjl5VS11VQ?oc=5",
+   "date": "2026-10-28 01:51",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, GPU당 2천 달러 엔터프라이즈 소프트웨어 라이선싱 전략 추진",
+    "korean_summary": "NVIDIA가 GPU당 2천 달러의 엔터프라이즈 소프트웨어 라이선싱으로 수익 모델을 다각화한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWZqMnh4ZExGSmFQdC1objVUdi1VdWdCWHkyUDZfV2xxWEdETHNMS1k1YXlUSHBVOW50VW05WjFfN1ExcWhmUDRiVmxfUWFtV1k0dEpqeGVzdzN2S1ByVm1yclMyTmpFZnlGUjRZOVkwT2s1OE9qNHQzb2Q5MzFBR3ltV1gxMHg3TGpERkNuN0NCWkdTY0ZEUkZhQ1doQ3FoVVUxM0l0RlpncGdqTjl5VS11VQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TestingCatalog AI News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA and Meta expand Muse collaboration for AI agents",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVc2MkVHMWU2RWlOQUNSOHlaSjZqaXI1cGRIWUhNalZTLWYxWEc5Z2dHNmlsZnJjN05paXJsQkZZX3h3cE92ZjEyaFJzWHJWS0tfUjE4TDk2VWdBcndSNDZQODBZQ1RQY1ZYNGlib3R2eEtFNEJlQ2I1Z25BNWl6SUFIaG1VeDU3Slc2WmFHdkM?oc=5",
+   "date": "2026-10-27 20:38",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA와 Meta, Muse AI 에이전트 협력 확대",
+    "korean_summary": "NVIDIA와 Meta이 AI 에이전트용 Muse 협력을 구체적으로 확대한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbVc2MkVHMWU2RWlOQUNSOHlaSjZqaXI1cGRIWUhNalZTLWYxWEc5Z2dHNmlsZnJjN05paXJsQkZZX3h3cE92ZjEyaFJzWHJWS0tfUjE4TDk2VWdBcndSNDZQODBZQ1RQY1ZYNGlib3R2eEtFNEJlQ2I1Z25BNWl6SUFIaG1VeDU3Slc2WmFHdkM",
+   "body": ""
+  },
+  {
+   "source": "Google News · DQ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Siemens and Nvidia advance AI-powered PCB inspection from digital twin to factory",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMFBVeWVRY01XVWVtYms4NElaOWQ4MVdBaHVVSFljRlZyRjdwSUxJUUtFNU8tUTItVWFzVG1sUUtvX2hRLWJFYWszN0VIenVPMGEzcE90cVQ2eTNyTzFFVHhtcGpOU0NrYVVPek9JZktpVEpaOUpEc2NkVVZJQ3lYY2xTVmhVOWFPN2ExMGNLYXk2MWdlemt4LWlta09aX1JqTFRBVjlEVlhwU0duYklmamFlRjdVdFlIUzVVTmQyQmtpTEhkaU5oaks2NmVTTkZqMVHSAdIBQVVfeXFMTjBQVXllUWNNV1VlbWJrODRJWjlkODFXQWh1VUhZY0ZWckY3cElMSVFLRTVPLVEyLVVhc1RtbFFLb19oUS1iRWFrMzdFSHp1TzBhM3BPdHFUNnkzck8xRVR4bXBqTlNDa2FVT3pPSWZLaVRKWjlKRHNjZFVWSUN5WGNsU1ZoVTlhTzdhMTBjS2F5NjFnZXpreC1pbWtPWl9SakxUQVY5RFZYcFNHbmJJZmphZUY3VXRZSFM1VU5kMkJraUxIZGlOaGpLNjZlU05GajFR?oc=5",
+   "date": "2026-10-27 07:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Siemens와 NVIDIA, AI 기반 PCB 검사 기술 고도화",
+    "korean_summary": "Siemens와 NVIDIA가 디지털 트윈에서 실제 공장으로 AI 기반 PCB 검사 기술을 발전시켰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMFBVeWVRY01XVWVtYms4NElaOWQ4MVdBaHVVSFljRlZyRjdwSUxJUUtFNU8tUTItVWFzVG1sUUtvX2hRLWJFYWszN0VIenVPMGEzcE90cVQ2eTNyTzFFVHhtcGpOU0NrYVVPek9JZktpVEpaOUpEc2NkVVZJQ3lYY2xTVmhVOWFPN2ExMGNLYXk2MWdlemt4LWlta09aX1JqTFRBVjlEVlhwU0duYklmamFlRjdVdFlIUzVVTmQyQmtpTEhkaU5oaks2NmVTTkZqMVHSAdIBQVVfeXFMTjBQVXllUWNNV1VlbWJrODRJWjlkODFXQWh1VUhZY0ZWckY3cElMSVFLRTVPLVEyLVVhc1RtbFFLb19oUS1iRWFrMzdFSHp1TzBhM3BPdHFUNnkzck8xRVR4bXBqTlNDa2FVT3pPSWZLaVRKWjlKRHNjZFVWSUN5WGNsU1ZoVTlhTzdhMTBjS2F5NjFnZXpreC1pbWtPWl9SakxUQVY5RFZYcFNHbmJJZmphZUY3VXRZSFM1VU5kMkJraUxIZGlOaGpLNjZlU05GajFR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Blockmate Ventures enters AI compute market with NVIDIA B200 GPU investment",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeTlKWm9Lejg3TjExem5GRmE5a0M5eHFza3BCSUJfMUZuQTRMd3IyeFhDcm9LbmdsY0Z2aF9ENDlXZGNQZnhUNFhFTjVITkZBTFBxSlREVndsaHYzZVhBZzBNeVFyeTl6SldGbFBOY09sbzlsS1lmX1FDUkJSNUY3cWNBbUM2UzlSdlpN?oc=5",
+   "date": "2026-10-28 01:03",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Blockmate Ventures, NVIDIA B200으로 AI 컴퓨트 시장 진입",
+    "korean_summary": "Blockmate Ventures가 NVIDIA B200 GPU에 투자하여 AI 컴퓨트 시장에 진입했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeTlKWm9Lejg3TjExem5GRmE5a0M5eHFza3BCSUJfMUZuQTRMd3IyeFhDcm9LbmdsY0Z2aF9ENDlXZGNQZnhUNFhFTjVITkZBTFBxSlREVndsaHYzZVhBZzBNeVFyeTl6SldGbFBOY09sbzlsS1lmX1FDUkJSNUY3cWNBbUM2UzlSdlpN",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Sim-Bimanual (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Bimanual",
+   "date": "2026-10-28 09:13",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Sim-Bimanual",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Cosmos3 물리 AI 양팔 제어 시뮬레이션 모델 업데이트",
+    "korean_summary": "NVIDIA의 Cosmos3 플랫폼 양팔 동작 시뮬레이션 Nano 모델이 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Sim-Bimanual:2026-10-28",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, omnimodel, arxiv:2512.01989, arxiv:2605.15178, arxiv:1801.03924 · downloads 766 · likes 8. README:  # **Interactive World Simulation with Cosmos for Physical AI** **[Cosmos3 Examples Collection](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf)** (coming soon) | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/)** # Model Overview: Cosmos3-Nano-Sim-Bimanual The highlighted checkpoint, Cosmos3-Nano-Sim-Bimanual, is a post-trained, causal-distilled variant of the Cosmos3-Nano base model. ## Description Cosmos3-Nano-Sim-Bimanual simulates how an environment evolves in response to a bimanual robot’s actions. It supports interleaved camera navigation and robot manipulation within a single action sequence in both open-loop and closed-loop settings, enabling continuous simulation across changes in camera pose and robot arm or gripper state. Given an initial image and a sequence of control inputs, the model generates video in small latent-frame chunks conditioned on cached history and incoming robot actions or camera trajectories. Control inputs can be supplied at any point during a rollout by a policy model, such as a vision-language-action (VLA) model or a world-action model, or by a human-operated joystick. These capabilities support robotic policy evaluation and verification, reinforcement learning (RL) training, and synthetic demonstration data generation without teleoperation when contro"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Sim-Transfer (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Transfer",
+   "date": "2026-10-28 09:14",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Sim-Transfer",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Cosmos3 전이학습 시뮬레이션 모델 업데이트",
+    "korean_summary": "NVIDIA의 Cosmos3 플랫폼 전이학습 기능의 Nano 모델이 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Sim-Transfer:2026-10-28",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, omnimodel, arxiv:2512.01989 · downloads 759 · likes 11. README:  # **Interactive World Simulation with Cosmos for Physical AI** **[Cosmos3 Examples Collection](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf)** (coming soon) | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/)** # Model Overview: Cosmos3-Nano-Sim-Transfer The highlighted checkpoint, Cosmos3-Nano-Sim-Transfer, is a post-trained, causal-distilled few-step variant of the Cosmos3-Nano base model. ## Description **Depth and segmentation:** Controls on top, corresponding generated RGB videos below. **Edge and blur:** Controls on top, corresponding generated RGB videos below. Cosmos3-Nano-Sim-Transfer generates photorealistic RGB video conditioned on simulator-rendered control sequences, such as depth maps, segmentation masks, edge maps, or blurred images, and a text prompt. It is designed for real-time integration with simulators such as NVIDIA Isaac Lab, generating visual observations that preserve the scene geometry and dynamics specified by the simulator controls. Policies developed in these simulators can be trained and evaluated using the generated photorealistic observations while the underlying simulation and its ground-truth state remain unchanged. The simulator remains responsible for physics, scene state, and ground-truth annotations, while the model generates visual appearance c"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/nemotron-labs-unified-asr-0.6b (업데이트)",
+   "link": "https://huggingface.co/nvidia/nemotron-labs-unified-asr-0.6b",
+   "date": "2026-10-27 22:33",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/nemotron-labs-unified-asr-0.6b",
+    "version": "automatic-speech-recognition"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron ASR 모델, 25개 유럽 언어 지원 확대",
+    "korean_summary": "Nemotron-Labs-Unified-ASR-0.6b가 다국어 통합 음성인식을 지원하도록 25개 유럽 언어를 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/nemotron-labs-unified-asr-0.6b:2026-10-27",
+   "body": "Hugging Face 모델 업데이트. pipeline: automatic-speech-recognition · library: nemo · tags: nemo, speech-recognition, unified-asr, offline-asr, streaming-asr, automatic-speech-recognition, speech, audio, FastConformer, RNNT, Parakeet, ASR · downloads 4 · likes 12. README:  # Nemotron-Labs-Unified-ASR-0.6b: Unified ASR model for offline and streaming multilingual inference Nemotron-Labs-Unified-ASR-0.6b is the multilingual version of [Parakeet-unified-en-0.6b](https://huggingface.co/nvidia/parakeet-unified-en-0.6b) — a unified automatic speech recognition (ASR) model that combines offline and streaming inference (with a minimum algorithmic latency of 160ms) in a single model [1]. It extends the English-only unified model to **25 European languages**, and is trained primarily on the [Granary](https://huggingface.co/datasets/nvidia/Granary) dataset [5], [6] using the same training data composition as [parakeet-tdt-0.6b-v3](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3). The model transcribes speech with punctuation and capitalization support, and uses **language-ID prompt conditioning** on the encoder to select the target language at inference time. In our evaluation setup, the new unified model outperforms [parakeet-tdt-0.6b-v3](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3) in offline mode and [nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) in most streaming scenarios with algorithmic latency down to 160ms (see [Comparison with already released models](#comparison-with-already-released-models)). The new unified model also serves as a strong ASR front end for cascaded streaming speech translation (see [Streaming Speech Translation](#streaming-speech-translation-asr--llm-cascade)). Key ca"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 22,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "403 Client Error: Forbidden for url: https://semianalysis.com/feed/",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 75.8
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 19,
+   "enriched": 19,
+   "error": "",
+   "sec": 7.9
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 6,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 14,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 23.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 6,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 42,
+   "enriched": 42,
+   "error": "",
+   "sec": 7.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
