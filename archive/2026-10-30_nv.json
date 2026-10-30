@@ -1,0 +1,2155 @@
+{
+ "subject": "nvidia",
+ "date": "2026-10-30",
+ "window": [
+  "2026-10-29",
+  "2026-10-30"
+ ],
+ "generated": "2026-10-30T10:06:00+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 **SpaceX**에 180억 달러 규모 지분 투자를 공개하며 우주·AI 인프라 협력을 강화한다.",
+  "NVIDIA가 자율주행 평가용 **Cosmos3-Nano-Sim-Auto**를 업데이트해 실시간 폐루프 주행 시뮬레이션 성능을 높였다.",
+  "미 DOJ가 Nvidia의 130억 달러 **Hugging Face 인수**에 대해 반독점 조사에 착수했다."
+ ],
+ "cards": [
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "\"사업이 우선\" 지분 희석 감수한 이해진…네이버, 승부수 [정지은의 테크킥]",
+   "link": "https://www.hankyung.com/article/202610294744i",
+   "date": "2026-10-30 08:15",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 네이버에 10억 달러 투자해 3대 주주 확보",
+    "korean_summary": "NVIDIA가 네이버에 10억 달러 규모의 전략적 투자를 실행해 지분 4.54%를 확보하고 3대 주주로 올라섰으며, Brookfield와 함께 글로벌 AI 팩토리 구축 사업을 추진한다."
+   },
+   "summary_data": {
+    "korean_title": "이해진 의장, 지분 희석 감수하고 네이버 3대 주주로 엔비디아 받아들여",
+    "korean_summary": "네이버가 엔비디아를 대상으로 10억달러 규모 제3자 배정 유상증자를 실시해 엔비디아가 네이버 3대 주주로 올라서며, 양사는 자본·GPU 공급망을 결합한 글로벌 AI 팩토리 사업을 본격화한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "NAVER 대상 10억달러 규모 제3자 배정 유상증자에 참여해 신주 724만1564주 취득, 지분 4.54% 확보",
+     "stage": "Announced",
+     "timeline": "다음달(2026년 11월) 3일 발행주식수 확정, 6일 납입 완료, 27일 신주 발행 및 지분 취득",
+     "scope": "NAVER 지분 투자, 한국 시장, 글로벌 AI 팩토리 사업"
+    },
+    "key_facts": [
+     "NAVER가 엔비디아를 대상으로 **10억달러 규모 제3자 배정 유상증자**를 30일 공시, 2008년 코스피 이전 상장 이후 첫 제3자 배정 유상증자",
+     "엔비디아는 신주 724만1564주를 취득해 **NAVER 지분 4.54% 확보**, 국민연금공단(9.49%)·블랙록(7.31%)에 이어 3대 주주 등극",
+     "이해진 의장의 지분율은 4.03%에서 3.84%로 하락",
+     "NAVER·NVIDIA·브룩필드(대체자산운용사)가 함께 '글로벌 AI 팩토리' 구축 사업 추진",
+     "업계는 이번 투자가 NAVER의 GPU 확보뿐 아니라 '소버린 AI' 사업 참여 기회 확대로 이어질 것으로 전망"
+    ],
+    "why_matters": "NVIDIA가 단순 반도체 공급자에서 벗어나 고객사 지분까지 확보하는 자본 결합형 AI 인프라 전략을 심화하고 있음을 보여준다. **일부 글로벌 빅테크의 자본력이 컴퓨팅 인프라·핵심 기술 경쟁을 주도**하는 흐름 속에서 NVIDIA는 한국 소버린 AI 시장 진입의 교두보를 확보했다.",
+    "subject_angle": "NVIDIA는 GPU 판매를 넘어 **지분 투자를 통한 전략적 파트너십**으로 각국 AI 팩토리·소버린 AI 사업에 직접 참여하는 생태계 확장 모델을 구축하고 있다.",
+    "focus_angle": "본문은 자동차·로봇 분야를 직접 언급하지 않으나, NVIDIA가 추진하는 글로벌 AI 팩토리·소버린 AI 인프라 모델은 향후 자율주행·휴머노이드 로봇 학습에 필요한 대규모 컴퓨팅 자원 확보 전략과 동일한 축으로, 이러한 자본 결합형 파트너십이 자동차 OEM·로봇 기업과의 유사한 협력 구조로 확장될 가능성을 시사한다(미확인: 자동차·로봇 분야 직접 연계 계획).",
+    "companies": [
+     {
+      "name": "NAVER",
+      "context": "엔비디아 대상 제3자 배정 유상증자 실시, 글로벌 AI 팩토리 사업 공동 추진 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "10억달러 투자로 NAVER 지분 4.54% 확보, 3대 주주 등극"
+     },
+     {
+      "name": "Brookfield",
+      "context": "대체자산운용사로 NAVER·NVIDIA와 글로벌 AI 팩토리 구축 공동 추진"
+     },
+     {
+      "name": "국민연금공단",
+      "context": "NAVER 최대 주주(9.49%)"
+     },
+     {
+      "name": "BlackRock",
+      "context": "NAVER 2대 주주(7.31%)"
+     }
+    ],
+    "products": [
+     {
+      "name": "글로벌 AI 팩토리",
+      "role": "NAVER·NVIDIA·Brookfield가 공동 구축하는 AI 인프라 사업"
+     },
+     {
+      "name": "GPU(엔비디아 AI 반도체)",
+      "role": "NAVER가 확보하려는 핵심 컴퓨팅 인프라 자원"
+     }
+    ],
+    "watch_next": [
+     "다음달 3일 최종 발행주식수 확정 및 6일 납입 완료 여부",
+     "다음달 27일 신주 발행 후 엔비디아의 실제 지분 취득 및 이사회 참여 여부",
+     "글로벌 AI 팩토리 사업의 구체적 투자 규모·지역·소버린 AI 수주 계획 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "한국경제 IT",
+     "title": "엔비디아, 다음달 27일 네이버 3대 주주 오른다",
+     "link": "https://www.hankyung.com/article/202610294746i"
+    }
+   ],
+   "uid": "https://www.hankyung.com/article/202610294744i",
+   "body": "AI 추천 뉴스 “사업이 우선” 지분 희석 감수한 이해진…네이버, 승부수 던졌다 [정지은의 테크킥] 네이버, 엔비디아 유증 실시 공시 엔비디아, 지분 4.54% 확보 다음달 27일 네이버 3대 주주로 이해진 지분율 4.03%→3.84% 엔비디아 자본·GPU 공급망 활용 글로벌 AI 팩토리 사업 본격화 엔비디아가 다음달 27일 네이버의 3대 주주에 오른다. 네이버와 엔비디아, 대체자산운용사 브룩필드가 손잡고 추진하는 ‘글로벌 인공지능(AI) 팩토리’ 구축 사업이 본격화한다. 이해진 네이버 이사회 의장이 지분율 희석을 감수하면서 글로벌 AI 시장에서 경쟁력을 확보하기 위한 승부수를 던졌다는 평가가 나온다. ○다음달 6일 유상증자 마무리 네이버는 엔비디아를 대상으로 10억달러 규모의 제3자 배정 유상증자를 실시한다고 30일 공시했다. 다음달 3일 최종 발행 주식 수를 확정하고 6일 납입을 완료할 예정이다. 신주 발행 예정일은 다음달 27일이다. 엔비디아는 다음달 27일 신주 724만1564주를 취득해 네이버 지분 4.54%를 확보한다. 국민연금공단과 블랙록에 이어 3대 주주에 오르는 것이다. 네이버가 제3자 배정 유상증자에 나선 것은 2008년 코스피 이전 상장 이후 처음이다. 이번 투자로 네이버의 주요 주주 구성에도 변화가 생긴다. 올해 8월 기준 네이버의 최대 주주는 지분 9.49%를 보유한 국민연금공단이다. 블랙록(7.31%)과 이해진 의장(4.03%)이 뒤를 잇는다. 다음달 6일 엔비디아가 지분 4.54%를 확보하면 이 의장의 지분율은 3.84%로 낮아질 전망이다. 투자은행(IB) 업계 관계자는 “이 의장이 지분율 희석까지 감수하면서 엔비디아를 3대 주주로 받아들인 것은 과감한 결단으로 보인다”고 말했다. 단기적인 지분 이해관계보다 글로벌 빅테크와 경쟁할 수 있는 사업 기반을 확보하는 데 무게를 뒀다는 분석이다. 갈수록 격화하는 글로벌 AI 경쟁에서 살아남기 위한 전략적 선택이라는 평가도 나온다. ○“사업이 우선…지분 중요하지 않다” 이 의장은 과거에도 사업 확장을 위해서라면 자신의 지분율 유지에 연연하지 않겠다는 뜻을 밝혀왔다. 1999년 네이버 창립 이후 주요 사업 변곡점을 거칠 때마다 지분율이 낮아졌다. 한게임과 합병해 NHN이 출범한 2000년 이 의장의 지분율은 12.13%였다. 코스닥 상장 시점인 2002년에는 7.82%로 낮아졌다. 이듬해에는 기업공개(IPO) 과정에서 분쟁을 겪은 새롬기술에 개인 주식을 매도하기로 한 약속을 이행하면서 지분율이 6%대로 떨어졌다. 2008년 코스피 이전 상장 당시 이 의장의 지분율은 5.10%까지 낮아졌다. NHN에서 분할해 네이버가 출범한 2013년에는 4%대로 내려왔다. 이 의장은 지난해 11월 두나무와 네이버파이낸셜의 주식 교환을 통한 기업 결합을 발표하는 기자간담회에서도 지분율 감소를 우려하지 않느냐는 질문에 “사업이 우선이지 제 지분은 중요하지 않다”며 “지분은 중요한 고려 대상이 늘 아니었다”고 강조했다. 이번 엔비디아의 지분 투자는 이 의장의 지분율 감소를 넘어 네이버가 글로벌 AI 인프라 사업으로 영역을 넓히는 계기로 봐야 한다는 게 업계의 분석이다. AI 경쟁력을 확보하려면 막대한 자본을 바탕으로 고성능 반도체와 컴퓨팅 인프라를 확보하고, 이를 활용할 기술과 운영 역량을 갖추는 것이 중요하기 때문이다. 업계 관계자는 “AI 시장은 일부 글로벌 빅테크가 막대한 자본력을 앞세워 컴퓨팅 인프라와 핵심 기술 경쟁을 주도하는 양상으로 치닫고 있다”며 “네이버가 글로벌 AI 시장에서 경쟁력을 확보하기 위해 엔비디아와 두터운 관계를 쌓은 것으로 풀이된다”고 말했다. 업계에서는 엔비디아와의 자본·사업 협력이 네이버의 AI 경쟁력을 끌어올리는 계기가 될 것으로 보고 있다. 네이버가 기대할 수 있는 효과는 그래픽처리장치(GPU) 확보에 그치지 않는다. 엔비디아와의 협력 관계를 바탕으로 각국 정부와 기업이 자체 AI 역량을 확보하기 위해 추진하는 ‘소버린 AI’ 사업에도 참여 기회를 넓힐 수 있다. 네이버의 소프트웨어와 플랫폼, 데이터센터 운영 역량을 엔비디아의 AI 반도체 및 기술 생태계와 결합해 글로벌 AI 인프라 시장을 공략할 수 있다는 전망이다. 정지은 기자 jeong@hankyung.com"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Just Disclosed an $18 Billion Stake in SpaceX. Here's What Jensen Huang Sees That the Market Doesn't.",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTjVjYXFGQ2w3cUZOekZNN0huRGFrSjE2NTBjbVdzcThoX0I0ODJDdlhzSXRYZEdHb0xFUXpQWWFGMktTNndKZWpMYkdSNXVOTUJsWnhKNkhTZi1mUy1zUGVUVXFoYTJQaFhhYlEwbVVUR0dhbVNzeS1KVmNTclpndlJYRFNKTzhHeXRPY1VWV2pVb1ZlQnRxZjM4ZVl6UQ?oc=5",
+   "date": "2026-10-29 22:30",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": true,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, SpaceX에 180억 달러 투자 공개",
+    "korean_summary": "NVIDIA가 SpaceX에 180억 달러 규모의 지분 투자를 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Nvidia Just Disclosed an $18 Billion Stake in SpaceX. Here's What Jensen Huang Sees That the Market Doesn't.",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRnEtWVYycnFsM0duN0NBbWdJWHZiZ0gxQ2xZaG45ZHNlV0s3ck9xbUdudzAwQzIxYkUzMUEySzh5MnNsMU1tZnZQbmluNVRyS0RDd0JqTlNzQ0M1TW9PTERrMkR0YmphMXV4TDJ1TFk5UkY4Qm1LNkJGd3dwQnBHNzBCSlZ6T294VUNuNzJsQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTjVjYXFGQ2w3cUZOekZNN0huRGFrSjE2NTBjbVdzcThoX0I0ODJDdlhzSXRYZEdHb0xFUXpQWWFGMktTNndKZWpMYkdSNXVOTUJsWnhKNkhTZi1mUy1zUGVUVXFoYTJQaFhhYlEwbVVUR0dhbVNzeS1KVmNTclpndlJYRFNKTzhHeXRPY1VWV2pVb1ZlQnRxZjM4ZVl6UQ",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
+   "date": "2026-10-29 21:49",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a",
+     "regulation"
+    ],
+    "korean_title": "미 법무부, NVIDIA 130억 달러 Hugging Face 인수 반독점 조사",
+    "korean_summary": "미국 법무부가 NVIDIA의 Hugging Face 인수가 AI 시장 경쟁에 미치는 영향을 조사 중이다."
+   },
+   "summary_data": {
+    "korean_title": "DOJ, Nvidia의 130억 달러 Hugging Face 인수 반독점 조사 착수",
+    "korean_summary": "미국 법무부(DOJ)가 Nvidia의 **Hugging Face 인수(약 130억 달러)**가 AI 업계 경쟁에 미칠 영향을 조사하고 있다고 Reuters가 보도했다.",
+    "action": {
+     "actor": "U.S. Department of Justice (DOJ)",
+     "action": "Nvidia의 Hugging Face 인수가 AI 시장 경쟁에 미치는 영향에 대해 질의/조사",
+     "stage": "Report",
+     "timeline": "미확인 (조사 시점 불명, 인수는 2026년 9월 합의, 완료 예상은 2027년 상반기)",
+     "scope": "Hugging Face 플랫폼 및 AI 인프라 사업, 미국 내 AI 경쟁 구도"
+    },
+    "key_facts": [
+     "Nvidia는 2026년 9월 Hugging Face를 **약 130억 달러**에 인수하기로 합의",
+     "Reuters 보도에 따르면 DOJ가 이 거래가 Nvidia 경쟁사들에게 미칠 영향에 대해 질의",
+     "Hugging Face는 오픈소스 AI 모델 호스팅·테스트 플랫폼이자 AI 인프라도 판매",
+     "Nvidia는 인수 완료 후에도 **다양한 칩·AI 제공업체 지원을 계속하겠다고 확인**, 거래는 2027년 상반기 공식 완료 예상",
+     "DOJ는 과거 SchedMD 인수, Groq 인수(200억 달러, 2025년 12월)와 관련해서도 Nvidia의 네트워킹 하드웨어·칩 할당 연계 여부를 조사 중"
+    ],
+    "why_matters": "Nvidia가 AI 모델 유통의 핵심 채널인 Hugging Face를 장악하면 경쟁 하드웨어·칩 업체들의 플랫폼 접근성이 좁아질 수 있어 반독점 리스크가 커진다. 이는 Nvidia가 최근 수년간 겪은 SchedMD, Groq 관련 조사와 함께 미국 정부의 지속적인 반독점 감시 패턴을 보여준다.",
+    "subject_angle": "Nvidia는 하드웨어 중심에서 **AI 모델 유통·인프라 플랫폼까지 수직 통합**하려는 전략을 강화하고 있으나, 이는 규제 당국의 반독점 리스크를 동반한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Hugging Face 인수 주체, DOJ 조사 대상"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "Nvidia 인수 대상, 오픈소스 AI 모델 플랫폼 운영사"
+     },
+     {
+      "name": "SchedMD",
+      "context": "과거 Nvidia 인수 사례, DOJ 조사 전례로 언급"
+     },
+     {
+      "name": "Groq",
+      "context": "Nvidia가 200억 달러에 인수(2025년 12월), 칩 할당 연계 조사 대상으로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Hugging Face platform",
+      "role": "오픈소스 AI 모델 호스팅·테스트 및 AI 인프라 판매 플랫폼, 인수 대상"
+     },
+     {
+      "name": "Groq chips",
+      "role": "DOJ가 Nvidia의 칩 할당과 연계 여부를 조사 중인 경쟁 칩"
+     }
+    ],
+    "watch_next": [
+     "DOJ 조사의 공식 진행 상황 및 결론",
+     "Hugging Face 인수 완료(2027년 상반기) 여부 및 조건부 승인 가능성",
+     "Groq·SchedMD 관련 반독점 조사 결과와의 연계성"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
+   "body": "Nvidia is reportedly facing questions from the United States Department of Justice over whether its purchase of Hugging Face will have an impact on competition in the growing AI space. Nvidia agreed to buy Hugging Face in September, paying almost $13 billion. Hugging Face offers an open-source platform for the hosting and testing of new AI models, and that appears to be behind the DOJ's concerns. Reuters reports that the department has made inquiries about how the Hugging Face deal could change the landscape for Nvidia's competitors. The move could be seen as a way for Nvidia to lock in a key distribution channel for its own products. Hugging Face also sells AI infrastructure. Nvidia has declined to comment on the story. Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible This isn't the first time that Nvidia has found itself in the DOJ's crosshairs. As Nvidia becomes more vital to the tech industry as a whole and AI technologies specifically, the company has come under increasing scrutiny within the U.S. government, stretching back to the Biden administration. Things didn't improve when the Trump administration took over, with the U.S. president reportedly tempted to break the company up — despite being unfamiliar with what it was . More recently, Nvidia and other AI hardware makers found themselves under export controls . Nvidia's powerful AI-focused hardware can only be sold to approved entities, while it cannot ship to countries including China, Iran, North Korea, and Russia. At home, the DOJ has also looked into Nvidia's purchase of SchedMD, a company whose software is used to run supercomputers that have ties to national security. Nvidia promised to continue to support the software as part of a larger three-year investigation into its conduct. Officials have also considered whether Nvidia dangled a larger allocation of its AI chips in front of customers who also purchased its networking hardware as well as Groq chips — Nvidia bought Groq for $20 billion in December of 2025. The deal included the acquihires of key members of the AI chip startup's team, including its CEO. As for Hugging Face, Nvidia has similarly confirmed that it will continue to support a range of chip and AI providers once the buyout completes. It's expected that Hugging Face will officially become part of Nvidia in the first half of 2027."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Sim-Auto (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Sim-Auto",
+   "date": "2026-10-30 06:18",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Sim-Auto",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "automotive"
+    ],
+    "korean_title": "Cosmos3-Nano-Sim-Auto 자동차 시뮬레이션 모델 공개",
+    "korean_summary": "NVIDIA가 Cosmos3-Nano-Sim-Auto 모델을 공개하여 물리적 AI 기반 폐루프 주행 시뮬레이션을 구현했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 실시간 자율주행 시뮬레이션용 Cosmos3-Nano-Sim-Auto 모델 업데이트",
+    "korean_summary": "NVIDIA가 자율주행 정책 및 센서 스택 평가를 위해 멀티뷰 카메라와 LiDAR를 동시 생성하는 실시간 폐루프 주행 시뮬레이션 모델 Cosmos3-Nano-Sim-Auto를 Hugging Face에 업데이트했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano-Sim-Auto 모델을 Hugging Face에 업데이트",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Cosmos3-Nano-Transfer-Auto 기반 causal-distilled 변형, 자율주행(AV) 시뮬레이션 용도"
+    },
+    "key_facts": [
+     "Cosmos3-Nano-Sim-Auto는 **Cosmos3-Nano-Transfer-Auto의 causal-distilled 변형**으로, 텍스트 프롬프트와 World Scenario Map(WSM) 컨트롤 조건으로 멀티뷰 카메라 영상과 LiDAR를 동시 생성",
+     "최대 **11개 표준·fisheye 카메라 뷰**를 지원하며 LiDAR 출력은 시공간 정렬된 3D 포인트 클라우드로 변환됨",
+     "AV 정책 또는 인간 운전자(스티어링 휠) 입력을 WSM renderer가 장면 컨트롤로 변환해 실시간 폐루프(closed-loop) 시뮬레이션 지원",
+     "작은 latent-frame chunk 단위로 캐시된 히스토리와 새 WSM 컨트롤을 반영해 순차 생성하는 구조",
+     "Hugging Face 기준 다운로드 938, 좋아요 14, Technical Report는 'coming soon' 상태(미공개)"
+    ],
+    "why_matters": "자율주행 개발의 핵심 병목인 **실제 주행 데이터 확보 비용과 안전 리스크**를 시뮬레이션으로 대체할 수 있는 폐루프 멀티센서 생성 모델이라는 점에서 의미가 크다. 멀티뷰 카메라와 LiDAR를 동시에 합성해 인식·정책 스택을 동일 롤아웃에서 평가할 수 있어, 기존의 분리된 센서 시뮬레이터 대비 통합 평가 환경을 제공한다.",
+    "subject_angle": "NVIDIA가 Cosmos 플랫폼을 통해 **Physical AI용 World Foundation Model**을 자동차 수직시장으로 확장하며, 데이터 생성-시뮬레이션-검증을 자사 생태계(DRIVE, Omniverse 등)와 연계할 수 있는 기반을 다지고 있음을 보여준다.",
+    "focus_angle": "OEM과 AV 개발사는 실제 도로 테스트 없이 **멀티뷰 카메라·LiDAR 폐루프 시뮬레이션으로 자율주행 정책을 사전 검증**할 수 있어 개발 비용·시간을 줄일 수 있으며, 이는 로보틱스 분야의 Physical AI 학습 데이터 생성 전략과도 직결된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발 및 Hugging Face 배포 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano-Sim-Auto",
+      "role": "실시간 폐루프 주행 시뮬레이션용 멀티센서 생성 모델"
+     },
+     {
+      "name": "Cosmos3-Nano-Transfer-Auto",
+      "role": "Sim-Auto의 기반 원본 모델"
+     },
+     {
+      "name": "World Scenario Map (WSM)",
+      "role": "AV 정책/인간 입력을 장면 컨트롤로 변환하는 렌더러"
+     }
+    ],
+    "watch_next": [
+     "Technical Report 공개 시 성능·지연 시간·검증 데이터 공개 여부",
+     "NVIDIA DRIVE 또는 Omniverse와의 통합 발표 여부",
+     "실제 OEM·AV 업체의 채택 사례 또는 파트너십 공지"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Sim-Auto:2026-10-30",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, omnimodel, arxiv:1706.08500, arxiv:1812.01717, arxiv:2603.03283 · downloads 938 · likes 14. README:  # **Interactive World Simulation with Cosmos for Physical AI** **[Cosmos3 Examples Collection](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[Technical Report](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf)** (coming soon) | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/)** # Model Overview: Cosmos3-Nano-Sim-Auto The highlighted checkpoint, Cosmos3-Nano-Sim-Auto, is a causal-distilled variant of Cosmos3-Nano-Transfer-Auto. ## Description Cosmos3-Nano-Sim-Auto is designed for real-time, closed-loop driving simulation by generating synchronized multi-view camera videos and LiDAR observations conditioned on a text prompt and World Scenario Map (WSM) controls, including aligned LiDAR controls when LiDAR output is requested. A WSM renderer converts driving inputs from an autonomous vehicle (AV) policy or a human-operated steering-wheel interface into scene controls. The model generates video in small latent-frame chunks conditioned on cached history and incoming WSM controls, enabling subsequent observations to reflect updated driving inputs. It supports up to 11 standard and fisheye camera views, with spatially and temporally aligned LiDAR output converted to 3D point clouds. The joint sensor outputs support evaluation of multi-sensor perception stacks and driving policies within the same rollout. Inference throughput depends on the hardware and gen"
+  },
+  {
+   "source": "Google News · https://tech-insider.org/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Orbbec and NVIDIA Isaac: integrating depth cameras into the Isaac ROS robotics platform",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHF1OThyN1VmSlc2SGJSNl9uVkF3YkVtRmJMRGxwYXNWZ2dpU3lqRHlDNDVhejZseXRoeDlWVkljWGpveDcxT0RLMjZXRi01aU5fNHZ0UFRaSzhnUEJwM1JTUmFvS0htU2NTRFVrbFhMN0pibXE0RmNPMzFkM0pWdnpQRFFHazF5SWtFMlVvV1M2U2xUOTFFaG5MRFhXN295dF9BOC1ZdVBIQ3ZlRUxFS0xn?oc=5",
+   "date": "2026-10-30 01:53",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "sdk-release"
+    ],
+    "korean_title": "Orbbec, NVIDIA Isaac 로봇 플랫폼에 깊이 카메라 통합",
+    "korean_summary": "Orbbec이 깊이 카메라를 NVIDIA의 Isaac ROS 로봇 플랫폼에 통합했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHF1OThyN1VmSlc2SGJSNl9uVkF3YkVtRmJMRGxwYXNWZ2dpU3lqRHlDNDVhejZseXRoeDlWVkljWGpveDcxT0RLMjZXRi01aU5fNHZ0UFRaSzhnUEJwM1JTUmFvS0htU2NTRFVrbFhMN0pibXE0RmNPMzFkM0pWdnpQRFFHazF5SWtFMlVvV1M2U2xUOTFFaG5MRFhXN295dF9BOC1ZdVBIQ3ZlRUxFS0xn",
+   "body": ""
+  },
+  {
+   "source": "Google News · digital terminal",
+   "category": "media",
+   "kind": "gnews",
+   "title": "HCLTech Launches NVIDIA-Powered AI Solution to Transform Software-Defined Vehicle Validation",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX25RZk5uSG5QMG9BLWlzYjM1bUhvbHp2aDZXbEhTeVVZNFJHVGt0TXAwQm5YNjJNS09KSC0yNzFlNDRGQjdMTGVqNEJLLXlreVdmdG9wUk5UVE56UG02eEVqaXAtVjlYcTNHQ3VWeG4wbE9OQ1V0V0cwelBfSks1S3hkZ2s5c19oZm56b1ZUWVNWVTdoUlR0R1RKRGRtVWJhd1doYWM1bTlmQjQ4TkVpU3l1UWhGMjM1OVVMdzFabURHUmZ3alRVb9IB1gFBVV95cUxNRE51R3pTLTdtRVFoamNyTkNsMXhKZ3AtVGtUQWdOQ1JiTHJ4aTR1YklQY0VjVmtMTFc1U2Q1MHlTajNHdmdBT1BoZHZ6UndQMWdQV0Zscmt2TnVScHVlUm1jeXV0b1dHcm1FQmpsOXp4UEk1N2pYUTJQTFUyRW9OU0NOQXRka010RUQta081R3otLUZiNDlzQTExX005MjhXUlJTMktoYmxBTXN5OTQxaEhIY01MVU9sdnR0SG56MmZqT0psM1dYdmdVTjFPaUJWdzZkZUhn?oc=5",
+   "date": "2026-10-29 15:23",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "HCLTech, NVIDIA 기반 소프트웨어 정의 차량 검증 솔루션 출시",
+    "korean_summary": "HCLTech가 NVIDIA 기반 AI 솔루션으로 자동차 소프트웨어 검증을 변혁한다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX25RZk5uSG5QMG9BLWlzYjM1bUhvbHp2aDZXbEhTeVVZNFJHVGt0TXAwQm5YNjJNS09KSC0yNzFlNDRGQjdMTGVqNEJLLXlreVdmdG9wUk5UVE56UG02eEVqaXAtVjlYcTNHQ3VWeG4wbE9OQ1V0V0cwelBfSks1S3hkZ2s5c19oZm56b1ZUWVNWVTdoUlR0R1RKRGRtVWJhd1doYWM1bTlmQjQ4TkVpU3l1UWhGMjM1OVVMdzFabURHUmZ3alRVb9IB1gFBVV95cUxNRE51R3pTLTdtRVFoamNyTkNsMXhKZ3AtVGtUQWdOQ1JiTHJ4aTR1YklQY0VjVmtMTFc1U2Q1MHlTajNHdmdBT1BoZHZ6UndQMWdQV0Zscmt2TnVScHVlUm1jeXV0b1dHcm1FQmpsOXp4UEk1N2pYUTJQTFUyRW9OU0NOQXRka010RUQta081R3otLUZiNDlzQTExX005MjhXUlJTMktoYmxBTXN5OTQxaEhIY01MVU9sdnR0SG56MmZqT0psM1dYdmdVTjFPaUJWdzZkZUhn",
+   "body": ""
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "NVIDIA/Megatron-LM NVIDIA Megatron Core 0.20.0",
+   "link": "https://github.com/NVIDIA/Megatron-LM/releases/tag/core_v0.20.0",
+   "date": "2026-10-30 07:42",
+   "score": 7,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "NVIDIA/Megatron-LM",
+    "version": "core_v0.20.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Megatron-LM 0.20.0 메이저 버전 출시",
+    "korean_summary": "NVIDIA가 Megatron-LM 0.20.0을 출시하며 DeepSeek V4 지원, MoE 디스패처, MXFP8 통신 등 주요 기능을 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Megatron-LM, Megatron Core 0.20.0 출시 — MoE·병렬화·DeepSeek V4 지원 강화",
+    "korean_summary": "NVIDIA가 Megatron Core 0.20.0을 공개하며 MoE 통신 최적화, 신규 모델 아키텍처 지원, Megatron-FSDP v2 병렬화 기능을 추가해 대규모 LLM 학습 효율을 높였다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Megatron Core 0.20.0 릴리스를 통해 MoE 디스패처(DeepEP v2, NCCL EP MXFP8), 신규 모델 아키텍처(DeepSeek V4, mHC, GDP), Megatron-FSDP v2 병렬화 기능을 추가",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Megatron-LM/Megatron Core 라이브러리, LLM 학습 프레임워크 사용자"
+    },
+    "key_facts": [
+     "**MoE DeepEP v2 백엔드**를 flex token dispatcher에 실험적으로 추가 (#5153)",
+     "NCCL EP 백엔드에 MXFP8 dispatch-forward/combine-backward 통신 지원 추가 (#6524), eager mode 지원 (#6229)",
+     "**DeepSeek V4를 차세대 HybridModel 클래스가 완전 지원** (#6403~#7469)",
+     "Manifold-constrained hyper-connections(mHC), Gated Delta Product(GDP), Wide residual streams, MTP-only training 등 신규 아키텍처 기능 추가",
+     "Megatron-FSDP v2 통합: 실험적 Megatron Core adapter 및 Megatron Bridge 추가, 하이브리드 FSDP·ZeRO 레벨 분리 설정 지원 (#5865 등)"
+    ],
+    "why_matters": "MoE 통신 최적화와 대규모 하이브리드 아키텍처(DeepSeek V4 등) 지원은 **초대형 LLM 학습의 효율성과 확장성**을 결정짓는 핵심 요소로, 경쟁 프레임워크(DeepSpeed, PyTorch FSDP 등) 대비 NVIDIA 생태계의 학습 성능 우위를 유지하는 데 기여한다. 특히 DeepSeek 계열 모델 지원은 오픈소스 MoE 모델 생태계에서 NVIDIA 스택의 실질적 채택을 뒷받침한다.",
+    "subject_angle": "**Megatron Core는 NVIDIA가 GPU 하드웨어(NCCL, CUDA graph) 최적화를 소프트웨어 프레임워크 레벨까지 수직 통합하는 전략의 핵심 축**으로, MoE·병렬화 기능 고도화를 통해 대규모 학습 시장에서 CUDA 생태계 종속성을 강화한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Megatron-LM/Megatron Core 개발 및 릴리스 주체"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "DeepSeek V4 모델이 HybridModel 클래스를 통해 지원 대상으로 언급됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "Megatron Core 0.20.0",
+      "role": "이번 릴리스의 핵심 소프트웨어 패키지"
+     },
+     {
+      "name": "HybridModel",
+      "role": "DeepSeek V4, mHC 등 신규 아키텍처를 지원하는 차세대 모델 클래스"
+     },
+     {
+      "name": "Megatron-FSDP v2",
+      "role": "신규 병렬화/체크포인팅 어댑터"
+     },
+     {
+      "name": "NCCL EP",
+      "context_note": "통신 백엔드",
+      "role": "MoE 전문가 병렬 통신 최적화 백엔드"
+     }
+    ],
+    "watch_next": [
+     "DeepEP v2 및 NCCL EP MXFP8 기능의 정식(stable) 전환 시점",
+     "Megatron-FSDP v2의 TP/expert TP 제약 해소 여부",
+     "DeepSeek V4 외 추가 MoE 모델의 HybridModel 지원 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "gh:NVIDIA/Megatron-LM:core_v0.20.0",
+   "body": "MoE DeepEP v2 dispatcher: adds an experimental DeepEP v2 backend for the flex token dispatcher ( #5153 ). NCCL EP MXFP8 communication (experimental): adds MXFP8 dispatch-forward and combine-backward communication to the NCCL EP backend ( #6524 ). NCCL EP eager mode : now NCCL EP supports both eager mode and full-iteration graph mode ( #6229 ). ShortcutMoE : adds shortcut-connected routing in HybridStack and overlaps expert all-to-all communication with paired attention or Mamba computation; CUDA graphs are not supported ( #6959 ). Model Architecture and Support DeepSeek V4: fully supported by the next-gen HybridModel class ( #6403 , #6404 , #6405 , #7469 ). Manifold-constrained hyper-connections (mHC): adds fused mHC connections to HybridModel, including pipeline and virtual-pipeline parallel support ( #6401 , #7336 ). Gated Delta Product (GDP): adds GDP layers and model-building support for hybrid architectures ( #6074 ). Wide residual streams: adds streamwise residual connections, selective residual-stream recomputation, and integration with MTP and MIMO; currently requires PP=1 and CUDA graphs disabled ( #6716 , #6805 , #6855 , #7440 ). MTP-only training: adds a mode that freezes the base model and trains only Multi-Token Prediction heads ( #7021 ). Parallelism Megatron-FSDP v2 integration: adds the experimental Megatron Core adapter and Megatron Bridge, with context, expert, pipeline, and hybrid data-parallel sharding support; the adapter requires TP=1 and expert TP=1 ( #5865 , #6450 , #6486 , #7220 , #6873 ). Megatron-FSDP v2 checkpointing: adds PyTorch distributed checkpoint save/load for model and optimizer state; optimizer checkpointing currently excludes expert-parallel layouts ( #6024 , #6215 ). Megatron-FSDP v2 supports hybrid FSDP. The user can specify different ZeRO levels for inter-nvlink domains and intra-nvlink domains. The user can specify different configs for the dense section and the MoE section. Generalized Tensor Parallelism (GTP): adds configu"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Anthropic’s IPO filing shows most of its compute goes to R&D, not serving customers",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ipo-filing-shows-most-of-its-compute-goes-to-r-and-d-not-serving-customers-company-details-massive-usd800-billion-in-tpu-and-gpu-contracts",
+   "date": "2026-10-29 20:30",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Anthropic IPO 지원서에서 800억 달러 GPU 계약 공개",
+    "korean_summary": "Anthropic의 IPO 지원서가 NVIDIA 및 Google로부터 800억 달러 규모의 GPU/TPU 용량 계약을 체결했음을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "Anthropic IPO 신고서, 컴퓨트 대부분을 R&D에 투입... NVIDIA GPU 포함 멀티칩 공급망 공개",
+    "korean_summary": "Anthropic이 S-1 IPO 신고서를 통해 상반기 컴퓨트 지출의 대부분을 고객 서비스가 아닌 연구개발에 투입했으며, NVIDIA GPU·Google TPU·AWS Trainium·AMD GPU를 아우르는 멀티칩 전략과 수백억 달러 규모의 신규 컴퓨트 계약 내역을 공개했다.",
+    "action": {
+     "actor": "Anthropic",
+     "action": "IPO S-1 신고서를 통해 컴퓨트 지출 구조와 NVIDIA 등 칩 공급업체별 장기 계약 조건을 공개",
+     "stage": "Filed",
+     "timeline": "미확인",
+     "scope": "AWS Trainium, Google TPU, NVIDIA GPU, AMD GPU 전반의 컴퓨트 공급 계약"
+    },
+    "key_facts": [
+     "Anthropic은 상반기 $8.95billion 컴퓨트 지출 중 **고객 서비스에는 27% 이하**만 사용, 나머지는 training/R&D/internal use에 투입됨",
+     "NVIDIA GPU 공급 계약: SpaceXAI 최대 $120.5billion(2029까지), Microsoft 최소 $44.9billion(2033까지), Nscale 최대 약 $44.6billion(2033까지), Lambda 약 $41.3billion(2034까지)",
+     "Anthropic은 AWS Trainium, Google TPU, **NVIDIA GPU, AMD GPU**를 아우르는 'multi-chip compute architecture'를 운영하며 칩별 비율은 공개하지 않음",
+     "신규 체결된 컴퓨트 계약 총액은 약 **$800billion** 규모로 추산되며, 상위 5개 계약의 연간 비용은 평균 $103billion으로 Q2 매출 run rate($46billion)의 2배 이상",
+     "AMD와의 하드웨어 공급 계약은 전체 initial capacity 사용 시 $20.0billion을 초과할 수 있음"
+    ],
+    "why_matters": "대형 AI랩인 Anthropic이 공식 재무 문서를 통해 **NVIDIA GPU가 여전히 핵심 멀티벤더 공급망의 한 축**임을 확인시켰다는 점에서, AI 인프라 투자 경쟁 속 NVIDIA의 시장 지위를 가늠할 단서를 제공한다. 동시에 Google TPU($161.2billion 리스 포함)와 AWS Trainium($110billion) 비중 확대는 NVIDIA 단일 의존 구조에서 벗어나려는 경쟁 압력을 보여준다.",
+    "subject_angle": "NVIDIA는 Anthropic의 멀티칩 포트폴리오에서 SpaceXAI, Microsoft, Nscale, Lambda 등 다양한 경로를 통해 **최소 수백억 달러 규모의 GPU 공급**을 확보했지만, TPU·Trainium 병행 확대 추세는 NVIDIA가 장기적으로 점유율 방어를 위한 전략적 대응이 필요함을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Anthropic",
+      "context": "AI 모델 개발사, 컴퓨트 수요자, IPO 신고 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "GPU 공급업체, 여러 파트너사를 통한 간접 공급 경로 보유"
+     },
+     {
+      "name": "Google",
+      "context": "TPU 및 클라우드 공급, Broadcom 리스 계약 관련 당사자"
+     },
+     {
+      "name": "Amazon/AWS",
+      "context": "Trainium 칩 공급 및 클라우드 인프라 제공"
+     },
+     {
+      "name": "AMD",
+      "context": "GPU 하드웨어 공급 계약 체결"
+     },
+     {
+      "name": "Broadcom",
+      "context": "Google TPU 장비 리스 계약 상대"
+     },
+     {
+      "name": "Microsoft",
+      "context": "NVIDIA GPU 공급 경로 제공"
+     },
+     {
+      "name": "Nscale",
+      "context": "NVIDIA GPU 공급 경로 제공"
+     },
+     {
+      "name": "Lambda",
+      "context": "NVIDIA GPU 공급 경로 제공"
+     },
+     {
+      "name": "SpaceXAI",
+      "context": "NVIDIA GPU 공급 경로 제공(본문 표기 그대로)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Claude",
+      "role": "Anthropic의 서빙 대상 AI 모델"
+     },
+     {
+      "name": "Opus 5.5",
+      "role": "효율 개선으로 작업당 비용 약 40% 절감한 모델"
+     },
+     {
+      "name": "Fable 5.1",
+      "role": "워크로드 비용 약 25% 절감한 모델"
+     },
+     {
+      "name": "NVIDIA GPUs",
+      "role": "멀티칩 컴퓨트 아키텍처 내 주요 하드웨어 자원"
+     },
+     {
+      "name": "Google TPUs",
+      "role": "멀티칩 컴퓨트 아키텍처 내 경쟁 하드웨어"
+     },
+     {
+      "name": "AWS Trainium",
+      "role": "멀티칩 컴퓨트 아키텍처 내 경쟁 하드웨어"
+     },
+     {
+      "name": "AMD GPUs",
+      "role": "멀티칩 컴퓨트 아키텍처 내 추가 공급원"
+     }
+    ],
+    "watch_next": [
+     "Anthropic의 실제 NVIDIA GPU 조달 비중(%) 추가 공개 여부",
+     "IPO 완료 시점 및 상장 밸류에이션",
+     "NVIDIA 대비 TPU·Trainium 비중 변화 추이 및 마진 영향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ipo-filing-shows-most-of-its-compute-goes-to-r-and-d-not-serving-customers-company-details-massive-usd800-billion-in-tpu-and-gpu-contracts",
+   "body": "Anthropic spent less than a third of its $8.9 billion first-half compute bill on serving customers, with most of the rest going into training, research, and running Claude internally, its S-1 filing shows. It has meanwhile signed up for hundreds of billions of dollars more in TPU and GPU capacity. By our math, it has meanwhile signed up for roughly $800 billion more in TPU and GPU capacity, and revenue per compute dollar jumped from $0.40 in Q1 2025 to $2.08 in Q2 2026, which the company links to capacity purchased 12–18 months ahead. Anthropic’s IPO is likely to beat that of rival OpenAI, which filed confidentially before CEO Sam Altman said its own won’t come this year, amid widespread doubts about an AI bubble. Whether AI labs can cover what it costs to serve their models is an open question. Anthropic appears to do so easily: it spent $2.4 billion serving customers in the first half of the year, versus $16.3 billion in revenue. Paying for what it has on order is more difficult. Its five compute deals with the biggest stated amounts would cost an estimated $103 billion a year on average once delivered, more than twice its revenue at Q2’s pace of about $46 billion a year. The company also warns that margins may compress as new hardware lands ahead of the revenue it will support. The company has three main costs: the cost of revenue, which is the inference cost of running Claude for paying customers; R&D, which is mostly compute for training and research into new models plus any internal use; and sales and marketing, which covers the cut taken by channel partners and cloud platform resellers. Comparing the first half of last year to this year’s, cost of revenue is up about 2.3x, but with revenue up 14x, that means Anthropic keeps an estimated 85 cents for every dollar after serving costs, up from just 12 cents. R&D is up about 5 times, with 66% or more of the compute going to it, and that’s the main source of its operating loss. Sales and marketing is up 16x, and doesn’t show up in cost of revenue, but its partner fees and marketing would lower what it keeps to 66 cents a dollar. The trend here is that serving Claude now more than covers its costs. Where Anthropic’s Compute Goes First half of 2025 First half of 2026 Revenue $1.16 billion $16.29 billion Compute and infrastructure, all workloads $2.33 billion $8.95 billion Serving customers (cost of revenue) $1.02 billion $2.38 billion Free access to Claude, at most (est.) $119 million $640 million Training, research and internal use, at least (est.) $1.20 billion $5.93 billion Serving share of compute, at most 44% 27% Revenue left after serving costs 12% 85% Revenue left after serving costs, partner fees and marketing 2% 66% Serving has kept getting cheaper for customers since June: in September, Anthropic’s Opus 5.5 model cut costs per task by about 40% versus Opus 5, says the company, and Fable 5.1 cut the cost of typical workloads by about 25% against Fable 5; each came from “a combination of "
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims",
+   "link": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
+   "date": "2026-10-29 22:04",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Jensen Huang CEO, 중국 정보원 의혹으로 미 정보기관의 감시 대상",
+    "korean_summary": "미국 정보기관이 NVIDIA CEO Jensen Huang과 관련된 인물을 중국 정보원으로 의심해 감시했다는 보도가 나왔다."
+   },
+   "summary_data": {
+    "korean_title": "NYT, 'Nvidia 젠슨 황 CEO가 중국 정보원의 스파이 공작 대상이었을 가능성' 보도",
+    "korean_summary": "뉴욕타임스가 Nvidia AI GPU를 중국으로 우회시킨 것으로 의심되는 싱가포르 기업 Megaspeed의 임원 Alice Huang이 **중국 정보기관 자산**으로 활동하며 젠슨 황 CEO에 접근했을 가능성을 보도했고, 미국 정보당국은 이를 1년 이상 인지했으나 트럼프 대통령이 Nvidia 매출과 중국 관계를 우려해 조치를 취하지 않았다고 전했다.",
+    "action": {
+     "actor": "The New York Times (보도), 미국 정보당국",
+     "action": "Megaspeed 임원 Alice Huang의 중국 정보원 의혹 및 젠슨 황과의 접촉 감시 사실 보도",
+     "stage": "Report",
+     "timeline": "미확인 (감시는 1년 이상 지속 중이라고 보도)",
+     "scope": "Nvidia CEO Jensen Huang, 싱가포르 클라우드 파트너 Megaspeed, 중국 GPU 밀반출 의혹"
+    },
+    "key_facts": [
+     "Megaspeed 상무이사 Alice Huang(Alice Wong)이 **중국 정보기관 자산**으로 베이징에 정보를 전달했다는 의혹이 보도됨",
+     "미국 상무부가 Megaspeed의 말레이시아 데이터센터 방문 시 미개봉 상태의 Nvidia 장비를 발견, 밀반출 의심 계기가 됨",
+     "Megaspeed는 작년 **20억 달러 규모의 Nvidia 칩 밀반출**에 연루된 혐의를 받은 바 있음",
+     "Alice Huang은 Computex 2024 및 Computex 2025 시기 젠슨 황과 함께 공개 석상에 있는 모습이 포착됨",
+     "트럼프 대통령은 해당 정보를 보고받았으나 Nvidia 매출 및 대중국 관계 영향을 우려해 조치를 취하지 않았다고 보도됨"
+    ],
+    "why_matters": "이번 보도는 **Nvidia의 중국 우회 수출망 및 클라우드 파트너 관리 체계에 대한 미국 정부의 신뢰도 문제**를 제기하며, AI 칩 수출통제의 실효성 논란을 심화시킨다. 또한 CEO 개인에 대한 정보전 타깃팅 가능성은 미중 기술 경쟁의 긴장 수위가 기업 최고경영진 차원까지 확대되고 있음을 보여준다.",
+    "subject_angle": "Nvidia는 **클라우드 파트너 Megaspeed와의 거래가 통상적인 고객 관계일 뿐**이라며 민감 정보 유출을 부인했지만, 이번 사태는 Nvidia의 중국 매출 의존도와 수출통제 준수 체계에 대한 외부 감시와 정치적 리스크를 증폭시킬 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "젠슨 황 CEO가 의혹의 중심 인물로 거론됨, 공식 입장 발표"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 소재 Nvidia 클라우드 파트너, Alice Huang이 상무이사로 재직, 중국 GPU 밀반출 의혹 당사자"
+     },
+     {
+      "name": "Alibaba",
+      "context": "Megaspeed로부터 컴퓨팅 자원을 임대받는 중국 기업"
+     },
+     {
+      "name": "The New York Times",
+      "context": "해당 의혹을 최초 보도한 매체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia AI GPU",
+      "role": "중국으로의 우회 수출 및 밀반출 의혹의 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "미국 정부가 Jensen Huang에게 **defensive briefing**을 제공할지 여부",
+     "Megaspeed 및 Alice Huang에 대한 미국 상무부/정보당국의 추가 조사 결과",
+     "Nvidia의 중국向 클라우드 파트너 수출통제 준수 체계 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
+   "body": "Multiple sources claim that a top executive at a Singapore AI firm suspected of steering Nvidia AI GPUs to China and who has close business ties with Jensen Huang was apparently passing information to Beijing as a Chinese intelligence asset. According to The New York Times , U.S. intelligence has been aware of her activities for over a year already and has even briefed President Donald Trump on the situation. However, Trump reportedly chose not to do anything about the information, as he apparently did not want to affect Nvidia sales or antagonize China. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained The suspect, Alice Huang or Huang Le, was listed as the managing director of Singaporean AI firm Megaspeed, an Nvidia cloud partner that builds data centers and rents out the compute to Chinese firms like Alibaba. The investigation into the firm began when the U.S. Commerce Department visited the firm’s Malaysia data center and found the Nvidia equipment that it ordered still packed in boxes. This raised suspicion that the machines were either just shipped in or about to be shipped out, instead of being installed on the site. However, it remains unclear what made U.S. intelligence agencies investigate Ms. Huang. Megaspeed was accused of helping smuggle $2 billion worth of Nvidia chips last year . There have been multiple instances where Ms. Huang was spotted in public with the Nvidia chief. She was photographed sitting beside Jensen Huang alongside other executives in an informal event around Computex 2024 in a LinkedIn post by NetThunder, identified as Megaspeed Chairwoman Alice Wong. About a year later, around the same time as Computex 2025 , she was once again seen with Jensen Huang leaving a restaurant in Taipei alongside other business associates. “Megaspeed has been no different than many other regional cloud customers. Jensen’s interactions with Ms. Huang are not unusual or unexpected. Meetings with customers are part of a CEO's job; Jensen talks with thousands of customer executives every year,” an Nvidia spokesperson told Tom's Hardware . “Our regional cloud customers receive ordinary business information — not sensitive NVIDIA trade secrets — and zero information relevant to national security.\" Still, the possibility that Chinese intelligence is targeting a senior figure close to President Trump is apparently troubling some U.S. officials. The Chinese embassy in Washington denied the allegations, saying that it was merely “groundless smears and slanders” against China. Nevertheless, it would also make sense for Beijing to keep tabs on senior executives of the top American firms that arguably single-hand"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Microsoft thinks its data centers can last for 25 years, reports strong cloud earnings and lower capex",
+   "link": "https://www.datacenterdynamics.com/en/news/microsoft-q3-earnings-data-center-ai-azure-satya-nadella/",
+   "date": "2026-10-29 21:59",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Microsoft, 데이터센터 운영 기간 연장하며 NVIDIA와의 협력 강화",
+    "korean_summary": "Microsoft가 데이터센터 운영 기간을 15년에서 25년으로 연장하고 NVIDIA의 최신 혁신과 함께 12GW 규모 인프라를 확장 중이다."
+   },
+   "summary_data": {
+    "korean_title": "Microsoft, 데이터센터 수명 25년으로 연장하며 Azure 매출 첫 공개…GB300 배치 가속",
+    "korean_summary": "Microsoft가 Azure 클라우드 매출을 처음 공개하고 데이터센터 내구연한을 25년으로 늘리는 한편, 신규 GB300 배치 가속과 네오클라우드 지연에 따른 CAPEX 축소를 발표했다.",
+    "action": {
+     "actor": "Microsoft",
+     "action": "데이터센터 자산 내구연한을 15년에서 25년으로 연장하고 Azure 매출을 최초 공개, FY2027 연간 CAPEX 가이던스를 하향 조정",
+     "stage": "Announced",
+     "timeline": "FY2027 1분기 실적 발표(2026년 9월 말 분기 기준)",
+     "scope": "Azure 클라우드 인프라, 5개 대륙 신규 데이터센터 24곳, '가장 큰 리전'의 GB300 배치"
+    },
+    "key_facts": [
+     "Azure 매출 최초 공개: 분기 $33.2B, **YoY 48% 증가**, 전체 매출의 36% 차지",
+     "데이터센터·사무용 건물 내구연한을 15년에서 25년으로 연장(Uptime Institute 평균 수명은 11.3년)",
+     "분기 CAPEX $45.2B로 예상치($50.7B)보다 낮았으며, 원인은 **네오클라우드(CoreWeave, Nscale, Lambda, Iren, Nebius) 업체들의 용량 제공 지연**",
+     "FY2027 연간 CAPEX 추정치를 $175B에서 $170B로 하향",
+     "신규 GB300 도크-투-라이브 시간을 분기 대비 약 20% 단축, **GB300이 주요 리전 GPU 배치의 대다수(majority)** 차지; Nadella는 Nvidia·AMD·자체 Maia 시스템으로 플릿을 확장 중이라고 언급"
+    ],
+    "why_matters": "Microsoft가 처음으로 Azure 매출을 분리 공개하면서 하이퍼스케일러 AI 인프라 투자의 실질 수익화 지표가 시장에 노출되었고, **GB300이 최대 리전 GPU 배치의 대다수**를 차지한다는 언급은 Nvidia의 차세대 플랫폼이 핵심 고객사에서 이미 주력으로 자리잡았음을 시사한다. 동시에 CAPEX 축소가 수요 둔화가 아닌 **네오클라우드 공급 지연**에서 비롯됐다는 설명은 Nvidia GPU 수요-공급망의 병목이 데이터센터 건설·전력 공급 측에 있음을 보여준다.",
+    "subject_angle": "Microsoft가 AMD·자체 Maia 칩을 함께 언급하지만 실제 신규 배치에서는 **GB300이 압도적 비중**을 차지한다는 사실은 Nvidia의 최신 GPU 플랫폼이 Azure 최대 규모 확장의 중심축임을 재확인시키며, 데이터센터 내구연한 연장(25년)은 향후 Nvidia GPU 포함 인프라의 장기 상각·활용 전략과도 연결된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Microsoft",
+      "context": "Azure 클라우드 운영사이자 Nvidia GPU 대형 고객, 실적 발표 주체"
+     },
+     {
+      "name": "Nvidia",
+      "context": "Azure 신규 GB300 GPU 배치의 대다수를 공급하는 핵심 공급사"
+     },
+     {
+      "name": "AMD",
+      "context": "Microsoft 플릿 확장에 함께 언급된 경쟁 GPU 공급사"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "Microsoft와 계약한 네오클라우드, 용량 제공 지연 관련 언급"
+     },
+     {
+      "name": "Nscale",
+      "context": "Microsoft 계약 네오클라우드"
+     },
+     {
+      "name": "Lambda",
+      "context": "Microsoft 계약 네오클라우드"
+     },
+     {
+      "name": "Iren",
+      "context": "Microsoft 계약 네오클라우드"
+     },
+     {
+      "name": "Nebius",
+      "context": "Microsoft 계약 네오클라우드"
+     }
+    ],
+    "products": [
+     {
+      "name": "GB300",
+      "role": "Microsoft 최대 리전 신규 GPU 배치의 대다수를 차지하는 Nvidia 플랫폼, 도크-투-라이브 시간 20% 단축"
+     },
+     {
+      "name": "Maia",
+      "role": "Microsoft 자체 설계 AI 칩, Nvidia·AMD와 함께 플릿 확장에 활용"
+     },
+     {
+      "name": "Azure",
+      "context": "role",
+      "role": "매출 최초 공개된 Microsoft 클라우드 플랫폼"
+     },
+     {
+      "name": "Copilot",
+      "role": "분기 대비 처리량 50% 이상 증가한 AI 어시스턴트 워크로드"
+     }
+    ],
+    "watch_next": [
+     "네오클라우드(CoreWeave 등) 용량 지연 해소 시점 및 Microsoft CAPEX 재상향 여부",
+     "GB300 외 차세대 Nvidia 플랫폼(GB300 후속)의 Azure 배치 비중 변화",
+     "데이터센터 내구연한 연장이 Nvidia GPU 감가상각·교체 주기 정책에 미치는 영향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/microsoft-q3-earnings-data-center-ai-azure-satya-nadella",
+   "body": "Microsoft believes its data centers can last for up to 25 years. The company revealed in its Q1 2027 earnings call that it is extending the expected useful life of office buildings and data centers in its estate from 15 to 25 years. CFO Amy Hood said this reflected Microsoft's \"operating history and expected use of these assets.” It is thought Microsoft currently has access to some 12GW of data center capacity. CEO Satya Nadella told investors on the earnings call that his firm continues “to get more from the infrastructure we already have by optimizing across the data center design, silicon systems, software, and models.” He added: For example, we increased the throughput for Copilot workloads by over 50 percent quarter-over-quarter. We continue to scale our fleet with the latest innovations from Nvidia, AMD, alongside our own Maia systems.” Research from the Uptime Institute published in 2024 found that data centers typically operate for 10-15 years, with the average mean lifespan of a data center sitting at 11.3 years. Extending the useful life of data centers is also a handy accounting move for Microsoft, as it can spread the cost of multi-billion-dollar facilities over a longer time period. The quarter saw Microsoft disclose the revenue of its Azure cloud platform for the first time, revealing it generated $33.2 billion in revenue in the last quarter. The figure represents a 48 percent Year-on-Year (YoY) increase, and means Azure was responsible for 36 percent of the company’s revenue in the three months to the end of September. During the period, Microsoft brought 24 new data centers online, but the company also reported lower-than-expected capex because a number of deals with neoclouds have been delayed. Microsoft’s Agents and Infra division, which includes its Azure cloud platform and AI tools, made $76.8 billion, up 25 percent YoY. Microsoft introduced Agents and Infra as a business section in its reporting in September as part of a move towards \"full transparency of quarterly revenue across each of our key businesses.” Nadella said: “We are building against a growing book of business with a fungible fleet that allows us to dynamically allocate capacity to the highest value opportunities across compute, data, Foundry [its AI developer platform], and [AI assistant] Copilot. “Accelerating demand led to us adding 24 new data centers across five continents this quarter. We are bringing capacity online faster, reducing dock-to-live times by about 20 percent quarter-over-quarter for new GB300s in our biggest regions, which make up the majority of the GPU deployments.” Microsoft capex for the quarter was $45.2 billion, lower than the expected $50.7 billion. It said this was a result of some of the companies it works with for AI cloud services failing to provide data center capacity on time. As a result, Microsoft is estimating annual capex for 2027 of $170 billion, down from the previous estimate of $175 billion. The company has signed deals wi"
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Canada, Nvidia Back Cohere in Round at Over $20 Billion Value",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVk0xNE9EYzVuMEQ0OUJvYXNDMTFEN2tfVkVYWV9xSXpQWnlQUkNVTTIyWG5XOThJMHY3WWs5RktqWXpVMjN1ZmtXcVFUeVJMYjJNaEhFTTg1b0RNblJUTHZ3LW1wZ0JmRUZEUURwTy0yaC1nXzlHM3ZKeWFIUVJBdUZ5VlU0RXZxcTNKdGZ0ZHVoVWFILTRRWmVyVlN3V2V1X1VONWdTNjFYYVcwYUlj?oc=5",
+   "date": "2026-10-30 01:57",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA, Cohere 자금조성에 $20억 규모 투자 참여",
+    "korean_summary": "캐나다 정부와 함께 NVIDIA가 AI 스타트업 Cohere의 자금 조성에 참여해 $20억 이상 밸류에이션 달성"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVk0xNE9EYzVuMEQ0OUJvYXNDMTFEN2tfVkVYWV9xSXpQWnlQUkNVTTIyWG5XOThJMHY3WWs5RktqWXpVMjN1ZmtXcVFUeVJMYjJNaEhFTTg1b0RNblJUTHZ3LW1wZ0JmRUZEUURwTy0yaC1nXzlHM3ZKeWFIUVJBdUZ5VlU0RXZxcTNKdGZ0ZHVoVWFILTRRWmVyVlN3V2V1X1VONWdTNjFYYVcwYUlj",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Business Journals",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia supplier moves forward with $1.3 billion plant, purchases building",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcGVCZlBTX2FXaUptNnFxSGQ3NUJZUVNHMm9fU1NkemVSVmcyTktrU2E1dklRaE54ZGcxOGtNOHFVWk9EYU45T05ZdzI5aEIwM3RQRmxjTFlBVDJkWTFoQTVHUGdja1ozRnpTamxweVg4cjNWSmo1YjdtejhjNm1WNXVMOFZFbERaQ1huSWtJZVdGWTdkVFhsXzFQSjcxbWt6NElxX2RyUGM?oc=5",
+   "date": "2026-10-30 02:42",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 공급사, 13억 달러 규모 신규 공장 건설",
+    "korean_summary": "NVIDIA의 공급업체가 13억 달러 규모의 신규 생산 시설 구축을 위해 건물을 매입"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcGVCZlBTX2FXaUptNnFxSGQ3NUJZUVNHMm9fU1NkemVSVmcyTktrU2E1dklRaE54ZGcxOGtNOHFVWk9EYU45T05ZdzI5aEIwM3RQRmxjTFlBVDJkWTFoQTVHUGdja1ozRnpTamxweVg4cjNWSmo1YjdtejhjNm1WNXVMOFZFbERaQ1huSWtJZVdGWTdkVFhsXzFQSjcxbWt6NElxX2RyUGM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Quartz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cohere Series E round of up to CAD $7 billion draws Nvidia, Canada",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsdGpaQWJQQTVCcEVOMkNkZGZyd1FXZUVjX1BvNFJvdzZfZnRJN0pjN3RXWXk5cWNOZzV2YWMxTEtZQjJucFVwWlpjTkl4TEJrSE9UR3BkTXBkWVZiZzBUY3RoU3dyeVhqTjJFZWVyX2lfTFE?oc=5",
+   "date": "2026-10-30 02:31",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "Cohere Series E 펀딩, NVIDIA 참여로 CAD 70억 규모 조성",
+    "korean_summary": "AI 스타트업 Cohere가 NVIDIA를 포함한 투자자들로부터 CAD 70억의 Series E 자금을 확보했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsdGpaQWJQQTVCcEVOMkNkZGZyd1FXZUVjX1BvNFJvdzZfZnRJN0pjN3RXWXk5cWNOZzV2YWMxTEtZQjJucFVwWlpjTkl4TEJrSE9UR3BkTXBkWVZiZzBUY3RoU3dyeVhqTjJFZWVyX2lfTFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Amazon Web Services (AWS)",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdW1KaVI4aVBjbHFLX3ZYQThaQ0FGQ0tkTnVVSlRnc292Z3h1Qnd6VERTM1dTX2xmU0t0dC0tVjVYZEtqZzk5Q05RNjNyYnplTTJpR09CR0k1NC0xR28zVy1GZllDRHd4WFRnQWtVTFp2R0dfYVdkeHFXZWxOMkhudEw1WUcwZFdKUTZsWjN5VFhIMDRWNzJITkxxOWs1aXdIOWhzTGRFLVBOaVlnZkE0ZG1Qb1BYZDZLREN0T1ZkZlN1cVloZGZJa3VUdVNndE5QUnVj?oc=5",
+   "date": "2026-10-30 01:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "AWS에서 NVIDIA Nemotron 모델로 에이전틱 AI 가속화",
+    "korean_summary": "NVIDIA Nemotron 모델이 AWS의 Amazon EKS와 SageMaker HyperPod EKS에서 활용 가능하도록 통합됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdW1KaVI4aVBjbHFLX3ZYQThaQ0FGQ0tkTnVVSlRnc292Z3h1Qnd6VERTM1dTX2xmU0t0dC0tVjVYZEtqZzk5Q05RNjNyYnplTTJpR09CR0k1NC0xR28zVy1GZllDRHd4WFRnQWtVTFp2R0dfYVdkeHFXZWxOMkhudEw1WUcwZFdKUTZsWjN5VFhIMDRWNzJITkxxOWs1aXdIOWhzTGRFLVBOaVlnZkE0ZG1Qb1BYZDZLREN0T1ZkZlN1cVloZGZJa3VUdVNndE5QUnVj",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engineering.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Oracle and NVIDIA expand OCI for training and agentic AI",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUlhTYmY0dmRyaVlOV0E1VHRkYmFEeDd1QzRqT08zVTRIT3FaeU1OLXp6clVoSGx4UXJncjAzN3FDbVlEOGFyTXB4M1NDdU4wdVhkeUtLM0podUZrLWlVWnRNVHJFN0pnN1V2UksxbjdxNjNPQnB6UFlRbk9KT2hPYU9hZzhiOFdzQW1zTExR?oc=5",
+   "date": "2026-10-29 21:36",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "오라클과 NVIDIA, OCI에서 AI 학습 및 에이전트 AI 지원 확대",
+    "korean_summary": "오라클이 NVIDIA와 협력해 OCI 클라우드 인프라에서 AI 학습과 에이전트 AI 기능을 확대했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUlhTYmY0dmRyaVlOV0E1VHRkYmFEeDd1QzRqT08zVTRIT3FaeU1OLXp6clVoSGx4UXJncjAzN3FDbVlEOGFyTXB4M1NDdU4wdVhkeUtLM0podUZrLWlVWnRNVHJFN0pnN1V2UksxbjdxNjNPQnB6UFlRbk9KT2hPYU9hZzhiOFdzQW1zTExR",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI buildout hits snag as Google and Microsoft put off raising capex forecasts",
+   "link": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+   "date": "2026-10-30 01:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Microsoft와 Alphabet, AI 데이터센터 capex 전망 하향",
+    "korean_summary": "Microsoft가 NVIDIA의 최신 기술로 Copilot 처리량을 50% 이상 증가시켰으며, 데이터센터 capex 전망을 하향 조정했다."
+   },
+   "summary_data": {
+    "korean_title": "구글·마이크로소프트, AI 데이터센터 투자 전망 상향 멈춰…GPU 공급 지연 변수로",
+    "korean_summary": "Microsoft와 Alphabet이 3분기 실적 발표에서 자본지출 전망을 시장 기대치보다 낮게 제시하며, 서드파티 GPU 공급업체의 **가용 용량 지연**이 AI 인프라 확충 속도에 영향을 미치고 있음을 시사했다.",
+    "action": {
+     "actor": "Microsoft, Alphabet",
+     "action": "연간 capex 가이던스를 시장 예상보다 낮게 제시(Microsoft는 기존 $175B에서 $170B로 하향, Alphabet은 $195B~$205B 유지)하고, 서드파티 GPU 공급 지연 문제를 공개 언급",
+     "stage": "Report",
+     "timeline": "2026-10-29 (수요일) 3분기 실적 발표",
+     "scope": "Microsoft Azure, Alphabet Cloud 인프라 투자 및 CoreWeave·IREN·Nebius 등 neocloud 파트너"
+    },
+    "key_facts": [
+     "Microsoft는 연간 capex 전망을 **$175B에서 $170B로 하향**",
+     "Alphabet은 $195B~$205B 가이던스를 유지했으나 시장 예상에는 못 미쳤고, 음(-)의 FCF $9B 이상 기록하며 주가 장외 **10% 하락**",
+     "Microsoft CFO Amy Hood는 서드파티 GPU 공급업체의 지연으로 일부 가용 용량이 2027년 상반기까지 밀릴 것이라고 밝힘",
+     "Nvidia가 투자한 neocloud 기업 Firmus(호주)는 Meta·OpenAI의 대규모 사용 약정이 있었음에도 이달 초 IPO 계획을 철회",
+     "Gartner는 2030년까지 neocloud 기업의 80%가 인수되거나 사업을 완전히 중단할 것으로 전망"
+    ],
+    "why_matters": "하이퍼스케일러들의 capex 둔화 신호와 neocloud 업체들의 신용등급 부재·자금난은 Nvidia GPU 수요의 간접 수요처인 인프라 공급망 전반의 자금 조달 위험을 드러낸다. 다만 Microsoft는 **2027년 상반기 capex 가속**을 예상한다고 밝혀, 단기 조정일 뿐 전체 AI 인프라 수요 사이클이 꺾인 것은 아니라는 해석도 공존한다.",
+    "subject_angle": "Nvidia는 GPU를 직접 공급하는 하이퍼스케일러(Microsoft, Alphabet)뿐 아니라 CoreWeave, IREN, Nebius, Firmus 같은 **neocloud 파트너**를 통한 간접 수요 경로에도 의존하는데, 이들의 자금 조달 악화와 IPO 철회는 Nvidia의 중장기 수요 가시성에 리스크 요인이 될 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Microsoft",
+      "context": "capex 전망 하향, Azure 48% 성장 발표, 서드파티 GPU 공급 지연 공개"
+     },
+     {
+      "name": "Alphabet",
+      "context": "capex 가이던스 유지하나 시장 기대 미달, 실적 발표 후 주가 급락"
+     },
+     {
+      "name": "CoreWeave",
+      "context": "Microsoft가 의존하는 GPU 제공 neocloud, 실적 발표 후 주가 하락"
+     },
+     {
+      "name": "Nebius",
+      "context": "GPU 제공 neocloud 파트너, 주가 하락"
+     },
+     {
+      "name": "IREN",
+      "context": "GPU 제공 neocloud 파트너, 주가 하락"
+     },
+     {
+      "name": "Oracle",
+      "context": "AI 인프라 최대 투자사 중 하나, 주가 하락"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Amazon·Google·Microsoft 인프라에 의존, IPO 준비 중 수요 급증으로 서비스 중단 경험"
+     },
+     {
+      "name": "OpenAI",
+      "context": "지속적인 컴퓨팅 용량 수요, 2027년 IPO 가능성 언급"
+     },
+     {
+      "name": "Meta",
+      "context": "연간 capex 전망 $135B~$145B로 하단 상향, 음의 FCF로 주가 하락"
+     },
+     {
+      "name": "Firmus",
+      "context": "Nvidia가 투자한 호주 neocloud, Meta·OpenAI 사용 약정 보유했으나 IPO 철회"
+     },
+     {
+      "name": "Amazon",
+      "context": "Anthropic 인프라 제공, 목요일 실적 발표 예정(당시 기준 미발표)"
+     },
+     {
+      "name": "Gartner",
+      "context": "neocloud 업계 80% 인수·폐업 전망 발표"
+     }
+    ],
+    "products": [
+     {
+      "name": "Azure",
+      "role": "Microsoft 클라우드 사업, 48% 매출 성장 견인"
+     },
+     {
+      "name": "Claude",
+      "role": "Anthropic AI 어시스턴트, 수요 급증으로 가용성 중단 경험"
+     }
+    ],
+    "watch_next": [
+     "Amazon의 3분기 실적 및 capex 가이던스 발표 내용 확인",
+     "Nscale의 IPO 프로스펙터스 업데이트 여부 및 neocloud 자금 조달 상황",
+     "Microsoft가 언급한 2027년 상반기 capex 가속 시점의 실제 집행 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+   "body": "The past few quarters of hyperscaler earnings have been marked by ever-increasing capital expenditure forecasts as tech giants race to build out artificial intelligence infrastructure to meet what they describe as insatiable demand. At least for the moment, Microsoft and Alphabet are telling a slightly different story. In their earnings reports Wednesday, both companies shared capex figures that came up shy of analysts' estimates. Microsoft reduced its capex forecast for the year to $170 billion from $175 billion, and Alphabet held its guidance at $195 billion to $205 billion. The numbers suggest a slowdown is nowhere in sight, but they do represent another potential point of concern for the AI buildout. Shares of neoclouds CoreWeave, Nebius and IREN all dropped after the reports, as did Oracle, which is one of the biggest spenders on AI infrastructure. Microsoft CFO Amy Hood said on the software company's earnings call that third-party providers of graphics processing units had delays that will push out some available capacity until the first half of 2027. She didn't provide names, but Microsoft relies on CoreWeave, IREN and Nebius, among others. Anat Ashkenazi, Alphabet's finance chief, told analysts that outside computing power \"came online only at the very end of Q3.\" Alphabet shares tumbled about 10% in extended trading as the company missed on earnings and revenue and reported negative free cash flow of more than $9 billion. Plenty of Alphabet shareholders remain faithful. \"We are pleased with what we see and what we heard, and trust management's approach to their AI spending,\" Chris Ballard, managing director of Check Capital Management, wrote in an email to CNBC. Investors will get a final read on hyperscaler capex for the quarter when Amazon reports results after the close Thursday. In Meta's earnings report last week, the company said it expects full-year capex of $135 billion to $145 billion, raising the bottom of the range from $130 billion. Like with Alphabet, Meta shares sank as the company reported negative free cash flow. Delays from emerging neocloud partners have occurred before at Microsoft, but they're more critical now as Anthropic gets set to go public. Anthropic counts on infrastructure from Amazon, Google and Microsoft for much of its computing needs, alongside capacity from SpaceX, Lambda and Nscale, which filed to go public in September but hasn't updated its prospectus in weeks. At times this year, Anthropic's Claude assistant has been unavailable due to climbing demand. Rival OpenAI, which has said an initial public offering in 2027 is likely, is also in constant need of more capacity. One big challenge for the market is that the neoclouds require billions of dollars in outside capital to fuel their buildouts but don't have investment-grade credit ratings. With interest rates rising and concerns about their debt loads mounting, lenders are pulling out of the market. Last week, analysts at Gartner shared with CNBC the f"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+   "link": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+   "date": "2026-10-30 01:42",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미 정보기관, NVIDIA CEO 겨냥 중국 스파이 의혹 감시",
+    "korean_summary": "미국 정보기관이 중국 AI 클라우드 회사 Megaspeed 임원 Alice Huang이 NVIDIA CEO Jensen Huang에 접근해 정보 수집을 시도한 혐의를 약 1년간 감시했다."
+   },
+   "summary_data": {
+    "korean_title": "美, Nvidia CEO 접근 중국 스파이 의혹 수사…Megaspeed 임원 연계",
+    "korean_summary": "미국 정보기관이 Nvidia에 불법적으로 칩을 중국에 되판 혐의를 받는 싱가포르 AI 클라우드 기업 **Megaspeed**의 임원 Alice Huang을 약 1년간 감시하며 그녀가 Jensen Huang CEO와의 친분을 통해 Nvidia의 대중국 수출 전략 정보를 수집했을 가능성을 조사했다.",
+    "action": {
+     "actor": "US intelligence agencies",
+     "action": "Megaspeed 임원 Alice Huang의 중국 연계 및 Jensen Huang과의 친분을 통한 정보 수집 가능성 감시·조사",
+     "stage": "Report",
+     "timeline": "약 1년간 감시, 2025년 Commerce Department의 Megaspeed 조사 포함, 보도는 2026-10-30 기준",
+     "scope": "Singapore 지역 Nvidia 고객사 Megaspeed 및 관련 임원 개인"
+    },
+    "key_facts": [
+     "Alice Huang(Huang Le)은 Nvidia 칩을 불법적으로 중국에 되판 혐의를 받는 싱가포르 AI 클라우드 기업 **Megaspeed**의 임원",
+     "미국 정보기관이 그녀와 중국의 연계를 약 1년간 감시했다고 New York Times가 보도",
+     "그녀는 Jensen Huang과 싱가포르 지역 비즈니스 디너에서 다수 함께한 것으로 사진에 포착됨",
+     "**Nvidia는 해당 관계가 일반 고객사와의 통상적 관계와 동일하며, 국가안보 관련 정보는 전혀 제공되지 않았다고 반박**",
+     "2025년 Commerce Department가 Megaspeed를 수출 규제 회피 관련 혐의로 조사했다고 NYT가 이전에 보도"
+    ],
+    "why_matters": "이번 의혹은 Nvidia의 대중국 매출 확대를 위한 로비·고객 관계가 미국 국가안보 당국의 정밀 감시 대상이 되고 있음을 보여준다. **AI 칩 수출 통제를 둘러싼 미중 긴장이 Nvidia 경영진 개인 차원까지 확대되고 있다는 점**에서 향후 수출 승인 정책 및 지역 고객 관리에 정치적 리스크가 커질 수 있다.",
+    "subject_angle": "Nvidia는 고객 미팅이 통상적 비즈니스 활동일 뿐이며 기밀 정보 유출이 없었다고 공식 부인함으로써, **트럼프 행정부와의 수출 완화 협상 과정에서 불거진 신뢰 리스크를 조기에 차단**하려는 전략을 보이고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "의혹의 중심, 자사 고객 관계의 정당성을 공식 반박"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 AI 클라우드 기업, Nvidia 칩 불법 재판매 및 수출 규제 회피 혐의 대상"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "미국 정보기관의 Alice Huang 관련 공식 수사 결과 발표 여부",
+     "Megaspeed에 대한 Commerce Department 제재·규제 조치 진행 상황",
+     "Nvidia의 대중국 칩 수출 승인 정책에 대한 Trump 행정부의 후속 결정"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTDFyM3VRWmd4RWxyOXdWeXhvSTR1YzJ6dlJvQV9zaE5rdnJUd0RETTNIclVzRG90ak5wcVRtXzlqS3VWVGV0Q0VNNThBckZTYWEyeU9zdVRVeDFmQ2RiUk0tSVAzc0VCWUd2cVhqOUkwZVNweEJReEJERUdUWHNpR0tjWjQ5eGQ5amxkWG1hdGpmUQ?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo",
+   "body": "A top executive of a Singapore AI cloud firm that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, anonymous sources told the New York Times. The executive, Alice Huang (or Huang Le), worked for Megaspeed and was photographed as one of multiple people hanging out with Nvidia CEO Jensen Huang during various business dinners in the Singapore region. U.S. intelligence agencies had been surveilling Alice Huang to learn more about her ties with China for about a year, the Times reports. The concern, sources said, was that Alice Huang had grown so close to Jensen Huang that she could have been gathering information about Nvidia’s plans and the CEO’s efforts to convince the Trump administration to allow it to ship more advanced technology to China. But an Nvidia spokesperson denied this, telling TechCrunch that the CEO’s relationship with the Megaspeed executive was the same as with any other regional customer. “Jensen’s interactions with Ms. Huang are not unusual or unexpected. Meetings with customers are part of a C.E.O.’s job; Jensen talks with thousands of customer executives every year,” the spokesperson said in an emailed statement. The company also said, “Our regional cloud customers receive ordinary business information — not sensitive NVIDIA trade secrets — and zero information relevant to national security.” In 2025, the Times reported that the Commerce Department had investigated Megaspeed over concerns that it was helping Chinese companies sidestep AI chip export regulations by reselling restricted chips to them. Alice Huang was said to be a top executive for the firm at the time."
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Google's Nvidia chip challenge boosts cloud sales, crimps cash flow",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFFGQ3JLNVhhZkJORVpfQWI2Sm4zMUR5OERBSTc4OUtlSkVrak5YWUVpSnhBZVhBZWVWdkpOZHRlZVVCczR5V1RnOEFVU0ZQY2JBNF9GN3pqSG9GenpNYTE5NlVSZGhXbm4ySEl6aTBvQjdlb095Wm82RzNFcEhrcVNYeExMR3dyeGJmWDhheE90dS1XWFF2QzVDRjd6aVphVkgwbkJvT0N3OWNOUmFz?oc=5",
+   "date": "2026-10-29 22:32",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "구글의 엔비디아 칩 도전, 클라우드 매출 증가·현금흐름 악화",
+    "korean_summary": "구글이 자체 AI 칩으로 엔비디아 제품을 대체하면서 구글 클라우드 매출이 증가하고 엔비디아 현금흐름이 악화되고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZFFGQ3JLNVhhZkJORVpfQWI2Sm4zMUR5OERBSTc4OUtlSkVrak5YWUVpSnhBZVhBZWVWdkpOZHRlZVVCczR5V1RnOEFVU0ZQY2JBNF9GN3pqSG9GenpNYTE5NlVSZGhXbm4ySEl6aTBvQjdlb095Wm82RzNFcEhrcVNYeExMR3dyeGJmWDhheE90dS1XWFF2QzVDRjd6aVphVkgwbkJvT0N3OWNOUmFz",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia-backed Cohere closes in on $5B funding round",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONHB1MEN1Wm9fTUxYQlF0S1pSUGgtT0VGMkpvWVFDWWxmR0FveV9QUllCY05DeGJwaUhMS3g0TWctYklCTnUwcl9FVEV3dkF5d21DTTZyeEhLdF9EZlItZFNKSk1xd2RlZ2dFbmp0T29rbTRnR0Rqa0NWd2FUSGR3MjFMX3Z1V2N0UXgxS2FQSldRdw?oc=5",
+   "date": "2026-10-30 01:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA 지원 AI 회사 Cohere, 50억 달러 펀딩 라운드 진행",
+    "korean_summary": "NVIDIA가 지원하는 AI 회사 Cohere가 50억 달러 규모의 펀딩 라운드를 마감하기 직전"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONHB1MEN1Wm9fTUxYQlF0S1pSUGgtT0VGMkpvWVFDWWxmR0FveV9QUllCY05DeGJwaUhMS3g0TWctYklCTnUwcl9FVEV3dkF5d21DTTZyeEhLdF9EZlItZFNKSk1xd2RlZ2dFbmp0T29rbTRnR0Rqa0NWd2FUSGR3MjFMX3Z1V2N0UXgxS2FQSldRdw",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030",
+   "link": "https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x",
+   "date": "2026-10-30 00:25",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "AI 산업의 PCB 수급 부족으로 PC 시장 압박 우려",
+    "korean_summary": "AI 데이터센터 수요로 PCB 제조 물량이 흡수되면서 PC 및 소비자 제품의 부품 부족과 가격 상승이 우려된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/ai-demand-triggers-massive-pcb-shortage-for-pc-makers-as-order-books-full-until-2030-lead-times-stretch-to-30-months-as-material-costs-surge-12x",
+   "body": "The AI industry continues to gobble up manufacturing resources that were once dedicated to serving PC, smart device, and gadget makers. We’ve seen huge demand/supply driven price rises in RAM , GPUs, SSDs, and more through 2026. Now that most basic and unglamorous electronics necessity, the PCB, looks set to join them. A news report published by Nikkei Asia quotes several leading PC and PCB industry managers, making it clear we are going to see PCB (and PCB subcomponent) shortages and price rises in the coming months. Go deeper with TH Premium: AI shortages (Image credit: Nvidia) AI data centers are swallowing the world's memory and storage supply Demand for data center CPUs has surged, and AI agents are responsible Chip scarcity assaults auto industry amid the worsening Nexperia and DRAM crisis The custom AI ASIC state of play An unnamed exec from an American PC maker spoke to Nikkei about the dire shortage of PCBs. “Even though PC shipments could decline again next year, we are still struggling to secure enough PCB supplies to meet our needs,” said the manager, who asked to remain anonymous. They were talking about securing enough supplies to make plans for products in the coming year. Several commenters pointed to AI computing demand eating up production capacity. The outlet also talked to business people further up the supply chain – the makers of PCBs and the makers of the components/materials needed to actually make PCBs. Traditional PCB demand is becoming underserved as AI products demand and pay more. One PCB maker talking to Nikkei said that a significant number of products have lead times that have doubled. Specifically, some PCB orders will take as long as 30 months to fulfill. Another PCB supply firm explained to Nikkei that a new order today would not be fulfilled until late in 2028. Though PCB makers are planning to invest and expand, they also need to secure multiple upstream materials. These can include copper clad laminates (CCLs) and the specialized fiberglass used for PCB construction . One Taiwanese PC maker noted that costs for CCLs have surged at least 12 times since July. Moreover, one of the world’s leading suppliers of CCLs has told the Nikkei that it has an order book that is currently filling up to 2030. This situation appears to have occurred despite its plans to triple capacity by 2028. In closely related developments, Nikkei observed that Nvidia recently announced partnerships with several major chip substrate makers. Chip substrates are essentially the tiny and intricate PCBs that CPUs and GPUs are mounted on. Japan's Ibiden, South Korea's Samsung Electro-Mechanics, and Unimicron of Taiwan all have new agreements with the Green team. Unimicron is looking at expanding capacity by 2.5x over the next three years. PCBs have been viewed as an unglamorous lower-tech part of the supply chain, partly due to the small numbers on the BoM. That may change. Companies are now racing to ramp up production of advanced PCBs and chi"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+   "link": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "date": "2026-10-30 04:16",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, Jensen Huang 스파이 혐의 보도 공식 반박",
+    "korean_summary": "NVIDIA가 Megaspeed를 일반적인 지역 고객사로 설명하며 스파이 혐의 관련 보도에 대해 반박했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNME1xdllUQU5RU1ZEcFl4VWVLaDFkOHNlSVJCSXdGZzA5OGxRQkhaV1BxbDJKRGNJamUtN1BUcUlWQ3BzMERHS3c4U3dPT2VWMkNPa1hXbTJkbzZsdjZfNnZ1RWdPYVI0Y2YtMXhlWVpHMWk1RThOcThqSTFnaDdoUlhEbnNOOFhlUGtR0gGQAUFVX3lxTE5MRldGbGNiMWhlMVlwOVBEWGwxMHVsTmlDOWFUZ1BfeGRuMTRmRGtLLWMzeTRfTVE1THV2SzYxRjE3STJMUHZsaUlHcU1DeEVveHhfWkhhUDhHZjNvbERJYzlnRnJ3N3FCX3htdlAxMGZ3ZXA4RVdNUWNsdUNSNUZueU1xcHNEdTdrbXdzSHF2MQ?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html",
+   "body": "An Nvidia spokesperson on Thursday pushed back on a New York Times report that detailed American intelligence agencies surveilling a person close to Nvidia CEO Jensen Huang because they thought she could be a Chinese intelligence asset. According to the Times report, which cited people briefed on intelligence surveillance, Alice Huang, who is linked to the Singapore-based cloud Megaspeed, developed a close relationship with Nvidia's Jensen Huang. Intelligence agencies worried that she was a spy, helping the Chinese government gain information from Nvidia and Jensen Huang, and fretted that Nvidia's CEO had access to President Donald Trump. The Nvidia spokesperson pushed back on the story in a statement to CNBC, saying that Singapore-based Megaspeed is another one of the company's regional cloud customers, and that Jensen Huang's interactions with its officials are not unusual, because he speaks with thousands of customers every year. The spokesperson added that customers don't get access to Nvidia trade secrets or relevant national security information. The report also alleged that Megaspeed was previously suspected of helping companies evade U.S. export controls on Nvidia's AI chips, which aren't allowed to be shipped to China. Nvidia said that Megaspeed had already been investigated for evading export controls. \"The diversion allegations against this regional cloud were thoroughly investigated and debunked last year,\" the spokesperson said in a statement. Nvidia implied that the U.S. government had not briefed Nvidia on Alice Huang. \"We're confident that if the U.S. government believes that any person is a threat to American industry, it would let us know,\" the spokesperson said. Nvidia has had to walk a tightrope in Washington as its AI chips have become a powerful tool for all AI developers and a bargaining chip in economic competition with China. Politicians and analysts say that Nvidia's AI chips could be used to create Chinese military AI models, or commercial AI models that could compete and eventually surpass American technology. As AI has become more important to the government, Nvidia's Huang has befriended Trump and has given pro-American speeches about building U.S. AI infrastructure. Huang has appeared with Trump at state dinners, AI summits, and international trips, all while pushing for certain Nvidia chips to get a green light to be shipped to China. Earlier this year the U.S. government cleared Nvidia's H200 chip to be shipped to China, but Chinese regulators prevented their imports. H200s are Nvidia's Hopper generation chip, not the current faster Blackwell generation currently used by American AI developers. The Nvidia spokesperson said the Chinese government is not looking for Nvidia products from regional clouds like Megaspeed. \"Instead, the PRC government blocked U.S. AI chips, protecting its own industry and resulting in the largest write-offs in U.S. tech history,\" the Nvidia spokesperson said. Last year, Nvidia wrote off "
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+   "link": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+   "date": "2026-10-30 03:29",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Trump, NVIDIA CEO 스파이 의혹 무시하고 중국 수출 정책 완화 검토",
+    "korean_summary": "Donald Trump가 NVIDIA CEO에 대한 정보기관의 스파이 의혹을 무시하고 회사 주가 보호를 위해 중국 수출 통제 완화를 고려했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Ars Technica",
+     "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUHlnbTZzVF9STklGb2FZNUhFOWdGNEtTelBHQjk2QlNXS2pQTWpxeUFkVGRtc3B1VUlBZzJRMXNkclZnd1lSS3ZqeEZRUVA2czAzd21acnFtakp2OUQxamJjMTFWNWlUSE0ta1M4MUdldEM1dkFldWZuTzlENWdrc09nM3JEaHJVVUQwR1NQanNKZjlqcE4zeTd6eXpoUzRZSGNWb0dpTE5oLXJVZ1Zfdk5MYkRGR2hJSl85QmtFenY?oc=5"
+    }
+   ],
+   "uid": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo",
+   "body": "Donald Trump apparently is so aligned with Nvidia CEO Jensen Huang—who has become the president’s key advisor on AI —that he ignored intelligence indicating that Huang was the target of a “Chinese spy plot,” and did so partly to protect Nvidia’s stock. The New York Times spoke with people briefed on US intelligence agencies’ surveillance and granted them anonymity to discuss findings drawn from “classified intelligence.” According to sources, about a year ago, Trump was briefed that “Beijing was getting reports from someone with direct access” to Huang. That “someone” was Alice Huang, or Huang Le, a Chinese citizen and former top executive at a Singapore cloud company called Megaspeed. According to sources, the US had already suspected that Alice Huang—who is not related to Jensen Huang—was helping China evade export controls to gain access to high-end Nvidia chips through Megaspeed. But it alarmed investigators to discover that she may have used her role at Megaspeed to gain direct access to Jensen Huang. It’s now believed she may have leveraged that closeness to feed China intel not only on one of America’s leading AI companies, but also to influence Trump’s thinking on AI. As Treasury Secretary Scott Bessent noted last month ahead of Trump’s AI talks with China President Xi Jinping, “the president is completely aligned with Jensen Huang, the CEO of Nvidia.” Read full article Comments"
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia in Talks to Offer Credit Support for Nscale Project",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3VPajZWRjE1UEJOYTMzTzBiMFA1SFlrUGFsS01rX1Fadmt6c0lUeUhqcGpweGRiTHpGd01vbzR6NFJadnlyb3VnN2V5LS12b05JdGk1UHY2TDhCemV0cGlzaDBXN2RUYnV2ODV1Wkw5RVptdEpoSXNweTc5YldWSkVGZ09INmEyd2pVLXFZeHQ1SzBzWk8tbG1BcGRhT1Y1MDlNNGExblF6eTc5NHc?oc=5",
+   "date": "2026-10-30 08:59",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, Nscale 프로젝트 신용 지원 협상",
+    "korean_summary": "NVIDIA가 Nscale 인프라 프로젝트에 신용 지원을 제공하는 방안을 협상 중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV3VPajZWRjE1UEJOYTMzTzBiMFA1SFlrUGFsS01rX1Fadmt6c0lUeUhqcGpweGRiTHpGd01vbzR6NFJadnlyb3VnN2V5LS12b05JdGk1UHY2TDhCemV0cGlzaDBXN2RUYnV2ODV1Wkw5RVptdEpoSXNweTc5YldWSkVGZ09INmEyd2pVLXFZeHQ1SzBzWk8tbG1BcGRhT1Y1MDlNNGExblF6eTc5NHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims — exec from firm under investigation for smuggling banned AI chips to China accused of being a spy, was also feeding information to Beijing",
+   "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxOck1aM2hvV2lDdnBQNmRFNldKRWRxQTQwNGVrTDhUM3hXcmJBbGJMRmZNR1BnanNUazdtdlk1WnF3NmdrejVJUF9lSUtSdy1IQmdNdHpEQklkRnFDQlB2R1gtOHZETlphV2pzWVBPSnVuZkNxVFNxVW9rVnlnZDNfWDJEYWlFNk1TcFVvWWRCM3pVT0xkUmw2RnV3c0daNnZDbEhpN3l3Q2VLTkRRNWJ5WG5DQXNaQUhhYXY3UmFDakRjNmR4OGN1VzBEUjFLWHd5NXptWXI3UElZTGxINmdQMTRDVFR0Ql9welEzcjVNVngxYVZmQWhObHVtSEY2ZVZFRDhLUDUyazBlZFhuZURLZkFQNG5EY3A3RDZrS1pJSkV4SVBwcjdzTmV3R0g1QU53SG5rVWozcVV4U3d6ZmI4dmpDbHpwcElpd0dPX0VRRUl2VHhBZExqaldfdHpoaHoyTEU5MXRwS0xsbVBJYUY4VF96QVBHU1hnZWJ4OUMwMS1rTjhPU1JSSjlLMS1BbHRNaUdSdVBDLWtoaUJfQjhrZkFlb3FXNWh1NUE?oc=5",
+   "date": "2026-10-29 22:04",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "엔비디아 CEO 스파이 표적 의혹, 칩 밀수 조사 기업 경영진 연루",
+    "korean_summary": "금지된 AI칩 중국 밀수 혐의 기업 경영진이 중국 정보원일 가능성 속에 엔비디아 CEO를 표적으로 했을 가능성을 보도했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxOck1aM2hvV2lDdnBQNmRFNldKRWRxQTQwNGVrTDhUM3hXcmJBbGJMRmZNR1BnanNUazdtdlk1WnF3NmdrejVJUF9lSUtSdy1IQmdNdHpEQklkRnFDQlB2R1gtOHZETlphV2pzWVBPSnVuZkNxVFNxVW9rVnlnZDNfWDJEYWlFNk1TcFVvWWRCM3pVT0xkUmw2RnV3c0daNnZDbEhpN3l3Q2VLTkRRNWJ5WG5DQXNaQUhhYXY3UmFDakRjNmR4OGN1VzBEUjFLWHd5NXptWXI3UElZTGxINmdQMTRDVFR0Ql9welEzcjVNVngxYVZmQWhObHVtSEY2ZVZFRDhLUDUyazBlZFhuZURLZkFQNG5EY3A3RDZrS1pJSkV4SVBwcjdzTmV3R0g1QU53SG5rVWozcVV4U3d6ZmI4dmpDbHpwcElpd0dPX0VRRUl2VHhBZExqaldfdHpoaHoyTEU5MXRwS0xsbVBJYUY4VF96QVBHU1hnZWJ4OUMwMS1rTjhPU1JSSjlLMS1BbHRNaUdSdVBDLWtoaUJfQjhrZkFlb3FXNWh1NUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · South China Morning Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "China’s Iluvatar CoreX says new GPU matches Nvidia’s H200 as chip gap closes",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOGJWbWlza2g3SGJtbDRSbUQxcmhtYW91QzMxV2Zpa0lEWDVyZnZTZzk4VGhWdF93UUh3aTJQR1pWMUxvY3lmZDZGQlhwaVVLX0FMY0EtWlN6MVl4cUJ2Sy1VeVF0NjNWWVB4Zi1aT3lGTUhxeW5xOTJ5S2tBV0xiTmRZWFBVOWxRMjhjOFo1cnZkLXB4bm00NHJfdXMyQzlIUzVzOEFuSG4zNS1id2NTMHpWRTIzaGhnVlR1ajhuRDM2TXM3amFRMUQyVDZETE5jUnZneWNGTdIB1wFBVV95cUxOaVQ3U1R1WThhZDg2cXdhZm9NbTUwMmQyMHBNaVRaN3RWV19JOVdfVW04UUxQVlB3RDQ5WmlnRXcyUzhxTFV2ODRELVJobng3VklqWlhJalNTcE1mTGkwSGZrT3hwV21BTFpmSmxCc3NYT25Ka3l1d2xyNFBoYnRnaF93NE4zNkV2M1ZXV2tzSlM1WC1XUkZVSllQeldtZ0NVd2NadHVDTkc1VHRxQkh3QXlBaUh0VGdLZEFvajFOMGUyU2M0U2NEa1J1N21QYnd1S0IyV0RIVQ?oc=5",
+   "date": "2026-10-29 23:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국 Iluvatar CoreX, NVIDIA H200 대등 성능 GPU 발표",
+    "korean_summary": "중국 Iluvatar CoreX가 NVIDIA H200과 동등 성능의 GPU를 출시했다고 주장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPOGJWbWlza2g3SGJtbDRSbUQxcmhtYW91QzMxV2Zpa0lEWDVyZnZTZzk4VGhWdF93UUh3aTJQR1pWMUxvY3lmZDZGQlhwaVVLX0FMY0EtWlN6MVl4cUJ2Sy1VeVF0NjNWWVB4Zi1aT3lGTUhxeW5xOTJ5S2tBV0xiTmRZWFBVOWxRMjhjOFo1cnZkLXB4bm00NHJfdXMyQzlIUzVzOEFuSG4zNS1id2NTMHpWRTIzaGhnVlR1ajhuRDM2TXM3amFRMUQyVDZETE5jUnZneWNGTdIB1wFBVV95cUxOaVQ3U1R1WThhZDg2cXdhZm9NbTUwMmQyMHBNaVRaN3RWV19JOVdfVW04UUxQVlB3RDQ5WmlnRXcyUzhxTFV2ODRELVJobng3VklqWlhJalNTcE1mTGkwSGZrT3hwV21BTFpmSmxCc3NYT25Ka3l1d2xyNFBoYnRnaF93NE4zNkV2M1ZXV2tzSlM1WC1XUkZVSllQeldtZ0NVd2NadHVDTkc1VHRxQkh3QXlBaUh0VGdLZEFvajFOMGUyU2M0U2NEa1J1N21QYnd1S0IyV0RIVQ",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+   "link": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+   "date": "2026-10-30 00:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Tensor Core를 활용한 분자 시뮬레이션 성능 최적화",
+    "korean_summary": "NVIDIA 기술 블로그가 Tensor Core를 활용하여 원자 시뮬레이션의 계산 성능을 극대화하는 방법을 소개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 머신러닝 원자간 전위(MLIP) 계산에서 Tensor Core 성능 최적화 방안 공개",
+    "korean_summary": "NVIDIA가 기술 블로그를 통해 **Tensor Core**를 활용해 머신러닝 기반 원자간 전위(MLIP) 시뮬레이션의 계산 성능을 높이는 방법을 소개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Tensor Core를 활용한 머신러닝 원자간 전위(MLIP) 시뮬레이션 성능 최적화 기법을 기술 블로그에 게시",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "원자 수준 시뮬레이션은 화학 반응, 상전이, 기계적 파괴 등 분자·재료 거동 이해에 활용됨",
+     "**밀도함수이론(DFT) 등 양자역학적 방법은 정확하지만 계산 비용이 커 대규모·장시간 시뮬레이션에 제약**이 있음",
+     "머신러닝 원자간 전위(MLIP)가 비용-정확도 트레이드오프를 해결하는 방법으로 언급됨",
+     "NVIDIA가 Tensor Core 성능을 활용하는 방안을 다룸(세부 수치·벤치마크는 본문에서 확인 불가)"
+    ],
+    "why_matters": "분자동역학·재료과학 시뮬레이션은 HPC 및 AI for Science 분야의 핵심 응용으로, **GPU 가속이 DFT 대비 비용-정확도 트레이드오프를 개선하는 대안**으로 주목받고 있다. 이는 NVIDIA가 전통적 그래픽·AI 학습 외에 과학 컴퓨팅 영역에서 Tensor Core 활용 범위를 확장하는 흐름을 보여준다.",
+    "subject_angle": "**NVIDIA는 Tensor Core 하드웨어를 AI 학습뿐 아니라 과학 시뮬레이션(MLIP) 영역까지 확장**하여 GPU 플랫폼의 활용 범위를 넓히는 전략을 보이며, 이는 HPC·AI for Science 고객 기반 확대와 직결된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Tensor Core 기반 MLIP 성능 최적화 기법을 공개한 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Tensor Core",
+      "role": "머신러닝 원자간 전위 시뮬레이션 가속에 활용되는 NVIDIA GPU 핵심 연산 유닛"
+     },
+     {
+      "name": "Machine Learning Interatomic Potentials (MLIP)",
+      "role": "DFT 대비 비용-정확도 트레이드오프를 개선하는 시뮬레이션 방법론"
+     }
+    ],
+    "watch_next": [
+     "구체적인 성능 벤치마크 수치(속도 향상률 등) 공개 여부",
+     "지원되는 GPU 아키텍처 및 소프트웨어 스택(CUDA 라이브러리 등) 명시 여부",
+     "실제 재료과학·화학 연구 분야 적용 사례 발표 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNktUQ0tNQ1UwUmFFeHR1SUdXSDFVdGhCb2lKcGNhQ043S2JBMjVfWG1Oc2dUT2pNZi1RVFBGZWhvRC00d3ozN0p0VW5sSG0tbTNRZzdDQkUtR3czcy0xOTRmdlREbzlLQnZaN2JoWG9vZUd2T3ZwNXJMT1RkSkJ0RU5IVll6N2VyTzlfQ3RwbFR0bFJrVG52ZGVDM3dVZmhFak9aMmR5ODRaZ216VVRPckNR?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials",
+   "body": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These... Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These simulations come with a cost-accuracy trade-off. Quantum-mechanical methods such as density functional theory (DFT) can provide accurate energies and forces, but their computational cost often limits their use for large systems or long… Source"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump knew a year ago Nvidia’s billionaire CEO had a close relationship with a Chinese spy and did nothing, report says",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeHJETkttREw2ZUgyc1RLS0FOSFZrajlIbllZYXE0QzVsdkxGUzNySjdIdmhIVlJ0ZGRKMjNOZ2hXX2tSck56TThFTl9UYTBOeUxJWTZZTDRxdjJYX19OUDM2OXN2NTVISkZKQS0xelVJcFFIaXU2cFZXVzRuenhJc21PMUl5TDU4XzM3Zl90bEpxa0c1VmdvN2d0bTlLdw?oc=5",
+   "date": "2026-10-30 07:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, 1년 전부터 엔비디아 CEO 중국 스파이 관계 알고 있었다는 보도",
+    "korean_summary": "트럼프 전 대통령이 1년 전부터 엔비디아 CEO의 중국 스파이 관계를 알고 있었다는 보도가 나왔다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeHJETkttREw2ZUgyc1RLS0FOSFZrajlIbllZYXE0QzVsdkxGUzNySjdIdmhIVlJ0ZGRKMjNOZ2hXX2tSck56TThFTl9UYTBOeUxJWTZZTDRxdjJYX19OUDM2OXN2NTVISkZKQS0xelVJcFFIaXU2cFZXVzRuenhJc21PMUl5TDU4XzM3Zl90bEpxa0c1VmdvN2d0bTlLdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher",
+   "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQeWtTSnRRNFJDby1vdEpCR21SUUNCeVJiZGJiMXdheFNpeTlnYThsX3JsVUlBcmVvT09pS3BNNkdoaE1keHZMWTcxM04tZDRPOGxZYTRPZ0pKM2tIaDg5aGFEaERNOVV4bFFocmQ2cFdQTm02TE54WkJVTWRWb2gxSHpsZW1Ic0FTUTZ1VUtuTlQtbzVJaVEybHNDXzE3cDJOY0FpQlREYm1Xd0VyUkt0YjhsNW05dXlCTXhoeDJFTk85SlVnRzE5bWxJZEVmSHZWLXBhS1ZORGxoYUZXeDU1dVZWN2l4VTR0X3I5YXFqVUhrVjRVekhOLWdSWUtRZkNTQlNMQUdNcFhEeXJYLU9TNll2X2Q0SmpBMzQ5VHgyZkQ4QUFPRTFHVXd6MmpFXzN1Mjc3ajd1ZUlwRjdnTW0xOEJjajZNZWJLcDJNY0NoOHF5eTg?oc=5",
+   "date": "2026-10-29 23:21",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA RTX 5080 가격 $999 MSRP 대비 2배 이상 인상, 공급 부족으로 품귀",
+    "korean_summary": "RTX 5080이 공급 부족으로 인해 시장에서 공식 MSRP $999의 2-3배인 $2,000대에 판매되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQeWtTSnRRNFJDby1vdEpCR21SUUNCeVJiZGJiMXdheFNpeTlnYThsX3JsVUlBcmVvT09pS3BNNkdoaE1keHZMWTcxM04tZDRPOGxZYTRPZ0pKM2tIaDg5aGFEaERNOVV4bFFocmQ2cFdQTm02TE54WkJVTWRWb2gxSHpsZW1Ic0FTUTZ1VUtuTlQtbzVJaVEybHNDXzE3cDJOY0FpQlREYm1Xd0VyUkt0YjhsNW05dXlCTXhoeDJFTk85SlVnRzE5bWxJZEVmSHZWLXBhS1ZORGxoYUZXeDU1dVZWN2l4VTR0X3I5YXFqVUhrVjRVekhOLWdSWUtRZkNTQlNMQUdNcFhEeXJYLU9TNll2X2Q0SmpBMzQ5VHgyZkQ4QUFPRTFHVXd6MmpFXzN1Mjc3ajd1ZUlwRjdnTW0xOEJjajZNZWJLcDJNY0NoOHF5eTg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Cal Poly",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cal Poly Unveils NVIDIA-Powered AI Factory to Expand AI Education and Research",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSWpQY3YyeFRWM3E1eUJPSmpHSzlaWlBVVHQ5NlhjS3F3OTdWOXd3VXFWZVpyMmJfeGQ0RktRTW9HazJWUHh0cGFHZVFHSFdnSTRGNHFQSFdidmg2UHlKbjR6WXYyb3d1RkNZdXB0UldadnhRRFZ6Y1hJR0puRTlZZkNsUVlXaENtb3M2M3c3RURTUF9CR3czQkxmdUI4cXNuTndhaXVNQQ?oc=5",
+   "date": "2026-10-29 21:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Cal Poly, NVIDIA 기반 AI 팩토리 공개하여 교육 및 연구 확대",
+    "korean_summary": "Cal Poly가 NVIDIA 기술을 활용하는 AI 팩토리를 공개하여 AI 교육과 연구를 확대"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSWpQY3YyeFRWM3E1eUJPSmpHSzlaWlBVVHQ5NlhjS3F3OTdWOXd3VXFWZVpyMmJfeGQ0RktRTW9HazJWUHh0cGFHZVFHSFdnSTRGNHFQSFdidmg2UHlKbjR6WXYyb3d1RkNZdXB0UldadnhRRFZ6Y1hJR0puRTlZZkNsUVlXaENtb3M2M3c3RURTUF9CR3czQkxmdUI4cXNuTndhaXVNQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · PC Gamer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTnBaWFRXRUVETlFfV01kYWoxcGNfd19lNVIwNE9NczFCTFVRSVlzZUFId0d5MGdtVWptY1huQVoyazNSVlpuZk1rMThvTGwweFFRQnIwR3hCblJPdVNrbTA4Z3Y2Uk5id0lqSmhEOXk3MWUyelMzT19iSUVGdzdlQzlzbHBYLVlxUXl1YzVVSU8wOXVTZXFmX0dFbkJqaGNSSWszWlJHQllmMjFYVFkyajF0OWZlRlhqbVo3MDlxendXLUN1WjRMOUNJWUQ2QkxWcjd5Ri1fX1llRXc?oc=5",
+   "date": "2026-10-29 23:01",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "6,000만 달러 규모 AI 랙 클러스터, NVIDIA GPU 10,000개 포함",
+    "korean_summary": "1.4페타바이트 메모리와 NVIDIA AI GPU 10,000개를 탑재한 대규모 AI 인프라가 eBay에 판매되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTnBaWFRXRUVETlFfV01kYWoxcGNfd19lNVIwNE9NczFCTFVRSVlzZUFId0d5MGdtVWptY1huQVoyazNSVlpuZk1rMThvTGwweFFRQnIwR3hCblJPdVNrbTA4Z3Y2Uk5id0lqSmhEOXk3MWUyelMzT19iSUVGdzdlQzlzbHBYLVlxUXl1YzVVSU8wOXVTZXFmX0dFbkJqaGNSSWszWlJHQllmMjFYVFkyajF0OWZlRlhqbVo3MDlxendXLUN1WjRMOUNJWUQ2QkxWcjd5Ri1fX1llRXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · PC Gamer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO reportedly targeted by Chinese spy previously under suspicion for AI chip smuggling",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLTJBMkNmMzJrSFpBOXNrTy1SNk5rc1AyN2NHeEFTR3JKTFhLTDFmNGEtbzZha0RDZk1aRUNDeXRpNDNBcVJnbV9HRExETFotZm5POU9wSl9ZeVpWVk9RWkZ3SnprYjhaUVo4VVQ5aDNiaDhjSmFKUlVFa1l3Z0RZZ3dRM1llLWc3b0FVT2ZZdW1WNzc1d05DbnhiZzBCelp6TzJyekl0anNjMTBTYXhsLUM3T0lkOUxwQlFWd09PWEk0akg3QzNjcjZ1Zw?oc=5",
+   "date": "2026-10-30 02:30",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA CEO, AI 칩 밀수 혐의 용의자와 연결된 중국 스파이 타겟으로 보도",
+    "korean_summary": "과거 AI 칩 밀수 의혹이 있던 중국 스파이가 NVIDIA CEO를 타겟했다는 보도가 나왔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLTJBMkNmMzJrSFpBOXNrTy1SNk5rc1AyN2NHeEFTR3JKTFhLTDFmNGEtbzZha0RDZk1aRUNDeXRpNDNBcVJnbV9HRExETFotZm5POU9wSl9ZeVpWVk9RWkZ3SnprYjhaUVo4VVQ5aDNiaDhjSmFKUlVFa1l3Z0RZZ3dRM1llLWc3b0FVT2ZZdW1WNzc1d05DbnhiZzBCelp6TzJyekl0anNjMTBTYXhsLUM3T0lkOUxwQlFWd09PWEk0akg3QzNjcjZ1Zw",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "174만대 테슬라 잡는다…현대차·GM, '2028년 자율주행 대전'",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173081",
+   "date": "2026-10-30 15:30",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Automotive-Robotics",
+    "is_focus": false,
+    "signal_tags": [
+     "automotive"
+    ],
+    "korean_title": "현대차·GM, 2028년 자율주행 양산 전략…Tesla 추격 선언",
+    "korean_summary": "현대자동차와 GM이 2028년 자율주행 기능 양산을 목표로 AI 데이터 경쟁력을 활용해 Tesla 추격에 나섰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092173081",
+   "body": "테슬라가 핵심 자율주행 소프트웨어인 FSD(Full Self-Driving) 이용자를 늘리는 가운데 현대자동차그룹과 제너럴모터스(GM)가 인공지능(AI)과 데이터 경쟁력을 앞세워 추격에 나섰다. 양사가 자율주행 기능 양산을 목표로 한 2028년에는 테슬라 추격과 함께 현대차·GM 간 경쟁도 본격화할 전망이다. 제너럴모터스(GM)과 현대차그룹이 테슬라 중심의 글로벌 자율주행 시장에 도전장을 던졌다. 테슬라가 자율주행 소프트웨어인 FSD(Full Self-Driving) 이용자를 170만명 넘게 끌어모으며 앞서가자, GM과 현대차그룹이 인공지능(AI)과 데이터 역량을 전면에 내세워 2028년 양산 결전을 선언한 것이다. 테슬라가 최근 공개한 2026년 3분기 실적 자료에 따르면 글로벌 FSD 활성 구독·계약은 174만건으로 전년 동기(104만 건) 대비 67% 증가했다. 카메라로 차량·보행자·차선·교통표지 등을 인식하고 신경망 기반 AI로 주행 경로와 조향·가감속을 판단하는 FSD로 자율주행 생태계를 빠르게 잠식하고 있는 것이다. 다만 운전자가 주행 상황을 지속적으로 감독해야 하는 점은 보완점으로 꼽힌다. 악천후 시 시야 미확보 등으로 미국 도로교통안전국(NHTSA)이 320만 대에 달하는 차량의 안전성 조사에 착수하는 등 안전성 검증 과제도 안고 있다 이에 반해 GM과 현대차그룹은 실도로 데이터와 예외 상황을 활용해 AI를 고도화하며 테슬라 추격에 나섰다. 우선 GM은 데이터 물량전을 통해 고속도로 자율주행 기능 도입을 선언했다. 관련해 GM은 지난 21일 미국 뉴욕에서 개최한 ‘GM 포워드(GM Forward)’ 행사에서 전용 데이터 수집 차량 수백대를 통해 매월 약 100만마일(약 160만㎞)의 다중 센서 데이터를 확보하고 있다고 발표했다. 특히 가상 환경에서는 하루 30억마일 이상의 주행 데이터를 생성해 AI 학습에 활용한다. 연산 능력을 기존 대비 40배 높인 차세대 중앙 컴퓨팅 유닛(CCU)을 바탕으로, GM은 2028년 캐딜락 에스컬레이드 IQ에 운전자가 전방을 주시하지 않아도 되는 고속도로 ‘아이즈오프(eyes-off)’ 자율주행 기능을 탑재한 뒤 대형 트럭·SUV로 확대할 방침이다. 테슬라가 저렴한 카메라와 무선 업데이트(OTA)에 집중한다면 GM은 고가의 라이다·레이더를 결합한 센서 중복성을 앞세우는 식이다. 현대차그룹은 글로벌 반도체 공룡과의 협업과 자체 AI를 결한 ‘투트랙 전략’을 가동했다. 2028년 상반기 엔비디아 솔루션 기반 레벨 2+ 시스템을 양산차에 적용하고, 하반기에는 레벨 2++ 시스템을 선보인다. 2029년 하반기에는 자체 개발한 엔드투엔드(E2E) 방식의 ‘아트리아 AI’를 적용한 레벨 2++ 차량을 양산할 계획이다. 엔비디아 기반 기술로 양산 속도를 확보하되, 장기적으로는 핵심 SW 주도권을 내재화하겠다는 포석이다. 다만 현대차그룹의 레벨 2+·2++는 국제자동차기술자협회(SAE)의 공식 기준인 레벨 2와 달리 운전자 보조 기능을 고도화한 업체의 자체 기준이다. 아울러 현대차그룹은 현재 40대의 데이터 수집 차량을 주야간 운영하며 도로공사·악천후·급격한 차로 변경 등 ‘엣지 케이스(돌발 상황)’를 확보하고 있다. 확보한 데이터에서 난도가 높은 사례를 선별하는 ‘하드 이그잼플 마이닝’을 거쳐 AI를 학습시키고, 주행 상황을 3차원 가상 환경에서 검증한 뒤 개선 모델을 차량에 적용한다. 데이터 수집부터 학습·검증·적용까지 반복하는 ‘데이터 플라이휠’로 성능 개선 속도를 높인다는 구상이다. 업계에서는 2028년을 기점으로 현대차그룹과 GM 간의 추격 경쟁이 본격화할 것으로 보고 있다. 두 회사 모두 2028년 양산차에 자율주행 기능을 적용한다는 목표를 세운 데다, GM은 고속도로 ‘아이즈오프’ 기능을, 현대차그룹은 엔비디아 기반 시스템과 자체 AI를 앞세워 상용화에 나서기 때문이다. 업계 관계자는 “양사가 추진하고 있는 상용화 시점이 동일하다는 점에서 2028년을 전후로 자율주행 차량 경쟁이 본격화할 가능성이 있다”며 “다만 목표로 하는 기능과 운전자 개입 조건이 다른 만큼 실제 주행 성능과 안전성 검증 결과를 함께 살펴봐야 한다”고 말했다. 허인학 기자 ih.heo@chosunbiz.com"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stocks Move Lower With Vera CPUs Joining Oracle's GPU Expansion",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUluRjBnbzdyQ215YWVWZUNmQ082UHpEcnJPUFM5T3UtWUxPUVNDNlZfUEQ2Z2FXVFhrQ05Da0QzVHR5Rk5ZSHNmNERXaXZpTWQ5RXpXRHhNWXdKRUxOa1AyS0dDWWJ0enpYcEYybU5jUXdrd21hS0xCUFJSQ01sZEpSc1V2UlZKZzFQU0RZOUZ2dHE4X1JWWGJn?oc=5",
+   "date": "2026-10-30 03:05",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Oracle Vera CPU 도입으로 NVIDIA 주가 하락",
+    "korean_summary": "Oracle이 GPU 확대 계획에 자체 개발 Vera CPU를 포함하면서 NVIDIA 주가가 내림"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUluRjBnbzdyQ215YWVWZUNmQ082UHpEcnJPUFM5T3UtWUxPUVNDNlZfUEQ2Z2FXVFhrQ05Da0QzVHR5Rk5ZSHNmNERXaXZpTWQ5RXpXRHhNWXdKRUxOa1AyS0dDWWJ0enpYcEYybU5jUXdrd21hS0xCUFJSQ01sZEpSc1V2UlZKZzFQU0RZOUZ2dHE4X1JWWGJn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia refutes NYT article claiming Chinese spy targeted CEO and US failed to act",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORzZUY1pPM2RIaWJUeG5RdlFfLTZsRTBsMk9qbjFVWUNxYldyZDU4ZFVRMEcxeWpVdEdkSzRCY21oenZEanlESV90eVJMVFBDMm14SGg5OWZSQkJiVHQ1V3JILU1OOVljWTg2R0ZIeU5aNzg2cDVlbUs1czNkbVBhNWdtZmRQX19Wc1Q4ckJNUW9odXpLdTRHNHVxdXVUVWFlUTNBNEl0VXF3RFUtRERGaWcxbGtwYm40ZmxB?oc=5",
+   "date": "2026-10-30 02:44",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, CEO 중국 스파이 음모 보도 부인",
+    "korean_summary": "NVIDIA가 CEO 대상 중국 스파이 음모 주장을 공식 반박했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORzZUY1pPM2RIaWJUeG5RdlFfLTZsRTBsMk9qbjFVWUNxYldyZDU4ZFVRMEcxeWpVdEdkSzRCY21oenZEanlESV90eVJMVFBDMm14SGg5OWZSQkJiVHQ1V3JILU1OOVljWTg2R0ZIeU5aNzg2cDVlbUs1czNkbVBhNWdtZmRQX19Wc1Q4ckJNUW9odXpLdTRHNHVxdXVUVWFlUTNBNEl0VXF3RFUtRERGaWcxbGtwYm40ZmxB",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Hill",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia dismisses report alleging Chinese executive tied to CEO passed intel to Beijing",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2JOR05heGtDSnh5T0k0RW9kWWRtcEk2b0V3R2dNNFppbUk1RmltdjhGZ2tHM3dvVGJTczdVWEhWeEdrdGNRM3RLenZGdzRTbFpaZEppdXFGMS1NOU81UGZlNGZlcnYzUjJ0ZWI1Tm1UZVllN1NSb1c5ejNBSjJXQVVDWlVoNlpVb09WT1dR0gGTAUFVX3lxTE1sUWQyZWpfVXNKb3ExSFNtSUFQODJKOC1ERDk3WG95TEtSaVhIRGxWSFF4cmZZMHlGRHFUa2haMVR4OTNtUkVSUndGSV9UN2tJTjk4WUoxNkIzdXdaSEFydldfSXhGWnFYbC1GZ0ZTdVlTRFBqeV9HRFM0RDAwT0JseFFrdy1BNTdfZ0F0YTQ2UWlIMA?oc=5",
+   "date": "2026-10-30 04:31",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 중국 고위 임원 정보 유출 혐의 부인",
+    "korean_summary": "NVIDIA가 중국 고위 임원의 정보 유출 주장에 대해 공식 반박했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY2JOR05heGtDSnh5T0k0RW9kWWRtcEk2b0V3R2dNNFppbUk1RmltdjhGZ2tHM3dvVGJTczdVWEhWeEdrdGNRM3RLenZGdzRTbFpaZEppdXFGMS1NOU81UGZlNGZlcnYzUjJ0ZWI1Tm1UZVllN1NSb1c5ejNBSjJXQVVDWlVoNlpVb09WT1dR0gGTAUFVX3lxTE1sUWQyZWpfVXNKb3ExSFNtSUFQODJKOC1ERDk3WG95TEtSaVhIRGxWSFF4cmZZMHlGRHFUa2haMVR4OTNtUkVSUndGSV9UN2tJTjk4WUoxNkIzdXdaSEFydldfSXhGWnFYbC1GZ0ZTdVlTRFBqeV9HRFM0RDAwT0JseFFrdy1BNTdfZ0F0YTQ2UWlIMA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Zacks Earnings Trends Highlights: Micron, Nvidia and Alphabet",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVQxaUJCcTNWUVNlei1veEJyb1d0U1N1VW1SbnBhVTVVTzNubnYzSXducHNHWThxSFJXMGJhWVU0QzNldl9PTEdxX3NLQmpmN2hzbU1tZDNPY3Zna3NjY2RGZlNVS1dLdnJaR3JiYk1pZzlzRGs3cEptdU9WdlJ5QkFuNk1MSXRZZDQ5czlMUkFvalM1c0FDak4taXZHLS1JbkNSRjNBbw?oc=5",
+   "date": "2026-10-29 20:42",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "Zacks 실적 트렌드: Micron, NVIDIA, Alphabet 하이라이트",
+    "korean_summary": "Zacks가 주요 기업들의 실적 트렌드 분석에서 NVIDIA를 언급했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObVQxaUJCcTNWUVNlei1veEJyb1d0U1N1VW1SbnBhVTVVTzNubnYzSXducHNHWThxSFJXMGJhWVU0QzNldl9PTEdxX3NLQmpmN2hzbU1tZDNPY3Zna3NjY2RGZlNVS1dLdnJaR3JiYk1pZzlzRGs3cEptdU9WdlJ5QkFuNk1MSXRZZDQ5czlMUkFvalM1c0FDak4taXZHLS1JbkNSRjNBbw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TweakTown",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA pushes back against report linking CEO Jensen Huang to suspected Chinese intelligence asset",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVlI5b1Q5MXVBanYwQ1hyOWZLZnlVREIyOVBNVy0tcVlIQUtDNDNoUUVqQzV6UVh5NEgydEtDMzNjeVprZHZXN3NTWXhQaVdMYkNKejlCRmx3M08wX2dVazgwSFFmTHFuYXdMa01Qd0d0SXpQaFFnMXhtRUh0S29GRVV3OXVkRVFKd1N1N3kzcGJ5d1U3c19IdGxJemdBODZlSlJzUFh1X19qSVRxcEM0UjZDX1BELVVNRjk5SzdRR21PMDJaR3RxVUpKV2Rla2FIc3BUOEQ1eWY3N2tZeUJNYQ?oc=5",
+   "date": "2026-10-30 04:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, CEO 젠슨 황 관련 중국 정보요원 연결 보도에 공식 반박",
+    "korean_summary": "NVIDIA가 CEO와 중국 정보요원의 연루 의혹에 대해 반박했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVlI5b1Q5MXVBanYwQ1hyOWZLZnlVREIyOVBNVy0tcVlIQUtDNDNoUUVqQzV6UVh5NEgydEtDMzNjeVprZHZXN3NTWXhQaVdMYkNKejlCRmx3M08wX2dVazgwSFFmTHFuYXdMa01Qd0d0SXpQaFFnMXhtRUh0S29GRVV3OXVkRVFKd1N1N3kzcGJ5d1U3c19IdGxJemdBODZlSlJzUFh1X19qSVRxcEM0UjZDX1BELVVNRjk5SzdRR21PMDJaR3RxVUpKV2Rla2FIc3BUOEQ1eWY3N2tZeUJNYQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Shareholders Have a Major Reason to Be Bullish After Jensen Huang's Latest Announcement",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdm5MRWNjdXpxb1k2Z1g0R2VfVnlYdmxwT0JBNGJPSzBDOXhVNDExZDBsLVdTSnprWVBPU21OMEVqQzVYZHQwSHlnUzc3ZlpFM1NyYTNiMnFUeGdKUDhjUUdQTGZEcEdjX0VORF9wcW5jZFQ0dzdFeWhyQkFBTHNrWnNadzRkRDJzNXN4Rm9IT1Z1eklEQTcxSw?oc=5",
+   "date": "2026-10-29 14:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주주들, 젠슨 황의 최근 발표 이후 강한 낙관론",
+    "korean_summary": "NVIDIA 주주들이 젠슨 황의 최근 발표를 긍정적으로 평가하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdm5MRWNjdXpxb1k2Z1g0R2VfVnlYdmxwT0JBNGJPSzBDOXhVNDExZDBsLVdTSnprWVBPU21OMEVqQzVYZHQwSHlnUzc3ZlpFM1NyYTNiMnFUeGdKUDhjUUdQTGZEcEdjX0VORF9wcW5jZFQ0dzdFeWhyQkFBTHNrWnNadzRkRDJzNXN4Rm9IT1Z1eklEQTcxSw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times of India",
+   "category": "media",
+   "kind": "gnews",
+   "title": "US finds Chinese spy in Nvidia CEO Jensen Huang's circle; China calls it a smear; Nvidia says: Jensen tal",
+   "link": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOeDRPQ1doYmV5WkNab0Nia09iVE0xQW1CbDdWbDlENjlLTFJhRXpJSWlHNXRpLUliVVZfb0xTalNLOWdqS2o4c0NkaHNuc0I5aU8wdmppVWZ3TGVqQ1BweG1VREpSNm8tWVIxR0ZVbWQ5LXR6cHNHamNUMVJCZ1M5WTdsMk9zdm5EMnZXUzhSSXFUdXVDMlZBZVVORzdvTXhtWWRuNzF1ZnRrQ3NreHllR1Bad1pFdVlOclFZMGY0ZjZhTmZENndoYk1zRkY4ME1ZanZqZ00xcG9rN2QwY3dDaExPMEFYMXRkLWRLMkh2VVVqV1JzeDBHT3Bta3ZBbUR5cWhsVEVFQ2RYTjZSa0N6VkdkN2tRSXpOeGJUQ3RzcFFsNlYyZGVGNElaR0pnQdIBswJBVV95cUxOZ2ZJZzF4SzZGSUh3Yy1MVzE2VC1GcEhxVHNSUVBLRWxMQUtxSGRLSFdsOUViX1RMcVBxU1Fnc1pNRW5xb05YYzVsQVVHUnFCVHJaWWJ6ajFfcXNmVWZJNUZkdjZZOVpxdEtjMnRnbG82WXR1OVl1aDVIemluZWN0TXNDa2kya3Bocmc0WXFDVkRKd2t2dUdZRjg3Rm0xd3Q1U1BkaDlJMWJqbVlNMXhTNHEtQWRoY2duR2wyWndUb21jbzhPTjFOX2xJbFYtNFFSTWlSQm5JRVlOV2JUeHp1ZEhsbHdNZ0pjaThPS3VwUnhmcUs0YXlpWlV3QXhWR211Um5fLVd1TGxpVDVBMlRlTVctSG1HOWtCb0s5cnFwVWRvNWdacDBGVklyYUpLcEZYUTF3?oc=5",
+   "date": "2026-10-29 23:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국, NVIDIA CEO 주변 중국 스파이 적발... 중국·NVIDIA는 반박",
+    "korean_summary": "미국이 NVIDIA CEO 주변에서 중국 스파이를 발견했으나 중국과 NVIDIA는 이를 부인했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOeDRPQ1doYmV5WkNab0Nia09iVE0xQW1CbDdWbDlENjlLTFJhRXpJSWlHNXRpLUliVVZfb0xTalNLOWdqS2o4c0NkaHNuc0I5aU8wdmppVWZ3TGVqQ1BweG1VREpSNm8tWVIxR0ZVbWQ5LXR6cHNHamNUMVJCZ1M5WTdsMk9zdm5EMnZXUzhSSXFUdXVDMlZBZVVORzdvTXhtWWRuNzF1ZnRrQ3NreHllR1Bad1pFdVlOclFZMGY0ZjZhTmZENndoYk1zRkY4ME1ZanZqZ00xcG9rN2QwY3dDaExPMEFYMXRkLWRLMkh2VVVqV1JzeDBHT3Bta3ZBbUR5cWhsVEVFQ2RYTjZSa0N6VkdkN2tRSXpOeGJUQ3RzcFFsNlYyZGVGNElaR0pnQdIBswJBVV95cUxOZ2ZJZzF4SzZGSUh3Yy1MVzE2VC1GcEhxVHNSUVBLRWxMQUtxSGRLSFdsOUViX1RMcVBxU1Fnc1pNRW5xb05YYzVsQVVHUnFCVHJaWWJ6ajFfcXNmVWZJNUZkdjZZOVpxdEtjMnRnbG82WXR1OVl1aDVIemluZWN0TXNDa2kya3Bocmc0WXFDVkRKd2t2dUdZRjg3Rm0xd3Q1U1BkaDlJMWJqbVlNMXhTNHEtQWRoY2duR2wyWndUb21jbzhPTjFOX2xJbFYtNFFSTWlSQm5JRVlOV2JUeHp1ZEhsbHdNZ0pjaThPS3VwUnhmcUs0YXlpWlV3QXhWR211Um5fLVd1TGxpVDVBMlRlTVctSG1HOWtCb0s5cnFwVWRvNWdacDBGVklyYUpLcEZYUTF3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Seaport Reiterates Its ‘Sell’ Rating on Nvidia Stock as Competition Is ‘Mounting’",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN200NHVhcmVraEtRODN6b0ZnWjdjNlQxY3BxbkVzajV1Z0p0ZGc3SUtLUFVya1JmTTRMX1hPdWs2Ym5XMEtBZTJhS1hxbnBiV3VNZjdGNTljbkltRUYwZ3dOaGtfaVl3UFNTSzZEeUExMjZYMXhWT2dpZ1pvSkd1bV91TUVvUVVQQ2J3Smx4WTRkMjdReUF0R0xWcjExUmM5MUZsRg?oc=5",
+   "date": "2026-10-29 22:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Seaport, 경쟁 심화로 NVIDIA 매도 등급 재확인",
+    "korean_summary": "Seaport 애널리스트가 시장 경쟁 심화를 이유로 NVIDIA 매도 등급을 유지했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN200NHVhcmVraEtRODN6b0ZnWjdjNlQxY3BxbkVzajV1Z0p0ZGc3SUtLUFVya1JmTTRMX1hPdWs2Ym5XMEtBZTJhS1hxbnBiV3VNZjdGNTljbkltRUYwZ3dOaGtfaVl3UFNTSzZEeUExMjZYMXhWT2dpZ1pvSkd1bV91TUVvUVVQQ2J3Smx4WTRkMjdReUF0R0xWcjExUmM5MUZsRg",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's $108 Billion Earnings Test: Why the Next Forecast Matters More",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNjZXcEJFQ01veENSRFhmM1R5SGpDT1VjT05aelZPZTlpRFVJMWZWYkhPOHlHLTlYel92SktaY2ZyTTgtTUpnbjI5QkhXV1p5NkM3anpOZ2RHNXY0eUNvb213cFQtNkQyU0lKZ2lGMFEwWUJKem13T2NMTU1uU3dYTElHVE1vajFueEtuUUc0d1VmZ2o1amttRk52THpBaU1KM3A5dGNNMmprVFlLcUo5NFg5bm1pUQ?oc=5",
+   "date": "2026-10-29 21:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 분기 실적 평가: 향후 가이던스가 핵심",
+    "korean_summary": "The Motley Fool이 NVIDIA의 실적과 향후 포캐스트 중요성에 대해 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNjZXcEJFQ01veENSRFhmM1R5SGpDT1VjT05aelZPZTlpRFVJMWZWYkhPOHlHLTlYel92SktaY2ZyTTgtTUpnbjI5QkhXV1p5NkM3anpOZ2RHNXY0eUNvb213cFQtNkQyU0lKZ2lGMFEwWUJKem13T2NMTU1uU3dYTElHVE1vajFueEtuUUc0d1VmZ2o1amttRk52THpBaU1KM3A5dGNNMmprVFlLcUo5NFg5bm1pUQ",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "date": "2026-10-30 08:04",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+    "version": "automatic-speech-recognition"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Transcribe 모델 BF16 정밀도 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Transcribe 음성 인식 모델이 BF16 정밀도로 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B:2026-10-30",
+   "body": "Hugging Face 모델 업데이트. pipeline: automatic-speech-recognition · library: nemo · tags: nemo, safetensors, nemo_speechlm, text2text-generation, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio · downloads 4276 · likes 412. README:  # NVIDIA-Nemotron-3.5-Transcribe-30B-A4B **Nemotron 3.5 Transcribe is an open-weight, offline speech and audio model** for transcription in 40 languages, with support for recordings up to one hour and a 65,536-token context. Its hybrid mixture-of-experts architecture activates approximately **4.3B parameters**, including the audio encoder, and it is released in [BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B), [FP8](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8), and [NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4) precision. [Get started ↓](#quick-start) · [Explore the tasks ↓](#prompt-guide) · [See the evidence ↓](#results-at-a-glance) · [NeMo Speech ↗](https://github.com/NVIDIA-NeMo/Speech) Table of contents - [Model Summary](#model-summary) - [Results at a Glance](#results-at-a-glance) - [Efficiency](#efficiency) - [Quick Start](#quick-start) - [Prompt Guide](#prompt-guide) - [Model Architecture](#model-architecture) - [Language Support Matrix](#language-support-matrix) - [Training, Testing, and Evaluation Datasets](#training-testing-and-evaluation-datasets) - [Benchmark Results](#benchmark-results) - [Inference Setup and Prompts](#inference-setup-and-prompts) - [Ethical Considerations](#ethical-considerations) # Model Overview ### Description NVIDIA Nemotron-3.5-Transcribe is an offline speech and audio model that processes recordings, together with text instructions and optional c"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+   "date": "2026-10-30 08:04",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4",
+    "version": "automatic-speech-recognition"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Transcribe 모델 NVFP4 정밀도 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Transcribe 음성 인식 모델이 NVFP4 정밀도로 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4:2026-10-30",
+   "body": "Hugging Face 모델 업데이트. pipeline: automatic-speech-recognition · library: nemo · tags: nemo, safetensors, nemo_speechlm, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription · downloads 202 · likes 8. README:  # NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4 **Nemotron 3.5 Transcribe is an open-weight, offline speech and audio model** for transcription in 40 languages, with support for recordings up to one hour and a 65,536-token context. Its hybrid mixture-of-experts architecture activates approximately **4.3B parameters**, including the audio encoder, and it is released in [BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B), [FP8](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8), and [NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4) precision. [Get started ↓](#quick-start) · [Explore the tasks ↓](#prompt-guide) · [See the evidence ↓](#results-at-a-glance) · [NeMo Speech ↗](https://github.com/NVIDIA-NeMo/Speech) Table of contents - [Model Summary](#model-summary) - [Results at a Glance](#results-at-a-glance) - [Efficiency](#efficiency) - [Quick Start](#quick-start) - [Prompt Guide](#prompt-guide) - [Model Architecture](#model-architecture) - [Language Support Matrix](#language-support-matrix) - [Training, Testing, and Evaluation Datasets](#training-testing-and-evaluation-datasets) - [Benchmark Results](#benchmark-results) - [Inference Setup and Prompts](#inference-setup-and-prompts) - [Ethical Considerations](#ethical-considerations) > **NVFP4 quantized variant.** This checkpoint is the NVFP4 quantized version of [NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+   "date": "2026-10-30 08:04",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8",
+    "version": "automatic-speech-recognition"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Transcribe 모델 FP8 정밀도 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron-3.5-Transcribe 음성 인식 모델이 FP8 정밀도로 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8:2026-10-30",
+   "body": "Hugging Face 모델 업데이트. pipeline: automatic-speech-recognition · library: nemo · tags: nemo, safetensors, nemo_speechlm, nvidia, pytorch, nemotron-3.5, speech, asr, speech-translation, speaker-diarization, audio, transcription · downloads 161 · likes 1. README:  # NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8 **Nemotron 3.5 Transcribe is an open-weight, offline speech and audio model** for transcription in 40 languages, with support for recordings up to one hour and a 65,536-token context. Its hybrid mixture-of-experts architecture activates approximately **4.3B parameters**, including the audio encoder, and it is released in [BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B), [FP8](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-FP8), and [NVFP4](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B-NVFP4) precision. [Get started ↓](#quick-start) · [Explore the tasks ↓](#prompt-guide) · [See the evidence ↓](#results-at-a-glance) · [NeMo Speech ↗](https://github.com/NVIDIA-NeMo/Speech) Table of contents - [Model Summary](#model-summary) - [Results at a Glance](#results-at-a-glance) - [Efficiency](#efficiency) - [Quick Start](#quick-start) - [Prompt Guide](#prompt-guide) - [Model Architecture](#model-architecture) - [Language Support Matrix](#language-support-matrix) - [Training, Testing, and Evaluation Datasets](#training-testing-and-evaluation-datasets) - [Benchmark Results](#benchmark-results) - [Inference Setup and Prompts](#inference-setup-and-prompts) - [Ethical Considerations](#ethical-considerations) > **FP8 quantized variant.** This checkpoint is the FP8 quantized version of [NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Tr"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 23,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.6
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 28,
+   "enriched": 28,
+   "error": "",
+   "sec": 11.1
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 7,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 28.3
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 6.0
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 47,
+   "enriched": 47,
+   "error": "",
+   "sec": 4.9
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+   "sec": 0.1
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
