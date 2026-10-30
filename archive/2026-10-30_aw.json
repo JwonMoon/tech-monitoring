@@ -1,0 +1,758 @@
+{
+ "subject": "autoware",
+ "date": "2026-10-30",
+ "window": [
+  "2026-10-29",
+  "2026-10-30"
+ ],
+ "generated": "2026-10-30T10:10:09+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Autoware Foundation이 **Autoware 2.0.0**을 출시해 AI 기반 Diffusion Planner 선택 옵션과 Reference Design을 새로 도입했다.",
+  "Autoware Robotaxi working group이 카메라 기반 End-to-End 주행 모델 **AutoE2E v1.0**을 첫 공식 버전으로 공개했다.",
+  "TIER IV가 **호주·뉴질랜드**에서 NTRO 등과 협력해 자동운전 버스 서비스 배포 사업을 추진하고 있다."
+ ],
+ "cards": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "autowarefoundation/autoware 2.0.0",
+   "link": "https://github.com/autowarefoundation/autoware/releases/tag/2.0.0",
+   "date": "2026-10-29 20:18",
+   "score": 9,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "autowarefoundation/autoware",
+    "version": "2.0.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Release-Version",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "architecture",
+     "planning"
+    ],
+    "korean_title": "Autoware 2.0.0 릴리스: AI 계획기와 규칙 기반 스택 통합",
+    "korean_summary": "Autoware Foundation이 생성기-선택기 아키텍처를 도입하여 Diffusion Planner 기반의 AI 계획기를 규칙 기반 계획기와 함께 제공하고 Hugging Face에 모델을 이관했다."
+   },
+   "summary_data": {
+    "korean_title": "Autoware 2.0.0 출시: 생성자-선택자 아키텍처와 AI 플래너 옵션 도입",
+    "korean_summary": "Autoware Foundation이 Autoware 2.0.0을 출시해 기존 rule-based 스택 옆에 AI 기반 Diffusion Planner를 선택 가능하게 하고, 모델을 Hugging Face로 이전하며 Autoware Index와 Reference Design을 신설했다.",
+    "action": {
+     "actor": "Autoware Foundation",
+     "action": "Autoware 2.0.0 릴리스: generator-selector 아키텍처 도입, planning_setting:=diffusion_planner 옵션 추가, 모델/데이터셋 Hugging Face 이전, Autoware Index·aw-index-cli·Reference Design 신설",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Autoware Universe 전체 스택, ROS 2 jazzy 배포판 기준 (구체적 고객·지역 범위는 미확인)"
+    },
+    "key_facts": [
+     "**generator-selector 아키텍처**를 도입: generator가 후보 궤적을 생성하고 selector(autoware_trajectory_validator/ranker/selector)가 검증·선택",
+     "launch argument planning_setting으로 rule_based(기본값) 또는 diffusion_planner(autoware_diffusion_planner) 선택 가능",
+     "**Autoware Foundation 모델·데이터셋이 Hugging Face로 이전**되어 버전 태그 관리, hf CLI로 Ansible role이 고정 버전 다운로드",
+     "Autoware Index와 aw-index-cli(pipx install) 신설; autoware_livox_tag_filter가 별도 저장소로 분리, 4개 패키지(autoware_bluetooth_monitor 등)가 0.53.0 이후 메인 브랜치에서 빠졌으나 autoware_universe 0.53.1에는 아직 포함",
+     "Autoware Reference Design 신설 (본문 설명 중간에 잘려 상세 내용 미확인)"
+    ],
+    "why_matters": "Autoware가 **rule-based 단일 스택에서 AI planning 옵션을 병행하는 구조로 확장**하면서, end-to-end AI 중심 경쟁사들과의 격차를 줄이는 오픈소스 대안을 제시한다. 동시에 Hugging Face 표준 배포와 Index/Reference Design으로 생태계 모듈화·검증 체계를 강화해 서드파티 채택 장벽을 낮춘다.",
+    "subject_angle": "TIER IV가 주도하는 Autoware Foundation이 **기존 rule-based 고객 기반을 유지하면서 AI 전환 경로를 선택적으로 제공**하는 전략을 택해, 안전성 검증이 중요한 상용 배치 고객과 AI 혁신을 원하는 연구·개발 고객을 동시에 포용한다.",
+    "focus_angle": "기존 단일 rule-based 플래너 스택 대비 **generator-selector 구조로 AI 플래너를 launch argument 하나로 교체 가능**해져, 검증 레이어(trajectory_validator/ranker/selector)가 AI 출력의 안전성을 담보하는 방식으로 설계되어 상용 채택 시 AI 도입 리스크를 완화한다.",
+    "companies": [
+     {
+      "name": "Autoware Foundation",
+      "context": "Autoware 2.0.0 릴리스 주체, 모델/데이터셋 및 Index 관리"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "Autoware Foundation 모델·데이터셋 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware 2.0.0",
+      "role": "이번 릴리스 대상 핵심 플랫폼"
+     },
+     {
+      "name": "autoware_diffusion_planner",
+      "role": "신규 AI 기반 trajectory generator 플래너"
+     },
+     {
+      "name": "autoware_trajectory_validator/ranker/selector",
+      "role": "generator가 만든 후보 궤적을 검증·순위화·선택하는 selector 패키지군"
+     },
+     {
+      "name": "Autoware Index / aw-index-cli",
+      "role": "Autoware 호환 외부 저장소 목록 및 패키지 조합 설치 도구"
+     },
+     {
+      "name": "Autoware Reference Design",
+      "role": "신설된 참조 설계 문서 (상세 미확인)"
+     }
+    ],
+    "watch_next": [
+     "Autoware Reference Design의 구체적 내용 및 범위 공개 여부",
+     "Diffusion Planner의 실차/시뮬레이션 성능 지표 및 상용 배치 사례",
+     "Autoware Index 등록 패키지 확대 추이 및 서드파티 생태계 참여 현황"
+    ]
+   },
+   "related": [],
+   "uid": "gh:autowarefoundation/autoware:2.0.0",
+   "body": "Autoware 2.0 adds AI planning next to the rule-based stack, moves the Autoware Foundation models to Hugging Face, and introduces the Autoware Index and the Autoware Reference Design. Highlights Choose a rule-based or an AI planner Autoware 2.0 introduces the generator–selector architecture. A generator produces candidate trajectories, and a selector checks them and picks one. In this release, you choose the planner when you launch Autoware: set planning_setting:=diffusion_planner to use the Diffusion Planner. The default is rule_based . Design: Autoware 2.0 architecture Launch argument: planning_setting in autoware.launch.xml Planner: autoware_diffusion_planner Selector packages: autoware_trajectory_validator , autoware_trajectory_ranker , autoware_trajectory_selector AI models and datasets on Hugging Face The Autoware Foundation models and datasets are now on Hugging Face . Each model has version tags. The artifacts Ansible role downloads every model at a fixed version with the hf CLI. #7224 #7229 #7244 #7248 #7258 Autoware Index and aw-index-cli The Autoware Index lists Autoware-compatible repositories outside the main workspace. A nightly check builds and tests each entry against the latest Autoware release. aw-index-cli writes a .repos file for the packages you pick, together with their dependencies: pipx install aw-index-cli aw-index-cli compose --rosdistro jazzy --packages autoware_livox_tag_filter vcs import src < repositories/autoware-index.repos autoware_livox_tag_filter moved out of Autoware Universe into its own repository in the Index. Four more packages are in the Index too: autoware_bluetooth_monitor , autoware_pose2twist , autoware_component_monitor and autoware_image_diagnostics . They left the main branch of Autoware Universe after 0.53.0, but autoware_universe 0.53.1 in this release still contains them. The Index also lists AI inference packages, with their models on Hugging Face. Guide: Autoware Index Autoware Reference Design A Reference Design c"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "autowarefoundation/auto_e2e AutoE2E v1.0",
+   "link": "https://github.com/autowarefoundation/auto_e2e/releases/tag/v1.0",
+   "date": "2026-10-29 10:28",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "autowarefoundation/auto_e2e",
+    "version": "v1.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "AutoE2E v1.0: Robotaxi 워킹그룹의 카메라 기반 End-to-End 주행 모델",
+    "korean_summary": "Autoware Robotaxi 워킹그룹이 카메라 6개 기반 반응형 End-to-End 주행 모델 AutoE2E v1.0을 공개하였으며 KITScenes 벤치마크에서 8개 오픈소스 모델 중 2위의 성능을 달성했다."
+   },
+   "summary_data": {
+    "korean_title": "Autoware Foundation, 카메라 기반 End-to-End 자율주행 모델 'AutoE2E v1.0' 첫 태그 릴리스",
+    "korean_summary": "Autoware Robotaxi working group이 6대 서라운드 카메라 기반의 End-to-End 주행 모델 AutoE2E의 첫 공식 버전(v1.0)을 공개했다.",
+    "action": {
+     "actor": "Autoware Foundation (Robotaxi working group)",
+     "action": "camera-first End-to-End driving model AutoE2E의 첫 태그 릴리스(v1.0) 공개 및 GitHub/Hugging Face 배포",
+     "stage": "Available",
+     "timeline": "미확인 (릴리스 태그 v1.0 기준)",
+     "scope": "오픈소스 코드·체크포인트, 특정 고객·지역 미지정"
+    },
+    "key_facts": [
+     "**10 Hz로 6대 서라운드 카메라를 BEV grid로 변환**하고 선택적으로 map raster를 융합해 GRU planner로 6.4초 미래 가속도·곡률을 계획",
+     "모델 파라미터 **79.9M**, World Action 및 Reasoning 모델은 아직 개발 중",
+     "nuplan-epoch-5(nuPlan v1.1 학습, zero-shot/fine-tuning용)와 kitscenes-epoch-5(KITScenes-Multimodal fine-tuned) 체크포인트를 Hugging Face에 공개",
+     "KITScenes-Multimodal validation에서 **ADE 0.744m, FDE 1.980m(3s)**로 비교된 8개 오픈웨이트 모델 중 2위",
+     "RTX 5080에서 최대 ~76 FPS(SwinV2-Tiny, feature-concat fusion, batch 1) 추론 속도, EKS 기반 MLOps 플랫폼(IaC)으로 학습·평가 관리"
+    ],
+    "why_matters": "오픈소스 자율주행 스택 Autoware가 **End-to-End 신경망 기반 planner를 공식 컴포넌트로 내재화**하며, 전통적 모듈형 파이프라인에서 데이터 기반 통합 모델로 확장을 시도한다는 신호다. 벤치마크·체크포인트·MLOps 인프라까지 공개해 외부 연구자·robotaxi 개발사가 재현·fine-tuning할 수 있게 함으로써 생태계 기여를 유도한다.",
+    "subject_angle": "TIER IV는 Autoware 핵심 기여사로서 **Robotaxi 영역의 E2E 모델 표준화를 주도**하며, 향후 World Action/Reasoning 모델까지 확장되면 TIER IV의 완성차·플릿 사업에 직접 활용될 기술 기반을 선점하는 전략적 포지션을 구축한다.",
+    "focus_angle": "기존 Autoware의 규칙·모듈 기반 Planning 스택과 달리 **카메라 입력만으로 BEV 변환부터 궤적 계획까지 단일 신경망(GRU planner)이 처리**하는 구조로, 센서·맵 의존도를 낮추고 오픈 체크포인트·벤치마크 공개로 외부 fine-tuning 채택 장벽을 낮춘다. 다만 World Action/Reasoning 모델이 미완성이라 완전한 E2E 상용화까지는 추가 개발이 필요하다.",
+    "companies": [
+     {
+      "name": "Autoware Foundation",
+      "context": "AutoE2E 모델 개발·릴리스 주체, Robotaxi working group 운영"
+     },
+     {
+      "name": "TIER IV",
+      "context": "Autoware 핵심 기여사로 추정(본문에 직접 언급 없음, 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "AutoE2E v1.0",
+      "role": "카메라 기반 End-to-End 주행 모델, 이번 릴리스의 핵심 제품"
+     },
+     {
+      "name": "nuplan-epoch-5 / kitscenes-epoch-5",
+      "role": "Hugging Face에 공개된 사전학습/파인튜닝 체크포인트"
+     },
+     {
+      "name": "DataModelConsole",
+      "role": "카메라 장면과 예측 궤적을 리플레이하는 시각화 대시보드 툴"
+     }
+    ],
+    "watch_next": [
+     "World Action 및 Reasoning 모델의 개발 완료·공개 시점",
+     "AutoE2E가 실제 Autoware robotaxi 상용 스택에 통합되는 시점·사례",
+     "타 오픈웨이트 E2E 모델과의 벤치마크 경쟁(Issue #210 결과 업데이트) 추이"
+    ]
+   },
+   "related": [],
+   "uid": "gh:autowarefoundation/auto_e2e:v1.0",
+   "body": "AutoE2E v1.0 is the first tagged release of the camera-first End-to-End driving model from the Autoware Robotaxi working group. Highlights Reactive model. Runs at 10 Hz on six surround cameras, lifts them into a bird's-eye-view grid, optionally fuses a map raster, and plans the next 6.4 s of acceleration and curvature with a GRU planner. 79.9 M parameters. The World Action and Reasoning models are still in development. Checkpoints on Hugging Face. nuplan-epoch-5 is trained on nuPlan v1.1 for zero-shot driving and fine-tuning. kitscenes-epoch-5 is fine-tuned on KITScenes-Multimodal. Benchmarks. On KITScenes-Multimodal validation, the fine-tuned checkpoint reaches ADE 0.744 m and FDE 1.980 m at 3 s, second among the eight open-weights models compared. Issue #210 has the adapters and the full results. Speed. Inference reaches up to ~76 FPS (SwinV2-Tiny, feature-concat fusion, RTX 5080, batch 1). See BENCHMARKS.md . Tooling. The DataModelConsole dashboard replays camera scenes with ground-truth and predicted trajectories. Platform/ holds the EKS-based MLOps platform for training and evaluation, fully managed as IaC. Get started git clone --branch v1.0 https://github.com/autowarefoundation/auto_e2e.git cd auto_e2e make setup Python 3.12 is required. The documentation and academic paper cover the model in detail. What's Changed bench: add RTX5090 results by @CodeName-Detective in #181 bench: add RTX4070 Laptop GPU results by @CodeName-Detective in #180 bench: add RTX5080 results by @CodeName-Detective in #179 bench: add A40 results by @CodeName-Detective in #178 fix(ci): correct setup-python input name in docs workflow by @apgeorg in #185 Align KITScenes planning loss with rollout evaluation and composite checkpoint selection by @riita10069 in #176 bench: add RTX4080 results by @CodeName-Detective in #183 feat(map_encoder): add deformable cross-attention map BEV fusion mode by @intisar1020 in #184 feat(training): expose map_fusion_mode as a train_il parameter by @Christop"
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV and NTRO advance autonomous transit initiative in Australia",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHNNdnNtdEQyX1Y0eGIxejMtUTdObXdCVTFObVRwQ2Q3Q0dBUlRrWUJOOHFvdGc5REwwb0pyRlV0WnBUZUZqQVNyQXNtVUYwR1Y0QjJGVlFGYUVhbExqMzgtc0VUQk55STYxclB4RmhHenVGa0VDMnlxREFmV3NCakU5ZDZ1Q2hDNGhWcGNMSnljNTB2MEIzZE5XbFExYkFnMUZmUXM2ZkN6NkE4Q3RET3ZIR0hjZ0ZLZVRQStIBzAFBVV95cUxQQTllNk9aSFdPbG1PQkhIR1Nzc2p5TGY3VUJ1YmpBN1FwZGxHWkU0RGduMnQyN0VCU0ltMzhOYlNJZ2VFNnNhRUVuRmlUN2pQSFJ4cVJmdVcwdlp3VzNTTlhEQi1SYTR4T2hVcU9GQ21Od2FMSDl1UHlKWENlVWJDWGI2WjVJTWtIU0hVbmRqZ2I5YlRrY1REcklMTXZSRmxwaXhIZUFzLTAwaDMzbExoc1hkR0hCQnpEbkRTY01Qb19wTFZGbWFpbDFXOFI?oc=5",
+   "date": "2026-10-29 17:19",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, NTRO와 호주 자동운전 버스 사업 추진",
+    "korean_summary": "TIER IV가 호주 교통 기관 NTRO와 협력하여 자동운전 버스 배포 사업을 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo! Finance Canada",
+     "title": "TIER IV and NTRO advance autonomous transit initiative in Australia",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLTFhSHZhRS1wZEN5YTdoUF8wcDhqdG51Y1I4VnNOZzU3d3dwZHhtenE2V3ZFZzZPNkloS25tbU9DdFliUF9hRXVHR1JQVlV1M200LWxnMmZUd0hsYmFkX2tNa3pqUUJ3LW9TOTc1azVBVFNWdlllUWhSVU54OUJabU1GRk5hNnM?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and NTRO advance autonomous transit initiative in Australia",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHNNdnNtdEQyX1Y0eGIxejMtUTdObXdCVTFObVRwQ2Q3Q0dBUlRrWUJOOHFvdGc5REwwb0pyRlV0WnBUZUZqQVNyQXNtVUYwR1Y0QjJGVlFGYUVhbExqMzgtc0VUQk55STYxclB4RmhHenVGa0VDMnlxREFmV3NCakU5ZDZ1Q2hDNGhWcGNMSnljNTB2MEIzZE5XbFExYkFnMUZmUXM2ZkN6NkE4Q3RET3ZIR0hjZ0ZLZVRQStIBzAFBVV95cUxQQTllNk9aSFdPbG1PQkhIR1Nzc2p5TGY3VUJ1YmpBN1FwZGxHWkU0RGduMnQyN0VCU0ltMzhOYlNJZ2VFNnNhRUVuRmlUN2pQSFJ4cVJmdVcwdlp3VzNTTlhEQi1SYTR4T2hVcU9GQ21Od2FMSDl1UHlKWENlVWJDWGI2WjVJTWtIU0hVbmRqZ2I5YlRrY1REcklMTXZSRmxwaXhIZUFzLTAwaDMzbExoc1hkR0hCQnpEbkRTY01Qb19wTFZGbWFpbDFXOFI?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and NTRO advance autonomous transit initiative in Australia",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQTllNk9aSFdPbG1PQkhIR1Nzc2p5TGY3VUJ1YmpBN1FwZGxHWkU0RGduMnQyN0VCU0ltMzhOYlNJZ2VFNnNhRUVuRmlUN2pQSFJ4cVJmdVcwdlp3VzNTTlhEQi1SYTR4T2hVcU9GQ21Od2FMSDl1UHlKWENlVWJDWGI2WjVJTWtIU0hVbmRqZ2I5YlRrY1REcklMTXZSRmxwaXhIZUFzLTAwaDMzbExoc1hkR0hCQnpEbkRTY01Qb19wTFZGbWFpbDFXOFLSAcwBQVVfeXFMUEE5ZTZPWkhXT2xtT0JISEdTc3NqeUxmN1VCdWJqQTdRcGRsR1pFNERnbjJ0MjdFQlNJbTM4TmJTSWdlRTZzYUVFbkZpVDdqUEhSeHFSZnVXMHZad1czU05YREItUmE0eE9oVXFPRkNtTndhTEg5dVB5SlhDZVViQ1hiNlo1SU1rSFNIVW5kamdiOWJUa2NURHJJTE12UkZscGl4SGVBcy0wMGgzM2xMaHNYZEdIQkJ6RG5EU2NNUG9fcExWRm1haWwxVzhS?oc=5"
+    },
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、NTROとオーストラリアへの自動運転バスの展開を推進",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jeE1kM0p4QXRaUHZBN2dvNWxJS1VxeGV2cnJocFp5UEVlbWprWFdES21EVmtHdF9tS2dkSHJpSmw1NF81cWlFU2FWV01xQklCZkJvMGpuaHk2ZGduMGQtZkFtdzBHbUtUTFE?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォー、NTROとオーストラリアへの自動運転バスの展開を推進",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRTF4aHdSbEVNTGFYRGZmWVJCbW5xRnFtWktFdTRQWXFIQlJaVHVvZkxOVzZVYTlkY0xNU0hfZGJMN2ppUXRGOWxwQlB3NXZNVW85eVZhMGVoRmtxcTVROENkeGxQV0VULUNwdEdFQU1kanNLN0RfT0RPZHczc01CeHdFZkV5VkFwZ1U2R3lBZ1VMUTJjTHJhdVVoR24tTHVjZkFiMVFtUGtNMHhVOHIxLXB6aWFDNmpvb0NQNkp2U2xueDRSTU01bdIByAFBVV95cUxPRTF4aHdSbEVNTGFYRGZmWVJCbW5xRnFtWktFdTRQWXFIQlJaVHVvZkxOVzZVYTlkY0xNU0hfZGJMN2ppUXRGOWxwQlB3NXZNVW85eVZhMGVoRmtxcTVROENkeGxQV0VULUNwdEdFQU1kanNLN0RfT0RPZHczc01CeHdFZkV5VkFwZ1U2R3lBZ1VMUTJjTHJhdVVoR24tTHVjZkFiMVFtUGtNMHhVOHIxLXB6aWFDNmpvb0NQNkp2U2xueDRSTU01bQ?oc=5"
+    },
+    {
+     "source": "Google News · MOTA",
+     "title": "ティアフォー、NTROとオーストラリアへの自動運転バスの展開を推進(画像ギャラリー No.1)",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5GMWlNSkhpNk5hRmxZUmgxbHNCcUlmeGdhUWNoTTN1Y1puaWdKVVh0RDhZUTd0cmNuQXoxNFkwMDdwbXBsckFiWWlEbXVZQ052aVE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeHNNdnNtdEQyX1Y0eGIxejMtUTdObXdCVTFObVRwQ2Q3Q0dBUlRrWUJOOHFvdGc5REwwb0pyRlV0WnBUZUZqQVNyQXNtVUYwR1Y0QjJGVlFGYUVhbExqMzgtc0VUQk55STYxclB4RmhHenVGa0VDMnlxREFmV3NCakU5ZDZ1Q2hDNGhWcGNMSnljNTB2MEIzZE5XbFExYkFnMUZmUXM2ZkN6NkE4Q3RET3ZIR0hjZ0ZLZVRQStIBzAFBVV95cUxQQTllNk9aSFdPbG1PQkhIR1Nzc2p5TGY3VUJ1YmpBN1FwZGxHWkU0RGduMnQyN0VCU0ltMzhOYlNJZ2VFNnNhRUVuRmlUN2pQSFJ4cVJmdVcwdlp3VzNTTlhEQi1SYTR4T2hVcU9GQ21Od2FMSDl1UHlKWENlVWJDWGI2WjVJTWtIU0hVbmRqZ2I5YlRrY1REcklMTXZSRmxwaXhIZUFzLTAwaDMzbExoc1hkR0hCQnpEbkRTY01Qb19wTFZGbWFpbDFXOFI",
+   "body": ""
+  },
+  {
+   "source": "Google News · LOGISTICS TODAY",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、豪州・NZで自動運転バス展開",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE54aGxvQUFRSTRLVnJvSGlyWkxFT2o2NnRTQ0VqTFhZUUdiTmVYd3BLMDU1bXhqWnR5b0xEZGVDNGRycXZ3ZkNUaG5n?oc=5",
+   "date": "2026-10-30 02:44",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 호주·뉴질랜드에서 자동운전 버스 배포 추진",
+    "korean_summary": "TIER IV가 호주와 뉴질랜드 지역에서 자동운전 버스 서비스 배포를 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE54aGxvQUFRSTRLVnJvSGlyWkxFT2o2NnRTQ0VqTFhZUUdiTmVYd3BLMDU1bXhqWnR5b0xEZGVDNGRycXZ3ZkNUaG5n",
+   "body": ""
+  },
+  {
+   "source": "Google News · LIGARE（リガーレ）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "アイサンテクノロジー、ティアフォー製120度広角HDRカメラの取り扱い開始",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3ellUaEhFVTJqaG5rOHg3VVdYVVg0Q2F2SVZ0dWFRZ0ZqQTg1d08wekNGcVQxaTZlaUswc3RBb2FIMTBRRmIxSjg5dXJnb1RI?oc=5",
+   "date": "2026-10-30 08:32",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Ecosystem-Hardware",
+    "is_focus": false,
+    "signal_tags": [
+     "hardware"
+    ],
+    "korean_title": "아이산테크놀로지, TIER IV 제조 120도 광각 HDR 카메라 취급 개시",
+    "korean_summary": "아이산테크놀로지가 TIER IV의 120도 광각 HDR 카메라 판매를 개시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA3ellUaEhFVTJqaG5rOHg3VVdYVVg0Q2F2SVZ0dWFRZ0ZqQTg1d08wekNGcVQxaTZlaUswc3RBb2FIMTBRRmIxSjg5dXJnb1RI",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーが急落、モルガンＭＵＦＧ証の格下げ嫌気(ウエルスアドバイザー)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmhSb1NHZlhkLWFrUFFiWUVmYXRGQnlKb0hpdlNtME90M3UzWmMxcXBwVWtMY2FPZ014NjRFV3pWM2FEUkVNN01GdnZ3Vl9YTFQwakhYTjhxMlhZMi1CYVRoeHUwNTV3eUdXWkh6dG5IUHRHc2NTQVRvQ294Tm11SnROS0tWVHc?oc=5",
+   "date": "2026-10-29 10:33",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 주가 급락, Morgan MUFG 증권사 격하",
+    "korean_summary": "Morgan MUFG 증권이 TIER IV의 투자 등급을 격하하여 주가가 급락했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "ティアフォーが急落、モルガンＭＵＦＧ証の格下げ嫌気(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmhSb1NHZlhkLWFrUFFiWUVmYXRGQnlKb0hpdlNtME90M3UzWmMxcXBwVWtMY2FPZ014NjRFV3pWM2FEUkVNN01GdnZ3Vl9YTFQwakhYTjhxMlhZMi1CYVRoeHUwNTV3eUdXWkh6dG5IUHRHc2NTQVRvQ294Tm11SnROS0tWVHc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTmhSb1NHZlhkLWFrUFFiWUVmYXRGQnlKb0hpdlNtME90M3UzWmMxcXBwVWtMY2FPZ014NjRFV3pWM2FEUkVNN01GdnZ3Vl9YTFQwakhYTjhxMlhZMi1CYVRoeHUwNTV3eUdXWkh6dG5IUHRHc2NTQVRvQ294Tm11SnROS0tWVHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "証券各社レーティング（格下げ）:ブロンコＢ、ティアフォー2社(フィスコ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVXlncTk2b2FMbHRGS1FZdUh3V3A3aFlQdDRTeG5XSEhNclBTVkVwM0NEVDJtQTVwWmNWMllILWtSUWZXbkJqbWx4MFRNMHRndmMzN2VPVjc0OGZjNjFHRnp0M0RpdlNQa2lycjFFNUEwSzFqckdMaEU2WTJjNnEwZ2lxSmZxVVU?oc=5",
+   "date": "2026-10-29 11:24",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "증권사 레이팅: TIER IV 등 2개사 격하",
+    "korean_summary": "여러 증권사가 TIER IV를 포함한 2개사의 투자 등급을 격하했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "証券各社レーティング（格下げ）:ブロンコＢ、ティアフォー2社(フィスコ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVXlncTk2b2FMbHRGS1FZdUh3V3A3aFlQdDRTeG5XSEhNclBTVkVwM0NEVDJtQTVwWmNWMllILWtSUWZXbkJqbWx4MFRNMHRndmMzN2VPVjc0OGZjNjFHRnp0M0RpdlNQa2lycjFFNUEwSzFqckdMaEU2WTJjNnEwZ2lxSmZxVVU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVXlncTk2b2FMbHRGS1FZdUh3V3A3aFlQdDRTeG5XSEhNclBTVkVwM0NEVDJtQTVwWmNWMllILWtSUWZXbkJqbWx4MFRNMHRndmMzN2VPVjc0OGZjNjFHRnp0M0RpdlNQa2lycjFFNUEwSzFqckdMaEU2WTJjNnEwZ2lxSmZxVVU",
+   "body": ""
+  },
+  {
+   "source": "Google News · ｄメニューニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "【テニス速報】 エルステバンク・オープン 第3日 ロレンツォ ムゼッティ vs フランシス ティアフォー",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX01CYldhb2RXdC1yWUU5TkVLVnhOLVJoYXZ5TVd4SzZITTIyT1lERjdac1lTUnY1VjBfTG8zcmFtUUtXR09aNmxNZ2lUZklCVUtQS2VfLTJiSEpUdmNKM3B5TEJ2dTd4UjFPblJyc3g0eUktbmZoVVRROHl6U09XYTJlOEPSAYoBQVVfeXFMTkpDaVNBakRaQTNyUkxxaEY3M0hFM1ZyZmhTb1VQeHFLMnR6N2d1MEdjMlVhazVsOTQ0TFF1ci03clRjNmoxUFRyV1A1aGtMLWNadFdUY3dzS1VqcE5RRHlydXM0UThJS0hPTXczMEtlc1ZQLU1vN3BnaU1ESXUxeE9Ia19aN0FGQnl3?oc=5",
+   "date": "2026-10-29 01:42",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Elsterbang Open 테니스: Tiafoe vs Musetti",
+    "korean_summary": "테니스 선수 Francesco Tiafoe의 Elsterbang Open 경기로 Autoware 및 TIER IV와 무관하다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "【テニス速報】 エルステバンク・オープン 第3日 ロレンツォ ムゼッティ vs フランシス ティアフォー",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX01CYldhb2RXdC1yWUU5TkVLVnhOLVJoYXZ5TVd4SzZITTIyT1lERjdac1lTUnY1VjBfTG8zcmFtUUtXR09aNmxNZ2lUZklCVUtQS2VfLTJiSEpUdmNKM3B5TEJ2dTd4UjFPblJyc3g0eUktbmZoVVRROHl6U09XYTJlOEPSAYoBQVVfeXFMTkpDaVNBakRaQTNyUkxxaEY3M0hFM1ZyZmhTb1VQeHFLMnR6N2d1MEdjMlVhazVsOTQ0TFF1ci03clRjNmoxUFRyV1A1aGtMLWNadFdUY3dzS1VqcE5RRHlydXM0UThJS0hPTXczMEtlc1ZQLU1vN3BnaU1ESXUxeE9Ia19aN0FGQnl3?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "【画像】【テニス速報】 エルステバンク・オープン 第3日 ロレンツォ ムゼッティ vs フランシス ティアフォー",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTSjlZWHF1ZVFHNDhYSTFfQTE1QXp1V0hTR2s3UHJyQlRlcXJwN2xmZ2t5Qm1PR19EdkVxMlNBQXk0SjJNQmZrcEJfXzFVZTQ2ZEVSVkdDQ1llZHdMcjdPeW8wODFveFlKY25VczZTMEVLZ3dCTnM1WEp0Zkg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX01CYldhb2RXdC1yWUU5TkVLVnhOLVJoYXZ5TVd4SzZITTIyT1lERjdac1lTUnY1VjBfTG8zcmFtUUtXR09aNmxNZ2lUZklCVUtQS2VfLTJiSEpUdmNKM3B5TEJ2dTd4UjFPblJyc3g0eUktbmZoVVRROHl6U09XYTJlOEPSAYoBQVVfeXFMTkpDaVNBakRaQTNyUkxxaEY3M0hFM1ZyZmhTb1VQeHFLMnR6N2d1MEdjMlVhazVsOTQ0TFF1ci03clRjNmoxUFRyV1A1aGtMLWNadFdUY3dzS1VqcE5RRHlydXM0UThJS0hPTXczMEtlc1ZQLU1vN3BnaU1ESXUxeE9Ia19aN0FGQnl3",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "tier4/nebula v1.1.2",
+   "link": "https://github.com/tier4/nebula/releases/tag/v1.1.2",
+   "date": "2026-10-29 11:44",
+   "score": 4,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "tier4/nebula",
+    "version": "v1.1.2"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Architecture-Core",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "Nebula v1.1.2: 견고성 개선 및 Agnocast 2.3.5 통합",
+    "korean_summary": "TIER IV의 Nebula 라이브러리가 v1.1.2로 업데이트되어 견고성 개선과 Agnocast 2.3.5를 추가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:tier4/nebula:v1.1.2",
+   "body": "Release Notes This release adds various robustness improvements and Agnocast 2.3.5. What's Changed build: add ros_testing as buildtool/test_depend by @mojomex in #446 feat(scripts): add inventory info retrieval to hesai_config.py by @h-ohta in #459 feat(nebula_core, nebula_hesai): register hesai LiDAR packet threads with cie_thread_configurator by @atsushi421 in #460 feat(nebula_core_ros): templatize NodeT of nebula_core_ros by @Koichi98 in #457 ci(sync-files): sync agnocast_wrapper core headers from autoware.core (Stage 1: groundwork) by @Koichi98 in #466 ci(sync-files): preserve Nebula linter customizations during sync by @mojomex in #468 chore: sync files by @tier4-nebula-app[bot] in #74 chore: sync files by @tier4-nebula-app[bot] in #471 ci: distribute lint-autoware-system-design-format via sync-files by @technolojin in #462 ci(sync-files): name synced agnocast_wrapper umbrella nebula_agnocast_wrapper.hpp by @Koichi98 in #472 chore: sync files by @tier4-nebula-app[bot] in #473 chore: sync files by @tier4-nebula-app[bot] in #474 chore: sync files by @tier4-nebula-app[bot] in #475 build(deps): bump actions/deploy-pages from 4 to 5 by @dependabot [bot] in #476 build(deps): bump actions/checkout from 3 to 7 by @dependabot [bot] in #479 build(deps): bump actions/setup-python from 5 to 7 by @dependabot [bot] in #478 build(deps): bump actions/upload-artifact from 4 to 7 by @dependabot [bot] in #477 fix(nebula_hesai): remove throwaway thread+join in check_and_set_config by @mojomex in #463 fix(nebula_hesai): guard sensor setup with try/catch and retry by @mojomex in #464 chore(build_depends): update agnocast to 2.3.5 by @Koichi98 in #481 Full Changelog : v1.1.1...v1.1.2"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "tier4/nebula v1.1.3",
+   "link": "https://github.com/tier4/nebula/releases/tag/v1.1.3",
+   "date": "2026-10-29 11:45",
+   "score": 2,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "tier4/nebula",
+    "version": "v1.1.3"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "Nebula v1.1.3: Hesai LiDAR 디코더 버그 수정",
+    "korean_summary": "Nebula v1.1.2의 백포트 릴리스로 Hesai LiDAR 디코더 타임스탬프 버그를 수정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:tier4/nebula:v1.1.3",
+   "body": "Release Notes Thios is a backport release of #493 . What's Changed fix(nebula_hesai_decoders): drop scans whose timestamp was never set by @ogrex in #493 Full Changelog : v1.1.2...v1.1.3"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 123,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 5,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 4,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 9,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 20,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 17.0
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 7,
+   "error": "",
+   "sec": 4.0
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 28.0
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  }
+ ]
+}
