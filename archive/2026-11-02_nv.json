@@ -1,0 +1,1840 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-02",
+ "window": [
+  "2026-11-01",
+  "2026-11-02"
+ ],
+ "generated": "2026-11-02T09:45:15+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 분기 수익을 **106% 급증**시켜 애널리스트 기대치를 크게 상회했다.",
+  "메타가 중국 Fourier와 협력해 Jetson Thor 탑재 가정용 휴머노이드 로봇 '**맥스**' 시제품을 완성했다.",
+  "NVIDIA가 양산용 Rubin GPU의 메모리·NVLink 대역폭을 낮추고 **스케일아웃** 대역폭은 상향한 최종 사양을 공개했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · ABC News - Breaking News, Latest News and Videos",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia revenue soars 106%, beats expectations as AI chips stay in high demand",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
+   "date": "2026-11-01 16:44",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 수익 106% 급증, AI 칩 수요 지속으로 예상 초과",
+    "korean_summary": "NVIDIA가 분기 실적에서 수익 106% 증가로 애널리스트 기대치를 대폭 상회했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92",
+   "body": ""
+  },
+  {
+   "source": "ServeTheHome",
+   "category": "media",
+   "kind": "feed",
+   "title": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+   "link": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/",
+   "date": "2026-11-01 12:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "Vera Rubin GPU 규격 확정 및 생산 본격화",
+    "korean_summary": "NVIDIA가 Vera Rubin GPU 규격을 최종 확정하여 메모리 및 NVLink 대역폭을 조정하였으며 NVL72 시스템의 생산이 시작되었다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 양산 단계 Rubin GPU 스펙 조정 — 메모리·NVLink 대역폭 하향, 스케일아웃은 상향",
+    "korean_summary": "NVIDIA가 Vera Rubin 양산 돌입 시점에서 Rubin GPU의 HBM4 메모리 대역폭과 NVLink 대역폭을 예비 사양보다 낮추고 네트워크 스케일아웃 대역폭은 소폭 올린 최종 출하 사양을 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Rubin GPU 및 Vera Rubin NVL72 관련 사양을 예비치에서 하향·조정하여 공식 출하 스펙으로 확정",
+     "stage": "Shipping",
+     "timeline": "2026년 9월(스펙 변경 게시), 2026년 4분기(양산 하드웨어 롤아웃 중)",
+     "scope": "Rubin GPU 및 Vera Rubin NVL72 랙 시스템, 하이퍼스케일러 고객"
+    },
+    "key_facts": [
+     "GPU 메모리 대역폭이 예비 22TB/s(10.75Gbps/pin)에서 출하 사양 **19.2TB/s(9.375Gbps/pin)로 약 11% 감소**",
+     "NVLink(scale-up) 대역폭이 3.6TB/s에서 3.0TB/s로 약 17% 감소",
+     "네트워킹(scale-out) 대역폭은 0.4TB/s에서 0.45TB/s로 증가",
+     "**NVFP4 추론 50 PFLOPS, 학습 35 PFLOPS 등 연산 처리량은 변동 없음**",
+     "경쟁사 AMD MI455X의 HBM4는 7.6Gbps/pin으로, NVIDIA의 하향된 9.375Gbps보다도 낮음"
+    ],
+    "why_matters": "이번 스펙 하향은 NVIDIA조차 초고속 HBM4 양산(메모리 컨트롤러·스택 속도·수율)에서 애초 목표를 완전히 달성하지 못했음을 시사하며, 이는 차세대 AI 가속기 경쟁에서 메모리 공급망이 핵심 제약 요인임을 보여준다. **연산 처리량(FLOPS)은 그대로 유지**한 반면 대역폭만 조정한 점은 NVIDIA가 성능 지표상 우위를 지키려는 전략적 선택으로 해석된다.",
+    "subject_angle": "NVIDIA는 **공식 HBM4 스펙(8Gbps/pin)을 크게 상회하는 목표를 고수**하며 메모리·인터커넥트 기술 리더십을 유지하려 하지만, 이번 하향 조정은 양산 확장(ramp-up) 과정에서의 실행 리스크를 드러낸다. 스케일아웃 대역폭 강화는 랙 간/클러스터 간 확장성을 중시하는 하이퍼스케일러 수요에 대응하려는 조정으로 보인다.",
+    "focus_angle": "Vera Rubin NVL72는 자율주행·휴머노이드 로봇용 대규모 파운데이션 모델(예: 인지·플래닝 모델, GR00T류 로봇 모델) 학습에 쓰이는 핵심 인프라로, **메모리·NVLink 대역폭 감소는 OEM 및 로보틱스 기업의 대형 모델 학습 처리 효율에 영향**을 줄 수 있다. 다만 FLOPS 성능이 유지됨에 따라 NVIDIA는 여전히 자동차·로봇 업계의 AI 학습 인프라 1차 공급자 지위를 지킬 가능성이 높다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Rubin GPU 및 Vera Rubin NVL72 설계·출하 사양 확정 주체"
+     },
+     {
+      "name": "AMD",
+      "context": "경쟁 HBM4 기반 가속기(MI455X) 제공, 데이터율 비교 대상"
+     },
+     {
+      "name": "하이퍼스케일러(비명시)",
+      "context": "NVL72 시스템을 고객에게 최초 공급 중인 고객사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin GPU",
+      "role": "스펙 하향 조정된 핵심 데이터센터 GPU"
+     },
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "Rubin GPU 기반 랙스케일 플래그십 시스템, 영향받는 상위 제품"
+     },
+     {
+      "name": "HBM4",
+      "role": "메모리 대역폭 하향의 직접 대상 규격"
+     },
+     {
+      "name": "NVLink",
+      "role": "스케일업 인터커넥트, 대역폭 축소 대상"
+     },
+     {
+      "name": "AMD MI455X",
+      "role": "HBM4 데이터레이트 비교 경쟁 제품"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 스펙 하향 원인(수율/컨트롤러 속도) 공식 설명 여부",
+     "Vera Rubin NVL72 랙 레벨 최종 사양 발표",
+     "메모리 파트너(SK Hynix, Samsung, Micron)의 HBM4 수율·양산 속도 관련 후속 보도"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · ServeTheHome",
+     "title": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1dTUWE5QmQtaG56WUdQaEhsbmRNcFVpX1lhOWs4VjQzeWVUUzZ4ZEtUWmRsQ2ZBSkNkU1pqdVRkRkVMQ0xMOThnN29tb0tmZzVkT0lYN0R4MWR2cjZGN2V4ZkJJVExZM3J4TEw3ZXVJMjhIbktta0phYlExYWNhU3UtSExRZG5JUEUtUFBXeXk3a0FOT1lJbkxFaGNNQQ?oc=5"
+    }
+   ],
+   "uid": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives",
+   "body": "As we roll into the fourth quarter of 2026, NVIDIA and its partners are in the middle of the Vera Rubin ramp-up, including hyperscalers making some of the first NVL72 systems generally available to their customers. With Vera Rubin reaching the tipping point of its production roll-out, NVIDIA is also finally locking down the hardware shipping specifications. As it turns out, the company has quietly revised those specifications, with the Rubin GPU now offering less memory and scale-up networking (NVLink) bandwidth than NVIDIA previously promoted, but more scale-out bandwidth. As initially spotted by IT Home, back in September NVIDIA posted the updated specifications for its Rubin GPU and various Rubin-based products on their webpages and in NVIDIA’s architecture datasheet. To be sure, it is not unusual for server hardware specifications to change before a product’s launch, especially for something like Vera Rubin, which was announced nearly a year in advance. NVIDIA’s case is no different, with the company previously noting that those specifications were preliminary and that “all values are up to and subject to change” at the time. Rubin GPU: Less HBM4 Bandwidth, Less NVLink Bandwidth, More Scale-Out Bandwidth First, let us talk about NVIDIA’s Rubin GPU. The cornerstone of NVIDIA’s ambitions for this generation, NVIDIA’s Rubin server GPU will find its way into systems big and small and serve as the building block for much larger projects. | NVIDIA Rubin GPU Specifications | | | | | | | Preliminary | Shipping | | | | NVFP4 Inference | 50 PFLOPS | 50 PFLOPS | | | | NVFP4 Training | 35 PFLOPS | 35 PFLOPS | | | | INT8 | 250 TOPS | 250 TOPS | | | | TF32 | 2 PFLOPS | 2 PFLOPS | | | | GPU Memory | 288GB HBM4 (8x36GB) | 288GB HBM4 (8x36GB) | | | | GPU Memory Bandwidth | 22TB/sec (8×2048@10.75Gbps) | 19.2TB/sec (8×2048@9.375Gbps) | | | | NVLink Bandwidth (Scale Up) | 3.6TB/sec | 3.0TB/sec | | | | Networking Bandwidth (Scale Out) | 0.4TB/sec | 0.45TB/sec | | | | Architecture | Rubin | Rubin | | | Compared to NVIDIA’s preliminary specifications, the HBM4 memory bandwidth for a single Rubin GPU has been revised down notably. NVIDIA was initially targeting 22TB/second of memory bandwidth per Rubin GPU. At 8 stacks of HBM4 memory, that meant running each stack at about 10.75Gbps/pin. But with these revised shipping specifications, a single Rubin GPU will now provide 19.2TB/second of bandwidth, for a data rate of about 9.375Gbps/pin, a net loss of 1.375Gbps, or roughly 11%. This spec change comes as NVIDIA has been projecting some very aggressive data rates for HBM4. The super-sized version of the high-bandwidth memory specification already doubled the memory bus width per stack from 1024 bits to 2048 bits. At the same time, the official specification called for HBM4 stacks to run at a slightly lower clock rate than HBM3E, targeting 8Gbps/pin. NVIDIA’s 10.75Gbps rate was significantly higher than the original HBM4 specification, and even their newly reduced 9.375"
+  },
+  {
+   "source": "Google News · Dealroom",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Musk: SpaceX's Colossus 2 adds 'Gun Range' and 'Spam' clusters on the way to about 1.2M Nvidia Blackwells by year-end",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSGh0ZS1Yd3ktUFdRSlJ4QzJubEpFeTRNVjVSQ0pONDlvRFlqMFBJcEpTYVdiZFJqcFFxWHNFclNYd1BiRUM5NDVRQy1kVTlIZzlDT3NIU0YwN3ItWFN1QmtLVUhIMzhKX0pHWVNXUHo1cUdlQ0YwdmY2YUdSWEEzSU1BbF93NGhlaHIybVdjWjBCdF9Pa05xb2hrY1MzaTRtX09mczVHbzJXSXVtWjlBSy16UFFQVWZndENTUG1FN3pDSmxmM28tSDhBdTFPTExqSnNXM0tQMHZhZEtQSlJj?oc=5",
+   "date": "2026-11-02 00:17",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "supply-chain"
+    ],
+    "korean_title": "머스크, 스페이스X 년말까지 엔비디아 블랙웰 120만 개 탑재",
+    "korean_summary": "엘론 머스크가 스페이스X의 콜로서스 2 슈퍼컴퓨터에 엔비디아 블랙웰 칩 약 120만 개를 탑재할 계획을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQSGh0ZS1Yd3ktUFdRSlJ4QzJubEpFeTRNVjVSQ0pONDlvRFlqMFBJcEpTYVdiZFJqcFFxWHNFclNYd1BiRUM5NDVRQy1kVTlIZzlDT3NIU0YwN3ItWFN1QmtLVUhIMzhKX0pHWVNXUHo1cUdlQ0YwdmY2YUdSWEEzSU1BbF93NGhlaHIybVdjWjBCdF9Pa05xb2hrY1MzaTRtX09mczVHbzJXSXVtWjlBSy16UFFQVWZndENTUG1FN3pDSmxmM28tSDhBdTFPTExqSnNXM0tQMHZhZEtQSlJj",
+   "body": ""
+  },
+  {
+   "source": "Google News · 디지털투데이",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia network business overtakes Cisco total revenue as computing-network integration pays off",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORi1qWklVYkgyZVBWbzdEZjhRVzJyczQyakxzVUJxVDBhTGZkdXVzUUJsZWw4RTBMZEkydWlTSkdma2h0WWdZNFZOaHN0VVZSbUU1THdNMHIxdnVfZHRJdlUzbnd2NXNSUXk3cktpTGdqY2RVZHBjRkxjTExBWlIzdzRVUGp6SGswZEk3dWQtWUxxc0tjenc3bWk2cjBGZGlHMUNOZGZZekFCRVNqanA1c3BvV1RoSEZYNk95N2hjU3E0c1RHdWQtNVhTVk5nRmdEOGFzNktkVQ?oc=5",
+   "date": "2026-11-01 22:14",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 네트워킹 사업, Cisco 전체 수익 추월",
+    "korean_summary": "NVIDIA의 네트워킹 사업이 경쟁업체 Cisco의 전체 수익을 추월했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORi1qWklVYkgyZVBWbzdEZjhRVzJyczQyakxzVUJxVDBhTGZkdXVzUUJsZWw4RTBMZEkydWlTSkdma2h0WWdZNFZOaHN0VVZSbUU1THdNMHIxdnVfZHRJdlUzbnd2NXNSUXk3cktpTGdqY2RVZHBjRkxjTExBWlIzdzRVUGp6SGswZEk3dWQtWUxxc0tjenc3bWk2cjBGZGlHMUNOZGZZekFCRVNqanA1c3BvV1RoSEZYNk95N2hjU3E0c1RHdWQtNVhTVk5nRmdEOGFzNktkVQ",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "메타, 中 기업과 휴머노이드 개발",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173279",
+   "date": "2026-11-01 20:05",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "Meta와 Fourier의 휴머노이드 로봇 Max 협력 개발",
+    "korean_summary": "Meta가 중국 로봇 기업 Fourier와 협력하여 NVIDIA Jetson Thor를 탑재한 휴머노이드 로봇 Max를 개발하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "메타, 중국 로봇기업 Fourier와 가정용 휴머노이드 로봇 '맥스' 개발",
+    "korean_summary": "메타가 중국 로봇 기업 Fourier와 협력해 엔비디아 Jetson Thor 칩을 탑재한 가정용 휴머노이드 로봇 '맥스'의 시제품을 약 3개월 만에 완성하고 후속 모델을 준비 중이다.",
+    "action": {
+     "actor": "Meta",
+     "action": "중국 로봇기업 Fourier와 협력해 휴머노이드 로봇 '맥스(Max)' 시제품 개발 및 후속 모델 준비",
+     "stage": "Report",
+     "timeline": "2025년 8월 말 시제품 시연, 약 3개월 소요 (보도일 2025년 12월 1일)",
+     "scope": "가정용 휴머노이드 로봇, 메타 사내 시연"
+    },
+    "key_facts": [
+     "메타가 중국 로봇기업 **Fourier**와 협력해 휴머노이드 로봇 '맥스(Max)' 개발",
+     "지난 8월 말 메타 사내 로봇 기술 행사에서 시제품 시연",
+     "**첫 시제품 완성까지 약 3개월 소요**, 물체 조작·이동 능력 개선한 후속 모델 준비 중",
+     "맥스의 신체 사양: 키 약 1.5m, 무게 48㎏",
+     "**맥스에 엔비디아 로봇용 AI 반도체 'Jetson Thor' 탑재**"
+    ],
+    "why_matters": "빅테크인 메타가 중국 로봇기업과 협력해 가정용 휴머노이드 개발에 뛰어든 것은 휴머노이드 로봇 시장이 소비자 가전 영역까지 확장되고 있음을 보여준다. **엔비디아 Jetson Thor가 메타의 휴머노이드 두뇌로 채택**된 것은 로봇용 AI 반도체 시장에서 엔비디아의 표준 지위를 재확인하는 사례다.",
+    "subject_angle": "**Jetson Thor가 빅테크 휴머노이드 프로젝트에 선택**되며 엔비디아의 로봇 AI 플랫폼이 중국 로봇기업(Fourier)과 미국 빅테크(Meta) 간 협업에서도 공통 기반으로 자리잡고 있음을 시사한다.",
+    "focus_angle": "자동차·로봇 산업 관점에서는 Jetson Thor가 산업·물류용 로봇을 넘어 가정용 휴머노이드까지 적용 범위를 넓히고 있어, 자율주행차에 이어 휴머노이드 로봇 전반에서 엔비디아 컴퓨팅 플랫폼의 영향력 확산을 보여준다. 다만 본문에는 상업화 일정이나 양산 계획이 언급되지 않아 OEM·완성차 업계로의 직접적 파급은 미확인이다.",
+    "companies": [
+     {
+      "name": "Meta",
+      "context": "가정용 휴머노이드 로봇 '맥스' 개발 주체"
+     },
+     {
+      "name": "Fourier",
+      "context": "중국 로봇기업, 메타와 협력해 로봇 하드웨어 개발"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Jetson Thor 칩을 공급해 맥스의 AI 연산 담당"
+     }
+    ],
+    "products": [
+     {
+      "name": "Jetson Thor",
+      "role": "휴머노이드 로봇 '맥스'에 탑재된 로봇용 AI 반도체"
+     },
+     {
+      "name": "Max (휴머노이드 로봇)",
+      "role": "메타·Fourier가 개발한 가정용 휴머노이드 시제품"
+     }
+    ],
+    "watch_next": [
+     "후속 모델의 물체 조작·이동 능력 개선 세부 내용 공개 여부",
+     "맥스의 상업화·출시 일정 및 가격 정책",
+     "Jetson Thor 외 추가 엔비디아 플랫폼(소프트웨어 스택 등) 적용 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092173279",
+   "body": "페이스북 모회사 메타가 중국 로봇 기업과 손잡고 가정용 휴머노이드 로봇 개발에 속도를 내고 있다. 약 3개월 만에 첫 시제품을 완성한 데 이어 물체 조작과 이동 능력을 개선한 후속 모델도 준비하고 있다.1일(현지시각) 미국 IT 전문매체 디인포메이션에 따르면 메타는 중국 로봇 기업 푸리에(Fourier)와 협력해 휴머노이드 로봇 '맥스(Max)'를 개발했다. 지난 8월 말 사내 로봇 기술 행사에서 시제품을 시연한 것으로 전해졌다.맥스는 키 약 1.5m, 무게 48㎏으로 엔비디아의 로봇용 AI 반도체 '젯슨 토르(Jetson Thor"
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Q3 FY2027 Preview: The Fabless Model Just Got A $279 Billion Footnote (NASDAQ:NVDA)",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbUEzRnZyNUFrdTRLY0s1TGJVdG9yMV9CSUpyWHlScGhiMm9haGc0MXN4MldRUUF5SHA3SUpkejkzdHhYVy1UcmFvSGNlQkRrbS1XWFRnVmhNNVpBa3ZrVXJvVHpxQ1N6RXJodjlfOFhFOEFYMnI3UlJyenEtcWVHeE5HZERyTmR5YkY3WGIwT3d4VUZYSVE5dFlpaWhmd2VoSHhYMTNhYk1DclBrVDN3cUdtVTNxUQ?oc=5",
+   "date": "2026-11-01 19:49",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA Q3 FY2027 전망: 팹리스 모델의 279억 달러 영향 분석",
+    "korean_summary": "Seeking Alpha에서 향후 NVIDIA 분기 실적과 사업 구조 변화에 대한 분석을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbUEzRnZyNUFrdTRLY0s1TGJVdG9yMV9CSUpyWHlScGhiMm9haGc0MXN4MldRUUF5SHA3SUpkejkzdHhYVy1UcmFvSGNlQkRrbS1XWFRnVmhNNVpBa3ZrVXJvVHpxQ1N6RXJodjlfOFhFOEFYMnI3UlJyenEtcWVHeE5HZERyTmR5YkY3WGIwT3d4VUZYSVE5dFlpaWhmd2VoSHhYMTNhYk1DclBrVDN3cUdtVTNxUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Cuts Vera Rubin HBM4 Bandwidth 13% [2026]",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeVZsUmtIcW13R3VxOVJOT2s1Qm9fRUgzcF9VNGFIUjdpc3JYbXZjRmVWUmtPcXJCVTZ2TDVTS3RKbGlyWjNhYktOOHprazZ0TXBiZ2I0Z3ZCeHpCRGVfMG9CSFc3WWxyN1RfZC1oMll3QjVaeXpCc2VCdlA1TTlNNTItSFJ3UQ?oc=5",
+   "date": "2026-11-01 12:16",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, Vera Rubin HBM4 대역폭 13% 감소",
+    "korean_summary": "NVIDIA가 Vera Rubin HBM4의 대역폭을 13% 감소시켰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeVZsUmtIcW13R3VxOVJOT2s1Qm9fRUgzcF9VNGFIUjdpc3JYbXZjRmVWUmtPcXJCVTZ2TDVTS3RKbGlyWjNhYktOOHprazZ0TXBiZ2I0Z3ZCeHpCRGVfMG9CSFc3WWxyN1RfZC1oMll3QjVaeXpCc2VCdlA1TTlNNTItSFJ3UQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TIKR.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Partner Vertiv Soars as Orders Double: “Evolving Faster Than Ever”",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXczUm9JcUVqNEpMVjhkVzBOTy1wcHp0Ym54bmtyVlVxU0M1VGVSNmx1TExZbTZ6SHliV19ob2xGY3hXMkxlc2p3bkx3Z1pJZjA4UEptYVpSTkVvTXlUdXhFMU9WRVVkNmVFNjdXY3piM0tDSjVNWlQ5eTRkVmNDWFFkeXI2Nlo2NXFGUE8yQktjcEVhb1JuN3d0N0pwUQ?oc=5",
+   "date": "2026-11-01 20:11",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 파트너 Vertiv, 주문 두배로 급성장",
+    "korean_summary": "NVIDIA 파트너사 Vertiv가 주문을 두배로 증가시키며 고속 성장을 달성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXczUm9JcUVqNEpMVjhkVzBOTy1wcHp0Ym54bmtyVlVxU0M1VGVSNmx1TExZbTZ6SHliV19ob2xGY3hXMkxlc2p3bkx3Z1pJZjA4UEptYVpSTkVvTXlUdXhFMU9WRVVkNmVFNjdXY3piM0tDSjVNWlQ5eTRkVmNDWFFkeXI2Nlo2NXFGUE8yQktjcEVhb1JuN3d0N0pwUQ",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "에이전틱 AI 시대, 주목받는 ‘책상 옆 AI 어플라이언스’",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173267",
+   "date": "2026-11-02 15:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "에이전트 AI 시대의 개인용 AI 어플라이언스 부상",
+    "korean_summary": "NVIDIA DGX/RTX Spark 등의 개인용 AI 어플라이언스가 에이전트 AI 시대의 주목받는 제품 카테고리로 등장했다."
+   },
+   "summary_data": {
+    "korean_title": "에이전틱 AI 시대, 개인·소규모팀용 'AI 어플라이언스' 시장 부상…NVIDIA·AMD 주도",
+    "korean_summary": "NVIDIA와 AMD가 DGX/RTX Spark, Ryzen AI Max 등으로 개인·소규모팀용 AI 어플라이언스 시장을 선도하는 가운데, Intel·Qualcomm과 HP·Dell 등 PC 제조사들도 에이전틱 AI 수요에 대응해 제품군을 정비하고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DGX Spark, DGX Station, RTX Spark 등 개인·소규모팀용 AI 어플라이언스 제품군을 통해 시장 선점",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "개인 사용자~소규모 팀, 워크스테이션·미니PC 폼팩터"
+    },
+    "key_facts": [
+     "**NVIDIA DGX Spark는 기존 128GB 메모리 구성 외 비용 절감형 64GB 메모리 구성을 추가**했고, ConnectX-7로 연결 가능한 대수를 2대에서 8대까지 확장",
+     "RTX Spark는 DGX Spark와 동등한 기술 구성이지만 Windows OS를 지원하며, DGX Station도 업데이트를 통해 Windows 지원 추가",
+     "AMD Ryzen AI Max 400 시리즈는 300 시리즈와 동일 기술 기반에서 최대 메모리를 128GB에서 192GB로 50% 확대",
+     "**로컬 환경에서 실용적인 모델 규모는 약 30B(300억 파라미터)급으로 꼽히며, 64GB 공유 메모리면 이를 구동 가능**",
+     "Intel과 Qualcomm은 전용 AI 어플라이언스 제품군은 미출시, 기존 제품(Core Ultra Series 3 X-시리즈, Snapdragon X2 Elite)으로 대응 중"
+    ],
+    "why_matters": "에이전틱 AI 확산으로 클라우드 토큰 비용과 데이터 보안 부담을 줄이는 개인용 로컬 AI 인프라 수요가 커지면서, **NVIDIA가 DGX/RTX Spark로 AI PC와 서버 사이의 새로운 제품 카테고리를 선점**하고 있다. AMD가 메모리 용량 확대로 맞대응하는 가운데 Intel·Qualcomm은 아직 전용 제품군 부재로 상대적으로 뒤처진 모습이며, HP·Dell 등 PC OEM들이 이 플랫폼들을 채택해 포트폴리오를 구성하면서 시장 생태계가 빠르게 확장되고 있다.",
+    "subject_angle": "NVIDIA는 DGX OS와 소프트웨어 통합을 갖춘 DGX Spark/Station, Windows 호환 RTX Spark를 통해 **개인·소규모팀 시장까지 CUDA 생태계를 확장**함으로써, AI PC와 데이터센터 사이의 공백을 메우는 새로운 수익원과 록인(lock-in) 전략을 구축하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DGX Spark, DGX Station, RTX Spark로 개인용 AI 어플라이언스 시장 주도"
+     },
+     {
+      "name": "AMD",
+      "context": "Ryzen AI Max 시리즈로 메모리 용량 확대하며 경쟁"
+     },
+     {
+      "name": "Intel",
+      "context": "전용 제품군 부재, Core Ultra Series 3 X-시리즈 및 Arc Pro B70으로 대응"
+     },
+     {
+      "name": "Qualcomm",
+      "context": "Snapdragon X2 Elite 탑재 미니PC로 시장 대응"
+     },
+     {
+      "name": "HP",
+      "context": "AI Station 포트폴리오로 10B~600B급 모델 대응 제품군 구성"
+     },
+     {
+      "name": "Dell",
+      "context": "데스크사이드 에이전틱 AI 개념으로 하이브리드 AI 접근 제시"
+     },
+     {
+      "name": "ASUS",
+      "context": "DGX/RTX Spark 및 Snapdragon X2 Elite 탑재 미니PC(Ascent QN10) 출시"
+     },
+     {
+      "name": "MSI",
+      "context": "DGX Spark 및 RTX Spark 기반 미니PC 출시"
+     },
+     {
+      "name": "Corsair",
+      "context": "AMD Ryzen AI Max 탑재 제품 출시"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DGX Spark",
+      "role": "DGX OS 기반 어플라이언스형 AI 제품, 64GB/128GB 메모리 구성 및 ConnectX-7 연결 확장"
+     },
+     {
+      "name": "NVIDIA RTX Spark",
+      "role": "Windows 지원 하이엔드 PC/워크스테이션용 AI 어플라이언스 대안"
+     },
+     {
+      "name": "NVIDIA DGX Station",
+      "role": "서버급 성능을 워크스테이션 폼팩터에서 제공, Windows 지원 추가"
+     },
+     {
+      "name": "AMD Ryzen AI Max 400",
+      "role": "최대 메모리 192GB 지원으로 대형 모델 구동 지원"
+     },
+     {
+      "name": "Intel Core Ultra Series 3 X-시리즈",
+      "role": "노트북용 고성능 GPU 탑재 대응 제품"
+     },
+     {
+      "name": "Intel Arc Pro B70",
+      "role": "32GB 메모리 탑재 워크스테이션용 그래픽카드"
+     },
+     {
+      "name": "Qualcomm Snapdragon X2 Elite",
+      "role": "고성능 CPU/NPU 탑재 미니PC용 칩"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA DGX/RTX Spark의 실제 판매량 및 가격 정책 변화",
+     "AMD·Intel·Qualcomm의 전용 AI 어플라이언스 제품군 출시 여부",
+     "HP·Dell 등 OEM의 AI 어플라이언스 포트폴리오 확장 및 NVIDIA 플랫폼 채택 비중"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092173267",
+   "body": "최근 인공지능(AI) 기술의 트렌드가 ‘에이전틱 AI’로 넘어가면서 기업뿐 아니라 개인과 소규모 팀에서도 에이전트를 위한 전용 ‘AI 어플라이언스’에 대한 관심이 높아지고 있다. 여러 기기와 사용자에 걸친 에이전트의 활동을 한 곳에서 관리할 수 있는 AI 어플라이언스는 클라우드 서비스의 토큰 비용과 민감한 데이터의 외부 전송에 대한 부담을 줄일 수 있다. 여러 기기에서 로컬 AI를 사용하려는 경우 그래픽처리장치(GPU)와 메모리 등의 중복 투자도 줄일 수 있다. PC와 컴퓨팅 관련 주요 업체들도 이러한 시장 가능성에 주목하고 있다. 제품 차원에서는 중앙처리장치(CPU)와 GPU, 신경망처리장치(NPU) 등이 통합된 칩과 대용량 공유 메모리를 사용하는 미니 PC 형태가 주목받는다. 엔비디아의 ‘DGX/RTX 스파크’가 관심을 모으는 가운데 AMD와 인텔, 퀄컴도 각자의 접근법을 제시하고 있다. PC 제조업체들도 관련 제품군을 정비하고 다양한 제품을 선보이며 시장 수요에 대응하고 있다. 에이전틱 AI 시대에 현실화된 개인용 ‘AI 어플라이언스’ 에이전틱 AI와 함께 주목받는 개인용 ‘AI 어플라이언스’는 기존 AI 서버와 AI PC 사이에 있는 제품이다. 하드웨어 구성이나 성능은 AI PC나 워크스테이션과 비슷하지만, 용도는 기존 어플라이언스나 서버에 가깝다. 지금까지 ‘홈 서버’가 일부 고급 사용자들이 엔터프라이즈급 기술을 가정에서 활용할 수 있도록 했다면, AI 어플라이언스는 최신 로컬 AI 기술을 개인의 사용 환경에 맞춰 활용할 수 있도록 한다. 개인용 AI 어플라이언스는 외관이나 하드웨어 구성만으로는 미니 PC나 데스크톱 PC와 구분하기 어렵다. 이는 ‘어플라이언스’의 구분 기준이 사용 목적에 있기 때문이다. 일반적인 PC와 달리 AI 어플라이언스는 사용 목적이 분명하며, 모니터와 키보드, 마우스를 연결해 직접 사용하기보다 서버처럼 AI 에이전트나 응용프로그램 인터페이스(API)를 연결해 사용하는 환경을 전제한다. 일반 PC로도 비슷한 환경을 구축할 수 있지만, 설치와 활용이 상대적으로 단순하다는 것이 어플라이언스의 장점이다. 이러한 AI 어플라이언스는 개인이 사용하는 기기와 서비스의 구성에도 변화를 가져올 수 있다. 한 사람이 여러 기기를 사용하는 환경에서 로컬 AI를 활용하기 위해 모든 기기에 고성능 GPU와 대용량 메모리, 솔리드 스테이트 드라이브(SSD)를 갖출 필요가 없어지기 때문이다. 최근 로컬 AI 모델들은 크기가 작아지면서 성능이 높아지고 있지만 모든 기기에 충분한 하드웨어를 갖추기는 쉽지 않다. 특히 노트북 PC에서는 배터리 사용 중 AI 모델을 실행할 때 배터리 사용 시간과 체감 성능이 문제가 될 수 있다. 개인용 ‘AI 어플라이언스’는 여러 기기에 분산된 사용자의 AI 수요를 하나의 원격 어플라이언스로 통합할 수 있다. 여기에 에이전트를 결합하면 여러 기기에서 AI를 사용할 때 어플라이언스와 에이전트를 거쳐 로컬 모델과 클라우드 모델을 필요에 따라 모두 활용하는 ‘하이브리드’ 환경을 구현할 수 있다. 이를 통해 데이터 위치와 토큰 비용에 대한 부담을 줄이고, 기기를 바꿔 사용할 때 발생하는 작업 맥락 전환 문제에도 대응할 수 있다. AI를 적극적으로 활용하는 사용자라면 어플라이언스의 구축이 합리적인 선택이 될 수 있다. 개인용 AI 어플라이언스는 기존 AI PC와는 조금 다른 기준으로 선택할 필요가 있다. 단순한 최대 성능보다 실제 사용할 AI 모델 규모와 필요 성능, 설치 공간, 소비전력 등을 종합적으로 고려하는 것이 좋다. 일반적으로 기존 고성능 데스크톱 PC나 워크스테이션을 활용하는 방법과 고성능 통합 GPU, 대용량 공유 메모리를 갖춘 미니 PC형 제품 사이에서 선택하게 된다. 개인이나 소규모 팀이 사용할 AI 어플라이언스를 선택할 때 가장 먼저 고려할 점은 AI 모델의 크기다. 최근 로컬 환경에서 실용적으로 활용할 만한 모델로는 대략 30B(300억 파라미터)급 모델이 꼽힌다. 이보다 작은 모델은 성능이 아쉬울 수 있고, 큰 모델은 구동에 필요한 하드웨어를 확보하기가 어렵다. 최근에는 모델 구동 환경이 개선되면서 전문가 혼합(Mixture of Experts, MoE) 구조의 모델을 활용하거나 모델 일부를 시스템 메모리로 분산해 GPU 메모리 용량보다 큰 모델도 구동할 수 있게 됐다. 기존 고성능 데스크톱 PC나 워크스테이션 기반 제품의 장점은 높은 연산 성능이다. 별도의 고성능 GPU를 장착하기 때문에 공유 메모리와 통합 GPU를 사용하는 제품보다 연산 성능에서 유리하다. 다만 대형 AI 모델을 구동할 때는 그래픽 메모리 용량이 문제가 된다. 일반적인 소비자용 그래픽카드 중에는 16GB 수준의 메모리를 탑재한 제품이 많아 30B급 모델 전체를 GPU 메모리에 올리기 어려울 수 있다. 이러한 문제는 여러 개의 그래픽카드를 장착해 해결할 수도 있다. 하지만 현실적으로 한 대의 시스템에 장착할 수 있는 그래픽카드 수에는 한계가 있다. PC급 플랫폼에서는 2개, 워크스테이션급에서는 4개 정도의 GPU를 장착하는 것이 일반적인 한계다. 여러 그래픽카드를 장착하면 소비전력도 크게 늘어나 전기요금과 소음, 발열이 부담으로 작용한다. 반면 프로세서 내장 GPU와 공유 메모리 구조를 사용하는 미니 PC형 제품은 대형 모델을 상대적으로 유연하게 활용할 수 있다는 장점이 있다. 64GB 공유 메모리를 장착한 시스템이라면 로컬 환경에서도 실용적인 성능을 제공하는 30B급 모델을 활용할 수 있다. 별도 그래픽카드를 장착한 시스템보다 처리 속도는 느릴 수 있지만 개인이나 소규모 팀이 사용하기에는 충분한 수준이다. 크기와 소비전력 측면에서도 장점이 있으며, 시스템 전체 소비전력이 고성능 데스크톱용 그래픽카드 한 개보다 적은 경우도 있다. 엔비디아-AMD 적극 공략에 PC 업계도 가세 현재 개인용 AI 어플라이언스 시장에서 가장 적극적인 움직임을 보이는 기업은 엔비디아와 AMD다. 엔비디아는 ‘DGX 스파크’와 ‘DGX 스테이션’, ‘RTX 스파크’ 등을 선보이며 개인용부터 기업용 시장을 겨냥하고 있다. ‘DGX 스파크’는 전용 DGX OS와 소프트웨어 구성을 갖"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "IT 넘어 시설까지…영역 넓히는 ‘AI 풀스택’",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=2023092173126",
+   "date": "2026-11-01 17:50",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 인프라 풀스택 전략 확대, NVIDIA DSX 플랫폼",
+    "korean_summary": "NVIDIA DSX 플랫폼이 데이터센터의 통합 운영을 실현하는 풀스택 전략의 핵심 사례로 주목받고 있다."
+   },
+   "summary_data": {
+    "korean_title": "엔비디아 DSX 플랫폼, AI 풀스택을 데이터센터 시설(전력·냉각)까지 확장",
+    "korean_summary": "엔비디아가 DSX 플랫폼을 통해 기존 IT 중심의 AI 풀스택 전략을 전력·냉각 등 데이터센터 시설(OT) 영역까지 통합적으로 확장하고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "DSX 플랫폼을 통해 GPU 서버 인프라 중심의 AI 풀스택을 데이터센터 전력·냉각·시설 운영까지 확장, 서버 제조사 생태계와 협력해 디지털 트윈 기반 통합 관리 체계 구축",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "데이터센터 인프라(서버·전력·냉각) 및 글로벌 서버 제조사 생태계"
+    },
+    "key_facts": [
+     "**NVIDIA의 'DSX 플랫폼'은 전력·냉각·시설 등 기존 OT 영역까지 IT 풀스택에 통합**하는 방식을 제시",
+     "옴니버스 기반 시뮬레이션 도구 'DSX Sim'이 서버·전력·냉각을 포함한 데이터센터 운영 환경 전체를 디지털 트윈으로 구현",
+     "DSX 플랫폼 생태계에 Dell Technologies, HPE, Lenovo, Supermicro, ASUS, Foxconn 등 주요 글로벌 서버 제조사 참여",
+     "**NVIDIA는 하드웨어·플랫폼·모델·애플리케이션까지 오픈소스와 독자 기술을 함께 활용하는 반면, AMD·Intel은 공용 오픈소스 프로젝트 참여 방식**(ROCm 등)을 적극 활용",
+     "경쟁사들은 아직 서버·시설 통합 수준까지 나서지 않았으며, 대부분 시설 제어는 파트너 생태계 영역으로 API 연동 방식에 머물러 있음"
+    ],
+    "why_matters": "AI 인프라의 복잡성이 커지면서 하드웨어·소프트웨어 통합을 넘어 데이터센터 시설(전력·냉각) 운영까지 포괄하는 풀스택 경쟁이 새로운 차별화 요소로 부상하고 있다. **NVIDIA가 서버 제조사들의 기존 관리 도구·생태계를 아우르는 DSX 플랫폼으로 선제적으로 시설 통합 범위를 넓히면서, AMD·Intel 등 경쟁사와의 풀스택 격차가 IT 영역을 넘어 OT 영역으로까지 확대될 가능성**이 제기된다.",
+    "subject_angle": "**NVIDIA는 GPU 하드웨어 보급 확대를 기반으로 독자 기술을 업계 표준처럼 자리잡게 하는 전략을 지속**하며, DSX 플랫폼을 통해 AI 인프라 지배력을 서버·소프트웨어에서 데이터센터 시설 운영까지 확장해 생태계 종속성을 강화하려는 포석으로 해석된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "DSX 플랫폼 및 DSX Sim 개발, AI 풀스택을 데이터센터 시설 영역까지 확장"
+     },
+     {
+      "name": "AMD",
+      "context": "ROCm 기반 오픈소스 중심 풀스택 전략 추진, 비교 대상"
+     },
+     {
+      "name": "Intel",
+      "context": "오픈소스 프로젝트 참여 중심의 풀스택 전략 추진, 비교 대상"
+     },
+     {
+      "name": "Dell Technologies",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     },
+     {
+      "name": "HPE",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     },
+     {
+      "name": "Lenovo",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     },
+     {
+      "name": "Supermicro",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     },
+     {
+      "name": "ASUS",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     },
+     {
+      "name": "Foxconn",
+      "context": "DSX 플랫폼 생태계 참여 서버 제조사"
+     }
+    ],
+    "products": [
+     {
+      "name": "DSX Platform",
+      "role": "서버·전력·냉각 등 데이터센터 전체를 통합 관리하는 AI 인프라 풀스택 플랫폼"
+     },
+     {
+      "name": "DSX Sim",
+      "role": "옴니버스 기반 데이터센터 운영 환경 디지털 트윈 시뮬레이션 도구"
+     },
+     {
+      "name": "NVIDIA AI Enterprise",
+      "role": "NVIDIA의 소프트웨어 플랫폼 풀스택 사례"
+     },
+     {
+      "name": "AMD ROCm",
+      "role": "AMD의 오픈소스 중심 풀스택 비교 사례"
+     }
+    ],
+    "watch_next": [
+     "DSX 플랫폼의 구체적 상용화 일정 및 고객사 공개 여부",
+     "서버 제조사별 DSX 플랫폼 참여 범위와 자체 관리 도구와의 통합 방식",
+     "AMD·Intel의 시설(OT) 영역 통합 전략 대응 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=2023092173126",
+   "body": "인공지능(AI) 인프라의 부상과 함께 주목받던 ‘풀스택’ 역량의 범위가 확장되고 있다. 복잡해진 AI 운영 환경을 단순화하는 데 초점을 맞췄던 풀스택 전략이 이제 서버와 소프트웨어를 넘어 데이터센터의 전력·냉각·시설 운영까지 아우르는 형태로 진화하고 있다. 특히 엔비디아의 ‘DSX 플랫폼’은 기존 AI 인프라의 풀스택 구성을 데이터센터 전체로 확장하는 사례로 주목받는다. 서버와 랙 단위의 최적화를 넘어 다양한 생태계 파트너들과 협력해 데이터센터 전반의 운영 환경을 통합적으로 다루려는 시도다. 하드웨어부터 운영, 관리까지 통합하는 AI 인프라 ‘풀스택’ 기존 컴퓨팅 인프라는 하드웨어와 소프트웨어가 각각 개발되고, 주요 처리장치와 네트워크, 스토리지 등도 별도의 구성 요소로 만들어져 연결되는 구조가 일반적이었다. 범용 하드웨어와 소프트웨어의 호환성을 중심으로 느슨하게 결합된 생태계가 형성된 것이다. 하지만 AI 인프라의 기술 구성이 복잡해지고 구성 요소 간 상호의존성이 커지면서 하드웨어와 소프트웨어를 통합적으로 제공하는 ‘풀스택’ 접근 방식이 중요해졌다. 특히 주요 반도체 제조사들은 하드웨어와 드라이버뿐 아니라 이를 효과적으로 활용하기 위한 라이브러리와 미들웨어까지 지원하는 역할을 맡게 됐다. 파이토치(PyTorch) 등 주요 AI 프레임워크에서 최신 하드웨어를 사용할 수 있도록 지원하고, 새로운 AI 모델에 대응해 플랫폼과 라이브러리를 업데이트하는 것도 제조사의 역할이 됐다. 이제 이러한 소프트웨어 지원 역량은 엔비디아뿐 아니라 AMD, 인텔 등 주요 반도체 제조사들이 갖춰야 할 기본 요건으로 자리 잡았다. AI 인프라의 풀스택을 구현하는 방식에서는 제조사별 차이가 존재한다. 엔비디아는 하드웨어부터 플랫폼, 모델과 애플리케이션까지 폭넓은 기술을 제공하면서 오픈소스와 독자 기술을 함께 활용한다. 엔비디아의 하드웨어 보급이 확대되면서 독자 기술의 일부는 사실상 업계 표준처럼 받아들여지고 있다. 반면 AMD와 인텔은 소프트웨어 플랫폼 영역에서 업계 공용 오픈소스 프로젝트에 기여하고 참여하는 방식을 적극 활용하고 있다. 엔비디아의 ‘AI 엔터프라이즈’와 AMD의 ‘ROCm’은 이러한 풀스택 구성 방식의 차이를 보여주는 사례다. 최근에는 이 같은 하드웨어·소프트웨어 통합을 넘어 실제 인프라의 운영과 관리까지 풀스택의 범위가 넓어지고 있다. 기존에 소프트웨어 영역으로 구분됐던 애플리케이션과 운영·관리 분야에서도 하드웨어 제조사와 소프트웨어 생태계 간 협력이 중요해지는 모습이다. 이 과정에서 AI 인프라의 풀스택 전략은 서버를 설치하고 운영하는 데이터센터의 시설 환경으로까지 확장되고 있다. 그동안 IT 인프라와 이를 수용하는 데이터센터 시설은 각각 IT와 운영기술(OT)의 영역으로 구분돼 다뤄졌다. 그러나 AI 인프라 구축에서 전력 공급과 냉각, 공조, 공간 배치 등의 중요성이 커지면서 두 영역을 함께 고려해야 할 필요성도 높아졌다. 이에 서버와 랙 등 IT 인프라뿐 아니라 전력·냉각·시설 운영까지 설계 단계부터 통합적으로 다루는 접근 방식이 등장하고 있다. 기존의 풀스택이 AI 시스템을 구동하기 위한 하드웨어와 소프트웨어의 통합에 집중했다면, 이제는 이를 실제로 설치하고 운영하는 데이터센터 환경까지 포함하는 것이다. IT 넘어서 ‘시설’ 영역까지, 확장되는 풀스택 전략 엔비디아의 ‘DSX 플랫폼’은 이러한 풀스택 전략의 확장을 보여주는 대표적인 사례다. 기존 AI 플랫폼이 컴퓨팅과 네트워킹, 소프트웨어 등 IT 영역을 중심으로 구성됐다면, DSX는 전력과 냉각, 시설 등 기존 OT 영역까지 통합적으로 다룬다. 엔비디아가 데이터센터의 모든 구성 요소를 직접 만드는 것은 아니다. 대신 GPU 서버 인프라를 중심으로 다양한 시설 및 인프라 관련 기업들과 협력해 데이터센터 환경 전반을 하나의 플랫폼에서 다룰 수 있도록 하는데 의미가 있다. DSX 플랫폼은 서버와 전력 공급, 냉각을 포함한 데이터센터 운영 환경 전체를 디지털 트윈으로 구현해 최적화하는 방식을 활용한다. 엔비디아의 옴니버스 기반 시뮬레이션 도구인 ‘DSX Sim’은 실제 데이터센터 운영 환경을 가상으로 구현해 시설과 인프라의 상태를 가시화하고 다양한 운영 조건을 시뮬레이션할 수 있도록 지원한다. 이러한 디지털 트윈 환경에는 엔비디아와 생태계 파트너들의 데이터가 활용된다. 이를 기반으로 실제 데이터센터의 구성과 운영 조건을 정교하게 반영하는 것이 특징이다. 엔비디아의 DSX 플랫폼 생태계에는 델 테크놀로지스, HPE, 레노버, 슈퍼마이크로, 에이수스, 폭스콘 등 주요 글로벌 서버 제조사들이 참여하고 있다. 특히 자체적인 인프라 통합 관리 도구와 생태계를 갖춘 제조사들까지도 DSX 플랫폼에 참여한다는 점이 눈길을 끈다. 이는 엔비디아 GPU를 중심으로 구성되는 AI 인프라 환경에서 서버와 시설 전반을 통합적으로 관리하는 체계의 중요성이 커지고 있음을 보여준다. 데이터센터 단위의 디지털 트윈 플랫폼과 제어를 엔비디아가 처음 시도한 것은 아니다. 데이터센터 시설 전반을 모델링, 시뮬레이션하는 기술은 기존 시설 관련 기업들도 대부분 갖추고 있다. 차이는 IT와 시설 운영을 연결하는 범위에 있다. 기존 시설 관리 도구들이 IT 장비의 온도 등 환경 정보를 바탕으로 시설을 제어한다면 엔비디아는 DSX 플랫폼을 통해 개별 서버의 작업 단위부터 데이터센터의 전력과 냉각까지 통합적으로 다루는 접근 방식을 제시한다. 엔비디아는 시설 운영과의 통합을 ‘DSX 플랫폼’으로 추진하고 있지만, 경쟁사들은 아직 이 단계까지 나서지는 않았다. 대부분은 시설 제어를 파트너 생태계의 영역으로 보고 서버와 랙, 전력과 냉각 등 주요 요소들의 데이터를 API로 연결해 별도의 관리 플랫폼 형태로 다룬다. 이 과정에서 서버 제조사나 시스템 통합(SI) 업체 등 IT 영역이 중심이 되는지, 시설 운영을 담당하는 OT 영역이 중심이 되는지에 따라 관리 플랫폼의 관점도 달라지는 모습이다. 권용만 기자 yongman.kwon@chosunbiz.com"
+  },
+  {
+   "source": "Google News · FourWeekMBA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Meta Caps Nvidia B200 at 750W to Air-Cool It, Paper Shows",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdElCZDF3bW1XS0VPcnZyTkNmZXpuX1I5bzVwUkxHWFpfUEFCNFQyU3ExTWdrY29ZcnhzOG94bTVWRWwtei13UEVKcXIzMkhKU0RrYVJ0alVhNk92TW9EMGxBOFhPNnY0M0poMHhsRDdHMmdLTzVNYnA4WXd4MDJRVlNWYkd0YkFFUFNiQw?oc=5",
+   "date": "2026-11-01 19:04",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "메타, 엔비디아 B200 전력을 750W로 제한",
+    "korean_summary": "메타가 엔비디아 B200 GPU의 전력 소비를 750W로 제한하여 공냉식 냉각을 구현하는 방식을 채택했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdElCZDF3bW1XS0VPcnZyTkNmZXpuX1I5bzVwUkxHWFpfUEFCNFQyU3ExTWdrY29ZcnhzOG94bTVWRWwtei13UEVKcXIzMkhKU0RrYVJ0alVhNk92TW9EMGxBOFhPNnY0M0poMHhsRDdHMmdLTzVNYnA4WXd4MDJRVlNWYkd0YkFFUFNiQw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yeni Şafak English",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump vows 'close' scrutiny of China spy plot targeting Nvidia CEO",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZmJKb0VKSUhxMDdSSV8tTXFJSkVHM0ppYmQzbDFLR1FLd1JwRHZPQ01lS1hmTWhqRTZYMTR1My1qcWhoaW9mblUzYkxNTm9sRGRaQkhSeUpPNUs4ci0tNkVUdWJOcTl1WkI4SURNSG9MVVR5S1NXNHNjdV9YVmVPLTQxZXk5LTBwYjl3U3ZCdlNLN2hwQ1M0VjNlVGw0OWRvYVd2UnNn?oc=5",
+   "date": "2026-11-01 17:16",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, NVIDIA CEO 스파이 음모 철저 조사 약속",
+    "korean_summary": "트럼프 대통령이 NVIDIA CEO Jensen Huang을 겨냥한 중국의 스파이 활동을 철저히 조사하겠다고 선언했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZmJKb0VKSUhxMDdSSV8tTXFJSkVHM0ppYmQzbDFLR1FLd1JwRHZPQ01lS1hmTWhqRTZYMTR1My1qcWhoaW9mblUzYkxNTm9sRGRaQkhSeUpPNUs4ci0tNkVUdWJOcTl1WkI4SURNSG9MVVR5S1NXNHNjdV9YVmVPLTQxZXk5LTBwYjl3U3ZCdlNLN2hwQ1M0VjNlVGw0OWRvYVd2UnNn",
+   "body": ""
+  },
+  {
+   "source": "Google News · UA.NEWS",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump says report of possible Nvidia-related espionage will be investigated",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWGptVGU1S1hqUlVaMTNJdWROQWlPSkFRUlRFd3czUUlja2R0Wk1LSlZGeU15X1RQWVJFV1EzY1g0c1k5eDFjd1luZkNZX1hJTmt3dnZXSVd0Um5HdGdrNHlCTWRzVWoxSWZvaE1tZlRrTjRDdUljZm1HMkI2YXBCc3Z0SXlUSC1kN2VoRjdxRERsODZVNE1fWEhSQmw4QXJVZ25ZWFA1c2RkQ0dhVGNSSUphZjRtWXNhOG5qWDB3?oc=5",
+   "date": "2026-11-01 14:22",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, NVIDIA 관련 스파이 의혹 수사 예고",
+    "korean_summary": "트럼프 대통령이 NVIDIA와 관련된 스파이 의혹에 대해 철저한 수사를 진행하겠다고 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWGptVGU1S1hqUlVaMTNJdWROQWlPSkFRUlRFd3czUUlja2R0Wk1LSlZGeU15X1RQWVJFV1EzY1g0c1k5eDFjd1luZkNZX1hJTmt3dnZXSVd0Um5HdGdrNHlCTWRzVWoxSWZvaE1tZlRrTjRDdUljZm1HMkI2YXBCc3Z0SXlUSC1kN2VoRjdxRERsODZVNE1fWEhSQmw4QXJVZ25ZWFA1c2RkQ0dhVGNSSUphZjRtWXNhOG5qWDB3",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Fast Mode",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Eclypsium, NVIDIA Collaborate to Address AI Infrastructure Security Risks",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRzZ6UkVtMnhacFhIQWtsRzdOSF82QlY3cnIyU3FDRGR4SkhpWHQ5U3I2eXFVcmN6ZDdxbXdHdVAySVJDbGdSY25rWHFvcHI3V0tXUkZuOW45czVxOHhyejVhVXQtRkFuSTFhenVUOEpVVUdoeElKN0xhWXBBWmNpZE1oY0x1U29MTml6NXF2QUhHT2ZzZzBXUW1nV0NkSF8xLXJ6YXRUT1ZKX0tyLXVzeHBoNUNnS21PY19wMzRtakx4cF9JbVE?oc=5",
+   "date": "2026-11-02 08:54",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Eclypsium과 NVIDIA, AI 인프라 보안 협력 강화",
+    "korean_summary": "Eclypsium과 NVIDIA가 AI 인프라 보안 위험 대응을 위해 협력을 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRzZ6UkVtMnhacFhIQWtsRzdOSF82QlY3cnIyU3FDRGR4SkhpWHQ5U3I2eXFVcmN6ZDdxbXdHdVAySVJDbGdSY25rWHFvcHI3V0tXUkZuOW45czVxOHhyejVhVXQtRkFuSTFhenVUOEpVVUdoeElKN0xhWXBBWmNpZE1oY0x1U29MTml6NXF2QUhHT2ZzZzBXUW1nV0NkSF8xLXJ6YXRUT1ZKX0tyLXVzeHBoNUNnS21PY19wMzRtakx4cF9JbVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Is Reportedly Eyeing Teflon, The Non-Stick Cookware Material, To Fix AI Server Signal Loss In Next-Gen NVLink Switch Boards",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFZKN3FHUjFiVmNnWktXN1VYSmZNNE1qVmVDdVVuSmNPNklITFNIQmZzWFpPZUlIMXpqUlhzZUwzMjh2TlhwWEtyYkNZR2Vua0U5Y2NMODJYV1Y3eEo3S1R2Q2NYbjQ5d0s5X1ZJNWNBS09td3o0d2lDTUdFZWU2UTVuWkxSWlBWZ1o2Y3JZbjRkb0Iz0gGaAUFVX3lxTE5LUGpHMzRKS2lHbUlNTi05VDBCU0JnT3FqbEhOSm5ZVzFFNTMzb1VHNk1uaDJsMVVNUHpUNzI5RlpZVm94YzVqUExTMGZwWkJjT0M1LVkycUR4ZUNJb3V5bWVXZkpxdWZzTlNvNV8zVFNmXzVlalFHS3hCY0FlM3diNFowSVRGcDQ0UGZ3YzMyVEN0QWtuTkVtWEE?oc=5",
+   "date": "2026-11-01 18:10",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "차세대 NVLink: 테플론으로 AI 서버 신호 손실 해결",
+    "korean_summary": "NVIDIA가 차세대 NVLink 스위치 보드에 테플론을 적용하여 AI 서버의 신호 손실 문제 해결을 검토 중인 것으로 보도"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFZKN3FHUjFiVmNnWktXN1VYSmZNNE1qVmVDdVVuSmNPNklITFNIQmZzWFpPZUlIMXpqUlhzZUwzMjh2TlhwWEtyYkNZR2Vua0U5Y2NMODJYV1Y3eEo3S1R2Q2NYbjQ5d0s5X1ZJNWNBS09td3o0d2lDTUdFZWU2UTVuWkxSWlBWZ1o2Y3JZbjRkb0Iz0gGaAUFVX3lxTE5LUGpHMzRKS2lHbUlNTi05VDBCU0JnT3FqbEhOSm5ZVzFFNTMzb1VHNk1uaDJsMVVNUHpUNzI5RlpZVm94YzVqUExTMGZwWkJjT0M1LVkycUR4ZUNJb3V5bWVXZkpxdWZzTlNvNV8zVFNmXzVlalFHS3hCY0FlM3diNFowSVRGcDQ0UGZ3YzMyVEN0QWtuTkVtWEE",
+   "body": ""
+  },
+  {
+   "source": "Google News · FourWeekMBA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A $105B Nvidia Guarantee Splits Two $4T Off-Book AI Counts",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUEtQUno2YnhUakphUVhvcC1NZDhTTE9OY24wcWhiWGpvN2FvWUZWeVBxV2o5OVhlUkNqdTItaXFzTjJMX0k1TnhfZUtUNWNnY1Z5ckJHbnRydVpjS1NLV200T21hWEl5bDJEMzNqaVFia2Q3ckNHR2lubEVHMGxqeVphNVF2ZlpMYXpWRw?oc=5",
+   "date": "2026-11-02 02:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 1050억 달러 보증이 4조 달러 AI 자산 계산 분할",
+    "korean_summary": "NVIDIA의 1050억 달러 보증이 4조 달러 규모의 오프장부 AI 자산 계산을 분할했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUEtQUno2YnhUakphUVhvcC1NZDhTTE9OY24wcWhiWGpvN2FvWUZWeVBxV2o5OVhlUkNqdTItaXFzTjJMX0k1TnhfZUtUNWNnY1Z5ckJHbnRydVpjS1NLV200T21hWEl5bDJEMzNqaVFia2Q3ckNHR2lubEVHMGxqeVphNVF2ZlpMYXpWRw",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · tech-insider.org",
+   "category": "media",
+   "kind": "gnews",
+   "title": "RTX 5080 Canada: Pulled From Nvidia Store, US$1,979 [2026]",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zMko3T1F4UDVVaHZ2T2JwSWhRRk9VcGVWMDFqeWNlY2lkSHJmZTZuNXNXWmEtZU9jNGZfeEtIeElnMUhCMlFUZ0xTcTlnS2pTUUlHdHJteUx5LU9pUlRpOGlyVF94Y2tyNFMzUXJiU3pjR2pwM3MtbTZR?oc=5",
+   "date": "2026-11-01 21:59",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "RTX 5080, 캐나다 NVIDIA 공식 스토어에서 제거",
+    "korean_summary": "신제품 RTX 5080이 NVIDIA 캐나다 지역 공식 매장에서 판매 중단되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1zMko3T1F4UDVVaHZ2T2JwSWhRRk9VcGVWMDFqeWNlY2lkSHJmZTZuNXNXWmEtZU9jNGZfeEtIeElnMUhCMlFUZ0xTcTlnS2pTUUlHdHJteUx5LU9pUlRpOGlyVF94Y2tyNFMzUXJiU3pjR2pwM3MtbTZR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Simply Wall St",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia (NVDA) CEO Targeting Report Draws Congress Into New Security Questions",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS1FVLVVUUHBJdEttby1zd21Yc3k4WFZBZUZkanR6ZWwwTVdiV1JSSEprOU5YUzQ1c0RXT043YWx0UDdzVWNCSjFPQzFQX21RY3VxNkh6cnNMWUVXTEpabHJBaXBPTGVGWDlwNFBHLU1pUnR2eXVHRW9NaWo2UGxFNEJPTDZVZlNSazRacjVrcnpBY1pMdnpyUS1NemlHLUFtYllORGpSa3Rrc0w5YXRMUFN1azUyVktfazB1QklGS1VxUWIxZkpjVVNlZ9IB0AFBVV95cUxPTE12ckIwclB1dExsMG1sa1BYNkZfajd5VE0tQ0R6OU1hTFBzb0N6ZlFLcXI4T2U1MTB4UnVFX2dRci1BeWlrNzQ4ZU5jQThPdUdwanhxUGFWM3Zya0VsUktxcVlIenVtSGJVRkQwXzlEcl9fMkRaZFZtUmoycVdTVHUzUzFHbUVQb0pvVFZYUnBPbjdaNTB1SUtEb0ozeTlRNjFjejJYSnhlRkhtejJxNVRWNGZkb0tzRlNydldYaHhPYnVDcHNfYnJZakVPLWZ2?oc=5",
+   "date": "2026-11-02 02:42",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "엔비디아 CEO 표적 보도, 의회 보안 문제 제기",
+    "korean_summary": "엔비디아 CEO가 중국 간첩 음모의 표적이라는 보도로 미국 의회가 새로운 국가보안 문제를 지적했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS1FVLVVUUHBJdEttby1zd21Yc3k4WFZBZUZkanR6ZWwwTVdiV1JSSEprOU5YUzQ1c0RXT043YWx0UDdzVWNCSjFPQzFQX21RY3VxNkh6cnNMWUVXTEpabHJBaXBPTGVGWDlwNFBHLU1pUnR2eXVHRW9NaWo2UGxFNEJPTDZVZlNSazRacjVrcnpBY1pMdnpyUS1NemlHLUFtYllORGpSa3Rrc0w5YXRMUFN1azUyVktfazB1QklGS1VxUWIxZkpjVVNlZ9IB0AFBVV95cUxPTE12ckIwclB1dExsMG1sa1BYNkZfajd5VE0tQ0R6OU1hTFBzb0N6ZlFLcXI4T2U1MTB4UnVFX2dRci1BeWlrNzQ4ZU5jQThPdUdwanhxUGFWM3Zya0VsUktxcVlIenVtSGJVRkQwXzlEcl9fMkRaZFZtUmoycVdTVHUzUzFHbUVQb0pvVFZYUnBPbjdaNTB1SUtEb0ozeTlRNjFjejJYSnhlRkhtejJxNVRWNGZkb0tzRlNydldYaHhPYnVDcHNfYnJZakVPLWZ2",
+   "body": ""
+  },
+  {
+   "source": "Google News · Open Magazine",
+   "category": "media",
+   "kind": "gnews",
+   "title": "EXPLAINED | Nvidia’s China Tightrope: Can Jensen Huang Keep Trump and Beijing on Side?",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV3lCU2hKQXk4QThpRFhZQngwRTg0NVV6NGV6TmF0TEYtT19sU3V2UVlKU0t3VHpxQUZPQnRrZjlOODdHbFhPcmgxQ3prOHRnSlhoN056aWc5SnNXbklpWnE5MnZGY1F6UzhqLXlRM2s3NXBCUXpzcmJGOE93M28wTGM5WTQwREo4TnFIMFQtc1U3clpyZ3M0emtvMEtKRjcxRTFnQkdwbUNEbVlEZEY2OUNDU3Q4UHVzbVE?oc=5",
+   "date": "2026-11-01 11:30",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA의 미중 균형 외교: Jensen Huang의 줄타기",
+    "korean_summary": "분석가들이 NVIDIA가 트럼프 행정부와 중국 정부 사이에서 외교적 균형을 유지할 수 있는지 해석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV3lCU2hKQXk4QThpRFhZQngwRTg0NVV6NGV6TmF0TEYtT19sU3V2UVlKU0t3VHpxQUZPQnRrZjlOODdHbFhPcmgxQ3prOHRnSlhoN056aWc5SnNXbklpWnE5MnZGY1F6UzhqLXlRM2s3NXBCUXpzcmJGOE93M28wTGM5WTQwREo4TnFIMFQtc1U3clpyZ3M0emtvMEtKRjcxRTFnQkdwbUNEbVlEZEY2OUNDU3Q4UHVzbVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prediction: Nvidia Stock Is Going to Soar After Nov. 17",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSmU2bkhYVFltS0RkTnJINU9jaWF0Q253aWoyQnloT0ZDVTdfd2d2aEFlakwxcXdOSjE2NldxcEV4b0hTSXFwUzM5VGtwYVNQQ0pqVGg0a3p0SXhrUDRCM3V2Vm0xSk5KNWlpdjhnMGZsTFNOdU51NkExV3BQSjk3ZkJmRl9SbDAtT2toSlF3bFJRNXhFbHpSaA?oc=5",
+   "date": "2026-11-02 05:29",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 상승 전망 기사",
+    "korean_summary": "The Motley Fool이 11월 17일 이후 NVIDIA 주가의 급등을 예측하는 의견 기사를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSmU2bkhYVFltS0RkTnJINU9jaWF0Q253aWoyQnloT0ZDVTdfd2d2aEFlakwxcXdOSjE2NldxcEV4b0hTSXFwUzM5VGtwYVNQQ0pqVGg0a3p0SXhrUDRCM3V2Vm0xSk5KNWlpdjhnMGZsTFNOdU51NkExV3BQSjk3ZkJmRl9SbDAtT2toSlF3bFJRNXhFbHpSaA",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Washington Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump voices uncertainty about Nvidia CEO, a close tech adviser",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaGJjbktIWGNkNTRGd0lIMm9QSjVtd1lBSWZkUkczcUtGLVRCMVRNM1g4TVh1cVlZLXltSElHWFVaSHdTajlwX3ZDTENEQm1aY3FhMjRISWZuOFc5eUZnM2FENzA2MXZrS3NZWEo4TVBVTFRsdFFUa1RuRUJmaXhWY19TeWRJVG80LThvbkZPTGNycEpsaVNoUzRaSDJoQTZsbkRZ?oc=5",
+   "date": "2026-11-02 07:52",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "트럼프, NVIDIA CEO에 대한 불확실성 표현",
+    "korean_summary": "트럼프가 자신의 기술 고문인 NVIDIA CEO에 대해 의견을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaGJjbktIWGNkNTRGd0lIMm9QSjVtd1lBSWZkUkczcUtGLVRCMVRNM1g4TVh1cVlZLXltSElHWFVaSHdTajlwX3ZDTENEQm1aY3FhMjRISWZuOFc5eUZnM2FENzA2MXZrS3NZWEo4TVBVTFRsdFFUa1RuRUJmaXhWY19TeWRJVG80LThvbkZPTGNycEpsaVNoUzRaSDJoQTZsbkRZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Stocktwits",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVDA Stock Drops: Nvidia May Back Data Center Loan For Its Own Customer, Analyst Sees Little Impact From Intel’s Weak Report",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVG1Ba2FuOGJIWmwtZXZoM0d2VVRDQUhZeHFxS3NFeHFmQ29BTHVXZWxYUlZwVUVoQ2tRRGZlMDR0clMycXhzVEtEVGl3SEQ2aXUtdHFaV0ZGRzdvTnFvODZzTjNIajNoZjdLWURGWXFLT2Z5ajZlTm9FeExsNnN4MXVSUUg0VGlralU5SThacjQzcWJadjZINWFxX2laUm9ZeDJwVnhERjJWc3Y1dFBQZnAzdzRIXzl3RGc5VTJGU1JpQUFXN2NXc19mVkxockZwU3ZFUnhMakR6RkVOa1lObU5KSTB5SHczdEd4ZHFjUmt0N2x2bzhMUlBsSnB1UjNGakwxTjg0NHc0Rzg2M1Yw?oc=5",
+   "date": "2026-11-02 02:58",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVDA 주가 하락: NVIDIA의 고객 금융 지원 계획과 인텔 약세 영향",
+    "korean_summary": "NVIDIA가 자신의 고객을 위한 데이터센터 대출 지원을 검토 중이며 인텔 약세의 영향은 제한적이라는 애널리스트 의견"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNVG1Ba2FuOGJIWmwtZXZoM0d2VVRDQUhZeHFxS3NFeHFmQ29BTHVXZWxYUlZwVUVoQ2tRRGZlMDR0clMycXhzVEtEVGl3SEQ2aXUtdHFaV0ZGRzdvTnFvODZzTjNIajNoZjdLWURGWXFLT2Z5ajZlTm9FeExsNnN4MXVSUUg0VGlralU5SThacjQzcWJadjZINWFxX2laUm9ZeDJwVnhERjJWc3Y1dFBQZnAzdzRIXzl3RGc5VTJGU1JpQUFXN2NXc19mVkxockZwU3ZFUnhMakR6RkVOa1lObU5KSTB5SHczdEd4ZHFjUmt0N2x2bzhMUlBsSnB1UjNGakwxTjg0NHc0Rzg2M1Yw",
+   "body": ""
+  },
+  {
+   "source": "Google News · GuruFocus",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Technology Sector Slump Hits Nvidia (NVDA) Hard in October Amid AI Spending Concerns",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX2JTaGNoaC1ZS1hkVnJuX19lOVZudTZ0VUFobm1DUUZoY0R0Yzd5QXJidHVfTkFJaWE2elBKS2xKdThsNXRFMUl2dnBHQ09IS2FmZkJrcWp1RXgwZlNXRDZacWdRcE5lQWV0SG5memFvRG1iT1BwOUg5Wm1rNnpIWkhqVVZrSzhDdlBBclFDdm5JdUVYV2xRVFoxbkxqTk5lN1ZzZlpPRVZucHFZRmlNRWJzbzV0MF9qamhqNTNB?oc=5",
+   "date": "2026-11-02 01:28",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "10월 기술주 침체가 NVIDIA에 미친 영향",
+    "korean_summary": "AI 지출 우려 속에서 10월 기술 부문 침체가 NVIDIA 주가에 큰 타격을 줌"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOX2JTaGNoaC1ZS1hkVnJuX19lOVZudTZ0VUFobm1DUUZoY0R0Yzd5QXJidHVfTkFJaWE2elBKS2xKdThsNXRFMUl2dnBHQ09IS2FmZkJrcWp1RXgwZlNXRDZacWdRcE5lQWV0SG5memFvRG1iT1BwOUg5Wm1rNnpIWkhqVVZrSzhDdlBBclFDdm5JdUVYV2xRVFoxbkxqTk5lN1ZzZlpPRVZucHFZRmlNRWJzbzV0MF9qamhqNTNB",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketForces Africa",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Tops Nvidia As AI Spending Concerns Reshape Sentiment",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRW1QZ2tDckwwOUVrSnRBaXlRdy0xRVpSWkhJdVpISlZtYnNMNXRkU2dUZHlxZTJDVWpCVWVCdFdzM05mdzhSSUMwcV82Tk5LQ3BJbGtpM0RRc1NyakNCUERvbzRSbmpueko1VXV6QnFqbDR2d05ZMXdKVWJSSEllTDZzYWdPdkpwOEc4dFRaOA?oc=5",
+   "date": "2026-11-01 22:13",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "AI 지출 우려 속 Apple, NVIDIA를 제치다",
+    "korean_summary": "AI 인프라 지출 우려로 시장 심리가 변화하면서 Apple의 주가가 NVIDIA를 앞서게 됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRW1QZ2tDckwwOUVrSnRBaXlRdy0xRVpSWkhJdVpISlZtYnNMNXRkU2dUZHlxZTJDVWpCVWVCdFdzM05mdzhSSUMwcV82Tk5LQ3BJbGtpM0RRc1NyakNCUERvbzRSbmpueko1VXV6QnFqbDR2d05ZMXdKVWJSSEllTDZzYWdPdkpwOEc4dFRaOA",
+   "body": ""
+  },
+  {
+   "source": "Google News · www.tokenpost.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump Says He Wants Nvidia’s Jensen Huang to Stay on Science Council",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zNlBtUmlZVGJRcHRJVUZSQm5fVVZ1dE5UX0hEXzlTbzd3VXVYbFdxZjFmdUtJazJ4OXVtNWM2SktsSWF5bXpaZmpDLW14aVF4QmxvVWN3?oc=5",
+   "date": "2026-11-02 07:23",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "트럼프, NVIDIA CEO 젠슨 황의 과학 위원회 참여 지지",
+    "korean_summary": "트럼프 대통령이 NVIDIA의 젠슨 황 CEO가 과학 위원회에 남기기를 원한다고 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zNlBtUmlZVGJRcHRJVUZSQm5fVVZ1dE5UX0hEXzlTbzd3VXVYbFdxZjFmdUtJazJ4OXVtNWM2SktsSWF5bXpaZmpDLW14aVF4QmxvVWN3",
+   "body": ""
+  },
+  {
+   "source": "Google News · FourWeekMBA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple Trailed Nvidia 204 of 209 Days Before a $98B Lead",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcWpFYVBLZEkwZmh6Nk52VkREWWFjR3RCdmdWSWZ6b2Z5ZHpsMDVKVldPU2NIS3FHdzN0aGVQWXhnenNySVBsOVdyakRUZFg4WklaZzM4bHIxUEFrMFBYR2pZZGxiVDF5NWVwNE5RUkVTVDc5SzMwTUxDX2VUNVJkOTVWUm9Fdm1LRHc?oc=5",
+   "date": "2026-11-02 03:33",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 209일 중 204일 동안 Apple 추월 후 98억 달러 뒤처짐",
+    "korean_summary": "NVIDIA가 209일 중 204일간 Apple을 추월했으나 98억 달러로 뒤처졌다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcWpFYVBLZEkwZmh6Nk52VkREWWFjR3RCdmdWSWZ6b2Z5ZHpsMDVKVldPU2NIS3FHdzN0aGVQWXhnenNySVBsOVdyakRUZFg4WklaZzM4bHIxUEFrMFBYR2pZZGxiVDF5NWVwNE5RUkVTVDc5SzMwTUxDX2VUNVJkOTVWUm9Fdm1LRHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketForces Africa",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Tokenised Stock Rises To $204 On Fresh Buying Interest",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMnp4Z1ZDOHpRSV9aTnFnMkdLZ2NaTGt4VFhHSl8tbVFIczY1Z2hvQjRWcmlaX01BbTU1MUlvYWNoZHpyaHVaeEZLRXFqS0JIc1FsWDQxVkItZ1AwUGhpUERIZjFWaUFFdHFsUWhrQ0Y2MVZlbTdqN1VZSkk5aC1qRVNjTURNdC1sOHF1X3Y3S2Y?oc=5",
+   "date": "2026-11-01 21:12",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "신규 매수 관심으로 NVIDIA 토큰화 주식 204달러 상승",
+    "korean_summary": "신규 매수 관심으로 NVIDIA 토큰화 주식이 204달러로 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMnp4Z1ZDOHpRSV9aTnFnMkdLZ2NaTGt4VFhHSl8tbVFIczY1Z2hvQjRWcmlaX01BbTU1MUlvYWNoZHpyaHVaeEZLRXFqS0JIc1FsWDQxVkItZ1AwUGhpUERIZjFWaUFFdHFsUWhrQ0Y2MVZlbTdqN1VZSkk5aC1qRVNjTURNdC1sOHF1X3Y3S2Y",
+   "body": ""
+  },
+  {
+   "source": "Google News · FourWeekMBA",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Google, Nvidia Led $3.17T AI Stock Slide; Only Four Rose",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkRhLUdjRzlWMGNkbGhTNmI0enA1MUFnbEpfWGZGQVFtM204bFpfTlRoSW1ZWWlRT3VFa01uc290UEJFVVpBbTZycVdabll6OWMwR0xTRWxsOFk5SHdYaE91cFBaVnF6Ulh6Nlh5c2ZqWmZUejE0SkdWZjJqdFBLMVVPQ1Z1NU1t?oc=5",
+   "date": "2026-11-02 03:19",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Google, NVIDIA 주도 3.17조 달러 AI 주가 하락, 4개만 상승",
+    "korean_summary": "Google과 NVIDIA가 주도한 3.17조 달러 AI 주가 하락 중 4개만 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTkRhLUdjRzlWMGNkbGhTNmI0enA1MUFnbEpfWGZGQVFtM204bFpfTlRoSW1ZWWlRT3VFa01uc290UEJFVVpBbTZycVdabll6OWMwR0xTRWxsOFk5SHdYaE91cFBaVnF6Ulh6Nlh5c2ZqWmZUejE0SkdWZjJqdFBLMVVPQ1Z1NU1t",
+   "body": ""
+  },
+  {
+   "source": "Google News · Ticker News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump supports Nvidia CEO amid spy allegations",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SazJQUTQwZGdDSTU3bG1vNDlxY3JFeGxJcHhubFBFd3FVc0wxalBTTmFPUlBOdE1rbWo2OUV3VzkzLVNjZVBIRkpqcWJhT2NuOUx5OVBnWEgtdHJrZ2tUTk15NFBBZHZpOV9xTHJvNnZqR0xwNkVSaw?oc=5",
+   "date": "2026-11-01 17:46",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "트럼프, 스파이 혐의 속 NVIDIA CEO 지지",
+    "korean_summary": "트럼프 대통령이 스파이 혐의 속에서 NVIDIA CEO를 지지했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SazJQUTQwZGdDSTU3bG1vNDlxY3JFeGxJcHhubFBFd3FVc0wxalBTTmFPUlBOdE1rbWo2OUV3VzkzLVNjZVBIRkpqcWJhT2NuOUx5OVBnWEgtdHJrZ2tUTk15NFBBZHZpOV9xTHJvNnZqR0xwNkVSaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · A News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump says US looking 'closely' at report Nvidia CEO target of China spy plot",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVNLN0ExME5uNG84SkZNeElIT3paN2VMTDJwanA5bWttNGJybThzeHU2MGtReERUZmJGcHVYN2dfZ0pSNTcxNm1QMFBYZi1Cdk1rSUFSeDBXUGVTQ1NNTXppQU1laUJESi03LXYxYl9uamdLWVBMc1lLNEJ1TnB5VUpMdHJoQlhCZVRxSEJ5Tmg2d3F2S3VqcmdEMXh1MnRqWlNDWlpnN2tPMUZsSlRILWVWNU82ZUVi0gG-AUFVX3lxTE02czFvYUtIYnRWNGJiY1dLZE54MFdXTmJHbWtWbUJfb1paZzlwaGFleVo0YW05bWpuajdtY0ZOTVRkSmcwRlowTFdfSTIyQWlnejZja0t3M0hBbVZpMWl2OHBoS0k2d2pfenM3b2QxbW1mdWFEZmgwel9MVFQ0R0hVRHIydHBFZmlyWW9MMnVzMVlxRWpld0ZKWDFHdHBMTWdHTWFaY3g0Y3ZxcTl5U3dCMmh1cnhRNjJxYnhUS2c?oc=5",
+   "date": "2026-11-01 17:29",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, 엔비디아 CEO 중국 간첩 음모 보도에 관심",
+    "korean_summary": "트럼프 대통령이 엔비디아 CEO를 겨냥한 중국 간첩 음모 보도에 대해 미국이 면밀히 살펴보고 있다고 말했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Bangkok Post",
+     "title": "Trump says US looking 'closely' at report Nvidia CEO target of China spy plot",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNFFMaDhscmpJQlJVYmJOaG0xR09yT3Ryd0w4RUxwNVdoQVNDb2s3OHE2YXdOMWEwTG1NSUhEeWo0QU4zdmdyZzZNQ1VwdDJaUDJEcV9DZ3dXZjR5M2tlck90WG5qV25XcG9yMkpQNFZ4aHVlUHo2UUYzUUQxdUJHcDBzT0FodXBrYm1PcUJTSWxBMG1udHIyQmRzcFNxOFNvQUpvT1hnMTdhMHdTenVPY2ZZVllGS28t?oc=5"
+    },
+    {
+     "source": "Google News · CNA",
+     "title": "Trump says US looking ‘closely’ at report Nvidia CEO is target of China spy plot",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOd0JLUkYtZ0oya2Qxb1lXOVNWcU1BcG0yQ3hfVU42cTNJNWdQY0RPazZNZnBaTUhiSmp0QkhjN05RTWtMa1QwRTZhbzZ1c3AxSXNqc1h4R252WWd4VGtfdHZxek5WSkY3SFVUM2lMUXRCX3lsWHpVMjRJcEdiWllOZ19CaHdPNlFWemhqaGJGemJCSUJsWko0OWhLRm45N0IwN3lBS2ZBTmZEX0MxVXhucXBRdE4?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVNLN0ExME5uNG84SkZNeElIT3paN2VMTDJwanA5bWttNGJybThzeHU2MGtReERUZmJGcHVYN2dfZ0pSNTcxNm1QMFBYZi1Cdk1rSUFSeDBXUGVTQ1NNTXppQU1laUJESi03LXYxYl9uamdLWVBMc1lLNEJ1TnB5VUpMdHJoQlhCZVRxSEJ5Tmg2d3F2S3VqcmdEMXh1MnRqWlNDWlpnN2tPMUZsSlRILWVWNU82ZUVi0gG-AUFVX3lxTE02czFvYUtIYnRWNGJiY1dLZE54MFdXTmJHbWtWbUJfb1paZzlwaGFleVo0YW05bWpuajdtY0ZOTVRkSmcwRlowTFdfSTIyQWlnejZja0t3M0hBbVZpMWl2OHBoS0k2d2pfenM3b2QxbW1mdWFEZmgwel9MVFQ0R0hVRHIydHBFZmlyWW9MMnVzMVlxRWpld0ZKWDFHdHBMTWdHTWFaY3g0Y3ZxcTl5U3dCMmh1cnhRNjJxYnhUS2c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Japan Today",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's web of AI bets: Smart strategy or bubble risk?",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXVUb08tTmh3UlpvbklYa1lUYmRqVjNKcWppODZXR2JzTGxZRWNiUXhQZE9Qand0am56RUc2MUl3MFpkbUhEYVdWMjF2V2hodXJOSWdzcllQbnpleFpIMldmekp6endPc3JKTkszVEsydDFzaVBDUFNGeFk4RHZVREdXV181S0lnMEI0Zk5ZcUVkb3RV?oc=5",
+   "date": "2026-11-01 05:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아의 광범위한 AI 투자, 현명한가 위험한가",
+    "korean_summary": "분석 기사에서 엔비디아의 다양한 AI 분야 투자가 현명한 전략인지 거품 위험을 안고 있는지 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXVUb08tTmh3UlpvbklYa1lUYmRqVjNKcWppODZXR2JzTGxZRWNiUXhQZE9Qand0am56RUc2MUl3MFpkbUhEYVdWMjF2V2hodXJOSWdzcllQbnpleFpIMldmekp6endPc3JKTkszVEsydDFzaVBDUFNGeFk4RHZVREdXV181S0lnMEI0Zk5ZcUVkb3RV",
+   "body": ""
+  },
+  {
+   "source": "Google News · Open Magazine",
+   "category": "media",
+   "kind": "gnews",
+   "title": "QUICK TAKE | Nvidia’s China Spy Row: Seven Things to Know About Jensen Huang’s Tightrope",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVVuQXNOTnBveXA0VEwtZUF5WWdLNThmX3RqaHBTZDViZ2R2VUNNRks5WG5NS3hobUdYV2tJQW5lZW9ZS1R1TUJ6cUVXUmVaREtQalk2SDFaY3pkTlA0bTBCNTQ3QkYzb2c5U3dvY2xWRWFSN09GRFQtMm5qYjNuVkNsUzliZHdJbHU4RXFoWl90X0oxbGFSQ05NSWFDOWZkc0Vaa2hzSzJGb3FaX0xQUkJoa3p2c0JtMnNudg?oc=5",
+   "date": "2026-11-01 11:41",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 중국 스파이 파동: 7가지 핵심 사항",
+    "korean_summary": "분석가들이 NVIDIA의 미중 외교 긴장 상황을 7가지 주요 요점으로 정리했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVVVuQXNOTnBveXA0VEwtZUF5WWdLNThmX3RqaHBTZDViZ2R2VUNNRks5WG5NS3hobUdYV2tJQW5lZW9ZS1R1TUJ6cUVXUmVaREtQalk2SDFaY3pkTlA0bTBCNTQ3QkYzb2c5U3dvY2xWRWFSN09GRFQtMm5qYjNuVkNsUzliZHdJbHU4RXFoWl90X0oxbGFSQ05NSWFDOWZkc0Vaa2hzSzJGb3FaX0xQUkJoa3p2c0JtMnNudg",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
+   "link": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+   "date": "2026-11-01 23:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "RTX GPU AI 제한 해제 오픈소스 도구",
+    "korean_summary": "RTX 20/30/40 시리즈의 AI limiter를 우회하는 비공식 오픈소스 UEFI 도구가 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/open-source-usb-tool-unlocks-nvidias-half-speed-gpu-ai-limiter-on-windows-lifts-gpus-fp16-math-performance-up-to-65-percent-uefi-unlocker-covers-rtx-20-30-and-40-series-desktops-and-laptops",
+   "body": "A new open-source UEFI tool boots from USB and unlocks significant extra tensor performance on RTX 20, 30, and 40-series desktop and laptop GPUs, making the half-speed AI throttle hack a whole lot easier to try on Windows. No VBIOS flash or patched driver needed: the tool runs from a FAT32 stick before the Nvidia driver loads at every boot, and then voila, the developer’s own laptop RTX 4060 hit 65% higher FP16 math. The “UEFI pre-driver NVIDIA GPU unlocker,” or nv-uefi-unlocker project, removes Nvidia’s tensor limiter using the community V67 payload with read-back verification. This tricks Nvidia’s signed Booter firmware into opening the write lock on two speed-selector registers, allowing the tensor units to run at full rate. The unlock can now run entirely from a bootable USB drive, on Windows as well as Linux, whereas previously it worked primarily through manually installed Linux modules, with Windows support only experimental. The read-back verification part makes things safer, which was a concern with the experimental builds. (Image credit: steppergg/GitHub ) The release ships only scripts and self-built binaries, without any Nvidia firmware in the download. Instead, one of the scripts grabs Nvidia’s public 610.43.03 driver packages, verifies them, then rebuilds the firmware files locally. The project credits Zagitta’s gpu-unlock as its porting source and builds on several other community projects, including the RTX 40 fork gpu-unlock-ada and an earlier Windows EFI tool. Having one tool for the many GeForce owners on Windows should significantly open up the hack to a wider audience. Previously, it was scarier-looking, and project progression is rapid these days with AI tools . The steps right now involve downloading the release, running that script, and then copying the rebuilt files and a BOOTX64.EFI for booting to a FAT32-formatted USB stick. The unlocker can then be run from a one-time boot menu by using the spacebar within 30 seconds for confirmation. Once complete, things are handed off to the respective OS loader. The unlocker runs in a firmware stage before the OS loads Nvidia’s GPU driver, which means there’s no need to flash the card’s video BIOS or to modify the driver; as the FAQ puts it, the unlock doesn’t “persist through power loss.” The trade-off is running it again on every boot. The system must be booted in UEFI mode with Secure Boot either off or set to trust a self-signed EFI. For a game’s anti-cheat that requires Secure Boot, the tool “CANNOT bypass this requirement,” a developer team member relayed on Reddit. RTX 20 owners have to run a bundled script once to switch the Windows Nvidia driver into GSP firmware mode, before restarting. Laptop GPUs were already supported by earlier projects, but here one of the developer’s own test cards is a laptop GPU, and laptop results are logged card by card. For laptops, the discrete Nvidia GPU must be powered at entry, which means dGPU-only, or MUX, mode is recommended. On Linux di"
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows — lifts GPU's FP16 math performance up to 65%, UEFI unlocker covers RTX 20, 30, and 40-series desktops and laptops",
+   "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPVUtXVThBWVBJbnBvZk1QVUZvQ0l3aEVQd1FETFlLdGZocmtJaGp5VmI5N0JnLTlUSWV3cTdoR1FYLXpzcjN1TjBzR0JEU0RubUpUbUlPd21YaHpldFI0dTJxTXM2ak9SRnV0ZVI5UWxFSVhCQUFzcnd5TTYzNlB1amRFdERkYmpFQmQxMlBndFVoV0JIZmRkbnhCUHJPb2l0djNyQ3BOejR6d3ZEYWtURW1ua0c3YzN0N3BTUEJNRzQwTndnVFNjdTRQcWQySXc4SVc1UEFWY0ZxdzJjTV9sTXdKeWluRlBFc0Vydnpldzk4OUh3dVpzTFRnQmdjTE01MWtYRmZLNFc5aVVuQkNudWZjdFNUclBJS3BULWNUVGZMQ2dfYVhKNHpSYUhUN3BJWThlQWIyZmFfUGhtUzRtMHkxbjVvbFRib1paN25JdTZ1amtvdDlYLQ?oc=5",
+   "date": "2026-11-01 23:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "오픈소스 USB 도구로 NVIDIA GPU AI 제한 우회",
+    "korean_summary": "개발자들이 RTX 20/30/40 시리즈의 FP16 성능 제한을 해제하는 비공식 도구를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPVUtXVThBWVBJbnBvZk1QVUZvQ0l3aEVQd1FETFlLdGZocmtJaGp5VmI5N0JnLTlUSWV3cTdoR1FYLXpzcjN1TjBzR0JEU0RubUpUbUlPd21YaHpldFI0dTJxTXM2ak9SRnV0ZVI5UWxFSVhCQUFzcnd5TTYzNlB1amRFdERkYmpFQmQxMlBndFVoV0JIZmRkbnhCUHJPb2l0djNyQ3BOejR6d3ZEYWtURW1ua0c3YzN0N3BTUEJNRzQwTndnVFNjdTRQcWQySXc4SVc1UEFWY0ZxdzJjTV9sTXdKeWluRlBFc0Vydnpldzk4OUh3dVpzTFRnQmdjTE01MWtYRmZLNFc5aVVuQkNudWZjdFNUclBJS3BULWNUVGZMQ2dfYVhKNHpSYUhUN3BJWThlQWIyZmFfUGhtUzRtMHkxbjVvbFRib1paN25JdTZ1amtvdDlYLQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "History Says Now Is the Perfect Time to Buy Nvidia Stock",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWMyN3BWNjUydjN3Z0tDM2ZTQVhqOHhKLUp4eE1PRlJEWE9zaFRzQ1hNbUdodV84UWoyaGo1LXRMcmltNV9jYkFIMnVCVFlxMDVUdzBBNW1yaWpjcDFWTWdna3lmTk5FZmU0SE1SLThOLW1ZWlgyeUZtV0VQb0RvM2lSaHByeXhWMlVRcTRUbmR6dWFkbzZBYg?oc=5",
+   "date": "2026-11-02 01:15",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "역사로 본 NVIDIA 주식 매수 적기",
+    "korean_summary": "과거 데이터에 따르면 현재가 NVIDIA 주식 매수의 적절한 시점이라는 투자 분석"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · AOL.com",
+     "title": "History Says Now Is the Perfect Time to Buy Nvidia Stock",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1RG5yVEhuYTVHcmYyY1hkVU03WHVsSHZiejh1SV8zdWRqU1NRVHd4MkZ2U0Q4dzItdFNMU19ieDNVQ0YtdjlHR3ZJUjJod3lVY2ZTSU85SWNnYno5d2ZFRnFHZWNrVzAzUlpUOWZ0enJIcmNjM2hMWC1tVl9MZw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWWMyN3BWNjUydjN3Z0tDM2ZTQVhqOHhKLUp4eE1PRlJEWE9zaFRzQ1hNbUdodV84UWoyaGo1LXRMcmltNV9jYkFIMnVCVFlxMDVUdzBBNW1yaWpjcDFWTWdna3lmTk5FZmU0SE1SLThOLW1ZWlgyeUZtV0VQb0RvM2lSaHByeXhWMlVRcTRUbmR6dWFkbzZBYg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Beyond Nvidia And Hyperscalers: Beth Kindig Sees A $1 Trillion AI Infrastructure Opportunity For These Stocks",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEkzbjcwUmE0dXJwX0VKbnhIV3dFdnhwYy1zQWlCVkh6dktWQkVfc3dta3JXX3NWb1RtX3hYQTJ4bUJCNmthNnNMaW5RTTJ0TGppQWhiSTZYZkQwdEhUNS1QNmZIa3lETHg2eUUzRUtJaWxwUjgybFJidF9GZThpbnZIOF9IOHJTWVFEMnBQVHFVYjdnU05IYW0xRlV5ZmRBM2J3MA?oc=5",
+   "date": "2026-11-01 21:52",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "하이퍼스케일러 넘어: $1조 AI 인프라 투자 기회",
+    "korean_summary": "Beth Kindig이 NVIDIA와 하이퍼스케일러 외 기업들에서 $1조 규모의 AI 인프라 투자 기회를 제시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSEkzbjcwUmE0dXJwX0VKbnhIV3dFdnhwYy1zQWlCVkh6dktWQkVfc3dta3JXX3NWb1RtX3hYQTJ4bUJCNmthNnNMaW5RTTJ0TGppQWhiSTZYZkQwdEhUNS1QNmZIa3lETHg2eUUzRUtJaWxwUjgybFJidF9GZThpbnZIOF9IOHJTWVFEMnBQVHFVYjdnU05IYW0xRlV5ZmRBM2J3MA",
+   "body": ""
+  },
+  {
+   "source": "Google News · GameGPU",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A shortage of NVIDIA and AMD graphics cards has led to a price increase of up to 45% in a month.",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQREhFQ2lPajA2VjZOUzFMYVI5aHpJMEp1QmYtZG5xVWtpY05CYnVTUWhZOEM4bUNjSUxQRDZqcE1ZM3FQU2xsNmtTSkVmQlpySW5mZGF1YldoT2d0SVlCc3N6ZVM0Y1NZYzFtbWluZFU5YkpGc01leTlSdEJ4VTdDcC1uQ3J5MldkbG1HU0RlMngzRjhzMDZJdGlpNFp0YV94N3FKVDZIRDNLUXl0ZHFOd19IdkFFZw?oc=5",
+   "date": "2026-11-02 02:50",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA 그래픽 카드 공급 부족으로 한 달 45% 가격 인상",
+    "korean_summary": "NVIDIA와 AMD 그래픽 카드 공급 부족으로 한 달간 최대 45% 가격 인상."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQREhFQ2lPajA2VjZOUzFMYVI5aHpJMEp1QmYtZG5xVWtpY05CYnVTUWhZOEM4bUNjSUxQRDZqcE1ZM3FQU2xsNmtTSkVmQlpySW5mZGF1YldoT2d0SVlCc3N6ZVM0Y1NZYzFtbWluZFU5YkpGc01leTlSdEJ4VTdDcC1uQ3J5MldkbG1HU0RlMngzRjhzMDZJdGlpNFp0YV94N3FKVDZIRDNLUXl0ZHFOd19IdkFFZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · bloomingbit",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Nike Join Opposition to OKX, ICE Stock Tokenization Plan, Bringing Objecting Firms to 50",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ELUo5TURiOW16UzE5UEVkaVpSc01TTDd2aF9mcXlHV05pV2RwU1JZUllva181c2ItQXdneU1qTFc3SE5vLWJyOEM5bUpVZmg2THB2OQ?oc=5",
+   "date": "2026-11-02 07:47",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, Nike, OKX·ICE 주식 토큰화 계획 반대 참여로 반대 기업 50곳 도달",
+    "korean_summary": "NVIDIA와 Nike가 OKX·ICE 주식 토큰화 계획에 반대하며 반대 기업이 50곳에 도달했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ELUo5TURiOW16UzE5UEVkaVpSc01TTDd2aF9mcXlHV05pV2RwU1JZUllva181c2ItQXdneU1qTFc3SE5vLWJyOEM5bUpVZmg2THB2OQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Crypto News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "OKXICE faces 50 issuer objections as Nvidia and Nike join opposition",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtbnBVU0gyRE10aXhTeFExbTJmWE9JbXdpQ0FBZU9QaVdEQzBvSnBrLUMzbWllc2g2dFVjSHd5WHUzaVBrU2FPTXhuVE5VZjh1LVhDdTVVRkQ3bEd6YkFmTVVNOG55R0gtOERub0lpTXRsZw?oc=5",
+   "date": "2026-11-01 23:36",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "OKX·ICE, NVIDIA 및 Nike를 포함한 50개 기업의 반대에 직면",
+    "korean_summary": "OKX·ICE는 NVIDIA 및 Nike를 포함한 50개 회사의 주식 토큰화 계획 반대에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtbnBVU0gyRE10aXhTeFExbTJmWE9JbXdpQ0FBZU9QaVdEQzBvSnBrLUMzbWllc2g2dFVjSHd5WHUzaVBrU2FPTXhuVE5VZjh1LVhDdTVVRkQ3bEd6YkFmTVVNOG55R0gtOERub0lpTXRsZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Startup Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Obscure neocloud lenders, not Nvidia, are where the AI bubble could burst first",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkVSYTZKODBMUGwyQnl0Nk9RaE1zYXYwQy00OVhDanNlU1laWm9BdU41YlZJeFRwX0VSX2xNc0RlOG8zbkJ2dkpRWi1pRzI1c2ZYV2I0T0piWkFVTVBxYUVLNmszRHp1eFh1MHRQQ2loeGVldll0TnM3WmIwbG4xejlVMEhqWVNUSVRfQVN3UHpyVGJ0QkdsUmItcXdxYUtTTVhPVEROeV8?oc=5",
+   "date": "2026-11-01 20:34",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "AI 거품, 신생 클라우드 대출사가 진짜 위험",
+    "korean_summary": "분석 보도에서 엔비디아가 아닌 신생 클라우드 대출 업체들이 AI 거품 붕괴의 주 위험 요인이라고 지적했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkVSYTZKODBMUGwyQnl0Nk9RaE1zYXYwQy00OVhDanNlU1laWm9BdU41YlZJeFRwX0VSX2xNc0RlOG8zbkJ2dkpRWi1pRzI1c2ZYV2I0T0piWkFVTVBxYUVLNmszRHp1eFh1MHRQQ2loeGVldll0TnM3WmIwbG4xejlVMEhqWVNUSVRfQVN3UHpyVGJ0QkdsUmItcXdxYUtTTVhPVEROeV8",
+   "body": ""
+  },
+  {
+   "source": "Google News · Hindustan Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "'He's a great, brilliant person': Trump backs Nvidia CEO after report says he was target of Chinese spy plot | World News",
+   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOR1E2aVJ0b09HWjJyTXBCcmhqeDRseFJWb1dSeHRyWGlhbTVBTGVOU0ZINXZfaUxqMm91Q1NJazFmWTZQYzdZVDE4VjIwS0M2UXpvV0huN2pUNVZYS25wNWgxUlRwb2hNSzROVjVZTkVwa3U0QUlXZ09jVTNNWFE3MnZZNm05TFZRbWlWa0NsT2NNbGtMWElDNXhBMXR0QzJHMlR6TkFlRTBaTlF2bldrYVdxclQyYjBQcG5rZ3AwcUxuOEpXMnBjaHF1YXJScE5XZ3VVSjNxLUctSlkzZTF0S1RETlVsREZUVXlncUdkemk5VE5KYUxMa1BB0gH_AUFVX3lxTE5kWnRGck5fZ1k2U0FoLWVJd3MwTmpNSEVXNDFsWDFVZ2tFRjdZcmlpZkdyUlhBZVdrN3BfRG9uakZfOUlKanptZ0JEUlE5MzhUSjg2X3dhZ0haWDZGdFJkbmVGSnF0T2JlLVB0SWFuWG1nMzBNVnRjVmxSREt6Tk83Z29iWXJEV2l4MHJ4eXhjNGJBdTh1V0NMT1dpb2V0N1ZMUHdMZ0RMQ1hobzh2U2dCbXR6eVlNZnZVUDBEYmFIT3VhRmpqR2h2bDhBX0tzUk9OWG52V21WaDdJcDVHM2RaRENSSlhvZ1JZYWdiNEJkS1k2d2hBYkViVnFRX2hUYw?oc=5",
+   "date": "2026-11-01 19:10",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, 중국 간첩 음모 표적 엔비디아 CEO 지지",
+    "korean_summary": "트럼프가 중국 간첩 음모의 표적이 된 엔비디아 CEO 젠슨 황을 훌륭하고 똑똑한 사람이라며 지지했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOR1E2aVJ0b09HWjJyTXBCcmhqeDRseFJWb1dSeHRyWGlhbTVBTGVOU0ZINXZfaUxqMm91Q1NJazFmWTZQYzdZVDE4VjIwS0M2UXpvV0huN2pUNVZYS25wNWgxUlRwb2hNSzROVjVZTkVwa3U0QUlXZ09jVTNNWFE3MnZZNm05TFZRbWlWa0NsT2NNbGtMWElDNXhBMXR0QzJHMlR6TkFlRTBaTlF2bldrYVdxclQyYjBQcG5rZ3AwcUxuOEpXMnBjaHF1YXJScE5XZ3VVSjNxLUctSlkzZTF0S1RETlVsREZUVXlncUdkemk5VE5KYUxMa1BB0gH_AUFVX3lxTE5kWnRGck5fZ1k2U0FoLWVJd3MwTmpNSEVXNDFsWDFVZ2tFRjdZcmlpZkdyUlhBZVdrN3BfRG9uakZfOUlKanptZ0JEUlE5MzhUSjg2X3dhZ0haWDZGdFJkbmVGSnF0T2JlLVB0SWFuWG1nMzBNVnRjVmxSREt6Tk83Z29iWXJEV2l4MHJ4eXhjNGJBdTh1V0NMT1dpb2V0N1ZMUHdMZ0RMQ1hobzh2U2dCbXR6eVlNZnZVUDBEYmFIT3VhRmpqR2h2bDhBX0tzUk9OWG52V21WaDdJcDVHM2RaRENSSlhvZ1JZYWdiNEJkS1k2d2hBYkViVnFRX2hUYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times of India",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang wants all the world’s ‘great minds’ to be able come to America, wants immigration",
+   "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNQzIwZTRxM3I4V0tRV3h1el9nV3ZQck84MW5BbDY0QjJZaE1aODhjcV8yMXRFbFpzaUhld3RYT25Iei1ZTDNpcWNVYzJnN19ZNDdRNnJYWjJlZXVUMm1VQlc2VjZoa1Z1R3ZXdzFSTGc2QVJkZFVMVkJtbW5OS2o3MXY3RzUxclNCMU5EekJIZDlzcF9PRllVd0FNZlgzSXhtOVp0eGZFSEFGY2RDZ0UyTlFFaDZ6OFRBTjdqNlE2RXlfYVZpU2k5OXhieFB4M1AtOE84Vk9jRm80SFBrOTEwUllXTVhTdi0wZFdPLVhvdk0zemM5clJXZjlxQ2d2MjR0SEU1TEF6WWlBQktudHZtdEpWTzNrN0J3U0EyQ0V0SlM3cGhZYWI5bXgyZVV5TWkzQ0tnbHFR0gG7AkFVX3lxTE1XaC11OFhhRFMwdVE4RDhWdWgxOXk1TTJabmFWSkRSdUhnX0FfbnhWSzAzenlZTmx3TklpUXRTMnRWQThkNzBydnNzdnVUMlBrWUJPYnN4M21ocVB6NXRCNnFXWFpUZUgzUnRacWxQYXRWSFBQNUVkOTJWUERsZlpQRnFab3ZXeEdTdFRHS1hWdi1TZjRWRGNRNERaN1lJdldDVGZxU3RlTDlQUGtIbko0QWtSSUJFUkx6M3cxeWRTRHgtN2NXemdWd1Jlc01jTlNKRGwyRkNmZjFuQU8zWHk4bl9meHhfcVBOLUdjWHB1aVhScjVZSm1IQ3YxU3lRVVNULU90dVBiWGJNU2d4REFoQTdHclZ5aThVQjc4M0x0Q29jSkdxcW92bkhaY0tZNDJ1ZmIxRnBJaUU2aw?oc=5",
+   "date": "2026-11-01 15:36",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "엔비디아 CEO, 미국 이민 정책 강화 촉구",
+    "korean_summary": "젠슨 황 엔비디아 CEO가 세계의 위대한 인재들이 미국으로 입국할 수 있도록 이민 정책 개선을 촉구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNQzIwZTRxM3I4V0tRV3h1el9nV3ZQck84MW5BbDY0QjJZaE1aODhjcV8yMXRFbFpzaUhld3RYT25Iei1ZTDNpcWNVYzJnN19ZNDdRNnJYWjJlZXVUMm1VQlc2VjZoa1Z1R3ZXdzFSTGc2QVJkZFVMVkJtbW5OS2o3MXY3RzUxclNCMU5EekJIZDlzcF9PRllVd0FNZlgzSXhtOVp0eGZFSEFGY2RDZ0UyTlFFaDZ6OFRBTjdqNlE2RXlfYVZpU2k5OXhieFB4M1AtOE84Vk9jRm80SFBrOTEwUllXTVhTdi0wZFdPLVhvdk0zemM5clJXZjlxQ2d2MjR0SEU1TEF6WWlBQktudHZtdEpWTzNrN0J3U0EyQ0V0SlM3cGhZYWI5bXgyZVV5TWkzQ0tnbHFR0gG7AkFVX3lxTE1XaC11OFhhRFMwdVE4RDhWdWgxOXk1TTJabmFWSkRSdUhnX0FfbnhWSzAzenlZTmx3TklpUXRTMnRWQThkNzBydnNzdnVUMlBrWUJPYnN4M21ocVB6NXRCNnFXWFpUZUgzUnRacWxQYXRWSFBQNUVkOTJWUERsZlpQRnFab3ZXeEdTdFRHS1hWdi1TZjRWRGNRNERaN1lJdldDVGZxU3RlTDlQUGtIbko0QWtSSUJFUkx6M3cxeWRTRHgtN2NXemdWd1Jlc01jTlNKRGwyRkNmZjFuQU8zWHk4bl9meHhfcVBOLUdjWHB1aVhScjVZSm1IQ3YxU3lRVVNULU90dVBiWGJNU2d4REFoQTdHclZ5aThVQjc4M0x0Q29jSkdxcW92bkhaY0tZNDJ1ZmIxRnBJaUU2aw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times of India",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Apple reclaims world's most valuable company title as Nvidia slips amid AI investment concerns",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPai02aDk3MjYwcDZ5d0p6QXhISWV3aGhnUE5jV1RSMjNrSE1QNjBNR1VzNFVNa05pM29aU2N6aFV1SzBwWFJ2SGlRekZtaDFBV1U0Z2RSdGNWemozTGVBTUlDUm9tTklxbjJjQTNvMDA1UnA2MnI3YmJsTjVwa3d4TXBNVGdTa2xCb0FOTDZaWlNzR2hoakZMaW9mSHhSZVFCcWlJUUxYTVBISF91S1J3eFJ2MDBQZFVhS0dZWlBRZ3NxVzhPZ1BNNkRzYzUtdThjWENTc0JHamJvakpySWdVYzA1Z0NKMXBkRmZvbWNNTXlfUzc3emdzV1NjUE9pcWYyM3RUb05BWUFWVlpSWGxfc09DNk9YQdIBmwJBVV95cUxNaUFTRW5sMU1Pa2VGOHZTTWVPUFY0Q0piMm94c2s3NUtuR0t5cDRWeDQtZlVhUVJyR0p6S2ZYVjloTDRfS0Z3bmd6ejNJTW9MY01DRkNoMjhCNkM1TlFKLWUxVEl0ektzWXljRk5NRFRDeUJLX1FrYnpoOXJadDgxbU9DYW1FVEVlTUFaS3dGT0pMV2VlMl9kcGFKUnlqYVlmb1VQLXd5UTAzQlRCUmE5ajlRelQwSm9Bd044UENxTV91akVxZWRCd3R5OHRwcmIxV3o5VDdqU1BkT01CV0pHdXJscS1ZUS1BYlZrZmM0Tm5WVnFGRldxZl9iMGZuRzZXdnhtaS1UYVBpTUd5OE91YzR3VHczOC1mQzVZ?oc=5",
+   "date": "2026-11-01 12:31",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "애플 시총 1위 탈환, AI 우려에 엔비디아 주가 하락",
+    "korean_summary": "애플이 세계 최고 시가총액 기업 지위를 되찾으면서 AI 투자 우려 속에 엔비디아 주가가 약세를 보였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPai02aDk3MjYwcDZ5d0p6QXhISWV3aGhnUE5jV1RSMjNrSE1QNjBNR1VzNFVNa05pM29aU2N6aFV1SzBwWFJ2SGlRekZtaDFBV1U0Z2RSdGNWemozTGVBTUlDUm9tTklxbjJjQTNvMDA1UnA2MnI3YmJsTjVwa3d4TXBNVGdTa2xCb0FOTDZaWlNzR2hoakZMaW9mSHhSZVFCcWlJUUxYTVBISF91S1J3eFJ2MDBQZFVhS0dZWlBRZ3NxVzhPZ1BNNkRzYzUtdThjWENTc0JHamJvakpySWdVYzA1Z0NKMXBkRmZvbWNNTXlfUzc3emdzV1NjUE9pcWYyM3RUb05BWUFWVlpSWGxfc09DNk9YQdIBmwJBVV95cUxNaUFTRW5sMU1Pa2VGOHZTTWVPUFY0Q0piMm94c2s3NUtuR0t5cDRWeDQtZlVhUVJyR0p6S2ZYVjloTDRfS0Z3bmd6ejNJTW9MY01DRkNoMjhCNkM1TlFKLWUxVEl0ektzWXljRk5NRFRDeUJLX1FrYnpoOXJadDgxbU9DYW1FVEVlTUFaS3dGT0pMV2VlMl9kcGFKUnlqYVlmb1VQLXd5UTAzQlRCUmE5ajlRelQwSm9Bd044UENxTV91akVxZWRCd3R5OHRwcmIxV3o5VDdqU1BkT01CV0pHdXJscS1ZUS1BYlZrZmM0Tm5WVnFGRldxZl9iMGZuRzZXdnhtaS1UYVBpTUd5OE91YzR3VHczOC1mQzVZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Who Deserves Credit for Nvidia's Beitou-Shilin Headquarters? Subsidy Timeline Sparks Debate as Chiang Wan-an's Record of Blocking Forward-Looking Infrastructure Is Resurrected",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zU3g2RTlBUE83N3R2cGpxa0JvVGVaRjRma1FvYnRHSWVfajlmaTNoYl9NOThYQXFDWThZenpra3k4RktCRDI4cnI3TjVSVkJHTWxabTh0cUlVNTIyRTJvQ21qNllGQ3FFNWpxTThZc2Z4YkpqSWc?oc=5",
+   "date": "2026-11-01 23:35",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 대만 본부 보조금 지원 정치 논쟁",
+    "korean_summary": "대만 정치인들이 NVIDIA 본부 지원 정책을 둘러싸고 보조금 신용 논쟁을 벌이고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zU3g2RTlBUE83N3R2cGpxa0JvVGVaRjRma1FvYnRHSWVfajlmaTNoYl9NOThYQXFDWThZenpra3k4RktCRDI4cnI3TjVSVkJHTWxabTh0cUlVNTIyRTJvQ21qNllGQ3FFNWpxTThZc2Z4YkpqSWc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Simply Wall St",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Selloff Puts AI Hardware Leaders Back On Watch",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM?oc=5",
+   "date": "2026-11-01 21:54",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 급락, AI 하드웨어 리더 주시 대상",
+    "korean_summary": "AI 하드웨어 선도사인 NVIDIA의 주가 급락이 업계의 주목을 받고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEVwQ1dwOWppeU1LN1dvWjhEOTh2blhZWjVVeE9OM0F4M1d1ZmhzRks1OTBXMkdHc1l5Y2dNclh2c1JLemE4NF9SbDdySXVKa0Ywc3NiaW9DUjdCMTc4a0pOenFkTGxnWDczMTN3UU1Nd0toSVE5VkV6bGczd21ZSHVDa3BoQjJ4UzRUb0tkY0s2VVJ2Qm9ZUzBpa29vSjhfVFJSSy1NUmJZc1A5dWNScUg5RHoxSHk2VzliR2xvZVU2eE16MzdFM2hOMzZSZV9qOUdtUFVzTdIB3AFBVV95cUxPOTd5Yjk2Vl9oWnAwZEJfck50QnV4N1h0cHY2MzlKSnBadWNXZmJBTDdBN0s4TmRDUWRuWHFhY0FwR2FjRFdKVkxOWmc4cEJ1eDRnUTdqN2YyaktmNDR2WnhxLXFHeDZvUFh5VXFMZXdXN1RaZUFJZl83MHpuaDhPY0pRMzRJaTNvTHp5QnVuWlk2WTBGbnAydXpIQm5wbjlyMnhFZ1JPd3R3MEs3eTVOeUVERlVUeURXdHV5NFQ0aFJnRGY0ZTk3NzU2MENUeUg0dUdpTm9qTkppRUlM",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Show HN: Nvidia RE-USE speech enhancement model running in the browser on WebGPU",
+   "link": "https://re-use-demo.geronimo-labs.com",
+   "date": "2026-11-01 06:38",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "NVIDIA RE-USE 음성 모델이 WebGPU로 브라우저에서 실행",
+    "korean_summary": "개발자가 NVIDIA RE-USE 음성 개선 모델을 웹 브라우저에서 WebGPU 기술로 실행했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://re-use-demo.geronimo-labs.com/",
+   "body": "Article URL: https://re-use-demo.geronimo-labs.com Comments URL: https://news.ycombinator.com/item?id=50320492 Points: 2 # Comments: 0"
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 21,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 30.1
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 7,
+   "enriched": 7,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 74,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 5,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 25.2
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 16,
+   "error": "",
+   "sec": 5.3
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "403 Client Error: Forbidden for url: https://www.hankyung.com/feed/it",
+   "sec": 0.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
