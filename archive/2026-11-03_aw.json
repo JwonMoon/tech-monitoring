@@ -1,0 +1,716 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-03",
+ "window": [
+  "2026-11-02",
+  "2026-11-03"
+ ],
+ "generated": "2026-11-03T12:06:54+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Autoware Foundation이 규칙 기반과 End-to-End AI 모델을 함께 지원하는 **Autoware 2.0**을 출시해 개발 유연성을 높였다",
+  "TIER IV가 Autoware Foundation 및 글로벌 커뮤니티와 협력해 **AI 중심 아키텍처**로 전환한 Autoware 2.0의 개발과 상용화를 주도한다",
+  "TIER IV가 **호주** 정부 기관에 자율주행 버스를 공급하며 시장에 진출하고 뉴질랜드로 확대를 추진한다"
+ ],
+ "cards": [
+  {
+   "source": "Autoware Foundation",
+   "category": "official",
+   "kind": "feed",
+   "title": "Autoware Foundation releases Autoware 2.0 to Expand AI Support for Open-Source Autonomous Driving",
+   "link": "https://autoware.org/autoware-foundation-releases-autoware-2-0-to-expand-ai-support-for-open-source-autonomous-driving/",
+   "date": "2026-11-02 15:52",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Architecture-Core",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "architecture",
+     "perception"
+    ],
+    "korean_title": "Autoware 2.0 출시, End-to-End AI 지원과 새로운 계획 아키텍처 추가",
+    "korean_summary": "Autoware Foundation이 End-to-End AI 모델, 새로운 계획 아키텍처, 패키지 발견 도구를 지원하는 Autoware 2.0을 출시했습니다."
+   },
+   "summary_data": {
+    "korean_title": "Autoware Foundation, AI 지원 확대한 Autoware 2.0 발표",
+    "korean_summary": "Autoware Foundation이 규칙 기반과 End-to-End AI 모델을 함께 지원하는 Autoware 2.0을 출시해 오픈소스 자율주행 개발자들에게 더 유연한 시스템 구성 방법을 제공했다.",
+    "action": {
+     "actor": "Autoware Foundation",
+     "action": "Autoware 2.0 정식 릴리스 - E2E AI/하이브리드 드라이빙 스택 지원, Autoware Index 및 Reference Design 프레임워크 도입",
+     "stage": "Available",
+     "timeline": "2026-11-02",
+     "scope": "Autoware Core/Universe 생태계 전반, 오픈소스 커뮤니티 및 개발자 대상 (지역·고객 범위 미확인)"
+    },
+    "key_facts": [
+     "2026년 11월 2일 Autoware 2.0 출시, **generator–selector 아키텍처**로 규칙 기반·AI·하이브리드 모듈을 단일 시스템에서 선택적으로 운용 가능",
+     "AWF Hugging Face 조직이 Autoware Foundation 모델·데이터셋의 기본 저장소가 되며 버전 관리 지원 (기존 단일 Ansible 파일 방식 대체)",
+     "**Autoware Index**와 CLI 도구 신설로 호환 패키지 탐색 및 커스텀 워크스페이스 구성 지원, autoware-index.repos 파일 생성",
+     "Universe 패키지 5개가 별도 저장소로 이전, E2E 패키지가 Index에 등록되고 'ai', 'reference-design', 'e2e' 태그로 재구성",
+     "Autoware Reference Design = Deployment Profile(차량·하드웨어·운영조건) + Reference Software Stack 조합으로 시스템 레벨 블루프린트 제공"
+    ],
+    "why_matters": "오픈소스 자율주행 스택이 규칙 기반에서 E2E/하이브리드 AI로 전환되는 흐름에 대응해, Autoware가 특정 접근법에 종속되지 않는 **플랫폼 중립적 평가·조합 환경**을 제공한다는 점이 핵심이다. 이는 커뮤니티 기여 확장(패키지 분산 저장)과 상용화 경로(Reference Design) 양쪽을 동시에 강화해 Autoware의 산업 표준화 위치를 공고히 한다.**”",
+    "subject_angle": "TIER IV가 주도하는 Autoware Foundation이 AI 모델 관리(Hugging Face)와 생태계 확장(Index) 인프라를 직접 설계함으로써, **Autoware를 다양한 AI 접근법의 공통 통합 레이어로 포지셔닝**하는 전략이 드러난다. 이는 TIER IV의 상용 서비스(로보택시 등)에도 E2E 모델 실험·전환 경로를 제공할 기반이 된다.",
+    "focus_angle": "기존 단일 모놀리식 저장소·중앙집중식 Ansible 모델 다운로드 방식에서 **generator–selector 아키텍처와 Hugging Face 기반 분산 모델 관리, Index/CLI 기반 모듈형 워크스페이스**로 전환되는 것이 핵심 변화다. 이는 규칙 기반 스택의 투명성·예측가능성을 유지하면서도 E2E AI 모듈을 점진적으로 도입·비교할 수 있게 해, 산업계의 AI 전환 채택 장벽을 낮추는 효과를 가진다.",
+    "companies": [
+     {
+      "name": "Autoware Foundation",
+      "context": "Autoware 2.0 개발·릴리스 주체"
+     },
+     {
+      "name": "TIER IV",
+      "context": "Autoware Foundation 주요 기여사(본문에 직접 언급되지 않음, 생태계 맥락상 핵심 주체)"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "AWF 조직의 AI 모델·데이터셋 기본 호스팅 플랫폼"
+     },
+     {
+      "name": "AWS",
+      "context": "모델 매니페스트가 가리킬 수 있는 대안 저장소(S3)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware 2.0",
+      "role": "신규 메이저 릴리스, E2E AI 및 하이브리드 스택 지원"
+     },
+     {
+      "name": "Autoware Core/Universe",
+      "role": "기존 2계층 아키텍처, 2.0에서도 유지되는 기반 구조"
+     },
+     {
+      "name": "Autoware Index",
+      "role": "패키지·Reference Design 탐색용 신규 레지스트리 및 CLI"
+     },
+     {
+      "name": "Autoware Reference Design",
+      "role": "Deployment Profile+Software Stack 결합한 시스템 레벨 블루프린트 프레임워크"
+     }
+    ],
+    "watch_next": [
+     "Autoware Index에 등록되는 E2E/AI 패키지 및 Reference Design 수 증가 추이",
+     "TIER IV 등 주요 기여사의 Reference Design 공개 및 상용 적용 사례",
+     "Hugging Face 기반 모델 관리로의 마이그레이션 완료 시점 및 커뮤니티 반응"
+    ]
+   },
+   "related": [],
+   "uid": "https://autoware.org/autoware-foundation-releases-autoware-2-0-to-expand-ai-support-for-open-source-autonomous-driving",
+   "body": "New planning architecture, End-to-End AI models, package discovery tools and Reference Design framework give developers more flexibility to build and evaluate autonomous driving systems. hlight November 2, 2026 — The Autoware Foundation (AWF) today released Autoware 2.0 , adding support for end-to-end (E2E) AI and hybrid driving stacks next to the rule-based modules. The release also introduces new ways for managing AI models and composing complete systems. Autoware has been traditionally structured as a modular pipeline for sensing, perception, localization, planning, and control. Its packages are organized into two layers: Autoware Core, a curated set of stable, well-tested libraries, APIs, and interfaces maintained by the Foundation; Autoware Universe, which extends Core with additional features, experimental algorithms, and community contributions, allowing new capabilities to be shared with users quickly. Autoware 2.0 builds on this architecture rather than replacing it. The release brings rule-based and AI-based technologies into a shared architecture, allowing developers to compare and combine them for different applications. It also introduces Autoware Index , a registry for discovering compatible packages, and the Autoware Reference Design framework, which helps developers move from open-source components to a complete autonomous driving system. Why Autoware 2.0? As autonomous driving development advances toward learned and end-to-end (E2E) approaches, developers need ways to evaluate new AI capabilities alongside established robotics software. Autoware 2.0 supports this work while preserving access to the transparency and predictability of rule-based planning. Figure 1. Autoware 2.0: one open-source platform for many vehicle types, supporting AI-based, hybrid and rule-based drivers. Highlights of the Autoware 2.0 Release 1. End-to-End (E2E) support with a selectable planner architecture A new generator–selector architecture allows multiple trajectory generators to run within the same system, with a selector choosing which output to use. Developers can use rule-based modules, AI modules and a hybrid combination of modules to compose a single architecture for their use case. The release includes: Documentation of the new generator–selector architecture Simulator demonstration with rule-based modules and various E2E modules. Figure 2. Generator–selector architecture 2. Per-package AI model management, with Hugging Face as the default home Autoware 2.0 changes how AI models and datasets reach a workspace. Until now, every model download was defined in one central Ansible file. The AWF organization on Hugging Face now becomes the default home for Autoware Foundation models and datasets, with version control. Manifests can also point to the AWF ML server, AWS S3, or third-party servers, so existing artifacts keep working during the migration. Figure 3. AI model management with Hugging Face 3. Autoware Index: discover packages and compose cust"
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、Autoware 2.0の開発を主導",
+   "link": "https://prtimes.jp/main/html/rd/p/000000147.000040119.html",
+   "date": "2026-11-02 17:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Architecture-Core",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "architecture",
+     "partnership"
+    ],
+    "korean_title": "TIER IV, Autoware 2.0 개발 주도, Arm·AWS·Red Hat과 협력 상용화 추진",
+    "korean_summary": "TIER IV가 Autoware 2.0 개발을 주도하며 Arm, AWS, Red Hat 등 글로벌 기업과 협력하여 상용 자동운전 생태계 구축을 전개합니다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 차세대 'Autoware 2.0' 개발 주도 발표",
+    "korean_summary": "TIER IV가 The Autoware Foundation 및 글로벌 오픈소스 커뮤니티와 협력해 AI 중심 아키텍처로 진화한 차세대 자율주행 소프트웨어 'Autoware 2.0'의 개발과 상용화를 주도한다고 발표했다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "Autoware 2.0 개발 및 상용화 주도, Arm·AWS·Red Hat과 협업 확대",
+     "stage": "Announced",
+     "timeline": "발표 시점(2026-11-03 기준 본문 공개), ASSC US 2026 발표는 2026년 11월 3~4일",
+     "scope": "미확인(구체적 차량·지역·고객사 범위 명시 없음, 자동차 산업 전반 대상)"
+    },
+    "key_facts": [
+     "Autoware 2.0은 **룰베이스 방식과의 호환성을 유지하면서 데이터 중심 AI 방식 지원을 확대**한 아키텍처",
+     "주요 특징: AI·룰베이스 혼합 대응 확장형 아키텍처, 모듈 통합용 유연한 인덱스 메커니즘, 재사용 가능한 레퍼런스 디자인 프레임워크",
+     "Arm은 'Arm Total Design for Physical AI'의 대표 사례로 Autoware 2.0용 컴퓨팅 플랫폼 개발 추진",
+     "AWS는 클라우드 네이티브 개발·운영 환경 구축 추진, Red Hat은 'AutoSD'(Red Hat In-Vehicle Operating System 오픈소스 프로젝트)와 시스템 통합 추진",
+     "TIER IV 북미법인 President Christian John이 **2026년 11월 3~4일 ASSC US 2026(미국 산호세)**에서 Arm·AWS·Red Hat과 함께 발표 예정"
+    ],
+    "why_matters": "Autoware는 자율주행 오픈소스 표준으로 자리잡아왔는데, 2.0에서 AI 중심 데이터 기반 방식을 룰베이스와 병행 지원하도록 확장함으로써 **업계 전반의 AI 전환 흐름에 대응**하는 상징적 전환점이 된다. Arm·AWS·Red Hat 등 글로벌 빅테크와의 동시 협업 발표는 단일 기업이 아닌 생태계 차원의 상용화 가속을 시사해 경쟁 플랫폼(예: 독자 폐쇄형 스택) 대비 오픈소스 진영의 결집력을 강화한다.",
+    "subject_angle": "TIER IV는 Autoware Foundation 내에서 단순 참여자가 아닌 **개발 주도 기업으로서의 위치를 재확인**하며, 하드웨어(Arm)·클라우드(AWS)·차량용 OS(Red Hat)를 아우르는 풀스택 파트너십을 통해 오픈소스 기반 상용화 생태계의 허브 역할을 강화하려는 전략을 보여준다.",
+    "focus_angle": "Autoware 2.0은 기존 룰베이스 중심 스택에 **데이터 중심 AI 방식을 아키텍처 차원에서 수용**하도록 확장형 구조·인덱스 메커니즘·레퍼런스 디자인을 추가해, 다양한 AI/룰베이스 조합과 차량·용도별 상용 도입을 용이하게 함으로써 기업들의 Autoware 채택 장벽을 낮추는 방향으로 설계됐다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 2.0 개발·상용화 주도 기업"
+     },
+     {
+      "name": "The Autoware Foundation",
+      "context": "Autoware 2.0 개발을 위한 글로벌 오픈소스 거버넌스 조직, 공동 추진"
+     },
+     {
+      "name": "Arm",
+      "context": "Autoware 2.0용 컴퓨팅 플랫폼 개발, Arm Total Design for Physical AI 대표 사례"
+     },
+     {
+      "name": "AWS",
+      "context": "클라우드 네이티브 개발·운영 환경 구축 협력"
+     },
+     {
+      "name": "Red Hat",
+      "context": "AutoSD(Red Hat In-Vehicle Operating System)와 Autoware 2.0 시스템 통합"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware 2.0",
+      "role": "AI·룰베이스 혼합 지원 차세대 자율주행 오픈소스 소프트웨어"
+     },
+     {
+      "name": "AutoSD",
+      "role": "Red Hat의 차량용 OS 오픈소스 프로젝트, Autoware 2.0과 통합 대상"
+     }
+    ],
+    "watch_next": [
+     "Autoware 2.0의 정식 출시 일정 및 상세 기술 스펙 공개 여부",
+     "ASSC US 2026(2026-11-03~04)에서 공개될 구체적 상용화 로드맵·파트너사 세부 역할",
+     "Arm/AWS/Red Hat과의 협업이 실제 상용 차량·플랫폼에 적용되는 구체 사례 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、Autoware 2.0の開発を主導",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xX0k4dk5aY0lOaUNoNzhiMDJuQTZWa3g5MVRRajltUVR2a2RMREpDSG1GNUZ1VDB6NGlyWVQwNHplNElaOFJZc3MwMnlYS1IzTEs5TmFzZndwMTBsdGU2U09tOGxkYVgzclE?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォー、Autoware 2.0の開発を主導",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeTYyLVAzT1FJcFVfc1FxRFFKUEVzRnhUdHRUWFRHUXFjOWxEYjNKckEtTS1mZmZudVI4bmctRjZyMi0xVmRxMXJXUVlFSGdaMVdhbnljbzcxYkEtSzc4YmNoN0JzeEFrb3FNSDZCZzhQRkZMQUp3MndicjhtNFMwcGt6emJwTjByN0dmVl91TG8yb0o2VHFaZ3BiWDh0TjFfMUxwcWxhVdIBpwFBVV95cUxQeTYyLVAzT1FJcFVfc1FxRFFKUEVzRnhUdHRUWFRHUXFjOWxEYjNKckEtTS1mZmZudVI4bmctRjZyMi0xVmRxMXJXUVlFSGdaMVdhbnljbzcxYkEtSzc4YmNoN0JzeEFrb3FNSDZCZzhQRkZMQUp3MndicjhtNFMwcGt6emJwTjByN0dmVl91TG8yb0o2VHFaZ3BiWDh0TjFfMUxwcWxhVQ?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000147.000040119.html",
+   "body": "ティアフォー、Autoware 2.0の開発を主導 AI時代の自動運転普及に向けたオープンソースエコシステムを構築 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）は、自動運転用オープンソースソフトウェア「Autoware」の次世代バージョンとなる「Autoware 2.0」について、The Autoware Foundation（AWF）およびグローバルなオープンソースコミュニティと連携し、その開発と普及に向けた取り組みを主導していきます。 Autoware 2.0は、従来のルールベース方式との互換性を維持しながら、データ中心のAI方式への対応を拡充する、自動運転向けオープンソースソフトウェアの象徴的な進化です。主な特徴として、AI方式とルールベース方式の多様な組み合わせに対応する拡張性と適応性を備えたアーキテクチャ、モジュール化されたソフトウェアの統合を容易にする柔軟なインデックス機構、そして多様な車両・用途・運行環境への商用導入を支援する再利用可能なリファレンスデザインのフレームワークが挙げられます。 ティアフォーは、Autowareの開発を主導する企業として、これらの取り組みを中心的な立場で推進しています。今後も、グローバルなパートナー企業とともにオープンソースエコシステムを拡大し、Autowareを活用した自動運転システムの商用化を加速していきます。 オープンソースエコシステムを通じた商用化の加速 ティアフォーは、Arm、AWS、Red Hatをはじめとする世界的な企業とのこれまでの協業を基盤として、以下の取り組みを通じてAutoware 2.0の商用化を推進します。 - Arm：Arm Total Design for Physical AIの代表的なユースケースとして、Autoware 2.0向けコンピューティングプラットフォームの開発を推進します。 - AWS：AWSのクラウド技術を活用した既存の取り組みを発展させ、Autoware 2.0の開発・運用を支えるクラウドネイティブ環境の構築を推進します。 - Red Hat：Red Hat In-Vehicle Operating Systemのオープンソース開発プロジェクトである「AutoSD」とAutoware 2.0のシステム統合を推進します。 ティアフォーは、これらの取り組みを通じてAutoware 2.0の開発から商用化までを支えるエコシステムを強化し、自動車産業全体への普及を目指します。 ティアフォー 代表取締役 CEO 加藤真平のコメント Autoware 2.0は、AI時代における自動運転の民主化に向けた重要な一歩です。自動車産業を変革するためには、オープンソースソフトウェアを提供するだけでなく、AI、コンピューティングプラットフォーム、クラウド基盤、車載ソフトウェアを組み合わせ、実際の製品やサービスへとつなげる仕組みが必要です。ティアフォーは、世界中のオープンソースコミュニティやArm、AWS、Red Hatなどのパートナー企業との連携を通じて、Autowareの商用化を加速し、自動車産業に新たな事業機会を生み出していきます。 The Autoware Foundation President Muhammad Zain Khawajaのコメント Autoware 2.0は、先進的な自動運転技術をより多くの企業や開発者が利用できるようにするため、世界中のオープンソースコミュニティが積み重ねてきた取り組みの成果です。ティアフォーはAutowareの発展を主導してきた企業であり、オープンソース開発と産業界との連携に対する継続的な取り組みは、私たちのエコシステムの成長に不可欠です。今後もティアフォーやグローバルコミュニティと協力し、Autoware 2.0の普及を進め、より多くの企業や開発者がオープンな技術基盤の上で自動運転システムを構築できる環境を実現していきます。 ASSC US 2026におけるAutoware 2.0の取り組みの発表 ティアフォーは、2026年11月3日から4日にかけて米国カリフォルニア州サンノゼで開催されるAutomotive Software Strategies US 2026（ASSC US 2026）に、Arm、AWS、Red Hatとともに登壇します。各社の代表者が、車載ソフトウェアの進化やオープンソースを活用した開発・事業化に向けたそれぞれの取り組みについて発表する予定です。 ティアフォーからは、北米法人PresidentのChristian Johnが登壇し、オープンソースコミュニティや世界各国のパートナー企業との連携を通じてAutoware 2.0の商用化を加速する、ティアフォーのビジョンを発表します。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ pr@tier4.jp ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像 - 種類 - 経営情報 - ビジネスカテゴリ - 自動車・カー用品システム・Webサイト・アプリ開発 - ダウンロード - プレスリリース素材 このプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "source": "Google News · LIGARE（リガーレ）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーが豪州進出、政府機関にバス車両提供、NZ含め実装図る",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qcVAybkVpLVo5NnR4cjV5V3dUWUpxODB4RVVqR0dkeTBvNnlyQ3VSckJmMWpxRXpsdG1nQWZEdzBGUktBX2Y1UlQtS3dpMl9YWXFiWnJn?oc=5",
+   "date": "2026-11-02 08:37",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment",
+     "pilot"
+    ],
+    "korean_title": "TIER IV 호주 진출, 정부 기관에 자율주행 버스 공급, 뉴질랜드 확대",
+    "korean_summary": "TIER IV가 호주 시장에 진출하여 정부 기관에 자율주행 버스를 공급하고 뉴질랜드로의 확대를 추진합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5qcVAybkVpLVo5NnR4cjV5V3dUWUpxODB4RVVqR0dkeTBvNnlyQ3VSckJmMWpxRXpsdG1nQWZEdzBGUktBX2Y1UlQtS3dpMl9YWXFiWnJn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Automotive World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Autoware 2.0 adds end-to-end AI to open-source autonomy",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWklORWVFeUNWZnhKOHR0RlRScVBwUU9rOGYyM0NiMmFXNWNYeUVKRDZRNERqTURZRjRpN19FbWNuVDI1VHdIaG0zc09Qd0M5UF81MUstVzFOcXZmRk5ZZmRUUkRhYkV4bTEwbUVuTnFOTFpWQUhqYVYzZk5NbEdpbTZxNDcxeHZ5NU82MU9iRjRxYXYzTjNfbQ?oc=5",
+   "date": "2026-11-02 14:45",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "Autoware 2.0 오픈소스 자율주행에 End-to-End AI 기능 추가",
+    "korean_summary": "Autoware 2.0이 End-to-End AI 기능을 오픈소스 자율주행 플랫폼에 추가합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Automotive World",
+     "title": "Autoware 2.0 adds end-to-end AI to open-source autonomy",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWklORWVFeUNWZnhKOHR0RlRScVBwUU9rOGYyM0NiMmFXNWNYeUVKRDZRNERqTURZRjRpN19FbWNuVDI1VHdIaG0zc09Qd0M5UF81MUstVzFOcXZmRk5ZZmRUUkRhYkV4bTEwbUVuTnFOTFpWQUhqYVYzZk5NbEdpbTZxNDcxeHZ5NU82MU9iRjRxYXYzTjNfbQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWklORWVFeUNWZnhKOHR0RlRScVBwUU9rOGYyM0NiMmFXNWNYeUVKRDZRNERqTURZRjRpN19FbWNuVDI1VHdIaG0zc09Qd0M5UF81MUstVzFOcXZmRk5ZZmRUUkRhYkV4bTEwbUVuTnFOTFpWQUhqYVYzZk5NbEdpbTZxNDcxeHZ5NU82MU9iRjRxYXYzTjNfbQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Leads Autoware 2.0 Ecosystem for AI-Defined Vehicles",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPakxkRXVoZ2ZVTkIzU1p1NGRxRGpvYXl4TjVoTTdtSS1ha19oUW5LZW5lYVZpcnN5eXJKa0w3THdLOGlvenQ3VmlqVG00WTBOSUgxR2ZsUFV3NHN0SXpfeGh1UXNqenZTanZIUnBINzdyOHJzVndWYzdvMUFRa1ludHZNWG1CWGR2MlE?oc=5",
+   "date": "2026-11-02 17:19",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "architecture"
+    ],
+    "korean_title": "TIER IV, AI 정의 차량을 위한 Autoware 2.0 생태계 주도",
+    "korean_summary": "TIER IV가 AI 정의 차량 실현을 위한 Autoware 2.0 생태계를 주도합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Leads Autoware 2.0 Ecosystem for AI-Defined Vehicles",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPakxkRXVoZ2ZVTkIzU1p1NGRxRGpvYXl4TjVoTTdtSS1ha19oUW5LZW5lYVZpcnN5eXJKa0w3THdLOGlvenQ3VmlqVG00WTBOSUgxR2ZsUFV3NHN0SXpfeGh1UXNqenZTanZIUnBINzdyOHJzVndWYzdvMUFRa1ludHZNWG1CWGR2MlE?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Leads Autoware 2.0 Ecosystem for AI-Defined Vehicles",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPakxkRXVoZ2ZVTkIzU1p1NGRxRGpvYXl4TjVoTTdtSS1ha19oUW5LZW5lYVZpcnN5eXJKa0w3THdLOGlvenQ3VmlqVG00WTBOSUgxR2ZsUFV3NHN0SXpfeGh1UXNqenZTanZIUnBINzdyOHJzVndWYzdvMUFRa1ludHZNWG1CWGR2MlE?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV、AI定義型車両に向けたAutoware 2.0エコシステムを主導",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ3FOMVRwWGlCOG1WRHNJTXVYajI0eGpoMEFndmx4REx0bHBybUtpendjVDRqcks0RC02blFKN2JDLW83Um5VYV85M3BLc01VT05Zb3pRV1lTWnZ1NG5HN25nWi1JWGpFSmd5MFk1ZmFtMllpdHpGYzVfek1hNkI3MTBOQ256RmJDdVdLbjBR?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "AI 정의 차량을 위한 Autoware 2.0 생태계 이끄는 TIER IV",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTVlNWUFjZ3U1aDFQcVBsZUltT0s0eFFueGNiNDhSWTZoOXQ3NGVzMlJTVi04QjBPdXdHMC1hMVlDQ3pUY090Z3k2TFVUUk56UjZ4cnpMdXRxdzlBSk5yNElvcjhkdTEybDM1UXpsOUpfdG1GNWoyX0FZWGNaS1JrZUJtbEVXQlpCOTFSLWN3?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPakxkRXVoZ2ZVTkIzU1p1NGRxRGpvYXl4TjVoTTdtSS1ha19oUW5LZW5lYVZpcnN5eXJKa0w3THdLOGlvenQ3VmlqVG00WTBOSUgxR2ZsUFV3NHN0SXpfeGh1UXNqenZTanZIUnBINzdyOHJzVndWYzdvMUFRa1ludHZNWG1CWGR2MlE",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV spearheads Autoware 2.0 initiatives",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1VCSkxHZ1I0VUdheXpjQk9pR0RNSUdtZEJGRWZORXFFZ041TlJZS0N0NUNZOHQtcUZyd3lSMFg5dTBqNTJHbXpZNVJMNVZoMWdGM01wWFBjUnMyM2dtaHBCbzNMdnQ1ejdla001anRwTENXazE1ZHZ0RG1uZXZwdnlndnREcmo0WXN1U0dSLUVfMURlRWFUODF2RHVlRjNiby1kOXhpcFp5Zm_SAasBQVVfeXFMTkNVQkpMR2dSNFVHYXl6Y0JPaUdETUlHbWRCRkVmTkVxRWdONU5SWUtDdDVDWTh0LXFGcnd5UjBYOXUwajUyR216WTVSTDVWaDFnRjNNcFhQY1JzMjNnbWhwQm8zTHZ0NXo3ZWtNNWp0cExDV2sxNWR2dERtbmV2cHZ5Z3Z0RHJqNFlzdVNHUi1FXzFEZUVhVDgxdkR1ZUYzYm8tZDl4aXBaeWZv?oc=5",
+   "date": "2026-11-02 08:39",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "architecture"
+    ],
+    "korean_title": "TIER IV, Autoware 2.0 주도 이니셔티브 추진",
+    "korean_summary": "TIER IV가 Autoware 2.0 주도 이니셔티브를 추진합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV spearheads Autoware 2.0 initiatives",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1VCSkxHZ1I0VUdheXpjQk9pR0RNSUdtZEJGRWZORXFFZ041TlJZS0N0NUNZOHQtcUZyd3lSMFg5dTBqNTJHbXpZNVJMNVZoMWdGM01wWFBjUnMyM2dtaHBCbzNMdnQ1ejdla001anRwTENXazE1ZHZ0RG1uZXZwdnlndnREcmo0WXN1U0dSLUVfMURlRWFUODF2RHVlRjNiby1kOXhpcFp5Zm_SAasBQVVfeXFMTkNVQkpMR2dSNFVHYXl6Y0JPaUdETUlHbWRCRkVmTkVxRWdONU5SWUtDdDVDWTh0LXFGcnd5UjBYOXUwajUyR216WTVSTDVWaDFnRjNNcFhQY1JzMjNnbWhwQm8zTHZ0NXo3ZWtNNWp0cExDV2sxNWR2dERtbmV2cHZ5Z3Z0RHJqNFlzdVNHUi1FXzFEZUVhVDgxdkR1ZUYzYm8tZDl4aXBaeWZv?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV spearheads Autoware 2.0 initiatives",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb1ppbG5mby16M0dxMGFaZl9rclFaeWxOLVl2YUZlZ2dIMmlsODY5Sy0yLUw1V2NvTGhDc3Q0QV9RRGhlZGNSdUZ0REVFZDNFcVEzc0h0Y1FJelVrdURoemhxS3ZxWFNkWGZicEZ6ZF80UndFdDB6TnFtTmxkYjJMN1dpVE9HdVlabHFDc2VCN243NUFCZ2JNWkpIU1JZV3pXMUgyN9IBqwFBVV95cUxOQ1VCSkxHZ1I0VUdheXpjQk9pR0RNSUdtZEJGRWZORXFFZ041TlJZS0N0NUNZOHQtcUZyd3lSMFg5dTBqNTJHbXpZNVJMNVZoMWdGM01wWFBjUnMyM2dtaHBCbzNMdnQ1ejdla001anRwTENXazE1ZHZ0RG1uZXZwdnlndnREcmo0WXN1U0dSLUVfMURlRWFUODF2RHVlRjNiby1kOXhpcFp5Zm8?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV spearheads Autoware 2.0 initiatives",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1VCSkxHZ1I0VUdheXpjQk9pR0RNSUdtZEJGRWZORXFFZ041TlJZS0N0NUNZOHQtcUZyd3lSMFg5dTBqNTJHbXpZNVJMNVZoMWdGM01wWFBjUnMyM2dtaHBCbzNMdnQ1ejdla001anRwTENXazE1ZHZ0RG1uZXZwdnlndnREcmo0WXN1U0dSLUVfMURlRWFUODF2RHVlRjNiby1kOXhpcFp5Zm_SAasBQVVfeXFMTkNVQkpMR2dSNFVHYXl6Y0JPaUdETUlHbWRCRkVmTkVxRWdONU5SWUtDdDVDWTh0LXFGcnd5UjBYOXUwajUyR216WTVSTDVWaDFnRjNNcFhQY1JzMjNnbWhwQm8zTHZ0NXo3ZWtNNWp0cExDV2sxNWR2dERtbmV2cHZ5Z3Z0RHJqNFlzdVNHUi1FXzFEZUVhVDgxdkR1ZUYzYm8tZDl4aXBaeWZv?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1VCSkxHZ1I0VUdheXpjQk9pR0RNSUdtZEJGRWZORXFFZ041TlJZS0N0NUNZOHQtcUZyd3lSMFg5dTBqNTJHbXpZNVJMNVZoMWdGM01wWFBjUnMyM2dtaHBCbzNMdnQ1ejdla001anRwTENXazE1ZHZ0RG1uZXZwdnlndnREcmo0WXN1U0dSLUVfMURlRWFUODF2RHVlRjNiby1kOXhpcFp5Zm_SAasBQVVfeXFMTkNVQkpMR2dSNFVHYXl6Y0JPaUdETUlHbWRCRkVmTkVxRWdONU5SWUtDdDVDWTh0LXFGcnd5UjBYOXUwajUyR216WTVSTDVWaDFnRjNNcFhQY1JzMjNnbWhwQm8zTHZ0NXo3ZWtNNWp0cExDV2sxNWR2dERtbmV2cHZ5Z3Z0RHJqNFlzdVNHUi1FXzFEZUVhVDgxdkR1ZUYzYm8tZDl4aXBaeWZv",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Dellows News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、自動運転ソフトAutoware 2.0の開発と商用化推進へ",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE14Q2lzX0luZGNacFRXWDBwNXpiM2FjcUlyaVhqUFg5OTJFalFDNWZydDFHbWVmT3lVTTRfSDI3ZzdycWl0MjdN?oc=5",
+   "date": "2026-11-03 01:37",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "architecture"
+    ],
+    "korean_title": "TIER IV, 자동운전 소프트웨어 Autoware 2.0 개발 및 상용화 추진",
+    "korean_summary": "TIER IV가 Autoware 2.0의 개발과 상용화 추진을 가속합니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE14Q2lzX0luZGNacFRXWDBwNXpiM2FjcUlyaVhqUFg5OTJFalFDNWZydDFHbWVmT3lVTTRfSDI3ZzdycWl0MjdN",
+   "body": ""
+  },
+  {
+   "source": "Google News · Open Source For You",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Autoware 2.0 The Powerful Shift Towards AI Driven Vehicles",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUFE4RXU2dU9DSFA2bmp4QWlQTWlYNFFZcHFVR045OC1tdng0cENpQXA5U2dDNTV5bmhSZUdVY0U4bzdkU091a3lOYWxocXY4Um1lbTk5NUJpQ29MVFFBNXhn?oc=5",
+   "date": "2026-11-02 20:11",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "Autoware 2.0, AI 주도 차량으로의 강력한 기술 전환",
+    "korean_summary": "Autoware 2.0이 AI 주도 차량으로의 강력한 기술 전환을 나타냅니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Open Source For You",
+     "title": "Autoware 2.0 The Powerful Shift Towards AI Driven Vehicles",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUFE4RXU2dU9DSFA2bmp4QWlQTWlYNFFZcHFVR045OC1tdng0cENpQXA5U2dDNTV5bmhSZUdVY0U4bzdkU091a3lOYWxocXY4Um1lbTk5NUJpQ29MVFFBNXhn?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXUFE4RXU2dU9DSFA2bmp4QWlQTWlYNFFZcHFVR045OC1tdng0cENpQXA5U2dDNTV5bmhSZUdVY0U4bzdkU091a3lOYWxocXY4Um1lbTk5NUJpQ29MVFFBNXhn",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 124,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 8,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 9,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 17.4
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 21.6
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.5
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
