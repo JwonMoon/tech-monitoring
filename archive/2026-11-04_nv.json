@@ -1,0 +1,1980 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-04",
+ "window": [
+  "2026-11-03",
+  "2026-11-04"
+ ],
+ "generated": "2026-11-04T10:26:46+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 데이터센터 및 클라우드 고객에 **중국 매출 비중을 49%로 제한**하도록 지시해 지정학적 리스크 관리에 나섰다.",
+  "PATEO가 NVIDIA DRIVE AGX Thor 기반 AI Box에 **Nemotron과 Doubao를 통합**해 차량 내 AI 성능을 끌어올렸다.",
+  "NVIDIA가 전 세계 주요 도시에 Cosmos·Omniverse 기반 **에이전틱 AI와 디지털 트윈**을 공급해 시민 서비스와 교통 안전을 혁신하고 있다."
+ ],
+ "cards": [
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+   "date": "2026-11-03 22:31",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, 데이터센터 고객에 중국 사업 49% 이하 제한 정책 통보",
+    "korean_summary": "NVIDIA가 데이터센터 고객들에게 중국 기업 사업 비중을 전체의 49% 이하로 제한하는 신정책을 영업팀을 통해 통보"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 데이터센터 고객에 중국 매출 비중 49% 제한하는 신규 정책 전달 - FT 보도",
+    "korean_summary": "NVIDIA가 지정학적 긴장 속에서 데이터센터 운영 고객들에게 신규·향후 계약에 한해 중국 기업 대상 매출 비중을 전체의 49%로 제한하도록 영업망을 통해 비공식적으로 전달했다고 FT가 보도했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "데이터센터 고객사에 중국 기업 대상 매출 비중을 **전체의 49% 이하로 제한**하도록 영업조직·지역팀을 통해 전달 (공식 문서화되지 않음)",
+     "stage": "Report",
+     "timeline": "미확인 (보도 시점 기준, 향후 신규 계약부터 적용)",
+     "scope": "아시아 지역에 국한되지 않고 **전 세계 데이터센터 고객 대상**, 기존 하드웨어 리스 계약은 제외하고 신규·향후 계약에만 적용"
+    },
+    "key_facts": [
+     "FT 보도에 따르면 NVIDIA가 데이터센터 운영사에 중국 기업 대상 매출 비중을 49%로 제한, 비중국 51% 유지를 요구",
+     "해당 정책은 영업팀·지역팀을 통해 전달되었으며 공식 문서로 명시되지 않음",
+     "전 세계 데이터센터에 적용되며, 기존 계약이 아닌 신규·향후 계약에만 적용",
+     "NVIDIA는 공식 성명에서 '**American chips are the foundation**'이라며 미국 인프라 기반 구축을 강조",
+     "China Telecom 데이터센터에서 NVIDIA 하드웨어가 발견된 사례, NVIDIA 구형 서버 가치가 올해 3배 상승한 블랙마켓 존재 등 기존 화이트리스트 제도의 실효성 논란 언급"
+    ],
+    "why_matters": "미중 AI 경쟁 속에서 NVIDIA가 단순 수출통제 대상 기업 선별을 넘어 **고객사의 전체 매출 구조에까지 개입**하는 정책으로 확대함으로써, 중국의 AI 하드웨어 접근을 더 적극적으로 차단하려는 움직임을 보여준다. 이는 동일 계약을 두고 경쟁하는 데이터센터 운영사들의 고객 풀을 축소시켜 업계 전반의 사업 규모 축소 가능성을 시사한다.",
+    "subject_angle": "NVIDIA는 미국 정부의 대중 AI 견제 정책에 부응해 **자사 칩 공급망 전체에 대한 통제력을 강화**하는 동시에, '미국 인프라 기반 구축'을 공식 메시지로 내세워 미국 중심 AI 생태계 구축자로서의 입지를 강조하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "신규 정책의 주체, 데이터센터 고객에게 중국 매출 비중 제한 요구"
+     },
+     {
+      "name": "China Telecom",
+      "context": "자사 데이터센터에 NVIDIA 하드웨어 보유 사례로 언급, 기존 통제의 실효성 논란 사례"
+     },
+     {
+      "name": "Financial Times (FT)",
+      "context": "해당 정책을 최초 보도한 매체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia 데이터센터 하드웨어(고성능 AI 서버용 칩)",
+      "role": "제한 대상이 되는 핵심 제품군"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA가 해당 정책을 공식 문서화하거나 성명으로 명시하는지 여부",
+     "미 정부의 추가 수출통제·화이트리스트 정책 변화와의 연계 여부",
+     "데이터센터 운영사들의 반응 및 계약 구조 변화 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Nvidia tells data center operators to limit business to Chinese customers",
+     "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits"
+    },
+    {
+     "source": "Google News · Tom's Hardware",
+     "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims — allegedly restricted to 49% of the total, ensuring 51% are non-Chinese outfits",
+     "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNdzBId3ZZSFhNY3J0MjFVQVR4NktHWkRjc0hiM09XeWxoWFVRcE5QSXZZdFF4MGlkLVRrM2dGbEtGdUh1cjZEYXFlVjdzMXBOaWNHaFZIYXlaVkYyTG1TbHpyX3ZranNWVUdybmJlanR3ZnpHX3d4VVczM201UFFGOEJOdENVVHZ3cHVUR05fN19iTWFVVUhVci02MVJOTkxtRGZqQzVCenBzTGFMODR3c0RqT0drcFdrV0pzTzUwbGlySjR2dTN3YTluRE1EazFUdXAtdWJYbGxXXzRKeXdGdHN1UDFNUzRUM1U4WENtVndDYWdEbENDeElrUkdqdzRRVmtIdExlTjVVdEV0bWpLSjQ5VV82bHlfczAxcldmbGFzRjNxNzEwUDJzeWNEV0RLTEs0QXRJak5xd0VUbGQtSXlQcGR1V3BQbTZiNlV4VDNwVGpvSHgxTS1UdGdGb196U0dYdTZmeXJFczgzR3N5QUdKd1RhcFozQXhFbGlzQQ?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+   "body": "Nvidia has purportedly told its data center customers that they must limit the amount of business that they do with Chinese companies in what is a new policy for the U.S. company. The move would mean that data center operators who sell their services to Chinese companies must now track what proportion of their overall business they make up, limiting them to just 49% of the total and ensuring 51% are non-Chinese outfits. The FT reports the new policy has been communicated to Nvidia's customers by its sales force and regional teams, and does not appear to have been laid out in any official form via documentation. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Notably, Nvidia's alleged new stance on Chinese customers does not only apply to data centers that are located in Asia. Instead, it applies to those based globally, and even then it only affects new and future contracts rather than any existing Nvidia hardware leasing agreements that are in place. In a statement, Nvidia notes that \"American chips are the foundation that American model and application makers need to compete worldwide.\" The statement goes on to say that current U.S. policy \"encourages\" cloud providers to build on American infrastructure and to accept business from \"everywhere they can.\" But this latest move to restrict Chinese access to Nvidia's high-performance data center hardware comes amid ongoing tensions between the United States and China with regard to AI capabilities. Nvidia can only sell its chips to whitelisted companies , a situation that has led to a thriving black market for its wares. Earlier this year, it was found that even Nvidia's older servers have become so sought-after that their values have tripled. Whether limitations on who Nvidia can sell its chips to have had the desired effect is open to debate, with even China's state-owned telecoms giant China Telecom having recently been found to have Nvidia hardware in its data centers . The situation wouldn't be out of place in a blockbuster espionage thriller, with Nvidia CEO Jason Huang reportedly the target of a spy plot by Chinese agents . The reasons behind the U.S. government's attempts to limit China's access to Nvidia hardware are obvious. The aim is to stymie China's ability to advance its own AI technologies, with Nvidia chips the go-to option for AI servers and data centers around the globe. But this limitation on which customers cloud service providers can accept will put additional strain on companies that are already fighting it out for the same contracts. Reducing the pool of potential customers could potentially see a shrinking in the scale of data center oper"
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Tells Data Center Clients to Trim China Business, FT Says",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ0g4Rl9YT1p1WUQtRWhFbjI3WTlxVkhja0s1UFdpaV9Gb3A0RG8wNnF2YWpMMldMdGtvNW03bUVvM0VZZGtCR1gyZmZheldrdHFja2QycUwxZDNZRkpEV2pjRkZmUVBuSUwyQkRORUtUOXpMX2k2Q21ZM1JkUFlEUlg2T2lXTUl1eXQzWUt6NE9WZ3RHdkJPMmM?oc=5",
+   "date": "2026-11-03 14:39",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "FT, NVIDIA가 데이터센터 고객에 중국 사업 축소 지시",
+    "korean_summary": "금융타임즈가 NVIDIA가 데이터센터 고객에게 중국 사업 축소를 지시했다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Reuters",
+     "title": "Nvidia orders data centre clients to reduce China exposure, FT reports",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDF4VTJJTTNQYW1keXlqU2pZWks4ak1McFRsVFhtYW1XSkxNMC1xSHFiVk1aZjFINmFsY1VXVlN4STVVOXRaSmVIZFNJMG9QdmdJdXB5R3R1dzRidzVpVnJWanNWeGRwREZweFdIWGRGdGhYclhJT2FXYVNWdkpueXVTcTVuZXE2RDJjVXFiUEh4TElDS0k2b3FLMUFoeGxjOVRmRWI4VjYta0tadVFXZ1ZJQ1JFZHJZY3p4cTdn?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia orders data center clients to reduce China exposure: FT",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU24zQnBzOGNvR2gwYWs0ekQ0b0JlSWd6Snd1TUVGOXJ3UWJOX25KaWhqX3ZZampncFphLWtDdUc4U3cxTm9pSTBHWFBicVlCemNoWFA5VXRUZzNPMXUzNV92MFdvc2N6c21FaEx5OHR5YnpES25CZVJhQjk3MjgtTDZZQm5zdUF0eWkyWHNPeVduTWpHZjdIQWptWWdKQQ?oc=5"
+    },
+    {
+     "source": "Google News · Financial Times",
+     "title": "Nvidia orders data centre clients to reduce China exposure",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1cmZzdHdvQnp2TkUtUi00eW5kUlBoeFZNbE5xNFZCMHNZdC02cmhvWXFudFRhRmM3RlpHUWtaZEdpR21rWnpwaFBaajNGMHY0WHYwcGlKbFZwUnhCLVQtRmZGZ0tBVV9fd1dlV041LUg3bnhDcE14emY?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia orders data centre clients to reduce China exposure",
+     "link": "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEJRRjh3WWlKcE9PTlBDM19qaEVoSUtzSmRzQ0g4Rl9YT1p1WUQtRWhFbjI3WTlxVkhja0s1UFdpaV9Gb3A0RG8wNnF2YWpMMldMdGtvNW03bUVvM0VZZGtCR1gyZmZheldrdHFja2QycUwxZDNZRkpEV2pjRkZmUVBuSUwyQkRORUtUOXpMX2k2Q21ZM1JkUFlEUlg2T2lXTUl1eXQzWUt6NE9WZ3RHdkJPMmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Tells Cloud Clients to Cap Chinese Business at 49%",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQk5DWW5ZSi1tYTlLb05JRFFmMnZSY0tzeUlWeWhLdUM0UWw1ZlZTb2lDdnpUNjJ4Q0VZUlFETDB3UmVya0tjRjVWR09vMUlZaGZ6NTR4T0htUExYRi1HdTdPM2lJbVZOdEVMVDlVQlFkVF9qSEJneGtjMUdPY1dLaENSbjVSSUlmTHJQSU1lM1lOb3dsWkNGOGpn?oc=5",
+   "date": "2026-11-03 21:01",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "엔비디아, 클라우드 고객의 중국 비즈니스 49%로 제한",
+    "korean_summary": "엔비디아가 클라우드 고객들에게 중국 비즈니스를 49%로 상한선을 두도록 지시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQk5DWW5ZSi1tYTlLb05JRFFmMnZSY0tzeUlWeWhLdUM0UWw1ZlZTb2lDdnpUNjJ4Q0VZUlFETDB3UmVya0tjRjVWR09vMUlZaGZ6NTR4T0htUExYRi1HdTdPM2lJbVZOdEVMVDlVQlFkVF9qSEJneGtjMUdPY1dLaENSbjVSSUlmTHJQSU1lM1lOb3dsWkNGOGpn",
+   "body": ""
+  },
+  {
+   "source": "Google News · TheStreet",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s new 51% rule could shut China’s backdoor to AI chips",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajJ1a1pqRWxtamc2c2lITEpkZ2VVZVRZTkx3S05MeHVWaXpJX1lkcmN4OHhuUlc1QTh1QnZUUnFkX0g3YUZ1ZlFIQ1R6NTIzdkY4Y0NCUHJaZ0V0Sm5VRS1lNU9GT2JuWHFEdzZnczY5U0FZdjZLMEtpMzhtVTZnZXFOSTNXYVJBUmlydUlNUi1jVURYeG04RTBzcVVEclA0dzFOaFNrVHNxb1piR2hLVTJ6WVdBZw?oc=5",
+   "date": "2026-11-04 03:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "엔비디아의 새로운 51% 규칙, 중국의 AI 칩 우회로 차단",
+    "korean_summary": "엔비디아의 새 51% 규칙이 중국의 AI 칩 불법 구입 경로를 차단할 수 있음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajJ1a1pqRWxtamc2c2lITEpkZ2VVZVRZTkx3S05MeHVWaXpJX1lkcmN4OHhuUlc1QTh1QnZUUnFkX0g3YUZ1ZlFIQ1R6NTIzdkY4Y0NCUHJaZ0V0Sm5VRS1lNU9GT2JuWHFEdzZnczY5U0FZdjZLMEtpMzhtVTZnZXFOSTNXYVJBUmlydUlNUi1jVURYeG04RTBzcVVEclA0dzFOaFNrVHNxb1piR2hLVTJ6WVdBZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Decoder",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia pushes cloud customers to cut back on China business",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2RRRzJkbDdUYU9tTDdEN1Z4aW1xeFNVSTBBYTB1eTZXbTVWSWFnaWI4SklYYjRXemlwX1U0OXNLdnJXOHlBaE45alhRY29QUGFQOFFjcUlxM3RRRVM2dzRPZGJ0eE5ZRHR1Z3FIQXJzYUkyRjBldnZjUXN6NUtQeG5LSTQyNWdZSVFNUQ?oc=5",
+   "date": "2026-11-03 21:27",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 클라우드 고객에게 중국 사업 축소 압박",
+    "korean_summary": "NVIDIA가 클라우드 운영자들에게 중국 고객사업 축소를 요구하는 규제 조치 시행"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2RRRzJkbDdUYU9tTDdEN1Z4aW1xeFNVSTBBYTB1eTZXbTVWSWFnaWI4SklYYjRXemlwX1U0OXNLdnJXOHlBaE45alhRY29QUGFQOFFjcUlxM3RRRVM2dzRPZGJ0eE5ZRHR1Z3FIQXJzYUkyRjBldnZjUXN6NUtQeG5LSTQyNWdZSVFNUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance Singapore",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia tells data center partners to limit China sales- FT",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTi1yMnROTHA1TU1iaXN3X3dMQm1ZZlNCQUJLTnRkNmVSbFBGSDRuU0owYUhvZDZCZUJHVFIwbnRab0hzU1hzaW1xRV92RkxWWl9RVlRYTGdjLXI3NUY3VDliRXJWOV92RHVST3k2dm5Pa1o4SjB4RG41bWdOTjBWal93NWw2dmR5ZVE?oc=5",
+   "date": "2026-11-03 16:26",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, 데이터센터 파트너에 중국 판매 제한 지시",
+    "korean_summary": "NVIDIA가 데이터센터 파트너들에게 중국으로의 판매를 제한하도록 지시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTi1yMnROTHA1TU1iaXN3X3dMQm1ZZlNCQUJLTnRkNmVSbFBGSDRuU0owYUhvZDZCZUJHVFIwbnRab0hzU1hzaW1xRV92RkxWWl9RVlRYTGdjLXI3NUY3VDliRXJWOV92RHVST3k2dm5Pa1o4SjB4RG41bWdOTjBWal93NWw2dmR5ZVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · digitimes",
+   "category": "media",
+   "kind": "gnews",
+   "title": "MediaTek targets global AI leadership as Nvidia invests US$3.5 billion",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUQtTWZLR3g2QkNnSHVQZ1RYY2hPa1o1SHNxbEkzX01sMm9hcW5QRk1FempSc2VrN2tjeUV3N2VROG9pN2EyZGVHbHY0SlhHT0M0NjRTZVpEb3dTXzV5aEpycEthV09kVUhiczFhUVpjeEF1emRJaEFVRS01a2hNRFlSVGhnUWhtNEJHX2VwdUw?oc=5",
+   "date": "2026-11-04 08:06",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "MediaTek 글로벌 AI 주도권 추진, NVIDIA 3.5억 달러 투자",
+    "korean_summary": "NVIDIA가 MediaTek에 3.5억 달러를 투자하여 AI 분야 협력을 강화한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUQtTWZLR3g2QkNnSHVQZ1RYY2hPa1o1SHNxbEkzX01sMm9hcW5QRk1FempSc2VrN2tjeUV3N2VROG9pN2EyZGVHbHY0SlhHT0M0NjRTZVpEb3dTXzV5aEpycEthV09kVUhiczFhUVpjeEF1emRJaEFVRS01a2hNRFlSVGhnUWhtNEJHX2VwdUw",
+   "body": ""
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "PATEO Advances In-Vehicle AI with NVIDIA Nemotron and ByteDance Doubao on its AI Box built on NVIDIA DRIVE AGX Thor",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZ3ZhYnRBR2lITUp3T1BaSWRDcUxiYVRhZlVaOGdvenlCcU11cGdhbFlpcnVSVEE0VVZPVmpWQk1uZ2R5VzRZTV9zcXBjcGdiaWdnVk9BeG40bUhhS01RblluWTd1d2VEM1VTTmdBOTluNGplTlVGcUpkWmtGY3VSa0RBdGhSYm9wUkJFRjFGMGhpcFV6enVVckhvYm45UVgycjF3cmZqSkFYbU5Pd2k1ZTBaSEVyRG42bGY0ZzNLZllkbFVDeWNxR2J4anBuVW1iWG1qOW9GSFlfbUxBT1JqVDVhemJCdC04c1FnbFBXcEx5bkhYRWhlNUYyaW9EcVhx?oc=5",
+   "date": "2026-11-03 14:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "PATEO, NVIDIA DRIVE AGX Thor 기반 AI Box로 차량 AI 강화",
+    "korean_summary": "PATEO가 NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron과 ByteDance Doubao를 통합하여 차량 내 AI 기술을 고도화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQZ3ZhYnRBR2lITUp3T1BaSWRDcUxiYVRhZlVaOGdvenlCcU11cGdhbFlpcnVSVEE0VVZPVmpWQk1uZ2R5VzRZTV9zcXBjcGdiaWdnVk9BeG40bUhhS01RblluWTd1d2VEM1VTTmdBOTluNGplTlVGcUpkWmtGY3VSa0RBdGhSYm9wUkJFRjFGMGhpcFV6enVVckhvYm45UVgycjF3cmZqSkFYbU5Pd2k1ZTBaSEVyRG42bGY0ZzNLZllkbFVDeWNxR2J4anBuVW1iWG1qOW9GSFlfbUxBT1JqVDVhemJCdC04c1FnbFBXcEx5bkhYRWhlNUYyaW9EcVhx",
+   "body": ""
+  },
+  {
+   "source": "Google News · TimesTech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Mouser Adds Advantech AI Inference System Powered by NVIDIA Jetson Thor",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXhfbEZsYnA4bXF3MTgtX0RPV1VBQUJOZXZQdzRiTG5tc2ZOU3NiLVpucHVqc21wX2JBOTd3ckpoS0FIdmE1TXZvUmNUc25tNzFSa0NJT2dxZmZkcFRqdUF1X3RkeTZsOFpsTmVnNHl6ei1HSERiUDc4allqVVZpM1BXajk1Zl90VDV4NEpfVlJNUDZRelZCNw?oc=5",
+   "date": "2026-11-03 17:42",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "Mouser, Advantech의 NVIDIA Jetson Thor 기반 AI 추론 시스템 판매 개시",
+    "korean_summary": "Mouser Electronics가 NVIDIA Jetson Thor로 구동되는 Advantech의 AI 추론 시스템 유통을 시작했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXhfbEZsYnA4bXF3MTgtX0RPV1VBQUJOZXZQdzRiTG5tc2ZOU3NiLVpucHVqc21wX2JBOTd3ckpoS0FIdmE1TXZvUmNUc25tNzFSa0NJT2dxZmZkcFRqdUF1X3RkeTZsOFpsTmVnNHl6ei1HSERiUDc4allqVVZpM1BXajk1Zl90VDV4NEpfVlJNUDZRelZCNw",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+   "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+   "date": "2026-11-03 16:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 전 세계 도시들과 물리적 AI·에이전트 AI 서비스 확대",
+    "korean_summary": "NVIDIA가 GTC Berlin 이니셔티브 기반으로 글로벌 도시들과 함께 인프라 계획, 유지보수, 공공 서비스용 물리적 AI 플랫폼 확장"
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 전 세계 도시에 물리적·에이전틱 AI 확산—디지털 트윈과 비전 에이전트로 도시 서비스 전환",
+    "korean_summary": "NVIDIA가 파트너사들과 함께 마드리드, 샌프란시스코, 브로츠와프, 쿠알라룸푸르, 라고스, 타이베이 등 전 세계 도시에 Cosmos·Nemotron·Omniverse·Metropolis 기반 물리적·에이전틱 AI를 공급해 시민 서비스, 교통·안전 비전 에이전트, 인프라 디지털 트윈을 공동 인프라 위에서 확장하고 있다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "파트너사(1MillionBot, LiveX, K2K, ITMAX, Honeywell, Linker Vision, Cires Technologies 등)와 함께 Cosmos, Nemotron, Omniverse, Metropolis 플랫폼을 활용한 도시용 물리적·에이전틱 AI 서비스를 전 세계 도시에 확장",
+     "stage": "Available",
+     "timeline": "GTC Berlin 발표 내용을 기반으로 확장 중, 미확인",
+     "scope": "스페인(150+ 배포), 샌프란시스코 베이 지역, 폴란드 Wrocław, 말레이시아, 나이지리아 Lekki 정유소, 대만, 모로코 Tanger Med 등"
+    },
+    "key_facts": [
+     "스페인에서 1MillionBot이 **Comunidad de Madrid, Administració Oberta de Catalunya 등 150개 이상 지역**에 ALIA·Nemotron 기반 시민 서비스 에이전트 배포",
+     "말레이시아 ITMAX의 SamurAI V2 비전 에이전트가 RTX PRO 6000 GPU로 **2027년까지 17,000개 이상 카메라** 지원 목표, TeraSim으로 신호 최적화해 **피크시간 이동 시간 최대 26% 감소**",
+     "대만 Linker Vision·MVRDV는 Omniverse·Nemotron으로 도시숲 캐노피의 **15년 결과를 10분 내 시뮬레이션**, 설계 반복 주기를 2주에서 1시간 미만으로 단축",
+     "나이지리아 Dangote Lekki 정유소에서 Honeywell Forge Plant Cognition이 Dell PowerEdge+NVIDIA RTX PRO 가속기 기반 Nemotron 에이전트로 공정 데이터 분석 및 디지털 트윈 구축 예정",
+     "모로코 Tanger Med 항구에서 Cires Technologies가 노동자 안전·혼잡 분석·화물 라우팅용 **sovereign AI factory** 확장 중"
+    ],
+    "why_matters": "도시 단위 AI 인프라는 공공 서비스·교통·산업 인프라 전반에 걸친 대규모 장기 수요를 창출하며, NVIDIA는 GPU 하드웨어뿐 아니라 **Cosmos, Nemotron, Omniverse, Metropolis** 등 풀스택 플랫폼으로 이 시장을 선점하고 있다. 전 세계 다양한 지역(유럽, 북미, 동남아, 아프리카)에서 동시다발적 배포가 이루어져 지역 주권 AI(sovereign AI) 수요와 NVIDIA 생태계 확장이 맞물리는 구조를 보여준다.",
+    "subject_angle": "NVIDIA는 소규모 **RTX 워크스테이션부터 RTX PRO 6000급 GPU까지** 다양한 진입점을 제공해 도시 규모와 예산에 맞춘 AI 도입을 유도하며, Cosmos·Nemotron·Omniverse·Metropolis를 결합한 참조 아키텍처로 파트너 생태계를 통한 간접 매출 확장 전략을 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "1MillionBot",
+      "context": "Barcelona Supercomputing Center ALIA 모델과 NVIDIA Nemotron을 결합해 스페인 150+ 지자체에 시민 서비스 에이전트 공급"
+     },
+     {
+      "name": "LiveX",
+      "context": "NVIDIA Cosmos·Nemotron·Omniverse·Metropolis로 샌프란시스코 베이 지역 AI City 대화형 호스트 구축"
+     },
+     {
+      "name": "K2K",
+      "context": "폴란드 Wrocław에서 NVIDIA Cosmos·Metropolis VSS로 도시 카메라 영상을 교통·안전·이벤트 대응 인텔리전스로 전환"
+     },
+     {
+      "name": "ITMAX",
+      "context": "말레이시아에서 NVIDIA RTX PRO 6000 기반 SamurAI V2 비전 에이전트로 17,000+ 카메라 교통 관리 서비스 제공"
+     },
+     {
+      "name": "Laplace Intelligence",
+      "context": "오픈소스 교통 시뮬레이션 TeraSim을 ITMAX에 제공해 신호 최적화 지원"
+     },
+     {
+      "name": "Honeywell Technologies",
+      "context": "나이지리아 Dangote Lekki 정유소에 Nemotron 기반 Forge Plant Cognition 및 Omniverse 디지털 트윈 구축"
+     },
+     {
+      "name": "Dell",
+      "context": "Honeywell Forge Plant Cognition용 PowerEdge 서버와 NVIDIA RTX PRO 가속기 제공"
+     },
+     {
+      "name": "Linker Vision",
+      "context": "대만에서 MVRDV와 함께 Omniverse·Nemotron 기반 ESG 도시계획 에이전트 개발"
+     },
+     {
+      "name": "MVRDV",
+      "context": "네덜란드 건축사로 대만 도시 환경영향 시뮬레이션 공동 개발"
+     },
+     {
+      "name": "Cires Technologies",
+      "context": "모로코 Tanger Med 항구에 sovereign AI factory 구축 및 지역 애플리케이션 생태계 조성"
+     },
+     {
+      "name": "Barcelona Supercomputing Center",
+      "context": "ALIA 오픈소스 모델 개발 및 AI Factory Accelerator Programme으로 스타트업 지원"
+     },
+     {
+      "name": "Dangote",
+      "context": "나이지리아 Lekki 정유소 운영사, Honeywell 디지털 트윈 도입 대상"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Cosmos",
+      "role": "비전 에이전트 및 도시 카메라 영상 기반 월드 추론 모델로 활용"
+     },
+     {
+      "name": "NVIDIA Nemotron",
+      "role": "시민 서비스·산업 운영·도시계획 에이전트의 핵심 언어/추론 모델"
+     },
+     {
+      "name": "NVIDIA Omniverse",
+      "role": "도시·산업 인프라 디지털 트윈 구축 라이브러리"
+     },
+     {
+      "name": "NVIDIA Metropolis (VSS Blueprint)",
+      "role": "카메라 영상 검색·요약을 통한 비전 AI 에이전트 구축 프레임워크"
+     },
+     {
+      "name": "NVIDIA RTX PRO 6000 GPU",
+      "role": "ITMAX의 대규모 비전 에이전트(17,000+ 카메라) 스케일링 하드웨어"
+     },
+     {
+      "name": "NVIDIA RTX 워크스테이션",
+      "role": "소규모 도시팀의 초기 AI 서비스 구축용 저진입 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "ITMAX SamurAI V2의 17,000+ 카메라 확장 목표(2027) 진행 상황 확인",
+     "Honeywell Lekki 정유소 디지털 트윈의 실제 시뮬레이션·트레이닝 적용 시점 확인",
+     "Cires Technologies Tanger Med sovereign AI factory의 구체적 애플리케이션 출시 일정 확인"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+     "link": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/"
+    },
+    {
+     "source": "Google News · NVIDIA Blog",
+     "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DUUgwMjhPQndKakxnUGhsZlNIMmlsNEdjVlJkd0JUdXdnQjBuMzJWeGxRaWxuQ0t4aGo4eWtPUzN6TUlKaUpGQklGbWZsVG5jVnNNVjkwRmxlMWYtTjhzYlgwaHJfbnVEdTdfbEIwYmtZWmgwa21xZEZR?oc=5"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+   "body": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments in control of how sensitive data is processed and used. Building on initiatives announced at GTC Berlin , NVIDIA and its partners are expanding physical AI and AI agents to cities worldwide. Shared computing infrastructure gives city departments, neighboring municipalities and local developers a common foundation to build on — extending services without each organization having to acquire and manage resources of their own. Agentic AI for Cities From resident services to vision agents, cities are adopting NVIDIA agentic AI to deliver faster, more responsive public services. City teams don’t need a massive infrastructure investment to get started building these AI services: depending on the workload, NVIDIA RTX workstations or a small GPU system may be enough. In Spain, 1MillionBot combines open source ALIA models trained at the Barcelona Supercomputing Center with NVIDIA Nemotron and other models in resident-service agents for Madrid Digital (Comunidad de Madrid), Administració Oberta de Catalunya and 150+ deployments across Spain, handling municipal procedures, appointment requests, urban-planning incidents and service inquiries. In the San Francisco Bay Area , LiveX is bringing its AI City vision to life with NVIDIA Cosmos world models and Nemotron open models, and Omniverse and Metropolis libraries on NVIDIA RTX PRO GPUs. The interactive, conversational AI hosts understand people’s needs, provide answers and take action, and can be tailored to local languages and service needs in airports, hospitals, local events and other public spaces. Vision AI agents can turn existing city camera feeds into operational insights, helping teams identify mobility and safety issues and coordinate emergency responses across city services. In Wrocław, Poland , K2K is building shared AI infrastructure using NVIDIA accelerated computing, NVIDIA Cosmos world reasoning models, and NVIDIA Metropolis Blueprint for video search and summarization (VSS) to transform existing camera streams into actionable intelligence for mobility, safety and event response — using the same infrastructure across several city functions. In Malaysia , ITMAX bundles infrastructure and agentic AI applications into long-term managed services for cities, including for traffic management. Built with reference to Cosmos, Nemotron and the Metropolis VSS blueprint, ITMAX’s SamurAI V2 vision agents are scaling on NVIDIA RTX PRO 6000 GPUs to support 17,000+ cameras by 2027. ITMAX integrates TeraSim, an open source traffic simulation platform from Laplace Intelligence , to test signal timing, reducing peak-hour corridor travel times by up to 26%. P"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+   "date": "2026-11-03 21:04",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "HBM 칩 수출통제 우회 방법 공개, 미국-한국 규제 허점 노출",
+    "korean_summary": "메모리 밀수업자가 저성능 프로세서와 결합하여 Samsung·SK Hynix HBM을 중국으로 우회 반출하는 방법을 공개하며 export control의 구조적 허점 드러냄"
+   },
+   "summary_data": {
+    "korean_title": "HBM 밀수 네트워크, 수출통제 허점 이용해 한국산 메모리를 중국으로 유입",
+    "korean_summary": "메모리 밀수업자들이 저성능 프로세서에 삼성·SK hynix의 HBM을 결합해 수출통제 심사를 회피하는 방식으로 금지된 고성능 메모리를 중국으로 밀반입하고 있다.",
+    "action": {
+     "actor": "Memory smugglers and Shenzhen-based chip brokers",
+     "action": "저성능 프로세서에 수출 금지된 HBM을 부착해 한국→홍콩→선전 경로로 밀수, 이후 보드에서 HBM만 분리해 중국 AI 칩 수요처에 재판매",
+     "stage": "Report",
+     "timeline": "미확인 (최근 1년간 가격 추이 언급, The Information 보도 기준)",
+     "scope": "한국산 HBM3E(Samsung·SK hynix), 중국 Shenzhen 유통 네트워크"
+    },
+    "key_facts": [
+     "수출통제 규정이 서버 프로세서 성능만 심사하고 부착된 HBM 등 부품은 별도 심사하지 않는 **허점**을 이용",
+     "HBM3E 단가가 1년 전 수백 달러에서 현재 약 **$4,000**로 급등",
+     "AI GPU 1개당 6~8개의 HBM이 필요해 브로커는 대당 $24,000~$32,000의 수익을 획득",
+     "Huawei Ascend 950DT는 약 $37,000로 NVIDIA B200과 가격은 유사하나 성능은 H100의 절반 수준",
+     "Huawei는 차세대 960DT가 H100급 성능을 낼 것이라 밝혔으나, Samsung·SK hynix로부터 HBM을 구매할 수 없어 고객이 직접 HBM을 조달하도록 요구"
+    ],
+    "why_matters": "중국 AI 반도체 생태계가 HBM 공급 부족으로 심각한 **병목**에 직면해 있음을 보여주며, Huawei 등 로컬 대안이 NVIDIA 제품 가격을 벤치마크로 삼으면서도 성능 격차를 메우지 못하고 있다. 동시에 밀수 증가는 수출통제의 실효성 약화와 암시장 수요 강세를 동시에 드러낸다.",
+    "subject_angle": "NVIDIA의 B200·H100이 중국 내 대체 불가능한 성능·가격 기준점으로 계속 인용되는 점은 **수출통제가 유지되는 한 중국 내 수요가 비공식 경로로라도 NVIDIA 생태계를 모방·추격하려는 압력**으로 이어지고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Samsung",
+      "context": "밀수 대상 HBM3E 생산사"
+     },
+     {
+      "name": "SK hynix",
+      "context": "밀수 대상 HBM3E 생산사"
+     },
+     {
+      "name": "Huawei",
+      "context": "HBM 공급 부족에 직면한 중국 AI 칩 제조사, Ascend 950DT/960DT 생산"
+     },
+     {
+      "name": "CXMT",
+      "context": "중국 내 HBM3E 위험생산 진행 중이나 저수율로 비용 부담"
+     },
+     {
+      "name": "Super Micro",
+      "context": "관련 수출통제 위반 고위 임원 체포 사례로 언급"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "B200·H100이 Huawei 제품 가격·성능 비교 기준으로 인용됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "HBM3E",
+      "role": "밀수 대상 핵심 메모리, 가격 급등 품목"
+     },
+     {
+      "name": "Huawei Ascend 950DT",
+      "role": "NVIDIA B200과 가격 유사하나 H100 절반 성능의 현재 최상위 칩"
+     },
+     {
+      "name": "Huawei Ascend 960DT",
+      "role": "차세대 칩, H100급 성능 목표하나 HBM 자체 조달 필요"
+     },
+     {
+      "name": "NVIDIA B200",
+      "role": "Huawei 950DT의 가격 비교 기준"
+     },
+     {
+      "name": "NVIDIA H100",
+      "role": "Huawei 950DT·960DT의 성능 비교 기준"
+     }
+    ],
+    "watch_next": [
+     "한국 당국(Seoul)의 밀수 단속 강화 여부",
+     "Huawei Ascend 960DT 실제 출시 및 성능·HBM 조달 상황",
+     "CXMT의 HBM3E 양산 수율 개선 및 연내 양산 계획 진행 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+   "body": "A memory smuggler has detailed how he gets export-controlled HBM chips from South Korea into China using a loophole. According to The Information , the smuggler owns a chip design firm that build cheap, low-performing processors that fall under the U.S. and South Korea’s export controls. They are then paired with expensive HBM from Samsung and SK hynix, that, on their own, are banned for export to China. But because export control rules only look at the performance of the server processor and not at the other components attached to it, this allows the HBM chips attached inside them to slip under the radar and make their way into China. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained It’s not a risk-free operation, though. Once the mediocre processors with high-end memory chips land in Hong Kong and are smuggled across the border into Shenzhen in the luggage of commuters that cross between the two regions daily, they end up in workshops where technicians heat up the boards to soften the solder, gingerly lift the crucial memory chips, and discard the rest of the components. Despite having a high failure rate, the high price of HBM chips makes the procedure quite lucrative. A Shenzhen-based chip broker has been making big money matching up suppliers such as the smuggler and companies that are desperate for HBM. “A year ago, a single HBM3E unit changed hands in China for several hundred dollars,” he tells the publication. “Today it’s about $4,000.” With an AI chip requiring six to eight high-end memory chips, that means the broker is raking in $24,000 to $32,000 for every AI GPU. Chinese AI labs face this exact memory chip bottleneck when acquiring AI GPUs. While Chinese memory manufacturer CXMT has already begun risk production of HBM3E and is expected to mass produce them by the end of this year , it’s still reportedly suffering from low yield, which makes their chips expensive to produce and procure. We see this with Huawei’s Ascend 950DT, its current top-of-the-line processor that goes for about $37,000 — it offers similar pricing to Nvidia’s B200 AI GPU but only delivers half the performance of the previous-generation H100. Huawei has reportedly said that its next-generation flagship AI processor, the 960DT, would deliver a similar performance as the H100. However, since the company cannot purchase HBM from Samsung and SK hynix, and Chinese memory manufacturers do not have the capacity to supply all its chip demands, Huawei told customers that they have to find the HBM that these servers need themselves. This would further fuel the demand for these chips, increase the price and make it more lucrative for smug"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Fireworks contracts 5MW of Nvidia Blackwell Ultra capacity at Era4 data center in UK",
+   "link": "https://www.datacenterdynamics.com/en/news/fireworks-contracts-5mw-of-nvidia-blackwell-ultra-capacity-at-era4-data-center-in-uk/",
+   "date": "2026-11-04 00:58",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Fireworks, NVIDIA Blackwell Ultra 5MW 용량 계약 체결",
+    "korean_summary": "AI 모델 회사 Fireworks가 영국 Era4 데이터센터에서 NVIDIA Blackwell Ultra HGX B300 GPU 5MW 용량 임차 계약 체결"
+   },
+   "summary_data": {
+    "korean_title": "Fireworks, 영국 Era4 데이터센터에서 Nvidia Blackwell Ultra 5MW 용량 계약",
+    "korean_summary": "오픈모델 AI 기업 Fireworks가 영국 Era4의 Chesterfield 데이터센터에서 Nvidia Blackwell Ultra HGX B300 GPU 기반 5MW 직접 액체냉각 용량을 임대해 금융·보험·생명과학 분야 규제 산업을 겨냥한 서비스를 확장한다.",
+    "action": {
+     "actor": "Fireworks",
+     "action": "Era4 Chesterfield 데이터센터에서 5MW의 Nvidia Blackwell Ultra HGX B300 GPU 기반 직접 액체냉각(DLC) 용량 임대 계약 체결",
+     "stage": "Announced",
+     "timeline": "미확인 (가동 시점 미확인)",
+     "scope": "영국 Chesterfield, Derbyshire 소재 데이터센터, 5MW 용량, 금융서비스·보험·생명과학 분야 대상"
+    },
+    "key_facts": [
+     "Fireworks는 Era4의 Chesterfield(Derbyshire) 데이터센터에서 **5MW**의 직접 액체냉각 용량을 계약",
+     "용량은 **Nvidia Blackwell Ultra HGX B300 GPU**로 구동되며 HPE ProLiant Compute XD685 서버와 HPE AI Mod POD 모듈형 데이터센터 형태로 제공",
+     "해당 사이트는 주로 매립지 가스(landfill gas)로 전력을 공급받고 그리드 연결은 백업 전력으로 사용",
+     "Fireworks는 독일, 아이슬란드에도 기존 배치가 있으며, 이번 계약으로 영국 내 용량을 확장",
+     "Era4는 2025년 9월 AI 플랫폼을 공개하며 궁극적으로 **100,000개 GPU**, 30개 이상 입지 목표를 밝혔고, 2025년 12월 Nvidia Blackwell Ultra 및 HPE DLC 서버 배치 계약을 체결했다고 발표"
+    ],
+    "why_matters": "이번 계약은 규제가 엄격한 금융·보험 업계에서 **데이터 주권(where AI runs)**이 AI 플랫폼 선택의 핵심 기준이 되고 있음을 보여주며, 유럽 내 소버린 AI 인프라 수요가 Nvidia GPU 기반 설비 투자로 직결되는 사례다. 또한 Era4처럼 매립지 가스 등 비그리드 전력원을 활용한 소규모·분산형 데이터센터 사업자들이 Nvidia 최신 GPU 채택을 통해 하이퍼스케일러 중심 시장 구조에 틈새를 만들고 있다.",
+    "subject_angle": "Nvidia는 Blackwell Ultra(HGX B300) GPU가 대형 하이퍼스케일러뿐 아니라 **유럽의 지역·규제 특화 신흥 인프라 사업자(Era4)**와 AI 플랫폼 기업(Fireworks)까지 확산되고 있음을 보여주는 사례로, 소버린 AI 및 산업별 맞춤 배치 수요 확대에 따른 GPU 공급 저변 확장 전략과 부합한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Fireworks",
+      "context": "오픈모델 AI 트레이닝·추론 플랫폼 제공, Era4 용량 임대 계약 당사자"
+     },
+     {
+      "name": "Era4",
+      "context": "영국 데이터센터 사업자(구 Carbon3.ai), Chesterfield 사이트 소유·운영, Nvidia Blackwell Ultra 인프라 배치"
+     },
+     {
+      "name": "HPE",
+      "context": "ProLiant Compute XD685 서버 및 AI Mod POD 모듈형 데이터센터 공급"
+     },
+     {
+      "name": "Civo",
+      "context": "Era4와 협력해 영국 소버린 AI 클라우드 출범"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Blackwell Ultra HGX B300",
+      "role": "Era4 Chesterfield 사이트의 5MW 용량을 구동하는 GPU"
+     },
+     {
+      "name": "HPE ProLiant Compute XD685",
+      "role": "Blackwell Ultra GPU를 탑재한 서버 플랫폼"
+     },
+     {
+      "name": "HPE AI Mod POD",
+      "role": "모듈형 데이터센터 하우징"
+     }
+    ],
+    "watch_next": [
+     "Fireworks-Era4 계약의 실제 가동(go-live) 시점 공개 여부",
+     "Era4의 Newport(Wales) 1GW 캠퍼스 및 Canterbury 사이트 진행 상황과 Nvidia GPU 배치 규모",
+     "Era4의 100,000 GPU, 30개 이상 입지 목표 달성 진척 상황"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Data Center Dynamics",
+     "title": "Fireworks contracts 5MW of Nvidia Blackwell Ultra capacity at Era4 data center in UK",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZmFQREo4VjVzRVpldVlzU1Q5SEhBYWRiaVFteDgtRThmMldKaEItbGVqajV1R00wSWJzRE41QUttcXBJTUxJUUd4SjJ4SVdHNVRGMnctRUhrN3NERjBGSDVtcE5nUVJUcVZYdG90TVZzQkZOMkxXcFZDN1ptRHVRSTBwdVdmU0Q5aDJONmZwYnVSYUFkV19wOWhOYTAzMTc3X1owSDhaUHd3M1RDZDZtTU1DWjlxMTB0ZmpJeXN3R3JkODRBU0RB?oc=5"
+    }
+   ],
+   "uid": "https://www.datacenterdynamics.com/en/news/fireworks-contracts-5mw-of-nvidia-blackwell-ultra-capacity-at-era4-data-center-in-uk",
+   "body": "Open-model AI company Fireworks has contracted capacity from UK-based data center provider Era4. Under the agreement, Fireworks will lease 5MW of direct-liquid-cooled capacity powered by Nvidia Blackwell Ultra HGX B300 GPUs at Era4's data center in Chesterfield, Derbyshire. Through this, Fireworks' model training and inference platform will be combined with infrastructure owned and operated in the UK, and will initially target financial services, insurance, and life sciences sectors. “Companies want AI they can specialize to their own data and the way they work,” said Lin Qiao, co-founder and CEO of Fireworks. “They also want a choice about where those models run. This agreement with Era4 expands our capacity in the UK for developing new services for banks, fintechs, UK enterprises, and other regulated businesses.” Fireworks has existing deployments in Germany and Iceland. “Europe has the talent, the data and the demand to lead in enterprise AI, but it cannot lead on compute it does not control. For a bank or insurer, knowing where its AI runs is part of the buying decision,” added Tom Humphreys, CEO of Era4. “At Chesterfield, we own and operate the infrastructure, including behind-the-meter power generation. Working with Fireworks lets us build on that foundation with tools enterprises can use to adapt and run open models.” Era4's Chesterfield site offers the HPE ProLiant Compute XD685 servers in an HPE AI Mod POD modular data center. The site is primarily powered by landfill gas captured at the site and uses grid connection for backup power. Launched last year as Carbon3.ai, Era4 rebranded earlier this year. The company revealed details of its AI platform in September 2025, claiming at the time that it would eventually comprise 100,000 GPUs, aiming to reach more than 30 locations. Plans for the modular AI data center in Derbyshire were unveiled in November 2025, and in December it said it had signed an agreement to deploy Nvidia Blackwell Ultra AI infrastructure with HPE's direct liquid-cooled servers. Elsewhere, the company saw a proposal for a site in Anglesey rejected, but proposed another site in Canterbury, Kent, which will be powered by landfill gas. The firm has also teamed up with another UK company, Civo, to launch a sovereign AI cloud. In late October, Era4 revealed it was targeting a 1GW AI campus in Newport, Wales, which would be by far its biggest site."
+  },
+  {
+   "source": "Google News · Taipei Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia orders data centers to reduce China exposure",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lNDZ4WW1PRmpjZ0lKVFllWFE2cldLYnZ1M19JaTlvUHBjdXJ1Z29ob193eXY5S1lDNGRTWXJxYlFYOE1oNnNoN1U1RVFoVFFRYTF2MW02NWE0bF9xcVFRQ3JhNl9kYzZ6dExIaGRuVV84UExvZmc?oc=5",
+   "date": "2026-11-04 01:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, 소유 데이터센터에 중국 노출 감소 지시",
+    "korean_summary": "NVIDIA가 운영하는 데이터센터에 중국 지역 노출을 줄이도록 하는 조치를 취했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · CryptoRank",
+     "title": "Nvidia Reportedly Orders AI Data Center Partners to Reduce China Exposure",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRG1xMkpKdnVXWTlFek5aVzlSZUZBdURCTWpuUHJEWlZVbVk1cDJOWnlraHlyUld0R0tfMEFVd1BIUXNNdlQ0RWJEeXhkNjJ0RnZXUDZ6b1VmbFFxN3BpdlZnQ3lBSFZfYWc1ODFNNHJtcXJiVC1VSGhrUWtaSXIzcnRyWnd0UzN6NHhKZU1TM2ZRcnVkUnRpNmlsZXI0c3ZQMS0xb0Z2QkstOHA5STJkcA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lNDZ4WW1PRmpjZ0lKVFllWFE2cldLYnZ1M19JaTlvUHBjdXJ1Z29ob193eXY5S1lDNGRTWXJxYlFYOE1oNnNoN1U1RVFoVFFRYTF2MW02NWE0bF9xcVFRQ3JhNl9kYzZ6dExIaGRuVV84UExvZmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Huang Gave Blessing to Marvell-Lumentum Megadeal",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGc4MkZNbUd3YTNkQkFXYWFOeXYxNzFTeFlJekFzWmFtcjFfbnJLZlR0ODB2RkFiU2p3YVRROU9zSDhQaWpUTlpUdGhXbDZTWk9QYjJHQVFEeS1XUkZ6R01FeEd5V3g4eXhRYmZkeU9EeFNiUkdqZ1hxSGswWXhla2VGQ1lKcEQ2bVQ2VmFYbVdwOEswTEhhSEpxZ1lBQ0pfSXhHOWlPNVN6aDVw?oc=5",
+   "date": "2026-11-03 12:11",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a"
+    ],
+    "korean_title": "황젠순 CEO, 마벨-루멘텀 메가딜 동의 의사 표시",
+    "korean_summary": "황젠순 CEO가 마벨과 루멘텀의 대형 인수합병 거래에 동의하기로 입장 표명"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGc4MkZNbUd3YTNkQkFXYWFOeXYxNzFTeFlJekFzWmFtcjFfbnJLZlR0ODB2RkFiU2p3YVRROU9zSDhQaWpUTlpUdGhXbDZTWk9QYjJHQVFEeS1XUkZ6R01FeEd5V3g4eXhRYmZkeU9EeFNiUkdqZ1hxSGswWXhla2VGQ1lKcEQ2bVQ2VmFYbVdwOEswTEhhSEpxZ1lBQ0pfSXhHOWlPNVN6aDVw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung to make chip parts for AMD, Nvidia at Texas plant: report (SSNLF:OTCMKTS)",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG5VcDhQcmdPTVV0NzJ3Y29YbnFDSWREeHNyZVpSLWpMYjg4dlNlVDh4LXJfWFZCMzBYakIzQkdqS3FkRnJDd3lHWExCYmY3eF9PTjdvSm01ejhuV2lXR2lLVUt0S21ZZDk4SjhVcHVTNXpONWczU2dNMnN5MzQ2cWdKZXZqU19ISGh1ZllfT240TXZqcGgzcl9sYi15aEttT0Zr?oc=5",
+   "date": "2026-11-03 22:21",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, 텍사스 공장에서 AMD·NVIDIA용 칩 부품 생산",
+    "korean_summary": "Samsung이 텍사스 공장에서 AMD와 NVIDIA를 위한 칩 부품 제조 계약 체결"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTG5VcDhQcmdPTVV0NzJ3Y29YbnFDSWREeHNyZVpSLWpMYjg4dlNlVDh4LXJfWFZCMzBYakIzQkdqS3FkRnJDd3lHWExCYmY3eF9PTjdvSm01ejhuV2lXR2lLVUt0S21ZZDk4SjhVcHVTNXpONWczU2dNMnN5MzQ2cWdKZXZqU19ISGh1ZllfT240TXZqcGgzcl9sYi15aEttT0Zr",
+   "body": ""
+  },
+  {
+   "source": "Google News · AOL.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Squeezes China's Backdoor Access To US AI Chips With This Unwritten Rule",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLURaT19xTTdJcE5oTnQwZmdHaG16Qjc1X0ZBOGtSbHJaOUN0eXJCNEhkdVhET1pKcThlTERnZTQ4ZjBpT19idENhRnFyU1VzSTNpZm93Vm5sd2ZEeFZ5bEg2MmhuVUFnY0htN0c4cnZqQlJfQkExQzNkajhYTTJ4T1Z5bjFnUW1mMGc?oc=5",
+   "date": "2026-11-04 05:16",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "NVIDIA의 '불문율'로 중국의 미국 AI 칩 우회 경로 차단",
+    "korean_summary": "NVIDIA가 불문의 규칙을 통해 중국의 미국 AI 칩 우회 수입을 제한하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLURaT19xTTdJcE5oTnQwZmdHaG16Qjc1X0ZBOGtSbHJaOUN0eXJCNEhkdVhET1pKcThlTERnZTQ4ZjBpT19idENhRnFyU1VzSTNpZm93Vm5sd2ZEeFZ5bEg2MmhuVUFnY0htN0c4cnZqQlJfQkExQzNkajhYTTJ4T1Z5bjFnUW1mMGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Mezha.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Report: Nvidia tells data center customers to cap business with Chinese companies at 49%",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnFJVXNoemRjbXJNQmpxOURlZEFjUjVIZlpOZEs0eUNZUTJoTWkzY3lydjFfMFlpLXBmT3l4NktJMUZ3cHlzY19QRTA4MnpqRkNtVGNaUkdudi1YSVlCQllZS1VsanhtN2NncEZUQ1FGbDRJaTNKTXZ0bDk2ckYtZ2pkRnEwZw?oc=5",
+   "date": "2026-11-03 23:27",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, 데이터센터 고객의 중국 기업 사업 비중 49% 이하로 제한 지시",
+    "korean_summary": "NVIDIA가 데이터센터 고객들에게 중국 기업과의 사업 규모를 전체의 49% 이하로 유지하도록 지시했다는 보도."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVnFJVXNoemRjbXJNQmpxOURlZEFjUjVIZlpOZEs0eUNZUTJoTWkzY3lydjFfMFlpLXBmT3l4NktJMUZ3cHlzY19QRTA4MnpqRkNtVGNaUkdudi1YSVlCQllZS1VsanhtN2NncEZUQ1FGbDRJaTNKTXZ0bDk2ckYtZ2pkRnEwZw",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+   "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+   "date": "2026-11-04 01:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI가 반도체 제조 프로세스 가속화, NVIDIA 시뮬레이션 기술 활용",
+    "korean_summary": "NVIDIA의 가속 컴퓨팅과 물리 기반 AI가 반도체 제조 엔지니어들의 시뮬레이션 시간을 단축하고 프로세스 최적화를 가속화"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+     "link": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
+   "body": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor manufacturing — and these analyses can take days. Physical experiments on a fab line are slow and expensive. A wrong call on yield or process quality has real consequences. AI is transforming semiconductor manufacturing, impacting what engineers can do — and how fast. Accelerated computing shortens simulation time, allowing engineers to evaluate more alternatives before committing to physical trials. Physics-based AI helps engineers predict process behavior without running a full simulation every time. AI agents handle sequences of engineering tasks that once consumed hours. And digital twins let teams test changes in a virtual environment before committing to physical trials. Together, these capabilities describe an AI-defined fab: a semiconductor manufacturing factory where AI helps engineers optimize processes, catch problems earlier and make better decisions across the full manufacturing chip lifecycle. Engineers direct the work and make decisions based on their expertise while spending less time waiting for answers. Shorter Simulation Cycles Change What Engineers Can Explore Accelerated computing doesn’t just speed up individual calculations — it changes how many alternatives engineers can test before committing. Multiphysics simulations model interactions among physical effects, such as heat transfer, electrical behavior and mechanical stress. Using the NVIDIA cuDSS library, multiphysics software provider COMSOL is accelerating such simulations for semiconductor manufacturing by up to 10x. This helps engineers optimize equipment and processes, compare alternatives and decide which changes to test physically. Applied Materials and NVIDIA are collaborating to accelerate atomic-scale materials discovery and process development. By integrating NVIDIA cuDSS, Applied’s Ginestra simulation platform runs up to 10x faster than CPU-only approaches. And with NVIDIA PhysicsNeMo, Applied’s ACE+ multiphysics platform delivers topography simulations up to 35x faster. In some cases, acceleration doesn’t just shorten the calculation — it enables it altogether. Computational lithography — which defines how circuit patterns are printed onto silicon — involves calculations too intensive to complete on CPU at production scale. Siemens is integrating NVIDIA cuLitho into its Calibre lithography software, delivering up to 17x acceleration on key simulation workloads. That expands what engineers can verify before a wafer goes to print. As such, faster calculations can help researchers explore material behavior and reaction pathways that influence next-generation semiconductor processes. Predicting Process Behavior Without Running Every Simulati"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "From AI Infrastructure to the 6G Future",
+   "link": "https://www.youtube.com/watch?v=yLMjEpMio2w",
+   "date": "2026-11-03 22:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, 텔레콤 AI-RAN과 6G 전략 공개, 실제 파일럿 진행 중",
+    "korean_summary": "NVIDIA SVP가 GTC Berlin에서 AI-RAN, 분산 추론, 엣지 AI의 6G 통합 전략을 설명하고 Deutsche Telekom, Orange 등의 파일럿 사례 공유"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=yLMjEpMio2w",
+   "body": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one strategic roadmap for telcos. - Learn about the latest breakthroughs and ecosystem advancements in AI Infrastructure, edge AI, and 6G. - Discover what this advancement means for your business, from a commercialization and monetization perspective. Chapters: 00:00 Telecom Infrastructure’s Role in AI 08:27 Deutsche Telekom’s Distributed Cloud and AI-RAN Pilot 09:43 Edge AI Robotics with Agile Robots 11:29 Orange’s Real-Time AI Translation Pilot with Nemotron 13:46 European Telco AI Factories and AI Services 15:04 AI-RAN: Moving to Software-Defined Radio Access Networks 17:24 NVIDIA Aerial RAN Computers: MGX Systems and DGX Spark 20:58 Elisa Demo: Running AI and RAN on Shared Infrastructure 22:27 BT’s Planned AI-RAN Trials and T-Mobile’s Commercial Call 25:25 Open 6G Research with NVIDIA Sionna and Aerial 30:40 Nemotron Models for Telecom Network Operations 33:04 Cisco and Nokia: AI Agents for Network Troubleshooting 34:21 Nokia and NVIDIA’s AI-RAN Partnership"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test",
+   "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+   "date": "2026-11-04 07:35",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "HBM 가격 상승으로 Apple 마진 압박, 메모리 공급망 위기 신호",
+    "korean_summary": "Apple 신규 CEO 첫 실적에서 CFO가 HBM 가격 상승을 주요 마진 감소 요인으로 언급하며 글로벌 메모리 비용 위기 시사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
+   "body": "John Ternus' first earnings report as Apple CEO was going fine until it was time to issue a forecast for the company's gross margin, one of the key metrics followed by investors. Apple reported better-than-expected earnings and revenue on Monday, including in the company's core iPhone unit, and even projected sales in the current period that topped estimates. But just before Ternus opened the earnings call up to analysts' questions, CFO Kevan Parekh came forward with the first real piece of bad news. Parekh said that for the December quarter, which goes through the holiday season, Apple's gross margin will be between 45% and 46%, trailing the 46.3% average analyst estimate, according to LSEG. \"This includes primarily the impact of higher memory costs, as well as some costs related to the ramp of Siri AI,\" Parekh said. Apple shares slid about 2% on Tuesday. It's part of an ongoing trend for Apple, which is absorbing some of the soaring costs from the global memory shortage. A margin drop in the fiscal first quarter would be a third straight decline for Apple, following a gross margin of 50.1% in the June period and 47.9% in the September quarter, boosted by 1 percentage point of tariff refunds. At the midpoint of the forecast range, it would be Apple's lowest gross margin since the fiscal fourth quarter of 2023. \"What we're seeing with memory pricing right now is unprecedented,\" Ternus said on the call, adding that the company is paying more than it did earlier this year. \"Looking beyond the December quarter, we see the pricing for memory purchases continuing to increase.\" Ternus, who took the reins from Tim Cook on Sept. 1, is grappling with a problem that his predecessor spent his final months addressing. Cook told The Wall Street Journal in June that the memory situation was a \"hundred-year flood.\" Apple followed by raising prices across the board on Macs, iPads and accessories. In September, Apple increased the prices of its iPhones by $100, which Ternus said the company did \"reluctantly.\" 'Less flexibility in the supply chain' Computer and smartphone makers everywhere are suffering. On Friday, Intel had its worst day on the market since the 1970s due to a weak forecast tied to the softening PC market. It's all because of insatiable artificial intelligence demand. AI server giants like Nvidia and hyperscalers are buying up all the RAM they can find, and they're willing to pay a premium for it, leaving little supply for companies that make smartphones and tablets. Despite its size and global clout, Apple said it expects supply constraints on iPhones and Macs in the holiday quarter, primarily driven by memory. On the call, Ternus had some top lieutenants field component-related questions. Sabih Khan, chief operating officer, became the first Apple COO to appear on an earnings call since Cook in 2010, when Steve Jobs was CEO. \"As we have said before, we're seeing less flexibility in the supply chain than normal,\" Khan told analysts on the call. I"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Is Nvidia (NVDA) Asking Cloud Clients To Change Under New China Rules?",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHMwU0xmOXo5U29lbUJIbVJmdDhjVHdqcTMwcm8xUnMtTEw1X285b0VCS25NaWtuX19obHcyLTBLdUxCT2ptUTRlSklnS2c0RTJMLXp3NUJkOEZlbFdFUkNEUTQwcEQ3d3Z1d3BsMmFFUy1rVmJweGE5ZHp2UW0xdzlYX3dWQUtwdkQ3SFBnQ0JGYWNhY2FwNXlYU1A?oc=5",
+   "date": "2026-11-04 08:21",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "엔비디아 클라우드 고객에 새 중국 규제 조치 강요",
+    "korean_summary": "Yahoo Finance가 엔비디아가 클라우드 고객들에게 새로운 중국 규칙에 따른 변경을 요구하고 있다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORHMwU0xmOXo5U29lbUJIbVJmdDhjVHdqcTMwcm8xUnMtTEw1X285b0VCS25NaWtuX19obHcyLTBLdUxCT2ptUTRlSklnS2c0RTJMLXp3NUJkOEZlbFdFUkNEUTQwcEQ3d3Z1d3BsMmFFUy1rVmJweGE5ZHp2UW0xdzlYX3dWQUtwdkQ3SFBnQ0JGYWNhY2FwNXlYU1A",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bad News: Nvidia “Really Struggles” on Decode for Giant Models. Fast Tokens Fetch “3 to 5x”",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0dmb2pzZnFMY2Zzd1kzcDZtNzBGelREU2R2cThZU0dlYVlmQ3dmQzN0UEcwWW85bkdQQl9WVVB2d2tYc2EzcktEaUtFY1o5bjFwQnJhN3pJNkFyVXRTM1h5ajRxSTRFb3NEbjBiSnBBUFlsa0J3dVZ0OXVSa0oxVklMdTU1Uk8xXzRGTFpzVnpGMjFHdk5tWm41ems?oc=5",
+   "date": "2026-11-04 02:42",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아 대규모 모델 디코딩 성능 한계 지적",
+    "korean_summary": "Yahoo Finance가 엔비디아 GPU가 거대 모델의 디코딩에서 성능 저하를 겪으며 토큰 생성이 3~5배 느리다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0dmb2pzZnFMY2Zzd1kzcDZtNzBGelREU2R2cThZU0dlYVlmQ3dmQzN0UEcwWW85bkdQQl9WVVB2d2tYc2EzcktEaUtFY1o5bjFwQnJhN3pJNkFyVXRTM1h5ajRxSTRFb3NEbjBiSnBBUFlsa0J3dVZ0OXVSa0oxVklMdTU1Uk8xXzRGTFpzVnpGMjFHdk5tWm41ems",
+   "body": ""
+  },
+  {
+   "source": "Google News · ZDNET",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia RTX 50 GPUs hit with more price hikes – up to $500",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85YVdyUnRkMVg0bnJDcmdjTVZST1NNNmE0TkF5UG9LUkNQX3dpbHpTcTRzdGVKM2JUblpsZWlRRGVIVjRVYXZ4YzJmdGx5bDZmU1ptcHV3eWpEMnk2VEpmYTRkeURUclFtdmVwdTR4b2pmZVc3N2txVUZsdldCQQ?oc=5",
+   "date": "2026-11-04 02:30",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "엔비디아 RTX 50 GPU 최대 $500까지 가격 인상",
+    "korean_summary": "ZDNET이 엔비디아 RTX 50 GPU에 최대 $500까지의 가격 인상이 적용되었다고 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85YVdyUnRkMVg0bnJDcmdjTVZST1NNNmE0TkF5UG9LUkNQX3dpbHpTcTRzdGVKM2JUblpsZWlRRGVIVjRVYXZ4YzJmdGx5bDZmU1ptcHV3eWpEMnk2VEpmYTRkeURUclFtdmVwdTR4b2pmZVc3N2txVUZsdldCQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Nvidia Uses Its Soft Power to Influence Customers and Shape Policy",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeTBkRm14U29kU1llYTlsZjBoNkdLZjhKTTF4QzdXbmhYZVh2cWoya1EwSkVxWEIxNEwzQThfNEpVZ1diVG9KODk1MHJPOUlRTy1wM1o0ZnA4QjR2SVk4SlZ2RHBjOU13UmtvbmZnR2lHcTZjbktQdDFYZng1Sjh6dE15THFzbzd6UEdUNHNBSXVqVWFhRDFPTkIzWQ?oc=5",
+   "date": "2026-11-04 01:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "The Information, NVIDIA의 고객·정책 영향력 심층 분석",
+    "korean_summary": "The Information이 NVIDIA가 고객과 정책입안자에게 행사하는 영향력을 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeTBkRm14U29kU1llYTlsZjBoNkdLZjhKTTF4QzdXbmhYZVh2cWoya1EwSkVxWEIxNEwzQThfNEpVZ1diVG9KODk1MHJPOUlRTy1wM1o0ZnA4QjR2SVk4SlZ2RHBjOU13UmtvbmZnR2lHcTZjbktQdDFYZng1Sjh6dE15THFzbzd6UEdUNHNBSXVqVWFhRDFPTkIzWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Is Pulling Back From China. Wall Street Still Sees 60% Upside",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcjRpWlhYdGVRb3I2aFdUdV9JWkFtQUl4SHpxTDhLY0xZczdtd0xoQS1JZmVjZXVCRkI5VUktM0ZidlVWZzAwY2ZoZzliUm5wX1VvaXZqU0RkZ1pJLWZ5V1JOS0RIUlVzRU5YbW1nV3pJeWxEZmxlZjFfYXU1Q3JEeUEyUkFDQk5OankzR2EzdEpvRGx4Y19QdF9n?oc=5",
+   "date": "2026-11-03 20:57",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 중국 사업 축소 중에도 Wall Street 60% 상승 전망",
+    "korean_summary": "NVIDIA가 중국 시장 사업을 축소하는 상황에서 Wall Street는 여전히 60% 상승 가능성을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcjRpWlhYdGVRb3I2aFdUdV9JWkFtQUl4SHpxTDhLY0xZczdtd0xoQS1JZmVjZXVCRkI5VUktM0ZidlVWZzAwY2ZoZzliUm5wX1VvaXZqU0RkZ1pJLWZ5V1JOS0RIUlVzRU5YbW1nV3pJeWxEZmxlZjFfYXU1Q3JEeUEyUkFDQk5OankzR2EzdEpvRGx4Y19QdF9n",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reportedly Restricts Chinese Access to AI Computing Through Overseas Data Centers",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTE5VaW1iQnZJMlM4aS1lbk9zSWZ5ZEdvdjRULXJuUTE5c3JGdlctT2s4clhIZjRFWnZpR25IVkE5QUlQWEJhNmRHamk4UVg3bmZjT3MwYV9YUzh1c2JwMDhlZk53b1NZX0g4Zmh2QTFoeUJrVjE1QlJSMjN3cV82RVJmVHZJUkpLcU1raUZXdF9OeFhTMGxqc0pMMHhIVmtjaUZvTlgtSGpPQQ?oc=5",
+   "date": "2026-11-03 20:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA, 해외 데이터센터를 통한 중국의 AI 컴퓨팅 접근 제한",
+    "korean_summary": "NVIDIA가 해외 데이터센터 경로의 중국 AI 컴퓨팅 접근을 제한하고 있다고 보도됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTE5VaW1iQnZJMlM4aS1lbk9zSWZ5ZEdvdjRULXJuUTE5c3JGdlctT2s4clhIZjRFWnZpR25IVkE5QUlQWEJhNmRHamk4UVg3bmZjT3MwYV9YUzh1c2JwMDhlZk53b1NZX0g4Zmh2QTFoeUJrVjE1QlJSMjN3cV82RVJmVHZJUkpLcU1raUZXdF9OeFhTMGxqc0pMMHhIVmtjaUZvTlgtSGpPQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Mezha.net",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Core 4 Solutions lists a $59.7 million supercomputer with 9,600 Nvidia A100 GPUs and 4,200 AMD EPYC CPUs - with free shipping",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcGg0WVdDMzdGOS1sQ0tzbFdRS0VHMGlkOVJvS21VcEtVdnZfaHV3WmFXOTJJZ3BMQU9FQVRoamhwQU9qWGktcjdTWUpBd3QyTzFkNGItYkZOU2Y3UmhxZEhNRndZdmVVZVdIRDJOMFdkUXl1QldEcGg0akxxTXM3Qw?oc=5",
+   "date": "2026-11-04 10:19",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Core 4 Solutions, 엔비디아 A100 9,600개 탑재 슈퍼컴퓨터 판매",
+    "korean_summary": "Core 4 Solutions가 엔비디아 A100 GPU 9,600개를 탑재한 슈퍼컴퓨터를 판매"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcGg0WVdDMzdGOS1sQ0tzbFdRS0VHMGlkOVJvS21VcEtVdnZfaHV3WmFXOTJJZ3BMQU9FQVRoamhwQU9qWGktcjdTWUpBd3QyTzFkNGItYkZOU2Y3UmhxZEhNRndZdmVVZVdIRDJOMFdkUXl1QldEcGg0akxxTXM3Qw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Cybernews",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Amazon cancels multiple Nvidia DGX Spark AI PC orders",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrMDg5MW4xdTlVRmlMSGg3MXhuWFJaaEdEQlRPYTBFRmhSMmR4RXFJSkp1NUhrTFJKOVU5ZTVNR1BkR2VZM3J4ODVIZmZ1eHl2RDM5bXZBQnBRN0NVSFN1aVZzdS10UlJQWXZCVEZSY0toNGN2UERZWWNQMEc?oc=5",
+   "date": "2026-11-03 23:19",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "아마존, 엔비디아 DGX Spark AI PC 주문 다건 취소",
+    "korean_summary": "아마존이 엔비디아 DGX Spark AI PC에 대한 여러 주문을 취소"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBrMDg5MW4xdTlVRmlMSGg3MXhuWFJaaEdEQlRPYTBFRmhSMmR4RXFJSkp1NUhrTFJKOVU5ZTVNR1BkR2VZM3J4ODVIZmZ1eHl2RDM5bXZBQnBRN0NVSFN1aVZzdS10UlJQWXZCVEZSY0toNGN2UERZWWNQMEc",
+   "body": ""
+  },
+  {
+   "source": "Google News · SDxCentral",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia dishes ready-made Kubernetes for Vera Rubin",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQczJEMWx5dDgtejF2dnRqakZRRHF5OEdQZzd2MVpMLVpiVWdtTE50YUJoZm5WbHhJT2xwYmV2NzB6cjFaN0RrUXFiX09oWDhhMEJyLU9fa3R2dWg2d0hKTGFXY0V1M2k2MWFrOFFTb1lodk15c2NIYl95S2ZnZVNmOEVlemVST1FMR0M0?oc=5",
+   "date": "2026-11-04 00:59",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "엔비디아, Vera Rubin용 기성형 쿠버네티스 솔루션 제공",
+    "korean_summary": "엔비디아가 Vera Rubin 망원경을 위한 완성형 쿠버네티스 플랫폼을 제공"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQczJEMWx5dDgtejF2dnRqakZRRHF5OEdQZzd2MVpMLVpiVWdtTE50YUJoZm5WbHhJT2xwYmV2NzB6cjFaN0RrUXFiX09oWDhhMEJyLU9fa3R2dWg2d0hKTGFXY0V1M2k2MWFrOFFTb1lodk15c2NIYl95S2ZnZVNmOEVlemVST1FMR0M0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung to make AMD, Nvidia chip parts at second Texas plant, Maeil Business reports",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnFHVnpXOTk4UEYwSlJ5WHhOaUNkVEtPN2o4N3hnSDl2MW12ejZscWRBNnAyRUdyUnhSbGlVdS12UGwzUDFnNlNiWmFzY3Bya3E0NjZIMDhBZzN3YWNJWlZMaGF6amFORVJiVXlONHZrOVFEcW5VbGV6bUF3cDdJbV83dnJXSXh0NnF1RUlkWkJkdWhsbEZRWVJkeXo5THhPLUl1LTFZUVgwM3JLZGhnTGsxeHJ0OFVTRktPOEZpVm9Cc2M5QkVUcTlrZw?oc=5",
+   "date": "2026-11-03 19:21",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, 텍사스 2번째 공장에서 NVIDIA·AMD 칩 제조",
+    "korean_summary": "Samsung이 텍사스 2번째 공장에서 NVIDIA와 AMD 칩 부품을 제조할 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnFHVnpXOTk4UEYwSlJ5WHhOaUNkVEtPN2o4N3hnSDl2MW12ejZscWRBNnAyRUdyUnhSbGlVdS12UGwzUDFnNlNiWmFzY3Bya3E0NjZIMDhBZzN3YWNJWlZMaGF6amFORVJiVXlONHZrOVFEcW5VbGV6bUF3cDdJbV83dnJXSXh0NnF1RUlkWkJkdWhsbEZRWVJkeXo5THhPLUl1LTFZUVgwM3JLZGhnTGsxeHJ0OFVTRktPOEZpVm9Cc2M5QkVUcTlrZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Tech Buzz",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia: AI Slashes Chip Fab Engineering Time as Margins Tighten",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJQYldHdjFwcXFuWmJFSXgzM0JGSnU4STJBQi1QM21mMEJiVFBpQmVEM2toYnBmdFRsSlhfYnVVcVByZVAtMER2RWtNRGp1dHRSYjdwUFJBT0pfVU1lSnBPZGVScDNUMkxjdFIxR3RrT3pCYzJWUFppbm1jVklKTXJPVXdFQWNKdmZWYkFVcktmRVdhYWY4M3U3dw?oc=5",
+   "date": "2026-11-04 02:01",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 기술, NVIDIA 칩 팹 엔지니어링 시간 대폭 단축... 마진은 압박",
+    "korean_summary": "AI가 NVIDIA의 칩 제조 엔지니어링 시간을 획기적으로 단축했으나 마진 압력은 계속되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaVJQYldHdjFwcXFuWmJFSXgzM0JGSnU4STJBQi1QM21mMEJiVFBpQmVEM2toYnBmdFRsSlhfYnVVcVByZVAtMER2RWtNRGp1dHRSYjdwUFJBT0pfVU1lSnBPZGVScDNUMkxjdFIxR3RrT3pCYzJWUFppbm1jVklKTXJPVXdFQWNKdmZWYkFVcktmRVdhYWY4M3U3dw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AMD, Nvidia Could Join Tesla On Samsung’s Texas Chip Plant Customer List: Report",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTGJrN3BUaWVieUJzNzFzSVU1YXRObG5xS0NHUWV3RkJsTTFGZkJlVDBSS1BGUFhvS1JWZkJzMDI5MXBCXzVrbFZ4VUlGN3M1T2ZTaGlFOFRaRTl0UElyekx4MV9ISTJsbUowT05CSkFDeFBPZ3ZkZ3FEVXhybzN3Z0VsSlJFNDJDanV4emhRLWNSVkd6LUE?oc=5",
+   "date": "2026-11-03 21:14",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "supply-chain"
+    ],
+    "korean_title": "AMD·엔비디아, 삼성 텍사스 칩 공장 고객 리스트 합류 가능",
+    "korean_summary": "AMD와 엔비디아가 삼성의 텍사스 칩 공장 고객 리스트에 합류할 가능성이 보도됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTGJrN3BUaWVieUJzNzFzSVU1YXRObG5xS0NHUWV3RkJsTTFGZkJlVDBSS1BGUFhvS1JWZkJzMDI5MXBCXzVrbFZ4VUlGN3M1T2ZTaGlFOFRaRTl0UElyekx4MV9ISTJsbUowT05CSkFDeFBPZ3ZkZ3FEVXhybzN3Z0VsSlJFNDJDanV4emhRLWNSVkd6LUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Carroll County Mirror-Democrat",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Fireworks Expands European Capacity With NVIDIA Vera Rubin and Grace Blackwell Platforms",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV2szVHBpVU5acW5KU3dpODROYTdWVGRwN0xZTGlJd2JpSG9tanZzSFZNZzRWbUVFTC1pdG9nRC1BOVBzUUt6WFNQeWlxS3BvZ2dRQzdFTjg3Qi1iYWU1akpLdDM4a0dqWXBkTzVTbVZRSURMMWw5aWpoZndCdWJabnJWVTFNU0pIRXl3T0RXNklfVEZyYVNhYkpNeTB1WGFyT3ZuV0dXckxOcllIS0JzNDJFTm9EeVk?oc=5",
+   "date": "2026-11-04 04:21",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Fireworks, NVIDIA Vera Rubin·Grace Blackwell으로 유럽 용량 확대",
+    "korean_summary": "Fireworks가 NVIDIA Vera Rubin 및 Grace Blackwell 플랫폼을 활용하여 유럽 인프라 확장"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV2szVHBpVU5acW5KU3dpODROYTdWVGRwN0xZTGlJd2JpSG9tanZzSFZNZzRWbUVFTC1pdG9nRC1BOVBzUUt6WFNQeWlxS3BvZ2dRQzdFTjg3Qi1iYWU1akpLdDM4a0dqWXBkTzVTbVZRSURMMWw5aWpoZndCdWJabnJWVTFNU0pIRXl3T0RXNklfVEZyYVNhYkpNeTB1WGFyT3ZuV0dXckxOcllIS0JzNDJFTm9EeVk",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Register",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia is happy to take your money whether you're using open or closed models, says Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWDFVVllIWUZnWjhLdzNsSGU1R19vQkQ0bHkxSWpYTFlZUUc5NXAxTkUwR1Nuc05kYlB4R1hBNmxkZmx5QkVqZ3NoUEdNMWlrQ1hvY3pCLV9STmQ3bmpCQVlFVTlybzhHcG9KVnJJRzVFUVNfalNkYlhyRUZMOWptUm13aUdJSkYza2U4YW9fNVY1NEE2VVJpV0pkQkNIM0pnSDJkUks1a0JuN2h3Y3J1cEg5dlFYRDZ3X1RLQ045TE9TUlFBSDNyTUJKbkJnMUY4MTE4U1I1dDFPaEFRQk1qMjRuay1Rdw?oc=5",
+   "date": "2026-11-04 06:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang, 오픈·클로즈 모델 모두 수익화하겠다",
+    "korean_summary": "Jensen Huang이 오픈소스와 클로즈드 모델 모두에서 수익을 거두겠다고 발언했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Nvidia is happy to take your money whether you're using open or closed models",
+     "link": "https://www.theregister.com/ai-and-ml/2026/11/03/nvidia-is-happy-to-take-your-money-whether-youre-using-open-or-closed-models-says-jensen-huang/5307368"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWDFVVllIWUZnWjhLdzNsSGU1R19vQkQ0bHkxSWpYTFlZUUc5NXAxTkUwR1Nuc05kYlB4R1hBNmxkZmx5QkVqZ3NoUEdNMWlrQ1hvY3pCLV9STmQ3bmpCQVlFVTlybzhHcG9KVnJJRzVFUVNfalNkYlhyRUZMOWptUm13aUdJSkYza2U4YW9fNVY1NEE2VVJpV0pkQkNIM0pnSDJkUks1a0JuN2h3Y3J1cEg5dlFYRDZ3X1RLQ045TE9TUlFBSDNyTUJKbkJnMUY4MTE4U1I1dDFPaEFRQk1qMjRuay1Rdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's New 14-Day AI Deployment Goal Could Unlock Faster Growth",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNem9RaWdOVUt6VjRsRTdnbldIWkdTLVUzeEkxR0RmRWNBNEZQdEtoSm9UU19HRDQzc2dtclVzX21pdkh6MXdpN3MyOTlQWFk1WjFTMk9waUhQcmlFaEhqM1lVUXBRclVVTVplYnhhRHl6UElpVTJjM2Nzb1dzNU5qR1hJdkk1b3JnY2h3dFVNelpwQmtPakQ1dzBiN3JpWGxnaFBWT2xMQmVRa0wy?oc=5",
+   "date": "2026-11-04 00:01",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아 14일 AI 배포 목표, 성장 가속화 가능",
+    "korean_summary": "The Motley Fool이 엔비디아의 14일 AI 배포 목표가 더 빠른 성장을 가능하게 할 수 있다고 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNem9RaWdOVUt6VjRsRTdnbldIWkdTLVUzeEkxR0RmRWNBNEZQdEtoSm9UU19HRDQzc2dtclVzX21pdkh6MXdpN3MyOTlQWFk1WjFTMk9waUhQcmlFaEhqM1lVUXBRclVVTVplYnhhRHl6UElpVTJjM2Nzb1dzNU5qR1hJdkk1b3JnY2h3dFVNelpwQmtPakQ1dzBiN3JpWGxnaFBWT2xMQmVRa0wy",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stocks Rebound 2.84% Before November 17 AI Earnings Check",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd0lwX2xpWkpkN3Vwd0oyaG9aZDd5Y0dlSE95Wk51U21fejRRT3JFa2doV3FIZTlIZmNtelBnMnFaWGRqeHNDZ0gxS3E3Nmd3aFgyOGJIeXVhYkdBLU1WQkFmVFJ5X2I5Z1c5b2t0SGI1ZjVFb0EtRkVQODFCZTZjSGxHdUM2Q1B1cVlCX2NncGVlTGZrbnc?oc=5",
+   "date": "2026-11-04 02:21",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "11월 17일 AI 실적 발표 앞두고 엔비디아 주가 2.84% 반등",
+    "korean_summary": "엔비디아 주가가 11월 17일 AI 실적 발표를 앞두고 2.84% 반등했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd0lwX2xpWkpkN3Vwd0oyaG9aZDd5Y0dlSE95Wk51U21fejRRT3JFa2doV3FIZTlIZmNtelBnMnFaWGRqeHNDZ0gxS3E3Nmd3aFgyOGJIeXVhYkdBLU1WQkFmVFJ5X2I5Z1c5b2t0SGI1ZjVFb0EtRkVQODFCZTZjSGxHdUM2Q1B1cVlCX2NncGVlTGZrbnc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Jon Peddie",
+   "category": "media",
+   "kind": "gnews",
+   "title": "AMD, Nvidia, and AI rework rendering",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGWEY1RlNVT0ZmSC1PN2U0dXM3RkJMRDJOSFdmUnRSRWNPYXc4aUVDMFVBLXgxUDNOVXQwOVFKcEY3cVNNQndmWWZaR2RyNFNIVGkyQnYtc0FvRGlyQ0pJanVwTkNKWGxlYk1ILVJPYUxDVVlo?oc=5",
+   "date": "2026-11-04 06:32",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AMD·NVIDIA, AI 기반 렌더링 기술 동향 분석",
+    "korean_summary": "Jon Peddie가 AMD와 NVIDIA의 AI 렌더링 기술 발전 방향을 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGWEY1RlNVT0ZmSC1PN2U0dXM3RkJMRDJOSFdmUnRSRWNPYXc4aUVDMFVBLXgxUDNOVXQwOVFKcEY3cVNNQndmWWZaR2RyNFNIVGkyQnYtc0FvRGlyQ0pJanVwTkNKWGxlYk1ILVJPYUxDVVlo",
+   "body": ""
+  },
+  {
+   "source": "Google News · Wccftech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA RTX 50 GPUs Will See A Massive Price Increase In November: RTX 5090s & 5080s Up By Almost $500, 5070 Ti Up $150 & Even RTX 5060 8GB Climbs Another $30",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGtueDR1cnNfY2dTQTVfVVcxelU1YUd1ODVOcV9vSFVaY2d1cWZGT0RwWkxSOHVzbHBHRjdWcVV5bmhMQ3FzNlg2VFk5dkJTLVF1a1hKakZpdkhlQ2Jyd2xYYms5UU50US1MeDRVRWI4Rll0aF9SS2hUYy1VQ2xXUkdRWkRwdmJa0gGOAUFVX3lxTE1hSWZaZU9MWEhOV0dBejZvRUN5Y21qV0p0cUZxRkgtanZ6SEtwLXl0dTdGdExFS3c4dGdNZ1E3WnlQNlg4NEs1YmlVYlJRaDVQRlJYRTk1N19IZnFpUEZKSm5Ld0o5UmExZ1BZblB1bWMzSU9WUjNJLXd6OWhvLVVKNDB6YThkR3UzRFBoM1E?oc=5",
+   "date": "2026-11-03 17:10",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA RTX 50 시리즈, 11월 대폭 가격 인상 예정",
+    "korean_summary": "RTX 5090·5080은 최대 500달러, RTX 5070 Ti는 150달러 인상될 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRGtueDR1cnNfY2dTQTVfVVcxelU1YUd1ODVOcV9vSFVaY2d1cWZGT0RwWkxSOHVzbHBHRjdWcVV5bmhMQ3FzNlg2VFk5dkJTLVF1a1hKakZpdkhlQ2Jyd2xYYms5UU50US1MeDRVRWI4Rll0aF9SS2hUYy1VQ2xXUkdRWkRwdmJa0gGOAUFVX3lxTE1hSWZaZU9MWEhOV0dBejZvRUN5Y21qV0p0cUZxRkgtanZ6SEtwLXl0dTdGdExFS3c4dGdNZ1E3WnlQNlg4NEs1YmlVYlJRaDVQRlJYRTk1N19IZnFpUEZKSm5Ld0o5UmExZ1BZblB1bWMzSU9WUjNJLXd6OWhvLVVKNDB6YThkR3UzRFBoM1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Interesting Engineering",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Omniverse digital twin could turn ocean waves into power for data centers",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd1ZXUTNWUHVHRlFjQ05vYW5PMzIwUlB1Rjd2NC1pQk1IT3U3N2FMV184Tm1QMGF3N056V2ZwYnNGamJKR2VCZHZlR2MtUXRGM0h5UWJrcnhvZXplTm5PY2RnWHFSR2xpaVhDckxBQ3FDZVdjQTloN3VWNG9USnFTSWlFdjVPQQ?oc=5",
+   "date": "2026-11-03 23:37",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA Omniverse 디지털 트윈, 해양 에너지로 데이터센터 전력 공급 가능성",
+    "korean_summary": "NVIDIA Omniverse가 파도 에너지를 데이터센터의 전원으로 활용할 수 있는 방안이 제시됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPd1ZXUTNWUHVHRlFjQ05vYW5PMzIwUlB1Rjd2NC1pQk1IT3U3N2FMV184Tm1QMGF3N056V2ZwYnNGamJKR2VCZHZlR2MtUXRGM0h5UWJrcnhvZXplTm5PY2RnWHFSR2xpaVhDckxBQ3FDZVdjQTloN3VWNG9USnFTSWlFdjVPQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA GTC Berlin | NVIDIA's Jensen Huang on the 'Marvel' of AI Datacenters",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm8zSDFfQTNXRkU2OWVmNE1pblF2YThFQzVuaEJIZU02Tm9rTUZTUTRHUWZSOGJPZVZVS3VfMkZOS21YRGhFeG5VTTdDSVk1NUt4TTRDV2JZZFloOGNWdlo2ZVY2RkpwU2phc0sxOGdNZWE3RmVMRWx0dmlnZENvT25QbkJFTUIy?oc=5",
+   "date": "2026-11-04 05:58",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA GTC Berlin: Jensen Huang, AI 데이터센터의 '경이로움' 강조",
+    "korean_summary": "NVIDIA GTC Berlin에서 CEO Jensen Huang이 AI 데이터센터의 가치를 주제로 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYm8zSDFfQTNXRkU2OWVmNE1pblF2YThFQzVuaEJIZU02Tm9rTUZTUTRHUWZSOGJPZVZVS3VfMkZOS21YRGhFeG5VTTdDSVk1NUt4TTRDV2JZZFloOGNWdlo2ZVY2RkpwU2phc0sxOGdNZWE3RmVMRWx0dmlnZENvT25QbkJFTUIy",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA GTC Berlin | Where Is The Demand for AI Compute Coming From?",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQmZHMjMweVA2VF9rZmRzWWd3SThyRWcwMGs0S1dhMHlfc3JsczVmN09BSW9RZmM5cDZGd0ptVWJocE9CdWxhQUxybWRUYWFzVWRPdzVub29mb2txVnBBMjZUanZZYXp6SW8xQml3aFpmZzdmajBWRnltNXcwUXhjZ1RqV1lzUQ?oc=5",
+   "date": "2026-11-04 05:03",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "엔비디아 GTC 베를린 | AI 컴퓨팅 수요의 원천은?",
+    "korean_summary": "엔비디아 GTC 베를린 행사에서 급증하는 AI 컴퓨팅 수요의 출처를 논의"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQmZHMjMweVA2VF9rZmRzWWd3SThyRWcwMGs0S1dhMHlfc3JsczVmN09BSW9RZmM5cDZGd0ptVWJocE9CdWxhQUxybWRUYWFzVWRPdzVub29mb2txVnBBMjZUanZZYXp6SW8xQml3aFpmZzdmajBWRnltNXcwUXhjZ1RqV1lzUQ",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia – open-source auto-ontology",
+   "link": "https://github.com/NVIDIA/auto-ontology",
+   "date": "2026-11-03 16:04",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, 오픈소스 auto-ontology 프로젝트 공개",
+    "korean_summary": "NVIDIA가 GitHub에 오픈소스 auto-ontology 프로젝트를 공개하여 개발자 커뮤니티의 높은 관심을 받았다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://github.com/NVIDIA/auto-ontology",
+   "body": "Article URL: https://github.com/NVIDIA/auto-ontology Comments URL: https://news.ycombinator.com/item?id=50348962 Points: 261 # Comments: 122"
+  },
+  {
+   "source": "Google News · AOL.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Is Nvidia a Buy Right Now?",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0cEs2RVJYMDJBa0l6cllpTWUyWGtnR1IzVjdSa24tenk0MFVNTXVSV2pkRnJzcFZKR2UzS0pWVFN1ZnktZmVHWkRvLUR4Qy05bTE1YjM2dVl1aGR0TkpfbG4wMGRyMlJqUlE?oc=5",
+   "date": "2026-11-04 00:40",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "지금 엔비디아 주식을 매수해야 할까?",
+    "korean_summary": "투자 전문가들이 현 시점에서 엔비디아 주식의 매수 가치를 평가"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Globe and Mail",
+     "title": "Is Nvidia a Buy Right Now?",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdzR6STJheVItQzZoTC1uN3d4REdwR0k1MUw5d2E3LUU0dEJDeXJQU0hEY1REVFhHSm80RU1vR054M2RhVGxOUFFTX2poTmVsRmUwbjg4WnNTTVp3dGJpeXRQN191QlVKUFNnT0ZqcUI5SmVmZTkweVhZd25kelJiSUp5a1RVNVhWX0t0TWxBb25XS3ROLVIxV3VlSXVDSDdHNHExWmk2eW02c29XQ2g4?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0cEs2RVJYMDJBa0l6cllpTWUyWGtnR1IzVjdSa24tenk0MFVNTXVSV2pkRnJzcFZKR2UzS0pWVFN1ZnktZmVHWkRvLUR4Qy05bTE1YjM2dVl1aGR0TkpfbG4wMGRyMlJqUlE",
+   "body": ""
+  },
+  {
+   "source": "Google News · KuCoin",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Claims AI is Reshaping Chip Factories, Simulation Speeds Up by Up to 35x",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOU9UeHQ0TlY3RzdFeGYwVTZGM2piblFBd2dyRUtaOTlGY2dwMlJBRVgzbUc0MGNySldtbnBqZzNfWUJKbjRSMkxTTE9GSXA2S2dZenptdXZuM0g0RjlobDJkSjJ4cHA0VFdWMjBQNUJUWngxZGpERzNCSjBrQmYwb2laalduZ1FZNTNQbUYtMzBtREJ3aTVoR3R3Rm14UDBKNlNzbnZLaUtoZw?oc=5",
+   "date": "2026-11-04 04:35",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, 칩 팩토리 AI 적용으로 시뮬레이션 35배 가속 주장",
+    "korean_summary": "NVIDIA가 AI 기술로 칩 팩토리 최적화 및 시뮬레이션 성능 향상을 주장함"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOU9UeHQ0TlY3RzdFeGYwVTZGM2piblFBd2dyRUtaOTlGY2dwMlJBRVgzbUc0MGNySldtbnBqZzNfWUJKbjRSMkxTTE9GSXA2S2dZenptdXZuM0g0RjlobDJkSjJ4cHA0VFdWMjBQNUJUWngxZGpERzNCSjBrQmYwb2laalduZ1FZNTNQbUYtMzBtREJ3aTVoR3R3Rm14UDBKNlNzbnZLaUtoZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · UA.NEWS",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA adds DLSS 5 to RTX Remix to update older games — Engadget",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWUyZjZZRkh4ZlNDbkhwdTdHMHNpUkY0MFFZM0NLSndRSWRZcVVyc0hTRFVXNFU1dENEemJJa0NYcGl2d1pObW5HUEtQMXpHeXdqM29tcjhwV1dvUlc2UkZoNVBZM195Y21vVVFnVnRwMWY3WnNLY3h4MU4tZjRSMDcwLUdfTWxtaXhNaER0bmF3ME9ialdRMzQzMi1MQS1MTmhfajRR?oc=5",
+   "date": "2026-11-04 08:27",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA, RTX Remix에 DLSS 5 기능 추가",
+    "korean_summary": "NVIDIA가 RTX Remix에 DLSS 5를 추가하여 구형 게임 업데이트 지원"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWUyZjZZRkh4ZlNDbkhwdTdHMHNpUkY0MFFZM0NLSndRSWRZcVVyc0hTRFVXNFU1dENEemJJa0NYcGl2d1pObW5HUEtQMXpHeXdqM29tcjhwV1dvUlc2UkZoNVBZM195Y21vVVFnVnRwMWY3WnNLY3h4MU4tZjRSMDcwLUdfTWxtaXhNaER0bmF3ME9ialdRMzQzMi1MQS1MTmhfajRR",
+   "body": ""
+  },
+  {
+   "source": "Google News · 富途牛牛",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Nvidia and Apple's Tug-of-War Says About the AI Trade -- Barrons.com",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRDM3UnlveUc2TXJzV1h2Z25mUEZKRXE2VHhFRTlPTFdXcGE4bGVIOEQ0WnIzalBoSGw0aTh2aTlEaDFrQ2pjSWxWSW1pbUFXeGhRLW5yeDBNWlg4eTRTUFFYZS1IdE1rQWRWN3lkUFpRWkFEZTNqQk5NWHRhVkcyMDl6eVFCcmxlc2hYckdBUDRSdw?oc=5",
+   "date": "2026-11-04 03:31",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA와 Apple의 경쟁, AI 거래 방향성을 시사",
+    "korean_summary": "NVIDIA와 Apple 간의 경쟁 구도가 AI 거래 시장의 향후 방향을 보여준다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRDM3UnlveUc2TXJzV1h2Z25mUEZKRXE2VHhFRTlPTFdXcGE4bGVIOEQ0WnIzalBoSGw0aTh2aTlEaDFrQ2pjSWxWSW1pbUFXeGhRLW5yeDBNWlg4eTRTUFFYZS1IdE1rQWRWN3lkUFpRWkFEZTNqQk5NWHRhVkcyMDl6eVFCcmxlc2hYckdBUDRSdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Samsung Secures AMD, Nvidia Orders for New Texas Chip Plant",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN1ZyVXZGWkpkZ2tpSFBTN29YOVFuUm5pUnFCd2VGRmpnRmN0Nl83TWFtcmUtREFzR1dQcldSTDBZeDlhR1FhOHk5blRwNDlGUzFYQVo4d0RjT1c0UldrRVhHcWJHNkxETms1WGQtLWxOblZqV1liMFRBVVVLNnlxa242VmxoWFdkYUE4clZkTjFvN1FoREFad0lzX1hBMnZic00zM1FJZGVheTdPVkw2Z2lRcGVWcXRYT3c?oc=5",
+   "date": "2026-11-04 03:21",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Samsung, 텍사스 칩 공장 건설용 NVIDIA·AMD 장비 주문 확보",
+    "korean_summary": "Samsung이 텍사스 신규 반도체 제조 공장 건설을 위해 NVIDIA와 AMD로부터 주문을 확보했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN1ZyVXZGWkpkZ2tpSFBTN29YOVFuUm5pUnFCd2VGRmpnRmN0Nl83TWFtcmUtREFzR1dQcldSTDBZeDlhR1FhOHk5blRwNDlGUzFYQVo4d0RjT1c0UldrRVhHcWJHNkxETms1WGQtLWxOblZqV1liMFRBVVVLNnlxa242VmxoWFdkYUE4clZkTjFvN1FoREFad0lzX1hBMnZic00zM1FJZGVheTdPVkw2Z2lRcGVWcXRYT3c",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "New \"GPU App Priorization\" setting in NVIDIA App",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xn97mh/new_gpu_app_priorization_setting_in_nvidia_app/",
+   "date": "2026-11-04 08:52",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA App에 GPU 앱 우선순위 설정 기능 추가",
+    "korean_summary": "NVIDIA App에 백그라운드와 포그라운드 앱의 GPU 리소스 배분을 조정하는 새로운 기능이 추가되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xn97mh/new_gpu_app_priorization_setting_in_nvidia_app",
+   "body": "https://preview.redd.it/5mcdbldajhzh1.png?width=1185&format=png&auto=webp&s=1646cfefb56410833790c6127a3ece166aff380e Seems like it only shows up with a R620 driver branch, with NVIDIA App version 11.0.9.585 Default is 20% for background apps and 80% for foreground apps. Prioritizing Foreground is 10% background 90% foreground, can also custom with 5% background 95% foreground. It's available in \"System > Advanced\" tab. https://preview.redd.it/w5m14nhmjhzh1.png?width=1283&format=png&auto=webp&s=629816c5700211ddf3b6b26f38216d2a7af3c658 submitted by /u/Warkratos [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball",
+   "date": "2026-11-03 10:21",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball",
+    "version": "any-to-any"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron 농구 특화 파인튜닝 모델 배포",
+    "korean_summary": "Hugging Face에서 NVIDIA의 Nemotron-3-Nano-Omni 기반 파인튜닝 버전이 농구 플레이 분석 및 선수 인식에 최적화되어 출시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball:2026-11-03",
+   "body": "Hugging Face 모델 업데이트. pipeline: any-to-any · library: transformers · tags: transformers, safetensors, NemotronH_Nano_Omni_Reasoning_V3, feature-extraction, nvidia, pytorch, multimodal, any-to-any, custom_code, base_model:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16, base_model:finetune:nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16 · downloads 191 · likes 2. README:  # Model Overview ## NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball ## At a Glance | | | |---|---| | **Total parameters** | 31B (Mamba2-Transformer hybrid Mixture of Experts (MoE)) | | **Active parameters** | ~3B per token | | **Max context** | 256k tokens | | **Modalities (in)** | Video, Audio, Image, Text | | **Modality (out)** | Text | | **Best for** | Play-level basketball Q&A, player action and shot understanding, play-structure reasoning, player identification (jersey numbers and team colours), and structured play captioning | | **Fine-tuning data** | 127k Q&A pairs over 11.2k play clips (51 Basketball games) | | **Minimum GPU (BF16)** | 1× A100 80GB or 1× H100 80GB (single-GPU); 1× B200 / 1× H200 recommended | | **Precisions** | bfloat16 (BF16) (`NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball`, ~62 GB) — TBD | ### Description: NVIDIA-NemotronLabs-AI-for-Media-Sports-Basketball is a fine-tuned multimodal large language model derived from Nemotron 3 Nano Omni. It was further trained on Q&A pairs generated from BARD, a public dataset of play-level basketball broadcast video clips with human-validated annotations, to specialize in basketball play understanding. The model supports structured multiple-choice and open-ended Q&A over play clips, covering player actions, shot mechanics and outcomes, rebounding, play structure, player identification (jersey numbers and team colours), and structured play captioning. It works best when a full basketball play clip is passed"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 25,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 151.0
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 27,
+   "enriched": 27,
+   "error": "",
+   "sec": 9.0
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 3,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 7,
+   "error": "",
+   "sec": 6.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 28.4
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 3.9
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 46,
+   "enriched": 46,
+   "error": "",
+   "sec": 4.0
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.8
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
