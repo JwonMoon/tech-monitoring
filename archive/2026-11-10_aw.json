@@ -1,0 +1,395 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-10",
+ "window": [
+  "2026-11-09",
+  "2026-11-10"
+ ],
+ "generated": "2026-11-10T12:47:55+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Autoware Foundation이 CUDA 기본 패키지를 **Core**로 이전해 Autoware 2.1.0을 출시하며 경량 빌드 환경을 제공했다."
+ ],
+ "cards": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "autowarefoundation/autoware 2.1.0",
+   "link": "https://github.com/autowarefoundation/autoware/releases/tag/2.1.0",
+   "date": "2026-11-10 09:47",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "autowarefoundation/autoware",
+    "version": "2.1.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Architecture-Core",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "architecture"
+    ],
+    "korean_title": "Autoware 2.1.0 출시: CUDA 패키지 Core로 통합",
+    "korean_summary": "Autoware Foundation이 2.1.0을 출시하여 CUDA 기본 패키지를 Autoware Core로 이관하고 Docker 이미지 구조를 재정비했다."
+   },
+   "summary_data": {
+    "korean_title": "Autoware 2.1.0 출시, CUDA 레이어를 Autoware Core로 이전",
+    "korean_summary": "Autoware Foundation이 CUDA 기본 패키지를 Universe에서 Core로 옮기고 Core 전용 CUDA Docker 이미지를 새로 배포하여 경량 빌드 환경을 제공했다.",
+    "action": {
+     "actor": "Autoware Foundation",
+     "action": "CUDA 기본 패키지를 신규 저장소 autoware_cuda로 분리해 Autoware Core에 통합하고, core-dependencies-cuda·core-devel-cuda·core-cuda 등 Core CUDA Docker 이미지를 신규 공개",
+     "stage": "Shipping",
+     "timeline": "2.1.0 릴리스 (정확한 발표일 미확인)",
+     "scope": "ROS 2 Humble/Jazzy, amd64/arm64 빌드 대상 전체 Autoware Core/Universe 사용자"
+    },
+    "key_facts": [
+     "CUDA 기본 패키지가 Universe에서 분리되어 새 저장소 autoware_cuda 1.0.0(autoware_cuda_dependency_meta, autoware_cuda_utils, autoware_tensorrt_common 포함)으로 이동",
+     "cuda_blackboard와 negotiated가 universe/external에서 core/cuda로 이동했으나 **패키지명은 변경되지 않아 의존 코드 수정 불필요**",
+     "core-dependencies-cuda, core-devel-cuda, core-cuda 3종의 신규 Core CUDA 이미지가 처음으로 2.1.0 태그와 함께 배포됨",
+     "**core-devel-cuda는 universe-devel-cuda보다 훨씬 작은 크기**로, Universe 패키지가 필요 없는 CUDA 전용 빌드에 사용 가능",
+     "Ubuntu 24.04에서 rosdep pip 키 설치 오류를 해결하기 위한 python_venv Ansible 역할과 CARLA 1.0/nightly 설치용 carla 역할이 신규 추가됨"
+    ],
+    "why_matters": "CUDA 레이어를 Core로 승격시킴으로써 **GPU 가속 기능을 Universe 전체 의존 없이 경량 환경에서 사용할 수 있게** 되어 임베디드·엣지 디바이스나 커스텀 스택 개발자의 빌드 부담이 줄어든다. 이는 Autoware Core가 단순 기준 구현을 넘어 실제 양산·연구 환경에서 독립적으로 채택 가능한 플랫폼으로 발전하고 있음을 보여준다.",
+    "subject_angle": "TIER IV가 주도하는 Autoware Foundation이 **Core/Universe 분리 아키텍처를 심화**시켜 Core를 상업적 이식성과 경량성을 갖춘 기반 플랫폼으로 포지셔닝하려는 전략으로 해석되며, 이는 TIER IV의 B2B 라이선싱·OEM 공급 전략에도 유리하다.",
+    "focus_angle": "기존에는 CUDA 관련 패키지가 Universe에 속해 있어 GPU 가속 기능을 쓰려면 무거운 universe-devel-cuda 이미지 전체를 빌드해야 했으나, 이번 변경으로 **Core만으로 CUDA 가속 빌드가 가능**해져 빌드 시간·이미지 크기가 줄고 Core 단독 채택 장벽이 낮아진다. 패키지명이 유지되어 **기존 의존 코드의 무중단 마이그레이션**이 보장되는 점도 채택 확산에 긍정적이다.",
+    "companies": [
+     {
+      "name": "Autoware Foundation",
+      "context": "Autoware 2.1.0 릴리스를 발표하고 CUDA 레이어 재구성을 주도"
+     },
+     {
+      "name": "TIER IV",
+      "context": "Autoware Foundation 주요 참여/주도 기업으로서 생태계 전략에 영향 (본문에 직접 언급은 없음, 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware Core",
+      "role": "CUDA 레이어를 새로 흡수한 기준 아키텍처 계층, 1.10.0으로 업데이트"
+     },
+     {
+      "name": "autoware_cuda",
+      "role": "CUDA 기본 패키지를 담는 신규 독립 저장소, 버전 1.0.0"
+     },
+     {
+      "name": "Autoware Universe",
+      "role": "CUDA 패키지를 Core로 이전하고 Core CUDA 이미지 기반으로 빌드 전환, 0.53.2로 업데이트"
+     },
+     {
+      "name": "core-devel-cuda / core-cuda / core-dependencies-cuda",
+      "role": "신규 공개된 Core 전용 CUDA Docker 이미지"
+     }
+    ],
+    "watch_next": [
+     "autoware_cuda 저장소의 향후 버전 업데이트 및 Core 생태계 내 역할 확대 여부",
+     "core-devel-cuda 기반의 실제 경량 빌드 채택 사례 및 성능/크기 비교 수치 공개 여부",
+     "TIER IV의 상용 제품·서비스에 Core CUDA 이미지가 적용되는 공식 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "gh:autowarefoundation/autoware:2.1.0",
+   "body": "Autoware 2.1 moves the CUDA base packages into Autoware Core and publishes Docker images for the CUDA layer of Core. Highlights The CUDA layer of Autoware Core The CUDA base packages left Autoware Universe. They are now in the new repository autoware_cuda 1.0.0, which holds autoware_cuda_dependency_meta , autoware_cuda_utils and autoware_tensorrt_common . cuda_blackboard and negotiated moved from universe/external to core/cuda . The package names did not change, so packages that depend on them need no code change. #7379 Announcement: discussion 7156 Core CUDA images Three new images contain Autoware Core with its CUDA layer: core-dependencies-cuda , core-devel-cuda and core-cuda . A package that needs CUDA but no Universe package can now build on core-devel-cuda , which is much smaller than universe-devel-cuda . The universe CUDA images now build on the core CUDA images. #7383 #7386 Python venv for rosdep pip keys On Ubuntu 24.04, rosdep install fails for pip keys because the system Python is externally managed. The new optional Ansible role python_venv creates a venv at <workspace>/.venv , and the Docker images and the CI install the pip keys into a venv too. #7393 CARLA The new Ansible role carla installs CARLA 1.0 or the nightly build. #7390 Versions Repository Version autoware_core 1.10.0 autoware_cuda 1.0.0 autoware_universe 0.53.2 autoware_launch 0.53.0 autoware_msgs 1.13.0 autoware_internal_msgs 1.16.0 autoware_utils 1.11.0 The full list is in repositories/autoware.repos . Docker images The images are built for ROS 2 Humble and Jazzy, for amd64 and arm64. Each image has a 2.1.0 tag in the form <image>-<rosdistro>-2.1.0 . This is the first release with tags for the core CUDA images, for example: docker pull ghcr.io/autowarefoundation/autoware:core-devel-cuda-jazzy-2.1.0 Upgrade notes CUDA packages moved: if your workspace was imported before this release, vcs import does not delete the old copies. After vcs import src < repositories/autoware.repos , run: rm -r"
+  }
+ ],
+ "headlines": [],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 124,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 5,
+   "enriched": 5,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 13.0
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 48,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 19.9
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
