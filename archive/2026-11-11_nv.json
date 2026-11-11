@@ -1,0 +1,2933 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-11",
+ "window": [
+  "2026-11-10",
+  "2026-11-11"
+ ],
+ "generated": "2026-11-11T10:25:25+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 차량 탑재 자율주행용 **Alpamayo 2 Edge** 모델을 공개해 엣지 환경에서의 경량 추론을 지원한다.",
+  "NVIDIA 이사회가 독립 조사를 위해 전직 검사 **Joon H. Kim**을 선임해 내부 논란 대응에 나섰다.",
+  "Jensen Huang과 관계를 맺은 Alice Huang이 **75억 달러** 규모 금지 GPU의 중국 밀반입에 관여했다는 보도가 나왔다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Alphabet, and Micron Just Agreed to Buy $26 Billion of Stock in One of Their Biggest Customers",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMjFLeTI3UDd6aTRDcTNHcGpvenN2VXMyd1FVempYWGZpV3hkcDFtR1N0UnVZWXdmMjhMdlVjN1h6TV9kMHlhZjgxdm14OXFvQkFxM2VDYndEM0pmVVJJX3JtVnlrRnVpd3JPM2UyQjZOSl9xdTVtSzN2YUVoSElzUlFGbDJWa3RwY1BDdURTUnJ2Q3dveUdQTGUxdU05bDVlSUdiUTNLc1JOeC1RdE9zZklFVi1vWWVxeWx4T3V6MTNMbDJUdWVfczB0Ti1FRjBidzBrVnB2OTN4QQ?oc=5",
+   "date": "2026-11-11 00:03",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA·Alphabet·Micron, 주요 고객 주식 260억 달러 공동 매입",
+    "korean_summary": "NVIDIA, Alphabet, Micron이 공통 주요 고객의 주식 260억 달러를 공동 매입하기로 합의했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMjFLeTI3UDd6aTRDcTNHcGpvenN2VXMyd1FVempYWGZpV3hkcDFtR1N0UnVZWXdmMjhMdlVjN1h6TV9kMHlhZjgxdm14OXFvQkFxM2VDYndEM0pmVVJJX3JtVnlrRnVpd3JPM2UyQjZOSl9xdTVtSzN2YUVoSElzUlFGbDJWa3RwY1BDdURTUnJ2Q3dveUdQTGUxdU05bDVlSUdiUTNLc1JOeC1RdE9zZklFVi1vWWVxeWx4T3V6MTNMbDJUdWVfczB0Ti1FRjBidzBrVnB2OTN4QQ",
+   "body": ""
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-N1.7-3B (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-N1.7-3B",
+   "date": "2026-11-11 07:10",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-N1.7-3B",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac GR00T N1.7-3B 휴머노이드 로봇 파운데이션 모델",
+    "korean_summary": "NVIDIA가 로봇 조작 작업용 GR00T N1.7-3B 메이저 파운데이션 모델을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 휴머노이드 로봇 파운데이션 모델 Isaac GR00T N1.7-3B 업데이트",
+    "korean_summary": "NVIDIA가 휴머노이드 로봇을 위한 범용 추론·조작 파운데이션 모델 Isaac GR00T N1.7-3B를 Hugging Face에서 업데이트해 개발자들이 실제·합성 데이터로 특정 로봇에 맞게 post-training할 수 있도록 제공했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Isaac GR00T N1.7-3B 휴머노이드 로봇 파운데이션 모델을 Hugging Face에 업데이트 배포",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "GR00T N1.7 모델 패밀리(4종, SimplerEnv Bridge/Fractal 포함), 상업/비상업적 사용 가능"
+    },
+    "key_facts": [
+     "**Isaac GR00T N1.7은 cross-embodiment 휴머노이드 로봇용 범용 추론·조작 오픈 파운데이션 모델**이며 medium 크기 버전(3B)",
+     "비전·언어 인코더와 flow matching action transformer로 비전·언어·proprioception 조건의 행동 시퀀스를 모델링",
+     "다운로드 57,030회, likes 188회 기록",
+     "**모델 패밀리는 4종으로, SimplerEnv Bridge/Fractal 등 post-training 버전 포함**",
+     "BridgeData V2 기반 데이터셋은 60,096개 trajectories, 24개 환경에서 수집"
+    ],
+    "why_matters": "NVIDIA가 휴머노이드 로봇용 오픈 파운데이션 모델을 지속적으로 업데이트·공개함으로써 **로봇 파운데이션 모델 생태계 선점**을 강화하고 있다. 상업적 사용이 허용되어 로봇 스타트업·연구기관의 채택 장벽을 낮춰 NVIDIA 플랫폼 중심의 개발자 락인 효과를 키울 수 있다.",
+    "subject_angle": "GR00T는 NVIDIA의 Isaac 로보틱스 스택에서 **휴머노이드 로봇 '뇌' 역할의 핵심 소프트웨어 자산**으로, 하드웨어(GPU)와 소프트웨어(파운데이션 모델) 결합 전략을 강화한다.",
+    "focus_angle": "자동차·로봇 산업 관점에서 GR00T N1.7은 **휴머노이드 로봇 제조사들이 자체 파운데이션 모델 개발 없이 post-training만으로 제품화할 수 있게 하는 레퍼런스 모델**로, 자율주행에서 축적된 NVIDIA의 시뮬레이션·멀티모달 AI 역량이 휴머노이드 로봇 OEM 진입 장벽을 낮추는 효과를 가진다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발사, Isaac GR00T 플랫폼 운영"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     },
+     {
+      "name": "IPEC-COMMUNITY",
+      "context": "post-training용 데이터셋(bridge_orig_lerobot) 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Isaac GR00T N1.7-3B",
+      "role": "휴머노이드 로봇용 범용 조작·추론 파운데이션 모델(medium 버전)"
+     },
+     {
+      "name": "GR00T N1.7 – SimplerEnv Bridge/Fractal",
+      "role": "특정 데이터셋으로 post-training된 모델 변형"
+     },
+     {
+      "name": "BridgeData V2 / Fractal Dataset",
+      "role": "post-training용 로봇 조작 trajectory 데이터셋"
+     }
+    ],
+    "watch_next": [
+     "GR00T N1.7 기반 실제 휴머노이드 로봇 제조사 채택 사례 발표 여부",
+     "차기 버전(GR00T N2 등) 로드맵 및 모델 크기 다양화 계획",
+     "SimplerEnv 외 추가 post-training 데이터셋·벤치마크 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/GR00T-N1.7-3B:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, Gr00tN1d7, robotics, arxiv:2503.14734 · downloads 57030 · likes 188. README:  --> # Model Overview ## Description: NVIDIA Isaac GR00T N1.7 is an open foundation model for generalized humanoid robot reasoning and skills. This cross-embodiment model takes multimodal input, including language and images, to perform manipulation tasks in diverse environments. Developers and researchers can post-train GR00T N1.7 with real or synthetic data for their specific humanoid robot or task. Isaac GR00T N1.7 is the medium-sized version of our model built using pre-trained vision and language encoders, and uses a flow matching action transformer to model a chunk of actions conditioned on vision, language and proprioception. A detailed description of the Isaac GR00T N1.X architecture is provided in the GROOT N1 White Paper (https://arxiv.org/abs/2503.14734). This model is ready for commercial/non-commercial use. **Model Developer**: NVIDIA ## Model Versions The Isaac GR00T N1.7 model family includes the following 4 models: ### GR00T N1.7 – SimplerEnv Bridge **Description** N1.7 post-trained model using the **Bridge Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot **Dataset Summary** A LeRobot-format conversion of **BridgeData V2**, originally containing **60,096 trajectories** of robot manipulation across **24 environments**. ### GR00T N1.7 – SimplerEnv Fractal **Description** N1.7 post-trained model using the **Fractal Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-N1.7-LIBERO (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-N1.7-LIBERO",
+   "date": "2026-11-11 07:11",
+   "score": 8,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-N1.7-LIBERO",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA GR00T N1.7 휴머노이드 로봇 모델 업데이트",
+    "korean_summary": "NVIDIA가 Hugging Face에서 GR00T N1.7 휴머노이드 로봇 기초 모델을 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 휴머노이드 로봇용 파운데이션 모델 'Isaac GR00T N1.7' 업데이트 공개",
+    "korean_summary": "NVIDIA가 범용 휴머노이드 로봇 추론·조작 능력을 위한 중형 파운데이션 모델 Isaac GR00T N1.7을 Hugging Face에 업데이트하여 연구자들이 자체 데이터로 후속 학습할 수 있도록 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Isaac GR00T N1.7 모델 패밀리(4종) 업데이트 및 Hugging Face 공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "GR00T N1.7 SimplerEnv Bridge, SimplerEnv Fractal 등 4개 버전, 상업적/비상업적 사용 가능"
+    },
+    "key_facts": [
+     "**Isaac GR00T N1.7은 비전·언어 인코더 기반의 중형(medium-sized) 크로스-엠보디먼트 모델**로 flow matching action transformer를 사용",
+     "모델 패밀리는 SimplerEnv Bridge, SimplerEnv Fractal 등 **4개 버전**으로 구성",
+     "SimplerEnv Bridge는 BridgeData V2 기반으로 **60,096개 trajectories, 24개 환경**에서 post-training",
+     "관련 백서는 arXiv:2503.14734(GR00T N1 White Paper)에 공개",
+     "상업적/비상업적 사용이 모두 가능(ready for commercial/non-commercial use)하며 likes 12, downloads 0"
+    ],
+    "why_matters": "**휴머노이드 로봇 분야의 파운데이션 모델 경쟁**이 본격화되는 가운데 NVIDIA가 오픈소스 형태로 생태계 선점을 시도하고 있다. 연구자·스타트업이 자체 하드웨어에 맞춰 post-training할 수 있는 구조는 로봇 OEM들의 진입장벽을 낮춰 NVIDIA 플랫폼 표준화를 가속할 수 있다.",
+    "subject_angle": "**Isaac GR00T는 NVIDIA의 로봇 파운데이션 모델 전략의 핵심 축**으로, 반도체·시뮬레이션(Omniverse/Isaac Sim) 중심에서 소프트웨어·AI 모델 레이어로 비즈니스를 확장하려는 시도를 보여준다.",
+    "focus_angle": "휴머노이드 로봇 OEM이 GR00T N1.7을 활용해 **cross-embodiment 조작 능력을 자사 로봇에 post-training**함으로써 개발 속도를 높일 수 있으며, 이는 자율주행이 아닌 휴머노이드 로봇 제조사들에게 NVIDIA를 표준 AI 스택으로 채택하게 만드는 레버리지가 될 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발사, Isaac GR00T N1.7 공개"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     },
+     {
+      "name": "IPEC-COMMUNITY",
+      "context": "post-training용 데이터셋(bridge_orig_lerobot) 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Isaac GR00T N1.7",
+      "role": "휴머노이드 로봇용 중형 파운데이션 모델, 멀티모달 입력으로 조작 작업 수행"
+     },
+     {
+      "name": "GR00T N1.7 – SimplerEnv Bridge",
+      "role": "BridgeData V2로 post-training된 모델 버전"
+     },
+     {
+      "name": "GR00T N1.7 – SimplerEnv Fractal",
+      "role": "Fractal Dataset으로 post-training된 모델 버전"
+     }
+    ],
+    "watch_next": [
+     "GR00T N1.7의 실제 로봇 OEM 채택 사례 및 성능 벤치마크 공개 여부",
+     "N1.X 시리즈의 차기 버전(N2 등) 로드맵 발표 여부",
+     "downloads/likes 증가 추이로 본 커뮤니티 채택도"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/GR00T-N1.7-LIBERO:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, robotics, arxiv:2503.14734 · downloads 0 · likes 12. README:  --> # Model Overview ## Description: NVIDIA Isaac GR00T N1.7 is an open foundation model for generalized humanoid robot reasoning and skills. This cross-embodiment model takes multimodal input, including language and images, to perform manipulation tasks in diverse environments. Developers and researchers can post-train GR00T N1.7 with real or synthetic data for their specific humanoid robot or task. Isaac GR00T N1.7 is the medium-sized version of our model built using pre-trained vision and language encoders, and uses a flow matching action transformer to model a chunk of actions conditioned on vision, language and proprioception. A detailed description of the Isaac GR00T N1.X architecture is provided in the GROOT N1 White Paper (https://arxiv.org/abs/2503.14734). This model is ready for commercial/non-commercial use. **Model Developer**: NVIDIA ## Model Versions The Isaac GR00T N1.7 model family includes the following 4 models: ### GR00T N1.7 – SimplerEnv Bridge **Description** N1.7 post-trained model using the **Bridge Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot **Dataset Summary** A LeRobot-format conversion of **BridgeData V2**, originally containing **60,096 trajectories** of robot manipulation across **24 environments**. ### GR00T N1.7 – SimplerEnv Fractal **Description** N1.7 post-trained model using the **Fractal Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC"
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Says Nvidia Alpamayo 2 Edge Is Here",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWMxV1ZsTGR4UzFBU1ZyRmptajd1aWtWcUpkM3RTQ1FGaWF6WVBqNVRVVFNOZlFVNC0xMVZ2anlJYmE1aHB2eUpqQklmLW1Gcm1sNlloeTBwUURxaWQ2UU5ZZTdHUGUtSVF0NmtVOEdfV1VoMTBxX1hockZGQ0Y5Q0hzY2drcHpjbXdwNnh4MFROT0RpOXBUT2cyM1BNUTdrTDdRbXFjOVkxSTB1Vlg2cmxB?oc=5",
+   "date": "2026-11-11 01:14",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "new-platform",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Alpamayo 2 Edge 출시",
+    "korean_summary": "NVIDIA가 엣지 자율주행용 신규 플래그십 플랫폼 Alpamayo 2 Edge를 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRWMxV1ZsTGR4UzFBU1ZyRmptajd1aWtWcUpkM3RTQ1FGaWF6WVBqNVRVVFNOZlFVNC0xMVZ2anlJYmE1aHB2eUpqQklmLW1Gcm1sNlloeTBwUURxaWQ2UU5ZZTdHUGUtSVF0NmtVOEdfV1VoMTBxX1hockZGQ0Y5Q0hzY2drcHpjbXdwNnh4MFROT0RpOXBUT2cyM1BNUTdrTDdRbXFjOVkxSTB1Vlg2cmxB",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "Statement From the Independent Members of the NVIDIA Board",
+   "link": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+   "date": "2026-11-11 04:07",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 이사회, 독립적 조사 착수 공시",
+    "korean_summary": "NVIDIA 이사회 독립 멤버들이 법무법인 Wachtell, Lipton, Rosen & Katz를 선임하여 독립적 조사를 진행하기로 결정했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA 이사회, 독립 조사 위해 전직 검사 Joon H. Kim 선임",
+    "korean_summary": "NVIDIA 이사회의 독립 이사들이 지난 일요일 발표한 대로 전직 뉴욕남부지검 검사장 대행 Joon H. Kim과 그의 로펌 Wachtell, Lipton, Rosen & Katz를 선임해 독립적인 조사를 진행하기로 했다.",
+    "action": {
+     "actor": "NVIDIA Board의 독립 이사들",
+     "action": "Joon H. Kim 및 Wachtell, Lipton, Rosen & Katz 로펌을 선임하여 **독립적인 조사(independent investigation)**를 진행",
+     "stage": "Announced",
+     "timeline": "2026-11-10 (발표일); 선임 결정 자체는 그 이전 일요일",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "NVIDIA Board의 독립 이사들이 성명을 발표함",
+     "**Joon H. Kim**은 전직 미국 뉴욕남부지검 검사장 대행(former acting U.S. Attorney of the Southern District of New York)",
+     "조사를 수행할 로펌은 **Wachtell, Lipton, Rosen & Katz**",
+     "이번 조사 선임은 지난 일요일에 이미 발표된 사안의 후속 성명",
+     "발표일은 2026년 11월 10일"
+    ],
+    "why_matters": "대형 반도체·AI 기업인 NVIDIA 이사회가 **외부 독립 조사**를 공식화했다는 점은 거버넌스 리스크나 내부 이슈가 투자자·시장의 주목을 받고 있음을 시사한다. 조사의 구체적 대상과 범위가 공개되지 않아 불확실성이 지속될 가능성이 있다.",
+    "subject_angle": "본문에는 조사의 구체적 사유나 대상이 명시되지 않아 **NVIDIA의 사업·기술 전략에 대한 직접적 함의는 확인되지 않음**이며, 거버넌스 측면의 사안으로 판단된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "이사회 독립 이사들이 성명을 발표한 당사 기업"
+     },
+     {
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "context": "독립 조사를 수행하는 로펌으로 선임됨"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "지난 일요일 발표된 조사 착수의 구체적 사유 및 대상 확인",
+     "조사 범위·일정 및 결과 발표 여부",
+     "조사가 NVIDIA 경영진·사업 운영에 미치는 영향 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Statement from the Independent Members of the Nvidia Board",
+     "link": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+   "body": "The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz to conduct a thorough and independent investigation as was announced on Sunday. Statement From the Independent Members of the NVIDIA Board November 10, 2026"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+   "link": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "date": "2026-11-11 02:04",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA CEO 젠슨 황, 중국 첩보원과의 부정행위 인정",
+    "korean_summary": "NVIDIA CEO 젠슨 황이 중국 국가안보부 첩보원으로 의심되는 Alice Huang과의 부정행위를 인정했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang, 중국 스파이 의혹 인물과의 불륜 인정…국가안보 논란 확산",
+    "korean_summary": "Nvidia CEO Jensen Huang가 중국 스파이로 의심되는 Megaspeed 임원 Alice Huang과의 불륜을 인정하면서, Nvidia 칩의 중국 유출 의혹과 국가안보 우려가 결합된 논란이 확산되고 있다.",
+    "action": {
+     "actor": "Jensen Huang (Nvidia CEO)",
+     "action": "직원들에게 보낸 공개 서한(보도자료로도 발표)에서 불륜을 인정하고, 해당 사안을 국가안보 관련 보도와 연결하며 Nvidia 이사회의 독립적 조사에 협조하겠다고 밝힘",
+     "stage": "Announced",
+     "timeline": "2026년 11월 8일 (인정), 11월 9일 (주가 하락 및 일정 취소)",
+     "scope": "Nvidia 경영진 및 이사회, 미국 하원 3개 위원회(중국특위·외교·정보)의 조사 대상"
+    },
+    "key_facts": [
+     "Megaspeed는 지난 2년간 **$4.8 billion** 규모의 Nvidia 칩을 구매했으며, 미국과 싱가포르로부터 중국에 불법 공유 의혹으로 조사받은 바 있음",
+     "Alice Huang 관련 회사 Shanghai Century Litong은 2023년 설립, Nvidia-preferred cloud partner로 **$7.5 billion** 상당의 Nvidia 칩(수출 금지 칩 포함)을 거래한 것으로 보도됨",
+     "Nvidia 수석 법률고문 Tim Teter가 2025년 Megaspeed 밀수 의혹 조사에 개입, Commerce Under Secretary Jeffrey Kessler에게 Alice Huang 구금 관련 질문을 함",
+     "11월 8일 Jensen Huang이 직원들에게 불륜을 공개 인정하며 **Nvidia 이사회의 독립 조사**가 시작됐고, 다음날 Nvidia 주가가 5% 이상 하락",
+     "하원 3개 위원회 위원장(China Select Committee, Foreign Affairs, Intelligence)이 Huang에게 비공개 합동 브리핑을 요청"
+    ],
+    "why_matters": "이번 사건은 미·중 AI 기술 경쟁의 핵심 축인 **Nvidia의 수출통제 준수 체계**에 대한 신뢰성 문제로 직결되며, CEO 개인 스캔들이 회사의 지정학적 리스크로 전이된 드문 사례다. 의회 조사와 이사회 조사가 동시에 진행되면서 Nvidia의 대중국 칩 공급망 관리와 경영 거버넌스에 대한 외부 압력이 커지고 있다.",
+    "subject_angle": "Nvidia는 세계 최대 AI칩 공급사로서 미국의 대중 수출통제 준수가 핵심 경쟁력이자 리스크 요인인데, 이번 의혹은 **고객사(Megaspeed)를 통한 우회 유통 가능성**이 CEO의 개인 스캔들과 얽히며 회사 신뢰도와 규제 리스크를 동시에 위협한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "AI 칩 공급사, CEO 스캔들 및 이사회 조사의 중심"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 기반 AI 인프라 기업, Alice Huang 소속, 미·싱가포르 밀수 의혹 조사 대상"
+     },
+     {
+      "name": "Shanghai Century Litong",
+      "context": "Alice Huang 관련 네트워크가 설립한 중국 기업, Nvidia-preferred cloud partner로 칩 거래 창구 역할"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia AI chips (banned chips 포함)",
+      "role": "Megaspeed 및 Shanghai Century Litong을 통한 대규모 구매·수출통제 우회 의혹의 대상"
+     }
+    ],
+    "watch_next": [
+     "Nvidia 이사회 독립 조사 결과 발표 시점 및 내용",
+     "하원 3개 위원회 비공개 브리핑 진행 여부와 결과",
+     "Megaspeed·Shanghai Century Litong에 대한 미국 정부의 추가 수출통제 조치 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaDBiUTFkTHU3M0IzOE9mQ01SMlU4WnhuN1lNcTZEblFUQ3VBNnNrUVpobmhvcldSQmF4a2ZTNFVSWGxJQ3R4TjdhNWYyRGdnenJCeFNhT1NIMVVuaTZmSGFFdk9BcEVEQ01kUy1yTTRpcTRLMlQwVlViT1l6ZzNBdHRGLTY0bXdxd2pfdVdybVBzUUFjYjA4N0lDbFFWNmx5X1dhRw?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+   "body": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s personal life and potentially impact national security. United States officials believe that Huang’s likely romantic interest, Megaspeed executive Alice Huang, is a Chinese spy who has been feeding information back to Beijing. (Alice Huang, a Chinese citizen, is of no relation to Jensen Huang.) Megaspeed, a Singapore-based AI infrastructure company, had reportedly purchased $4.8 billion in Nvidia chips over the last two years. The U.S. and Singapore have both previously investigated Megaspeed over suspicions that the firm was illegally sharing chips with China. The U.S. and China are embroiled in a fierce technological arms race to build the most advanced AI infrastructure, which could shape each country’s economic future, military prowess, and capacity for innovation. Nvidia is valuable in this competition as one of the world’s largest makers of AI chips, which are essential for accelerating AI development. But as an American company, Nvidia faces government restrictions on the sale of its most powerful chips to Chinese entities. As the controversy unfolds, we are organizing the most relevant events into a reverse-chronological timeline to keep you up to date. November 9, 2026: Huang pulls out of various speaking engagements The Nvidia CEO pulled out of upcoming speaking engagements at the ElevenLabs Summit and Anthropic CEO Forum. November 9-10, 2026: Details emerge about the business relationships between Nvidia and the alleged spy Alice Huang and her family reportedly built a network of companies in China and Singapore to acquire Nvidia chips, including founding a Chinese company called Shanghai Century Litong. Founded in 2023, it became an Nvidia-preferred cloud partner, giving it priority access to chips, The Information reported. The Information also reported that Shanghai Century Litong facilitated buying $7.5 billion worth of Nvidia’s chips, including banned chips. Nvidia’s head lawyer, Tim Teter, intervened in a 2025 U.S. government probe surrounding the suspected smuggling of AI chips by Megaspeed International, Bloomberg reported. Teter contacted Commerce Under Secretary Jeffrey Kessler asking questions about whether the Trump administration played a role in detaining Alice Huang. In early 2025, Alice Huang and a business partner sought China-based investors for an Asian data center, promising they had no problem in securing GPUs, the Financial Times reported. November 8, 2026: Trump shows support for Nvidia CEO, calls him a “fine person” On Sunday night, President Trump weighed in on Huang’s controversy and showed support for the Nvidia CEO. “I have not spoken to him about it. I just know he’s a fine person, but you never know what’s going on,” "
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+   "link": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+   "date": "2026-11-11 00:04",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "황 CEO 스캔들, NVIDIA의 대중국 칩 정책 문제 심화",
+    "korean_summary": "CNBC가 황 CEO 스캔들이 NVIDIA의 대중국 칩 수출 정책과 미국 규제에 미칠 영향을 분석했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang의 중국 스파이 의혹 연루, Nvidia의 중국 리스크 더욱 복잡해져",
+    "korean_summary": "Nvidia CEO Jensen Huang이 중국 스파이로 지목된 Alice Huang과의 혼외 관계를 인정하면서, Megaspeed를 통한 제재 칩 우회 유출 의혹과 함께 Nvidia의 대중국 사업 전반이 워싱턴 정치권의 집중 조사 대상이 되고 있다.",
+    "action": {
+     "actor": "Jensen Huang",
+     "action": "중국 스파이로 지목된 Alice Huang과의 혼외 관계를 인정했고, 그의 연관 회사 Megaspeed를 통한 Nvidia 제재 칩 유출 의혹이 제기됨",
+     "stage": "Report",
+     "timeline": "2025년 봄(정보 메모 작성) ~ 2026년 11월(의회 조사 요청)",
+     "scope": "Nvidia 대중국 수출 정책 및 Singapore 소재 고객사 Megaspeed와의 거래"
+    },
+    "key_facts": [
+     "**3개 하원 위원회가 Megaspeed와의 관계에 대해 Jensen Huang에게 비공개 브리핑을 요청**",
+     "Huang은 2025년 10월 'We are 100% out of China'라고 언급했으나, 최근 분기 중국 매출은 8%(직전 회계연도는 9%) 기록",
+     "Trump는 12월 Nvidia H200 칩의 중국 수출을 미국 정부의 25% 판매 수익 분배 조건으로 허용",
+     "Culper Research는 5월 보고서에서 **Nvidia 2026 회계연도 컴퓨트 매출의 20% 이상이 중국向 '불법 GPU 전환 및 동남아 중개업체'에 기인**한다고 주장",
+     "FBI가 해당 사안을 조사 중이라고 Trump가 백악관 브리핑에서 언급"
+    ],
+    "why_matters": "Nvidia CEO가 미국 대중 수출 정책에 직접적 영향력을 행사해온 상황에서 스파이 의혹이 불거지며, **의회의 정치적 역학 변화(민주당 중간선거 승리)와 맞물려 Nvidia의 대중국 사업 전체에 대한 규제 강화 압력이 커질 수 있다**. 이는 Nvidia의 중국 매출 구조뿐 아니라 수출통제 우회 경로(임대·중개업체 통한 GPU 접근)에 대한 조사로 확산될 가능성이 있다.",
+    "subject_angle": "**Nvidia는 대중국 매출 비중이 한 자릿수로 줄었다고 공식 주장해왔지만, 외부 보고서는 20% 이상의 숨겨진 노출을 제기**하고 있어 회사의 공식 입장과 실제 중국 의존도 간 괴리가 정치적 리스크로 부각되고 있다. Jensen Huang의 정책 영향력이 오히려 회사에 대한 조사 강도를 높이는 역풍으로 작용할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스파이 의혹과 수출통제 우회 논란의 중심 기업"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Singapore 소재 Nvidia 고객사, Alice Huang과 연관, 제재 칩 중국 유출 의혹 대상"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "과거 H20 제재 칩 사용 의혹이 제기된 중국 모델 개발사"
+     },
+     {
+      "name": "Culper Research",
+      "context": "Nvidia의 중국 노출도가 공식 수치보다 훨씬 높다고 주장한 숏셀러"
+     }
+    ],
+    "products": [
+     {
+      "name": "H200",
+      "role": "Trump 행정부가 25% 수익 분배 조건으로 중국 수출 허용한 AI 칩"
+     },
+     {
+      "name": "H20",
+      "role": "중국向으로 재설계된 AI GPU, 이후 판매 제한으로 $5.5B 비용 발생"
+     }
+    ],
+    "watch_next": [
+     "하원 위원회 비공개 브리핑에서 Jensen Huang이 공개할 Megaspeed 관련 세부 내용",
+     "FBI 조사 결과 및 Megaspeed의 제재 칩 우회 유출 혐의 사실 여부",
+     "민주당 주도 의회의 Nvidia 대중국 수출 정책 추가 규제 움직임"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MUldsMl9mWlZIdmo2ZUxRd3BPWHZJYzI5S3hHMmN5ZXFCdVhuc3V2ZEpVeHJNV0YzSUVsT1VQaDNXRml4Q0ZYb051SEhxYzZyT0tsanB3b05OUHpWNWtnRzRRQU5XTWttaHBrTnlwZUFheXQ2NVE?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
+   "body": "Following Nvidia CEO Jensen Huang's admission on Sunday to an extramarital affair with alleged Chinese spy Alice Huang, the chipmaker's relationship to China is about to come under intense scrutiny in Washington, D.C. Since October 2022, when the Biden administration announced sweeping controls to limit China's ability to obtain advanced U.S. chips, Nvidia has seen its business diminish in the world's second-largest economy. Months after an even stricter set of rules was implemented by the Trump administration, Huang said in October 2025, \"We are 100% out of China.\" The recent allegations against Huang, while throwing the chipmaker into crisis, have also brought attention to the Nvidia CEO's potential influence over U.S. policy on chip sales to China, where its business once flourished. Of particular interest is whether restricted Nvidia chips have reached Chinese companies through customers like Singapore-based Megaspeed, the company linked to Alice Huang. The New York Times first reported that the Chinese businesswoman was a spy for China's Ministry of State Security, according to people briefed on the intelligence circulated in a memo among the Trump administration in the spring. China has called the allegation a smear. Jensen Huang has been closely aligned with President Donald Trump during his second administration, helping advise the White House on artificial intelligence safety regulations, while also pushing for looser restrictions on selling AI chips to China. In December, Trump said Nvidia would be allowed to ship its H200 chips to China, provided the U.S. got a 25% cut of sales. In March, Huang told reporters that Nvidia had \"received purchase orders, and we're in the process of restarting our manufacturing.\" Huang was a last-minute addition to the roster of tech executives who joined Trump on a trip to China in May, after the president was briefed on intelligence concerns, according to the Times. \"In 35 years, I haven't seen a chip CEO with this much direct influence on export policy,\" said Patrick Moorhead, CEO at Moor Insights & Strategy, in an email. Since last week's midterm elections that included sweeping victories across the country for Democrats, the mood in Washington has changed. Three House committees have requested closed-door briefings with the Nvidia CEO about his relationship with Megaspeed. Democratic lawmakers, who are about to take power in the House and Senate, have said publicly that Congress will investigate and seek answers. Trump said Monday that he was \"amazed\" by the allegations and that Huang told him he \"had no idea that she was a spy.\" The FBI is now looking into the issue, Trump said at a White House briefing. 'Turbulent month or so' It's been a long four years for Nvidia in China. Before the initial export controls in 2022, China made up nearly a quarter of Nvidia's revenue. Nvidia responded to the Biden-era restrictions by redesigning some of its products to comply with the new regulations. \"It was a tur"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Alice Huang reportedly instrumental in securing over $7.5 billion of Nvidia AI GPU imports during three-year relationship with Jensen Huang",
+   "link": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+   "date": "2026-11-11 01:50",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation",
+     "supply-chain"
+    ],
+    "korean_title": "Alice Huang, 75억 달러 규모 NVIDIA 칩 불법 반출 주도",
+    "korean_summary": "조사에 따르면 Alice Huang이 Megaspeed 계열사를 통해 75억 달러 규모의 금지된 NVIDIA H100·H200 칩을 중국으로 반출했다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang와 3년간 관계 맺은 Alice Huang, Nvidia AI GPU 75억 달러 규모 중국 밀반입에 관여했다는 보도",
+    "korean_summary": "Nvidia CEO Jensen Huang과 개인적 관계를 맺었던 Megaspeed 임원 Alice Huang이 중국 국가안전부(MSS) 스파이 의혹과 함께 H100·H200 등 금지된 GPU 24만 대, 총 75억 달러 규모의 수입에 관여했다는 The Information의 조사 보도가 나왔다.",
+    "action": {
+     "actor": "Alice Huang (Megaspeed/Shanghai Century Litong)",
+     "action": "Nvidia AI GPU(H100, H200 등)의 대중국 수입·공급망 문제 해결에 개입해 **총 75억 달러 규모**의 칩 확보를 지원",
+     "stage": "Report",
+     "timeline": "2023년~2025년(3년간 관계), 보도 시점은 미확인",
+     "scope": "중국 내 Megaspeed, Shanghai Century Litong, Speedmatrix 등 관련 데이터센터 및 AI 칩 공급망"
+    },
+    "key_facts": [
+     "Jensen Huang이 Alice Huang과의 불륜 관계를 인정했으며, Alice Huang은 중국 국가안전부(MSS) 스파이 의혹을 받고 있음",
+     "**240,000대의 금지된 칩(주로 H100·H200)**이 Alice Huang의 도움으로 중국에 반입되었다고 보도됨",
+     "Megaspeed를 통해 2023~2025년 46억 달러, Speedmatrix를 통해 20억 달러, 합산 **총 75억 달러 상당의 GPU**가 유입된 것으로 추정",
+     "Shanghai Century Litong은 2023년 6월 설립 후 수개월 만인 2023년 10월 Nvidia Preferred Cloud Partner 지위를 획득, A800/H800 금지 시점 전후로 재고 우선 접근권 확보",
+     "Shanghai Century Litong은 Alibaba, Tencent 등 중국 대형 AI 기업에 컴퓨팅 용량을 제공"
+    ],
+    "why_matters": "이번 보도는 Nvidia의 파트너 프로그램(Preferred Cloud Partner 등)이 미국의 대중국 수출 통제를 우회하는 경로로 악용되었을 가능성을 제기하며, **CEO의 개인적 관계가 공급망 특혜로 이어졌다는 의혹**은 규제 당국과 투자자들의 신뢰에 타격을 줄 수 있다. 미중 반도체 패권 경쟁이 격화되는 상황에서 이는 Nvidia의 수출 통제 준수 체계와 거버넌스에 대한 전면적 조사로 확산될 가능성이 있다.",
+    "subject_angle": "**Nvidia의 중국 파트너 인증 체계(Preferred Cloud Partner)와 유통망 관리의 취약점**이 노출되면서, 회사의 수출 통제 준수 역량과 CEO 개인 행위에 대한 규제·평판 리스크가 동시에 부각되고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "AI GPU 공급자, Preferred Cloud Partner 프로그램 운영"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang이 이끌었던 싱가포르 기반 칩 유통사, 밀수 의혹 당사자"
+     },
+     {
+      "name": "Shanghai Century Litong",
+      "context": "Alice Huang 자매 Huang Yu 통제 하 데이터센터 운영사, Nvidia Preferred Cloud Partner"
+     },
+     {
+      "name": "Speedmatrix",
+      "context": "Megaspeed의 말레이시아 자회사, 추가 20억 달러 칩 유통"
+     },
+     {
+      "name": "Swiftdata",
+      "context": "Megaspeed를 인수한 싱가포르 법인"
+     },
+     {
+      "name": "Alibaba",
+      "context": "Shanghai Century Litong의 컴퓨팅 서비스 고객"
+     },
+     {
+      "name": "Tencent",
+      "context": "Shanghai Century Litong의 컴퓨팅 서비스 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "H100",
+      "role": "밀반입된 주요 금지 GPU 모델"
+     },
+     {
+      "name": "H200",
+      "role": "밀반입된 주요 금지 GPU 모델"
+     },
+     {
+      "name": "A800/H800",
+      "role": "중국 전용 사양으로 추후 판매 금지된 GPU, 기존 재고 우선 배분 대상"
+     }
+    ],
+    "watch_next": [
+     "미국 정부·의회의 Nvidia 수출 통제 위반 관련 공식 조사 여부",
+     "Nvidia의 Preferred Cloud Partner 프로그램 재검토 및 공식 대응",
+     "Alice Huang, Megaspeed, Shanghai Century Litong에 대한 법적 조치 진행 상황"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Alice Huang reportedly instrumental in securing over $7.5B of Nvidia imports",
+     "link": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
+   "body": "Nvidia CEO Jensen Huang admitted to having an affair with Megaspeed executive Alice Huang , who is also suspected of being a spy working for the Chinese Ministry of State Security (MSS). Now, an investigation by The Information has revealed a 'labyrinth' of companies centered around Shanghai Century Litong and connected to Singaporean firm Megaspeed, which has previously been accused of smuggling $2 billion worth of Nvidia chips. The report claims Alice Huang helped move 240,000 banned chips into the country, mostly H100 and H200 systems, and was instrumental in securing AI GPU imports to the tune of $7.5 billion. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Sources in the report link the two companies to Alice Huang via their personal knowledge and corporate registration records, while there have also been reports that some of the Nvidia AI chips Megaspeed bought went to Shanghai Century Litong’s data centers in China. But aside from these corporate ties, there were also numerous reports about Ms. Huang’s personal relationship with the Nvidia chief, and how it gave her the ability to procure chips that were otherwise hard to get elsewhere. Ms. Huang allegedly boasted about her access to the Nvidia CEO publicly. People familiar with her said that she regularly uploaded photos with Jensen to her WeChat account and even shared other images with customers to establish her credibility. She even claimed that Jensen Huang would often celebrate her birthday with dinner and gifts, while an Nvidia China sales employee said that she was a familiar face at the company’s annual event for local Chinese partners. When AI shipments hit delays or faced some trouble, Ms. Huang allegedly would step in to get them moving through the supply chain again. One other person who knows her said that she would often cite her close relationship with Nvidia and its suppliers as the reason why she could always get Nvidia AI chips. It’s estimated that $4.6 billion worth of AI chips have been imported through Megaspeed from 2023 to 2025, with another $2 billion routed through Speedmatrix. It was also reported that Shanghai Century Litong bought GPUs from other sources, with the assistance of Alice Huang if the orders faced an issue, with the total value of the GPUs acquired estimated to be around $7.5 billion. The report claims Ms. Huang helped move some 240,000 banned chips into China. Alice Huang may have appeared in Jensen Huang’s circle much earlier than previously believed. One source told the publication that Kang Wei, Alice Huang’s husband, met Jensen Huang during the 2010s, when Nvidia was primarily a PC gaming GPU manufacturer. A"
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Alice Huang reportedly instrumental in securing over $7.5 billion of Nvidia AI GPU imports during three-year relationship with Jensen Huang — helped move 240,000 banned chips into China, mostly H100 and H200",
+   "link": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPODVQMTRCLVJQcXJlS2RtYlg5UHY4NllheFpvbFdSZm1JRTNqX1VidG5VdEVfdlM5ZEhUQ3lBeEdpb0pIRHNBaXdpUHozTzZwb29MV19EaEtEc3lJSEViNG5JSzFLbVFmVXhMVU5RT2hJUEJ0MG1lU3ctZHk4bTNDVEl3TlUwcEo4akxweDRiZVBNS3RmeG9NWDUxLW9nOThScWIzSWRYUUE3YmNPc1RITXpVd2lQQW5tOWptOG1WMjA4N0JzcHV1WndtNHRTdU8ybFlrUnUzbUdWclpRcnlNQm84bW16TnBEUU11bFVOd1RtOVNRSkgweEw4c3duNDIzZWp3SkpNY1puZDdzbUstZy0zZE9EWXdwQm5jZjFPaUpYUXdnT1RQRExRWHlEb2JUbkZRdlQ1TnpYbmtSS1lyWURBV1pwWjF0Qk9JUjZQMmtNZUpyTEIxUFVkYnhnOXNfYkdsWS1YQ1ZzQWNKNlJxTW9R?oc=5",
+   "date": "2026-11-11 01:50",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "중국 스파이 의혹 Alice Huang, NVIDIA 금지 칩 75억 달러 규모 수출 우회에 관여",
+    "korean_summary": "Alice Huang이 Jensen Huang CEO와의 3년간의 관계를 통해 240,000개의 금지된 H100·H200 칩을 중국으로 수출하도록 도운 혐의가 제기되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxPODVQMTRCLVJQcXJlS2RtYlg5UHY4NllheFpvbFdSZm1JRTNqX1VidG5VdEVfdlM5ZEhUQ3lBeEdpb0pIRHNBaXdpUHozTzZwb29MV19EaEtEc3lJSEViNG5JSzFLbVFmVXhMVU5RT2hJUEJ0MG1lU3ctZHk4bTNDVEl3TlUwcEo4akxweDRiZVBNS3RmeG9NWDUxLW9nOThScWIzSWRYUUE3YmNPc1RITXpVd2lQQW5tOWptOG1WMjA4N0JzcHV1WndtNHRTdU8ybFlrUnUzbUdWclpRcnlNQm84bW16TnBEUU11bFVOd1RtOVNRSkgweEw4c3duNDIzZWp3SkpNY1puZDdzbUstZy0zZE9EWXdwQm5jZjFPaUpYUXdnT1RQRExRWHlEb2JUbkZRdlQ1TnpYbmtSS1lyWURBV1pwWjF0Qk9JUjZQMmtNZUpyTEIxUFVkYnhnOXNfYkdsWS1YQ1ZzQWNKNlJxTW9R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT2dVLXh6YVZtdTZ3cGt0LVR0Ym1McWtfcWJ6U3hPb05Kcmc5M3d4Q1Y5emJFMDlNWGZhd3VIekl5a1ptTUVFSzRqdXUzMHR3U00zbUt6eVRpU05ta0JzcjZ1cnZ0WnVPaDUzdDdrdUlXLVc2Vm1qWmZHN09QM181WVBNUHRva0xqLV9yWThrSjQtWDJGN0hfbGdiUTU4Z0R0dTdV?oc=5",
+   "date": "2026-11-11 05:45",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "stock"
+    ],
+    "korean_title": "공화당, Jensen Huang 소환장 위협...NVIDIA 2026년 이익 전부 손실",
+    "korean_summary": "미국 공화당이 Jensen Huang CEO에 소환장을 위협하면서 NVIDIA가 2026년 실적을 전부 잃었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT2dVLXh6YVZtdTZ3cGt0LVR0Ym1McWtfcWJ6U3hPb05Kcmc5M3d4Q1Y5emJFMDlNWGZhd3VIekl5a1ptTUVFSzRqdXUzMHR3U00zbUt6eVRpU05ta0JzcjZ1cnZ0WnVPaDUzdDdrdUlXLVc2Vm1qWmZHN09QM181WVBNUHRva0xqLV9yWThrSjQtWDJGN0hfbGdiUTU4Z0R0dTdV",
+   "body": ""
+  },
+  {
+   "source": "Google News · Axios",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Scoop: Commerce Department received national security warning on Nvidia CEO affair",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NTWlEVTREeTZ0V3J5d1VBblV3Q1JiV0tqTWJUSGVJQ2MxSElWWHpVVG9lTkxKR3ctY2RDVHJUaTdWak1oS2lGSGhPbUJ6MU9CZ2xJdGY1Ui0zQy1uaFliV3c1MXprY3RDejF2eXp2WWc2WWJRSTZiOEljZw?oc=5",
+   "date": "2026-11-11 08:48",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "미국 상무부, NVIDIA CEO 스캔들에 국가안보 경고 접수",
+    "korean_summary": "미국 상무부가 NVIDIA CEO 스캔들 관련 국가안보 경고를 접수하고 조사 진행 중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NTWlEVTREeTZ0V3J5d1VBblV3Q1JiV0tqTWJUSGVJQ2MxSElWWHpVVG9lTkxKR3ctY2RDVHJUaTdWak1oS2lGSGhPbUJ6MU9CZ2xJdGY1Ui0zQy1uaFliV3c1MXprY3RDejF2eXp2WWc2WWJRSTZiOEljZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "US lawmakers push China chip rules after Nvidia CEO allegations",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQnRnX1Zua2Jnd0N3VVBxSzBtOWhETm92Mk9EY0JMbEZMNV9ibThnaWhjd1Y5RTZfMEoxYkk0TTF4Zlk4cmd2RnV2bV85VExSZmswbEJFNmZuZGNBMHYwUklvTjNmdDR1cEIteDdzSlJDc2ZVT3FrS0lZaUVJb1J2MDBvdWtNR0l5NllodU1WUQ?oc=5",
+   "date": "2026-11-11 08:05",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "",
+    "korean_summary": "NVIDIA CEO 혐의를 계기로 미국 의회가 중국 반도체 기술 이전 규제 강화 방안 추진 추진"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWxqUnFpSkZaOE5LVFZnaWZJaHhteVV2dkdiQnRnX1Zua2Jnd0N3VVBxSzBtOWhETm92Mk9EY0JMbEZMNV9ibThnaWhjd1Y5RTZfMEoxYkk0TTF4Zlk4cmd2RnV2bV85VExSZmswbEJFNmZuZGNBMHYwUklvTjNmdDR1cEIteDdzSlJDc2ZVT3FrS0lZaUVJb1J2MDBvdWtNR0l5NllodU1WUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How Jensen Huang’s Yearslong Ties to Alice Huang Enabled $7 Billion-Plus Nvidia Chip Sales to China",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSnFMNEF5UjJUczd5eWdTQlQxOWRrMUQwSno4b2FETmM2bzVEckRLdVFqOWp1cGc5YlZVaFo0UG1FMFo2amRya1hGS2JsNVJsTnFCbDk2X3IydVhLTEJiX1VFN2tGdlQ4OGczNGpfSUZZcHRBVzFINU1VT2JRVVNteU16S01SRTZBdjdfTzNrT3p1Z0hOVk40UE9LTGlQSnVxUDRuMlRDT3ZjYjhEMzFTQlRR?oc=5",
+   "date": "2026-11-10 19:41",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Jensen Huang의 인적관계, 중국으로 70억달러 이상 칩 판매 가능케 해",
+    "korean_summary": "Jensen Huang의 인적 네트워크가 중국으로의 70억달러 이상 칩 판매를 가능하게 했다는 보도다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSnFMNEF5UjJUczd5eWdTQlQxOWRrMUQwSno4b2FETmM2bzVEckRLdVFqOWp1cGc5YlZVaFo0UG1FMFo2amRya1hGS2JsNVJsTnFCbDk2X3IydVhLTEJiX1VFN2tGdlQ4OGczNGpfSUZZcHRBVzFINU1VT2JRVVNteU16S01SRTZBdjdfTzNrT3p1Z0hOVk40UE9LTGlQSnVxUDRuMlRDT3ZjYjhEMzFTQlRR",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-N1.7-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-N1.7-DROID",
+   "date": "2026-11-11 07:11",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-N1.7-DROID",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac GR00T N1.7-DROID 휴머노이드 로봇 학습 모델",
+    "korean_summary": "NVIDIA가 DROID 데이터셋 기반 GR00T N1.7 로봇 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/GR00T-N1.7-DROID:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, Gr00tN1d7, robotics, arxiv:2503.14734 · downloads 1720 · likes 10. README:  --> # Model Overview ## Description: NVIDIA Isaac GR00T N1.7 is an open foundation model for generalized humanoid robot reasoning and skills. This cross-embodiment model takes multimodal input, including language and images, to perform manipulation tasks in diverse environments. Developers and researchers can post-train GR00T N1.7 with real or synthetic data for their specific humanoid robot or task. Isaac GR00T N1.7 is the medium-sized version of our model built using pre-trained vision and language encoders, and uses a flow matching action transformer to model a chunk of actions conditioned on vision, language and proprioception. A detailed description of the Isaac GR00T N1.X architecture is provided in the GROOT N1 White Paper (https://arxiv.org/abs/2503.14734). This model is ready for commercial/non-commercial use. **Model Developer**: NVIDIA ## Model Versions The Isaac GR00T N1.7 model family includes the following 4 models: ### GR00T N1.7 – SimplerEnv Bridge **Description** N1.7 post-trained model using the **Bridge Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot **Dataset Summary** A LeRobot-format conversion of **BridgeData V2**, originally containing **60,096 trajectories** of robot manipulation across **24 environments**. ### GR00T N1.7 – SimplerEnv Fractal **Description** N1.7 post-trained model using the **Fractal Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC"
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA Releases Alpamayo 2 Edge Weights for Autonomous Driving",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDBIYTNEQlVWWUZyZkpzNi02Smp0d1JQVDFVZG42TEk0WUhHbHJmbW9lRFB5TlJYUzFLUGNoX1J3RDZfa3k4bXA2Y0ppRUVKUFBWdUhxZXoyanJjRGRNX2R0LVdmYjlKbGZxSUdYQXU5Zl9UU0dwaUtXVldkOUdmazJsMGVoT182Z0JCRw?oc=5",
+   "date": "2026-11-11 03:55",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 자율주행용 Alpamayo 2 엣지 모델 가중치 공개",
+    "korean_summary": "NVIDIA가 자율주행 분야용 Alpamayo 2 엣지 모델의 가중치를 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Moomoo",
+     "title": "Nvidia Launches Alpamayo 2 Edge AI Model for Autonomous Vehicles",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRWNObl9NcVplMHNDdFpfZ3J4b3ZqcUFUMzhSR3dPbkdUXzFmTjEwQWZNT09OZmExV0ZlWEsyYWQwaGJUaXBqSHprdEVVdDB0ektmZXh6b04waU9paS1QZ0lVXzhOZXdTbmh5UGRqMklOZ2prc1NTV3ZXT2M0aFdKRVp0S29jQXRqZTNTVFpFa0hQRWRiMldacTRicjhXYzdKVEhqMU1VOWlBZG82?oc=5"
+    },
+    {
+     "source": "Google News · TipRanks",
+     "title": "Nvidia unveils Alpamayo 2 Edge reasoning model for autonomous vehicles",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT2VCZGhwYXRUNTEwVnJ1U250RnJ4dkR3N1lOSzRlSlpJWUh6bEZ3SHRYWHcyVVpVYTY1dG9ZZEM4TlBPbVVUSTlKdDg5djVVN21XNEtnVUN3LUxLOFRXY0VmSEZBQU85YnFoOWRTSHllY0Q4aXVYX0RBMHNIT1JqelN1Qy1NdVhKOXJZVFdOV2k3X09pVURQSDdfQW5vUm9CRHFwVlVla3B4ZFJkdEpVb2FvR0JSMk0wa0VpOQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDBIYTNEQlVWWUZyZkpzNi02Smp0d1JQVDFVZG42TEk0WUhHbHJmbW9lRFB5TlJYUzFLUGNoX1J3RDZfa3k4bXA2Y0ppRUVKUFBWdUhxZXoyanJjRGRNX2R0LVdmYjlKbGZxSUdYQXU5Zl9UU0dwaUtXVldkOUdmazJsMGVoT182Z0JCRw",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Natural language search for driving data with NVIDIA Cosmos Embed1",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1VtQlppTkRxOTBuUGJQZFBiNXpRaDZnUWN6c0NJNHIzanFuYVVWb0N3NWRZSGdGQ055TV9hMUpKSmhMemZrcFFuNDAzUElaQ2xwbC1wU2RwMzlnazhxMGhyNmMzVE5VRnc0dVlXMVpGOWVDbXBJUkJKOExvMWJwTzlxS1R2WHdXelNKQkp2SUt3YmpJRGE5MmZrclBBVWNxVVlUcERXOUU3NzhmcFhaWWE4Wnd3c0JV0gHIAUFVX3lxTFBteGNFTUdfeFNId3F0cV9nM2NCdzczanhYdE4wbWdlOUFJS1hfaV9Ob2tBNHFoaU5LOTNZMDRKNmE5ajJ2VmFYVTN0c0owdklOVmE3VHJ3T095OXRodDhpZzJ0QjY5VmtwZXlrVy1WaExkWG16TGtMUWViRXNuczJocHc1WjRXRG5FdzhyaXNIWFU3bERZYjlEY1hWQ1pZdFRhMlQ1bHUyZWhCNUdiRmY4enZRVWNDNW5kTkhJQ1E0NXNPRG1MT1Rq?oc=5",
+   "date": "2026-11-10 16:51",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "partnership",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Cosmos Embed1로 주행 데이터 자연어 검색",
+    "korean_summary": "TIER IV와 NVIDIA가 Cosmos Embed1을 이용한 주행 데이터 자연어 검색 기능을 개발했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU1VtQlppTkRxOTBuUGJQZFBiNXpRaDZnUWN6c0NJNHIzanFuYVVWb0N3NWRZSGdGQ055TV9hMUpKSmhMemZrcFFuNDAzUElaQ2xwbC1wU2RwMzlnazhxMGhyNmMzVE5VRnc0dVlXMVpGOWVDbXBJUkJKOExvMWJwTzlxS1R2WHdXelNKQkp2SUt3YmpJRGE5MmZrclBBVWNxVVlUcERXOUU3NzhmcFhaWWE4Wnd3c0JV0gHIAUFVX3lxTFBteGNFTUdfeFNId3F0cV9nM2NCdzczanhYdE4wbWdlOUFJS1hfaV9Ob2tBNHFoaU5LOTNZMDRKNmE5ajJ2VmFYVTN0c0owdklOVmE3VHJ3T095OXRodDhpZzJ0QjY5VmtwZXlrVy1WaExkWG16TGtMUWViRXNuczJocHc1WjRXRG5FdzhyaXNIWFU3bERZYjlEY1hWQ1pZdFRhMlQ1bHUyZWhCNUdiRmY4enZRVWNDNW5kTkhJQ1E0NXNPRG1MT1Rq",
+   "body": ""
+  },
+  {
+   "source": "Google News · Crypto Briefing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Alpamayo 2 Edge brings real-time, self-explaining AI to vehicles",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tNXQ4ZFZhcC03RFNSa0RpTkV4OXQ2ZkVFLUttUXBfTVFGckw4NG5JRnpTdXZ6U0NGTkUzdk8yV3g5M3ZCbXo1bnYxT1Q3ZzduOWY0dGNxSEZhNC1vZ0RnVXJGTk9Hbk5YWkNwVnk5djBlSWo1WjRvYXBiWQ?oc=5",
+   "date": "2026-11-11 01:15",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "new-chip",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Alpamayo 2 Edge, 차량용 실시간 자명형 AI",
+    "korean_summary": "Alpamayo 2 Edge가 차량용 실시간 자명형 AI 기능을 제공한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tNXQ4ZFZhcC03RFNSa0RpTkV4OXQ2ZkVFLUttUXBfTVFGckw4NG5JRnpTdXZ6U0NGTkUzdk8yV3g5M3ZCbXo1bnYxT1Q3ZzduOWY0dGNxSEZhNC1vZ0RnVXJGTk9Hbk5YWkNwVnk5djBlSWo1WjRvYXBiWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · AP News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Jensen Huang face shareholder lawsuit alleging investors were misled about spy affair",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUVJQ2VKOGljZVBJeFJCcVg5aWw2WWVaVzNlNVkwUnQ0ZzV0R09hbkx3aWRVVjhDaHpUdk96UExZSjF0TlBkY2FUeG9tVjhjdVkzRXllRndzMUJ4ZWZFa2p5QWlPRGhRc0ZXMkd5Y0tyVVdfM1gyX0Q4Y21KUEVYTFhuTnFhZWR0Wm00N29DbWU4WnRpSFpfZ1ZpSQ?oc=5",
+   "date": "2026-11-11 08:32",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA와 Jensen Huang, 투자자 기만 혐의 주주소송 직면",
+    "korean_summary": "NVIDIA와 CEO Jensen Huang이 투자자 기만 혐의로 주주소송에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUVJQ2VKOGljZVBJeFJCcVg5aWw2WWVaVzNlNVkwUnQ0ZzV0R09hbkx3aWRVVjhDaHpUdk96UExZSjF0TlBkY2FUeG9tVjhjdVkzRXllRndzMUJ4ZWZFa2p5QWlPRGhRc0ZXMkd5Y0tyVVdfM1gyX0Q4Y21KUEVYTFhuTnFhZWR0Wm00N29DbWU4WnRpSFpfZ1ZpSQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia stock drops 6%, extending decline on report alleged Chinese spy linked to Nvidia CEO aided $7.5 billion in China chip shipments",
+   "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw?oc=5",
+   "date": "2026-11-11 02:42",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "stock"
+    ],
+    "korean_title": "중국 칩 불법 반출 75억 달러 연루, NVIDIA 주가 6% 하락",
+    "korean_summary": "NVIDIA CEO와 연루된 스파이가 중국으로의 75억 달러 규모 칩 반출을 지원했다는 보도로 주가가 6% 하락했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQaTMzXy1sdW5VeFphNTFTbjYzWUZmdHJLNmhXMTE3cVBybWQ1NFhBUU5lUEZqcWUzNnBMN0J2RmdoYWtidXBQc1pPbFNhZV8zcGVJX2VxX3pzU01JZTV1cFpKanZVWHhSVE5IbWUyaVo5bXoxaUdkQ2Jwd0poWXNrX1VrOGI4SlBNOVExdUMyT0NDeS15dHY3N3FRZ1YyMHpZWmRtOC1MTXFhVEFvMm1xREZmb0xBSWpJTUt1aHdMVTl4NHY5TFY3QjZPSWFqNDNCM2xfeFJDM1FLN18zbmZfMG5OeS1lQ25jWUs1R3hIVkc5amVmMHBIS3kyQl8wS3B3T0d5bjFqM2lYQkt1UDk5Rm9kdlMtZw",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits",
+   "link": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/",
+   "date": "2026-11-11 01:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive"
+    ],
+    "korean_title": "Alpamayo 2 Edge로 자동차 온보드 컴퓨트 최적화",
+    "korean_summary": "NVIDIA가 컴퓨트·레이턴시 제약 내에서 작동하는 자동차용 추론 모델 Alpamayo 2 Edge의 기술 특성을 기술 블로그에서 설명했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 차량 탑재 컴퓨팅 한계 내에서 작동하는 AV 추론 모델 'Alpamayo 2 Edge' 공개",
+    "korean_summary": "NVIDIA가 온보드 컴퓨팅과 지연 시간 제약을 충족시키기 위해 대형 추론 모델을 경량화한 자율주행용 모델 Alpamayo 2 Edge를 선보였다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "대형 추론 모델을 차량 온보드 하드웨어에 맞게 축소·검증하여 Alpamayo 2 Edge로 구현",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "자율주행차 온보드 시스템, 대상 고객·지역 미확인"
+    },
+    "key_facts": [
+     "AV 개발사들은 **온보드 시스템의 컴퓨팅·지연 시간 제약 내에서 작동하는 추론 모델**이 필요하다",
+     "대형 모델은 이러한 추론 능력의 기반을 제공하지만, 차량에 탑재하려면 모델 크기 축소·유용한 추론 능력 보존·타깃 하드웨어 성능 검증이라는 추가 작업이 필요하다",
+     "**NVIDIA Alpamayo 2 Edge**가 이러한 과제를 해결한다고 언급됨",
+     "구체적 수치(모델 크기, 지연시간, 벤치마크 결과)는 본문에 없어 미확인"
+    ],
+    "why_matters": "자율주행 업계는 대형 추론 모델의 성능과 차량 탑재 가능한 경량화 사이의 트레이드오프라는 공통 과제를 안고 있다. **NVIDIA가 엣지 최적화 모델을 직접 제시**함으로써 AV 소프트웨어 스택에서의 기술 리더십과 end-to-end 솔루션 제공 범위를 확장하려는 움직임으로 해석된다.",
+    "subject_angle": "NVIDIA는 클라우드/트레이닝용 대형 모델뿐 아니라 **차량 내 추론(in-vehicle inference)용 경량 모델까지 자체 제공**함으로써 AV 스택 전체(데이터센터 학습-차량 배포)를 아우르는 풀스택 전략을 강화하고 있다.",
+    "focus_angle": "자동차 OEM과 자율주행 개발사 입장에서는 대형 추론 모델의 성능을 유지하면서도 차량 탑재형 컴퓨팅 자원 내에서 실시간으로 작동하는 모델 확보가 상용화의 핵심 관문이며, NVIDIA가 이 경량화·검증 과정을 플랫폼화해 제공할 경우 **자체 모델 최적화 역량이 부족한 OEM들의 자율주행 개발 진입장벽을 낮출 수 있다**.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Alpamayo 2 Edge 모델 개발 및 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Alpamayo 2 Edge",
+      "role": "온보드 컴퓨팅·지연 시간 제약 내에서 작동하도록 경량화된 AV 추론 모델"
+     }
+    ],
+    "watch_next": [
+     "Alpamayo 2 Edge의 구체적 모델 크기·지연시간·벤치마크 수치 공개 여부",
+     "타깃 하드웨어(예: DRIVE Thor 등) 및 지원 플랫폼 명시 여부",
+     "실제 AV OEM·Tier1 파트너사의 채택 사례 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNenBjcEZMVlVoTTJBN3BaWHRtdzF3QjItZU96b1N3Q1NkbFhneFhzektYS1RxLXhPSnFkOHVHTGVjQ2lQX0tuYUtpWU1NRVB6bk1sbm0zaG14d3d4akE0eTRTSi1BejNEbExNNGNZQXJKQ3p0M0l1bDBUb0xBblV5RlM4R1BqLVVzV3NLa2Y4c3pYZFAyVnRXVGF1XzEtWEYybU5XeVhGbw?oc=5"
+    },
+    {
+     "source": "Google News · NVIDIA Developer",
+     "title": "Running AV Reasoning Models Within Onboard Compute and Latency Limits | NVIDIA Technical Blog",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNenBjcEZMVlVoTTJBN3BaWHRtdzF3QjItZU96b1N3Q1NkbFhneFhzektYS1RxLXhPSnFkOHVHTGVjQ2lQX0tuYUtpWU1NRVB6bk1sbm0zaG14d3d4akE0eTRTSi1BejNEbExNNGNZQXJKQ3p0M0l1bDBUb0xBblV5RlM4R1BqLVVzV3NLa2Y4c3pYZFAyVnRXVGF1XzEtWEYybU5XeVhGbw?oc=5"
+    },
+    {
+     "source": "Google News · Blockchain News",
+     "title": "NVIDIA Alpamayo 2 Edge Optimizes AV Reasoning for Onboard Systems",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE51bk1WaXg1eVM1QnR0b1paR0FFZU45NU1SQzd5X0xKdUJWMl83c3dQVUUyaDZpT2hZSFBWdWVmbGtnZzY1WUxkTGpFdjUwRnFwTnEya1N1T2ZZQkN2eTJLMnVjbnpvYklNVDJoSk0tV2xxdw?oc=5"
+    }
+   ],
+   "uid": "https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits",
+   "body": "Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide... Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide a foundation for developing these capabilities, but moving them into a vehicle requires additional work to reduce model size, preserve useful reasoning, and validate performance on the target hardware. NVIDIA Alpamayo 2 Edge addresses… Source"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Alpamayo2-Edge (업데이트)",
+   "link": "https://huggingface.co/nvidia/Alpamayo2-Edge",
+   "date": "2026-11-10 15:56",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Alpamayo2-Edge",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "model-release"
+    ],
+    "korean_title": "Alpamayo 2 Edge 모델 Hugging Face 업데이트",
+    "korean_summary": "NVIDIA가 자율주행차용 2B-파라미터 추론 모델 Alpamayo 2 Edge를 Hugging Face에서 업데이트했으며 NVIDIA DRIVE AGX Thor에 배포 가능하다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 차량 탑재형 자율주행 VLA 모델 'Alpamayo 2 Edge' 공개",
+    "korean_summary": "NVIDIA가 DRIVE AGX Thor에서 구동 가능한 20억 파라미터 규모의 추론형 비전-언어-행동 모델 Alpamayo 2 Edge를 Hugging Face에 공개하여 차량 내 경로 계획과 설명 가능한 주행 의사결정을 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Alpamayo 2 Edge 모델 Hugging Face 업로드/업데이트",
+     "stage": "Available",
+     "timeline": "Hugging Face 공개일 2026-11-10",
+     "scope": "글로벌 배포, 자율주행 개발자·연구자 대상"
+    },
+    "key_facts": [
+     "**2B 파라미터 규모**의 reasoning VLA(vision-language-action) 모델",
+     "NVIDIA **Cosmos 3 Edge**의 Nemotron 기반 백본 위에 구축",
+     "NVIDIA **DRIVE AGX Thor** 플랫폼에서 차량 내 효율적 배포 및 파인튜닝 지원",
+     "Alpamayo Open Platform의 일부로 개발, nvidia/PhysicalAI-Autonomous-Vehicles(-NuRec) 데이터셋 활용",
+     "모델 가중치는 OpenMDW-1.1 라이선스, 소스코드는 Apache 2.0 라이선스로 공개"
+    ],
+    "why_matters": "**자율주행차용 경량 추론 VLA 모델**을 오픈 공개함으로써 OEM·자율주행 스타트업의 온디바이스 플래닝·설명가능 AI 도입 장벽을 낮춘다. 이는 Tesla·Waymo식 end-to-end 자율주행 경쟁에서 NVIDIA가 하드웨어(Thor)-모델(Alpamayo)-데이터셋을 결합한 풀스택 생태계로 포지셔닝하려는 전략의 연장선이다.",
+    "subject_angle": "**NVIDIA가 DRIVE AGX Thor와 Cosmos 시리즈를 중심으로 차량용 파운데이션 모델 플랫폼을 구축**하며, Alpamayo 오픈 플랫폼을 통해 OEM들의 커스터마이징·파인튜닝을 유도하는 소프트웨어 종속 전략을 강화하고 있다.",
+    "focus_angle": "**OEM 및 자율주행 개발사는 Alpamayo 2 Edge를 활용해 설명 가능한(causal explanation) 차량 내 경로 계획을 저비용으로 구현**할 수 있게 되며, 이는 로보택시·휴머노이드 로봇 등 VLA 기반 에이전트 전반에 적용 가능한 NVIDIA 엣지 AI 스택 확산의 신호로 해석된다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발사, Alpamayo Open Platform 및 DRIVE AGX Thor 플랫폼 제공"
+     }
+    ],
+    "products": [
+     {
+      "name": "Alpamayo 2 Edge",
+      "role": "차량 내 경로 계획·설명 생성을 위한 2B 파라미터 reasoning VLA 모델"
+     },
+     {
+      "name": "NVIDIA Cosmos 3 Edge",
+      "role": "Alpamayo 2 Edge의 기반 백본 모델"
+     },
+     {
+      "name": "NVIDIA DRIVE AGX Thor",
+      "role": "모델의 타겟 차량 내 배포 하드웨어 플랫폼"
+     },
+     {
+      "name": "PhysicalAI-Autonomous-Vehicles / -NuRec 데이터셋",
+      "role": "모델 학습에 사용된 NVIDIA 자율주행 데이터셋"
+     }
+    ],
+    "watch_next": [
+     "DRIVE AGX Thor 탑재 OEM 차량에서의 실제 채택 사례",
+     "Alpamayo Open Platform 내 추가 모델/버전 공개 여부",
+     "Alpamayo 2 Edge의 실차 파인튜닝·상용 배포 사례 발표"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Alpamayo2-Edge:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, alpamayo2_edge, alpamayo, autonomous-driving, vision-language-action, pytorch, robotics, en, dataset:nvidia/PhysicalAI-Autonomous-Vehicles, dataset:nvidia/PhysicalAI-Autonomous-Vehicles-NuRec, base_model:nvidia/Cosmos3-Edge, base_model:finetune:nvidia/Cosmos3-Edge · downloads 101 · likes 18. README:  # Alpamayo 2 Edge [**Code**](https://github.com/NVlabs/alpamayo2-edge) | [**Alpamayo Overview**](https://www.nvidia.com/en-us/solutions/autonomous-vehicles/alpamayo/) ## Model Overview: ### Description: NVIDIA Alpamayo 2 Edge is a 2B-parameter reasoning vision-language-action model that uses adaptive reasoning to generate driving trajectories and causal explanations. Built on the Nemotron-based backbone of NVIDIA Cosmos 3 Edge, it supports fine-tuning and efficient in-vehicle deployment on NVIDIA DRIVE AGX Thor. Alpamayo 2 Edge was developed by NVIDIA as a part of the broader [Alpamayo Open Platform](https://www.nvidia.com/en-us/solutions/autonomous-vehicles/alpamayo/). ### License/Terms of Use: **Model weights:** The model weights are released under the [OpenMDW-1.1](https://openmdw.ai/license/1-1/) license. **Source code:** Apache License 2.0, as provided in the [Alpamayo 2 Edge source repository](https://github.com/NVlabs/alpamayo2-edge). ### Deployment Geography: Global ### Use Case: Developers and researchers working on autonomous vehicle systems who need a compact reasoning model for in-vehicle planning and decision-making. Alpamayo 2 Edge generates navigation-conditioned driving trajectories together with causal explanations, and it can answer free-form questions about a driving scene. It serves as a starting point for fine-tuning and for efficient deployment on in-vehicle platforms. ### Release Date: **Hugging Face:** 11/10/2026 via https://huggingface.co/nvidia/Alpa"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-H-N1.7 (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-H-N1.7",
+   "date": "2026-11-11 07:11",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-H-N1.7",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "model-release"
+    ],
+    "korean_title": "GR00T-H-N1.7 수술로봇 전용 모델 공개",
+    "korean_summary": "NVIDIA가 수술로봇용 로봇 기초 모델 GR00T-H-N1.7을 Hugging Face에서 공개했으며 상용 사용이 가능하다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 수술 로봇용 파운데이션 모델 'GR00T-H-N1.7' 공개",
+    "korean_summary": "NVIDIA가 Isaac GR00T N1.7 VLA 파운데이션 모델을 Open-H embodiment 데이터셋으로 후처리 학습하여 수술 로봇·로봇 초음파 연구용 모델 GR00T-H-N1.7을 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Isaac GR00T N1.7 기반 수술 로봇 특화 VLA 모델(GR00T-H-N1.7)을 Open-H embodiment 데이터셋으로 post-training하여 Hugging Face에 업로드",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "전역(Global) 배포, 연구자·학계·오픈소스 커뮤니티 대상, 상업적 이용 가능"
+    },
+    "key_facts": [
+     "**GR00T-H-N1.7은 GR00T N1.7 VLA 파운데이션 모델을 base로 Open-H-Embodiment 데이터셋으로 post-training한 수술 로봇용 변형 모델**",
+     "아키텍처는 vision-language 모델 + continuous action을 denoise하는 diffusion transformer head로 구성, GR00T N1.7 시리즈 구조 계승",
+     "**NVIDIA Cosmos 기반이며 vision-language backbone으로 nvidia/Cosmos-Reason2-2B를 사용**",
+     "License는 NVIDIA Open Model License, 상업적 이용 가능(ready for commercial use), 배포 지역은 Global",
+     "임상 배치·환자 치료·의료 의사결정에는 사용 불가, 수술 로봇 및 로봇 초음파 정책 연구·벤치마킹 목적으로 한정"
+    ],
+    "why_matters": "**NVIDIA가 범용 로봇 파운데이션 모델(GR00T)을 의료 로봇이라는 특화 embodiment로 확장**한 사례로, Physical AI 전략이 휴머노이드를 넘어 수술 로봇 등 버티컬 시장까지 포괄하고 있음을 보여준다. 이는 Isaac GR00T 플랫폼의 확장성과 Cosmos 생태계(Reason2-2B) 통합을 통한 모델-데이터-라이선스 전주기 전략을 재확인시킨다.",
+    "subject_angle": "**NVIDIA는 GR00T VLA 파운데이션 모델을 base로 다양한 embodiment-specific 변형(의료, 산업 등)을 생산하는 모듈형 전략**을 취하고 있으며, Cosmos VLM 백본과 Open Model License를 통해 로봇 SW 생태계 전반을 자사 스택으로 묶는 모습이다.",
+    "focus_angle": "**수술 로봇·로봇 초음파 등 의료용 자율 로봇 OEM이 NVIDIA의 범용 VLA를 기반으로 자사 embodiment에 맞춘 파인튜닝을 할 수 있는 선례**를 제공하며, 휴머노이드 중심이던 GR00T 플랫폼이 특수 목적 로봇(산업·의료·향후 자동차 관련 로보틱스)으로 확장 가능함을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "GR00T-H-N1.7 개발 및 Hugging Face 공개"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "GR00T-H-N1.7",
+      "role": "수술 로봇용 post-trained VLA 모델"
+     },
+     {
+      "name": "GR00T-N1.7-3B",
+      "role": "base model, VLA 파운데이션"
+     },
+     {
+      "name": "Cosmos-Reason2-2B",
+      "role": "vision-language backbone"
+     },
+     {
+      "name": "PhysicalAI-Robotics-Open-H-Embodiment dataset",
+      "role": "post-training용 의료 로봇 embodiment 데이터셋"
+     }
+    ],
+    "watch_next": [
+     "GR00T-H-N1.7의 실제 수술 로봇·로봇 초음파 벤치마크 성능 공개 여부",
+     "Open-H-Embodiment 데이터셋 및 논문(arxiv 2604.21017) 상세 내용 공개",
+     "NVIDIA의 GR00T 계열 모델이 추가 버티컬(산업·자동차·물류 로봇 등)로 확장되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/GR00T-H-N1.7:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: 미기재 · tags: safetensors, Gr00tN1d7, dataset:nvidia/PhysicalAI-Robotics-Open-H-Embodiment, arxiv:2604.21017, arxiv:2503.14734, arxiv:2410.24164, base_model:nvidia/GR00T-N1.7-3B, base_model:finetune:nvidia/GR00T-N1.7-3B · downloads 509 · likes 15. README:  # GR00T-H-N1.7 # Model Overview ### Description: GR00T-H-N1.7 is a post-trained variant of NVIDIA Isaac GR00T N1.7 for surgical robots. It builds on the GR00T N1.7 VLA foundation and adapts it using the Open-H embodiment dataset. This model is ready for commercial use. The neural network architecture is inherited from the GR00T N1.7 series of models, combining a vision-language foundation model with a diffusion transformer head that denoises continuous actions. ### License/Terms of Use: [NVIDIA Open Model License](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-license/) Built on NVIDIA Cosmos. This model uses [nvidia/Cosmos-Reason2-2B](https://huggingface.co/nvidia/Cosmos-Reason2-2B) as its vision-language backbone. You are responsible for ensuring that your use of NVIDIA provided models complies with all applicable laws. ### Deployment Geography: Global ### Use Case: Researchers, Academics, Open-Source Community: Healthcare-focused robotics research and algorithm development. ### Intended Use GR00T-H-N1.7 is intended for use in robotics R&D, including exploration of surgical robotics and robotic ultrasound policies, benchmarking, and method development. It is not intended for clinical deployment, patient care, or medical decision-making. ## References(s): * Open-H Paper: [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017) * Base Model: [GR00T-N1.7-3B](https://huggingfa"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video",
+   "date": "2026-11-10 14:38",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Cosmos3 고해상도 이미지-투-비디오 모델 업데이트",
+    "korean_summary": "NVIDIA가 Physical AI 플랫폼 Cosmos의 이미지-투-비디오 생성 모델을 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Physical AI용 세계기반모델 'Cosmos 3' 이미지-투-비디오 체크포인트 공개",
+    "korean_summary": "NVIDIA가 로봇·자율주행·스마트 공간용 Omnimodal 세계기반모델 플랫폼 Cosmos3의 포스트트레이닝 변형인 Cosmos3-Super-Image2Video를 Hugging Face에 공개해 Physical AI 개발을 가속화하고자 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3 기반의 image-to-video 포스트트레이닝 체크포인트 'Cosmos3-Super-Image2Video'를 Hugging Face에 업로드·업데이트",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Cosmos3-Super 베이스 모델 기반, 상업·비상업 용도 모두 허용"
+    },
+    "key_facts": [
+     "Cosmos3-Super-Image2Video는 **Cosmos3-Super 베이스 모델의 post-trained image-to-video 변형**",
+     "Hugging Face 다운로드 17,452회, 좋아요 163개",
+     "Cosmos3는 텍스트·이미지·비디오·액션 트래젝토리 입력으로부터 비디오·이미지·오디오·액션 커맨드를 생성하는 **Omnimodal 세계기반모델** 집합",
+     "로보틱스, 자율주행, 산업·팩토리 규모를 포함한 스마트 공간 환경을 대상으로 Physical AI 개발 가속을 목표로 설계",
+     "상업적·비상업적 사용 모두 가능(ready for commercial and non-commercial use)"
+    ],
+    "why_matters": "세계기반모델(World Foundation Model)은 로봇·자율주행 정책 학습 및 시뮬레이션의 핵심 인프라로, **NVIDIA가 이를 오픈 체크포인트로 배포함으로써 Physical AI 생태계 전반의 표준화를 선점**하려는 움직임으로 해석된다. diffusers, vllm-omni, sglang 등 주요 추론 프레임워크와의 호환성 확보는 개발자 채택 장벽을 낮춰 경쟁 모델 대비 확산 속도를 높일 수 있다.",
+    "subject_angle": "NVIDIA는 Cosmos를 하드웨어(Omniverse, Jetson, DGX) 위에서 동작하는 **소프트웨어 플랫폼 계층으로 포지셔닝**해, GPU 판매를 넘어 Physical AI 데이터·시뮬레이션·정책학습 전 파이프라인에 대한 생태계 종속성을 강화하는 전략을 지속하고 있다.",
+    "focus_angle": "자율주행 OEM과 휴머노이드 로봇 기업들은 Cosmos3의 image-to-video 생성 능력을 활용해 **드물거나 위험한 주행·조작 시나리오에 대한 합성 비디오 데이터를 저비용으로 확보**할 수 있어, 실차·실로봇 데이터 수집 의존도를 줄이고 임바디드 정책학습(embodied policy learning) 속도를 높일 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 플랫폼 및 Cosmos3-Super-Image2Video 모델 개발사"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 및 배포 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3",
+      "role": "Physical AI용 Omnimodal 세계기반모델 플랫폼"
+     },
+     {
+      "name": "Cosmos3-Super-Image2Video",
+      "role": "Cosmos3-Super 베이스 모델의 image-to-video 포스트트레이닝 체크포인트"
+     },
+     {
+      "name": "Cosmos3-Super",
+      "role": "Cosmos3-Super-Image2Video의 베이스 모델"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Super-Image2Video의 구체적 성능 벤치마크 및 입력/출력 사양 공개 여부",
+     "자동차 OEM·로봇 기업의 Cosmos3 실제 도입 사례 발표",
+     "White Paper·기술 보고서에서 자율주행·휴머노이드 로봇 적용 세부 내용"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, image-to-video, video-generation · downloads 17452 · likes 163. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video The highlighted checkpoint, Cosmos3-Super-Image2Video, is a post-trained image-to-video variant of the Cosmos3-Super base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Image2Video: - Given one input"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image",
+   "date": "2026-11-10 14:38",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Cosmos3 고해상도 텍스트-투-이미지 모델 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos 플랫폼의 텍스트-투-이미지 생성 모델을 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Physical AI용 세계모델 'Cosmos 3' 텍스트-이미지 변형 모델 공개",
+    "korean_summary": "NVIDIA가 로보틱스·자율주행·스마트공간용 옴니모달 세계모델 플랫폼 Cosmos3의 텍스트-이미지 특화 체크포인트 Cosmos3-Super-Text2Image를 Hugging Face에 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Super 기반 텍스트-이미지 포스트트레인 모델(Cosmos3-Super-Text2Image)을 Hugging Face에 업데이트·공개",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "상업적·비상업적 용도 모두 허용, 텍스트 입력 기반 이미지 생성"
+    },
+    "key_facts": [
+     "Cosmos3-Super-Text2Image는 **Cosmos3-Super 베이스 모델의 포스트트레인 변형**으로 텍스트 입력 기반 이미지 생성을 수행",
+     "Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력으로부터 비디오·이미지·오디오·액션 커맨드를 생성하는 옴니모달 세계모델 컬렉션",
+     "**로보틱스, 자율주행, 스마트 스페이스(산업·공장 규모 응용 포함) 분야의 Physical AI 개발 가속화**를 목표로 설계됨",
+     "모델은 diffusers·safetensors 포맷과 vllm-omni, sglang-diffusion 등 추론 프레임워크 태그를 포함",
+     "현재 다운로드 4071회, likes 196 (Hugging Face 기준)"
+    ],
+    "why_matters": "**세계모델(world foundation model)은 로봇·자율주행차가 물리 세계를 이해·시뮬레이션하는 핵심 인프라**로, NVIDIA가 이를 오픈 플랫폼화해 생태계 선점을 가속화하고 있다는 의미다. 경쟁사(Google, Meta 등)의 멀티모달·월드모델 연구와 직접 경쟁하는 영역으로, Physical AI 개발 표준을 NVIDIA 스택(하드웨어+소프트웨어)으로 묶으려는 전략으로 해석된다.",
+    "subject_angle": "NVIDIA는 **GPU 하드웨어를 넘어 Cosmos라는 소프트웨어·데이터 플랫폼으로 Physical AI 개발 생태계를 선점**하려 하며, Hugging Face 공개를 통해 개발자 커뮤니티 확산과 자사 추론 스택(vllm-omni, sglang) 채택을 동시에 노리는 전략으로 보인다.",
+    "focus_angle": "**자율주행·휴머노이드 로봇 OEM이 실제 주행·조작 데이터 수집 없이도 시뮬레이션용 합성 이미지·시나리오를 Cosmos3로 생성**할 수 있어, 데이터 수집 비용과 edge-case 커버리지 문제를 완화하는 기반 기술로 작동할 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 플랫폼 및 Cosmos3-Super-Text2Image 모델 개발사"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "모델 호스팅 및 배포 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Super-Text2Image",
+      "role": "텍스트 입력 기반 이미지 생성 포스트트레인 모델"
+     },
+     {
+      "name": "Cosmos3-Super",
+      "role": "Cosmos3-Super-Text2Image의 베이스 모델"
+     },
+     {
+      "name": "Cosmos3 (NVIDIA Cosmos™)",
+      "role": "로보틱스·자율주행·스마트공간용 옴니모달 세계모델 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3 Text2Image 외 다른 모달리티(비디오·액션) 체크포인트의 로봇·자율주행 실제 적용 사례 공개 여부",
+     "Cosmos3 White Paper 및 Technical Report를 통한 성능 벤치마크·학습 데이터 범위 확인",
+     "자동차 OEM 또는 휴머노이드 로봇 기업의 Cosmos3 기반 시뮬레이션 데이터 활용 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, sglang, sglang-diffusion, text-to-image, image-generation · downloads 4071 · likes 196. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image The highlighted checkpoint, Cosmos3-Super-Text2Image, is a post-trained text-to-image variant of the Cosmos3-Super base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Super-Text2Image: - Given text input, g"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Edge-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Edge-Policy-DROID",
+   "date": "2026-11-10 14:38",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Edge-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Cosmos3 로봇 제어 정책 모델 엣지 버전 업데이트",
+    "korean_summary": "NVIDIA가 자율주행 및 로봇용 Cosmos 기반 정책 모델 엣지 버전을 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 로봇 정책 모델 'Cosmos3-Edge-Policy-DROID' 공개",
+    "korean_summary": "NVIDIA가 Physical AI 플랫폼 Cosmos3의 엣지용 로봇 정책 모델 'Cosmos3-Edge-Policy-DROID'를 Hugging Face에 공개해 로봇 행동 생성 연구 및 상용화를 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Edge 베이스 모델을 post-training한 로봇 정책 체크포인트 'Cosmos3-Edge-Policy-DROID'를 Hugging Face에 공개",
+     "stage": "Available",
+     "timeline": "2026-07-20",
+     "scope": "Cosmos3-Edge-Policy 계열, 로봇 정책(policy) 적용, 상업적·비상업적 사용 허용"
+    },
+    "key_facts": [
+     "Cosmos3-Edge-Policy-DROID는 Cosmos3-Edge 베이스 모델의 post-trained 로봇 정책(policy) 변형 모델임",
+     "**Cosmos3는 텍스트·이미지·비디오·행동 궤적(action trajectory) 입력으로부터 비디오·이미지·오디오·행동 명령을 생성하는 Omnimodal world model**",
+     "릴리즈일: 2026-07-20, 다운로드 2,602회, 좋아요 18개",
+     "라이선스상 상업적·비상업적 사용 모두 가능",
+     "tags에 world action model, policy model, cosmos3_omni 포함되며 diffusers/safetensors 포맷 지원"
+    ],
+    "why_matters": "**로봇 조작(manipulation) 정책을 엣지에서 구동 가능한 파운데이션 모델로 패키징**함으로써 NVIDIA는 로봇 개발사들이 자체 정책을 처음부터 학습하지 않고 사전학습된 world-action 모델을 파인튜닝해 배포할 수 있는 경로를 제공한다. 이는 Physical AI 플랫폼 경쟁에서 NVIDIA가 시뮬레이션뿐 아니라 실제 행동 생성(action generation)까지 수직 통합하려는 움직임을 보여준다.",
+    "subject_angle": "**Cosmos3 플랫폼을 world generation에서 embodied policy learning까지 확장**함으로써 NVIDIA는 로보틱스·자율주행·스마트 스페이스 전반을 아우르는 Physical AI 풀스택 전략을 강화하고 있다.",
+    "focus_angle": "DROID 기반 정책 모델은 로봇팔 조작 등 실제 행동 명령 생성을 목표로 하여 **휴머노이드·산업용 로봇 OEM들이 엣지 디바이스에서 바로 활용 가능한 사전학습 정책**을 제공하며, 자율주행용 월드모델과 동일한 Cosmos3 아키텍처를 공유함으로써 로봇·차량 양쪽에 공통 Physical AI 기반을 제시한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "모델 개발사, Cosmos3 플랫폼 및 Cosmos3-Edge-Policy-DROID 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3",
+      "role": "Omnimodal world foundation model 플랫폼, Physical AI 전반의 기반 기술"
+     },
+     {
+      "name": "Cosmos3-Edge",
+      "role": "엣지 배포용 베이스 모델"
+     },
+     {
+      "name": "Cosmos3-Edge-Policy-DROID",
+      "role": "로봇 행동 정책 생성을 위한 post-trained 체크포인트"
+     }
+    ],
+    "watch_next": [
+     "Cosmos3-Edge-Policy-DROID의 실제 로봇 플랫폼(휴머노이드/로봇팔) 적용 사례 공개 여부",
+     "Cosmos3 White Paper 및 기술 리포트에서 DROID 데이터셋·벤치마크 성능 상세 공개",
+     "자율주행(autonomous driving) 영역에 동일 Cosmos3-Edge 계열 정책 모델 확장 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Edge-Policy-DROID:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 2602 · likes 18. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Edge-Policy-DROID The highlighted checkpoint, Cosmos3-Edge-Policy-DROID, is a post-trained robot-policy variant of the Cosmos3-Edge base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions **Released on: 07/20/2026** - Cosmos3-Edge-Policy"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Nano-Policy-DROID (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Nano-Policy-DROID",
+   "date": "2026-11-10 14:38",
+   "score": 7,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Nano-Policy-DROID",
+    "version": ""
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics",
+     "automotive"
+    ],
+    "korean_title": "NVIDIA Cosmos3 로봇 제어 정책 모델 나노 버전 업데이트",
+    "korean_summary": "NVIDIA가 Cosmos 기반 경량 로봇 정책 모델 나노 버전을 업데이트했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 로봇 정책 모델 Cosmos3-Nano-Policy-DROID 공개",
+    "korean_summary": "NVIDIA가 Cosmos3 Nano 기반의 로봇 정책(policy) 모델 Cosmos3-Nano-Policy-DROID를 Hugging Face에 업데이트해 Physical AI용 임베디드 정책 학습을 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Cosmos3-Nano 기반 로봇 정책 모델(DROID 포스트트레이닝 체크포인트) 공개 및 업데이트",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "Cosmos3-Nano-Policy-DROID 체크포인트, 상업적·비상업적 사용 가능"
+    },
+    "key_facts": [
+     "Cosmos3-Nano-Policy-DROID는 **Cosmos3-Nano 베이스 모델의 post-trained robot-policy 변형**",
+     "다운로드 1871회, 좋아요 39개 기록",
+     "Cosmos3는 텍스트·이미지·비디오·액션 궤적 입력으로부터 비디오, 이미지, 오디오, 액션 커맨드를 생성하는 **Omnimodal world model** 집합",
+     "로보틱스, 자율주행, 스마트 스페이스(산업·공장 포함) 등 Physical AI 전반을 위한 world foundation model 플랫폼으로 소개됨",
+     "상업적 및 비상업적 사용에 즉시 사용 가능(ready for commercial and non-commercial use)"
+    ],
+    "why_matters": "NVIDIA가 Cosmos3 플랫폼을 통해 로봇 정책 학습까지 포함하는 **엔드투엔드 world model 생태계**를 구축하고 있음을 보여준다. 이는 Physical AI 개발사들이 별도 시뮬레이터나 정책 모델을 자체 구축할 필요 없이 NVIDIA 플랫폼에 의존하게 만드는 전략으로, 로봇·자율주행 소프트웨어 스택에서의 영향력 확대를 의미한다.",
+    "subject_angle": "NVIDIA는 Cosmos3를 세계모델(world model)-정책모델(policy model) 통합 체인으로 확장하며 **Physical AI의 파운데이션 모델 레이어를 선점**하려는 전략을 보여준다.",
+    "focus_angle": "DROID 기반 정책 체크포인트는 로봇 매니퓰레이션 학습 데이터셋에 직접 포스트트레이닝된 모델로, **휴머노이드·로봇 암 OEM들이 자체 정책 모델 없이도 NVIDIA 체크포인트를 파인튜닝해 실제 로봇에 적용**할 수 있는 길을 열며, 자율주행 분야보다는 로보틱스 임베디드 정책 학습에 직접적 영향을 준다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Cosmos3 플랫폼 및 Cosmos3-Nano-Policy-DROID 모델 개발사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Cosmos3-Nano-Policy-DROID",
+      "role": "로봇 정책 학습용 post-trained 체크포인트"
+     },
+     {
+      "name": "Cosmos3-Nano",
+      "role": "해당 정책 모델의 베이스 world model"
+     },
+     {
+      "name": "Cosmos3",
+      "role": "Omnimodal world foundation model 플랫폼 전체"
+     }
+    ],
+    "watch_next": [
+     "DROID 데이터셋 기반 정책 모델의 실제 로봇 플랫폼 적용 사례",
+     "Cosmos3 컬렉션 내 자율주행 특화 체크포인트 공개 여부",
+     "Cosmos3-Nano-Policy 시리즈의 추가 variant(타 로봇 플랫폼용) 출시 여부"
+    ]
+   },
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Nano-Policy-DROID:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: 미기재 · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, world action model, policy model · downloads 1871 · likes 39. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Nano-Policy-DROID The highlighted checkpoint, Cosmos3-Nano-Policy-DROID, is a post-trained robot-policy variant of the Cosmos3-Nano base model. ## Description Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning. This model is ready for commercial and non-commercial use. **Model Developer:** NVIDIA ### Model Versions - Cosmos3-Nano-Policy-DROID: - Given language ins"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+   "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+   "date": "2026-11-11 01:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA, OpenShell과 Agent Substrate를 CNCF에 기여",
+    "korean_summary": "NVIDIA가 자율 에이전트 보안·거버넌스 런타임 OpenShell과 장시간 에이전트 워크로드 운영 프레임워크 Agent Substrate를 CNCF에 기여했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, OpenShell 오픈소스 기부 및 새로운 AI 인프라 도구로 Kubernetes 생태계 강화",
+    "korean_summary": "NVIDIA가 KubeCon + CloudNativeCon에서 자율 에이전트 보안 런타임 **OpenShell을 CNCF에 기부**하고 Kubernetes 기반 AI 팩토리 운영을 위한 새로운 DSX 플랫폼 구성요소를 공개했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "OpenShell을 CNCF Sandbox 프로젝트로 기부하고, Google 주도 Agent Substrate에 기여하며, NVIDIA Kubernetes Engine·Kubernetes Recipes·Snapshot을 공개",
+     "stage": "Announced",
+     "timeline": "KubeCon + CloudNativeCon 행사 시점(미확인 정확 일자)",
+     "scope": "Kubernetes 기반 AI 팩토리 인프라, 자율 에이전트 보안·배포 전반"
+    },
+    "key_facts": [
+     "**NVIDIA OpenShell**은 자율 에이전트 보안·거버넌스를 위한 오픈소스 런타임으로 CNCF Sandbox 프로젝트로 기부됨",
+     "OpenShell은 출시 1년 미만 기간에 수백 개 조직이 사용하고 수만 건의 기여를 받음",
+     "NVIDIA는 Google 주도 **Agent Substrate**(CNCF Sandbox 채택)에 기여하며 NVIDIA Dynamo, KAI Scheduler와 연동",
+     "NVIDIA Kubernetes Engine(NVKE)과 NVIDIA Kubernetes Recipes(NVKR)는 public preview로 공개, Mirantis·Netris·OpenNebula Systems·Rafay·Spectro Cloud·vCluster·Firmus·SK Telecom이 통합 계획에 합류",
+     "NVIDIA Snapshot은 추론 용량 신속 온라인화를 위한 오픈소스 모듈형 도구(세부 사양 미확인)"
+    ],
+    "why_matters": "Kubernetes가 AI 팩토리의 핵심 운영 기반으로 부상하는 가운데, NVIDIA가 에이전트 보안·오케스트레이션 레이어를 **오픈소스로 표준화**함으로써 생태계 주도권을 확보하려는 움직임이다. 이는 클라우드·인프라 파트너들이 NVIDIA 스택에 더 깊이 통합되도록 유도해 GPU 인프라 판매 및 DSX 플랫폼 채택을 가속화할 수 있다.",
+    "subject_angle": "NVIDIA는 하드웨어 판매를 넘어 **Kubernetes 오케스트레이션·에이전트 보안 표준**을 직접 설계함으로써 AI 팩토리 소프트웨어 스택 전체를 장악하려는 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "OpenShell 기부, Agent Substrate 기여, NVKE/NVKR/Snapshot 발표 주체"
+     },
+     {
+      "name": "Google",
+      "context": "Agent Substrate 프레임워크 원 개발사, NVIDIA와 통합 협력"
+     },
+     {
+      "name": "Linux Foundation / CNCF",
+      "context": "OpenShell 및 Agent Substrate의 Sandbox 프로젝트 호스트"
+     },
+     {
+      "name": "Mirantis",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "Netris",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "OpenNebula Systems",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "Rafay",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "Spectro Cloud",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "vCluster",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "Firmus",
+      "context": "NVKE/NVKR 통합 파트너"
+     },
+     {
+      "name": "SK Telecom",
+      "context": "NVKE/NVKR 통합 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA OpenShell",
+      "role": "자율 에이전트 보안·거버넌스 런타임, CNCF에 기부"
+     },
+     {
+      "name": "Agent Substrate",
+      "role": "Kubernetes 상 장기 실행 에이전트 워크로드 운영 프레임워크"
+     },
+     {
+      "name": "NVIDIA DSX AI Factory Platform",
+      "role": "GPU 인프라~모델 서빙까지 아우르는 소프트웨어 스택"
+     },
+     {
+      "name": "NVIDIA Kubernetes Engine (NVKE)",
+      "role": "GPU 인프라 상 관리형 Kubernetes 서비스 제공 빌딩 블록"
+     },
+     {
+      "name": "NVIDIA Kubernetes Recipes (NVKR)",
+      "role": "서명·버전 고정 이미지로 클러스터 라이프사이클 자동화"
+     },
+     {
+      "name": "NVIDIA Snapshot",
+      "role": "추론 용량 신속 온라인화를 위한 오픈소스 모듈형 도구"
+     },
+     {
+      "name": "NVIDIA Dynamo",
+      "role": "모델 추론 서빙, Agent Substrate와 연동"
+     },
+     {
+      "name": "KAI Scheduler",
+      "role": "공유 클러스터 자원 할당, Agent Substrate와 연동"
+     }
+    ],
+    "watch_next": [
+     "OpenShell의 CNCF Sandbox 내 거버넌스 구조 및 추가 참여 기업 확대 여부",
+     "NVKE/NVKR public preview에서 정식 출시(GA)로의 전환 시점",
+     "NVIDIA Snapshot의 구체적 성능 지표 및 상용 적용 사례"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+     "link": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+   "body": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon , the flagship conference for the Kubernetes and cloud-native communities. NVIDIA is contributing NVIDIA OpenShell , an open source runtime for securing and governing autonomous agents, to the Cloud Native Computing Foundation (CNCF), a nonprofit that is part of the Linux Foundation and the host of KubeCon. As a CNCF Sandbox project, OpenShell will be governed by the organizations building it into their products and strengthened by the expertise of security professionals worldwide. NVIDIA is also contributing to Agent Substrate , an open source Google-led framework for operating long-running agent workloads at scale on Kubernetes that has been accepted into the CNCF Sandbox. Additionally, NVIDIA announced new components of the NVIDIA DSX AI Factory Platform : NVIDIA Kubernetes Engine , NVIDIA Kubernetes Recipes and NVIDIA Snapshot . These tools help teams deploy, manage and scale GPU infrastructure on Kubernetes for AI factories. Together, these advancements mark a step forward in making Kubernetes the leading foundation for AI workloads at scale — empowering developers to build safer, more efficient AI infrastructure for the future. Securing AI Agents in the Open NVIDIA’s contribution of OpenShell to CNCF puts security infrastructure for autonomous agents in the community’s hands to build, inspect and improve — accelerating development and hardening its safeguards. “The cloud-native community has a new infrastructure challenge: giving agents secure environments in which to operate,” said Jim Zemlin, CEO of the Linux Foundation. “NVIDIA’s contribution of OpenShell to CNCF gives developers a shared foundation to build on and an opportunity to shape how agent security evolves. Bringing this work into the community enables broader collaboration on infrastructure that will be critical to the next generation of cloud-native applications.” OpenShell gives organizations control over what AI agents can do. It applies deterministic controls to agent activity, so teams can enforce policies as agents use tools, access inference services and execute workloads. Its extensible architecture lets teams connect their own compute, inference providers, credential storage and monitoring tools. This allows organizations to apply governance across different deployment environments while integrating OpenShell with their existing enterprise systems. Hundreds of organizations have put OpenShell to use, and the project has received tens of thousands of contributions in less than a year since launch. Scaling Agent Execution on Kubernetes Governing agents is only part of the challenge. Organizations also need to deploy them at scale. NVIDIA is contributing to Agent Substrate, a Google -originated project "
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
+   "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+   "date": "2026-11-11 08:06",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Schumer 의원, Trump 대통령을 황 CEO 스캔들 무시로 비난",
+    "korean_summary": "민주당 Schumer 의원이 중국 첩보원 정보를 알면서도 조치하지 않은 Trump 대통령을 비난했다."
+   },
+   "summary_data": {
+    "korean_title": "Schumer, Trump이 국가안보보다 Jensen Huang을 감쌌다고 비판",
+    "korean_summary": "미국 민주당 상원 원내대표 Chuck Schumer가 Trump 대통령이 Jensen Huang과 중국 스파이 혐의자의 불륜 관련 브리핑을 받고도 조치를 취하지 않은 점과 대중국 AI 칩 수출통제 완화를 **국가안보 소홀**로 규정하며 비판했다.",
+    "action": {
+     "actor": "Sen. Charles Schumer",
+     "action": "Trump 대통령이 Jensen Huang의 불륜·스파이 연계 의혹을 알고도 방치했고, Huang의 조언에 따라 중국에 첨단 AI 칩 접근을 허용했다고 상원에서 비판 연설",
+     "stage": "Report",
+     "timeline": "2026-11-10(화) 상원 발언, 보도는 최근 New York Times 기사 이후",
+     "scope": "Nvidia CEO Jensen Huang 개인 스캔들 및 대중국 AI 칩 수출정책 전반"
+    },
+    "key_facts": [
+     "Trump는 1년 이상 전에 Jensen Huang이 중국 스파이로 의심되는 Megaspeed 임원 Alice Huang과 불륜 관계였다는 브리핑을 받았다고 New York Times가 보도",
+     "Schumer는 Trump가 Huang의 조언을 받아 **중국에 첨단 AI 칩 접근을 허용**했다고 주장",
+     "Nvidia는 Trump의 White House ballroom 프로젝트에 25만 달러가 아닌 **$25 million을 기부**했다고 언급됨",
+     "Nvidia는 전날(월요일) Jensen Huang의 행동에 대한 독립적 조사(independent investigation)를 개시한다고 발표",
+     "Rep. John Moolenaar(하원 중국특위 위원장)는 Huang이 기밀정보를 유출했는지, 대중국 칩 수출 반대 로비에 영향을 받았는지, 중국에 칩 구매 우선권을 줬는지 조사를 요구"
+    ],
+    "why_matters": "미 의회의 양당 초당적 조사 압력이 Nvidia CEO 개인 스캔들을 넘어 **대중국 AI 칩 수출정책 전반**에 대한 정치적 리스크로 확산되고 있으며, 민주당이 상·하원 다수를 차지함에 따라 Nvidia에 대한 공식 조사 가능성이 커졌다. 이는 Nvidia의 중국 사업 및 수출통제 완화 기조에 직접적 타격을 줄 수 있는 지정학적·규제 리스크다.",
+    "subject_angle": "Nvidia의 핵심 자산인 CEO Jensen Huang의 개인 스캔들이 회사의 **대중국 칩 수출 전략과 로비 영향력**에 대한 정치적 신뢰 문제로 비화되며, 향후 수출통제·정책 결정에서 Nvidia의 입지가 위축될 위험이 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 스캔들 및 대중국 칩 수출정책의 중심, 독립 조사 개시, Trump ballroom 프로젝트에 $25 million 기부"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang의 소속 기업, 중국 스파이 혐의 연계"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Nvidia의 Jensen Huang 행동에 대한 독립 조사 결과 및 발표 시점",
+     "Democrats 다수 의회의 Nvidia·Huang 관련 정식 조사(subpoena 등) 개시 여부",
+     "AI Overwatch Act, Match Act, Chip Security Act 등 관련 입법의 상원 처리 동향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+   "body": "Democratic leader Sen. Charles Schumer ripped President Donald Trump on Tuesday for defending embattled Nvidia CEO Jensen Huang at the expense of U.S. national security. \"The press reports that Trump was briefed more than a year ago that Nvidia's CEO was having an affair with a suspected Chinese spy, and Trump didn't do anything – anything – about it,\" Schumer, D-N.Y., said on the Senate floor. \"Can you believe that?\" said Schumer, the Senate's minority leader. Schumer's broadside came on the heels of New York Times reports that Trump had been briefed about Huang's extramarital affair with Megaspeed executive Alice Huang — whom U.S. intelligence concluded was a spy for China — and opted not to do anything about it. Trump suggested to reporters on Monday that he only recently learned of the allegations about Alice Huang, and the president commented Monday that he \"really\" believes Jensen Huang's claim to him directly that he had no idea Alice Huang was a spy. \"One of our most important companies that is involved in national security, and the CEO might be having an affair with a Chinese spy, and Trump did nothing about it,\" Schumer said Tuesday. \"What a dereliction of duty. He's supposed to protect America, not China, not his friends,\" Schumer said. \"Trump has been busy trying to defend Jensen Huang when he ought to be defending our national security. It's that simple, it's obvious.\" Schumer's comments escalated growing bipartisan concern in Congress about the Nvidia CEO and his company. Nvidia makes advanced chips that are essential components in developing artificial intelligence models, a sector that is the focus of keen competition between the United States and China. Schumer noted that Trump earlier this year invited Huang to join him on a state visit to Beijing, and that he took Huang's advice by granting the People's Republic of China \"access to some of our most advanced AI chips.\" Nvidia also donated $25 million to Trump's controversial White House ballroom project, the Democrat said. \"Despite talking a big game, Trump continues to show a troubling resistance to confront China on AI and to protect American national security,\" Schumer said. \"I've been saying it for years: our cutting-edge AI chips are too valuable to fall into the hands of potential adversaries.\" Schumer in his speech called on Republicans to join Democrats in passing several pieces of legislation — the AI Overwatch Act, the Match Act, and the Chip Security Act — which he said would \"cut off China's access to advanced American technology.\" \"We also need answers on Nvidia's influence campaign and how [it] affected the Trump administration's national security decisions, including the loosening – the loosening – of key export controls,\" Schumer said. \"We need a full accounting for Trump's failure to address foreign espionage in the American tech industry.\" CNBC has requested comment from the White House about Schumer's remarks. The remarks came nearly a week after Democrats won"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "President Trump says the FBI is investigating Jensen Huang’s affair",
+   "link": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
+   "date": "2026-11-10 21:33",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프 대통령, FBI가 Jensen Huang CEO 불륜 조사 중이라고 공식 확인",
+    "korean_summary": "미국 대통령 트럼프가 FBI가 NVIDIA CEO Jensen Huang의 불륜 조사를 진행 중이라고 백악관 브리핑에서 공식 언급했다."
+   },
+   "summary_data": {
+    "korean_title": "트럼프 대통령, FBI가 Jensen Huang의 불륜 의혹 수사 중이라고 확인",
+    "korean_summary": "Donald Trump 대통령은 NVIDIA CEO Jensen Huang이 중국 스파이 혐의자 Alice Huang과의 불륜을 인정한 가운데 **FBI가 이를 수사 중이라고 확인**했으며, 동시에 Bloomberg는 NVIDIA가 Megaspeed 밀수 조사에 개입했다고 보도했다.",
+    "action": {
+     "actor": "FBI / U.S. President Donald Trump",
+     "action": "Jensen Huang의 Alice Huang(Megaspeed 前 임원, 중국 MSS 연계 의혹) 관련 불륜 및 안보 우려 사안을 수사",
+     "stage": "Report",
+     "timeline": "미확인 (Trump의 White House 브리핑 발언 기준, 2025년 말 Justice Department가 BIS에 Megaspeed 조사 중단 요청)",
+     "scope": "Jensen Huang 개인 및 NVIDIA의 对중국 수출·보안 프로토콜 관련, Megaspeed(싱가포르 데이터센터 기업) 포함"
+    },
+    "key_facts": [
+     "Trump는 White House 브리핑에서 **FBI가 Jensen Huang 관련 사안을 조사 중**이라고 밝혔고, Huang과 직접 통화했다고 언급함",
+     "Alice Huang은 Megaspeed 前 임원으로 중국 Ministry of State Security(MSS)와의 연계가 의혹되며, 미 정보당국이 1년 전 이를 대통령에게 보고했으나 조치되지 않음",
+     "Bloomberg는 NVIDIA EVP·법무총괄 Tim Teter가 BIS 수장 Jeffrey Kessler에게 Megaspeed(20억 달러 규모 NVIDIA AI 프로세서 밀수 의혹) 조사에 대해 직접 문의했다고 보도",
+     "2025년 말 Justice Department가 BIS에 **Megaspeed 조사 중단(pause)을 요청**함",
+     "Congress는 Huang을 소환해 NVIDIA의 보안 프로토콜과 외국 적대세력 스파이 행위 관련 우려를 제기함"
+    ],
+    "why_matters": "AI 칩 수출 규제의 중심 기업인 NVIDIA의 CEO가 중국 연계 스파이 의혹 인물과의 관계 및 자사 법무팀의 정부 조사 개입 의혹에 휘말리면서, **NVIDIA의 미국 정부 내 영향력과 보안 신뢰성에 대한 정치적 리스크**가 커지고 있다. 이는 H200 등 대중국 칩 수출 승인 정책 전반에 대한 의회·행정부의 재검토 가능성을 높인다.",
+    "subject_angle": "이번 사태는 NVIDIA가 **대중국 수출 정책에 직접 개입**해온 정황이 부각되며, 향후 BIS·의회의 감시 강화로 중국向 AI 칩 판매 전략에 제약이 가해질 가능성을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 칩 공급사, CEO 스캔들 및 정부 조사 개입 의혹 당사자"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 소재 데이터센터 기업, NVIDIA AI 프로세서 밀수 의혹 대상"
+     },
+     {
+      "name": "Bureau of Industry and Security (BIS)",
+      "context": "미 상무부 산하 수출통제 기관, Megaspeed 조사 주체"
+     },
+     {
+      "name": "Department of Justice",
+      "context": "BIS에 Megaspeed 조사 중단 요청"
+     }
+    ],
+    "products": [
+     {
+      "name": "H200",
+      "role": "White House가 25% 수수료 부과 조건으로 대중국 수출 승인한 AI 칩"
+     }
+    ],
+    "watch_next": [
+     "FBI 수사의 구체적 범위 및 결과 발표 여부",
+     "Megaspeed 조사 재개 여부 및 NVIDIA 개입 의혹에 대한 추가 조사",
+     "의회의 NVIDIA 보안 프로토콜 관련 추가 청문회 또는 입법 조치"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/policy/president-trump-says-the-fbi-is-investigating-jensen-huangs-affair-nvidia-also-accused-of-intervening-in-megaspeed-chip-smuggling-investigation",
+   "body": "As more information about the ongoing situation at Nvidia unravels, U.S. President Donald Trump has confirmed that the FBI is investigating CEO Jensen Huang’s affair with a suspected Chinese spy days after he admitted to the indiscretion. According to the Associated Press , the president said this during a briefing at the White House, with one reporter asking him about his knowledge of Huang’s issue before it became publicly known. The news comes amidst a separate bombshell report from Bloomberg , which claims that Nvidia intervened in a US government probe of suspected chip smuggling by Megaspeed, where Alice Huang was an executive. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained “Well, I’ve been hearing about it, and I’ve been reading about it over a period of time, but, uh, not too long ago,” Trump said. “We’ll look into, I know the FBI is looking into it in terms of something, and I think he’ll be in good shape.” He also said, “I did speak to him today just to see if he’s feeling alright, how you’re doing. He said he had absolutely no idea that the person in question was a spy.” It has been previously reported that U.S. intelligence services suspected that Alice Huang , who previously held an executive position at Megaspeed, had ties to the Chinese Ministry of State Security (MSS), which is one of the country’s intelligence services, and that they told the President about it over a year ago. However, it was reported he did not act on the information, as he reportedly did not want to jeopardize Nvidia sales or antagonize Beijing, especially after the White House approved the export of H200 chips to China with an attached 25% fee. Congress has called Huang once to confront him about these rumors, with the CEO confirming his affair with Alice Huang shortly after. The committee said it has \"concerns over Nvidia’s security protocols against foreign adversary espionage and Mr. Huang’s reported ties to a Chinese intelligence-linked executive of a Singapore-based data center company.” Now, it seems that the FBI, which is the U.S.’s primary domestic counterintelligence agency, is looking into the situation, too. While the infidelity of tech executives is usually outside the purview of politicians and law enforcement, Jensen Huang’s sensitive position as the head of the leading AI chip manufacturer that arguably single-handedly drove the global AI race has made him a prominent target. China has denied the accusation that Alice Huang is its agent, but a think tank suggests that “China is employing ‘attractive women’ posing as investors, business professionals, academics, or romantic partners to gain access to U.S. te"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Germany's Deutsche Telekom to expand Munich AI data center by 20MW",
+   "link": "https://www.datacenterdynamics.com/en/news/germanys-deutsche-telekom-to-expand-munich-ai-data-center-by-20mw/",
+   "date": "2026-11-10 23:44",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "독일 텔레콤, 뮌헨 AI 데이터센터 20MW 확장하며 Blackwell B300 추가 도입",
+    "korean_summary": "독일 텔레콤이 뮌헨 AI 팩토리 데이터센터를 20MW 확장하면서 엔비디아 Blackwell B200과 B300 GPU를 추가 배치한다."
+   },
+   "summary_data": {
+    "korean_title": "Deutsche Telekom, 뮌헨 AI 데이터센터 20MW 추가 확장…NVIDIA Blackwell Ultra(B300) 도입",
+    "korean_summary": "Deutsche Telekom이 뮌헨 Tucherpark AI factory 데이터센터를 20MW 추가 확장하며 기존 NVIDIA RTX PRO 6000 Blackwell Server Edition 및 B200 GPU에 더해 **NVIDIA Blackwell Ultra(B300) GPU**를 신규 배치한다.",
+    "action": {
+     "actor": "Deutsche Telekom",
+     "action": "뮌헨 Tucherpark AI factory 데이터센터를 20MW 확장하고 NVIDIA Blackwell Ultra(B300) GPU를 추가 배치",
+     "stage": "Announced",
+     "timeline": "2025년 10월 계획 발표, 2026년 2월 가동 시작, 이번 주 확장 발표",
+     "scope": "독일 뮌헨 Tucherpark 'AI factory' 데이터센터"
+    },
+    "key_facts": [
+     "이번 주 뮌헨 Tucherpark AI factory 데이터센터를 **20MW 확장**한다고 발표",
+     "기존 NVIDIA RTX PRO 6000 Blackwell Server Edition, B200 GPU에 더해 **NVIDIA Blackwell Ultra(B300) GPU 추가 배치** 예정",
+     "2025년 10월 계획 발표 후 2026년 2월 가동 시작, 독일 내 AI 컴퓨팅 용량을 50% 증가시켰으며 7개월 내 완전히 예약 완료",
+     "SAP와 Deutsche Telekom은 EU AI gigafactory 이니셔티브의 대규모 데이터센터 유치 경쟁에 참여",
+     "T-Systems는 독일(뮌헨, 프랑크푸르트, Biere), 스위스, 오스트리아, 네덜란드, 미국에 총 130MW 용량·16개 데이터센터 운영"
+    ],
+    "why_matters": "유럽 최대 통신사가 자국 AI 주권(sovereign AI) 확보를 목표로 **Blackwell Ultra(B300)**까지 빠르게 채택하며 완전 예약 성공 사례를 보여준 것은 유럽 기업들의 AI 인프라 투자 가속과 NVIDIA 최신 GPU에 대한 수요 지속성을 입증한다. 이는 EU AI gigafactory 경쟁 구도 속에서 통신사 주도 AI factory 모델이 확산되는 흐름을 보여준다.",
+    "subject_angle": "NVIDIA는 통신사(telco) 고객군을 통해 **Blackwell 세대 전체(B200→B300)**의 연속적 업그레이드 수요를 확보하며, 유럽 sovereign AI 구축의 핵심 공급자로 자리매김하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Deutsche Telekom",
+      "context": "뮌헨 AI factory 데이터센터 운영 및 확장 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "RTX PRO 6000 Blackwell Server Edition, B200, Blackwell Ultra(B300) GPU 공급"
+     },
+     {
+      "name": "SAP",
+      "context": "EU AI gigafactory 이니셔티브 유치 경쟁 참여사"
+     },
+     {
+      "name": "T-Systems",
+      "context": "Deutsche Telekom 산하 데이터센터·클라우드 운영 자회사"
+     },
+     {
+      "name": "DTCP (Digital Transformation Capital Partners)",
+      "context": "Deutsche Telekom에서 분사했으나 긴밀한 관계 유지, Maincubes 및 Atlantic Hub 지분 보유"
+     },
+     {
+      "name": "Maincubes",
+      "context": "DTCP가 과반 지분을 보유한 독일 데이터센터 운영사"
+     },
+     {
+      "name": "Atlantic Hub",
+      "context": "DTCP가 최근 지분 투자한 아일랜드 데이터센터 기업"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+      "role": "뮌헨 AI factory 기존 배치 GPU"
+     },
+     {
+      "name": "NVIDIA B200",
+      "role": "뮌헨 AI factory 기존 배치 GPU"
+     },
+     {
+      "name": "NVIDIA Blackwell Ultra (B300)",
+      "role": "이번 확장에서 신규 배치될 차세대 GPU"
+     }
+    ],
+    "watch_next": [
+     "20MW 확장 완료 시점 및 B300 GPU 실제 가동 일정",
+     "EU AI gigafactory 이니셔티브 유치 결과 발표 여부",
+     "뮌헨 AI factory의 추가 예약률 및 고객 확보 현황"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/germanys-deutsche-telekom-to-expand-munich-ai-data-center-by-20mw",
+   "body": "German telecoms giant Deutsche Telekom is expanding its AI data center in Munich. The company this week announced it will continue to expand its ‘AI factory’ data center at Munich's Tucherpark, expanding the site by 20MW. As well as continuing to use Nvidia’s RTX PRO 6000 Blackwell Server Edition and B200s GPUs, the company will deploy additional Blackwell Ultra Generation (B300) GPUs at the facility. Deutsche Telekom CEO Tim Höttges said: “Germany must not only be a user of AI; it must also create value and prosperity itself. Telekom has moved forward here at a rapid pace. The world must take Europe seriously. The goal is not only to develop AI, but to put it into practice as a scalable business model – delivering measurable efficiency gains, new products, and additional value creation in Germany and Europe.” After announcing plans in October 2025, the Industrial AI Cloud (AI factory) at Munich's Tucherpark only went live in February 2026. DT said the initial deployment increased available AI computing capacity in Germany by 50 percent and was fully booked within seven months. SAP and Deutsche Telekom were among the companies pitching to host a large-scale data center as part of the European Union's AI gigafactory initiative. Munich is a prominent secondary market in Germany. A May 2024 market report by data center research firm DC Byte states that the city is the country’s third-largest market by capacity, behind Frankfurt and Berlin. Founded in 2000, Deutsche Telekom’s T-Systems has 130MW of data center capacity across 16 data centers. Its footprint spans facilities and private cloud regions in Germany (Munich, Frankfurt, Biere), Switzerland, Austria, the Netherlands, and the US. It launched a private cloud region in Spain in 2024. Digital Transformation Capital Partners (DTCP), which was spun out of Deutsche Telekom in 2015 but retains close ties to the telco, owns a majority stake in German data center operator Maincubes. It also recently took a stake in Irish data center firm Atlantic Hub."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "KAIST·엔비디아 \"한국어 데이터 100만건 구축\"",
+   "link": "https://www.hankyung.com/article/2026111083211",
+   "date": "2026-11-10 17:38",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "research"
+    ],
+    "korean_title": "NVIDIA-KAIST, 5년 3억달러 규모 한국어 AI 데이터 공동구축",
+    "korean_summary": "NVIDIA와 KAIST가 한국어 특화 AI 학습 데이터 100만 건을 내년까지 구축하고 향후 피지컬AI·기업 특화 데이터로 확장 계획"
+   },
+   "summary_data": {
+    "korean_title": "KAIST-NVIDIA 공동연구소, 한국어 특화 데이터 100만 건 내년까지 구축·공개",
+    "korean_summary": "KAIST와 NVIDIA가 공동연구소를 통해 한국어 특화 합성 데이터세트 100만 건 이상을 내년까지 구축해 공개하고 향후 피지컬AI·기업용 데이터로 확장할 계획이다.",
+    "action": {
+     "actor": "KAIST-NVIDIA AI 공동연구소",
+     "action": "한국어 특화 합성 데이터세트 100만 건 이상 구축 및 공개",
+     "stage": "Announced",
+     "timeline": "내년까지",
+     "scope": "한국어 텍스트 데이터, 향후 피지컬AI 및 기업 특화 데이터로 확장 예정"
+    },
+    "key_facts": [
+     "KAIST와 NVIDIA는 **5년간 총 3억달러(약 4000억원)** 예산으로 지난 7월 공동연구소 설립",
+     "내년까지 한국어 최적화 **합성 데이터세트 100만 건 이상** 구축해 공개 예정",
+     "공동연구소는 NVIDIA의 글로벌 R&D 조직 NVIDIA Research 소속",
+     "현재 인턴 10명 규모 및 NVIDIA 정규직 연구원 채용 중",
+     "**글로벌 AI 빅테크 중 핵심 연구 조직에서 한국인 정규직 연구자 채용은 NVIDIA가 처음**"
+    ],
+    "why_matters": "NVIDIA가 단순 하드웨어 공급을 넘어 **현지 언어 데이터 생태계 구축**에 직접 투자함으로써 한국 AI 연구자들의 모델 개발 기반을 선점하고, 이는 결국 자사 플랫폼(GPU·소프트웨어) 활용도 제고로 이어질 수 있다. 데이터·연구인력 투자를 통해 로컬 AI 생태계에서의 영향력을 확대하는 전략은 글로벌 빅테크와의 AI 패권 경쟁에서 지역 밀착 전략의 한 사례다.",
+    "subject_angle": "NVIDIA는 **GPU 판매를 넘어 데이터·연구 인프라까지 제공하는 생태계 전략**을 통해 한국을 포함한 지역별 AI 연구소 모델을 확장하고 있으며, 이는 장기적으로 로컬 연구자·기업의 NVIDIA 플랫폼 종속도를 높이는 포석으로 해석된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "KAIST와 공동연구소 설립, 예산·연구조직(NVIDIA Research) 제공, 데이터 구축 주도"
+     },
+     {
+      "name": "KAIST",
+      "context": "NVIDIA와 공동연구소 설립, 연구소장(김현우) 소속, 한국어 데이터 연구 수행"
+     }
+    ],
+    "products": [
+     {
+      "name": "한국어 특화 합성 데이터세트",
+      "role": "내년까지 100만 건 이상 구축·공개 목표, AI 모델 학습용 핵심 자원"
+     },
+     {
+      "name": "NVIDIA 페르소나 데이터세트",
+      "role": "한국 인구통계·지리·문화 특성을 반영한 기존 공개 데이터, 한국어 데이터 수요 입증 사례로 언급"
+     }
+    ],
+    "watch_next": [
+     "100만 건 데이터세트의 구체적 공개 시점 및 접근 방식",
+     "피지컬AI용·기업 특화 데이터 확장 계획의 세부 일정",
+     "NVIDIA Research 소속 한국인 정규직 연구원 채용 결과 및 규모"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026111083211",
+   "body": "AI 추천 뉴스 KAIST·엔비디아 \"한국어 데이터 100만건 구축\" 김현우 AI 공동연구소장 \"피지컬·기업 생태계로 확장\" 엔비디아와 KAIST가 인공지능(AI) 모델 학습에 활용할 한국어 특화 데이터를 내년까지 100만 건 이상 구축해 공개한다. 한국 AI 연구 생태계에 양질의 한국어 데이터를 공급해 국내 연구자가 모델 개발 등에 활용하도록 지원하고, 연구 생태계를 데이터·응용 서비스 등으로 넓힌다는 계획이다. 김현우 KAIST-엔비디아 AI공동연구소장(사진)은 10일 서울 삼성동 엔비디아코리아 사무실에서 진행된 인터뷰에서 연구 방향을 공유했다. KAIST와 엔비디아는 5년간 총 3억달러(약 4000억원)의 예산으로 AI를 연구하기 위해 지난 7월 공동연구소를 세웠다. 김 소장은 AI 생태계를 숲에 비유했다. 김 소장은 “AI 생태계는 다양한 요소가 어우러지는 아름다운 숲”이라며 “지금까지는 나무에 해당하는 AI 모델을 만드는 데 초점을 맞췄다”고 했다. 그러면서 “풍성한 숲을 이루려면 사슴과 꽃 등 다른 생태계 참여자도 중요하고 특히 토양인 데이터가 중요하다”며 “토양이 사실 모델의 지능에 좌우하는 결정적인 역할을 한다”고 강조했다. 공동연구소는 첫 단추로 내년까지 우리말에 최적화된 합성 데이터세트 100만 건을 구축해 공유한다. 김 소장은 “한국의 인구통계학적·지리적·문화적 특성을 반영해 만든 엔비디아 페르소나 데이터세트가 공개된 후 얼마나 인기를 끌었는지를 보면 한국 연구자가 얼마나 양질의 우리말 데이터를 기다려 왔는지 알 수 있다”고 했다. 연구소는 글 데이터를 시작으로 향후 피지컬AI용과 기업에 특화한 데이터로 영역을 확장할 방침이다. 공동연구소는 엔비디아의 글로벌 연구개발 조직인 엔비디아 리서치 소속이다. 현재 10명 규모의 인턴과 엔비디아 정규직이 될 연구원을 채용하고 있다. 글로벌 AI 빅테크 중 핵심 연구 조직에서 한국인 정규직 연구자를 채용하는 건 엔비디아가 처음이다. 허진 기자 hjin@hankyung.com"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Autobrains Brings NVIDIA Alpamayo Intelligence to the Road",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb01WR190R0dOalpMSGVxX182S1B3dU9yS1EzeTBEeGtQTlhqMVBpYmZtZlNvLS1qdzcwODZCbTNRbzEyNzF2VjFwVU1hU3dQVGJGa3ptQjJGMHBCQ2xHazEwejNrbEJ1cWRKWEJlNEYxWm13NkdwT1lKWHJfYmRhVGtSWC1PTWp3UTZud3NvZGxpcVljSV94ZndMbkRkSTFxVFoyZ0MtSmNpcHptNTQ0?oc=5",
+   "date": "2026-11-10 18:00",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "Autobrains, NVIDIA Alpamayo 기술을 도로에 구현",
+    "korean_summary": "Autobrains가 NVIDIA의 Alpamayo 기술을 자율주행에 적용하고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Joplin Globe",
+     "title": "Autobrains Brings NVIDIA Alpamayo Intelligence to the Road",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQXNQYnJyZEM4MklUMGh6Nm1BN2NEVFhibzJiV2VnT29ZR21BTGRDTkZsT1BHZl9SX3RGeUZJd1RWNHNxMWlZT2dGeHVwZ0RWTHlZczR4Nlp4dVhLY3N6RWZhVjBnUVo2R196LTg1bGxhTTd4UkttZGZGcndzdW03eFFXR3VSNXNNbUVYUDdZR0kyLWRGaV8yNEVOQ241dHE1WnU3eXdmRlZrc29nWnBwa205TDVCWmcxcHRYZnotSlZ6WWZmdW9fLWJiZzZ3NnpUNkJYcnRzOXdOa1BrWWhRZjMxcGVXNEJyWlg4a1JDYzRBX0E?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb01WR190R0dOalpMSGVxX182S1B3dU9yS1EzeTBEeGtQTlhqMVBpYmZtZlNvLS1qdzcwODZCbTNRbzEyNzF2VjFwVU1hU3dQVGJGa3ptQjJGMHBCQ2xHazEwejNrbEJ1cWRKWEJlNEYxWm13NkdwT1lKWHJfYmRhVGtSWC1PTWp3UTZud3NvZGxpcVljSV94ZndMbkRkSTFxVFoyZ0MtSmNpcHptNTQ0",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
+   "date": "2026-11-11 04:40",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "황 CEO 중국 첩보원 스캔들, 국가안보 책임론",
+    "korean_summary": "전문가가 황 CEO의 중국 첩보원 스캔들이 미국 국가안보에 미치는 영향과 책임을 분석했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Op-ed: In Nvidia CEO Jensen Huang's alleged China spy scandal, there's plenty of blame to go around",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUlFQelFuUGl0X2gyVkUycVdiRDA5dUtQYkxMWGNyZkFRQVlNc2RMLWdTSUJzNmFObUsyVVVRYWFvQy1uS0hJQUdKSmpKQ0RtTWllVk14NlJqSWt4c1RyX2R4a2UyNkpiN0VuMmJqVkRuM0hnalpGYlJWcDNmbkRMVWFpczI?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/10/nvidia-ceo-jensen-huang-china-spy-scandal.html",
+   "body": "In June 2013, President Barack Obama welcomed Chinese President Xi Jinping to Sunnylands, a secluded California estate, for an informal summit. Behind the diplomatic pleasantries, Obama confronted Xi over Chinese state-directed cyber-enabled espionage and theft of American intellectual property, warning that such activities threatened American companies and the broader bilateral relationship. Thirteen years after the Sunnylands Summit, the threat has evolved significantly as the race to dominate AI frames the U.S.-China relationship. The stakes are higher, the technology more consequential, and the vulnerabilities increasingly involve attempts to compromise or coopt the \"key man\" at the helm of the nation's top technology companies. With the unfolding scandal involving Nvidia CEO Jensen Huang, the blame should start with the CEO himself, but it should not end there. The situation illustrates a failure of Silicon Valley, corporate and political leadership at a much wider level. Huang has acknowledged an extramarital affair with a woman identified in reporting as Alice Huang, a former executive at Singapore-based Megaspeed, an Nvidia customer. American intelligence officials reportedly believe she was recruited by China's Ministry of State Security to gather information and potentially influence Nvidia's efforts to loosen American semiconductor export restrictions. China denies the allegations. Nvidia's independent directors have launched an investigation, and so far, they say no compromise of company secrets or national security information has been established. But the problem extends well beyond Huang or Nvidia. Focusing exclusively on whether proprietary technology or trade secrets were transferred fundamentally misunderstands the potential intelligence value of such an operation. For Beijing, gaining insight into, influencing, or potentially compromising American technology policymaking could be equally valuable. Advance knowledge of export-control deliberations, regulatory intentions, negotiating positions, or divisions within the administration could provide strategic advantages without a single semiconductor design being stolen. The Trump administration reportedly received warnings about the relationship before the scandal became public. Nevertheless, Huang remained an influential participant in semiconductor policy discussions while advocating greater access to China's market. New reporting also raises questions about interactions between Nvidia and Commerce Department officials during an investigation into Megaspeed, subsequently transferred to the Justice Department. No improper influence has been established, but corporate access to government decision-making deserves scrutiny alongside proprietary technology. It is a new era of 'key man' risk with AI Whether appropriate protective measures were taken remains unclear. President Donald Trump's public defense of Huang — saying that Huang told him he had no idea the woman could be a spy an"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+   "link": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "date": "2026-11-11 05:01",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 이사회, Wachtell Lipton 고용해 황 CEO 독립 조사 착수",
+    "korean_summary": "NVIDIA 이사회가 전 남부지구 연방검사 Joon H. Kim의 Wachtell Lipton을 고용해 Jensen Huang의 불륜과 국가 안보 위협 가능성을 조사하기로 결정했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia hires law firm Wachtell Lipton to lead Jensen Huang affair probe",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjSEVwTlRmTGhoRFhDaTJwTmZlYWtpek1vQzlrSDBLZ1RteTVDWHF4UEg3TDVKTFZ0RGl3blhtaWVpNWh2YTI2TWJuQVItN0hqYVRVMlN2VzVzRHNwYWQ1V0EtWDVoZEJpSjF3OEFsTFJDN29EdTJNcnJzQlk?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+   "body": "Nvidia's board of directors said on Tuesday that it hired Wachtell, Lipton, Rosen & Katz to conduct an investigation of CEO Jensen Huang and whether company secrets or national security was compromised, after Huang admitted to having an affair with a woman who has been connected to Chinese intelligence. \"The independent members of the NVIDIA Board have retained former acting U.S. Attorney of the Southern District of New York Joon H. Kim and his firm Wachtell, Lipton, Rosen & Katz to conduct a thorough and independent investigation as was announced on Sunday,\" the board said in a statement. Kim joined the firm last month, and he was previously the chief U.S. prosecutor in Manhattan, according to Law360. Nvidia has been thrust into turmoil since Huang's acknowledgement of the affair over the weekend. The chipmaker's stock dropped 6% on Tuesday after falling more than 4% on Monday, as investors worry that the investigation and scandal could result in the co-founder and CEO being forced out. Nvidia and the board are facing pressure from critics and politicians over what the company knew about sales of its restricted AI chips to Chinese companies. Over the past few weeks, The New York Times and Financial Times have reported that U.S. intelligence agencies surveilled an Asian technology executive, Alice Huang, who has been affiliated with Nvidia customer Megaspeed. These agencies have concluded that she is passing information to Beijing and is involved with Chinese intelligence, according to the reports. Huang has become the face of the AI industry, going by his first name \"Jensen\" to customers and rivals as Nvidia's technology is used to train nearly all major AI models. The chipmaker has become an essential source of financing for AI startups and Huang has met with presidents and CEOs around the world as Nvidia's public face. But Huang's actions have thrown the chipmaker into instability as he admitted to an affair with Alice Huang in an email to staff on Sunday. \"My actions hurt her and our children. There is no excuse for what I did,\" Huang wrote in the message, while emphasizing that he is an American and supports U.S. national security. An Nvidia representative said at the time that Huang was committed to continuing as CEO of Nvidia without interruption. On Sunday, Nvidia's board said that it would investigate the allegations that Huang had been the target of a foreign intelligence effort. Nvidia's board also said on Sunday that it has no reason to believe either national security nor Nvidia secrets were compromised. This is breaking news. Please refresh for updates."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "TensorBay launches 1MW containerized AIPods",
+   "link": "https://www.datacenterdynamics.com/en/news/tensorbay-launches-1mw-containerized-aipods/",
+   "date": "2026-11-10 23:50",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TensorBay, 1MW 컨테이너형 AIPods 출시, 엔비디아 Blackwell HGX B300 탑재",
+    "korean_summary": "TensorBay가 64개의 엔비디아 HGX B300 시스템을 지원하는 1MW 규모의 분산형 AI 추론 플랫폼 AIPods를 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/tensorbay-launches-1mw-containerized-aipods",
+   "body": "TensorBay has launched a containerized AI offering. Dubbed AIPods, the 1MW containerized nodes can support up to 64 Nvidia HGX B300 systems and can be deployed in 12 weeks. The AIPods combine the hardware with a distributed private inference platform and include the Nvidia Dynamo-based inference optimization, including KV-aware routing and disaggregated serving. In a LinkedIn post announcing the launch, TensorBay said: “The real breakthrough isn’t simply putting GPUs inside a container. It’s making geographically distributed AI capacity operate as a coordinated inference platform. “Instead of concentrating everything in one massive facility, enterprises can deploy capacity closer to their users, expand region by region, retain control over their models and data, and reduce dependence on centralized third-party inference providers.” Headquartered in San Jose, California, TensorBay offers access to AI infrastructure from Tier III data centers in the US, Brazil, Europe, and Asia Pacific, with five locations operating. It claims to have more than 24,000 GPUs operating across its footprint. A number of companies offer containerized AI solutions. Last month, LG launched an AI Box offering, and ZTE also has a small AI container solution."
+  },
+  {
+   "source": "Google News · ABC News - Breaking News, Latest News and Videos",
+   "category": "media",
+   "kind": "gnews",
+   "title": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3pZd2VEY016a3NySzVPaWgzeTc4SWJNTXJLLV93SFlZT0I0a0g2dEQ2SkpKUmhqQ1NpUkplNXN2YVFOYVNUZk9QTVhRWjI2TWVTVXFYeVhEdlZOdnBsbWxqZHJSYldVOVZCMG1SdmlmRnhBQnpaOFowRHU5R1drNzJxUWlsT1lXV2c2dG9CZWEwcTJfRWE1Nm8tS29GRjRHMWc4enpQY1NUQdIBrwFBVV95cUxQdWxUWkMzS3RpQ0UzTXRZdEtONHprbng0TnBTRVJLY3pTN09lSWxBc2JYYVQ1Y19xYzhFbndEdDZCM1hkU3Q4bDRQR0NRLTZEMU1IcTE2Rzd2dWwzT3owTDdyQ3ZnbmpFUzRfUDFSZ05IWjRhV1lWTjloV1RoV2JkU2dzakxhT19UVUtJRWtteTBnMlVyYURvMnJEbXJ6UVYxc3dyM05sV1VCd0s2cHhF?oc=5",
+   "date": "2026-11-11 07:17",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 공화당, NVIDIA CEO Jensen Huang 소환장 발부 추진",
+    "korean_summary": "미국 공화당이 NVIDIA CEO Jensen Huang에 대한 소환장 발부를 검토하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3pZd2VEY016a3NySzVPaWgzeTc4SWJNTXJLLV93SFlZT0I0a0g2dEQ2SkpKUmhqQ1NpUkplNXN2YVFOYVNUZk9QTVhRWjI2TWVTVXFYeVhEdlZOdnBsbWxqZHJSYldVOVZCMG1SdmlmRnhBQnpaOFowRHU5R1drNzJxUWlsT1lXV2c2dG9CZWEwcTJfRWE1Nm8tS29GRjRHMWc4enpQY1NUQdIBrwFBVV95cUxQdWxUWkMzS3RpQ0UzTXRZdEtONHprbng0TnBTRVJLY3pTN09lSWxBc2JYYVQ1Y19xYzhFbndEdDZCM1hkU3Q4bDRQR0NRLTZEMU1IcTE2Rzd2dWwzT3owTDdyQ3ZnbmpFUzRfUDFSZ05IWjRhV1lWTjloV1RoV2JkU2dzakxhT19UVUtJRWtteTBnMlVyYURvMnJEbXJ6UVYxc3dyM05sV1VCd0s2cHhF",
+   "body": ""
+  },
+  {
+   "source": "Google News · NBC News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia hires former acting U.S. attorney to probe Jensen Huang affair",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmhQV0NDZF96d3BGR3p0WmU0Vl80aEJQSklDaXNTeWxQcEk1VHpNR1FaT3pzREJsaGlfWVpYak1PSDZJU2h4OGxOOG5kQzhveHNtTDZ5NklwTW9qZW03UXRPVFU5aTVURXJOcUFqejFkNHN3a1B6SUJPMGJXTVFTcUZ0bE51Z29NeThRMGNpcWFqaC1yd05mejNVdWdwMzZkTVFGT0Q4b0tBZXIxdnZpaWpXY09UZw?oc=5",
+   "date": "2026-11-11 06:18",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 전 미국 검사 고용해 Jensen Huang 스캔들 조사",
+    "korean_summary": "NVIDIA가 전임 미국 검사를 고용하여 CEO Jensen Huang의 스캔들을 조사하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPVmhQV0NDZF96d3BGR3p0WmU0Vl80aEJQSklDaXNTeWxQcEk1VHpNR1FaT3pzREJsaGlfWVpYak1PSDZJU2h4OGxOOG5kQzhveHNtTDZ5NklwTW9qZW03UXRPVFU5aTVURXJOcUFqejFkNHN3a1B6SUJPMGJXTVFTcUZ0bE51Z29NeThRMGNpcWFqaC1yd05mejNVdWdwMzZkTVFGT0Q4b0tBZXIxdnZpaWpXY09UZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Politico",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEhxMkIyN3lrUC1UTE9iT3RBUTVHbG56Z2VZREZfUjdiVTkyWWExaDN1d3QtTWZUOG9lemRsWTdqVjhsN0ZfR1RMcWJNelpnU2pHMzZBck1uWTdNb2tWOGlwVmROWFItc29SNE1SZnFtaU9xbk50OXllWURoUE1Bc1RSUWV2RnNFbEo3Uk1R?oc=5",
+   "date": "2026-11-11 05:52",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, Wachtell Lipton 법무팀 고용해 Jensen Huang 조사 진행",
+    "korean_summary": "NVIDIA가 유명 법무법인 Wachtell Lipton을 고용하여 CEO Jensen Huang 관련 조사를 진행하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEhxMkIyN3lrUC1UTE9iT3RBUTVHbG56Z2VZREZfUjdiVTkyWWExaDN1d3QtTWZUOG9lemRsWTdqVjhsN0ZfR1RMcWJNelpnU2pHMzZBck1uWTdNb2tWOGlwVmROWFItc29SNE1SZnFtaU9xbk50OXllWURoUE1Bc1RSUWV2RnNFbEo3Uk1R",
+   "body": ""
+  },
+  {
+   "source": "Google News · The New York Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Hires Wachtell Lipton to Investigate CEO Jensen Huang’s Affair With Chinese Executive",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMWVzYTIwQ2hrTWVfUTd4emhaVk8tOWctVl9OV0NlckZQaGtqaW9CQU5TRzdPRzBVSVhiVEptRjZqMVRrc2ZHeFFmSVh2bjNUUTl6NWI4c0YyZFpIZmo0b2xkRHVKNnFXRS1tcnhnWDlHSm54MEY2SkFOcUV1NEN1c19jUmtXcC1ieWJZbg?oc=5",
+   "date": "2026-11-11 04:33",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, CEO 황젠순 조사 위해 유명 로펌 와흐텔 립톤 고용",
+    "korean_summary": "NVIDIA가 CEO Jensen Huang과 중국 고위 인사와의 관계 조사를 위해 저명한 로펌을 정식으로 지정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMWVzYTIwQ2hrTWVfUTd4emhaVk8tOWctVl9OV0NlckZQaGtqaW9CQU5TRzdPRzBVSVhiVEptRjZqMVRrc2ZHeFFmSVh2bjNUUTl6NWI4c0YyZFpIZmo0b2xkRHVKNnFXRS1tcnhnWDlHSm54MEY2SkFOcUV1NEN1c19jUmtXcC1ieWJZbg",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Law Firm Wachtell Lipton to Lead Nvidia Internal Investigation",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWszaWV0c0FlRzBKLXAzWUZLOXR0WFBPeUd5ODJPaEJVMlZiUE9OR3R5LXlVclQ1aUhaNUVuU2dlOEVQOFY1VVNLTmtsZGtGa0Rkb01Ecnk3anJVSjlxWFVrT0czcEFtUmozb3FiNjNqVVJfMlFwMThQc0Iyam5nVnI5aV9aTTlsWVdULXB5SEVHUVRxX05kNVJUSFE?oc=5",
+   "date": "2026-11-11 08:05",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Wachtell Lipton이 엔비디아 내부 조사 주도",
+    "korean_summary": "유명 법무회사 Wachtell Lipton이 엔비디아의 내부 조사를 주도하기로 결정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZWszaWV0c0FlRzBKLXAzWUZLOXR0WFBPeUd5ODJPaEJVMlZiUE9OR3R5LXlVclQ1aUhaNUVuU2dlOEVQOFY1VVNLTmtsZGtGa0Rkb01Ecnk3anJVSjlxWFVrT0czcEFtUmozb3FiNjNqVVJfMlFwMThQc0Iyam5nVnI5aV9aTTlsWVdULXB5SEVHUVRxX05kNVJUSFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · NBC News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia names outside council for investigation into CEO’s affair",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbXhUdnNnLXhKbXk2bjZqZDJMNVM1SkF5cGZ3R0hRTHM0Y1NlSjlNdzU4VmxGSEFMdWRiQjhkam1mdVVGTklFYTZaTDB3aEJZWFBReEIyaFdQUzRtWEdMMkNYb25VSzRXclFwRHJ5clZGOEMxRG5tWHlQLXcxa0NhaGZvYWxtMmluaFlDaXMyYmg1RHZsb2V4bXBmd2VIR182SGQzNTBLWkxjdHlRS2dTYzQ2c2lvc3o2QzN3cg?oc=5",
+   "date": "2026-11-11 09:03",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, CEO 조사를 위한 외부 위원회 구성",
+    "korean_summary": "NVIDIA가 CEO 관련 조사를 진행하기 위해 외부 독립 위원회를 구성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbXhUdnNnLXhKbXk2bjZqZDJMNVM1SkF5cGZ3R0hRTHM0Y1NlSjlNdzU4VmxGSEFMdWRiQjhkam1mdVVGTklFYTZaTDB3aEJZWFBReEIyaFdQUzRtWEdMMkNYb25VSzRXclFwRHJ5clZGOEMxRG5tWHlQLXcxa0NhaGZvYWxtMmluaFlDaXMyYmg1RHZsb2V4bXBmd2VIR182SGQzNTBLWkxjdHlRS2dTYzQ2c2lvc3o2QzN3cg",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+   "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+   "date": "2026-11-11 08:16",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "earnings"
+    ],
+    "korean_title": "CoreWeave 분기 실적 상향, AI 인프라 수요 강세",
+    "korean_summary": "NVIDIA 주요 고객인 CoreWeave가 분기 실적을 상회하고 가이던스를 상향 조정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+   "body": "CoreWeave reported better-than-expected quarterly revenue and lifted its 2026 guidance on Tuesday, showing that demand for artificial intelligence infrastructure remains strong despite concerns of a market slowdown. The stock advanced in extended trading. The earnings announcement lands at a particularly volatile moment for CoreWeave and its neocloud peers, as the market sours on the AI trade and as Nvidia CEO Jensen Huang, the central figure in the global buildout, faces a scandal tied to an affair with an alleged Chinese spy. Here's how the company performed relative to LSEG consensus: - Loss per share: 95 cents adjusted vs. $1.16 expected - Revenue: $3.66 billion vs. $3.55 billion expected CoreWeave's revenue soared 168% from about $1.36 billion a year earlier, according to a statement. The company recorded a net loss of $709 million, or $1.27 per share, compared to a net loss of $110 million a year earlier. Adjusted earnings exclude stock-based compensation. Executives pushed up their forecast for 2026. They now see $1.275 billion to $1.375 billion in adjusted operating income on $13 billion to $13.3 billion in revenue. Analysts surveyed by Visible Alpha were looking for $1.07 billion in adjusted operating income, and analysts polled by LSEG had expected $12.86 billion in 2026 revenue. In August, CoreWeave's 2026 guidance included $960 million to $1.15 billion in adjusted operating income and $12.4 billion to $13.2 billion in revenue. CoreWeave has lost over 40% of its value in the past month, as investors rotate out of companies most closely tied to AI infrastructure. Rising interest rates have pushed lenders out of the market, raising concerns about ongoing access to capital. Some CoreWeave bond yields recently topped 16%. \"The business can execute well and still face a tougher financing environment,\" Joe Tigay, portfolio manager at Equity Armor Investments, wrote in an email. \"Strong demand is encouraging; the cost and availability of capital remain critical.\" CoreWeave will get most the capital it needs for 2027 through clients pre-payments and financing from hardware partners, and the company will raise \"a limited amount\" as well, CEO Mike Intrator told analysts on a conference call. The company plans to raise new debt tied to a set of contracts in the weeks to come, said Nitin Agrawal, its finance chief. \"At current yields, we do not intend to issue additional parent-level unsecured debt through 2027,\" he said. \"By contrast, the asset-level secured debt market has remained stable, with our loans continuing to trade around par value.\" In all, he said he projects under $5 billion in parent-level debt financing through 2027. Fellow neocloud Nebius, whose stock is down by a similar amount, is scheduled to report earnings on Thursday. Nebius shares got a small boost from CoreWeave's results. Both companies and several other providers of cloud-based graphics processing units are particularly reliant on Nvidia, which provides GPUs as well as n"
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia has a Jensen Huang problem—and no obvious successor",
+   "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
+   "date": "2026-11-10 23:53",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아의 젠슨 황 문제와 명백한 후계자 공백",
+    "korean_summary": "젠슨 황의 보직 위기 상황 속에서 엔비디아가 후계자 없이 창업자 중심 체계에 지나치게 의존하는 구조적 취약점을 노출했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor",
+   "body": "The investigation of Jensen Huang by Nvidia’s board threatens the future of one of Silicon Valley’s longest-serving executives and a key enabler of the AI boom, who has no obvious successor as leader of the world’s second-most-valuable company. Huang is fighting for survival after admitting to an extramarital affair, believed to be with an executive at a large Nvidia customer whom US officials also allege was working as a Chinese spy. The prospect that Huang could be forced out as chief executive of the US chipmaker he co-founded more than 30 years ago has alarmed investors and allies in the tech industry. Shares in Nvidia, which late last month ceded its position as the world’s most valuable to Apple amid a broader sell-off in AI stocks, had fallen more than 5 percent by midday trading on Monday. Read full article Comments"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "코어위브, 3분기 매출 168% 급증… 시간외 3% 상승",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000730",
+   "date": "2026-11-11 17:05",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA GPU 기반 클라우드 코어위브, 3분기 매출 168% 급증",
+    "korean_summary": "NVIDIA GPU를 기반으로 AI 클라우드 서비스를 제공하는 코어위브가 3분기 매출 36억6000만달러로 전년대비 168% 증가"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000730",
+   "body": "엔비디아 그래픽처리장치(GPU) 기반의 AI 클라우드 서비스를 제공하는 네오클라우드 기업 코어위브가 시장 예상을 넘어선 실적에 시장외 거래에서 상승하고 있다. 10일(현지 시각) 뉴욕증시에서 코어위브는 전 거래일보다 0.51% 내린 48.73달러에 마감했다. 장 마감 후 실적을 공개하면서 시간외 거래에서는 한때 3.6% 상승했다.코어위브는 3분기(7~9월) 매출이 전년 동기보다 168% 증가한 36억6000만달러(약 4조9209억원)를 기록했다고 공시했다. 금융정보업체 런던증권거래소그룹(LSEG)이 집계한 시장 예상치인 35억500"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아, ‘젠슨황 스캔들’에 이틀간 10% 급락",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000729",
+   "date": "2026-11-11 16:07",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA CEO 스캔들로 주가 10% 폭락, 외부 로펌 조사 착수",
+    "korean_summary": "Jensen Huang CEO의 불륜과 중국 스파이 의혹으로 NVIDIA 주가가 이틀간 10% 하락하고 외부 로펌 조사 시작"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000729",
+   "body": "젠슨 황 최고경영자(CEO)의 불륜 상대를 둘러싼 중국 스파이 의혹에 엔비디아 주가가 이틀간 10% 가까이 하락했다. 엔비디아는 외부 로펌을 선임해 조사에 나섰다.10일(현지 시각) 뉴욕증시에서 엔비디아는 전 거래일보다 5.47% 내린 168.89달러에 마감했다. 2거래일간 낙폭은 9.56%로, 이 기간 시가총액은 약 4300억달러(578조원) 줄었다.주가는 지난달 6일 고점보다 29% 낮아졌고, 시가총액도 한 달 전 약 5조8000억달러에서 약 4조달러로 감소했다.앞서 황 CEO는 지난 8일 직원들에게 보낸 메모에서 싱가포르에 본"
+  },
+  {
+   "source": "Google News · Morningstar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What to Watch in Nvidia Earnings: Spy Scandal, Data Center Concerns Take Center Stage",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM1EwT3BDVXVxdlpLd182dV80azR6M2lrMHJFZlg4TElPMlpLeDVLSVFQaGk5WkVGLXZNVkNNMzJXSWtBTzRRVVFDZG84T1lRQ1pvX3d1ZkRERGZibkdaWXc3bHVjNWkxbE1SNDBnWUlEMWNRVFB3VENwQWlIWmV3d0FxSWNsanNwVE5aV0hxQ2xTbnIyblRMc0t1T3lZTzdIWE0zN01EV3BSNThSRkhobnp3?oc=5",
+   "date": "2026-11-11 08:12",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 실적 발표, 스파이 스캔들과 데이터센터 우려가 초점",
+    "korean_summary": "NVIDIA의 실적 발표에서 CEO 관련 스파이 스캔들과 데이터센터 우려가 주요 관심사가 될 것으로 예상된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM1EwT3BDVXVxdlpLd182dV80azR6M2lrMHJFZlg4TElPMlpLeDVLSVFQaGk5WkVGLXZNVkNNMzJXSWtBTzRRVVFDZG84T1lRQ1pvX3d1ZkRERGZibkdaWXc3bHVjNWkxbE1SNDBnWUlEMWNRVFB3VENwQWlIWmV3d0FxSWNsanNwVE5aV0hxQ2xTbnIyblRMc0t1T3lZTzdIWE0zN01EV3BSNThSRkhobnp3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5",
+   "date": "2026-11-10 20:11",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "중국 칩 거래와 CEO 스캔들로 심화되는 규제 감시",
+    "korean_summary": "엔비디아가 중국 칩 거래 의혹과 CEO 개인 스캔들을 둘러싼 규제 당국의 심화된 감시(deepening scrutiny)에 직면하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and CEO Jensen Huang face shareholder suit over his affair with alleged Chinese spy",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWElsWl9WZkZTVGFobW12QzFzMHRlWXpYX0JNLVdCek9hNlVYRUFXU3BLRU5LR1lJYzlHQlo3Tm1mNVhzRmdaRWJwZ3J0RlJFWFB6a2RvRzZyUjM3N2kzNHFiX0dFQ2VKemk3N2VKSi1mWm9xRUJCeGRtQWMxaEs3WC1iNjNOVFc2VmQ1dmhRXzFldw?oc=5",
+   "date": "2026-11-10 21:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA·CEO 젠슨 황, 주주 소송 제기",
+    "korean_summary": "NVIDIA와 CEO 젠슨 황이 중국 스파이 의혹 여성과의 관계를 이유로 주주들로부터 소송을 제기당했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWElsWl9WZkZTVGFobW12QzFzMHRlWXpYX0JNLVdCek9hNlVYRUFXU3BLRU5LR1lJYzlHQlo3Tm1mNVhzRmdaRWJwZ3J0RlJFWFB6a2RvRzZyUjM3N2kzNHFiX0dFQ2VKemk3N2VKSi1mWm9xRUJCeGRtQWMxaEs3WC1iNjNOVFc2VmQ1dmhRXzFldw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CoreWeave Sees ‘No Reason’ That Nvidia Partnership Will Change",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNnlGdTVsM2NuLTltbjVwcS1zNkdUTVg3TG9wRWNtRGREZVE2NHNQVnh2YWh4OXZmZDVVNTBUOWJUU0dkLU05U05BeGQzN2RnNERucjhla0RnRVdVQTNNYVFzMXE1eGNuZUU3ODF2NHdUamFvVzlRVi03cU81RjVzRzlYWjlGeTIzUmJYSFZFa1hvVm5rV1REMkI0eTNVa3lmZWthamhtTHRpZ09YVFVpYg?oc=5",
+   "date": "2026-11-11 09:48",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "CoreWeave, NVIDIA 파트너십 지속 확인",
+    "korean_summary": "CoreWeave가 NVIDIA와의 파트너십이 영향을 받지 않을 것이라고 공식 확인했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNnlGdTVsM2NuLTltbjVwcS1zNkdUTVg3TG9wRWNtRGREZVE2NHNQVnh2YWh4OXZmZDVVNTBUOWJUU0dkLU05U05BeGQzN2RnNERucjhla0RnRVdVQTNNYVFzMXE1eGNuZUU3ODF2NHdUamFvVzlRVi03cU81RjVzRzlYWjlGeTIzUmJYSFZFa1hvVm5rV1REMkI0eTNVa3lmZWthamhtTHRpZ09YVFVpYg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia in focus as Citi, Wells Fargo cut price targets ahead of earnings (NVDA:NASDAQ)",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc?oc=5",
+   "date": "2026-11-10 23:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "실적 발표 앞 Citi·Wells Fargo, NVIDIA 목표주가 인하",
+    "korean_summary": "주요 투자은행들이 NVIDIA 실적 발표를 앞두고 목표주가를 낮췄다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkx2UXZpZ0luVmhZQk10S0dDUkdQdDhlbjN0UFZadzMtT3M0SXBWWG1vWTk4eFVRTUdiYzJDdTd3MVR4MF9zNXZhVG83eVlnNWNIT0k0UWZnVFY4dXh1b1BSM3NfSFhIWWdoTUd6Vl9oSEsybzZZUV9sZnlNTzctZmlYd2tVVnRrVXI5STRTeHVIeVdCWVNvc0IzQkhvSzR1ekpzdHdGU2ZibDVxaXc",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-N1.7-SimplerEnv-Bridge (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-N1.7-SimplerEnv-Bridge",
+   "date": "2026-11-11 07:11",
+   "score": 6,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-N1.7-SimplerEnv-Bridge",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac GR00T N1.7 SimplerEnv-Bridge 환경 로봇 모델",
+    "korean_summary": "NVIDIA가 SimplerEnv 브릿지 환경 로봇 조작 학습용 GR00T N1.7 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/GR00T-N1.7-SimplerEnv-Bridge:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, Gr00tN1d7, robotics, arxiv:2503.14734 · downloads 612 · likes 8. README:  --> # Model Overview ## Description: NVIDIA Isaac GR00T N1.7 is an open foundation model for generalized humanoid robot reasoning and skills. This cross-embodiment model takes multimodal input, including language and images, to perform manipulation tasks in diverse environments. Developers and researchers can post-train GR00T N1.7 with real or synthetic data for their specific humanoid robot or task. Isaac GR00T N1.7 is the medium-sized version of our model built using pre-trained vision and language encoders, and uses a flow matching action transformer to model a chunk of actions conditioned on vision, language and proprioception. A detailed description of the Isaac GR00T N1.X architecture is provided in the GROOT N1 White Paper (https://arxiv.org/abs/2503.14734). This model is ready for commercial/non-commercial use. **Model Developer**: NVIDIA ## Model Versions The Isaac GR00T N1.7 model family includes the following 4 models: ### GR00T N1.7 – SimplerEnv Bridge **Description** N1.7 post-trained model using the **Bridge Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot **Dataset Summary** A LeRobot-format conversion of **BridgeData V2**, originally containing **60,096 trajectories** of robot manipulation across **24 environments**. ### GR00T N1.7 – SimplerEnv Fractal **Description** N1.7 post-trained model using the **Fractal Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Image2Video-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Image2Video-4Step",
+   "date": "2026-11-10 14:38",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Image2Video-4Step",
+    "version": "image-to-video"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Cosmos3 4단계 이미지-투-비디오 경량 모델",
+    "korean_summary": "NVIDIA가 고속 추론용 Cosmos3 4단계 이미지-투-비디오 경량 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Image2Video-4Step:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-to-video · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, image-to-video, video-generation, arxiv:2405.14867 · downloads 654 · likes 36. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Image2Video-4Step The highlighted checkpoint, Cosmos3-Super-Image2Video-4Step, is a step-distilled variant of Cosmos3-Super-Image2Video. ## Description Cosmos3-Super-Image2Video-4Step is a 4-step distilled version of the base [Cosmos3-Super-Image2Video](https://huggingface.co/nvidia/Cosmos3-Super-Image2Video) model. Given an input image plus an optional text prompt, it generates a temporally coherent video. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Image2Video model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-m"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Cosmos3-Super-Text2Image-4Step (업데이트)",
+   "link": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image-4Step",
+   "date": "2026-11-10 14:38",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Cosmos3-Super-Text2Image-4Step",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Cosmos3 4단계 텍스트-투-이미지 경량 모델",
+    "korean_summary": "NVIDIA가 Cosmos3 4단계 텍스트-투-이미지 경량 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Cosmos3-Super-Text2Image-4Step:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: cosmos · tags: cosmos, diffusers, safetensors, cosmos3_omni, nvidia, cosmos3, vllm-omni, text-to-image, image-generation, arxiv:2405.14867 · downloads 596 · likes 23. README:  # **Cosmos 3: Omnimodal World Models for Physical AI** **[Cosmos3](https://huggingface.co/collections/nvidia/cosmos3)** | **[Cosmos3 Examples](https://huggingface.co/collections/nvidia/cosmos3-examples)** | **[Code](https://github.com/nvidia/cosmos)** | **[White Paper](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf)** | **[Website](https://research.nvidia.com/labs/cosmos-lab/cosmos3/)** [NVIDIA Cosmos™](https://github.com/nvidia/cosmos) is a world foundation model platform designed to accelerate the development of Physical AI by enabling machines to understand, simulate, and interact with the physical world across robotics, autonomous driving, and smart space environments, including industrial and factory-scale applications. # Model Overview: Cosmos3-Super-Text2Image-4Step The highlighted checkpoint, Cosmos3-Super-Text2Image-4Step, is a step-distilled variant of Cosmos3-Super-Text2Image. ## Description Cosmos3-Super-Text2Image-4Step is a 4-step distilled version of the base [Cosmos3-Super-Text2Image](https://huggingface.co/nvidia/Cosmos3-Super-Text2Image) model. Given a text prompt, it generates a high-fidelity image. - **What's different from the base model:** Distilled into a fixed 4-step sampling schedule without the need for classifier-free guidance. At the recommended 50-step + CFG setting for the Text2Image model, this replaces 50 × 2 = 100 model evaluations with 4, leading up to 25× fewer diffusion-model evaluations per image (see [PBR](https"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/GR00T-N1.7-SimplerEnv-Fractal (업데이트)",
+   "link": "https://huggingface.co/nvidia/GR00T-N1.7-SimplerEnv-Fractal",
+   "date": "2026-11-11 07:11",
+   "score": 5,
+   "is_focus": true,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/GR00T-N1.7-SimplerEnv-Fractal",
+    "version": "robotics"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA Isaac GR00T N1.7 SimplerEnv-Fractal 환경 로봇 모델",
+    "korean_summary": "NVIDIA가 단순화된 환경의 로봇 학습용 GR00T N1.7 프랙탈 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/GR00T-N1.7-SimplerEnv-Fractal:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: robotics · library: 미기재 · tags: safetensors, Gr00tN1d7, robotics, arxiv:2503.14734 · downloads 300 · likes 5. README:  --> # Model Overview ## Description: NVIDIA Isaac GR00T N1.7 is an open foundation model for generalized humanoid robot reasoning and skills. This cross-embodiment model takes multimodal input, including language and images, to perform manipulation tasks in diverse environments. Developers and researchers can post-train GR00T N1.7 with real or synthetic data for their specific humanoid robot or task. Isaac GR00T N1.7 is the medium-sized version of our model built using pre-trained vision and language encoders, and uses a flow matching action transformer to model a chunk of actions conditioned on vision, language and proprioception. A detailed description of the Isaac GR00T N1.X architecture is provided in the GROOT N1 White Paper (https://arxiv.org/abs/2503.14734). This model is ready for commercial/non-commercial use. **Model Developer**: NVIDIA ## Model Versions The Isaac GR00T N1.7 model family includes the following 4 models: ### GR00T N1.7 – SimplerEnv Bridge **Description** N1.7 post-trained model using the **Bridge Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC-COMMUNITY/bridge_orig_lerobot **Dataset Summary** A LeRobot-format conversion of **BridgeData V2**, originally containing **60,096 trajectories** of robot manipulation across **24 environments**. ### GR00T N1.7 – SimplerEnv Fractal **Description** N1.7 post-trained model using the **Fractal Dataset** in SimplerEnv. **Post-Training Data** https://huggingface.co/datasets/IPEC"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3-Diarization (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3-Diarization",
+   "date": "2026-11-10 19:42",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3-Diarization",
+    "version": "voice-activity-detection"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron 3 Diarization 모델 업데이트",
+    "korean_summary": "NVIDIA가 스피커 다이어리제이션 모델 Nemotron 3 Diarization을 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3-Diarization:2026-11-10",
+   "body": "Hugging Face 모델 업데이트. pipeline: voice-activity-detection · library: nemo · tags: nemo, safetensors, gguf, nemotron3_diarization, audio-frame-classification, speaker-diarization, streaming-sortformer, speaker-tagging, transformers, voice-activity-detection, arxiv:2611.12246, arxiv:2409.06656 · downloads 192740 · likes 832. README:  # Nemotron 3 Diarization ## Description **[Nemotron 3 Diarization](https://huggingface.co/blog/nvidia/nemotron-diarization)** is an open-weight speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline inference and handles up to eight speakers. Following Sortformer [\\[1\\]](#ref-1), the model resolves speaker permutation by ordering its output channels according to each speaker's first arrival in the input audio. For streaming inference, the model adopts the Arrival-Order Speaker Cache (AOSC) and FIFO queue introduced in **Streaming Sortformer** [\\[2\\]](#ref-2). The AOSC retains speaker information from earlier chunks to preserve speaker identities over time, while the FIFO queue provides recent frame context for each processing step. A single checkpoint supports input buffer latency as low as 80 ms for latency-critical applications, although the lowest recommended configuration is 0.32 s; the offline-style configuration uses a 30.4 s input buffer. The output frame resolution is configurable in multiples of 10 ms. With chunked inference, the maximum audio duration is not limited. **This model is ready for commercial or non-commercial use.** **[Nemotron 3 Diarization HuggingFace Blog](https://huggingface.co/blog/nvidia/nemotron-diarization)** For details on the model architecture, training, and evaluation, see our [research paper](https://arxiv.org/abs/2611.12246). ## Release Date September 23, 2026 ## Live Ac"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+   "date": "2026-11-11 04:42",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron 3.5 Super VL NVFP4 양자화 버전 공개",
+    "korean_summary": "NVIDIA가 비전-언어 모델 Nemotron 3.5 Super VL의 NVFP4 양자화 버전을 Hugging Face에서 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4:2026-11-11",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 58548 · likes 268. README:  # NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 ## Description **NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4** is the quantized release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. It uses NVFP4 quantization to reduce memory requirements, with quantization-aware distillation from the [BF16 model](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16). The model combines interleaved Mamba-2, Mixture-of-Experts (MoE), and attention layers with a C-RADIO vision encoder and a vision-language connector. It has **120B total parameters** and **12B active parameters** and supports context lengths up to **1M tokens**. Multi-Token Prediction (MTP) enables native speculative decoding. This model is ready for commercial or non-commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 120B (12B active) | | **Architecture** | Mamba-2–Transformer hybrid Mixture of Experts with a C-RADIO vision encoder | | **Precision** | NVFP4 (mixed-precision quantized weights) | | **Context Length** | Up to 1M tokens; deployment settings are listed below | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 1× DGX Spark, 1x NVIDIA RTX PRO 6000, 1× H200, 2× H100, or 1× GB200 | | **Speculative Decoding** | Native Multi-Token Prediction (MTP) | | **Reasoning Mode** | Configurable through the chat template (`enable_thinking=True/False`) | | **Recommended"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 15,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.6
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 24,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 86,
+   "in_window": 4,
+   "enriched": 4,
+   "error": "",
+   "sec": 4.1
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 7,
+   "enriched": 7,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 120.7
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 27,
+   "enriched": 27,
+   "error": "",
+   "sec": 9.3
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 10,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 14,
+   "error": "",
+   "sec": 5.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 27,
+   "error": "",
+   "sec": 28.2
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 19,
+   "error": "",
+   "sec": 5.7
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 48,
+   "enriched": 48,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 11.7
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 17,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
