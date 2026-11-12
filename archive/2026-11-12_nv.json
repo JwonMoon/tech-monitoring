@@ -1,0 +1,2061 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-12",
+ "window": [
+  "2026-11-11",
+  "2026-11-12"
+ ],
+ "generated": "2026-11-12T11:26:29+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA 이사회가 Jensen Huang CEO의 중국 스파이 의혹 연애설과 관련해 **해임 검토 회의**를 준비 중이라고 WSJ가 보도했다.",
+  "미국 하원이 Jensen Huang에게 중국 스파이 의혹 인물과의 관계를 묻는 비공개 브리핑을 요구하며 불응 시 **소환장 발부**를 경고했다.",
+  "중국 군 관련 대학이 미국의 수출 규제를 우회해 NVIDIA **H200 칩을 도입**한 사실이 드러났다."
+ ],
+ "cards": [
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "China's military-linked institutions found ways around US Nvidia chips blacklist",
+   "link": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/",
+   "date": "2026-11-11 22:40",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Regulation-Policy",
+    "is_focus": true,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "중국 군부대 관련 기관, 미국 규제 우회해 NVIDIA H200 칩 도입",
+    "korean_summary": "중국의 군 관련 대학이 미국의 NVIDIA 칩 블랙리스트를 우회해 H200 칩을 구입했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11",
+   "body": "Article URL: https://www.reuters.com/world/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-2026-11-11/ Comments URL: https://news.ycombinator.com/item?id=50453301 Points: 9 # Comments: 1"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "“AI 팩토리 2조원 계약은 5년치 매출” [네이버 컨콜]",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000856",
+   "date": "2026-11-12 19:51",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment",
+     "new-chip"
+    ],
+    "korean_title": "네이버 AI 팩토리, NVIDIA B300·베라 루빈 5년 공급 계약",
+    "korean_summary": "네이버와 미국 AI 기업이 5년에 걸쳐 NVIDIA B300과 베라 루빈 GPU를 공급받는 약 2조원 규모 계약 체결"
+   },
+   "summary_data": {
+    "korean_title": "Naver, 미국 AI 기업과 약 2조원 규모 AI Factory 공급계약 체결...NVIDIA B300·Vera Rubin 탑재",
+    "korean_summary": "Naver가 미국 AI 기업과 약 20MW 규모의 AI Factory 첫 공급계약을 체결했으며, 이 계약에는 NVIDIA의 **B300과 차세대 GPU 플랫폼 'Vera Rubin'**이 포함돼 4~5년간 약 2조원의 누적 매출을 창출할 전망이다.",
+    "action": {
+     "actor": "Naver",
+     "action": "미국 AI 기업과 AI Factory 공급계약 체결, NVIDIA B300 및 Vera Rubin GPU 플랫폼 포함",
+     "stage": "Announced",
+     "timeline": "계약 기간 4~5년, 내년부터 영업이익 발생 전망",
+     "scope": "약 20MW 규모, 미국 AI 기업 대상"
+    },
+    "key_facts": [
+     "Naver 3분기 실적발표 콘퍼런스콜(11월 12일)에서 공개",
+     "**첫 공급계약 규모는 약 20메가와트(MW)**",
+     "계약에 NVIDIA B300과 차세대 GPU 플랫폼 **'Vera Rubin'** 포함",
+     "GPU 종류에 따라 계약 기간 4~5년, 5년간 누적 매출 약 2조원",
+     "Naver는 AI Factory 사업에서 내년부터 영업이익 전망"
+    ],
+    "why_matters": "NVIDIA의 최신 GPU 라인업(B300, Vera Rubin)이 **클라우드/AI 인프라 고객사의 대규모 장기 공급계약**에 핵심 구성요소로 채택되고 있음을 보여준다. 이는 NVIDIA의 차세대 플랫폼이 이미 상업적 공급계약 단계에 진입했으며, 아시아 지역 AI Factory 수요 확대의 구체적 사례로 작용한다.",
+    "subject_angle": "NVIDIA는 B300과 **Vera Rubin**을 통해 AI Factory향 하이퍼스케일 공급계약의 핵심 공급자 지위를 유지하며, Naver와 같은 지역 플레이어의 미국 고객 대상 인프라 사업에도 플랫폼이 깊이 결합되는 구조를 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Naver",
+      "context": "AI Factory 공급계약 체결 주체, 미국 AI 기업에 인프라 제공"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "B300·Vera Rubin GPU 플랫폼 공급자"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA B300",
+      "role": "공급계약에 포함된 GPU, 4~5년 계약기간 결정 요소"
+     },
+     {
+      "name": "NVIDIA Vera Rubin",
+      "role": "차세대 GPU 플랫폼, 공급계약에 포함"
+     }
+    ],
+    "watch_next": [
+     "미국 AI 기업(계약 상대방)의 구체적 명칭 공개 여부",
+     "Naver AI Factory 사업의 영업이익 실현 시점 및 규모 확정",
+     "Vera Rubin 플랫폼의 정식 출시 일정 및 추가 고객사 공급계약 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000856",
+   "body": "네이버가 인공지능(AI) 팩토리 사업에서 내년부터 영업이익을 낼 것으로 전망했다. 미국 AI 기업과 체결한 약 2조원 규모의 첫 공급계약은 5년에 걸쳐 발생할 누적 매출이라고 설명했다.김희철 네이버 최고재무책임자(CFO)는 12일 열린 올해 3분기 실적발표 콘퍼런스콜에서 AI 팩토리의 첫 공급계약 규모가 약 20메가와트(MW)라고 밝혔다. 계약에는 엔비디아의 B300과 차세대 그래픽처리장치(GPU) 플랫폼인 ‘베라 루빈’이 포함됐다. GPU 종류에 따라 계약 기간은 4~5년이며, 전체 계약에 따른 5년간 매출은 약 2조원이다.네이버"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Alpamayo 2 Edge is here, bringing adaptive AI reasoning in real-time to the vehicle. 🚘",
+   "link": "https://www.youtube.com/shorts/OZ5KXB6kHUg",
+   "date": "2026-11-11 01:08",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA Alpamayo 2 Edge, 자율주행 차량용 실시간 추론 공개",
+    "korean_summary": "NVIDIA가 차량의 실시간 적응형 AI 추론을 지원하는 Alpamayo 2 Edge 모델을 오픈 소스로 공개했으며, 개발자들이 자신의 자율주행 함대에 맞게 커스터마이징할 수 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/shorts/OZ5KXB6kHUg",
+   "body": "From yielding to pedestrians to making room for an oncoming bus, watch how it plans driving paths and explains its decisions when needed. Developers can build on this open model to create the next generation of autonomous vehicles, with AI they can adapt to their own fleets."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+   "date": "2026-11-12 07:46",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "미국 의회, NVIDIA CEO 사직 촉구 및 중국 수출 규제 강화",
+    "korean_summary": "미국 의회 의원들이 Jensen Huang의 사직을 촉구하고 NVIDIA의 중국 수출 규제 강화를 추진하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 스캔들 확산…의회, 사임 압박과 Nvidia 중국 수출 통제 강화 추진",
+    "korean_summary": "미국 의회 의원들이 Jensen Huang이 **중국 스파이로 지목된 인물과 불륜 관계였다는 의혹**을 이유로 그의 사임을 요구하고 소환장 발부 가능성까지 제기하며 Nvidia의 중국 수출을 둘러싼 조사와 규제 강화를 추진하고 있다.",
+    "action": {
+     "actor": "미국 의회 (House Foreign Affairs, Permanent Select Committee on China, House Intelligence 등)",
+     "action": "Jensen Huang에게 사임 요구 및 2026년 11월 18일 청문회 출석 요청, 불응 시 소환장(subpoena) 발부 검토",
+     "stage": "Report",
+     "timeline": "2026-11-04 서한 발송, 2026-11-18 출석 요청 시한",
+     "scope": "Nvidia CEO Jensen Huang 개인 및 Nvidia의 중국 수출 관련 사안"
+    },
+    "key_facts": [
+     "Sen. Kevin Cramer(R-ND)가 2026-11-11(수) Huang의 사임을 재차 요구",
+     "Huang은 2026-11-09(일) **Alice Huang이라는 인물과의 불륜을 인정**했으며, 해당 인물은 미국 정보당국이 중국 스파이로 결론 내린 것으로 보도됨",
+     "House Foreign Affairs 위원장 Brian Mast, China 특별위원회 위원장 John Moolenaar, 정보위원회 위원장 Rick Crawford가 2026-11-04 서한으로 11월 18일까지 Huang의 출석을 요청",
+     "Mast와 Moolenaar는 응답이 없을 경우 **소환장 발부 가능성**을 공개적으로 시사",
+     "민주당은 2027년 1월 상·하원 장악 시 Nvidia의 대중국 수출 및 백악관 역할에 대한 조사를 예고"
+    ],
+    "why_matters": "Nvidia CEO 개인 스캔들이 **AI 칩 대중국 수출 정책 전반에 대한 의회 조사 및 소환으로 비화**되며, AI Overwatch Act·MATCH Act·Chip Security Act 등 수출통제 강화 법안 추진에 추가 동력을 제공하고 있다. 이는 Nvidia의 중국 사업 및 대외 신뢰도에 직접적 리스크로 작용할 수 있다.",
+    "subject_angle": "Huang 개인의 보안 리스크 논란이 **Nvidia의 대중국 수출 허가 및 정책 로비 활동 전체에 대한 신뢰성 문제로 확산**되어, 향후 수출통제 법제화와 Trump 행정부와의 관계에 부정적 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 중심 기업, 대중국 AI 칩 수출 허가 수혜자"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI 칩 (Nvidia 첨단 반도체)",
+      "role": "중국 수출 허가 및 밀수 의혹의 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "2026-11-18 Huang의 의회 출석 여부 및 소환장 발부 여부",
+     "AI Overwatch Act·MATCH Act·Chip Security Act의 NDAA 포함 여부",
+     "2027년 1월 민주당 의회 장악 이후 Nvidia·백악관 대상 조사 착수 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Jensen Huang affair in D.C.: Resignation calls and moves to tighten Nvidia China exports",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWjJRY2daaGR0MlE5NzU0bndocWZPVF9qODRlRlBzUUVLN1dyNkE2VXlJeUdGanF2NkQ5OGVZMmJTYk9xY244NU9sUHppeFU2dVlHcVRwWFptNG9CSUN6ay1Ic3NVdFJRZTNkY05nQzJJUFJsSVp1N21LRElnSHotZmZyYVR2a25v?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+   "body": "Members of Congress are calling on Nvidia CEO Jensen Huang to resign, and momentum is building to subpoena the executive, whose company is a leader in advanced artificial intelligence chips. Senate banking committee member Kevin Cramer, R-N.D., doubled down Wednesday on his call for Huang to resign, and a key Democratic House oversight panel member and House Republican piled on. \"As a matter of his own conscience, he should resign,\" Cramer told CNBC, in response to revelations that Huang had an affair with an alleged Chinese spy as the chipmaker he co-founded was given permission from the U.S. government to sell its technology to China. Huang, who leads a company that's been a chief beneficiary of the artificial intelligence boom, on Sunday admitted to having an affair with a woman whom news outlets have reported U.S. intelligence concluded was a Chinese spy. The revelation is sending shockwaves through Washington, with lawmakers now fearing that U.S. AI dominance could be at risk. \"What bothers me at the end of it is what we don't know is what she knows about him that can be utilized,\" Cramer said, referring to Alice Huang and Jensen Huang, who are not related. \"This is a guy that's right now so vulnerable to extortion, blackmail. I just don't think, as a national security matter, we can run the risk.\" Cramer's comments come on the deadline set by a trio of House lawmakers who requested Huang to testify before their committees on Nov. 18. Subpoena power GOP Reps. Brian Mast, chair of the House Foreign Affairs Committee; John Moolenaar, chair of the Permanent Select Committee on China; and Rick Crawford, who leads the House intelligence panel, called for Huang to appear in a Nov. 4 letter. Congress members in the majority party also have subpoena power, should they choose to use it. Mast and Moolenaar told reporters on Wednesday afternoon that they had not yet heard from Huang and that they were giving him until the end of the day to respond. Asked whether the committees were considering subpoenaing Huang if he doesn't agree to appear, Mast said \"yes.\" Moolenaar, when asked the same question, said \"all three committees have subpoena power, and I know all three committees have a very serious interest in getting to the bottom of this and having transparency around this.\" \"We are going to continue to pursue this,\" Moolenaar said. The lawmakers are far from alone in their criticism, concern and outright shock over the affair. And the scrutiny is only expected to intensify with Democrats poised to take over both chambers of Congress in January. Huang has been close with President Donald Trump during the president's second term, traveling on Air Force One to China in May. \"Jensen Huang should resign from Nvidia,\" Rep. Suhas Subramanyam, D-Va., a member of the House Oversight Committee, told CNBC. Subramanyam is the top Democrat on the panel's Subcommittee on Military and Foreign Affairs. \"I didn't agree with his sentiment that there's no downside to ex"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+   "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "date": "2026-11-12 09:21",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "월스트리트저널, NVIDIA CEO 젠슨 황 해임 준비 보도로 주가 9% 폭락",
+    "korean_summary": "월스트리트저널이 NVIDIA 이사회가 CEO 젠슨 황의 해임을 준비 중이라고 보도하자 주가가 9% 이상 급락했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA 이사회, Jensen Huang CEO 해임 검토 — WSJ 보도에 주가 급락",
+    "korean_summary": "NVIDIA 이사회가 Jensen Huang CEO의 혼외 관계 및 중국 스파이 의혹 보도 이후 그의 **거취를 결정하기 위한 회의를 준비**하고 있다는 WSJ 보도로 주가가 급락했다.",
+    "action": {
+     "actor": "NVIDIA Board of Directors",
+     "action": "CEO Jensen Huang의 해임 여부를 논의하기 위한 이사회 소집 준비",
+     "stage": "Report",
+     "timeline": "미확인 (Wednesday 중 회의 가능성, WSJ 보도 기준)",
+     "scope": "NVIDIA CEO 1인 (Jensen Huang)"
+    },
+    "key_facts": [
+     "WSJ 보도 후 NVIDIA 주가가 **애프터마켓에서 9% 이상 급락**",
+     "NYT는 Huang이 헬스케어 부문 VP인 Kimberly Powell과 혼외 관계였다고 보도, 두 사람이 3월 San Jose 호텔에서 애정 표현하는 장면이 카메라에 포착됨",
+     "Huang은 중국 국가안전부(Ministry of State Security) 스파이로 미 정보당국이 의심하는 Alice Huang과도 혼외 관계였다고 인정",
+     "NVIDIA 이사회는 스파이 의혹에 대해 독립적 조사를 개시하고 로펌 **Wachtell, Lipton, Rosen & Katz**를 고용",
+     "Huang의 NVIDIA 주식 약 870만 주 중 약 800만 주는 부인 Lori Huang과 공동 소유 신탁 형태이며, Huang 개인 보유는 약 70만 주로 경제적 지배력은 제한적",
+     "NVIDIA 주가는 금주 발표 전에도 7% 하락했으며 6주 연속 주간 하락세"
+    ],
+    "why_matters": "Jensen Huang은 AI 산업과 거의 동일시되는 상징적 인물로, **CEO 리더십 위기가 NVIDIA의 시장 신뢰와 주가에 직접적 충격**을 주고 있다. 이는 중간선거 이후 데이터센터 건설 제약 우려로 이미 흔들리던 AI 인프라 투자 심리를 더욱 악화시킬 수 있다.",
+    "subject_angle": "AI 반도체 시장 1위 기업의 **창업자 겸 CEO 교체 리스크**는 기술 전략의 연속성, 고객·협력사와의 관계, 투자자 신뢰에 중대한 불확실성을 더하며, 단기적으로 NVIDIA의 사업 포지션에 부정적 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "이사회가 CEO 해임 여부를 검토 중인 당사 기업"
+     },
+     {
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "context": "NVIDIA 이사회가 스파이 의혹 조사를 위해 고용한 로펌"
+     },
+     {
+      "name": "Heller",
+      "context": "Huang이 고용했다고 알려진 위기관리 PR 업체"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GPU/AI 시스템",
+      "role": "회사 매출의 핵심이나 이번 사건과 직접 연관은 없음, 배경 설명용"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 이사회의 실제 회의 결과 및 Huang 거취 공식 발표 여부",
+     "Kimberly Powell 및 NVIDIA 측의 공식 입장 표명",
+     "스파이 의혹 관련 독립 조사(Wachtell 로펌) 결과 발표 시점"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia prepares to oust Jensen Huang, WSJ reports — stock sinks",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NaFFJVUxuMG1NR25FakxCNU9rUnpXUEl0UVE4ZTJUS0VUN2lEWjlsQVVJRTdMUWt1Vkd1RUsxcjZKa3JCaWFWN0JYbXk0TWpUM3M4SVQ1OGlJaTNQYWJsRnZVczF4NVpyeUZIQTVUQnRYVS0xX2RSQWhGWGs?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+   "body": "Shares of Nvidia fell more than 9% in after-hours trading on Wednesday after The Wall Street Journal reported that the company's board is preparing to oust CEO Jensen Huang. The news landed minutes after The New York Times reported that Huang had an extramarital relationship with another executive at the company. Nvidia's board is preparing to meet as soon as Wednesday to determine Huang's future at the company, according to the Journal. The alleged relationship was with Kimberly Powell, vice president of health care at Nvidia, according to the Times' report. Powell's bio on the Nvidia website says she's \"responsible for the company's worldwide healthcare business, including hardware and software platforms for accelerated computing, AI, and visualization that power the ecosystem of medical imaging, life sciences, drug discovery, and healthcare analytics.\" Huang and Powell were reportedly captured on camera being affectionate with one another at a hotel in San Jose, California in March, according to the Times. Nvidia and Powell did not immediately respond to CNBC's request for comment. Heller, the crisis PR firm Huang reportedly hired as early as last year, did not immediately respond to CNBC's request for comment. The report comes days after Huang admitted to an affair with a woman who is believed by U.S. intelligence of being a Chinese spy. The CEO was romantically involved with Alice Huang, according to The Financial Times, who U.S. intelligence officials believe is a spy for China's Ministry of State Security, The New York Times reported. Nvidia's board of directors has opened an independent investigation and hired the law firm Wachtell, Lipton, Rosen & Katz to look into the spying allegations. \"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did,\" Huang wrote in the message to Nvidia staff on Sunday. \"I am deeply sorry.\" Most of Huang's Nvidia shares are co-owned with his wife, Lori Huang, and are held in trusts. About 800 million shares are held by those trusts. Huang holds about 70 million shares on his own and has limited economic control over the company. Rumors of an affair between Huang and Powell have circulated for years, in part because Powell lacks a background in health or science, according to a former employee who asked not to be named because of the sensitivity of the matter. Healthcare is a smaller business at Nvidia. The company makes chips for medical devices and MRI machines, but they are a minor in comparison to the revenue generated from its advanced AI systems and graphics processing units, or GPUs. In recent appearances, including at the company's annual GTC conference, Powell has spoken about how Nvidia's AI technology can help accelerate drug discovery, assist providers and improve clinical efficiency. Powell has been leading the group since 2017. Nvidia's stock was down 7% this week prior to the after-hours drop on Wednesday and is on pace for its sixth straight weekly "
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Congress could issue subpoena to Nvidia CEO Jensen Huang if he doesn’t respond by today to request for a ‘joint, closed-door briefing’",
+   "link": "https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+   "date": "2026-11-11 22:04",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 하원 외교위원회, NVIDIA CEO 젠슨 황에 국가안보 관련 폐쇄형 브리핑 응소 촉구",
+    "korean_summary": "미국 하원 외교위원회 의장이 NVIDIA CEO 젠슨 황에게 외국 간첩 방지 보안 프로토콜에 관한 브리핑 응소 기한을 설정하고 불응 시 소환장 발부를 경고했다."
+   },
+   "summary_data": {
+    "korean_title": "美 하원, Nvidia CEO Jensen Huang에 중국 스파이 의혹 관련 소환장 발부 경고",
+    "korean_summary": "미국 하원 외교위원회가 Jensen Huang의 불륜 상대가 중국 정보기관과 연계된 것으로 의심되는 사안과 관련해 11월 11일까지 응답하지 않으면 **소환장을 발부**하겠다고 압박하며 비공개 브리핑을 요구했다.",
+    "action": {
+     "actor": "House Foreign Affairs Committee (Rep. Brian Mast)",
+     "action": "Jensen Huang에게 중국 정보기관 연계 의혹 관련 비공개 합동 브리핑 참석을 요구하고, 불응 시 소환장 발부 경고",
+     "stage": "Report",
+     "timeline": "2026-11-11(응답 마감)/11-18(브리핑 요청일), 최초 접촉 11-07",
+     "scope": "Nvidia CEO Jensen Huang 개인, 미 하원 China·Foreign Affairs·Intelligence 위원회"
+    },
+    "key_facts": [
+     "Rep. Brian Mast가 **11월 11일(수)까지 응답 없으면 소환장 발부** 경고",
+     "하원은 11월 18일 China, Foreign Affairs, Intelligence 위원회장들과의 '비공개 합동 브리핑'을 요청",
+     "Nvidia는 Jensen Huang이 Megaspeed 임원 Alice Huang과의 불륜을 인정하는 성명 발표, 이사회는 **중국 MSS(국가안전부) 표적 의혹에 대한 독립 조사** 착수",
+     "Jensen Huang은 FBI 조사도 받고 있는 것으로 보도됨",
+     "최초 의회 접촉은 11월 7일, 그 며칠 전부터 Huang과 중국 관련 임원 간 '친밀함'에 대한 루머 확산"
+    ],
+    "why_matters": "AI 칩 시장을 주도하는 **Nvidia CEO에 대한 간첩 연계 의혹**은 미중 기술 패권 경쟁 속 수출통제·안보 심사를 더욱 강화시킬 수 있는 정치적 리스크다. 이는 Nvidia의 평판과 지배구조는 물론, 향후 중국 관련 거래·협력에 대한 미 정부의 감시 강도에도 영향을 줄 수 있다.",
+    "subject_angle": "이번 사태는 Nvidia의 **중국 사업 및 글로벌 공급망 신뢰성에 대한 정치적 리스크**를 부각시키며, 회사의 보안 프로토콜과 경영진 접근권한 관리 체계에 대한 외부 감독이 강화될 가능성을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO Jensen Huang 관련 의혹의 중심 기업, 이사회가 독립 조사 착수"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang의 소속 기업, 의혹의 상대방 연관"
+     },
+     {
+      "name": "House Foreign Affairs Committee",
+      "context": "Jensen Huang에게 소환장 경고 및 비공개 브리핑 요구"
+     },
+     {
+      "name": "FBI",
+      "context": "Jensen Huang에 대한 별도 조사 진행 보도"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "11월 11일 Huang의 응답 여부 및 소환장 실제 발부 여부",
+     "Nvidia 이사회의 독립 조사 결과 발표 시점 및 내용",
+     "FBI 조사 진행 상황 및 중국 MSS 연계 여부 공식 확인"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/policy/congress-could-issue-subpoena-to-nvidia-ceo-jensen-huang-if-he-doesnt-respond-by-today-to-request-for-a-joint-closed-door-briefing-us-representatives-want-to-discuss-companys-security-protocols-against-foreign-adversary-espionage",
+   "body": "Rep. Brian Mast (R-Fla.), the chairperson of the House Foreign Affairs Committee, has said that he will issue a subpoena to Nvidia CEO Jensen Huang if he does not respond to the committee’s request to meet with them on November 18 by Wednesday, November 11, according to ABC News . The House invited him to a “joint, closed-door briefing” with the heads of the House committees on China, Foreign Affairs, and Intelligence, and that they will focus on his company’s “security protocols against foreign adversary espionage.” Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Congress first called the embattled CEO on November 7, a few days after rumors started circulating about Huang’s “closeness” to a particular Chinese executive suspected of passing information to Chinese intelligence. The following day, Nvidia released a statement from Jensen admitting to an affair with Megaspeed executive Alice Huang, apologizing for his unfaithfulness, while the company’s board of directors confirmed it will launch an independent investigation regarding the allegations that the CEO has been specifically targeted by China’s Ministry of State Security (MSS). Aside from having to face Congress, Jensen Huang is also reportedly being looked into by the FBI. It remains unclear whether Jensen Huang was targeted by intelligence agencies, but he came into prominence with the AI boom that was arguably fueled by Nvidia’s AI chips. This led to the AI race as we know it today, with the U.S. taking steps to delay China’s advancement for fears that it will use the technology for military purposes. We also don’t know if Huang Le or Alice Huang is actually a Chinese spy or an “innocent” bystander caught in a web of accusations. And, even if she did work with the MSS, the question remains as to whether she specifically targeted the Nvidia CEO or whether Chinese intelligence discovered their indiscretion and used that as a convenient tool for blackmail to extract information from her. However, former CIA agent Darrel Blocker told ABC News that the authorities should just focus on Jensen. “I think that the biggest concern is that the focus or overfocus on just Jensen Huang and Nvidia risks losing sight of the fact that other people have been targeted by the Chinese. Are they talking to the engineers? Are they talking to other people who might have even more access than even the CEO has? So, this focus should not be singular; it should include everyone in the company, and quite frankly, every tech company out there should be looking at all the contacts that their officers and employees have.” “It’s definitely not a one-time thing. When you run a trillio"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges",
+   "link": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+   "date": "2026-11-12 08:45",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 이사회, CEO Jensen Huang 해임 검토 중",
+    "korean_summary": "NVIDIA 이사회가 중국 스파이 혐의와 직원 불륜으로 CEO Jensen Huang의 해임을 검토 중이며 주가는 8% 하락했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA 이사회, 두 번째 불륜 의혹 터지자 Jensen Huang CEO 해임 준비 보도",
+    "korean_summary": "NVIDIA 이사회가 공동창업자 Jensen Huang의 두 건의 불륜 의혹(중국 정보기관 연계 의혹 인물 포함) 이후 **CEO 해임을 준비 중**이라고 Wall Street Journal이 보도했다.",
+    "action": {
+     "actor": "NVIDIA Board of Directors",
+     "action": "Jensen Huang CEO 해임을 논의하기 위한 이사회 소집 및 독립 조사 진행",
+     "stage": "Report",
+     "timeline": "독립 조사는 2025년 11월 8일 착수, 이사회 회의는 11월 11일경으로 미확인(가능성 보도)",
+     "scope": "NVIDIA 최고경영진(CEO 승계), 글로벌"
+    },
+    "key_facts": [
+     "NVIDIA 이사회가 **11월 8일 독립 조사를 개시**했고 11월 11일 이사회 회의 가능성이 보도됨",
+     "보도 후 NVIDIA 주가가 장외거래에서 8% 하락",
+     "New York Times는 Huang과 직속 보고자인 VP of Healthcare Kimberly Powell의 관계를 보도, WSJ는 중국 정보기관 연계 의혹 인물 Alice Huang과의 관계를 보도",
+     "Huang 해임 시 **33년 역사상 첫 CEO 교체**가 되며, CFO Colette Kress가 임시 CEO 후보로 거론됨",
+     "2018년 Intel CEO Brian Krzanich가 유사한 사내 관계 문제로 해임된 전례가 있음"
+    ],
+    "why_matters": "NVIDIA는 AI 반도체 시장을 주도하는 핵심 기업으로, **창업자이자 33년간 유일한 CEO인 Huang의 교체는 전례 없는 리더십 리스크**를 의미한다. 경쟁사(AMD, Intel, 중국 반도체 업체) 대비 AI 칩 시장 지배력 유지에 있어 경영 안정성이 투자자와 고객 신뢰의 핵심 변수로 작용할 수 있다.",
+    "subject_angle": "NVIDIA의 AI 생태계 전략(GTC, CUDA, 데이터센터 로드맵 등)은 Huang 개인의 비전과 강하게 결합되어 있어, **CEO 교체는 단기적으로 전략 연속성과 대외 신뢰도에 불확실성을 더할 수 있다**.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CEO 해임 논의 당사 기업"
+     },
+     {
+      "name": "Intel",
+      "context": "2018년 유사 CEO 해임 전례 비교 대상"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "11월 11일 이사회 회의 결과 및 Huang 해임 여부 공식 발표",
+     "Colette Kress 등 후임 CEO 지명 여부",
+     "독립 조사 결과 및 Huang의 내부 정책 위반 여부 확정"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CBS News",
+     "title": "Nvidia's board preparing to oust CEO Jensen Huang, sources say",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fcFlOTlBVS01qTlJEOEJBQmtoSWxtVHpiSzhnTTdYQ2htUlJBUVQydUNMQ3dEN1RRQjZrVkZKVUxtRlhXSkhoY2FuYU5YYjdubGxtbnlrVGxEZlVTRzM4VlYxSDhZcm51UGdRVVJKR0tWV2s?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia Board May Vote to Remove Jensen Huang as CEO Tonight. Here’s What Investors Need to Know.",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUzhSRWxqYzNXX3ZudGc0SWl2SU1kNFVjMmVTNThhV3NJMTRCdzhtVzFWV1JJS3NfWUpqVmhYTzBLd2pMdWJyS1RRVUI0elFPN0lPdk5KUEJTbzJhQnJXOGZGZVk3Z25VWWpfS1l5ODMyNDUwV3g1ckxjQWFZVW1WV3NqVmZNOFdsYmNxYVJpUE5EZjVVNHo3RA?oc=5"
+    },
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Nvidia Board May Vote to Remove Jensen Huang as CEO Tonight. Here’s What Investors Need to Know.",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbC00Z3I5ZUhkWkp5RkpxalNEMkh0UDQyQ0wteWxQTk1tMXFVY2FNNkVJYnItTXhfMUhod2ZxY3UtUWl0RnZyZXFPZnZkRDNnMmhramsyWHl1WnJxYzFVYjhiRlZlSHVmNUd5UU9RcjA5enYyamlHMkpjNXpjdjB0VGdRdDFYTjZCR2F5ZEZTYmZjUWJIcmlpYjk0dUxGUzlRa2VOajRpT012YzY0VkJYbzZkcFZBWjZ6UjJxTk4yeTQyck5CX0Z2RDhmUUlWdnZ2QlZF?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo Finance",
+     "title": "Nvidia’s Board Is Reportedly Preparing to Oust Jensen Huang. When Intel and McDonald’s Pushed Out CEOs Over Workplace Relationships, Shareholders Got Opposite Results",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM2w3ckhfTVpKeVQxOFQ3bzh3TmZ1WUtacUpya2EwVzMtc19JLVAzRnNkS0NYVmtOak9EdzVva3d2QjVCWWd5Q0NnNWpSUzNtbFNUNzFYZTR6aDdRdkJxODd2TERReGFKX08zY2xuZHpqY0xQMWcxTFNLSFVkU2VyaW11WXZZZk8xZlZGVU54emJid3pUYUlFSWlTcFNJUHVuVW9BRE1B?oc=5"
+    },
+    {
+     "source": "Google News · Financial Times",
+     "title": "Nvidia board to decide Jensen Huang’s fate after revelation of affair with subordinate",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQjJnUjY2X1lsaUZOVU9kNGxTOE9LZkc4cGU4ZVlnUVg4b2dMX2U5N0V5NEZGTEd0SDRDMk52UGVaQ05xb0tvakoyT2lYYnk1b3V3Z2dvdzdHWk5pWFVWVnRyUHViVE1RSmNscTJEc2xDZGdiLXNQcmtXRTE4ZTBUOE8tU0k?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia board considering ousting Jensen after alleged second affair",
+     "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
+     "link": "https://twitter.com/watcherguru/status/2120645607866188008"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+   "body": "Nvidia's Board of Directors is preparing to oust co-founder and chief executive Jensen Huang following revelations of two extramarital affairs, including one with a woman suspected of working for Chinese intelligence and another with an Nvidia executive , reports The Wall Street Journal . Although no final decision has been made yet, the company's directors could meet as early as November 11 to discuss Huang's future. Whoever succeeds Huang will be the company's second CEO in 33 years. Nvidia's stock dropped 8% in after-hours trading following the reports. Nvidia's board of directors launched an independent investigation into the matter on November 8. The report from the WSJ comes hours after the New York Times revealed that Huang allegedly had an extramarital relationship with Kimberly Powell , Nvidia's vice president of health care, who reports directly to him. According to five people who worked at Nvidia, the relationship was known internally, while Huang and Powell were reportedly seen together at a San Jose hotel during Nvidia's GTC conference in March. The allegations follow an earlier report that Huang had a relationship with Alice Huang, a Chinese businesswoman whom U.S. intelligence believes to be a Chinese intelligence asset. A similar controversy cost Intel chief executive Brian Krzanich his position in June 2018, when an internal investigation confirmed that he had maintained a consensual relationship with an employee, which violated the company's non-fraternization policy applicable to all managers. It is noteworthy that Nvidia's code of conduct explicitly identifies personal relationships as potential conflicts of interest and instructs employees to consult the company's legal department when such conflicts arise. Whether Huang violated Nvidia's internal policies remains unclear, as the code of conduct does not explicitly prohibit all relationships between managers and subordinates. Huang's potential departure would mark the first CEO transition in Nvidia's 33-year history, and therefore his succession has become an immediate concern for Nvidia, which does not have anyone of Huang's caliber in the leadership team. Although chief financial officer Colette Kress could potentially serve as interim chief executive if Huang is ousted while the BoD searches for a permanent replacement, it remains to be seen how Wall Street would react to this assignment. Nvidia co-founder Chris Malachowsky, who used to be the company's senior vice president of engineering and operations and remains a member of the company's board and an Nvidia Fellow, could also play a role in the succession process, given his extensive knowledge of Nvidia's technology, corporate culture, and history. However, has not served in an executive role at Nvidia for at least a decade, so the chances that he will succeed Huang are low. Back on Sunday, directors expressed confidence in Jensen Huang and his leadership team, a choice of words that did not exactly guarantee his cont"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "date": "2026-11-12 08:28",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 이사회, CEO Huang 해임 결정 예정 (33년 경영 종료 가능)",
+    "korean_summary": "NVIDIA 이사회가 수요일 회의에서 CEO Jensen Huang의 해임 여부를 결정할 예정이며 33년 리더십이 종료될 수 있다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia 이사회, 젠슨 황 CEO 해임 논의… 스캔들 속 주가 급락",
+    "korean_summary": "Nvidia 이사회가 젠슨 황의 불륜 스캔들 및 안보 논란 속에서 **CEO 해임 여부를 논의**하며 외부 업체를 통해 후임자를 물색 중이다.",
+    "action": {
+     "actor": "Nvidia 이사회 (Board of Directors)",
+     "action": "젠슨 황 CEO의 거취를 결정하기 위한 이사회 회의 소집 및 외부 업체를 통한 후임 CEO 후보 물색",
+     "stage": "Report",
+     "timeline": "이사회는 이르면 수요일(날짜 미확인)에 회의 예정",
+     "scope": "Nvidia CEO 승계 문제, 미국 본사 경영진 차원"
+    },
+    "key_facts": [
+     "Wall Street Journal 보도에 따르면 Nvidia 이사회가 **33년간 재직한 공동창업자 겸 CEO 젠슨 황의 해임을 검토** 중이며, 이르면 수요일 회의 예정",
+     "일요일 황은 미국 정보당국이 중국 스파이로 지목한 여성과의 불륜을 인정했고, 수요일 저녁 New York Times는 그의 직속 부하 임원과의 불륜도 추가 보도",
+     "이 스캔들 속에서 **Nvidia 주가는 수요일 장외거래에서 약 8% 하락**, 최근 5일간 약 11% 하락",
+     "황은 직접보고 체계로 약 60명의 직속 보고자를 두고 있으며, 뚜렷한 후계자나 승계 계획이 부재한 상태",
+     "Bloomberg에 따르면 Nvidia는 외부 업체와 협력해 황을 대체할 후보를 물색 중"
+    ],
+    "why_matters": "AI 붐을 견인하는 핵심 칩 설계사이자 세계 최고가 기업 중 하나인 Nvidia의 **CEO 리더십 공백 가능성은 AI 반도체 생태계 전체에 불확실성**을 야기할 수 있다. 특히 중국 스파이 연루 의혹은 지정학적 안보 리스크까지 더해 투자자와 고객사(하이퍼스케일러 등)의 신뢰에 직접적 영향을 줄 수 있다.",
+    "subject_angle": "젠슨 황은 Nvidia의 전략·기술 방향성을 거의 전적으로 주도해온 인물로, **명확한 승계 계획 부재 상태에서의 교체는 AI 칩 로드맵과 대형 고객사와의 관계에 단기적 혼란**을 초래할 수 있다. 외부 후보 물색이 진행 중이라는 점에서 Nvidia의 거버넌스 체계가 시험대에 올랐다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 및 CEO 교체 논의의 당사자 기업"
+     },
+     {
+      "name": "Wall Street Journal",
+      "context": "이사회의 CEO 해임 검토 사실을 최초 보도"
+     },
+     {
+      "name": "New York Times",
+      "context": "황의 직속 부하 임원과의 추가 불륜 의혹 보도"
+     },
+     {
+      "name": "Bloomberg",
+      "context": "Nvidia가 외부 업체를 통해 후임 CEO 후보를 물색 중이라고 보도"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "수요일 Nvidia 이사회 회의의 실제 결과(황의 거취 확정 여부)",
+     "외부 업체가 제시할 후임 CEO 후보 명단 및 승계 계획 공식화 여부",
+     "스캔들 관련 미국 정부·정보당국의 추가 조사나 공식 입장 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · MarketWatch",
+     "title": "Nvidia’s stock drops as the board reportedly prepares to remove CEO Jensen Huang",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYmdkdUluVHVQWUhGdnVOemo1NFU2N3RwV3dYY1Qta0RNckhBeVZXejVkb1RsdzdUeDlzUEV1XzQ3N0dPcFhPNVRRTTN5TTJXRktBYWdvcVBmWm9veUNoR2U2VHJJN0FzbC04TzBiTW5raWdOWk5CZ2djQTJjMlJ6bGRPR3lJbG1BOEhJbWh5X2xLMzMxazlxZzNBT0ZuUmJtZG80akFMUkFVSHV5LUdUaEplOGtvYU1RdDY4TFEzOA?oc=5"
+    },
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaHVybW9FNEpCWHBicng4VklNQ2dQZGpVRE9oSkEyblVnVXBWdm1HdndnNXlDMXJpOGtndzViWlR1cWV4dXM2eWxLZm5PeGY3dmFjM3ZRVDY3MmE0aEJ5Y0tpdnNrNE5wbGctbVNISlpBWmhXRGlDYlBNeU1hVVdYcWZiZjZVRGdsQzVScmwzdHdKbC1KWkxhRVF5QmM5ZWpqaHVkOEtpYjA?oc=5"
+    },
+    {
+     "source": "Google News · Investor's Business Daily",
+     "title": "Nvidia Stock Tumbles As Board Reportedly Prepares To Oust CEO Jensen Huang",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVVJfWFFjcTNRZlZJRjRYdTJUZGw2ckNlX0ZtRlBwZmZMN3VnOURCMml0LVBUWTZXRi14emlGdU9lVHExTUFQT0VsMUVidTdWdTdhRnNoMEFzQzdzSGlEMFpLckhxSjF5T01jR3VXY2ZnUE5FNTRGc0RPSzQ4WU1xY3ZUcVNJQU8yZk5vcVh5WlUwa3VSUG0wV0VBc3pvdw?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+   "body": "Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports. Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huang’s future at the company. On Sunday, Huang admitted to having an extramarital affair with a woman purported by U.S. intelligence to be a Chinese spy. On Wednesday evening, the New York Times reported that Huang also had an affair with an executive who reports to him. Nvidia has become one of the most valuable companies in the world as it designs the chips that power the AI boom, but in the midst of Huang’s ongoing scandal, Nvidia stock fell about 8% in after hours trading on Wednesday. The stock is down about 11% in the past five days. Huang famously delegates very little and has about 60 direct reports, he has said. The company also has not had an obvious successor or a succession plan. According to Bloomberg, Nvidia is working with an outside firm to identify candidates that could potentially replace Huang as CEO."
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+   "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+   "date": "2026-11-12 04:22",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 의회, NVIDIA CEO Huang 소환 준비 (중국 스파이 혐의)",
+    "korean_summary": "미국 하원 중국 위원회와 외교위원회가 CEO Huang을 중국 스파이 관계 관련해 소환할 준비 중이며 응하지 않을 시 소환장 발부 계획이다."
+   },
+   "summary_data": {
+    "korean_title": "美 의회, 젠슨 황에 중국 스파이 의혹 관련 소환장 발부 추진",
+    "korean_summary": "미국 하원 공화당 의원들이 Jensen Huang과 중국 스파이 의혹 인물 Alice Huang의 관계를 조사하기 위해 비공개 브리핑 출석을 요구했으며, 응하지 않으면 **소환장을 발부**할 계획이라고 밝혔다.",
+    "action": {
+     "actor": "US House Republicans (Brian Mast, John Moolenaar, Rick Crawford)",
+     "action": "Jensen Huang에게 중국 스파이 의혹 관련 비공개 브리핑 출석을 요구하고, 미응답 시 소환장(subpoena) 발부 준비",
+     "stage": "Filed",
+     "timeline": "Moolenaar는 수요일(요일만 언급, 구체 날짜 미확인) 당일까지 응답 요구; 이전에 서한 발송 후 1주일 경과",
+     "scope": "Jensen Huang 개인 대상, House Foreign Affairs Committee 및 House China Committee"
+    },
+    "key_facts": [
+     "House Republicans Brian Mast, John Moolenaar, Rick Crawford가 1주일 전 Huang에게 서한을 보내 **비공개(closed-door) 공동 브리핑** 출석을 요청함",
+     "조사 대상은 Huang과 Megaspeed 임원이자 **중국 스파이로 의심되는 Alice Huang과의 관계**",
+     "House China Committee 위원장 Moolenaar는 Huang이 당일까지 응답하지 않으면 소환될 가능성이 높다고 발언",
+     "House Foreign Affairs Committee 위원장 Mast는 응답이 없을 경우 보낼 소환장을 준비 중이라고 밝힘",
+     "Nvidia는 TechCrunch의 논평 요청에 즉시 응답하지 않음"
+    ],
+    "why_matters": "이번 사안은 Nvidia CEO 개인의 중국 관련 인맥 의혹이 **미 의회의 공식 조사 대상**으로 전환되는 단계로, Nvidia의 대중국 사업·수출 규제 이슈와 맞물려 정치적 리스크를 키울 수 있다. 소환장이 실제 발부될 경우 Jensen Huang의 공개 증언이 Nvidia의 대외 신뢰도와 중국 관련 정책 협상력에 영향을 줄 수 있다.",
+    "subject_angle": "Nvidia는 CEO 개인에 대한 **의회 조사 및 소환 가능성**이라는 비기술적 리스크에 직면했으며, 이는 미중 기술 갈등 속에서 Nvidia의 중국 사업 전략 및 정부 관계에 부담을 줄 수 있는 변수로 작용한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Jensen Huang이 CEO로 있는 회사, 조사 대상의 소속 기업"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang이 임원으로 재직 중인 회사"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Jensen Huang이 비공개 브리핑에 응할지 여부",
+     "실제 소환장(subpoena) 발부 여부와 시점",
+     "Nvidia의 공식 입장 표명 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair",
+   "body": "Congress is gearing up to subpoena Nvidia CEO Jensen Huang to answer their questions about his affair with an alleged Chinese spy, Bloomberg reports, citing two House Republicans. The report comes a week after House Republicans Brian Mast, John Moolenaar, and Rick Crawford sent a letter to Huang asking him to appear before their committees for a joint, closed-door briefing in regards to his relations with Alice Huang, the Megaspeed executive and suspected Chinese spy. House China committee Chairman Moolenaar said Wednesday on Fox Business that Huang has until the end of the day to respond to the request. If he doesn’t agree to the briefing, he’ll likely be subpoenaed, said Moolenaar. Mast, who chairs the House Foreign Affairs Committee, on Wednesday said his committee is preparing a subpoena for Huang to send if he doesn’t respond. Nvidia did not immediately respond to TechCrunch’s request for comment."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "'역대 최대매출' 네이버, AI 투자에 영업익 21% 감소…\"AI·커머스 성장 집중\"",
+   "link": "https://www.hankyung.com/article/202611121891g",
+   "date": "2026-11-12 09:21",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "네이버, NVIDIA와 AI 팩토리 2조원 규모 계약",
+    "korean_summary": "네이버가 NVIDIA와 Brookfield와 함께 추진하는 AI 팩토리에서 약 2조원 규모의 첫 고객 계약 체결"
+   },
+   "summary_data": {
+    "korean_title": "네이버, 3분기 역대 최대 매출 속 AI 투자로 영업익 21% 감소…내년 AI 팩토리 매출 반영 예고",
+    "korean_summary": "네이버가 AI·커머스 투자 확대로 영업이익이 줄었지만 **Brookfield·NVIDIA와 추진 중인 AI 팩토리 사업에서 약 2조원 규모 컴퓨팅 서비스 공급 계약을 체결**해 내년 상반기부터 관련 매출을 실적에 반영하겠다고 밝혔다.",
+    "action": {
+     "actor": "Naver",
+     "action": "AI 팩토리 사업 관련 약 2조원 규모 컴퓨팅 서비스 공급 계약 체결 및 초기 고객 확보, 내년 상반기부터 실적 반영 예정",
+     "stage": "Announced",
+     "timeline": "2026년 상반기부터 실적 반영 (계약 체결 시점은 미확인)",
+     "scope": "Naver·Brookfield·NVIDIA 공동 추진 AI 팩토리, 국내 컴퓨팅 서비스 고객 대상"
+    },
+    "key_facts": [
+     "네이버 3분기 연결 매출 3조4724억원(전년비 10.7%↑), 영업이익 4513억원(전년비 20.9%↓)",
+     "**AI 팩토리 사업은 약 2조원 규모 컴퓨팅 서비스 공급 계약을 체결**해 초기 고객 확보",
+     "내년 상반기부터 AI 팩토리 사업 관련 매출이 실적에 본격 반영될 예정",
+     "AI 팩토리 사업은 Naver·Brookfield·NVIDIA가 함께 추진 중",
+     "연내 AI 에이전트 앱 출시, 커머스 경쟁력 강화를 위한 물류 전문 자회사 설립 계획"
+    ],
+    "why_matters": "네이버의 AI 팩토리는 **NVIDIA GPU 기반 컴퓨팅 인프라를 한국 시장에 상업화**하는 구체적 사례로, 아시아 지역에서 하이퍼스케일러 외 로컬 플랫폼 기업을 통한 AI 인프라 수요 확산을 보여준다. 2조원 규모 계약과 대형·글로벌 고객 확대 계획은 NVIDIA 생태계 파트너의 실제 매출 창출 가능성을 입증하는 레퍼런스가 될 수 있다.",
+    "subject_angle": "NVIDIA는 Naver·Brookfield와의 협력을 통해 **자사 GPU·플랫폼을 활용한 지역별 'AI Factory' 모델을 상업적 수익 창출 사례로 확장**하며, 하이퍼스케일러에 의존하지 않는 소버린·로컬 AI 인프라 수요처를 추가 확보하는 전략적 의미를 지닌다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Naver",
+      "context": "AI 팩토리 사업 추진 주체, 컴퓨팅 서비스 공급 계약 체결"
+     },
+     {
+      "name": "Brookfield",
+      "context": "Naver·NVIDIA와 함께 AI 팩토리 사업 공동 추진"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "AI 팩토리 사업의 공동 추진 파트너, GPU·컴퓨팅 인프라 제공 추정(구체적 역할은 미확인)"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI Factory (Naver·Brookfield·NVIDIA 공동 사업)",
+      "role": "컴퓨팅 서비스 공급 계약 기반 매출 창출 플랫폼, 내년 상반기 실적 반영 예정"
+     }
+    ],
+    "watch_next": [
+     "AI 팩토리 사업의 구체적 계약 체결 시점 및 고객사 명단 공개 여부",
+     "NVIDIA의 AI 팩토리 내 구체적 역할(GPU 공급 규모·모델) 추가 공개 여부",
+     "내년 상반기 실적에 반영될 AI 팩토리 매출 규모 및 추가 대형 고객 계약 체결 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.hankyung.com/article/202611121891g",
+   "body": "AI 추천 뉴스 '역대 최대매출' 네이버, AI 투자에 영업익 21% 감소…\"AI·커머스 성장 집중\" 전년비 매출 11% 증가…사업분야 고른 성장세 \"AI 에이전트 앱 출시, 커머스 물류 자회사 설립\" 내년 AI팩토리 사업 실적 반영…2조 규모 고객 확보 커머스와 파이낸셜 플랫폼(결제), 글로벌 개인간 거래(C2C) 사업 분야 전반이 고르게 성장한 네이버가 올해 3분기 역대 최대 분기 매출을 기록했다. 연결 기준 매출이 전년 동기 대비 두자릿수(10.7%) 증가한 3조4724억원. 다만 영업이익은 인공지능(AI) 경쟁력 확보를 위한 투자가 늘어난 영향으로 20.9% 감소한 4513억원을 거뒀다. 12일 네이버에 따르면 3분기 사업 부문별 매출액은 △네이버 플랫폼 1조9484억원 △파이낸셜 플랫폼 4877억원 △글로벌 도전 1조364억원이다. 네이버 플랫폼 매출은 3분기에 추석 연휴가 있었음에도 AI 수익화 시도 확장에 따른 광고 매출 성장, 네이버플러스 스토어 애플리케이션(앱)과 멤버십 이용자 및 구매 확대에 힘입어 지난해 3분기보다 7.3% 증가했다. 특히 서비스 매출은 커머스 성장이 견인하며 13.1% 늘었다. 네이버는 커머스에 한층 힘을 싣기 위해 물류 자회사를 설립한다. 최수연 대표는 “배송 경쟁력을 한 단계 더 끌어올리기 위해 물류 전문 자회사를 설립하고, 임차한 물류센터 중심의 배송 인프라를 단계적으로 강화하겠다”면서 “배송 경쟁력이 거래를 늘리고 늘어난 물량이 다시 효율을 높이는 선순환을 통해 판매자와 이용자, 파트너사가 함께 성장하는 커머스 생태계를 만들 것”이라고 말했다. 파이낸셜 플랫폼 매출도 전년 동기 대비 14.1% 늘어난 가운데 N페이(pay) 결제액은 외부 결제액이 21.8% 급증하는 등 뚜렷한 성장세를 보였다. 오프라인 통합 단말기 ‘Npay 커넥트’ 보급 확대로 온·오프라인을 아우르는 결제 생태계 구축에 나섰다. 회사 측은 “네이버파이낸셜은 내년 상반기까지 오프라인 통합 단말기 시장에서 활성 단말기 기준 국내 1위 사업자로 도약할 계획”이라고 강조했다. 글로벌 도전 영역 매출도 전년 동기 대비 15.9% 증가했다. 왈라팝 편입 효과 및 포시마크, 소다의 거래 흥행에 따른 C2C 매출이 증가했고 사우디아라비아 디지털 트윈 사업 등 엔터프라이즈 매출 성장도 힘을 보탰다. 내년 상반기부터는 네이버가 브룩필드·엔비디아와 함께 추진하고 있는 AI 팩토리 사업 관련 매출이 본격적으로 실적에 반영된다. 최 대표는 “AI 팩토리 사업은 약 2조원 규모 컴퓨팅 서비스 공급 계약을 체결해 초기 고객을 확보했다”면서 “대형 고객과의 중장기 계약을 추진하는 동시에 성장 잠재력이 높은 글로벌 AI 기업으로 고객을 늘려 안정성과 함께 수익성도 확보해나갈 것”이라고 밝혔다. 네이버는 AI 기반 서비스 고도화에 박차를 가한다. 앞서 선보인 AI브리핑과 AI탭에 이어 AI 에이전트 앱을 연내 선보인다. 단순 추천과 정보 제공을 넘어 실제 구매와 방문으로 연결되는 새로운 서비스 경험을 하겠다는 방침이다. 최 대표는 “개인형 AI 에이전트는 이용자가 필요한 정보를 직접 찾는 것을 넘어, 필요한 일을 미리 챙기거나 번거로운 작업을 대신 수행하는 새로운 사용성을 제공할 것”이라며 “기존 검색의 진화를 이어가는 동시에 새로운 이용자층을 확보하고 수익화 기회도 만들어 나가겠다”고 덧붙였다. 김봉구 한경닷컴 기자 kbk9@hankyung.com"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia appoints law firm to investigate CEO's affair with suspected Chinese spy",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-appoints-law-firm-to-investigate-ceos-affair-with-suspected-chinese-spy/",
+   "date": "2026-11-12 02:15",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 독립 조사 위해 저명 법무법인 Wachtell, Lipton 고용",
+    "korean_summary": "NVIDIA가 CEO의 중국 스파이 혐의와 국가 보안 침해 여부를 조사하기 위해 미국 저명 법무법인을 공식 고용했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, 젠슨 황 CEO의 중국 스파이 의혹 인물과의 교제 관련 독립 조사 착수",
+    "korean_summary": "Nvidia 이사회가 Jensen Huang CEO와 중국 국가 스파이 혐의를 받는 Alice Huang 간의 관계를 둘러싸고 법무법인 Wachtell, Lipton, Rosen & Katz를 선임해 독립 조사에 착수했으며, 이는 이미 약 4300억 달러의 시가총액 손실과 주주 소송으로 이어졌다.",
+    "action": {
+     "actor": "Nvidia 이사회",
+     "action": "CEO Jensen Huang의 Megaspeed 임원 Alice Huang과의 관계에 대해 로펌 Wachtell, Lipton, Rosen & Katz(파트너 Joon Kim 주도)를 선임해 독립 조사 진행",
+     "stage": "Announced",
+     "timeline": "미확인 (조사 일정 미제공)",
+     "scope": "Nvidia 경영진 및 기업 기밀·국가안보 관련 조사"
+    },
+    "key_facts": [
+     "Jensen Huang이 이달 초 Alice Huang(Megaspeed 임원, 중국 스파이 혐의)과의 관계를 인정했다",
+     "**이로 인해 Nvidia 시가총액에서 약 $430 billion이 증발**했으며 이는 Oracle, Cisco, Palantir의 합산 시가총액을 초과한다",
+     "Nvidia 이사회는 조사 시작 전 '국가안보나 Nvidia 기밀이 침해됐다고 믿을 이유가 없다'고 밝혀 논란이 됐다",
+     "New York 소재 로펌 Wachtell, Lipton, Rosen & Katz가 조사에 합류했으며, 제재 위반·영업기밀 절도·경제 스파이 기소 경험이 있는 **Joon Kim**(전 SDNY 미국 검사대리, 2017-2018)이 주도한다",
+     "다수 주주들이 손실과 관련해 Nvidia를 상대로 소송을 제기했으며, Huang은 계속 CEO직을 유지한다"
+    ],
+    "why_matters": "**Nvidia는 AI 반도체 공급망의 핵심 기업으로, CEO의 국가안보 관련 스캔들은 미중 기술 경쟁 구도에서 규제·수출통제 리스크를 증폭시킬 수 있다.** 이미 시총 4300억 달러가 증발한 상황은 투자자 신뢰와 거버넌스에 대한 의문을 키우며, 조사 결과에 따라 CEO 리더십과 회사의 대중국 비즈니스 전략 전반에 파장이 미칠 수 있다.",
+    "subject_angle": "**Nvidia의 핵심 경쟁력은 CEO 개인의 신뢰성과 직결되어 있어, 이번 사건은 기업 거버넌스 리스크가 AI 반도체 시장 리더십에도 영향을 줄 수 있음을 보여준다.** 조사 결과가 국가안보·기밀 유출과 무관하다고 판명될 경우 단기 리스크는 완화되겠지만, 그렇지 않을 경우 대중국 수출 정책 및 규제 당국과의 관계에 추가 부담이 될 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 스캔들 및 시가총액 손실 당사자, 독립 조사 착수"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang이 소속된 회사"
+     },
+     {
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "context": "Nvidia가 선임한 조사 담당 로펌"
+     },
+     {
+      "name": "Oracle",
+      "context": "Nvidia 시총 손실 규모 비교 대상"
+     },
+     {
+      "name": "Cisco",
+      "context": "Nvidia 시총 손실 규모 비교 대상"
+     },
+     {
+      "name": "Palantir",
+      "context": "Nvidia 시총 손실 규모 비교 대상"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "독립 조사 결과 발표 및 국가안보·기밀 유출 여부 확정",
+     "주주 소송 진행 상황 및 법적 결과",
+     "Jensen Huang의 CEO직 유지 여부 및 Nvidia 거버넌스 변화"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-appoints-law-firm-to-investigate-ceos-affair-with-suspected-chinese-spy",
+   "body": "Nvidia has appointed a US law firm to conduct a “thorough and independent” investigation into its CEO's affair with a woman accused of spying for the Chinese state. Jensen Huang confirmed his relationship with Alice Huang (no relation) earlier this month, wiping more than a Coca-Cola Company's worth off Nvidia's market cap. He has, however, denied that his involvement with the Megaspeed exec compromised national security. Earlier this week, the Nvidia board said that it had opened an independent investigation into the matter, although it raised eyebrows by stating it had “no reason to believe that either national security or Nvidia secrets were compromised\" prior to the investigation's start. The company has now hired New York-based Wachtell, Lipton, Rosen & Katz to join the investigation, led by Wachtell partner Joon Kim. Kim was the Acting US Attorney for the Southern District of New York from 2017 to 2018. Among the areas he lists experience in prosecuting are sanctions violations, theft of trade secrets, and economic espionage. Nvidia did not provide any timelines for the investigation. Huang will continue to run the company he founded, despite around $430 billion being wiped off the company's net worth. That is more than the total market cap of Oracle, Cisco, and Palantir. A number of shareholders have filed a lawsuit against the company over the losses."
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "CEO Jensen Huang's job is suddenly on the line at Nvidia",
+   "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+   "date": "2026-11-12 08:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황 CEO 해임 위기...NVIDIA 경영진 교체 논의",
+    "korean_summary": "NVIDIA 이사회가 불륜 스캔들로 창업자 젠슨 황 CEO의 해임을 검토 중"
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 스캔들로 Nvidia 이사회 긴급 소집, CEO 거취 논의",
+    "korean_summary": "Nvidia 이사회가 창립자 Jensen Huang의 거취를 논의하기 위해 긴급 회의를 열기로 했는데, 이는 Huang이 중국 스파이로 의심되는 인물 및 사내 임원과 연애 관계였다는 의혹이 불거졌기 때문이다.",
+    "action": {
+     "actor": "Nvidia 이사회 (Nvidia's board)",
+     "action": "CEO Jensen Huang의 거취에 대한 긴급 논의 개최",
+     "stage": "Report",
+     "timeline": "수요일 (정확한 날짜 미확인)",
+     "scope": "Nvidia 경영진, 범위 미확인"
+    },
+    "key_facts": [
+     "**Nvidia 이사회가 수요일 Jensen Huang의 미래에 대한 긴급 회의를 가질 예정**",
+     "Donald Trump는 FBI가 Huang이 중국 스파이로 의심되는 인물과 연애 관계였다는 의혹을 조사 중이라고 언급",
+     "Huang은 Nvidia의 헬스케어 부문 부사장 Kimberly Powell과 연애 관계가 있었다고 복수의 관계자가 전함",
+     "Powell은 Nvidia에서 18년 이상 근무한 베테랑 임원이자 회사의 대표적 공개 인물 중 한 명",
+     "**해당 사태는 시가총액 $4.2 trillion 규모의 Nvidia에서 벌어지고 있는 스캔들**"
+    ],
+    "why_matters": "세계 최대 시가총액 기업 중 하나인 Nvidia의 창립자 겸 CEO를 둘러싼 개인적 스캔들과 FBI 조사설은 **회사 거버넌스와 리더십 안정성에 대한 투자자 신뢰에 직접적 영향**을 줄 수 있다. AI 반도체 시장을 지배하는 Nvidia의 경영권 리스크는 공급망 파트너, 고객사, 규제 당국의 주시 대상이 될 수 있다.",
+    "subject_angle": "Nvidia의 사업 전략 자체보다는 **창립자 리더십 리스크가 부각**된 사안으로, 이사회의 대응 방식이 향후 지배구조 및 경영 승계 논의에 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 당사 기업, 이사회가 CEO 거취 논의"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Nvidia 이사회의 Wednesday 회의 결과 및 Jensen Huang 거취 결정",
+     "FBI 조사의 공식 확인 여부 및 세부 내용",
+     "스캔들에 따른 Nvidia 주가·투자자 반응"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · Ars Technica",
+     "title": "CEO Jensen Huang’s job is suddenly on the line at Nvidia",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd3NNX1VBS0FQdGVMSlRqTEhFcGZTd3A3amtGQ1pEQ2pIa3Rxc1RZdnhwdUZkWkRwLV9mRFJtRTQ3aVVxdDJpQXVNb0cwQXJDRXN5WGZrYjNrdU55d0tLa1o3YTBzVE1Wal9ocTZNSWZ0cGJFRU54c0hrc3phLUNCeVk0djNWNWxwcVF3eXhmeU1WOERMRGlHS2IxVWs?oc=5"
+    }
+   ],
+   "uid": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia",
+   "body": "Nvidia’s board is set to hold urgent talks about the future of its founder Jensen Huang after revelations that he had an affair with a top executive at the company, according to people familiar with the matter. The meeting on Wednesday comes amid a deepening scandal at the $4.2 trillion group, after Donald Trump said the FBI was investigating allegations that Huang was romantically involved with an alleged Chinese spy. The Nvidia chief executive had a romantic relationship with Kimberly Powell, the chipmaker’s vice-president of healthcare, according to two people familiar with the matter. Powell, a more than 18-year veteran at Nvidia, is among the company’s more prominent public figures. Read full article Comments"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Lutnick stalled Trump crackdown on diversion of Nvidia chips to China, Axios reports",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDk3Z2kxT2NlVkxtZ3FMbksyU0ZlT2JzcERTTVBkeGFzUk5kaHhpazg4Mk5GSnZGTmNmbVVZakFyUHZOeGx5ZEt1N0pVZFRBcDlzMFU0dDc0RFh1ak1ndzZBVWNsN3NCVmliX040XzZHXzc3TFlCUWNTeXdyUkZ1S3B4WUhLSnNCWDVzeGd2NDZUZzBaTUNwemdVRWtqWGlzUnczR09yU09qaWwxZGRKaFBOUDdiR2lLa0VSa0tiWQ?oc=5",
+   "date": "2026-11-12 07:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Lutnick, Trump의 NVIDIA 칩 중국 규제 강화 지연",
+    "korean_summary": "Lutnick이 Trump 정부의 NVIDIA 칩 중국 유출 규제 강화를 지연시킨 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDk3Z2kxT2NlVkxtZ3FMbksyU0ZlT2JzcERTTVBkeGFzUk5kaHhpazg4Mk5GSnZGTmNmbVVZakFyUHZOeGx5ZEt1N0pVZFRBcDlzMFU0dDc0RFh1ak1ndzZBVWNsN3NCVmliX040XzZHXzc3TFlCUWNTeXdyUkZ1S3B4WUhLSnNCWDVzeGd2NDZUZzBaTUNwemdVRWtqWGlzUnczR09yU09qaWwxZGRKaFBOUDdiR2lLa0VSa0tiWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fortune",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Report: Nvidia preparing to oust CEO Jensen Huang after affair with woman U.S. officials deemed a Chinese spy",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16RXdKZFNLdkZ2Vl93cl9DZGl1UDhUT0F6WFUzRW5KNlZ5OFBqdFdUTF85Y1VDSVdINzdtUC1aeTh5YzREdThSMl9JeHVudTZWdC1lemctX1V2d2kzdTFSaG90U0M5WVhmUGhCOGQ3cmRxZkNzX0t3?oc=5",
+   "date": "2026-11-12 08:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA CEO 제거 준비, 중국 스파이 의혹 여성과의 관계",
+    "korean_summary": "NVIDIA가 미국 관계자들이 중국 스파이로 지목한 여성과의 관계를 이유로 CEO 제거를 준비 중이라고 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16RXdKZFNLdkZ2Vl93cl9DZGl1UDhUT0F6WFUzRW5KNlZ5OFBqdFdUTF85Y1VDSVdINzdtUC1aeTh5YzREdThSMl9JeHVudTZWdC1lemctX1V2d2kzdTFSaG90U0M5WVhmUGhCOGQ3cmRxZkNzX0t3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Export Curbs Could Shift AI Demand Toward These Data Center Stocks",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTJUV2NtRlFXRDJLbmcwQmp2Zk1FTnJ2MDlNUGM5c0htWHFVZ3RBLXdvcWtVc3NFUFRpRzNmUGozY3pROG90U2c5cDFSQ09Xbm1jLWhRVGhyZFhjcFVwSkVZQnFTTVAtREFyU011VlJhUkV1eUtwQjZNdHNhZmRQWXlaVnhFZ2MwTHdKaWNGWDBtOGxrSlFXTHE5VQ?oc=5",
+   "date": "2026-11-12 09:43",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 수출 규제, AI 수요를 다른 데이터센터 주식으로 이동시킬 수 있나?",
+    "korean_summary": "NVIDIA의 수출 규제 가능성이 AI 수요를 경쟁사 데이터센터 기업들로 이동시킬 수 있다고 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVTJUV2NtRlFXRDJLbmcwQmp2Zk1FTnJ2MDlNUGM5c0htWHFVZ3RBLXdvcWtVc3NFUFRpRzNmUGozY3pROG90U2c5cDFSQ09Xbm1jLWhRVGhyZFhjcFVwSkVZQnFTTVAtREFyU011VlJhUkV1eUtwQjZNdHNhZmRQWXlaVnhFZ2MwTHdKaWNGWDBtOGxrSlFXTHE5VQ",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Axios",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5",
+   "date": "2026-11-12 06:08",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Lutnick, 오벌 오피스 회담 후 NVIDIA 칩 대중국 수출 규제 재차 지연",
+    "korean_summary": "Lutnick 무역대표가 대통령과의 회담 후 NVIDIA 칩의 중국 수출 규제 시행을 또 다시 미루었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU",
+   "body": ""
+  },
+  {
+   "source": "Google News · TOKENPOST",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Makes Alpamayo 2 Edge Available to Developers on Hugging Face",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRcFFTS0M5cEkwTkZBN2VLNGVnbnZiX0dwakdwdEtyRXdyOFlyMVNsMzZ6WUhLM0NyLTdFdktfdnI0YzZfZXhzelZ4VUUtejloYmlqMjI2bXhYamc?oc=5",
+   "date": "2026-11-12 01:42",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Alpamayo 2 Edge, Hugging Face 플랫폼에 공개",
+    "korean_summary": "NVIDIA가 자동차용 엣지 AI 플랫폼 Alpamayo 2를 Hugging Face에 공개해 개발자 접근성을 높였다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRcFFTS0M5cEkwTkZBN2VLNGVnbnZiX0dwakdwdEtyRXdyOFlyMVNsMzZ6WUhLM0NyLTdFdktfdnI0YzZfZXhzelZ4VUUtejloYmlqMjI2bXhYamc",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "date": "2026-11-12 08:50",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "NVIDIA CEO Jensen Huang, 중국 스파이 의심 여성과 외도 인정",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 미국 정보기관이 중국 스파이로 의심하는 여성 Alice Huang과의 외도를 인정했으며, Megaspeed가 최근 2년간 NVIDIA 칩 48억 달러 구매로 조사 대상이 되었다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 스캔들 파장, Nvidia 이사회 퇴진 논의까지 확산",
+    "korean_summary": "Nvidia CEO Jensen Huang의 중국계 스파이 의혹 인물 및 사내 임원과의 불륜 스캔들이 번지면서 **Nvidia 이사회가 그의 퇴진을 논의**하고 주가가 급락했다.",
+    "action": {
+     "actor": "Nvidia Board of Directors",
+     "action": "Jensen Huang CEO 퇴진 여부 논의를 위한 이사회 회의 준비",
+     "stage": "Rumor",
+     "timeline": "2026-11-11 (Wall Street Journal 보도 기준)",
+     "scope": "Nvidia CEO 승계 문제, 미확인"
+    },
+    "key_facts": [
+     "Nvidia 주가가 수요일 장후 거래에서 약 8% 하락, 최근 5일간 11% 하락",
+     "Megaspeed(Singapore 소재 AI 인프라 기업)가 지난 2년간 **$4.8 billion 규모의 Nvidia 칩을 구매**했으며, 미국·싱가포르가 중국 불법 유출 혐의로 조사 중",
+     "Shanghai Century Litong(2023년 설립, Alice Huang 가족 관련 네트워크)이 Nvidia-preferred cloud partner 자격으로 금지된 칩 포함 **$7.5 billion 규모의 Nvidia 칩 구매를 중개**",
+     "Nvidia 수석 법률고문 Tim Teter가 2025년 Megaspeed International 밀수 의혹 조사에 개입, Commerce Under Secretary Jeffrey Kessler에게 연락한 사실이 Bloomberg 보도로 확인됨",
+     "공화당 하원의원 3명이 Huang에게 비공개 브리핑 출석을 요구했으며 미응답 시 소환장(subpoena) 발부 가능성 (House China committee Chairman Moolenaar 발언)"
+    ],
+    "why_matters": "Nvidia는 미중 AI 패권 경쟁에서 핵심 AI 칩 공급자로서, CEO의 스캔들이 **대중국 칩 수출통제 및 밀수 의혹 조사**와 직접 연결되어 회사의 지정학적 리스크 관리 역량에 대한 신뢰를 흔들고 있다. 이사회의 CEO 교체 검토 소식만으로 주가가 급락한 것은 Huang 개인에 대한 시장 의존도가 지나치게 높다는 구조적 취약점을 드러낸다.",
+    "subject_angle": "Huang은 평소 **직접 보고 라인을 60명 가까이 두고 거의 위임하지 않는 경영 방식**으로 유명했으나, 명확한 후계자나 승계 계획이 없는 상태에서 리더십 리스크가 노출되어 Nvidia의 지배구조·수출통제 컴플라이언스 체계 전반에 대한 투자자 우려를 키우고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 중심 기업, CEO 퇴진 논의 및 주가 하락 당사자"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Singapore 소재 AI 인프라 기업, $4.8B 규모 Nvidia 칩 구매, 밀수 의혹 조사 대상"
+     },
+     {
+      "name": "Shanghai Century Litong",
+      "context": "Alice Huang 가족 관련 중국 기업, Nvidia preferred cloud partner로 $7.5B 규모 칩 구매 중개"
+     },
+     {
+      "name": "The New York Times",
+      "context": "Huang-Powell 불륜 관계 보도"
+     },
+     {
+      "name": "Wall Street Journal",
+      "context": "Nvidia 이사회의 Huang 퇴진 준비 보도"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Nvidia 이사회의 실제 회의 결과 및 Huang CEO 직위 유지 여부",
+     "Congress의 Huang 소환장(subpoena) 발부 여부 및 청문회 진행",
+     "Department of Justice의 Megaspeed 관련 연방 조사 진행 상황"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+   "body": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s personal life and potentially impact national security. United States officials believe that Huang’s likely romantic interest, Megaspeed executive Alice Huang, is a Chinese spy who has been feeding information back to Beijing. (Alice Huang, a Chinese citizen, is of no relation to Jensen Huang.) Megaspeed, a Singapore-based AI infrastructure company, had reportedly purchased $4.8 billion in Nvidia chips over the last two years. The U.S. and Singapore have both previously investigated Megaspeed over suspicions that the firm was illegally sharing chips with China. The Justice Department has since taken over the federal investigation into the company, the Times has reported. The story took a sudden new turn on Wednesday. Citing five people who worked at Nvidia, the Times reported that Huang also had an extramarital relationship with Kimberly Powell, the company’s vice president of health care, who reports directly to him. Nvidia, Huang and Powell have not confirmed the report. Reached by a Times reporter, Huang reportedly said, “I don’t think you should be talking to me directly,” before hanging up. Separately, the Wall Street Journal reported that Nvidia’s board is preparing to oust Huang, and Nvidia’s shares fell in after-hours trading. The U.S. and China are embroiled in a fierce technological arms race to build the most advanced AI infrastructure, which could shape each country’s economic future, military prowess, and capacity for innovation. Nvidia is valuable in this competition as one of the world’s largest makers of AI chips, which are essential for accelerating AI development. But as an American company, Nvidia faces government restrictions on the sale of its most powerful chips to Chinese entities. As the controversy unfolds, we are organizing the most relevant events into a reverse-chronological timeline to keep you up to date. November 11, 2026: Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang After reports of a second extramarital affair, Nvidia’s board reportedly plans to meet to discuss Huang’s future at the company, per the Wall Street Journal. Stock fell about 8% in after hours trading on Wednesday and is down 11% in the past five days. Huang famously delegates very little and has about 60 direct reports, he has said. The company has not had an obvious successor or a succession plan. November 11, 2026: Huang also had an affair with an Nvidia executive who reports to him, NYT says The New York Times reported that Jensen Huang also had an affair with Nvidia vice president of healthcare Kimberly Powell, who reports directly to the CEO. According to the report, Huang and Powell were captured on film “being affectionate” at a h"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang now accused of affair with Nvidia executive who reported to him, alleged cover-up attempt",
+   "link": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+   "date": "2026-11-12 07:31",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA CEO Huang, 직원과의 또 다른 불륜 혐의",
+    "korean_summary": "Jensen Huang이 자신의 부하 직원인 의료담당 VP Kimberly Powell과의 불륜 사실이 드러나 이사회 해임 검토가 가속화되었다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang, 직속 부하 임원과의 추가 불륜 의혹…이사회 해임 준비설",
+    "korean_summary": "NVIDIA CEO Jensen Huang이 자신에게 직접 보고하는 헬스케어 담당 VP Kimberly Powell과 불륜 관계였다는 의혹이 New York Times 보도로 제기되었고, **NVIDIA 이사회가 그의 해임을 준비하고 있다는 보도**가 나왔다.",
+    "action": {
+     "actor": "New York Times (익명 소스 5명 인용)",
+     "action": "Jensen Huang이 직속 부하 직원 Kimberly Powell과 불륜 관계였으며 이를 은폐하려 했다는 의혹 보도, NVIDIA 이사회의 해임 준비 보도",
+     "stage": "Report",
+     "timeline": "2026년 3월 GTC 컨퍼런스 기간(의혹 발생 시점), 보도 시점은 미확인",
+     "scope": "NVIDIA 경영진(Jensen Huang, Kimberly Powell) 및 이사회 차원"
+    },
+    "key_facts": [
+     "New York Times는 익명 소스 5명을 인용해 Huang과 NVIDIA 헬스케어 VP Kimberly Powell의 관계를 보도",
+     "**2026년 3월 San Jose 호텔(GTC 컨퍼런스 장소)에서 두 사람이 애정 표현을 하는 모습이 촬영**되었다는 주장",
+     "Huang의 보안팀이 촬영자를 격리하고 NDA 서명을 제안했다는 의혹",
+     "Powell은 2008년 입사 후 승진을 거쳐 현재 VP of Health Care 직책, 둘 다 기혼자",
+     "**NVIDIA 이사회가 Huang 해임을 준비 중이라는 보도**이며, 별도로 Alice Huang(중국 스파이 의혹 인물)과의 혼외 관계에 대해 Wachtell, Lipton, Rosen & Katz 법무법인이 조사 진행 중"
+    ],
+    "why_matters": "AI 반도체 시장을 주도하는 NVIDIA의 CEO가 **이중 스캔들(국가안보 연계 의혹 + 직속 부하 불륜 은폐 의혹)**에 직면했으며, 이사회 해임 준비 보도는 리더십 교체 리스크로 투자자·고객·규제기관의 신뢰에 직접적 타격을 줄 수 있다. 주주 집단소송, 하원 중국특위 조사 등이 겹치며 경영 안정성 자체가 흔들리는 상황이다.",
+    "subject_angle": "Jensen Huang은 NVIDIA의 AI 전략·대외 로비(트럼프 행정부와의 관계, 수출통제 영향력)의 핵심 인물로, **CEO 교체 가능성**이 현실화되면 GPU 로드맵·대중국 수출전략·고객 신뢰에 단기적 불확실성이 커질 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "스캔들 당사자 기업, 이사회가 해임 검토 중으로 보도됨"
+     },
+     {
+      "name": "New York Times",
+      "context": "익명 소스 기반 보도 주체"
+     },
+     {
+      "name": "Wachtell, Lipton, Rosen & Katz",
+      "context": "NVIDIA 이사회의 Alice Huang 관련 조사를 담당하는 법무법인"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang이 전직으로 재직했던 싱가포르 기업"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "NVIDIA 이사회의 공식 입장 및 해임 여부 발표",
+     "Wachtell, Lipton, Rosen & Katz 조사 결과",
+     "하원 중국특위 비공개 청문 진행 여부 및 결과"
+    ]
+   },
+   "related": [
+    {
+     "source": "TechCrunch · nvidia",
+     "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+     "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/"
+    },
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNEVmZTRudG1GQW9iNFFZTWJKZm1tM3JrU0JBTlJscVdjVkZFb05SSHNtVnY3YS1BUnJfb1RvYVZ1Rk9GazhhaWEyVVNRZUE2MVR6MU80V2JhM0pQQU9TS1oxdmF0eDBhVlpjelltZF8wVFlHTi1ZcUFmQjl2eHJBNlV1c2hnbnRlUWlGSGc0NWV3a2ZRTDZKSHM4MnJYNU9n?oc=5"
+    }
+   ],
+   "uid": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+   "body": "Nvidia CEO Jensen Huang — already embroiled in a scandal for an extramarital relationship with a woman believed by U.S. intelligence to be spying on behalf of China — reportedly had a separate affair with one of his direct reports, according to the New York Times . Nvidia's board is now reportedly preparing to fire Huang . The Times , citing five anonymous sources within Nvidia, says that Huang had a relationship with Kimberly Powell, the company's vice president of health care. The sources claim that Huang and Powell were \"captured on video being affectionate\" in March at a hotel in San Jose, Calif., where the company's GTC conference takes place. That report says that someone at the hotel filmed the moment on their smartphone, but that Huang's security team \"sequestered\" them and \"made the person an offer to sign a nondisclosure agreement.\" Powell joined Nvidia in 2008 and has been steadily promoted. The Times highlights that personal relationships are mentioned as potentially causing conflicts of interest in Nvidia's code of conduct . Like Huang, she is married to someone else. In 2018, former Intel CEO Brian Krzanich resigned following a relationship with an employee, which was also against the company's policies. Nvidia has not responded to a request for comment from Tom's Hardware. This story will be updated if we hear back. Earlier this week, it came out that Jensen had an extramarital affair with Alice Huang, formerly a top executive at Singaporean firm Megaspeed and believed by U.S. intelligence to be a spy. Huang admitted to the affair in an email to Nvidia employees. China has denied claims of espionage. Nvidia's board has an ongoing investigation into that affair, led by the law firm Wachtell, Lipton, Rosen & Katz. Huang is continuing to run the company while that investigation is ongoing. Law firms have been racing to sue the company on behalf of shareholders, including a proposed class-action lawsuit that Nvidia misled investors on material facts about the business. The Congressional House committee on China has called on Huang for a closed-door session, with Republican lawmakers saying the reports \"raise significant national security concerns.\" Huang has been a leader of the AI industry, providing the most sought-after chips in the field. He has also had the ear of President Donald Trump, traveling with him and attempting to influence export controls. Trump told reporters that the FBI was investigating Huang, but also that the Nvidia CEO \"had absolutely no idea that the person in question was a spy.”"
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Meet the Startup: Aegiq, A Full-Stack Photonic Quantum Computing Company",
+   "link": "https://www.youtube.com/watch?v=N5YLi8Ar3Wg",
+   "date": "2026-11-11 02:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "research"
+    ],
+    "korean_title": "Aegiq, NVIDIA 기술로 양자컴퓨팅 성능 3배 단축",
+    "korean_summary": "광자 양자컴퓨팅 스타트업 Aegiq가 NVIDIA Ising solver로 양자점 교정 시간을 3배 단축하고 cuTENSOR 활용으로 메시 포인트를 수십억 개까지 확장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=N5YLi8Ar3Wg",
+   "body": "Quantum computers have a deployment problem. Aegiq is solving it. The Sheffield-based startup is building photonic quantum computers designed to connect over standard fiber networks and manufacture using standard semiconductor processes — making quantum hardware practical to deploy at scale, not just in a lab. In this interview, Aegiq’s team walks through how they’ve integrated NVIDIA technology into their core workflow. Using NVIDIA’s Ising solver, they cut quantum dot calibration time by 3x. With cuTENSOR libraries, they went from 1 million point meshes on existing GPUs to billions — and are targeting 10 trillion point meshes in collaboration with NVIDIA. The applications are real and near-term: aerospace simulation, fusion energy, materials science, quantum chemistry. Aegiq joined NVIDIA Inception to accelerate access to customers and compute, and is now one of the startups demonstrating what happens when photonic quantum hardware meets GPU-accelerated simulation. 🌱 Aegiq is a member of NVIDIA Inception, a program supporting startups building at the frontier of AI and deep tech. Learn more about NVIDIA Inception: https://nvda.ws/4kjJM2n. #Aegiq #NVIDIAInception #QuantumComputing #AIStartups #Photonicquantum"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "CoreWeave provides silver lining for neoclouds as Nvidia storm swirls",
+   "link": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
+   "date": "2026-11-11 20:56",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "CoreWeave 3분기 168% 수익 증가 및 2026년 가이던스 상향",
+    "korean_summary": "CoreWeave가 3분기 수익 168% 증가를 보고하고 2026년 가이던스를 상향 조정하면서 신생 클라우드 업체 주가를 견인했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/11/coreweave-provides-silver-lining-for-neoclouds-as-nvidia-storm-swirls.html",
+   "body": "This is CNBC's Morning Squawk newsletter. Subscribe here to receive future editions in your inbox. Hello, this is Leonie Kidd with today's edition of Morning Squawk. CoreWeave is providing the tailwind for futures today, helping lift neocloud stocks, while a rebound for Nvidia is also supporting the chip space. But is it enough to dull the lingering doubts around the AI trade? Happening now: Silver linings CoreWeave shares are surging in premarket trading, up over 16% overnight, after the neocloud group posted a 168% spike in third-quarter revenue. The group also lifted its 2026 guidance, driving other neocloud stocks higher. But bear in mind that shares are down 65% from their May highs, losing over 40% of their value in the last month alone. - Analysis: Zack's Chief Equity Strategist John Blank told CNBC early Wednesday that the shares are \"so beaten up that you have to believe there is more value.\" - \"Inflection point\": Freedom Capital Markets' Paul Meeks said he is steadfastly bullish on CoreWeave, saying improving margins signal the turning point is here. - Coming up: \"Squawk on the Street\" will speak with CEO Michael Intrator. Catch that interview, First on CNBC. Big Movers: Spy scandal Nvidia shares are extending gains in premarket trading, up just over 3%. The move is also supporting gains for Broadcom, AMD, Intel and Nebius. Here are the key developments: - Nvidia's board has hired law firm Wachtell Lipton Rosen & Katz to investigate CEO Jensen Huang and whether company secrets have been compromised. - Sen. Charles Schumer has accused President Donald Trump of defending Huang at the expense of U.S. national security, citing press reports that Trump was briefed in full on the spy allegations more than a year ago. CNBC's Seema Mody spoke to sources within Nvidia who said Huang walked into the group's Santa Clara, California, headquarters on Monday to hold his regular meeting with top-level executives. To go inside that meeting, read the full piece here on CNBC.com. IPO: Anthropic anticipation Anthropic is offering 825 million shares at a price range of $70-78 per share. Sources close to the deal told CNBC the AI titan is planning to price on November 18 and trade on November 19. - Words matter: In the IPO filing, Anthropic uses the word \"adverse\" 257 times. - Private markets: CNBC's Kate Rooney will be reporting on how this is the first chance for individual investors to buy into a company whose growth has largely benefited private-market players. Tuesday's amended filing says retail investors could receive roughly 20% of the offering through platforms including Robinhood, Schwab, Fidelity, SoFi and E*TRADE. - Cramer's view: Jim Cramer says Anthropic's stunning revenue growth helps justify the $1 trillion-plus valuation, and just the fact that the IPO is going ahead is \"bullish for tech and the AI trade.\" Politics: Impeachment pushback The House of Representatives has effectively voted down an attempt to impeach Defense Secretary Pete Hegs"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+   "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "date": "2026-11-12 07:44",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "제2의 불륜 의혹에 황 CEO 해임 임박",
+    "korean_summary": "제2의 불륜 의혹이 적발되면서 NVIDIA 이사회의 황 CEO 해임 절차 진행"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Verge",
+     "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3b3lFR3FsVWJIVm14ZHJ2Mk4ybXR5SlhndUdRQmN5cjEtcW03NG5pdnFRSDV0WExCVmtsOVVlNVQ3TmtEaExPOEJ1UlVYYmRsWkwxYTdWWF95alBnNHpnZUotNGtvNUk?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+     "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+    }
+   ],
+   "uid": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "body": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair , just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports . The second alleged affair was with an executive who reports to him, Nvidia's vice president of health care, Kimberly Powell, according to the Times . The Nvidia board will meet as soon as today to decide on Huang's future at the company, according to the Journal . Nvidia did not immediately respond to a request for comment from The Verge . Huang and Powell, who are both marri … Read the full story at The Verge."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] WSJ “엔비디아 이사회, 황 CEO 해임 준비”",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000839",
+   "date": "2026-11-12 18:23",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아 이사회, 젠슨 황 CEO 해임 추진",
+    "korean_summary": "엔비디아 이사회가 외도 의혹을 이유로 젠슨 황 CEO의 해임을 준비 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000839",
+   "body": "세계 최대 인공지능(AI) 반도체 기업 엔비디아 이사회가 창업자인 젠슨 황 최고경영자(CEO)의 해임 작업에 착수한 것으로 알려졌다.11일(현지 시각) WSJ은 사안을 아는 관계자들을 인용해 “이사회가 황 CEO를 해임할 준비를 하고 있다”며 “이르면 이날 회의를 열어 황 CEO의 거취를 결정할 예정”이라고 밝혔다. 황 CEO가 지난 8일 외도를 인정한 뒤에도 경영을 계속하겠다는 입장을 밝혔지만, 사흘 만에 해임을 준비하고 있다는 이야기가 나오는 것이다.실제 해임으로 이어지면 엔비디아는 1993년 공동 창업 이후 33년간 회사를 이"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] “中 스파이 이어 사내 임원까지”… 젠슨 황 또 다른 불륜에 엔비디아 퇴출론 확산",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000821",
+   "date": "2026-11-12 17:10",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "국가안보 우려로 젠슨 황 CEO 경영 위기 심화",
+    "korean_summary": "엔비디아 이사회가 젠슨 황 CEO의 국가안보 관련 불륜 의혹을 조사하며 경영 거취를 논의 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000821",
+   "body": "세계 최대 인공지능(AI) 반도체 기업 엔비디아의 창업자 젠슨 황 최고경영자(CEO)가 잇따른 불륜 의혹으로 최대 경영 위기에 직면했다. 중국 정보기관과 연루된 것으로 의심받는 여성과의 관계를 인정한 데 이어 회사 내부 임원과의 추가 불륜 의혹까지 제기되면서다.11일(현지시각) 뉴욕타임스(NYT)와 월스트리트저널(WSJ), 로이터 등 외신에 따르면 엔비디아 이사회는 황 CEO의 사생활 논란이 회사 경영과 국가안보에 미칠 영향을 조사하는 동시에 그의 거취를 논의하고 있는 것으로 알려졌다. WSJ는 소식통을 인용해 이사회가 황 CEO의"
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Exclusive | Nvidia Is Preparing to Oust CEO Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU?oc=5",
+   "date": "2026-11-12 09:17",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아, 젠슨 황 CEO 해임 준비 중",
+    "korean_summary": "엔비디아 이사회가 젠슨 황 CEO를 해임할 준비를 하고 있는 것으로 알려졌다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Nvidia is preparing to oust Jensen Huang",
+     "link": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON2VaZ01EcWdXc1ZGb3plNUNMM294WGZlT0tTbWw2SFNPOHZ3ZERtQlR6RkhLRWF2cHExRnNfWGZINm1NWVoxVjRSUDRTVXRFb1RaRGcyMXFUdEd0LWtlME5SVHJETVdzOHR6eHhyNXJLVXF6cldFbnhHMXcydFMzTGhzVnhWN2RQX2d0X1N4QVZvdUU",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Working With Outside Firm to Identify CEO Candidates",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHllMDhIbXY1YUhLY2tZa2pNZUlzQkxlaGxGZ1pPdWI4SmxBZV9WYnlrR2hwclRrQVFXTHl5NnBBMWx1b0loTVNEUUhoR01HQ1A5ZXFoMVI1Q0xkSGRmVGtma3QxWGlrdmpCYklUZGZoRmlFYVlfQURLNUE4OVFzSnZRdG9NY3UtZ2VvOUJZY2hmV3pBenBmVlhEaEJpNW5uTHdjTlRwd2lCc3lVWmNz?oc=5",
+   "date": "2026-11-12 09:05",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 외부 자문사와 함께 CEO 후보 모색",
+    "korean_summary": "NVIDIA가 외부 자문 회사의 도움을 받아 새로운 CEO 후보자를 탐색 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHllMDhIbXY1YUhLY2tZa2pNZUlzQkxlaGxGZ1pPdWI4SmxBZV9WYnlrR2hwclRrQVFXTHl5NnBBMWx1b0loTVNEUUhoR01HQ1A5ZXFoMVI1Q0xkSGRmVGtma3QxWGlrdmpCYklUZGZoRmlFYVlfQURLNUE4OVFzSnZRdG9NY3UtZ2VvOUJZY2hmV3pBenBmVlhEaEJpNW5uTHdjTlRwd2lCc3lVWmNz",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia reportedly preparing to oust CEO Huang after alleged affairs with spy, Nvidia exec",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXhhLTc5Wm1MOExFaTVBVWVpQmpqcHhMQ24wOWpkSWVmcEtSSWpCQ2x4bzhFT1dSY05zTXJkcWJ6MHRxOXJOc1dWeWtiQXB5NlB3aFhRdXNUQnBmTkRjVDBJU0FGdXRLd3BQWWlMRTBqZC02M2JyVV9fdHkyVWpxcV9hQWZWZFp1NXR4aUtYeHgzU0xWUkdSZXFobWVBMlphWUFIYzVrc1BuYXd2dlZTYXdzb3RmVjk1RVNLZUtkUG5mV1Fub0Nibm5oR1p4ZXJCb0xKZXBJLWItMU05dmdLSFhB?oc=5",
+   "date": "2026-11-12 08:13",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, 불륜·스파이 의혹으로 Huang CEO 제거 준비",
+    "korean_summary": "NVIDIA가 불륜과 스파이 관련 의혹으로 인해 Huang CEO를 제거할 준비를 하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZXhhLTc5Wm1MOExFaTVBVWVpQmpqcHhMQ24wOWpkSWVmcEtSSWpCQ2x4bzhFT1dSY05zTXJkcWJ6MHRxOXJOc1dWeWtiQXB5NlB3aFhRdXNUQnBmTkRjVDBJU0FGdXRLd3BQWWlMRTBqZC02M2JyVV9fdHkyVWpxcV9hQWZWZFp1NXR4aUtYeHgzU0xWUkdSZXFobWVBMlphWUFIYzVrc1BuYXd2dlZTYXdzb3RmVjk1RVNLZUtkUG5mV1Fub0Nibm5oR1p4ZXJCb0xKZXBJLWItMU05dmdLSFhB",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia preparing to oust CEO Jensen Huang, according to the Wall Street Journal",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXFvUEhGeVFCTDF3SS1CT2dfTjZ0QXBva3ZtVjUzYS12RGF3dTJVV2lxOXF0RXhxdjd3ZVd6Y2RCa0V3UVo2X0R4Q3hBOFhSVlNhanBIWjBQSkhPVFZWaVVPRklxbnVoYTFsT1Y2WTNWaEgtaS1ZaU00UmR1Q3Zqbkx2ekxQT3NBTDBJVzRtaHRac0JWT1dEa1ZZUXpYbVluT3UxWVBTb0N6azdnZ2YwS2FfaW95cU1wZ3dRbkhn?oc=5",
+   "date": "2026-11-12 08:10",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "월스트리트저널: NVIDIA 이사회 CEO 황 퇴출 준비 중",
+    "korean_summary": "월스트리트저널 보도에 따르면 NVIDIA 이사회가 젠슨 황 CEO의 퇴출을 준비 중인 것으로 전해짐"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXFvUEhGeVFCTDF3SS1CT2dfTjZ0QXBva3ZtVjUzYS12RGF3dTJVV2lxOXF0RXhxdjd3ZVd6Y2RCa0V3UVo2X0R4Q3hBOFhSVlNhanBIWjBQSkhPVFZWaVVPRklxbnVoYTFsT1Y2WTNWaEgtaS1ZaU00UmR1Q3Zqbkx2ekxQT3NBTDBJVzRtaHRac0JWT1dEa1ZZUXpYbVluT3UxWVBTb0N6azdnZ2YwS2FfaW95cU1wZ3dRbkhn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fox Business",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia preparing to replace CEO Jensen Huang as second alleged affair emerges: report",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWN0ekV3QWFzaGtVZkZ0bzZDWVZ0WWdITi0zQ3ZDRG1ONVo5TFo3a3NmcHJIcE9QeUFWZmFfT0xqQ2ZPckE3S0g3Q2dMZDFqT0pXVU54R3V1RjJ0dl9LNlJaVWJYaV9ZT0E4SFhuWk9kWVFaV0lsZF91NmpWWFpjZVpzVEdXWnZxMzNNRWJHRG5CVHluWE5VZ0lKTjVTRzhIUnJZVVF4bS1ETXJReTl3Rlp3YzPSAboBQVVfeXFMTnZxcUR0OXRBUHlvbXpCMTl2VXk2Z1h4RzI4X0RrMTdYYk1OV3VESmJRcExhc0RvS2NSVFF6cXd0MnJyd2lvRkpMSVBlODNReEtIbEtKZWhxbzd3ZW92VFVucThWbENtT29oWWdnT2I3NzNuZ0luUi1zaTlBcUlnamhxNmVzTEh0aDhzb3hfRVhwNnVIam1HYkhFd1cwa1RwN1NBaThkcTROZVlpc1F5TEdUYkQ0clR6MG5R?oc=5",
+   "date": "2026-11-12 09:13",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "추가 혼외정사 드러나며 NVIDIA CEO 교체 임박",
+    "korean_summary": "NVIDIA CEO 황의 두 번째 혼외정사가 드러나며 CEO 교체 가능성이 보도됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWN0ekV3QWFzaGtVZkZ0bzZDWVZ0WWdITi0zQ3ZDRG1ONVo5TFo3a3NmcHJIcE9QeUFWZmFfT0xqQ2ZPckE3S0g3Q2dMZDFqT0pXVU54R3V1RjJ0dl9LNlJaVWJYaV9ZT0E4SFhuWk9kWVFaV0lsZF91NmpWWFpjZVpzVEdXWnZxMzNNRWJHRG5CVHluWE5VZ0lKTjVTRzhIUnJZVVF4bS1ETXJReTl3Rlp3YzPSAboBQVVfeXFMTnZxcUR0OXRBUHlvbXpCMTl2VXk2Z1h4RzI4X0RrMTdYYk1OV3VESmJRcExhc0RvS2NSVFF6cXd0MnJyd2lvRkpMSVBlODNReEtIbEtKZWhxbzd3ZW92VFVucThWbENtT29oWWdnT2I3NzNuZ0luUi1zaTlBcUlnamhxNmVzTEh0aDhzb3hfRVhwNnVIam1HYkhFd1cwa1RwN1NBaThkcTROZVlpc1F5TEdUYkQ0clR6MG5R",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fox Business",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia stock faces rare downgrades as board investigates CEO Jensen Huang's admitted affair",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1BLa2VXQ09tRWR6SHpocTZpaFJsbnU3dVNuMjQ5NEJDNGpHeXlkd2RVQUpyTktsX3NSM1pxVldmRlEwU2FUWk5FbExzcTY4eEtENmw4a3VtaTQyZXlyT2w2WVpOdVRGbjhhQzBuYVdoc2pxOHF0ZXRVbDJFb0J1UUVSemFDQ1RzcXNCM0RBV0EtZ2hPbnpVS1lPY0NCNGVQS2FFN1p3TUdob1p3ZmswXzQ3UUNBQW0wcjVWRmlnMFTSAcYBQVVfeXFMT0g3Sk1HWDFCTWVHSXpjVkJQc25Eb3A1cE9FVENBME1tQ3Z0b29wVjEtQUJ5YzJ1QktoSTYwb1N6MEZlLVVRLWFxdnh0STBfVV9OVUVrV2pGMjBYdnJBaUU5TjFxVFh3REFmNy1XdjhjMWFPT2FzM0NNWkYyZEtYMkhKVUZmS0pJb19lQkRhYTJCeXRiaUtqclh4MXJiYXJFUzE0WVhWT1JkNThjYnpuZE9VMXNNdkJLTVhTakVGTDlqS0VhSzFn?oc=5",
+   "date": "2026-11-12 05:51",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "이사회 조사 진행 중 NVIDIA 주가 드물게 다운그레이드",
+    "korean_summary": "NVIDIA 이사회가 CEO 황의 혼외정사를 조사하면서 주가가 드물게 다운그레이드됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX1BLa2VXQ09tRWR6SHpocTZpaFJsbnU3dVNuMjQ5NEJDNGpHeXlkd2RVQUpyTktsX3NSM1pxVldmRlEwU2FUWk5FbExzcTY4eEtENmw4a3VtaTQyZXlyT2w2WVpOdVRGbjhhQzBuYVdoc2pxOHF0ZXRVbDJFb0J1UUVSemFDQ1RzcXNCM0RBV0EtZ2hPbnpVS1lPY0NCNGVQS2FFN1p3TUdob1p3ZmswXzQ3UUNBQW0wcjVWRmlnMFTSAcYBQVVfeXFMT0g3Sk1HWDFCTWVHSXpjVkJQc25Eb3A1cE9FVENBME1tQ3Z0b29wVjEtQUJ5YzJ1QktoSTYwb1N6MEZlLVVRLWFxdnh0STBfVV9OVUVrV2pGMjBYdnJBaUU5TjFxVFh3REFmNy1XdjhjMWFPT2FzM0NNWkYyZEtYMkhKVUZmS0pJb19lQkRhYTJCeXRiaUtqclh4MXJiYXJFUzE0WVhWT1JkNThjYnpuZE9VMXNNdkJLTVhTakVGTDlqS0VhSzFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang reportedly could be fired, had second affair with Nvidia executive he managed",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX05JWmhSR1VWQnRreDExX2Exd0M1Sm1rcjJCSmRCT0s4d1JGNDJtajAxNHotS3BBMnhGVkg1RlJzbUZ6VlFsTUNybzZ6SDZrcm10SEhOQXhNZ25sdl9DQnFBWkpfbmlDeFZnV21rRFpxNlZvel9LUmNrRl9jU2dvRERqQ2J2cDNsc3VpbFpONlFxcmsycUtZTkdUbGlhOURnbkE?oc=5",
+   "date": "2026-11-12 08:52",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "두 번째 혼외정사 적발, NVIDIA CEO 황 해고 임박",
+    "korean_summary": "NVIDIA CEO 황의 두 번째 혼외정사 적발로 해고 가능성이 보도됨"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · San Francisco Chronicle",
+     "title": "Jensen Huang reportedly could be fired, had second affair with Nvidia executive he managed",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaDVhOE1WX0lBZ3pDTXhncFR3THVSeGZKTDJUOHBpeGdMUjhyaWFmM1pUNTBGR3ZJYjJCamQwMU5rU2tWN0ZFejYwRllTWU5YYWdmNU1Gc0dkRXl6enI4ZGtOREpjTlBHRmFtQ3VoWFVGekVobEVuUkE3RkNvdzlIekJPUTl0d21qdFdKZTRWcw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX05JWmhSR1VWQnRreDExX2Exd0M1Sm1rcjJCSmRCT0s4d1JGNDJtajAxNHotS3BBMnhGVkg1RlJzbUZ6VlFsTUNybzZ6SDZrcm10SEhOQXhNZ25sdl9DQnFBWkpfbmlDeFZnV21rRFpxNlZvel9LUmNrRl9jU2dvRERqQ2J2cDNsc3VpbFpONlFxcmsycUtZTkdUbGlhOURnbkE",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xte9ee/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/",
+   "date": "2026-11-11 19:20",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "new-chip"
+    ],
+    "korean_title": "",
+    "korean_summary": "NVIDIA가 GDDR7 메모리 가격 상승으로 RTX 5080 24GB 출시를 취소하고 16GB 모델로 전환하기로 결정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xte9ee/nvidia_reportedly_cancels_geforce_rtx_5080_24gb",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] 현대차그룹, 엔비디아 협력에 '경고등' 켜지나",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000000772",
+   "date": "2026-11-12 15:30",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive",
+     "partnership"
+    ],
+    "korean_title": "엔비디아 CEO 위기로 현대차 자율주행 협력 흔들림",
+    "korean_summary": "엔비디아 CEO 위기가 현대차의 자율주행 및 AI 인프라 협력 전략에 불확실성을 초래할 수 있다."
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황 스캔들 파장, 현대차그룹 엔비디아 협력에 경고등",
+    "korean_summary": "현대자동차그룹이 젠슨 황 엔비디아 CEO의 불륜 스캔들이 해외 정보기관 공작 의혹으로 확산되자 AI·자율주행 협력 파트너사의 리더십 공백과 보안 신뢰도 하락 우려로 공급망 다변화와 기술자립을 과제로 안게 되었다.",
+    "action": {
+     "actor": "현대자동차그룹",
+     "action": "엔비디아 리더십 리스크에 따른 AI 인프라 전략 재검토 및 공급망 다변화 필요성 제기",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "현대차그룹의 AI 컴퓨팅 인프라·자율주행·SDV 개발 협력 범위"
+    },
+    "key_facts": [
+     "**젠슨 황 CEO의 불륜 스캔들이 해외 정보기관의 공작 의혹으로 번지고 있음**",
+     "현대차그룹은 엔비디아와 AI 컴퓨팅 인프라부터 자율주행·SDV 개발까지 전방위 협력을 확대해온 상태",
+     "**미국 정보당국이 관련 사안에 관여했다는 외신 보도가 11일 나왔음(세부 미확인)**",
+     "현대차그룹이 특정 기업 기술 의존에서 벗어나기 위한 공급망 다변화·기술자립 과제에 직면"
+    ],
+    "why_matters": "**엔비디아는 글로벌 완성차 업체들의 AI·자율주행 핵심 파트너로 자리잡아 왔는데, CEO 리스크가 리더십 공백과 보안 신뢰도 문제로 이어지면 협력사들의 의존 구조 전체가 흔들릴 수 있다.** 이는 현대차그룹을 포함한 주요 OEM들이 특정 공급사 리스크를 분산하려는 움직임을 촉발할 수 있는 신호로 해석된다.",
+    "subject_angle": "**엔비디아의 CEO 리더십 리스크가 자동차 산업 파트너사들의 기술 신뢰도 평가에 영향을 미쳐, 향후 장기 공급 계약·전략적 협력 관계에 부담 요인으로 작용할 수 있다.**",
+    "focus_angle": "**현대차그룹의 자율주행·SDV 개발이 엔비디아 플랫폼에 상당 부분 의존하고 있어, 파트너사 리스크가 현실화되면 완성차 OEM 차원의 AI 컴퓨팅 공급망 다변화와 자체 기술 역량 확보가 자율주행·SDV 전략의 핵심 과제로 부상할 수 있다.**",
+    "companies": [
+     {
+      "name": "Hyundai Motor Group",
+      "context": "엔비디아와 AI 인프라·자율주행·SDV 협력을 확대해온 고객사, 현재 리스크 우려 당사자"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "CEO 스캔들 및 정보기관 공작 의혹의 당사자, 현대차그룹의 핵심 AI 기술 파트너"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "젠슨 황 스캔들 및 정보기관 공작 의혹의 구체적 사실관계 확인",
+     "현대차그룹의 공급망 다변화·기술자립 관련 구체적 조치 발표 여부",
+     "엔비디아 리더십 공백 가능성에 대한 공식 대응 또는 성명"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000000772",
+   "body": "젠슨 황 엔비디아 최고경영자(CEO)의 불륜 스캔들이 해외 정보기관의 공작 의혹으로 번지면서 현대자동차그룹의 인공지능(AI) 인프라 구축 전략에 차질이 생길 수 있다는 우려가 나온다. 엔비디아와 AI 컴퓨팅 인프라부터 자율주행·소프트웨어중심차(SDV) 개발까지 전방위적 협력을 확대해 온 현대차그룹이 핵심 파트너사의 리더십 공백과 기술 보안 신뢰도 하락이라는 변수를 마주하게 된 것이다. 특정 기업에 대한 과도한 기술 의존에서 벗어나기 위한 공급망 다변화와 기술자립이 과제로 떠올랐다. 11일 외신과 관련 업계에 따르면, 미국 정보당국이"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "CoreWeave sparks AI cloud stock rally, lifts Nvidia as results ease bubble fears",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw?oc=5",
+   "date": "2026-11-12 05:54",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "CoreWeave AI 클라우드 주가 랠리로 NVIDIA 상승, 거품 우려 완화",
+    "korean_summary": "CoreWeave의 AI 클라우드 수익성 개선이 NVIDIA 등 AI 칩 업체들의 주가를 상승시켰다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaTZzT256WkU3aE4zUnA1UXBqX05FOENKeXI4MFZtUDQtc28zeDBLWEE2UGdydUU0OXI0LVotdWEwUVBJeDB0bVh6Z1BrN0dQbHFRa0RwZ2xEdDlBaS12T3ZSQXlzcHNSTHAxN2FBUjFXTTlaTmRUWWVJdFZmaXBDZTJteWlWQ2d0MDYzRHRyLWV3Y0xiMU5ndjRMdlBOaDR0T25uVVFNZS12ZDhjWkRMRzBDc2EzN2RyR0dvTnZqWlgxZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Morningstar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia: Watching Potential Succession Plan and Any Signs of Customer Impact",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVklmV2FyN2lXNWV0NkdkQWtDeXEyeTJ1dVhBS01Ec0ZRQ1FRLThGMHdnODNEQ3lTcHF3NDBpNW95YWVlZUxVeEhyYU42a2ltQTBoSWRPRjdSNHl5YXdXYkp0eHlib0otb1FMbG1rQWR4RVRJbHRvTk96RUVGUmtrVnRkd2JhZlhuMUllV0tnbnVPVmdPS1RYaGVzYkVnQ0JfRWl0V0hGblJKN0hSVWZzag?oc=5",
+   "date": "2026-11-12 11:06",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Morningstar: NVIDIA CEO 승계 계획·고객 영향 분석",
+    "korean_summary": "Morningstar가 NVIDIA의 CEO 승계 계획과 고객 영향을 모니터링하고 있다고 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVklmV2FyN2lXNWV0NkdkQWtDeXEyeTJ1dVhBS01Ec0ZRQ1FRLThGMHdnODNEQ3lTcHF3NDBpNW95YWVlZUxVeEhyYU42a2ltQTBoSWRPRjdSNHl5YXdXYkp0eHlib0otb1FMbG1rQWR4RVRJbHRvTk96RUVGUmtrVnRkd2JhZlhuMUllV0tnbnVPVmdPS1RYaGVzYkVnQ0JfRWl0V0hGblJKN0hSVWZzag",
+   "body": ""
+  },
+  {
+   "source": "Google News · ABC7 Bay Area",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia board preparing to oust CEO Jensen Huang after 2nd affair with subordinate revealed, reports say",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDZnYnlXdXcxMHZvOXpmV2sxSUUtZ01PMFNpR1dzUUFzVFlQdjJDQVhOeEctWE9GTjdUaklyNFVhMDVsZlJmWHdiV19leklaa29OaU5oVGNVVzV1TXNKUURfSkNwdUtCUm81R3g4a2UwOEpCeG1naEdQQUY5RUJ0UTVLNmd0c1VMa0hmbG05bE5FMzBnRVZ0UjJtQlRaejlsU0lsLVdKZFpEWS1DQ0N4amJ4VllZUTJ5MlZkQnhTemN3Z9IBxwFBVV95cUxORENGdVQzNHRxaENSd3RXd1owQjVtOTRDRGRmb29ybW5fQ0ZUMEE1eUxIdXpWbk4tNU9fWUFRcmZXU0FDdGpVa0JCV1daNmwzNUVfUkJWZlcxQ1N3T0xTdlI3T3dfT2hTMHJSbGVIekoyRlNnVnZsd2ctQWZVLTB2cHUzem4tR202c0RrMm9HbXVza08tOHB4cktYX3o2ZkxiSFBfWkFLT3E1cEVrSzVkcW9kdXhwbzAtbjlXRlhuV1hDTk9odXZV?oc=5",
+   "date": "2026-11-12 10:59",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 이사회, CEO 젠슨 황 해임 추진 중",
+    "korean_summary": "NVIDIA 이사회가 스캔들 드러난 후 CEO 젠슨 황을 해임할 준비를 하고 있음"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Semafor",
+     "title": "Nvidia board preparing to oust CEO Huang: WSJ",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXB3cGlzTFhvX0E2Zk9JdmhKSVIyOENQYzlHdFpaQlJwdWpXRnZHZGdrVlBTRlQ3X3BNRG1EcW5sMkRpOXBBZWU3bzRWbGR6NDBMSlRtNks3Nkc5Z0JCbnlDdkRZM3ZkYXRfR2Q3bHkzUnR2aHRfTHhoZUxwME40OXFRZ0cyVF9YTGZHN1N2X00?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUDZnYnlXdXcxMHZvOXpmV2sxSUUtZ01PMFNpR1dzUUFzVFlQdjJDQVhOeEctWE9GTjdUaklyNFVhMDVsZlJmWHdiV19leklaa29OaU5oVGNVVzV1TXNKUURfSkNwdUtCUm81R3g4a2UwOEpCeG1naEdQQUY5RUJ0UTVLNmd0c1VMa0hmbG05bE5FMzBnRVZ0UjJtQlRaejlsU0lsLVdKZFpEWS1DQ0N4amJ4VllZUTJ5MlZkQnhTemN3Z9IBxwFBVV95cUxORENGdVQzNHRxaENSd3RXd1owQjVtOTRDRGRmb29ybW5fQ0ZUMEE1eUxIdXpWbk4tNU9fWUFRcmZXU0FDdGpVa0JCV1daNmwzNUVfUkJWZlcxQ1N3T0xTdlI3T3dfT2hTMHJSbGVIekoyRlNnVnZsd2ctQWZVLTB2cHUzem4tR202c0RrMm9HbXVza08tOHB4cktYX3o2ZkxiSFBfWkFLT3E1cEVrSzVkcW9kdXhwbzAtbjlXRlhuV1hDTk9odXZV",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia Vera CPU Review: 2TB/S Memory Bandwidth, a Real x86 Rival",
+   "link": "https://www.storagereview.com/review/nvidia-vera-cpu-review",
+   "date": "2026-11-11 21:06",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Vera CPU 리뷰: 2TB/s 메모리 대역폭의 x86 경쟁력 분석",
+    "korean_summary": "Storage Review가 NVIDIA의 Vera CPU를 리뷰하며 2TB/s 메모리 대역폭으로 x86 시장에서의 경쟁력을 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.storagereview.com/review/nvidia-vera-cpu-review",
+   "body": "Article URL: https://www.storagereview.com/review/nvidia-vera-cpu-review Comments URL: https://news.ycombinator.com/item?id=50452464 Points: 14 # Comments: 3"
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Concerns grow as military-linked Chinese university buys Nvidia chips [video]",
+   "link": "https://www.youtube.com/watch?v=54RGe-g5c0Y",
+   "date": "2026-11-11 23:12",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "군사 관련 중국 대학의 NVIDIA 칩 구매에 수출통제 우려 확산",
+    "korean_summary": "군사 연계 중국 대학이 NVIDIA 칩을 구매하는 사건에 대해 수출규제 및 정책 우려가 커지고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=54RGe-g5c0Y",
+   "body": "Article URL: https://www.youtube.com/watch?v=54RGe-g5c0Y Comments URL: https://news.ycombinator.com/item?id=50453658 Points: 5 # Comments: 1"
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Wall Street Journal: Exclusive | Nvidia is Preparing to Oust Nvidia CEO Jensen Huang",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xtvslh/wall_street_journal_exclusive_nvidia_is_preparing/",
+   "date": "2026-11-12 07:32",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "WSJ 단독: NVIDIA CEO Jensen Huang 해임 준비 보도",
+    "korean_summary": "월스트리트저널이 NVIDIA가 CEO Jensen Huang을 해임할 준비를 하고 있다고 단독 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xtvslh/wall_street_journal_exclusive_nvidia_is_preparing",
+   "body": "submitted by /u/AbsolutelyZeroLife [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Kimi-K3.1-Pro-NVFP4 (신규)",
+   "link": "https://huggingface.co/nvidia/Kimi-K3.1-Pro-NVFP4",
+   "date": "2026-11-11 09:57",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/Kimi-K3.1-Pro-NVFP4",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Kimi-K3.1-Pro의 NVIDIA NVFP4 양자화 버전 공개",
+    "korean_summary": "Moonshot AI의 Kimi-K3.1-Pro 모델을 NVIDIA Model Optimizer로 양자화한 NVFP4 버전이 Hugging Face에 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Kimi-K3.1-Pro-NVFP4:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: image-text-to-text · library: Model Optimizer · tags: Model Optimizer, safetensors, kimi_k31, nvidia, ModelOpt, Kimi-K3.1-Pro, quantized, NVFP4, nvfp4, image-text-to-text, custom_code, base_model:moonshotai/Kimi-K3.1-Pro · downloads 0 · likes 5. README:  # Model Overview ## Description: The NVIDIA Kimi-K3.1-Pro NVFP4 model is the quantized version of Moonshot AI's Kimi-K3.1-Pro model, which is an auto-regressive language model that uses an optimized transformer architecture. Kimi-K3.1-Pro is a natively multimodal Mixture-of-Experts model post-trained from Kimi K3, with 2.8T total parameters, 104B activated parameters, and a 1,048,576-token context window. For more information, please check [here](https://huggingface.co/moonshotai/Kimi-K3.1-Pro). The NVIDIA Kimi-K3.1-Pro NVFP4 model is quantized with [Model Optimizer](https://github.com/NVIDIA/Model-Optimizer). This model is ready for commercial or non-commercial use. ## Third-Party Community Consideration This model is not owned or developed by NVIDIA. This model has been developed and built to a third-party's requirements for this application and use case; see link to Non-NVIDIA [(Kimi-K3.1-Pro) Model Card](https://huggingface.co/moonshotai/Kimi-K3.1-Pro) from Moonshot AI. ## License/Terms of Use: **GOVERNING DOWNLOAD TERMS:** Use of this model is governed by the [NVIDIA Open Model Agreement](https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-open-model-agreement/). **ADDITIONAL INFORMATION** : The base model Kimi-K3.1-Pro is governed by the [Kimi-K3.1-Pro License](https://huggingface.co/moonshotai/Kimi-K3.1-Pro/blob/main/LICENSE). **Kimi-K3.1-Pro**. ## Deployment Geography: Global ## Use Case: Developers looking to take off-the-shelf, pre-quantized models f"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 27,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 86,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 7,
+   "enriched": 7,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 151.0
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 4.9
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 24,
+   "enriched": 24,
+   "error": "",
+   "sec": 32.2
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 8,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 9,
+   "error": "",
+   "sec": 3.9
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 22.3
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 10,
+   "error": "",
+   "sec": 3.6
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 5.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 12,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
