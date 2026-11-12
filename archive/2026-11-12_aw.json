@@ -1,0 +1,1154 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-12",
+ "window": [
+  "2026-11-11",
+  "2026-11-12"
+ ],
+ "generated": "2026-11-12T11:30:35+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 Autoware 2.0 기반 **5종의 E2E 자율주행 AI 모델**을 오픈소스로 공개해 완성차·부품사의 기술 내재화를 지원한다.",
+  "Autoware Foundation과 TIER IV가 L2++부터 L4까지 확장 가능한 경량 E2E 모델 **AutoE2E**를 오픈소스로 공개했다.",
+  "TIER IV와 TUM이 공동연구센터를 통해 Autoware 기반 자율주행 시스템을 **뮌헨 시내버스**에 적용한다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発",
+   "link": "https://prtimes.jp/main/html/rd/p/000000150.000040119.html",
+   "date": "2026-11-11 14:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Architecture-Core",
+    "is_focus": true,
+    "signal_tags": [
+     "architecture",
+     "perception",
+     "partnership"
+    ],
+    "korean_title": "TIER IV, 차세대 'Autoware 2.0' 아키텍처 개발 주도…지도·센서 조합별 E2E AI 모델 다중 오픈소스 공개",
+    "korean_summary": "TIER IV가 규칙 기반과 AI 모델을 유연히 조합하는 Autoware 2.0 아키텍처를 개발하고, 지도 유무·센서 구성에 대응하는 다중 E2E AI 모델을 오픈소스로 공개하며, NVIDIA Alpamayo 2 Edge 통합을 진전시켰다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, Autoware 2.0 기반 선택형 E2E 자율주행 AI 모델 5종 오픈소스 공개",
+    "korean_summary": "TIER IV가 지도 정보 유무와 센서 구성에 따라 선택 가능한 **5종의 E2E 자율주행 AI 모델**을 Autoware 2.0 아키텍처 기반으로 오픈소스 공개해 완성차·부품사의 자체 기술 내재화를 지원한다.",
+    "action": {
+     "actor": "TIER IV (The Autoware Foundation, NVIDIA 협업)",
+     "action": "지도·센서 구성별로 선택 가능한 E2E 자율주행 AI 모델 5종(Alpamayo 2 Edge, AutoE2E, METEOR, OnePlanner, LatentDrive)을 Autoware 2.0 아키텍처와 함께 오픈소스로 공개",
+     "stage": "Available",
+     "timeline": "미확인 (NVIDIA 협업은 2026년 3월 발표, 본 모델군 공개 시점 명시 안 됨)",
+     "scope": "Autoware 생태계 전반, 자동차 메이커·부품 서플라이어 대상, 글로벌 오픈소스 커뮤니티(GitHub·Hugging Face)"
+    },
+    "key_facts": [
+     "**Alpamayo 2 Edge**는 NVIDIA의 VLA 기반 모델로 파라미터 20억(Alpamayo 2 Super의 340억 대비 경량화)이며 카메라만으로 리즈닝 기반 궤적 생성, 이미 Autoware에 통합됨",
+     "**AutoE2E**는 AWF와 TIER IV가 주도하며 NVIDIA 외 반도체에서도 동작, Reactive/World/Reasoning Model의 Fast–Slow 구조, 파라미터 7,990만, Reactive Model은 공개·통합 완료, 로보택시 상용화 검토 중",
+     "**METEOR**는 TIER IV 독자 개발 CNN+BEV 기반 경량 모델로 HD맵 불필요, 1~8대 카메라+LiDAR/레이더 입력, 파라미터 1,600만, NVIDIA·Renesas 등 이종 반도체 대응, CoMET 오토라벨링 연계",
+     "OnePlanner(인지-계획 통합, 6초 궤적, BEVFusion 기반)와 LatentDrive(V-JEPA 세계모델 기반, HD맵 불필요, 4초 궤적)도 Autoware 통합 완료 또는 진행 중",
+     "TIER IV 先進技術部 斉藤之寛가 2026년 11월 18일 EdgeTech+ 2026(パシフィコ横浜)에서 기조강연 예정"
+    ],
+    "why_matters": "특정 AI 모델이나 반도체 환경에 종속되지 않는 **선택형 E2E 구조**는 완성차사·부품사가 자체 요구사항에 맞춰 기술을 내재화하도록 돕아 Autoware의 채택 장벽을 낮춘다. NVIDIA뿐 아니라 Renesas 등 비NVIDIA 환경 지원 확대는 Autoware 생태계의 반도체 중립성과 상용화 범위를 넓히는 신호다.",
+    "subject_angle": "TIER IV는 Autoware 2.0을 중심으로 **오픈소스 AI 모델 포트폴리오를 다변화**해 '자동운전의 민주화' 비전을 구체화하며, NVIDIA·AWF와의 협업을 통해 플랫폼 생태계 주도권을 강화하고 있다.",
+    "focus_angle": "기존 Autoware의 규칙 기반·모듈형 파이프라인 대비 **다수의 E2E AI 모델을 카메라 전용부터 LiDAR·레이더+HD맵까지 선택적으로 조합**할 수 있는 구조로 전환되며, 특정 모델·반도체에 종속되지 않는 유연성이 완성차·서플라이어의 자체 개발 채택을 촉진할 것으로 보인다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 2.0 및 전체 AI 모델군 개발·공개 주도"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Alpamayo 2 Edge/Super VLA 기반 모델 제공, TIER IV와 2026년 3월 협업 발표"
+     },
+     {
+      "name": "The Autoware Foundation",
+      "context": "AutoE2E 공동 개발 주도, 오픈소스 커뮤니티 운영"
+     },
+     {
+      "name": "Renesas",
+      "context": "METEOR가 지원하는 비NVIDIA 반도체 환경 예시로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware 2.0",
+      "role": "AI 모델과 규칙 기반 기술을 결합하는 차세대 확장형 아키텍처"
+     },
+     {
+      "name": "Alpamayo 2 Edge",
+      "role": "NVIDIA의 카메라 전용 경량 VLA 기반 E2E 모델(20억 파라미터)"
+     },
+     {
+      "name": "AutoE2E",
+      "role": "비NVIDIA 반도체 지원, Fast-Slow 구조의 로보택시 지향 E2E 모델"
+     },
+     {
+      "name": "METEOR",
+      "role": "TIER IV 독자 개발 경량 멀티태스크 E2E 모델, HD맵 불필요"
+     },
+     {
+      "name": "OnePlanner",
+      "role": "인지-행동계획 통합형 6초 궤적 생성 모델"
+     },
+     {
+      "name": "LatentDrive",
+      "role": "V-JEPA 세계모델 기반 4초 궤적 생성 모델"
+     },
+     {
+      "name": "CoMET",
+      "role": "METEOR 학습용 오토라벨링 및 Co-MLOps 기반"
+     }
+    ],
+    "watch_next": [
+     "AutoE2E의 World Model·Reasoning Model 공개 시점 및 로보택시 상용화 구체 일정",
+     "Alpamayo 2 Edge의 실차 적합 개발 완료 및 양산 탑재 사례 발표",
+     "2026년 11월 18일 EdgeTech+ 2026 기조강연에서 추가 공개될 E2E 기술 로드맵"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FR1piN2hZNmN6QXlaSVUxa1NNd3ZXd240M084N0NKTDhhR194SnFsSWhpSGtnNVdBcW5YNl91R0MxU0M1Wk9vY2FrOHNWVkNwOHVLRUdxbGpIcjQ4WFJ5SjhlWXhzTjN6V0E?oc=5"
+    },
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FR1piN2hZNmN6QXlaSVUxa1NNd3ZXd240M084N0NKTDhhR194SnFsSWhpSGtnNVdBcW5YNl91R0MxU0M1Wk9vY2FrOHNWVkNwOHVLRUdxbGpIcjQ4WFJ5SjhlWXhzTjN6V0E?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000150.000040119.html",
+   "body": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発 複数のAIモデルをオープンソース公開 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）は、地図情報の有無やセンサー構成など、異なるシステム要件に対応可能なエンドツーエンド（E2E）自動運転技術を開発し、複数のAIモデルをオープンソースとして公開しました。カメラのみを使用する構成から、LiDARやレーダーなどのセンサー、および高精度地図を利用する構成まで、要求性能に適したAIモデルの選択を可能にします。自動運転用オープンソースソフトウェア「Autoware」を通じて、これらのAIモデルの最適化や車載システムへの統合を支援する開発環境を提供し、自動車メーカーやパートナー企業による自動運転技術の自社開発・導入を後押しします。 Autoware 2.0アーキテクチャ概要 ティアフォーは、「Autoware」の次世代アーキテクチャ「Autoware 2.0」の開発を主導しています。「Autoware 2.0」は、AIモデルと従来のルールベース技術を柔軟に組み合わせることができる、拡張性と適応性を備えたアーキテクチャです。異なるAIモデルやセンサー構成に対応することで、用途やシステム要件に応じた自動運転システムの構築を可能にします。今回公開したE2E自動運転AIモデル群は、このアーキテクチャを活用するための具体的な技術成果です。 NVIDIA Alpamayo 2 Edge ティアフォーは、2026年3月に発表したNVIDIAとの協業の一環として、Vision-Language-Action（VLA）基盤モデル「NVIDIA Alpamayo」の性能評価と「Autoware」への統合を進めてきました。最新の「Alpamayo 2 Edge」は、カメラ画像のみを入力とし、リーズニングを活用して走行軌跡を生成するE2E自動運転AIモデルです。パラメータ数は「Alpamayo 2 Super」の340億に対して20億まで軽量化されており、車載環境での実用化が期待されます。ティアフォーは現在、同モデルの最適化と実車への適合開発を進めるとともに、「Autoware」への統合を実現しています。 - GitHub（ソースコード）：https://github.com/autowarefoundation/alpamayo-autoware - Hugging Face（AIモデル）：https://huggingface.co/nvidia/Alpamayo2-Edge AutoE2E The Autoware Foundation（AWF）とティアフォーが開発を主導する「AutoE2E」は、NVIDIA以外の半導体環境でも動作可能なE2E自動運転AIモデルです。リアルタイムの走行判断を担うReactive Modelと、周辺環境の将来予測を行うWorld Model、走行判断を支援するReasoning Modelを組み合わせるFast–Slowアーキテクチャを採用しています。カメラのみを使用する構成から、LiDARやレーダーなどのセンサー情報を取り込む構成まで対応可能で、パラメータ数は7,990万と「Alpamayo 2 Edge」より軽量です。現在はReactive Modelを公開しており、World ModelとReasoning Modelの開発を進めるとともに、ロボタクシー用途での商用化を検討しています。Reactive Modelは、すでに「Autoware」に統合されています。 - GitHub（ソースコード）：https://github.com/autowarefoundation/auto_e2e - Hugging Face（AIモデル）：https://huggingface.co/AutowareFoundation/auto_e2e METEOR ティアフォーが独自に開発した「METEOR」は、主に自家用車向けの自動運転を想定した、軽量なマルチタスク型E2E自動運転AIモデルです。畳み込みニューラルネットワーク（Convolutional Neural Network：CNN）をベースとしたアーキテクチャを採用し、Bird's-Eye View（BEV）表現を活用して、高精度地図に依存せず、周辺環境の認識から走行軌跡の生成までを単一のニューラルネットワークで実行します。1台から8台のカメラ画像を入力とする構成に加え、LiDARやレーダーなどのセンサー情報を取り込むことも可能です。パラメータ数は1,600万と「AutoE2E」よりもさらに軽量であり、NVIDIAやルネサスなど、異なる半導体環境での動作に対応します。また、Co-MLOpsのオートラベリング基盤「CoMET」やエージェントAIによって、学習データのラベリングからモデルの学習・評価・改善までを自動化し、人手によるコーディングやラベリングを不要にします。自動車メーカーや部品サプライヤは、オープンソースとして公開されたモデルを自社の車両仕様や要求性能に合わせて最適化できます。 - GitHub（ソースコード）：https://github.com/tier4/METEOR - Hugging Face（AIモデル）：https://huggingface.co/AutowareFoundation/meteor OnePlanner 「OnePlanner」は、周辺環境の認識と行動計画を一体化したE2E自動運転AIモデルです。現在はLiDARの点群データからBEV表現を生成するBEVFusionを基盤とし、今後はPTv3への変更を予定しています。認識モデルを柔軟に切り替えられる構成を採用し、認識処理で抽出した特徴量を行動計画に直接活用します。従来の自動運転システムでは、認識結果を物体の位置や速度などの情報に変換してから行動計画に受け渡していましたが、「OnePlanner」では中間的な情報変換を減らすことで、周辺環境の情報をより豊富に活用できます。高精度地図や経路情報、信号機の状態、車両の走行状態も取り込み、将来6秒間の走行軌跡を生成します。「OnePlanner」は、すでに「Autoware」に統合されています。 - GitHub（ソースコード）：https://github.com/autowarefoundation/autoware_oneplanner - Hugging Face（AIモデル）：https://huggingface.co/AutowareFoundation/oneplanner LatentDrive 「LatentDrive」は、世界モデルを活用して周辺環境の将来予測と行動計画を統合したE2E自動運転AIモデルです。自己教師あり学習技術「V-JEPA」を用いて、カメラ映像から周辺環境の特徴を潜在空間（Latent Space）に表現し、その特徴量を利用して車両の走行軌跡を生成します。物体検出や追跡などの中間処理を介さず、映像から得られる情"
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開",
+   "link": "https://prtimes.jp/main/html/rd/p/000000149.000040119.html",
+   "date": "2026-11-11 16:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot",
+     "deployment"
+    ],
+    "korean_title": "TIER IV·뮌헨공대, TUM Autoware Research Center 설립…뮌헹 자동주행 버스 개발 본격화",
+    "korean_summary": "TIER IV와 뮌헨공대가 설립한 TUM Autoware Research Center를 통해 뮌헹 DZM에서 Autoware 기반 대형 버스 자동주행 시스템 개발을 지원하며, RISE 컨소시엄의 일환으로 MAN과 협력해 시험주행 및 실제 노선 운행을 추진한다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV-TUM, Autoware 기반 자율주행 시스템을 뮌헨 시내 노선버스에 적용",
+    "korean_summary": "TIER IV와 Technical University of Munich(TUM)가 2026년 10월 설립한 공동연구센터를 통해 Autoware 기반 자율주행 시스템을 뮌헨 시내 대형 노선버스 개발에 적용한다.",
+    "action": {
+     "actor": "TIER IV, Technical University of Munich (TUM)",
+     "action": "Autoware 기반 자율주행 시스템을 대형 노선버스에 적용하는 프로젝트를 German Center for Future Mobility(DZM)에서 지원·개발",
+     "stage": "Announced",
+     "timeline": "2026년 10월 연구센터 설립, 구체적 실증·운행 일정은 미확인",
+     "scope": "독일 뮌헨 시내, MVG(뮌헨 교통공사) 기존 노선, MAN Truck & Bus 차량 플랫폼"
+    },
+    "key_facts": [
+     "TIER IV와 TUM이 2026년 10월 'TUM Autoware Research Center by TIER IV'를 설립, 다년간 연구협업 개시",
+     "RISE 컨소시엄(TUM 주도) 하에 MAN Truck & Bus는 차량제어·저계층 소프트웨어, TUM은 센서 구성 및 **Autoware 기반 자율주행 시스템** 개발 담당",
+     "독일 연방교통부가 DZM 뮌헨 프로젝트(MAN·MVG 연계)에 **3년간 총 35.3억 엔(2,000만 유로) 지원**",
+     "관리된 환경 시험주행 이후 MVG 기존노선에서 안전요원 동승 운행 예정",
+     "일본에서 축적된 Autoware 자율주행 버스 도입 실적·노하우를 유럽 차량 플랫폼에 적용"
+    ],
+    "why_matters": "일본 국내 중심이던 Autoware 자율주행 버스 실적을 **유럽 대형 상용차 플랫폼(MAN)과 공공교통(MVG)**으로 확장하는 첫 실사례로, Autoware가 지역·차종을 넘어 재현 가능한 자율주행 공공교통 솔루션으로 진화할 수 있음을 보여준다. 독일 연방정부의 대규모 지원(2,000만 유로)이 결합되어 있어 유럽 규제·제도 기반 정비와 함께 오픈소스 자율주행 스택의 공공조달 신뢰도를 높이는 사례가 될 수 있다.",
+    "subject_angle": "TIER IV는 자체 차량·서비스 운영에서 **대학·OEM(MAN)·지자체 교통공사(MVG)와 연계한 '연구거점 기반 기술이전' 모델**로 사업 범위를 확장하며, Autoware 생태계를 유럽 공공교통 시장의 표준 스택으로 자리매김시키려는 전략을 보인다.",
+    "focus_angle": "상용화 단계는 아직 **실증(관리된 환경 시험주행) 이전 단계**이며, 이후 안전요원 동승 형태의 제한적 서비스 운행으로 이어질 예정이다. 고객·지역 범위는 독일 뮌헨 MVG 노선과 MAN 차량 플랫폼으로 명확히 특정되어 있으나, 양산·완전 무인화 일정은 본문에 없어 미확인이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발 주도, 연구자금 전략적 지원, 일본 내 자율주행 버스 노하우 제공"
+     },
+     {
+      "name": "Technical University of Munich (TUM)",
+      "context": "연구센터 운영, 센서 설계 및 Autoware 기반 시스템 개발, RISE 컨소시엄 주도"
+     },
+     {
+      "name": "MAN Truck & Bus",
+      "context": "자율주행용 차량제어 메커니즘 및 저계층 소프트웨어 구현"
+     },
+     {
+      "name": "MVG (Münchner Verkehrsgesellschaft)",
+      "context": "뮌헨 교통공사, 기존 노선 운행 제공 및 운영 전문성 결합"
+     },
+     {
+      "name": "German Center for Future Mobility (DZM)",
+      "context": "프로젝트 실행 거점"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "노선버스 자율주행 소프트웨어 스택 기반"
+     },
+     {
+      "name": "TUM Autoware Research Center by TIER IV",
+      "context": "미확인",
+      "role": "본 프로젝트의 연구·개발 거점"
+     }
+    ],
+    "watch_next": [
+     "관리된 환경 시험주행 개시 및 완료 일정",
+     "MVG 노선에서의 안전요원 동승 운행 시작 시점",
+     "RISE 컨소시엄의 규제·제도 정비 진행 상황 및 완전 무인화 로드맵"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDg3a2Qxd3ZTTFpIWnFSYVFRaUh2aWRTV1BvSnRESTJkOFpCSFNEOFVEZ05TT0pzejNQczJkS3pCV2M0SmVtbzU3UFhTbDZnVXNyRFBMdlE4QnpSRHlHY0tCMVg1cEZWMkg2R08wR0lIYkR4SjhuTUV0Y2pzRXpZZGwxMnI5VXZOZzRVbHpzNkoyZmtxbzNkMks5cVZNRGg0bFVUWlBuM2RObURfWjVQQnNRNE43WU4tWEhOQXhzYzBqVXdwYzR2UWZsVmNHYmFRdDZ0aEgzZ9IB5wFBVV95cUxNSmR3clhhMWNvSTMwVUVDSy1SWTRVb0p3bHlHc05JdThMOGhmOXBJN0JSZFZnWi1uY3JDYnJJbkxQZl9IY1J0MHdqZzJmNEpVTHlLVUo2QjdGWnh2eTluZ3pGVE9ZbGhHV1JjX3V5NU5yaFJiRGZBOHo5UzJnejEyM01QSVJoNFRzWUFjWDhVVGFOdGo2UUhwNE1UbGN1ODMwYzNPekZZNDduejkzRHg1Z0NwQTFraV9YQm9WYTJob2JHMjE5N1JmWE1SVEVVa243RnlTb2pnWDdVdl9wSUJRcWNQRnZzVHM?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HYlN2eXpmZXQ4c3VQMlktYnFMYnZ3QndmR0V4TlFDcmp4MWUxMlpZOXNTOGhXbGIyOVdKbFVwbmZWM2JHSUttMDlSR0lDUEpvWmFYd05nRXotUDRnUVlUSW9B?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdDg3a2Qxd3ZTTFpIWnFSYVFRaUh2aWRTV1BvSnRESTJkOFpCSFNEOFVEZ05TT0pzejNQczJkS3pCV2M0SmVtbzU3UFhTbDZnVXNyRFBMdlE4QnpSRHlHY0tCMVg1cEZWMkg2R08wR0lIYkR4SjhuTUV0Y2pzRXpZZGwxMnI5VXZOZzRVbHpzNkoyZmtxbzNkMks5cVZNRGg0bFVUWlBuM2RObURfWjVQQnNRNE43WU4tWEhOQXhzYzBqVXdwYzR2UWZsVmNHYmFRdDZ0aEgzZ9IB5wFBVV95cUxNSmR3clhhMWNvSTMwVUVDSy1SWTRVb0p3bHlHc05JdThMOGhmOXBJN0JSZFZnWi1uY3JDYnJJbkxQZl9IY1J0MHdqZzJmNEpVTHlLVUo2QjdGWnh2eTluZ3pGVE9ZbGhHV1JjX3V5NU5yaFJiRGZBOHo5UzJnejEyM01QSVJoNFRzWUFjWDhVVGFOdGo2UUhwNE1UbGN1ODMwYzNPekZZNDduejkzRHg1Z0NwQTFraV9YQm9WYTJob2JHMjE5N1JmWE1SVEVVa243RnlTb2pnWDdVdl9wSUJRcWNQRnZzVHM?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HYlN2eXpmZXQ4c3VQMlktYnFMYnZ3QndmR0V4TlFDcmp4MWUxMlpZOXNTOGhXbGIyOVdKbFVwbmZWM2JHSUttMDlSR0lDUEpvWmFYd05nRXotUDRnUVlUSW9B?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000149.000040119.html",
+   "body": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発に展開 日本で培った知見を欧州の大型路線バスに応用 「自動運転の民主化」をビジョンに掲げる株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）とミュンヘン工科大学（Technical University of Munich、以下TUM）は、2026年10月に設立したTUM Autoware Research Center by TIER IVを通じて、ミュンヘンのGerman Center for Future Mobility（DZM）において「Autoware」を活用した大型路線バス向け自動運転システムの開発を支援します。 プロジェクトの概要 本プロジェクトは、ティアフォーとTUMが2026年10月に開始した複数年にわたる研究協業の初期の実社会への応用事例となります。TUMは、本研究拠点を通じて、日本での「Autoware」を活用した自動運転バスの導入実績や知見を活かし、新たな車両プラットフォームへのソフトウェアスタックの適用と、ミュンヘン市内の走行環境に合わせた最適化に取り組みます。 本取り組みは、TUMが主導するコンソーシアムプロジェクトであるRISEの一環として実施されるものです。RISEでは、自動運転バスやシャトルの公共交通機関における本格的な運行開始に向けて、科学・技術面に加え、組織体制や規制面での基盤整備を進めています。MAN Truck & Bus（MAN）は自動運転用の車両制御機構および低レイヤーソフトウェアをバスに実装し、TUMはセンサー構成を設計するとともに「Autoware」を活用した自動運転システムを開発します。管理された環境下で試験走行をした後、既存のMVG（ミュンヘン交通社）の路線において、安全確保のための要員が同乗する形での運行を予定しています。 ティアフォー 代表取締役 CEO 加藤真平のコメント 本研究拠点は、オープンな研究成果を実社会での活用につなげることを目的として設立されました。日本で培われた「Autoware」を活用した自動運転バスの運行実績や知見を本プロジェクトに活かすことで、TUMが欧州においてオープンで安全かつ拡張性の高い自動運転を用いた公共交通を実現できるよう支援していきます。 ミュンヘン工科大学 教授・博士 Markus Lienkampのコメント ドイツ連邦運輸省は、MANとMVGと連携して自動運転路線バスを開発するDZMのミュンヘンプロジェクトに対して、3年間で総額35.3億円（2,000万ユーロ）の支援を行っています。TUM Autoware Research Center by TIER IVを通じて、私たちは、日本での「Autoware」を活用した自動運転バスの導入で既に使用されているソフトウェアを活用し、新たな車両と走行環境に適応させています。これにより、MANとMVGとの連携のもと、ミュンヘンにおける自動運転を用いた公共交通の発展を目指します。 ミュンヘン市長 Dominik Krauseのコメント 自動運転バスやシャトルの導入は、ミュンヘンの公共交通機関をより利用しやすくするとともに、これまで公共交通へのアクセスが十分でなかった地域への交通サービスの拡充にもつながります。こうした次世代モビリティの革新をミュンヘンで開発し、実用化することは、欧州を代表するテクノロジーハブとしての本市の地位をさらに強固なものにします。 SWM 取締役会Chairman兼MVGマネージングディレクター Florian Bieberbachのコメント 自動運転モビリティは、効率性と利便性を兼ね備え、利用者にとって価値の高い公共交通の実現に貢献します。RISEは、研究機関、産業界、そして実際の運行に関する専門知識を結集することで、日常の公共交通サービスへの安全な導入に向けた基盤を築くとともに、利用者のニーズに応え続ける公共交通システムの実現を目指します。 MAN 研究開発Executive Board Member Frederik Zohmのコメント 自動運転技術を用いることで、公共交通のサービス水準と運行効率を向上させることができます。安全な車両技術と運行事業者のニーズを融合させることで、RISEはドイツの産業競争力を幅広く展開可能な実用的ソリューションへとつなげるとともに、欧州における技術力のさらなる強化に貢献します。 研究連携から実社会への展開へ 本プロジェクトを通じて、TUM Autoware Research Center by TIER IVは安全性、評価手法、拡張性に関する研究をさらに推進します。システム統合や実環境での走行試験を通じて得られた知見は、「Autoware」や関連する評価手法の改善に役立てるとともに、オープンソースコミュニティに還元していきます。 ティアフォーの自動運転技術の導入や運用の実績とTUMの研究開発力を組み合わせることで、欧州の車両プラットフォームや実用的なモビリティサービスに「Autoware」を適用できる再現可能な開発・導入モデルの確立を目指します。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 ミュンヘン工科大学について ミュンヘン工科大学は、研究、教育、イノベーションの分野で世界をリードする大学の一つです。約700の教授職、52,000人の学生、13,000人の教職員を擁し、コンピューターサイエンス、工学、自然科学・生命科学、医学、経済学、社会科学など幅広い分野をカバーしています。起業家精神を重視する大学として、TUMは社会に開かれた知識交流のグローバルハブを目指しています。TUMでは毎年約100社のスタートアップが創出されており、ミュンヘンのハイテクエコシステムにおける重要な役割を担っています。また、シンガポールのTUM Asiaキャンパスに加え、北京、ブリュッセル、ムンバイ、サンフランシスコ、サンパウロ、深圳に拠点を設け、世界各地で活動しています。TUMでは、ルドルフ・ディーゼル、カール・フォン・リンデ、ルドルフ・メスバウアーなど、ノーベル賞受賞者や発明家が研究を行ってきまし"
+  },
+  {
+   "source": "Autoware Foundation",
+   "category": "official",
+   "kind": "feed",
+   "title": "AWF Robotaxi WG releases AutoE2E, an open-source end-to-end AI model designed to scale from L2++ to L4 autonomy",
+   "link": "https://autoware.org/autoware-foundation-and-tier-iv-join-forces-to-releases-autoe2e-an-open-source-ai-model-for-end-to-end-autonomy/",
+   "date": "2026-11-11 13:30",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "release",
+     "perception",
+     "foundation"
+    ],
+    "korean_title": "Autoware Foundation, 로봇택시 WG 통해 L2++~L4 엔드투엔드 AI 모델 'AutoE2E' 공개",
+    "korean_summary": "Autoware Foundation의 로봇택시 워킹그룹(TIER IV 스폰서)이 79.9M 파라미터의 경량 E2E 주행 모델 AutoE2E를 오픈소스로 공개하고 Autoware 플랫폼에 통합했다."
+   },
+   "summary_data": {
+    "korean_title": "Autoware Foundation·TIER IV, L2++~L4 확장형 오픈소스 End-to-End AI 모델 'AutoE2E' 공개",
+    "korean_summary": "Autoware Foundation Robotaxi WG가 TIER IV 후원으로 L2++ 핸즈프리 주행부터 L4 로보택시까지 확장 가능한 경량 End-to-End AI 모델 AutoE2E를 오픈소스로 공개했다.",
+    "action": {
+     "actor": "Autoware Foundation Robotaxi Working Group (TIER IV 후원)",
+     "action": "오픈소스 End-to-End AI 모델 AutoE2E v1.0 코드·체크포인트를 GitHub·Hugging Face에 공개, Autoware와 통합하여 open-loop 평가 진행",
+     "stage": "Available",
+     "timeline": "v1.0 즉시 공개, 추가 실도로 테스트는 2027년 예정",
+     "scope": "GitHub/Hugging Face 통해 전세계 Autoware 커뮤니티 대상, 지역·상용 고객 미확인"
+    },
+    "key_facts": [
+     "**79.9백만(약 0.08B) 파라미터**의 경량 아키텍처로 자동차용 SoC 최적화를 목표로 설계됨",
+     "KITScenes-Multimodal 검증 데이터에서 3초 구간 ADE 0.744m 달성, 비교 대상 8개 오픈웨이트 모델 중 2위",
+     "Fast-Slow 구조: Reactive 모델(10Hz, 주행 담당)만 v1.0에 포함, JEPA 월드모델(1Hz)과 언어 없는 추론 레이어(1Hz)는 개발 중",
+     "카메라 단독 센서로 L2++ 핸즈프리 주행 지원, LiDAR·레이더 안전 레이어 결합 시 L4 driverless 적용 가능",
+     "**실차 closed-loop 테스트가 진행 중**이며 추가 실도로 시험은 2027년 예정, 코드는 Apache 2.0 라이선스로 연구·상업적 이용 가능"
+    ],
+    "why_matters": "Tesla·Wayve 등 빅테크가 주도하던 End-to-End 자율주행 AI를 **오픈소스·경량(79.9M 파라미터)** 형태로 공개해 상용 SoC 탑재 가능성을 높였다는 점에서 모듈형 스택 중심이던 Autoware 생태계에 중요한 전환점이다. 벤치마크 2위 성능과 Apache 2.0 라이선스는 로보택시·ADAS 업계의 채택 장벽을 낮출 수 있다.",
+    "subject_angle": "TIER IV는 AWF를 통해 **Autoware의 모듈형 스택을 End-to-End AI로 확장**하며 2027년 로보택시 상용화 로드맵의 핵심 기술 축으로 AutoE2E를 자리매김시키고, 오픈소스 생태계 주도권을 강화하려는 전략으로 해석된다.",
+    "focus_angle": "기존 Autoware의 규칙 기반·모듈형 perception-planning 파이프라인과 달리 AutoE2E는 카메라 입력에서 궤적까지 직접 산출하는 단일 End-to-End 모델로, **저비용 카메라 전용 센서 구성**으로 L2++를 구현하면서도 LiDAR/레이더 추가만으로 L4까지 확장 가능해 센서·컴퓨팅 비용 절감과 자동차 SoC 탑재 채택을 가속할 잠재력이 있다.",
+    "companies": [
+     {
+      "name": "Autoware Foundation",
+      "context": "AutoE2E 개발·공개를 주도하는 비영리 오픈소스 재단, Robotaxi WG 운영"
+     },
+     {
+      "name": "TIER IV",
+      "context": "Robotaxi WG 후원사, AutoE2E 상용화 추진의 핵심 기업"
+     }
+    ],
+    "products": [
+     {
+      "name": "AutoE2E",
+      "role": "L2++~L4 확장형 오픈소스 End-to-End AI 모델, v1.0 공개"
+     },
+     {
+      "name": "Autoware",
+      "role": "AutoE2E가 통합되어 open-loop 평가 및 실차 테스트가 진행되는 오픈소스 자율주행 플랫폼"
+     },
+     {
+      "name": "KITScenes-Multimodal",
+      "role": "AutoE2E 성능 벤치마크 평가에 사용된 검증 데이터셋"
+     }
+    ],
+    "watch_next": [
+     "실차 closed-loop 테스트 결과 및 JEPA 월드모델·추론 레이어 통합 진행 상황",
+     "2027년 예정된 추가 실도로 시험 및 자동차 SoC 최적화 파트너·플랫폼 공개 여부",
+     "AutoE2E 기반 상용화(로보택시/ADAS) 고객사 또는 지역 적용 사례 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://autoware.org/autoware-foundation-and-tier-iv-join-forces-to-releases-autoe2e-an-open-source-ai-model-for-end-to-end-autonomy",
+   "body": "Advancing toward commercialization led by the Autoware Foundation and TIER IV The Robotaxi Working Group (WG) of the Autoware Foundation (AWF), sponsored by TIER IV, has released AutoE2E, an open-source end-to-end (E2E) AI model designed for applications ranging from L2++ hands-free driving assistance to future L4 driverless mobility services. With just 79.9 million parameters, the model combines a compact architecture with promising trajectory prediction performance. Big performance, tiny footprint AutoE2E has been integrated with Autoware , for open-loop testing and performance evaluation within the Autoware platform and ecosystem. On KITScenes-Multimodal validation data , the fine-tuned model achieved an average displacement error (ADE) of 0.744 meters over a three-second horizon, ranking second among eight open-weight model configurations included in the benchmark comparison. Real-vehicle closed-loop testing is underway as AWF and TIER IV advance the technology toward commercialization. AutoE2E supports low cost camera-only sensor setups for hands-free driving on highways and city streets, and can be paired with LiDAR and radar safety layers to enable fully driverless applications. It’s available today: the code is live on GitHub under the permissive Apache 2.0 license for research and commercial use, and the v1.0 checkpoints are on Hugging Face . Developers can build on the model and adapt it to their own applications. Reflexes, imagination and judgment AutoE2E uses a fast–slow architecture for end-to-end autonomy. The fast layer plans the vehicle’s trajectory, while two slow layers are designed to predict how the scene will evolve and reason about what action to take. Reflexes: the Reactive model (10 Hz). Ten times a second, it fuses six camera views into a bird’s-eye picture of the road and plots the next 6.4 seconds of acceleration and steering. This is the layer that drives. Imagination: a JEPA world model (1 Hz). Instead of rendering pixels, it predicts how the scene itself will evolve, giving the planner a feel for what’s about to happen. Judgment: language-free reasoning (1 Hz). It works out why the car should act, like easing off for a pedestrian about to cross, without generating a single word. AutoE2E v1.0 includes the reflexes. The world model and reasoning layers are being developed to work with the same planner; which means every result below was achieved by the Reactive model alone. AutoE2E’s three cooperating models Open-loop benchmark results ware 2.0 Release On KITScenes-Multimodal validation, the fine-tuned AutoE2E model achieved an average displacement error (ADE) of 0.744 meters over three seconds, ranking second by ADE among eight reported model configurations. Three-second open-loop error relative to recorded human driving on KITScenes-Multimodal validation; lower is better. Image: AutoE2E repository.Image: AutoE2E repository. In benchmark testing, all models were scored open-loop, predicting the next 3 seconds from log"
+  },
+  {
+   "source": "Google News · Automotive World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tier IV and TUM take Autoware to a Munich autonomous bus",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcFJzTE5iMzlxWjNUeEQxTVVxQ2tsYjRFTXk3VkQ3WlpCWUdJem1lMUF6aHY4dC1QOFdDNUZMNTh3eThQTHotNGZFT3V4N3F2cTYweDJfck9OVVFaRkF2S3dMR3hSc2RHRWQxOXhZWm5KaEIzNWNfNXJYNWU5NTA4RHVNdlFrbkRhaVUtdUw0d19PRFc2X2xMRWFB?oc=5",
+   "date": "2026-11-11 14:55",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV·뮌헹공대, Autoware로 뮌헹 자동주행 버스 개발",
+    "korean_summary": "TIER IV와 뮌헹공대가 Autoware를 활용하여 뮌헹 자동주행 버스를 개발했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Automotive World",
+     "title": "Tier IV and TUM take Autoware to a Munich autonomous bus",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcFJzTE5iMzlxWjNUeEQxTVVxQ2tsYjRFTXk3VkQ3WlpCWUdJem1lMUF6aHY4dC1QOFdDNUZMNTh3eThQTHotNGZFT3V4N3F2cTYweDJfck9OVVFaRkF2S3dMR3hSc2RHRWQxOXhZWm5KaEIzNWNfNXJYNWU5NTA4RHVNdlFrbkRhaVUtdUw0d19PRFc2X2xMRWFB?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "ティアフォーとTUM、「Autoware」でミュンヘンの自動運転路線バスを開発",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0blc1M3huLXRDd0pTS0xxbnNWTWEzc1lFdlVXckZ0dGtzdkVYNm5kQU5rbEgxQ1BGajk4SW9NaVpiOVczeDQxWVdRLU1zNXhMaHFoa0hOc2lrVDZxdlB1R3hhRS1oOENTMW8tcmFoNjVjVGVVYll30gF8QVVfeXFMUHpKdEh1LVliaXFiVjhueVU0cWQwTk1FTV9KYjhQSXZKSlQ4ME1fZkxJMXBDS04ySU9FRkJkZ3hrTk5zZ2Q2NUtvNmFGU081bFVJWkdRWUdDc09sbmtMNzVuSVE1b2hVQmRKTmxlZ2VnZTlFSkJPR0NNSkh2Mg?oc=5"
+    },
+    {
+     "source": "Google News · マイナビニュース",
+     "title": "ティアフォーとTUM、「Autoware」でミュンヘンの自動運転路線バスを開発 | TECH+（テックプラス）",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZakUwS24tYVI3UktWR2gybEY4SzJGemE5djQ5aFlIUzhaVEtLSFNnM3BieE5UUGxTdDE0WWJHYVpqNFY3a2g1bVRIMDJPcE5JdE1oekZIT1IwY20yLUxlMmczNG9xMEJn?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "ティアフォーとTUM、「Autoware」でミュンヘンの自動運転路線バスを開発",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6SnRIdS1ZYmlxYlY4bnlVNHFkME5NRU1fSmI4UEl2SkpUODBNX2ZMSTFwQ0tOMklPRUZCZGd4a05Oc2dkNjVLbzZhRlNPNWxVSVpHUVlHQ3NPbG5rTDc1bklRNW9oVUJkSk5sZWdlZ2U5RUpCT0dDTUpIdjLSAXxBVV95cUxQekp0SHUtWWJpcWJWOG55VTRxZDBOTUVNX0piOFBJdkpKVDgwTV9mTEkxcENLTjJJT0VGQmRneGtOTnNnZDY1S282YUZTTzVsVUlaR1FZR0NzT2xua0w3NW5JUTVvaFVCZEpObGVnZWdlOUVKQk9HQ01KSHYy?oc=5"
+    },
+    {
+     "source": "Google News · Excite エキサイト",
+     "title": "ティアフォーとTUM、「Autoware」でミュンヘンの自動運転路線バスを開発",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QOEJtUnpDdlRpYkhYMTJxaTM5czhsXzFJZGd1M1VKRjE3V0h1TFdFUEdzTVJ4cG5wUmdHR3VSQUc0b0VPOVpPSkgyTHNMRXBtLVFwSHBxb3hlYjFjVUFJ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcFJzTE5iMzlxWjNUeEQxTVVxQ2tsYjRFTXk3VkQ3WlpCWUdJem1lMUF6aHY4dC1QOFdDNUZMNTh3eThQTHotNGZFT3V4N3F2cTYweDJfck9OVVFaRkF2S3dMR3hSc2RHRWQxOXhZWm5KaEIzNWNfNXJYNWU5NTA4RHVNdlFrbkRhaVUtdUw0d19PRFc2X2xMRWFB",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー[593A]：ドイツ ミュンヘン市内における「Autoware」を活用した大型路線バス向け 自動運転システムの開発支援に関するお知らせ 2026年11月11日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX3p4NTFZQi1FRHE5M21QcUVlTXdzcWlEdm5HU0tRZk1CVC1CWTRSTDVBbUVOZXMySjRaSGpzd0RaVEFFb0R4OFl4Rmh4S253cUtycnJmVUh2dEtZNlJMcDFGLW9ZOGV4aGpPM0w5b1JkeEVrQjRyUVZNaGFOa1RRbElKNkdCS2tpNlRvbXBLOERuT1h5QnpKbmptVEVkQVBFQWdCQ3BaSUdDdXRXRzB5Z1JnNmtnejhIcTVaejZvaGt3TDhReWFKUkd3bDg?oc=5",
+   "date": "2026-11-11 16:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 뮌헨 Autoware 자동운전 버스 개발 지원 적시공시",
+    "korean_summary": "TIER IV가 뮌헨 시내 자동운전 버스용 Autoware 개발 지원을 공식 공시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX3p4NTFZQi1FRHE5M21QcUVlTXdzcWlEdm5HU0tRZk1CVC1CWTRSTDVBbUVOZXMySjRaSGpzd0RaVEFFb0R4OFl4Rmh4S253cUtycnJmVUh2dEtZNlJMcDFGLW9ZOGV4aGpPM0w5b1JkeEVrQjRyUVZNaGFOa1RRbElKNkdCS2tpNlRvbXBLOERuT1h5QnpKbmptVEVkQVBFQWdCQ3BaSUdDdXRXRzB5Z1JnNmtnejhIcTVaejZvaGt3TDhReWFKUkd3bDg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV、ミュンヘンの自動運転市バス向けにAutowareの適応を支援",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUkZlQmdJdENxb0VhbFA1d0FsVjlMQTU3NXhQbFdEazB3ay1xODVJeDRaVnNoRjFhSTZhTTByNXpYYlZlazFhSEtlN0ZjU3lncFpjTTNWZ282U1Ywc1UyTnZyNDdZLTJxbjBUTWllUE5LbEdlVmRDSTJLR1pQUGNYeEZzaGVDdnRhTVk0aA?oc=5",
+   "date": "2026-11-11 16:18",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 뮌헨 자동운전 시내버스용 Autoware 적응 지원",
+    "korean_summary": "TIER IV가 Autoware를 활용한 뮌헨 자동운전 시내버스 개발을 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUkZlQmdJdENxb0VhbFA1d0FsVjlMQTU3NXhQbFdEazB3ay1xODVJeDRaVnNoRjFhSTZhTTByNXpYYlZlazFhSEtlN0ZjU3lncFpjTTNWZ282U1Ywc1UyTnZyNDdZLTJxbjBUTWllUE5LbEdlVmRDSTJLR1pQUGNYeEZzaGVDdnRhTVk0aA",
+   "body": ""
+  },
+  {
+   "source": "Google News · MOTOR CARS",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV、独ミュンヘン工科大の市内路線バスを自動運転システムで支援",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPempYVVgwWlFmR2xzd2xMZjBLX25qbHpSVFpRT2FwQjhFa21jUU8zX003U1NvWk52Z19keWxwRVF5ZkY2UHBWUzlJZjIzVmxYd2FGNG1CdzBKOTd2LXh4c2VueWFkRGNCMVlfWUhIUDRVVlE4SlBlYlAxRm9CYUc0MEVYOVIyRjRGSEtHOXhyc1RmcTJ1bjQwRnhrQ3l5dEtiaDZBNkFLM055YUxoWFR1X2xrSlVQYkpBcTFWcGlzREVGdVI2VVBORU54cWo?oc=5",
+   "date": "2026-11-11 16:00",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 뮌헨공과대학 자동운전 버스 시스템 개발 지원",
+    "korean_summary": "TIER IV가 뮌헨공과대학의 자동운전 버스 시스템 개발을 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPempYVVgwWlFmR2xzd2xMZjBLX25qbHpSVFpRT2FwQjhFa21jUU8zX003U1NvWk52Z19keWxwRVF5ZkY2UHBWUzlJZjIzVmxYd2FGNG1CdzBKOTd2LXh4c2VueWFkRGNCMVlfWUhIUDRVVlE4SlBlYlAxRm9CYUc0MEVYOVIyRjRGSEtHOXhyc1RmcTJ1bjQwRnhrQ3l5dEtiaDZBNkFLM055YUxoWFR1X2xrSlVQYkpBcTFWcGlzREVGdVI2VVBORU54cWo",
+   "body": ""
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能",
+   "link": "https://response.jp/article/2026/11/12/418905.html",
+   "date": "2026-11-12 06:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, 지도 정보 유무·센서 구성 선택 가능한 E2E 자동운전 기술 공개",
+    "korean_summary": "TIER IV가 지도와 센서 구성에 따라 선택 가능한 엔드투엔드 자동운전 AI 모델군을 오픈소스로 공개하고 Autoware를 통한 최적화·차량 통합 지원 환경을 제공했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3cTNlU2hwZXJwZnZGLWdXcFcwMC1VR3pwTmN3VmsyYzFIbVRGMS15aHBQa1loNzRwTFRESEhhZFF5REJYaWQyeGVrc0R6VkNpMl9qZWtvOWpELTV2SmdR?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE80SlY2ZWdSN1lnYjl3Y3Q1R2l1UkxJaW90T1JJR1JLNWMteGFqektObVlSMGVoLVBZOHlMazFCV3Q0alJEcEFDelpWVnJDY3FGdU9pR21vSUhKU1JHT29uWF8tWXloZEVPd1pTdW8ta003UQ?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3cTNlU2hwZXJwZnZGLWdXcFcwMC1VR3pwTmN3VmsyYzFIbVRGMS15aHBQa1loNzRwTFRESEhhZFF5REJYaWQyeGVrc0R6VkNpMl9qZWtvOWpELTV2SmdR?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE80SlY2ZWdSN1lnYjl3Y3Q1R2l1UkxJaW90T1JJR1JLNWMteGFqektObVlSMGVoLVBZOHlMazFCV3Q0alJEcEFDelpWVnJDY3FGdU9pR21vSUhKU1JHT29uWF8tWXloZEVPd1pTdW8ta003UQ?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "ティアフォー、地図やセンサー構成を選べるE2E自動運転AIモデルを公開",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9teG5memlUWXk3VVRCSTVXODR5UVV3TXpoMHdLeG5nWFo0dU9NQS1KaWNuX3BHYlp0Q0tCQXhpVHZFZGFfaGxJN0FhejRlNG9FdDdZSVlQR2l4b2wzNEhOcUszMG9zNUp0VFc0RlQtZlIwcGNVeVN4SldBakHSAXxBVV95cUxPbXhuZnppVFl5N1VUQkk1Vzg0eVFVd016aDB3S3huZ1haNHVPTUEtSmljbl9wR2JadENLQkF4aVR2RWRhX2hsSTdBYXo0ZTRvRXQ3WUlZUEdpeG9sMzRITnFLMzBvczVKdFRXNEZULWZSMHBjVXlTeEpXQWpB?oc=5"
+    },
+    {
+     "source": "Google News · マイナビニュース",
+     "title": "ティアフォー、地図やセンサー構成を選べるE2E自動運転AIモデルを公開 | TECH+（テックプラス）",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VSjEwX290djhaUUJmazdPeTVSblVxWFZuMTlCYzRZRERpVUpUYlgxU0VJUEthMzRnWTdtZ0NWcmlpR1FoZkViTnpqSXRtblA5VGhqVWtpX0FEd3FISDYxVlY2NklUcjFO?oc=5"
+    },
+    {
+     "source": "Google News · ｄメニューニュース",
+     "title": "ティアフォー、地図やセンサー構成を選べるE2E自動運転AIモデルを公開",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9teG5memlUWXk3VVRCSTVXODR5UVV3TXpoMHdLeG5nWFo0dU9NQS1KaWNuX3BHYlp0Q0tCQXhpVHZFZGFfaGxJN0FhejRlNG9FdDdZSVlQR2l4b2wzNEhOcUszMG9zNUp0VFc0RlQtZlIwcGNVeVN4SldBakHSAXxBVV95cUxPbXhuZnppVFl5N1VUQkk1Vzg0eVFVd016aDB3S3huZ1haNHVPTUEtSmljbl9wR2JadENLQkF4aVR2RWRhX2hsSTdBYXo0ZTRvRXQ3WUlZUEdpeG9sMzRITnFLMzBvczVKdFRXNEZULWZSMHBjVXlTeEpXQWpB?oc=5"
+    },
+    {
+     "source": "Google News · マイナビニュース",
+     "title": "ティアフォー、地図やセンサー構成を選べるE2E自動運転AIモデルを公開 | TECH+（テックプラス）",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VSjEwX290djhaUUJmazdPeTVSblVxWFZuMTlCYzRZRERpVUpUYlgxU0VJUEthMzRnWTdtZ0NWcmlpR1FoZkViTnpqSXRtblA5VGhqVWtpX0FEd3FISDYxVlY2NklUcjFO?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発 (2026年11月11日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1meHlYMFRjVVF6SGREcEIzd2MtN01ZcDlZZVpmTnhiaDNWRG1jbmZwUmRwcUludV9kT0hXQnV5NDE0aG1YczNlamJodFVYNEdlRjBCZWJIRzNoV25aeWI1YW9R?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー、地図情報の有無やセンサー構成を選択可能なE2E自動運転を開発 (2026年11月11日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1meHlYMFRjVVF6SGREcEIzd2MtN01ZcDlZZVpmTnhiaDNWRG1jbmZwUmRwcUludV9kT0hXQnV5NDE0aG1YczNlamJodFVYNEdlRjBCZWJIRzNoV25aeWI1YW9R?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/11/12/418905.html",
+   "body": "ティアフォーは11月11日、自動運転の「民主化」をビジョンに掲げ、E2E（エンドツーエンド）自動運転技術向けのAIモデル群をオープンソースとして公開した。 同社は、地図情報の有無やセンサー構成など、異なるシステム要件に対応できるようにすることを狙う。カメラのみの構成から、LiDARやレーダーなどを取り込む構成まで、要求性能に応じてAIモデルを選べるとしている。 公開は、自動運転用オープンソースソフトウェア「Autoware」を通じた最適化や車載システムへの統合を支援する開発環境の一環だ。自動車メーカーやパートナー企業の自社開発・導入を後押しする方針である。"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Details Five Open-Source Models for Autonomous Driving",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVd6bDdZdWVuWXFXUFo2Rl9CdkFMVFl2NmVQaVFpVkdoYkdQZXJYQkRnQ3Q4bmxoZEZCUzJ6V29NenFrOGtkU09XemdJVENiZ0dtOEpnbzlqWklJSVU4M1J6NllxbDdwb09TNXJRTjZoZGNraTBSTEhnOTdjdGRNSk5LYnotVFB0MlNFcw?oc=5",
+   "date": "2026-11-11 14:26",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, 자율주행용 오픈소스 모델 5종 공개",
+    "korean_summary": "TIER IV가 자율주행용 오픈소스 모델 5종을 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Details Five Open-Source Models for Autonomous Driving",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVd6bDdZdWVuWXFXUFo2Rl9CdkFMVFl2NmVQaVFpVkdoYkdQZXJYQkRnQ3Q4bmxoZEZCUzJ6V29NenFrOGtkU09XemdJVENiZ0dtOEpnbzlqWklJSVU4M1J6NllxbDdwb09TNXJRTjZoZGNraTBSTEhnOTdjdGRNSk5LYnotVFB0MlNFcw?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Details Five Open-Source Models for Autonomous Driving",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVd6bDdZdWVuWXFXUFo2Rl9CdkFMVFl2NmVQaVFpVkdoYkdQZXJYQkRnQ3Q4bmxoZEZCUzJ6V29NenFrOGtkU09XemdJVENiZ0dtOEpnbzlqWklJSVU4M1J6NllxbDdwb09TNXJRTjZoZGNraTBSTEhnOTdjdGRNSk5LYnotVFB0MlNFcw?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "자율주행용 오픈소스 모델 5종을 공개한 TIER IV",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPX0VLNzh4Wkg4Q0tzUWhSMDQxdHo5NmhOS3plVkdaUHlHTWZ6bDZSMnN5ZlZjanpCelh5YkgzcWhDSE9PTXhTbWMtdVZmekRwVW5VbmFrU3hCOVQ3VVo0VU1NYlI2c1NUNVNybkF0a0dsaVUyRE5HZHAxNHBoWW5JWjFwS280d3J6cF9rUVpkUXE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNVd6bDdZdWVuWXFXUFo2Rl9CdkFMVFl2NmVQaVFpVkdoYkdQZXJYQkRnQ3Q4bmxoZEZCUzJ6V29NenFrOGtkU09XemdJVENiZ0dtOEpnbzlqWklJSVU4M1J6NllxbDdwb09TNXJRTjZoZGNraTBSTEhnOTdjdGRNSk5LYnotVFB0MlNFcw",
+   "body": ""
+  },
+  {
+   "source": "Google News · XenoSpectrum",
+   "category": "media",
+   "kind": "gnews",
+   "title": "日本発の自動運転AIが進化、ティアフォーが5種類の新モデルを発表 カメラだけで走行判断も",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hUEt2eU1Tc3VzUWJ5ZXl4TnYyYm44UVJza2p3NzFUMUNudmRnTzlTMV82TVRNeDYyY2JzZVdoR0R1ZUhHaUh5YW5sVFIwSVp3Wi0zTDZWMVFIMGduMzVudQ?oc=5",
+   "date": "2026-11-12 06:13",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, 5종 신규 자동운전 AI 모델 발표",
+    "korean_summary": "TIER IV가 5종류의 신규 자동운전 AI 모델을 발표했으며 카메라만으로 주행 판단이 가능하다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hUEt2eU1Tc3VzUWJ5ZXl4TnYyYm44UVJza2p3NzFUMUNudmRnTzlTMV82TVRNeDYyY2JzZVdoR0R1ZUhHaUh5YW5sVFIwSVp3Wi0zTDZWMVFIMGduMzVudQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Dellows News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーとミュンヘン工科大学が独大型路線バス向け自動運転開発を支援へ",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MelhFLXllb2djdHNVejlKQTN6NWRlYk1Qb2Jjc1FiMEJCSEVFNDVkYWFXUzNSb0djM1V3SHk5WUF1WkZMUEtv?oc=5",
+   "date": "2026-11-11 16:41",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 뮌헨공대와 독일 시내버스 자동운전 개발 협력",
+    "korean_summary": "TIER IV가 뮌헨공과대학과 협력하여 독일 대형 시내버스의 자동운전 시스템 개발을 지원한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MelhFLXllb2djdHNVejlKQTN6NWRlYk1Qb2Jjc1FiMEJCSEVFNDVkYWFXUzNSb0djM1V3SHk5WUF1WkZMUEtv",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "TIER IV, 뮌헨 자율주행 시내버스용 Autoware 적용 지원",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc2NWcDZHeWVnT0J6U2Z5QWtVdlhHUXRPcXpvQjRESTVObmpIazNvODBNRy1jYmNUY2Vfa3VFaS0zcUJOVktuRnlOdTZianp6dlk5SXQ1N1dIUThmYUM2eDJQNVJhQ0dZWUpqTzlvN0tVQzVXNFlQN3JoTVRveUVFbUtqQ2dJLXBXdlVXQg?oc=5",
+   "date": "2026-11-11 16:18",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV의 Autoware, 뮌헨 자율주행 버스 프로젝트 적용",
+    "korean_summary": "TIER IV의 Autoware 기술이 뮌헨의 자율주행 시내버스 개발 프로젝트에 활용된다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc2NWcDZHeWVnT0J6U2Z5QWtVdlhHUXRPcXpvQjRESTVObmpIazNvODBNRy1jYmNUY2Vfa3VFaS0zcUJOVktuRnlOdTZianp6dlk5SXQ1N1dIUThmYUM2eDJQNVJhQ0dZWUpqTzlvN0tVQzVXNFlQN3JoTVRveUVFbUtqQ2dJLXBXdlVXQg",
+   "body": ""
+  },
+  {
+   "source": "Google News · ニュースメディアVOIX",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーが開発したE2E自動運転技術の選択肢拡大とオープンソース化の進展",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KSnU0VmxRVUNKdkxJQjJTZHVWdmpCbTltUnJ3MTRfUEFiZVEzS2JQRngyNHFUWUR6OHRha0lmT25NM2NQdXZSclA4UUthdTk1bE1oVW1JbmNWODRXdVloSHNvdlRaQVYxVWJDNG5B?oc=5",
+   "date": "2026-11-11 19:22",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "E2E 자동운전 기술 선택지 확대, 오픈소스화 진전",
+    "korean_summary": "TIER IV의 E2E 자동운전 기술이 더 많은 선택지를 제공하며 오픈소스화가 진전되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ニュースメディアVOIX",
+     "title": "ティアフォーが開発したE2E自動運転技術の選択肢拡大とオープンソース化の進展",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KSnU0VmxRVUNKdkxJQjJTZHVWdmpCbTltUnJ3MTRfUEFiZVEzS2JQRngyNHFUWUR6OHRha0lmT25NM2NQdXZSclA4UUthdTk1bE1oVW1JbmNWODRXdVloSHNvdlRaQVYxVWJDNG5B?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KSnU0VmxRVUNKdkxJQjJTZHVWdmpCbTltUnJ3MTRfUEFiZVEzS2JQRngyNHFUWUR6OHRha0lmT25NM2NQdXZSclA4UUthdTk1bE1oVW1JbmNWODRXdVloSHNvdlRaQVYxVWJDNG5B",
+   "body": ""
+  },
+  {
+   "source": "Google News · Automotive World",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tier IV opens Autoware to end-to-end autonomous driving",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnM2SXJnVzRwcXVDTnB4Y1BWbHBuWk52V0NwbVQxNGFwR3NnX3VUYkluNGxZTFVUMDJqaDJxcU5aUmFMM0w4bVNEUmNmaVhpeXRDQ2tTMUxRNHM2UGRWRjYxYzNFTWU1Qkk1VF9Xak1hR3dielFFQVhsWERkRTdBVmRhRjBwbTBXc0NTUXh1eThiOWFBcC1INA?oc=5",
+   "date": "2026-11-11 14:45",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, Autoware 플랫폼으로 엔드투엔드 자동주행 기술 공개",
+    "korean_summary": "TIER IV가 Autoware를 통해 엔드투엔드 자동주행 기술을 개방했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Automotive World",
+     "title": "Tier IV opens Autoware to end-to-end autonomous driving",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnM2SXJnVzRwcXVDTnB4Y1BWbHBuWk52V0NwbVQxNGFwR3NnX3VUYkluNGxZTFVUMDJqaDJxcU5aUmFMM0w4bVNEUmNmaVhpeXRDQ2tTMUxRNHM2UGRWRjYxYzNFTWU1Qkk1VF9Xak1hR3dielFFQVhsWERkRTdBVmRhRjBwbTBXc0NTUXh1eThiOWFBcC1INA?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbnM2SXJnVzRwcXVDTnB4Y1BWbHBuWk52V0NwbVQxNGFwR3NnX3VUYkluNGxZTFVUMDJqaDJxcU5aUmFMM0w4bVNEUmNmaVhpeXRDQ2tTMUxRNHM2UGRWRjYxYzNFTWU1Qkk1VF9Xak1hR3dielFFQVhsWERkRTdBVmRhRjBwbTBXc0NTUXh1eThiOWFBcC1INA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Helps Adapt Autoware for Munich Autonomous City Bus",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkNKLVlvVFlpbmFmRldjYll0ZzU1UEVYN1o5dUJPTlV3Q3lsVGljZ0lodENMT29PbnppbUQteC1jVHp1M0JGSENuQ3V2a0F5dGZrNy1xUUQ2UXBfY05xaERJS2R0UEp2MGRIZmdpd1hrZGc4RnRNWDBPYXZUdTVLYm5hcjlOMzFV?oc=5",
+   "date": "2026-11-11 16:18",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 뮌헹 자동주행 시내버스 개발에 Autoware 적용",
+    "korean_summary": "TIER IV가 Autoware를 뮌헹 자동주행 시내버스 개발에 적용하도록 지원했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Helps Adapt Autoware for Munich Autonomous City Bus",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkNKLVlvVFlpbmFmRldjYll0ZzU1UEVYN1o5dUJPTlV3Q3lsVGljZ0lodENMT29PbnppbUQteC1jVHp1M0JGSENuQ3V2a0F5dGZrNy1xUUQ2UXBfY05xaERJS2R0UEp2MGRIZmdpd1hrZGc4RnRNWDBPYXZUdTVLYm5hcjlOMzFV?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Helps Adapt Autoware for Munich Autonomous City Bus",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkNKLVlvVFlpbmFmRldjYll0ZzU1UEVYN1o5dUJPTlV3Q3lsVGljZ0lodENMT29PbnppbUQteC1jVHp1M0JGSENuQ3V2a0F5dGZrNy1xUUQ2UXBfY05xaERJS2R0UEp2MGRIZmdpd1hrZGc4RnRNWDBPYXZUdTVLYm5hcjlOMzFV?oc=5"
+    },
+    {
+     "source": "Google News · Unite.AI",
+     "title": "TIER IV Helps Adapt Autoware for Munich Autonomous City Bus",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkNKLVlvVFlpbmFmRldjYll0ZzU1UEVYN1o5dUJPTlV3Q3lsVGljZ0lodENMT29PbnppbUQteC1jVHp1M0JGSENuQ3V2a0F5dGZrNy1xUUQ2UXBfY05xaERJS2R0UEp2MGRIZmdpd1hrZGc4RnRNWDBPYXZUdTVLYm5hcjlOMzFV?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and TUM bring Autoware-based research to autonomous city bus development in Munich",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZk1FeER4b1JtWVZnZktyWXJRY1FMLWRPXzl4dUZreDNUUGxmOXZsbGVBQjJfWmZIVkMtZ21SS2UwckJidkFoU0ptLUNidmxoWmZCdU5Mbk1QX3NjNkxrNWRCdnVDWnk5TE1TV1ZGV3M1SUNVdmF1WkNmNmcyNWpRcXRTNEdUWjFDc28zWFNDdTJEMWlGM20wd3JKSkVSNTJOTFJyQlVSem8wNnJ4TmRQRHNtX2d3MGpnWlM5bTJxMURBLWhJRXZfODI5eUxuOWJCM2I2aUFrMXVOaXdwRGFjRml5RnhLaTdCWlJJ0gHrAUFVX3lxTE1mTUV4RHhvUm1ZVmdmS3JZclFjUUwtZE9fOXh1Rmt4M1RQbGY5dmxsZUFCMl9aZkhWQy1nbVJLZTByQmJ2QWhTSm0tQ2J2bGhaZkJ1TkxuTVBfc2M2TGs1ZEJ2dUNaeTlMTVNXVkZXczVJQ1V2YXVaQ2Y2ZzI1alFxdFM0R1RaMUNzbzNYU0N1MkQxaUYzbTB3ckpKRVI1Mk5MUnJCVVJ6bzA2cnhOZFBEc21fZ3cwamdaUzltMnExREEtaElFdl84Mjl5TG45YkIzYjZpQWsxdU5pd3BEYWNGaXlGeEtpN0JaUkk?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV and TUM bring Autoware-based research to autonomous city bus development in Munich",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbjJhZ2d1NWE3ZE40WUVOeXZTVDI2TDA1Zm52Wnl5b1oxZlhBaE16bm1iaTJCdXgtcy1PTlBPQmY3VlMzOHpvTHk4VmlzQWtqNkpsUms3SVMxU2huN1JRYlotcWFoSXJDVF91TF9uZTFQZGFFOG80RXlwYkdRZlpyT0YxV2QxMWdxdEQ5SVp1YWI4c3Jmd2xsblExM1N5enY3cFh0UTZSR3VkYUJ4QWtkZ05oV1dxSkVibUlJZnFvMkZ5YWo2VUpuOTFHSXFmT1ZtTVo5c0FJMU5ra3dXUlY4?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV and TUM bring Autoware-based research to autonomous city bus development in Munich",
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbjJhZ2d1NWE3ZE40WUVOeXZTVDI2TDA1Zm52Wnl5b1oxZlhBaE16bm1iaTJCdXgtcy1PTlBPQmY3VlMzOHpvTHk4VmlzQWtqNkpsUms3SVMxU2huN1JRYlotcWFoSXJDVF91TF9uZTFQZGFFOG80RXlwYkdRZlpyT0YxV2QxMWdxdEQ5SVp1YWI4c3Jmd2xsblExM1N5enY3cFh0UTZSR3VkYUJ4QWtkZ05oV1dxSkVibUlJZnFvMkZ5YWo2VUpuOTFHSXFmT1ZtTVo5c0FJMU5ra3dXUlY4?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and TUM bring Autoware-based research to autonomous city bus development in Munich",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZk1FeER4b1JtWVZnZktyWXJRY1FMLWRPXzl4dUZreDNUUGxmOXZsbGVBQjJfWmZIVkMtZ21SS2UwckJidkFoU0ptLUNidmxoWmZCdU5Mbk1QX3NjNkxrNWRCdnVDWnk5TE1TV1ZGV3M1SUNVdmF1WkNmNmcyNWpRcXRTNEdUWjFDc28zWFNDdTJEMWlGM20wd3JKSkVSNTJOTFJyQlVSem8wNnJ4TmRQRHNtX2d3MGpnWlM5bTJxMURBLWhJRXZfODI5eUxuOWJCM2I2aUFrMXVOaXdwRGFjRml5RnhLaTdCWlJJ0gHrAUFVX3lxTE1mTUV4RHhvUm1ZVmdmS3JZclFjUUwtZE9fOXh1Rmt4M1RQbGY5dmxsZUFCMl9aZkhWQy1nbVJLZTByQmJ2QWhTSm0tQ2J2bGhaZkJ1TkxuTVBfc2M2TGs1ZEJ2dUNaeTlMTVNXVkZXczVJQ1V2YXVaQ2Y2ZzI1alFxdFM0R1RaMUNzbzNYU0N1MkQxaUYzbTB3ckpKRVI1Mk5MUnJCVVJ6bzA2cnhOZFBEc21fZ3cwamdaUzltMnExREEtaElFdl84Mjl5TG45YkIzYjZpQWsxdU5pd3BEYWNGaXlGeEtpN0JaUkk?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkNKLVlvVFlpbmFmRldjYll0ZzU1UEVYN1o5dUJPTlV3Q3lsVGljZ0lodENMT29PbnppbUQteC1jVHp1M0JGSENuQ3V2a0F5dGZrNy1xUUQ2UXBfY05xaERJS2R0UEp2MGRIZmdpd1hrZGc4RnRNWDBPYXZUdTVLYm5hcjlOMzFV",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV unveils end-to-end autonomous driving adaptable to map information and sensor configurations",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnByQkoxczF6LXl6N2JkOXRVRXI4NEhIN2JBS2Q0anZ2eklJeEQwZ3lCOS12eENRek9ZQ2RpdzBlcy1TeklyWFc4WjJfN0ZZamF5cHMxN2ZZN3c4VFBQeENwVjBHbG5hNU5EU21ndFpQYWtqY2dxd1RDUjk2SU5qRDdEM2swcE16eU5MLTRwdnNzQmpzbjZkMnBpWXBGRURhdWdjTkhB0gGmAUFVX3lxTE9CcHJCSjFzMXoteXo3YmQ5dFVFcjg0SEg3YkFLZDRqdnZ6SUl4RDBneUI5LXZ4Q1F6T1lDZGl3MGVzLVN6SXJYVzhaMl83RllqYXlwczE3Zlk3dzhUUFB4Q3BWMEdsbmE1TkRTbWd0WlBha2pjZ3F3VENSOTZJTmpEN0QzazBwTXp5TkwtNHB2c3NCanNuNmQycGlZcEZFRGF1Z2NOSEE?oc=5",
+   "date": "2026-11-11 05:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, 지도 정보·센서 구성 조합에 맞춘 엔드투엔드 자동주행 기술 공개",
+    "korean_summary": "TIER IV가 지도 정보와 센서 구성 조합에 대응 가능한 엔드투엔드 자동주행 기술을 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV unveils end-to-end autonomous driving adaptable to map information and sensor configurations",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnByQkoxczF6LXl6N2JkOXRVRXI4NEhIN2JBS2Q0anZ2eklJeEQwZ3lCOS12eENRek9ZQ2RpdzBlcy1TeklyWFc4WjJfN0ZZamF5cHMxN2ZZN3c4VFBQeENwVjBHbG5hNU5EU21ndFpQYWtqY2dxd1RDUjk2SU5qRDdEM2swcE16eU5MLTRwdnNzQmpzbjZkMnBpWXBGRURhdWdjTkhB0gGmAUFVX3lxTE9CcHJCSjFzMXoteXo3YmQ5dFVFcjg0SEg3YkFLZDRqdnZ6SUl4RDBneUI5LXZ4Q1F6T1lDZGl3MGVzLVN6SXJYVzhaMl83RllqYXlwczE3Zlk3dzhUUFB4Q3BWMEdsbmE1TkRTbWd0WlBha2pjZ3F3VENSOTZJTmpEN0QzazBwTXp5TkwtNHB2c3NCanNuNmQycGlZcEZFRGF1Z2NOSEE?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV unveils end-to-end autonomous driving adaptable to map information and sensor configurations",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNalYtc2V6Y3RNWVBKZTVSaXhsbGVhcDItVllTZVhGdWpaSTdoLW1CNFd5RUFyM05aUzJDU0dUVjI0MEQ0TlA1NmZjX2RDSFM1VHZYVnNBSGZEVTc3LUNFcTBiX1pPYWVmdUp3UUd4S1lsV1VxWlBFQmZ5bzNUTGFxR2Iya2U0TG5wVW9zakdaaGE0ZWgtcHfSAaYBQVVfeXFMT0JwckJKMXMxei15ejdiZDl0VUVyODRISDdiQUtkNGp2dnpJSXhEMGd5QjktdnhDUXpPWUNkaXcwZXMtU3pJclhXOFoyXzdGWWpheXBzMTdmWTd3OFRQUHhDcFYwR2xuYTVORFNtZ3RaUGFramNncXdUQ1I5NklOakQ3RDNrMHBNenlOTC00cHZzc0Jqc242ZDJwaVlwRkVEYXVnY05IQQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnByQkoxczF6LXl6N2JkOXRVRXI4NEhIN2JBS2Q0anZ2eklJeEQwZ3lCOS12eENRek9ZQ2RpdzBlcy1TeklyWFc4WjJfN0ZZamF5cHMxN2ZZN3c4VFBQeENwVjBHbG5hNU5EU21ndFpQYWtqY2dxd1RDUjk2SU5qRDdEM2swcE16eU5MLTRwdnNzQmpzbjZkMnBpWXBGRURhdWdjTkhB0gGmAUFVX3lxTE9CcHJCSjFzMXoteXo3YmQ5dFVFcjg0SEg3YkFLZDRqdnZ6SUl4RDBneUI5LXZ4Q1F6T1lDZGl3MGVzLVN6SXJYVzhaMl83RllqYXlwczE3Zlk3dzhUUFB4Q3BWMEdsbmE1TkRTbWd0WlBha2pjZ3F3VENSOTZJTmpEN0QzazBwTXp5TkwtNHB2c3NCanNuNmQycGlZcEZFRGF1Z2NOSEE",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "tier4/nebula v1.4.0",
+   "link": "https://github.com/tier4/nebula/releases/tag/v1.4.0",
+   "date": "2026-11-11 23:26",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "tier4/nebula",
+    "version": "v1.4.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "TIER IV 센서 드라이버 라이브러리 nebula v1.4.0 릴리스",
+    "korean_summary": "TIER IV가 관리하는 센서 드라이버 라이브러리 nebula를 v1.4.0으로 업데이트하여 Velodyne·ARS548·SRR520 디코더의 보안 취약점을 수정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:tier4/nebula:v1.4.0",
+   "body": "Release Notes This release fixes packet validation vulnerabilities in the Velodyne ( GHSA-7rjx-37vw-389j ), ARS548 ( GHSA-vfxx-jpg9-gqcp ) and SRR520 decoders. What's Changed fix(hesai_config): decode QT128 status and automotive PTP profile by @h-ohta in #503 fix(common): replace deprecated std::is_pod_v with non-deprecated traits by @mojomex in #492 ci: set json-schema-check to v1 by @mojomex in #504 ci: make the enable_agnocast matrix entry actually enable Agnocast by @mojomex in #501 ci: comply with the organization's GitHub Actions security policy by @mojomex in #518 ci: workaround -- pin actions nested inside composite actions and reusable workflows by @mojomex in #519 fix(nebula_velodyne): validate packet size before decoding by @mojomex in #506 ci: use a workflow dependency lockfile instead of vendored actions by @interimadd in #524 fix(nebula_hesai): ignore fault message packets in the decoder by @Autumn60 in #521 fix(nebula_velodyne): do not read past the start of an emptied scan buffer by @mojomex in #510 fix(nebula_velodyne): bound azimuth lookups to the table size by @mojomex in #511 fix(nebula_continental): guard SRR520 CAN id read against short packets by @mojomex in #507 refactor(nebula_continental): inject a logger into the ARS548 decoder by @mojomex in #515 fix(nebula_continental): reject truncated ARS548 object list packets by @mojomex in #505 chore: release v1.4.0 by @mojomex in #528 New Contributors @Autumn60 made their first contribution in #521 Full Changelog : v1.3.1...v1.4.0"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 126,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.9
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 6,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 6,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 13,
+   "in_window": 13,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 20,
+   "in_window": 18,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 14.1
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 9,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 20.7
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "Hacker News",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 4.9
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
