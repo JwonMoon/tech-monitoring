@@ -1,0 +1,881 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-13",
+ "window": [
+  "2026-11-12",
+  "2026-11-13"
+ ],
+ "generated": "2026-11-13T11:06:25+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 Shunan Bulk Terminal과 협력해 도쿠야마 쿠다마쓰 항 덤프트럭 운송을 **2028년 무인운행**으로 자동화하는 실증을 시작했다.",
+  "TIER IV와 TUM이 Autoware 기반으로 뮌헨 DZM **대형 노선버스** 자율주행 시스템 개발을 공동 지원한다.",
+  "TIER IV가 지도 정보 유무와 센서 구성을 선택 가능한 **End-to-End** 자율주행 AI 모델 5종을 공개했다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォーと周南バルクターミナル、ダンプトラックによる輸送の自動運転化に向けて協業を開始",
+   "link": "https://prtimes.jp/main/html/rd/p/000000151.000040119.html",
+   "date": "2026-11-12 11:30",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 일본 항구 덤프트럭 자동운전화 협력 추진, 2028년 무인운행 목표",
+    "korean_summary": "TIER IV가 Shunan Bulk Terminal과 협력하여 徳山下松港에서 덤프트럭 운송의 자동화를 추진, 2028년 무인운행 실현을 목표로 함"
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 도쿠야마 쿠다마쓰 항에서 덤프트럭 자율운송 실현을 위해 Shunan Bulk Terminal과 협업 개시",
+    "korean_summary": "TIER IV가 Tokuyama Corporation의 자회사 Shunan Bulk Terminal과 협력해 야마구치현 도쿠야마 쿠다마쓰 항 내 덤프트럭 운송을 **2028년 중 무인운행**으로 자동화하는 실증 협업을 시작했다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "Shunan Bulk Terminal 및 Tokuyama Corporation과 협업하여 Autoware 기반 덤프트럭 자율운송 기술 개발·실증 개시",
+     "stage": "Announced",
+     "timeline": "2028년 중 무인운행 실현 목표",
+     "scope": "일본 야마구치현 도쿠야마 쿠다마쓰 항, Shunan Bulk Terminal 보관구역~Tokuyama 도쿠야마 제조소 자가발전 설비구역 간 덤프트럭 운송"
+    },
+    "key_facts": [
+     "협업 주체: TIER IV, Shunan Bulk Terminal(Tokuyama Corporation 연결자회사), 협력사 Tokuyama Corporation",
+     "**2028년 중 무인운행(無人運行) 실현**을 목표로 함",
+     "대상 구간: Shunan Bulk Terminal 보관구역 → Tokuyama 도쿠야마 제조소 자가발전 설비구역, 유인 덤프트럭 운송에 자동운전 기술 도입 추진",
+     "자율주행 차량 연료로 Idemitsu Kosan 공급의 차세대 바이오연료 '出光リニューアブルディーゼル(IRD)' 사용, 온실가스 배출 감축 병행",
+     "향후 단일 노선을 넘어 **도쿠야마 쿠다마쓰 항 주변 지역의 유사 운송업무로 확장 검토**"
+    ],
+    "why_matters": "항만·임해공업지대의 운전자 부족과 고령화 문제에 대응해 Autoware를 공공교통 외에 건설기계·농기계·공장 내 반송차량 등 특수차량 영역으로 확장하는 사례로, TIER IV의 비(非)승용차 자율주행 사업 다각화를 보여준다. 에너지·화학 대기업(Tokuyama)과 물류 인프라 사업자(Shunan Bulk Terminal), 석유기업(Idemitsu)이 함께 참여해 산업·에너지 공급망 내 자율운송 실증이 일본 내 다른 항만·공업지대로 확산될 수 있는 레퍼런스가 될 수 있다.",
+    "subject_angle": "TIER IV는 승용차·버스 중심의 Autoware 생태계를 산업용 특수차량(덤프트럭) 영역으로 넓히며, **공공교통을 넘어 건설·농업·물류 등 B2B 산업 현장 자동화**를 신규 사업축으로 구축하고 있음을 보여준다.",
+    "focus_angle": "현재는 실증(PoC) 단계의 협업 개시 선언으로, 2028년 무인운행이라는 명확한 목표 시점을 제시했으나 양산·상용 서비스화 여부와 구체 규모는 미확인이다. 고객·범위는 Tokuyama/Shunan Bulk Terminal이라는 단일 산업 고객의 특정 항만 내 단일 노선에 한정되며, 향후 주변 지역 유사 업무로의 확장 가능성만 언급되어 있다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "자율운전 소프트웨어(Autoware) 개발·기술 제공 주체"
+     },
+     {
+      "name": "Tokuyama Corporation",
+      "context": "Shunan Bulk Terminal 모회사, 자가발전 설비 운영 및 현장 실무 협력"
+     },
+     {
+      "name": "Shunan Bulk Terminal Co., Ltd.",
+      "context": "Tokuyama 연결자회사, 덤프트럭 운송 실증 현장 운영 주체"
+     },
+     {
+      "name": "Idemitsu Kosan",
+      "context": "Shunan Bulk Terminal 주주사, 바이오연료(IRD) 공급"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "덤프트럭 자율운전 구현을 위한 오픈소스 자율주행 소프트웨어 기반"
+     },
+     {
+      "name": "Idemitsu Renewable Diesel (IRD)",
+      "role": "자율주행 덤프트럭 연료로 사용, 온실가스 감축 목적"
+     }
+    ],
+    "watch_next": [
+     "2028년 무인운행 목표 달성을 위한 중간 실증·시험운행 일정 공개 여부",
+     "도쿠야마 쿠다마쓰 항 주변 지역으로의 운송업무 확장 구체 계획",
+     "타 항만·임해공업지대 사업자와의 유사 Autoware 특수차량 협업 사례 추가 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォーと周南バルクターミナル、ダンプトラックによる輸送の自動運転化に向けて協業を開始",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSzBkUXlJcmVtWGIzSURyV2RhNE1zWURLX1pmOV8xYVdxQnBNZXhrQ0RNMnY0ZEx6MU9kdk5BcmhaeUtTaFRDT1ZNcnphclJwc256N3FFQUg0R2NKNTVmTXVxX3pZTkJyeHVCUlZKNVZva3p3SHdDWFJ3TEFsM0Yzd0RtSUxabFR0UFRRMXQ1ZkkxcDFlc2p3cFV6XzVXOFEwZTdfemF6aXo1b0hCamoyUWVTdDJZNDhzN0dKZF9sZ9IBvwFBVV95cUxPSzBkUXlJcmVtWGIzSURyV2RhNE1zWURLX1pmOV8xYVdxQnBNZXhrQ0RNMnY0ZEx6MU9kdk5BcmhaeUtTaFRDT1ZNcnphclJwc256N3FFQUg0R2NKNTVmTXVxX3pZTkJyeHVCUlZKNVZva3p3SHdDWFJ3TEFsM0Yzd0RtSUxabFR0UFRRMXQ1ZkkxcDFlc2p3cFV6XzVXOFEwZTdfemF6aXo1b0hCamoyUWVTdDJZNDhzN0dKZF9sZw?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォーと周南バルクターミナル、ダンプトラックによる輸送の自動運転化に向けて協業を開始",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSzBkUXlJcmVtWGIzSURyV2RhNE1zWURLX1pmOV8xYVdxQnBNZXhrQ0RNMnY0ZEx6MU9kdk5BcmhaeUtTaFRDT1ZNcnphclJwc256N3FFQUg0R2NKNTVmTXVxX3pZTkJyeHVCUlZKNVZva3p3SHdDWFJ3TEFsM0Yzd0RtSUxabFR0UFRRMXQ1ZkkxcDFlc2p3cFV6XzVXOFEwZTdfemF6aXo1b0hCamoyUWVTdDJZNDhzN0dKZF9sZ9IBvwFBVV95cUxPSzBkUXlJcmVtWGIzSURyV2RhNE1zWURLX1pmOV8xYVdxQnBNZXhrQ0RNMnY0ZEx6MU9kdk5BcmhaeUtTaFRDT1ZNcnphclJwc256N3FFQUg0R2NKNTVmTXVxX3pZTkJyeHVCUlZKNVZva3p3SHdDWFJ3TEFsM0Yzd0RtSUxabFR0UFRRMXQ1ZkkxcDFlc2p3cFV6XzVXOFEwZTdfemF6aXo1b0hCamoyUWVTdDJZNDhzN0dKZF9sZw?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000151.000040119.html",
+   "body": "ティアフォーと周南バルクターミナル、ダンプトラックによる輸送の自動運転化に向けて協業を開始 山口県の徳山下松港にて2028年中の無人運行の実現を目指す 株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下「ティアフォー」）と、株式会社トクヤマ（本社：山口県周南市、代表取締役 社長執行役員：井上 智弘、以下「トクヤマ」）の連結子会社である周南バルクターミナル株式会社（本社：山口県周南市、代表取締役社長：横田 範幸、以下「周南バルクターミナル」）は、徳山下松港において、トクヤマの協力のもと、自動運転技術を活用したダンプトラックによる輸送業務の自動化に向けて協業を開始し、2028年中の無人運行の実現を目指します。 日本の臨海工業地帯の港湾は、アジアをはじめとする世界各国との物流を支えるだけでなく、国内の製造業の基盤を支える原材料やエネルギー資源の集積・輸送を担う広域拠点港として重要な役割を果たしています。また、物流業界では、働き手の高齢化や減少による運転手不足への対応と持続可能な運輸体制の構築が急務となっています。こうした背景から、臨海・港湾エリアの輸送業務においても省人化や自動化を通じた生産性の向上が求められています。 ティアフォーは自動運転用オープンソースソフトウェア「Autoware」を活用し、公共交通に加え、建機、農機、工場内搬送車両といった特殊車両への自動運転技術の実装を推進しています。周南バルクターミナルは、山口県の瀬戸内海に面する国際バルク戦略港湾である徳山下松港において、石炭やバイオマスなどのエネルギー資源（バルク貨物）の荷揚げ、保管、搬出を担っています。トクヤマは、それらエネルギー資源を活用し、自家発電設備において電気や蒸気を生み出し、化学品や電子先端材料などの生産に活かしています。 本協業では、周南バルクターミナルの保管エリアから、トクヤマの徳山製造所内にある自家発電設備エリアまでのダンプトラック輸送の自動化に取り組みます。ティアフォーの自動運転技術開発やその実証・運用における知見と周南バルクターミナルのダンプトラックを用いた輸送の経験を掛け合わせ、トクヤマのエネルギー資源受け入れに伴う現場実務を踏まえながら、有人ダンプトラック輸送への自動運転技術の導入を目指します。また、実際の施設環境に合わせた技術と運用の構築を図り、2028年中の無人運行の実現に向けた開発を推進します。さらに、自動運転車両の燃料には、周南バルクターミナルの株主の1社である出光興産株式会社が供給する次世代バイオ燃料「出光リニューアブルディーゼル（IRD）」を使用し、輸送業務に伴う温室効果ガス排出量の削減にも取り組みます。 本協業を通じて蓄積する自動運転技術の導入・運用の知見を生かし、今後、単一の輸送ルートの自動化にとどまらず、徳山下松港の周辺地域における類似の輸送業務への展開を検討していきます。 周南バルクターミナル株式会社について 周南バルクターミナルは、徳山下松港が「臨海部産業エリア形成促進港」に指定されたことを契機に、株式会社トクヤマ、出光興産株式会社、トクヤマ海陸運送株式会社、周南市などの出資により、2008年8月に設立され、2012年4月より本格的に事業を開始しました。主に徳山下松港にて、輸入石炭やバイオマス燃料などの中継備蓄基地としてバルク貨物の荷揚げ、保管、搬出を行っています。また、構内に太陽光発電所を設置して使用電力の一部を再生可能エネルギーで賄うなど、CO2削減にも積極的に取り組んでいます。 株式会社トクヤマについて トクヤマは、1918年、山口県徳山町（現在の周南市）で、当時輸入品に依存していたソーダ灰の国産化を目指して設立されました。ソーダ灰や苛性ソーダなどの伝統的な基礎素材のほか、現在では半導体用多結晶シリコンや電子工業用高純度IPAなどの電子先端材料分野、フォトクロミック用メガネレンズ材料や歯科器材などのライフサイエンス分野を主なフィールドとして事業を展開しています。 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ ティアフォー pr@tier4.jp 周南バルクターミナル sbt.admin@tokuyamagr.com トクヤマ 広報・IRグループ tel.03-5207-2552 ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像"
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "category": "media",
+   "kind": "feed",
+   "title": "ティアフォーとミュンヘン工科大学、「Autoware」で大型路線バスの自動運転を支援",
+   "link": "https://response.jp/article/2026/11/13/418962.html",
+   "date": "2026-11-13 07:30",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV·뮌헨공대, Autoware 기반 대형버스 자동운전 개발 지원",
+    "korean_summary": "TIER IV와 TUM(뮌헨공대)이 TUM Autoware Research Center를 통해 뮌헨 시내의 대형 노선버스 자동운전 시스템 개발을 지원함"
+   },
+   "summary_data": {
+    "korean_title": "TIER IV-TUM, Autoware 기반 뮌헨 대형 노선버스 자율주행 개발 지원",
+    "korean_summary": "TIER IV와 Munich Institute of Technology(TUM)가 TUM Autoware Research Center를 통해 뮌헨 DZM에서 Autoware 기반 대형 노선버스 자율주행 시스템 개발을 지원한다고 발표했다.",
+    "action": {
+     "actor": "TIER IV, Munich Institute of Technology (TUM)",
+     "action": "TUM Autoware Research Center by TIER IV를 통해 German Center for Future Mobility(DZM)에서 Autoware 기반 대형 노선버스 자율주행 시스템 개발 지원",
+     "stage": "Announced",
+     "timeline": "2026년 11월 11일 발표, 연구거점은 2026년 10월 설립",
+     "scope": "독일 뮌헨 시내, 대형 노선버스 차량 플랫폼"
+    },
+    "key_facts": [
+     "TIER IV와 TUM이 11월 11일 공동 발표",
+     "**TUM Autoware Research Center by TIER IV**를 통한 협업",
+     "2026년 10월 설립된 연구거점을 축으로 한 복수년 연구협업의 실사회 적용 사례",
+     "TUM은 **일본에서의 Autoware 활용 버스 도입 실적과 노하우**를 신규 차량 플랫폼 적용 및 뮌헨 주행환경 최적화에 활용",
+     "장소는 독일 German Center for Future Mobility(DZM)"
+    ],
+    "why_matters": "이번 발표는 **Autoware가 일본 외 유럽 대형 버스 자율주행 실증으로 확장**되는 사례로, Autoware의 국제 적용 범위 확대를 보여준다. TIER IV-TUM의 학술-산업 협력 모델이 실제 상용 차량 플랫폼 적용으로 이어지는지 여부가 Autoware 생태계의 글로벌 신뢰도를 좌우할 수 있다.",
+    "subject_angle": "**유럽 연구거점을 통한 Autoware 해외 거점화**는 TIER IV가 일본 중심 사업모델에서 유럽 학술·교통 기관과의 협업으로 사업 반경을 넓히는 전략적 움직임으로 해석된다.",
+    "focus_angle": "실증 단계로, 일본에서 축적된 Autoware 버스 운영 실적을 독일 신규 차량 플랫폼에 이식하고 뮌헨 현지 주행환경에 맞춘 최적화를 진행하는 초기 협업 단계이며, 상용화(양산·서비스) 일정은 미확인이다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발사, 연구거점 공동 설립 및 기술 지원 주체"
+     },
+     {
+      "name": "Technical University of Munich (TUM)",
+      "context": "연구거점 공동 설립, 자율주행 시스템 적용 및 현지 최적화 수행"
+     }
+    ],
+    "products": [
+     {
+      "name": "Autoware",
+      "role": "대형 노선버스용 자율주행 소프트웨어 스택"
+     },
+     {
+      "name": "TUM Autoware Research Center by TIER IV",
+      "context 역할": "미확인",
+      "role": "TIER IV-TUM 공동 연구거점"
+     }
+    ],
+    "watch_next": [
+     "뮌헨 DZM에서의 실증 일정 및 결과 공개 여부",
+     "적용될 신규 차량 플랫폼의 구체적 사양",
+     "일본 버스 사례와 뮌헨 사례 간 기술적 차이점 및 양산 전환 계획"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」で大型路線バスの自動運転を支援",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpYXcyRW5Ca01ITGVMWU5tTzc2WmJvb195RG01VE1Wd3k2bUNtUWNDSXNWc3BXb0RQc2ZPU29rcWg2X3JSWERvNjFid3FoZVZmX0c4RTd2ZzhLNHhCXzhB?oc=5"
+    },
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」で大型路線バスの自動運転を支援 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hRFBWM2l0eVA1SXVkODNSTWJsNFNXY0EzeGNib01kWTltMDN0WHBOT1VoTXFhUG5IYXh5czVrXzNJV09KVGQ2RUx2UVhmaWI4VWFLZTNyd0RCWlBwQV9QMW55b21VVi1LRVNzWTczY3N1UQ?oc=5"
+    },
+    {
+     "source": "Google News · LIGARE（リガーレ）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発へ展開",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRMEZLTDlVd3RIbWhiaTQ3Z1JWWmM4NF9yRHFDVjFNYVJlcmFmMHd6NWxhLXhUVlBxUlpVcEl5Nm5heVhnY3ZpMEUwdGR1MlZLQWRJ?oc=5"
+    },
+    {
+     "source": "Google News · LIGARE（リガーレ）",
+     "title": "ティアフォーとミュンヘン工科大学、「Autoware」を活用した自動運転システムをミュンヘン市内の路線バス開発へ展開",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRMEZLTDlVd3RIbWhiaTQ3Z1JWWmM4NF9yRHFDVjFNYVJlcmFmMHd6NWxhLXhUVlBxUlpVcEl5Nm5heVhnY3ZpMEUwdGR1MlZLQWRJ?oc=5"
+    }
+   ],
+   "uid": "https://response.jp/article/2026/11/13/418962.html",
+   "body": "ティアフォーとミュンヘン工科大学（TUM）は11月11日、TUM Autoware Research Center by TIER IVを通じて、ミュンヘンのGerman Center for Future Mobility（DZM）で「Autoware」を活用した大型路線バス向け自動運転システムの開発を支援すると発表した。 本取り組みは、2026年10月に設立した研究拠点を軸に、複数年にわたる研究協業の実社会への応用事例として位置づけられる。 TUMは、日本での「Autoware」活用バス導入の実績や知見を生かし、新たな車両プラットフォームへのソフトウェアスタック適用と、ミュンヘン市内の走行環境に合わせた最適化に取り組む。"
+  },
+  {
+   "source": "Google News · PR Newswire",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV and Shunan Bulk Terminal collaborate to automate transportation using an autonomous dump truck, targeting driverless operations by the end of 2028",
+   "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNVjJIMjUwUzZyM3paZ01iSmVxNmxxcXNBYkhmRHFINnVzbHJoX1JlVk5uUXFpUVZKLUhIbWZwS2thV0RNS29rdHN6WGpwRVAwNVFaeG5WN1VpTGNEbE9ZSjd0NjRYZlN3bGZvVXA5bkFYenFuTkwxS3otc2t3Y29wbHV0U0xZSUVjOVJsSEEwd0kxV01MY19waHFKM19XTHQ2Q28zUFpVc1ZKNUJMU3ZBQ2NqTlJLZGh5RXhZcXQ0ZG9jSE5xdzJ3Y0l3OExoU0FERHEzbHJZRGlyazRDWDh4cTRydU9OVUFxbmtqVmE2Rnc3UWt2NTlCcVJIWE9yVkdEZTE0WkkzR0FsWjIxSzY3TUFyQ3FxaTcwTkVRRlVCS0pPWFFSZEoyWm5DSGJHS3VSUktz?oc=5",
+   "date": "2026-11-12 11:30",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV·Shunan Bulk Terminal, 자동운전 덤프트럭 협력",
+    "korean_summary": "TIER IV와 Shunan Bulk Terminal이 자동운전 기술을 활용한 덤프트럭 운송 자동화 협력, 2028년 무인운행 목표"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and Shunan Bulk Terminal collaborate to automate transportation using an autonomous dump truck, targeting driverless operations by the end of 2028",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbC16aGdkQjJaMXFRN21GS0pzZW03RmpreXZUUjNBTGx4OFg2SHpCMlFPMEt3ZUEyRk9ETUE0RXotQW00NFlzOG9nTkNtVnJPLTNQREttblZwTWJ2TkZ2ekZwOGNySnAwcFVqT2NyN3NFaDRhcmF4VE54TXN4a0N2MjNfTnlucHkwMnZsTEluTmNibHZWUDlJRXF2UDJuX3F5dy04eUpBV3pJQnpMWFFOcm9yMNIBwwFBVV95cUxOWUkxdEpza3ZJbWxiZHNnWXNTejM1MGRDaFMxMEEydkdPRHFvbW41TkpQcnYxU1cwQmd5OWxJOGRoaHIxSUxTUlFMOTRkaUZnVlZEdEdRdkNvSmlYd09jcFpZd2sxWkRubUpSSEs2bjBBSWRZUU1rSkJ3NXpfX3RIbkIxdnRteTRCN25FWTdLQklHX0JleDhLbUcyVU9aTkZOXzVRN1lVVFd1ejlaRmNkZ0JKbFEzdFVfYmRUNEQzS3NabEk?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "TIER IV and Shunan Bulk Terminal collaborate to automate transportation using an autonomous dump truck, targeting driverless operations by the end of 2028",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbC16aGdkQjJaMXFRN21GS0pzZW03RmpreXZUUjNBTGx4OFg2SHpCMlFPMEt3ZUEyRk9ETUE0RXotQW00NFlzOG9nTkNtVnJPLTNQREttblZwTWJ2TkZ2ekZwOGNySnAwcFVqT2NyN3NFaDRhcmF4VE54TXN4a0N2MjNfTnlucHkwMnZsTEluTmNibHZWUDlJRXF2UDJuX3F5dy04eUpBV3pJQnpMWFFOcm9yMNIBwwFBVV95cUxOWUkxdEpza3ZJbWxiZHNnWXNTejM1MGRDaFMxMEEydkdPRHFvbW41TkpQcnYxU1cwQmd5OWxJOGRoaHIxSUxTUlFMOTRkaUZnVlZEdEdRdkNvSmlYd09jcFpZd2sxWkRubUpSSEs2bjBBSWRZUU1rSkJ3NXpfX3RIbkIxdnRteTRCN25FWTdLQklHX0JleDhLbUcyVU9aTkZOXzVRN1lVVFd1ejlaRmNkZ0JKbFEzdFVfYmRUNEQzS3NabEk?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNVjJIMjUwUzZyM3paZ01iSmVxNmxxcXNBYkhmRHFINnVzbHJoX1JlVk5uUXFpUVZKLUhIbWZwS2thV0RNS29rdHN6WGpwRVAwNVFaeG5WN1VpTGNEbE9ZSjd0NjRYZlN3bGZvVXA5bkFYenFuTkwxS3otc2t3Y29wbHV0U0xZSUVjOVJsSEEwd0kxV01MY19waHFKM19XTHQ2Q28zUFpVc1ZKNUJMU3ZBQ2NqTlJLZGh5RXhZcXQ0ZG9jSE5xdzJ3Y0l3OExoU0FERHEzbHJZRGlyazRDWDh4cTRydU9OVUFxbmtqVmE2Rnc3UWt2NTlCcVJIWE9yVkdEZTE0WkkzR0FsWjIxSzY3TUFyQ3FxaTcwTkVRRlVCS0pPWFFSZEoyWm5DSGJHS3VSUktz",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーやトクヤマ、28年にダンプトラック輸送を無人化",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MMUdEcVJ1T1dNN0RkaEZMVzVocU1UYTZWQ2I3cGJTVWRqcWY2X0lfUGVpWXduVEkzQXBVd2ZPaUdfZ0ZCN1hiLWwyWVZTRzlMdEJkZzQ0U29NMVhYdUltX1VIZTBrNHYtUFhxYg?oc=5",
+   "date": "2026-11-12 15:48",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV·도쿠야마, 2028년 덤프트럭 무인화 계획",
+    "korean_summary": "TIER IV와 도쿠야마가 2028년에 덤프트럭 운송의 무인화 실현을 목표로 함"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 日本経済新聞",
+     "title": "ティアフォーやトクヤマ、28年にダンプトラック輸送を無人化",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MMUdEcVJ1T1dNN0RkaEZMVzVocU1UYTZWQ2I3cGJTVWRqcWY2X0lfUGVpWXduVEkzQXBVd2ZPaUdfZ0ZCN1hiLWwyWVZTRzlMdEJkZzQ0U29NMVhYdUltX1VIZTBrNHYtUFhxYg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MMUdEcVJ1T1dNN0RkaEZMVzVocU1UYTZWQ2I3cGJTVWRqcWY2X0lfUGVpWXduVEkzQXBVd2ZPaUdfZ0ZCN1hiLWwyWVZTRzlMdEJkZzQ0U29NMVhYdUltX1VIZTBrNHYtUFhxYg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Dellows News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーと周南バルクターミナル、徳山下松港でダンプ自動運行へ協業",
+   "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1pY1VrU2pjMURFUWdkOTI5OGZ6RVZNV3UyWktxcnJMdlViazNfSl9BRGpoRWVuNUFGZVRZTHQ1UFZRaVFWZV9V?oc=5",
+   "date": "2026-11-12 13:40",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 周南バルクターミナルと덤프트럭 자동운전 실증 협업",
+    "korean_summary": "TIER IV와 周南バルクターミナルが 徳山下松港에서 덤프트럭 수송의 자동운전화를 위한 협업을 개시한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Dellows News",
+     "title": "ティアフォーと周南バルクターミナル、徳山下松港でダンプ自動運行へ協業",
+     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1pY1VrU2pjMURFUWdkOTI5OGZ6RVZNV3UyWktxcnJMdlViazNfSl9BRGpoRWVuNUFGZVRZTHQ1UFZRaVFWZV9V?oc=5"
+    },
+    {
+     "source": "Google News · 日本経済新聞",
+     "title": "ティアフォー[593A]：ダンプトラック輸送の自動運転化に向けた 周南バルクターミナル株式会社との協業に関するお知らせ 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnZOSnlvc2N0cVJEbGNYc05hSXFRMmdrUW51YTU2TXB1cXhmbWZGZmdrOTlqTUkycG1jN2FfenEtb1FyNGR2S1oxM1pNN2w4VXVOal9HR01TejhTcXFVbnYxMWpYTFFGdVI0a0stVGlrQVBMZ2pxY0J0SVdSZXBoR0lPSTdSRE9BMEc3VjVpajFLUzdib3FMTVo3MHpLcFRBTkY1RGRHQzNKMVVWdmV6YWYza2lHWUV3eUxPRTBwRXJCOU9ndWtTQmRjazU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1pY1VrU2pjMURFUWdkOTI5OGZ6RVZNV3UyWktxcnJMdlViazNfSl9BRGpoRWVuNUFGZVRZTHQ1UFZRaVFWZV9V",
+   "body": ""
+  },
+  {
+   "source": "Google News · XenoSpectrum",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Unveils 5 End-to-End Autonomous Driving AI Models, Including a Camera-Only Option",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vdXdVWXBfZlpfb2paQ3N3TVBEWG9pRUJhRHF0c0JXNVR3ZHR1NFB2cXNnMmYyNTBJMTVfQk9kNlpLLW9SRjFnSmY3UTZfMVA5VGFZVENCc25hZ0pGVzB4Tk5aemE?oc=5",
+   "date": "2026-11-12 14:15",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": true,
+    "signal_tags": [
+     "perception"
+    ],
+    "korean_title": "TIER IV, 5개 End-to-End 자율주행 AI 모델 공개",
+    "korean_summary": "TIER IV가 카메라 전용 옵션을 포함한 5개의 End-to-End 자율주행 AI 모델을 공개함"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vdXdVWXBfZlpfb2paQ3N3TVBEWG9pRUJhRHF0c0JXNVR3ZHR1NFB2cXNnMmYyNTBJMTVfQk9kNlpLLW9SRjFnSmY3UTZfMVA5VGFZVENCc25hZ0pGVzB4Tk5aemE",
+   "body": ""
+  },
+  {
+   "source": "Google News · レスポンス（Response.jp）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能 1枚目の写真・画像",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jeGhrdmZqWV84LWZ0YUNoV0lmZ1dJazRNYVJuUllHWURYQWZ6TE5hQWExOGtoMjMtRnZxZHlLRm40V0ZkMWdEd0cyLTNmanJPeU5kYlFyeGFoY2lJeWRoMDRUWHFvenlWeUQ4bkxTTQ?oc=5",
+   "date": "2026-11-12 06:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "TIER IV, 지도 정보 유무와 센서 구성에 따른 선택형 E2E 자동운전 기술 공개",
+    "korean_summary": "TIER IV가 지도 정보의 유무와 센서 구성을 선택 가능하게 하는 End-to-End 자동운전 기술을 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · レスポンス（Response.jp）",
+     "title": "ティアフォー、E2E自動運転を開発…地図情報の有無やセンサー構成を選択可能 1枚目の写真・画像",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jeGhrdmZqWV84LWZ0YUNoV0lmZ1dJazRNYVJuUllHWURYQWZ6TE5hQWExOGtoMjMtRnZxZHlLRm40V0ZkMWdEd0cyLTNmanJPeU5kYlFyeGFoY2lJeWRoMDRUWHFvenlWeUQ4bkxTTQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jeGhrdmZqWV84LWZ0YUNoV0lmZ1dJazRNYVJuUllHWURYQWZ6TE5hQWExOGtoMjMtRnZxZHlLRm40V0ZkMWdEd0cyLTNmanJPeU5kYlFyeGFoY2lJeWRoMDRUWHFvenlWeUQ4bkxTTQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · LOGISTICS TODAY",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、自動運転AIの複数モデル公開",
+   "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9JbUw5LXI3TURoakNFZHVDamJ6S3NrVEppT1JEV0hmalpMY1ZFTEIweTgwbFpzaHBvV1dTbWd5Y1JZVGlUUVNET1J3?oc=5",
+   "date": "2026-11-12 15:30",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "TIER IV, 자동운전 AI 복수 모델 공개",
+    "korean_summary": "TIER IV가 자동운전 인공지능의 여러 모델을 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9JbUw5LXI3TURoakNFZHVDamJ6S3NrVEppT1JEV0hmalpMY1ZFTEIweTgwbFpzaHBvV1dTbWd5Y1JZVGlUUVNET1J3",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Automotive Industry Portal MarkLines",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、システム構成に応じて選べるE2E自動運転AIを公開",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ieHRDeTJCQ1VvY2dhZkdIdnZlQVExbGwwY01jakEwd0d3SXMwTGREdmZiWGFPRG1YeHZWUUhtR3VOMXQzS2R6YzVSV3Q2TlVPaHc?oc=5",
+   "date": "2026-11-12 11:20",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "TIER IV, 시스템 구성별 선택형 E2E 자동운전 AI 공개",
+    "korean_summary": "TIER IV가 시스템 구성에 따라 선택 가능한 End-to-End 자동운전 AI를 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ieHRDeTJCQ1VvY2dhZkdIdnZlQVExbGwwY01jakEwd0d3SXMwTGREdmZiWGFPRG1YeHZWUUhtR3VOMXQzS2R6YzVSV3Q2TlVPaHc",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日刊自動車新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、地図やセンサーの有無に対応するE2E自動運転技術を開発 オープンソースで公開",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIQ3VLMDJEZDVCcDBMb1lnWEhxQ2RDd2ZxM08tYkpQd1VFU2tqYXlBbGc0NmhaTHFfNmVDTUlURmQtQU1TWU5TcnBsYjBDWmtTZVE?oc=5",
+   "date": "2026-11-12 05:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Perception-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "release",
+     "perception"
+    ],
+    "korean_title": "TIER IV, 지도·센서 유무에 대응하는 E2E 자동운전 기술 오픈소스 공개",
+    "korean_summary": "TIER IV가 지도 정보와 센서 유무에 대응하는 End-to-End 자동운전 기술을 오픈소스로 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIQ3VLMDJEZDVCcDBMb1lnWEhxQ2RDd2ZxM08tYkpQd1VFU2tqYXlBbGc0NmhaTHFfNmVDTUlURmQtQU1TWU5TcnBsYjBDWmtTZVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Unite.AI",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV Targets Driverless Dump Truck Operations at Japanese Port",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVduZ244N1dxQTBlNW9YNDZkaEhibUkyTERjWWhNZGF0WTNEWTFQdFRaTkxuSFI2alkybUtfTG95aDZNSktXaFAwYnh1SGQ4bGdyQUtVbXVldHd0eGZQYlc1QzZKcTVuUUxzd3BubmRQUTRlUExfTGNKUXFsMTlQelhMc184c0R3XzBmZ2JwZjU?oc=5",
+   "date": "2026-11-12 11:48",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 일본 항구 덤프트럭 무인 운영 추진",
+    "korean_summary": "TIER IV가 일본 항구에서 덤프트럭의 무인 운영 목표를 추진 중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVduZ244N1dxQTBlNW9YNDZkaEhibUkyTERjWWhNZGF0WTNEWTFQdFRaTkxuSFI2alkybUtfTG95aDZNSktXaFAwYnh1SGQ4bGdyQUtVbXVldHd0eGZQYlc1QzZKcTVuUUxzd3BubmRQUTRlUExfTGNKUXFsMTlQelhMc184c0R3XzBmZ2JwZjU",
+   "body": ""
+  },
+  {
+   "source": "Google News · LOGI-BIZ online",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーとトクヤマグループ、山口の徳山下松湾でダンプトラックの輸送自動運転へ連携",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPS0dtSDVCWGtFbnhWWC05TEdXVm5Gd0VuOUZOTXdqek14alJ6VkNWQzNBOElQeGlYZUU0UDQyQzBNRmRGNGwzM2tYaw?oc=5",
+   "date": "2026-11-12 19:18",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 도쿠야마 그룹과 덤프트럭 자동운전 협력",
+    "korean_summary": "TIER IV와 도쿠야마 그룹이 徳山下松灣에서 덤프트럭 자동운전 협력 추진"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · LOGI-BIZ online",
+     "title": "ティアフォーとトクヤマグループ、山口の徳山下松湾でダンプトラックの輸送自動運転へ連携",
+     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPS0dtSDVCWGtFbnhWWC05TEdXVm5Gd0VuOUZOTXdqek14alJ6VkNWQzNBOElQeGlYZUU0UDQyQzBNRmRGNGwzM2tYaw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPS0dtSDVCWGtFbnhWWC05TEdXVm5Gd0VuOUZOTXdqek14alJ6VkNWQzNBOElQeGlYZUU0UDQyQzBNRmRGNGwzM2tYaw",
+   "body": ""
+  },
+  {
+   "source": "Google News · トラックニュース",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、周南バルクターミナル／徳山下松港でダンプ自動化へ協業、2028年中頃の無人運行を目指す",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByd28zWkNMcjBvbXFhZ0ZpLUdSekVOdjlmWk9qVGdiVE83NkprVFZmbmdtWW9UcHZabDY5QXJjcGdzWkRVd3R2ZFZQRTd5ck1pU2JZcg?oc=5",
+   "date": "2026-11-12 14:44",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV, 덤프트럭 2028년 무인운행 목표",
+    "korean_summary": "TIER IV가 Shunan Bulk Terminal과 협력하여 덤프트럭 수송의 무인운행을 2028년 중 실현 목표"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · トラックニュース",
+     "title": "ティアフォー、周南バルクターミナル／徳山下松港でダンプ自動化へ協業、2028年中頃の無人運行を目指す",
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByd28zWkNMcjBvbXFhZ0ZpLUdSekVOdjlmWk9qVGdiVE83NkprVFZmbmdtWW9UcHZabDY5QXJjcGdzWkRVd3R2ZFZQRTd5ck1pU2JZcg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByd28zWkNMcjBvbXFhZ0ZpLUdSekVOdjlmWk9qVGdiVE83NkprVFZmbmdtWW9UcHZabDY5QXJjcGdzWkRVd3R2ZFZQRTd5ck1pU2JZcg",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "autowarefoundation/agnocast release 2.4.2 (#1694)",
+   "link": "https://github.com/autowarefoundation/agnocast/releases/tag/2.4.2",
+   "date": "2026-11-12 17:17",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "autowarefoundation/agnocast",
+    "version": "2.4.2"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Release-Version",
+    "is_focus": false,
+    "signal_tags": [
+     "release"
+    ],
+    "korean_title": "agnocast 2.4.2 패치 릴리스",
+    "korean_summary": "Autoware 보조 패키지 agnocast의 2.4.2 버전이 GitHub에서 릴리스됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:autowarefoundation/agnocast:2.4.2",
+   "body": "add CHANGELOG Signed-off-by: Koichi Imai koichi.imai.2@tier4.jp 2.4.2 Signed-off-by: Koichi Imai koichi.imai.2@tier4.jp update metapackage depend versions Signed-off-by: Koichi Imai koichi.imai.2@tier4.jp update to v2.4.2 Signed-off-by: Koichi Imai koichi.imai.2@tier4.jp Signed-off-by: Koichi Imai koichi.imai.2@tier4.jp"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 127,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 7,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 8,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 5,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 17,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 3,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 31,
+   "in_window": 18,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 15.2
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 7,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 19.8
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "Hacker News",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.6
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  }
+ ]
+}
