@@ -1,0 +1,910 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-14",
+ "window": [
+  "2026-11-13",
+  "2026-11-14"
+ ],
+ "generated": "2026-11-14T10:38:50+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV가 Komatsu와 **2027년** 일본·북미 광산·토목 현장용 덤프트럭 3개 기종 자율주행 공동개발에 착수했다.",
+  "TIER IV가 Komatsu로부터 **대규모 수주**를 획득하며 사업 확대 기반을 마련했다.",
+  "TIER IV가 2026년 9월 기말 결산에서 관계회사 투자손실 등으로 **631억 엔 순손실**을 기록했다."
+ ],
+ "cards": [
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始",
+   "link": "https://prtimes.jp/main/html/rd/p/000000148.000040119.html",
+   "date": "2026-11-13 16:00",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV·Komatsu, 2027년 도입 목표로 덤프트럭 자동운전 공동개발 시작",
+    "korean_summary": "TIER IV와 Komatsu가 국내·북미 채석·토목현장 대상 3기종 덤프트럭의 자동운전 시스템 공동개발을 시작했습니다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV·Komatsu, 2027년 국내·북미 광산·토목 현장 덤프트럭 자율주행 공동개발 착수",
+    "korean_summary": "TIER IV가 Komatsu와 손잡고 2027년 일본 및 북미 채석·토목 현장에 리지드·아티큘레이트 덤프트럭 3개 기종의 자율주행 시스템을 공동개발하기로 했다.",
+    "action": {
+     "actor": "TIER IV, Komatsu",
+     "action": "덤프트럭 3기종(HD785, HD605, HM400/460) 대상 자율주행 시스템 공동개발 개시",
+     "stage": "Announced",
+     "timeline": "2027년 국내·북미 현장 도입 목표 (2025년 9월 협업 개시, 이번 발표로 가속화)",
+     "scope": "일본 국내 및 북미 채석·토목 현장, Komatsu 덤프트럭 3기종"
+    },
+    "key_facts": [
+     "대상 기종: 리지드 덤프트럭 HD785(**최대 적재질량 93.9톤**), HD605(64.1톤), 아티큘레이트 덤프트럭 HM400/460(42톤)",
+     "TIER IV의 자율주행 기술과 Komatsu의 차량 설계·제어 기술을 융합해 **적재·운반·배토 각 유스케이스 대응 시스템 개발·검증**",
+     "Komatsu 자회사 EARTHBRAIN의 관제 시스템과 연계해 차량 단독이 아닌 현장 전체 운행관리 포함 자동화 솔루션 추진",
+     "TIER IV·Komatsu·EARTHBRAIN 3사는 2025년 9월부터 건설기계 자율주행 실용화 협업을 진행 중이며 이번이 그 가속화 단계",
+     "목표: 2027년 국내·북미 현장 도입"
+    ],
+    "why_matters": "건설기계 자율주행은 승용차 대비 규제 장벽이 낮고 폐쇄현장·반복작업 특성상 상용화가 빠를 수 있어, TIER IV가 자동차 외 영역에서 **구체적 양산·도입 시점(2027)**을 제시한 사례다. Komatsu·EARTHBRAIN과의 차량-관제 통합 솔루션 구축은 TIER IV의 사업 다각화와 일본 기업 간 수직 협력 모델을 보여준다.",
+    "subject_angle": "TIER IV는 자동차용 Autoware를 넘어 건설기계 분야로 기술을 확장하며 Komatsu라는 글로벌 중장비 업체와의 파트너십을 통해 **비자동차 산업으로의 포트폴리오 다변화**를 구체화하고 있다.",
+    "focus_angle": "자동차 자율주행과 달리 폐쇄된 채석·토목 현장이라는 제한된 환경에서 적재·운반·배토 유스케이스에 특화된 시스템을 개발함으로써, **일반 도로 규제 대신 현장 운영 효율과 EARTHBRAIN 관제 연계가 상용화의 핵심 변수**가 되는 구조다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "자율주행 기술 제공, 공동개발 주체"
+     },
+     {
+      "name": "Komatsu",
+      "context": "덤프트럭 제조사, 차량 설계·제어 기술 제공, 공동개발 주체"
+     },
+     {
+      "name": "EARTHBRAIN",
+      "context": "Komatsu 자회사, 현장 관제 시스템 개발 및 연계"
+     }
+    ],
+    "products": [
+     {
+      "name": "HD785",
+      "role": "리지드 덤프트럭, 최대 적재질량 93.9톤, 자율주행 적용 대상"
+     },
+     {
+      "name": "HD605",
+      "role": "리지드 덤프트럭, 최대 적재질량 64.1톤, 자율주행 적용 대상"
+     },
+     {
+      "name": "HM400/460",
+      "role": "아티큘레이트 덤프트럭, 최대 적재질량 42톤, 자율주행 적용 대상"
+     }
+    ],
+    "watch_next": [
+     "실증시험 착수 시점 및 장소(일본 국내/북미) 공개 여부",
+     "EARTHBRAIN 관제 시스템과의 연계 세부 내용 및 기술 구조",
+     "2027년 도입 전 중간 단계(파일럿·검증) 발표 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9acnBpUVZxckYydUk3QnRTMmNndXJxSHJFZ1g1SnlhaXBNa0RkckE5emtqSWpsazBGWTNZU1N1VzhsOUMxQlBxQ2VQbnB0WTJGQ0Jnc3lTRGtTMl94NkhadmtVeTI2d3ZmNXc?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSjVRWVNYWWZwR3E1NkVES2FWTzFOVVMwX2VIUlEzV2dqU0pKZFAzd08zOFROT3ZtWUpVMWxZY094QXhrM0NvX1FaR0dsR3ByVjdDWGJVWG4zaW9CVTNxUWc0MFdSYkY0NlYtcng5YVhWdmw2SVBHcmVqNi1OT0JNNEhKLWs5TU1yR2hzWDR0cjRjRjRjdmU5TS1nTWJJdWhWZ3AyM3hqcUlkeHdvR0k3SHpCbFV0dlAySGNBRW9jbjBONDZyaW9ReG9MOFcyQlhh0gHQAUFVX3lxTE1KNVFZU1hZZnBHcTU2RURLYVZPMU5VUzBfZUhSUTNXZ2pTSkpkUDN3TzM4VE5Pdm1ZSlUxbFljT3hBeGszQ29fUVpHR2xHcHJWN0NYYlVYbjNpb0JVM3FRZzQwV1JiRjQ2Vi1yeDlhWFZ2bDZJUEdyZWo2LU5PQk00SEotazlNTXJHaHNYNHRyNGNGNGN2ZTlNLWdNYkl1aFZncDIzeGpxSWR4d29HSTdIekJsVXR2UDJIY0FFb2NuME40NnJpb1F4b0w4VzJCWGE?oc=5"
+    },
+    {
+     "source": "Google News · ティアフォー（Tier IV）",
+     "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSjVRWVNYWWZwR3E1NkVES2FWTzFOVVMwX2VIUlEzV2dqU0pKZFAzd08zOFROT3ZtWUpVMWxZY094QXhrM0NvX1FaR0dsR3ByVjdDWGJVWG4zaW9CVTNxUWc0MFdSYkY0NlYtcng5YVhWdmw2SVBHcmVqNi1OT0JNNEhKLWs5TU1yR2hzWDR0cjRjRjRjdmU5TS1nTWJJdWhWZ3AyM3hqcUlkeHdvR0k3SHpCbFV0dlAySGNBRW9jbjBONDZyaW9ReG9MOFcyQlhh0gHQAUFVX3lxTE1KNVFZU1hZZnBHcTU2RURLYVZPMU5VUzBfZUhSUTNXZ2pTSkpkUDN3TzM4VE5Pdm1ZSlUxbFljT3hBeGszQ29fUVpHR2xHcHJWN0NYYlVYbjNpb0JVM3FRZzQwV1JiRjQ2Vi1yeDlhWFZ2bDZJUEdyZWo2LU5PQk00SEotazlNTXJHaHNYNHRyNGNGNGN2ZTlNLWdNYkl1aFZncDIzeGpxSWR4d29HSTdIekJsVXR2UDJIY0FFb2NuME40NnJpb1F4b0w4VzJCWGE?oc=5"
+    },
+    {
+     "source": "Google News · PR TIMES",
+     "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9acnBpUVZxckYydUk3QnRTMmNndXJxSHJFZ1g1SnlhaXBNa0RkckE5emtqSWpsazBGWTNZU1N1VzhsOUMxQlBxQ2VQbnB0WTJGQ0Jnc3lTRGtTMl94NkhadmtVeTI2d3ZmNXc?oc=5"
+    },
+    {
+     "source": "Google News · ライブドアニュース",
+     "title": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始 (2026年11月13日掲載)",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TUUhMTzVWbm1taFI5cmgtbU1wdG9EYmpzMTI3azZWQ0xDeDE2YjQ1TWFIOE0xcmlCU1BfOTNLYWdsR25qT1ZPSl9XbFpaOVFjT29qTFBDNDNHMXlNV3ZReU53?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000148.000040119.html",
+   "body": "ティアフォー・コマツ、国内・北米の採石・土木現場への2027年導入に向けて、ダンプトラック3機種に関する自動運転システムの共同開発を開始 株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下ティアフォー）は、コマツ（社長：今吉 琢也）と、国内および北米の採石・土木現場におけるダンプトラックの自動運転技術の実用化に向け、ダンプトラック3機種に関する自動運転システムの共同開発を開始しました。ティアフォー、コマツおよびコマツの子会社である株式会社EARTHBRAIN（社長：小野寺 昭則、以下、EARTHBRAIN）は2025年9月より建設機械の自動運転技術の実用化に向けた協業を開始しており、本共同開発により、2027年の国内・北米での導入に向けて本協業を加速させます。 ティアフォーとコマツは、採石・土木現場などで使用されるリジッドダンプトラック「HD785」（最大積載質量93.9トン）・「HD605」（最大積載質量64.1トン）、アーティキュレートダンプトラック「HM400/460」（最大積載質量42トン）を対象として、ティアフォーの自動運転技術とコマツの車両設計・実装技術および車両制御技術を融合し、実際の現場オペレーションにおける積込み、運搬、排土の各ユースケースに対応可能な自動運転システムの開発・検証に共同で取り組みます。 さらに、EARTHBRAINが開発する管制システムと本システムの連携により、車両単体の自動運転にとどまらない、現場全体の運行管理を含む自動化ソリューションの実用化を進めていきます。 ティアフォー、コマツおよびEARTHBRAINは、実証試験・現場導入を通じて現場での運用上の知見を蓄積し、お客さまが導入しやすく、継続的に活用できる自動化ソリューションの実現を目指します。省人化と安全で効率的な車両運行を通じて、現場の安全性および生産性の向上に貢献していきます。 広報に関するお問い合わせ ティアフォー pr@tier4.jp コマツ サステナビリティ推進本部コーポレートコミュニケーション部 tel: 03(6849)9703 mail: JP00MB_cc_department@global.komatsu ※ニュースリリースに記載されている情報は発表時のものであり、予告なしに変更される場合があります。 すべての画像"
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "採れたて株価材料－ティアフォー 小松製作所より大口受注 決算も発表(トレーダーズ・ウェブ)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3JpLTl1MGI1ai02anlDcTdnUy1ITW8ySERmMFZ0M3VMbXlfMHRkQ0dka19qd1c1UFJIZ1V5RXo5Y0J4YkJ3WTB4WTRWcW1fZ1E1RHBwemlfRlpCTElCZ1pNX0U0YkY4X3h5VEFPSEVYMDZaeldDdmxsWF9yNWdya2pnRTFiRkE?oc=5",
+   "date": "2026-11-13 16:35",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "order",
+     "earnings"
+    ],
+    "korean_title": "TIER IV, Komatsu로부터 대규모 수주 획득",
+    "korean_summary": "TIER IV가 Komatsu로부터 대규모 수주를 받았으며 동시에 결산을 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "採れたて株価材料－ティアフォー 小松製作所より大口受注 決算も発表(トレーダーズ・ウェブ)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3JpLTl1MGI1ai02anlDcTdnUy1ITW8ySERmMFZ0M3VMbXlfMHRkQ0dka19qd1c1UFJIZ1V5RXo5Y0J4YkJ3WTB4WTRWcW1fZ1E1RHBwemlfRlpCTElCZ1pNX0U0YkY4X3h5VEFPSEVYMDZaeldDdmxsWF9yNWdya2pnRTFiRkE?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON3JpLTl1MGI1ai02anlDcTdnUy1ITW8ySERmMFZ0M3VMbXlfMHRkQ0dka19qd1c1UFJIZ1V5RXo5Y0J4YkJ3WTB4WTRWcW1fZ1E1RHBwemlfRlpCTElCZ1pNX0U0YkY4X3h5VEFPSEVYMDZaeldDdmxsWF9yNWdya2pnRTFiRkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · AI 매터스",
+   "category": "kr",
+   "kind": "gnews",
+   "title": "日 티어포, 도쿠야마항 덤프트럭 자율주행 추진…2028년 무인 운행 목표",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HRXdsMnhXSWItR1U2bVNWYllPNG1FSzI4ajBiVFlBSHNSRGZFU3VYSEE4V1VPZjRiWVpBZFJDS29VSkI2N0VVZXJrcm50eHphbDdxOA?oc=5",
+   "date": "2026-11-13 14:55",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "deployment",
+     "pilot"
+    ],
+    "korean_title": "TIER IV, 도쿠야마항 덤프트럭 자율주행 2028년 무인 운행 목표",
+    "korean_summary": "TIER IV가 도쿠야마항에서 덤프트럭 자율주행 무인 운행을 2028년까지 실현할 목표를 세웠다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5HRXdsMnhXSWItR1U2bVNWYllPNG1FSzI4ajBiVFlBSHNSRGZFU3VYSEE4V1VPZjRiWVpBZFJDS29VSkI2N0VVZXJrcm50eHphbDdxOA",
+   "body": ""
+  },
+  {
+   "source": "Google News · MOTOR CARS",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォーとコマツ、ダンプトラックの自動運転システムを共同開発",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRU5XeVVvTFdiRFYtYzk5NkFtRXlGYmxUU3JxMzExbUZZWVRHRWhiRVNxXzdwbFpJTkptM2N0R09tMDhTMkNuT3BLeWJQZk53Vm9lQng0LVFmeXJtM1dTRnVueFdteDdRUGhxQVlRLWJiTTZ1WGlDVXpibnBzM2U5QldETHhoNHJUTFdPZElPek9naGllbjlGRTZGczVzMHlpNTB6eTRpQ202WFJDd1E?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "TIER IV와 Komatsu, 덤프트럭 자율주행 시스템 공동개발",
+    "korean_summary": "TIER IV와 Komatsu가 덤프트럭 자율주행 시스템 개발을 공동으로 추진한다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · マイナビニュース",
+     "title": "ティアフォーとコマツ、ダンプトラック3機種の自動運転システムを共同開発",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pXzBURWZySnpfSllTSEs3NlRPQ2xSY2lMLUlDd19FTW1tZEJfTVRVZ1FmOEtnN3dRckkwUzhRV1RLMWJqRXY3S3kyMkxxOFU3S2ZSUDB5R1MzeEp3YkRiOFVpWXhhSVdF?oc=5"
+    },
+    {
+     "source": "Google News · MOTOR CARS",
+     "title": "ティアフォーとコマツ、ダンプトラックの自動運転システムを共同開発",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRU5XeVVvTFdiRFYtYzk5NkFtRXlGYmxUU3JxMzExbUZZWVRHRWhiRVNxXzdwbFpJTkptM2N0R09tMDhTMkNuT3BLeWJQZk53Vm9lQng0LVFmeXJtM1dTRnVueFdteDdRUGhxQVlRLWJiTTZ1WGlDVXpibnBzM2U5QldETHhoNHJUTFdPZElPek9naGllbjlGRTZGczVzMHlpNTB6eTRpQ202WFJDd1E?oc=5"
+    },
+    {
+     "source": "Google News · Dellows News",
+     "title": "ティアフォーとコマツ、ダンプトラック3機種の自動運転システムを共同開発",
+     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1oeHBQQVk2M0h4RzlsdHR0Z0gzbTBNYXFfeVljSlpxeDFJWm1MdE42ZHV1U1V2SUhsQWNnR2RVVkVyenlMV21J?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRU5XeVVvTFdiRFYtYzk5NkFtRXlGYmxUU3JxMzExbUZZWVRHRWhiRVNxXzdwbFpJTkptM2N0R09tMDhTMkNuT3BLeWJQZk53Vm9lQng0LVFmeXJtM1dTRnVueFdteDdRUGhxQVlRLWJiTTZ1WGlDVXpibnBzM2U5QldETHhoNHJUTFdPZElPek9naGllbjlGRTZGczVzMHlpNTB6eTRpQ202WFJDd1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、コマツと自動運転ダンプ実用化へ 27年に",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GbGptaEdFSFA5ZktvR2FYOUlnY2Z6YXNtYU1wLUFveGRpZkFPV3dKd2dzbGgxTWF1eXkxVldnajU3YXlWYUwzTjZMRUtZbElCekNydU1Wc0ZBY09NVjg2eEJHLXc4ZW82TXhCVw?oc=5",
+   "date": "2026-11-13 19:57",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "deployment"
+    ],
+    "korean_title": "TIER IV와 Komatsu, 자율주행 덤프트럭 2027년 실용화 목표",
+    "korean_summary": "TIER IV와 Komatsu가 자율주행 덤프트럭을 2027년에 실용화하기로 목표를 정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GbGptaEdFSFA5ZktvR2FYOUlnY2Z6YXNtYU1wLUFveGRpZkFPV3dKd2dzbGgxTWF1eXkxVldnajU3YXlWYUwzTjZMRUtZbElCekNydU1Wc0ZBY09NVjg2eEJHLXc4ZW82TXhCVw",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー[593A]：大口受注に関するお知らせ 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPblMzc3NiYXJielIwUWR2Sm04a2UyN2paYUpVMnctVVZLMjhLRFlhckJlaWdxOHB6OW5RWmd1MGt5aU5tTklMVEZLQ0xLOFhrRC0zMHpya0pMQ2laeUMyakFEeUVKSjJQWjZDTDdvZWVkVmR5THdscXNSYzFFOGZqc2hjTkVMelhmREZnYkV3em1CcTNENkNWZHkyS2tfZ1laN3pqV3ZsT082cW5xYnZHZk1HNUNUa3pnclFtS2dqd0ZnUjZST0c1Y0xHQUM?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "order"
+    ],
+    "korean_title": "TIER IV 대규모 수주 관련 적시공시",
+    "korean_summary": "TIER IV가 대규모 수주 관련 공식 적시공시를 공개했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 日本経済新聞",
+     "title": "ティアフォー[593A]：個別業績の前期実績値との差異に関するお知らせ 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNzROLVdlcm85bU95RVdya2VmYWkwSHQzMTl1OGNkYTc0UlkyNmNDT3htMkF1Nm5IZVJDVjE1ZzBEY0RqdDVlbExBdkpBSGNPSjFBSnNKMEV5RXY3aVFDNjdZREdpU1dxdk9EVkx4QS1iRmI1T29PUHB1b056MUR1MDhQTEQzOHlIQ3NTTWt2WElxc0k4YVVzZGVnS3pXVFpGS2JvOFFNT1VocHhHUFRPY0lYYkl0MjdYYUN0eGlYalNUM0d3bUx3UGxkcnY?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPblMzc3NiYXJielIwUWR2Sm04a2UyN2paYUpVMnctVVZLMjhLRFlhckJlaWdxOHB6OW5RWmd1MGt5aU5tTklMVEZLQ0xLOFhrRC0zMHpya0pMQ2laeUMyakFEeUVKSjJQWjZDTDdvZWVkVmR5THdscXNSYzFFOGZqc2hjTkVMelhmREZnYkV3em1CcTNENkNWZHkyS2tfZ1laN3pqV3ZsT082cW5xYnZHZk1HNUNUa3pnclFtS2dqd0ZnUjZST0c1Y0xHQUM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "決算速報＞ティアフォー、２６年９月期決算は純損益６３．１億円の赤字(ウエルスアドバイザー)",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnlPZTViRTRuMUhaY0JNaHF2UmxFV084dWd5RFRfNEJGTFVnR3VVSTA4MzhUaGtmTEJVbnBqN1FjZkUxVDNISFF4TnZsc3pPVHhpZ1lsRnRXSE12QlZ4eW9DcEhHcENCV3dtbFdiQ2E4NVlBTllfdmxYWng0YVJzTGF6Q0R2TFU?oc=5",
+   "date": "2026-11-13 16:01",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "TIER IV, 2026년 9월 기말 결산에서 631억 엔 순손실 기록",
+    "korean_summary": "TIER IV가 2026년 9월 기말 결산에서 631억 엔의 순손실을 기록했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "決算速報＞ティアフォー、２６年９月期決算は純損益６３．１億円の赤字(ウエルスアドバイザー)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnlPZTViRTRuMUhaY0JNaHF2UmxFV084dWd5RFRfNEJGTFVnR3VVSTA4MzhUaGtmTEJVbnBqN1FjZkUxVDNISFF4TnZsc3pPVHhpZ1lsRnRXSE12QlZ4eW9DcEhHcENCV3dtbFdiQ2E4NVlBTllfdmxYWng0YVJzTGF6Q0R2TFU?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTnlPZTViRTRuMUhaY0JNaHF2UmxFV084dWd5RFRfNEJGTFVnR3VVSTA4MzhUaGtmTEJVbnBqN1FjZkUxVDNISFF4TnZsc3pPVHhpZ1lsRnRXSE12QlZ4eW9DcEhHcENCV3dtbFdiQ2E4NVlBTllfdmxYWng0YVJzTGF6Q0R2TFU",
+   "body": ""
+  },
+  {
+   "source": "Google News · みんかぶ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー(593A) 特別損失（関係会社株式評価損）及び 営業外費用（持分法による投資損失）の計上に関するお知らせ",
+   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBldElBMzZ2ZnhmemRSSzkwNVdKMENwMkExQkVUWWMwc1k3RkRudVlTUDBTWW9yS2FMd1l1eFpFeUw4Z2N1dHc?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV, 관계회사 주식 평가손 및 투자손실 계상",
+    "korean_summary": "TIER IV가 관계회사 주식 평가손과 지분법 투자손실을 계상했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBldElBMzZ2ZnhmemRSSzkwNVdKMENwMkExQkVUWWMwc1k3RkRudVlTUDBTWW9yS2FMd1l1eFpFeUw4Z2N1dHc",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · TipRanks",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV FY2026 Full-Year Financial Results Briefing",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb2x5QXFMd3Vtdi1HdWxmWlppNmhxTjJfb1lLNl9TQ1ZZM054QmxjcUJCeU1feVk1dGxvSC0yS2VjUGJkTkpCT3J4MFEyQ3JQazNEQ2RwbG11MGZqZ1J4RDA2RlA5X3pmQWM4Sndtc2h3bW0zajdTMXNsenYtOGlwWUYtTjFYeFZBakVHTjM3MVdYZHFpYUtzVXZmS1BPQnRfSVJ5enJ3?oc=5",
+   "date": "2026-11-13 17:50",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "TIER IV FY2026 전체 재무 결과 브리핑",
+    "korean_summary": "TIER IV 2026년도 전체 재무 결과 브리핑입니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb2x5QXFMd3Vtdi1HdWxmWlppNmhxTjJfb1lLNl9TQ1ZZM054QmxjcUJCeU1feVk1dGxvSC0yS2VjUGJkTkpCT3J4MFEyQ3JQazNEQ2RwbG11MGZqZ1J4RDA2RlA5X3pmQWM4Sndtc2h3bW0zajdTMXNsenYtOGlwWUYtTjFYeFZBakVHTjM3MVdYZHFpYUtzVXZmS1BPQnRfSVJ5enJ3",
+   "body": ""
+  },
+  {
+   "source": "Google News · 株探",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー、今期最終は41億円の赤字～48億円の赤字へ",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50djlES3hwNWpSeWFCa2czUExIN0hrc1BQc0UwaUU1THllOHBKTjdpVm5Ock1ET1dMTW13bUl2SGlEVnF4dDRGR2Raa2daZll0S3c?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "ティアフォー 2026년 9월기 결산 속보",
+    "korean_summary": "ティアフォー 2026년 9월기 최종손실이 기록되었습니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 株探",
+     "title": "ティアフォー、今期最終は41億円の赤字～48億円の赤字へ",
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50djlES3hwNWpSeWFCa2czUExIN0hrc1BQc0UwaUU1THllOHBKTjdpVm5Ock1ET1dMTW13bUl2SGlEVnF4dDRGR2Raa2daZll0S3c?oc=5"
+    },
+    {
+     "source": "Google News · 中日BIZナビ",
+     "title": "【決算速報】ティアフォーは63億円の赤字 26年9月期：ニュース",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95a3k1eWtrOVFzTkNhTjA2WW9VRV9QaUZOUE9PZWFXVlNRR1d1UXlHXzlkY2lFQ1pkVl9pQzB0MGVSLXhiY2ZOMUNOcnNkZEplMWpqUV80REhWNUVPandv?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "【決算速報】ティアフォー、今期最終は41億円の赤字～48億円の赤字へ(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYmRwVFRXeXBELXdhX00wZTQyS3dISFpuMTJkZGhaVXNYRS1BQk9CdUVaLUttYXVHSU9lRi1MR3d4NDB1NzhfVnVSS29uWEpYd0RIQzhTWi1PemtpWVdjZldrejRCTFJRVGozVDJZWkJfMHlFOVkzQ0pJT1ZtXzFOSW5wSnFPdEk?oc=5"
+    },
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "【決算速報】ティアフォー、今期最終は41億円の赤字～48億円の赤字へ(株探ニュース)",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYmRwVFRXeXBELXdhX00wZTQyS3dISFpuMTJkZGhaVXNYRS1BQk9CdUVaLUttYXVHSU9lRi1MR3d4NDB1NzhfVnVSS29uWEpYd0RIQzhTWi1PemtpWVdjZldrejRCTFJRVGozVDJZWkJfMHlFOVkzQ0pJT1ZtXzFOSW5wSnFPdEk?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50djlES3hwNWpSeWFCa2czUExIN0hrc1BQc0UwaUU1THllOHBKTjdpVm5Ock1ET1dMTW13bUl2SGlEVnF4dDRGR2Raa2daZll0S3c",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー[593A]：2026年９月期 通期決算説明資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ0l3X0wwZGlpQUlDb1VVczBaQ0RCQXVCNTZLQ1gwZ1BTNmlmR3h0Q3FWYlNXdXVvMkpvWl9tWTVQRVNPUDdES096RXFwc09iRy1wc0pYVjlJZm9DaWR5OTJ6bWZEUWtpUzQ1aUxQSzJpa04yQUYyQmpFOUU2b1NvZjEyTzlsZWdZWEtPV0RTaDA4dUZLWkxLQ044LWl5LXRnYTNTc2NJM0dtWjJrc29wQkV5MTVoRTRUN2ZBeHd2SGVFd0Y1SWVLV1hycDM?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "ティアフォー 2026년 9월기 통기 결산설명자료",
+    "korean_summary": "ティアフォー의 2026년 9월기 통기 결산설명자료입니다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ0l3X0wwZGlpQUlDb1VVczBaQ0RCQXVCNTZLQ1gwZ1BTNmlmR3h0Q3FWYlNXdXVvMkpvWl9tWTVQRVNPUDdES096RXFwc09iRy1wc0pYVjlJZm9DaWR5OTJ6bWZEUWtpUzQ1aUxQSzJpa04yQUYyQmpFOUU2b1NvZjEyTzlsZWdZWEtPV0RTaDA4dUZLWkxLQ044LWl5LXRnYTNTc2NJM0dtWjJrc29wQkV5MTVoRTRUN2ZBeHd2SGVFd0Y1SWVLV1hycDM",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー[593A]：特別損失（関係会社株式評価損）及び 営業外費用（持分法による投資損失）の計上に関するお知らせ 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbVdfa194MjlScTdqaVBjWDZjUWZURkx6ZlF3Sl9JS0cwaUVGNFRuQWt5aFp1ME1uWnBOOGdOOEE3NW44bExnMm9yVWhUUUZadzdvekkta0gzb1VTWDEwT2NUQTd5TGtJTFQ5TS1PUDNBSWdnRHZ2OFlOaWFXN0pIWndOaHVtSkplaWY4S1ZNb3NnVXI5bVJuWkVfTWc5VVRib0ctN0ZjTEUyeVBLaHZEelpNYm9ZR1p3OHo4SERoX2xJbkJnZlFDWWF0T20?oc=5",
+   "date": "2026-11-13 16:00",
+   "score": 3,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 특별손실 관련 적시공시",
+    "korean_summary": "TIER IV가 관계회사 주식 평가손 및 투자손실 관련 적시공시를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbVdfa194MjlScTdqaVBjWDZjUWZURkx6ZlF3Sl9JS0cwaUVGNFRuQWt5aFp1ME1uWnBOOGdOOEE3NW44bExnMm9yVWhUUUZadzdvekkta0gzb1VTWDEwT2NUQTd5TGtJTFQ5TS1PUDNBSWdnRHZ2OFlOaWFXN0pIWndOaHVtSkplaWY4S1ZNb3NnVXI5bVJuWkVfTWc5VVRib0ctN0ZjTEUyeVBLaHZEelpNYm9ZR1p3OHo4SERoX2xJbkJnZlFDWWF0T20",
+   "body": ""
+  },
+  {
+   "source": "Google News · International Mining",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Tier IV to bring autonomy to some Komatsu quarry class rigid trucks and ADTs in Japan and North America",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWW44OWpRVXR1Z2xsZjd3WDZFc0hONTdMNUVyY1ZXNkhrX1Y0eXB1cFZnT2V6dXZtVmZuMENrT2VvaFlwTW81YTZLWG9MWXp2Y0ZzT0Vadm4zTVQ5czRWVlN3N21ZZzJaQlhpMGZxbklVMzV6VnhaNkNRRG8yTWpfUVVVQ2RsQTZ4VGNyX1E2aS1tcWNtWTIwcW5SYlh1MkJoNjlyWThCWTNEaGNfekVtSVVRQlNXVXhXb0ZFRFdJakFlZnJubnhFV1JFN0xvS0FVSUtj?oc=5",
+   "date": "2026-11-13 23:00",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "Tier IV, Komatsu 채석장 덤프트럭·ADT 자동주행 기술 적용",
+    "korean_summary": "Tier IV가 Komatsu 채석장용 덤프트럭과 ADT에 자동주행 기술을 적용합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · International Mining",
+     "title": "Tier IV to bring autonomy to some Komatsu quarry class rigid trucks and ADTs in Japan and North America",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWW44OWpRVXR1Z2xsZjd3WDZFc0hONTdMNUVyY1ZXNkhrX1Y0eXB1cFZnT2V6dXZtVmZuMENrT2VvaFlwTW81YTZLWG9MWXp2Y0ZzT0Vadm4zTVQ5czRWVlN3N21ZZzJaQlhpMGZxbklVMzV6VnhaNkNRRG8yTWpfUVVVQ2RsQTZ4VGNyX1E2aS1tcWNtWTIwcW5SYlh1MkJoNjlyWThCWTNEaGNfekVtSVVRQlNXVXhXb0ZFRFdJakFlZnJubnhFV1JFN0xvS0FVSUtj?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWW44OWpRVXR1Z2xsZjd3WDZFc0hONTdMNUVyY1ZXNkhrX1Y0eXB1cFZnT2V6dXZtVmZuMENrT2VvaFlwTW81YTZLWG9MWXp2Y0ZzT0Vadm4zTVQ5czRWVlN3N21ZZzJaQlhpMGZxbklVMzV6VnhaNkNRRG8yTWpfUVVVQ2RsQTZ4VGNyX1E2aS1tcWNtWTIwcW5SYlh1MkJoNjlyWThCWTNEaGNfekVtSVVRQlNXVXhXb0ZFRFdJakFlZnJubnhFV1JFN0xvS0FVSUtj",
+   "body": ""
+  },
+  {
+   "source": "Google News · ティアフォー（Tier IV）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "TIER IV and Komatsu begin joint development of autonomous driving systems for three dump truck models toward deployment at quarry and construction sites in Japan and North America",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajhENmhwUEZuX0ZoU0FQeUVnSUxOb2FTUnJRdll6eHZWR1NMbmpwZlR1UEI1ZmJjNWo0dzB5alI2TS1XTFo4V3o2d1lWc0JYeUJfWUxmSkdWMjd2enAyYlEzeEFiS2pYZUd4ZmMwdGV3NzBDbFNDT21mdDVOVmR5ZEE1SG9QRmJoUGw1OVhnSXhvdVltaUpUb2NFRExRdmlfM0d2WUhJcDYtNzJfcWZESUVXUE5MaW9ZRm5JR0J1YWZ4UU55NnFTUjRpdGFETWNPcFhDbdIB1AFBVV95cUxNajhENmhwUEZuX0ZoU0FQeUVnSUxOb2FTUnJRdll6eHZWR1NMbmpwZlR1UEI1ZmJjNWo0dzB5alI2TS1XTFo4V3o2d1lWc0JYeUJfWUxmSkdWMjd2enAyYlEzeEFiS2pYZUd4ZmMwdGV3NzBDbFNDT21mdDVOVmR5ZEE1SG9QRmJoUGw1OVhnSXhvdVltaUpUb2NFRExRdmlfM0d2WUhJcDYtNzJfcWZESUVXUE5MaW9ZRm5JR0J1YWZ4UU55NnFTUjRpdGFETWNPcFhDbQ?oc=5",
+   "date": "2026-11-13 07:00",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "TIER IV와 Komatsu, 채석·토목현장 덤프트럭 자동운전 공동개발",
+    "korean_summary": "TIER IV와 Komatsu가 채석·토목현장용 덤프트럭 자동운전 시스템을 공동개발합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · www.komatsu.jp",
+     "title": "TIER IV and Komatsu begin joint development of autonomous driving systems for three dump truck models toward deployment at quarry and construction sites in Japan and North America | Newsroom | Komatsu global site",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adnFqYTktVDNqc1NlTG9KdDY1elZZQmNveVJRb1JfVWgxWldKclhzcHBpRDZXYkY3eDR1U0tiWlJNY1VTY0YtT1VGZy1WWW5iNnFQMWFSYTZiWTVO?oc=5"
+    },
+    {
+     "source": "Google News · www.komatsu.jp",
+     "title": "TIER IV and Komatsu begin joint development of autonomous driving systems for three dump truck models toward deployment at quarry and construction sites in Japan and North America | Newsroom | Komatsu global site",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adnFqYTktVDNqc1NlTG9KdDY1elZZQmNveVJRb1JfVWgxWldKclhzcHBpRDZXYkY3eDR1U0tiWlJNY1VTY0YtT1VGZy1WWW5iNnFQMWFSYTZiWTVO?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNajhENmhwUEZuX0ZoU0FQeUVnSUxOb2FTUnJRdll6eHZWR1NMbmpwZlR1UEI1ZmJjNWo0dzB5alI2TS1XTFo4V3o2d1lWc0JYeUJfWUxmSkdWMjd2enAyYlEzeEFiS2pYZUd4ZmMwdGV3NzBDbFNDT21mdDVOVmR5ZEE1SG9QRmJoUGw1OVhnSXhvdVltaUpUb2NFRExRdmlfM0d2WUhJcDYtNzJfcWZESUVXUE5MaW9ZRm5JR0J1YWZ4UU55NnFTUjRpdGFETWNPcFhDbdIB1AFBVV95cUxNajhENmhwUEZuX0ZoU0FQeUVnSUxOb2FTUnJRdll6eHZWR1NMbmpwZlR1UEI1ZmJjNWo0dzB5alI2TS1XTFo4V3o2d1lWc0JYeUJfWUxmSkdWMjd2enAyYlEzeEFiS2pYZUd4ZmMwdGV3NzBDbFNDT21mdDVOVmR5ZEE1SG9QRmJoUGw1OVhnSXhvdVltaUpUb2NFRExRdmlfM0d2WUhJcDYtNzJfcWZESUVXUE5MaW9ZRm5JR0J1YWZ4UU55NnFTUjRpdGFETWNPcFhDbQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Mining Magazine",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Komatsu and TIER IV automation advances",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWlpLWZETE9NcHdOTlJsaUdfN3RtLVZhc3ZRbjg5QUhlU3B5QTRMamNRVUpQc1d1ZWJYZ1h6WXVWaFBiWXA2eWFYbUczanl6QWQwNUJJWlFwRUs0ZGFEeWNqSkN4cHliUDdoNkRWdVhIeFlEZHYxNXVVdnotcTNwbWdKei1xWFEtSHNJMU9oX1gxcjJCbTdCTC1zYXQ?oc=5",
+   "date": "2026-11-13 23:53",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "deployment"
+    ],
+    "korean_title": "Komatsu와 TIER IV 자동화 기술 진전",
+    "korean_summary": "Komatsu와 TIER IV가 자동화 기술 개발을 진행합니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Mining Magazine",
+     "title": "Komatsu and TIER IV automation advances",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWlpLWZETE9NcHdOTlJsaUdfN3RtLVZhc3ZRbjg5QUhlU3B5QTRMamNRVUpQc1d1ZWJYZ1h6WXVWaFBiWXA2eWFYbUczanl6QWQwNUJJWlFwRUs0ZGFEeWNqSkN4cHliUDdoNkRWdVhIeFlEZHYxNXVVdnotcTNwbWdKei1xWFEtSHNJMU9oX1gxcjJCbTdCTC1zYXQ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWlpLWZETE9NcHdOTlJsaUdfN3RtLVZhc3ZRbjg5QUhlU3B5QTRMamNRVUpQc1d1ZWJYZ1h6WXVWaFBiWXA2eWFYbUczanl6QWQwNUJJWlFwRUs0ZGFEeWNqSkN4cHliUDdoNkRWdVhIeFlEZHYxNXVVdnotcTNwbWdKei1xWFEtSHNJMU9oX1gxcjJCbTdCTC1zYXQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo!ファイナンス",
+   "category": "media",
+   "kind": "gnews",
+   "title": "(株)ティアフォー【593A】：決算情報",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54QndNVHAwLUxySmF3ckZ1QWpabEdfc0JiQ1h0WUQ2TGQ5dkJBSkRsQ240RlNaYTNwVHlYa2Y1T3VQai1GeXA0cVRuMWd1eTFNNVNCb3ppajlVMmQwY01Rbw?oc=5",
+   "date": "2026-11-13 23:54",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 1,
+    "article_type": "Business-Deployment",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "TIER IV 결산정보",
+    "korean_summary": "TIER IV의 결산정보입니다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · Yahoo!ファイナンス",
+     "title": "(株)ティアフォー【593A】：決算情報",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54QndNVHAwLUxySmF3ckZ1QWpabEdfc0JiQ1h0WUQ2TGQ5dkJBSkRsQ240RlNaYTNwVHlYa2Y1T3VQai1GeXA0cVRuMWd1eTFNNVNCb3ppajlVMmQwY01Rbw?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54QndNVHAwLUxySmF3ckZ1QWpabEdfc0JiQ1h0WUQ2TGQ5dkJBSkRsQ240RlNaYTNwVHlYa2Y1T3VQai1GeXA0cVRuMWd1eTFNNVNCb3ppajlVMmQwY01Rbw",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 128,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCz-_UeD5shJoQ37LO9Acr1Q",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 4,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 3,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 18,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 29,
+   "in_window": 21,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 18.5
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 3.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 25.0
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 1.2
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 25,
+   "in_window": 11,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  }
+ ]
+}
