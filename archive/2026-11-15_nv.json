@@ -1,0 +1,1923 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-15",
+ "window": [
+  "2026-11-14",
+  "2026-11-15"
+ ],
+ "generated": "2026-11-15T10:06:56+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Jensen Huang가 중국 스파이 의혹과 불륜 스캔들로 CEO직을 사퇴하며 NVIDIA 시가총액 **1조 달러 이상**이 증발했다.",
+  "NVIDIA가 영상과 로봇 행동을 동시에 예측하는 차세대 **로봇 파운데이션 모델 GR00T 2**를 공개해 휴머노이드 전신 제어 성능을 끌어올렸다.",
+  "독립 연구기관이 DeepSeek·Kimi 등 중국 AI 모델이 수출 통제 대상인 **Nvidia Blackwell GPU**로 학습됐다는 정황 증거를 제시했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · FOX 10 Phoenix",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Jensen Huang resigns amid Congress AI chip investigation",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGVkZNaVNDWG04RmNRcWtsZTd4NXREV0ZKZ2lYSUdURGMxTXl0ZmxDckE1dk1RSUNBaTdyTklrUnlHd2J0d2JTUGxhWXJxS3VmZE1tOVcwQTI3dWNoTUhrMFpmVWMyUdIBa0FVX3lxTFBKSXhGanU4aG9CaUx5aml2QkZvNWZpYjVRRTF5LVNHUEFOTU53enZRb2pQeW9WZEF5YUlCOFBxdmNac0dTSU1XQ2pBcXpVMlAyZHJlc0pKdVFIaHIxTVdhTkVJWUd0U0FOZTJZ?oc=5",
+   "date": "2026-11-15 09:19",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Jensen Huang CEO 사임, 의회 AI 칩 조사 와중",
+    "korean_summary": "NVIDIA의 Jensen Huang 최고경영자가 의회의 AI 칩 조사 중 사직했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGVkZNaVNDWG04RmNRcWtsZTd4NXREV0ZKZ2lYSUdURGMxTXl0ZmxDckE1dk1RSUNBaTdyTklrUnlHd2J0d2JTUGxhWXJxS3VmZE1tOVcwQTI3dWNoTUhrMFpmVWMyUdIBa0FVX3lxTFBKSXhGanU4aG9CaUx5aml2QkZvNWZpYjVRRTF5LVNHUEFOTU53enZRb2pQeW9WZEF5YUlCOFBxdmNac0dTSU1XQ2pBcXpVMlAyZHJlc0pKdVFIaHIxTVdhTkVJWUd0U0FOZTJZ",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "This week in Tom's Hardware Premium: November 14, 2026 — Mac Studio versus DGX Spark, AMD's MEXT cuts DRAM requirements in half, and the Huang saga reaches critical mass",
+   "link": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+   "date": "2026-11-15 01:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Tom's Hardware 주간 뉴스: Jensen Huang의 NVIDIA CEO 사임",
+    "korean_summary": "Jensen Huang의 NVIDIA CEO 사임이 이번 주 IT 업계의 주요 뉴스이며, 경영진 공백이 광범위한 영향을 미치고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang CEO 사임 파장 속, NVIDIA의 DGX Spark 경쟁력·중국 수출통제 강화·Google TPU 경쟁 심화",
+    "korean_summary": "Tom's Hardware Premium 주간 리포트는 **Jensen Huang의 NVIDIA CEO 사임** 스캔들을 중심으로, DGX Spark 대 Mac Studio 벤치마크, 중국용 RTX 5500 Pro 주문량, NVIDIA의 해외 GPU 임대 단속, Google TPU 신제품 출시 등 NVIDIA의 사업·경쟁 환경 전반을 다뤘다.",
+    "action": {
+     "actor": "NVIDIA / Jensen Huang",
+     "action": "CEO가 스캔들 관련 혐의로 사임했고, 동시에 회사는 중국향 GPU 수출통제 단속(해외 클라우드 임대 규제)과 RTX 5500 Pro 공급을 병행 추진",
+     "stage": "Announced",
+     "timeline": "미확인 (2026년 11월 14일자 주간 리포트 시점)",
+     "scope": "NVIDIA 경영진 및 중국 시장 수출컴플라이언스, 소비자용 로컬 AI PC(DGX Spark) 세그먼트"
+    },
+    "key_facts": [
+     "**Jensen Huang이 NVIDIA CEO직에서 물러났으며**, Alice Huang·Kang Wei와 연관된 혼외 스캔들에 연루된 것으로 보도됨",
+     "NVIDIA DGX Spark가 Apple Mac Studio(M5 Ultra)와 로컬 AI 추론 성능 벤치마크에서 비교 대상으로 다뤄짐",
+     "**수출 규정 준수형 GB202 기반 RTX 5500 Pro가 600만 대 이상 주문된 것으로 보도됨**",
+     "NVIDIA가 해외(말레이시아·싱가포르 등) 클라우드를 통한 중국向 AI GPU 임대를 단속하며 파트너사에 비중국 고객 51% 할당 요건을 부과, 암시장 B300 랙 가격이 280만 달러까지 급등",
+     "Google이 8세대 TPU 라인업에 TPU 8i Max(장문맥 에이전틱 AI용, 패키지당 2칩)와 TPU 8tx(Arm 대신 AMD EPYC 호스트 채택, 보안 워크로드용)를 추가해 NVIDIA와 경쟁"
+    ],
+    "why_matters": "**NVIDIA가 게이밍 GPU 기업에서 AI 사업으로 전환한 지 5년 만에 창업자 CEO가 스캔들로 사임한 것은 회사 거버넌스와 시장 신뢰에 중대한 리스크**로, AI 산업 전체의 불확실성을 키운다. 동시에 중국 수출통제 강화와 Google TPU의 지속적 세분화는 NVIDIA의 핵심 AI GPU 매출 기반(중국 수요, 하이퍼스케일러 추론 시장)에 대한 경쟁·규제 압박이 동시에 심화되고 있음을 보여준다.",
+    "subject_angle": "NVIDIA는 리더십 공백 리스크를 떠안은 동시에, **자체적으로 중국向 우회 임대를 단속해 규제 리스크를 선제 관리**하면서도 RTX 5500 Pro를 통해 수출 규정 내에서 중국 수요를 흡수하려는 이중 전략을 취하고 있으며, 소비자 로컬 AI PC(DGX Spark)와 데이터센터 추론(Google TPU 대응) 양쪽에서 경쟁 압력을 받고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CEO 사임 스캔들의 당사자이자 DGX Spark·RTX 5500 Pro 공급사, 중국向 GPU 임대 단속 주체"
+     },
+     {
+      "name": "Apple",
+      "context": "Mac Studio(M5 Ultra)로 DGX Spark와 로컬 AI 성능 비교 대상"
+     },
+     {
+      "name": "AMD",
+      "context": "MEXT 메모리 절감 기술 및 Google TPU 8tx용 EPYC 호스트 공급"
+     },
+     {
+      "name": "Google",
+      "context": "8세대 TPU(8i Max, 8tx)로 NVIDIA AI 가속기와 경쟁"
+     },
+     {
+      "name": "Cognichip",
+      "context": "AI 기반 반도체 설계 도구(ACI) 개발사, NVIDIA 생태계와 간접 연관"
+     }
+    ],
+    "products": [
+     {
+      "name": "DGX Spark",
+      "role": "Mac Studio와 비교된 NVIDIA의 로컬 AI PC 플랫폼"
+     },
+     {
+      "name": "RTX 5500 Pro",
+      "role": "수출 규정 준수형 GB202 기반 중국向 AI 가속기, 600만 대 이상 주문"
+     },
+     {
+      "name": "RTX Spark",
+      "role": "로컬 AI PC 시장의 최근 출시 제품으로 언급"
+     },
+     {
+      "name": "TPU 8i Max / TPU 8tx",
+      "role": "Google의 NVIDIA 경쟁 AI 가속기"
+     },
+     {
+      "name": "MEXT",
+      "role": "AMD의 DRAM 절감 메모리 엔진, AI 인프라 비용 구조에 영향"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA의 차기 CEO 선임 및 경영 승계 절차 공식 발표 여부",
+     "51% 비중국 쿼터 규제가 중국向 B300/RTX 5500 Pro 수요 및 암시장 가격에 미치는 실제 영향",
+     "Google TPU 8i Max/8tx의 실제 벤치마크 성능과 하이퍼스케일러 채택 동향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-14-2026-mac-studio-versus-dgx-spark-amds-mext-cuts-dram-requirements-in-half-and-the-huang-saga-reaches-critical-mass",
+   "body": "Seismic appears to set the tone for this week's events in the hardware industry, and we've covered the biggest beats, including deeper dives on hardware and AI topics over on Tom's Hardware Premium . Stories this week are colored by the fact that Nvidia founder Jensen Huang has stepped away from his post as CEO. The ramifications are wide and far-reaching, as the company transformed from a gaming GPU manufacturer to an AI business over the past five years. First up, it's not only hyperscalers and neoclouds that have their eyes on AI. An increasingly popular segment among enthusiasts is PCs dedicated to running local AI models. With so many choices on the market currently, from the recently released RTX Spark to AMD's Strix Halo platform, we take a look at two unlikely contenders that are now going head-to-head: Nvidia's DGX Spark and Apple's Mac Studio. We ran a suite of real-world and synthetic benchmarks across both devices and tested large models on both machines. With prices at eye-watering levels, it's more crucial than ever that you make the correct choice for your intended workloads. Going deep on local AI performance benchmarking with Apple’s Mac Studio with M5 Ultra taking on Nvidia DGX Spark — inference engine recipes mandatory for bigger models as MLX stack matures DRAM capacity constraints have been an industry-wide sticking point as the AI buildout accelerates demand for dies. With costs spiraling across both client and enterprise hardware, AMD has shared further detail about MEXT, a predictive memory engine which aims to offer 99% of a server's performance while running on half the DRAM. Powered by a transformer model and clever use of flash storage, AMD is already running 145 servers with the system in place, with a view to expand that figure to 2,000 next year. AMD shares how it can retain 95% of server performance with just half the DRAM, sidestepping memory shortages with MEXT — tech powers over 100 servers already running, with plans to expand to 2,000 servers in 2027 Next, we sat down with Cognichip's Chief Product Officer in an extensive interview to explore how the company is rolling out AI-powered chip design tools. Back in September, the company revealed a suite of proprietary AI models, named Artificial Chip Intelligence (ACI), which are specifically developed for semiconductor engineering. While the tools have yet to be used in a shipping product, it could substantially improve chip development productivity by automating labor-intensive tasks. Cognichip reveals how its new AI-assisted program can slash chip design times from months to days — automating labor-intensive tasks cuts design time down, Chief Product Officer explains (Image credit: Tom's Hardware) The Jensen Huang scandal deepens, as the now-former Nvidia CEO has become embroiled in a series of alleged extramarital affairs and has since resigned from Nvidia. While much of the past week's stories have centered on his relationship with alleged Chinese Spy Alice H"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Researchers allege DeepSeek, Kimi, and other Chinese AI models were trained using banned Nvidia Blackwell GPUs",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+   "date": "2026-11-14 23:50",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "연구자들, 중국 AI 모델이 금지된 Blackwell GPU 사용 주장",
+    "korean_summary": "독립 연구 기관이 중국의 DeepSeek 등 AI 모델들이 수출 제한된 NVIDIA Blackwell GPU로 훈련되었다는 증거를 제시했다."
+   },
+   "summary_data": {
+    "korean_title": "연구진, DeepSeek·Kimi 등 중국 AI 모델이 금지된 Nvidia Blackwell GPU로 학습됐다는 증거 제시",
+    "korean_summary": "독립 연구기관 UnemploymentLabs가 통계적 분석을 통해 DeepSeek V4, Kimi K3.1 등 중국 오픈웨이트 AI 모델들이 **수출 통제 대상인 Nvidia Blackwell GPU**로 학습되었을 가능성이 높다는 정황 증거를 제시했다.",
+    "action": {
+     "actor": "UnemploymentLabs (독립 연구기관)",
+     "action": "모델 가중치 초기화 분포의 통계적 패턴을 분석해 DeepSeek V4, Kimi K3.1, MiniMax-M3, Ling-3.1-Flash 학습에 사용된 GPU 종류(Blackwell/Hopper)와 대략적인 칩 수를 역추정",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "오픈웨이트 중국 AI 모델 4종 (DeepSeek V4, Kimi K3.1, MiniMax-M3, Ling-3.1-Flash)"
+    },
+    "key_facts": [
+     "Nvidia Hopper는 SM 132개, Blackwell B 시리즈는 148개, Blackwell GB는 152개를 보유",
+     "가중치 초기화는 cuRAND 기반 pseudo-random 과정으로, Blackwell/Hopper 모두 대형 가중치 집합 기준 SM당 스레드 2,048개 사용",
+     "연구진이 동일 칩·소프트웨어·스레드 수로 초기화를 재현한 결과, **최종 통계 분포가 DeepSeek·Kimi 등과 정확히 일치**",
+     "SM/스레드 수를 바꾸면 상관관계가 완전히 깨졌고, AMD MI300X 등 다른 칩으로는 동일 가중치 패턴이 나오지 않음을 확인",
+     "연구진은 칩의 위치, 접근 경로, 수출 통제 위반 여부는 증명하지 못한다고 명시하며, 해외에서 Blackwell을 임대하는 것 자체는 현재 불법이 아니라고 언급 (Tencent-Oracle 계약 사례 거론)"
+    ],
+    "why_matters": "이 보고서는 미국의 대중국 AI 칩 수출 통제가 실질적으로 **우회되고 있다는 업계의 공개된 비밀**을 데이터 기반으로 뒷받침하며, 중국 오픈웨이트 모델들이 금수 대상 하드웨어 위에서 경쟁력을 확보하고 있음을 시사한다. 이는 수출 통제의 실효성과 Nvidia의 중국 매출·정책 리스크 논쟁에 새로운 근거를 더한다.",
+    "subject_angle": "Blackwell이 공식 수출 통제 대상임에도 **중국 AI 모델 학습에 실질적으로 활용**되고 있다는 정황은 Nvidia의 대중국 매출 전략과 미국 정부와의 관계에 정치적 부담을 더할 수 있으며, AMD 등 경쟁 칩이 동일 역할을 하지 못했다는 점은 CUDA/PyTorch 생태계의 독점적 지위를 역설적으로 입증한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Blackwell/Hopper GPU 제조사, 중국 모델 학습에 간접 활용 의혹의 중심"
+     },
+     {
+      "name": "UnemploymentLabs",
+      "context": "통계적 분석을 통해 GPU 사용 증거를 제시한 독립 연구기관"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "Blackwell GPU로 학습된 것으로 추정되는 오픈웨이트 모델(V4) 개발사"
+     },
+     {
+      "name": "Moonshot AI (Kimi)",
+      "context": "Kimi K3.1 모델 개발사, 분석 대상"
+     },
+     {
+      "name": "MiniMax",
+      "context": "MiniMax-M3 모델 개발사, 분석 대상"
+     },
+     {
+      "name": "AMD",
+      "context": "MI300X 등 경쟁 칩, 동일 가중치 패턴 미생성으로 배제됨"
+     },
+     {
+      "name": "Tencent",
+      "context": "Oracle과의 계약으로 해외 Blackwell 임대 가능성 사례로 언급"
+     },
+     {
+      "name": "Oracle",
+      "context": "Tencent와의 계약 상대, 해외 GPU 임대 사례"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Blackwell (B series, GB series)",
+      "role": "수출 통제 대상이나 중국 모델 학습에 사용된 것으로 추정되는 핵심 하드웨어"
+     },
+     {
+      "name": "Nvidia Hopper",
+      "role": "비교 대상 GPU 아키텍처, 일부 모델 학습 추정 하드웨어"
+     },
+     {
+      "name": "DeepSeek V4",
+      "role": "분석 대상 오픈웨이트 모델"
+     },
+     {
+      "name": "Kimi K3.1",
+      "role": "분석 대상 오픈웨이트 모델"
+     },
+     {
+      "name": "MiniMax-M3",
+      "role": "분석 대상 오픈웨이트 모델"
+     },
+     {
+      "name": "Ling-3.1-Flash",
+      "role": "분석 대상 오픈웨이트 모델"
+     },
+     {
+      "name": "PyTorch/CUDA",
+      "role": "가중치 초기화에 사용된 소프트웨어 스택, 식별 방법의 전제"
+     },
+     {
+      "name": "AMD MI300X",
+      "role": "대안 가설로 검증했으나 배제된 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "미국 정부·상무부가 이 연구 결과에 대해 공식 대응하거나 추가 수출 통제를 강화하는지 여부",
+     "Nvidia 또는 관련 중국 AI 기업들의 공식 반응·해명 발표 여부",
+     "해외 클라우드(Tencent-Oracle 유사 사례)를 통한 Blackwell 임대 거래에 대한 추가 규제 논의 진행 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/researchers-allege-deepseek-kimi-and-other-chinese-ai-models-were-trained-on-export-controlled-nvidia-blackwell-chips-statistical-analysis-on-model-weights-reveals-high-correlation-to-nvidia-hardware",
+   "body": "The topic of U.S. trade controls precluding the export of Nvidia and AMD high-end AI accelerator chips to China has taken a few twists lately. Jensen Huang's affairs aside, it's an open secret in the industry that Nvidia's Blackwell silicon finds its way into China, whether physically or virtually. UnemploymentLabs, an independent research outfit, has come up with strong evidence that those chips were used for training open-weight Chinese AI models, including DeepSeek V4, Kimi K3.1, MiniMax-M3, and Ling-3.1-Flash. The scientists are careful to hedge their findings, noting that while their math checks out, it does not reveal where the chips were, how they were accessed, or prove that export controls were broken. As far as we can tell, it's currently not illegal for Chinese companies to rent Blackwell hardware abroad, and even though Nvidia's grip is tightening , U.S. companies aren't strictly prohibited from doing so, as evidenced by the recent Tencent-Oracle deal . This identification method is limited to models with open weights, and depends on both hardware and software stacks used for model training — and yet it's both clever and simple, like the Egg of Columbus . (Image credit: UnemploymentLabs) Let's establish some base facts. First, different AI accelerator families have unique counts of shader modules (SMs), marginally analogous to CPU cores — Nvidia's Hopper chips have 132, Blackwell B series have 148, and Blackwell GBs come with 152. Second, while there's more than one software stack for training AI models, PyTorch and its CUDA-aware friends are by far the most widely used on the green team's hardware. The first step for training a model is initializing its weights, or how strongly the model considers each individual input. In modern LLM architectures, their initialization goes through a randomization step in which their values are adjusted plus/minus pseudo-randomly, using cuRAND — as in, randomly, but a seed starting value results in the same adjustment figures every time. As you'd expect, doing this for an entire model is a lot of computational work, so this process is spread out across all the SMs, further subdivided into threads. For large weight sets, the thread count per SM is 2,048 for Blackwell and Hopper silicon, and it's surely carefully chosen and optimized for. The researchers repeated a facsimile of the initialization process using the same chips, software, and thread counts. Using relatively simple statistical analysis, they spotted that their final statistical distribution of weight values precisely matched that of DeepSeek, Kimi, et al. As a test, they changed the SM and thread counts, and predictably, the correlation completely broke down. This let them pick out each family of Blackwell/Hopper chip used for each model, and eventually they also figured out an approximate count of cards used. They cannot, however, pinpoint which exact variation produced the weights, as this analysis is linked to initialization layout coun"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
+   "date": "2026-11-15 00:35",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국 재무부 장관, NVIDIA의 GPU 판매 통제 의혹 제기",
+    "korean_summary": "미국 재무부 장관이 NVIDIA가 수출 제한 AI GPU를 쉘 회사에 판매했을 가능성을 의문시하며 회사의 내부 통제 책임을 촉구했다."
+   },
+   "summary_data": {
+    "korean_title": "美 재무장관, Nvidia의 AI GPU 유령회사 판매 의혹에 대해 '회사 책임' 지적",
+    "korean_summary": "미국 재무장관 Scott Bessent가 Nvidia가 중국행 유령회사(pass-through shell companies)에 제한된 AI GPU를 판매했을 가능성을 지적하며 **회사 자체의 내부통제 책임**을 물어야 한다고 밝혔다.",
+    "action": {
+     "actor": "Scott Bessent (U.S. Treasury Secretary)",
+     "action": "Nvidia의 수출통제 내부 점검 미흡 및 유령회사 대상 GPU 판매 의혹에 대해 공개적으로 책임 소재를 지적하고, Nvidia 이사회의 자체 조사를 촉구",
+     "stage": "Report",
+     "timeline": "미확인 (CNBC 인터뷰 보도 시점)",
+     "scope": "Nvidia 전사 차원, 중국 및 제3국 경유 유령회사(Megaspeed 등) 관련 GPU 수출"
+    },
+    "key_facts": [
+     "Bessent는 중국이 **수백만 개의 제한된 AI GPU**를 Nvidia로부터 확보했다고 주장",
+     "Bessent는 Nvidia 법무총괄(general counsel) Timothy Teter가 Megaspeed의 Alice Wong 싱가포르 구금 관련해 美 상무부에 문의한 점을 비판",
+     "Jensen Huang CEO가 해당 사실을 알았는지는 불확실하다고 명시",
+     "Treasury, War, State 부처와 USTR은 수개월간 Megaspeed의 Entity List 등재를 지지했으나, BIS(상무부 산업안보국)가 대중국 무역긴장 우려로 지연",
+     "Bessent는 추가 수출규제 강화보다 **기존 규정의 철저한 집행**이 필요하다는 입장"
+    ],
+    "why_matters": "Nvidia의 수출통제 준수 체계에 대한 정부 차원의 신뢰성 문제가 공식 제기되면서, 향후 대중국 GPU 유통 경로에 대한 규제·조사 강도가 높아질 가능성이 있다. 이는 Nvidia의 중국 매출 리스크뿐 아니라 경영진·법무 책임 범위에 대한 정치적 압박으로 확대될 수 있다.",
+    "subject_angle": "Nvidia는 데이터센터 GPU의 **최대 수요처 중 하나인 중국 시장 접근과 美 수출통제 준수 사이의 긴장**을 계속 관리해야 하는 위치에 놓였으며, 이사회 차원의 자체 조사 결과가 향후 대외 신뢰도와 규제 리스크에 직접 영향을 미칠 전망이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "제한된 AI GPU를 유령회사에 판매했다는 의혹의 당사자"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "중국행 GPU 유통 경유로 지목된 업체, Entity List 등재 논의 대상"
+     },
+     {
+      "name": "U.S. Department of Commerce (BIS)",
+      "context": "Entity List 등재 권한 보유, Megaspeed 등재 지연 주체"
+     },
+     {
+      "name": "U.S. Department of Treasury",
+      "context": "Bessent 소속 부처, Nvidia 책임론 제기"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia AI GPU (제품명 미확인)",
+      "role": "수출통제 대상이자 유령회사 경유 유통 의혹의 핵심 품목"
+     }
+    ],
+    "watch_next": [
+     "Nvidia 이사회의 자체 조사 결과 발표 여부",
+     "Megaspeed의 Entity List 공식 등재 여부 및 시점",
+     "Nvidia 법무총괄 Timothy Teter 및 Jensen Huang 관련 책임 범위 추가 조사"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that",
+   "body": "Scott Bessent, U.S. Treasury Secretary, admitted that the U.S. export controls cannot prevent all the restricted hardware from reaching China or other adversaries, which is why the country allegedly obtained millions of restricted AI GPUs from Nvidia . At the same time, he questioned the efficiency of Nvidia's internal controls. called for accountability at Nvidia, criticized the company's general counsel, but stressed that it was unclear whether Nvidia chief executive Jensen Huang knew about the potentially illicit practices. Go deeper with TH Premium: GPUs (Image credit: Noctua) Desktop GPU Roadmap Nvidia's Enterprise GPU Roadmap Testing DirectStorage with GPU decompression The GeForce RTX 30-series upgrade matrix — does your Ampere GPU need an upgrade in 2026? Rubin in-depth The Stout Owl: The ultimate Noctua G2 PC \"I think that there is a lot of leakage in the system, and we are constantly working to close that down,\" in an interview with CNBC (via @siliconmemes ). \"One thing here is that the story has been thus far on Jensen Huang's personal foibles. The real story here should be, did Nvidia know their client? And was there a robust effort at Nvidia to make sure that there was no leakage and that they were selling to what were obviously pass-through shell companies? And I think it is important that anyone at the company there be held accountable for that.\" Bessent admitted that despite strict U.S. export controls that prohibit sales of advanced AI GPUs to China, considerable quantities of restricted hardware may still make their way to the country. However, the Treasury Secretary does not believe that the U.S. needs to introduce more stringent export restrictions or grant government agencies additional powers to prevent GPU smuggling. Instead, the authorities should properly enforce existing regulations, according to Bessent. Bessent also criticized Nvidia's general counsel Timothy Teter, who reportedly contacted the U.S. Department of Commerce to inquire whether U.S. authorities were behind the detention of Megaspeed's Alice Wong in Singapore. However, the Treasury Secretary declined to speculate about potential consequences for Nvidia if it turned out that some of its executives knew that their customers acted as intermediaries for Chinese entities. Meanwhile, Bessent expressed confidence that Nvidia's board of directors would conduct a thorough investigation into the matter. \"But let us just say, if this was happening, then there were not robust controls at the company,\" Bessent said. \"We do not know for a fact that Jensen Huang knew this. The [general council] seems to have been very involved here, probably should have done more oversight rather than the haranguing [government officials at the U.S. DoC].\" Bessent also revealed that the Departments of the Treasury, War, and State, as well as the Office of the U.S. Trade Representative (USTR), had supported the addition of Megaspeed to the Entity List for months. However, the authority to "
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's Ousted CEO Said a 1-Gigawatt Data Center Delay Costs $10 Billion a Quarter. Here's Why That Matters for Power Stocks.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUWl6b2pYWE9JeUVLZm9CdVJKMG5tZVpVczRqb3cySk5NcjVVZFlMNFBZcnMycmYyZlZIcFk5a3pfdS1BaWthZ0hpaFVMOWxlbmpfOWxWV3YtSXVnV2pFR1RwN25hNlJxZzlGTWsxVExXTGI0cXZuOTRPQXVLNUVwdHVUa0tySVozLVhHVEtzcWw2MzNEWUE?oc=5",
+   "date": "2026-11-15 08:45",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 전 CEO, 1GW 데이터센터 지연으로 분기당 100억 달러 손실 주장",
+    "korean_summary": "퇴임한 젠슨 황이 1기가와트 데이터센터 지연으로 인해 분기당 100억 달러의 손실이 발생한다고 언급했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUWl6b2pYWE9JeUVLZm9CdVJKMG5tZVpVczRqb3cySk5NcjVVZFlMNFBZcnMycmYyZlZIcFk5a3pfdS1BaWthZ0hpaFVMOWxlbmpfOWxWV3YtSXVnV2pFR1RwN25hNlJxZzlGTWsxVExXTGI0cXZuOTRPQXVLNUVwdHVUa0tySVozLVhHVEtzcWw2MzNEWUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcFVqMHQ5b2xua2w2NElyX2pUb1htSkRSTFJLZWpkaUswcHJwMEtMTWVON1FTMmlPV3FEWGc4TmtxbUhGODdFYmVFVFJ5Z1ZWTVdyaTdmM3VrdDRzallvbzh4VUpMNWdqaEVMRHFxazF4NEdjSmJUOUR0bk9WT0p6MWI2eVB6emQtWVBzMTQxdWRxSnVk?oc=5",
+   "date": "2026-11-15 03:01",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "스파이 스캔들로 Jensen Huang CEO 강제 하야",
+    "korean_summary": "스파이 스캔들로 인해 NVIDIA CEO Jensen Huang이 하야했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcFVqMHQ5b2xua2w2NElyX2pUb1htSkRSTFJLZWpkaUswcHJwMEtMTWVON1FTMmlPV3FEWGc4TmtxbUhGODdFYmVFVFJ5Z1ZWTVdyaTdmM3VrdDRzallvbzh4VUpMNWdqaEVMRHFxazF4NEdjSmJUOUR0bk9WT0p6MWI2eVB6emQtWVBzMTQxdWRxSnVk",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "GR00T 2: new World-Action Model (WAM) from Nvidia",
+   "link": "https://research.nvidia.com/labs/gear/gr00t-2/",
+   "date": "2026-11-14 16:06",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Research-Models",
+    "is_focus": true,
+    "signal_tags": [
+     "model-release",
+     "robotics"
+    ],
+    "korean_title": "NVIDIA, 로보틱스용 세계 행동 모델 GR00T 2 공개",
+    "korean_summary": "NVIDIA가 로보틱스 애플리케이션을 위한 신규 세계 행동 모델 GR00T 2를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 영상·행동 동시 예측하는 차세대 로봇 파운데이션 모델 GR00T 2 발표",
+    "korean_summary": "NVIDIA가 미래 영상과 로봇 행동을 동시에 예측하는 월드-액션 모델 GR00T 2와 경량화 버전 GR00T 2 Turbo를 공개해 휴머노이드·그리퍼·덱스터러스 핸드 전반의 일반화 및 전신 제어 성능을 크게 끌어올렸다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "미래 영상과 로봇 행동을 함께 예측하는 월드-액션 모델(WAM) GR00T 2 및 실시간 전신 제어용 경량 버전 GR00T 2 Turbo 공개",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "parallel gripper(YAM, Franka), dexterous hand(Sharpa, Wuji), Unitree G1 휴머노이드 등 다중 로봇 플랫폼"
+    },
+    "key_facts": [
+     "**GR00T 2는 사람 영상, 핸드헬드 UMI 그리퍼, 로봇 원격조작 데이터 3종을 혼합해 사전학습**(사람 영상 402,730시간, UMI 10,184시간, 로봇 teleoperation 23,500시간)",
+     "50개 미지 작업에서 zero-shot 성공률 40%, 5회 시연 후 RTX 5090 한 대에서 30분 파인튜닝만으로 95%까지 상승",
+     "22-DoF Sharpa 양손으로 GB300 메모리 모듈 장착 85%, 토이트럭 조립 65% 성공",
+     "**GR00T 2 Turbo는 Unitree G1의 Jetson Thor 상에서 124ms 추론으로 실시간 전신 제어 구동**, SONIC 컨트롤러로 팝콘 서빙 48/48, 테이블 정리 93% 성공",
+     "사람 영상 비중을 0%→100%로 늘릴수록 실제 로봇 작업 진행률이 50%에서 70%로 상승"
+    ],
+    "why_matters": "**로봇 파운데이션 모델이 영상 예측과 행동 생성을 통합함으로써 인간 시연·타 그리퍼 데이터를 이종 로봇에 전이(X-Adaptability)할 수 있게 되어, 로봇 데이터 수집 비용과 플랫폼 종속성을 크게 낮추는 방향성을 제시한다.** 이는 Physical AI 경쟁에서 데이터·연산 효율이 핵심 변수로 부상했음을 보여준다.",
+    "subject_angle": "**NVIDIA는 GR00T 2를 통해 Jetson Thor·RTX 5090 등 자사 컴퓨팅 스택 위에서 동작하는 범용 로봇 파운데이션 모델을 제시함으로써, 하드웨어-소프트웨어 통합 Physical AI 플랫폼 전략을 강화**하고 있다.",
+    "focus_angle": "**이종 데모(사람, 다른 그리퍼, 웨어러블 핸드)에서 학습한 스킬을 실제 휴머노이드·로봇팔로 전이하는 X-Adaptability는 OEM과 로봇 제조사가 플랫폼별 데이터 수집 부담 없이 다양한 하드웨어에 모델을 재사용할 수 있게 하며, Unitree G1 상 실시간 전신 제어(124ms)는 휴머노이드 상용화에 필요한 온보드 추론 성능 기준을 제시한다.**",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "GR00T 2 및 GR00T 2 Turbo 모델 개발사"
+     },
+     {
+      "name": "Unitree",
+      "context": "G1 휴머노이드 로봇으로 GR00T 2 Turbo 실시간 전신 제어 테스트 플랫폼 제공"
+     },
+     {
+      "name": "Hugging Face",
+      "context": "Human-1M-100K 데이터셋 공개 플랫폼"
+     }
+    ],
+    "products": [
+     {
+      "name": "GR00T 2",
+      "role": "영상·행동 동시 예측 월드-액션 모델(WAM), 핵심 발표 대상"
+     },
+     {
+      "name": "GR00T 2 Turbo",
+      "role": "경량화 버전으로 Jetson Thor 상 실시간 전신 제어 구동"
+     },
+     {
+      "name": "Jetson Thor",
+      "context": "G1 로봇 내 온보드 추론 하드웨어"
+     },
+     {
+      "name": "RTX 5090",
+      "role": "소수 시연 데이터 파인튜닝용 GPU"
+     },
+     {
+      "name": "Human-1M / Human-1M-100K",
+      "role": "사전학습용 egocentric 인간 영상 데이터셋"
+     },
+     {
+      "name": "SONIC",
+      "role": "GR00T 2 Turbo의 전신 제어 컨트롤러"
+     },
+     {
+      "name": "YAM, Sharpa, Wuji, Franka",
+      "role": "GR00T 2가 지원하는 로봇 팔·핸드 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "GR00T 2 및 Turbo의 공식 출시 일정·접근 방식(오픈소스 여부, API 공개 범위) 확인",
+     "Unitree 외 추가 휴머노이드·OEM 파트너와의 통합 발표 여부",
+     "GB300 메모리 모듈 조립 등 산업 제조 현장 적용 사례의 실제 배포 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://research.nvidia.com/labs/gear/gr00t-2",
+   "body": "Introducing GR00T 2 We introduce GR00T 2, a new generation of foundation world-action models (WAMs). GR00T 2 predicts future video and robot actions together, learning how physical interactions unfold along with the actions that produce them. The models run on parallel grippers, dexterous hands, and humanoids. Learning to predict the world, not just act in it, unlocks three new capabilities. 01Emergence of X-Adaptability Skills shown only by humans, or with handheld and wearable devices, carry over to robots that never practiced them. - Human → robot. Shown the task only by humans, never on the robot, a robot with two five-fingered hands lines a lab funnel with filter paper and wets it with a wash bottle in 65% of trials. - Handheld UMI gripper → YAM. Shown only with a handheld UMI gripper, a different gripper from the robot's own, the YAM arm assembles a toy dump truck end to end in 60% of trials, a long-horizon task that takes up to 4 minutes. - Wearable hand → robot hand. Shown only with DexUMI, a wearable hand that mirrors the robot's fingers, a two-handed robot handles long-horizon dexterous work, such as preparing banana yogurt and scooping granola for breakfast, and highly dynamic tasks like striking a match to light a lamp. 02Fast Adaptation and Agentic Control GR00T 2 performs many new tasks zero-shot and masters them from a handful of demonstrations. Because it predicts the outcome it is acting toward, a reasoning model can also direct it. - Zero-shot generalization and few-shot adaptation. On 50 tasks never seen on the target robot, only in human video or on other robots, GR00T 2 succeeds 40% of the time zero-shot. Five demonstrations per task, under 3 minutes of robot data, raise that to 95% after a 30-minute fine-tune on a single RTX 5090. - Dexterity. With minimal post-training, GR00T 2 performs long-horizon, highly dexterous tasks with two 22-DoF Sharpa hands, such as seating GB300 memory modules (85%) and assembling a toy truck (65%). Previous models could not do these tasks. - Self-improvement. Reinforcement learning on the real robot lifts three contact-rich insertion tasks to 88–96% success. - Agentic control. With a reasoning model calling GR00T 2 through the WAM API, YAM completes 97 or more of 100 back-to-back assemblies of each of three toys, recovering from stalls and errors along the way. - Visual steering. When a reasoning model gives step instructions and marks where to grasp and release on GR00T 2's camera view, YAM follows what-and-where instructions 92% of the time, up from 40% with the task instruction alone, and finishes 17 of 20 long-horizon trash-sorting runs. 03Whole-Body Loco-Manipulation with GR00T 2 Turbo GR00T 2 Turbo is GR00T 2 built for speed. A smaller transformer and a more compact video representation make it light enough to run on the Unitree G1 humanoid itself, steering the robot's whole body as it walks, bends, reaches, and carries. - Real time on the robot. Each prediction takes 124 ms on the G1's o"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+   "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+   "date": "2026-11-15 03:48",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 경영진 위기가 AI 거래 동요",
+    "korean_summary": "Jensen Huang의 NVIDIA CEO 사임으로 Wall Street가 주식 변동성에 대응하며 포트폴리오를 조정하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia CEO Jensen Huang 스캔들 사퇴, AI 트레이드 흔들리며 투자자들 AMD로 이동",
+    "korean_summary": "Nvidia CEO **Jensen Huang**가 중국 스파이 의혹 여성과의 관계 및 직원과의 불륜 스캔들로 사퇴하고 CFO Colette Kress가 임시 CEO로 선임되면서, CNBC Investing Club은 Nvidia를 holds로 하향하고 Intel을 팔아 AMD를 매수하는 포트폴리오 조정에 나섰다.",
+    "action": {
+     "actor": "Jensen Huang / Nvidia 이사회",
+     "action": "CEO Jensen Huang 사퇴 및 CFO Colette Kress 임시 CEO 선임",
+     "stage": "Announced",
+     "timeline": "지난 주 목요일(사퇴), 다음 화요일 저녁 실적 발표 예정",
+     "scope": "Nvidia 경영진 전체, 미국 증시 AI 트레이드"
+    },
+    "key_facts": [
+     "Nvidia 주가가 **한 주간 약 13% 급락**, 반도체주 전반의 반등 흐름과 반대로 움직임",
+     "이사회가 Huang와 중국 스파이 의혹 여성과의 관계를 조사 중이었고, 이후 직원 2명과의 불륜 추가 보도로 스캔들 확대, **목요일 Huang 사퇴**",
+     "CFO Colette Kress가 임시 CEO로 선임됨",
+     "CNBC Investing Club이 화요일 Nvidia를 hold-equivalent 2등급으로 하향",
+     "Club은 Intel을 매도하고 그 자금으로 AMD 포지션을 신규 개설할 계획이며, Intel은 sell-equivalent 3등급으로 하향됨"
+    ],
+    "why_matters": "**업계를 대표하는 CEO의 돌발 사퇴**는 AI 반도체 섹터 전체의 신뢰도와 밸류에이션에 타격을 줄 수 있으며, 투자자들이 리더십 공백을 틈타 경쟁사 AMD로 자금을 이동시키는 움직임이 포착됐다. 이는 Nvidia의 GPU 시장 지배력이 일시적으로 흔들릴 수 있다는 시장의 우려를 반영한다.",
+    "subject_angle": "**리더십 불확실성**이 Nvidia의 단기 주가와 투자자 신뢰에 부담을 주고 있으며, 차기 실적 발표가 경영 안정성과 사업 모멘텀을 입증할 중요한 시험대가 될 전망이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 사퇴 스캔들 당사자, AI 칩 시장 선두 기업"
+     },
+     {
+      "name": "AMD",
+      "context": "Nvidia 혼란 속 GPU·CPU 시장점유율 확대 기대주로 신규 매수 대상"
+     },
+     {
+      "name": "Intel",
+      "context": "Investing Club이 매도하기로 결정한 포지션, sell-equivalent로 하향"
+     },
+     {
+      "name": "Apple",
+      "context": "Steve Jobs 이후 사례로 Nvidia 리더십 교체와 비교 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "GPU (데이터센터용)",
+      "role": "Nvidia 혼란으로 AMD가 점유율 확대를 노리는 핵심 제품"
+     },
+     {
+      "name": "CPU (데이터센터용)",
+      "role": "AI 에이전트 구동에 필요하며 AMD의 유연한 설계가 강점으로 부각"
+     }
+    ],
+    "watch_next": [
+     "Nvidia 다음 주 화요일 저녁 실적 발표 결과",
+     "Colette Kress 체제의 전략 지속성 및 정식 CEO 선임 여부",
+     "AMD의 GPU·CPU 시장점유율 변화 추이"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUlZuRGNwODhyT3Npb1V3dDVFSnQ3OFZ2eDY1VUk0WDdLUWktdVNrSnQwQzhhZDJWcFdCeWtwd0plOG41bEdYSk9PZmFrQ1JlUjJqb3RKWXVzOWZCOHRrU3BoWlluOU5kczhwVldlZElqa0pyUHJ5M2tNYWZFVkF3T3hvTWc1YXdCTzdOVFdOTnRGREFJSHlvbFVsanFQWlNLczZUak1ZWlNoT0EyT1R2NGNhaUtJZw?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+   "body": "Wall Street faced a major test last week as Nvidia's stunning leadership shake-up dominated the headlines and brought more uncertainty to the AI trade. Despite the turbulence, the S & P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%. Both indexes were up so much on Monday and Wednesday that declines on Tuesday, Thursday, and Friday were no match. In fact, both the S & P 500 and Nasdaq have made sizeable dents in the losses they suffered in the postelection market rout on Nov. 5. While Nvidia shares fell another 2% on Friday, the market ended the week under pressure for a different reason. It was the potential for multiple Federal Reserve rate hikes over the next few meetings that led to the selling. Before Friday's open, the October producer price index turned in its highest yearly reading in nearly four years. Headline PPI, a measure of wholesale inflation, was cooler than expected month over month. However, its year-over-year increase to 6.5% was all anyone cared about, especially after Tuesday's hot consumer inflation report . Here's a closer look at the three things that shaped our view of last week's market. Nvidia's C-suite shake-up Nvidia's leadership crisis sent shares tumbling nearly 13% for all of last week, bucking a broader rebound in semiconductor stocks. The Nvidia sell-off began Monday after reports that the chip giant's board was investigating CEO Jensen Huang's relationship with a woman suspected of spying for China. The scandal escalated with reports that Huang had affairs with two Nvidia employees, culminating in his resignation Thursday. Longtime CFO Colette Kress was named interim CEO, a move that Jim Cramer was pleased with. While remaining confident in Nvidia's technology and management bench, Jim acknowledged the uncertainty surrounding its future . \"A Jensen-less Nvidia is an Nvidia many will not want to own,\" he said Wednesday on \" Mad Money .\" We downgraded Nvidia to our hold-equivalent 2 rating Tuesday. While not looking to buy the dips, Jim said he was not abandoning the company either . Jim pointed to Apple's success after Steve Jobs and expressed confidence in Kress to right the ship. For longtime shareholders sitting on substantial gains, Jim emphasized capital preservation, urging investors to consider taking some profits rather than risk giving them back. He said Thursday: \"If you are one of those millionaires, don't become a hundred-thousandaire.\" The next test for Nvidia will come when it reports earnings on Tuesday evening. Swapping Intel for AMD We're planning to exit our position in Intel and use the proceeds to initiate a position in rival Advanced Micro Devices once our trading restrictions allow. Jim said that Friday's decline in AMD is a \" terrific opportunity \" to buy the stock. The move reflects our growing confidence in AMD's ability to capitalize on booming demand for data center chips. Part of our thinking is that the turmoil at Nvidia could create opportunities for AMD to"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+   "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+   "date": "2026-11-15 01:34",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "아시아 정부들의 Jensen Huang 사임 반응",
+    "korean_summary": "아시아 각국 정부가 Jensen Huang의 NVIDIA CEO 사임에 대응하며 칩 공급 약속 확인과 조사를 진행하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang NVIDIA CEO 사퇴 후폭풍, 아시아 각국 정부 대응 나서",
+    "korean_summary": "Jensen Huang의 NVIDIA 사퇴와 관련된 스파이 의혹·치정 스캔들 이후, 한국·대만·일본·중국·싱가포르 정부가 각각 칩 공급 약속 확인, 투자 지속 여부, 수사 상황 점검에 나섰다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Jensen Huang 사퇴 이후 이사회가 독립 조사를 개시했고, 각국 정부는 공급 계약 이행 여부를 확인함",
+     "stage": "Report",
+     "timeline": "2025년 11월 8일 이사회 조사 개시, 2026년 2월 싱가포르 수사 결론",
+     "scope": "한국, 대만, 일본, 중국, 싱가포르 등 아시아 주요국"
+    },
+    "key_facts": [
+     "**2025년 11월 8일 NVIDIA 이사회가 Jensen Huang의 중국 스파이 연계 의혹 및 Alice Huang과의 불륜 인정 이후 독립 조사 착수**",
+     "South Korea Science Ministry는 **NVIDIA가 260,000개의 첨단 GPU 공급 계획을 재확인**했다고 발표",
+     "중국 내 Nvidia 제한 프로세서 의존 AI 컴퓨팅 프로젝트 중 3억 달러 이상 규모의 불확실성 발생 (Reuters)",
+     "싱가포르 당국은 2025년 6월 Alice Huang(전 Megaspeed CEO) 여권 압류, 2026년 2월 혐의 불충분 결론 및 여권 반환, Megaspeed 등 7인 수사는 계속 진행 중",
+     "대만 타이베이시 정부는 NVIDIA 해외 본사 프로젝트가 **계약 의무 이행 중이며 계획대로 진행**된다고 확인"
+    ],
+    "why_matters": "이번 사태는 **NVIDIA의 글로벌 공급망과 지정학적 리스크가 단일 CEO의 개인 스캔들에 의해 흔들릴 수 있음**을 보여주며, 각국 정부가 AI 반도체 공급 안정성에 얼마나 민감하게 반응하는지를 드러낸다. 특히 중국의 수출 통제 우회 의혹과 한국·대만의 공급 계약 재확인은 NVIDIA의 지역별 전략적 중요도를 재확인시킨다.",
+    "subject_angle": "**NVIDIA는 CEO 교체 리스크에도 불구하고 한국·대만 등 핵심 파트너와의 공급 계약을 즉시 재확인함으로써 공급망 신뢰도를 방어**하는 모습을 보였으며, 이는 메모리·파운드리 협력 관계가 개인 리더십 이슈보다 구조적으로 견고함을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CEO 사퇴 및 조사 대상 기업"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang 전 CEO 소속 싱가포르 클라우드 컴퓨팅 기업, 수사 대상"
+     },
+     {
+      "name": "Samsung Electronics",
+      "context": "NVIDIA AI 프로세서용 메모리 칩 공급사"
+     },
+     {
+      "name": "SK Hynix",
+      "context": "NVIDIA AI 프로세서용 메모리 칩 공급사"
+     },
+     {
+      "name": "Supermicro",
+      "context": "싱가포르 수사 관련 미국 서버 제조사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Advanced GPU (260,000대)",
+      "role": "한국에 공급 예정인 NVIDIA AI 칩"
+     },
+     {
+      "name": "Restricted processors",
+      "role": "중국 내 3억 달러 이상 AI 프로젝트에 사용되는 수출 통제 대상 칩"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 이사회 독립 조사 결과 발표 시점 및 내용",
+     "싱가포르의 Megaspeed 외 6인 수사 진행 상황",
+     "중국 내 3억 달러 규모 AI 프로젝트의 칩 공급 불확실성 해소 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNEoxX192QmszeDd5VmpzdjNBT2hZYnZGT0huU0VlVktDcldFeThrQ2FRQnBmNk04MVlEZlNjT3lpUHd3US1DWE1vd1d5aXZwWDRYQ3NyaGw3QmRUS3Z0Q1dfSW5uUlRmd1U5cFZKYnJ1eUVUb0hVLTc3b3czOWw1a1dJZHlZTldlc003MnRFSlQ5UTBLUWc?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit",
+   "body": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations. On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed. Nvidia’s influence extends far beyond the United States. The chip giant has built close ties with companies worldwide, particularly in Asia, where many of its key partners play important roles in the global AI industry. China China’s foreign ministry rejected allegations on November 10 that a Chinese businesswoman linked to former Nvidia CEO Jensen Huang was a spy, calling them groundless and a smear against Beijing. On Friday, a spokesperson reiterated opposition to export controls that disrupt global supply chains and stated the ministry was not aware of reports linking restricted Nvidia chips to a Shanghai data center associated with Alice Huang. Huang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters. Many of these chips are subject to U.S. export controls, making them difficult for Chinese companies to obtain. Singapore In Singapore, authorities seized the passport of Alice Huang, former CEO of Singapore-based cloud computing company Megaspeed, in June 2025 as part of an investigation into possible false declarations regarding server purchases, according to the Ministry of Home Affairs. The Singapore ministry said police took her passport to ensure she remained available for questioning, as she was not based in Singapore. The investigation examined whether servers shipped from Singapore to Malaysia were later sent to other countries without proper declaration. In February 2026, police found insufficient evidence to establish that Alice Huang had committed offenses related to the suspected false declarations, according to the ministry. However, authorities said she had knowingly provided inaccurate information about her role at Megaspeed. She was issued a warning and barred from re-entering Singapore. Her passport was returned that month. Singapore also said it received limited assistance from U.S. authorities despite repeated requests for information about U.S. server maker Supermicro. Singapore’s Ministry of Home Affairs said its investigation into Megaspeed and six other individuals remains ongoing. The ministry did not identify the six individuals or specify their alleged roles in the case. South Korea South Korea has close ties to Nvidia, with major chipmakers Samsung Electronics and SK Hynix playing important roles in supplying memory chips used in its AI processors. Following Huang’s exit, South Korea’s Science Ministry said Nvidia had reaffirmed i"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+   "date": "2026-11-15 00:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "말레이시아의 데이터센터 AI GPU 밀수 적발법 추진",
+    "korean_summary": "말레이시아가 데이터센터의 AI 가속기 수입과 전력 소비 공개를 의무화해 GPU 밀수를 적발하려는 새로운 법률을 추진하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "말레이시아, 데이터센터 전력 소비량으로 AI GPU 밀수 추적하는 신규 법안 추진",
+    "korean_summary": "말레이시아 정부가 AI 가속기의 중국 등으로의 불법 재수출을 막기 위해 데이터센터 운영자에게 GPU 수입량과 전력 소비량 공개를 의무화하는 법안을 추진한다.",
+    "action": {
+     "actor": "Malaysia government (Ministry of Investment, Trade and Industry, Digital Ministry)",
+     "action": "데이터센터 운영자에게 AI 가속기 수입량, 전력 소비량, 시설 위치, 운영자·고객 신원 공개를 의무화하는 법안 추진 및 미사용 예약 전력 요금 부과",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "말레이시아 내 데이터센터 운영자 전체 (승인된 117개 프로젝트, 운영 중 55개)"
+    },
+    "key_facts": [
+     "말레이시아 승인 데이터센터 프로젝트 117개 중 **55개가 이미 운영 중**",
+     "일부 기업이 말레이시아 데이터센터 공간을 임대해 합법적으로 GPU를 수입한 뒤 해외로 밀수출한 사례 확인",
+     "데이터센터가 100MW 전력을 확보했지만 50MW만 사용해도 나머지 50MW에 대해 비용을 지불해야 함",
+     "**Nvidia H100/H200 SXM GPU는 700W, B200 SXM은 1,000W로 정격 전력이 다름**",
+     "장관은 미국 당국과 협력해 특정 GPU 보유 시설 정보를 요청 시 제공할 의향을 밝혔으나, GPU 모델·시리얼넘버 공개나 현장 점검 여부는 명시하지 않음"
+    ],
+    "why_matters": "전력 소비 기반 추적은 **수출통제 우회(China로의 재수출)를 막기 위한 새로운 감시 수단**이지만, 서버 구성·PUE·실제 워크로드 차이로 인해 정확한 GPU 대수 추정이 어렵다는 근본적 한계가 있다. 이는 미국의 AI 칩 수출통제 실효성과 동남아 데이터센터 투자 리스크에 직접 영향을 미치는 이슈다.",
+    "subject_angle": "Nvidia는 H100/H200/B200 등 자사 GPU의 **정격 전력 스펙이 규제 추적 지표로 활용**되는 상황에 직면했으며, 이는 동남아 AI 인프라 확장 전략과 미국 수출통제 준수 리스크 관리에 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "H100, H200, B200 GPU 제조사로 전력 스펙이 추적 기준으로 언급됨"
+     },
+     {
+      "name": "Malaysia government",
+      "context": "신규 데이터센터 전력 공개 법안 추진 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia H100/H200 SXM",
+      "role": "700W 정격 전력, 밀수 추적 사례로 언급된 GPU"
+     },
+     {
+      "name": "Nvidia B200 SXM",
+      "role": "1,000W 정격 전력, 추적 어려움을 보여주는 비교 사례"
+     }
+    ],
+    "watch_next": [
+     "말레이시아 신규 법안의 실제 발효 시점과 세부 조항(GPU 모델·시리얼넘버 공개 여부)",
+     "미국-말레이시아 간 수출통제 협력 세부 내용 발표 여부",
+     "실제 GPU 밀수 적발 사례 및 처벌 결과"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+   "body": "Malaysia plans to introduce a new law requiring data center operators to disclose their AI accelerator imports and power consumption to prevent diversion of restricted hardware to countries like China and optimize the use of the country’s power infrastructure, reports Malay Mail . The authorities also plan to charge data center operators for unused electricity capacity they reserve. While the idea to use power consumption to detect potential GPU smuggling has merit, it also has flaws. Malaysia's Minister of Investment, Trade and Industry Datuk Seri Johari Abdul Ghani acknowledged on Thursday that some companies had rented space in Malaysian data centers to import GPUs legally, which they then shipped abroad in smuggling operations. To prevent such practices, Malaysia's Digital Ministry is now reviewing existing legislation to determine whether local authorities can take action against entities that re-export processors subject to U.S. export bans. The minister stressed that Malaysia wants AI accelerators imported into the country to be used domestically. The proposed legislation will require data center operators to disclose the number of GPUs they import, their power consumption (presumably nameplate power consumption), the physical locations of their facilities, and the identities of operators and hyperscale customers. The government intends to track data center operations throughout their lifetime rather than limit oversight to the project approval stage. Meanwhile, data center operators will have to pay for all the electricity capacity they reserve, irrespective of their actual power consumption. For example, if a data center secures 100 MW of power capacity but only uses 50 MW, its operator will still have to pay for the remaining 50 MW. The measure is meant to discourage companies from reserving electricity capacity they may not need for another one to three years. As an added bonus, the measure will further discourage rerouting AI hardware to China while pretending it is used in Malaysia. While data on power consumption could help Malaysian authorities spot suspicious discrepancies between AI GPU imports and actual data center operations, it is virtually impossible to accurately determine the number of AI accelerators deployed at a facility based on power consumption alone. For example, Nvidia's H100 and H200 SXM GPUs are rated at 700W, whereas its B200 SXM accelerators are rated at 1,000W, yet neither necessarily consumes its rated power under actual workloads. Furthermore, without knowledge of server configurations, the power consumption of CPUs, memory, storage, and networking equipment, or the power usage effectiveness (PUE) of a particular facility, any estimates of the number of operational GPUs would be imprecise, to put it mildly. Also, there may be a considerable delay between GPU imports and their actual deployment. As a result, reliable verification would require physical inventory audits or other mechanisms to track individual "
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] 배경훈 부총리“젠슨 황 사임에도 엔비디아 韓 GPU 공급 유지”",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001058",
+   "date": "2026-11-14 20:05",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "한국 정부, 젠슨 황 사임에도 NVIDIA GPU 공급 유지 재확인",
+    "korean_summary": "배경훈 부총리가 NVIDIA와 회의 후 한국에 대한 26만장 규모의 GPU 공급이 계속될 것을 공식 확인했다."
+   },
+   "summary_data": {
+    "korean_title": "배경훈 부총리, 젠슨 황 사임설에도 엔비디아 GPU 26만장 韓 공급 유지 확인",
+    "korean_summary": "배경훈 과기정통부 장관 겸 부총리가 엔비디아와 긴급 회의를 열고 **젠슨 황 사임 소식에도 GPU 공급과 AI 협력이 예정대로 진행된다**고 밝혔다.",
+    "action": {
+     "actor": "배경훈 부총리(과기정통부 장관)",
+     "action": "엔비디아와 긴급 현안점검회의를 열어 GPU 공급 및 AI 협력사업 지속 방침 재확인",
+     "stage": "Announced",
+     "timeline": "2026-11-13",
+     "scope": "한국 대상 첨단 GPU 공급 및 AI 협력 사업"
+    },
+    "key_facts": [
+     "11월 13일 과기정통부 제2차관 주재로 엔비디아 측과 현안점검회의 개최",
+     "**첨단 GPU 26만장 공급** 계획이 언급됨",
+     "배경훈 부총리가 본인 페이스북에 '젠슨 황의 사임, 그러나 협력은 계속 됩니다'라는 글 게시",
+     "젠슨 황 사임 소식 이후 GPU 공급·협력 지속 여부에 대한 우려가 제기됨",
+     "정부는 GPU 공급과 AI 분야 협력 사업을 예정대로 추진한다는 방침 재확인"
+    ],
+    "why_matters": "엔비디아의 리더십 변동 이슈가 **국가 단위 대규모 GPU 공급 계약(26만장)**의 지속성에 대한 불안으로 이어질 수 있음을 보여준다. 이는 엔비디아의 공급 신뢰도가 단일 경영진이 아닌 조직적 계약·관계에 기반함을 한국 정부가 공식적으로 확인시키려는 시도로 해석된다.",
+    "subject_angle": "엔비디아 입장에서는 **최고경영진 관련 불확실성 속에서도 주요 고객국과의 대형 GPU 공급 계약을 흔들림 없이 유지**한다는 신호를 줌으로써, AI 인프라 공급자로서의 시장 신뢰도와 거래 지속성을 방어하는 전략적 의미를 지닌다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "한국 정부와 GPU 공급·AI 협력 계약을 맺은 공급사, 리더십 변동 이슈의 당사자"
+     },
+     {
+      "name": "과학기술정보통신부(MSIT)",
+      "context": "엔비디아와 공급·협력 현안을 점검하는 한국 정부 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "첨단 GPU (26만장 규모)",
+      "role": "한국 대상 공급 예정 물량으로 언급된 핵심 제품"
+     }
+    ],
+    "watch_next": [
+     "26만장 GPU 공급의 구체적 일정·세부 계약 조건 공개 여부",
+     "엔비디아 측의 공식 입장 발표(젠슨 황 사임 관련 경영 공백 대응 방안)",
+     "후속 현안점검회의 또는 양측 합의 결과 발표"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001058",
+   "body": "배경훈 부총리는 엔비디아 측과 긴급 회의를 열고 GPU 공급과 인공지능(AI) 분야 협력 사업을 예정대로 추진하겠다는 방침을 재확인했다고 밝혔다.배경훈 부총리 겸 과학기술정보통신부 장관은 13일 자신의 페이스북에 ‘젠슨 황의 사임, 그러나 협력은 계속 됩니다’라는 제목의 글을 통해 이같이 밝혔다. 배 부총리는 “젠슨 황 사임 소식 이후 GPU 공급과 협력 사업이 예정대로 진행되는지 묻는 분들이 많았다”며 배경을 설명했다.그는 “13일 오전 과기정통부 제2차관 주재로 엔비디아 측과 현안점검회의를 열었다”며 “첨단 GPU 26만장 공급"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang reportedly gave up in final hours as Nvidia CEO — as his affair scandal wipes away more than $1T in value",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdTdlRHdoUlpJR0Qwd2RFUGY0YzZDZ0RYUzMzenlrODM0Sjl2YnNDNFkyenp0RzdCclI1Y2wwcUtIOURSRVc3Y3JEV2xPRWpFYlYxRFFjdXFKMlFDQlFTWUxJOXQ1ZDNXVWQ2TXA5Y3k2X2UtSlpMQjEyVk5QckYyT0dEWDlYcVBYNnZlVFlTd2pKR2duZkFwQVRQWmhFMG02?oc=5",
+   "date": "2026-11-14 22:30",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황, CEO 최종 시간에 포기 결정 — 1조 달러 이상 시가총액 증발",
+    "korean_summary": "젠슨 황이 NVIDIA CEO 직 포기를 최종 결정했으며 회사 시가총액이 1조 달러 이상 손실되었다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdTdlRHdoUlpJR0Qwd2RFUGY0YzZDZ0RYUzMzenlrODM0Sjl2YnNDNFkyenp0RzdCclI1Y2wwcUtIOURSRVc3Y3JEV2xPRWpFYlYxRFFjdXFKMlFDQlFTWUxJOXQ1ZDNXVWQ2TXA5Y3k2X2UtSlpMQjEyVk5QckYyT0dEWDlYcVBYNnZlVFlTd2pKR2duZkFwQVRQWmhFMG02",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Alphabet, Microsoft, and Micron Are All Buying Anthropic’s IPO. Should You Buy Too?",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbFVxMm44bG1IQmd4ZE5ObVNpLTJHQVcweHc4T2R3TExkUFV2OFVGOEF0T09URGVWOTNJZXJIUWJKNmFtNVB2dGdaVXo5cjg5Ni1FU3htNHlldFZ4bW16ZVBhRU9iZHdjeEZMeTBzYVUtQWZ6T3ZSYm5oVGR4RjFaSndobHhZQVotNHZjVlMtc3A0NnVZcXlUNWRUOG8ybWpHbkczZjJESQ?oc=5",
+   "date": "2026-11-14 19:02",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "NVIDIA·Alphabet·Microsoft·Micron, Anthropic IPO 투자",
+    "korean_summary": "NVIDIA를 포함한 주요 기술 기업들이 Anthropic의 기업공개에 참여하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbFVxMm44bG1IQmd4ZE5ObVNpLTJHQVcweHc4T2R3TExkUFV2OFVGOEF0T09URGVWOTNJZXJIUWJKNmFtNVB2dGdaVXo5cjg5Ni1FU3htNHlldFZ4bW16ZVBhRU9iZHdjeEZMeTBzYVUtQWZ6T3ZSYm5oVGR4RjFaSndobHhZQVotNHZjVlMtc3A0NnVZcXlUNWRUOG8ybWpHbkczZjJESQ",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+   "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "date": "2026-11-15 02:46",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아 주요 주주들, 경영진 결정 절차의 신중함 촉구",
+    "korean_summary": "Altimeter Capital과 Atreides Management가 이사회에 공개 서한을 보내 Jensen Huang 복귀 가능성을 포함한 모든 옵션을 신중하게 검토할 것을 촉구했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA 이사회, 주요 투자자들로부터 '젠슨 황 복귀 가능성' 검토 압박받아",
+    "korean_summary": "Altimeter Capital과 Atreides Management가 **중국 스파이 의혹에 연루된 혼외 관계로 사임한 Jensen Huang의 복귀 가능성**을 포함해 신중한 후계 절차를 밟으라고 NVIDIA 이사회에 공개 서한을 보냈다.",
+    "action": {
+     "actor": "Altimeter Capital (Brad Gerstner), Atreides Management (Gavin Baker)",
+     "action": "NVIDIA 이사회에 공개 서한을 보내 Jensen Huang의 잠재적 복귀를 포함한 모든 리더십 옵션을 신중하게 검토할 것을 요구",
+     "stage": "Report",
+     "timeline": "2025년 금요일 (서한 발송), Huang 사임은 목요일",
+     "scope": "NVIDIA 이사회 및 경영 리더십"
+    },
+    "key_facts": [
+     "Jensen Huang은 중국 스파이 의심 인물 Alice Huang과의 혼외 관계 의혹 등으로 목요일 사임했으며, Alice Huang은 NVIDIA 고객사 Megaspeed와도 협력한 바 있음",
+     "Megaspeed(싱가포르 소재)는 **NVIDIA의 수출 제한 AI 칩을 중국으로 우회 공급했을 가능성에 대해 DOJ 조사**를 받고 있음",
+     "CFO 13년 경력의 Colette Kress가 임시 CEO로 선임됨",
+     "Altimeter는 940만 주(약 19억 달러, 6월 30일 기준)를 보유한 NVIDIA 최대 공시 지분 보유자이며, Atreides는 120만 주(약 2.5억 달러) 보유",
+     "Elon Musk는 Huang 복귀 청원에 서명했으며 '**Huang 없이는 중요한 거래들을 잃게 될 것**'이라고 언급; '100,000명 이상 서명(직원 5,000명 이상 포함)'한 'Stand with Jensen' 청원도 존재"
+    ],
+    "why_matters": "NVIDIA는 AI 칩 시장을 주도하는 핵심 기업으로, **창업자이자 상징적 리더인 Jensen Huang의 거버넌스 리스크**가 주요 투자자들의 공개적 우려로 이어지며 리더십 불확실성이 시장 신뢰에 직접적 영향을 줄 수 있다. 동시에 대중국 AI 칩 수출통제 우회 의혹(Megaspeed)이 상무부·의회 청문회로 확대되면서 NVIDIA의 중국 사업 및 수출정책 전반이 정치적 감시 대상이 되고 있다.",
+    "subject_angle": "**리더십 교체 리스크와 대중국 수출통제 위반 의혹이 동시에 부각**되면서 NVIDIA의 기업 거버넌스와 중국 매출 지속 가능성에 대한 투자자·규제 당국의 압박이 커지고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "창업자 Jensen Huang 사임, 리더십 위기 및 대중국 수출통제 의혹의 중심"
+     },
+     {
+      "name": "Altimeter Capital",
+      "context": "NVIDIA 최대 공시 주주, Huang 복귀 검토 서한 발송"
+     },
+     {
+      "name": "Atreides Management",
+      "context": "NVIDIA 주요 주주, 서한 공동 서명"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 소재 NVIDIA 고객사, AI 칩 대중국 우회 공급 의혹으로 DOJ 조사 대상"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA 수출 제한 AI 칩",
+      "role": "Megaspeed를 통한 대중국 우회 공급 의혹의 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 이사회가 Jensen Huang 복귀 여부를 포함한 리더십 결정을 언제 내릴지",
+     "12월 10일 Lutnick의 상원 은행위원회 증언 및 Huang 증언 요청 결과",
+     "DOJ의 Megaspeed 수사 진행 상황 및 NVIDIA 대중국 수출통제 정책에 미치는 영향"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UdIBlAFBVV95cUxOcHpRUE1XYktjaFk5RmZuVXpfeThGVVE2Y1N3cnZOenVXQkVYejdldFVubGtCMk5JZkU5SVhTcUt6Q0pBVnVrNExoY2p5Qk9kWUJ0eks4Wk4xMlNsb0RleEF1Qmo3VDlXSE8wTkg3Vk1CR3M5LWYtNTVsRmRzWFVPUVg1OVdhSVpaRXRpTXBBZXB6Ujhr?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia board urged to consider 'return of Jensen Huang' by two major investors",
+     "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+   "body": "Two major Nvidia shareholders are calling on the board of directors to weigh all options for the company's future leadership, including \"the potential return of Jensen Huang.\" Altimeter Capital CEO Brad Gerstner posted a letter on X on Friday that urges Nvidia's board to \"pursue a slow, measured, and deliberate process regarding the future leadership of Nvidia.\" The letter is also signed by Atreides Management's Gavin Baker. Nvidia was Altimeter Capital's largest disclosed equity holding in its most recent SEC filing, with a 9.4 million-share stake worth nearly $1.9 billion as of June 30. Atreides held 1.2 million shares worth nearly $250 million at the end of June. The letter said Nvidia will be \"capably led\" by interim CEO Colette Kress, who served as Nvidia's CFO for 13 years before the board announced Thursday that she'd lead the company in Huang's absence. \"But the Founder and long time incredible leader of this extraordinary company has earned the right for a deliberate process that avoids any needless rush to replace him before all the facts are known,\" the letter concludes. The document did not call for Huang's immediate reinstatement. Nvidia founder Jensen Huang resigned on Thursday amid multiple affair allegations, including one with suspected Chinese spy Alice Huang, who also worked with Nvidia customer Megaspeed. The Singapore-based company is being investigated by the Justice Department for possibly redirecting some of its supply of Nvidia's restricted artificial intelligence chips to China. SpaceX CEO Elon Musk said on X Friday that he signed a petition asking to reinstate Huang. A petition circulating online called \"Stand with Jensen\" claims to have more than 100,000 signatures, including more than 5,000 current Nvidia employees. Musk said on X Saturday that without Huang, some \"critical deals will be lost.\" Another letter sent Friday called on U.S. Secretary of Commerce Howard Lutnick to testify about Megaspeed before the House Intelligence Committee. Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10 about whether the Commerce Department is \"properly performing its broader role of preventing China from acquiring advanced AI chips,\" according to the letter. Huang has also been asked to testify. The Commerce Department originally launched an investigation into Megaspeed that was moved to the Justice Department in 2025 after Nvidia's lawyer contacted a senior Commerce official, according to The New York Times. President Donald Trump is scheduled to visit China on Thursday, but doesn't plan to raise Nvidia and the suspected spy affair during his meeting with Chinese president Xi Jinping, according to U.S. officials. Musk is expected to join Trump on the trip to Shenzhen, China, for the Asia-Pacific Economic Cooperation summit on Nov. 18 and 19."
+  },
+  {
+   "source": "Google News · NPR",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Commerce Department under pressure for delaying export controls on Nvidia chips",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcjdnek9mQmRSSGo0bmFxaVRBcmVzbEdEbkwxV3FWNFdGa1A1T1QyN2ZZZ2d1aE9jVm0xTjA4NlowU2xsSVFzUHZFMmZ2WGNRWXdzVHh2dmh1T3Z3a0FKamNMYXRnaDRJUzFlUU5YZFhJbEJmREViR3ZEdDlVTk9TUmdmWGJqQ2xicE9tekdpajIyLVgtb3B6TGFTdE9fQVZxWGdSY3pDQWFzZW1hRy16ME85b0cxT3pCVHdZcFNxUFB6dw?oc=5",
+   "date": "2026-11-15 07:21",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국 상무부, 엔비디아 칩 수출통제 지연으로 정치적 압박 증가",
+    "korean_summary": "상무부가 엔비디아 칩에 대한 수출통제 시행을 지연하자 규제 기관에 압박 고조"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcjdnek9mQmRSSGo0bmFxaVRBcmVzbEdEbkwxV3FWNFdGa1A1T1QyN2ZZZ2d1aE9jVm0xTjA4NlowU2xsSVFzUHZFMmZ2WGNRWXdzVHh2dmh1T3Z3a0FKamNMYXRnaDRJUzFlUU5YZFhJbEJmREViR3ZEdDlVTk9TUmdmWGJqQ2xicE9tekdpajIyLVgtb3B6TGFTdE9fQVZxWGdSY3pDQWFzZW1hRy16ME85b0cxT3pCVHdZcFNxUFB6dw",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "date": "2026-11-14 11:52",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, AI 스타트업 투자로 자사 GPU 구매 유도 의혹",
+    "korean_summary": "NVIDIA가 AI 스타트업 펀딩을 통해 칩 부족을 의도적으로 조장했다는 반독점 의혹이 제기되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "body": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 1029 # Comments: 616"
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's new CEO search is on. Here are the top candidates to replace Jensen Huang.",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTTZGYlVTVXc4cEJSUWN4X0JxNkxMLWduT2VoMGhNSFk2RHBjdVVwYnllMTRDSDVXR01ILWFheUV5VmZqS2VCMzMyMzJJbEdwZVlBU2ozY3JaSnZSY2JfWjBwM3M3SlhXQ1BSSlo2cnY4aGVpNkFPMS05aVZhTkFBWGZnYl8zakFzTXY1YXNNYw?oc=5",
+   "date": "2026-11-15 01:37",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 신임 CEO 선임 시작, 주요 후보 공개",
+    "korean_summary": "NVIDIA가 새로운 CEO 물색에 들어갔고 유력 후보자들이 거론되고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTTZGYlVTVXc4cEJSUWN4X0JxNkxMLWduT2VoMGhNSFk2RHBjdVVwYnllMTRDSDVXR01ILWFheUV5VmZqS2VCMzMyMzJJbEdwZVlBU2ozY3JaSnZSY2JfWjBwM3M3SlhXQ1BSSlo2cnY4aGVpNkFPMS05aVZhTkFBWGZnYl8zakFzTXY1YXNNYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How the Nvidia scandal lifted the curtain on a loophole that’s giving China access to US chips",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUElic3FIZV9PSkhtTmZzSzlnYjdWa1BPWnBrM2s2Z201c2xvMUdMTk8tcUtKRU4zUnl2WnJMSFdJZlBxNzFubVpkbW4zRm5rcWYtNlVRWVNpSXNZOWJNSndtQWRLRzB2bzJUb2I5Ql9vTmZ2b25ObG4ybS1GUFdlVA?oc=5",
+   "date": "2026-11-15 00:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "엔비디아 스캔들이 드러낸 중국의 미국 칩 접근 허점",
+    "korean_summary": "엔비디아 관련 논란이 미국 수출통제 정책의 우회 가능성을 노출"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUElic3FIZV9PSkhtTmZzSzlnYjdWa1BPWnBrM2s2Z201c2xvMUdMTk8tcUtKRU4zUnl2WnJMSFdJZlBxNzFubVpkbW4zRm5rcWYtNlVRWVNpSXNZOWJNSndtQWRLRzB2bzJUb2I5Ql9vTmZ2b25ObG4ybS1GUFdlVA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Financial Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia exposed to possible lawsuits after Jensen Huang’s downfall",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObGtpTHJsZ0pHR0VpRUx2NlRFcVNnZ1ZvazVNR2tSR2dwcHUtb1MtLWVCTURERFl2QWR1RjNNWXZnVDZBeldsaVNHTzRuTzRZMjNibVdMSkJrclNTT1BucGFlX2RjWjVkTW8wWkJZSjhFTnZKX0QxVXdicl9IaDRGai1uVGw?oc=5",
+   "date": "2026-11-14 20:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "CEO 하야로 NVIDIA 소송 위기 노출",
+    "korean_summary": "NVIDIA가 CEO 하야로 인한 가능한 소송 위험에 직면했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObGtpTHJsZ0pHR0VpRUx2NlRFcVNnZ1ZvazVNR2tSR2dwcHUtb1MtLWVCTURERFl2QWR1RjNNWXZnVDZBeldsaVNHTzRuTzRZMjNibVdMSkJrclNTT1BucGFlX2RjWjVkTW8wWkJZSjhFTnZKX0QxVXdicl9IaDRGai1uVGw",
+   "body": ""
+  },
+  {
+   "source": "Google News · AP News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The Nvidia scandal is heightening America’s AI rivalry with China ahead of Trump’s visit",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQeGZidU1VWFo0VXpuaGNQVTdST1Bfa3B0YXUyc1NjVVprRVlhTlhMZFlidzhkQ3pqbnFJRDc1aDhpYm5rRFkycV9vMzU3ckhlSTBIVXRSb2VoOVc4SVJjYjNFVlRrQ01UQmM4Sk9WcGFFUEdvbElmc1lWZlZ5UlhvQUNQV1paNWhsc2Fv?oc=5",
+   "date": "2026-11-14 14:17",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프 방문 앞두고 미중 AI 경쟁 심화, NVIDIA 스캔들 부상",
+    "korean_summary": "미국과 중국의 AI 경쟁이 심화되는 가운데 NVIDIA 관련 스캔들이 대두되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOalY0LVRKSlZQVVJQeGZidU1VWFo0VXpuaGNQVTdST1Bfa3B0YXUyc1NjVVprRVlhTlhMZFlidzhkQ3pqbnFJRDc1aDhpYm5rRFkycV9vMzU3ckhlSTBIVXRSb2VoOVc4SVJjYjNFVlRrQ01UQmM4Sk9WcGFFUEdvbElmc1lWZlZ5UlhvQUNQV1paNWhsc2Fv",
+   "body": ""
+  },
+  {
+   "source": "Google News · Washington Examiner",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Investors push for Jensen Huang to be reinstated as Nvidia CEO after affair with suspected spy",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUU1tVk1haDRONTVaMDhZSjZidVk0cV9Xc1N0N0lBa2EyZ3l2Uk5Hb2didnVoLW91RTlab0p5ZWxNMHF2YlFIa3g3QjJyNW50SGJPbUpvUTJSLVcxSXFGT0tpc0c5ek9BSUlpVW40YkpKMVpYeXUzSW5LRkdYdXZGRVU0c3dCckhPeGVRSjdiamJTZndiNGFxVlJSQmhTSkl0Z1A0Y1RaNXROUQ?oc=5",
+   "date": "2026-11-15 05:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주요 투자자들, 스캔들 후 Jensen Huang CEO 복귀 압박",
+    "korean_summary": "NVIDIA의 주목할 만한 투자자들이 경영진에 Jensen Huang의 CEO 복귀를 검토하도록 촉구"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUU1tVk1haDRONTVaMDhZSjZidVk0cV9Xc1N0N0lBa2EyZ3l2Uk5Hb2didnVoLW91RTlab0p5ZWxNMHF2YlFIa3g3QjJyNW50SGJPbUpvUTJSLVcxSXFGT0tpc0c5ek9BSUlpVW40YkpKMVpYeXUzSW5LRkdYdXZGRVU0c3dCckhPeGVRSjdiamJTZndiNGFxVlJSQmhTSkl0Z1A0Y1RaNXROUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How to Read Nvidia Earnings: Hyperscalers at 51%",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTGkxZlJwS0ItQzg2UkNjQ1VWWjdOT3ZNVWZVb0dvbFBXVzd2SFZXNmRLRWwwcGxQVEN5VWZIWUdHWmVmUHZjNFNIQ1JBTGsxVnBtSVROQXF4c1Bvd0MzdG9nSFlUR0hRMXZ2aG91dDBZajRjTkJyVUZQQWpyMS0tR24yUHJHaGpf?oc=5",
+   "date": "2026-11-15 06:33",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 실적 읽는 방법: 하이퍼스케일러 비중 51%",
+    "korean_summary": "NVIDIA 분기 실적 중 하이퍼스케일러 고객의 매출 비중이 51%를 차지한다는 구체적 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTGkxZlJwS0ItQzg2UkNjQ1VWWjdOT3ZNVWZVb0dvbFBXVzd2SFZXNmRLRWwwcGxQVEN5VWZIWUdHWmVmUHZjNFNIQ1JBTGsxVnBtSVROQXF4c1Bvd0MzdG9nSFlUR0hRMXZ2aG91dDBZajRjTkJyVUZQQWpyMS0tR24yUHJHaGpf",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "date": "2026-11-15 06:41",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "115,000명 이상이 서명한 젠슨 황 복귀 청원, 주요 CEO들도 지지",
+    "korean_summary": "Elon Musk 등 업계 주요 인물들을 포함해 115,000명 이상이 Jensen Huang의 복귀를 촉구하는 온라인 청원에 참여했다."
+   },
+   "summary_data": {
+    "korean_title": "Elon Musk 등 테크 업계 리더들, Jensen Huang NVIDIA CEO 복귀 촉구 청원 서명",
+    "korean_summary": "Elon Musk, Tim Sweeney, Garry Tan 등 테크 업계 리더들이 중국 스파이 의혹 연애 스캔들로 사임한 **Jensen Huang NVIDIA CEO**의 복귀를 요구하는 청원에 서명했다.",
+    "action": {
+     "actor": "Elon Musk 및 기타 테크 업계 경영진·주주·임직원",
+     "action": "Jensen Huang 전 CEO 복귀를 요구하는 청원에 서명",
+     "stage": "Report",
+     "timeline": "토요일 오후 기준(구체적 날짜 미확인), Huang은 목요일 사임",
+     "scope": "NVIDIA 이사회 대상, 청원 서명자 115,000명 이상"
+    },
+    "key_facts": [
+     "청원 서명자가 토요일 오후 기준 **115,000명 이상**으로, 현직 직원 5,965명·전직 직원 1,108명·주주 63,063명 포함",
+     "Elon Musk, Amjad Masad(Replit), Tim Sweeney(Epic Games), Garry Tan(Y Combinator) 등이 주요 지지자",
+     "**Jensen Huang은 중국 스파이로 의심되는 칩 임원과의 불륜을 시인한 지 나흘 만에 목요일 사임**",
+     "Huang은 의회 증언에 동의했으며, 추가 불륜 의혹도 보도됨",
+     "NVIDIA는 CFO Colette Kress를 임시 CEO로 선임, 영구 후임자를 물색 중이며 주가는 한 주간 급락"
+    ],
+    "why_matters": "NVIDIA는 AI 반도체 시장을 주도하는 핵심 기업으로, **CEO 리더십 공백과 이사회 처리 방식에 대한 업계 거물들의 공개 반발**은 지배구조 불안정성을 드러낸다. 이는 투자자·고객·파트너사들의 신뢰와 AI 산업 전반의 자금 조달 흐름에 직접적 영향을 줄 수 있다.",
+    "subject_angle": "NVIDIA가 **창업자이자 상징적 리더인 Huang의 부재**를 겪으며 임시 CEO 체제로 전환됨에 따라, 향후 전략 방향성과 AI 생태계 내 리더십 신뢰도가 시험대에 오를 전망이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "청원 대상, Jensen Huang 사임 및 임시 CEO 체제 전환"
+     },
+     {
+      "name": "Tesla",
+      "context": "Elon Musk가 CEO로 청원 지지"
+     },
+     {
+      "name": "SpaceX",
+      "context": "Elon Musk가 CEO로 청원 지지"
+     },
+     {
+      "name": "Replit",
+      "context": "Amjad Masad CEO가 청원 지지"
+     },
+     {
+      "name": "Epic Games",
+      "context": "Tim Sweeney CEO가 청원 지지"
+     },
+     {
+      "name": "Y Combinator",
+      "context": "Garry Tan CEO가 청원 지지"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "NVIDIA 이사회의 독립 조사 결과 및 공개 발표 여부",
+     "Jensen Huang의 의회 증언 일정 및 내용",
+     "영구 CEO 선임 절차 진행 상황과 NVIDIA 주가 추이"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUXp2MmF6T0R2alBCWHR4SXRzWFVvN2lXRVlRaHRvdzBhbFlsenRnU0JBQmFJeWVVLVVVZzFESlJaMzdSZFpjN184R3Vpc1M1SmRkSFpkZ2htM0JaSXlBZ3U1Tnd3Z24wemRCRUVQa3ZtdUczRVp6VUg5RzRKSFc1d0tQZV8xc0ZTb1lSbld5WE9mVWVfTHFPYXhVRVJid0UycjVnZnczOHhIV194OXl0UzhWc2xQNzJ6eU9J?oc=5"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen",
+     "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+   "body": "A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon. The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan. The petition states that its signers are “concerned that Jensen was removed without meaningful due process” and demands that the board “bring him back while an independent investigation establishes the facts.” It also calls on the board to ensure a fair investigation and provide more information to the public. “Jensen deserves due process, not mob justice,” the petition says. Huang resigned on Thursday, four days after confessing to having an affair with a chip executive suspected by U.S. intelligence to be a Chinese spy. The former CEO has agreed to testify before Congress, while news reports have also suggested that Huang engaged in multiple extramarital affairs. Nvidia appointed CFO Colette Kress as the company’s interim CEO while it searches for a permanent replacement. Nvidia’s stock price fell sharply through the week, while Huang’s departure is also expected to leave a big gap in AI industry funding."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+   "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+   "date": "2026-11-14 16:08",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "분석: 기업들은 '슈퍼스타' CEO에 의존한다",
+    "korean_summary": "Jensen Huang 사임 이후 NVIDIA 투자자들이 회사 기술보다 경영진 개인의 영향력에 의존해왔는지 의문이 제기되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+   "body": "When Jensen Huang quit, it struck me how quickly the conversation shifted from his departure to whether Nvidia could manage without him. It wasn't about whether the company had the technology, customers or talent to keep growing, but whether anyone else could do what Huang had been doing for the business. That made me wonder: did investors believe in Nvidia, or just Huang? The company is hardly short of capable people. Interim CEO and Chief Financial Officer Colette Kress has been with Nvidia since 2013. Nvidia has experienced engineers, established customer relationships and a leading position in the artificial intelligence chip market. But, listening to guests on CNBC this week, I noticed how much of their concern was about the influence Huang had built outside Nvidia. On Friday, just a day after Huang quit, Dylan Patel of SemiAnalysis told CNBC's \"Squawk Box Asia\" how Huang would persuade executives at smaller companies that make critical components to commit capacity to Nvidia. This helped it secure \"the majority of supply chain capacity,\" he said. Without Huang, competitors could try to persuade those suppliers to allocate more capacity to them, Patel argued. And so the big question is, how much of Nvidia's advantage comes from its technology and how much comes from the relationships Huang built? A rockstar CEO There are obvious benefits to elevating CEOs to be rockstars. They can attract investors, open doors and give a company a new identity. A charismatic leader attracts attention, reassures investors and makes a company's strategy easier to sell. Huang was particularly good at this. He helped shape the conversation about where AI was heading and made Nvidia central to it. Donning his trademark leather jacket, Huang took to stages around the world, courting world leaders to lay out his vision and explain why Nvidia would be at its center. Before Huang resigned, Eric Ross told \"Squawk Box Asia\" that Huang \"is the company.\" That may sound like an endorsement, but it also helps explain why his departure has raised so many questions. Bernstein's Stacy Rasgon made an interesting distinction on the same program, also before Huang's departure. Nvidia had capable executives who could keep the business running, he said. What was harder to replace was Huang's vision. \"They need a visionary like that,\" he said. But for a company whose valuation reflects not just what it sells but expectations of what AI could become, replacing that vision may prove harder than replacing the CEO. Duncan Clark pointed to another part of Huang's job. He had become a bridge between Silicon Valley, Asia and Washington, and one of the most prominent voices for the wider AI industry. \"I don't think you can replace him with one individual,\" Clark said on \"Access Middle East\" on Friday. Replacing him with multiple people is \"going to take time, and it won't be the same,\" he added. That distinction may be important. Nvidia's board has begun a search for a permanent CEO and sa"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang was reckless with the environment, too",
+   "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+   "date": "2026-11-14 02:44",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "젠슨 황의 NVIDIA, 환경 책임에서 태만했다는 비판",
+    "korean_summary": "The Verge는 Jensen Huang 경영진 아래 NVIDIA가 반도체 제조와 데이터센터의 환경 영향을 간과해왔다고 지적했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+   "body": "Jensen Huang gives a keynote address at the Berlin GPU Technology Conference on October 21st in Berlin. | Photo: Getty Images Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories , drained power grids from inside massive data centers , and set the stage for a looming e-waste problem . Under Huang's leadership, Nvidia clashed with environmental groups seeking to hold the company accountable for its so-called \" hidden \" emissions. Huang has talked up the idea of using AI to fight climate change while his company's supply chain emissions ballooned. Nvidia's investments, meanwhile, have support … Read the full story at The Verge."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] ‘젠슨 황 복귀’ 요구 확산…온라인 청원 11만명 참여",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001065",
+   "date": "2026-11-15 18:39",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황 복귀 요구 청원, 11만 명 도달",
+    "korean_summary": "현직·전직 직원과 주주 11만명이 Jensen Huang의 복귀를 요구하는 청원에 서명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001065",
+   "body": "불륜 의혹과 국가안보 논란으로 물러난 젠슨 황 전 엔비디아 최고경영자(CEO)의 복귀를 요구하는 목소리가 확산하고 있다. 황 전 CEO가 사임한 지 2일 만인 14일(이하 현지시각) 주요 투자자들이 이사회에 공개서한을 보낸 데 이어 온라인 청원에는 11만명이 참여했다. 14일 블룸버그통신 등에 따르면 엔비디아 주요 주주인 얼티미터 캐피털의 브래드 가스트너 CEO와 아트레이디스 매니지먼트의 개빈 베이커 창업자는 이날 엑스(X)에 이사회 수신 공식 서한을 공개했다. 6월 말 기준 두 회사는 엔비디아 주식을 각각 941만주(약 2조원)와 125만주(약 2700억원) 보유하고 있다. 이들은 즉각적인 복직을 요구하지는 않았으나 모든 사실관계가 확인되기 전에 후임자를 서둘러 선임해서는 안 된다고 주장했다. 조사 결과를 확인한 뒤 복귀가 주주 이익에 부합하지 않는다고 판단하면 이사회의 결정을 존중하겠다는 입장이다. 온라인 청원 ‘스탠드 위드 젠슨(Stand with Jensen)’에는 주주 약 6만명과 현직 직원 5000여명을 포함해 약 11만명이 서명했다. 일론 머스크 테슬라·스페이스X CEO는 엑스에 “엔비디아의 많은 계약이 서면이 아닌 젠슨과의 악수로 이뤄졌다”며 “그가 없다면 중요한 계약들을 잃게 될 것”이라고 적었다. 청원에는 팀 스위니 에픽게임즈 CEO, 개리 탄 Y콤비네이터 CEO, 에이든 고메즈 코히어 공동창업자 등도 이름을 올렸다. 패트릭 리우 엔비디아 자율주행 수석이사는 “젠슨의 지원이 없다면 자율주행과 실물AI(피지컬AI) 산업은 수년간 후퇴할 것”이라고 밝혔고, 위 팡 연구원은 과거 오픈AI 직원들의 샘 올트먼 복귀 요구 사례를 거론했다. 복귀 여론이 과열되면서 임원진을 사칭한 가짜 서한이 유포되는 해프닝도 벌어졌다. 13일 엑스에는 이언 벅 부사장과 빌 댈리 수석과학자 등이 황 전 CEO를 복귀시키지 않으면 스페이스X로 이적하겠다는 문건이 퍼졌다. 하지만 2023년 오픈AI 항의 서한의 이름만 바꾼 가짜로 확인됐다. 일각에서는 실리콘밸리의 복귀 요구가 국가안보 리스크를 경시한다는 비판도 제기된다. IT 전문 기자 카라 스위셔는 “국가 안보보다 돈을 우선한 주장”이라고 비판했고, 저술가 데스몬드 슘은 “미국의 수출 통제 위반 조장 사실이 밝혀진다면 뛰어난 업적도 행위를 정당화할 수 없다”고 지적했다. 이광영 기자 gwang0e@chosunbiz.com"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] 대만 매체 “中 국가안전부 소속 요원”…美 “확인 안 돼”",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001060",
+   "date": "2026-11-14 20:16",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "앨리스 황, 중국 정부 반도체 확보 조직과의 연루 의혹",
+    "korean_summary": "대만 언론이 Jensen Huang의 관계자 Alice Huang이 중국 국가안전부의 반도체 확보 전담 조직에 소속되었을 가능성을 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001060",
+   "body": "젠슨 황 전 엔비디아 최고경영자(CEO)와 불륜 관계를 맺은 중국 여성 사업가 앨리스 황이 중국 정보기관의 반도체 확보 공작 조직에 소속됐다는 언론 보도가 나왔다. 다만 미국 정부는 앨리스 황의 간첩 활동 여부를 아직 확인하지 못했다는 입장이다.14일 대만 자유시보와 로이터통신 등에 따르면 자유시보는 11월 11일 익명의 소식통을 인용해 중국 국가안전부가 반도체 확보를 담당하는 ‘칩 팀’을 운영했으며 앨리스 황이 이 조직의 일원이라고 보도했다.자유시보는 앨리스 황이 해외 제3국에 페이퍼컴퍼니를 설립해 미국의 수출 규제 대상 반도체와"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia and Jensen Huang fallout: Here’s everything we know after a momentous week",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEFJLU44LVNlR0hSNXBQVk9MX2lteF9Ba3JGYUJITktIU21YLTJuM2YxcXptcWJrQ0FxLUJUU21kUDlUVzNNdm5MMEdOaE55X0ctX1hyQUV2N1A0cUZXbkZWQnMtTVBOU1lRTGRNMGEwT0JUZWZFamg0bmRkNjNwRldWRzdHTFJRZlI0WGVqMWFuRVZreUpYeFA5MWVNR0JxX0RNRnN3dXIzbUk3VUJrcFIwX3puTVI3S2NQYmhzdV9aQ001c1U5UHJJZUpBeWlfeFkyODRn?oc=5",
+   "date": "2026-11-14 20:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "엔비디아와 제너 황의 불화: 격변의 한 주 정리",
+    "korean_summary": "엔비디아의 경영진 변동을 둘러싼 중요한 사건을 종합 분석한 해설 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEFJLU44LVNlR0hSNXBQVk9MX2lteF9Ba3JGYUJITktIU21YLTJuM2YxcXptcWJrQ0FxLUJUU21kUDlUVzNNdm5MMEdOaE55X0ctX1hyQUV2N1A0cUZXbkZWQnMtTVBOU1lRTGRNMGEwT0JUZWZFamg0bmRkNjNwRldWRzdHTFJRZlI0WGVqMWFuRVZreUpYeFA5MWVNR0JxX0RNRnN3dXIzbUk3VUJrcFIwX3puTVI3S2NQYmhzdV9aQ001c1U5UHJJZUpBeWlfeFkyODRn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Elon Musk joins 100,000+ signers on a petition to reinstate Jensen Huang — including 5,000+ who say they work at Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUFtUUhkeXFFYjNLV2w2bV9PcEJUbzRueVdpYkNTMUdaWWFqOVlSam1Qal9ValJPVUxrd0lpb3BrY0o1aUtzMTJnamRhWFUydHVKN3A0WERvRnJfV0VQb1JyTTFiNkRaY2VoUXZScnNpeHk2RDVxNk5OUXphdUtSS0cweW4wSzQ1NmstUUV6ZTYxUQ?oc=5",
+   "date": "2026-11-15 02:25",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "Elon Musk, 10만 명 이상의 황 복귀 청원에 서명",
+    "korean_summary": "Elon Musk를 포함하여 10만 명 이상이 제너 황 CEO 복귀를 요구하는 청원에 참여"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUFtUUhkeXFFYjNLV2w2bV9PcEJUbzRueVdpYkNTMUdaWWFqOVlSam1Qal9ValJPVUxrd0lpb3BrY0o1aUtzMTJnamRhWFUydHVKN3A0WERvRnJfV0VQb1JyTTFiNkRaY2VoUXZScnNpeHk2RDVxNk5OUXphdUtSS0cweW4wSzQ1NmstUUV6ZTYxUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "“Bigger Than a Business Story”: Nvidia Shakeup",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRnJKY1FWSnV2Z1JrM3J3bEZ6SVJGRUpuLXd1aVp1SkFyaUlOZFJCWGJ1YjJ0R1YwdnFKWGNuY0hhTEpsRlI1Y3JjUzlRamVFRTl3VDFCOU42YzA2bDc4QzhGLUp4TUhKMTJBUUN3a3l4ODV5aFFtV1hCeUJzMzhPaHNOZVNRQlNsblBiTGgtRG83SnJ6TjNiX1JMcllRSUF3?oc=5",
+   "date": "2026-11-14 22:08",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "비즈니스 이상의 의미, NVIDIA 대변동",
+    "korean_summary": "NVIDIA에서 비즈니스 수준을 넘어서는 대규모 변화가 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRnJKY1FWSnV2Z1JrM3J3bEZ6SVJGRUpuLXd1aVp1SkFyaUlOZFJCWGJ1YjJ0R1YwdnFKWGNuY0hhTEpsRlI1Y3JjUzlRamVFRTl3VDFCOU42YzA2bDc4QzhGLUp4TUhKMTJBUUN3a3l4ODV5aFFtV1hCeUJzMzhPaHNOZVNRQlNsblBiTGgtRG83SnJ6TjNiX1JMcllRSUF3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prominent NVIDIA investors call for board to contemplate Huang's return",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU3BCb1BtTFFyTGlVNVhjY3pENl9rWnRfV3BFcnFYdnVkV256cW1YRFBfbzZFbF9zV1VKZlRLTHdEVC1TMFd1akVZZF9ITHhzbE92WE9TTU5hV05YRTE2TjRUWVNpTjJHTnJmMnZOTllDbEU3VkJyb2h4SDVtLWRoRC1lbVQwTVh5UGRhY19ackt5MDlPNlgxbzdiNUx1ZHkxc1IwdzR1TQ?oc=5",
+   "date": "2026-11-15 05:19",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "저명한 NVIDIA 투자자들, 경영진에 Huang 복귀 재검토 촉구",
+    "korean_summary": "NVIDIA의 저명한 투자자들이 경영진에 Jensen Huang의 CEO 복귀 검토를 요청"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU3BCb1BtTFFyTGlVNVhjY3pENl9rWnRfV3BFcnFYdnVkV256cW1YRFBfbzZFbF9zV1VKZlRLTHdEVC1TMFd1akVZZF9ITHhzbE92WE9TTU5hV05YRTE2TjRUWVNpTjJHTnJmMnZOTllDbEU3VkJyb2h4SDVtLWRoRC1lbVQwTVh5UGRhY19ackt5MDlPNlgxbzdiNUx1ZHkxc1IwdzR1TQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · shattered.io",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVIDIA AI Investments and GPU Prices: $17.5B vs $9,400",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSG9jVmVxM0g1a1haSGtDaGsySWdhODNXek5hcTZmVlhWU2c3ZjlOVjI4YjBxTEVKamJxQW12QlJtRnRLbXg2S2lwOVpmNmVKLU54ci1ta29QTUJyOE9Va0FVZ0dfSl9PSWs5Q3FFYnZDRGFrbjlKY1pENE1vZDAyeU1TVzRXWUtLSzVEXzJ1bjlJdU1Bazc4?oc=5",
+   "date": "2026-11-15 07:15",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA AI 투자 $175억 대 GPU 가격 $9,400 대비",
+    "korean_summary": "NVIDIA의 AI 인프라 투자 규모와 GPU 시장 가격대에 대한 비교 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSG9jVmVxM0g1a1haSGtDaGsySWdhODNXek5hcTZmVlhWU2c3ZjlOVjI4YjBxTEVKamJxQW12QlJtRnRLbXg2S2lwOVpmNmVKLU54ci1ta29QTUJyOE9Va0FVZ0dfSl9PSWs5Q3FFYnZDRGFrbjlKY1pENE1vZDAyeU1TVzRXWUtLSzVEXzJ1bjlJdU1Bazc4",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Jensen Huang's exit from Nvidia impacts China's AI supply chain",
+   "link": "https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact/",
+   "date": "2026-11-15 00:22",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Jensen Huang 퇴출이 중국 AI 공급망에 미치는 영향 분석",
+    "korean_summary": "Jensen Huang의 NVIDIA 퇴출이 중국 AI 칩 공급망에 미칠 영향을 분석한 기사가 나왔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact",
+   "body": "Article URL: https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact/ Comments URL: https://news.ycombinator.com/item?id=50497744 Points: 3 # Comments: 0"
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "NVIDIA's Jacob Freeman says the end of GeForce is not happening",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xw2b2r/nvidias_jacob_freeman_says_the_end_of_geforce_is/",
+   "date": "2026-11-14 22:23",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "NVIDIA 임원, GeForce 브랜드 종료 루머 부인",
+    "korean_summary": "NVIDIA의 Jacob Freeman이 GeForce 브랜드 종료 루머를 부인하고 계속할 것을 확인했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xw2b2r/nvidias_jacob_freeman_says_the_end_of_geforce_is",
+   "body": "submitted by /u/RenatsMC [link] [comments]"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jim Cramer says Jensen Huang betrayed shareholders as Nvidia sinks up to 13%. Is your 401(k) too tied to one stock?",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0IwQTR5dTFrOWZWSG8wcGZ4YUVJaGZWWmJHaDMtVzA2WWEwQ09OOWFvYlVLdHZ4bXhHblNkY0poR2poZlR1WlJuVXl4V0t6LU90MTctcXY4SVc0LXluRHJ5NUtHN0FoYnBobDlWZEw3aFo2VTVOQnllVmhJVlpmZThTQkFQdkltU0NxMm9yelEtVndtMjlHTA?oc=5",
+   "date": "2026-11-14 21:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "짐 크래머, Jensen Huang이 주주를 배신했다며 NVIDIA 13% 하락 언급",
+    "korean_summary": "유명 투자 평론가가 CEO의 리더십 문제로 NVIDIA 주가 급락을 지적한 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0IwQTR5dTFrOWZWSG8wcGZ4YUVJaGZWWmJHaDMtVzA2WWEwQ09OOWFvYlVLdHZ4bXhHblNkY0poR2poZlR1WlJuVXl4V0t6LU90MTctcXY4SVc0LXluRHJ5NUtHN0FoYnBobDlWZEw3aFo2VTVOQnllVmhJVlpmZThTQkFQdkltU0NxMm9yelEtVndtMjlHTA",
+   "body": ""
+  },
+  {
+   "source": "Google News · InvestorPlace",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang Is Out. What Happens to Nvidia Stock Now?",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMW9HeXRCWFViQklxeFJ5Z05zTkdwT0Q2dmtxYldtMW9IZ0lVZGt5c0gtbF9qeFppTGZXSnRGelJzR0JWay1XbDktWGlBbm90aHhaMGRsQWEzdkpwRzJMT2d0d2V2enByXzlNRGN0a0hNNnpOS1Q3dXpJdzdKeVF4ZDBLbHE4b3pDbVZ1WENYQVRHT1lUSTFKWGFfSG55clBHNmIzVDZaa21iaXdV?oc=5",
+   "date": "2026-11-14 23:52",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang 퇴출 후 NVIDIA 주가는 어떻게 될까?",
+    "korean_summary": "Jensen Huang이 NVIDIA에서 물러난 후 주가 전망을 다루는 의견 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMW9HeXRCWFViQklxeFJ5Z05zTkdwT0Q2dmtxYldtMW9IZ0lVZGt5c0gtbF9qeFppTGZXSnRGelJzR0JWay1XbDktWGlBbm90aHhaMGRsQWEzdkpwRzJMT2d0d2V2enByXzlNRGN0a0hNNnpOS1Q3dXpJdzdKeVF4ZDBLbHE4b3pDbVZ1WENYQVRHT1lUSTFKWGFfSG55clBHNmIzVDZaa21iaXdV",
+   "body": ""
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Parse (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Parse",
+   "date": "2026-11-14 13:33",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Parse",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Parse 모델 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron 3.5 Parse 모델이 Hugging Face에서 업데이트되었으며, 문서 이미지에서 텍스트와 표, 차트 데이터를 추출한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Parse:2026-11-14",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_parse, text-generation, VLM, OCR, Parse, image-text-to-text, conversational, custom_code, eval-results, deploy:azure · downloads 24662 · likes 164. README:  # Nemotron 3.5 Parse **Turn document pages into structured information.** Nemotron 3.5 Parse extracts text, tables, chart data, reading order, semantic classes, and bounding boxes from page images. Use it on scans, rendered PDFs, slides, forms, reports, and mixed document layouts; export the results as Markdown, HTML, or structured JSON. *Full-page predictions on synthetic documents. [Static preview](assets/parse-demo.png) · [All examples](assets/hero-examples.md).* - **Leading ParseBench accuracy:** **75.20** with triple-pass parsing, the highest overall score among the systems in our [reported comparison](#parsebench). - **Broad multilingual OCR:** evaluated across **163 language/script entries in 26 script groups**, plus 10 Indic languages. See [language results](#multilingual-ocr). - **Small and fast:** **0.631B parameters**, with an optional **89.3M-parameter DFlash2 drafter**. See [throughput measurements](#new-dflash2-speculative-decoding) for the hardware, concurrency, and parsing mode behind each result. **New — November 4, 2026:** Native DFlash2 speculative decoding is available in [`dflash2/`](dflash2/README.md), in the same repository as the target model. One H200, BF16, 2,078 pages, median of three runs, using the best tested native draft length at each concurrency. See the [benchmark protocol and data](dflash2/performance/README.md). This direct-engine, greedy benchmark is separate from the HTTP pass-mode timings. [Try the NVIDIA Build API](https://build.nvidia"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "sec": 0.2
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.6
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 22,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 5,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 30.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 16,
+   "enriched": 16,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 6.3
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 98,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 25,
+   "enriched": 3,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 24.1
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 13,
+   "error": "",
+   "sec": 5.3
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 5,
+   "enriched": 5,
+   "error": "",
+   "sec": 1.7
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 4.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
