@@ -1,0 +1,1941 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-16",
+ "window": [
+  "2026-11-15",
+  "2026-11-16"
+ ],
+ "generated": "2026-11-16T10:06:17+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Scott Bessent 재무장관이 Jensen Huang 사퇴 이후 NVIDIA에 **외부 출신 CEO 영입**과 경영진 전면 쇄신을 공개 촉구했다.",
+  "Jensen Huang이 측근들과 함께 NVIDIA **CEO 복귀**를 추진 중인 것으로 보도돼 리더십 공백 우려가 커졌다.",
+  "NVIDIA가 서울 COEX에서 AI Day Seoul을 열어 Hyundai, Doosan Robotics 등과 **피지컬 AI** 생태계 확산을 도모했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGowX3ljRUhFOUtMR2diRUJHR2xTalpGZExTNFRKTExUQTQ2cUtNQXZfWEVRM3BMYldsOEh2czRtSmJZVExCakN0Q2VaWVRWWmFSYjRsRFBqNzRucXh1c2pIcW84aDUzdkhjY3pyZFFkVjRSN2gzU0dNM1NEWXI2WHIxdXl0OTB4OVM3QVVsSXg5V2NUQVVLVmZJWURyaWhXOUxyTWE3cm1qVXRQTFktZWQ0Y3hmaWlaenFrTi1jc3ZPSTFlWUVEbXRaYUVQOU0?oc=5",
+   "date": "2026-11-15 20:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 포스트-황 시대 첫 실적과 앤스로픽 IPO: 이번 주 주목 이벤트",
+    "korean_summary": "NVIDIA가 경영진 교체 후 첫 분기 실적을 이번 주에 공시할 예정이다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGowX3ljRUhFOUtMR2diRUJHR2xTalpGZExTNFRKTExUQTQ2cUtNQXZfWEVRM3BMYldsOEh2czRtSmJZVExCakN0Q2VaWVRWWmFSYjRsRFBqNzRucXh1c2pIcW84aDUzdkhjY3pyZFFkVjRSN2gzU0dNM1NEWXI2WHIxdXl0OTB4OVM3QVVsSXg5V2NUQVVLVmZJWURyaWhXOUxyTWE3cm1qVXRQTFktZWQ0Y3hmaWlaenFrTi1jc3ZPSTFlWUVEbXRaYUVQOU0",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+   "link": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+   "date": "2026-11-16 09:00",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "서울 AI Day 행사, 한국 주요 산업 기업과 스타트업 모여 물리적 AI 역량 선보이다",
+    "korean_summary": "NVIDIA가 서울에서 개최한 AI Day Seoul에 2,000명 이상이 참석해 Hyundai Motor Group, LG Electronics, SK Group 등 한국 주요 기업들이 NVIDIA 플랫폼을 활용한 로봇공학 및 AI 에이전트 솔루션을 소개했다."
+   },
+   "summary_data": {
+    "korean_title": "AI Day Seoul, 한국 산업계·스타트업·개발자 커뮤니티가 피지컬 AI로 집결",
+    "korean_summary": "NVIDIA가 서울 COEX에서 AI Day Seoul을 개최해 Hyundai Motor Group, Doosan Robotics, LG Electronics, SK Group 등 한국 기업들과 함께 피지컬 AI 및 AI 에이전트 생태계 확산을 도모했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "서울 COEX에서 AI Day Seoul 행사를 개최하여 한국 산업계·스타트업·개발자 커뮤니티 대상 피지컬 AI 및 AI 에이전트 플랫폼 소개",
+     "stage": "Announced",
+     "timeline": "미확인 (이틀간 개최, 구체적 날짜 미확인)",
+     "scope": "한국, COEX, 2,000명 이상 참석"
+    },
+    "key_facts": [
+     "이틀간 COEX에서 **2,000명 이상**이 참석",
+     "Deepu Talla(NVIDIA VP, robotics and edge AI)는 **Doosan Robotics, Hyundai Motor Group, LG Electronics, SK Group** 등이 NVIDIA 플랫폼으로 범용 로보틱스를 구현 중이라 언급",
+     "Physical AI Startup Connect에서 **10개 NVIDIA Inception 스타트업**(Avikus, Neubility, ROBROS 등) 피칭 진행",
+     "Hangul Day 해커톤 우승팀 FlyGate가 **NVIDIA DGX Spark** 시스템 수상",
+     "500명 이상이 NVIDIA Deep Learning Institute 워크숍 및 한국어 Certification 시험(신규 AI Model and Application Development 포함) 참여"
+    ],
+    "why_matters": "NVIDIA는 로봇·자동차·반도체·클라우드를 아우르는 한국 산업 생태계를 자사 플랫폼으로 결집시켜 피지컬 AI 및 에이전틱 AI 확산의 교두보로 활용하고 있다. **Hyundai Motor Group을 포함한 주요 한국 대기업들의 NVIDIA 플랫폼 채택 사례 언급**은 로보틱스·자율주행 분야에서 NVIDIA의 영향력 확대를 시사한다.",
+    "subject_angle": "NVIDIA는 Isaac 플랫폼, DGX 시스템, DLI 인증 등을 통해 한국을 **범용 로보틱스 및 피지컬 AI 핵심 시장**으로 포지셔닝하며 지역 생태계 록인을 강화하고 있다.",
+    "focus_angle": "Hyundai Motor Group의 참여는 완성차 OEM이 NVIDIA 플랫폼을 로보틱스·자율주행 영역까지 확장 적용하려는 흐름을 보여주며, Doosan Robotics·Avikus·Neubility·ROBROS 등 로봇·자율주행 스타트업들의 Inception 참가는 한국 휴머노이드·모빌리티 로봇 생태계가 NVIDIA 중심으로 재편되고 있음을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "행사 주최, 플랫폼 및 DGX Spark 제공"
+     },
+     {
+      "name": "Hyundai Motor Group",
+      "context": "범용 로보틱스에 NVIDIA 플랫폼 활용 언급된 완성차 OEM"
+     },
+     {
+      "name": "Doosan Robotics",
+      "context": "NVIDIA 플랫폼 활용 로보틱스 기업, 브레이크아웃 세션 발표"
+     },
+     {
+      "name": "LG Electronics",
+      "context": "NVIDIA 플랫폼 활용 기업, 브레이크아웃 세션 발표"
+     },
+     {
+      "name": "SK Group",
+      "context": "NVIDIA 플랫폼 활용 기업군(SK Telecom 발표 포함)"
+     },
+     {
+      "name": "Avikus",
+      "context": "NVIDIA Inception 스타트업, Physical AI Startup Connect 피칭"
+     },
+     {
+      "name": "Neubility",
+      "context": "NVIDIA Inception 스타트업, 로봇 관련 피칭"
+     },
+     {
+      "name": "ROBROS",
+      "context": "NVIDIA Inception 스타트업, 로봇 관련 피칭"
+     },
+     {
+      "name": "Real World",
+      "context": "범용 로보틱스 스타트업, NVIDIA 플랫폼 활용"
+     },
+     {
+      "name": "Luda Robotics",
+      "context": "범용 로보틱스 스타트업, NVIDIA 플랫폼 활용"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Isaac",
+      "role": "로보틱스 워크플로우 구축 워크숍 플랫폼"
+     },
+     {
+      "name": "NVIDIA DGX Spark",
+      "role": "해커톤 우승 상품으로 제공된 시스템"
+     },
+     {
+      "name": "OpenShell runtime",
+      "role": "한국어·문화 기반 에이전트 학습에 사용된 런타임"
+     }
+    ],
+    "watch_next": [
+     "Hyundai Motor Group의 NVIDIA 플랫폼 구체적 적용 분야(자율주행/로봇) 공식 발표 여부",
+     "Doosan Robotics·Avikus 등 한국 로봇 스타트업의 NVIDIA Isaac 기반 제품 상용화 일정",
+     "NVIDIA On-Demand에 공개될 AI Day Seoul 세션 상세 내용"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+     "link": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup",
+   "body": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai Motor Group, LG Electronics and SK Group — as well as startups like Real World and Luda Robotics — using NVIDIA platforms to bring general-purpose robotics into the real world. Jonathan Cohen, vice president of applied research at NVIDIA, showed how enterprises can build agents they own and control. Breakout sessions featured speakers from Coupang Intelligent Cloud, Doosan Robotics, LG AI Research, LG Electronics, NAVER Cloud, SK Telecom and Upstage. “It was a genuinely enjoyable time to have candid conversations,” said Hyunho Yang, research engineer for omnimodal foundation models at SK Telecom. “Seeing the passion of fellow AI developers was a real source of inspiration for me.” Community leaders share how they build with open models and tools at AI Day Seoul. The Agentic AI 10x Bootcamp Community Day brought together Pseudo Lab, Python Korea, PyTorchKR, HAERAE, Hugging Face KREW, Graph User Group, Womxn Who Code Korea, Dnol (Datayanolja) and other developer communities. Five finalists from the Hangul Day hackathon, co-hosted with Fastcampus, built agents trained on the Korean language and culture with the OpenShell runtime. The winning team, FlyGate, received an NVIDIA DGX Spark system. More than 500 developers also took part in full-day NVIDIA Deep Learning Institute workshops and NVIDIA Certification exams in Korean. Workshops covered deploying and optimizing AI inference at scale, building end-to-end robotics workflows with the NVIDIA Isaac platform and developing secure AI agents. Certification included the new AI Model and Application Development exam. The Physical AI Startup Connect event included pitches from 10 NVIDIA Inception startups: AIM Intelligence, Avikus, GoLe Robotics, MOVIN, Neubility, ROAI, ROBROS, TESOLLO, TwelveLabs and XYZ. The AI for Science Forum brought together the Korea Institute of Science and Technology Information, Korean universities and NVIDIA Research. AI Day Seoul sessions will soon be available on NVIDIA On-Demand ."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+   "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "date": "2026-11-16 03:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국 재무장관, NVIDIA 고급 AI 칩 불법 판매 의혹·경영진 개혁 촉구",
+    "korean_summary": "Treasury Secretary Scott Bessent가 NVIDIA가 고급 AI 칩을 중국에 불법으로 판매했을 가능성을 제기하며 경영진 교체와 수출통제 규정 준수를 강하게 촉구했다."
+   },
+   "summary_data": {
+    "korean_title": "베센트 재무장관, 젠슨 황 사퇴 후 NVIDIA에 '대대적 개혁'과 외부 CEO 영입 요구",
+    "korean_summary": "미 재무장관 Scott Bessent가 Jensen Huang 사퇴 이후 NVIDIA가 대중국 첨단 AI 칩 불법 판매로 매출을 부풀렸는지 의혹을 제기하며, 이사회에 **외부 출신 CEO 영입**과 경영진 전면 쇄신을 촉구했다.",
+    "action": {
+     "actor": "Scott Bessent (U.S. Treasury Secretary)",
+     "action": "NVIDIA 이사회에 외부 CEO 영입 및 경영진 책임 추궁을 공개 요구, 수출통제 준수 여부와 재무 공시(싱가포르 매출) 의혹 제기",
+     "stage": "Report",
+     "timeline": "2026-11-16(일) Fox News 인터뷰 발언, NVIDIA 실적발표 2일 전",
+     "scope": "NVIDIA 이사회·경영진, 대중국 AI 칩 수출(H200 등)"
+    },
+    "key_facts": [
+     "Jensen Huang가 목요일 사퇴했고, CFO Colette Kress가 interim CEO로 선임됨",
+     "Huang 사퇴는 Singapore 소재 Megaspeed 前 임원 Alice Huang과의 관계 및 중국 스파이 의혹과 연관",
+     "**Megaspeed는 NVIDIA 칩을 중국으로 불법 유출(수출통제 위반)한 혐의**를 받고 있음",
+     "NVIDIA는 2025년 11월부터 싱가포르 매출을 별도 보고하지 않기로 방식 변경(고객 본사 기준)했고, Bessent는 이를 중국 매출 감소를 가리기 위한 수치로 의심",
+     "Trump는 지난 12월 승인된 중국 고객 대상 H200 판매를 허용했고, 미 정부가 25% 수수료를 받는 조건이었음; Bessent는 H200보다 고성능 칩의 대중 판매는 금지선이라 언급"
+    ],
+    "why_matters": "이는 NVIDIA의 **대중국 AI 칩 수출 컴플라이언스 리스크**가 CEO 교체를 넘어 이사회·지배구조 전반의 정치적 압박으로 확대되고 있음을 보여준다. Treasury·Commerce 간 갈등 속에 실적발표를 앞두고 터진 사안으로, 투자자들은 경영 공백과 규제 리스크를 동시에 평가해야 하는 상황이다.",
+    "subject_angle": "NVIDIA는 **차기 CEO 선임과 수출통제 준수 체계 재정비**라는 이중 과제에 직면했으며, 대중국 매출 구조(싱가포르 발 매출 포함) 투명성 확보가 향후 정책·투자자 신뢰 회복의 핵심 변수가 될 것이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CEO 사퇴 및 경영진 쇄신 압박을 받는 당사자"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "NVIDIA 칩의 중국 불법 유출 의혹 기업, 수출 블랙리스트 추가 검토 대상"
+     },
+     {
+      "name": "Cantor Fitzgerald",
+      "context": "Lutnick 가족이 운영하며 NVIDIA 파트너사 자금조달에 관여, 이해상충 의혹 제기됨"
+     },
+     {
+      "name": "U.S. Department of Treasury",
+      "context": "Bessent 주도로 NVIDIA 지배구조 및 수출통제 의혹 제기"
+     },
+     {
+      "name": "U.S. Department of Commerce",
+      "context": "수출통제 집행 권한 보유, Megaspeed 제재 지연 비판 받음"
+     }
+    ],
+    "products": [
+     {
+      "name": "H200",
+      "role": "Trump 행정부가 승인한 대중국 수출 가능 최고 성능 AI 칩, 25% 수수료 조건"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 이사회의 외부 CEO 영입 여부 및 차기 CEO 발표 시점",
+     "Megaspeed의 수출 블랙리스트 등재 여부 및 Commerce의 조치",
+     "NVIDIA 실적발표(실적 발표 2일 후 예정)에서 중국 매출·싱가포르 매출 관련 설명"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2V3FTYlVUQ2VXQjBsaE1rbGpaU0FsM2RJN2FydGM4VHJsSU43eDR0SUMxNFhXZGtfZ2M2cDFWa2xLakZIellLQWNlaHpNazBCamhVeG14T25tREVFZG1ST3ExMHJma2l4Z3RCWktVbFBXRXduZlFFdHJsaXIxd9IBgwFBVV95cUxPeGkzNkNkWTB4ZkUzekc2SVFfVUlfQ0lFQTFtcWNMS05oaTA1dWhadV80YVZjNzJYLWhsT083bjFSZGNPdjEwU0JMeUZHVWdQS0ZmWTJOYm1hNU1qOVRtRnI5ZjJ1ZjgwV29ZTVhmNzVsMFZfUExiazhQeUltenVvU2tzYw?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "body": "Treasury Secretary Scott Bessent on Sunday called for a \"dramatic shakeup\" at Nvidia after CEO Jensen Huang's resignation, questioning whether the chipmaker pursued illicit sales of its advanced artificial intelligence chips to boost earnings. Bessent said Nvidia's board should look outside the company for its next chief executive and suggested other executives should face scrutiny over the chip giant's compliance with U.S. export controls. \"I want to keep coming back to what was the culture at Nvidia, and were they pressing these seemingly illicit sales to goose their revenues and their earnings?\" Bessent said in an interview on Fox News. The remarks come amid a growing feud between Bessent and Commerce Secretary Howard Lutnick over the suspected diversion of advanced AI chips to China, even as the Treasury secretary continues to defend President Donald Trump's handling of the matter. Both Bessent and Lutnick are expected to accompany Trump to China this week, Semafor reported Sunday, putting the two Cabinet secretaries alongside the president as he prepares to meet with Chinese President Xi Jinping and Russian President Vladimir Putin on the sidelines of the APEC summit. A White House official told Reuters on Thursday that the president maintains \"complete confidence\" in Lutnick, despite mounting scrutiny of the secretary’s handling of the Nvidia matter. Huang resigned Thursday following revelations about his relationship with Alice Huang, a former executive at Singapore-based Megaspeed, whom U.S. intelligence officials suspect of spying for China. Megaspeed is suspected of diverting Nvidia chips to China in violation of U.S. export controls. Nvidia named Chief Financial Officer Colette Kress interim CEO. Bessent suggested Sunday that Nvidia's problems extended well beyond Huang. \"If this were a bank and they hadn't complied like this, the OCC would be in there right now, and a lot of the executives would be removed,\" Bessent said, referring to the Office of the Comptroller of the Currency. Bessent also questioned Nvidia's financial disclosures, pointing to a surge in reported Singapore revenue as its China sales fell. Nvidia stopped separately reporting Singapore revenue in November 2025, saying a new methodology based on customers' headquarters rather than billing addresses better reflected the geographic distribution of its sales. Bessent's remarks came two days after he told CNBC's \"Squawk Box\" that several federal agencies had supported adding Megaspeed to the government's export blacklist for months. \"But Commerce has the pen,\" Bessent said. The public rebuke followed reporting by Axios that Bessent confronted Lutnick in the White House Situation Room over Commerce's failure to act against Megaspeed. Commerce denied that the confrontation took place. Lutnick is also facing scrutiny over his family's financial ties to Nvidia. CNBC reported Friday that Cantor Fitzgerald, the Wall Street firm formerly run by Lutnick and now led by his sons, "
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "'Massive shoes to fill': Wall Street sours on Nvidia stock after Jensen Huang's exit",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUhad2VoUnU5VjNDX3N6UW5WX1FFaFA1eUU2V1kxX3BTQlpVX2twdVVaUHEtTWozYWZBRzRwbHZ6NE1OdHpQWXV2cml5b2R5bGY0bVk1Y19qM0pFcjk1V1NWUFNuX2lHOUlVLXVpeVRJam9mSjdiMTI2OG1KS3FvcmVQVGV0Uzh0TldXa2NLUmhNeTQtZS1oS3dydFJHTWNDcHdDLUtpakNCcV85eDdKTG15M3hqNnZOUko5RVB3aHhvbEJuVVE?oc=5",
+   "date": "2026-11-15 22:18",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "제임슨 황 퇴사 후 월스트리트가 NVIDIA 주식 약세 강조",
+    "korean_summary": "NVIDIA CEO 제임슨 황이 퇴사했고, 월스트리트는 리더십 공백으로 인한 주가 하락 우려를 제기했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUhad2VoUnU5VjNDX3N6UW5WX1FFaFA1eUU2V1kxX3BTQlpVX2twdVVaUHEtTWozYWZBRzRwbHZ6NE1OdHpQWXV2cml5b2R5bGY0bVk1Y19qM0pFcjk1V1NWUFNuX2lHOUlVLXVpeVRJam9mSjdiMTI2OG1KS3FvcmVQVGV0Uzh0TldXa2NLUmhNeTQtZS1oS3dydFJHTWNDcHdDLUtpakNCcV85eDdKTG15M3hqNnZOUko5RVB3aHhvbEJuVVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investing.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports By Reuters",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOamJhbnluTDc3OXRTMkcyaUlLUDhfYkgwSFgzS3p3LUFyM2o5RXNJRUxlNzFGREtQYnJBdWEtTzZnTGVxQzNQOGNSRjFGWjc5aEs0cE54VVN0TmVZdjZrRDVUY0hfNDJIU2hvMjF3R2w0eFNjaDUwQ0ljYUFXVjZDNkRXVnUydFR1NFhaR1IzNVAta19IU3poMy1yN1dLOFRHbzFBTjVLTDhwbkg0dzBNVmFXLXFzdnFnSGp2V1R0R3FjZmc?oc=5",
+   "date": "2026-11-16 07:51",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang, CEO 복귀 논의 진행 중 - FT 보도",
+    "korean_summary": "Jensen Huang이 측근들과 함께 NVIDIA CEO 복귀 가능성을 논의 중인 것으로 보도됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOamJhbnluTDc3OXRTMkcyaUlLUDhfYkgwSFgzS3p3LUFyM2o5RXNJRUxlNzFGREtQYnJBdWEtTzZnTGVxQzNQOGNSRjFGWjc5aEs0cE54VVN0TmVZdjZrRDVUY0hfNDJIU2hvMjF3R2w0eFNjaDUwQ0ljYUFXVjZDNkRXVnUydFR1NFhaR1IzNVAta19IU3poMy1yN1dLOFRHbzFBTjVLTDhwbkg0dzBNVmFXLXFzdnFnSGp2V1R0R3FjZmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang ‘plots return to role as Nvidia boss’",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORGlsR0xkME5nUnc0dDhNVmRaUDMtckItNjBRRUxTWlQ3TTR6c0VIQ29qNjZ6RDRzTWJ2OTNnV3hvRWxUQWd0dG03dS1FTHMyNWptOVF0YnVlcEFMc1M2MHJrdWhoNG12LXd6UHZpU3BwTVNxYTE4Y08wSlU4RWVkSGRCUTFCNWNibVVSeWJKMTU1c3VYUGdnMGpySWlJV1N3SHhLaGtNVzd2YmpKZzBzQ3VB?oc=5",
+   "date": "2026-11-16 07:35",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang의 CEO 복귀 움직임",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO로의 복귀를 추진 중인 것으로 알려졌다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORGlsR0xkME5nUnc0dDhNVmRaUDMtckItNjBRRUxTWlQ3TTR6c0VIQ29qNjZ6RDRzTWJ2OTNnV3hvRWxUQWd0dG03dS1FTHMyNWptOVF0YnVlcEFMc1M2MHJrdWhoNG12LXd6UHZpU3BwTVNxYTE4Y08wSlU4RWVkSGRCUTFCNWNibVVSeWJKMTU1c3VYUGdnMGpySWlJV1N3SHhLaGtNVzd2YmpKZzBzQ3VB",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Jerusalem Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang weighs Nvidia return amid leadership crisis",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGFSbnNJRzkzM2dGOGZjUElibWgyS1NENkNnNC1yMElUalByM3hiUGRYdHBzaE0tYVNNLVd4VENidko4VUsxb0hJRGtpNm9xUjI4MTl0Z0MyM2RQUktoX1lXLUh1UzBhbVJLZzk1QVQ4ZXA5RWVfWGhoSHJveGZnc2VpbTh1QQ?oc=5",
+   "date": "2026-11-16 05:54",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "리더십 위기 속 Jensen Huang의 CEO 복귀 검토",
+    "korean_summary": "NVIDIA 리더십 위기 가운데 Jensen Huang의 CEO 복귀 가능성이 검토되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaGFSbnNJRzkzM2dGOGZjUElibWgyS1NENkNnNC1yMElUalByM3hiUGRYdHBzaE0tYVNNLVd4VENidko4VUsxb0hJRGtpNm9xUjI4MTl0Z0MyM2RQUktoX1lXLUh1UzBhbVJLZzk1QVQ4ZXA5RWVfWGhoSHJveGZnc2VpbTh1QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang resigned in disgrace from Nvidia. Many in Silicon Valley are still showering him with support",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdmZKY1NndlFuaHMweHA1ZWpCb1NXc01LcmdNWkc1OHc2Y2ZxSEdzNVo5NzB6Vy15bVExTlpud3FiQmkweGFkRlc4cUhIeldyLUZCd0xXMlV3YThwNXI5djM0Smdkb2dJUVRQaHlFNEthLW5USjgtS2NqbzdjT1BPeFFn?oc=5",
+   "date": "2026-11-15 20:30",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang 사임 - 업계의 엇갈린 반응",
+    "korean_summary": "Jensen Huang이 NVIDIA에서 사임했으나 Silicon Valley 업계 인사들은 여전히 그를 지지하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdmZKY1NndlFuaHMweHA1ZWpCb1NXc01LcmdNWkc1OHc2Y2ZxSEdzNVo5NzB6Vy15bVExTlpud3FiQmkweGFkRlc4cUhIeldyLUZCd0xXMlV3YThwNXI5djM0Smdkb2dJUVRQaHlFNEthLW5USjgtS2NqbzdjT1BPeFFn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Earnings Without Jensen Huang Could Trigger $341 Billion Stock Swing As Options Traders Brace For Volatility",
+   "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaEN2WGV2eGN2N09WTklpX0V2SXpjSm1faWtJV29FRGFyamxWdmo0MzBVQ00zSUYzTE1WVHcyZGFDMFctZ21aeDZIQWpOeDFrNUZHZjJCYW9VVU9VdjNScnQyT1YwUldFY190Y1lBVFQ3NEk1YUtlYng4NEVFMkRybF95QXFLQzktQnQxNVpxRVFCXy12eVp1RVItc01ZNXRFSjA2T0RwY1RiUEtQa1dDZXc4SzRuaTNpOVo0bFlsakItTDNvalR2V2VmT29ZWU1WaHJHLUxhcUFLbW1sWkRXUXhoNmU4YnJudWJ6UWtQRDcySDlFWkx5X29XOVBFRmM?oc=5",
+   "date": "2026-11-16 05:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "젠슨 황 없는 NVIDIA 실적, 주식 3410억 달러 변동성 초래 전망",
+    "korean_summary": "NVIDIA가 CEO 교체 후 첫 분기 실적 발표를 앞두고 옵션 시장에 큰 변동성이 예상되고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQaEN2WGV2eGN2N09WTklpX0V2SXpjSm1faWtJV29FRGFyamxWdmo0MzBVQ00zSUYzTE1WVHcyZGFDMFctZ21aeDZIQWpOeDFrNUZHZjJCYW9VVU9VdjNScnQyT1YwUldFY190Y1lBVFQ3NEk1YUtlYng4NEVFMkRybF95QXFLQzktQnQxNVpxRVFCXy12eVp1RVItc01ZNXRFSjA2T0RwY1RiUEtQa1dDZXc4SzRuaTNpOVo0bFlsakItTDNvalR2V2VmT29ZWU1WaHJHLUxhcUFLbW1sWkRXUXhoNmU4YnJudWJ6UWtQRDcySDlFWkx5X29XOVBFRmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia ordered to explain $12bn supply of AI chips to China",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUW01Z3lLam43aV93VTlvUjE0QWR6YzhNLU9LekIwWGFPNXl6dDhjYUFkcm40R2E5UjBPeFh5azVBTTRIc1NNTlR0Z3czTzRwZWxlUmVPSFB0R1BnS3hkM2M0M0UyVThid1ZCaWhBUTRxMHlmUWlyVzBtUGpZLVFzZFFOUV9KLVV4TmZJeG9keHU5Nk5UUGxCei1LTEVBYXI5QmxVd3Q0Z09LU2JhSzl5M3JjdzBreWM?oc=5",
+   "date": "2026-11-16 04:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 중국 120억 달러 AI 칩 공급 설명 요구",
+    "korean_summary": "미국 정부가 NVIDIA의 중국 대향 AI 칩 120억 달러 공급에 대한 설명을 요구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUW01Z3lLam43aV93VTlvUjE0QWR6YzhNLU9LekIwWGFPNXl6dDhjYUFkcm40R2E5UjBPeFh5azVBTTRIc1NNTlR0Z3czTzRwZWxlUmVPSFB0R1BnS3hkM2M0M0UyVThid1ZCaWhBUTRxMHlmUWlyVzBtUGpZLVFzZFFOUV9KLVV4TmZJeG9keHU5Nk5UUGxCei1LTEVBYXI5QmxVd3Q0Z09LU2JhSzl5M3JjdzBreWM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investing.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang may return as Nvidia chief executive - report",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSTlEM1BmemlXaUotQ3RVV3doTmFGcG5iX1F1Qk03ekJBa2tXX0R2ZDdaYnBZYjNYeHJLVXBOYXEzelBLVWE1blI3Q2o1Wnp0TWVkejlPVW1xRFNDMWZpa0daOXZrbUg1RTJMdktOQnJxRDVURldWUjZabDU3UXBDcmNic21vQTlIcnFGQ3BLOUhJTy1hRkhHbXBJemNtbnF3LUdVVjYtR1Y2WUdSeDVtSVA2ZTY?oc=5",
+   "date": "2026-11-16 05:43",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang, NVIDIA CEO 복귀 가능성…보도",
+    "korean_summary": "Jensen Huang이 NVIDIA 최고경영자로 복귀할 가능성이 있다는 보도가 나왔다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Jensen Huang might return to Nvidia as CEO",
+     "link": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSTlEM1BmemlXaUotQ3RVV3doTmFGcG5iX1F1Qk03ekJBa2tXX0R2ZDdaYnBZYjNYeHJLVXBOYXEzelBLVWE1blI3Q2o1Wnp0TWVkejlPVW1xRFNDMWZpa0daOXZrbUg1RTJMdktOQnJxRDVURldWUjZabDU3UXBDcmNic21vQTlIcnFGQ3BLOUhJTy1hRkhHbXBJemNtbnF3LUdVVjYtR1Y2WUdSeDVtSVA2ZTY",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Verge",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "date": "2026-11-16 04:15",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "의회, NVIDIA 스파이 스캔들 이후 AI 칩 수출 규제 강화 추진",
+    "korean_summary": "미국 의회가 NVIDIA 스파이 스캔들을 계기로 AI 칩 수출 규제 강화를 추진 중이다"
+   },
+   "summary_data": {
+    "korean_title": "Nvidia 스파이 스캔들 이후 미 의회, AI 반도체 수출 규제 강화 추진",
+    "korean_summary": "미 의회가 Jensen Huang과 중국 스파이 의혹 연루 스캔들을 계기로 **Nvidia 등 기업의 AI 칩 중국 수출을 제한하는 입법**을 재추진하고 있다.",
+    "action": {
+     "actor": "US Congress (양당)",
+     "action": "AI 칩 수출 규제 강화 법안 추진 및 Jensen Huang 등 Nvidia 경영진 의회 증언 요구",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "Nvidia 등 AI 칩 제조사의 중국向 수출"
+    },
+    "key_facts": [
+     "**본문은 Jensen Huang을 'now-former Nvidia CEO'로 지칭**하며 중국 스파이 의혹 스캔들 연루를 언급",
+     "Senate Minority Leader Chuck Schumer가 Huang과 Trump 행정부의 의회 답변 필요성을 주장",
+     "Senate Banking Committee Chairman Tim Scott이 Huang과 Commerce Secretary Howard Lutnick에게 공개 증언 요구 서한 발송",
+     "2025년 4월 하원 발의 후 상원에서 정체된 **Remote Access Security Act**가 재조명받고 있음",
+     "House Speaker Mike Johnson이 'growing consensus in Congress on limiting chip exports to China'라고 언급(Reuters 인용), 개인적으로도 규제 지지 입장 표명"
+    ],
+    "why_matters": "이번 스캔들은 **Nvidia의 대중국 AI 칩 수출 정책에 대한 초당적 의회 압박을 가속화**시켜 기존 수출통제 체계를 더 강화할 수 있는 정치적 동력을 제공한다. 이는 Nvidia의 중국 매출 전망과 글로벌 AI 칩 공급망 전략에 직접적인 불확실성을 더한다.",
+    "subject_angle": "**Nvidia 리더십과 대중국 사업 관계에 대한 의회 조사 및 증언 요구가 본격화**되면서, 회사의 중국向 AI 칩 수출 전략과 경영진 신뢰도에 추가적인 정치적 리스크가 부각되고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 및 수출 규제 강화 논의의 중심 기업"
+     },
+     {
+      "name": "Trump administration",
+      "context": "의회의 설명 요구 대상"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Jensen Huang 및 Nvidia 경영진의 실제 의회 증언 일정 확정 여부",
+     "Remote Access Security Act 등 관련 법안의 상원 통과 여부",
+     "'now-former CEO' 표현의 실제 배경 및 Huang의 현직 여부 공식 확인"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+     "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYUdJdF80Q0hNQ1d6di0yZVRpSDNKZm1ZSkxCYVEtNERiVFpwOTROZ2RXZXRrNEd1U2RtR1hVaGJPUXgtS3BUczNCV2EyUGpFRkxqemZWLXBZTHU4WklGcnBRcTVLLW1QcWZUQmNiR21CYjVRQ3VydWg1ZVRHVlJ2UjRpLUprZTg2QjhkVGxrRTdDWDRLV1NUY1JMbW0",
+   "body": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Congress wants to tighten export rules on AI chips after Nvidia spy scandal Following revelations about Jensen Huang’s relationship with a suspected Chinese spy Congress wants to crack down. Senate Minority Leader Chuck Schumer has already said that Huang and the Trump administration need to answer to Congress. Senate Banking Committee Chairman Tim Scott has also sent letters to both Huang and Commerce Secretary Howard Lutnick calling on them to publicly testify to the committee. Bills such as the Remote Access Security Act, first introduced in the House in April 2025 but stalled in the Senate, are receiving renewed interest. While that specific bill might not become law, House Speaker Mike Johnson has said there is “growing consensus in Congress on limiting chip exports to China,” according to Reuters. Johnson has also said that he personally supports efforts to restrict China’s access to powerful AI chips from companies like Nvidia."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot",
+   "link": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+   "date": "2026-11-15 21:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "Anthropic IPO, NVIDIA 포함 기술 기업들의 $26B 투자로 추진",
+    "korean_summary": "Anthropic의 나스닥 상장이 NVIDIA, Google, Microsoft 등 기술 거대 기업들의 집단 $26B 투자로 진행되고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang CEO 해임 파장 속 Nvidia, 실적 발표와 Anthropic IPO 투자 동시 직면",
+    "korean_summary": "Nvidia는 Jensen Huang CEO가 스캔들로 해임되고 CFO Colette Cress가 임시 CEO를 맡은 혼란 속에서, Anthropic IPO에 공동 투자하며 AI 산업 전반의 신뢰 회복이 시급한 시점을 맞이했다.",
+    "action": {
+     "actor": "Nvidia / Jensen Huang",
+     "action": "**Jensen Huang이 복수의 외도 스캔들(중국 스파이 연루 혐의 포함)로 해임**되고 CFO Colette Cress가 임시 CEO로 선임됨",
+     "stage": "Announced",
+     "timeline": "2026-11-16(목) 오전, Anthropic Nasdaq 데뷔(목요일) 직전",
+     "scope": "Nvidia 최고경영진 교체, 전사 차원"
+    },
+    "key_facts": [
+     "Jensen Huang이 복수의 외도 보도(중국 스파이 연루 포함)로 목요일 조기 해임됨",
+     "**CFO Colette Cress가 임시 CEO로 취임**, 이틀 후 Anthropic IPO 데뷔보다 앞선 화요일에 분기 실적 발표라는 중대 시험대에 직면",
+     "Nvidia 주가는 이번 주 13% 급락해 2025년 7월 이후 최저치 기록",
+     "**Nvidia는 AMD, Broadcom, Google, Micron, Microsoft, TSMC와 함께 Anthropic IPO 가격(주당 $70~78)에 총 $26 billion을 공동 투자**",
+     "나스닥 지수는 2025년 3월 이후 최악의 달이었던 10월 5.3% 하락에 이어 11월에도 약세로 출발"
+    ],
+    "why_matters": "**실적 발표 이틀 전, 임시 CEO 체제에서 발생한 리더십 공백은 AI 칩 수요 내러티브에 대한 투자자 신뢰에 직접적 타격**을 줄 수 있으며, 이는 금리 상승·데이터센터 규제 움직임·AI 버블 우려가 겹친 시점과 맞물려 있다. 동시에 Nvidia가 Anthropic IPO에 공동 투자자로 참여한 사실은 경쟁사 칩 구매선(Google $125~150 billion)에도 노출된 상황에서 Nvidia의 AI 생태계 내 입지가 시험대에 올랐음을 보여준다.",
+    "subject_angle": "**경영진 교체와 주가 급락이 겹친 시점에 분기 실적을 발표해야 하는 Nvidia는 AI 트레이드 전반의 신뢰 회복 여부를 가늠하는 핵심 변수**로 떠올랐으며, Anthropic에 대한 대규모 공동 투자는 데이터센터·칩 공급망에서의 지속적 영향력 확보 전략으로 해석된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 해임·임시 CEO 선임, 주가 급락, Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "Anthropic",
+      "context": "IPO 당사자, $900 billion 규모의 지출 약정 보유"
+     },
+     {
+      "name": "Amazon",
+      "context": "Anthropic 초기 투자자, $110 billion 클라우드 계약"
+     },
+     {
+      "name": "Google",
+      "context": "Anthropic 지분 13% 보유 예정, $125~150 billion AI 칩 공급 계약"
+     },
+     {
+      "name": "Microsoft",
+      "context": "Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "AMD",
+      "context": "Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "Broadcom",
+      "context": "Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "Micron",
+      "context": "Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "TSMC",
+      "context": "Anthropic IPO 공동 투자자"
+     },
+     {
+      "name": "Terawulf",
+      "context": "Kentucky 데이터센터 임대 공급, Google이 지급 보증"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "화요일 Nvidia 분기 실적 발표 결과 및 Colette Cress의 첫 공개 메시지",
+     "목요일 Anthropic Nasdaq 데뷔 당시 실제 공모가($70~78 범위 여부) 및 주가 반응",
+     "Nvidia 이사회의 영구 CEO 선임 절차 및 추가 경영진 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/15/anthropic-ipo-is-make-or-break-for-the-technology-industry.html",
+   "body": "Between rising interest rates, a nationwide AI backlash, a major political shift in Washington, D.C., and the sudden ouster of Nvidia CEO Jensen Huang, the tech industry is under mounting strain. Now comes the most important tech IPO in years, and a defining event for the burgeoning but still young artificial intelligence market. With Anthropic expected to debut on the Nasdaq on Thursday, the stakes are sky-high for almost every major tech company. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Company are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share. Some of those companies are existing investors, as is early backer Amazon, whose stake could be in the hundreds of billions of dollars. In addition to all the cash on the line, tech giants also need Anthropic's spending for many years to come. The Claude creator and its top rival, OpenAI, are driving an outsized amount of the AI buildout, and are burning historic amounts of money in the process. Anthropic has outstanding spending commitments of over $900 billion, according to its latest prospectus. It's on the hook to spend at least $110 billion with Amazon over the course of a decade, and another $400 billion with other companies for cloud capacity, according to filings and partner disclosures. The lab also made $300 billion in commitments with data center and chip partners. Anthropic intends to lay out $125 billion to $150 billion for AI chips from Google, though delivery won't start until 2028. \"The numbers are just staggering,\" Joe Fath, a partner at venture firm Eclipse and former T. Rowe Price portfolio manager, said in an interview. \"It's hard to get your head wrapped around it.\" Cloud partners Amazon, Google and Microsoft account for 31% of contractual obligations, Anthropic said in its prospectus. Last year, Amazon built an Indiana data center just for Anthropic, using custom chips. By going public now, Anthropic can raise a large portion of the money it needs to pay for the technology and infrastructure required for building and hosting its frontier models and expanding portfolio of services. The company recorded a net loss of $104 billion through the first nine months of 2026. The IPO could yield over $90 billion in proceeds, on top of Anthropic's $132 billion in existing cash, including short-term investments. The length of Anthropic's contracts is also unique. Typically such contracts last five years or less, while Anthropic's agreement with Amazon extends for twice that amount of time. \"Realistically, anything past three to four years, you're basically throwing darts in the dark,\" said Corey Quinn, chief cloud economist at spend management software vendor Duckbill. \"It is almost a certainty that it will be renegotiated long before the culmination of that contract.\" Meanwhile, a data center for Anthropic that starts leasing in 2027 has a 20-year term. For both space and "
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "﻿젠슨 황의 퇴장, AI 패권의 진짜 주인은 누구인가② [윤석빈의 Thinking]",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001053",
+   "date": "2026-11-16 15:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "partnership"
+    ],
+    "korean_title": "Jensen Huang 퇴장 후 AI 패권, SK Hynix·삼성전자 메모리 전략 부각",
+    "korean_summary": "분석 기사에서 SK Hynix의 차세대 메모리 공동개발, 삼성전자의 메모리-로직-파운드리 통합 경쟁력 강조"
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황 퇴장론 속 엔비디아 생태계와 한국 반도체의 전략적 위치 분석",
+    "korean_summary": "IT조선 칼럼은 **젠슨 황 사임설**을 계기로 엔비디아 중심 AI 생태계에서 삼성전자·SK하이닉스의 HBM 공급과 SK텔레콤·리벨리온의 NVLink Fusion 협력이 갖는 전략적 의미와 위험을 짚었다.",
+    "action": {
+     "actor": "NVIDIA, SK Telecom, Rebellions",
+     "action": "NVLink Fusion 기술을 활용해 국내 설계 NPU와 글로벌 AI 컴퓨팅 인프라를 연결하는 협력 발표",
+     "stage": "Announced",
+     "timeline": "미확인 (기사상 '최근')",
+     "scope": "한국, AI 데이터센터·서비스 적용 구상 단계"
+    },
+    "key_facts": [
+     "SK하이닉스는 지난 6월 NVIDIA와 **차세대 메모리 공동개발 및 AI 인프라 확장을 위한 다년간 기술협력**을 발표했다",
+     "협력 범위는 차세대 AI 슈퍼컴퓨터, 개인용 AI, 로봇, 반도체 설계·제조 공정 AI 전환까지 확대",
+     "삼성전자는 **HBM4·HBM4E**, 첨단 패키징, 파운드리 역량을 결합해 글로벌 AI 반도체 기업들과 협력 중",
+     "NVIDIA·SK텔레콤·리벨리온은 **NVLink Fusion**을 활용해 국내 NPU와 글로벌 AI 인프라를 연결하는 협력을 발표했으나 실제 구축·성과는 아직 검증되지 않음",
+     "AMD와 글로벌 클라우드 기업들이 자체 AI 반도체·추론 가속기를 개발 중이라는 경쟁 구도가 언급됨"
+    ],
+    "why_matters": "엔비디아 생태계 확장이 한국 메모리 기업에 매출 기회를 주지만 특정 고객 의존도 심화라는 위험도 동반하며, NVLink Fusion을 통한 국내 NPU 연결 시도는 **한국이 메모리 공급국에서 시스템·아키텍처 설계 참여국으로 이동할 가능성**을 시험하는 사례다. 젠슨 황 리더십 변화 가능성이 투자 우선순위와 공급망 전략에 영향을 줄 수 있다는 점에서 한국 기업의 협상력 확보가 중요한 이슈로 부각된다.",
+    "subject_angle": "NVIDIA는 **GPU·메모리·네트워크·패키징 통합 생태계**를 중심으로 삼성전자·SK하이닉스를 전략적 파트너로 묶어두는 동시에, NVLink Fusion을 통해 서드파티 NPU까지 자사 인프라에 연결시켜 생태계 지배력을 확장하려는 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "AI 컴퓨팅 플랫폼 및 생태계 중심 기업, HBM 수요처, NVLink Fusion 제공"
+     },
+     {
+      "name": "SK Hynix",
+      "context": "NVIDIA와 차세대 메모리 공동개발 다년간 기술협력 체결"
+     },
+     {
+      "name": "Samsung Electronics",
+      "context": "HBM4/HBM4E, 패키징, 파운드리 결합 역량으로 AI 반도체 기업과 협력"
+     },
+     {
+      "name": "SK Telecom",
+      "context": "NVLink Fusion 기반 NPU-AI 인프라 연결 협력 참여"
+     },
+     {
+      "name": "Rebellions",
+      "context": "국내 설계 NPU 제공, NVIDIA 생태계와의 연결 시도"
+     },
+     {
+      "name": "AMD",
+      "context": "자체 AI 반도체 개발로 NVIDIA와 경쟁"
+     },
+     {
+      "name": "BlackRock",
+      "context": "AI 데이터센터·인프라 대규모 투자 참여 금융기관으로 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "HBM / HBM4 / HBM4E",
+      "role": "AI 가속기 성능을 뒷받침하는 핵심 메모리, 한국 기업 공급 제품"
+     },
+     {
+      "name": "NVLink Fusion",
+      "role": "국내 설계 NPU를 NVIDIA 글로벌 AI 컴퓨팅 인프라에 연결하는 상호연결 기술"
+     }
+    ],
+    "watch_next": [
+     "젠슨 황 관련 경영진 변화 여부 및 공식 발표 확인",
+     "NVIDIA-SK Telecom-Rebellions NVLink Fusion 협력의 실제 데이터센터 구축·상용화 진행 상황",
+     "삼성전자 HBM4/HBM4E의 NVIDIA 공급 승인 및 양산 일정"
+    ]
+   },
+   "related": [
+    {
+     "source": "IT조선",
+     "title": "﻿젠슨 황의 퇴장, AI 패권의 진짜 주인은 누구인가① [윤석빈의 Thinking]",
+     "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001052"
+    }
+   ],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001053",
+   "body": "(①편에 이어서) 이러한 세계적인 재편 과정에서 한국의 삼성전자와 SK하이닉스는 매우 중요한 위치에 있다. 엔비디아가 아무리 뛰어난 AI 가속기를 개발하더라도 고성능 메모리가 없다면 그 성능을 충분히 구현하기 어렵다. 거대언어모델의 학습과 추론에는 방대한 데이터를 빠르게 처리하는 능력이 필요하며, 이를 위해 HBM은 핵심적인 역할을 담당한다. AI 컴퓨팅 성능의 경쟁이 연산 능력에서 메모리 대역폭과 데이터 이동 효율, 시스템 전체의 전력 효율로 확대되면서 한국 반도체 기업의 전략적 가치가 더욱 높아지고 있다. SK하이닉스는 엔비디아와의 긴밀한 협력을 바탕으로 AI 메모리 시장에서 중요한 입지를 확보해 왔다. 지난 6월 양사는 차세대 메모리 공동개발과 AI 인프라 확장을 위한 다년간의 기술협력을 발표했다. 협력 범위는 차세대 AI 슈퍼컴퓨터뿐 아니라 개인용 AI와 로봇, 반도체 설계 및 제조 공정의 AI 전환으로 확대되고 있다. 삼성전자 역시 HBM4와 차세대 HBM4E 기술, 첨단 패키징과 파운드리 역량을 바탕으로 글로벌 AI 반도체 기업들과 협력하고 있다. 특히 삼성전자는 메모리와 로직, 파운드리, 패키징을 결합할 수 있다는 점에서 차별화된 경쟁력을 갖고 있다. 중요한 것은 삼성전자와 SK하이닉스의 경쟁을 단순한 HBM 점유율 경쟁으로만 바라봐서는 안 된다는 사실이다. 앞으로 AI 반도체는 GPU와 메모리, 네트워크, 패키징이 더욱 긴밀하게 통합되는 방향으로 발전할 가능성이 크다. 이 과정에서 메모리 기업은 고객사가 요구하는 제품을 공급하는 역할을 넘어 차세대 AI 시스템의 성능과 구조를 함께 설계하는 전략적 파트너가 될 수 있다. 그러나 기회와 위험은 동시에 존재한다. 엔비디아 중심의 생태계가 성장하면 한국 반도체 기업의 매출 기회는 커지지만, 특정 고객의 기술 로드맵과 구매정책에 대한 의존도가 지나치게 높아질 경우 협상력과 사업 유연성이 약해질 수 있다. 젠슨 황의 사임 이후 새로운 경영진이 투자 우선순위와 공급망 전략을 조정한다면 한국 기업 역시 그 영향을 받을 수 있다. 다만 이미 합의된 생산 일정과 기술개발 계획이 존재하는 만큼 경영진 교체만으로 당장 메모리 공급관계가 급격히 바뀔 것이라고 단정하기는 어렵다. 이러한 불확실성에 대응하려면 한국 반도체 기업은 엔비디아와의 협력을 유지하면서 고객 기반과 기술적 영향력을 동시에 확대해야 한다. AMD와 글로벌 클라우드 기업들이 개발하는 자체 AI 반도체, 추론 특화 가속기, 온디바이스 AI와 피지컬 AI에 이르기까지 다양한 시장을 확보해야 한다. 단기적으로는 HBM의 성능과 생산 경쟁력을 높이는 것이 중요하지만 장기적으로는 AI 시스템의 핵심 아키텍처와 기술 표준을 공동으로 결정할 수 있는 위치에 올라서야 한다. 최근 엔비디아와 SK텔레콤, 국내 AI 반도체 기업 리벨리온이 발표한 협력도 이러한 관점에서 의미가 있다. 엔비디아의 NV링크 퓨전(NVLink Fusion) 기술을 활용해 국내에서 설계한 신경망처리장치(NPU)와 글로벌 AI 컴퓨팅 인프라를 연결하고, 이를 실제 AI 데이터센터와 서비스에 적용하겠다는 구상이다. 아직 실제 구축과 사업 성과를 검증해야 하지만, 한국의 AI 반도체 경쟁력이 메모리 공급을 넘어 독자적인 추론 가속기와 시스템 설계 영역으로 확장될 가능성을 보여준다는 점에서 긍정적이다. 이제 AI 패권 경쟁의 무대는 GPU 성능을 넘어 전력과 에너지, 데이터센터 운영, 금융 구조로 확대되고 있다. 아무리 성능이 뛰어난 AI 반도체를 확보하더라도 전력 공급이 불안정하거나 냉각 비용이 지나치게 높으면 경제성을 확보하기 어렵다. 특히 AI 에이전트가 기업 업무를 수행하고, 로봇과 자율시스템이 산업 현장에 확산되면 AI 컴퓨팅은 일회성 학습보다 지속적인 추론과 실시간 서비스에 더 많이 활용될 것이다. 이때 핵심 경쟁력은 얼마나 많은 GPU를 확보했느냐가 아니라 얼마나 적은 비용과 전력으로 안정적인 AI 서비스를 제공할 수 있느냐에 있다. 글로벌 금융기관들이 AI 데이터센터와 컴퓨팅 인프라에 관심을 갖는 이유도 여기에 있다. AI 연산 능력이 기업과 국가의 생산 활동을 뒷받침하는 핵심 인프라가 된다면 장기적인 서비스 수요가 발생할 수 있기 때문이다. 다만 수요가 빠르게 증가한다는 사실만으로 모든 AI 인프라 투자가 성공하는 것은 아니다. 설비 가동률과 기술 교체 주기, 전력가격, 서비스 수익성이 충분히 검증되지 않으면 대규모 투자는 오히려 금융적 위험을 확대할 수 있다. 따라서 AI 인프라의 미래는 기술기업과 금융기관이 어떻게 위험을 분담하고 지속 가능한 사업모델을 구축하느냐에 달려 있다. 한국도 이러한 산업 구조의 변화를 정확하게 이해해야 한다. 세계적인 메모리 반도체 생산 능력을 보유하고 있다는 사실만으로 AI 시대의 국가 경쟁력이 보장되지는 않는다. 반도체 기술을 기반으로 AI 데이터센터와 전력 인프라, 소프트웨어 플랫폼, 산업용 AI, 로봇 기술까지 연결할 수 있어야 한다. 동시에 글로벌 자본을 적극적으로 활용하되 국내 기업이 핵심 기술과 데이터, 인프라 운영에서 실질적인 주도권을 확보할 수 있도록 설계해야 한다. 특히 AI 시대의 기술 주권은 모든 기술을 독자적으로 개발한다는 의미로 이해해서는 안 된다. 국제적인 기술협력과 글로벌 자본을 활용하면서도 국가와 기업이 핵심 기술의 선택권과 데이터 통제 능력, 공급망의 복원력을 확보하는 것이 중요하다. 외국 자본이 투자했다는 이유만으로 기술 주권이 상실되는 것은 아니며, 반대로 국내 자본으로 건설한 데이터센터라고 해서 자동으로 기술 주권이 확보되는 것도 아니다. 누가 시스템을 설계하고 운영하는지, 핵심 기술을 얼마나 자율적으로 선택할 수 있는지, 창출된 경제적 가치가 국내 산업에 얼마나 축적되는지가 더 중요한 판단 기준이다. 이러한 관점에서 한국의 AI 정책 역시 새로운 방향을 모색해야 한다. 정부가 AI 경쟁력을 GPU 확보 대수나 데이터센터 건설 규모로만 평가한다면 산업 구조의 본질적인 변화를 놓칠 수 있다. AI 인프라에 대한 투자와 함께 제조업의 생산성 향상, 물류와 금융의 지능화, 의료 서비스 혁신, 로봇과 피지컬 AI의 상용화로 이어지는 산"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "LG엔솔·삼성SDI, 美 ‘RE+ 2026’서 AI·ESS 솔루션 공개",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001071",
+   "date": "2026-11-15 19:57",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "LG에너지솔루션, RE+ 2026에서 NVIDIA DSX Ready BESS 파트너 선정 공개",
+    "korean_summary": "LG에너지솔루션과 삼성SDI가 미국 신재생에너지 전시회에서 AI 데이터센터 전력솔루션 선보이며 NVIDIA 협력 사례 강조"
+   },
+   "summary_data": {
+    "korean_title": "LG에너지솔루션·삼성SDI, RE+ 2026서 AI 데이터센터용 전력·ESS 솔루션 공개",
+    "korean_summary": "LG에너지솔루션과 삼성SDI가 11월 17~19일 미국 라스베이거스 RE+ 2026 전시회에서 AI 데이터센터용 전력 인프라와 북미 현지 생산 ESS 제품을 나란히 공개하며 AI 전력 시장 공략을 강화했다.",
+    "action": {
+     "actor": "LG에너지솔루션·삼성SDI",
+     "action": "AI 데이터센터용 통합 전력 솔루션(BESS, UPS, BBU, EMS) 및 북미 현지 생산 ESS 신제품 전시",
+     "stage": "Announced",
+     "timeline": "2026년 11월 17~19일(현지시각)",
+     "scope": "미국 라스베이거스, 북미 AI 데이터센터·ESS 시장"
+    },
+    "key_facts": [
+     "LG에너지솔루션은 **국내 배터리사 최대인 279㎡ 부스(전년 대비 약 20% 확대)**를 꾸려 'AIDC 통합 전력 인프라'를 선보임",
+     "LG에너지솔루션은 **NVIDIA의 'DSX 레디 BESS' 프로그램 파트너로 선정**된 사실을 전시에서 소개",
+     "LG에너지솔루션 'JF3 AC LINK'는 미국산 LFP 배터리 적용, 부지 단위 에너지 밀도를 기존 대비 약 26% 향상",
+     "삼성SDI 'SBB 2.0'은 미국 현지 생산 체계 구축을 마치고 북미 공급 예정, 20ft 컨테이너형 LFP 전력용 ESS",
+     "삼성SDI 'U8A3'는 UL 솔루션즈 Indoor LSFT 전 기준을 **세계 최초 통과**한 UPS용 각형 배터리"
+    ],
+    "why_matters": "AI 데이터센터 전력 수요 급증 속에서 한국 배터리 기업들이 ESS·UPS·BBU를 묶은 전력 인프라 토털 솔루션 공급자로 포지셔닝을 확대하고 있으며, 북미 현지 생산 체계 구축으로 관세·공급망 리스크를 낮춘다는 점이 경쟁력이다. **NVIDIA의 DSX Ready BESS 파트너 생태계**에 LG에너지솔루션이 포함된 것은 AI 데이터센터 전력 인프라 표준화 경쟁에서 중요한 신호다.",
+    "subject_angle": "NVIDIA는 자체 AI 데이터센터 레퍼런스 아키텍처(DSX)에 배터리·전력 파트너를 끌어들여 **GPU 클러스터 전력 안정성 생태계를 확장**하고 있으며, 이는 데이터센터 인프라 전반에 대한 NVIDIA의 영향력을 하드웨어에서 전력망까지 넓히는 전략으로 해석된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "LG Energy Solution",
+      "context": "AIDC 통합 전력 인프라 및 ESS 전시 주체, NVIDIA DSX Ready BESS 파트너"
+     },
+     {
+      "name": "Samsung SDI",
+      "context": "AI 데이터센터용 ESS·UPS·BBU 솔루션 전시 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "DSX Ready BESS 프로그램 운영, LG에너지솔루션을 파트너로 선정"
+     },
+     {
+      "name": "Vertech",
+      "context": "LG에너지솔루션 ESS 전문 법인"
+     },
+     {
+      "name": "UL Solutions",
+      "context": "삼성SDI 'U8A3' 옥내 대형 화재 테스트(Indoor LSFT) 주관 인증기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "AIDC 통합 전력 인프라(BESS·UPS·BBU·EMS)",
+      "role": "LG에너지솔루션의 AI 데이터센터 전력 솔루션 패키지"
+     },
+     {
+      "name": "DSX Ready BESS",
+      "role": "NVIDIA가 운영하는 데이터센터 전력 파트너 프로그램"
+     },
+     {
+      "name": "JF3 AC LINK",
+      "role": "LG에너지솔루션 미국산 LFP 전력망용 ESS"
+     },
+     {
+      "name": "JP6 UPS / 2170 BBU",
+      "role": "LG에너지솔루션 데이터센터 정전 대응 무정전 전력 제품"
+     },
+     {
+      "name": "SBB 2.0",
+      "role": "삼성SDI 북미 현지 생산 LFP 전력용 ESS 주력 모델"
+     },
+     {
+      "name": "U8A3",
+      "role": "삼성SDI UPS용 각형 배터리, 화재 안전 인증 세계 최초 통과"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA DSX Ready BESS 프로그램의 구체적 기술 요건 및 추가 파트너사 발표 여부",
+     "LG에너지솔루션·삼성SDI의 북미 ESS 생산라인 실제 가동률과 공급 계약 체결 소식",
+     "RE+ 2026 전시 이후 AI 데이터센터 고객사(하이퍼스케일러)와의 구체적 수주 성과"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001071",
+   "body": "LG에너지솔루션과 삼성SDI가 북미 최대 신재생 에너지 전시회 ‘RE+(Renewable Energy Plus) 2026’에 나란히 참가한다. 양사는 17~19일(현지시각) 미국 네바다주 라스베이거스에서 열리는 이번 행사에서 인공지능(AI) 데이터센터용 전력 솔루션과 북미 현지 생산 에너지저장장치(ESS) 제품을 선보인다. LG에너지솔루션은 ‘AI의 미래를 위한 에너지 - 안정성. 회복탄력성. 지능화’를 주제로 국내 배터리 기업 중 최대인 279㎡ 규모의 부스를 꾸렸다. 2025년보다 전시 면적을 약 20% 넓혔다. 배터리 제조사를 넘어 AI 산업의 전력 인프라를 통합 제공하는 에너지 플랫폼 기업 역량을 알린다. 전시장 핵심인 ‘히어로 존’에서는 배터리에너지저장장치(BESS), 무정전전원장치(UPS), 배터리백업유닛(BBU), 에너지관리시스템(EMS)을 묶은 ‘AIDC 통합 전력 인프라’를 선보인다. 대형 LED와 3차원 모형인 디오라마로 전력 공급 솔루션을 구현했다. 최근 엔비디아의 ‘DSX 레디 BESS’ 프로그램 파트너로 선정된 성과도 소개한다. 전력망용 ESS 존에서는 미국에서 생산한 리튬인산철(LFP) 배터리를 적용한 ‘JF3 AC LINK’를 공개한다. 초밀집 배치로 부지 단위 에너지 밀도를 기존 대비 약 26% 높였으며 다층 안전 설계와 디지털 트윈 기술을 적용했다. 차세대 기술 존에는 소듐이온 배터리와 전력반도체 기반 차세대 전력변환장치(SST)를 결합한 시스템을 배치했다. 무정전 전력 솔루션 존에는 차세대 ‘JP6 UPS’ 랙 시스템과 원통형 ‘2170 BBU’를 전시해 데이터센터 정전 대응과 공간 효율화 기술을 강조한다. 북미 사업 역량 존에서는 북미 50GWh 이상 생산 능력과 함께 ESS 전문 법인 버텍(Vertech), 통합 소프트웨어 ‘에어로스 수트(AEROS Suite)’를 통한 운영·관리 역량을 제시한다. 강창범 LG에너지솔루션 ESS전지사업부장(전무)은 “AI 산업의 성장은 안정적인 전력의 저장과 공급, 효율적인 운영까지 아우르는 새로운 에너지 해법을 요구하고 있다”며 “북미 현지 생산 경쟁력과 차별화된 기술력, 시스템 구축 및 지능형 운영 역량을 결합해 미래 AI 산업의 안정적인 성장을 뒷받침하는 에너지 플랫폼 기업으로 성장을 가속화해 나갈 것”이라고 말했다. 삼성SDI는 ‘AI의 상상, 배터리가 현실로(AI Thinks, Battery Enables)’를 슬로건으로 내걸고 북미 시장을 겨냥한 배터리 토털 솔루션을 공개한다. 전력용 ESS 솔루션 ‘SBB(Samsung Battery Box)’를 비롯해 UPS용 고출력 각형 배터리, BBU용 고출력 원통형 배터리 등 AI 시대에 맞춘 라인업을 전면에 배치했다. 주력 모델인 ‘SBB 2.0’은 최근 미국 현지 생산 체계 구축을 마치고 북미 시장에 공급될 예정이다. 20피트(ft) 컨테이너에 배터리 셀과 안전장치를 통합한 전력용 ESS 제품으로 LFP 배터리를 탑재했다. 삼성SDI 고유의 각형 폼팩터에 자체 소재와 극판 기술을 적용해 안전성과 수명을 높였다. 북미 시장에 처음 공개하는 UPS용 각형 배터리 솔루션 ‘U8A3’도 전시한다. ‘U8A3’는 글로벌 안전 인증기관 UL 솔루션즈가 주관한 옥내 대형 화재 테스트(Indoor LSFT)의 모든 기준을 세계 최초로 통과했다. 리튬망간산화물(LMO) 각형 셀과 ‘셀-모듈-랙’ 전 단계에 걸친 다중 안전 설계를 적용해 AI 데이터센터의 급격한 전력 부하 변화에 대응한다. 고출력과 고용량을 동시에 구현한 BBU용 원통형 배터리 라인업도 함께 선보인다. 삼성SDI는 2017년부터 데이터센터용 배터리를 공급해 온 경험을 바탕으로 하이니켈 니켈·코발트·알루미늄(NCA)부터 LFP까지 아우르는 제품 포트폴리오를 구축해 고객사 수요에 대응하고 있다. 삼성SDI 관계자는 “최근 급성장하는 미국 시장을 겨냥해 현지 맞춤형 제품과 기술을 선보일 것”이라며 “AI 시대에 특화된 기술로 북미 시장을 선도한다는 전략”이라고 말했다. 이광영 기자 gwang0e@chosunbiz.com"
+  },
+  {
+   "source": "Google News · The Washington Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "It’s not just an affair. Nvidia’s bigger issue could be chip smuggling.",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2hPSWp5RThSSER6RU9KM2xsRkplcUx2eXVFdUlLYURuQ0tkQVFPeDRUa0t6cUJ2TmRMU0pFaGV1YU1GalExUWtqVTc4LS10THUyRFJJeXI3cUt4Sm9uRWhTOElzYzJhekJUWTR4RXRoQXV4aGR2NzRMZmdDTDFQVXVrSkd3Z0N6OFhvTGNFS0U0M1A0bGJKMUVOaTdscEZQakYxR3hoakxMdHpCaHVEVExyZ0o4Q1FLYkE?oc=5",
+   "date": "2026-11-16 03:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA의 더 큰 위기: 칩 밀수 혐의 제기",
+    "korean_summary": "NVIDIA가 경영진 스캔들을 넘어 칩 밀수 관련 규제 조사 대상일 수 있다는 보도가 나왔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2hPSWp5RThSSER6RU9KM2xsRkplcUx2eXVFdUlLYURuQ0tkQVFPeDRUa0t6cUJ2TmRMU0pFaGV1YU1GalExUWtqVTc4LS10THUyRFJJeXI3cUt4Sm9uRWhTOElzYzJhekJUWTR4RXRoQXV4aGR2NzRMZmdDTDFQVXVrSkd3Z0N6OFhvTGNFS0U0M1A0bGJKMUVOaTdscEZQakYxR3hoakxMdHpCaHVEVExyZ0o4Q1FLYkE",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "TechCrunch Mobility: The Nvidia backup plan for China’s self-driving industry",
+   "link": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+   "date": "2026-11-16 02:05",
+   "score": 5,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive"
+    ],
+    "korean_title": "NVIDIA의 중국 자율주행 산업 백업 플랜 분석",
+    "korean_summary": "TechCrunch가 Jensen Huang 퇴사 이후 NVIDIA의 중국 자율주행 시장 진출 전략을 분석했다."
+   },
+   "summary_data": {
+    "korean_title": "젠슨 황 CEO 사퇴 후폭풍, 중국 자율주행 업계의 '엔비디아 플랜B'",
+    "korean_summary": "Pony.ai CFO Leo Wang이 Jensen Huang의 CEO직 사퇴로 인한 수출 규제 강화 가능성에 대비해 중국 자율주행 업계가 수년간 자국산 칩 전환과 효율적 모델 배치라는 '플랜B'를 준비해왔다고 밝혔다.",
+    "action": {
+     "actor": "Pony.ai (Leo Wang, CFO)",
+     "action": "Nvidia 칩 수출 규제 강화 가능성에 대비해 중국산 칩 전환 및 중급 컴퓨트 자원 활용 전략을 설명",
+     "stage": "Report",
+     "timeline": "미확인 (Web Summit 이후, Jensen Huang 사퇴 보도 직후 인터뷰)",
+     "scope": "중국 자율주행 업계, Pony.ai 중심"
+    },
+    "key_facts": [
+     "Nvidia 창업자이자 CEO인 **Jensen Huang이 리더십직에서 사퇴**했으며, 사퇴 배경에 스파이 혐의자와의 불륜 인정이 언급됨",
+     "Nvidia는 자율주행 업계에 AI 컴퓨팅 기술을 공급하는 주요 공급사로, **Mercedes-Benz, Zoox, Wayve와 풀스택 파트너십**을 맺고 있음",
+     "Pony.ai CFO Leo Wang은 Nvidia 칩에 대한 **수요가 이미 공급을 크게 초과**한다고 언급",
+     "Pony.ai는 효율적 모델 배치(중급 컴퓨트 활용)와 **중국산 칩 전환**을 병행하는 전략을 구사 중",
+     "Wang은 중국 기업들이 수년간 '플랜B'를 준비해왔으며 대체 옵션은 존재하나 **비용효율성 측면에서 아직 최선은 아니다**라고 평가"
+    ],
+    "why_matters": "Jensen Huang 사퇴라는 리더십 리스크가 수출 규제 강화 우려로 이어지면서, Nvidia의 중국 자율주행 시장 영향력이 지정학적 변수에 얼마나 취약한지가 드러난다. **중국산 칩이 이미 성숙 단계에 접근**하고 있다는 Pony.ai의 발언은 Nvidia의 중국 내 장기 독점력에 대한 구조적 위협을 시사한다.",
+    "subject_angle": "Nvidia는 자율주행 AI 컴퓨팅에서 여전히 핵심 공급자이지만, **리더십 불확실성과 수출 규제 리스크가 중국 고객사의 자국산 대체재 투자를 가속화**시킬 수 있어 중장기 시장 점유율 방어가 과제로 떠올랐다.",
+    "focus_angle": "자율주행 업계(Pony.ai 등 로보택시 OEM)는 Nvidia 공급 불안정성에 대비해 자국산 칩과 중급 컴퓨트 효율화라는 이중 전략을 취하고 있으며, 이는 **완성차·자율주행 OEM의 특정 AI 칩 공급사 의존도를 낮추려는 공급망 다변화 움직임**으로 로봇·자율주행 하드웨어 생태계 전반에 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "자율주행 업계 AI 컴퓨팅 주요 공급자, Jensen Huang 사퇴로 리더십 공백 및 수출 규제 우려 부각"
+     },
+     {
+      "name": "Pony.ai",
+      "context": "중국 자율주행 기업, Nvidia 칩 공급 부족 및 규제 리스크에 대응해 자국산 칩 전환 전략 추진"
+     },
+     {
+      "name": "Mercedes-Benz",
+      "context": "Nvidia와 풀스택 자율주행 파트너십 체결"
+     },
+     {
+      "name": "Zoox",
+      "context": "Nvidia와 풀스택 자율주행 파트너십 체결"
+     },
+     {
+      "name": "Wayve",
+      "context": "Nvidia와 풀스택 자율주행 파트너십 체결"
+     },
+     {
+      "name": "Volkswagen (MOIA)",
+      "context": "ID. Buzz 기반 자율주행 준비 차량을 May Mobility에 제공, Nvidia GTC Berlin에서 관련 내용 발표"
+     },
+     {
+      "name": "May Mobility",
+      "context": "VW ID. Buzz를 활용해 글로벌 로보택시 플랫폼 10,000대 이상 배치 목표"
+     },
+     {
+      "name": "Mobileye",
+      "context": "VW MOIA의 기존 파트너로, ID. Buzz 공급 구조와 별개로 유지됨"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia automotive processors/GPUs",
+      "role": "자율주행 소프트웨어 구동 및 모델 학습에 사용되는 핵심 컴퓨팅 자원"
+     },
+     {
+      "name": "중국산 AI 칩 (미확인 구체 모델)",
+      "role": "Nvidia 칩 공급 부족 및 규제 대비용 대체 학습 자원"
+     },
+     {
+      "name": "Volkswagen ID. Buzz",
+      "role": "May Mobility 로보택시 플랫폼용 자율주행 준비 기반 차량"
+     }
+    ],
+    "watch_next": [
+     "Jensen Huang 사퇴 이후 Nvidia의 대중국 수출 규제 정책 변화 여부",
+     "Pony.ai 등 중국 자율주행 기업의 자국산 칩 전환 구체적 규모·일정",
+     "Nvidia 풀스택 파트너십(Mercedes-Benz, Zoox, Wayve)에 대한 신임 리더십의 전략 유지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry",
+   "body": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it. To get this in your inbox, sign up here for free — just click TechCrunch Mobility! I am traveling through Portugal now that Web Summit has wrapped up, so please enjoy this shortened edition. Web Summit leaned heavily into Chinese founders and companies this year. The opening remarks from Web Summit co-founder Paddy Cosgrave drove the point home when he said the superstars of the future are coming from China, not California. He also gave a strong endorsement of China and open source technology when he noted that Chinese companies are building more of our shared future than anyone else. These remarks carried a different kind of weight just a few days later as the news spread throughout the conference that Nvidia founder and CEO Jensen Huang had resigned from his leadership post after admitting to an affair with an alleged spy. The former CEO, after all, has been one of the strongest proponents for open source in the United States. And anyone who has followed the emergence of autonomous vehicle tech knows how central Nvidia is to that ecosystem. Nvidia is a major supplier of AI computing technology to the industry — although the degree of reliance varies. Some companies are using Nvidia’s automotive processors to run automated driving software, while others are using Nvidia GPUs to train autonomous driving models. And then there are the full-stack partnerships, which includes Mercedes-Benz, Zoox, and Wayve. I spoke to Leo Wang, the CFO of Chinese autonomous vehicle company Pony.ai, this week. I asked him about the challenges China’s self-driving industry faces and what he thinks will happen if the fallout from Huang’s resignation results in even stricter export controls on Nvidia chips shipped to China. Demand is already far greater than supply, Wang said, noting that it’s one of the pain points Pony.ai struggles with. The company’s strategy is twofold. Engineers are directed to be as efficient as possible when deploying its training models. That might mean using midtier compute resources instead of high-end ones, he said. Pony.ai is also turning more to domestically produced chips to help close the gap. “If you look at the whole ecosystem, especially in recent years, definitely domestic chips in China also get lots of attention and development,” he said, noting that these chips provide another option for AI training. “I think that gives us some flexibility.” When asked what he thinks will happen if export restrictions on Nvidia chips tighten, Wang said Chinese companies have already been preparing. “If you look at the whole situation, this has been developing for already a couple of years,” he said. “Everyone, I would say, is also practicing kind of like a Plan B for a few years, so at least if you think about that, I would say there are alternatives. Although cost-effectiveness-wise, probably it’s not the best choic"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reports Earnings on Nov. 17. Here's What Investors Should Be Watching.",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcTBjNV9KMnRJS3FqRnFxdU01NDVrM0M5T3c4bEphWGZKaHlaQUh2ZF9wY3doQWlCN2VsS2VOZGFQY3EycDFRaW50UWZjSjBfcXQzU3R3cS1MZTVtUnZOX25WSWZDUXBhSU5SRlNxNUlZdlFENm5FZ2JjbkpSMno0OVE4dlA5a3o4OFB5Uzl3Znc5VU5IMHJrRVMtOFh6am5LNFhGTUFuMXlLMll6ekQ4ZVVlUU1Vclc3QnZhUEd3?oc=5",
+   "date": "2026-11-16 02:30",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 11월 17일 분기 실적 발표 임박, 투자자 주목 사항",
+    "korean_summary": "NVIDIA의 분기 실적 발표를 앞두고 투자자들이 주시해야 할 주요 지표를 정리했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcTBjNV9KMnRJS3FqRnFxdU01NDVrM0M5T3c4bEphWGZKaHlaQUh2ZF9wY3doQWlCN2VsS2VOZGFQY3EycDFRaW50UWZjSjBfcXQzU3R3cS1MZTVtUnZOX25WSWZDUXBhSU5SRlNxNUlZdlFENm5FZ2JjbkpSMno0OVE4dlA5a3o4OFB5Uzl3Znc5VU5IMHJrRVMtOFh6am5LNFhGTUFuMXlLMll6ekQ4ZVVlUU1Vclc3QnZhUEd3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Sought Taipei’s Help Over Employee’s Chip Smuggling Case",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRGtpVzRBYjlOTE9OUVd4eWdPWnp4UENBT29YZi1VUFNETjVuRWdmS1ByTlBQWFozVlZBdEtqU1NVaTNJQ2VEVDJCZTdpbXFXXzRvekNqT1lWazBHYUtGVk9DdVJtWDc1UERkRFN5NVFwOS1LdG9VNDUtMl9IXzV2NzIweDdneGoxRmhkdlVTdE1maDFBZ2Z6Z0paR3NoNXhKWEJHSjN6VDlYZmotZEZrVkFvR20?oc=5",
+   "date": "2026-11-15 23:48",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 직원 칩 밀반출 사건 - 대만 정부 개입",
+    "korean_summary": "NVIDIA가 직원의 칩 밀반출 관련 사건에 대해 대만 정부의 도움을 요청한 것으로 보도됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRGtpVzRBYjlOTE9OUVd4eWdPWnp4UENBT29YZi1VUFNETjVuRWdmS1ByTlBQWFozVlZBdEtqU1NVaTNJQ2VEVDJCZTdpbXFXXzRvekNqT1lWazBHYUtGVk9DdVJtWDc1UERkRFN5NVFwOS1LdG9VNDUtMl9IXzV2NzIweDdneGoxRmhkdlVTdE1maDFBZ2Z6Z0paR3NoNXhKWEJHSjN6VDlYZmotZEZrVkFvR20",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Hill",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bessent, Congress zero in on Lutnick’s role in Nvidia-Megaspeed scandal",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjhZLUFnVTdTOVo4TUxIV0dDdWlXY0JRZVFGVHI4eGl2M0RoVEQ0dUtRMVlFLW10R3BsbEJoM2hrNU45TWlWLVhYTWFFaWJ6ZlJMcjZQVG1SbVpaWkJscDhMVEFKUjZhcTZpQ3k2bUhWQTJud20tbzI2Z3VmcDh2MkFyeGRPcWdxWEFfU2UtT01LcjFjTkg3M1dZSU5YSGt50gGmAUFVX3lxTE8yeFJ2aE5udnZpMkdFN2JsUEkyc2tNSVlXbDM0cGxsb3Q1dk4yYzF6WWJqWjVVSm5XRnhONDNHNEZGWTZ5bTA2c0xMbHpaMk9Tdk5OUzZkZ2t1NElwR1ZxZnloTnZxTllrTWg1dW1PRkcxQkhsTWl5ZWdxQngxamVKNTZnWEF5N3pvUzNtVXdOQ1N4eTVRcUZ6NEJERmpqXzdqenI3UkE?oc=5",
+   "date": "2026-11-15 23:06",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Bessent 의원, Congress가 NVIDIA-Megaspeed 스캔들의 Lutnick 역할 규명에 집중",
+    "korean_summary": "Bessent 의원과 의회가 NVIDIA 관련 스캔들에서 Lutnick의 역할 조사를 집중 추진 중"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjhZLUFnVTdTOVo4TUxIV0dDdWlXY0JRZVFGVHI4eGl2M0RoVEQ0dUtRMVlFLW10R3BsbEJoM2hrNU45TWlWLVhYTWFFaWJ6ZlJMcjZQVG1SbVpaWkJscDhMVEFKUjZhcTZpQ3k2bUhWQTJud20tbzI2Z3VmcDh2MkFyeGRPcWdxWEFfU2UtT01LcjFjTkg3M1dZSU5YSGt50gGmAUFVX3lxTE8yeFJ2aE5udnZpMkdFN2JsUEkyc2tNSVlXbDM0cGxsb3Q1dk4yYzF6WWJqWjVVSm5XRnhONDNHNEZGWTZ5bTA2c0xMbHpaMk9Tdk5OUzZkZ2t1NElwR1ZxZnloTnZxTllrTWg1dW1PRkcxQkhsTWl5ZWdxQngxamVKNTZnWEF5N3pvUzNtVXdOQ1N4eTVRcUZ6NEJERmpqXzdqenI3UkE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Axios",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bessent questions did Nvidia \"goose\" earnings with suspect China chip sales",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1Rud2hiNnZiMFQ2RlJYZUxjdkg3UElselZNd0d5Mk5EYVpfazI3NlMxRk1jbEFES1RhcE1QRXpXeThnVTRNcHQ0TURMdjF4RkpHNGpPQ3o0OFhoREpZV3NGaDg3cE9id3J4U3FOcDVLeVI0N1RNbEZ3aDA1WU9ZRG5ZUQ?oc=5",
+   "date": "2026-11-16 02:32",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "Bessent 의원, NVIDIA가 의심스러운 중국 칩 판매로 실적 '부풀렸나' 질의",
+    "korean_summary": "재무부 고위 인사가 NVIDIA가 의심스러운 중국 칩 판매로 실적을 조작했을 가능성을 제기"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1Rud2hiNnZiMFQ2RlJYZUxjdkg3UElselZNd0d5Mk5EYVpfazI3NlMxRk1jbEFES1RhcE1QRXpXeThnVTRNcHQ0TURMdjF4RkpHNGpPQ3o0OFhoREpZV3NGaDg3cE9id3J4U3FOcDVLeVI0N1RNbEZ3aDA1WU9ZRG5ZUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · BigGo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Market Cap Wipes Out approximately $599 Billion; Jensen Huang Attempts Comeback Four Days After Resignation",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0za1lUY0NIdG9vNmxrdDFQaU5kU3R3VkVPYTE2Mm5jOTRjNkQwRGNrb1JzanpSREY2VVgyMFB4bVJDU2hfMWlQSTJWX29PNk50ZEF5MDdQRHRiQjFvYUNodEFqX296T0oya0staHhGc2hhSC1DSXc?oc=5",
+   "date": "2026-11-16 09:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 시가총액 5,990억 달러 손실, Jensen Huang 사임 4일 후 복귀 시도",
+    "korean_summary": "NVIDIA의 시가총액이 약 5,990억 달러 손실한 가운데 Jensen Huang이 사임 4일 후 복귀를 시도 중이다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0za1lUY0NIdG9vNmxrdDFQaU5kU3R3VkVPYTE2Mm5jOTRjNkQwRGNrb1JzanpSREY2VVgyMFB4bVJDU2hfMWlQSTJWX29PNk50ZEF5MDdQRHRiQjFvYUNodEFqX296T0oya0staHhGc2hhSC1DSXc",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[젠슨 황 스캔들] 엔비디아, 회사 보호 보험 없어…소송 부담 커지나",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001075",
+   "date": "2026-11-15 23:09",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "엔비디아, 회사 보호 D&O 보험 미가입으로 소송 부담 우려",
+    "korean_summary": "젠슨 황 사임으로 소송에 직면한 엔비디아가 회사 자체를 보호하는 D&O 보험에 가입하지 않은 것이 드러났다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001075",
+   "body": "젠슨 황 전 최고경영자(CEO)의 사임으로 주주 소송에 직면한 엔비디아가 회사의 소송 비용과 손해배상금을 보장하는 보험에 가입하지 않은 것으로 나타났다. 엔비디아는 임원 개인을 보호하는 보험만 확보한 상태여서 향후 소송 결과에 따라 회사가 상당한 비용을 직접 부담할 가능성이 있다.14일(현지시각) 영국 파이낸셜타임스(FT)에 따르면 엔비디아는 경영진과 이사회 구성원의 개인 자산을 보호하는 최대 9억달러(약 1조2100억원) 규모의 보험은 갖췄지만, 회사 자체를 보호하는 D&O 보험은 가입하지 않았다. 상장사는 통상 경영진과 이사회의"
+  },
+  {
+   "source": "Google News · The New York Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Fallout Looms Over Trump-Xi Meeting",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUnBicm1Jcmo3Ukx0dXNldVp4TmRXbkpvN0JIV2NaWE9VaFB5RGxqLTU1WFV2MGpSTXlzZ3A0ZHlZdG5pcHVjaWxJQl9idVJfSUZFVUp1RWJzTGphUzNDc0Z0S0xrNkFwdlZqbWl3dFRPM2MwYmdIVGpKVVhTR2wxT1AzVWlSUQ?oc=5",
+   "date": "2026-11-16 07:54",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "엔비디아 문제, 트럼프-시진핑 정상회담의 쟁점으로 부상",
+    "korean_summary": "엔비디아의 경영진 사임 논란이 미국-중국 정상회담에서 다룰 지정학적 쟁점이 될 수 있다고 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUnBicm1Jcmo3Ukx0dXNldVp4TmRXbkpvN0JIV2NaWE9VaFB5RGxqLTU1WFV2MGpSTXlzZ3A0ZHlZdG5pcHVjaWxJQl9idVJfSUZFVUp1RWJzTGphUzNDc0Z0S0xrNkFwdlZqbWl3dFRPM2MwYmdIVGpKVVhTR2wxT1AzVWlSUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · NPR",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia scandal looms large over upcoming Trump-Xi meeting",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWxCb09qZkdvY1l3VXI1WHdwQ05aT2ttaEJFR3RTQVJzTUh3N3ZPMXpQeUl0aWtjWU5ScW00eHFoekU5LVpSdjJpRmhfV19oR3ZpQzJ1d0hzNi1DQUtGTlFQR2s0elI0OGZfT1lLdVZrUURfLTdOZ092NnEyNGZrblAtaHpKSFpUQy04T1p1Z2NqdHFOdU93WjB3WFc3MzFrQUJRWQ?oc=5",
+   "date": "2026-11-16 06:17",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 스캔들, 트럼프-시진핑 정상회담 앞두고 외교 쟁점화",
+    "korean_summary": "NVIDIA 경영진 위기가 미중 기술 정책과 정상회담에 영향을 미칠 수 있다는 분석이 제기되고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTWxCb09qZkdvY1l3VXI1WHdwQ05aT2ttaEJFR3RTQVJzTUh3N3ZPMXpQeUl0aWtjWU5ScW00eHFoekU5LVpSdjJpRmhfV19oR3ZpQzJ1d0hzNi1DQUtGTlFQR2s0elI0OGZfT1lLdVZrUURfLTdOZ092NnEyNGZrblAtaHpKSFpUQy04T1p1Z2NqdHFOdU93WjB3WFc3MzFrQUJRWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketWatch",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0FLQ0NMYkFoSENpZEJTOHNiZUFzcFlnXzhfY19VakFuR0dHS3lpcmJLY2h2ZjQzWHo5ZVVzU2VOTHdCWWV2R1NGcEU3dVV4Y3o0Um1yR1VuVkZ2NE4wQ01NRnhFanAxR242dXVVYWxLeW52enAxalYwVHhwaVJTODU4VjZqMTZyckZQR1pNbWRXWFkxeXIxVkstc05STzR3M0FfWXJvczZJVV9PRWhWNzA0Z0wzU0pydzJva1NSVWw1TXNzLVA0?oc=5",
+   "date": "2026-11-16 06:32",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA, 수년간 가장 주목받는 실적 발표 준비",
+    "korean_summary": "NVIDIA가 월스트리트가 가장 기대하는 분기 실적 발표를 준비 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0FLQ0NMYkFoSENpZEJTOHNiZUFzcFlnXzhfY19VakFuR0dHS3lpcmJLY2h2ZjQzWHo5ZVVzU2VOTHdCWWV2R1NGcEU3dVV4Y3o0Um1yR1VuVkZ2NE4wQ01NRnhFanAxR242dXVVYWxLeW52enAxalYwVHhwaVJTODU4VjZqMTZyckZQR1pNbWRXWFkxeXIxVkstc05STzR3M0FfWXJvczZJVV9PRWhWNzA0Z0wzU0pydzJva1NSVWw1TXNzLVA0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Korea JoongAng Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang seeks return as Nvidia CEO four days after resignation",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2lRNTBzb29uRXZjeWduODQ5eTl0TWk4WGptS2luNUNkNkh6cFd5S3liYkVyR0c3a29PaS1LRWdNdjFDWDJPX0dUeWtDaGZoa3YybHNhNGE1MjEtZVZSSUlVTGwxNktqa29tU1A2N2RQank4Uk5BZ3J0T09tTGRDQ0U1ZXE4MWJVWFFscURiNERxcmFxZnhQOXZvUW9nSGVRVU45QlprNVpwcTBhR1JPVTAwMGpsdmwyWFhHRw?oc=5",
+   "date": "2026-11-16 09:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang, 사임 4일 만에 NVIDIA CEO 복귀 추진",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO에서 사임한 지 4일 만에 CEO 직책 복귀를 추구하는 것으로 알려짐"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2lRNTBzb29uRXZjeWduODQ5eTl0TWk4WGptS2luNUNkNkh6cFd5S3liYkVyR0c3a29PaS1LRWdNdjFDWDJPX0dUeWtDaGZoa3YybHNhNGE1MjEtZVZSSUlVTGwxNktqa29tU1A2N2RQank4Uk5BZ3J0T09tTGRDQ0U1ZXE4MWJVWFFscURiNERxcmFxZnhQOXZvUW9nSGVRVU45QlprNVpwcTBhR1JPVTAwMGpsdmwyWFhHRw",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Lutnick under fire: How Trump’s commerce secretary cultivated Nvidia’s CEO while chip controls slipped",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMFRZSHdlc3JTOWRKaE83aXNqbWVPZU13Tjdsc0JMRGZYLUJSWWxqN3VBemJ6U0hLYWNpRTNEMl9TUlRNZGhPSHFpcVgzUUl1RVg5c3lLUG05T1JnbDJab1hWNkhoNFBKRmNOcUlaSjJZald1M2JBaVhTSzJpMEZhMEN3d3hEZw?oc=5",
+   "date": "2026-11-15 19:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "트럼프 상무장관, NVIDIA CEO와의 관계 중 칩 통제 약화 논란",
+    "korean_summary": "Trump 행정부 상무장관이 NVIDIA CEO와의 관계 중 칩 수출통제가 약해졌다는 비판이 제기됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMFRZSHdlc3JTOWRKaE83aXNqbWVPZU13Tjdsc0JMRGZYLUJSWWxqN3VBemJ6U0hLYWNpRTNEMl9TUlRNZGhPSHFpcVgzUUl1RVg5c3lLUG05T1JnbDJab1hWNkhoNFBKRmNOcUlaSjJZald1M2JBaVhTSzJpMEZhMEN3d3hEZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "US Treasury chief wants answers soon from Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTl6U2ZWZ0tvaC1GOXR1bk9mY3JuNDBHYjVHMERqNmM4bkZvSkdkVjdYLURnUDRwOVdIOUR4Szg4Sk9pLVlKVTgzTWo4NExJYVJfdHlkYlgwRTAwZXlyTFFPeHBGY1VWam9EX3k2eGpGeDBsSUs5MXRfMGIzQ1Mxa0tTQTV5RDJXUk9aVklSbFBYckpQZzM1bXJyWQ?oc=5",
+   "date": "2026-11-16 03:33",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 재무부, NVIDIA에 신속 답변 요구",
+    "korean_summary": "미국 재무부장관이 NVIDIA로부터 빠른 시간 내 답변을 받기를 원하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOTl6U2ZWZ0tvaC1GOXR1bk9mY3JuNDBHYjVHMERqNmM4bkZvSkdkVjdYLURnUDRwOVdIOUR4Szg4Sk9pLVlKVTgzTWo4NExJYVJfdHlkYlgwRTAwZXlyTFFPeHBGY1VWam9EX3k2eGpGeDBsSUs5MXRfMGIzQ1Mxa0tTQTV5RDJXUk9aVklSbFBYckpQZzM1bXJyWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Defiant",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bessent Urges Outside Nvidia CEO Search, Reuters Says",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU0hrc00yV0Y5M0pQM3E2Qk54b0tGdDdLS29SVlJweEtycEVUb3ctQWtVblNUaUVEQ0tNYk10SjlmN2hoTTkxcVVnOVNPejllRGRQdDRIaXpKMHNXcjlTNTJtamJxOHNlelhJMWxkek40OHFuTld4SHhSWGVrRFlQc29MdVVMdV9LNlZOZmc3TQ?oc=5",
+   "date": "2026-11-16 06:33",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Bessent, NVIDIA 이사회에 외부 CEO 영입 촉구",
+    "korean_summary": "NVIDIA 이사회 멤버 Bessent가 이사회에 외부 인사를 CEO로 영입할 것을 촉구했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU0hrc00yV0Y5M0pQM3E2Qk54b0tGdDdLS29SVlJweEtycEVUb3ctQWtVblNUaUVEQ0tNYk10SjlmN2hoTTkxcVVnOVNPejllRGRQdDRIaXpKMHNXcjlTNTJtamJxOHNlelhJMWxkek40OHFuTld4SHhSWGVrRFlQc29MdVVMdV9LNlZOZmc3TQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Information",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huang Allies Encourage Nvidia Comeback as Bessent Pushes Board to Look Outside",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdW5EMFRRQTh4eHlkVVZEaGZnajE1UThkTUc5dzRMTzBWcE0ybUVCTVdfN0VYU3VLR2VXcElITzFsWUNkUlExUlc0Qmg5c1NKUGxXVlBRMFowc3VhdGFEemJLam1KVGVJQWF6NFMweXVKYVRLR2lWZXFMUVpJNTJUTnVvLXpxU3FJYTJaM0c3R0V5eU95eHVHVG1VbXVINVRSVmJzOUN3?oc=5",
+   "date": "2026-11-16 05:19",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Huang 측근들 NVIDIA 복귀 권유하는 한편 Bessent는 외부 CEO 찾기 추진",
+    "korean_summary": "Jensen Huang의 측근들은 NVIDIA 복귀를 권유하고 있는 반면 Bessent는 이사회가 외부에서 CEO를 찾을 것을 촉구하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdW5EMFRRQTh4eHlkVVZEaGZnajE1UThkTUc5dzRMTzBWcE0ybUVCTVdfN0VYU3VLR2VXcElITzFsWUNkUlExUlc0Qmg5c1NKUGxXVlBRMFowc3VhdGFEemJLam1KVGVJQWF6NFMweXVKYVRLR2lWZXFMUVpJNTJUTnVvLXpxU3FJYTJaM0c3R0V5eU95eHVHVG1VbXVINVRSVmJzOUN3",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Perplexity partners with Nvidia to launch Portable Computer",
+   "link": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+   "date": "2026-11-16 09:19",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Perplexity와 NVIDIA의 휴대용 컴퓨터 협력",
+    "korean_summary": "Perplexity가 NVIDIA와 제휴하여 로컬 AI 에이전트 기반 휴대용 컴퓨터를 출시했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+   "body": "Article URL: https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs Comments URL: https://news.ycombinator.com/item?id=50512421 Points: 1 # Comments: 1"
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision — joins chorus of disgruntled staff as petition to reinstate former CEO passes 150,000 signatures",
+   "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPdHBnRXRod2llUXMwdlVEVnZHQVlSOTdxYU4zcGdSa05aYkFpdFhsdng0cm9oeHhNVmoyTE1xVFBQTl9qVk5jV0liN3h2SlZXcGJPQVRyWldYcXRUYlVfSnhydjc5a3JtYXJRTjNqc3F1ZGI2dS1MUjYwRmFLTHhKRW1Vb0FCNWllb2pQYzJZbFFPQW16N3g3X2hmZURnMHMtNUJOYURJUkpVTjhtWU9zT29XcjFwS0paWFdFQlZwXzFXclZuWXZxc0FybzNyYmxXX3N3czdyNlZrcTRKMkpNSElBYlpuUUs2eVBndlRqZ0U0ZlFhdlY5cGRsc2dfVlZyeWZuQTgtcG9BUzFpWDVkQUpGM3RyU2ttSzFxQmU3Zy11N3BKcnJvdFMwVy1GX3hPRUZoaFFTVkxWWGkyM21HTE15MnVhRmZrY0s1TkR0OF9tcmVyUmdJRTZkdw?oc=5",
+   "date": "2026-11-16 02:56",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "투명성 부족에 항의하며 NVIDIA 엔지니어 퇴사... 복직 청원 15만 명 돌파",
+    "korean_summary": "NVIDIA 직원이 경영진 투명성 부족으로 떠났고 사내 불만이 급증하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPdHBnRXRod2llUXMwdlVEVnZHQVlSOTdxYU4zcGdSa05aYkFpdFhsdng0cm9oeHhNVmoyTE1xVFBQTl9qVk5jV0liN3h2SlZXcGJPQVRyWldYcXRUYlVfSnhydjc5a3JtYXJRTjNqc3F1ZGI2dS1MUjYwRmFLTHhKRW1Vb0FCNWllb2pQYzJZbFFPQW16N3g3X2hmZURnMHMtNUJOYURJUkpVTjhtWU9zT29XcjFwS0paWFdFQlZwXzFXclZuWXZxc0FybzNyYmxXX3N3czdyNlZrcTRKMkpNSElBYlpuUUs2eVBndlRqZ0U0ZlFhdlY5cGRsc2dfVlZyeWZuQTgtcG9BUzFpWDVkQUpGM3RyU2ttSzFxQmU3Zy11N3BKcnJvdFMwVy1GX3hPRUZoaFFTVkxWWGkyM21HTE15MnVhRmZrY0s1TkR0OF9tcmVyUmdJRTZkdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · France 24",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Elon Musk, Uber co-founder join calls to reinstate Jensen Huang as Nvidia chief",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGFBampUZ0hYOXJ1UUY2ZkFDdVlBSVZDeVBnejB5dUpiUHU4ZG1kVDM2VHRkSTV5V3Z2cjQyVjJ3dkhoZ0wxWmRFb3dxWllvRUROUi1RWUhRYmtZcWNLVlZpV2UtOGhRZ1RXZHNLZDJOQ0gydllNUTZGWG82MUhoZGhaYjJzZFJqQ05oeENEQ2ZXVHlSM0U1RmlIVzQ0Q1N1VXVtWnF3?oc=5",
+   "date": "2026-11-16 08:31",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "일론 머스크·우버 공동창업자 등, 젠슨 황 복직 촉구 목소리",
+    "korean_summary": "저명 인사들이 NVIDIA CEO의 복직을 공개적으로 주장하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGFBampUZ0hYOXJ1UUY2ZkFDdVlBSVZDeVBnejB5dUpiUHU4ZG1kVDM2VHRkSTV5V3Z2cjQyVjJ3dkhoZ0wxWmRFb3dxWllvRUROUi1RWUhRYmtZcWNLVlZpV2UtOGhRZ1RXZHNLZDJOQ0gydllNUTZGWG82MUhoZGhaYjJzZFJqQ05oeENEQ2ZXVHlSM0U1RmlIVzQ0Q1N1VXVtWnF3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barron's",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Days After Huang’s Ouster, Bessent Demands ‘Dramatic Shakeup’ at Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDU1VEwwZFVrM0NzYTZLbDd0WGVCSGtTdWZON2pJZ3Q5UFFkbHliZWE5blAzUmJ3cHp1NW9vRko5aFV2ekJuTGJpeUNkdlduaWF6S3M5VG5RMlFUZ3pWanhtVWIxbEw5QkRpUTVLMXlDSDdlc21aU2Z4NTJDOXFvemoyVldvb3EyblF5VzVOWUFWWnl2VkVxSHJ3?oc=5",
+   "date": "2026-11-16 03:53",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "황의 퇴임 후 베센트, NVIDIA 대규모 개혁 요구",
+    "korean_summary": "미국 재무부 장관 베센트가 Jensen Huang 퇴임 직후 NVIDIA의 대규모 구조 개선을 촉구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDU1VEwwZFVrM0NzYTZLbDd0WGVCSGtTdWZON2pJZ3Q5UFFkbHliZWE5blAzUmJ3cHp1NW9vRko5aFV2ekJuTGJpeUNkdlduaWF6S3M5VG5RMlFUZ3pWanhtVWIxbEw5QkRpUTVLMXlDSDdlc21aU2Z4NTJDOXFvemoyVldvb3EyblF5VzVOWUFWWnl2VkVxSHJ3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Al Jazeera",
+   "category": "media",
+   "kind": "gnews",
+   "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQU9JWkVKSUd4YWVWdzFweWNwYld6SU9Cakh6RkdLeHp4bTRBNTNrbms0ajZLVnl0a3FmSE80UnAweVROZTBPeUdaemFsY2duNkdUWTRIQnV2RlV5VDhEQU5MN3FVVWJSNjJzNlJhMFpYX0ljSG11RTdFbjEwTFBILWRjVWR1MFVENTJLLWd4TUxmQkJmU29VaVZVX0doWGtTNng5VlZhaTRyMl9LaW9uc1Jldw?oc=5",
+   "date": "2026-11-16 07:02",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "미국 재무부 장관, NVIDIA 외부인 리더 요청",
+    "korean_summary": "미국 재무부 장관이 NVIDIA의 외부인 지도자 영입을 촉구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQU9JWkVKSUd4YWVWdzFweWNwYld6SU9Cakh6RkdLeHp4bTRBNTNrbms0ajZLVnl0a3FmSE80UnAweVROZTBPeUdaemFsY2duNkdUWTRIQnV2RlV5VDhEQU5MN3FVVWJSNjJzNlJhMFpYX0ljSG11RTdFbjEwTFBILWRjVWR1MFVENTJLLWd4TUxmQkJmU29VaVZVX0doWGtTNng5VlZhaTRyMl9LaW9uc1Jldw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia CEO Search Heats Up as Bessent Urges Shakeup",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVaQWFmdlB5ajNzZmlPQmdMVFBPUXhUYVpnc0U3ZGlQeXJjSFRUZVhwZGxmWjFjMzRPTkZsODJkQjZsOWp3bkMySXJuTDFZNXNaQVU5NFVfNlpHUEtBakN5djhiOGVXSXpXVHM3QVdHU1JaWlo3QVI0SXAxaV9rdnV2X1ZqQjVjXzBZNFVkYTh0a0t4UWQ0bXdrU3dGMmh4R2hHZ0NfNW4?oc=5",
+   "date": "2026-11-16 06:30",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "CEO 공개 채용 열려, 베센트 개혁 촉구",
+    "korean_summary": "NVIDIA의 CEO 수색이 활발해지면서 베센트의 개혁 촉구가 이어지고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPekVaQWFmdlB5ajNzZmlPQmdMVFBPUXhUYVpnc0U3ZGlQeXJjSFRUZVhwZGxmWjFjMzRPTkZsODJkQjZsOWp3bkMySXJuTDFZNXNaQVU5NFVfNlpHUEtBakN5djhiOGVXSXpXVHM3QVdHU1JaWlo3QVI0SXAxaV9rdnV2X1ZqQjVjXzBZNFVkYTh0a0t4UWQ0bXdrU3dGMmh4R2hHZ0NfNW4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Huang weighs Nvidia return as investors urge board to keep options open (NVDA:NASDAQ)",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYVFGZXItOWp1RFZFMGh0VnU1QkZNblphUnl5YXNHR3A0NVRBMXhwdXY1Qnp6Z19zSnd2VVhQV2hfaC1UanliR29RekxUclBuR2RSWWx5dzVybWh5d3ZneUptalk4NW1mVVE4X0JRS2t2dmdWWGJUODBOWDhjR2E0V09BRW5ncHdpUEJXc3Y3N0t1RTZDRW1vT2JOa2Q2QTB3TjUycXRtYUY4Y2lUYUE?oc=5",
+   "date": "2026-11-16 06:20",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang, NVIDIA 복귀 검토 중…투자자들 선택지 유지 촉구",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO 복귀를 검토 중이며 투자자들이 이사회에 모든 선택지를 열어두도록 촉구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYVFGZXItOWp1RFZFMGh0VnU1QkZNblphUnl5YXNHR3A0NVRBMXhwdXY1Qnp6Z19zSnd2VVhQV2hfaC1UanliR29RekxUclBuR2RSWWx5dzVybWh5d3ZneUptalk4NW1mVVE4X0JRS2t2dmdWWGJUODBOWDhjR2E0V09BRW5ncHdpUEJXc3Y3N0t1RTZDRW1vT2JOa2Q2QTB3TjUycXRtYUY4Y2lUYUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Tom's Hardware",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO — over 130,000 sign online petition, but not all Nvidians support Jensen's return",
+   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbXNSZzVabmRiVTBLNEpMa1RkajZTakJBcndoalFOMEdTOGgzUlBHd1ZHTno1bGJCY2d1ZGRGNVJDenVlbmZwNTkyMElyZTh5Zm10RE94OVZmMXl5U1FjU1d6T3BxaEtaSEpWTGZubDJjNkJYbVJjbFBlZzJoOHAwVGlBMEFCWVEteVVUUzMtZmVyeE1QVFctRDM3Z2ZZN0VTdnBRTjhCemp1eENoeGNheHRkMHFVY1RHWGVjUkFMS1R2TzRwSzBPZ25DUVJwMm9UVEd1a2hKV3FRdHphYkZGemxRdjVuVVBaMENIYkpfLTNEMTFsZnhPWURsYnh4aTFTbTNqcXF0TTk2SGs1MzZmQWpBYw?oc=5",
+   "date": "2026-11-15 21:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Elon Musk 포함 13만 명 이상이 Jensen Huang의 NVIDIA CEO 복귀 청원 서명",
+    "korean_summary": "Elon Musk를 포함한 13만 명 이상이 Jensen Huang의 NVIDIA CEO 복귀를 요구하는 청원에 서명했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQbXNSZzVabmRiVTBLNEpMa1RkajZTakJBcndoalFOMEdTOGgzUlBHd1ZHTno1bGJCY2d1ZGRGNVJDenVlbmZwNTkyMElyZTh5Zm10RE94OVZmMXl5U1FjU1d6T3BxaEtaSEpWTGZubDJjNkJYbVJjbFBlZzJoOHAwVGlBMEFCWVEteVVUUzMtZmVyeE1QVFctRDM3Z2ZZN0VTdnBRTjhCemp1eENoeGNheHRkMHFVY1RHWGVjUkFMS1R2TzRwSzBPZ25DUVJwMm9UVEd1a2hKV3FRdHphYkZGemxRdjVuVVBaMENIYkpfLTNEMTFsZnhPWURsYnh4aTFTbTNqcXF0TTk2SGs1MzZmQWpBYw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Ynetnews",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang's Nvidia comeback? Silicon Valley rallies to bring him back",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SWlJXbi03MkQ4b1N2X3E5QnN6RTNiMm5xVWNPR0g4UW8wNER3T1JqS0xzTnlhREFSTlFnWmJsOHBEOXBlcjJabnR6eThOV2pJdUsxckNR?oc=5",
+   "date": "2026-11-16 05:51",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "실리콘 밸리, Jensen Huang의 NVIDIA 복귀 지지 움직임",
+    "korean_summary": "실리콘 밸리 업계 인사들이 Jensen Huang의 NVIDIA 복귀를 지지하고 있다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SWlJXbi03MkQ4b1N2X3E5QnN6RTNiMm5xVWNPR0g4UW8wNER3T1JqS0xzTnlhREFSTlFnWmJsOHBEOXBlcjJabnR6eThOV2pJdUsxckNR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Modern Diplomacy",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Beyond the Scandal: What the Nvidia Case Reveals About How Chip Controls Really Work",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBiM1VfOWl4bFpzMkdqTjdRQUw4ZlVFRFNaSmdJZ0ZkYWtfMk5na1RTcGZOaVExZk51c01zOUQ0eFYwTmFNVkd3LTBzdmIybFpoXzQ3T25XRGVDMXRhTlpwZDVGSk55ZEFGZGluc3ByVjBlZE4zNG1oc3I1bUdqczE5R2ZmSDF4clE1aVBCS3M4N2czaDZQWUZpRmpKeVNWVFdOclNHN2JOcWt3eEs5LV9Qbm9hNjlwa0ppSXJjTQ?oc=5",
+   "date": "2026-11-16 08:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "칩 통제 체계를 드러내는 NVIDIA 스캔들",
+    "korean_summary": "NVIDIA 관련 스캔들이 칩 통제 규제의 작동 원리를 드러낸다는 분석 기사"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnBiM1VfOWl4bFpzMkdqTjdRQUw4ZlVFRFNaSmdJZ0ZkYWtfMk5na1RTcGZOaVExZk51c01zOUQ0eFYwTmFNVkd3LTBzdmIybFpoXzQ3T25XRGVDMXRhTlpwZDVGSk55ZEFGZGluc3ByVjBlZE4zNG1oc3I1bUdqczE5R2ZmSDF4clE1aVBCS3M4N2czaDZQWUZpRmpKeVNWVFdOclNHN2JOcWt3eEs5LV9Qbm9hNjlwa0ppSXJjTQ",
+   "body": ""
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "PHYSX for CUDA, CPU and Vulkan - Warp Core Physx Bench",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xwk19x/physx_for_cuda_cpu_and_vulkan_warp_core_physx/",
+   "date": "2026-11-15 11:26",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Blackwell GPU 기반 PhysX 벤치마크 결과 공개",
+    "korean_summary": "개발자가 Blackwell GPU로 구현한 CUDA PhysX 벤치마크 결과를 Reddit에 공유했다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xwk19x/physx_for_cuda_cpu_and_vulkan_warp_core_physx",
+   "body": "Physx isn't gone yet! Just needs to get used! I've been a Physx fan for quite a long time, even before NV acquisition of Ageia Physx. So I wanted to share the latest PHYSX benchmark with everyone. The benchmarks. Three in total, CPU and GPU NV CUDA PHYSX and VULKAN. CPU PHYSX. The CPU is doing the collision calculations. 2x Warp core chambers x5,000 bodies 8 threads each fixed workload. 5 quick, 10 standard and 25 pass extended runs. CUDA PHYSX. We are counting Boxes instead of spheres to increase collisions and constraints to give the Massive Blackwell GPU something to do. The particle count is 150,000 boxes and the score is by steps per second. 5 standard pass benchmark 240 steps measured per pass. VULKAN Physics - which NVidia can run, but the benchmark also supports AMD Gpus. Designed for maimizing frequency with a simple 8,192 Sphere all pairs workload. Score is Steps per second. Experiement mode - Some left overs of developer testing. How many particles does it take to create a more than 50% utilization workload. How many did it take to create score regression, meaning more particles isn't always the answer to heavier Physx loads. A new addition is neurotix mode. Designed for heavy system stressing. 5070 TI Passes Run at default settings. Example CUDA score result 150K bodies - Peak Contact points 7,603,105 - Peak Contact Patches 1,872,700 = 7.4536 Step/s and this is the scoring. Current GPU Physx support is Blackwell, Pascal and Maxwell architectures, with more to be supported through time. App developed on AM5 platform using 9800X3D and 5070 TI and 9070 GRE. Other tested cards, 3070, 1080 TI and M6000. Other hardware used, such as 5090 or 5080 blackwell submissions can be viewed at TechPowerUp Forums. It's still Beta, but if you have interest in NVIDIA PHYSX, this benchmark might be fun to check out! submitted by /u/ShrimpBrime [link] [comments]"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/nemotron-labs-audio-visual-flamingo-hf (업데이트)",
+   "link": "https://huggingface.co/nvidia/nemotron-labs-audio-visual-flamingo-hf",
+   "date": "2026-11-16 01:58",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/nemotron-labs-audio-visual-flamingo-hf",
+    "version": "video-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-Labs-Audio-Visual Flamingo 멀티모달 모델 공개",
+    "korean_summary": "NVIDIA가 오디오, 이미지, 비디오에 대한 결합 이해 및 추론을 지원하는 Nemotron-Labs-Audio-Visual Flamingo 모델을 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/nemotron-labs-audio-visual-flamingo-hf:2026-11-16",
+   "body": "Hugging Face 모델 업데이트. pipeline: video-text-to-text · library: transformers · tags: transformers, safetensors, audiovisualflamingo, text-generation, audio, video, image, audio-visual, multimodal, reasoning, video understanding, long-video · downloads 570 · likes 20. README:  # Model Overview Nemotron-Labs-Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos Nemotron-Labs-Audio-Visual Flamingo (AVF) is a fully open audio-visual large language model for joint understanding and reasoning over audio, images, and videos. `nvidia/nemotron-labs-audio-visual-flamingo-hf` is the instruction-tuned checkpoint for multimodal understanding and text generation over long, complex, real-world videos. AVF is designed for settings where the answer depends on both what is visible and what is audible: speech, background sounds, music, visual actions, scene transitions, temporal order, and cross-modal alignment. This checkpoint generates text only; streaming TTS is not included in the Hub weights. **This model is for non-commercial research purposes only.** ## Description AVF extends the Audio Flamingo line from audio-only understanding into joint audio-visual reasoning. The model combines: - a SigLIP vision tower for images and sampled video frames - Dynamic-S2 visual preprocessing for high-resolution images and long videos - an AF-Whisper audio encoder for speech, sound, and music - separate 2-layer projectors for visual and audio features - temporal audio-visual interleaving with Constrained Rotary Time Embeddings (CRTE) - a Qwen2.5-7B-family decoder-only language backbone Unlike systems that process video frames and audio as independent streams, AVF aligns synchronized visual and audio chunks, interleaves them along the time axis, an"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 26,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 5,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 8,
+   "enriched": 8,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 9,
+   "enriched": 2,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 18.8
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 45,
+   "enriched": 11,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 19,
+   "enriched": 19,
+   "error": "",
+   "sec": 3.1
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 0,
+   "error": "",
+   "sec": 11.7
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 16,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  }
+ ]
+}
