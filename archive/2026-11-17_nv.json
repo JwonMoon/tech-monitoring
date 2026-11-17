@@ -1,0 +1,2472 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-17",
+ "window": [
+  "2026-11-16",
+  "2026-11-17"
+ ],
+ "generated": "2026-11-17T12:56:43+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 Vera Rubin NVL72 플랫폼으로 MLPerf Training v6.1 전 종목을 석권하며 **전력당 처리량 10배 이상** 향상을 입증했다.",
+  "Colette Kress 임시 CEO가 Jensen Huang 사퇴 이후 첫 실적발표에서 **중국 칩 밀수 의혹**과 거버넌스 질문에 답해야 하는 상황에 직면했다.",
+  "미국 BIS가 중국 등이 해외 데이터센터를 거쳐 Nvidia 칩에 **원격 접근**하는 우회 수출을 차단하는 신규 규정을 발표했다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Expands Vera CPU Platform to Accelerate Scientific Discovery",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+   "date": "2026-11-17 01:00",
+   "score": 10,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform",
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA 첫 자체 설계 데이터센터 CPU 'Vera' 발표",
+    "korean_summary": "NVIDIA가 첫 자체 설계 데이터센터 CPU를 포함한 Vera CPU 랙 스케일 플랫폼을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 과학 연구 가속화를 위해 Vera CPU 플랫폼 확장",
+    "korean_summary": "NVIDIA가 자사 최초의 완전 커스텀 데이터센터 CPU인 Vera를 HPC 네트워킹 표준과 결합한 랙스케일 플랫폼을 공개해 과학 모델링·시뮬레이션·에이전틱 사이언스의 처리량과 효율을 높이고자 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera CPU 랙스케일 플랫폼을 HPC용으로 발표하고 기존 라인업을 확장",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "고성능 컴퓨팅(HPC) 분야, 과학 모델링·시뮬레이션·에이전틱 사이언스 용도"
+    },
+    "key_facts": [
+     "NVIDIA의 **첫 완전 커스텀 데이터센터 CPU**인 Vera를 기반으로 한 랙스케일 플랫폼 발표",
+     "HPC 네트워킹의 **'골드 스탠다드'**와 결합한 구조",
+     "목표 용도는 과학 모델링, 시뮬레이션, 에이전틱 사이언스",
+     "극한의 효율성과 처리량(throughput) 달성을 강조"
+    ],
+    "why_matters": "NVIDIA가 GPU 중심에서 **자체 커스텀 CPU**까지 수직 통합함으로써 HPC 시장에서 CPU-GPU-네트워킹 풀스택 경쟁력을 강화한다. 이는 Intel·AMD 등 기존 서버 CPU 공급사뿐 아니라 HPC 네트워킹 영역에서도 NVIDIA의 지배력을 확대하려는 움직임으로 해석된다.",
+    "subject_angle": "Vera는 NVIDIA가 **데이터센터 전체 스택(CPU+GPU+네트워킹)**을 자체 설계로 통제하려는 전략의 핵심 축이며, HPC·과학 컴퓨팅 시장에서 플랫폼 종속성을 심화시키는 포지셔닝이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera CPU 랙스케일 플랫폼 발표 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Vera CPU",
+      "role": "NVIDIA 최초의 완전 커스텀 데이터센터 CPU, 플랫폼의 핵심 구성요소"
+     },
+     {
+      "name": "Vera CPU 랙스케일 플랫폼",
+      "role": "HPC용 과학 모델링·시뮬레이션·에이전틱 사이언스 가속 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Vera CPU의 상세 사양(코어 수, 아키텍처) 및 출시 일정 공개 여부",
+     "결합되는 HPC 네트워킹 제품(예: NVLink, InfiniBand 등) 구체적 명시 여부",
+     "실제 고객사·슈퍼컴퓨팅 센터 도입 사례 발표 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+   "body": "NVIDIA today announced the NVIDIA Vera CPU rack-scale platform for high-performance computing — combining NVIDIA’s first fully custom data center CPU with the gold standard for HPC networking to drive extreme efficiency and throughput for state-of-the-art scientific modeling, simulation and agentic science."
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "date": "2026-11-17 07:03",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": true,
+    "signal_tags": [
+     "earnings",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 분기 실적 발표, 경영진 스캔들과 규제 조사 소용돌이 속에",
+    "korean_summary": "Colette Kress의 분기 실적 발표를 앞두고 Jensen Huang의 외도 스캔들, 중국 스파이 혐의, 제한 칩 밀수 의혹, 의회 청문회 소환 등이 얽혀 경영 투명성 문제가 대두되고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 사퇴 후 Nvidia, Colette Kress 체제서 China 칩 밀수·거버넌스 의혹에 답해야",
+    "korean_summary": "Nvidia 임시 CEO Colette Kress가 Jensen Huang 사퇴와 Megaspeed를 통한 대중국 칩 밀수 의혹, 매출 보고 방식 변경 등 핵심 쟁점에 3분기 실적 발표에서 답해야 하는 상황이다.",
+    "action": {
+     "actor": "Colette Kress (Nvidia interim CEO)",
+     "action": "Q3 실적 발표 및 가이던스 제시, Jensen Huang 사퇴 및 China 칩 밀수 의혹 관련 질의 대응",
+     "stage": "Report",
+     "timeline": "Tuesday (3분기 실적 발표일)",
+     "scope": "Nvidia 전체 사업, 특히 China/Singapore 매출 및 거버넌스"
+    },
+    "key_facts": [
+     "Jensen Huang은 고객사 임원이자 중국 스파이로 의심되는 Alice Huang과의 불륜 인정 후 **지난주 사퇴**, 추가로 Nvidia 직원 2명과의 불륜 혐의도 제기됨",
+     "Huang의 내연녀 회사 **Megaspeed**가 제한된 Nvidia 칩을 China로 밀수했다는 의혹이 제기되어 Nvidia가 내부 조사를 약속함",
+     "Nvidia는 2025년 6월 Megaspeed에 대한 칩 추가 공급을 자발적으로 차단했다고 WSJ에 밝힘",
+     "Singapore(Megaspeed 소재지)는 전년 2분기 기준 Nvidia 총매출의 **22%**를 차지했으나, 이후 Nvidia는 매출 보고 기준을 배송지에서 본사 소재지로 변경해 해당 수치를 숨김",
+     "Huang은 Congress 비공개 청문회(공화당 주도 3개 위원회)에 출석 명령을 받았고, 민주당도 별도 조사를 예고함; 18만 명 이상이 Huang 복귀를 요구하는 청원에 서명"
+    ],
+    "why_matters": "Nvidia의 최고경영진 스캔들과 China向 제한 칩 밀수 의혹은 **AI 반도체 공급망의 신뢰성과 수출 통제 정책 전반**에 타격을 줄 수 있다. CFO 출신 임시 CEO 체제에서 China 매출 정책과 대규모 AI 딜 방향이 바뀔 경우 경쟁사(AMD 등)와 고객사들의 전략적 셈법도 재조정될 가능성이 크다.",
+    "subject_angle": "창업자 Huang 중심의 집중된 의사결정 구조가 흔들리면서 Nvidia는 **거버넌스 재정비와 China 매출 투명성 확보**라는 이중 과제를 안게 되었으며, Kress의 보수적 딜 성향이 향후 대규모 AI 인프라 투자 속도에 영향을 줄 수 있다.",
+    "focus_angle": "Nvidia의 China 수출 정책과 공급망 투명성 리스크가 커지면서, China 내 자율주행·로봇 OEM들이 의존하는 **Nvidia DRIVE 및 Jetson 플랫폼의 칩 공급 안정성**에 불확실성이 제기될 수 있다. 또한 리더십 공백과 거버넌스 리스크는 휴머노이드·자율주행 분야에서 장기 로드맵을 Nvidia와 함께 수립해온 OEM들의 파트너십 신뢰도에도 영향을 줄 수 있다.",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "스캔들 당사자이자 실적 발표 주체"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Huang 내연녀 Alice Huang의 회사, 제한 칩 밀수 의혹 핵심 대상"
+     },
+     {
+      "name": "Financial Times",
+      "context": "Huang 복귀 시도 가능성 보도"
+     },
+     {
+      "name": "CNBC",
+      "context": "Nvidia가 Huang 복귀 협의 중이 아니라고 보도"
+     },
+     {
+      "name": "Wall Street Journal",
+      "context": "Nvidia가 Megaspeed 공급 차단 사실 확인 보도"
+     },
+     {
+      "name": "The New York Times",
+      "context": "Megaspeed에 대한 미국 정부 조사 보도"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia 제한 반도체(칩)",
+      "role": "China 밀수 의혹의 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "Kress가 Huang의 향후 역할 및 복귀 가능성에 대해 어떤 언급을 하는지",
+     "Nvidia의 China/Singapore 매출 비중 및 보고 방식 변경에 대한 추가 설명 여부",
+     "Congress 청문회 및 민주당 조사 결과가 Nvidia의 대중국 수출 정책에 미치는 영향"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+   "body": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. For the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced founder Jensen Huang. Huang was forced to resign last week after he admitted to having an affair with an exec of a customer, Alice Huang, a woman alleged to be a Chinese spy, and he was accused of having two more affairs with Nvidia employees. Now, the company is facing questions about its restricted chips allegedly being smuggled into China, especially by Huang’s mistress’ company. Nvidia promised to conduct an internal investigation. Meanwhile, Huang was commanded to answer questions to Congress in a closed-door joint session with three Republican-led committees. Plus, top Democrats have also vowed to investigate the company. Given the turmoil Nvidia is in, there are a number of questions that Kress should answer. Huang’s role now and going forward. Huang ran Nvidia with an iron fist, having some 60 direct reports and his fingers in everything. No one knows the company better than him. An internet petition signed by 180,000 and growing is calling for the board to reinstate him. Huang may also have been mounting an attempt to return, Financial Times reported. However, CNBC is reporting, citing unnamed sources, that the company is not in talks to reinstate Huang. So, we’ll be looking for language from the interim CEO about Huang’s ongoing involvement with the company, its search for a new CEO, and any talks to bring him back. China and Singapore. As Huang vehemently argued in favor of easing export restrictions for Nvidia chips to China, Huang said that he’s seen no evidence that its powerful semiconductors were being diverted from legit buyers to China. But in October 2025, The New York Times reported that the U.S. was investigating Huang’s mistress’ company, Megaspeed, over allegations it was doing just that. Nvidia at the time vouched to CNBC that Megaspeed was legally using the chips for its cloud. However, Nvidia recently told The Wall Street Journal that it had voluntarily blocked Megaspeed from receiving more chips way back in June 2025. Last year, Nvidia said that Singapore, the region where Megaspeed is located, was one of its fastest-growing, accounting for 22% of its total revenue for its second quarter of that year. After the investigation into Megaspeed came to light, Nvidia changed how it reported revenue. It now reports based on a company’s headquarters, instead of its shipping address. That completely hid sales to Singapore and Megaspeed’s impact. So we’re listening to what Kress says about the future of sales to the China region and the cloud business in Singapore that was once 20% of sales. We’re especially listening for what she says about Nvidia keeping track of where its restricted chips wind up. China sales policy. Huang’s argument "
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+   "date": "2026-11-17 01:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "Vera Rubin 플래그십이 MLPerf에서 완승",
+    "korean_summary": "NVIDIA의 신규 플래그십 Vera Rubin이 MLPerf 훈련 벤치마크 전 항목을 휩쓸었고 에이전트 AI에서 10배 성능 향상을 달성했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Vera Rubin 플랫폼으로 MLPerf Training·Endpoints 전 부문 석권",
+    "korean_summary": "NVIDIA가 Vera Rubin 플랫폼의 MLPerf 벤치마크 데뷔에서 모든 Training v6.1 종목을 석권하고 에이전틱 AI 추론에서 전력당 처리량을 **10배 이상 향상**시켜 차세대 AI 인프라 성능 우위를 입증했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera Rubin 플랫폼으로 MLPerf Training v6.1 전 종목 1위 석권 및 MLPerf Endpoints 첫 제출에서 에이전틱 AI 성능 우위 입증",
+     "stage": "Announced",
+     "timeline": "결과 발표 2026-11-16(Training), Endpoints 결과 공개 2026-11-09",
+     "scope": "Vera Rubin NVL72, GB300 NVL72, GB200 시스템; LLM·이미지 생성·추천 시스템·강화학습 등 벤치마크 전반"
+    },
+    "key_facts": [
+     "NVIDIA가 MLPerf Training v6.1 모든 벤치마크에서 유일하게 전 종목 결과를 제출하고 석권함",
+     "Vera Rubin NVL72가 GPU당 성능에서 GB300 NVL72 대비 **최대 2배** 향상을 기록(데뷔 초기 결과)",
+     "Kimi K3 에이전틱 벤치마크에서 Vera Rubin NVL72가 GB300 NVL72 대비 **와트당 처리량 10배 이상** 달성",
+     "DeepSeek-V3 벤치마크에서 256→1,024 GPU 확장 시 약 97% 효율로 학습 시간을 16분에서 약 4분으로 단축",
+     "GB300 시스템으로 10,240 GPU 규모 벤치마크 실행(이번 라운드 최대 규모), Microsoft Azure는 GB200 시스템 10,240 GPU로 동일 규모 달성"
+    ],
+    "why_matters": "MLPerf는 AI 하드웨어 성능의 업계 표준 검증 지표로, NVIDIA가 Training 전 종목과 Endpoints 데뷔에서 동시에 선두를 차지한 것은 **차세대 Vera Rubin 아키텍처의 경쟁력**을 조기에 입증한 사례다. 특히 전력 제약이 심화되는 AI 데이터센터 환경에서 와트당 처리량 개선은 경쟁사 대비 TCO 우위를 뒷받침하는 핵심 지표다.",
+    "subject_angle": "NVIDIA는 GPU 단일 성능뿐 아니라 NVLink·Quantum-X800 InfiniBand·Spectrum-X 등 **스케일업·스케일아웃 네트워킹과 CUDA 소프트웨어 스택 통합**을 통해 플랫폼 전체의 지속적 성능 개선을 강조하며, 고객이 투자한 인프라의 가치가 시간이 지나도 증가한다는 메시지로 차세대 플랫폼 조기 채택을 유도하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin 플랫폼 및 GB300/GB200 시스템 제공, MLPerf 벤치마크 제출 주체"
+     },
+     {
+      "name": "Microsoft Azure",
+      "context": "GB200 시스템 10,240 GPU로 NVIDIA와 동일 규모 벤치마크 수행"
+     },
+     {
+      "name": "MLCommons",
+      "context": "MLPerf Training·Endpoints 벤치마크 표준 관리 및 결과 검증 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "MLPerf Training·Endpoints 데뷔, 전 부문 선두 성능 기록"
+     },
+     {
+      "name": "GB300 NVL72",
+      "role": "비교 기준이 된 이전 세대 고성능 시스템"
+     },
+     {
+      "name": "NVLink",
+      "role": "시스템 내 GPU 스케일업 연결 네트워킹"
+     },
+     {
+      "name": "Quantum-X800 InfiniBand / Spectrum-X Ethernet",
+      "role": "데이터센터 간 시스템 스케일아웃 네트워킹"
+     },
+     {
+      "name": "Kimi K3",
+      "role": "에이전틱 워크로드 평가용 오픈 모델, MLPerf Endpoints 벤치마크 대상"
+     },
+     {
+      "name": "DeepSeek-V3",
+      "role": "대규모 확장성 테스트에 사용된 벤치마크 모델"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin 제공된 Kimi K3 결과의 MLCommons 공식 검증(peer review) 완료 여부",
+     "Vera Rubin NVL72의 정식 출시 일정 및 가격·고객사 확정 여부",
+     "경쟁사(AMD 등)의 차세대 플랫폼 MLPerf 제출 및 비교 결과"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+     "link": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
+   "body": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic work a system delivers with each watt of power. These results are just the beginning. Vera Rubin performance will keep climbing through continuous optimization of NVIDIA’s CUDA-powered software stack , so the infrastructure that customers invest in today delivers more value over time. NVIDIA Sweeps MLPerf Training v6.1 AI agents are now everywhere, writing code, running business workflows, answering customer questions and, as this week’s SC26 conference highlights , advancing scientific research. Faster training means smarter agents can reach users sooner, drug discovery models can keep pace with new lab data and fraud-detection models can adapt to new threats faster. MLPerf Training measures how fast a system can train a range of AI models to a target level of accuracy. The NVIDIA platform was the only one with results on every benchmark this round, spanning large language models, image generation, recommender systems and reinforcement learning post-training. In its debut, Vera Rubin NVL72 delivered up to 2x more performance per GPU than the highly optimized NVIDIA GB300 NVL72 system — early results that show the pace of generation-over-generation innovation. MLPerfTraining v6.1 results retrieved from www.mlcommons.org on Nov 16, 2026, from the following entries: 6.1-0116 , 6.1-0030, 6.1-0135, 6.1-0020, 6.1-0049, 6.1-0123, 6.1-0138, 6.1-0073, 6.1-0124, 6.1-0129 and 6.1-0038. The MLPerf name and logo are trademarks of MLCommons Association in the United States and other countries. All rights reserved. Unauthorized use is strictly prohibited. See www.mlcommons.org for more information. NVIDIA also demonstrated performance at scale. On the DeepSeek-V3 benchmark, Vera Rubin NVL72 scaled from 256 to 1,024 GPUs with about 97% efficiency: quadrupling the GPUs cut time to train from 16 minutes to about four. NVIDIA also ran the benchmark on 10,240 GPUs with GB300 systems, representing the largest scale in this round. Microsoft Azure matched that scale with 10,240 NVIDIA GPUs with GB200 systems. Results at this scale matter because adding GPUs only speeds up training if they can work together efficiently. NVIDIA NVLink scale-up networking connects the GPUs within each system so they act as one, while NVIDIA Quantum-X800 InfiniBand and Spectrum-X Ethernet scale-out networking link those systems across the data center. Combined with optimized software, this keeps thousands of GPUs working in concert, helping developers build more intelligent models while cutting training times. NVIDIA Vera Rubin Leads Agentic Inference on MLPerf Endpoints An AI agent for travel that plans and books"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Announces Collaboration With IBM and Fermi National Accelerator Laboratory to Launch Quantum-Classical Codesign Platform, Plus Error-Correction Breakthrough to Advance Practical Quantum Computing",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
+   "date": "2026-11-17 01:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "sdk-release"
+    ],
+    "korean_title": "IBM 및 Fermi Lab과 양자 컴퓨팅 협력 발표",
+    "korean_summary": "NVIDIA가 IBM 및 페르미 국립 가속기 연구소와 양자 오류 수정 연구를 위한 협력 플랫폼을 구축하고 13,000배 속도향상 TCBP-JOBS 알고리즘을 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, IBM·Fermilab와 양자-클래식 코디자인 플랫폼 구축 및 양자 오류정정 알고리즘 공개",
+    "korean_summary": "NVIDIA가 IBM 및 Fermi National Accelerator Laboratory와 협력해 양자-클래식 코디자인 플랫폼을 출범시키고, 양자 오류정정 디코딩 속도를 최대 13,000배 높이는 알고리즘(TCBP-JOBS)을 공개해 실용적 양자컴퓨팅 연구를 가속화하고자 한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "IBM, Fermilab과 함께 모듈형 양자-클래식 코디자인 플랫폼을 구축하고, DGX B200 시스템을 IBM Quantum Nighthawk 기반 양자컴퓨터와 연결하며, CUDA-Q QEC 라이브러리를 통해 TCBP-JOBS 디코딩 알고리즘을 공개",
+     "stage": "Announced",
+     "timeline": "미확인 (TCBP-JOBS는 CUDA-Q QEC 0.9.0을 통해 오늘부터 제공)",
+     "scope": "IBM 양자컴퓨터(Nighthawk 포함), Fermilab 고에너지·핵물리(HENP) 연구, Slurm 기반 슈퍼컴퓨팅 워크플로우 통합"
+    },
+    "key_facts": [
+     "NVIDIA DGX B200 시스템이 IBM Quantum Nighthawk 등 IBM 양자컴퓨터와 **콜로케이션(colocated)**됨",
+     "새 디코딩 알고리즘 TCBP-JOBS가 기존 대비 **최대 13,000배 빠른** 오류정정 디코딩 속도를 제공, 계산 시간을 12주에서 45분으로 단축",
+     "TCBP-JOBS는 CUDA-Q QEC 0.9.0 라이브러리를 통해 오늘부터 제공(Available)",
+     "NVIDIA가 Slurm을 확장해 양자 프로세서 스케줄링을 단순화하며, IBM은 Quantum Resource Management Interface로 통합 기여",
+     "IBM, Fermilab과 공동으로 모듈형 양자 코디자인 플랫폼을 개발해 오류정정 코드, 디코딩 알고리즘, 양자-클래식 애플리케이션 평가 지원"
+    ],
+    "why_matters": "양자컴퓨팅이 실용화되기 위해서는 오류정정과 클래식-양자 통합 아키텍처가 핵심 과제인데, NVIDIA가 **가속컴퓨팅 소프트웨어(CUDA-Q)**로 이 병목을 직접 해결하며 양자 생태계의 핵심 인프라 제공자로 자리매김하고 있다. IBM, DOE 국립연구소(Fermilab)와의 협력은 향후 폴트톨러런트 양자컴퓨터 설계 표준과 슈퍼컴퓨팅 워크플로우 통합에 NVIDIA 기술이 깊이 관여함을 시사한다.",
+    "subject_angle": "NVIDIA는 양자 하드웨어 경쟁에 직접 참여하지 않으면서도 **CUDA-Q 플랫폼과 가속컴퓨팅 인프라**를 통해 양자-클래식 하이브리드 컴퓨팅의 필수 소프트웨어·시스템 레이어를 장악하려는 전략을 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "가속컴퓨팅·CUDA-Q 소프트웨어 및 DGX B200 시스템 제공, 알고리즘 개발"
+     },
+     {
+      "name": "IBM",
+      "context": "양자컴퓨터(Nighthawk 등) 하드웨어 제공 및 Quantum Resource Management Interface 통합 기여"
+     },
+     {
+      "name": "Fermi National Accelerator Laboratory (Fermilab)",
+      "context": "DOE 산하 연구소로 고에너지·핵물리 응용 및 오류정정 요구사항 정의 주도"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA DGX B200",
+      "role": "IBM 양자컴퓨터와 콜로케이션되는 가속컴퓨팅 시스템"
+     },
+     {
+      "name": "IBM Quantum Nighthawk",
+      "role": "IBM이 선보인 가장 강력한 양자 프로세서"
+     },
+     {
+      "name": "NVIDIA CUDA-Q (QEC 0.9.0)",
+      "role": "TCBP-JOBS 디코딩 알고리즘을 포함하는 양자 오류정정 연구 플랫폼"
+     },
+     {
+      "name": "TCBP-JOBS",
+      "region": "",
+      "role": "양자 오류정정 디코딩 속도를 최대 13,000배 향상시키는 신규 알고리즘"
+     },
+     {
+      "name": "Slurm",
+      "role": "양자 프로세서 스케줄링을 슈퍼컴퓨팅 워크플로우에 통합하기 위해 확장됨"
+     }
+    ],
+    "watch_next": [
+     "모듈형 양자-클래식 코디자인 플랫폼의 구체적 가동 일정 및 초기 연구 성과",
+     "TCBP-JOBS 알고리즘의 실제 폴트톨러런트 양자컴퓨터 설계 적용 사례",
+     "Slurm-Quantum Resource Management Interface 통합의 상용 슈퍼컴퓨팅 센터 채택 현황"
+    ]
+   },
+   "related": [],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
+   "body": "News Summary: - NVIDIA and IBM announce a growing quantum supercomputing collaboration combining NVIDIA accelerated computing and software with IBM quantum computers to advance quantum error-correction research, scientific applications and integration into supercomputing workflows. NVIDIA DGX B200 systems will connect with IBM quantum computers, including those powered by IBM Quantum Nighthawk, the most powerful processor IBM has yet built. - A quantum computing codesign platform with Fermi National Accelerator Laboratory, alongside IBM and NVIDIA, will support quantum error-correction and applications research for future systems. - NVIDIA releases TCBP-JOBS, a new decoding algorithm part of the CUDA-Q platform, that delivers up to a 13,000x speedup for quantum error-correction research, accelerating fault-tolerant quantum computation. - NVIDIA is expanding Slurm to simplify scheduling quantum processors within supercomputing workflows, with IBM contributing integration through its Quantum Resource Management Interface. NVIDIA today announced plans for new collaborations with IBM and the U.S. Department of Energy’s Fermi National Accelerator Laboratory that will span research into next-generation modular architectures for quantum computers, scientific applications and supercomputing integration. These efforts, including a new modular quantum computing codesign platform with IBM and Fermilab, combine NVIDIA accelerated computing and software with IBM quantum computers to help researchers scale quantum computers and explore their scientific capabilities. Separately, NVIDIA also announced a new quantum algorithm that delivers up to 13,000x faster decoding compared with existing leading algorithms — cutting the computation time for researching new quantum computing designs from 12 weeks to just 45 minutes. The collaboration with IBM also brings together new Slurm capabilities integrations to simplify how quantum computers can be added into supercomputing workflows. Modular Quantum Computing Codesign Platform IBM and NVIDIA are colocating NVIDIA DGX™ B200 systems with state-of-the-art IBM quantum computers, including those powered by IBM Quantum Nighthawk, the fastest quantum processor IBM has ever delivered. This integrated system is supporting a jointly developed IBM, Fermilab and NVIDIA modular quantum codesign platform. The codesign platform will allow researchers to develop and evaluate error-correction codes, decoding algorithms and quantum-classical applications driving scientific discoveries in high-energy and nuclear physics (HENP), as well as how classical systems can scale alongside multiple linked quantum processors within modular architectures. Fermilab’s expertise will allow work at the platform to focus on quantum error correction and HENP applications — helping define requirements for future fault-tolerant quantum computers and the science that can be achieved with them. “Making quantum computers useful for science requires advances in"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+   "link": "https://blogs.nvidia.com/blog/rubin-hpc/",
+   "date": "2026-11-17 01:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "Rubin HPC GPU 발표로 과학 시뮬레이션 가속",
+    "korean_summary": "NVIDIA가 50,000개 이상 CUDA 코어와 7세대 NVLink를 갖춘 Rubin HPC GPU를 발표해 과학자들의 시뮬레이션 성능을 획기적으로 향상시킨다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 과학·공학·분석용 에이전트 가속 위한 신규 GPU 'Rubin HPC' 발표",
+    "korean_summary": "NVIDIA가 SC26에서 Vera Rubin 플랫폼 기반 신규 GPU인 Rubin HPC를 공개해 과학·공학·분석 워크로드의 시뮬레이션을 가속하고 AI 에이전트의 발견 속도를 높이겠다고 밝혔다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Rubin HPC GPU 발표 — Vera Rubin 플랫폼에 포함되는 과학·공학·분석 시뮬레이션 가속용 GPU",
+     "stage": "Announced",
+     "timeline": "2028년 출시 예정",
+     "scope": "과학·공학·데이터 분석 워크로드 전반(기후 모델, 엔지니어링 시뮬레이션, 유전체 분석, 금융 리스크 등)"
+    },
+    "key_facts": [
+     "SC26에서 발표되었으며, NVIDIA Vera Rubin 플랫폼에 속하는 신규 GPU",
+     "**단일 GPU에 50,000개 이상의 CUDA 코어**를 탑재해 기록적인 코어 수 구현",
+     "스파스 데이터 가속 기능으로 코어에 데이터를 지속 공급",
+     "7세대 NVIDIA NVLink 인터커넥트로 GPU-to-GPU 연결 가속",
+     "**2028년 출시 예정**"
+    ],
+    "why_matters": "AI 에이전트가 더 많은 후보 소재·분자·설계를 탐색할수록 이를 검증할 GPU 가속 시뮬레이션 수요가 급증하는데, NVIDIA는 연산력 증가뿐 아니라 데이터 이동과 연산의 균형을 맞춘 설계로 이 수요에 대응하고 있다. 이는 **HPC·사이언티픽 컴퓨팅 시장에서 NVIDIA의 지배력을 AI 에이전트 시대까지 연장**하려는 전략으로 해석된다.",
+    "subject_angle": "Rubin HPC는 NVIDIA가 AI 추론/에이전트 워크로드와 전통적 HPC 시뮬레이션을 하나의 플랫폼(Vera Rubin)으로 통합해, **CUDA-X 라이브러리와 함께 과학·엔지니어링 전 영역에서 에이전트-시뮬레이션 루프를 가속**하는 엔드투엔드 생태계 전략을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Rubin HPC GPU 및 Vera Rubin 플랫폼 발표 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin HPC",
+      "role": "과학·공학·분석 워크로드 시뮬레이션 가속용 신규 GPU, 50,000개 이상 CUDA 코어 탑재"
+     },
+     {
+      "name": "NVIDIA Vera Rubin platform",
+      "role": "Rubin HPC가 포함되는 상위 플랫폼"
+     },
+     {
+      "name": "NVLink (7th-gen)",
+      "role": "GPU-to-GPU 연결 가속 인터커넥트 기술"
+     },
+     {
+      "name": "CUDA-X libraries",
+      "role": "에이전트가 시뮬레이션·분석에 활용하는 최적화 알고리즘 라이브러리"
+     }
+    ],
+    "watch_next": [
+     "Rubin HPC의 구체적 사양(메모리, 전력, 가격) 및 경쟁 제품(AMD MI 시리즈 등) 대비 포지셔닝 공개 여부",
+     "2028년 출시 전까지 로드맵 세부 일정 및 초기 고객사·파트너 발표",
+     "Vera Rubin 플랫폼 내 다른 구성요소(Vera CPU 등)와의 통합 방식 추가 공개"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+     "link": "https://blogs.nvidia.com/blog/rubin-hpc/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/rubin-hpc",
+   "body": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules and designs, they rely on simulations to test those ideas and guide their next steps. Rubin HPC will accelerate those simulations, shortening the path from exploration to scientific discovery and industrial design. The Rubin HPC GPU features a record number of CUDA cores — more than 50,000 on a single GPU — as well as a sparse data acceleration capability that keeps those cores fed with data, and accelerates GPU-to-GPU connectivity with seventh-generation NVIDIA NVLink interconnect technology. Read All NVIDIA Announcements From SC26 Scientists and engineers rely on simulation to understand complex systems before committing to experiments or physical prototypes. Working with agents, these teams can explore more candidate materials, molecules and designs. This increases demand for the GPU-accelerated simulations needed to evaluate those ideas and guide next steps. “For agents tackling science and engineering, faster simulation means faster discovery,” said Ian Buck , vice president of hyperscale and high-performance computing at NVIDIA. “Rubin HPC accelerates the simulations agents use to test ideas and guide their next steps, helping scientists and engineers explore more possibilities and bring breakthroughs closer.” Turning Faster Computation Into Faster Discovery Across climate models, engineering simulations, genomic analysis and financial risk, scientific computing workloads take a similar shape: an application reaches into an immense dataset, gathers a handful of scattered values, calculates a result and repeats this on an enormous scale. To help address the challenge, Rubin HPC will offer a balanced design, scaling data movement and compute together rather than increasing compute alone. That balance is what optimizes Rubin HPC for scientific computing. It keeps the GPU’s record number of CUDA cores supplied with data, so they spend their time computing rather than waiting. This accelerates recurring patterns of every simulation workload — from sparse matrix operations to stencil computations to sorting and reductions. These patterns are prevalent across data analytics, science and engineering workloads, which is why a purpose-built GPU delivering the broadest acceleration can help unlock cross-industry breakthroughs. NVIDIA CUDA-X libraries offer a growing set of optimized implementations of complex algorithms for agents to use, including those most relevant to simulation and analytics. Used together with Rubin HPC, the libraries can give agents the fastest glide path to reasoning outcomes. And faster agent-invoked simulations mean faster feedback — shortening the loop of hypothesis, simulation and refinement, so researchers and engineers can choose next steps sooner an"
+  },
+  {
+   "source": "ServeTheHome",
+   "category": "media",
+   "kind": "feed",
+   "title": "NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster… It is FINALLY real",
+   "link": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real/",
+   "date": "2026-11-17 06:24",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA와 Lambda, 첫 프로덕션 Co-Packaged Optics 클러스터 구축",
+    "korean_summary": "NVIDIA와 Lambda가 10,000개 이상의 GPU가 배치된 첫 프로덕션 co-packaged optics 클러스터를 구축했으며 Spectrum-X 등을 통해 상용화했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA와 Lambda, 세계 최초 양산용 CPO(공동패키지 광학) 클러스터 공개",
+    "korean_summary": "NVIDIA와 Lambda가 SC26에서 10,000개 이상의 GPU로 구성된 **세계 최초 양산 단계 CPO 클러스터**를 공개하며, 업계가 수년 더 필요하다고 보던 기술을 이미 실제 가동 중임을 입증했다.",
+    "action": {
+     "actor": "NVIDIA, Lambda",
+     "action": "Quantum-X 스위치 기반 co-packaged optics(CPO)를 적용한 10,000개 이상 GPU 규모의 클러스터를 production 환경에 배치하고 SC26에서 공개",
+     "stage": "Available",
+     "timeline": "SC26 (2026) 주간 공개, 현재 가동 중",
+     "scope": "Lambda의 10,000+ GPU 클러스터, NVIDIA Quantum-X CPO 스위치 적용"
+    },
+    "key_facts": [
+     "Lambda가 **10,000개 이상 GPU** 규모 클러스터에 CPO를 이미 production으로 배치해 가동 중",
+     "NVIDIA Quantum-X CPO 스위치는 **18개의 pluggable 광원**을 사용해 144개 MPO/MTP 포트(각 800Gbps)에 광신호 공급",
+     "광원을 pluggable 방식으로 분리해 서비스 가능하게 만든 것이 핵심 혁신 (기존 CPO의 수리 불가 문제 해결)",
+     "Spectrum-X는 2세대 CPO 제품으로 예정 (시점 미확인)",
+     "CPO는 스위치 칩에서 전면 케이지까지의 긴 구리 배선 신호 구동을 제거해 전력 소비를 크게 낮추고, 동일 전력 공간에 더 많은 GPU 수용 가능"
+    ],
+    "why_matters": "업계에서는 CPO 상용화가 아직 수년 남았다는 인식이 지배적이었으나(OCP Summit 2026 발언 포함), **NVIDIA·Lambda가 이를 실제 production 규모에서 이미 구현**했음을 보여줘 광 인터커넥트 경쟁 구도를 재편할 수 있다. 전력 제약 환경에서 GPU당 가용 전력을 늘릴 수 있다는 점은 하이퍼스케일 AI 클러스터의 와트당 매출(revenue per Watt)을 직접적으로 끌어올리는 요인이다.",
+    "subject_angle": "NVIDIA는 Quantum-X/Spectrum-X 스위치 플랫폼에 CPO를 조기 상용화함으로써 **네트워킹 전력 효율 경쟁에서 선두 위치**를 확보했으며, 이는 GPU 클러스터 스케일업 전략에서 광학 인터커넥트를 핵심 차별화 요소로 내세우는 행보다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Quantum-X CPO 스위치 및 Spectrum-X 차세대 CPO 개발사"
+     },
+     {
+      "name": "Lambda",
+      "context": "CPO 적용 10,000+ GPU production 클러스터 운영 고객"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Quantum-X",
+      "role": "1세대 CPO 스위치, 144포트 x 800Gbps, 18개 pluggable 광원 사용"
+     },
+     {
+      "name": "NVIDIA Spectrum-X",
+      "role": "2세대 CPO 적용 예정 스위치 (시점 미확인)"
+     }
+    ],
+    "watch_next": [
+     "Spectrum-X CPO 버전의 구체적 출시 시점 및 사양",
+     "CPO 채택 확산 속도 및 다른 하이퍼스케일러의 도입 여부",
+     "Lambda 클러스터의 정확한 GPU 모델 및 전력 효율 수치 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real",
+   "body": "For SC26, NVIDIA and Lambda discussed their first production co-packaged optics (CPO) cluster. The industry has worked to move CPO from the lab to production for decades. Many in the industry will tell you it is a few years out, but Lambda has already deployed it in production in a cluster with over 10,000 GPUs. NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster We covered NVIDIA’s co-packaged optics extensively during the company’s Hot Chips 2025 presentation. NVIDIA’s first version of the packaging is in its Quantum-X switching product, while Spectrum-X will be an updated second-generation part. NVIDIA is using an array of 18 pluggable light sources on the front of the chassis, as shown in the photos above, to generate light en route to the switch package’s optical modules. Those light sources are pluggable, meaning they can be serviced, which was one of the key inhibitors to CPO in switches when the light source was integrated. Light sources tend to be the parts that fail in pluggable optics, so making them serviceable was an important innovation. Likewise, on the switch package side, making the connections at least somewhat serviceable helps with deployment. Downstream, NVIDIA’s Quantum-X CPO switch pictured above has 144 MPO/MTP ports, each at 800Gbps. Something interesting is that with only 18 light sources, instead of 144x 800Gbps optical modules (or 72x dual 800G modules), there are actually fewer light sources that can fail than in a traditional switch, and it becomes easier to cool them compared to having a larger array of individual pluggable modules. Final Words One of the biggest benefits of the deployment is that by moving the optics to the switch package rather than the front-panel pluggables, numerous high-speed copper links do not need to drive signaling over relatively long distances from the switch chip to the front cages. As a result, CPO can significantly lower power consumption so that more GPUs can fit in the same footprint. After all, in a power-limited environment, ultimately the more power that can be used for GPUs directly impacts the revenue that can be generated per Watt of power available to the cluster. Lambda and NVIDIA may have a short on the cluster up, but let me be clear: it exists and is running today, putting NVIDIA at the forefront of deploying CPO. I think it is actually just being announced this week as part of SC26. As a fun aside, I was at OCP Summit 2026 a few weeks ago when I heard during another vendor’s keynote that CPO was still years away from deployment. It turns out it is already deployed. We no longer have to ask if or when CPO will finally be deployed. The big question now is what the adoption curve will be."
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026",
+   "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+   "date": "2026-11-17 04:05",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA, Supercomputing 2026에서 50,000+ CUDA 코어 Rubin HPC GPU 공개",
+    "korean_summary": "NVIDIA가 Supercomputing 2026에서 최고 수준의 CUDA 코어 50,000개 이상을 탑재한 Rubin HPC GPU를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Supercomputing 2026에서 '역대 최다 CUDA 코어' 탑재한 Rubin HPC GPU 발표",
+    "korean_summary": "NVIDIA가 Supercomputing 2026에서 agentic workflow와 과학·공학 시뮬레이션 가속을 위해 **5만 개 이상의 CUDA 코어**를 탑재한 Rubin HPC GPU를 공개했으며, 2028년 출시를 예고했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Rubin HPC GPU 공개 (agentic workflow 및 대규모 데이터셋 시뮬레이션 가속용)",
+     "stage": "Announced",
+     "timeline": "2028년 (출시 예정)",
+     "scope": "과학자, 엔지니어, 분석가 대상 HPC 워크로드 (기후 연구, 유전체 분석, 금융 시뮬레이션 등)"
+    },
+    "key_facts": [
+     "Rubin HPC는 NVIDIA GPU 중 **'50,000개 이상'의 최다 CUDA 코어**를 탑재",
+     "기존 Rubin GPU는 224 SM, 28,672 CUDA 코어로, Rubin HPC는 Rubin Ultra와 유사한 4-die 구성을 사용할 가능성 시사",
+     "GPU 간 데이터 이동에는 **NVLink 7 인터커넥트**를 사용하며, 세부 대역폭·물리 레이어는 미공개",
+     "HBM 용량·대역폭, native FP64 자원 재배분 여부는 미확인 (AMD·Intel은 자사 GPU에서 FP64 강화를 강조)",
+     "CUDA-X 도메인 특화 라이브러리로 에이전트 기반 가설-시뮬레이션-개선 루프 가속 지원"
+    ],
+    "why_matters": "NVIDIA는 HPC 분야에서 AMD, Intel이 강조하는 native FP64 성능 경쟁 대신 **agentic workflow 가속**이라는 새로운 차별화 축을 제시하며 시장 포지셔닝을 재정의하고 있다. 이는 전통적 수치 시뮬레이션 중심의 HPC 시장을 AI 에이전트 기반 과학 연구로 확장하려는 시도로, 경쟁사와의 기술 비교축 자체를 바꾸려는 전략으로 해석된다.",
+    "subject_angle": "NVIDIA는 Rubin 패밀리를 세분화(Rubin, Rubin Ultra, Rubin HPC)하여 워크로드별 맞춤형 GPU 전략을 강화하고 있으며, **CUDA 코어 수와 NVLink 스케일업을 앞세워 AI와 HPC의 경계를 허무는 포지션**을 공고히 하려 한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Rubin HPC GPU 발표 주체"
+     },
+     {
+      "name": "AMD",
+      "context": "경쟁사, native FP64 강화 GPU로 HPC 시장에서 경쟁"
+     },
+     {
+      "name": "Intel",
+      "context": "경쟁사, native FP64 강화 GPU로 HPC 시장에서 경쟁"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin HPC",
+      "role": "신규 발표된 HPC용 GPU, 50,000개 이상 CUDA 코어 탑재"
+     },
+     {
+      "name": "Rubin Ultra",
+      "role": "4-die 구성의 선행 GPU, Rubin HPC 설계와 유사성 추정 대상"
+     },
+     {
+      "name": "NVLink 7",
+      "role": "Rubin HPC GPU 간 데이터 이동용 인터커넥트"
+     },
+     {
+      "name": "CUDA-X",
+      "region": "agentic workflow 성능 최적화용 도메인 특화 라이브러리"
+     }
+    ],
+    "watch_next": [
+     "Rubin HPC의 실제 다이 구성(4-die 여부) 및 패키징 세부 공개 여부",
+     "HBM 용량·대역폭 및 FP64 자원 배분 비율 공개 여부",
+     "2028년 출시 전까지 AMD·Intel의 경쟁 HPC GPU와의 성능 비교 데이터"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+   "body": "The Supercomputing 2026 conference is under way, and despite continuing turmoil elsewhere in the company, Nvidia has lots to reveal at the show. Foremost among its announcements today, Nvidia took the wraps off a new member of the Rubin GPU family called Rubin HPC , a chip that the company says is meant to accelerate agentic workflows and simulation for scientists, engineers, and analysts working with large data sets. To accelerate those most demanding workloads, Nvidia says Rubin HPC has the highest number of CUDA cores on any of its GPUs - \"more than 50,000\" - which might imply that this chip uses a configuration similar to the four-die Rubin Ultra GPU, which links those dies together using NVLink-C2C. Today's Rubin GPU has 224 SMs and 28,672 CUDA cores, so scaling compute resources to the degree Rubin HPC does would necessarily require more dies on a package. Nvidia didn't reveal more details of the chip's physical layout alongside the announcement. (The representative image shared by the company wouldn't appear to take this into account.) To keep data moving between Rubin HPC GPUs, Nvidia will use its NVLink 7 interconnect. The company didn't share any new details of the bandwidth or physical layer of this interconnect within the rack, but past disclosures about the tech have indicated that it retains the 3.6 TB/s of per-GPU bandwidth that NVLink 6 delivers while enlarging the size of its scale-up domain. Nvidia didn't share any details of the Rubin HPC GPU's HBM capacity or bandwidth, and it also didn't share whether this part includes a rebalancing of compute resources towards native FP64, as AMD and Intel are touting at the conference with their own GPUs this week. Nvidia instead touts the suitability of this chip for scientists and engineers using agentic workflows, for which the company expects faster simulation performance and therefore faster opportunities for discovery in those fields thanks to better agent performance in those domains. In fields like climate research, genomic analysis, and financial simulation, Nvidia says the Rubin HPC GPU's \"balanced design,\" with both higher compute resources and (presumably) faster data movement between nodes, will help feed the chip with the massive data sets typical of those workloads, minimizing idle compute resources and achieving better utilization. Researchers, engineers, and analysts marshaling agent swarms to explore the problem spaces in their domains will also be able to take advantage of Nvidia's CUDA-X domain-specific libraries to boost performance on Rubin HPC, tightening the reasoning loop from hypothesis to simulation to refinement and hastening the pursuit of the most promising results. Nvidia says Rubin HPC will arrive sometime in 2028."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "US Dep’t of Commerce issues rule to restrict remote access to advanced AI chips",
+   "link": "https://www.datacenterdynamics.com/en/news/us-dept-of-commerce-issues-rule-to-restrict-remote-access-to-advanced-ai-chips/",
+   "date": "2026-11-17 03:01",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국 상무부, 첨단 AI 칩 원격 접근 제한 규칙 발행",
+    "korean_summary": "미국 상무부가 고급 AI 칩에 대한 원격 접근을 제한하는 규칙을 발행하고 인도네시아, 말레이시아, 싱가포르, 태국, 브라질을 수출 제한 목록에 추가했다."
+   },
+   "summary_data": {
+    "korean_title": "美 상무부, 원격 접속 통한 첨단 AI 칩 우회 수출 규제 신설",
+    "korean_summary": "미국 상무부 산업안보국(BIS)이 **데이터센터를 통한 원격 접속 방식의 첨단 AI 칩 우회 수출을 차단**하기 위해 잠정 최종 규칙을 발표하고 인도네시아·말레이시아·싱가포르·태국·브라질 등 5개국을 수출 제한 대상국에 추가했다.",
+    "action": {
+     "actor": "US Department of Commerce / Bureau of Industry & Security (BIS)",
+     "action": "첨단 AI 칩 및 서버에 대한 원격 접속 우회 수출을 제한하는 Interim Final Rule(IFR) 발표, 5개국 신규 수출통제 대상국 지정",
+     "stage": "Announced",
+     "timeline": "미확인 (기사 내 발표 시점은 명시되지 않음, Jensen Huang 사퇴는 11월 12일로 명시)",
+     "scope": "Indonesia, Malaysia, Singapore, Thailand, Brazil 대상 반도체 수출·재수출·국내 이전 라이선스 요건, 데이터센터·해외 파운드리·칩 수출업체 대상 고객 실사 의무"
+    },
+    "key_facts": [
+     "BIS는 데이터센터, 해외 파운드리, 칩 수출업체에 고객이 미국 제재 대상자에 직간접적으로 소유되지 않았는지 등 **'robust due diligence'**를 요구",
+     "Indonesia, Malaysia, Singapore, Thailand, Brazil에 첨단 반도체를 수출·재수출·국내 이전할 경우 신규 라이선스 필요, 단 미국 본사 기업 또는 미국 모회사 보유 기업이 보고 요건을 충족하면 예외",
+     "규칙 발표는 전 Nvidia CEO Jensen Huang이 중국 스파이로 의심되는 여성과의 외도를 인정한 사건의 후폭풍 속에서 나옴",
+     "해당 여성 Alice Huang은 싱가포르 소재 IT·클라우드 기업 Megaspeed의 임원으로, Megaspeed는 Nvidia GPU를 중국으로 밀반입한 혐의로 조사 중",
+     "Jensen Huang은 11월 12일 **사장·CEO·이사직에서 즉시 사퇴**했으며, Trump 대통령은 FBI가 해당 사건을 조사 중이라고 밝힘"
+    ],
+    "why_matters": "이번 규칙은 동남아·브라질을 통한 중국으로의 **Nvidia GPU 우회 유출 차단**을 명시적 목표로 하며, 클라우드·원격 컴퓨팅 기반 AI 인프라 확산에 맞춰 기존 물리적 수출통제를 디지털 영역까지 확장한 것이다. Nvidia GPU 밀반입 스캔들과 전 CEO 스캔들이 규제 강화의 직접적 계기로 지목되어, 업계 전반의 컴플라이언스 부담이 커질 전망이다.",
+    "subject_angle": "Nvidia는 전직 CEO의 스캔들 및 자사 GPU 밀반입 연루 의혹으로 **미국 정부의 신규 수출통제 강화를 촉발한 당사자**로 지목되며, 동남아·브라질 등 신규 라이선스 대상국에서의 판매·클라우드 제공 전략에 추가적 컴플라이언스 비용과 평판 리스크가 발생할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "규제 대상 첨단 AI 칩 제조사이며, 전 CEO 스캔들 및 GPU 밀반입 의혹의 중심"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "싱가포르 소재 IT·클라우드 기업, Nvidia GPU 중국 밀반입 혐의로 조사 중"
+     },
+     {
+      "name": "US Department of Commerce / BIS",
+      "context": "원격 접속 우회 수출 제한 규칙 발표 및 집행 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "Advanced AI chips/GPUs (Nvidia)",
+      "role": "원격 접속 데이터센터 경유 우회 수출 통제 및 신규 라이선스 요건 대상"
+     }
+    ],
+    "watch_next": [
+     "Interim Final Rule의 정식 시행 시점 및 세부 라이선스 발급 기준",
+     "Megaspeed에 대한 조사 결과 및 FBI의 Jensen Huang 관련 조사 진행 상황",
+     "Nvidia의 후임 CEO 선임 및 수출 컴플라이언스 체계 변화"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/us-dept-of-commerce-issues-rule-to-restrict-remote-access-to-advanced-ai-chips",
+   "body": "The US Department of Commerce has issued an interim final rule (IFR) to restrict remote access to advanced AI chips and servers and added five new countries to its export restriction list. Per a statement issued by the Bureau of Industry & Security (BIS), the new rule has been designed to ensure existing restrictions “cannot be circumvented through remote computing arrangements involving data centers in third countries.” Data centers, overseas foundries, and chip exporters will be required to perform “robust due diligence on customers,” which includes ensuring they are not owned – either directly or indirectly – by persons on the US government’s restricted export list. Additionally, under the new rule, licenses will now be required to export, reexport, or transfer in-country advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil – countries which the government deems to present “a higher-than-normal risk of diversion.” However, the license requirement for those countries will not apply when the chips are destined for companies headquartered in, or have a parent company headquartered in, the United States, provided certain reporting requirements are met. The rule has been issued in the wake of the fallout from the former Nvidia CEO Jensen Huang’s admission that he had an affair with a woman who is alleged to be a Chinese spy. Alice Huang (no relation to Jensen) was an executive for Megaspeed, a Singapore-based IT and cloud company currently under investigation for smuggling Nvidia GPUs into China. Following reports emerged that he had additionally engaged in an affair with a direct report, on November 12, Jensen Huang resigned as president, CEO, and a member of the board with immediate effect after 33 years leading the company. Last week, US President Donald Trump said the FBI was investigating the incident. “Rapid advancement in cloud computing and SI (super intelligence) infrastructure has made it increasingly possible to access advanced American computing capabilities remotely,” BIS said in a statement. “This IFR addresses this evolving technological landscape by further aligning protections governing remote access to advanced computing capabilities with existing controls on the physical shipment of sensitive American technology.”"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia unveils Rubin HPC GPU for agentic AI-powered science and engineering workloads",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-unveils-rubin-hpc-gpu-for-agentic-ai-powered-science-and-engineering-workloads/",
+   "date": "2026-11-17 02:26",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip",
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, Rubin HPC GPU 공개",
+    "korean_summary": "NVIDIA가 과학 및 공학 워크로드용 신규 Rubin HPC GPU를 Vera Rubin 플랫폼과 함께 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 에이전틱 AI 기반 과학·엔지니어링 워크로드용 Rubin HPC GPU 공개",
+    "korean_summary": "NVIDIA가 Vera Rubin 플랫폼을 기반으로 한 Rubin HPC GPU를 공개하며 과학·엔지니어링·분석 분야의 에이전틱 AI 시뮬레이션 워크로드 가속을 목표로 제시했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Rubin HPC GPU 공개 및 agentic AI 기반 시뮬레이션·데이터 처리 워크로드 가속 기능 발표",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "과학·엔지니어링·분석 워크로드 전반, 고객·지역 미확인"
+    },
+    "key_facts": [
+     "Rubin HPC는 NVIDIA의 **Vera Rubin 플랫폼**이 지원하는 칩이다.",
+     "**50,000개 이상의 CUDA 코어**를 탑재했다.",
+     "7세대 NVLink 인터커넥트 기술로 GPU-to-GPU 연결성을 가속하는 sparse data acceleration 기능을 갖췄다.",
+     "컴퓨트 성능 증대뿐 아니라 데이터 이동과 컴퓨트를 함께 확장하는 '균형 설계(balanced design)'를 채택했다.",
+     "NVIDIA 하이퍼스케일·HPC 부문 VP Ian Buck이 공식 발표를 진행했다."
+    ],
+    "why_matters": "HPC 시장에서 단순 연산력 경쟁을 넘어 데이터 이동과 컴퓨트의 균형을 강조함으로써 **과학·엔지니어링 시뮬레이션 분야의 차별화된 포지셔닝**을 시도한다. 이는 전통적 HPC 경쟁사 및 agentic AI 플랫폼 경쟁에서 NVIDIA의 영향력을 확대하려는 움직임으로 읽힌다.",
+    "subject_angle": "Rubin HPC는 NVIDIA가 데이터센터 GPU 로드맵을 **AI 에이전트 기반 과학 컴퓨팅**으로 확장하는 전략의 일환이며, Vera Rubin 플랫폼 생태계를 통해 HPC와 AI 워크로드를 통합하려는 의도를 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Rubin HPC GPU 및 Vera Rubin 플랫폼 개발사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin HPC",
+      "role": "agentic AI 기반 시뮬레이션·데이터 처리 가속용 신규 GPU"
+     },
+     {
+      "name": "Vera Rubin platform",
+      "role": "Rubin HPC를 지원하는 상위 플랫폼"
+     },
+     {
+      "name": "NVLink (7th-gen)",
+      "role": "GPU-to-GPU 연결성 가속 인터커넥트 기술"
+     }
+    ],
+    "watch_next": [
+     "Rubin HPC 출시 일정 및 가용성 공개 여부",
+     "구체적 성능 벤치마크 및 경쟁 제품 대비 비교 자료",
+     "초기 고객·파트너사(과학 연구기관, 엔지니어링 기업) 공개 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-unveils-rubin-hpc-gpu-for-agentic-ai-powered-science-and-engineering-workloads",
+   "body": "Nvidia has unveiled a new GPU dubbed Rubin HPC, a chip supported by the company’s Vera Rubin platform. Designed to support agentic AI-powered simulation and data processing workloads across science, engineering, and analytics, the chip giant said Rubin HPC will shorten the timeline between exploration and results. Rubin HPC features more than 50,000 CUDA cores alongside a sparse data acceleration capability that accelerates GPU-to-GPU connectivity with seventh-generation Nvidia NVLink interconnect technology. Furthermore, instead of increasing compute capacity alone, Nvidia said the new chip offers a “balanced design” that scales data movement and compute together, which accelerates recurring patterns of every simulation workload — from sparse matrix operations to stencil computations to sorting and reductions, all of which are common across data analytics, science, and engineering workloads. “For agents tackling science and engineering, faster simulation means faster discovery,” said Ian Buck, vice president of hyperscale and high-performance computing at Nvidia. “Rubin HPC accelerates the simulations agents use to test ideas and guide their next steps, helping scientists and engineers explore more possibilities and bring breakthroughs closer.”"
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "US moves to cut China’s remote access to AI chips",
+   "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+   "date": "2026-11-17 04:10",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국, 중국의 AI 칩 원격 접근 차단 조치 추진",
+    "korean_summary": "미국이 외국 데이터센터를 통한 중국의 첨단 AI 칩 원격 접근을 차단하기 위해 규칙 변경을 추진하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "미국, 해외 데이터센터 통한 중국의 AI 칩 원격 접근 차단 추진",
+    "korean_summary": "Trump 행정부가 Nvidia 스캔들 이후 중국·러시아·이란이 Indonesia·Malaysia·Singapore·Thailand·Brazil 등 해외 데이터센터를 통해 고성능 AI 칩에 원격으로 접근해 수출 통제를 우회하는 관행을 막기 위한 규제 강화를 추진한다.",
+    "action": {
+     "actor": "US Commerce Department (Trump administration)",
+     "action": "해외 데이터센터를 통한 고성능 AI 칩 원격 접근 우회 경로를 막는 규칙 변경 준비",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "Indonesia, Malaysia, Singapore, Thailand, Brazil 소재 데이터센터 및 China, Russia, Iran의 접근"
+    },
+    "key_facts": [
+     "**Trump 행정부가 해외 데이터센터를 겨냥한 규칙 변경을 준비 중**이며, 이는 최근 Nvidia 스캔들 직후 발생",
+     "Commerce Department는 China, Russia, Iran이 Indonesia, Malaysia, Singapore, Thailand, Brazil의 데이터센터에서 **칩 접근을 임대하는 방식으로 수출 통제를 우회**해온 '루프홀'을 막겠다고 밝힘",
+     "Commerce Department는 이러한 접근이 '군사·정보 활동을 지원할 수 있는 고성능 AI 모델' 훈련·운영에 쓰일 수 있다고 우려",
+     "위협 사례로 대량살상무기·첨단 재래식무기 개발, 사이버 스파이·사이버 교란, 알고리즘 절도, 허위정보 무기화가 언급됨"
+    ],
+    "why_matters": "이번 규제는 기존의 '하드웨어 수출 통제'를 넘어 **원격 접근(클라우드/렌탈) 경로까지 통제 범위를 확장**하는 조치로, AI 칩 지정학 규제의 범위가 한층 넓어짐을 보여준다. Nvidia 등 고성능 칩 제조사의 글로벌 공급·사용 추적 책임과 컴플라이언스 부담이 더욱 커질 수 있다.",
+    "subject_angle": "Nvidia는 이번 조치로 **최종 사용처뿐 아니라 제3국 데이터센터를 통한 간접 접근까지 모니터링해야 하는 컴플라이언스 리스크**에 직면하며, 동남아·브라질 등 신흥 데이터센터 시장에서의 칩 판매·클라우드 파트너십 전략에도 영향을 받을 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "최근 스캔들의 당사자이자 규제 대상 고성능 AI 칩의 제조사"
+     },
+     {
+      "name": "US Commerce Department",
+      "context": "수출 통제 규칙 변경을 추진하는 정부 기관"
+     }
+    ],
+    "products": [
+     {
+      "name": "고성능 AI 훈련용 칩 (advanced computer chips)",
+      "role": "수출 통제 및 원격 접근 규제의 대상 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "Commerce Department 규칙 변경의 공식 발효 시점 및 세부 조항",
+     "Indonesia, Malaysia, Singapore, Thailand, Brazil 데이터센터 운영사들의 대응",
+     "Nvidia의 공급망 컴플라이언스 정책 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+   "body": "On the heels of the Nvidia scandal , the Trump administration is preparing to crack down on foreign data centers that are fueling China’s advancements in artificial intelligence by allowing remote access to otherwise restricted high-end chips necessary for AI training. In a summary of the rule change, the Commerce Department said it was closing a loophole that previously allowed foreign rivals like China, Russia, and Iran to bypass export curbs on certain advanced computer chips by instead renting access to those chips from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil. US rivals could possibly use that access to train and run advanced AI models “capable of supporting military- and intelligence-related activities that could threaten US national security or foreign policy interests,” the Commerce Department said. Among threats, the US fears rivals could use advanced AI to develop \"more effective weapons of mass destruction and advanced conventional weapons, coordinated cyber-espionage and targeted cyber-disruption, algorithmic theft, and weaponized disinformation.” Read full article Comments"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "SK하이닉스, AI 특수로 美 매출 3배 증가…엔비디아만 35조",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001208",
+   "date": "2026-11-17 20:15",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "SK하이닉스 Q3 미국 매출 102조원 급증, NVIDIA 추정 고객사 34조원 기록",
+    "korean_summary": "SK하이닉스가 올해 1-3분기 누적 미국 매출 147조원(전체 62.5%)을 기록했으며 NVIDIA로 추정되는 주요 고객사 매출이 전년 대비 101.5% 급증하고 HBM4 본격 양산 시작"
+   },
+   "summary_data": {
+    "korean_title": "SK하이닉스, AI 메모리 특수로 미국 매출 3배 급증…최대 고객사는 엔비디아 추정",
+    "korean_summary": "SK하이닉스가 AI 데이터센터 투자 확대에 따른 HBM 수요 증가로 2026년 3분기 누적 미국 매출이 전년 대비 3배 이상 늘었으며, 업계가 엔비디아로 추정하는 최대 고객사 매출이 35조원에 달한 것으로 공시됐다.",
+    "action": {
+     "actor": "SK하이닉스",
+     "action": "분기보고서 공시를 통해 지역별·고객사별 매출 현황 공개, 미국 빅테크向 HBM3E/HBM4 공급 확대",
+     "stage": "Report",
+     "timeline": "2026년 1~3분기 누적 (공시일 2026년 11월 16일)",
+     "scope": "미국 빅테크 고객사(추정 엔비디아, MS/구글 등) 대상 HBM·서버용 D램 공급"
+    },
+    "key_facts": [
+     "SK하이닉스 1~3분기 누적 미국 매출 147조7392억원으로 전체의 **62.5%** 차지, 전년 대비 102조5590억원(3배 이상) 증가",
+     "업계가 엔비디아로 추정하는 최대 고객사 매출 **34조9778억원(전체의 14.8%)**, 전년 대비 101.5% 급증",
+     "두 번째 빅테크 고객사(MS·구글 추정) 매출 23조8509억원(10.1%), 두 고객사 합산 24.9%",
+     "HBM4는 3분기부터 본격 양산·출하 확대, 서버향 DDR5 판매량 전분기 대비 40% 이상 증가",
+     "2029년까지 3년간 D램·HBM 물량 모두 솔드아웃 상태라고 밝힘"
+    ],
+    "why_matters": "엔비디아가 추정 기준으로 SK하이닉스 전체 매출의 14.8%를 차지하는 단일 최대 고객사로 부상한 것은 **AI GPU 생산을 위한 HBM 의존도**가 공급망 전반에서 얼마나 심화되고 있는지를 보여준다. HBM3E·HBM4 공급이 2029년까지 솔드아웃된 상황은 엔비디아의 차세대 GPU(Blackwell Ultra, Rubin 등) 양산 속도가 메모리 공급 능력에 직결될 수 있음을 시사한다.",
+    "subject_angle": "엔비디아는 **HBM 공급 솔드아웃 상황**에서 핵심 메모리 파트너인 SK하이닉스와의 장기 공급 안정성 확보가 GPU 로드맵 실행의 전제 조건이 되고 있으며, 이는 공급망 다변화(삼성전자·Micron 등 복수 소싱) 전략의 중요성을 더욱 부각시킨다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "SK하이닉스",
+      "context": "HBM·D램 공급사, 미국·중국 매출 공시 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "SK하이닉스 최대 고객사로 추정, HBM3E/HBM4 공급받아 AI GPU 생산"
+     },
+     {
+      "name": "Microsoft",
+      "context": "두 번째 빅테크 고객사로 추정"
+     },
+     {
+      "name": "Google",
+      "context": "두 번째 빅테크 고객사로 추정"
+     }
+    ],
+    "products": [
+     {
+      "name": "HBM3E",
+      "role": "3분기 기준 양산·출하 중인 5세대 HBM, AI 서버용 공급"
+     },
+     {
+      "name": "HBM4",
+      "role": "3분기부터 본격 양산·출하 확대된 6세대 HBM, 차세대 AI 연산용 메모리"
+     },
+     {
+      "name": "DDR5",
+      "role": "서버용 D램, 전분기 대비 판매량 40% 이상 증가"
+     }
+    ],
+    "watch_next": [
+     "SK하이닉스 공시상 '최대 고객사'가 실제 NVIDIA인지 공식 확인 여부",
+     "HBM4 양산 확대가 NVIDIA 차세대 GPU(Rubin 등) 출시 일정에 미치는 영향",
+     "2029년까지 솔드아웃된 HBM 물량이 NVIDIA의 경쟁사(삼성전자·Micron) 공급 확보 전략에 미치는 파급 효과"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001208",
+   "body": "SK하이닉스의 올해 3분기 누적 미국 매출이 지난해 같은 기간보다 102조원 넘게 늘며 전체 매출의 60%를 돌파했다. 인공지능(AI) 데이터센터 투자 확대에 따른 고대역폭메모리(HBM) 수요 증가와 메모리 가격 상승이 실적을 견인했다. 16일 SK하이닉스가 공시한 분기보고서에 따르면 올해 1~3분기 누적 지역별 매출 합계는 236조5105억원이다. 이 가운데 미국 매출은 147조7392억원으로 전체의 62.5%를 차지했다. 2025년 같은 기간(45조1802억원)보다 102조5590억원 증가하며 1년 만에 3배 이상 불어났다. 미국 시장 매출 급증은 HBM을 비롯한 D램과 낸드플래시의 수급 불균형과 단가 상승이 맞물린 결과다. 특히 AI 인프라 투자를 공격적으로 늘리는 미국 빅테크 기업을 중심으로 고부가가치 서버용 메모리 판매가 크게 확대됐다. 주요 고객사별 매출에서도 미국 빅테크의 비중 확대가 뚜렷하다. 공시에 고객사명이 명시되진 않았으나 업계가 엔비디아로 추정하는 최대 고객사 매출은 34조9778억원으로 전체의 14.8%를 기록했다. 지난해 같은 기간(17조3551억원) 대비 101.5% 급증한 수치다. 올해 1분기 처음 매출 비중 10%를 넘어선 또 다른 빅테크 고객사에서도 23조8509억원(10.1%)의 매출이 발생했다. 업계는 해당 거래처를 마이크로소프트(MS)나 구글 등으로 추정하고 있다. 두 핵심 고객사 매출 합계는 58조8287억원으로 전체의 약 24.9%에 달한다. SK하이닉스는 주요 빅테크에 5세대 HBM3E와 6세대 HBM4 등 AI 연산용 메모리를 공급하고 있다. 회사는 3분기 실적발표 콘퍼런스콜에서 “HBM4는 3분기부터 본격적으로 양산 및 출하를 확대했으며 서버향 DDR5 판매량도 전분기 대비 40% 이상 증가했다”며 “2029년까지 향후 3년 동안 D램·HBM 물량은 모두 솔드아웃(완판)된 상황”이라고 밝혔다. 중국 시장 매출 역시 가파른 성장세를 보였다. 올해 3분기 누적 중국 매출은 56조1378억원으로 전체의 23.7%를 차지했다. 2025년 같은 기간(11조7489억원) 대비 약 4.8배 늘어난 규모다. 미국과 중국 매출을 합하면 전체의 약 86.2%에 이른다. 지역별 주력 판매 제품군에서는 뚜렷한 차이를 보였다. SK하이닉스는 빅테크가 밀집한 미국 시장에 HBM과 서버용 메모리 등 AI 관련 제품을 집중 공급하고 있다. 반면 중국 시장에서는 저전력 D램(LPDDR)과 낸드플래시 등 모바일 기기용 메모리를 주로 판매하는 것으로 전해졌다. 이광영 기자 gwang0e@chosunbiz.com"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+   "link": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+   "date": "2026-11-16 22:42",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": true,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 분기 실적 발표 임박, 새 경영진 체제 첫 시험대",
+    "korean_summary": "Jensen Huang의 퇴임 직후 interim CEO Colette Kress가 처음으로 분기 실적을 발표할 예정이며, 중국 칩 판매, 신규 고객 협력, 경영 리더십 등에 대한 질문이 집중될 것으로 예상된다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 사퇴 후 첫 실적발표, Colette Kress가 직면한 핵심 질문들",
+    "korean_summary": "Nvidia 임시 CEO Colette Kress가 Jensen Huang의 갑작스러운 사퇴 이후 첫 분기 실적발표에서 중국 매출 실체, Washington 조사 리스크, 리더십 공백 등 핵심 질문에 답해야 한다.",
+    "action": {
+     "actor": "Colette Kress (Nvidia interim CEO, CFO since 2013)",
+     "action": "Jensen Huang 사퇴 후 첫 분기 실적 발표 및 중국 매출·수출통제·neoclouds 리스크 관련 질의 대응",
+     "stage": "Report",
+     "timeline": "화요일(실적발표), Huang은 목요일 사퇴",
+     "scope": "Nvidia 전사 실적, 중국/동남아 매출 관련 이슈"
+    },
+    "key_facts": [
+     "**애널리스트는 매출 91% 증가한 $109.1 billion, EPS $2.47을 예상**(LSEG 기준)",
+     "Nvidia 주가는 6주 연속 하락(2012년 이후 최장), 시가총액 $1.7 trillion 감소",
+     "Kress는 지난 실적콜에서 FY2028 매출 성장률을 약 70%로 전망하며 'supply constrained outlook'이라 설명",
+     "**Culper Research는 Nvidia FY2026 컴퓨트 매출의 20%가 중국向이라고 주장**, Nvidia는 이를 부인",
+     "Jensen Huang은 House Foreign Affairs·China·Intelligence 위원장들과 비공개 회의에서 증언 예정, 위원회는 법률총괄 Tim Teter와도 면담 요청"
+    ],
+    "why_matters": "Nvidia는 AI 인프라 시장의 핵심 공급자로서 수요 측면 성장은 견고하나, **중국向 매출 우회 의혹과 수출통제 위반 논란**이 규제·신뢰 리스크로 확산되고 있다. 리더십 교체 시점에 이런 조사가 겹치며 투자자들은 실적 숫자보다 거버넌스·컴플라이언스 리스크를 더 주목하고 있다.",
+    "subject_angle": "**Nvidia의 핵심 리스크는 더 이상 수요가 아니라 중국 수출통제 준수 여부와 거버넌스**로 이동했으며, 향후 고객 추적·용도 보고 강화 등 새로운 규제 요구에 대응해야 할 가능성이 있다.",
+    "focus_angle": "본 이슈는 AI 데이터센터 칩 공급망에 집중된 내용으로 자동차 OEM·자율주행·휴머노이드 로봇 산업과의 직접적 연관성은 본문에 확인되지 않으나, Nvidia의 중국 수출통제 리스크가 커질 경우 Drive·Jetson 등 차량·로봇용 플랫폼의 중국 공급 전략에도 간접적 영향을 줄 가능성은 **미확인**이다.",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "실적 발표 주체, 중국 수출통제 의혹의 당사자"
+     },
+     {
+      "name": "Megaspeed International",
+      "context": "동남아 클라우드 제공업체, 중국向 우회 의혹의 중심"
+     },
+     {
+      "name": "Culper Research",
+      "context": "Nvidia 중국 매출 비중을 공개적으로 문제 제기한 숏셀러 리서치 업체"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Nvidia 실적발표에서 China 매출 비중 관련 Kress의 공식 답변",
+     "House Foreign Affairs·China·Intelligence 위원회의 Jensen Huang 비공개 증언 결과",
+     "미국 정부의 Nvidia 고객 추적·용도보고 관련 신규 규정 도입 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html",
+   "body": "Days after Jensen Huang's abrupt departure from the chipmaker he founded 33 years ago, Nvidia interim CEO Colette Kress will now face intense questions about what comes next. Nvidia is scheduled to report quarterly earnings after the close on Tuesday. While the company is again expected to show explosive growth as the key infrastructure provider to the artificial intelligence boom, Kress and her team will likely be forced to answer questions on chip sales to China, the risks tied to deals with neoclouds and what comes next under new leadership. Huang resigned Thursday, but Nvidia's legions of customers, partners and investors still rely on the company to continue shipping large quantities of graphics processing units and AI systems. Kress, who has been Nvidia's CFO since 2013, was tapped to lead the company while the board searches for a successor. Analysts expect Nvidia to report 91% revenue growth to $109.1 billion, according to LSEG, with $2.47 in earnings per share. Kress, alongside Huang, offered a full-year growth forecast suggesting that the company's historic expansion is poised to continue. They said revenue expansion in fiscal 2028 would be roughly 70% in what Kress, on the last earnings call, described as a \"supply constrained outlook.\" \"What would be good for them to do is reiterate that and confirm that is still intact, if they have the ability,\" said Bloomberg Intelligence analyst Kunjan Sobhani. But Kress has to do far more than just put up numbers. The stock has dropped for six straight weeks, the longest losing streak since 2012, pushing the company's market cap down by $1.7 trillion. Here are some key issues Kress has to address: The real size of the China business Huang's public downfall began in October, when The New York Times reported that American intelligence agencies were surveilling a woman named Alice Huang, who was close with the former CEO, believing she was a Chinese intelligence asset. The report alleged that Alice Huang was helping smuggle Nvidia's premium chips into China, violating U.S. export controls. An Nvidia spokesperson pushed back on the report saying, \"We're confident that if the U.S. government believes that any person is a threat to American industry, it would let us know.\" Nvidia has also insisted that it gets essentially no data center sales from China, consistent with how it reports sales in its recent Securities and Exchange Commission filings. But Jensen Huang's romantic ties to Alice Huang, a Megaspeed International executive, raised concerns about Nvidia's actual business in China. A big part of Nvidia's sales to Southeast Asia, according to some industry experts, are intended for Chinese companies, either through smuggling the chips to the mainland or by building data centers for Chinese clients in Singapore or Malaysia. In a statement Sunday, a Megaspeed representative said that the cloud provider is conducting a thorough internal investigation, and that Alice Huang left the company in 2025. \"M"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+   "link": "https://blogs.nvidia.com/blog/lambda-photonics/",
+   "date": "2026-11-17 01:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Lambda가 NVIDIA Photonics CPO 스위치로 AI 팩토리 구축",
+    "korean_summary": "클라우드 제공업체 Lambda가 NVIDIA Photonics CPO 스위치로 GB300 NVL72의 10,000개 이상 GPU를 연결해 고효율 AI 팩토리를 운영한다."
+   },
+   "summary_data": {
+    "korean_title": "Lambda, NVIDIA Photonics CPO 스위치로 AI 팩토리 복원력·효율성 강화",
+    "korean_summary": "클라우드 제공업체 Lambda가 NVIDIA의 co-packaged optics(CPO) 스위치를 도입해 10,000개 이상 GPU로 구성된 GB300 NVL72 랙을 연결함으로써 전력 효율과 네트워크 복원력을 높였다.",
+    "action": {
+     "actor": "Lambda",
+     "action": "NVIDIA Photonics CPO 스위치를 도입해 GB300 NVL72 랙(10,000+ GPU)을 연결하는 AI 팩토리급 네트워크 구축",
+     "stage": "Available",
+     "timeline": "미확인 (SC26 관련 발표)",
+     "scope": "NVIDIA GB300 NVL72 랙, 10,000개 이상 GPU 규모의 Lambda AI 팩토리"
+    },
+    "key_facts": [
+     "**Lambda는 NVIDIA Photonics CPO 스위치로 GB300 NVL72 랙(10,000개 이상 GPU)을 연결**",
+     "테스트 결과 네트워크 지연시간이 랙 스케일에서 약 4%, 팟 스케일에서 최대 약 10% 감소",
+     "**NVIDIA Photonics는 기존 pluggable optics 대비 최대 5배 전력 효율, 최대 15배 신뢰성 향상**을 제공하며 레이저 수를 4배 줄임",
+     "스위치는 포트당 800Gb/s, 144포트 구성이며 광학 온도는 36°C(기존 pluggable 51°C)로 더 낮고 안정적",
+     "스위치당 18개의 교체 가능한 외부 광원 모듈을 사용해 현장에서 레이저만 교체 가능(기존은 모듈 전체 교체 필요)"
+    ],
+    "why_matters": "대규모 AI 트레이닝과 에이전틱 추론에서 네트워크 장애는 수천 개 GPU의 가동을 중단시키고 연쇄적 지연을 유발할 수 있어, **네트워크 복원력과 전력 효율은 AI 팩토리 생산성의 핵심 변수**로 부상하고 있다. Lambda의 대규모 CPO 도입은 광학 네트워킹 기술이 실제 하이퍼스케일 AI 인프라에서 검증 가능한 단계에 진입했음을 보여준다.",
+    "subject_angle": "NVIDIA는 GPU 중심 컴퓨팅을 넘어 **Photonics(CPO) 스위치를 포함한 네트워킹 레이어까지 수직 통합**함으로써 AI 팩토리 전체 스택에서의 입지를 강화하고, 전력·신뢰성 우위를 앞세워 경쟁사 대비 차별화된 인프라 가치를 제시하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Lambda",
+      "context": "CPO 스위치를 도입해 GB300 NVL72 기반 AI 팩토리를 운영하는 클라우드 제공업체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "Photonics CPO 스위치 및 GB300 NVL72 플랫폼 공급사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Photonics (co-packaged optics switches)",
+      "role": "pluggable optics를 대체해 전력 효율·신뢰성·지연시간을 개선하는 네트워킹 스위치"
+     },
+     {
+      "name": "NVIDIA GB300 NVL72",
+      "role": "Lambda가 CPO 스위치로 연결하는 10,000+ GPU 규모의 랙 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Lambda의 CPO 기반 AI 팩토리 상용 서비스 일정 및 고객 공개 여부",
+     "NVIDIA Photonics의 타 클라우드 제공업체(예: 기존 pluggable optics 사용 업체) 확산 여부",
+     "SC26에서 발표될 추가 NVIDIA Photonics/네트워킹 관련 공식 발표"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+     "link": "https://blogs.nvidia.com/blog/lambda-photonics/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/lambda-photonics",
+   "body": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering lower power, higher resiliency and longer mean time between interruptions (MTBI) to an AI factory at scale. “Networking has to keep pace with the demands of increasingly large AI clusters,” said Dave Ward, president of cloud services at Lambda. “Bringing co-packaged optics into a deployment of this scale is an important step toward building the infrastructure needed to support the next generation of AI.” Read All NVIDIA Announcements From SC26 In the company’s tests using the switches, network latency — the time needed for moving data — dropped by about 4% at rack scale and by up to about 10% at pod scale. Across rack, scalable unit and pod configurations, the network maintains the same throughput as conventional pluggable optics. Delivering Power Efficiency and Resiliency at Scale Improving power efficiency and resiliency matters because the network sits at the center of AI factory productivity. In a large training job, one interrupted link can stall thousands of GPUs. With agentic inference, one network disruption can introduce cascading latency effects on many agents. Every interruption costs time, and every watt spent on networking is a watt not available for compute. NVIDIA Photonics addresses both power efficiency and resiliency. By replacing pluggable transceivers with co-packaged optical engines on the switch package, it delivers up to 5x better power efficiency and up to 15x higher reliability than conventional pluggable optics. It also uses 4x fewer lasers, which means fewer components that can fail. Cooler Optics, Replaceable Light Sources Increase Resiliency Lambda’s deployment uses NVIDIA Photonics switches, each with 144 ports running at 800Gb/s. Liquid cooling carries heat away from the switch chip and optical engines. The company reports a median optics temperature of 36°C, compared with 51°C for conventional pluggable optics, and its tests find more stable signal integrity. NVIDIA Photonics also brings the electrical-to-optical conversion closer to the switch chip. Each switch has 18 removable external light sources, which supply light to the optical engines. Optical engines sit alongside the chip on the same package and convert electrical signals into light that carries data over fiber between parts of the cluster. Technicians can replace the light-source modules in the field, unlike traditional pluggable optics, which require replacing the entire module if a laser fails. Co-packaging shortens the electrical path from inches to millimeters, which reduces signal loss. It also removes the need for retimer chips, cutting both power draw and the number of parts in the signal path. Explore NVIDI"
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Vera Rubin NVL72 Achieves up to 2x Blackwell Ultra Performance in MLPerf Training v6.1",
+   "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/",
+   "date": "2026-11-17 01:00",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform",
+     "new-chip"
+    ],
+    "korean_title": "NVIDIA Vera Rubin NVL72, MLPerf 훈련 벤치마크 리드",
+    "korean_summary": "NVIDIA Vera Rubin 아키텍처가 MLPerf Training v6.1에서 첫 등장하여 Blackwell Ultra 대비 최대 2배의 훈련 성능을 달성했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Vera Rubin NVL72, MLPerf Training v6.1에서 Blackwell Ultra 대비 최대 2배 성능 달성",
+    "korean_summary": "NVIDIA가 차세대 Vera Rubin NVL72 플랫폼을 MLPerf Training v6.1에 처음 출전시켜 Blackwell Ultra 대비 최대 2배 향상된 학습 성능을 입증하며 성숙한 CUDA 소프트웨어 스택을 선보였다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Vera Rubin NVL72 플랫폼으로 MLPerf Training v6.1 벤치마크 최초 참가 및 결과 발표",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Vera Rubin NVL72 플랫폼, MLPerf Training v6.1 벤치마크"
+    },
+    "key_facts": [
+     "**MLPerf Training v6.1에서 Vera Rubin architecture가 처음 공개(debut)됨**",
+     "Vera Rubin NVL72 플랫폼이 **Blackwell Ultra 대비 최대 2배(up to 2x) 성능**을 기록",
+     "해당 플랫폼이 이번 벤치마크에서 가장 빠른 학습 시간(fastest time)을 달성했다고 언급됨",
+     "NVIDIA는 이를 CUDA 소프트웨어 스택이 이미 높은 완성도(highly mature)를 갖췄다는 근거로 제시",
+     "AI 에이전트의 복잡한 워크플로우 처리를 위한 time-to-train 단축의 중요성이 배경으로 언급됨"
+    ],
+    "why_matters": "이는 NVIDIA가 Blackwell 세대에서 차세대 Vera Rubin 세대로의 전환을 공식적으로 시작했음을 알리는 신호로, **데뷔 벤치마크에서 바로 2배 성능 향상을 입증**함으로써 경쟁사와의 성능 격차를 조기에 과시하는 효과를 가진다. AI 에이전트 학습 수요가 커지는 가운데 time-to-train 단축 경쟁에서 NVIDIA의 차세대 아키텍처가 선두를 유지한다는 메시지를 시장에 전달한다.",
+    "subject_angle": "NVIDIA는 **Blackwell에서 Vera Rubin으로의 세대교체를 소프트웨어 성숙도(CUDA)와 함께 조기에 입증**함으로써, 하드웨어와 소프트웨어 통합 전략이 신규 아키텍처 출시 초기부터 작동함을 보여주며 연간 아키텍처 갱신 로드맵의 신뢰성을 강화한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Vera Rubin NVL72 플랫폼 개발 및 MLPerf 벤치마크 제출 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "MLPerf Training v6.1에 처음 출전한 차세대 AI 학습 플랫폼"
+     },
+     {
+      "name": "Blackwell Ultra",
+      "role": "Vera Rubin NVL72 성능 비교의 기준이 된 이전 세대 플랫폼"
+     },
+     {
+      "name": "CUDA",
+      "role": "Vera Rubin 성능을 뒷받침하는 소프트웨어 스택"
+     },
+     {
+      "name": "MLPerf Training v6.1",
+      "role": "성능 측정 벤치마크"
+     }
+    ],
+    "watch_next": [
+     "Vera Rubin NVL72의 정식 출시 일정 및 가용성(availability) 공개 여부",
+     "Blackwell Ultra 대비 2배 성능 향상의 구체적 수치·측정 항목(benchmark task) 상세 공개",
+     "경쟁사(AMD 등)의 차세대 플랫폼과의 MLPerf 비교 결과"
+    ]
+   },
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1",
+   "body": "As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf... As AI agents tackle increasingly complex workflows, reducing time-to-train is critical for rapidly iterating on both models and the agents they power. MLPerf Training v6.1 marks the debut of the NVIDIA Vera Rubin architecture, and these early results demonstrate that its CUDA software stack is already highly mature. In its first appearance, the Vera Rubin NVL72 platform delivered the fastest time… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
+   "date": "2026-11-17 06:50",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국, 중국 기업의 원격 AI 서버 접근 제한 규칙 발표",
+    "korean_summary": "미 상무부가 NVIDIA 등 미국 기업의 하드웨어 수출 제한을 우회하기 위한 클라우드 기반 접근을 차단하는 규칙을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "美 BIS, 클라우드 통한 AI 서버 원격 접근 우회 차단하는 신규 규정 발표",
+    "korean_summary": "미국 상무부 산업안보국(BIS)이 재무부·국가안보회의와 함께 **중국 등 비화이트리스트 국가의 기업이 원격 클라우드 접근으로 Nvidia 등 첨단 AI 하드웨어 수출 제한을 우회하지 못하도록** 하는 임시 최종규칙(IFR)을 발표했다.",
+    "action": {
+     "actor": "U.S. Commerce Department's Bureau of Industry and Security (BIS)",
+     "action": "재무부(Treasury), 국가안보회의(National Security Council)와 함께 해외 데이터센터를 통한 원격 컴퓨팅 우회를 막는 임시 최종규칙(IFR) 발표",
+     "stage": "Announced",
+     "timeline": "발표일로부터 90일 후 시행",
+     "scope": "China, Russia, Iran 등 고위험국 소재 기업 및 Indonesia, Malaysia, Singapore, Thailand, Brazil 소재 기업 대상"
+    },
+    "key_facts": [
+     "BIS가 Treasury, National Security Council과 협력해 IFR(임시 최종규칙)을 공개함",
+     "**규칙은 제3국 데이터센터를 이용한 원격 컴퓨팅으로 기존 미국 기술 수출 제한을 우회하지 못하도록 설계됨**",
+     "China, Russia, Iran 본사 기업에 원격 접근을 제공하는 해외 데이터센터에 추가 제한 부과",
+     "Indonesia, Malaysia, Singapore, Thailand, Brazil 본사 기업 대상 첨단 칩 수출 시 라이선스 요구",
+     "신규 요건은 발표 후 90일 내 시행되며, **Nvidia Blackwell Ultra B300 GPU가 China Telecom 데이터센터에서 발견된 사례**가 배경으로 언급됨"
+    ],
+    "why_matters": "물리적 하드웨어 수출 통제만으로는 막을 수 없는 클라우드 기반 우회 접근을 정부가 직접 규제 대상으로 삼은 최초의 공식 조치로, 글로벌 데이터센터 운영사들의 컴플라이언스 부담이 크게 늘어난다. 이는 **Nvidia GPU의 불법 거래 및 중국발 해외 GPU 임대 단속 이슈**가 이미 효과가 제한적이었음을 시사하는 맥락에서 나온 보완 조치다.",
+    "subject_angle": "Nvidia는 이미 자체적으로 데이터센터 운영사에 비중국 기업 비중 51% 이상을 요구했으나 실효성이 불명확했던 상황에서, **정부 차원의 법적 규제가 추가되어 Nvidia의 화이트리스트 기반 수출 모델에 대한 규제 리스크와 컴플라이언스 요구가 한층 강화**된다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "수출 제한 대상 AI 하드웨어 제조사, Blackwell Ultra B300 GPU가 China Telecom 데이터센터에서 발견됨"
+     },
+     {
+      "name": "U.S. Department of Commerce / BIS",
+      "context": "신규 IFR 규정 발표 주체"
+     },
+     {
+      "name": "U.S. Department of Treasury",
+      "context": "규정 공동 수립 기관"
+     },
+     {
+      "name": "National Security Council",
+      "context": "규정 공동 수립 기관"
+     },
+     {
+      "name": "China Telecom",
+      "context": "Nvidia Blackwell Ultra B300 GPU가 발견된 데이터센터 운영사"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Blackwell Ultra B300 GPU",
+      "role": "China Telecom 데이터센터에서 발견되어 수출 통제 실효성 논란을 촉발한 하드웨어"
+     }
+    ],
+    "watch_next": [
+     "90일 시행 이후 실제 데이터센터 접근 제한 집행 방식",
+     "Nvidia의 비중국 기업 51% 비중 요건 준수 여부 및 추가 자율 규제 조치",
+     "Indonesia, Malaysia, Singapore, Thailand, Brazil 등 라이선스 대상국 확대 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
+   "body": "New steps have been taken to ensure that countries and companies that are not on whitelists that would allow them to import advanced AI hardware cannot use cloud-based workarounds. The U.S. Commerce Department’s Bureau of Industry and Security (BIS) has today unveiled an interim final rule, or IFR, in collaboration with the Department of Treasury and the National Security Council, aimed at backing up existing limitations on the export of hardware built by companies like Nvidia to non-whitelisted companies based in countries such as China. \"The rule is designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented through remote computing arrangements\" using data centers in third-party countries, a statement explains. Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Nvidia, for example, is only allowed to export its high-performance AI chips to companies that are on a whitelist. But amid ongoing claims of black market GPU sales and a recent crackdown on overseas AI GPU rentals from China , it has become clear that these restrictions perhaps aren't as robust as they were intended to be. Nvidia Blackwell Ultra B300 GPUs were even recently discovered in a data center used by China Telecom . But while blocking the sale of physical goods is one thing, the cloud-based workaround is another entirely. Nvidia itself told data center operators earlier this month that they must limit remote access to their services — 51% of their business must come from non-Chinese companies. But, again, it's unclear how effective that approach has been in ensuring access to powerful AI capabilities doesn't fall into the wrong hands, even if they're accessed remotely rather than in person. The new BIS rule means that overseas data centers will be required to do more to limit access to their services where U.S-based technology is being used. Restrictions will also be placed on data centers that supply remote access to companies whose headquarters are deemed to be in higher-risk countries, such as China, Russia, and Iran. A license will also be required for anyone trying to export advanced chips to companies with headquarters in Indonesia, Malaysia, Singapore, Thailand, or Brazil. The new requirements will officially go into effect in 90 days. This latest rule comes against a backdrop of ongoing uncertainty over America's AI crown jewel, Nvidia. Jensen Huang, the company's CEO, resigned after confirming an affair , but is now potentially in line for a quick-fire comeback, despite the fact that the woman involved in the affair is an alleged Chinese spy ."
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA cuPhoton Brings Real-Time Black Hole Science to GPUs",
+   "link": "https://www.youtube.com/watch?v=E3Hy-WRJbXE",
+   "date": "2026-11-17 03:32",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "research"
+    ],
+    "korean_title": "NVIDIA cuPhoton, 블랙홀 과학 연구 가속화",
+    "korean_summary": "NVIDIA가 cuPhoton 과학 데이터 처리 SDK를 발표했으며, 블랙홀 영상 분석에서 데이터 처리를 3700배 고속화한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=E3Hy-WRJbXE",
+   "body": "NVIDIA cuPhoton moves the scientific data pipeline onto GPUs, helping researchers study black holes as events unfold. - Eight radio observatories worked together as a virtual telescope the size of Earth to capture the first image of a black hole in the M87 galaxy - cuPhoton streams only the data needed for black hole jets and overlaps loading with signal processing, reconstruction, analysis and visualization, all of which AI agents can run - It speeds up data loading by up to 3,700x and correlation by up to 460x, scaling across multi-node systems powered by the NVIDIA Vera Rubin platform - Data can now be acquired at rates up to 345 GHz, cuPhoton reduces months of compute to minutes and help resolve the light rings around black hole Learn More: https://www.nvidia.com/en-us/high-performance-computing/ai-for-science/cuphoton/"
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Vera Rubin NVL72 Leads Agentic Inference Performance on MLPerf Endpoints v1.0",
+   "link": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/",
+   "date": "2026-11-17 01:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA Vera Rubin, MLPerf 추론 성능 리드",
+    "korean_summary": "NVIDIA Vera Rubin 플랫폼이 MLPerf Endpoints v1.0 에이전틱 추론 벤치마크에서 최고 성능을 입증했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0",
+   "body": "Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool... Agentic workloads are demanding more from inference systems. AI agents carry growing conversation histories across turns and generate a mix of reasoning, tool calls, and responses. Inference systems must support users at scale while remaining responsive. MLPerf Endpoints v1.0 evaluates this balance between serving capacity and responsiveness using coding and enterprise workflows through API… Source"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia amassed $530 billion in financial guarantees to corner the AI market",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter",
+   "date": "2026-11-16 20:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA, 5,300억 달러 규모 금융 보증으로 AI 시장 독점 체계화",
+    "korean_summary": "NVIDIA가 TSMC 등 파운드리의 생산 능력을 확보하기 위해 한 분기에만 약 2,500억 달러 규모의 공급망 계약을 체결했으며, 이를 통해 경쟁사의 생산 능력 접근을 제한하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-amassed-usd530-billion-in-financial-guarantees-to-corner-the-ai-market-supply-commitments-rose-by-nearly-a-quarter-of-a-trillion-dollars-in-a-single-quarter",
+   "body": "Without a doubt, Nvidia's dominance in the AI hardware market stems not only from the capabilities of its AI accelerators and its vast software ecosystem, but also from its aggressive procurement strategy that effectively denies its rivals access to sufficient production capacity at TSMC and other contractors. The result of his deals is that supply and capacity commitments rose by almost a quarter of a trillion dollars in a single quarter, primarily due to memory procurement, according to SemiAnalysis. However, even Nvidia's former chief executive Jensen Huang had apparently begun to question the sustainability of this strategy before his departure, based on reports from The Wall Street Journal and SemiAnalysis . Over the past several years, Nvidia has not only captured the vast majority of the AI accelerator market, but has also secured a substantial proportion of the world's production capacity for advanced logic, high-bandwidth memory (HBM), and various other components required to build AI accelerators and systems, which has limited the ability of its competitors to ramp up shipments of their processors. To support the deals, Jensen Huang personally negotiated agreements with major suppliers in Taiwan and South Korea. The massive scale of Nvidia's procurement commitments also enabled the company to secure more favorable quotes than its rivals. SemiAnalysis estimates that SK hynix could charge Nvidia between $3.00 and $3.30 per gigabit of HBM4 memory in 2027, whereas other first-tier customers, such as AMD, Amazon, Broadcom, and Google, would pay between $3.70 and $4.10 per gigabit. The analysts believe that as part of an informal arrangement between the two companies, Nvidia gives SK Group preferential access to its AI GPUs. While Nvidia's ability to secure vast production capacities has been instrumental in its success, such commitments also carry considerable risks. At a meeting with senior executives in August, Huang reportedly expressed concerns about the massive volumes of wafers and memory that Nvidia had committed to purchase as major cloud service providers sought to reduce their reliance on the company's hardware in favor of alternative AI accelerator platforms, according to The Wall Street Journal . In a bid to diversify its customer base and create additional demand for its products, Nvidia offered financial guarantees to emerging cloud service providers and data center developers that otherwise could not afford to procure its hardware at scale. As of the end of its fiscal second quarter, Nvidia had $530 billion in gross off-balance-sheet guarantees, up from $184 billion a quarter earlier, as well as $99 billion worth of equity investments, according to SemiAnalysis . As half a trillion dollars seems gargantuan, here is a breakdown based on a filing with the Securities and Exchange Commission: $366 billion in future commitments (of which $279 billion was supply and capacity commitments, mainly for memory and manufacturing); $56 bil"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia stock falls as investors price in fallout from Jensen Huang's resignation",
+   "link": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+   "date": "2026-11-17 06:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가, Jensen Huang CEO 사임 후 4.12% 하락",
+    "korean_summary": "Jensen Huang CEO의 중국 스파이 의혹 관련 사임으로 NVIDIA 주가가 4.12% 하락했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/16/nvidia-stock-price-jensen-huang.html",
+   "body": "Nvidia's stock slid 4.12% Monday in the wake of CEO Jensen Huang's resignation, leading a broader chipmaker selloff after the chip giant lost hundreds of billions in market cap last week. The continued decline since Huang's resignation brought Nvidia's stock to its lowest close since July 1, 2025. Huang resigned from Nvidia, the company's board announced on Thursday, after mounting scrutiny following reports that he had a relationship with a woman believed to be a Chinese spy. Huang told employees he had an affair in an email on Nov. 8. It was later reported that Huang had romantic relationships with two Nvidia employees. Nvidia did not immediately respond to CNBC's request for comment on Friday. An online petition calling for Huang's reinstatement as Nvidia CEO has drawn more than 170,000 signatures, as prominent tech executives, including Elon Musk, rallied behind him. A source familiar with the matter told CNBC, however, that Nvidia's board of directors is not considering bringing back Huang. Meanwhile, U.S. lawmakers are pushing to launch comprehensive investigations into the scandal. Huang cofounded Nvidia in 1993 and led the company through its meteoric rise to becoming the world's most valuable company, with its AI chips underpinning the technology's boom. Nvidia appointed longtime finance chief Colette Kress as interim CEO and said its board would consider both internal and external candidates in its search for a permanent successor. Treasury Secretary Scott Bessent on Sunday called for a \"dramatic shakeup\" at Nvidia, adding that the board should look outside the company for its next chief executive. He also suggested other Nvidia executives should face scrutiny over the chip giant's compliance with U.S. export controls. — CNBC's Caleigh Keating contributed to this report."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "\"매디슨 황, 사실상 비서실장\"…젠슨 황 퇴진 후 권한 시험대",
+   "link": "https://www.hankyung.com/article/2026111715867",
+   "date": "2026-11-17 11:46",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황의 딸 매디슨, 공식 직책 넘어 경영 의사결정 주도",
+    "korean_summary": "뉴욕타임스가 전·현직 임직원 증언을 인용해 매디슨 황이 공식 마케팅 직책을 넘어 경영 회의, 이사회 발표, 대외 메시지에 광범위하게 개입해온 것으로 보도"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026111715867",
+   "body": "AI 추천 뉴스 \"매디슨 황, 사실상 비서실장\"…젠슨 황 퇴진 후 권한 시험대 NYT, 전·현직 임직원 인용해 경영진 갈등 보도 젠슨 황 전 엔비디아 최고경영자(CEO)의 딸 매디슨 황이 공식 직책을 넘어 사실상 아버지의 비서실장 역할을 하며 경영진과 갈등을 빚어왔다고 뉴욕타임스(NYT)가 보도했다. NYT는 16일(현지시간) 전·현직 임직원 10여명을 인용해 매디슨 황 피지컬 AI 부문 제품 마케팅 수석이사가 직함과 관계없이 회사 주요 의사결정과 대외 메시지에 상당한 영향력을 행사했다고 전했다. 피지컬 AI는 로봇이나 자율주행 시스템처럼 현실 세계에서 주변 환경을 인식하고 움직이는 AI다. 매디슨의 공식 업무는 이 분야 제품 마케팅이지만, 실제로는 경영진 분기 회의와 이사회 발표, 마케팅·홍보 전략 등에 폭넓게 관여했다는 게 게 NYT의 보도 내용이다. 황 전 CEO의 가족 가운데는 매디슨 외에 아들 스펜서 황 로봇공학 제품 관리 이사, 사위인 니코 카프레즈 부사장도 엔비디아에서 일해왔다. 엔비디아는 과거 공시에서 황 전 CEO의 자녀들이 재직하고 있지만 \"CEO와 동거하지 않으며, 당사의 임원도 아니고, CEO에게 직접 보고하는 관계도 아니다\"라고 밝혔다. 여기서 임원은 미국 공시상 '집행임원'(executive officer)을 뜻하는 것으로, 사내 직급인 이사·수석이사와는 구분된다. NYT는 매디슨이 공식 보고 체계와 별개로 아버지의 대외 활동과 가족의 이미지 관리에 깊숙이 관여했다고 설명했다. 위기관리 전문업체 헬러를 고용해 황 전 CEO와 가족의 홍보를 지원하고, 지난해 10월 NYT가 엔비디아와 싱가포르 데이터센터 기업 메가스피드의 거래, 황 전 CEO와 앨리스 황의 관계를 보도했을 때도 홍보팀에 강력한 반박을 촉구하고 헬러의 지원을 받도록 했다는 것이다. 매디슨은 황 전 CEO 퇴진 이후 임시 CEO를 맡은 콜레트 크레스 최고재무책임자(CFO)와도 갈등을 빚었다고 NYT는 보도했다. 자신이 추진한 로봇 기업 투자와 남편 카프레즈 부사장이 맡은 데이터센터 기업들과의 거래가 대립의 배경으로 지목됐다. 차기 CEO 후보로 거론되는 이언 벅 부사장과의 충돌도 전해졌다. 올해 개발자 콘퍼런스 GTC를 앞두고 벅 부사장이 기자 브리핑용 발표 자료를 별도로 준비하지 않았다는 이유로 매디슨이 홍보팀 앞에서 소리를 질렀다는 것이다. 황 전 CEO의 측근이던 제이 푸리 부사장 역시 매디슨과 고성이 오가는 다툼을 벌인 뒤 기존 직책에서 물러나 수석고문으로 이동했다고 덧붙였다. 직원들은 최근 수년간 매디슨과 함께 일하는 데 불만을 느낀 주요 임원 12명가량이 회사를 떠났다고 추정했다. 인사 부서는 매디슨에게 경영 방식에 관한 코칭을 받도록 조치하기도 했다고 NYT는 보도했다. 매디슨이 추진한 마케팅 중에는 황 전 CEO를 만화 캐릭터로 만든 '토이 젠슨'도 있었다. 엔비디아는 GTC에서 해당 캐릭터가 그려진 스웨터를 178달러(약 24만원)에 판매하고, 캐릭터가 노래하는 영상도 상영했다. 직원들 사이에서는 창업자 개인을 지나치게 부각해 회사가 사이비 종교단체처럼 비칠 수 있다는 우려가 나왔다고 신문은 전했다. 엔비디아는 황 전 CEO가 혼외관계를 시인한 뒤 이 마케팅을 중단했다. 다만 아들 스펜서에 대한 평가는 다른 상황이다. 소식통들은 그가 조용한 성격으로 자신이 맡은 업무에 집중해왔다고 전했다. 한편 엔비디아는 지난 12일 황 전 CEO의 사임과 크레스 CFO의 임시 CEO 선임을 발표했다. 크레스는 후임이 정해질 때까지 CFO를 겸임한다. 이사회는 내부와 외부 후보를 모두 검토해 정식 CEO를 선임할 계획이다. 김소연 한경닷컴 기자 sue123@hankyung.com"
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "category": "community",
+   "kind": "feed",
+   "title": "Nvidia ordered to explain $12bn supply of AI chips to China",
+   "link": "https://www.reddit.com/r/nvidia/comments/1xxg80n/nvidia_ordered_to_explain_12bn_supply_of_ai_chips/",
+   "date": "2026-11-16 13:33",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "미 정부, NVIDIA의 중국 AI 칩 120억 달러 공급에 대해 설명 명령",
+    "korean_summary": "미국 정부가 NVIDIA에게 중국에 대한 AI 칩 120억 달러 공급에 대해 설명하도록 명령했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.reddit.com/r/nvidia/comments/1xxg80n/nvidia_ordered_to_explain_12bn_supply_of_ai_chips",
+   "body": "submitted by /u/Then_Technology_1240 [link] [comments]"
+  },
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Introduces Nemotron for Science to Accelerate Discoveries With Agents",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+   "date": "2026-11-17 01:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron for Science로 과학 발견 가속화",
+    "korean_summary": "NVIDIA가 Nemotron 3.5 Super VL 모델, LitmusBench 평가 도구, 화학 데이터셋을 통해 과학 에이전트 구축 플랫폼을 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 과학 연구용 AI 에이전트 구축 지원하는 'Nemotron for Science' 출시",
+    "korean_summary": "NVIDIA가 Nemotron 3.5 Super VL 모델과 화학 데이터셋, 포스트트레이닝 레시피를 결합한 **Nemotron for Science**를 출시해 연구자들이 화학·단백질 설계 등 전문 분야 과학 에이전트를 구축하도록 지원한다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Nemotron 3.5 Super VL 오픈 모델, LitmusBench v0.2 화학 데이터셋, 포스트트레이닝 레시피를 결합한 Nemotron for Science 플랫폼 발표",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "화학·단백질 설계 등 과학 연구 분야, Argonne National Laboratory·Jülich Supercomputing Centre 등 연구기관 및 Lila Sciences·Terray Therapeutics·Therna 등 생명과학 기업"
+    },
+    "key_facts": [
+     "LitmusBench v0.2는 화학 추론 학습·평가용으로 약 **50,000개 문제**를 제공하는 오픈 데이터셋",
+     "Terray Therapeutics는 RxnScribe 테스트에서 매칭 기준 하 약 76%의 반응을 복구하며 기존 발표 결과를 상회",
+     "Lila Sciences는 포스트트레이닝으로 양자점 제조 정확도를 61%까지 끌어올려 **GPT-6 Astra의 54%를 10-20배 낮은 추론 비용으로 상회**",
+     "Therna는 단백질 발현 범위 예측 정확도를 프론티어 모델 대비 거의 2배로 향상, 설명 선호도는 기존 모델 대비 96% 비교에서 우위",
+     "DGX Spark 및 데이터센터 인프라를 통해 연구자 데스크톱부터 슈퍼컴퓨팅 센터까지 보안 과학 워크플로우 지원"
+    ],
+    "why_matters": "NVIDIA가 오픈 모델·데이터셋·인프라를 하나로 묶어 과학 연구 분야에서 **GPT-6 Astra 등 경쟁 프론티어 모델보다 낮은 비용으로 우수한 성능**을 입증함으로써, 범용 LLM과의 차별화된 도메인 특화 AI 포지셔닝을 강화한다. 이는 Argonne, Jülich 등 국가급 연구기관과 생명과학 스타트업까지 포괄하는 생태계 확장을 보여준다.",
+    "subject_angle": "NVIDIA는 Nemotron 오픈 모델 패밀리를 과학 도메인으로 확장함으로써 **DGX Spark부터 데이터센터까지 전 인프라 스택을 아우르는 수직 통합 전략**을 강화하고, CUDA-X 가속 도구와 결합해 모델-데이터-인프라 삼각 생태계의 락인 효과를 노린다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Nemotron for Science 플랫폼 및 모델·데이터셋·인프라 제공"
+     },
+     {
+      "name": "Argonne National Laboratory",
+      "context": "StructBioReasoner 멀티에이전트 시스템에 Nemotron 통합, 단백질 치료제 후보 설계"
+     },
+     {
+      "name": "Jülich Supercomputing Centre",
+      "context": "과학 발견 AI 에이전트에 Nemotron 통합"
+     },
+     {
+      "name": "Lila Sciences",
+      "context": "자동화 실험실 프로토콜 설계에 Nemotron 커스터마이징, 양자점 합성 정확도 개선"
+     },
+     {
+      "name": "Terray Therapeutics",
+      "context": "화학 반응 다이어그램에서 반응물·생성물 추출에 Nemotron 포스트트레이닝"
+     },
+     {
+      "name": "Therna",
+      "context": "mRNA 치료제 설계 에이전트용 Nemotron 포스트트레이닝 협업"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA Nemotron for Science",
+      "role": "과학 에이전트 구축을 위한 통합 플랫폼(모델+데이터셋+레시피)"
+     },
+     {
+      "name": "Nemotron 3.5 Super VL",
+      "role": "플랫폼 기반 오픈 모델"
+     },
+     {
+      "name": "LitmusBench v0.2",
+      "role": "화학 추론 평가·포스트트레이닝용 오픈 데이터셋"
+     },
+     {
+      "name": "NVIDIA DGX Spark",
+      "role": "데스크톱급 과학 워크플로우 실행 인프라"
+     },
+     {
+      "name": "CUDA-X",
+      "role": "과학 계산 가속 도구"
+     }
+    ],
+    "watch_next": [
+     "Nemotron for Science의 상용화 일정 및 가격 정책 공개 여부",
+     "추가 연구기관·기업의 도입 확대 사례",
+     "GPT-6 Astra 등 경쟁 모델과의 추가 벤치마크 비교 결과"
+    ]
+   },
+   "related": [],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+   "body": "News Summary: - NVIDIA Nemotron for Science brings together the Nemotron 3.5 Super VL model, scientific evaluations, a new open chemistry dataset and recipes to help researchers build domain-specific science agents. - LitmusBench v0.2 supports both evaluation and post-training for chemistry reasoning, helping researchers assess model capabilities and adapt models to scientific tasks. - NVIDIA DGX Spark and data center infrastructure take Nemotron 3.5 Super VL from researchers’ desktops to supercomputing centers, enabling secure scientific workflows on infrastructure organizations control. - Leading global research institutions, including the U.S. Department of Energy’s Argonne National Laboratory, are using Nemotron to build agents to speed scientific discovery. NVIDIA today introduced NVIDIA Nemotron for Science, bringing together scientific applications of its NVIDIA Nemotron™ 3.5 Super VL open model, a new open chemistry dataset and post-training recipes to help researchers build specialized agents for scientific discovery. Built on Nemotron 3.5 Super VL, Nemotron for Science helps researchers develop agents that reason through scientific problems and put specialized research tools to work. With post-training, scientists can adapt the model to specialized tasks such as conducting experiments for chemistry, protein design and more. Part of Nemotron for Science, LitmusBench v0.2 is a new open dataset with nearly 50,000 questions for training and evaluating language models on chemistry reasoning. Drawing on molecular properties and experimental drug discovery data, it helps researchers improve models’ ability to predict how molecules behave, including their solubility and how the human body processes them. Life sciences companies Lila Sciences, Terray Therapeutics and Therna are using and customizing NVIDIA Nemotron 3.5 Super VL for science applications. Use cases include extracting chemical knowledge, planning experiments and designing therapeutics and laboratory protocols. Major research centers like Argonne and Jülich Supercomputing Centre are integrating it into their drug and scientific discovery AI agents. “Accelerated computing is transforming how scientists tackle the world’s most complex challenges,” said Ian Buck, vice president of hyperscale and high-performance computing at NVIDIA. “Nemotron for Science gives researchers open models, scientific data and post-training recipes to build specialized agents that reason through scientific problems and use CUDA-X accelerated tools to turn ideas into discoveries.” Post-Training Nemotron Open Models for Scientific Discovery Researchers can post-train Nemotron open models with domain-specific data to improve performance on specialized scientific tasks. They can integrate the resulting model into agent workflows that interpret scientific information, generate code and call computational tools. These workflows can use NVIDIA CUDA-X™ accelerated tools to perform scientific computation. Terray Ther"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+   "link": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+   "date": "2026-11-17 01:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Slurm 확장으로 슈퍼컴퓨팅에 양자 컴퓨팅 통합",
+    "korean_summary": "NVIDIA가 Slurm을 확장해 전 세계 30개 슈퍼컴퓨팅 센터의 50개 이상 양자 프로세서를 지원하도록 했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, Slurm 확장으로 양자 컴퓨팅을 슈퍼컴퓨팅에 통합",
+    "korean_summary": "NVIDIA가 IBM, Pasqal 등과 협력해 Slurm 스케줄러를 확장하여 **양자처리장치(QPU)를 기존 슈퍼컴퓨팅 워크플로우에 통합**함으로써 양자-클래식 컴퓨팅 활용의 장벽을 낮췄다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "Slurm 워크로드 매니저를 확장하여 QPU를 슈퍼컴퓨팅 센터의 스케줄링·자원관리 워크플로우에 통합, QRMI/QDMI 인터페이스 지원",
+     "stage": "Announced",
+     "timeline": "SC26 발표, Slurm 26.11은 이번 달(2026년 11월) 중 출시 예정",
+     "scope": "전 세계 약 30개 슈퍼컴퓨팅 센터, 50개 이상의 QPU; Alice & Bob, IBM, IQM, Pasqal, Quantinuum, MQSC가 채택"
+    },
+    "key_facts": [
+     "지난 5년간 슈퍼컴퓨팅 센터의 양자 프로세서 배치가 약 **7배 증가**",
+     "전 세계 약 30개 센터가 50개 이상의 QPU 배치 진행 중",
+     "Slurm 확장은 Alice & Bob, IBM, IQM, Pasqal, Quantinuum, MQSC가 이미 채택했으며 QRMI·QDMI 인터페이스 지원",
+     "새로운 TCBP-JOBS 디코더는 업계 표준보다 **13,000배 빠름**",
+     "Fermilab은 CUDA-Q를 활용해 5개월 걸릴 연구를 3주로 단축; QunaSys는 ABCI-Q에서 1,024개 NVIDIA Hopper GPU로 3억 회 이상의 양자 연산 시뮬레이션"
+    ],
+    "why_matters": "QPU 제조사와 슈퍼컴퓨팅 센터 간 통합이 건별 맞춤 작업에서 표준화된 단일 인터페이스로 전환되면서, **양자-GPU 하이브리드 컴퓨팅의 실질적 과학 활용 확산**이 가속화될 수 있다. 이는 양자 컴퓨팅이 실험실 단계를 넘어 실제 연산 인프라에 편입되는 전환점으로, HPC-양자 생태계 전반의 상호운용성 표준을 좌우할 수 있다.",
+    "subject_angle": "NVIDIA는 CUDA-Q를 중심으로 **양자-GPU 통합 오픈 플랫폼**을 구축하며, Slurm·QRMI·QDMI 등 기존 HPC 생태계 표준을 활용해 양자 하드웨어 업체들을 자사 플랫폼에 락인시키는 전략을 강화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "IBM",
+      "context": "Slurm 양자 확장 공동 개발 및 QPU 제공사"
+     },
+     {
+      "name": "Pasqal",
+      "context": "Slurm 양자 확장 공동 개발 및 QPU 제공사"
+     },
+     {
+      "name": "Alice & Bob",
+      "context": "Slurm 양자 확장 채택 QPU 업체"
+     },
+     {
+      "name": "IQM",
+      "context": "Slurm 양자 확장 채택 QPU 업체"
+     },
+     {
+      "name": "Quantinuum",
+      "context": "Slurm 양자 확장 채택 QPU 업체"
+     },
+     {
+      "name": "MQSC",
+      "context": "Slurm 양자 확장 채택 QPU 업체"
+     },
+     {
+      "name": "Fermilab",
+      "context": "CUDA-Q 활용 연구기관, 연구 시간 대폭 단축"
+     },
+     {
+      "name": "QunaSys",
+      "context": "cuQuantum·Hopper GPU 활용 화학 시뮬레이션 수행"
+     },
+     {
+      "name": "Quantum Motion",
+      "context": "QUICHE 화학 프레임워크를 CUDA-Q와 통합"
+     },
+     {
+      "name": "Altera",
+      "context": "Oxford Quantum Circuits와 FPGA 기반 컨트롤러 설계"
+     },
+     {
+      "name": "Oxford Quantum Circuits",
+      "context": "NVQLink 통한 큐비트 제어·판독 GPU 연동 설계"
+     }
+    ],
+    "products": [
+     {
+      "name": "Slurm 26.11",
+      "role": "QPU를 슈퍼컴퓨팅 스케줄링에 통합하는 확장 버전, 이번 달 출시 예정"
+     },
+     {
+      "name": "CUDA-Q",
+      "role": "양자-클래식 하이브리드 컴퓨팅 오픈 플랫폼 중심축"
+     },
+     {
+      "name": "CUDA-Q QEC",
+      "role": "양자 오류 정정 프로토타이핑 및 테스트, TCBP-JOBS 디코더 포함"
+     },
+     {
+      "name": "CUDA-Q Algorithms",
+      "role": "양자 애플리케이션 빌더용 재사용 가능 컴포넌트 제공"
+     },
+     {
+      "name": "CUDA-Q Pulse",
+      "role": "QPU 큐비트 제어용 펄스 생성 GPU 가속 레이어"
+     },
+     {
+      "name": "NVQLink",
+      "role": "큐비트 제어·판독을 GPU에 연결하는 인터커넥트"
+     },
+     {
+      "name": "cuQuantum",
+      "role": "QunaSys의 대규모 양자 연산 시뮬레이션에 활용"
+     }
+    ],
+    "watch_next": [
+     "Slurm 26.11 실제 출시 후 QPU 통합 센터 수 변화",
+     "추가 QPU 업체(현재 미채택 업체)의 QRMI/QDMI 지원 합류 여부",
+     "CUDA-Q 기반 실제 상용/연구 사례의 추가 공개"
+    ]
+   },
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+     "link": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing",
+   "body": "Quantum processor deployments at supercomputing centers have grown nearly sevenfold over the past five years, with nearly 30 supercomputing centers around the world now in the process of deploying over 50 quantum processors. Many of these centers use Slurm to run scientific supercomputing workloads, so expanding its support for quantum processors builds on familiar workflows and tools, enabling computational chemists, nuclear physicists and materials scientists to bring quantum computing into their research domains without friction. In a new release, Slurm builds on previous work with IBM, Pasqal and the wider quantum computing community to allow QPU builders to create a single interface to their hardware for every supercomputing center, through a simple file. This makes it easier than ever for HPC centers and QPU builders to integrate and serve their hardware. The expansion is already being adopted by Alice & Bob , IBM , IQM , Pasqal , Quantinuum and MQSC and supports the widely used QRMI and QDMI interfaces. Read All NVIDIA Announcements From SC26 Beating the Bottleneck Until now, integrating a QPU into a supercomputing center meant a new software challenge for every new QPU or supercomputing center. By building on existing quantum-HPC interfaces such as QRMI and QDMI, the Slurm expansion allows QPU builders to reuse their integrations across all their deployments. It also means that supercomputing centers can add new quantum processors to their existing scheduling and resource-management workflows without developing bespoke QPU-specific solutions. For quantum computing to advance science, it needs to be used by scientists. Now scientists can run quantum-classical applications developed with platforms such as NVIDIA CUDA-Q with Slurm coordinating access to all the processing they need. Slurm 26.11 will be available later this month. Orchestrating Resources in an Open Quantum-GPU Platform The Slurm expansion adds a community-developed orchestration layer to NVIDIA’s open platform for quantum-GPU supercomputing, which centers around the CUDA-Q open platform for hybrid quantum-classical computing. At SC26, new releases expand all aspects of the platform: CUDA-Q QEC allows researchers developing quantum error correction to rapidly prototype and test new ideas, including with a new decoder server . A new TCBP-JOBS decoder is 13,000x faster than the industry standard. CUDA-Q gets an expanded layer of fault-tolerant primitives that application builders can use to realistically compile their ideas. Fermilab has already used CUDA-Q to perform studies in three weeks that would normally have taken five months. CUDA-Q Algorithms provides reusable components for builders of quantum applications, including new capabilities in helping design the loading data into quantum circuits and tools specifically for chemistry and materials applications CUDA-Q Pulse gives quantum hardware builders a layer for shaping the ‘pulses’ needed to control qubits on a QPU, inclu"
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+   "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+   "date": "2026-11-17 01:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "CUDA-X 라이브러리 확장으로 과학 에이전트 가속",
+    "korean_summary": "NVIDIA가 cuPhoton, cuPotential, cuSpa 등 CUDA-X 라이브러리를 확장해 천체물리학부터 재료과학까지 과학 발견을 가속화했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+     "link": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+   "body": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries faster than ever. Read All NVIDIA Announcements From SC26 Bringing Black Holes Into Focus Seeing a black hole takes a telescope the size of Earth. The Event Horizon Telescope links radio dishes worldwide, generating petabytes of data that can take months to process. With NVIDIA cuPhoton.xBeam, a module within the cuPhoton Toolkit , black hole observations from the Event Horizon Telescope can now be correlated orders of magnitude faster than ever. Analysis that once took over a month now takes eight minutes. By combining global radio dishes into Earth-sized aperture, cuPhoton delivers unprecedented astronomical imaging resolution. cuPhoton successfully correlated observations of powerful black hole jets J1924 and 3C279 in the night sky — making it a reality to reconstruct a Messier 87* black hole galaxy in real time. The entire pipeline, from data loading and processing to visualization, runs on distributed multi-GPU systems or a compact NVIDIA DGX Spark system, helping scientists study how gas spirals inward under a black hole’s powerful gravitational pull. Steering Fusion Simulations Sustaining plasma at millions of degrees is essential to achieving stable, continuous fusion energy. But simulating its behavior is costly: on petascale systems, a single time step can take days, with simulations running for weeks. Experiments also generate data faster than traditional pipelines can process it, often leaving scientists waiting until experiments end to analyze results. Pacific Fusion researchers used NVIDIA cuPhoton.xLens module to extract insights while plasma simulations run, helping them visualize what’s happening as results emerge. The NVIDIA cuPhoton.xLens module extracts insights while plasma simulations run, helping researchers understand what’s happening as results emerge. Researchers can couple the entire pipeline with an NVIDIA Nemotron -powered agent running locally on the same system, enabling interactive analysis that can help steer simulations in real time to inform fusion reactor target and chamber design. Exploring Potential Medicines Molecular simulations help scientists evaluate drug designs before costly laboratory experiments. NVIDIA cuPotential, built on work by researchers at Simons Foundation’s Flatiron Institute and D. E. Shaw Research , accelerates existing simulation software by up to 3x while improving calculation stability and accuracy. It expedites synthetic data creation for generative AI models, finding previously unknown molecular binding sites and calculating the strength of molecular interactions. NVIDIA is working with Schrödinger "
+  },
+  {
+   "source": "NVIDIA Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+   "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+   "date": "2026-11-17 08:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "DGX Spark 개발자 키트로 책상을 슈퍼컴퓨팅 랩으로",
+    "korean_summary": "NVIDIA가 4노드 Grace Blackwell 클러스터인 DGX Spark Developer Kit을 발표해 연구자들이 로컬에서 멀티노드 AI 워크로드를 실행할 수 있게 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "NVIDIA Newsroom",
+     "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+     "link": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/"
+    }
+   ],
+   "uid": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+   "body": "At SC26, an annual supercomputing conference taking place this week in Chicago, NVIDIA is introducing the DGX Spark HPC Developer Kit for researchers, academics and developers. The kit is a four-node cluster of NVIDIA DGX Spark systems , each connected directly to its two neighbors in a ring, with an NVIDIA HPC SDK installation playbook coming soon. Researchers get a place at their desk to run multi-node scientific workloads, AI models and agents, instead of waiting for time on a shared GPU cluster. The kit puts the GB10 Grace Blackwell Superchip on researchers’ desks. A Supercomputing Lab on Any Desk The DGX Spark Developer Kit changes how researchers work. Read All NVIDIA Announcements From SC26 It scales from one system, or node, to four — linked directly to one another over NVIDIA ConnectX-7 networking, with no network switch to buy or set up. At four nodes, it provides 512GB of combined memory and 20TB of NVMe storage that provides researchers more capacity to distribute models and scientific workloads across the cluster. With NVFP4, researchers can deploy models with up to 700B parameters locally across the four DGX Spark clusters, such as DeepSeek V4.1. With that much power at the desk, researchers with a fixed compute and server allocation no longer have to wait in a queue for every job. Teams can develop and debug on their own, saving server hours for production runs and keeping unpublished results, and proprietary datasets on premises. The playbook for NVIDIA HPC SDK is coming soon, bringing GPU-accelerated C, C++ and Fortran compilers, libraries and message passing interface tools to the DGX Spark cluster — the same development tools used on NVIDIA-powered supercomputers. Teams can build and test scientific applications across four nodes, check how computation and data are distributed, and debug communication issues before scaling to larger systems. The kit brings scientific simulation and AI models and agents to the desktop, with demonstrated four-system workloads including LAMMPS with Kokkos for materials simulation and NAMD for molecular dynamics. The broader DGX Spark community has validated GROMACS for molecular dynamics, OpenFOAM for fluid dynamics, WRF for weather modeling and NVIDIA NIM microservices such as OpenFold3 and Boltz-2 for predicting biomolecular structures. Running on DGX Spark, new open dataset and post-training recipes for Nemotron 3.5 Super VL help researchers adapt the model for life sciences and chemistry, enabling secure scientific workflows on infrastructure organizations control. What Researchers Can Do With It The kit opens up new possibilities for researchers. Researchers can explore agent-assisted workflows that prepare simulation inputs, launch runs and summarize results, while the scientists validate the setup and conclusions. Researchers can also train AI models that approximate slow simulations, then use them to refine wing designs toward minimum drag. Before committing supercomputer time, a team can "
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
+   "link": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
+   "date": "2026-11-17 03:30",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA DAQIRI로 실시간 센서 데이터 처리",
+    "korean_summary": "NVIDIA DAQIRI 플랫폼이 실험 진행 중 실시간 신호 처리를 가능하게 하며, Berkeley Lab에서 초당 500Gb 이상 카메라 데이터를 스트리밍 처리한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
+   "body": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of instrument data per second into GPU memory - Berkeley Lab’s Molecular Foundry uses DAQIRI to stream over 500 Gb/s from a new camera, delivering results during the experiment - Enables live scan analysis, telescope signal characterization, experiment guidance, and synchronized interactive digital twins Learn More: https://developer.nvidia.com/daqiri"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Anthropic says Claude Mythos Preview cut AMD MI355X onboarding from up to 12 months to around three days",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+   "date": "2026-11-17 00:00",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Anthropic Claude Mythos, AMD GPU에서 CUDA 모트 침식 신호 발생",
+    "korean_summary": "Anthropic의 Claude Mythos Preview 모델이 AMD MI355X에서 AI 소프트웨어 포팅을 3일 만에 완료하여 NVIDIA CUDA의 경쟁 우위 약화를 시사했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+   "body": "Anthropic told IPO investors that its Claude Mythos Preview model did the software work required to get its AI running on AMD’s GPUs in about three days, with “basically no human intervention,” a job it says used to take six to 12 months. The three days cover prompt processing for one Anthropic model on AMD MI355X GPUs “at a useful level of performance,” with Mythos porting or writing “almost 100% of the kernels.” That kind of low-level code, which ties an AI model to one company’s chips, has long been part of Nvidia’s CUDA moat, and an AI that can write it in days would suggest that moat is eroding. Tom Brown, Anthropic’s co-founder and chief compute officer, made the time comparison, noting to investors that the original meant using a team of “dozens of engineers.” The company already runs its models on multiple kinds of chips — on GPUs from Nvidia and AMD, Google’s TPUs, and AWS Trainium — and its fleet is managed as “one fungible pool of compute.” Brown called the early multi-chip decision “an unconventional bet.” It may have been a wise one, given that Google’s TPUs can now natively run AI models built in PyTorch , and Meta uses them in production. Anthropic's claim that the job used to take six to 12 months comes from past work, from its “historical experience bringing up new accelerators using traditional engineering approaches,” where tailoring the code to each hardware platform was a challenge. Removing that onboarding barrier could reduce things to a purchase decision, and Anthropic started working with AMD GPUs for the first time this year, with an agreement for up to 2 gigawatts now in place. CUDA, Nvidia’s programming platform, is very mature at nearly two decades old. AMD has an equivalent, ROCm, with HIP as its programming layer. Code written for CUDA has to be transformed to work there, and AMD even built a tool called HIPify for the process. There is still a conversion cost to switching, and AMD’s vice president of AI software, Anush Elangovan, told EE Times in April that “Claude is better than HIPify because it has web search built in.” AMD has been making the argument that AI can write this type of code since August of last year, presenting a research agent that fell short of human experts at the time. In September of that year, AMD CEO Lisa Su said on the Possible podcast that much of AI software is written in CUDA, which needs to be “translated to AMD,” and “a ton of that can now be done in software.” Moving forward to July earlier this year, AMD’s senior vice president of AI, Vamsi Boppana, said its engineers were using AI models to generate GPU kernels, and Su said that when she asked whether her team was helping the Anthropic engineer working on the MI355X, she was told they didn’t need any help. Boppana said that in some cases, the resulting kernels were even “better than the most manually tuned versions.” Under its July agreement with Anthropic, AMD is also using Claude to optimize workloads for its Instinct GPUs and to "
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Trump calls for Jensen Huang reinstatement as Nvidia CEO",
+   "link": "https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen",
+   "date": "2026-11-17 03:24",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "트럼프, Jensen Huang의 NVIDIA CEO 복귀 지지 발언",
+    "korean_summary": "트럼프 대통령이 중국 칩 밀반출 의혹과 외도 스캔들로 물러난 Jensen Huang의 CEO 복귀를 지지하겠다고 발언했으나 NVIDIA 보드는 국가보안 조사를 진행 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/trump-calls-for-jensen-huang-reinstatement-as-nvidia-ceo-nvidia-board-reportedly-refuses-to-reinstate-disgraced-ceo-due-to-ongoing-national-security-investigation-into-jensen",
+   "body": "Following reports that ousted Nvidia CEO Jensen Huang is plotting a return to the company , President Donald Trump has voiced his own support for such a move, Bloomberg reports. However, according to new insight from CNBC , Nvidia's board of directors is not considering the move and is instead focused on its ongoing investigation into Huang's extramarital affairs and a national security investigation, likely into possible allegations of chip smuggling into China . Trump reportedly made his comments in support of Huang's return to reporters at the White House on Monday, ahead of his trip to Asia. \"I would not mind that,\" he said. \"A lot of people are asking Jensen; they think Jensen should go back. That certainly isn’t a bad idea.” While Trump noted Huang's financial situation, he said the CEO did not put national security at risk and did not know Megaspeed executive Alice Huang was suspected of being a Chinese intelligence asset . Last week, the President said that Apple's former CEO Tim Cook was the only man to replace Huang in Nvidia's top job. Trump's comments also contrast sharply with those of Treasury Secretary Scott Bessent, who this week has called for Nvidia to replace Huang with an outsider, while giving the company 100 days to explain its dealings with China. As mentioned, Jensen Huang's purported return does not seem to be an option the board is seriously considering. A person familiar with the matter told CNBC that the board of directors is focused on investigating Huang's conduct and a national security investigation and is not discussing his return. A large petition has started circulating pertaining to Huang's reinstatement, with Elon Musk the most notable to sign . Musk had ventured so far as to say it would be an 'honor' to hire Huang , presumably to his Terafab project, following revelations of his exit. While rumblings of possible illicit chip smuggling into China have dogged Nvidia for well over a year, Huang's tenure as founder and CEO ended somewhat abruptly last week after a series of revelations spiraled to bring about his resignation. In the wake of reports that US officials were said to be concerned about his close relationship with Megaspeed executive Alice Huang, it later transpired that Huang had indeed had an affair with Ms. Huang, and that there were suspicions she was a Chinese intelligence asset. Since that news broke, it has further been revealed that Huang also had an inappropriate relationship with one of his direct reports, Nvidia's VP of health care, Kimberly Powell , and that the company covered up the fling. Perhaps more concerningly for Jensen Huang, it has been alleged that Ms. Huang and Megaspeed may have been involved in chip smuggling into China to the tune of more than $7 billion , with hundreds of thousands of H100 and H200 chips said to have found their way into the country at her behest, a factor analysts believe may be the true reason behind Huang's exit. For now, Nvidia's former CFO Colette Kres"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang could be plotting return as Nvidia CEO, report claims",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-could-be-plotting-return-as-nvidia-ceo-report-claims-allies-have-formed-a-war-room-to-drive-reinstatement-days-after-resignation-scandal",
+   "date": "2026-11-16 21:37",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Jensen Huang, NVIDIA CEO 복귀 계획 중 - 실리콘밸리 인사들 지지",
+    "korean_summary": "Jensen Huang이 외도 스캔들로 사임한 후 CEO 복귀를 계획 중이며 Elon Musk와 Tim Sweeney 등 실리콘밸리 인사들이 복귀를 지지하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-could-be-plotting-return-as-nvidia-ceo-report-claims-allies-have-formed-a-war-room-to-drive-reinstatement-days-after-resignation-scandal",
+   "body": "Just days after he left the company under a cloud of extramarital affairs, including one with an alleged Chinese spy, former Nvidia CEO Jensen Huang might be on his way back to the company he founded. That's after a number of his allies rallied in support for Huang, including influential SpaceX CEO Elon Musk and outspoken Epic Games CEO Tim Sweeney. The pair are just two of those demanding that Nvidia's board has a rethink, hoping that it will choose to \"Bring Jensen Back\" to the company. Huang is now discussing that possibility, according to a Financial Times report . \"Huang has discussed with confidantes the possibility of returning, according to multiple people familiar with the matter,\" the report claimed, adding that allies were putting together a \"war room\" of Silicon Valley figures to try and lobby for his return. Huang's resignation from his Nvidia post came after he released a statement confirming his affair , one which could have repercussions far beyond Nvidia itself. U.S. intelligence was reported to believe that the woman involved in an affair with Jensen Huang, Alice Huang (no relation), is a spy working for the Chinese Ministry of State Security , or MSS. Ms. Huang was an executive at Megaspeed, an AI company accused of smuggling $2 billion worth of AI chips into China via a subsidiary called Speedmatrix. Since Jensen Huang admitted to his adultery, it was further alleged that he had a second affair, this time with an Nvidia executive who reported to him . That alone would potentially constitute a violation of Nvidia's own code of conduct. But the affair with an alleged Chinese spy is likely to be the most troublesome for the former-but-potentially-returning CEO. Now, an open letter sent to Nvidia's board by Huang's allies has urged them to leave “all options on the table, including the potential return of Jensen Huang.” The open letter was penned by Altimeter Capital founder Brad Gerstner and Atreides Management boss Gavin Baker, both shareholders. @yunta_tsai A petition is underway to reinstate Jensen and I’m signing it too November 13, 2026 However, Nvidia has already started looking elsewhere. After placing chief financial officer Colette Kress in charge on an interim basis, it's believed the company has approached Arm chief executive Rene Haas as a potential Huang successor . Haas spent around seven years at Nvidia before leaving in 2013, but no official confirmation has been announced, nor is it likely to be until a decision is made. It's possible that Huang can expect a vote of confidence from U.S. President Donald Trump, with the pair having a good relationship to date. But Trump recently called for former Apple CEO Tim Cook to take over at Nvidia . Outside of the White House, Huang has other concerns to deal with. Congress has summoned him to appear before a Select Committee over his affair with the suspected Chinese spy, threatening to subpoena him if necessary ."
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Firmus looks to raise $3bn in private equity and secure prepayments - report",
+   "link": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report/",
+   "date": "2026-11-17 02:36",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "Firmus, $3B 모금 및 NVIDIA 등 주요 고객으로부터 선결제 확보 추진",
+    "korean_summary": "호주 클라우드 스타트업 Firmus가 $3B을 모금하면서 NVIDIA, OpenAI, Meta 등 주요 고객으로부터 선결제를 확보하려 하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/firmus-looks-to-raise-3bn-in-private-equity-and-secure-prepayments-report",
+   "body": "Australian neocloud Firmus is looking to raise $3 billion in equity and lock in prepayments from some of its biggest customers. Following its failed attempt to launch an initial public offering, which Firmus blamed on market volatility, the company has turned back to private markets, hoping to secure alternative funding. The Australian Financial Review reports that alongside the private raise, Firmus is also aiming to secure prepayments from some of its largest customers, including Nvidia, OpenAI, and Meta. AFR says that this could finance up to 12.5 percent of Firmus' contracts being developed, citing three anonymous sources with knowledge of the plan. As of September 2026, the company had some 916MW of contracted capacity, and just 46MW up and running. Firmus declined to comment to AFR. Prepayments seem to be increasingly turned to by neoclouds as the once seemingly endless well of private capital has begun to dry up. In the last week, neoclouds CoreWeave and Nebius both posted their quarterly earnings results, addressing what CoreWeave's CEO Mike Intrator called \"recent volatility in the capital markets.\" CoreWeave emphasised that \"more than 75 percent of committed capex is tied to investment-grade and enterprise customers. With the remainder tied to the world's leading AI labs and AI native companies, the pricing of these facilities reflects the underlying customer commitments and our proven ability to deliver. They can finance anywhere from 70 percent to 100 percent of the associated capex.\" Nebius, meanwhile, has leaned heavily on prepayments, stating that deals signed in the quarter had prepayments that would cover 100 percent of the associated capex. CFO Maria del Dado Alonso Sanchez said of the company's strategy: \"If the terms in the capital market are not attractive, we can allocate more capacity to the long-term contracts. If, on the other hand, we have the availability to raise capital at attractive terms, we will be very opportunistic about it, and we will shift more of those allocations.\" Firmus's most recent private funding round saw the company raise $2bn, with a post-money valuation of $10.5bn."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+   "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "date": "2026-11-17 07:01",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment",
+     "partnership"
+    ],
+    "korean_title": "NVIDIA 등 칩메이커, Anthropic IPO에 총 $26B 투자 참여",
+    "korean_summary": "NVIDIA를 포함한 주요 칩메이커와 클라우드 제공자들이 Anthropic IPO에 총 $26B을 투자하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "body": "Altimeter Capital is aiming to invest $5 billion in the Anthropic initial public offering, Brad Gerstner told CNBC's \"Halftime Report\" on Monday. \"I think this is a cornerstone compounder for a long time,\" Gerstner said, noting that his investment would be five times the amount he's ever put into an IPO. \"It's where the trade is going.\" Anthropic is expected to go on Nasdaq on Thursday in a milestone event for the artificial intelligence industry. It would be the first major AI lab to go public, beating OpenAI, which has said it's targeting an IPO next year. Gerstner is investing alongside the leading chipmakers and cloud providers, many of which count on Anthropic as a customer. Advanced Micro Devices, Broadcom, Google, Micron, Microsoft, Nvidia and Taiwan Semiconductor Manufacturing Co. are collectively investing $26 billion at the IPO price, which is currently expected at $70 to $78 a share. Anthropic is planning to offer 825 million shares at a valuation of about $1.4 trillion. Gerstner is friends with former Nvidia CEO Jensen Huang, and sent a letter to the board of directors last week pushing them to take their time and run a full investigation on Huang's tenure before deciding who should run the company. Gerstner said he has confidence in CFO and interim CEO Colette Kress, and noted that Huang had not discussed a comeback as CEO with him. While Anthropic is hitting the market at a particularly tough moment — coming after a downturn in semiconductors, a massive anti-AI swing in Washington and the Huang saga — Gerstner said he's still optimistic. \"They have done such an excellent job presenting this company, they're in such an excellent position on the financials,\" Gerstner said, \"that folks like me are making this a major order.\""
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+   "link": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia/",
+   "date": "2026-11-16 23:06",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황 CEO 복귀 고려 중, 실리콘밸리 임원들 '전쟁실' 가동",
+    "korean_summary": "젠슨 황이 개인 스캔들로 사임 후 복귀를 추진 중이며 실리콘밸리 임원들이 보드 압박 로비를 전개하고 있음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+   "body": "Jensen Huang is considering a comeback as Nvidia’s chief executive, as allies in Silicon Valley pressure the company’s board to reinstate him days after the tech executive resigned over reports he had affairs with a suspected Chinese spy and a subordinate. Huang has discussed with confidants the possibility of returning, according to multiple people familiar with the matter—even as an independent probe by Nvidia’s board investigates the conduct that led to a spectacular leadership crisis at the $4 trillion chip company this week. One Huang ally told the FT they were putting together a “war room” of Silicon Valley executives to lobby for the former Nvidia chief’s return and would try to garner support from the White House. Read full article Comments"
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "AMD \"MI455X 토큰 처리량 엔비디아 대비 30% 향상\"",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=65482",
+   "date": "2026-11-17 01:53",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [
+     "new-chip"
+    ],
+    "korean_title": "AMD MI455X, NVIDIA Vera Rubin 대비 토큰 처리량 30% 향상 주장",
+    "korean_summary": "AMD가 MI455X의 DeepSeek-R1 추론 성능이 NVIDIA Vera Rubin NVL72보다 30% 높다고 발표"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=65482",
+   "body": "AMD가 최신 서버용 그래픽처리장치(GPU) 인스팅트의 인공지능(AI) 연산 성능을 공개하고 추가 제품군도 발표했다.AMD는 12일(현지시간) AMD 헬리오스에 탑재된 MI455X는 MLPerf의 AI 추론 성능 오프라인 테스트에서 딥시크-R1 모델 구동 시 GPU당 초당 2만1333토큰 처리량을 기록했다고 밝혔다. 지난 11일 공개된 엔비디아 베라 루빈 NVL72 서버 랙(Rack)의 동일 테스트 결과 대비 30% 높다.해당 추론 성능은 시스템 데이터 대역폭 차이에서 기인한다. MI455X는 엔비디아 루빈 GPU 대비 고대역폭메모"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "OpenAI signs on for 457MW AI capacity with TensorWave",
+   "link": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave/",
+   "date": "2026-11-17 02:21",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "OpenAI, TensorWave와 457MW AI 용량 6년 계약 체결",
+    "korean_summary": "OpenAI가 AMD GPU 기반 neocloud인 TensorWave와 6년간 457MW 용량 공급 계약을 맺었으며 2027년 상반기 운영 개시 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave",
+   "body": "AI lab OpenAI has signed a contract with AMD-focused neocloud TensorWave for 457MW of capacity. Under a six-year agreement, TensorWave will provide OpenAI with IT capacity powered by AMD Instinct MI455X GPUs across multiple data center locations. The capacity will comprise Helios rack-scale systems and be operated as dedicated, single-tenant capacity for OpenAI. Currently, operations are expected to begin in the first half of 2027 and be fully deployed by early 2028. The AMD Helios racks were launched in July and combine AMD Instinct MI455X GPUs, 6th Gen AMD Epyc 'Venice' server CPUs, AMD ROCm software, and AMD Pensando networking into a singular rack-scale architecture. In comparison to published specifications of rival Nvidia's Vera Rubin NVL72 rack, AMD claims 15 percent more peak FP4 performance, 50 percent more high-bandwidth memory (HBM) capacity, six percent more HBM bandwidth, and 50 percent more scale-out bandwidth. AMD also claims that it will deliver up to 30 percent more tokens per dollar. A single rack provides up to 2.9 exaflops peak FP4, 1.4 exaflops peak FP8, 31 terabytes of HBM4 memory, and 1.7 petabytes/second of memory bandwidth. This is TensorWave's largest deployment contract to date. “AI infrastructure is entering a new phase, where the ability to deliver hundreds of megawatts of advanced compute reliably and at speed will separate the companies that can support frontier AI from those that cannot,” said Piotr Tomasik, president and co-founder of TensorWave. “TensorWave was built to prove that AMD infrastructure could operate at the scale and reliability that the world’s most demanding AI companies require. This deployment takes that work to an entirely new level, with TensorWave helping deliver a meaningful portion of the infrastructure behind OpenAI and AMD’s next generation of AI compute.” Uday Ruddarraju, CTO for compute at OpenAI, added: \"As demand for AI continues to grow, expanding access to reliable, large-scale compute is critical to our ability to build and deliver increasingly capable models. “We’re excited to advance our previously announced partnership with AMD through this agreement with TensorWave, which will help us continue scaling AI to serve more people and organizations around the world.” In June 2026, TensorWave secured $350 million in a Series B funding round, enabling it to expand its AI infrastructure footprint. TensorWave claims to have secured 2GW of long-term data center capacity across the US. The company is a known customer of TecFusions. In January 2026, the company signed an additional 20MW capacity agreement with TecFusions for data centers in Pennsylvania and Arizona. TecFusions was previously set to lease capacity at Fermi's Project Matador, but the two officially went their separate ways earlier this month."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+   "link": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+   "date": "2026-11-17 04:46",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 이사회, Jensen Huang CEO 복귀 계획 없음을 확인",
+    "korean_summary": "NVIDIA 이사회가 Jensen Huang을 CEO로 복귀시킬 계획이 없다고 명확히 했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Reddit r/nvidia",
+     "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+     "link": "https://www.reddit.com/r/nvidia/comments/1xxvuki/nvidia_board_is_not_considering_bringing_jensen/"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+   "body": "Nvidia's board of directors is not considering bringing back Jensen Huang as CEO, a person familiar with the matter told CNBC. The board is focused on an investigation into Huang, and is not in discussions to bring him back, said the person, who spoke on condition of anonymity in order to discuss internal matters. Nvidia has hired law firm Wachtell Lipton to lead a probe into Huang's conduct and whether it compromised national security or company secrets. Last week, Huang resigned from Nvidia, the company he founded, after 33 years as CEO. The resignation came days after Huang admitted to an affair, and news stories alleged he had an affair with Alice Huang, who worked for a customer and is alleged to have contact with Chinese intelligence, as well as affairs with employees at Nvidia. Over the weekend, the Financial Times reported that Huang had discussed coming back with allies. Altimeter Capital's Brad Gerstner told CNBC on Monday that Huang had not discussed a comeback with him. A representative for Huang declined to comment on speculation on Sunday. Many in the tech world have called for Huang to return as Nvidia CEO. An online petition calling for his reinstatement has drawn 180,000 signatures as well as support from major figures including Elon Musk, Y Combinator CEO Garry Tan and Epic Games CEO Tim Sweeney. President Donald Trump said on Monday that he is open to Jensen Huang returning as CEO of Nvidia. \"It was not put at risk, and our country is now stronger than ever before,\" Trump told reporters when asked about U.S. national security concerns. On Friday, a representative for Nvidia's board said it was in the process of selecting a search firm for the Nvidia CEO role."
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "올트먼 \"젠슨 없는 AI혁명 상상 어렵다\"…복귀 질문엔 즉답 피해",
+   "link": "https://www.hankyung.com/article/202611170565i",
+   "date": "2026-11-17 03:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "샘 올트먼 '젠슨 없는 AI 혁명 상상 어렵다', 복귀 여부는 직접 답변 회피",
+    "korean_summary": "OpenAI CEO 샘 올트먼이 젠슨 황의 AI 산업 기여도를 강조하며 공감을 표시했으나 복귀 가능성 질문에는 직접 답변하지 않음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/202611170565i",
+   "body": "- 기사 스크랩 - 댓글 - 공유 - 글자크기 - 프린트 Google 검색에서 한국경제 기사를 더 자주 볼 수 있습니다. \"영웅에게도 결점 있어…그에게 깊이 감사\" 3년 전 이사회에 축출됐다 복귀한 올트먼 \"엔비디아 보증 여전히 신뢰…AI산업은 건재\" 샘 올트먼 오픈AI 최고경영자(CEO)가 16일(현지시간) 미국에서 열린 세마포의 '실리콘밸리 앤드 더 월드(Silicon Valley & The World)' 행사에서 최근 엔비디아 CEO 자리에서 물러난 젠슨 황에 대해 이같이 말했다. 올트먼 CEO는 젠슨 황의 복귀 가능성을 묻는 질문에 \"그 질문에 답할 만큼 충분히 알지 못한다\"며 즉답을 피했다. 대신 젠슨 황이 AI산업 발전에 기여한 공로를 강조하며 깊은 감사와 공감을 표시했다. 사회자는 올트먼 CEO에게 \"약 3년 전 당신도 이사회에 의해 축출된 경험이 있다\"며 \"젠슨 황 복귀를 요구하는 서한은 당시 당신의 지지자들이 작성한 서한을 거의 그대로 베낀 것\"이라고 말했다. 이어 \"젠슨이 돌아와야 한다고 생각하느냐\"고 물었다. 올트먼 CEO는 \"젠슨은 오랫동안 나의 영웅이었다. 영웅에게도 결점은 있다\"고 답했다. 그는 \"나도 비슷한 상황을 겪었기 때문에 개인적으로 깊이 공감한다\"며 \"그때 어떤 기분이었는지 기억한다. 아주 오래전 일처럼 느껴지지만 말이다\"라고 말했다. 올트먼 CEO 역시 2023년 11월 17일 오픈AI 이사회로부터 전격 해임됐다. 당시 이사회는 올트먼 CEO와의 신뢰 문제를 이유로 그를 축출했다. 이후 오픈AI 직원들의 집단 반발과 투자자인 마이크로소프트(MS)의 압박이 이어지자 이사회는 나흘 만인 11월 21일 그의 복귀에 합의했다. 이번 젠슨 황 퇴진 이후에도 실리콘밸리에서는 그의 복귀를 요구하는 움직임이 확산하고 있다. 올트먼 CEO는 젠슨 황과 오픈AI의 오랜 협력관계도 강조했다. 그는 \"그가 세운 회사는 초기부터 우리에게 투자했고, 우리도 일찍부터 그에게 베팅했다\"며 \"그에게 극도로, 극도로 감사하고 있다\"고 말했다. 이어 \"그가 보여준 야심과 사업의 규모는 AI산업 발전에 매우 중요한 역할을 했다\"고 평가했다. 젠슨 황의 퇴진이 AI산업 전반에 미칠 영향에 대해서는 낙관적인 전망을 내놨다. 엔비디아의 데이터센터 투자 보증이 이전만큼 신뢰받을 수 있겠느냐는 질문에는 \"엔비디아는 거대한 기업이다. 사람들은 여전히 엔비디아의 보증을 매우 신뢰한다고 생각한다\"고 답했다. 그는 \"젠슨과 엔비디아는 매우 깊이 연결돼 있다\"면서도 \"현재 AI에 대한 수요가 워낙 크고 실제 매출과 사용량도 강하게 증가하고 있기 때문에 AI산업 자체는 괜찮을 것\"이라고 말했다. 그러면서 \"젠슨은 거대한 야심으로 산업을 앞으로 밀어붙이는 특별하고 가치 있는 역할을 했다\"고 덧붙였다. 엔비디아는 지난 12일 젠슨 황 사임을 공식 발표하고 콜레트 크레스 최고재무책임자(CFO)를 임시 CEO로 선임했다. 실리콘밸리=김인엽 특파원 inside@hankyung.com 한경 프리미엄9의 모든 콘텐츠는 한국경제신문의 저작물로 저작권법의 보호를 받습니다. 사전 허가 없는 무단 전재·복제·배포·캡처 공유·AI 학습 활용 및 상업적 이용을 금합니다. 위반 시 서비스 이용 제한 및 민형사상 법적 책임이 발생할 수 있습니다."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "AI가 스스로 부수는 쿠다 제국의 성벽… 엔비디아 독점의 유효기간은 [이승현의 AI 네이티브]",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001182",
+   "date": "2026-11-17 15:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "AI 모델이 CUDA 종속성을 3일 만에 제거... 엔비디아의 GPU 독점 체계 흔들린다",
+    "korean_summary": "Anthropic의 Claude Mythos 모델이 NVIDIA GPU 코드를 AMD 가속기로 자동 이식하는 작업을 6개월에서 3일로 단축했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001182",
+   "body": "지난 11월 11일, 기업공개(IPO)를 앞둔 AI 빅테크 앤트로픽(Anthropic)이 투자 설명회에서 공개한 한 장의 슬라이드가 실리콘밸리와 월스트리트에서 동시에 화제가 됐다. 그동안 엔비디아 그래픽처리장치(GPU)에 맞춰 작성된 AI 모델 코드를 경쟁사인 AMD의 최신 가속기(MI355X)로 옮기는 데는 숙련된 시스템 엔지니어들이 매달려도 꼬박 6개월에서 1년이 걸렸는데 앤트로픽이 자사의 차세대 모델 클로드 미토스(Claude Mythos)를 투입하자 이 방대한 작업이 단 3일 만에 끝났다는 것이다. 인간의 개입은 최소화됐고,"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-Labs-Sigma-8B (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B",
+   "date": "2026-11-17 02:02",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-Labs-Sigma-8B",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release",
+     "research"
+    ],
+    "korean_title": "Nemotron-Labs-Sigma-8B 모델 업데이트",
+    "korean_summary": "NVIDIA가 Hugging Face에서 혁신적 연속 확산 아키텍처 기반 Nemotron-Labs-Sigma-8B 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-Labs-Sigma-8B:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: transformers · tags: transformers, safetensors, nemotron_labs_sigma, feature-extraction, nvidia, pytorch, nemotron-labs, text-generation, conversational, custom_code, en, arxiv:2610.02665 · downloads 106 · likes 4. README:  # Nemotron-Labs-Sigma-8B ## Model Overview ## Description Nemotron-Labs-Sigma-8B is a 8-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedding space, where the denoiser network and the token embeddings are learned jointly by likelihood optimization. Text is decoded in parallel blocks: each block of tokens is refined over a configurable number of denoising steps (Denoising Diffusion Probabilistic Model (DDPM) or Denoising Diffusion Implicit Model (DDIM) samplers) with self-conditioning, while previously committed tokens are reused through a standard key-value (KV) cache. Fewer steps trade a little quality for large speedups, and the smooth continuous representation makes the model amenable to few-step distillation and trajectory steering. This is the *base* (pretrained) model. It is intended as a starting point for research on parallel-decoding language generation, fine-tuning, and distillation, not as an instruction-following assistant; for chat and instruction following, use the corresponding [instruct variant](https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B-instruct). This model is ready for commercial or non-commercial use. ## Highlights - Continuous-space diffusion language modeling at 8B scale with reasoning accuracy competitive with state-of-the-art masked (discrete) diffusion LMs. - Block-parallel decoding: whole blocks of tokens are d"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 (업데이트)",
+   "link": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+   "date": "2026-11-17 03:34",
+   "score": 6,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-3.5 Super Vision-Language 120B 모델의 NVFP4 양자화 버전 출시",
+    "korean_summary": "NVIDIA가 120B 파라미터 비전-언어 모델 Nemotron-3.5 Super VL의 NVFP4 양자화 버전을 Hugging Face에서 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: image-text-to-text · library: transformers · tags: transformers, safetensors, nemotron_h_omni, image-text-to-text, nvidia, pytorch, nemotron-3.5, conversational, custom_code, en, es, fr · downloads 108912 · likes 282. README:  # NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 ## Description **NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4** is the quantized release of NVIDIA Nemotron 3.5 Super VL, a vision-language model for reasoning, coding, tool use, document understanding, and video understanding. It uses NVFP4 quantization to reduce memory requirements, with quantization-aware distillation from the [BF16 model](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16). The model combines interleaved Mamba-2, Mixture-of-Experts (MoE), and attention layers with a C-RADIO vision encoder and a vision-language connector. It has **120B total parameters** and **12B active parameters** and supports context lengths up to **1M tokens**. Multi-Token Prediction (MTP) enables native speculative decoding. This model is ready for commercial or non-commercial use. ## Model Summary | | | |:---|:---| | **Total Parameters** | 120B (12B active) | | **Architecture** | Mamba-2–Transformer hybrid Mixture of Experts with a C-RADIO vision encoder | | **Precision** | NVFP4 (mixed-precision quantized weights) | | **Context Length** | Up to 1M tokens; deployment settings are listed below | | **Inputs / Outputs** | Text, images, and video / text | | **Deployment** | 1× DGX Spark, 1x NVIDIA RTX PRO 6000, 1× H200, 2× H100, or 1× GB200 | | **Speculative Decoding** | Native Multi-Token Prediction (MTP) | | **Reasoning Mode** | Configurable through the chat template (`enable_thinking=True/False`) | | **Recommended"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/nemotron-labs-audio-visual-flamingo-hf (업데이트)",
+   "link": "https://huggingface.co/nvidia/nemotron-labs-audio-visual-flamingo-hf",
+   "date": "2026-11-17 07:12",
+   "score": 5,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/nemotron-labs-audio-visual-flamingo-hf",
+    "version": "video-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-Labs-Audio-Visual Flamingo 멀티모달 모델 업데이트",
+    "korean_summary": "NVIDIA가 오디오-비주얼 이해 및 추론 능력을 갖춘 Nemotron-Labs-Audio-Visual Flamingo 멀티모달 모델을 Hugging Face에서 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/nemotron-labs-audio-visual-flamingo-hf:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: video-text-to-text · library: transformers · tags: transformers, safetensors, audiovisualflamingo, text-generation, audio, video, image, audio-visual, multimodal, reasoning, video understanding, long-video · downloads 625 · likes 21. README:  # Model Overview Nemotron-Labs-Audio-Visual Flamingo: Open Audio-Visual Intelligence for Long and Complex Videos Nemotron-Labs-Audio-Visual Flamingo (AVF) is a fully open audio-visual large language model for joint understanding and reasoning over audio, images, and videos. `nvidia/nemotron-labs-audio-visual-flamingo-hf` is the instruction-tuned checkpoint for multimodal understanding and text generation over long, complex, real-world videos. AVF is designed for settings where the answer depends on both what is visible and what is audible: speech, background sounds, music, visual actions, scene transitions, temporal order, and cross-modal alignment. This checkpoint generates text only; streaming TTS is not included in the Hub weights. **This model is for non-commercial research purposes only.** ## Description AVF extends the Audio Flamingo line from audio-only understanding into joint audio-visual reasoning. The model combines: - a SigLIP vision tower for images and sampled video frames - Dynamic-S2 visual preprocessing for high-resolution images and long videos - an AF-Whisper audio encoder for speech, sound, and music - separate 2-layer projectors for visual and audio features - temporal audio-visual interleaving with Constrained Rotary Time Embeddings (CRTE) - a Qwen2.5-7B-family decoder-only language backbone Unlike systems that process video frames and audio as independent streams, AVF aligns synchronized visual and audio chunks, interleaves them along the time axis, an"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-Labs-Sigma-8B-instruct (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B-instruct",
+   "date": "2026-11-17 02:02",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-Labs-Sigma-8B-instruct",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-Labs-Sigma-8B-instruct 모델 버전",
+    "korean_summary": "NVIDIA가 Hugging Face에서 Nemotron-Labs-Sigma-8B의 Instruct 튜닝 파생 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-Labs-Sigma-8B-instruct:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: transformers · tags: transformers, safetensors, nemotron_labs_sigma, feature-extraction, nvidia, pytorch, nemotron-labs, text-generation, conversational, custom_code, en, arxiv:2610.02665 · downloads 22 · likes 1. README:  # Nemotron-Labs-Sigma-8B-instruct ## Model Overview ## Description Nemotron-Labs-Sigma-8B-instruct is a 8-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedding space, where the denoiser network and the token embeddings are learned jointly by likelihood optimization. Text is decoded in parallel blocks: each block of tokens is refined over a configurable number of denoising steps (Denoising Diffusion Probabilistic Model (DDPM) or Denoising Diffusion Implicit Model (DDIM) samplers) with self-conditioning, while previously committed tokens are reused through a standard key-value (KV) cache. Fewer steps trade a little quality for large speedups, and the smooth continuous representation makes the model amenable to few-step distillation and trajectory steering. This is the *SFT* (supervised fine-tuned) variant, fine-tuned for instruction following on top of the corresponding [Base model](https://huggingface.co/nvidia/Nemotron-Labs-Sigma-8B). Use the bundled chat template to format conversations. This model is ready for commercial or non-commercial use. ## Highlights - Continuous-space diffusion language modeling at 8B scale with reasoning accuracy competitive with state-of-the-art masked (discrete) diffusion LMs. - Block-parallel decoding: whole blocks of tokens are denoised together; sampling quality holds up well down to few denoising steps per block."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-Labs-Sigma-3B-instruct (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct",
+   "date": "2026-11-17 02:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-Labs-Sigma-3B-instruct",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-Labs-Sigma-3B-instruct 모델 업데이트",
+    "korean_summary": "NVIDIA가 Hugging Face에서 Nemotron-Labs-Sigma-3B-instruct 3B 파라미터 연속 확산 언어 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-Labs-Sigma-3B-instruct:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: transformers · tags: transformers, safetensors, nemotron_labs_sigma, feature-extraction, nvidia, pytorch, nemotron-labs, text-generation, conversational, custom_code, en, arxiv:2610.02665 · downloads 19 · likes 1. README:  # Nemotron-Labs-Sigma-3B-instruct ## Model Overview ## Description Nemotron-Labs-Sigma-3B-instruct is a 3-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedding space, where the denoiser network and the token embeddings are learned jointly by likelihood optimization. Text is decoded in parallel blocks: each block of tokens is refined over a configurable number of denoising steps (Denoising Diffusion Probabilistic Model (DDPM) or Denoising Diffusion Implicit Model (DDIM) samplers) with self-conditioning, while previously committed tokens are reused through a standard key-value (KV) cache. Fewer steps trade a little quality for large speedups, and the smooth continuous representation makes the model amenable to few-step distillation and trajectory steering. This is the *SFT* (supervised fine-tuned) variant, fine-tuned for instruction following on top of the corresponding [Base model](https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B). Use the bundled chat template to format conversations. This model is ready for commercial or non-commercial use. ## Highlights - Continuous-space diffusion language modeling at 3B scale with reasoning accuracy competitive with state-of-the-art masked (discrete) diffusion LMs. - Block-parallel decoding: whole blocks of tokens are denoised together; sampling quality holds up well down to few denoising steps per block."
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-Labs-Sigma-3B (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B",
+   "date": "2026-11-17 02:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-Labs-Sigma-3B",
+    "version": "text-generation"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Nemotron-Labs-Sigma-3B 모델 업데이트",
+    "korean_summary": "NVIDIA가 Hugging Face에서 Nemotron-Labs-Sigma-3B 베이스 모델을 업데이트했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-Labs-Sigma-3B:2026-11-17",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-generation · library: transformers · tags: transformers, safetensors, nemotron_labs_sigma, feature-extraction, nvidia, pytorch, nemotron-labs, text-generation, conversational, custom_code, en, arxiv:2610.02665 · downloads 93 · likes 0. README:  # Nemotron-Labs-Sigma-3B ## Model Overview ## Description Nemotron-Labs-Sigma-3B is a 3-billion-parameter continuous diffusion language model. Instead of generating text one token at a time, it denoises Gaussian noise in a low-dimensional (16-D) continuous token-embedding space, where the denoiser network and the token embeddings are learned jointly by likelihood optimization. Text is decoded in parallel blocks: each block of tokens is refined over a configurable number of denoising steps (Denoising Diffusion Probabilistic Model (DDPM) or Denoising Diffusion Implicit Model (DDIM) samplers) with self-conditioning, while previously committed tokens are reused through a standard key-value (KV) cache. Fewer steps trade a little quality for large speedups, and the smooth continuous representation makes the model amenable to few-step distillation and trajectory steering. This is the *base* (pretrained) model. It is intended as a starting point for research on parallel-decoding language generation, fine-tuning, and distillation, not as an instruction-following assistant; for chat and instruction following, use the corresponding [instruct variant](https://huggingface.co/nvidia/Nemotron-Labs-Sigma-3B-instruct). This model is ready for commercial or non-commercial use. ## Highlights - Continuous-space diffusion language modeling at 3B scale with reasoning accuracy competitive with state-of-the-art masked (discrete) diffusion LMs. - Block-parallel decoding: whole blocks of tokens are d"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 12,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.2
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 33,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 88,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 6,
+   "enriched": 6,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 90.4
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 6.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 7.1
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=NVIDIA%20when%3A2d",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=%22NVIDIA%20DRIVE%22%20OR%20%22NVIDIA%20Isaac%22%20O",
+   "sec": 0.4
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 44,
+   "enriched": 10,
+   "error": "",
+   "sec": 2.6
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 19.7
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 8,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 7.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=nvidia",
+   "sec": 1.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 25,
+   "in_window": 19,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  }
+ ]
+}
