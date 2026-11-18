@@ -1,0 +1,1936 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-18",
+ "window": [
+  "2026-11-17",
+  "2026-11-18"
+ ],
+ "generated": "2026-11-18T12:01:47+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 2027 회계연도 3분기 매출 **1,158억 달러**(전년 대비 103% 증가)를 기록하며 데이터센터 사업 호조를 입증했다.",
+  "NVIDIA 이사회가 Jensen Huang 사임 이후 **CEO 복귀 가능성을 재차 거부**하며 경영 불확실성을 조기 차단했다.",
+  "NVIDIA가 시장 전망치를 상회하는 실적과 **가이던스 상향**을 발표해 CEO 교체 혼란 속 투자자 신뢰를 확보했다."
+ ],
+ "cards": [
+  {
+   "source": "NVIDIA Newsroom",
+   "category": "official",
+   "kind": "feed",
+   "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+   "link": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+   "date": "2026-11-18 06:20",
+   "score": 10,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA Q3 FY2027 실적 발표, 매출 115.8억 달러로 103% 증가",
+    "korean_summary": "NVIDIA가 Q3 FY2027에서 매출 115.8억 달러(전년대비 103% 증가), 데이터센터 매출 107.6억 달러를 기록했으며 Vera Rubin NVL72의 본격 출하를 시작했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 2027 회계연도 3분기 매출 1,158억 달러로 전년 대비 103% 성장",
+    "korean_summary": "NVIDIA가 Vera Rubin NVL72 출하 개시와 데이터센터 매출 급증에 힘입어 2027 회계연도 3분기 매출 **1,158억 달러(전년 대비 103% 증가)**를 기록했다고 발표했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "2027 회계연도 3분기 실적 발표 및 Vera Rubin NVL72 출하 개시, 4분기 매출 가이던스 제시",
+     "stage": "Shipping",
+     "timeline": "2026년 10월 25일 종료 분기 (Q3 FY27)",
+     "scope": "데이터센터 컴퓨팅 전체 고객 (CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure, Nebius, SpaceXSI 등)"
+    },
+    "key_facts": [
+     "3분기 매출 1,158억 달러, 전년 대비 103% 증가, 전분기 대비 20% 증가",
+     "데이터센터 매출 1,076억 달러, 전년 대비 **110% 증가**",
+     "Vera Rubin NVL72가 회사 역사상 가장 빠른 제품 램프로 생산·출하 개시, CoreWeave·Google Cloud·Microsoft Azure·Oracle Cloud Infrastructure·Nebius에서 가동",
+     "이사회가 2026년 9월 **1,500억 달러 규모 자사주 매입 승인 확대** 결정, 분기 중 282억 달러를 주주에게 환원",
+     "4분기(53주 포함) 매출 가이던스는 1,300억 달러(±3%)이며, 중국 데이터센터 컴퓨트 매출은 가이던스에 미반영"
+    ],
+    "why_matters": "데이터센터 매출이 전년 대비 110% 증가하며 AI 인프라 투자가 여전히 가속화되고 있음을 보여주고, **Vera Rubin NVL72의 역대 최단 램프업**은 차세대 플랫폼으로의 전환이 예상보다 빠르게 진행되고 있음을 시사한다. 동시에 중국 매출을 가이던스에서 제외한 점은 지정학적 리스크가 실적 전망에 구조적으로 반영되고 있음을 의미한다.",
+    "subject_angle": "NVIDIA는 Vera Rubin 생태계를 Oracle Cloud Infrastructure, Google Cloud 등 주요 클라우드에 신속히 확산시키며 **차세대 아키텍처 전환을 주도**하는 포지션을 강화하고 있으며, Vera CPU를 통해 HPC·에이전틱 사이언스 영역까지 자체 CPU 플랫폼으로 사업 범위를 확장하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "CoreWeave",
+      "context": "Vera Rubin NVL72 및 Vera CPU 가동 파트너"
+     },
+     {
+      "name": "Google Cloud",
+      "context": "Vera Rubin 기반 A5X 인스턴스 일반 출시"
+     },
+     {
+      "name": "Microsoft Azure",
+      "context": "Vera Rubin NVL72 가동 파트너"
+     },
+     {
+      "name": "Oracle Cloud Infrastructure",
+      "context": "Vera Rubin NVL72 및 Vera CPU 일반 출시"
+     },
+     {
+      "name": "Nebius",
+      "context": "Vera Rubin NVL72 가동 파트너"
+     },
+     {
+      "name": "SpaceXSI",
+      "context": "Vera Rubin NVL72 인프라 구축 중"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Grace Blackwell·Vera Rubin 용량 확장 및 아키텍처 공동 설계"
+     },
+     {
+      "name": "Cisco, Google, Meta, Microsoft, Visionbay",
+      "context": "Vera Rubin 오픈 아키텍처 인프라 확장 참여"
+     },
+     {
+      "name": "OpenAI, Verda, Nscale",
+      "context": "Vera CPU 기반 구축 기업"
+     },
+     {
+      "name": "AWS",
+      "context": "Vera CPU 기반 구축 기존 파트너"
+     }
+    ],
+    "products": [
+     {
+      "name": "Vera Rubin NVL72",
+      "role": "차세대 데이터센터 컴퓨팅 플랫폼, 역대 최단 램프업으로 출하 개시"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "NVIDIA 최초 완전 자체 설계 데이터센터 CPU, HPC·랙스케일 플랫폼 기반"
+     },
+     {
+      "name": "Grace Blackwell",
+      "context_note": "Anthropic 등에 확장 공급"
+     }
+    ],
+    "watch_next": [
+     "Q4 FY27 실제 매출이 가이던스($130.0B) 대비 어떻게 실현되는지",
+     "중국 데이터센터 컴퓨트 매출 재반영 여부 및 규제 변화",
+     "Vera Rubin NVL72의 추가 클라우드·고객 확산 속도"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · NVIDIA Newsroom",
+     "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS1NfbkFJSF9aUlBlMkphNjFXMERWTUluUWdsNjQxajFFbjdEdEJHU0FwRU1USGh2MkVWMUYtNDRFNU1qVHlRSzNyQ2ZUQXZuY2M4bWhmdHVaczZqXzJWaExTVXVIQlIyVWNQMUZsV09Ua0F1UDJ5Wkg0engwakZkbDdkaGRTOHZpN200clNRVXR5QXZRNXo0NDlBaVZJdDE0?oc=5"
+    }
+   ],
+   "uid": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+   "body": "- Revenue of $115.8 billion, up 103% from a year ago - Data Center revenue of $107.6 billion, up 110% from a year ago - Vera Rubin NVL72, the most versatile and advanced computing platform ever built, has shipped NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago. For the quarter, GAAP and non-GAAP gross margins were 74.8% and 74.9%, respectively. GAAP and non-GAAP earnings per diluted share were $2.70 and $2.68, respectively. “Our momentum is real. NVIDIA is an exceptional technology leader, powered by the relentless innovation of our people,” said Colette Kress, interim CEO and executive vice president and chief financial officer of NVIDIA. “Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater.” In September 2026, NVIDIA’s Board of Directors approved an increase of $150 billion to the company’s share repurchase authorization, without expiration. During the third quarter of fiscal 2027, NVIDIA returned $28.1 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the third quarter, the company had approximately $227.3 billion remaining under its share repurchase authorization. NVIDIA will pay its next quarterly cash dividend of $0.25 per share on December 23, 2026, to all shareholders of record on December 2, 2026. Q3 Fiscal 2027 Summary | GAAP | | | | | | | | | | | | | ($ in billions, except earnings per share) | Q3 FY27 | | | Q2 FY27 | | | Q3 FY26 | | | Q/Q* | Y/Y* | | Revenue | $115.8 | | | $96.2 | | | $57.0 | | | 20 % | 103 % | | Gross margin | 74.8 % | | | 75.0 % | | | 73.4 % | | | (0.2) pts | 1.4 pts | | Operating expenses | $9.2 | | | $8.4 | | | $5.8 | | | 9 % | 57 % | | Operating income | $77.5 | | | $63.7 | | | $36.0 | | | 22 % | 115 % | | Net income | $65.3 | | | $59.7 | | | $31.9 | | | 9 % | 105 % | | Diluted earnings per share | $2.70 | | | $2.46 | | | $1.30 | | | 10 % | 108 % | | *Q/Q and Y/Y calculated based on $ in millions | | | | | | | | | | | | | Non-GAAP | | | | | | | ($ in billions, except earnings per share) | Q3 FY27 | Q2 FY27 | Q3 FY26 | Q/Q* | Y/Y* | | Revenue | $115.8 | $96.2 | $57.0 | 20 % | 103 % | | Gross margin | 74.9 % | 75.0 % | 73.5 % | (0.1) pts | 1.4 pts | | Operating expenses | $8.8 | $8.2 | $5.8 | 7 % | 52 % | | Operating income | $77.9 | $64.0 | $36.1 | 22 % | 116 % | | Net income | $64.9 | $54.0 | $31.0 | 20 % | 109 % | | Diluted earnings per share | $2.68 | $2.22 | $1.27 | 21 % | 111 % | | *Q/Q and Y/Y calculated based on $ in millions | | | | | | Outlook NVIDIA’s outlook for the fourth quarter of fiscal 2027, which includes an additional week, is as follows: - Revenue is expected to be $130.0 billion, plus or minus 3%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook. - GAAP and non-GAAP gross margins are expected to be between 71.0% and 72.0%. - GAAP and non-GAAP ope"
+  },
+  {
+   "source": "Google News · Forbes",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reports Strong $115.8 Billion Quarterly Revenue In First Earnings Post-Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUJmOHVDa3pHaFgtbEl4V3Z5N0I4Nm1GVG9FTC1BZnhxUnZXWk9jTDZfMWNGUktXTEJldTNFZHB2ak8tczdoWk1DYmdmMHAwbmM0YU9rSk5DYlViQTd4MXZfcEJ2em5wY0VvT1kxWnlDcjBaaFJhZEFxSnJsYVhqbDRkNVVCQUNZcXJldDlBZlVGSWxmY29iY2czbzJ3X2J3R2hoajA5blFLNEtpc3dVMzl0b2FOODZid2QxRnFBX1BLUkNveGhJamdkNDlZZGMyNEVYMzN5cw?oc=5",
+   "date": "2026-11-18 06:35",
+   "score": 10,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 10,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 분기 매출 1,158억 달러 기록",
+    "korean_summary": "NVIDIA가 분기 매출 1,158억 달러를 기록했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZUJmOHVDa3pHaFgtbEl4V3Z5N0I4Nm1GVG9FTC1BZnhxUnZXWk9jTDZfMWNGUktXTEJldTNFZHB2ak8tczdoWk1DYmdmMHAwbmM0YU9rSk5DYlViQTd4MXZfcEJ2em5wY0VvT1kxWnlDcjBaaFJhZEFxSnJsYVhqbDRkNVVCQUNZcXJldDlBZlVGSWxmY29iY2czbzJ3X2J3R2hoajA5blFLNEtpc3dVMzl0b2FOODZid2QxRnFBX1BLUkNveGhJamdkNDlZZGMyNEVYMzN5cw",
+   "body": ""
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "category": "filing",
+   "kind": "sec",
+   "title": "NVIDIA SEC 8-K 공시 — Item 2.02 실적 발표, Item 9.01 재무제표·첨부 문서",
+   "link": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm",
+   "date": "2026-11-17 09:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "SEC",
+    "name": "8-K",
+    "version": "2.02, 9.01"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA SEC 8-K 공시 — Q3 FY2027 실적 및 재무제표",
+    "korean_summary": "NVIDIA가 SEC에 8-K를 제출하여 Q3 FY2027 실적(Item 2.02) 및 재무제표(Item 9.01)를 공식 보고했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, SEC에 실적 발표 관련 8-K 공시 제출",
+    "korean_summary": "NVIDIA가 2026-11-17 Item 2.02(실적 발표)와 Item 9.01(재무제표·첨부 문서)을 포함한 8-K를 SEC에 제출했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "SEC에 Current Report(8-K) 제출 — Item 2.02 실적 발표 및 Item 9.01 재무제표·첨부 문서 포함",
+     "stage": "Filed",
+     "timeline": "2026-11-17",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "**제출일은 2026-11-17**",
+     "공시 항목은 Item 2.02(실적 발표)와 Item 9.01(재무제표·첨부 문서)",
+     "**CIK 번호는 1045810**",
+     "원문 링크: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm",
+     "구체적인 실적 수치나 가이던스 내용은 본문에 없음"
+    ],
+    "why_matters": "**정기 실적 발표에 따른 공시 절차로, NVIDIA의 분기 실적이 공개되었음을 시사**하나 구체적 수치는 본문에 없어 시장 영향 평가는 불가하다. 실적 발표는 반도체·AI 시장 전반의 투자 심리에 영향을 미치는 핵심 이벤트이므로 후속 수치 확인이 필요하다.",
+    "subject_angle": "**이번 8-K는 정형화된 공시 절차로, NVIDIA의 사업 전략 변화를 직접 시사하는 내용은 확인되지 않음**.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "공시 제출 주체"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "8-K 첨부 문서(Exhibit) 내 실적 보도자료(press release) 상세 수치 확인",
+     "해당 분기 실적의 매출·가이던스·데이터센터 부문 세부 내용",
+     "실적 발표 이후 컨퍼런스 콜 또는 후속 공시 여부"
+    ]
+   },
+   "related": [],
+   "uid": "sec:0001045810-26-000088",
+   "body": "NVIDIA가 SEC에 8-K(Current report)를 제출했다. 제출일 2026-11-17. 공시 항목: Item 2.02 실적 발표, Item 9.01 재무제표·첨부 문서. 원문: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/0001045810-26-000088-index.htm"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia's Colette Kress tells Cramer: Employees and customers are not going anywhere",
+   "link": "https://www.cnbc.com/2026/11/17/nvidias-colette-kress-tells-cramer-customers-and-employees-are-not-going-anywhere.html",
+   "date": "2026-11-18 10:02",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 임시 CEO Kress, Q3 실적 초과 달성 및 고객 충성도 강조",
+    "korean_summary": "임시 CEO Colette Kress가 Q3 실적 발표 이후 고객과 직원이 계속 NVIDIA와 함께한다고 강조했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia 임시 CEO Colette Kress, Jensen Huang 사퇴 이후에도 고객·직원 이탈 없다고 강조",
+    "korean_summary": "Nvidia의 임시 CEO Colette Kress는 Jensen Huang의 갑작스러운 사퇴 이후에도 고객과 직원들이 회사에 계속 전념하고 있다고 CNBC Jim Cramer에게 밝혔다.",
+    "action": {
+     "actor": "Colette Kress (Nvidia interim CEO)",
+     "action": "Jensen Huang 사퇴 이후 고객·직원 이탈 우려에 대해 CNBC 'Mad Money' 인터뷰에서 반박 발언",
+     "stage": "Report",
+     "timeline": "2026-11-18 이전 화요일 저녁 (분기 실적 발표 직후)",
+     "scope": "Hyperscaler 고객 및 전 직원 대상, 미확인 지역"
+    },
+    "key_facts": [
+     "Jensen Huang이 '불륜 스캔들(affair scandal)' 속에서 CEO직을 사퇴했으며, 이는 사퇴 후 첫 분기 실적 발표였다",
+     "Nvidia는 **시장 예상치를 상회한 분기 매출·실적을 발표**했고, 2028 회계연도 매출 성장 전망을 기존 70%에서 75%로 상향했다",
+     "실적 발표 후 애프터마켓에서 주가가 약 4% 상승했다",
+     "일부 월가 관계자들은 고객들이 자체 설계 칩이나 AMD 등 경쟁사로 이동할 가능성을 우려했다",
+     "Kress는 **'공급은 늘었으니 수요가 더 필요하다'는 고객 반응**을 인용하며 고객 이탈이 없다고 강조했다"
+    ],
+    "why_matters": "Jensen Huang의 리더십 교체라는 불확실성 속에서도 Nvidia가 매출 전망을 상향하고 주요 고객(hyperscaler) 관계가 유지되고 있음을 공식 확인한 것은 AI 칩 시장에서 **Nvidia의 지배적 지위가 단기적으로 흔들리지 않았음**을 시사한다. 반면 경쟁사(AMD)나 고객의 자체 설계 칩으로의 전환 가능성이 여전히 월가의 핵심 우려로 남아 있어, 향후 리더십 안정성이 지속적인 관찰 대상이 된다.",
+    "subject_angle": "Nvidia는 리더십 교체 리스크를 **분기 실적 호조와 상향된 매출 가이던스**로 상쇄하며 고객·투자자 신뢰를 방어하는 전략을 취하고 있고, 이는 향후 CEO 승계 구조와 기업 문화 지속성이 사업 안정성의 핵심 변수임을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "실적 발표 기업, CEO 교체 당사자"
+     },
+     {
+      "name": "AMD (Advanced Micro Devices)",
+      "context": "Nvidia 고객 이탈 시 대안으로 언급된 경쟁사"
+     },
+     {
+      "name": "CNBC",
+      "context": "인터뷰 보도 매체 ('Mad Money')"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Jensen Huang 사퇴 경위 및 영구 CEO 선임 여부",
+     "주요 hyperscaler 고객사들의 실제 구매·공급 계약 변화 여부",
+     "Nvidia 2028 회계연도 매출 성장률(75%) 가이던스 달성 추이"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia's Colette Kress tells Cramer: Employees and customers are not going anywhere",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlR5Ymx3ZnpuN09oNDZrZFdBYWFIRlJnTVB5S3pIN2lsbFJTSU5RTE1oOFBrcGVxSzlDX0JZUTY5VHRvck1fSktMWFMweXc0X2xUQVMwZkp4MEZud3k0NFZZeFFHLWVOTGhHVmNkVXN1R0wwc0JxNVhOSF9DNzBhQ2EwSVVWdGVrTDY5STN3cmxrQjVhQXhyOFltOEdEeFF2Wi1CWDF6cFpjZTA1czR2cjBER0FhNTNVRGfSAb8BQVVfeXFMTkZ1WTdZc2lDX0puNHBtRUp2QjdLaFVJdFRQTzlCWXZGZkhzdHVaeU5mUGlUQTJGd0dNNXVpNGxXTzlzVkc5SVZ5eUZFd3J5ZERrcDBITHhfUkJweGxQRWRvOFRaYmtfQzh0WlpSaDBacU9ldXBreUdVUDhJSFNWWXBKcmpaSEhMM05xSXJ4ajlCZmlxdl93anQ3TTM2VlZuaEt2RjVSdkFxZE13dzRmVnlNYUVXM09YZlVkU0lBR1U?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/17/nvidias-colette-kress-tells-cramer-customers-and-employees-are-not-going-anywhere.html",
+   "body": "Nvidia's customers and employees remain committed to the company despite last week's abrupt departure of longtime leader Jensen Huang. That's the message interim CEO Colette Kress conveyed exclusively to CNBC's Jim Cramer shortly after the AI chip giant delivered a quarterly beat and strong guidance. \"[Hyperscalers] are the ones that are right now feverishly looking for more focus in terms of the compute that we have available,\" Kress said on \"Mad Money.\" \"This concept that anything is changing in terms of any of our types of customers — that is just not true. They are all continuing to be with us, and we have a very deep breath of different customers.\" Kress' comments came after Nvidia reported better-than-expected quarterly earnings and revenue and bumped up its fiscal 2028 revenue growth estimate to 75% from the previous 70%. It was the first earnings report since Huang's resignation as CEO amid a widening affair scandal. Shares rose nearly 4% in after-hours trading as the results helped ease concerns about the chipmaker's outlook following the leadership shake-up. Some on Wall Street have wondered whether Huang's departure would prompt certain Nvidia customers to lean harder into their in-house designed chips and/or competitors such as Advanced Micro Devices. During the \"Mad Money\" interview Tuesday evening, Kress emphasized that major customers have continued expressing interest in the company's products. \"I have seen already with many of these [customers] contacting me and saying, 'Great to see everything intact. Great to see that there's more supply. I need more demand.'\" Customer demand, however, wasn't the only issue facing Nvidia. Huang's departure has also raised questions about whether the chipmaker can retain the engineers and other employees who helped build its dominance in artificial intelligence. The co-founder was widely viewed as the driving force behind Nvidia's technology and corporate culture. Kress dismissed concerns about a potential employee exodus, stressing to Cramer that the workforce's longstanding commitment to the company is intact, and so is support from the leadership team. \"The company has been built under the perspective that the employees look at Nvidia as their life work, and many of them have been here for many decades, working with us both from a technology standpoint or a business and operations perspective,\" she said. \"We have high confidence that our employees are definitely still working, still working with us, and enjoy ... the work here at Nvidia,\" Kress told Cramer. Sign up now for the CNBC Investing Club to follow Jim Cramer's every move in the market. Questions for Cramer? Call Cramer: 1-800-743-CNBC Want to take a deep dive into Cramer's world? Hit him up! Mad Money Twitter - Jim Cramer Twitter - Facebook - Instagram Questions, comments, suggestions for the \"Mad Money\" website? madcap@cnbc.com"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia promises that revenue will keep soaring — for now",
+   "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "date": "2026-11-18 09:16",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA Q3 실적 $115.8B 달성, FY2028 가이던스 75%로 상향",
+    "korean_summary": "임시 CEO Kress가 Q3 수익 103% 성장, Q4 $130B 예상, FY2028 성장률 75% 가이던스를 발표했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, CEO 교체 혼란 속에서도 매출 고성장 지속 전망 재확인",
+    "korean_summary": "Nvidia가 Jensen Huang 사임 이후 Colette Kress 임시 CEO 체제에서 분기 실적을 발표하며 **매출 고성장세가 지속될 것**이라고 투자자들을 안심시켰다.",
+    "action": {
+     "actor": "Nvidia (Colette Kress, CFO 겸 임시 CEO)",
+     "action": "3분기 실적 발표 및 4분기·FY2028 매출 전망 상향 제시",
+     "stage": "Announced",
+     "timeline": "2026-11-18 (화요일 실적 발표), FY2027 3분기 기준",
+     "scope": "전사 매출 가이던스, 데이터센터 중심 글로벌 고객·공급망"
+    },
+    "key_facts": [
+     "3분기 매출 $115.8 billion, 전년 동기 대비 **103% 증가**, 자체 가이던스($108 billion) 상회",
+     "4분기 매출 전망 **$130 billion (±3%)** 제시",
+     "FY2028 연간 매출 성장률 전망을 기존 70%에서 **약 75% YoY로 상향**",
+     "2026년 9월 주식 매입 프로그램을 $150 billion 확대, 분기 중 $28.1 billion 매입 집행, 잔여 매입 여력 $227.3 billion",
+     "Huang 사임 이후 주가 약 10% 하락했으나 실적 발표 후 시간외 거래에서 약 4% 상승"
+    ],
+    "why_matters": "CEO 교체라는 리더십 리스크 속에서도 **AI 데이터센터 수요가 공급을 초과**하는 구조가 유지되고 있음을 수치로 입증했다. 이는 경쟁사들에게 Nvidia의 시장 지배력이 단기간에 흔들리지 않을 것이라는 신호로 해석될 수 있다.",
+    "subject_angle": "Kress는 메모리·첨단 패키징 용량 확보와 TSMC와의 공급-수요 격차 해소 노력을 강조하며, **리더십 교체와 무관하게 공급망 및 고객 관계가 정상 가동 중**임을 부각해 사업 연속성을 강조했다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "실적 발표 주체, 매출 가이던스 상향"
+     },
+     {
+      "name": "TSMC",
+      "context": "Nvidia의 칩 제조 파트너, 공급-수요 격차 해소 협력"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Huang 사임 이후 정식 CEO 선임 여부 및 시점",
+     "FY2027 4분기 실제 매출이 $130 billion 가이던스에 부합하는지",
+     "메모리·첨단 패키징 공급 부족 해소 진행 상황"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Nvidia promises that revenue will keep soaring — for now",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT2lFRzNPZkR6QVI1aTFMRGRhM3ZlekY3eWpacXFXSmdRakNoOURFcXN0ZWRHSWVRQ2ppYjgwUUlDUTZrMUR2QlBNSmQ3LWxqOHN5a2tmX0lDZkNZUWFxUFpCRjF2QmRNRTRTbHN6a0ZHMFppUmRBU3VoTE00dWgzeU9FZjJ5SXZjVTh1SnZULVpwZlk?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now",
+   "body": "Despite the turmoil at Nvidia following the departure of its disgraced founder and CEO Jensen Huang, the company — as expected — delivered a solid quarter on Tuesday. More importantly, Nvidia reassured investors that its streak of record-breaking revenue won’t stop. On Tuesday, CFO-turned-interim CEO Colette Kress reported revenue of $115.8 billion, up 103% from the year-ago quarter and a beat above the company’s guidance. Nvidia had told Wall Street to expect $108 billion in revenue for its third quarter of fiscal 2027. Kress also projected an even bigger fourth quarter, with revenue expected to reach $130 billion, plus or minus 3%. She also said full-year revenue is on track to exceed expectations. “We are raising our fiscal year 2028 outlook. We expect revenue to grow approximately 75% year over year, up from 70% and off what is now a higher fiscal 2027 base,” Kress said on the quarterly conference call on Tuesday. “Our outlook considers data center readiness, the strength and durability of end customer demand, and our customers’ access to capital.” The company also reminded investors that it was using some of its billions in cash to buy back shares. In September 2026, Nvidia increased its share buyback program by $150 billion. It spent $28.1 billion on its own shares during the quarter and still had another $227.3 billion remaining in the kitty for additional repurchases. Ironically, Nvidia could also benefit from the plunge in its share price following Huang’s resignation last week, should shares remain depressed over the longer term. The stock is down about 10% since his departure. Investors, however, celebrated Tuesday’s quarterly results, sending shares up about 4% in after-hours trading. Kress stressed that the company was in good shape now and for the foreseeable future, even without Huang at the helm. “We have the best technologists on the planet with a world-class multi-year roadmap,” Kress stressed. “From a business perspective, it’s business as usual. We’ve engaged with our customers, we’ve engaged with our suppliers, our partners. They’re all 100% behind us.” She added that the company has secured memory and advanced packaging capacity and is working with its chip manufacturer, TSMC, to “narrow the supply and demand gaps.”"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia doubles quarterly earnings, raises forecast, “does not intend to reinstate Jensen as CEO”",
+   "link": "https://www.datacenterdynamics.com/en/news/nvidia-doubles-quarterly-earnings-raises-forecast-does-not-intend-to-reinstate-jensen-as-ceo/",
+   "date": "2026-11-18 08:26",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "엔비디아 3분기 매출 103% 급성장, 가이던스 5% 상향 조정",
+    "korean_summary": "엔비디아가 3분기 매출 115.84억 달러(전년 대비 103% 증가)를 달성하고 가이던스를 5% 상향 조정해 75% 성장을 전망했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, 분기 실적 두 배 성장에도 \"Jensen Huang CEO 복귀 없다\" 재확인",
+    "korean_summary": "Nvidia가 데이터센터 매출 급증에 힘입어 분기 매출을 전년 대비 두 배로 늘리고 가이던스를 상향했지만, 이사회는 스캔들로 해임된 창업자 Jensen Huang의 CEO 복귀 가능성을 재차 거부했다.",
+    "action": {
+     "actor": "Nvidia",
+     "action": "분기 실적 발표 및 실적 가이던스 상향, Jensen Huang CEO 복귀 불가 입장 재확인",
+     "stage": "Announced",
+     "timeline": "본문 기준 최근 분기(구체 분기 미확인)",
+     "scope": "전사(데이터센터·엣지 컴퓨팅 부문 포함)"
+    },
+    "key_facts": [
+     "분기 매출 **$115.84 billion, 전년 대비 103% 증가**로 예상치 상회",
+     "데이터센터 매출 $107.6bn(+110% YoY), 엣지 컴퓨팅 매출 $8.2bn(+42% YoY)",
+     "순이익 $65.3bn(+105% YoY), EPS $2.68로 월가 예상치 상회",
+     "**임시 CEO Colette Kress가 가이던스를 5% 상향, 차기 분기 75% 성장 전망**",
+     "이사회 의장 Harvey Jones가 실적 콜에서 'Nvidia does not intend to reinstate Jensen as CEO' 공식 언급"
+    ],
+    "why_matters": "AI 데이터센터 수요가 매크로 불확실성 속에서도 Nvidia 실적을 견인하며 **시장 우려와 달리 성장세가 가속**되고 있음을 보여준다. 동시에 창업자 해임 이후 리더십 불확실성이 지속되는 가운데, 중국向 매출 배제와 Singapore 경유 칩 판매 조사 등 지정학적 리스크도 해소되지 않은 상태다.",
+    "subject_angle": "Nvidia는 창업자 공백 상황에서도 **데이터센터 GPU 수요가 실적을 뒷받침**함을 입증해 AI 인프라 시장에서의 지배적 포지션을 재확인했으나, 고객사 지원(backstop deals)·스타트업 GPU 자금 지원 등 생태계 확장 전략의 지속 여부는 불확실하다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "실적 발표 주체, 리더십 교체 진행 중인 기업"
+     },
+     {
+      "name": "Jensen Huang",
+      "context": "해임된 창업자, 복귀 요구가 있었으나 이사회가 거부"
+     }
+    ],
+    "products": [
+     {
+      "name": "데이터센터 GPU(제품명 미확인)",
+      "role": "데이터센터 매출 110% 성장을 견인한 핵심 매출원"
+     }
+    ],
+    "watch_next": [
+     "차후 분기 75% 성장 가이던스 실제 달성 여부",
+     "Singapore 경유 China向 칩 판매 조사 결과",
+     "신임 상설 CEO 선임 여부 및 고객사 backstop deals 지속 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/nvidia-doubles-quarterly-earnings-raises-forecast-does-not-intend-to-reinstate-jensen-as-ceo",
+   "body": "Nvidia reported revenue up 103 percent over last year, beating expectations at $115.84 billion. However, the company reiterated that it has no plans to bring back founder Jensen Huang, who left this month amid numerous affairs. This quarter was the last with Huang at the helm. The company reported earnings of $2.68 per share, also above Wall Street expectations. Data center revenue was $107.6bn, up 110 percent year-over-year. Edge computing revenue hit $8.2bn, up 42 percent. Net profit hit $65.3bn, up 105 percent. Crucially, amid broader market uncertainty, interim CEO Colette Kress raised guidance by five percent, saying that Nvidia now expects 75 percent growth. The former CEO said that it was \"business as usual at Nvidia.” She added: “Our leadership has stood up so strongly over the last week to support both what we are doing here at earnings, but also supporting all of our different employees around the world. “Remember, we have the best technologists on the planet with a world-class multi-year roadmap. And I think that’s important from a business perspective.” Unresolved questions still remain over whether Nvidia will continue to backstop deals with its customers, fund startups buying GPUs, and make large financial commitments to keep the AI economy going. The company said it is \"not assuming any data center compute revenue from China in our outlook,\" but it faces investigations into its role in selling chips to Singapore that ended up in China. The company has denied any wrongdoing. Nvidia has faced mounting calls to reinstate Jensen Huang, who was fired after admitting an affair with an executive accused of funneling chips into China. Huang also had multiple affairs with Nvidia staffers. Board chair Harvey Jones pushed back on those calls, saying in the earnings call that Nvidia “does not intend to reinstate Jensen as CEO.” More in The Investment & Markets Channel - Episode 2027 Trends and Outlooks: Europe"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "link": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "date": "2026-11-18 06:40",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 3분기 실적 1158억 달러, 황 사임에도 시장 예상 상회",
+    "korean_summary": "NVIDIA가 2027회계연도 3분기 매출 1158억 달러를 기록하며 시장 예상을 6.2% 초과 달성했다"
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, 젠슨 황 사태 언급 없이 3분기 실적 발표",
+    "korean_summary": "Nvidia의 임시 CEO Colette Kress가 전임 CEO 젠슨 황의 사임 경위와 복귀 시도 가능성에 대한 언급 없이 3분기 실적을 발표했으며, 이사회는 황의 CEO 복귀 의사가 없다고 밝혔다.",
+    "action": {
+     "actor": "Nvidia (Interim CEO Colette Kress, Board Chair Harvey Jones)",
+     "action": "Jensen Huang 사임 경위 및 조사 관련 질문을 차단한 채 3분기 실적 발표 진행",
+     "stage": "Announced",
+     "timeline": "화요일(Tuesday), 정확한 날짜 미확인",
+     "scope": "Nvidia 3분기 실적 발표 컨퍼런스 콜"
+    },
+    "key_facts": [
+     "**임시 CEO Colette Kress**가 화요일 3분기 실적을 발표했으며 전임 CEO Jensen Huang의 사임이나 복귀 시도를 처음에는 언급하지 않음",
+     "이사회 의장 Harvey Jones는 실적 콜 시작 전 **\"Huang을 CEO로 복귀시킬 의사가 없다\"**고 공식 선언",
+     "이사회는 Jensen의 사임 경위 및 진행 중인 조사(ongoing investigation)에 관한 질문을 받지 않겠다고 명시",
+     "이전 재무 업데이트에서 예측한 대로 Nvidia가 특정 리스트에 포함됨 (구체적 내용 미확인, 본문 잘림)"
+    ],
+    "why_matters": "AI 반도체 시장을 주도하는 Nvidia에서 창업자 겸 CEO였던 Jensen Huang의 비정상적 사임과 조사 진행은 **지배구조 리스크**로 투자자들의 신뢰와 전략 연속성에 영향을 줄 수 있다. 이사회가 공개 질의를 차단한 점은 사안의 민감성과 법적·내부 조사 가능성을 시사한다.",
+    "subject_angle": "Nvidia의 AI GPU·데이터센터 사업 전략을 주도해온 **Jensen Huang의 공백**은 향후 제품 로드맵과 대외 전략 메시지의 연속성에 불확실성을 더할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "실적 발표 및 리더십 교체 당사자"
+     },
+     {
+      "name": "Colette Kress",
+      "context": "임시 CEO로 3분기 실적 발표 진행"
+     },
+     {
+      "name": "Harvey Jones",
+      "context": "이사회 의장, Huang 복귀 불가 입장 발표"
+     },
+     {
+      "name": "Jensen Huang",
+      "context": "전임 CEO, 사임 경위 및 복귀 시도 논란의 중심"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Jensen Huang 사임 관련 진행 중인 조사(investigation)의 결과",
+     "Nvidia의 차기 정식 CEO 선임 여부 및 시점",
+     "리더십 불확실성이 Nvidia AI 칩 사업 전략·주가에 미치는 영향"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · The Verge",
+     "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9tNlZYUmY4Nlg5cXNiN0E3UHZSZHUtd0dxd1ppWldTNUlxc1VycUpvOWUxbmpQQnpPVXlnT2FSb3dObzFGLWdwT09fVmhvbm82RHJXYjlIN1JtUGVtQjFySUw4RDJFeEtPMjd1QlI3MGhmM00?oc=5"
+    },
+    {
+     "source": "한국경제 IT",
+     "title": "'젠슨 황 사임 충격' 엔비디아 3분기 '깜짝 실적'…매출 1158억달러",
+     "link": "https://www.hankyung.com/article/202611183243i"
+    }
+   ],
+   "uid": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "body": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure , or possible attempt at a return . On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang as CEO,\" and that \"we will not be addressing or taking questions on today's call regarding the circumstances of Jensen's resignation and the ongoing investigation,\" before Kress started with her comments on the results. As it predicted in the last financial update , Nvidia is now on the list of com … Read the full story at The Verge."
+  },
+  {
+   "source": "디일렉",
+   "category": "kr",
+   "kind": "feed",
+   "title": "젠슨 황 공백 없었다…엔비디아 3분기 매출 시장 전망 상회",
+   "link": "https://www.thelec.kr/news/articleView.html?idxno=65581",
+   "date": "2026-11-18 19:53",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 3분기, CEO 공석에도 전년 동기 대비 100% 이상 성장",
+    "korean_summary": "NVIDIA가 3분기 매출 1158억 달러, 영업이익 775억 달러를 기록하며 전년 동기 대비 100% 이상의 급성장을 달성했다"
+   },
+   "summary_data": {
+    "korean_title": "엔비디아, 젠슨 황 CEO 사임 속에서도 3분기 실적 시장 전망 상회",
+    "korean_summary": "NVIDIA가 Jensen Huang CEO 사임이 보도된 가운데서도 2027회계연도 3분기에 시장 전망치를 상회하는 매출과 영업이익을 기록했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "2027회계연도 3분기 실적 발표, 시장 및 자체 전망치 상회",
+     "stage": "Report",
+     "timeline": "2026-11-17 (현지시간)",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "GAAP 매출 **1158억달러**(약 154조6509억원), 전년 동기 대비 103% 증가",
+     "GAAP 영업이익 **775.2억달러**(약 103조5270억원), 전년 동기 대비 115% 증가",
+     "희석 EPS GAAP 기준 2.70달러, Non-GAAP 기준 2.68달러",
+     "실적이 시장과 엔비디아 자체 예상치를 모두 상회",
+     "본문에 Jensen Huang CEO의 사임이 언급됨"
+    ],
+    "why_matters": "경영진 교체라는 불확실성 속에서도 **매출·영업이익이 세 자릿수 성장률**을 유지했다는 점은 AI 반도체 수요가 리더십 변수와 무관하게 견조함을 시사한다. 이는 경쟁사들에게는 NVIDIA의 시장 지배력이 단기간에 흔들리지 않을 것이라는 신호로 해석될 수 있다.",
+    "subject_angle": "**CEO 공백 우려에도 실적이 가이던스를 상회**했다는 사실은 NVIDIA의 성장 동력이 특정 인물이 아닌 AI 인프라 수요 구조 자체에 기반하고 있음을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "실적 발표 주체, CEO 사임 보도의 당사자"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Jensen Huang 사임 배경 및 공식 성명 추가 공개 여부",
+     "후임 CEO 또는 경영 승계 체계 발표",
+     "다음 분기(4분기) 가이던스 및 시장 반응"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.thelec.kr/news/articleView.html?idxno=65581",
+   "body": "젠슨 황 최고경영자(CEO)가 사임한 가운데 엔비디아가 실적 성장세를 이어갔다. 17일(현지시간) 2027회계연도 3분기 실적을 발표에서 반회계기준(GAAP) 매출 1158억달러(약 154조6509억원), 영업이익 775억2000만달러(약 103조5270억원)를 기록했다고 밝혔다. 전년 동기 대비 매출은 103%, 영업이익은 115% 상승했다.희석 주당순이익(EPS)은 GAAP 기준 2.70달러, 비일반회계기준(논GAAP) 기준 2.68달러로 집계됐다.실적은 시장과 엔비디아 자체 예상치를 모두 뛰어넘었다. 증권가에서 집계한 엔비디아"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아, 3분기 매출 155조원… 호실적에 시간외 주가 반등",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001264",
+   "date": "2026-11-18 16:24",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 2027회계연도 3분기 매출 115.8억 달러, 전년 대비 103% 성장",
+    "korean_summary": "NVIDIA가 AI 데이터센터 사업 호조로 3분기 매출 115.8억 달러를 달성해 시장 예상을 상회했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 2027 회계연도 3분기 매출 1158억 달러로 전년比 103% 성장",
+    "korean_summary": "NVIDIA가 AI 데이터센터 사업 호조로 3분기 매출 1158억 달러를 기록해 시장 전망치를 상회하며 시간외 주가가 반등했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "2027 회계연도 3분기 실적 발표",
+     "stage": "Announced",
+     "timeline": "2026-11-17 (현지시각)",
+     "scope": "전사 매출 기준, 지역·고객 세부 범위 미확인"
+    },
+    "key_facts": [
+     "3분기 매출 1158억 달러(약 154조 7000억원) 기록",
+     "전년동기(570억 달러) 대비 **103% 증가**, 전분기(962억 달러) 대비 20% 증가",
+     "LSEG 집계 시장 전망치 1091억 1000만 달러를 상회",
+     "매출과 주당순이익(EPS) 모두 시장 예상치 상회",
+     "실적 발표 후 시간외거래에서 주가 반등"
+    ],
+    "why_matters": "AI 데이터센터 수요가 여전히 가속 성장 구간에 있음을 수치로 재확인시켜 **AI 인프라 투자 사이클의 지속성**에 대한 시장 우려를 완화한다. 경영진 교체 이후에도 실적 모멘텀이 꺾이지 않았다는 점이 투자자 신뢰 유지에 중요하다.",
+    "subject_angle": "**데이터센터 AI 칩 매출의 압도적 성장**이 NVIDIA의 핵심 수익 기반임을 재확인하며, 전년 대비 두 자릿수 이상 고성장 기조가 유지되고 있음을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "실적 발표 당사자, AI 데이터센터 사업 성장 주체"
+     },
+     {
+      "name": "LSEG",
+      "context": "시장 전망치(컨센서스) 집계 기관"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "데이터센터 부문 세부 매출 및 차세대 GPU(Blackwell 등) 공급 현황 공개 여부",
+     "다음 분기 가이던스 및 AI 인프라 수요 지속성 전망",
+     "경영진 교체 이후 사업 전략 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001264",
+   "body": "엔비디아가 인공지능(AI) 데이터센터 사업에 힘입어 155조원 규모의 3분기 매출을 기록했다. 젠슨 황 전 최고경영자(CEO) 퇴진 이후 처음 공개한 실적에서 매출과 주당순이익이 모두 시장 예상을 웃돌자 엔비디아 주가는 시간외거래에서 반등했다. 17일(현지시각) 엔비디아는 2027회계연도 3분기 매출이 1158억달러(약 154조7000억원)를 기록했다고 밝혔다. 전년동기(570억달러)보다 103%, 전분기(962억달러)보다 20% 늘어난 규모다. 런던증권거래소그룹(LSEG)이 집계한 시장 전망치(1091억1000만달러) 대비로도 크"
+  },
+  {
+   "source": "Google News · Axios",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia posts strong earnings amid Jensen Huang exit, reported SEC probe",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ2xBR1ZHQzh2THBkb1pZRVVjV05vQnh2V19IVGtpcTh3c0ZCUUp5R3N5bEtsNENwT0NQUDNMT3p2a1JvUzFtQ1JrUnZPbjdVQmpKMll0SXlDMDlKUWZ1YThuT085dnJoV09YVHp5S1d2Rl9CSk9zdFFXR0xvMXdSWQ?oc=5",
+   "date": "2026-11-18 09:34",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 강한 실적 발표, CEO Huang 퇴출 중 SEC 조사 진행",
+    "korean_summary": "NVIDIA가 3분기 강한 실적을 보고하는 가운데 CEO Jensen Huang 퇴출과 SEC 조사가 함께 보도됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ2xBR1ZHQzh2THBkb1pZRVVjV05vQnh2V19IVGtpcTh3c0ZCUUp5R3N5bEtsNENwT0NQUDNMT3p2a1JvUzFtQ1JrUnZPbjdVQmpKMll0SXlDMDlKUWZ1YThuT085dnJoV09YVHp5S1d2Rl9CSk9zdFFXR0xvMXdSWQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Hill",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia reports strong third quarter after Huang departs",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RSWdFRDV6MGNuUHBES2h2cHZ4Mnd4Tm10N2hYanZlNF8wSUc1VU5TWFRNOGJ3WmJfa0VJWEwwVWs5ME1lVjUxUEU0MUtSbUV0Sm4tVkdOSkctTExzem5NM0pBY1dtNDlSS2xRY2VhVWfSAXZBVV95cUxPdGtkWE0teUhZSUNQZ3l6ZVhocUxfQzJ2SmV1YjgwU3d4UXVWU0M0R25RbXdhSDRMWkFUaHRwR3pKSkhrbnVHbFJReUdXUFhvRzRTWjh6SkdXdEVrTE1FdHRlQ0dzaW9PUE51NGdSRVQ4cFpHV2Z3?oc=5",
+   "date": "2026-11-18 07:11",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA, Huang 퇴출 후 강한 3분기 실적 발표",
+    "korean_summary": "NVIDIA가 CEO 퇴출 후에도 3분기 강한 실적을 기록"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RSWdFRDV6MGNuUHBES2h2cHZ4Mnd4Tm10N2hYanZlNF8wSUc1VU5TWFRNOGJ3WmJfa0VJWEwwVWs5ME1lVjUxUEU0MUtSbUV0Sm4tVkdOSkctTExzem5NM0pBY1dtNDlSS2xRY2VhVWfSAXZBVV95cUxPdGtkWE0teUhZSUNQZ3l6ZVhocUxfQzJ2SmV1YjgwU3d4UXVWU0M0R25RbXdhSDRMWkFUaHRwR3pKSkhrbnVHbFJReUdXUFhvRzRTWjh6SkdXdEVrTE1FdHRlQ0dzaW9PUE51NGdSRVQ4cFpHV2Z3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Instant view: Nvidia earnings beat estimates; attention turns to call",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaWVjeHRTNkRreHFmNVBsYkdQeFJjc1htLXA4enJfTEV5clpxOHZRRGdGZXNkZGFzY2FPWUtTMkdCSGZYZXFHMmE5OVFzUDJuc2ZjRGJybkF2MG1pTkxhMFBRam5wdjFNdG5sRGJaaEN5bE1keENqTkJGb2lPeFJQM2Y2NDAtQ3JvSG9pRXExTFpwSE9iandZTFMtcEEtX21xUXM0?oc=5",
+   "date": "2026-11-18 08:34",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "속보: NVIDIA, 예상치 상회 실적 발표, 실적 콜에 주목",
+    "korean_summary": "NVIDIA가 예상치를 상회하는 실적을 발표하고 시장의 주목이 실적 콜로 집중됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaWVjeHRTNkRreHFmNVBsYkdQeFJjc1htLXA4enJfTEV5clpxOHZRRGdGZXNkZGFzY2FPWUtTMkdCSGZYZXFHMmE5OVFzUDJuc2ZjRGJybkF2MG1pTkxhMFBRam5wdjFNdG5sRGJaaEN5bE1keENqTkJGb2lPeFJQM2Y2NDAtQ3JvSG9pRXExTFpwSE9iandZTFMtcEEtX21xUXM0",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia releases earnings report and says whether Jensen Huang will return as CEO",
+   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZHhGRk9tdlJucHcxOUNkOXR6aC1zTi14VGdRME9scTYwZEdIdUNBTmZwMklOUXctZGhNY2oxcF9WNzlmYzVQaW1xQ05pM1ZrdU51aXFuU2pmT19qMWtKcklLNlVFd2lGQU5meU1fNFUxeGU0X1B0aVBnWHBia1A3NjRXdkxLUUlGaTcwX1lVZWtrMkVSYk44UFBNcDZjV0gyWFBzM2F0VHFDNXk3Z0pSMWl5UXZtNGtQMGJvVENKaV9DaWtPWUYwUE03bk5uSm1rZjNOcjAzazZxWHhN?oc=5",
+   "date": "2026-11-18 08:13",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA, 분기 실적 보고서 공개 및 CEO Huang 복귀 여부 발표",
+    "korean_summary": "NVIDIA가 분기 실적을 공개하면서 동시에 CEO Jensen Huang의 복귀 여부를 명확히 함"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZHhGRk9tdlJucHcxOUNkOXR6aC1zTi14VGdRME9scTYwZEdIdUNBTmZwMklOUXctZGhNY2oxcF9WNzlmYzVQaW1xQ05pM1ZrdU51aXFuU2pmT19qMWtKcklLNlVFd2lGQU5meU1fNFUxeGU0X1B0aVBnWHBia1A3NjRXdkxLUUlGaTcwX1lVZWtrMkVSYk44UFBNcDZjV0gyWFBzM2F0VHFDNXk3Z0pSMWl5UXZtNGtQMGJvVENKaV9DaWtPWUYwUE03bk5uSm1rZjNOcjAzazZxWHhN",
+   "body": ""
+  },
+  {
+   "source": "Google News · The New York Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Earnings and Forecasts Beat Expectations",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFFIYV9qR0U3Q3Q5bFNVM2VscDYtYU01YkxpSDFVRUkxNkYyX0l1NlNDYmRDU25NaHhJR0JvV0tnMDQxRHBvYkx5Y21WaDVwVDA5MjdaNndERWNmZlp2dzVIdm8ySG40RzJRWGVfY1RCdTNkd2NmVlN2Q3JURVpfNWptNDk?oc=5",
+   "date": "2026-11-18 10:47",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 실적 및 가이던스 예상 초과",
+    "korean_summary": "NVIDIA가 분기 실적 및 가이던스 모두 시장 예상을 초과했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFFIYV9qR0U3Q3Q5bFNVM2VscDYtYU01YkxpSDFVRUkxNkYyX0l1NlNDYmRDU25NaHhJR0JvV0tnMDQxRHBvYkx5Y21WaDVwVDA5MjdaNndERWNmZlp2dzVIdm8ySG40RzJRWGVfY1RCdTNkd2NmVlN2Q3JURVpfNWptNDk",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY?oc=5",
+   "date": "2026-11-18 08:30",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 가파른 성장 보고, Jensen Huang CEO 복귀 불가 천명",
+    "korean_summary": "NVIDIA가 강한 성장세를 보고했으며 Jensen Huang이 CEO로 복귀하지 않을 것임을 명확히 했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's neocloud commitments total $32B through 2032",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUGZqbkx5OWFuUFcyaGN3X2tYX3hSRDVkcHhWYVdJZVdsZWgzaE01dFRobFo4cHZyMnJxaV9adFRPUTFYZ0pzUDBMSDRNN2FYNjQ1OWMxbjVGZGQ0M2VmR0RzZlk1dFlmUFcwdkJSd25pS0lPM1dzSlFBS0lrWEgweGsxcVZ1dmlIbU50aHo1Q0JicnN5M3psakF2NTRKckplNFdGUldMVmRZS2k4b3RzT0dEbThQUQ?oc=5",
+   "date": "2026-11-18 07:02",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 2032년까지 neocloud 약정 총 32억 달러",
+    "korean_summary": "NVIDIA가 2032년까지 neocloud 관련 약정으로 총 32억 달러를 투자하기로 약속했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUGZqbkx5OWFuUFcyaGN3X2tYX3hSRDVkcHhWYVdJZVdsZWgzaE01dFRobFo4cHZyMnJxaV9adFRPUTFYZ0pzUDBMSDRNN2FYNjQ1OWMxbjVGZGQ0M2VmR0RzZlk1dFlmUFcwdkJSd25pS0lPM1dzSlFBS0lrWEgweGsxcVZ1dmlIbU50aHo1Q0JicnN5M3psakF2NTRKckplNFdGUldMVmRZS2k4b3RzT0dEbThQUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · EE Times India",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Siemens, NVIDIA Develop AI-Based Virtual PCB Inspection Workflow",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEhaY0Nabk1rNk90MkU5NEdnMllOaGNncjZNM09UMm10aElQc2RuLU83WVdWVi1qTXhWZ3J1cGNqOElVMWpqakN3akpqdEl1YXhOYXFkSnpvakNhdDkwSDFiQkd4VC11dUdQRExiakZ4TmdYMmZKbl9DMDhEb1ZHRTlKWElzMjJ1bEhVYWFLR2xOSUNrWUE?oc=5",
+   "date": "2026-11-18 10:20",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Siemens와 NVIDIA, AI 기반 PCB 검사 워크플로우 공동 개발",
+    "korean_summary": "Siemens와 NVIDIA가 인공지능 기반 PCB 검사 프로세스를 협력하여 개발했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUEhaY0Nabk1rNk90MkU5NEdnMllOaGNncjZNM09UMm10aElQc2RuLU83WVdWVi1qTXhWZ3J1cGNqOElVMWpqakN3akpqdEl1YXhOYXFkSnpvakNhdDkwSDFiQkd4VC11dUdQRExiakZ4TmdYMmZKbl9DMDhEb1ZHRTlKWElzMjJ1bEhVYWFLR2xOSUNrWUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · WION",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Who is Madison Huang? Questions rise over her role at Nvidia after Jensen Huang's exit",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOejNPLURuWXgwV2dPVmlSLS1qZGN4cFFweE5GV1ZlM2x2RlNOa1Q0NEZyR2pDNzNGMS0xNEZSd1Brc05OYkJqLUdLSDlKa2FnNUhkMEZMYTFvbGdVYmRDaE9mQkdZR0xRZkg4WVNtekF5Qlh5WDFQVTFBaEhKX0dpYTdn0gGHAUFVX3lxTE5ac2NoSldJNERtMURCelJYbXk5VXFLeEZfTDNGN0VUR2lUaEtPT1ZyZVZfRG53Sm5UeUZ5QnNLNU84d0VfbnpJa0FkSnItSkE2cXBEZm10WkxmNDdtM29xbE41MUZnYmk3OGFLTDdLRG5kS1NxdUlKLWFxMjdaMnQ1ZHBqckdsZw?oc=5",
+   "date": "2026-11-17 14:42",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Madison Huang, Jensen Huang 퇴임 이후 NVIDIA 내 역할 주목",
+    "korean_summary": "Madison Huang의 NVIDIA 내 역할이 Jensen Huang의 퇴임 이후 주목받고 있다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · شبكة تواصل الإخبارية",
+     "title": "Who is Madison Huang? Questions rise over her role at Nvidia after Jensen Huang’s exit",
+     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nVnRMeHpReGp4d1NMc0poc3lhZTF6TDV3QWM5MVdxdWlaam11dHVRWkNqQVpQTFRubmtPbnIyT3pVcUp3S1RXN0FWUmZjQXk5ODZj?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOejNPLURuWXgwV2dPVmlSLS1qZGN4cFFweE5GV1ZlM2x2RlNOa1Q0NEZyR2pDNzNGMS0xNEZSd1Brc05OYkJqLUdLSDlKa2FnNUhkMEZMYTFvbGdVYmRDaE9mQkdZR0xRZkg4WVNtekF5Qlh5WDFQVTFBaEhKX0dpYTdn0gGHAUFVX3lxTE5ac2NoSldJNERtMURCelJYbXk5VXFLeEZfTDNGN0VUR2lUaEtPT1ZyZVZfRG53Sm5UeUZ5QnNLNU84d0VfbnpJa0FkSnItSkE2cXBEZm10WkxmNDdtM29xbE41MUZnYmk3OGFLTDdLRG5kS1NxdUlKLWFxMjdaMnQ1ZHBqckdsZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · https://ascendants.in/",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Who Is Madison Huang? Jensen Huang’s Daughter Draws Attention as Nvidia Searches for New CEO",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeG5Ya2YwaGE5VE9jOENQNUFBMm5sLU1NcWllTGNjalhRMFZEcjB5eC1uaTVsZ3VVcmpTWjlwaTI3clp6dkg4NUx4dndYSzBrSDhIaExkaDVXT1hsTWZ5YkJxR2pCN0QyNGNXYUZ6V3p1WUFXQTQtalR5Z21PMm91M1duRjM3dFVwaVp2Q3JHNGpVQmZ0NXJMVmRSbFRMWThXUVdHcWFIREJwbURjQmtxSXkyVQ?oc=5",
+   "date": "2026-11-17 02:45",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO 교체 과정에서 Madison Huang 주목",
+    "korean_summary": "NVIDIA가 새 CEO를 찾는 와중에 Madison Huang이 화제가 되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeG5Ya2YwaGE5VE9jOENQNUFBMm5sLU1NcWllTGNjalhRMFZEcjB5eC1uaTVsZ3VVcmpTWjlwaTI3clp6dkg4NUx4dndYSzBrSDhIaExkaDVXT1hsTWZ5YkJxR2pCN0QyNGNXYUZ6V3p1WUFXQTQtalR5Z21PMm91M1duRjM3dFVwaVp2Q3JHNGpVQmZ0NXJMVmRSbFRMWThXUVdHcWFIREJwbURjQmtxSXkyVQ",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · CoinDesk",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty",
+   "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDY3OXBJekI5YjNfWDQ5d0NqWHZvZHNtbXhQQXVhSnVSVS15NzlMc2xyMGNoUmtKeHc3TTMtRzNXRHd5R1BBeHh5SHdNYnhxUi1seWpfSFpYYTIwVmdvNzE5QWRyQk9FRnEtQWtCZHhqRk1ZWHNUM2dWM05VUlFxS0QwZXEyZThveXFqeVpVQ3gxb2JXNzNUZWVVZVhQdmZzREQyRWVjbkJEMS1wdmIxb3JqRGZrOXZvOUxlSi11Zzh3UjlTZHpaZEM0Q3M0QQ?oc=5",
+   "date": "2026-11-18 10:11",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 실적 초과로 주가 상승, 경영진 불확실성에도 가이던스 인상",
+    "korean_summary": "NVIDIA가 실적을 초과하고 가이던스를 인상했으며 주가가 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDY3OXBJekI5YjNfWDQ5d0NqWHZvZHNtbXhQQXVhSnVSVS15NzlMc2xyMGNoUmtKeHc3TTMtRzNXRHd5R1BBeHh5SHdNYnhxUi1seWpfSFpYYTIwVmdvNzE5QWRyQk9FRnEtQWtCZHhqRk1ZWHNUM2dWM05VUlFxS0QwZXEyZThveXFqeVpVQ3gxb2JXNzNUZWVVZVhQdmZzREQyRWVjbkJEMS1wdmIxb3JqRGZrOXZvOUxlSi11Zzh3UjlTZHpaZEM0Q3M0QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia records strong growth in first earnings report without Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zbkVuZVV1aE51bVM3Vkxyc2lYQVR4Qms5TDhnOTVwQTV4cG9MMkZtQVAxQXlWdDVSR25hUE9uMnRVbXZpWE5kTXZKNlZzdTlnV2NydUtYeklYaTNldjhFclBfaVZvTllXdFJ0dXRqQ3BhMzJSSlNpOTJtdVg?oc=5",
+   "date": "2026-11-18 06:37",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA, Jensen Huang 없이 첫 실적 발표에서 강한 성장 기록",
+    "korean_summary": "NVIDIA가 Jensen Huang 없이 진행한 첫 실적 발표에서 강한 성장을 기록했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zbkVuZVV1aE51bVM3Vkxyc2lYQVR4Qms5TDhnOTVwQTV4cG9MMkZtQVAxQXlWdDVSR25hUE9uMnRVbXZpWE5kTXZKNlZzdTlnV2NydUtYeklYaTNldjhFclBfaVZvTllXdFJ0dXRqQ3BhMzJSSlNpOTJtdVg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Gives Upbeat Outlook While Quashing Idea of Huang Return",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQUp2Z1haU0NNQkJ2ekdiQnZFRjJ2cWN4ckVMdnNJY05BOFNCUlNqbzl2RkNoblhlRTFuU1djbWdoenZmdGZYZ1VjNlhnS0E2YXJLLUQ3c21UZGZCNzZrQWhaa3RGVnlBX2phdUVkTTlIc3U5VDBkenFQUXpmQnVqRDg0bFNOODZsdTJMeDgxQWE0Z1NZMEd2cVZPUVRyT2xPYWUyZnZQanRQQnhFZmc?oc=5",
+   "date": "2026-11-18 10:02",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 긍정적 가이던스 제시하며 Huang 복귀 가능성 종료",
+    "korean_summary": "NVIDIA가 긍정적인 가이던스를 제시하면서 Jensen Huang의 복귀 가능성을 공식화했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQUp2Z1haU0NNQkJ2ekdiQnZFRjJ2cWN4ckVMdnNJY05BOFNCUlNqbzl2RkNoblhlRTFuU1djbWdoenZmdGZYZ1VjNlhnS0E2YXJLLUQ3c21UZGZCNzZrQWhaa3RGVnlBX2phdUVkTTlIc3U5VDBkenFQUXpmQnVqRDg0bFNOODZsdTJMeDgxQWE0Z1NZMEd2cVZPUVRyT2xPYWUyZnZQanRQQnhFZmc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Interim Nvidia CEO Says It’s No Longer Sending AI Chips to China",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJcVdSZTBCVGl6UE1qZ1gzNWdiaHJ3WGR1S3NUd2VRcWVzUWhjanFicXVzNi1zRWZNel9EdlVOaC1uMUFCckRXMkRGWkRZeHdZUnE4VTdtUkZ2N0dITkRYa040X29HanoxODdGVXV3NzEyOGhnR1VOb2VwcFNIcHFJQlFrNXM3T1hqQlN5WnB0MHJTU0R2cTZOUnBNbV9Ubm81clFKM0x5cHRxdw?oc=5",
+   "date": "2026-11-18 09:09",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 임시 CEO, AI 칩 중국 수출 중단 선언",
+    "korean_summary": "NVIDIA 임시 CEO Colette Kress가 중국으로의 AI 칩 수출을 더 이상 하지 않을 것을 공식 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5ZV2dpR3EyVEtJcVdSZTBCVGl6UE1qZ1gzNWdiaHJ3WGR1S3NUd2VRcWVzUWhjanFicXVzNi1zRWZNel9EdlVOaC1uMUFCckRXMkRGWkRZeHdZUnE4VTdtUkZ2N0dITkRYa040X29HanoxODdGVXV3NzEyOGhnR1VOb2VwcFNIcHFJQlFrNXM3T1hqQlN5WnB0MHJTU0R2cTZOUnBNbV9Ubm81clFKM0x5cHRxdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Guardian",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1ZmQzBMQnA0bzM2X3I5bXA4Ri1vdk9vLUdHQ3VxeEU5X3NaTHVoU2dvOFpLSGJ5ZFpNVXBWclJILWZMZlM5ekFoc05uS1pfQXZMaTZ6M1dveGtWd2I4RFp6ZGFVRlMxSHhhbURMTXhYcDNja0RQRTNQQXpRVUxxRWxQTFJpQURGUDNFcjlHeEk5OGFYZDRr?oc=5",
+   "date": "2026-11-18 06:51",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 수익 2배 증가, 보드 Jensen Huang 복직 거부",
+    "korean_summary": "NVIDIA 보드가 수익이 2배 성장했음을 발표하며 Jensen Huang의 CEO 복직을 거부했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS1ZmQzBMQnA0bzM2X3I5bXA4Ri1vdk9vLUdHQ3VxeEU5X3NaTHVoU2dvOFpLSGJ5ZFpNVXBWclJILWZMZlM5ekFoc05uS1pfQXZMaTZ6M1dveGtWd2I4RFp6ZGFVRlMxSHhhbURMTXhYcDNja0RQRTNQQXpRVUxxRWxQTFJpQURGUDNFcjlHeEk5OGFYZDRr",
+   "body": ""
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia beats on results and guidance in first earnings report since Huang’s exit",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlUxakJfZnkyeTZuRDZJNm1sTGU2OUZVNTdhOU4zRGhYbHVuVU1jT0toUUdSTU5oZzBLNTJ0Mk95UVJ3TXpFS2Z1X2xYOTg3em85bnhkSV9hVy1STHFqS01ESEo1VzJLNUlscWRpNFJTdW5HRlFzNHM3M2g3S0Iyb3pJRTVvQ3ZuTjNFVFBwY3ljUElWZUFtdUdBYTc1V2dTMWlMbUh4R3pSdE1GSkhZRUNEbjc5dTRVTlNaaTI2TQ?oc=5",
+   "date": "2026-11-18 07:01",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA Huang 퇴임 후 첫 실적, 실적·가이던스 상회",
+    "korean_summary": "NVIDIA가 Jensen Huang 퇴임 후 첫 실적 발표에서 실적과 가이던스 모두 시장 예상을 상회했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSlUxakJfZnkyeTZuRDZJNm1sTGU2OUZVNTdhOU4zRGhYbHVuVU1jT0toUUdSTU5oZzBLNTJ0Mk95UVJ3TXpFS2Z1X2xYOTg3em85bnhkSV9hVy1STHFqS01ESEo1VzJLNUlscWRpNFJTdW5HRlFzNHM3M2g3S0Iyb3pJRTVvQ3ZuTjNFVFBwY3ljUElWZUFtdUdBYTc1V2dTMWlMbUh4R3pSdE1GSkhZRUNEbjc5dTRVTlNaaTI2TQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · CoStar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "News | Nvidia says revenue, profit more than double as leadership jolted",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmdRdVlpcy1KazdYbEhPQlI0bGx5T1ZvOXBzMkZJcndOSHcwbEJNU1NyVU5RQnlqRFdKTHBJbEg2VWNXTExYU2pEbHBJWEdKTVppam53Q3Y1RENJazNRbDBSc2JwVTlOUFVKVlVtTGFNbjBmX1VjcWNQZ0xJSVBKYWFzV1dmTk1tRjBLNWxOcTZlUktIcGlFSnZZdUtXR3ZmTGlRVUFTblQ?oc=5",
+   "date": "2026-11-18 10:42",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 분기 매출·이익 2배 이상 증가, 리더십 변화",
+    "korean_summary": "NVIDIA가 분기 매출과 이익이 2배 이상 증가한 가운데 리더십 변화가 발생했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmdRdVlpcy1KazdYbEhPQlI0bGx5T1ZvOXBzMkZJcndOSHcwbEJNU1NyVU5RQnlqRFdKTHBJbEg2VWNXTExYU2pEbHBJWEdKTVppam53Q3Y1RENJazNRbDBSc2JwVTlOUFVKVlVtTGFNbjBmX1VjcWNQZ0xJSVBKYWFzV1dmTk1tRjBLNWxOcTZlUktIcGlFSnZZdUtXR3ZmTGlRVUFTblQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investopedia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Third-Quarter Earnings, Outlook Top Wall Street Expectations",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd09QMUxzbVhUclZQOE5JTDY0VjRCUU80amJ3S0lHZnd2MERNWkthb0VHY0JpLWw5Q2xwTXM1ZlBGRERERlFVeXlxeUtTTFU1YzNuVS1UeEV1Y21TZTVrQkZidTF3N1NBOWhmZjFrTlhUNjNVSnBJVmcyRVNvQ256cTRPX091MFRGVy11bjVaTG16QWRJTjVic1VNZ3NfZnFrWmo0bVk1bW5jMWtGTXVyR3BVUlJHRzA1ZHlCZmR3?oc=5",
+   "date": "2026-11-18 06:42",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 3분기 실적 및 가이던스, Wall Street 기대 상회",
+    "korean_summary": "NVIDIA가 3분기 실적과 가이던스에서 Wall Street 기대를 초과 달성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd09QMUxzbVhUclZQOE5JTDY0VjRCUU80amJ3S0lHZnd2MERNWkthb0VHY0JpLWw5Q2xwTXM1ZlBGRERERlFVeXlxeUtTTFU1YzNuVS1UeEV1Y21TZTVrQkZidTF3N1NBOWhmZjFrTlhUNjNVSnBJVmcyRVNvQ256cTRPX091MFRGVy11bjVaTG16QWRJTjVic1VNZ3NfZnFrWmo0bVk1bW5jMWtGTXVyR3BVUlJHRzA1ZHlCZmR3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia beats Q3 earnings expectations in first report without Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeEpWNERSTTdwVkpCa01NN1NKM2lieHBiLWNGYkxSbXZzdEQ3cElyaElfY3gwY2x3NVVLWDVyR1V6ZnBqX29HSDBSaXA4Z0lhc2pRZmVkNnlJeWVIYk02bUdsVHVRUlAwOGROWmNiOEdqUTNUWEJVaEdqMC1iaDBEc0pnenhsc3hvNWpPdDRtbXJPVS1TZFQ2OXBxZUlIYS12TExYYnNGUThOWFdVRmpxZmdCRHVySFlqeGdVS0J3?oc=5",
+   "date": "2026-11-18 06:33",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 3분기 실적 초과 달성, Jensen Huang 없이 첫 번째 보고",
+    "korean_summary": "NVIDIA가 Jensen Huang 없이 첫 번째로 3분기 실적을 초과 달성했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeEpWNERSTTdwVkpCa01NN1NKM2lieHBiLWNGYkxSbXZzdEQ3cElyaElfY3gwY2x3NVVLWDVyR1V6ZnBqX29HSDBSaXA4Z0lhc2pRZmVkNnlJeWVIYk02bUdsVHVRUlAwOGROWmNiOEdqUTNUWEJVaEdqMC1iaDBEc0pnenhsc3hvNWpPdDRtbXJPVS1TZFQ2OXBxZUlIYS12TExYYnNGUThOWFdVRmpxZmdCRHVySFlqeGdVS0J3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia interim-CEO Colette Kress speaks on quarterly revenue hitting $116B",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS3hPOFhuTnhKZW8zZ1NNTUVUUjE4eDJXOVpxS2pOUzRfa0VObTBZTWE2TzdEbUVTUnUwZmJfbmRCYktpV0tmSGJjNk85LUlwTzhWMEw3VmpEcDJxemR3X19UR3RzNV9aSTl1azlVVW4tV1BQVUk0LWtxMndaN0pxRnpGOGJwbHBsZEMweG5EVEk4QWF4Ty1WTVU5X2xnR0lreFZiNWYyTjBXQUxRUzFxWEpRM3VhVEhyVkxQMg?oc=5",
+   "date": "2026-11-18 07:38",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 임시 CEO Colette Kress, 분기 매출 1,160억 달러 발표",
+    "korean_summary": "NVIDIA의 임시 CEO Colette Kress가 분기 매출이 1,160억 달러에 도달했다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS3hPOFhuTnhKZW8zZ1NNTUVUUjE4eDJXOVpxS2pOUzRfa0VObTBZTWE2TzdEbUVTUnUwZmJfbmRCYktpV0tmSGJjNk85LUlwTzhWMEw3VmpEcDJxemR3X19UR3RzNV9aSTl1azlVVW4tV1BQVUk0LWtxMndaN0pxRnpGOGJwbHBsZEMweG5EVEk4QWF4Ty1WTVU5X2xnR0lreFZiNWYyTjBXQUxRUzFxWEpRM3VhVEhyVkxQMg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Q3 earnings show its advantage as the bank of the AI boom",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPekxtOWdORGdqYmFFR0YxMURJbkFMdjVqMGhUNldCVVpqVXJ0TndGTGRQanJTOHZiMHNydWV4bGlBb1F2bzBIdXFySDRLTDJoQmFMZnVSN2NPSVVEU2U1aFdGa3VSV1gwWDRyMUJ6Y2lVTmVzYkZTeUUzdVlPbjM2RVBubHRLdjM5R1FkVW5ZcnpOWkxsMDVuRmI3dmVkZE15ZmtINXFHa0RjS1prdTBtRTRR?oc=5",
+   "date": "2026-11-18 06:51",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA Q3 실적, AI 붐의 기축통화로서의 위상 확인",
+    "korean_summary": "NVIDIA가 Q3 분기 실적을 통해 AI 경제에서의 중추적 위상을 입증했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPekxtOWdORGdqYmFFR0YxMURJbkFMdjVqMGhUNldCVVpqVXJ0TndGTGRQanJTOHZiMHNydWV4bGlBb1F2bzBIdXFySDRLTDJoQmFMZnVSN2NPSVVEU2U1aFdGa3VSV1gwWDRyMUJ6Y2lVTmVzYkZTeUUzdVlPbjM2RVBubHRLdjM5R1FkVW5ZcnpOWkxsMDVuRmI3dmVkZE15ZmtINXFHa0RjS1prdTBtRTRR",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investing.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Q3 revenue doubles in first report since Huang exit; shares jump 5%",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMWp3TU9FbzR5SEtqVnRuMnBiM3NXb3U3ZnMtS0RvR3dyV1JWOFUwM3JjcXFEcUNaX3dSOWFtT3pnQmh3bmlhWnBvQ1BEYWFJRTlZU2o4TXo0OGdfVXJlbTF4ZWhUYTdYeGRrR1JuUS1YS2VVdEh3LWZ6b3d0TFNlZjg5Z2N1cDJ2MzZWT1k0R3E?oc=5",
+   "date": "2026-11-18 09:19",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "NVIDIA Q3 매출 두 배 증가, Huang 퇴임 후 첫 실적",
+    "korean_summary": "NVIDIA가 Huang 퇴임 이후 첫 분기에 매출이 두 배 증가했으며 주가도 5% 상승했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMWp3TU9FbzR5SEtqVnRuMnBiM3NXb3U3ZnMtS0RvR3dyV1JWOFUwM3JjcXFEcUNaX3dSOWFtT3pnQmh3bmlhWnBvQ1BEYWFJRTlZU2o4TXo0OGdfVXJlbTF4ZWhUYTdYeGRrR1JuUS1YS2VVdEh3LWZ6b3d0TFNlZjg5Z2N1cDJ2MzZWT1k0R3E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Sky News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia releases first results since Jensen Huang's resignation",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3VWRlpJTUJnSVplSmp1QmQyQmRBWmFSZElyeGI0dnJ1T0RtLVJjdGFhZmpURXROS1pBQTVqcWQ1OTRoaGx3QTJOMFhGVzVpTVRSUXdRc2hqR3pXSlV5RWdJQzhWV0x2b0F2dFk3M2luZi1CanBpRFNxZm1wVFllVElBZEhNYjM1cEpSNVVKV29weElHX283OGtjMVVPWDFPYW9jZm0yY29aN3MzRDhNX19lYWpHVkl5UVB6Rjh5M1kxX3RIT3JXdUtpRlg?oc=5",
+   "date": "2026-11-18 11:18",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA, Huang 사장 사임 후 첫 실적 공개",
+    "korean_summary": "NVIDIA가 Jensen Huang의 사임 이후 첫 분기 실적을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM3VWRlpJTUJnSVplSmp1QmQyQmRBWmFSZElyeGI0dnJ1T0RtLVJjdGFhZmpURXROS1pBQTVqcWQ1OTRoaGx3QTJOMFhGVzVpTVRSUXdRc2hqR3pXSlV5RWdJQzhWV0x2b0F2dFk3M2luZi1CanBpRFNxZm1wVFllVElBZEhNYjM1cEpSNVVKV29weElHX283OGtjMVVPWDFPYW9jZm0yY29aN3MzRDhNX19lYWpHVkl5UVB6Rjh5M1kxX3RIT3JXdUtpRlg",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "US government confirms criminal investigation into Singapore company at the heart of Jensen Huang scandal",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
+   "date": "2026-11-17 22:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미 정부, Megaspeed 형사 조사 공식 확인 및 AI 칩 불법 수출 혐의 발표",
+    "korean_summary": "미국 정부가 Megaspeed의 형사 조사를 공식 확인하고 NVIDIA 같은 기업의 첨단 AI 가속기 불법 판매 회피 혐의를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/us-government-confirms-criminal-investigation-into-singapore-company-at-the-heart-of-jensen-huang-scandal-megaspeed-identified-over-suspicious-activity-company-placed-on-no-sell-list-by-nvidia",
+   "body": "A criminal investigation into Megaspeed has been confirmed by the United States Justice and Commerce Departments, with a joint statement saying that they will “bring the full extent of the law against Megaspeed for any criminal conduct that may have occurred.” Authorities believe that Megaspeed is one of a raft of companies that may have circumvented export rules designed to limit the sale of advanced AI chips, like those built by Nvidia, to approved companies and countries. The company is at the heart of the recent Jensen Huang scandal, which saw him resign from the company last week . Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Megaspeed was added to Nvidia's no-sell list in June 2025, the statement reveals, but a New York Times report claims that a Malaysian Megaspeed subsidiary continued to receive large shipments of Nvidia chips for a full eight months after that date. It's believed that Nvidia's export-controlled Blackwell and H200 chips were shipped to Speedmatrix, either via third parties or directly from Nvidia itself, before being handed off to China. Nvidia has argued that it was given Commerce Department permission to ship the components to Megaspeed. Notably, Nvidia continues to list Megaspeed as a cloud partner. The new criminal investigation follows a Commerce Department investigation into Megaspeed that first kicked off in 2024 over possible export violations. By May 2025, it had requested Nvidia's data relating to sales it made to Megaspeed, and by June, officials visited Megaspeed and even interviewed Alice Huang, the now-former executive who is allegedly a Chinese spy . Ms. Huang is also the woman that then-Nvidia CEO Jensen Huang had an affair with before resigning his position earlier this month . Following that visit, the Justice Department took the lead in the investigation into Megaspeed. Joint Statement from Department of Commerce and Department of Justice on Megaspeed Investigation. https://t.co/aAdtN9aDfF November 17, 2026 Megaspeed has long been accused of being a front for an AI component smuggling operation. In October 2025, an investigation claimed that it had helped move around $2 billion worth of Nvidia chips into China by importing them and then re-exporting them to the country. Megaspeed says that it complies with all laws and that the woman at the center of the affair scandal, Ms. Huang, is no longer at the company. The Chinese government has also dismissed claims that she was a state spy. The joint Commerce and Justice Departments' statement pointed to its strong track record when prosecuting chip smugglers to date. 17 defendants across a total of six investigations hav"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+   "link": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "date": "2026-11-18 08:37",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, Huang 사임 직후 중국 H200 칩 판매 중단 발표",
+    "korean_summary": "대리 CEO Colette Kress가 첫 실적 콜에서 중국으로의 H200 칩 판매 중단 및 국가안보 위원회 신설을 발표했다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdnRIYmFRMXJud2Y0bDNwTjVVSUlBN1FKNTNqMWhib1UxVHhqME1faU43TWluTWRlbEp4Q0RaRkF3VVNqRFlmc3BoX21xQ1Fob0EyX0w3ZmYwSElKUjlYNDJ1WkVCRGZtZnVSdDRhQWVid1F2Mzd0ZFpITzhFb1FwSnZTZUpPZ1VCbHpfRTY4Nl9iQQ?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+   "body": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company’s participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country. China’s access to leading AI accelerators was an important topic during the company’s first earnings call since CEO and co-founder Jensen Huang stepped down last week. The disclosure comes the same day Nvidia announced it was creating a board-level committee to oversee national security policies, export control compliance, and global trade risks. Nvidia’s deal to sell H200 chips in China was brokered by Huang and President Donald Trump. The arrangement required the chips to be shipped through the U.S., allowing the government to collect a 25% tariff. The pathway angered China hawks who wanted to deny Chinese labs computing power and maintain the United States’ lead in AI, but Huang long argued that it was more important for the U.S. to compete in China. In April, he told podcaster Dwarkesh Patel that “to concede that market for the United States technology industry is a disservice to our country.” Huang’s ouster — in part over an affair with the CEO of a company under investigation for smuggling chips into China — has coincided with new rules, issued Monday, barring advanced U.S. chips from foreign data centers that serve Chinese customers remotely. Investment bank Jefferies forecast that those rules might trim between $44 billion and $62 billion from Nvidia’s data center revenue next year. Referencing the new export controls, Kress said that the backlog of demand for advanced chips like Vera Rubin means the rules would have no impact on the company’s top-line revenue. In the long term, the company may face the loss of potential customers in Singapore, Malaysia, Thailand, and Indonesia. Critics of Nvidia’s dependence on China claim that as much as 20% of its revenue comes from demand linked to the country — annual revenue at its Singapore subsidiary hit $104 billion in 2025 before Nvidia stopped disclosing those figures — but that’s clearly going to change. Even before Nvidia decided to stop shipping H200s, China had largely refused to accept their delivery. The government would prefer to generate demand for the country’s domestic chip industry, even if major AI compute users want the still-superior Nvidia equipment, according to Jacob Feldgoise, a researcher at Georgetown’s Center for Security and Emerging Technology. Meanwhile, Chinese frontier labs are finding ways to access Nvidia chips elsewhere. All of China’s leading AI models show evidence of having been trained on Nvidia Grace Blackwell chips that are prohibited from being exported to China. That training may have taken place at data centers outside of China, but sales to those facilities will be barred under the new rules. If large data centers suited for training AI models want to buy Nvidia chips, they will have to certify they aren’t serving any Chinese customers, export "
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Exclusive | SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3?oc=5",
+   "date": "2026-11-18 05:56",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "WSJ 독점: SEC, Huang CEO 퇴출 중에 NVIDIA 조사 진행 중",
+    "korean_summary": "WSJ 독점 보도에 따르면 SEC가 CEO Jensen Huang 퇴출과 관련하여 NVIDIA를 조사 중으로 확인됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjl2b0tzT1ROT2plV1p5RHhQd3hXOEJKRFhOZ1ItZExOQV9oVGkzTU9tcEEyTXhjNHRKQVExRTNRdEtlY24zUFhmS0h0c21FUVVrVVh0NGF2SXFmdm1wcmVRLUlCcG5CMGRIZklSdVBkVElkS3lwRF9LaGg4YzU5b0dsZXlveWxSNzhGYzJlZmRSRkhvUWZRTHB3",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Sales Double Under an Interim CEO: Rapid Earnings Reaction",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTTdVa3BMTDFUQ1lZOURmSjM1Q1hKaHFDMjFlSmkybW96dzNoeEZwcE9HcjZsM3R4TG9NbWFPdVNLczdINXhaWXFtUHN4dl8xd1FYVm9OVGJPQUhtX0JpQ0lxSVl6MXk0Y0pRX01SRXdHMEEwNk9tSHIwb0JfcHNJMllLU0x5OXQtakg4bFVndU0xRXQ4N1NnSFl3aUhlU0dYNTNEMGNPeDd1bUE?oc=5",
+   "date": "2026-11-18 06:51",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "임시 CEO 체제 NVIDIA 매출 2배 증가",
+    "korean_summary": "임시 CEO 체제에서 NVIDIA의 매출이 2배 증가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTTdVa3BMTDFUQ1lZOURmSjM1Q1hKaHFDMjFlSmkybW96dzNoeEZwcE9HcjZsM3R4TG9NbWFPdVNLczdINXhaWXFtUHN4dl8xd1FYVm9OVGJPQUhtX0JpQ0lxSVl6MXk0Y0pRX01SRXdHMEEwNk9tSHIwb0JfcHNJMllLU0x5OXQtakg4bFVndU0xRXQ4N1NnSFl3aUhlU0dYNTNEMGNPeDd1bUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · CTech",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia chairman rules out Jensen Huang's return as quarterly revenue hits $116 billion",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MSHlOOXBiZ3ZCYjFmazN5OUJIVF82d084UUM1YTdMLV9XckJsYlRKLUYtU1FTSlp0S0hZSzB6NkFHckZrbkJ4OGpZeWViWVZ3TmJJdGtzQXl5OUtTYUx3T2ctdDhWemx4QUE?oc=5",
+   "date": "2026-11-18 07:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 의장: Jensen Huang 복귀 불가, Q3 매출 1,160억 달러",
+    "korean_summary": "NVIDIA 의장이 Jensen Huang의 복귀를 배제하고 Q3 분기 매출 1,160억 달러를 공개"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MSHlOOXBiZ3ZCYjFmazN5OUJIVF82d084UUM1YTdMLV9XckJsYlRKLUYtU1FTSlp0S0hZSzB6NkFHckZrbkJ4OGpZeWViWVZ3TmJJdGtzQXl5OUtTYUx3T2ctdDhWemx4QUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Inc.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "On Its Earnings Call, Nvidia Had 3 Words for Anyone Who Thinks It Should Bring Back Its Former CEO",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUkZxX29rWHZNS0ladWViLXpPSUJrRkdtd1hsNFdvbDdiVkhSOEF0a3hJbmRfQlczSktwRkFxdXVMMEEwMWxNd1pYWTlvSzd1MEdwMDdFeDJoc1FYZXdRNnRXeHdpc0lsYmttUnNOS3FpaVJUNXdUUk01OV9UWS0wN2loZ2p2YjdLSGM1RXpHOGR2dHhKQm9ZRkd2YlR5NW5WeTVCdnVpREExNU92b1VtczJ2ckc5VnA4eG9BS05Kel9lMTRlQ2p4UVp4V3AzanFiWjRZ?oc=5",
+   "date": "2026-11-18 10:05",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 실적 발표, CEO 복귀론에 3단어 성명",
+    "korean_summary": "NVIDIA가 실적 발표 콜에서 Jensen Huang 전 CEO 복귀 논쟁에 대해 명확한 입장을 표명했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUkZxX29rWHZNS0ladWViLXpPSUJrRkdtd1hsNFdvbDdiVkhSOEF0a3hJbmRfQlczSktwRkFxdXVMMEEwMWxNd1pYWTlvSzd1MEdwMDdFeDJoc1FYZXdRNnRXeHdpc0lsYmttUnNOS3FpaVJUNXdUUk01OV9UWS0wN2loZ2p2YjdLSGM1RXpHOGR2dHhKQm9ZRkd2YlR5NW5WeTVCdnVpREExNU92b1VtczJ2ckc5VnA4eG9BS05Kel9lMTRlQ2p4UVp4V3AzanFiWjRZ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s 103% Revenue Growth Took a Backseat to Its Internal Drama",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0dENVJCNHdyRXB6dkNyaHNuZFZVaUxHY1o2LWIxb250clpKcVVocUI4cV85dlJxR2RCeTBrWXFCZF82NFl1clItUFJERmhtTU9MYndDdnZOa0tjV042OGdGWVYxekxjQnhmWkZ1bGhOY1VVYy1wUGk2Z2ZJaXhSZHNsUVo1eTNjLXd1NWNvVXdZS0dPYS1DbkpIbl9wcDF3VW44cFVQa2xjd00?oc=5",
+   "date": "2026-11-18 08:15",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 103% 수익 성장이 내부 갈등에 가려지다",
+    "korean_summary": "NVIDIA의 103% 수익 증가 호실적이 경영진 내부 갈등으로 인해 관심을 덜 받고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS0dENVJCNHdyRXB6dkNyaHNuZFZVaUxHY1o2LWIxb250clpKcVVocUI4cV85dlJxR2RCeTBrWXFCZF82NFl1clItUFJERmhtTU9MYndDdnZOa0tjV042OGdGWVYxekxjQnhmWkZ1bGhOY1VVYy1wUGk2Z2ZJaXhSZHNsUVo1eTNjLXd1NWNvVXdZS0dPYS1DbkpIbl9wcDF3VW44cFVQa2xjd00",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investor's Business Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Earnings Lift Futures; Chip Giant Says This On Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2s3XzVKLXc1azMwV2VhVlhPalU1a2UxbDY5aW9XejYxRDlwbHhvdkc2aVhYd1ZLaGx2ZU5nVm1KWWhXd2FXeTMyZDQycXU4Z0RPMEZ6MUo2Z0p1dHV5anBMZmNIQ0M3WExTbUJzd08wRVAxdzNmMGgyU1ZWRXlQYWpudmhDREhneU9BVkt2WDZHaWtmZldHQmx6N3QzQlh1UTBSYnoxR28tZTlBeDR5WnB0Zw?oc=5",
+   "date": "2026-11-18 10:41",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 실적으로 선물 상승, Jensen Huang 관련 성명",
+    "korean_summary": "NVIDIA의 호실적이 주가선물지수를 상승시켰으며 회사가 Jensen Huang 관련 성명을 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2s3XzVKLXc1azMwV2VhVlhPalU1a2UxbDY5aW9XejYxRDlwbHhvdkc2aVhYd1ZLaGx2ZU5nVm1KWWhXd2FXeTMyZDQycXU4Z0RPMEZ6MUo2Z0p1dHV5anBMZmNIQ0M3WExTbUJzd08wRVAxdzNmMGgyU1ZWRXlQYWpudmhDREhneU9BVkt2WDZHaWtmZldHQmx6N3QzQlh1UTBSYnoxR28tZTlBeDR5WnB0Zw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Financial Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia insists Jensen Huang will not return as CEO as it reports strong sales",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTERXeXVQS01uX29nZVNTQnpjeVkzd05uNXM5akNxNlRxOUdIcmd4dkpqYzZyWlBKc0Jya3F5eVFPVmpuV2h2RVJxZWR3a2FVSGxHZ20xNlRZRko5bGdoODhPRU5QVFVRd3RJVFdncWlDckpXNHFocUxLVXpVeURwVjNwVkc?oc=5",
+   "date": "2026-11-18 06:28",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "stock"
+    ],
+    "korean_title": "NVIDIA 경영진, Jensen Huang CEO 복귀 거부하며 실적 양호 보고",
+    "korean_summary": "NVIDIA가 Jensen Huang의 CEO 복귀를 거부하면서 강한 판매 실적을 보고했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTERXeXVQS01uX29nZVNTQnpjeVkzd05uNXM5akNxNlRxOUdIcmd4dkpqYzZyWlBKc0Jya3F5eVFPVmpuV2h2RVJxZWR3a2FVSGxHZ20xNlRZRko5bGdoODhPRU5QVFVRd3RJVFdncWlDckpXNHFocUxLVXpVeURwVjNwVkc",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Asian Equities Mixed as Investors Parse Nvidia’s Results, Guidance",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUlkaFB0Z3RKN245bXlDcG5YY0NRTURYQU5LWUcxeFhWdk9QUWJhWEdLY3NtbFV0VlNUWW92S2YzSzVjaGwzdUZxMVE5WmxYQ2JQWE9wa0Z6UlZ6dXJmTVFHLUZjTWVZaEIwLWVjbk1VUVh1UzRQZlNiS3ZoRndPZDlyQmVhYW5JYUtCbkF0bTBrS1hkY1pLNTNDSGg5UnNRSHM0?oc=5",
+   "date": "2026-11-18 10:51",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings",
+     "guidance"
+    ],
+    "korean_title": "엔비디아 실적과 가이던스 발표에 아시아 주식 혼조",
+    "korean_summary": "투자자들이 엔비디아의 실적과 가이던스를 분석하면서 아시아 주식이 혼조를 보이고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUlkaFB0Z3RKN245bXlDcG5YY0NRTURYQU5LWUcxeFhWdk9QUWJhWEdLY3NtbFV0VlNUWW92S2YzSzVjaGwzdUZxMVE5WmxYQ2JQWE9wa0Z6UlZ6dXJmTVFHLUZjTWVZaEIwLWVjbk1VUVh1UzRQZlNiS3ZoRndPZDlyQmVhYW5JYUtCbkF0bTBrS1hkY1pLNTNDSGg5UnNRSHM0",
+   "body": ""
+  },
+  {
+   "source": "한국경제 IT",
+   "category": "kr",
+   "kind": "feed",
+   "title": "네이버, 용접로봇 기업 투자…AX 영토 확장",
+   "link": "https://www.hankyung.com/article/2026111726601",
+   "date": "2026-11-17 17:19",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Automotive-Robotics",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "네이버, Path Robotics에 투자",
+    "korean_summary": "네이버벤처스가 용접 자동화 로봇 기업 Path Robotics의 3억달러 시리즈E 투자에 참여했으나 NVIDIA와 무관하다"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.hankyung.com/article/2026111726601",
+   "body": "AI 추천 뉴스 네이버, 용접로봇 기업 투자…AX 영토 확장 금융·공공 이어 제조 AI로 美 패쓰로보틱스, 용접 자동화 록히드마틴 등이 주요 고객사 네이버, 지멘스·미스트랄AI 이어 피지컬 AI·해외 네트워크 확대 네이버가 용접 자동화 기술을 보유한 미국 피지컬 인공지능(AI) 기업에 투자했다. 금융·공공 분야에 집중해온 기업 간 거래(B2B) 인공지능 전환(AX) 사업을 제조업으로 확장하기 위한 행보다. 글로벌 제조업 현장에서 검증된 기술을 확보하는 동시에 향후 자사 AI 데이터센터 사업의 잠재 고객군을 넓히려는 전략으로 분석된다. ◇ 피지컬AI 기업에 첫 투자 17일 업계에 따르면 네이버의 투자 자회사인 네이버벤처스는 이달 초 미국의 패쓰로보틱스가 진행한 3억달러 규모 시리즈E 투자 라운드에 참여했다. 구체적인 투자 금액은 공개되지 않았다. 2018년 미국 오하이오주에서 설립된 패쓰로보틱스는 자체 AI 모델을 활용해 용접 공정을 자동화했다. 용접 부위와 금속의 변형 가능성을 스스로 인식·계산해 작업을 수행하는 기술을 보유했다. 용접 시스템과 로봇 플랫폼을 결합한 4족 보행 용접 로봇 ‘로브’도 개발했다. 대형 구조물의 용접 작업 현장까지 로봇이 직접 이동할 수 있어 작업 효율을 크게 높인다. 미국 최대 군함 건조업체인 HII와 방산업체 록히드마틴 등이 주요 고객사다. 특히 HII에는 지난 8월부터 7년간 6억달러 규모의 솔루션을 공급하기로 하는 등 미국 제조·방산업계에서 사업 기반을 넓히고 있다. 이번 투자는 네이버벤처스의 투자 영역을 피지컬AI로 확장했다는 점에서 의미가 있다는 평가를 받는다. 네이버벤처스는 네이버와 사업적 시너지를 낼 수 있는 성장 단계의 비상장 기업에 주로 투자했다. 그동안 AI 모델 개발사 앤트로픽과 음악 생성 AI 기업 수노 등 모델·솔루션 기업에 투자했지만, 피지컬AI 기업에 투자한 것은 이번이 처음이다. 지난해 6월 출범 이후 투자한 기업은 총 11개다. ◇ 제조·방산 등으로 AX 확장 네이버는 금융·공공 분야에 집중해온 B2B AX 사업을 제조업으로 확대하고 있다. 자체 AI 모델과 기업용 솔루션을 제조·방위산업·건설 등 산업 현장에 적용한다는 전략이다. 지난 6월 한국지멘스와 제조업 AX 공동 사업화에 나섰고, 7월에는 프랑스 AI 기업 미스트랄AI와 제조업 맞춤형 솔루션 개발에 협력하기로 했다. 이번 패쓰로보틱스 투자는 제조 현장에 적용할 피지컬 AI 기술과 글로벌 사업 네트워크를 확보까지 감안한 전략으로도 분석된다. 특히 AI팩토리 사업 고객사를 늘리는 데 도움이 될 것으로 전망된다. 네이버는 엔비디아, 브룩필드와 함께 2030년 초까지 1기가와트(GW) 규모의 AI 데이터센터 인프라를 구축한다. 글로벌 제조업의 자동화 수요가 커지는 점도 네이버가 관련 시장에 주목하는 배경이다. 산업연구원에 따르면 전 세계 산업 자동화 솔루션 시장은 지난해 9500만달러에서 2032년 18억8870만달러(약 2조5300억원)로 연평균 53.3% 성장할 전망이다. 네이버는 피지컬AI 분야 투자와 협력을 확대할 방침이다. 김남선 네이버 전략투자대표는 지난달 말 CNBC와의 인터뷰에서 “AI를 물리적 세계에 적용해 생산성을 높이는 분야의 잠재력이 크다”며 “다양한 분야의 AI 기업을 눈여겨보고 있다”고 말했다. 허진 기자 hjin@hankyung.com"
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD (신규)",
+   "link": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+   "date": "2026-11-17 18:32",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·신규",
+    "name": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
+    "version": "image-text-to-text"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 양자화 Qwen3.8 모델 'Qwen3.8-Flash-Next-NVFP4-QAD' 공개",
+    "korean_summary": "NVIDIA가 Model Optimizer와 NeMo AutoModel을 활용해 양자화한 Qwen3.8-Flash-Next-NVFP4-QAD 멀티모달 모델을 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Qwen3.8-Flash-Next-NVFP4-QAD:new",
+   "body": "Hugging Face 모델 신규 공개. pipeline: image-text-to-text · library: modelopt · tags: modelopt, safetensors, qwen4_exp, nvidia, ModelOpt, Qwen3.8, quantized, nvfp4, mxfp8, qad, image-text-to-text, conversational · downloads 0 · likes 42. README:  # Qwen3.8-Flash-Next-NVFP4-QAD This is an experimental mixed-precision QAD checkpoint of [Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next), exported after 100 optimizer updates using NVIDIA Model Optimizer and NeMo AutoModel with FSDP2. It contains the full multimodal model, including the frozen vision encoder, PLE n-gram embedding, and MTP module. Weight files occupy approximately 129.7 GB (120.8 GiB). **This checkpoint uses a more aggressive quantization recipe than [Qwen3.8-Flash-Next-NVFP4](https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4).** In addition to routed experts, it quantizes shared experts to NVFP4 and selected GDN, QSA, and indexer projections to MXFP8. The repository name's `-QAD` suffix identifies the training method; it does not mean the original NVFP4 recipe was kept unchanged. Task accuracy gains from QAD are not statistically established. Weight shards were consolidated for distribution. Every source file was verified against its export SHA256, and consolidated files passed a complete readback. Tensor names, shapes, dtypes, and stored values are unchanged. ## Quantization recipe | Component | Stored precision | QAD treatment | |---|---|---| | Main LM routed experts, 48 MoE groups | NVFP4, block size 16 | Trained | | Main LM shared experts, 144 linear matrices | NVFP4, block size 16 | Trained | | GDN projections, 180 linear matrices | MXFP8, block size 32 | Trained | | QSA q/k/v/o projections, 48 linear matrices | MXFP8, block si"
+  },
+  {
+   "source": "GitHub",
+   "category": "release",
+   "kind": "github",
+   "title": "triton-inference-server/server Release 2.75.0 corresponding to NGC container 26.11",
+   "link": "https://github.com/triton-inference-server/server/releases/tag/v2.75.0",
+   "date": "2026-11-18 06:06",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "GitHub",
+    "name": "triton-inference-server/server",
+    "version": "v2.75.0"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "Triton Inference Server 2.75.0 릴리스 (NGC 26.11)",
+    "korean_summary": "Triton Inference Server가 PyTorch 백엔드 개선, 동적 배처 버그 수정, gRPC 성능 개선을 포함한 2.75.0 버전을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "gh:triton-inference-server/server:v2.75.0",
+   "body": "Triton Inference Server The Triton Inference Server provides a cloud inferencing solution optimized for both CPUs and GPUs. The server provides an inference service via an HTTP or GRPC endpoint, allowing remote clients to request inferencing for any model being managed by the server. For edge deployments, Triton Server is also available as a shared library with an API that allows the full functionality of the server to be included directly in an application. New Features and Improvements PyTorch backend: Added AOTI BF16 input/output support. THIRD-PARTY-NOTICES.txt is now included in the containers. Fixed a use-after-free in the dynamic batcher and a preserve_ordering completion-slot issue on response-cache hits. Prevented silent gRPC stream cancellations under backpressure. Bounded the decompressed HTTP inference response size in the client library. Perf Analyzer: Honored supplied output shapes, propagated the binary exit code, tagged the wheel as platform-specific, and limited profile-data export to the needed inputs and outputs. Python backend: Now logs when the backend stub exits on a crash signal. Known Issues The Triton TensorRT-LLM Backend container image is not included in this release. vLLM's v0 API and Ray are affected by vulnerabilities. Users should consider their own architecture and mitigation steps which may include but should not be limited to: Do not expose Ray executors and vLLM hosts to a network where any untrusted connections might reach the host. Ensure that only the other vLLM hosts are able to connect to the TCP port used for the XPUB socket. Note that the port used is random. When using Valgrind or other leak detection tools on AGX-Thor or DGX-Spark systems, you might see memory leaks attributed to NvRmGpuLibOpen. Valgrind or other memory leak detection tools may occasionally report leaks related to DCGM. These reports are intermittent and often disappear on retry. CuPy has issues with the CUDA 13 Device API in multithreaded contexts. Avoid"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 15,
+   "enriched": 4,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 7,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.2
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 35,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 4,
+   "enriched": 3,
+   "error": "",
+   "sec": 2.5
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 11,
+   "enriched": 11,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 8,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 135.6
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 2.4
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 27,
+   "enriched": 27,
+   "error": "",
+   "sec": 8.6
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 7,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 3.9
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 24,
+   "error": "",
+   "sec": 18.3
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 12,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 3.8
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=nvidia",
+   "sec": 0.3
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/nvidia/new/.rss",
+   "sec": 0.1
+  }
+ ]
+}
