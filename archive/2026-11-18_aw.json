@@ -1,0 +1,533 @@
+{
+ "subject": "autoware",
+ "date": "2026-11-18",
+ "window": [
+  "2026-11-17",
+  "2026-11-18"
+ ],
+ "generated": "2026-11-18T12:04:38+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "TIER IV와 Komatsu가 **덤프트럭 자동운전 시스템**의 2027년 국내·북미 양산 도입 계획을 확정했다.",
+  "TIER IV가 **CARLA 1.0**에 Autoware 네이티브 연계 기능을 기여해 자율주행 개발·검증 환경을 간소화했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · ITmedia",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ダンプ自動運転システムを27年に国内／北米で導入へ、ティアフォーとコマツ",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zd21nVUdSdm03NjZLS3hPLTBOYzU3LXhXQ3NzVjg0ZFlPcTV4dFdnc3duUXZrRXlwc2FvcFQ5M09YSEhETC1kZnRBdUhFT2ZHVnJLYkFFOWVSRlRHLTdKQVZza29TSzhZVS05dg?oc=5",
+   "date": "2026-11-18 11:00",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Deployment",
+    "is_focus": true,
+    "signal_tags": [
+     "mass-production",
+     "deployment",
+     "partnership"
+    ],
+    "korean_title": "TIER IV·Komatsu, 덤프 자동운전시스템 2027년 국내·북미 도입",
+    "korean_summary": "TIER IV와 Komatsu가 개발한 덤프트럭 자동운전 시스템의 2027년 국내 및 북미 양산 도입 계획 확정"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · ITmedia",
+     "title": "ダンプ自動運転システムを27年に国内／北米で導入へ、ティアフォーとコマツ",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zd21nVUdSdm03NjZLS3hPLTBOYzU3LXhXQ3NzVjg0ZFlPcTV4dFdnc3duUXZrRXlwc2FvcFQ5M09YSEhETC1kZnRBdUhFT2ZHVnJLYkFFOWVSRlRHLTdKQVZza29TSzhZVS05dg?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Zd21nVUdSdm03NjZLS3hPLTBOYzU3LXhXQ3NzVjg0ZFlPcTV4dFdnc3duUXZrRXlwc2FvcFQ5M09YSEhETC1kZnRBdUhFT2ZHVnJLYkFFOWVSRlRHLTdKQVZza29TSzhZVS05dg",
+   "body": ""
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "category": "official",
+   "kind": "feed",
+   "title": "ティアフォー、「CARLA 1.0」のAutoware標準対応に貢献",
+   "link": "https://prtimes.jp/main/html/rd/p/000000153.000040119.html",
+   "date": "2026-11-18 11:30",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Simulation-Tools",
+    "is_focus": false,
+    "signal_tags": [
+     "simulation",
+     "architecture"
+    ],
+    "korean_title": "TIER IV, CARLA 1.0에 Autoware 표준 대응 기여",
+    "korean_summary": "TIER IV가 CARLA 1.0에서 ROS 2를 통한 Autoware 네이티브 연계를 구현하여 Python 브리지를 제거하고 개발 환경 단순화 및 처리 효율 향상을 이루었다."
+   },
+   "summary_data": {
+    "korean_title": "TIER IV, 'CARLA 1.0'의 Autoware 표준 지원에 기여",
+    "korean_summary": "TIER IV가 오픈소스 시뮬레이터 CARLA의 신버전 CARLA 1.0에 Autoware 네이티브 연계 기능을 기여하여 자율주행 개발·검증 환경 구축을 간소화했다.",
+    "action": {
+     "actor": "TIER IV",
+     "action": "CARLA 1.0에 ROS 2 기반 Autoware 네이티브 연계 기능을 내부 개발 후 CARLA 팀에 제공하여 표준 통합 실현",
+     "stage": "Available",
+     "timeline": "미확인",
+     "scope": "CARLA/Autoware를 사용하는 전 세계 자율주행 개발자, 오픈소스 커뮤니티"
+    },
+    "key_facts": [
+     "CARLA 1.0에서 **Python 기반 브릿지 없이 ROS 2를 통해 Autoware와 직접 연계** 가능",
+     "센서 데이터, 제어 지령, 차량 상태를 중간 브릿지 없이 교환",
+     "TIER IV가 사내에서 선행 개발한 연계 기능을 CARLA 팀이 CARLA 1.0에 포팅",
+     "연계는 The Autoware Foundation(AWF) 커뮤니티 내 상호운용성 논의에서 시작됨",
+     "TIER IV 엔지니어는 Unreal Engine 4→5 이전 등 CARLA 오픈소스 커뮤니티에 지속 기여"
+    ],
+    "why_matters": "시뮬레이션 환경 구축의 기술적 장벽을 낮춰 Autoware 기반 개발·검증 진입장벽을 완화하며, 이는 **Autoware 생태계 확장의 핵심 인프라 요소**로 작동한다. CARLA와 Autoware라는 두 주요 오픈소스 프로젝트 간 공식 표준 연계는 경쟁 자율주행 스택 대비 개발 생산성 측면에서 차별점을 제공한다.",
+    "subject_angle": "TIER IV는 Autoware 개발 주도자로서 **두 오픈소스 커뮤니티(AWF·CARLA)를 직접 연결하는 브로커 역할**을 수행하며, Autoware 2.0 추진과 병행해 시뮬레이션 인프라 정비를 통한 생태계 확대 전략을 강화한다.",
+    "focus_angle": "기존에는 Python 브릿지를 거쳐 느슨하게 연동되던 CARLA-Autoware 구조가 **ROS 2 네이티브 연계로 전환되어 중간 브릿지의 처리 부하와 환경 구축 복잡성을 제거**했으며, 모듈형뿐 아니라 AI 기반 자율주행 시스템 평가에도 적용 가능해 시뮬레이션 기반 개발 채택 장벽을 낮춘다.",
+    "companies": [
+     {
+      "name": "TIER IV",
+      "context": "Autoware 개발 주도, CARLA 네이티브 연계 기능 선행 개발 및 기여"
+     },
+     {
+      "name": "CARLA Team",
+      "context": "TIER IV의 연계 기능을 CARLA 1.0 본류 프로젝트에 포팅"
+     },
+     {
+      "name": "The Autoware Foundation (AWF)",
+      "context": "CARLA-Autoware 상호운용성 논의가 시작된 커뮤니티"
+     }
+    ],
+    "products": [
+     {
+      "name": "CARLA 1.0",
+      "role": "Autoware 네이티브 연계 기능을 표준 포함한 오픈소스 자율주행 시뮬레이터"
+     },
+     {
+      "name": "Autoware",
+      "role": "CARLA와 ROS 2 기반으로 직접 연계되는 자율주행 오픈소스 소프트웨어"
+     },
+     {
+      "name": "Autoware 2.0",
+      "role": "병행 추진 중인 Autoware 차세대 이니셔티브로 언급됨"
+     }
+    ],
+    "watch_next": [
+     "LiDAR 점군 데이터 출력 최적화 및 차량 모델 확충 등 추가 기여 사항의 CARLA 본류 반영 시점",
+     "Autoware 2.0과 CARLA 네이티브 연계의 통합 로드맵",
+     "AI 기반 자율주행 시스템 평가에 대한 실제 활용 사례 공개 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV contributes to native Autoware support in CARLA 1.0",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMXN4QUNUS21ucnNfcFl1NXdSSFVSTDBrc01TUFJBWGxJVlBBaWxlbWlSQUY1NE1lX0JfZWZxV21vbFpEanhBRGV2ZGEtRWJ5X0xQdUpCTUk2WTZlLXh0dXgwb3RRQlo3NnQwYUlvZWtmMFF4VDNqQmdJSDZDd05NWTcwZ0tJRGJXbG9CdWZCQUlubUx6OHBKQTQ1VjVOOElma3dieUJJcjZJSldpUWs3YjU2dFdieTA?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV contributes to native Autoware support in CARLA 1.0",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMXN4QUNUS21ucnNfcFl1NXdSSFVSTDBrc01TUFJBWGxJVlBBaWxlbWlSQUY1NE1lX0JfZWZxV21vbFpEanhBRGV2ZGEtRWJ5X0xQdUpCTUk2WTZlLXh0dXgwb3RRQlo3NnQwYUlvZWtmMFF4VDNqQmdJSDZDd05NWTcwZ0tJRGJXbG9CdWZCQUlubUx6OHBKQTQ1VjVOOElma3dieUJJcjZJSldpUWs3YjU2dFdieTA?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV contributes to native Autoware support in CARLA 1.0",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMXN4QUNUS21ucnNfcFl1NXdSSFVSTDBrc01TUFJBWGxJVlBBaWxlbWlSQUY1NE1lX0JfZWZxV21vbFpEanhBRGV2ZGEtRWJ5X0xQdUpCTUk2WTZlLXh0dXgwb3RRQlo3NnQwYUlvZWtmMFF4VDNqQmdJSDZDd05NWTcwZ0tJRGJXbG9CdWZCQUlubUx6OHBKQTQ1VjVOOElma3dieUJJcjZJSldpUWs3YjU2dFdieTA?oc=5"
+    },
+    {
+     "source": "Google News · PR Newswire",
+     "title": "TIER IV contributes to native Autoware support in CARLA 1.0",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMXN4QUNUS21ucnNfcFl1NXdSSFVSTDBrc01TUFJBWGxJVlBBaWxlbWlSQUY1NE1lX0JfZWZxV21vbFpEanhBRGV2ZGEtRWJ5X0xQdUpCTUk2WTZlLXh0dXgwb3RRQlo3NnQwYUlvZWtmMFF4VDNqQmdJSDZDd05NWTcwZ0tJRGJXbG9CdWZCQUlubUx6OHBKQTQ1VjVOOElma3dieUJJcjZJSldpUWs3YjU2dFdieTA?oc=5"
+    }
+   ],
+   "uid": "https://prtimes.jp/main/html/rd/p/000000153.000040119.html",
+   "body": "ティアフォー、「CARLA 1.0」のAutoware標準対応に貢献 オープンソースの連携により、自動運転システムの開発・検証を効率化 株式会社ティアフォー（本社：東京都品川区、代表取締役 CEO：加藤 真平、以下「ティアフォー」）は、自動運転システムの開発・検証に利用されるオープンソースシミュレーター「CARLA」の新バージョン「CARLA 1.0」において、自動運転用オープンソースソフトウェア「Autoware」の標準対応に貢献しました。「CARLA」が備えるROS 2の連携機能を活用することで、従来必要だったPythonベースのブリッジを介さず、「CARLA」と「Autoware」の間でセンサーデータ、制御指令、車両状態を直接やり取りできるようになりました。これにより、システム統合が簡素化され、自動運転システムの開発・検証に必要な環境をより容易に構築できます。 「CARLA」と「Autoware」のネイティブ連携 「CARLA」は、道路や交通状況、センサーデータなどを再現した仮想環境で、自動運転システムの開発・検証を可能にするオープンソースシミュレーターです。 従来「CARLA」と「Autoware」を連携させるには、Pythonベースのブリッジを別途用意する必要があり、追加の環境構築やデータ交換に伴う処理負荷が発生していました。「CARLA 1.0」では、ROS 2を介した「Autoware」とのネイティブ連携が実現し、中間的なブリッジを用いずに、「CARLA」の起動設定から「Autoware」を接続できるようになりました。 この連携方法により、開発環境の構築が簡素化され、応答性や処理効率の向上も期待されます。また、従来のモジュール型自動運転システムに加え、AIベースの自動運転システムの評価にも活用できます。 オープンソースコミュニティとの協業を拡大 今回のネイティブ連携は、The Autoware Foundation（AWF）のコミュニティにおいて、「CARLA」と「Autoware」の相互運用性を高めるための議論が行われたことをきっかけに実現しました。 ティアフォーは、「CARLA」と「Autoware」のネイティブ連携機能を社内で先行開発し、「CARLA」のチームがその成果を「CARLA 1.0」に移植しました。また、ティアフォーのエンジニアは「CARLA」のオープンソースコミュニティに継続的に参加し、Unreal Engine 4からUnreal Engine 5への移行にも貢献してきました。こうした取り組みを通じて、「CARLA」の開発・保守を担うメンバーや他の開発者との協力関係を構築し、「Autoware」とのネイティブ連携の実現につなげました。 今後も、LiDAR点群データの出力最適化や車両モデルの拡充など、社内開発で得られた改善成果を「CARLA」の本流プロジェクトに還元していく予定です。 AWFと「CARLA」の両コミュニティとの連携を深め、世界中の開発者が自動運転システムの開発・検証に取り組みやすい環境づくりを推進します。 自動運転技術の開発をより身近に 「CARLA」と「Autoware」のネイティブ連携によって、自動運転システムの開発・検証に必要な環境構築が容易になり、開発者の技術的な負担を軽減できます。ティアフォーは、「Autoware 2.0」などの取り組みとあわせて、利用しやすいシミュレーション環境の整備を進めることで、「Autoware」のグローバルなエコシステムの拡大と、オープンソース自動運転技術の普及を後押しします。 ティアフォー 代表取締役 CEO 加藤真平のコメント オープンソースソフトウェアは、自動運転の民主化を支える基盤です。しかし、開発者が実社会で活用できるシステムを構築するためには、技術そのものだけでなく、開発・検証に利用できる実践的な環境も欠かせません。今回、「CARLA」の開発と「Autoware」とのネイティブ連携に貢献することで、2つの重要なオープンソースコミュニティをつなぐことができました。今後も両コミュニティとの協業を深め、世界中の開発者が自動運転技術をより身近に活用できる環境づくりを進めていきます。 提供開始および関連情報 「Autoware」の標準対応は、「CARLA 1.0」に含まれています。技術ドキュメント、インストール手順、実装の詳細については、以下をご覧ください。 - 「CARLA」ROS 2連携ドキュメント - 「CARLA」のダウンロード・インストールガイド - 「CARLA」GitHubリポジトリ - 「CARLA」と「Autoware」の連携に関する議論 - ティアフォーの「CARLA」・「Autoware」連携リポジトリ 株式会社ティアフォーについて 株式会社ティアフォーは、「自動運転の民主化」をビジョンに掲げ、自動運転用オープンソースソフトウェア「Autoware」の開発を主導するディープテック企業です。自社製品として「Autoware」を活用したソフトウェアプラットフォームを提供し、それらを基盤に市場ニーズに応じた自動運転における各種サービスを展開しています。ティアフォーは、「Autoware」が生み出すエコシステムを通じて、世界中のパートナーと連携しながら自動運転の可能性を広げ、より安全で持続可能な社会の実現を目指しています。 ━━会社概要━━ 【社名】株式会社ティアフォー 【所在地】東京都品川区 【URL】https://tier4.co.jp/ 【設立年月】2015年12月 【主な事業内容】 ・自動運転プラットフォーム開発事業 ・自動運転ウェブサービス開発事業 ・自動運転システム開発キット販売事業 ・自動運転技術の教育事業 広報に関するお問い合わせ ティアフォー pr@tier4.jp ティアフォーの名称またはロゴは、日本およびその他の国において、株式会社ティアフォーの商標または登録商標です。その他、記載されているすべての会社名、製品名、サービス名、およびロゴ等は、それぞれ各社の商標または登録商標です。 Autoware はThe Autoware Foundationの登録商標です。 すべての画像"
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · LIGARE（リガーレ）",
+   "category": "media",
+   "kind": "gnews",
+   "title": "名古屋大、自動運転の大規模導入と地域交通の未来を議論。12/17シンポジウムでティアフォー加藤氏が基調講演",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DQmdBYU9iSVhZMDJaUlo3X2RSWW9YR1lZWUVrUmZ1N3lNV05MbWJtUlBJY0dkVTBMd2xNSWNfZHlDOW1zd25hRjhNWlhYWUs3Nk1Pa2NZSDRnakFCSkgxN1Vib1c5Znc?oc=5",
+   "date": "2026-11-18 11:33",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Foundation-Governance",
+    "is_focus": false,
+    "signal_tags": [
+     "foundation",
+     "community"
+    ],
+    "korean_title": "명고야 대학 심포지움, TIER IV 가토 CEO 기조 연설 예고",
+    "korean_summary": "명고야 대학의 12월 17일 자동운전 대규모 도입 심포지움에서 TIER IV 가토 CEO가 기조 연설 예정"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DQmdBYU9iSVhZMDJaUlo3X2RSWW9YR1lZWUVrUmZ1N3lNV05MbWJtUlBJY0dkVTBMd2xNSWNfZHlDOW1zd25hRjhNWlhYWUs3Nk1Pa2NZSDRnakFCSkgxN1Vib1c5Znc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "593A.T Interactive Stock Chart | TIER IV INC Stock",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DbnBIaUswY0ozYUlnVnlUeTN4ZHZWb1BvdGRpb09qemZuUXZhMlM5NjVwTkZ2aVhkTjlITDU0dnlpNGt1MnhCUHByaWRLWlE?oc=5",
+   "date": "2026-11-17 01:29",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV 주식 정보 (무관)",
+    "korean_summary": "본문 없는 주식 차트 정보로 실질적 뉴스 없음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DbnBIaUswY0ozYUlnVnlUeTN4ZHZWb1BvdGRpb09qemZuUXZhMlM5NjVwTkZ2aVhkTjlITDU0dnlpNGt1MnhCUHByaWRLWlE",
+   "body": ""
+  },
+  {
+   "source": "Google News · 日本経済新聞",
+   "category": "media",
+   "kind": "gnews",
+   "title": "ティアフォー",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxU3R6Zzd3QnlEcjBGdVVaTDhsM2l4QUpiQ0Q2R2JIcUZDQ2NNSlFMbHcxdDcwMnZ2NWp0czBVYXJzVFNrVXJaOFFiaGhnOTBOLUFtbzdnd1lXSmtTbEFadm9qcy1iU1NvMWc?oc=5",
+   "date": "2026-11-17 16:00",
+   "score": 2,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 0,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "TIER IV (불완전한 기사)",
+    "korean_summary": "본문 및 충분한 정보 없어 평가 불가"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · 日本経済新聞",
+     "title": "ティアフォー",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxU3R6Zzd3QnlEcjBGdVVaTDhsM2l4QUpiQ0Q2R2JIcUZDQ2NNSlFMbHcxdDcwMnZ2NWp0czBVYXJzVFNrVXJaOFFiaGhnOTBOLUFtbzdnd1lXSmtTbEFadm9qcy1iU1NvMWc?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxU3R6Zzd3QnlEcjBGdVVaTDhsM2l4QUpiQ0Q2R2JIcUZDQ2NNSlFMbHcxdDcwMnZ2NWp0czBVYXJzVFNrVXJaOFFiaGhnOTBOLUFtbzdnd1lXSmtTbEFadm9qcy1iU1NvMWc",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "Autoware Foundation",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.autoware.org/feed",
+   "sec": 0.4
+  },
+  {
+   "source": "TIER IV MEDIA",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "TIER IV 보도자료 (PR TIMES)",
+   "raw": 129,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "YouTube · Autoware Foundation",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_core",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_universe",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 3.7
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_launch",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.0
+  },
+  {
+   "source": "GitHub · autowarefoundation/autoware_msgs",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · autowarefoundation/AWSIM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/vision_pilot",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/auto_e2e",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · autowarefoundation/agnocast",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · tier4/scenario_simulator_v2",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · tier4/nebula",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · tier4/CalibrationTools",
+   "raw": 4,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/AWML",
+   "raw": 2,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · tier4/caret",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · tier4/awkernel",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Hugging Face · tier4",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Robot Report",
+   "raw": 15,
+   "in_window": 5,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "IEEE Spectrum · Robotics",
+   "raw": 30,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "TechCrunch · transportation",
+   "raw": 20,
+   "in_window": 4,
+   "enriched": 4,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · Autoware",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV",
+   "raw": 1,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · Autoware 사업",
+   "raw": 2,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · TIER IV 기업 (JP)",
+   "raw": 19,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Google News · TIER IV corporate",
+   "raw": 4,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Google News · ティアフォー (JP)",
+   "raw": 27,
+   "in_window": 14,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.2
+  },
+  {
+   "source": "レスポンス (response.jp)",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 50,
+   "error": "",
+   "sec": 9.4
+  },
+  {
+   "source": "Google News · 자율주행 오픈소스 (KR)",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 15,
+   "error": "",
+   "sec": 4.5
+  },
+  {
+   "source": "전자신문",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='rss.etnews.com', port=443): Max retries exceeded with url: /Section902.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='rss.e",
+   "sec": 20.2
+  },
+  {
+   "source": "ROS Discourse · Autoware",
+   "raw": 25,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "502 Server Error: Bad Gateway for url: https://hnrss.org/newest?q=autoware",
+   "sec": 1.3
+  },
+  {
+   "source": "Reddit r/SelfDrivingCars",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/SelfDrivingCars/new/.rss",
+   "sec": 0.1
+  }
+ ]
+}
