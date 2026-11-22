@@ -1,0 +1,1944 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-22",
+ "window": [
+  "2026-11-21",
+  "2026-11-22"
+ ],
+ "generated": "2026-11-22T10:20:05+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 **SEC** 회계 감시 조사 대상이 되며 주가가 하루 만에 5000억 달러 급락해 투자자 신뢰가 흔들렸다.",
+  "캘리포니아 당국이 NVIDIA 조사를 **형사법 위반** 가능성까지 확대하며 규제 리스크가 심화됐다.",
+  "NVIDIA가 SC26에서 **Vera Rubin** 플랫폼을 확대 발표하고 Rubin HPC GPU를 공개해 차세대 컴퓨팅 전략을 제시했다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · Crypto Briefing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia posts blowout quarter as board rejects calls for Jensen Huang’s return",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVh4c0NTMFN5SFNQNlB2SFp5WXljSDRmVnBxbnNMOF90dURfbnRWekM4NF9ZQlF2Tzlxd01ZaDZYRUJXLVJNc0lfcVZkUnlxUnJCcTdiOWxsLWxGRUV3UmR0VVI1NGZidkpSR19DWTFVbi1IQXRWbms1WWE2X1M0OFpVWWNJdw?oc=5",
+   "date": "2026-11-22 06:11",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 초호황 분기 실적 발표... 이사회, Jensen Huang 복귀 요청 거부",
+    "korean_summary": "NVIDIA가 뛰어난 분기 실적을 발표했으며, 이사회는 CEO 복귀 요청을 거부했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVh4c0NTMFN5SFNQNlB2SFp5WXljSDRmVnBxbnNMOF90dURfbnRWekM4NF9ZQlF2Tzlxd01ZaDZYRUJXLVJNc0lfcVZkUnlxUnJCcTdiOWxsLWxGRUV3UmR0VVI1NGZidkpSR19DWTFVbi1IQXRWbms1WWE2X1M0OFpVWWNJdw",
+   "body": ""
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "A tale of two Nvidias",
+   "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+   "date": "2026-11-22 06:07",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "NVIDIA 호실적과 Jensen Huang CEO 복귀 청원 사이의 엇갈린 신호",
+    "korean_summary": "NVIDIA가 시장 예상을 상회하는 실적과 가이던스를 발표했으나 CEO 복귀 청원이 나오며 경영 불확실성을 드러냈다."
+   },
+   "summary_data": {
+    "korean_title": "실적 호조 속 리더십 위기: NVIDIA의 두 얼굴",
+    "korean_summary": "NVIDIA가 중국向 H200 칩 판매 중단을 발표하고 호실적을 발표했지만, 동시에 Elon Musk 등이 Jensen Huang의 CEO 복귀를 요구하는 청원을 주도하며 혼란스러운 한 주를 보냈다.",
+    "action": {
+     "actor": "NVIDIA (interim CEO Colette Kress)",
+     "action": "H200 칩의 중국 판매를 전면 중단하고, 동시에 호실적 발표 및 Jensen Huang 복귀 가능성에 대해 공식적으로 부인",
+     "stage": "Announced",
+     "timeline": "미확인 (Kirsten Korosec는 2027년 상반기에 정책 변화 가능성을 언급했으나 확정된 일정 아님)",
+     "scope": "H200 칩의 중국 직접·간접(말레이시아 등 경유) 판매 전면 차단"
+    },
+    "key_facts": [
+     "**interim CEO Colette Kress가 H200 칩의 중국 판매 중단을 공식 발표**",
+     "말레이시아 등 제3국에 설치된 데이터센터를 통한 중국 기업의 원격 접근(remote access)도 차단 대상에 포함됨",
+     "비판론자들은 **NVIDIA 매출의 약 20%가 중국 관련(간접 판매 포함)에서 발생**한다고 추정",
+     "이번 분기 실적은 기대치를 상회했고 가이던스도 우수했으며 파이프라인도 긴 것으로 평가됨",
+     "Elon Musk 등이 Jensen Huang CEO 복귀를 촉구하는 청원을 주도했고, Huang 본인도 복귀 의사를 밝힘"
+    ],
+    "why_matters": "**미국 정부의 대중국 수출 통제 강화와 맞물려 NVIDIA의 중국 관련 매출(간접 매출 포함 약 20% 추정)이 타격받을 가능성**이 제기되며, 이는 데이터센터·AI 칩 공급망에서 경쟁사(화웨이 등 중국 자국 칩)의 반사이익으로 이어질 수 있다. 동시에 리더십 불확실성(Jensen Huang 복귀설)은 투자자 신뢰에 영향을 미쳐 주가 하락으로 이어지고 있다.",
+    "subject_angle": "**NVIDIA는 호실적으로 사업 기초체력을 증명했지만, 중국 수출 통제 강화와 리더십 드라마가 동시에 발생하며 지정학적 리스크와 거버넌스 리스크가 투자자 신뢰에 부담**을 주고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "H200 중국 판매 중단 발표 및 Jensen Huang 복귀설에 대한 공식 부인 주체"
+     },
+     {
+      "name": "Elon Musk",
+      "context": "Jensen Huang의 CEO 복귀를 요구하는 청원 주도"
+     },
+     {
+      "name": "TechCrunch",
+      "context": "Equity 팟캐스트를 통해 해당 이슈를 보도·분석"
+     }
+    ],
+    "products": [
+     {
+      "name": "H200",
+      "role": "중국向 판매가 중단된 핵심 AI 칩 제품"
+     }
+    ],
+    "watch_next": [
+     "Jensen Huang의 실제 CEO 복귀 여부 및 NVIDIA 이사회의 최종 결정",
+     "H200 중국 판매 중단에 따른 실제 매출 영향(20% 추정치의 현실화 여부)",
+     "2027년 상반기 전후 미국 대중국 수출 통제 정책 변화 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
+   "body": "We got two very different pictures of Nvidia this week, depending on whether you were focused on the company’s latest earnings report or the tech executives loudly calling for former CEO Jensen Huang’s return. On the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Tim De Chant, and I discussed the latest news from the AI chipmaker, which reported soaring revenue and insisted that it has no plans for Huang to return. Kirsten described this as “the tale of two Nvidias this week,” with the company’s current executives assuring investors, “Hey, we’ve got this.” At the same time, “You’ve got Elon Musk and others out there really pushing to bring Jensen back, circulating a petition, Jensen himself saying that he’s prepared to come back.” (The company’s falling stock price certainly suggests that Wall Street isn’t feeling reassured.) Keep reading for a preview of our conversation, edited for length and clarity. Kirsten Korosec: Nvidia will no longer sell its H200 chips in China. This was coming directly from the interim CEO Colette Kress, and that coincides with the Trump administration also talking about closing off what we have discussed in the past, which is this idea of remote access — really closing and tightening all these restrictions [so] the chips can’t make it into China. What was happening is that data centers were being set up right outside, in countries like Malaysia and elsewhere, and then companies within China were remote accessing these chips, and so that’s now also been shut down. A lot is happening on the China front that is so much bigger than Nvidia, but Nvidia came out publicly and said, “Nope, we’re shutting this part down.” I’ll be very curious to see if this changes, maybe in the first half of 2027. Tim De Chant: I’d love to be a fly on the wall in some of these Trump administration conversations, because they were much more stringent in terms of export controls at the end of the first Trump administration, and that continued through the Biden administration, where they really restricted Nvidia’s ability to export chips to China. I think that something changed in the last couple of years that really opened Nvidia’s ability to sell in the country. Anthony Ha: One of the things that really surprised me as we were preparing for this episode was [learning that critics] of Nvidia’s stance towards China estimate that 20% of their business comes from China. And again, that’s not something you’re going to see directly in their financials, because that’s not direct sales to Chinese companies. But they’re saying, “A lot of the chips that are getting sold to companies in Malaysia or other companies in East Asia or Southeast Asia are going to end up [used by companies in] China eventually.” And so that could be — if Nvidia is really serious about this, I think this is something that’s very much in flux — that could actually be a pretty significant blow to their bottom line. Kirsten: Although Nvidia’s bottom line is doing jus"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Trump wants to ban US companies from building overseas data centers as bans slow development",
+   "link": "https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition",
+   "date": "2026-11-22 01:29",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, 미국 기업의 해외 데이터센터 건설 규제 추진",
+    "korean_summary": "트럼프 대통령이 미국 기업의 해외 데이터센터 건설을 금지하거나 높은 세금을 부과하는 정책을 제안했다."
+   },
+   "summary_data": {
+    "korean_title": "트럼프, 미국 기업의 해외 데이터센터 건설 금지·'막대한 세금' 부과 검토",
+    "korean_summary": "트럼프 대통령이 중국의 수출 규제 우회를 막기 위해 미국 기업의 해외 데이터센터 건설을 금지하거나 **'막대한 세금(tremendous tax)'**을 부과하는 방안을 검토하고 있다고 밝혔다.",
+    "action": {
+     "actor": "Donald Trump (U.S. President)",
+     "action": "미국 기업의 해외 데이터센터 건설 금지 또는 고율 세금 부과 검토 발언",
+     "stage": "Rumor",
+     "timeline": "미확인 (2026-11-22 보도 기준, 내각·보좌진과 사전 논의 없음)",
+     "scope": "미국 기업의 해외 데이터센터 투자 전반, 특히 Nvidia Blackwell·Vera Rubin 칩이 탑재된 중국 접근 가능 해외 센터"
+    },
+    "key_facts": [
+     "트럼프는 내각·보좌진과 사전 협의 없이 해외 데이터센터 건설 금지 또는 '막대한 세금' 부과를 언급했다 (Axios 보도)",
+     "**중국 AI 랩들이 법적 루프홀을 이용해 Nvidia의 수출 금지 칩(Blackwell, 예정된 Vera Rubin)을 탑재한 해외 데이터센터에 데이터를 보내고 있다**는 것이 금지 검토의 한 배경",
+     "미 하원은 이 루프홀을 막기 위한 Remote Access Security Act(RASA)를 2026년 1월 통과시켰으나 상원에서 계류 중",
+     "BIS(미 산업안보국)는 Nvidia에 고객사의 51% 이상이 비(非)중국 자본이어야 한다고 경고",
+     "미국 내 데이터센터 모라토리엄(건설 중단 조치)이 500건을 넘어섰고, 중간선거에서 관련 데이터센터 지원 법안들이 대부분 부결됨"
+    ],
+    "why_matters": "이 조치가 실제 입법화되면 **미국 기업이 데이터 주권(data sovereignty)을 요구하는 해외 시장을 상실**할 위험이 있으며, 동시에 Nvidia 칩의 중국 우회 수출 경로를 차단하려는 수출통제 강화 흐름과 직결된다. 다만 과세권은 의회에 있고 여당이 상·하원을 장악하지 못해 실행 가능성은 불확실하다.",
+    "subject_angle": "**Nvidia는 Blackwell·Vera Rubin 칩이 중국 우회 수출의 핵심 대상으로 지목**되면서 고객사 지분 구조(51% 비중국) 검증 등 컴플라이언스 부담이 커지고 있으며, 미국의 해외 데이터센터 규제 강화는 Nvidia 하이퍼스케일 고객들의 해외 투자 전략에도 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Blackwell·Vera Rubin 칩이 중국 우회 수출 루프홀의 핵심 대상으로 언급됨"
+     },
+     {
+      "name": "SpaceX (Elon Musk)",
+      "context": "자사 AI 데이터센터 인근 주택 418채 매입 사례로 언급"
+     },
+     {
+      "name": "U.S. Bureau of Industry and Security (BIS)",
+      "context": "Nvidia에 고객 지분 51% 비중국 요건 경고"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia Blackwell",
+      "role": "중국 수출 금지 칩, 우회 수출 루프홀의 대상"
+     },
+     {
+      "name": "Nvidia Vera Rubin",
+      "role": "예정된 차세대 칩, 동일한 수출 규제 우회 우려 대상"
+     }
+    ],
+    "watch_next": [
+     "Remote Access Security Act(RASA)의 상원 통과 여부",
+     "트럼프 행정부의 해외 데이터센터 금지/과세 정책 구체화 여부 및 의회 협상 진행",
+     "BIS의 51% 비중국 지분 요건이 Nvidia 고객사 계약에 실제 적용되는 시점"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/data-centers/trump-wants-to-ban-us-companies-from-building-overseas-data-centers-as-bans-slow-development-also-considers-putting-a-tremendous-tax-in-lieu-of-prohibition",
+   "body": "President Donald Trump, who has been pushing for AI development in the U.S., said that he wants to prevent U.S. companies from building data centers in other countries or charge them with a “tremendous tax” if they push ahead with their overseas plans. The move comes as a surprise, Trump said, as he hasn’t even discussed the proposed policy with his cabinet and advisors, reports Axios . Go deeper with TH Premium: AI and data centers (Image credit: Microsoft) The data center cooling state of play The custom AI ASIC state of play America’s AI chip rules keep changing — and the rest of the world is paying the price GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year Demand for data center CPUs has surged, and AI agents are responsible “They’re making so much money they don’t know what to do with it,” the U.S. president said. He added that Americans should negotiate with AI hyperscalers that want to establish data centers in communities, as they could help reduce costs and taxes. “They have plenty of money. Take it,” Trump added. Several states and jurisdictions have started implementing similar solutions, with one Pennsylvania town listing 43 specific demands to approve an AI data center, while New York State recommended the municipalities demand a $1 million community investment per megawatt. Some developers embraced this, with one offering $10,000 per household if its 1,3000-acre facility gets approved, while Elon Musk’s SpaceX is buying out 418 homes near its flagship AI data center. This is going to be an issue for many Americans, though, especially as AI data center measures put forward in the recently concluded mid-term elections have been comprehensively defeated . In fact, data center moratoriums have already surged past 500 across the U.S., making it harder for developers to push forward with their projects. One possible reason Trump is considering a ban on overseas data centers for U.S. companies is that Chinese AI labs have been exploiting a loophole in U.S. law. This technicality has allowed them to export data to overseas data centers that use AI chips banned for export to China, like Nvidia’s Blackwell and upcoming Vera Rubin chips. “We’re not allowing data centers to go into other countries because China will take all of them, and we’re not allowing that to happen,” Trump said. The U.S. House of Representatives passed the Remote Access Security Act (RASA) in January 2026 to close the workaround, but the bill has been in limbo in the Senate since then. The U.S. Bureau of Industry and Security (BIS) is also taking steps to prevent this , with Nvidia warning its clients that their customers should be at least 51% not from China to avoid legal exposure. Another question is how the Trump administration will implement its “tremendous tax.” Congress is the only federal body with the constitutional power to impose taxes, and with the opposing party controlling both th"
+  },
+  {
+   "source": "Google News · PBS",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdGhFLVdNQVNlbl9tSXFrRmI4LS1VQmhxamhUS0F0WjhFMmoydGtBbG5Lc1AzbklUekQ0NDdvWDM0Q2Nfd2dOUTZEdE9MVnZCUVJtc1p3M0R4M2VjVS1zNUdXWWF1R2ZnNmpQU2lJSXNQQlM5WUk3cF92bDB3c3F5N3d6ZEEySktWeVRmSkE4SXR3R3JUaXhObmhjdmgzSEgxNTV6d3N0M2k5UU9uSDBsRXZiNzIxRWJsQmfSAb8BQVVfeXFMUElMcEVVRXcweUZhTloxWGJFdlN0UWx2ZDBBSm5DRzhiejNJZlgtWWV2eUpiQ0diajZlZ3BrbmZEMTJRZnU2eVBJWkwxdGNzTkprSElzTk05VXhKREVDcnYwN0t4aXl2V2VFbHZ4SWNuWEVvUXA5bEE1dm94UWU3aTBQT0phSEEydHdEMWYzSkNvbWtlbHVlajJRblRfUUc3eFBXTFZmd2VYQWh2RjMwZzM3N2ZYQ0l3OWhqS29mQm8?oc=5",
+   "date": "2026-11-22 01:28",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "미국 재무부 \"NVIDIA 중국 수출 제한 충분\"",
+    "korean_summary": "Bessent 재무부 장관이 중국에 대한 NVIDIA 칩 수출 규제가 현 수준으로 충분하다고 명시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdGhFLVdNQVNlbl9tSXFrRmI4LS1VQmhxamhUS0F0WjhFMmoydGtBbG5Lc1AzbklUekQ0NDdvWDM0Q2Nfd2dOUTZEdE9MVnZCUVJtc1p3M0R4M2VjVS1zNUdXWWF1R2ZnNmpQU2lJSXNQQlM5WUk3cF92bDB3c3F5N3d6ZEEySktWeVRmSkE4SXR3R3JUaXhObmhjdmgzSEgxNTV6d3N0M2k5UU9uSDBsRXZiNzIxRWJsQmfSAb8BQVVfeXFMUElMcEVVRXcweUZhTloxWGJFdlN0UWx2ZDBBSm5DRzhiejNJZlgtWWV2eUpiQ0diajZlZ3BrbmZEMTJRZnU2eVBJWkwxdGNzTkprSElzTk05VXhKREVDcnYwN0t4aXl2V2VFbHZ4SWNuWEVvUXA5bEE1dm94UWU3aTBQT0phSEEydHdEMWYzSkNvbWtlbHVlajJRblRfUUc3eFBXTFZmd2VYQWh2RjMwZzM3N2ZYQ0l3OWhqS29mQm8",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation. What It Means for Investors",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckxocjV6RlV0dTl2MHdGalAyZ0lrLXlrNVlnSFRUcjFKRG1tZUIxVlpBS0M5ajdQWThDZ0ZzQ01jXzBES3RaWHFkNkZNWEJ1ZTVtOGxjR3hsLXE5eVAwaWU1aEdnUTNvZzFpOVpwVTJLaVhjcGU2LW1iV3ltMnRmdDdRM2VyZVpKbWVqTTZEYlhEemhNd1E?oc=5",
+   "date": "2026-11-21 15:30",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 18년 최악의 주간 이후 SEC 조사 직면",
+    "korean_summary": "NVIDIA가 SEC의 공식 조사를 받으며 규제 위험 증가"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckxocjV6RlV0dTl2MHdGalAyZ0lrLXlrNVlnSFRUcjFKRG1tZUIxVlpBS0M5ajdQWThDZ0ZzQ01jXzBES3RaWHFkNkZNWEJ1ZTVtOGxjR3hsLXE5eVAwaWU1aEdnUTNvZzFpOVpwVTJLaVhjcGU2LW1iV3ltMnRmdDdRM2VyZVpKbWVqTTZEYlhEemhNd1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "California Nvidia Probe Covers Potential Criminal Law Violations",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYVnVKYm50andhaTFJVHZLenZrckE1aFZuMGhiSW42Mlh5c2lZcGc5eTg1NDQwWVRFQWxSOGtzWHk2S2pGLVpvM3N2enh4Mms5OTF0MHFXc0JnN3ZoYlB3ODJqX3FoSjJCTWlPOHQ2SjNOQ1Q3cjVNR0NWRVYxWVFEanpwZC1mSW5SeGpXSDRqX1d0TUVwdE1vYVJWUQ?oc=5",
+   "date": "2026-11-22 02:11",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "캘리포니아의 NVIDIA 조사가 형사법 위반으로 확대",
+    "korean_summary": "캘리포니아 당국의 NVIDIA 조사가 형사법 위반 범위로 확장됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZKSUpVM0xWNVRuM3B0RjhyOTM0NUNoRmNYVnVKYm50andhaTFJVHZLenZrckE1aFZuMGhiSW42Mlh5c2lZcGc5eTg1NDQwWVRFQWxSOGtzWHk2S2pGLVpvM3N2enh4Mms5OTF0MHFXc0JnN3ZoYlB3ODJqX3FoSjJCTWlPOHQ2SjNOQ1Q3cjVNR0NWRVYxWVFEanpwZC1mSW5SeGpXSDRqX1d0TUVwdE1vYVJWUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia probe in California extends to potential criminal violations: Bloomberg",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVFpsa3M3TE9HZHhwdkJvZ01lZmNrSll3Tm5lcHpmMjdNZDRPZXFLblRkd0NHUG9CZDhDWDREZy1uUmtjZ2lUeVhRMGlaM2g4cDNGYWhJQVFsYlNqVllpcElQNlJJYWtwd3E1ZFJEVjZmSm1jUnRzU3hOVWs5UkZkYkIwUDFQV0NkcnZqdGp3NFc?oc=5",
+   "date": "2026-11-22 04:46",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 캘리포니아 조사, 형사 위반 가능성까지 확대: Bloomberg",
+    "korean_summary": "NVIDIA에 대한 캘리포니아 조사가 형사법 위반 범주까지 포함하도록 확대됨"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVFpsa3M3TE9HZHhwdkJvZ01lZmNrSll3Tm5lcHpmMjdNZDRPZXFLblRkd0NHUG9CZDhDWDREZy1uUmtjZ2lUeVhRMGlaM2g4cDNGYWhJQVFsYlNqVllpcElQNlJJYWtwd3E1ZFJEVjZmSm1jUnRzU3hOVWs5UkZkYkIwUDFQV0NkcnZqdGp3NFc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Jensen Huang’s allies say they've told him since his resignation: 'Let's fight'",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnU4MHkxSU5DSkRlWkdZbGJaQXppeUJwckVueDN2V3A4bjFkaW5KMzhFSm42dmRPTkZqWVE1WnRIWjJwcU94TjMtNDJIWDRYTENIMVU1ZDhFbnVXWXdITjEyMjZuMlJXb2tnQlNKbWdPcjYzelN4R0RMWkIyWTJhX3p2VlJPR1JwTXhYSTFqUQ?oc=5",
+   "date": "2026-11-22 00:31",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang의 동료들, 사임 후 '계속 싸워라'고 조언",
+    "korean_summary": "Jensen Huang이 사임한 이후 그의 측근들이 계속 싸울 것을 권유했다고 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnU4MHkxSU5DSkRlWkdZbGJaQXppeUJwckVueDN2V3A4bjFkaW5KMzhFSm42dmRPTkZqWVE1WnRIWjJwcU94TjMtNDJIWDRYTENIMVU1ZDhFbnVXWXdITjEyMjZuMlJXb2tnQlNKbWdPcjYzelN4R0RMWkIyWTJhX3p2VlJPR1JwTXhYSTFqUQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Former Nvidia CEO Jensen Huang to Face Public Senate Hearing - NVIDIA (NASDAQ:NVDA)",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZlNoUlNwOUV4Mll4SXJsRWdRQThSWEZKYlFVVHZQbUUwazc1RnBMeWpic0ZTeHYzOEFLRWw0OE1aczJIeGZnZ1h5M3Z1RGZHNjZhZDloSFRDQlRyRmpXWktBWkdsUzRnMlh1ejlpMk5YQVZuaGtVOHdkUGNSeWJCVi0xT3RxWDY2dmJMMFg3QU1WTU9lRGU0dDdRcTZPU2M?oc=5",
+   "date": "2026-11-21 11:34",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "전 NVIDIA CEO Jensen Huang, 상원 청문회 증인 출석",
+    "korean_summary": "전 NVIDIA CEO Jensen Huang이 상원 청문회에 증인으로 출석할 예정이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZlNoUlNwOUV4Mll4SXJsRWdRQThSWEZKYlFVVHZQbUUwazc1RnBMeWpic0ZTeHYzOEFLRWw0OE1aczJIeGZnZ1h5M3Z1RGZHNjZhZDloSFRDQlRyRmpXWktBWkdsUzRnMlh1ejlpMk5YQVZuaGtVOHdkUGNSeWJCVi0xT3RxWDY2dmJMMFg3QU1WTU9lRGU0dDdRcTZPU2M",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRadar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Influencers were paid to back Donald Trump's Nvidia AI chip export to China",
+   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSWF5SjJBTldSTmc1VlVQQm9OQmN4SEF5dmYzN29rZTAzTkd0TzZtMHJ2Y2MtY2R4Z3ZBSVdfeV9OaHJ4Z3BGOUE5a2Z3Tk5DaVJlU09raklaS3FRNEJIanoxQndOcUtrSHJlY1k4d2VTRVF2cTZPNGtnT1pIaHpaaW8wcVdoVVZQQzNQUFZMcnRjWmJFc3RERWV5M212akRGVTBpU2tkdndOSXRhTlp2QXZkTWwxYkhxbkk5Q294dzRrT3M5NFJlWTJiMFJrSi1qWWRDbktCR1ExWEZsTEdGeENnNjJaR2t3amdXMlRteFNUclpJYTlEN0kzeG5mOXd6VVp3RA?oc=5",
+   "date": "2026-11-22 04:15",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "영향력자들, NVIDIA 중국 AI 칩 수출 지지 로비 (유료)",
+    "korean_summary": "영향력 있는 인물들이 NVIDIA의 중국 AI 칩 수출을 지지하는 활동에 보수를 받았다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSWF5SjJBTldSTmc1VlVQQm9OQmN4SEF5dmYzN29rZTAzTkd0TzZtMHJ2Y2MtY2R4Z3ZBSVdfeV9OaHJ4Z3BGOUE5a2Z3Tk5DaVJlU09raklaS3FRNEJIanoxQndOcUtrSHJlY1k4d2VTRVF2cTZPNGtnT1pIaHpaaW8wcVdoVVZQQzNQUFZMcnRjWmJFc3RERWV5M212akRGVTBpU2tkdndOSXRhTlp2QXZkTWwxYkhxbkk5Q294dzRrT3M5NFJlWTJiMFJrSi1qWWRDbktCR1ExWEZsTEdGeENnNjJaR2t3amdXMlRteFNUclpJYTlEN0kzeG5mOXd6VVp3RA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia faces US accounting probe amid deepening turmoil: media",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkpvTmdpdzNUMVVjZEJXbVdIYXlheTM1ZmpMRl9LdkQ1YjV1VXYtNUxGSTlHZWpzLWhfTFVnR2h0b0NMNGlsTWhOYXpYRVYyR0ZkTmJNRkh2MXAycU5Nd0pKNy1QbG92UGg1TXd0SGx4S1R6UXNDek1fTTFpZnR1VEVfaE9Na0hOYjlBUGlfUC1jTGFCS195ek1ZNjc?oc=5",
+   "date": "2026-11-22 06:53",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 미국 회계 감시 조사 대상",
+    "korean_summary": "NVIDIA가 미국 회계 관련 감시 조사에 직면"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNkpvTmdpdzNUMVVjZEJXbVdIYXlheTM1ZmpMRl9LdkQ1YjV1VXYtNUxGSTlHZWpzLWhfTFVnR2h0b0NMNGlsTWhOYXpYRVYyR0ZkTmJNRkh2MXAycU5Nd0pKNy1QbG92UGg1TXd0SGx4S1R6UXNDek1fTTFpZnR1VEVfaE9Na0hOYjlBUGlfUC1jTGFCS195ek1ZNjc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The New Stack",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia used 20,000 training examples to fix its AI’s mistakes. Its coding score jumped.",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JazVNcDVHMFhoelphYjJNXzRKNUFWeFNfYVZpX01OSjdldUlFb0FEejY0ZmtHWHc0dWJ5VV9GYzhDdi1jZjkxcExLRWhUOFdQLTlTSUhKVHJsUExVaWNGUHAtOA?oc=5",
+   "date": "2026-11-22 01:11",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA, 2만 개 학습 예제로 AI 코딩 성능 대폭 향상",
+    "korean_summary": "NVIDIA가 20,000개의 학습 예제를 통해 AI 모델의 코딩 성능 점수를 크게 개선했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9JazVNcDVHMFhoelphYjJNXzRKNUFWeFNfYVZpX01OSjdldUlFb0FEejY0ZmtHWHc0dWJ5VV9GYzhDdi1jZjkxcExLRWhUOFdQLTlTSUhKVHJsUExVaWNGUHAtOA",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRadar",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia expands its Vera Rubin platform at SC26 supercomputing conference",
+   "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZmZZUl9zcllnaF9ad0c2SFdtSkRJZzBIQTV3eXlpUW40a0Mya0d4Z01CcFhKQlNMOTEtOWl4aVdKVjR2T3BFM1ZBU0lHOVNCRVpFSTVEYTQ5bHRkNm1SeFNfdVVVNjhFc1V4c01OMl9MWmZKU2ZPc1RNRm1VOHc5U1VBUjd6bzY4YmczNzQ2YTVTcTRQR0hwU2RBU0RWOGlLU0pVRFJjV1JhTzJ3V2NmNDhPQmVPbHlnWjNiRHdRUjNFSFllMjlsS05UMURpVnprTHB6eDl3YzNPbmFVQWwzbDU3ZUhJQ1g4ZEg4WXZOODBUUVZyUG9fbnVKN3JKZw?oc=5",
+   "date": "2026-11-22 09:26",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "new-platform"
+    ],
+    "korean_title": "NVIDIA, SC26에서 Vera Rubin 플랫폼 확대 발표",
+    "korean_summary": "NVIDIA가 SC26 슈퍼컴퓨팅 컨퍼런스에서 Vera Rubin 플랫폼의 확대를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZmZZUl9zcllnaF9ad0c2SFdtSkRJZzBIQTV3eXlpUW40a0Mya0d4Z01CcFhKQlNMOTEtOWl4aVdKVjR2T3BFM1ZBU0lHOVNCRVpFSTVEYTQ5bHRkNm1SeFNfdVVVNjhFc1V4c01OMl9MWmZKU2ZPc1RNRm1VOHc5U1VBUjd6bzY4YmczNzQ2YTVTcTRQR0hwU2RBU0RWOGlLU0pVRFJjV1JhTzJ3V2NmNDhPQmVPbHlnWjNiRHdRUjNFSFllMjlsS05UMURpVnprTHB6eDl3YzNPbmFVQWwzbDU3ZUhJQ1g4ZEg4WXZOODBUUVZyUG9fbnVKN3JKZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Plunge Wipes Out Nearly $500 Billion in One Day as SEC Reportedly Probes Its Accounting",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZXVvWWpMRlREaWkzWTdnWGVvMzZsX2JVekNROC1CNXkwMDJyN3J2R2djNmdnTHZVN0xzVXFjdFdEM0laV1kzWFo2MlQ2ajVfYU9TZ0xTZHFpYXhHdllpX3ZNWUh1bk55N1BwSjRsa1FKUmloTU5RelRHM1VVOGRLZUF0RFVKejdPakJmQVh0RGhjcTk4TGs3czY4RkVPLWZKOUZ1bnk0REFQOXZja3RrSnYybWd0b2ZTTEVkdjBCZDZhRkwtTkFWdFNKc0FDVGcydHBlTVFTU0xRbXdLLUE?oc=5",
+   "date": "2026-11-21 06:07",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "stock"
+    ],
+    "korean_title": "SEC 회계감시 조사 와중 NVIDIA 주가 하루 5000억 달러 급락",
+    "korean_summary": "NVIDIA가 SEC의 회계감시 조사 대상이라는 보도에 따라 주식이 한 거래일에 5000억 달러 가까이 하락"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZXVvWWpMRlREaWkzWTdnWGVvMzZsX2JVekNROC1CNXkwMDJyN3J2R2djNmdnTHZVN0xzVXFjdFdEM0laV1kzWFo2MlQ2ajVfYU9TZ0xTZHFpYXhHdllpX3ZNWUh1bk55N1BwSjRsa1FKUmloTU5RelRHM1VVOGRLZUF0RFVKejdPakJmQVh0RGhjcTk4TGs3czY4RkVPLWZKOUZ1bnk0REFQOXZja3RrSnYybWd0b2ZTTEVkdjBCZDZhRkwtTkFWdFNKc0FDVGcydHBlTVFTU0xRbXdLLUE",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "This week on Tom's Hardware Premium: 21 November 2026",
+   "link": "https://www.tomshardware.com/tech-industry/supercomputers/this-week-on-toms-hardware-premium-21-november-2026-amd-nvidia-and-more-show-off-the-future-of-high-performance-computing-at-sc26",
+   "date": "2026-11-22 01:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "SC26 슈퍼컴퓨팅 컨퍼런스: NVIDIA Vera CPU vs AMD EPYC Venice",
+    "korean_summary": "NVIDIA와 AMD가 SC26 행사장에서 최신 CPU의 AI 워크로드 성능을 놓고 경쟁하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, SC26서 Rubin HPC GPU 공개하고 Vera CPU 소프트웨어 최적화 효과 발표",
+    "korean_summary": "NVIDIA는 SC26 컨퍼런스에서 **에이전틱 AI 및 과학 시뮬레이션용 Rubin HPC GPU**를 공개하고, Vera CPU의 Olympus 기반 Arm 코어 최적화로 최대 39% 성능 향상이 가능하다고 밝혔다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "SC26에서 Rubin HPC GPU 신제품 발표 및 Vera CPU 소프트웨어 최적화 성과 공개, CPU 책임자 Ian Finder 인터뷰를 통해 Vera 개발 배경 설명",
+     "stage": "Announced",
+     "timeline": "Rubin HPC는 2028년 출시 예정, 발표는 2026-11-21 주간 SC26 현장",
+     "scope": "에이전틱 AI 워크로드 및 HPC 과학 시뮬레이션 시장"
+    },
+    "key_facts": [
+     "NVIDIA가 SC26에서 Rubin HPC GPU를 발표했으며, **'기록적인 수의 CUDA 코어' 5만 개 이상**(표준 Rubin GPU의 약 2배)을 탑재, 2028년 출시 예정",
+     "NVIDIA는 Vera CPU가 특정 워크로드에서 Olympus 기반 Arm 코어를 활용한 아키텍처별 최적화로 **최대 39% 성능 향상**이 가능하다고 주장했으나, 행렬곱 외 다른 작업에서의 효과는 미확인",
+     "NVIDIA CPU 책임자 Ian Finder는 NVIDIA가 에이전틱 AI 모멘트를 예측했다는 것은 'absurd'라며, 대신 '제품 직관(product intuition)'이 Vera 설계를 이끌었다고 언급",
+     "AMD는 자사 Instinct MI430X의 네이티브 FP64 연산이 NVIDIA의 Ozaki FP64 에뮬레이션 방식보다 메모리 사용 측면에서 우월하다고 주장",
+     "AMD는 TOP500 신규 시스템의 40% 이상을 차지(전년 대비 14%p 상승)하며 Lux(14위), Discovery(2028년 데뷔 예정) 시스템 보유"
+    ],
+    "why_matters": "NVIDIA는 Rubin HPC와 Vera CPU를 통해 **AI 가속과 전통 HPC 컴퓨팅의 경계를 허무는 통합 컴퓨팅 스택 전략**을 추진 중이며, 이는 TOP500 등 전통 슈퍼컴퓨팅 벤치마크에서 AMD의 약진에 대응하는 움직임으로 해석된다. 동시에 AMD는 FP64 네이티브 지원과 이종 컴퓨트 스택 전략으로 NVIDIA의 에뮬레이션 기반 정밀도 접근을 직접 공격하고 있어 HPC·AI 융합 시장에서 경쟁이 심화되고 있다.",
+    "subject_angle": "NVIDIA는 Vera CPU와 Rubin HPC GPU를 묶어 **에이전틱 AI와 과학 컴퓨팅을 동시에 겨냥한 수직 통합 플랫폼**으로 포지셔닝하고 있으나, 성능 극대화를 위해 Olympus 코어 특화 소프트웨어 최적화가 필요하다는 점에서 생태계 성숙도에 의존적인 전략적 과제를 안고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Rubin HPC GPU 및 Vera CPU 발표, SC26 주요 발표 주체"
+     },
+     {
+      "name": "AMD",
+      "context": "EPYC Venice·Instinct MI430X로 NVIDIA와 경쟁, TOP500 점유율 확대"
+     },
+     {
+      "name": "U.S. Department of Energy",
+      "context": "AMD와 Lux·Discovery 슈퍼컴퓨터 공동 개발"
+     },
+     {
+      "name": "Tom's Hardware",
+      "context": "SC26 현장 취재 및 분석 보도"
+     }
+    ],
+    "products": [
+     {
+      "name": "Rubin HPC GPU",
+      "role": "에이전틱 HPC 워크로드용 신규 GPU, 5만+ CUDA 코어 탑재, 2028년 출시"
+     },
+     {
+      "name": "Vera CPU",
+      "role": "에이전틱 AI 특화 CPU, Olympus Arm 코어 최적화로 성능 최대 39% 향상"
+     },
+     {
+      "name": "EPYC Venice",
+      "role": "AMD의 경쟁 CPU, 에이전틱 워크로드 우위 주장"
+     },
+     {
+      "name": "Instinct MI430X/MI355X",
+      "context": "AMD GPU 가속기, 네이티브 FP64 지원 강조"
+     }
+    ],
+    "watch_next": [
+     "Rubin HPC GPU의 상세 기술 스펙 및 2028년 출시 일정 구체화 여부",
+     "Vera CPU의 Olympus 코어 최적화가 행렬곱 외 워크로드로 확대되는지 여부",
+     "NVIDIA FP64 에뮬레이션 대 AMD 네이티브 FP64 경쟁이 HPC 고객 선택에 미치는 영향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/supercomputers/this-week-on-toms-hardware-premium-21-november-2026-amd-nvidia-and-more-show-off-the-future-of-high-performance-computing-at-sc26",
+   "body": "In case you're worried about missing out on all the goodness on Tom's Hardware Premium , we've rounded up everything that we've published this week right here. The main theme for this week has been coverage straight from the show floor at the annual Supercomputing conference ( SC26 ). If you've not yet caught up, you've been missing out, as all of our coverage from the conference is currently free to access. All you need to do is sign up or log in to your Tom's Hardware account to enjoy all of our coverage from the show. First up, our resident CPU boffin, Jake Roach, has been on the show floor all week, offering us a direct line to all the goings-on at the conference, including an interesting back-and-forth from Nvidia and AMD on their CPUs. AMD claims that its latest EPYC Venice lineup is the best at agentic workloads, while Nvidia's marketing material characterized Nvidia's Vera CPU as being purpose-built for Agentic AI. At SC26, Nvidia CPU chief Ian Finder rebuked Nvidia's own marketing material, stating that the idea that Nvidia could have predicted the Data Center moment was \"absurd,\" instead saying that the company's design know-how helped them develop the processor. In this interview, we sit down with Finder to find out how Vera came to be, what agentic workloads mean for the CPU industry, and where Nvidia's headed next. Nvidia says it’s ‘absurd’ to assume it predicted the agentic moment during Vera’s development – ‘product intuition’ helped drive CPU design, superior memory bandwidth will play critical role in future AI agents, CPU boss claims Nvidia's Vera CPU was a hot topic at SC26, as the company explained that existing software cannot always take full advantage of the processor without architecture-specific optimization. The company showed that under some workloads, Vera's performance can be optimized by up to 39% when taking its Olympus-based Arm cores into account. However, it remains to be seen how much performance can be gained from Olympus-specific hardware optimization workloads other than matrix multiplication. Nvidia claims its Vera CPU can gain up to 39% performance boost via software optimization at SC26 — architectural fine-tuning is needed to fully unleash custom Olympus cores (Image credit: Nvidia) Nvidia also announced a Rubin GPU variant, named Rubin HPC, a chip that the company claims is purpose-built for agentic workflows and scientific simulations that demand processing large datasets. While technical details remain scant, Nvidia says that Rubin HPC sports over 50,000 CUDA cores, or slightly below double the number of cores present in the standard-issue Rubin GPU. We explored all the details and possibilities that the newly announced chip might offer. Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026 — new chip accelerates agentic HPC workloads, arrives in 2028 AMD is now featured in over 40% of the new TOP500 list of supercomputers, with a 14% boost to the company's position. "
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "One gigabyte of Wikipedia losslessly compressed to 105.39MB with self-learning AI transformer model",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/one-gigabyte-of-wikipedia-losslessly-compressed-to-105-39mb-with-self-learning-ai-transformer-model-tufazip-needs-two-nvidia-b200-gpus-and-about-a-week-to-compress-or-decompress",
+   "date": "2026-11-21 20:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "1GB 위키피디아를 105MB로 무손실 압축한 신경망 연구",
+    "korean_summary": "Tufa Labs가 자기학습 트랜스포머로 Wikipedia 데이터를 압축했으며 NVIDIA B200 GPU를 활용했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/one-gigabyte-of-wikipedia-losslessly-compressed-to-105-39mb-with-self-learning-ai-transformer-model-tufazip-needs-two-nvidia-b200-gpus-and-about-a-week-to-compress-or-decompress",
+   "body": "Tufa Labs’ tufazip has compressed 1GB of information from Wikipedia into just 105MB of space, losslessly, without using any hand-built models, according to a research post . The method uses a 163-million-parameter Transformer model as a predictor instead, and similar compression or decompression would take two Nvidia B200 GPUs about a week to manage. It’s the smallest result on the Large Text Compression Benchmark from any entry that uses a neural network as its only predictor. We shrank 1 GB of Wikipedia to 105.39 MB, losslessly. Introducing tufazip: the best entry on the Large Text Compression Benchmark using a neural network as its sole predictor. Everything above it mixes a transformer with hand-built models. November 19, 2026 Researcher Tommy He built tufazip, and the full package, at 105.39MB after optimization, includes a small, 4.33MB pre-trained starter model — stored at low precision, or quantized, to save space — that’s needed to unpack the file. The full model is a 12-layer Transformer, which means there are 12 stages for each guess to go through. The starter stores just two already-trained stages, copying them back and forth to fill all 12 once the full model spins up in memory; each copy keeps learning on its own. (Image credit: Tufa Labs ) This doesn’t work like a traditional chatbot or cloud AI but is, rather, a self-contained language model that learns on the fly. Notable here is that this compression is lossless, which means there’s no risk of any data being lost in the process. This means that predictor updates must be “fully deterministic.” Training happens in two stages. The starter, a 34-million-parameter model, is trained offline, before any compression begins. Then, the full model begins to learn online, by predicting each token and training on it, with the unpacking side repeating the same steps, with the model itself being rebuilt alongside the text. For this reason, the total size must include, besides the compressed text, only the unpacking program and the files it needs, including the starter, but not the full trained model. There is no traditional, hand-built compression model that assists, setting it apart, Tufa Labs says, from all 12 entries that now rank above it on the benchmark, which mix a Transformer with hand-built models. Its first, online-only version ranked second when submitted in early September; the 105.39MB version was 13th as of the benchmark’s Nov. 19 update. Emphasis should be placed on this being a text-only benchmark, for those imagining media files. While this sounds more exciting than, say, WinRAR, it’s for research purposes and not a product, and that’s underlined by what you’d need to actually run it. Currently, two Nvidia B200 GPUs — plus two Intel Xeon Platinum 8570 CPUs in the test machine — would need 631,548 seconds to compress and 645,748 seconds to decompress the 105.39MB version, or about 7.3 and 7.5 days, respectively, not counting the starter’s offline training. The first version, wh"
+  },
+  {
+   "source": "Google News · CNN",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How do restricted Nvidia chips make it into China?",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTl9GaFRQMFBXNElNcU1Rc0JIN3V2MVp0SGVwel96ZVJoRVUyTS1aaEZ2Q0k3Y2ZJWjVFYTBadWp1d3ZZNmtrM2NyYUg0TTdQazRWZmRQMnNHZndlUFlTQU5jRGxZbTc2ZndsRjl1VEhFb0ZROF9uZjkzQWgzN2xQdmt2ckpaSE5BMFJrUjFyRnRBLTJMcUNFY1ViTkR6ZmtFRFRlamxzY0VoUmM?oc=5",
+   "date": "2026-11-22 10:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "제한된 NVIDIA 칩이 중국으로 유입되는 방법",
+    "korean_summary": "미국의 수출 규제를 받는 NVIDIA 칩이 중국으로 흘러들어가는 경로를 추적한 보도"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTl9GaFRQMFBXNElNcU1Rc0JIN3V2MVp0SGVwel96ZVJoRVUyTS1aaEZ2Q0k3Y2ZJWjVFYTBadWp1d3ZZNmtrM2NyYUg0TTdQazRWZmRQMnNHZndlUFlTQU5jRGxZbTc2ZndsRjl1VEhFb0ZROF9uZjkzQWgzN2xQdmt2ckpaSE5BMFJrUjFyRnRBLTJMcUNFY1ViTkR6ZmtFRFRlamxzY0VoUmM",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Washington Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Freedom Desk: Bloomberg journalist barred from China meeting after Nvidia question",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNVNMdVgyamEwTnNGdDVqd3lfUTN0M3RDN3M3dWhqVjAwR3FFaFZ1eDNNazVxamxJR0VJSmtXbTJOUUhiMmdMcVY0MUJlZnBPVTllMU5ZYU9oUGlJM0xOZzY2UWtKNklHQmstNGdnaEY1UWRzWVdGYmdscnJzNTVfQ0lwQ2ZRUUducUhuMHhkRktfMFlHRkw4VkVjeGdBcGJYbVZlXzkyZjEtWWFaNmJ4eHpPM2xOZ0JTVWZGWFhkdHVPZUE0N2hIUTBybVYtenBabkFrTw?oc=5",
+   "date": "2026-11-22 08:00",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Nvidia 질문 이후 Bloomberg 기자, 중국 회의 불출석 처리",
+    "korean_summary": "Bloomberg 기자가 Nvidia 관련 질문으로 인해 중국 미팅 참석이 거부되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNVNMdVgyamEwTnNGdDVqd3lfUTN0M3RDN3M3dWhqVjAwR3FFaFZ1eDNNazVxamxJR0VJSmtXbTJOUUhiMmdMcVY0MUJlZnBPVTllMU5ZYU9oUGlJM0xOZzY2UWtKNklHQmstNGdnaEY1UWRzWVdGYmdscnJzNTVfQ0lwQ2ZRUUducUhuMHhkRktfMFlHRkw4VkVjeGdBcGJYbVZlXzkyZjEtWWFaNmJ4eHpPM2xOZ0JTVWZGWFhkdHVPZUE0N2hIUTBybVYtenBabkFrTw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Decoder",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia researchers argue huge AI context windows are a dead end",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXF6TUlfazBwTXdicE5fMkV0RnhLWmZGVlZDOUlULW1zcGgzSjZnQlFWZThqU3J6TU9ycFc0SGJBd01lcHlqaHltTmpscXpsejhEY0JBTldjVkhOcm9MT1dkRzZ2OThpTjljT0RYS0dvaXpJT1BYOWxNdTZNb2dha2xEa1R5YkFzdUQ1U3lhaUk1Zw?oc=5",
+   "date": "2026-11-22 01:23",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "research"
+    ],
+    "korean_title": "Nvidia 연구원들, 초대형 AI 컨텍스트 윈도우는 막다른 기술이라 주장",
+    "korean_summary": "Nvidia 연구진이 대규모 AI 컨텍스트 윈도우 접근이 한계에 도달했다고 주장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXF6TUlfazBwTXdicE5fMkV0RnhLWmZGVlZDOUlULW1zcGgzSjZnQlFWZThqU3J6TU9ycFc0SGJBd01lcHlqaHltTmpscXpsejhEY0JBTldjVkhOcm9MT1dkRzZ2OThpTjljT0RYS0dvaXpJT1BYOWxNdTZNb2dha2xEa1R5YkFzdUQ1U3lhaUk1Zw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's neocloud empire lost its biggest champion. Washington may have dealt a bigger blow.",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQckVBNU9Jd2pKNU42WDZqa05NcjdNZEhaNEgyUGlsV3A4VmgySVRKOUhGa0JJSWFFWWJXQkN0MGhzVC1qUWdWazdMelQwN3FnTEpIakRMUkRUNFpFZnpZUjlfTVhTNzNwNXpyZ1pKUTBhNU5RYWg2eHRFSl9ncHcybEFqYnlNSEFpelBmZlZyall0SE9tdUE?oc=5",
+   "date": "2026-11-21 19:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 클라우드 사업 영향력 감소, 정부 정책 타격",
+    "korean_summary": "NVIDIA의 정책적 영향력 감소와 클라우드 사업 약화 우려"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQckVBNU9Jd2pKNU42WDZqa05NcjdNZEhaNEgyUGlsV3A4VmgySVRKOUhGa0JJSWFFWWJXQkN0MGhzVC1qUWdWazdMelQwN3FnTEpIakRMUkRUNFpFZnpZUjlfTVhTNzNwNXpyZ1pKUTBhNU5RYWg2eHRFSl9ncHcybEFqYnlNSEFpelBmZlZyall0SE9tdUE",
+   "body": ""
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "[주간증시전망] AI 변수에 美금리 부담… 코스피, 5천 회복 시험대",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001533",
+   "date": "2026-11-22 15:10",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "earnings"
+    ],
+    "korean_title": "[주간증시전망] AI 변수에 美금리 부담, 코스피 5천선 수성 도전",
+    "korean_summary": "NVIDIA의 호실적에도 미국 금리 인상과 외국인 매도로 한국 증시가 하락했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001533",
+   "body": "이번 주 국내 증시는 인공지능(AI) 산업의 성장 기대와 미국 통화정책 불확실성 사이에서 방향성을 탐색할 것으로 보인다. 22일 한국거래소에 따르면 지난 20일 코스피는 전 거래일 대비 267.93(5.21%) 하락한 4869.96에 장을 마감했다. 지난주 국내 증시는 엔비디아 호실적에도 AI 투자 지속성에 대한 우려와 미국 금리 인상 경계감이 겹치면서 큰 폭으로 하락했다. 주 초반 반등을 시도했지만 외국인 매도와 미국 기술주 약세가 이어지면서 코스피는 9개월 만에 5000선을 내줬다. 주중 등락을 거듭하던 코스피는 마지막 거래일인 20일 5% 넘게 떨어지며 투자심리가 크게 위축됐다. 전문가들은 AI 산업의 성장 기대가 여전히 유효하지만, 당분간 미국 금리와 외국인 수급에 따라 변동성이 이어질 수 있다고 진단했다. 이번 주 증시에 영향을 미칠 주요 변수로 미국 10월 개인소비지출(PCE) 물가와 미국 연방준비제도(Fed·연준)의 통화정책 방향, 외국인 수급 등을 꼽았다. 이번 주 코스피 예상 밴드는 5000~6100선이 제시됐다. 이경민 대신증권 연구원은 “엔비디아가 시장 예상치를 웃도는 실적과 매출 가이던스를 제시하면서 AI 산업의 견조한 수요가 재확인됐다”면서도 “미국의 대중 AI 반도체 수출 규제와 경영 불확실성, 연준의 매파적 기조는 여전히 우리 증시에 부담으로 작용한다”고 말했다. 특히 미·중 정상회담 이후 무역 갈등의 향방과 미국 연말 소비가 이번 주 시장의 관심사다. 지난 19일 열린 미·중 정상회담에서 양국은 무역휴전 연장에 원칙적으로 합의했지만 AI 반도체 규제와 희토류 수출 통제 등 핵심 쟁점에서는 입장 차를 좁히지 못했다. 관련 논의가 12월 주요 20개국(G20) 정상회의로 미뤄진 만큼 후속 협상 과정에 시선이 쏠린다. 오는 27일 시작되는 미국 블랙프라이데이도 연말 소비 기대를 자극할 변수다. 이 연구원은 “코스피 5000선 전후는 기업의 기초체력이 훼손됐다기보다 투자심리 위축과 외국인 매도세가 반영돼 주가가 실제 가치보다 낮아진 구간”이라며 “주가가 기업 가치에 맞게 회복될 것으로 보고 주식 비중을 확대하는 의견을 유지한다”고 설명했다. 미국 금리 경로와 외국인 매도세도 국내 증시의 반등을 제한할 변수로 꼽힌다. 강진혁 신한투자증권 연구원은 “실적 시즌이 종료되면서 다시 거시경제 변수와 시장을 움직이는 주요 재료에 따라 증시 흐름이 달라질 수 있다”며 “미국 PCE 물가를 통해 연준의 금리 경로를 확인할 필요가 있다”고 밝혔다. 유은정 기자 viayou@chosunbiz.com"
+  },
+  {
+   "source": "Google News · 24/7 Wall St.",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Has Crashed 48% and Now Trades at 15 Times Earnings, Its Cheapest in More Than a Decade and Cheaper Than Microsoft and Broadcom",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdm1uMENOd0NEYlozb2NWdHBQeGFVOVFjYWpxb0hRS1FhRmZFZy16SlQxaWhuZnJtZC1wbXhiSERGNjE4Rjl2dXNqREI5cC1JdFlsOTFxb25uanJzalYyVWRtMnVLaHE1Mm9NQXJjUjhCS3BjVEdPaTBEcklKVVlDOEhNOTRUQkVCN3NYM0NWM0xhWVBlVm5PZVU5ekloQTR0clkzOUp0eUljck5wTm9mM1Q5ai01ZlZyV0VvUkJaTlR1S3FBdDZ2YWV2LUNudWpmazVsT2wwUFRHcHExQUFDT043UXJ3enVJSDAzbkFIbVhXTDFyTlllZXZodTdhRUpZUlczNUZ2dGU0YnRZb0kw?oc=5",
+   "date": "2026-11-22 09:47",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 48% 급락, 10년 만의 저평가",
+    "korean_summary": "NVIDIA 주가가 48% 하락하여 PER 15배로 10년 만의 최저 수준에서 거래되고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdm1uMENOd0NEYlozb2NWdHBQeGFVOVFjYWpxb0hRS1FhRmZFZy16SlQxaWhuZnJtZC1wbXhiSERGNjE4Rjl2dXNqREI5cC1JdFlsOTFxb25uanJzalYyVWRtMnVLaHE1Mm9NQXJjUjhCS3BjVEdPaTBEcklKVVlDOEhNOTRUQkVCN3NYM0NWM0xhWVBlVm5PZVU5ekloQTR0clkzOUp0eUljck5wTm9mM1Q5ai01ZlZyV0VvUkJaTlR1S3FBdDZ2YWV2LUNudWpmazVsT2wwUFRHcHExQUFDT043UXJ3enVJSDAzbkFIbVhXTDFyTlllZXZodTdhRUpZUlczNUZ2dGU0YnRZb0kw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Business Insider",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang has 5 ways to push for an Nvidia comeback",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMTE4OGlzQlBTVnd2S1M0ZGJaZm96Nk5HQVgxWmdHcE9FdjhsMDZ4c29tMXJsLUFyUVA5WDN0d3R6bTN4QWZ2dWlnME9nY005bzd0YktJRU5BYVVtOGU4aHdZU0MtcWVRdE80UTNFOVJueUY1N0FYOVN5ZmdEQi1JNUNtNUNfOVk0YXJiMmxWZ0RrZ3FsaGVOa1dxQjBIWm10cTJzdg?oc=5",
+   "date": "2026-11-21 19:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang, NVIDIA 반등 위한 5가지 전략 제시",
+    "korean_summary": "Jensen Huang CEO가 NVIDIA의 위기 극복을 위한 5가지 방안을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMTE4OGlzQlBTVnd2S1M0ZGJaZm96Nk5HQVgxWmdHcE9FdjhsMDZ4c29tMXJsLUFyUVA5WDN0d3R6bTN4QWZ2dWlnME9nY005bzd0YktJRU5BYVVtOGU4aHdZU0MtcWVRdE80UTNFOVJueUY1N0FYOVN5ZmdEQi1JNUNtNUNfOVk0YXJiMmxWZ0RrZ3FsaGVOa1dxQjBIWm10cTJzdg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "A $150 Billion Reason to Buy the Nvidia Stock Dip",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONU1Pa0NuY1k1S1ZPS0NSMlFubWhBSWJYallLc3FFUXdOYVVtakJVcDNWbFBsWWx5c1ltWVVMZVo0S20xYnlsdGE4Q3lZSmdOdkxjenlVcFozZ2lmU2ZmejJWMnd6S0p2YnJZQWFhWVprQlF6X2ZDVlcxUl9wdzk3NXBmZF96bEpzTDhFYmZVYm9NQXJ2Zlh3?oc=5",
+   "date": "2026-11-22 04:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "1500억 달러 가치 근거, NVIDIA 주가 하락은 매수 기회",
+    "korean_summary": "투자 전문가가 1500억 달러 규모의 기업 가치를 토대로 NVIDIA 주가 하락을 매수 기회로 평가했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONU1Pa0NuY1k1S1ZPS0NSMlFubWhBSWJYallLc3FFUXdOYVVtakJVcDNWbFBsWWx5c1ltWVVMZVo0S20xYnlsdGE4Q3lZSmdOdkxjenlVcFozZ2lmU2ZmejJWMnd6S0p2YnJZQWFhWVprQlF6X2ZDVlcxUl9wdzk3NXBmZF96bEpzTDhFYmZVYm9NQXJ2Zlh3",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Has Suffered $2.75 Trillion Wipeout as Charts Point to a Drop to $100",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQay1hYzEyZWhtV3pmWGpoQ1J3X2toWklGMUFubmVsS25lYWdVSnN6WHQ0b0dCTVBXY2xCTGZQWG9iMUx1M1kyMDRsSUJWMFlYVktpU0wweDFBS0QwUllodS1Sc25USThYMVZrSGwwVDhyZVpVbW5iMWlEOXV5Sk5mdU5DS05pU1YzZ1RpMlBhekxzLUlaZl9CLXJCNElTeXZyVDdVSGtJTFBSSWF1Rjh2OHNLcjVoVGtKOUZZSnR5dTI2YlBraURTakcxeWVkM2JUT1RoQUV3?oc=5",
+   "date": "2026-11-22 05:40",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 275조 증발, 100달러대 진입 우려",
+    "korean_summary": "기술 분석가가 차트 분석을 근거로 NVIDIA 주가가 100달러대로 하락할 가능성을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQay1hYzEyZWhtV3pmWGpoQ1J3X2toWklGMUFubmVsS25lYWdVSnN6WHQ0b0dCTVBXY2xCTGZQWG9iMUx1M1kyMDRsSUJWMFlYVktpU0wweDFBS0QwUllodS1Sc25USThYMVZrSGwwVDhyZVpVbW5iMWlEOXV5Sk5mdU5DS05pU1YzZ1RpMlBhekxzLUlaZl9CLXJCNElTeXZyVDdVSGtJTFBSSWF1Rjh2OHNLcjVoVGtKOUZZSnR5dTI2YlBraURTakcxeWVkM2JUT1RoQUV3",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prediction: This Will Be Nvidia’s Stock Price in 2027 After Its Phenomenal Q3 Results",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXQ3UWRwTmFFRnoycXJDUlc3eXUxdEpSNWxRbzBLeDVLV1Nac2ZSdFZpeVpVdVl0QkZPQVlWMm9tVWRadVdQbDB1VmNNVmJRNTVHOXBMUGxnR3Vjdkd4dEt3dlg2RU9odzlLQWZ4SW96U2FxWlNGbUVXTUVuVkg0ckJhT0poM1NKUzFGLTcwc1hvOTFuWE1jZWpfR0h4Q2hLN2c5cEVMRkpWRVhKeElWdHJGcy1ZR1VMYVRjOWRiSFpheVNBMGc?oc=5",
+   "date": "2026-11-22 06:47",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Q3 호실적 바탕, NVIDIA 2027년 주가 전망",
+    "korean_summary": "NVIDIA의 Q3 현상적 실적을 토대로 2027년 주가를 예측하는 분석이 제시되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcXQ3UWRwTmFFRnoycXJDUlc3eXUxdEpSNWxRbzBLeDVLV1Nac2ZSdFZpeVpVdVl0QkZPQVlWMm9tVWRadVdQbDB1VmNNVmJRNTVHOXBMUGxnR3Vjdkd4dEt3dlg2RU9odzlLQWZ4SW96U2FxWlNGbUVXTUVuVkg0ckJhT0poM1NKUzFGLTcwc1hvOTFuWE1jZWpfR0h4Q2hLN2c5cEVMRkpWRVhKeElWdHJGcy1ZR1VMYVRjOWRiSFpheVNBMGc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2FGV192VllUQ19HUkJtU296SWE3UFFvNjRkS2NIWXpBNzRtaF9uMVVvZ2ZjVFBHVVY0UG1nZ0pBc1NjeURyOTBxNy1Rc3JJelRsY1BCbDBPNmtsSlQ2clRkcDJUQ2N4RFRSRXJHR1BlNmhZY3hZaDVLaU1hZVF4WFpCMmdDRVdSOFlheUlxNWVvbW9GTTk4RGkzc012cjAtNG02Y2IxWEJvekFNbFI0?oc=5",
+   "date": "2026-11-21 20:54",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 경고가 AMD·Intel 투자자에 미치는 영향",
+    "korean_summary": "NVIDIA의 경고 발표가 경쟁사 투자자에 미치는 파급 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT2FGV192VllUQ19HUkJtU296SWE3UFFvNjRkS2NIWXpBNzRtaF9uMVVvZ2ZjVFBHVVY0UG1nZ0pBc1NjeURyOTBxNy1Rc3JJelRsY1BCbDBPNmtsSlQ2clRkcDJUQ2N4RFRSRXJHR1BlNmhZY3hZaDVLaU1hZVF4WFpCMmdDRVdSOFlheUlxNWVvbW9GTTk4RGkzc012cjAtNG02Y2IxWEJvekFNbFI0",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "If AI Chips Become Commoditized, Nvidia Has the Most to Lose, While These 3 Stocks Are Set to Gain",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1k2dFpsTktLOFRkUm0zWmEyeERYaFJQOEcwdmlYcVdyWjBWX2IybC10ZUNRajBZTzlqQjNGVEpGSF83ZzZFRVVYVGdxTC1HQXkzd3JjN1dnNUkzSmZ1ZlpxTlNnYldaYkE4bFdHak9tQ2o4eVhCTm1LbWxlSjhMSmY1NWhGNDRRZGluUTUtdVAtaUR1c0tvbE9ybDQ0SHJtMFVuY0RTNTVaaU94ejJvcWtKcGpNUlE0cXowLXZkbFhyMHhMcmJVaWJEeGRXLUx1dHhrN2Jn?oc=5",
+   "date": "2026-11-21 20:15",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 칩 상품화 시나리오, NVIDIA의 위험성 분석",
+    "korean_summary": "AI 칩 시장의 상품화 과정에서 NVIDIA의 경쟁 약화 우려"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX1k2dFpsTktLOFRkUm0zWmEyeERYaFJQOEcwdmlYcVdyWjBWX2IybC10ZUNRajBZTzlqQjNGVEpGSF83ZzZFRVVYVGdxTC1HQXkzd3JjN1dnNUkzSmZ1ZlpxTlNnYldaYkE4bFdHak9tQ2o4eVhCTm1LbWxlSjhMSmY1NWhGNDRRZGluUTUtdVAtaUR1c0tvbE9ybDQ0SHJtMFVuY0RTNTVaaU94ejJvcWtKcGpNUlE0cXowLXZkbFhyMHhMcmJVaWJEeGRXLUx1dHhrN2Jn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "3 AI Chip Stocks Retail Investors Are Watching After The Nvidia Selloff",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg?oc=5",
+   "date": "2026-11-22 03:08",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 급락 이후 소매 투자자들이 주목하는 AI 칩 주식 3종",
+    "korean_summary": "NVIDIA 주가 급락 이후 개인 투자자들이 관심을 보이고 있는 AI 칩 관련 주식들을 소개"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOejlycTNOTWVaLXBObmZzQ29NbHBmT0ZMMDhJUVB1Tm85VXhCRjRKRWdpUHlYM2Mxc0xPZHZacEt2a05BUEFLaHM1c3FqU3doWVN6anJJOW84QjVleU1aRGNzV2RKM0k2R2tvY1JUTk9kbWh0VEdrYzg4YS1nWEZGUTQ4WEV3NlU2T3NxQVdFWjg",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ05sOXJ6MlFuUncyTjgxWG1zcXpCbDhzRUwzYVA4ZFo5bkZ4NEt0SGxLZnFobjBKODU3SzlWV0I5MElCSDd2ODEwaTcwNnFCM0lMRDhXQklvVTdLcFp0YlJzUXRKVGNsUHJiaVNiek5zREpSeUtZRkZsblZQclR3Ml9NNmR0d3V6VVZ4dWpnbk54MnJqRDkzV0x5aVI?oc=5",
+   "date": "2026-11-21 23:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "AI 버블 붕괴 우려 속에 NVIDIA 48% 급락, 월스트리트 경고",
+    "korean_summary": "NVIDIA 주가가 48% 급락하면서 AI 거품 붕괴 가능성에 대한 전문가들의 경고 증가"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ05sOXJ6MlFuUncyTjgxWG1zcXpCbDhzRUwzYVA4ZFo5bkZ4NEt0SGxLZnFobjBKODU3SzlWV0I5MElCSDd2ODEwaTcwNnFCM0lMRDhXQklvVTdLcFp0YlJzUXRKVGNsUHJiaVNiek5zREpSeUtZRkZsblZQclR3Ml9NNmR0d3V6VVZ4dWpnbk54MnJqRDkzV0x5aVI",
+   "body": ""
+  },
+  {
+   "source": "Google News · Kotaku",
+   "category": "media",
+   "kind": "gnews",
+   "title": "New Report Claims Jensen Huang Regularly Threatened Nvidia Staff With Over-The-Top Violence",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV0JDWklpVUExWmNhdU8tNWJGV0V0R3hodC1JMHBRUm0zUFl6Qjk3SXlKX21yWjlrOUJXMVFMSDdmT1FJc0VBMnpCQy0tYVQ3TlNvX3VqMnBvT0w3WXRyMi16RFlNV1A1ZlNVM21RZUUtZG1la0g2R3luQmFEdnJBaFV2bHRvTVppekR3dEY4T2tWOEdxVnRGdUJuN2pYcGNkN2VHYjI4a3NQMFJmQ0RrVFdCdnV0RUd6QmlCam93?oc=5",
+   "date": "2026-11-22 06:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "新보도 주장: Jensen Huang이 NVIDIA 직원들에게 상습적 폭력 위협",
+    "korean_summary": "새로운 보도에서 CEO Jensen Huang이 NVIDIA 직원들을 상습적으로 폭력으로 위협했다고 주장"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPV0JDWklpVUExWmNhdU8tNWJGV0V0R3hodC1JMHBRUm0zUFl6Qjk3SXlKX21yWjlrOUJXMVFMSDdmT1FJc0VBMnpCQy0tYVQ3TlNvX3VqMnBvT0w3WXRyMi16RFlNV1A1ZlNVM21RZUUtZG1la0g2R3luQmFEdnJBaFV2bHRvTVppekR3dEY4T2tWOEdxVnRGdUJuN2pYcGNkN2VHYjI4a3NQMFJmQ0RrVFdCdnV0RUd6QmlCam93",
+   "body": ""
+  },
+  {
+   "source": "Google News · MarketWatch",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV2VSMGwwR29nUnYtQlFCQVM1VjNMZEpJNUU4cTd2eEV0cklCa0xKZEdHME14R2V3ZnBkTjlaUzNfN1lkeEpfWGNNQVdKT2ZUSWJuUC0tblRMSExKQkZWRURGZTBiR0lYZEVOdnV1MVdnOV83WWVvUFZBRmljZm5GVGtfLVBfakhRa3hVcXNubE1xdExkcDRHQlhwQ2dMSDhZT0hWTjNZYUx3dUE3elFERVlKLW5uU3RzeUxn?oc=5",
+   "date": "2026-11-21 22:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA의 끊이지 않는 경영 논란, 역사적 저가 주식도 사지 않는 이유",
+    "korean_summary": "NVIDIA의 지속적인 경영 스캔들과 논란이 개인 투자자들의 주가 회복 기대감을 꺾고 있음"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV2VSMGwwR29nUnYtQlFCQVM1VjNMZEpJNUU4cTd2eEV0cklCa0xKZEdHME14R2V3ZnBkTjlaUzNfN1lkeEpfWGNNQVdKT2ZUSWJuUC0tblRMSExKQkZWRURGZTBiR0lYZEVOdnV1MVdnOV83WWVvUFZBRmljZm5GVGtfLVBfakhRa3hVcXNubE1xdExkcDRHQlhwQ2dMSDhZT0hWTjNZYUx3dUE3elFERVlKLW5uU3RzeUxn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Cathie Wood Doubles Down On ‘Highest Conviction Names’ Nvidia, Tesla and AMD As Cyclical Tech Stocks Get ‘Slaughtered’ Amid Market Pullback",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX2V0Qk5IVnlEWUhvV2tEYXB1cm9EUk9XVjJXdU96X3NFczNJaVRGTG8zemc1eWFjYXdUS1VzUWNqd0tQN3l3TGZwbl9ZS2I2blVlMUprVHBBWndWdF9pQ2R1eWFGZlN0dTFQUXJKUUQ3Y2xHbWREOUhtWHBMR25wX0lkakZGY3RYLXhwYjNrdklveHlOMXpod3dMaGdwdw?oc=5",
+   "date": "2026-11-22 04:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Cathie Wood, 약세 시장 속 Nvidia를 최고 신뢰도 종목으로 재평가",
+    "korean_summary": "Cathie Wood가 기술주 약세 속에서도 Nvidia를 계속 최고 신뢰도 종목으로 평가하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX2V0Qk5IVnlEWUhvV2tEYXB1cm9EUk9XVjJXdU96X3NFczNJaVRGTG8zemc1eWFjYXdUS1VzUWNqd0tQN3l3TGZwbl9ZS2I2blVlMUprVHBBWndWdF9pQ2R1eWFGZlN0dTFQUXJKUUQ3Y2xHbWREOUhtWHBMR25wX0lkakZGY3RYLXhwYjNrdklveHlOMXpod3dMaGdwdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Beinsure",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia market cap drop exceeds 47% as $2.7 tn wiped out in stock crash",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkdFY2NkUndYbHd2SFZlMjdjMnpKYlQwbFNGOFpfeVNHaGh3aXNhaThmRW9aM1RwdFBFbmVhRjllUjFRTThPdnlOOFo4M28xdnFLb2xyR2VjajlfOFhMQ2tiWlBHMUI4WC1rVjIzdFVBS2FtN1RsV3ZuLURXTGU5ZzNCYXVJVjA4c3c?oc=5",
+   "date": "2026-11-22 08:13",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Nvidia 시가총액 47% 급락, 2.7조 달러 손실 기록",
+    "korean_summary": "Nvidia의 시가총액이 47% 하락하면서 2.7조 달러 규모의 손실을 기록했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkdFY2NkUndYbHd2SFZlMjdjMnpKYlQwbFNGOFpfeVNHaGh3aXNhaThmRW9aM1RwdFBFbmVhRjllUjFRTThPdnlOOFo4M28xdnFLb2xyR2VjajlfOFhMQ2tiWlBHMUI4WC1rVjIzdFVBS2FtN1RsV3ZuLURXTGU5ZzNCYXVJVjA4c3c",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Marvell Just Dropped 22% in a Week as Nvidia’s Turmoil Hit AI Chips. Sell, or Load Up Before Dec. 1?",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSVhaSC1TYjB4aTNLWlNPWXdrVkx3OHQ4WEhNd1VENERXY05fNDEzWXNHNGwxaWMzbWRoa0c3ZmFlN1lwLTVEa09Ud1FqVDQ0em1nMUx5YUM0UFFPdk9WZGtTSWw4aEN1cEpMdWNRUEZybTRQX2I3b2tvTVRhMjFNY1Qtd1pDeHo5ODdlaGN4RUpvbUhoYVF0RQ?oc=5",
+   "date": "2026-11-22 03:20",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Nvidia 혼란의 여파로 Marvell 1주일 만에 22% 급락",
+    "korean_summary": "Nvidia의 주가 약세가 경쟁사 Marvell의 급락으로 이어졌다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSVhaSC1TYjB4aTNLWlNPWXdrVkx3OHQ4WEhNd1VENERXY05fNDEzWXNHNGwxaWMzbWRoa0c3ZmFlN1lwLTVEa09Ud1FqVDQ0em1nMUx5YUM0UFFPdk9WZGtTSWw4aEN1cEpMdWNRUEZybTRQX2I3b2tvTVRhMjFNY1Qtd1pDeHo5ODdlaGN4RUpvbUhoYVF0RQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Here's Why Nvidia Stock Crashed on Friday",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW1CMk1XTHhHT0lSUXppY2dQTk5mQjIya210cVc5T0hHcWpnamxVT0YycF9EZU9YeEZ4bG0yQWZxVXhsbDlVMVI3ekZCY01LR0JKeW5qNnQ4dFJURl9jS09HVFRnYkRsaVdWaHBIcWlUS3dnRGlYMWJsTmNxMWgxMUNlUjNGbUVIU0NBNm5sRHZGSTFjVTYyaGllZw?oc=5",
+   "date": "2026-11-21 10:45",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "금요일 Nvidia 주가 폭락의 원인 분석",
+    "korean_summary": "Nvidia 주가가 금요일에 급락한 배경과 원인을 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW1CMk1XTHhHT0lSUXppY2dQTk5mQjIya210cVc5T0hHcWpnamxVT0YycF9EZU9YeEZ4bG0yQWZxVXhsbDlVMVI3ekZCY01LR0JKeW5qNnQ4dFJURl9jS09HVFRnYkRsaVdWaHBIcWlUS3dnRGlYMWJsTmNxMWgxMUNlUjNGbUVIU0NBNm5sRHZGSTFjVTYyaGllZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "NVDA Stock Sees Biggest Fall In 22 Months, But Top Analyst Says Nvidia’s AI Boom Isn’t Over Yet — Here Are 5 Reasons Why",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbDBWLTd5T3R4NFVNLWI0Vm9nWEJmd1FHdDdqLUdfWjJJdXBOWFU1d2x1Nk1NUjNCVW5OT1IzY0hLUnRIbkIxZXBsd1pNMV9MQUppQ2twZmRQT2EwT3Q3V0I2dVVLX1EyOEN6cjdSOTJHWmkydGJ6bFpfb2VaN295ekRxWDM3SXhqcVdOZlhoVzlma3VSOERiaA?oc=5",
+   "date": "2026-11-21 11:48",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Nvidia 주가 22개월 최대 낙폭, 애널리스트는 AI 붐 계속 예상",
+    "korean_summary": "Nvidia 주가가 22개월 최대 낙폭을 기록했지만 주요 애널리스트는 AI 성장 가능성을 여전히 긍정 평가한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbDBWLTd5T3R4NFVNLWI0Vm9nWEJmd1FHdDdqLUdfWjJJdXBOWFU1d2x1Nk1NUjNCVW5OT1IzY0hLUnRIbkIxZXBsd1pNMV9MQUppQ2twZmRQT2EwT3Q3V0I2dVVLX1EyOEN6cjdSOTJHWmkydGJ6bFpfb2VaN295ekRxWDM3SXhqcVdOZlhoVzlma3VSOERiaA",
+   "body": ""
+  },
+  {
+   "source": "Google News · TradingView",
+   "category": "media",
+   "kind": "gnews",
+   "title": "SA Asks: Should Nvidia bring back Jensen Huang?",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaWUxRGQ0QXg2X2FWNFprZzFfT3N0WkpkOTFZOHBOTWpPTWI4RERwSnhxclZhbm81MTNWWTZUbU9lbklySC1BNkdrUG1FeXdoSlA2M1dxNnQxUlg4dEdyZHZtOHFpdkNiekNxTG5TSDUtSkxsOUxrMmtqejBpbEx3YzlzbkhGZ0M5QV9wQy0wRVNoNkV2a2JtVXJ2M0xPNzJDQzdabVZrN1lONjBn?oc=5",
+   "date": "2026-11-22 00:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, Jensen Huang CEO 복귀 필요한가?",
+    "korean_summary": "투자자들이 NVIDIA의 경영 개선을 위해 Jensen Huang의 CEO 복귀 필요성을 논의하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaWUxRGQ0QXg2X2FWNFprZzFfT3N0WkpkOTFZOHBOTWpPTWI4RERwSnhxclZhbm81MTNWWTZUbU9lbklySC1BNkdrUG1FeXdoSlA2M1dxNnQxUlg4dEdyZHZtOHFpdkNiekNxTG5TSDUtSkxsOUxrMmtqejBpbEx3YzlzbkhGZ0M5QV9wQy0wRVNoNkV2a2JtVXJ2M0xPNzJDQzdabVZrN1lONjBn",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia: Forget The Controversies, Focus On The Flatlining Token Spend",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM2tfcjRuYkRMMExfSzZEQTVuRWNLTkUzakNIWld6QW9oY2I1OGVBSnFzME9uNDZOa0ZEM2hJbWxLeVlBaVdLcnVKOU52b09sekNOSVUtdWhaeEk2T2pZenotd2RZRFRUdzlUOUNSNUVITnk3MDhiaGlEUFZRUVl6T1EzVUxZZlRFckhrUXUzZGIxRjZzb3diZGNEVDlfU1NnOFZON0NNc0UwMmg0?oc=5",
+   "date": "2026-11-21 23:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, 논쟁을 뒤로하고 토큰 지출 감속에 집중",
+    "korean_summary": "분석가들이 NVIDIA 고객의 토큰 지출 감속 추세에 주목할 것을 강조하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM2tfcjRuYkRMMExfSzZEQTVuRWNLTkUzakNIWld6QW9oY2I1OGVBSnFzME9uNDZOa0ZEM2hJbWxLeVlBaVdLcnVKOU52b09sekNOSVUtdWhaeEk2T2pZenotd2RZRFRUdzlUOUNSNUVITnk3MDhiaGlEUFZRUVl6T1EzVUxZZlRFckhrUXUzZGIxRjZzb3diZGNEVDlfU1NnOFZON0NNc0UwMmg0",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "‘Near Zero Chance’: Gary Black Explains Why Nvidia Board Won’t Reconsider Jensen Huang, Crypto Bettors See This Outcome",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkRJaVVHR1BpcDJreVJrVkRtVVlLRXdqejRKOHNTQ0g3Nm9LTFVfaXpwOTZWdEFuTXVqWG8xcnozOVZma2x4ek5lQk5KLUs0Nk1qWi1PTHlfNEVDQjAzNERfXzFCM2oxSVNObThxRTBZdHJrWm9NeEtLZGsxclFUcnV2LVcxdzlRcE55WGE3REl2eDg2X1l3?oc=5",
+   "date": "2026-11-21 20:26",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 이사회, Jensen Huang 복귀 가능성 '거의 없다'",
+    "korean_summary": "투자 애널리스트 Gary Black이 NVIDIA 이사회의 Jensen Huang 복귀 가능성은 거의 없다고 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTkRJaVVHR1BpcDJreVJrVkRtVVlLRXdqejRKOHNTQ0g3Nm9LTFVfaXpwOTZWdEFuTXVqWG8xcnozOVZma2x4ek5lQk5KLUs0Nk1qWi1PTHlfNEVDQjAzNERfXzFCM2oxSVNObThxRTBZdHJrWm9NeEtLZGsxclFUcnV2LVcxdzlRcE55WGE3REl2eDg2X1l3",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "American State Capitalism Helped Produce the Nvidia Scandal",
+   "link": "https://www.wsj.com/economy/american-state-capitalism-helped-produce-the-nvidia-scandal-56ce6dee",
+   "date": "2026-11-21 11:18",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 국가자본주의가 NVIDIA 스캔들의 근원이라는 분석",
+    "korean_summary": "월스트리트저널이 미국의 국가자본주의 정책 구조가 NVIDIA 스캔들을 초래했다고 분석"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.wsj.com/economy/american-state-capitalism-helped-produce-the-nvidia-scandal-56ce6dee",
+   "body": "Article URL: https://www.wsj.com/economy/american-state-capitalism-helped-produce-the-nvidia-scandal-56ce6dee Comments URL: https://news.ycombinator.com/item?id=50585234 Points: 4 # Comments: 1"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Homelabber’s second-gen Optane build uses two RTX 3090s to run 2.8-trillion-parameter Kimi AI model at 3.11 tokens per second",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-second-gen-optane-build-runs-2-8-trillion-parameter-kimi-k3-at-3-11-tokens-per-second-after-adding-two-rtx-3090s-moving-nearly-half-the-model-into-a-ram-drive-boosted-performance-by-41-percent",
+   "date": "2026-11-21 21:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Community-Signal",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "2세대 Optane 빌드: RTX 3090 2개로 2.8조 파라미터 AI 모델 운영",
+    "korean_summary": "PC 애호가가 RTX 3090 2개를 활용해 Moonshot Kimi 대규모 AI 모델을 개인 환경에서 실행했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-second-gen-optane-build-runs-2-8-trillion-parameter-kimi-k3-at-3-11-tokens-per-second-after-adding-two-rtx-3090s-moving-nearly-half-the-model-into-a-ram-drive-boosted-performance-by-41-percent",
+   "body": "A homelabber detailed improvements to the second-gen Optane AI build in a follow-up post on Reddit , showing the addition of two RTX 3090s to run the 2.8-trillion-parameter Moonshot Kimi K3 model at 3.11 tokens per second. Transferring almost half the model onto a RAM drive added a significant 41% to generation speed and 26% to prompt evaluation. The extra fans are still needed, though, as the persistent Optane memory gets very hot. Follow-up: Kimi K3 Q2_K on second-gen Optane + 2× RTX 3090 — 3.11 t/s generation, 16.8 t/s prompt eval from r/homelab That speed is not the most impressive, but it comes with 16.8 tokens per second for prompt evaluation, with 45 of 94 shards, or 414 GB out of 865 GB, living on a RAM drive. Such an arrangement is not new to enthusiasts who would set aside system memory for extra-fast performance in a pseudo-non-volatile manner — it’s still volatile, but appears like a disk — although not everyone has that much RAM sitting around free these days. With both GPUs but no RAM drive, the build ran at 2.20 tokens per second for generation and 13.3 for prompt evaluation. Kimi K3 Q2_K with two RTX 3090s: model in Optane vs. partly in a RAM drive Configuration Where the model is stored Generation (tokens/s) Prompt evaluation (tokens/s) Optane only All 94 shards in Optane 2.20 13.3 RAM drive + Optane 45 of 94 shards (414 GB of 865 GB) in a tmpfs RAM drive, the rest in Optane 3.11 16.8 Change — About 41% faster About 26% faster Builder’s measurements; llama.cpp, DAX on for the Optane portion. Even a quick read of the details makes it clear that the GPUs aren’t holding the model: two RTX 3090s, at 24 GB apiece, only have a total of 48 GB of VRAM, which is about 5.5% of the 865 GB model file. That said, the model is a mixture-of-experts (MoE) type, where its weights are split into multiple “experts” with only a few run per token. Any given token will have “routed” experts selected for it, while “shared” experts run on every token. For this model, with 896 experts, 16 are chosen per token, with two shared, with an active 104B parameters out of its 2.8T. All 2.8T parameters would take about 5.6 TB at 16-bit precision. Moonshot’s own release, which uses the 4-bit MXFP4 format, comes to about 1.56 TB, and the Q2_K file used here shrinks that to 865 GB, an average of under 3 bits per parameter. The 865 GB figure is likely in gibibytes (GiB), but for clarity we’re using the GB values as written by the homelabber. The configuration here has the routed-expert tensors stay on the CPU side, originally in Optane, and now in Optane plus the RAM drive. The RTX 3090s handle attention, or how each token weighs the rest of the context, and the dense feed-forward network layer that isn’t split into experts, where every token passes through it. They also manage the shared experts, other active-dense components, the KV cache, and the stored context of the current conversation, with the GPU compute buffers. Basically, the parts on the GPUs are “used on"
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "AI발 GPU 기근, CPU 속에 숨은 게이밍 대안 [권용만의 긱랩]",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001492",
+   "date": "2026-11-22 15:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "AI 인프라 투자로 GPU 기근 심화, 게이밍의 현실적 대안은?",
+    "korean_summary": "NVIDIA가 고수익의 데이터센터용 GPU에 집중하면서 게이밍 GPU 공급이 부족해지고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001492",
+   "body": "인공지능(AI) 인프라 투자 확대로 메모리와 반도체 수급 부담이 커지면서 PC 시장, 특히 게이밍 디바이스 시장도 영향을 받고 있다. 그래픽처리장치(GPU)와 메모리, 그래픽카드 가격이 상승하는 가운데 엔비디아는 수익성이 높은 데이터센터용 GPU에 사업 역량을 집중하고 있다. AMD와 인텔도 데이터센터용 칩을 전략적 우선순위에 두고 있다.하지만 발상을 바꾸면 의외로 게임을 즐길 현실적인 대안은 가까운 곳에 있다. 4K 해상도에 최고 그래픽 풀옵션을 고집하지 않는다면 일상에서 흔히 접하는 노트북 PC로도 충분히 게임을 즐길 수 있다."
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Should You Buy Nvidia Stock Right Now?",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGdtcW12ZjJrSklaNDU3RTdUMGo4SlpTUFh0cVlFR0JBb1U2cmRLUWRmc0xIYUZ2SENDTFFiXzJtaUNOQ0phUVQxOXcySHlRUUVVRmNTeG9iS0VpLTI2TWd4ZDJMLXV0NWx1LW0xU3N6ckFFZ2w0MUdkZlZoTGxPZlpqSWpUc0E?oc=5",
+   "date": "2026-11-22 03:15",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "지금이 NVIDIA 주식 매수 타이밍인가?",
+    "korean_summary": "투자 전문가가 현 시점에서 NVIDIA 주식 매수 타당성을 검토했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGdtcW12ZjJrSklaNDU3RTdUMGo4SlpTUFh0cVlFR0JBb1U2cmRLUWRmc0xIYUZ2SENDTFFiXzJtaUNOQ0phUVQxOXcySHlRUUVVRmNTeG9iS0VpLTI2TWd4ZDJMLXV0NWx1LW0xU3N6ckFFZ2w0MUdkZlZoTGxPZlpqSWpUc0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Prediction: Nvidia Stock Will Be Worth This Much in 1 Year",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkhjSzJuXzFDY2J4MWprTnJYU0FQbTgxa3cxeWJ4X2JPTml0SDJEMlRrUVR2ZTYxVXppUzBZSnhrcFRCQ0hMcGxMOUkxQWhXWDNtNVZnTmNqSlg3UjVBb0xJWjhDcVo1cmpNVV9raGp1Y0hxRGw4eTNSaU9hQ1RMRUlPVW9XbmJteGVqNmg0QjRZMGVUWXBWOVJycldVMGpM?oc=5",
+   "date": "2026-11-22 00:29",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "1년 뒤 NVIDIA 주가는 얼마?",
+    "korean_summary": "증권사 애널리스트가 1년 후 NVIDIA의 목표 주가를 예측했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYkhjSzJuXzFDY2J4MWprTnJYU0FQbTgxa3cxeWJ4X2JPTml0SDJEMlRrUVR2ZTYxVXppUzBZSnhrcFRCQ0hMcGxMOUkxQWhXWDNtNVZnTmNqSlg3UjVBb0xJWjhDcVo1cmpNVV9raGp1Y0hxRGw4eTNSaU9hQ1RMRUlPVW9XbmJteGVqNmg0QjRZMGVUWXBWOVJycldVMGpM",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia shuts down Jensen Huang’s comeback plans after his public offer to return",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX1Bkd1FXd3ZnaDRpMDdETHZjdTVhckR1emxQTjlUQlJ3dU5LeXhSNHQ5LWUxSHZ3UTdPZ2NEVUVON1VHeUxvM1Rvd1RMVDJXME9mX1pZU3JBQ0FBRGRMdFhMRjktNEJ1YXZ3a0NIdWwxNk5UOEo3bFVaVnE4VWZLRUxzMloxeUphTUFEckx4bmJoRGFJUVE?oc=5",
+   "date": "2026-11-21 18:34",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA, Jensen Huang 복귀 제안 거절",
+    "korean_summary": "NVIDIA가 Jensen Huang의 경영 복귀 제안을 공식적으로 거절했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX1Bkd1FXd3ZnaDRpMDdETHZjdTVhckR1emxQTjlUQlJ3dU5LeXhSNHQ5LWUxSHZ3UTdPZ2NEVUVON1VHeUxvM1Rvd1RMVDJXME9mX1pZU3JBQ0FBRGRMdFhMRjktNEJ1YXZ3a0NIdWwxNk5UOEo3bFVaVnE4VWZLRUxzMloxeUphTUFEckx4bmJoRGFJUVE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Is Down 35% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by 2028.",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN19tUHBlVnVTVVNpdl84VUpCWUxxVGxNVTk0ZzlZeURoandQMVVnbHRQLUJjTi0ybEJFZndIdnBnSnhYd0Z4dlppZFZUWFoxclpEbUI0Zmk4aklsV3FEQ3lzNXJ6SjlWRlU4dXYyazBwWGVhVlBxMVpJaXU5M1loZ25UZlVOR3NzcFdYTk9Fb0Rzdmk0?oc=5",
+   "date": "2026-11-21 19:15",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 고점에서 35% 하락, 2028년 투자 가치 전망",
+    "korean_summary": "주가 하락에 따른 장기 투자 가치 분석 의견"
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "Nvidia Stock Is Down 35% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by 2028.",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWjNFQ3VvT3Foa1Z3aHRaUFFWZmMydmxQa1piMVpXaC1ycHBRMHFzWTRWeFlvUUVJSEUydzV4U29TZGhxMXAwQ3Z0elE1MWR6TXVTcHlDenljRlRJZ2c5aE1pTm1NYVk3TlNPUldEaXdLcmdsNlZWZjhmT19yWHE3akFWWF85MWM5a3RLZ3g0d05HNmwtVjc4bV8zY18tenVPb2VwdWVvZXI3TW1VTG15N3JjTFRnSERQN0xNVU1HdEJLaWw1MHpIMWhROFJfUWlBYWdfbTdueFdDLW5GY2JIYW1ETmRJMVNoTmZr?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNN19tUHBlVnVTVVNpdl84VUpCWUxxVGxNVTk0ZzlZeURoandQMVVnbHRQLUJjTi0ybEJFZndIdnBnSnhYd0Z4dlppZFZUWFoxclpEbUI0Zmk4aklsV3FEQ3lzNXJ6SjlWRlU4dXYyazBwWGVhVlBxMVpJaXU5M1loZ25UZlVOR3NzcFdYTk9Fb0Rzdmk0",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Falls to $150 Per Share. Is It a Buy Now?",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZnBlVDFLTGxBQnRDYXJ5YTNuS1drVnhWVDh4N2o0aWlta1RyeXE1OGdmbVgzNU93OGcxWXNqR2k5X1VUOXN2SVdSc19FeExkcFNtU0hiZ0FOREhQVF9vdGp4Sm1PaURXWlBjdEJlU2s4LVFuWnJzS1A5ZjlNOEZsWTJvNGNWOTRJR2Z3T2sxQ25nV0VzTWhrQWFudFhrdw?oc=5",
+   "date": "2026-11-21 22:37",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA 주가 $150으로 하락, 매수 기회 판단",
+    "korean_summary": "주가 하락에 따른 매수 추천 의견"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZnBlVDFLTGxBQnRDYXJ5YTNuS1drVnhWVDh4N2o0aWlta1RyeXE1OGdmbVgzNU93OGcxWXNqR2k5X1VUOXN2SVdSc19FeExkcFNtU0hiZ0FOREhQVF9vdGp4Sm1PaURXWlBjdEJlU2s4LVFuWnJzS1A5ZjlNOEZsWTJvNGNWOTRJR2Z3T2sxQ25nV0VzTWhrQWFudFhrdw",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Could SpaceX Be the Ultimate Winner of the Nvidia-Jensen Huang Split?",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZnQteG9FT2Uyd1IwTHRsVzNVQXd6Q0VTM0M0MjVVNENYY0c1YUotSW02RW5pZkJ4SmdsaGNBbGtfdEJoTlNSQk9oUFp1a2JIZGRKM1dkc0FibFJhczVadEdsWWZFY3ppY3B4YndoTXZjMVpvM05kZVF4ZkoyV2xfT3BMQVpVQi1XMmJvQUx2a1lJOHUxazhmWVVEbHBZWmo0cER0U1RVTzJIV2ZCRzNCeGk2d1c1UQ?oc=5",
+   "date": "2026-11-21 18:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA-Jensen Huang 분열, SpaceX가 수혜자?",
+    "korean_summary": "Jensen Huang 경영진 변화가 SpaceX 등 기업에 미치는 영향 추측"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZnQteG9FT2Uyd1IwTHRsVzNVQXd6Q0VTM0M0MjVVNENYY0c1YUotSW02RW5pZkJ4SmdsaGNBbGtfdEJoTlNSQk9oUFp1a2JIZGRKM1dkc0FibFJhczVadEdsWWZFY3ppY3B4YndoTXZjMVpvM05kZVF4ZkoyV2xfT3BMQVpVQi1XMmJvQUx2a1lJOHUxazhmWVVEbHBZWmo0cER0U1RVTzJIV2ZCRzNCeGk2d1c1UQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Here’s My Top AI Stock to Buy With Nvidia in Uncertain Territory",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjc4VFNySHZORFB1dl9XUm9YSFpMc3h3bnpnZ3N4TXQ1WVc5MVNCV2MtczFrRVl3SGVxNUxyQmp1RnhSY0ZtTC1JV3lQNTVCV0pqM0NhaE9Ra3M1dzJWNG03eTNjeHE0bjVxSkNVNnhHb3l3SS1pbW5kRFJpenFDd2Y0aXpDQktjeG95OERqdmFGMVdMV090aHFvcVJaWEtzZzdXT1ZLeXlZZTg?oc=5",
+   "date": "2026-11-21 16:31",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA 불확실성 속 최고 AI 주식 추천",
+    "korean_summary": "NVIDIA 위기 상황에서 추천할 대체 AI 관련 주식 제시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMjc4VFNySHZORFB1dl9XUm9YSFpMc3h3bnpnZ3N4TXQ1WVc5MVNCV2MtczFrRVl3SGVxNUxyQmp1RnhSY0ZtTC1JV3lQNTVCV0pqM0NhaE9Ra3M1dzJWNG03eTNjeHE0bjVxSkNVNnhHb3l3SS1pbW5kRFJpenFDd2Y0aXpDQktjeG95OERqdmFGMVdMV090aHFvcVJaWEtzZzdXT1ZLeXlZZTg",
+   "body": ""
+  },
+  {
+   "source": "Google News · NewsNation",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Kevin O’Leary: ‘Zero chance’ Jensen Huang returns to NVIDIA",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZWhyb3dOY0k0VHJ5ZFdIUnZ5SUlLODRhaEZIVWx3Q3FyTnFsdUZ2UW1HRjY4R1ZHaGk1bVB1ZlV3Z05QZXR0QkJ1RHN6MHljNHNnU3NVS2FncnlrQXdMV2paYlJ0OHBtaW9oYk1GRndtTUhhcjZza19ia3A4akZIOXF2X29fY1N6TWJuemk2N1FYLU3SAZgBQVVfeXFMUFhRVmxkX3N6V2VUUEM1R0VCWFI4ZUJmVVJVMmhFNmU5NThMMHBRRkpBa2ZvVFl5QkJ1SDgycV9ySzhnOEowenlDeDJqRmhud3lYMDNZaU12SXlQZUZiVlBFMkZjSWx1Y1VWTHd3MjNqd2VrQlNqeEVjRllJZkpIdzYzWkh4eVFkVUtpU0pwTjBGb1Zpc2tzMG8?oc=5",
+   "date": "2026-11-22 09:21",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Kevin O'Leary: 'Jensen Huang의 NVIDIA 복직 가능성은 0'",
+    "korean_summary": "투자자 Kevin O'Leary가 CEO Jensen Huang이 NVIDIA로 복직할 가능성을 완전히 부정"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZWhyb3dOY0k0VHJ5ZFdIUnZ5SUlLODRhaEZIVWx3Q3FyTnFsdUZ2UW1HRjY4R1ZHaGk1bVB1ZlV3Z05QZXR0QkJ1RHN6MHljNHNnU3NVS2FncnlrQXdMV2paYlJ0OHBtaW9oYk1GRndtTUhhcjZza19ia3A4akZIOXF2X29fY1N6TWJuemk2N1FYLU3SAZgBQVVfeXFMUFhRVmxkX3N6V2VUUEM1R0VCWFI4ZUJmVVJVMmhFNmU5NThMMHBRRkpBa2ZvVFl5QkJ1SDgycV9ySzhnOEowenlDeDJqRmhud3lYMDNZaU12SXlQZUZiVlBFMkZjSWx1Y1VWTHd3MjNqd2VrQlNqeEVjRllJZkpIdzYzWkh4eVFkVUtpU0pwTjBGb1Zpc2tzMG8",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang's next move: Wall Street floats Intel and SpaceX, but bettors are banking on a surprise second act",
+   "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVUtCZC0zLUNQYkUwUVAxSlkxU05NWEt1WC1LZDUweWdKYUlhZnJnVmxOV0dzTXltUHlfbkdyOTB6ZGNaSW1lZlNjTnB0c1UxR1BDcW9yaEMwV0FmVEk1emFGSzN6ZXJJYXhpcjFuZ2luOHJ0TXN0LUNtUGJsNkNZMGJFcWNad0UzTHQ4Mm9FWVZQUXQtUS1EbXRhc25pU0VGeDAxYWtIaDZTUlZ2RlpPSk5QaXR4dGw0VThfb1BrdTVtck5xQTlxMDBKOG0zVmh2blRYV3Q1dlF0ZlkzTGh4WTRZRXl2WkJlamNDazBFUUtOeVozTWNieQ?oc=5",
+   "date": "2026-11-21 21:30",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang의 차기 거취: 월스트리트는 Intel·SpaceX 거론, 베팅은 깜짝 반전",
+    "korean_summary": "CEO Jensen Huang의 다음 거취에 대해 월스트리트와 도박꾼들이 추측하는 가운데 다양한 가능성 대두"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVUtCZC0zLUNQYkUwUVAxSlkxU05NWEt1WC1LZDUweWdKYUlhZnJnVmxOV0dzTXltUHlfbkdyOTB6ZGNaSW1lZlNjTnB0c1UxR1BDcW9yaEMwV0FmVEk1emFGSzN6ZXJJYXhpcjFuZ2luOHJ0TXN0LUNtUGJsNkNZMGJFcWNad0UzTHQ4Mm9FWVZQUXQtUS1EbXRhc25pU0VGeDAxYWtIaDZTUlZ2RlpPSk5QaXR4dGw0VThfb1BrdTVtck5xQTlxMDBKOG0zVmh2blRYV3Q1dlF0ZlkzTGh4WTRZRXl2WkJlamNDazBFUUtOeVozTWNieQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Seeking Alpha",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia: This Has Gone Too Far",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92YlJYVkVwNGhiNFlCd2xyZjUtYnNQUEVrM2ZFd1lzS1RFdnoxN2x2RkxEZUxBeWlpeVFIa0JIUWVoUEVYM29NUnpQbHZZTC1YTDh4THVxOUhiUExHVjVuR3hiZDlIeERiVWVpVkJsb3BtLTI4SWFQaA?oc=5",
+   "date": "2026-11-22 02:00",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA: 이제는 너무 지나쳤다",
+    "korean_summary": "NVIDIA의 최근 상황이 과도하다는 비판적 평론"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92YlJYVkVwNGhiNFlCd2xyZjUtYnNQUEVrM2ZFd1lzS1RFdnoxN2x2RkxEZUxBeWlpeVFIa0JIUWVoUEVYM29NUnpQbHZZTC1YTDh4THVxOUhiUExHVjVuR3hiZDlIeERiVWVpVkJsb3BtLTI4SWFQaA",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Should You Forget Nvidia and Buy These 2 AI Memory Stocks Instead?",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWl8wUlprTUNoYUFvTHlOaEFaOU9VMkVxRUdmdkZHTTJQMC0xVTFQWWQzTktJUEE4a2c0QndVblBWTG1RNEpBWlRZMFFXcWotRWJuRHlwVU9jZlNQRUV0cWlfaURYNVZlUnd2emk5NGRlWDhmRVNMREVhZ2dEUWtFNHhXX3A4ZHQ5VXFIYWl6RVZJMnkyMmd1WEtNSmkxdlFNRDVjWV9IbW14SGt6?oc=5",
+   "date": "2026-11-22 10:03",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "투자자들, Nvidia 대신 AI 메모리 주식 매수를 고려하라는 조언",
+    "korean_summary": "재정 분석가들이 Nvidia보다는 AI 메모리 칩 제조사 주식을 추천하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWl8wUlprTUNoYUFvTHlOaEFaOU9VMkVxRUdmdkZHTTJQMC0xVTFQWWQzTktJUEE4a2c0QndVblBWTG1RNEpBWlRZMFFXcWotRWJuRHlwVU9jZlNQRUV0cWlfaURYNVZlUnd2emk5NGRlWDhmRVNMREVhZ2dEUWtFNHhXX3A4ZHQ5VXFIYWl6RVZJMnkyMmd1WEtNSmkxdlFNRDVjWV9IbW14SGt6",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Applied Materials vs. Nvidia: Which Tech Stock Is a Better Buy for 2027?",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVkFSa3VDYVlKMC04ZTNkRjNuRHEyNTZCTWNmdjVObThGX2xiUDVzb19hQXV5ZjlJMk5XcWdCeEZlVHBKdk45Rjc3VzVlS3ROdXJpMGxNV2pjZDZCc1pXMnQxLWNZcXFFQXowc0V0eVhQVXJuaG5obVE3Y19lZ3ZlTUxuRHp5aDJEVFdzcERjcTBrZnhBYkZpX1B6Z0RtMVM3T0o2UWotZDBOTjN6bzBVbHdLTmJGaDBjMl9ZZFRfdw?oc=5",
+   "date": "2026-11-21 23:55",
+   "score": 2,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 2,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Applied Materials 대 Nvidia: 2027년 더 나은 매수처 비교",
+    "korean_summary": "Applied Materials와 Nvidia 중 어느 주식이 더 나은 투자 대상인지 비교 분석했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVkFSa3VDYVlKMC04ZTNkRjNuRHEyNTZCTWNmdjVObThGX2xiUDVzb19hQXV5ZjlJMk5XcWdCeEZlVHBKdk45Rjc3VzVlS3ROdXJpMGxNV2pjZDZCc1pXMnQxLWNZcXFFQXowc0V0eVhQVXJuaG5obVE3Y19lZ3ZlTUxuRHp5aDJEVFdzcERjcTBrZnhBYkZpX1B6Z0RtMVM3T0o2UWotZDBOTjN6bzBVbHdLTmJGaDBjMl9ZZFRfdw",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.9
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.1
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 25,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 86,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 30.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 16,
+   "enriched": 16,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 10,
+   "enriched": 10,
+   "error": "",
+   "sec": 1.2
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 99,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 5,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 13,
+   "enriched": 1,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 30,
+   "error": "",
+   "sec": 32.6
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 14,
+   "error": "",
+   "sec": 5.9
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 3,
+   "enriched": 3,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 9,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/nvidia/new/.rss",
+   "sec": 0.1
+  }
+ ]
+}
