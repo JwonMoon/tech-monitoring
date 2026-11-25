@@ -17,7 +17,7 @@ Wayve 는 이 둘이 서로를 끌어주는 회사라 한쪽만 보면 그림이
 """
 import re
 
-from ..sources import Source, github_releases, gnews
+from ..sources import Source, github_org, github_releases, gnews
 from .base import Focus, Keywords, Prompt, Subject
 
 # 전부 논문 코드 저장소다. 2026-09-18 확인 시 releases.atom 이 0건이라 수확은 기대하기 어렵지만,
@@ -43,6 +43,8 @@ SOURCES = [
 
     # ── 릴리스 · 연구 ──
     *github_releases(GITHUB_REPOS),
+    # 조직 단위 감시 — 논문 코드는 태그 없이 새 저장소로 올라오는 일이 많아 릴리스 Atom 보다 이쪽이 먼저 잡는다
+    *github_org(["wayveai"]),
     Source("arXiv · Wayve", "http://export.arxiv.org/api/query?search_query=all:Wayve"
                             "&sortBy=submittedDate&sortOrder=descending&max_results=30",
            category="release", prefilter=False, fetch_full=False,
@@ -128,6 +130,7 @@ PROMPT = Prompt(
 0: Wayve와 무관 (WayV 아이돌 그룹, wavve OTT, 일반적인 'wave' 기사는 0점)""",
     tag_rules="""\
 - [릴리스] GitHub: Wayve 저장소는 대부분 논문 코드다. 새 모델·데이터셋 공개면 6점 이상, 의존성 정리·소소한 수정은 2~3점
+- [릴리스] GitHub 신규 공개 저장소: 논문 코드·모델·데이터셋의 첫 공개면 6~8점, 문서·설정용은 2~3점. 스타 급증은 4~6점
 - [릴리스] arXiv: Wayve 소속 저자의 신규 논문이면 6~8점, 인용만 된 제3자 논문은 1~2점
 - [커뮤니티] Hacker News/Reddit: 새 사실이나 현업 반응이 뚜렷할 때만 5점 이상""",
     focus_rule=("[중점 분야] 아래 둘 중 하나에 해당하면 is_focus=true 로 두고 article_type 도 그 토픽으로 고른다.\n"

@@ -1,13 +1,25 @@
 """NVIDIA 사업·기술 동향. 중점 분야는 자동차·로봇."""
 import re
 
-from ..sources import Source, github_releases, gnews
+from ..sources import Source, github_org, github_releases, gnews
 from .base import Focus, Keywords, Prompt, Subject
 
 GITHUB_REPOS = [
     "NVIDIA/TensorRT", "NVIDIA/TensorRT-LLM", "NVIDIA/NeMo", "NVIDIA/Megatron-LM",
     "NVIDIA/cutlass", "NVIDIA/DALI", "NVIDIA/Isaac-GR00T", "isaac-sim/IsaacLab",
     "nvidia-cosmos/cosmos-predict2.5", "triton-inference-server/server", "NVlabs/VILA",
+]
+
+# 조직 단위 감시 — 저장소 이름을 미리 몰라도 새로 공개된 저장소·스타 급증·인기 저장소 릴리스를 잡는다.
+# (위 GITHUB_REPOS 는 "꼭 봐야 하는" 저장소의 릴리스를 스타 수와 무관하게 보장하는 고정 목록)
+GITHUB_ORGS = [
+    "NVIDIA",            # 본체 (TensorRT, NeMo, cutlass, Isaac-GR00T ...)
+    "NVlabs",            # 연구 (VILA, 논문 코드)
+    "nvidia-cosmos",     # Cosmos 월드 모델
+    "NVIDIA-AI-IOT",     # Jetson · 엣지 (jetson-containers, Isaac ROS 샘플)
+    "NVIDIA-Omniverse",  # Omniverse · 시뮬레이션
+    "isaac-sim",         # Isaac Sim · Isaac Lab
+    "NVIDIA-NeMo",       # NeMo 계열 신규 조직 (NeMo-RL, Megatron-Bridge ...)
 ]
 
 SEC_8K = ("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810"
@@ -18,7 +30,9 @@ SOURCES = [
     Source("NVIDIA Newsroom", "https://nvidianews.nvidia.com/releases.xml", category="official", weight=1, prefilter=False),
     Source("NVIDIA Blog", "https://blogs.nvidia.com/feed/", category="official", weight=1, prefilter=False),
     Source("NVIDIA Blog · Auto", "https://blogs.nvidia.com/blog/category/auto/feed/", category="official", weight=1, prefilter=False, focus_boost=True),
-    Source("NVIDIA Technical Blog", "https://developer.nvidia.com/blog/feed/", category="official", prefilter=False),
+    # 개발자 기술 블로그는 새 SDK·모델·워크플로우가 처음 소개되는 곳이라 점수와 무관하게 전부 싣는다 (pin 보드)
+    Source("NVIDIA Technical Blog", "https://developer.nvidia.com/blog/feed/", category="official", prefilter=False,
+           pin="기술 블로그"),
     Source("NVIDIA Technical Blog · AV", "https://developer.nvidia.com/blog/category/autonomous-vehicles/feed/", category="official", prefilter=False, focus_boost=True,
            enabled=False, note="2026-09-15 확인 시 엔트리 0건인 빈 피드. 전체 Technical Blog + 자동차 키워드로 커버"),
     Source("NVIDIA Technical Blog · DRIVE", "https://developer.nvidia.com/blog/tag/nvidia-drive/feed/", category="official", prefilter=False, focus_boost=True,
@@ -33,6 +47,7 @@ SOURCES = [
     Source("SEC EDGAR 8-K", SEC_8K, kind="sec", category="filing", weight=1, prefilter=False, fetch_full=False, ua="sec"),
     Source("Hugging Face · nvidia", "https://huggingface.co/api/models?author=nvidia&sort=lastModified&limit=100", kind="hf", category="release", prefilter=False, fetch_full=False),
     *github_releases(GITHUB_REPOS),
+    *github_org(GITHUB_ORGS),
 
     # ── 해외 매체 ──
     Source("Tom's Hardware", "https://www.tomshardware.com/feeds/all"),
@@ -115,6 +130,9 @@ PROMPT = Prompt(
 0: NVIDIA와 무관""",
     tag_rules="""\
 - [릴리스] GitHub/Hugging Face: 메이저 버전·신규 모델·자동차/로봇 관련이면 6점 이상, 패치·버그픽스·소형 파생 모델은 2~4점
+- [릴리스] GitHub 신규 공개 저장소: 새 기술·모델·툴킷·프레임워크의 첫 공개면 6~8점(자동차·로봇·피지컬 AI 면 7점 이상), 샘플·문서·워크숍·설정 파일용 저장소는 2~3점
+- [릴리스] GitHub 스타 급증: 커뮤니티 주목 신호. 공개 직후 급증이면 5~6점, 오래된 저장소의 재조명은 3~4점
+- [기술 블로그] NVIDIA Technical Blog: 새 SDK·모델·기능·워크플로우를 처음 소개하면 5~7점, 기존 기능 튜토리얼·사례 소개는 3~4점, 행사 안내·재탕은 1~2점
 - [공시] SEC 8-K: 실적(2.02)·중요계약(1.01)·인수(2.01)는 8점 이상, 임원 변동(5.02) 6~7점, 첨부만(9.01)·기타 4~6점
 - [커뮤니티] Hacker News/Reddit: 새 사실이나 개발자 반응이 뚜렷할 때만 5점 이상""",
     focus_rule=("[자동차·로봇] DRIVE(AGX/Thor/Hyperion/OS/Sim), Alpamayo, Cosmos, Isaac, GR00T, Jetson Thor, "

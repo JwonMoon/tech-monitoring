@@ -27,6 +27,7 @@ def save(day, result, stats):
         "cards": [_export(a) for a in result["cards"]],
         "headlines": [_export(a) for a in result["headlines"]],
         "releases": [_export(a) for a in result["releases"]],
+        "boards": {k: [_export(a) for a in v] for k, v in (result.get("boards") or {}).items()},
         "source_stats": stats,
     }
     stem.with_suffix(".json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -39,7 +40,10 @@ def save(day, result, stats):
              f"# {config.SUBJECT.title} {day}", ""]
     if result["top3"]:
         lines += ["## 핵심 3줄", *[f"- {t}" for t in result["top3"]], ""]
-    for label, items in (("카드", result["cards"]), ("헤드라인", result["headlines"]), ("릴리스·공시", result["releases"])):
+    sections = [("카드", result["cards"]), ("헤드라인", result["headlines"])]
+    sections += [(k, v) for k, v in (result.get("boards") or {}).items()]
+    sections.append(("릴리스·공시", result["releases"]))
+    for label, items in sections:
         if not items:
             continue
         lines += [f"## {label} ({len(items)})", ""]

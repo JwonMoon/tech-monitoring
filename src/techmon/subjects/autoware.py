@@ -11,7 +11,7 @@
 """
 import re
 
-from ..sources import Source, github_releases, gnews
+from ..sources import Source, github_org, github_releases, gnews
 from .base import Focus, Keywords, Prompt, Subject
 
 # Autoware Foundation 본체 + 참조 구현. 릴리스 Atom 은 태그가 없으면 0건으로 조용히 넘어간다.
@@ -36,10 +36,14 @@ TIER4_REPOS = [
     "tier4/awkernel",
 ]
 
+# 조직 단위 감시 — 새 저장소(auto_e2e 처럼 태그 없이 시작하는 것들)·스타 급증·인기 저장소 릴리스
+GITHUB_ORGS = ["autowarefoundation", "tier4"]
+
 SOURCES = [
     # ── 공식 (1차 출처) ──
     Source("Autoware Foundation", "https://autoware.org/feed/", category="official", weight=1, prefilter=False),
-    Source("TIER IV MEDIA", "https://medium.com/feed/tier-iv-tech-blog", category="official", weight=1, prefilter=False),
+    Source("TIER IV MEDIA", "https://medium.com/feed/tier-iv-tech-blog", category="official", weight=1, prefilter=False,
+           pin="기술 블로그"),
     Source("TIER IV 보도자료 (PR TIMES)", "https://prtimes.jp/companyrdf.php?company_id=40119",
            category="official", weight=1, prefilter=False, focus_boost=True,
            note="PR TIMES 기업 RDF. company_id 는 ティアフォー 기업 페이지 기준"),
@@ -51,6 +55,7 @@ SOURCES = [
     # ── 릴리스 ──
     *github_releases(AWF_REPOS),
     *github_releases(TIER4_REPOS),
+    *github_org(GITHUB_ORGS),
     Source("Hugging Face · tier4", "https://huggingface.co/api/models?author=tier4&sort=lastModified&limit=50",
            kind="hf", category="release", prefilter=False, fetch_full=False,
            note="모델이 없으면 빈 목록이 와서 0건으로 지나간다"),
@@ -160,6 +165,9 @@ PROMPT = Prompt(
     tag_rules="""\
 - [릴리스] GitHub: autoware / autoware_core / autoware_universe 의 마이너 이상 버전은 6점 이상, 패치·의존성 범프·자동 생성 릴리스는 2~4점
 - [릴리스] 주변 저장소(AWSIM, scenario_simulator_v2, nebula, AWML 등)는 새 기능·센서 지원 추가일 때만 5점 이상
+- [릴리스] GitHub 신규 공개 저장소: 새 모듈·모델·툴의 첫 공개면 6~8점(E2E 모델·인지·미들웨어면 7점 이상), 문서·템플릿·설정용은 2~3점
+- [릴리스] GitHub 스타 급증: 커뮤니티 주목 신호 4~6점
+- [기술 블로그] TIER IV MEDIA: 새 기술·아키텍처·실증 결과를 처음 소개하면 5~7점, 일반 소개·채용·행사는 2~3점
 - [커뮤니티] ROS Discourse: AWF 공식 공지·릴리스 노트·워킹그룹 회의록은 5~7점, 개별 질문·트러블슈팅은 1~2점""",
     focus_rule=("[중점 분야] 아래 셋 중 하나에 해당하면 is_focus=true 로 두고 article_type 도 그 토픽으로 고른다.\n"
                 "- Business-Deployment: 투자·상장·M&A, 제휴·수주·공동개발, 양산(SOP)·상용 서비스 개시, 실증 사업, 인허가·보조금, 신규 고객·지역 확대\n"

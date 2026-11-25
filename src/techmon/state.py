@@ -37,3 +37,35 @@ def save(seen, today):
                    ensure_ascii=False, indent=1),
         encoding="utf-8")
     return len(kept)
+
+
+# ─── GitHub 조직 저장소 스냅샷 (state/github_<slug>.json) ──────────────────────
+# 어제 조직에 있던 저장소 목록·스타 수. "스냅샷에 없던 저장소" = 새로 공개된 저장소.
+# created_at 은 비공개 시절 날짜라 공개 시점을 알려주지 않으므로 스냅샷 비교가 유일하게 믿을 만하다.
+GITHUB_RETENTION_DAYS = 90
+_github = None
+
+
+def github_load():
+    """{"repos": {"org/name": {"stars": int, "created": "YYYY-MM-DD", "seen": "YYYY-MM-DD"}}} (캐시)."""
+    global _github
+    if _github is None:
+        try:
+            data = json.loads(config.GITHUB_STATE_PATH.read_text(encoding="utf-8"))
+            repos = data.get("repos", {})
+            _github = {"repos": repos if isinstance(repos, dict) else {}}
+        except (OSError, ValueError):
+            _github = {"repos": {}}
+    return _github
+
+
+def github_save(today):
+    snap = github_load()
+    cutoff = (today - timedelta(days=GITHUB_RETENTION_DAYS)).isoformat()
+    kept = {k: v for k, v in snap["repos"].items() if (v.get("seen") or "") >= cutoff}
+    config.GITHUB_STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    config.GITHUB_STATE_PATH.write_text(
+        json.dumps({"updated": today.isoformat(), "repos": dict(sorted(kept.items()))},
+                   ensure_ascii=False, indent=1),
+        encoding="utf-8")
+    return len(kept)

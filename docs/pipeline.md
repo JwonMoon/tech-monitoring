@@ -71,7 +71,8 @@ is_focus = 토픽이 focus_keys 에 듦  OR  LLM 의 is_focus 플래그  OR  fil
 - 기간: 기준일(KST) 포함 최근 `TARGET_DAYS`(기본 2)일
 - 06:17 KST 실행 시 "어제만" 보면 전날 06:17 이후 발행분 중 일부를 영구 누락할 수 있어 2일 창을 쓴다
 - 겹치는 하루는 `state/seen_<slug>.json`으로 제거 (주제별로 따로). 채점된 항목의 uid(병합된 관련 보도 포함)를 기록하고 30일 뒤 삭제
-- uid: 추적 파라미터를 뺀 정규화 URL, GitHub는 `gh:저장소:태그`, HF는 `hf:모델:new|날짜`, SEC는 `sec:접수번호`
+- uid: 추적 파라미터를 뺀 정규화 URL, GitHub는 `gh:저장소:태그`, 신규 저장소는 `ghnew:저장소`, 스타 급증은 `ghsurge:저장소:날짜`, HF는 `hf:모델:new|날짜`, SEC는 `sec:접수번호`
+- GitHub 조직 스냅샷 `state/github_<slug>.json`: 조직별 저장소 이름·스타 수·마지막 확인일. "스냅샷에 없던 저장소"가 곧 신규 공개다 (`created_at`은 비공개 시절 날짜라 공개 시점을 알려주지 않는다). 90일 동안 보이지 않은 저장소는 삭제
 - 로컬 실행은 기본적으로 이력을 쓰지 않는다 (`WRITE_STATE=0`)
 
 ## 소스 kind별 정규화 (`crawl.py`)
@@ -82,6 +83,7 @@ is_focus = 토픽이 focus_keys 에 듦  OR  LLM 의 is_focus 플래그  OR  fil
 | gnews | 제목 끝 ` - 매체명` 분리, 출처를 `Google News · 매체명`으로 표기. 본문 없음 → 카드 승격 시에만 `googlenewsdecoder`로 원문 URL 복원 후 추출 |
 | sec | 8-K Atom의 `filing-date`, `items-desc`, `accession-number` 사용. Item 코드를 한국어 설명으로 변환 (2.02=실적, 1.01=중요 계약, 5.02=임원 등). User-Agent에 연락처 필수 |
 | github | 릴리스 Atom. 태그와 릴리스 노트 2,000자 |
+| github_org | 조직 저장소 목록 API(`/orgs/{org}/repos`, 100건씩 전체 페이지 — 한 페이지라도 실패하면 조직 전체를 건너뛴다. 부분 목록은 가짜 '신규'를 만든다). 세 가지를 낸다. **신규 공개**: 스냅샷에 없던 저장소(포크·아카이브 제외). 설명·언어·topics·README 1,500자를 본문으로. 스냅샷에 그 조직이 전혀 없는 첫 실행은 최근 7일 생성분만. **주목 급상승**: 스타가 하루 150+ 또는 25%+(절대 40+) 증가. **릴리스**: 기간 내 push 가 있고 ★300 이상인 저장소(조직당 최대 25개)의 릴리스 Atom — 주제가 github 소스로 이미 보는 저장소는 제외. `GITHUB_TOKEN`이 있으면 1,000회/h, 없으면 60회/h |
 | hf | 모델 목록 API. `createdAt`이 기간 내면 신규, `lastModified`만 바뀐 건 주제별 워치리스트(`Subject.hf_watch`)에 걸릴 때만 업데이트로 포함. 하루 최대 15건, README 1,500자 |
 
 ## Stage 0 사전필터 (`filters.py`)
@@ -129,6 +131,8 @@ Autoware는 같은 자리에 "TIER IV 투자·상장, OEM 양산 확정, 레벨4
 - 중점 분야 판정 = **최종 토픽이 `focus_keys` 에 속하는가**. LLM `is_focus`·`focus_specific`·`focus_generic`·`focus_boost` 는 토픽 매핑 실패 시의 보정 신호
 - 중점 분야 항목은 최소 헤드라인 점수 보장
 - 카드 기준: 일반 5, 중점 4, 커뮤니티 7, 릴리스·공시 7 (미만은 보드)
+- 고정 보드(`Source.pin`): 라벨이 있는 소스(NVIDIA Technical Blog, TIER IV MEDIA → "기술 블로그")의 글은 카드가 아니면 점수와 무관하게 라벨별 보드에 전부 실린다. 헤드라인 상한·크기 가드의 대상이 아니다. Stage 1 에는 `[기술 블로그]` 태그로 들어가 전용 채점 규칙을 받는다
+- 릴리스 보드 정렬: 신규 공개 저장소 → 주목 급상승 → 나머지 점수순
 - 카드 상한: 주제별 (`max_cards` / `max_focus_cards` — NVIDIA·Wayve 15/10, Autoware 10/8). 넘치면 헤드라인으로
 - 헤드라인 상한: 주제별 (NVIDIA·Wayve 40, Autoware 30. 중점 분야 헤드라인은 전부 유지). 넘친 저점 항목은 archive에만 기록
 - 메일 HTML이 95KB를 넘으면: 일반 헤드라인을 20건까지 저점부터 제거 → 저점 카드를 헤드라인으로 강등 → 남은 일반 헤드라인 제거 (Gmail 102KB 클리핑). 중점 분야 헤드라인은 제거하지 않음
@@ -179,6 +183,8 @@ Autoware·TIER IV 는 공식 소스가 며칠에 한 번 올라와 2일 창이�
 
 | 날짜 | 소스 | 상태 | 조치 |
 |---|---|---|---|
+| 2026-11-25 | **GitHub 조직 감시 도입** (NVIDIA 7개 조직, autowarefoundation·tier4, wayveai) | 개발 환경에서는 프록시가 조직 API·`releases.atom`을 막아 실측 불가. 감지 로직은 `tests/test_github_org.py`로 고정(모킹). 첫 Actions 실행은 스냅샷을 만드는 날이라 신규는 최근 7일 생성분만 나온다 | 사용. 첫 실행 후 `state/github_*.json` 크기와 다음 날 신규 건수를 확인할 것 |
+| 2026-11-25 | NVIDIA Technical Blog | 30일간 52건 채점됐지만 메일에 남은 건 하루 0~2건 — 카드 상한(15)에 밀려 헤드라인으로, 1점짜리는 탈락 | 고정 보드(`pin="기술 블로그"`)로 전부 싣고 `[기술 블로그]` 채점 규칙 추가 |
 | 2026-09-15 | NVIDIA Research RSS | 2021년 글만 남음 | 비활성 |
 | 2026-09-15 | Technical Blog AV·DRIVE 카테고리 피드 | 엔트리 0건 | 비활성 (전체 Technical Blog + 자동차 키워드로 커버) |
 | 2026-09-15 | 한국경제 IT | 전체 Chrome UA는 403 | 짧은 UA(`simple`) 사용 |

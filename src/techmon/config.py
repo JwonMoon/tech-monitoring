@@ -28,6 +28,7 @@ def _bool(name, default=False):
 # run.py 가 --subject 를 환경 변수로 옮긴 뒤 이 모듈을 import 한다.
 SUBJECT = subjects.get(os.environ.get("SUBJECT"))
 STATE_PATH = ROOT / "state" / f"seen_{SUBJECT.slug}.json"
+GITHUB_STATE_PATH = ROOT / "state" / f"github_{SUBJECT.slug}.json"  # 조직 저장소 스냅샷 (신규 저장소 감지용)
 OUT_DIR = Path(os.environ.get("OUT_DIR") or (ROOT / "out" / SUBJECT.key))
 
 # ─── 수집 기간 ─────────────────────────────────────────
@@ -71,6 +72,17 @@ MAX_EMAIL_BYTES = 95_000   # Gmail 102KB 클리핑 방지
 WRITE_STATE = _bool("WRITE_STATE", False)   # CI에서만 1 (로컬 테스트가 발송 이력을 오염시키지 않도록)
 IGNORE_SEEN = _bool("IGNORE_SEEN", False)   # 과거 날짜 재실행 시 1
 MAIL_MODE = os.environ.get("MAIL_MODE", "file").strip().lower()  # file | smtp
+
+# ─── GitHub 조직 감시 (crawl.crawl_github_org) ─────────
+# 토큰은 선택. 없으면 비로그인 한도(시간당 60회)로 돌고, Actions 에서는 github.token 을 넘긴다.
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+GH_ORG_MAX_PAGES = _int("GH_ORG_MAX_PAGES", 12)      # 100건/페이지 — 조직 하나 최대 1,200개 저장소
+GH_NEW_FIRST_RUN_DAYS = 7                            # 스냅샷이 없는 첫 실행은 최근 N일 생성 저장소만 신규로
+GH_SURGE_MIN = _int("GH_SURGE_MIN", 150)             # 하루 스타 증가가 이 이상이면 급상승
+GH_SURGE_PCT = 0.25                                  # 또는 25% 이상 증가(단, 절대 증가 GH_SURGE_PCT_MIN 이상)
+GH_SURGE_PCT_MIN = 40
+GH_ORG_RELEASE_MIN_STARS = _int("GH_ORG_RELEASE_MIN_STARS", 300)  # 최근 push 된 저장소 중 릴리스 Atom 을 볼 최소 스타
+GH_ORG_RELEASE_MAX_REPOS = _int("GH_ORG_RELEASE_MAX_REPOS", 25)   # 조직당 릴리스 Atom 추가 확인 상한
 
 # SEC EDGAR는 연락처가 담긴 User-Agent를 요구한다 (없으면 403). 미설정 시 SEC 소스는 건너뜀.
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "").strip()

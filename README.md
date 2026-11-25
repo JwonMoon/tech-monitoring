@@ -21,14 +21,15 @@
 | 수집 대상 | 오늘 포함 최근 2일(KST) 발행분 중 아직 보내지 않은 항목 |
 | LLM | Claude Code 헤드리스 (`claude -p`) — 1차 채점 haiku, 2차 심층 sonnet |
 | 발송 | Gmail. 주제당 한 통. 신규 0건인 날도 발송하되 "소식 없음" 한 줄짜리 짧은 메일 |
-| 결과물 | 메일, `archive/YYYY-MM-DD_{nv,aw,wv}.json/.md`, 발송 이력 `state/seen_{nv,aw,wv}.json` |
+| 결과물 | 메일, `archive/YYYY-MM-DD_{nv,aw,wv}.json/.md`, 발송 이력 `state/seen_{nv,aw,wv}.json`, GitHub 조직 스냅샷 `state/github_{nv,aw,wv}.json` |
 
 ## 파이프라인
 
 주제와 무관한 공통 흐름입니다. 대괄호 안 숫자는 주제별 설정(`subjects/*.py`)에서 옵니다.
 
 ```
-[수집] 주제별 소스 — RSS/Atom, Google News(영/일/한), SEC 8-K, GitHub 릴리스, Hugging Face
+[수집] 주제별 소스 — RSS/Atom, Google News(영/일/한), SEC 8-K, GitHub 릴리스, GitHub 조직 감시, Hugging Face
+   → GitHub 조직 감시: 어제 스냅샷(state/github_*.json)에 없던 저장소 = 신규 공개, 스타 급증, 인기 저장소 릴리스
    → 발송 이력(state/seen_*.json)에 있는 항목 제외
 [Stage 0] 정규식 사전필터 — 공식·공시·릴리스는 통과, 매체는 주제 신호 필요, 딜·홍보성 제외
    → 제목 유사도 병합 (같은 소식 → 대표 1건 + "관련 보도")
@@ -36,10 +37,10 @@
    → 중점 판정: LLM 이 고른 토픽이 그 주제의 중점 토픽 집합에 들면 중점
    → 가중: 공식/공시 +1, 커뮤니티 -1, 중점 분야 +1
    → 한국어 제목 2차 병합
-[분류] 카드(일반 5점+, 중점 4점+, 커뮤니티 7점+) / 헤드라인(2점+) / 릴리스·공시 보드
+[분류] 카드(일반 5점+, 중점 4점+, 커뮤니티 7점+) / 헤드라인(2점+) / 릴리스·공시 보드 / 고정 보드(pin 소스는 점수 무관 전부)
 [Stage 2] sonnet 카드 심층 분석 (동시 4건) — 핵심 행동, 주요 사실, 왜 중요한가, 주제 관점, 중점 분야 관점
    → Google News 카드는 원문 URL 복원 → 관련 보도 링크 순으로 본문 확보, 모두 실패하면 요약 카드로 유지
-[렌더] 핵심 3줄 → 목차 → 중점 분야(항상 첫 섹션) → 토픽별 섹션 → 릴리스·모델·공시 보드
+[렌더] 핵심 3줄 → 목차 → 중점 분야(항상 첫 섹션) → 토픽별 섹션 → 고정 보드(기술 블로그) → 릴리스·모델·공시 보드(신규 저장소 맨 위)
 ```
 
 상세 설계와 선정 기준은 [`docs/pipeline.md`](docs/pipeline.md).
@@ -56,9 +57,10 @@
 
 | 분류 | 소스 |
 |---|---|
-| 공식 | Newsroom 보도자료, NVIDIA Blog (+Auto 카테고리), Technical Blog, YouTube 채널 |
+| 공식 | Newsroom 보도자료, NVIDIA Blog (+Auto 카테고리), **Technical Blog (고정 보드 — 새 글 전부 메일에 실림)**, YouTube 채널 |
 | 공시 | SEC EDGAR 8-K (실적·중요 계약·임원 변동) |
 | 릴리스 | GitHub 11개 저장소 (TensorRT, TensorRT-LLM, NeMo, Megatron-LM, cutlass, DALI, Isaac-GR00T, IsaacLab, Cosmos, Triton, VILA), Hugging Face nvidia 모델 |
+| 신기술 감시 | GitHub 조직 7개 (NVIDIA, NVlabs, nvidia-cosmos, NVIDIA-AI-IOT, NVIDIA-Omniverse, isaac-sim, NVIDIA-NeMo) — 새로 공개된 저장소 · 스타 급증 · 최근 push 된 인기 저장소(★300+)의 릴리스 |
 | 해외 매체 | Tom's Hardware, The Next Platform, ServeTheHome, SemiAnalysis, TechCrunch·The Verge·Ars Technica(nvidia 태그), EE Times, DataCenterDynamics, CNBC Tech, Google News(NVIDIA / 자동차·로봇 검색) |
 | 국내 매체 | 디일렉, 전자신문, IT조선, 한국경제 IT |
 | 커뮤니티 | Hacker News, Reddit r/nvidia |
@@ -71,7 +73,7 @@
 | 분류 | 소스 |
 |---|---|
 | 공식 | `wayve.ai/feed/`, `wayve.ai/press/feed/` |
-| 릴리스 · 연구 | GitHub `wayveai` 5개 (fiery, Driving-with-LLMs, mile, LingoQA, wayve_scenes), arXiv API(`all:Wayve`) |
+| 릴리스 · 연구 | GitHub `wayveai` 5개 (fiery, Driving-with-LLMs, mile, LingoQA, wayve_scenes), `wayveai` 조직 감시(신규 저장소·급상승), arXiv API(`all:Wayve`) |
 | 해외 매체 | TechCrunch Transportation, The Robot Report, IEEE Spectrum Robotics, The Verge |
 | Google News | `Wayve` 일반 / 사업(funding·Nissan·Uber·robotaxi) / 연구(GAIA·LINGO·world model) / 영국판 |
 | 국내 매체 | Google News 한국판(`Wayve 자율주행`), 디일렉, 전자신문 |
@@ -86,8 +88,9 @@
 
 | 분류 | 소스 |
 |---|---|
-| 공식 | Autoware Foundation 블로그·뉴스, TIER IV MEDIA(Medium), TIER IV 보도자료(PR TIMES), YouTube Autoware Foundation 채널 |
+| 공식 | Autoware Foundation 블로그·뉴스, **TIER IV MEDIA(Medium, 고정 보드)**, TIER IV 보도자료(PR TIMES), YouTube Autoware Foundation 채널 |
 | 릴리스 | autowarefoundation 9개 (autoware, autoware_core, autoware_universe, autoware_launch, autoware_msgs, AWSIM, vision_pilot, auto_e2e, agnocast), tier4 6개 (scenario_simulator_v2, nebula, CalibrationTools, AWML, caret, awkernel), Hugging Face tier4 모델 |
+| 신기술 감시 | GitHub 조직 `autowarefoundation` · `tier4` — 새로 공개된 저장소 · 스타 급증 · 인기 저장소 릴리스 |
 | 해외 매체 | The Robot Report, IEEE Spectrum Robotics, TechCrunch Transportation, Google News(Autoware / TIER IV / 사업 키워드) |
 | TIER IV 회사 | Google News 기업 질의 2종 — 일본어(資金調達·上場·決算·買収·提携·人事·子会社), 영어(funding·IPO·revenue·acquisition·hires) |
 | 일본 매체 | Google News 일본어판(ティアフォー·Autoware·レベル4), レスポンス |

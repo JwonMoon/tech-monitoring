@@ -82,7 +82,7 @@ def stage0(articles):
 
 def _stage1_item(i, a):
     tag = "[공시] " if a["kind"] == "sec" else "[릴리스] " if a["is_release"] else \
-          "[커뮤니티] " if a["category"] == "community" else ""
+          "[커뮤니티] " if a["category"] == "community" else f"[{a['pin']}] " if a.get("pin") else ""
     return f"[{i}] {tag}출처: {a['source']}\n제목: {a['title']}\n본문: {(a['body'] or '(본문 없음)')[:900]}"
 
 
@@ -181,7 +181,12 @@ def adjust(articles):
 
 
 def classify(articles):
-    cards, headlines, releases = [], [], []
+    """카드 / 헤드라인 / 릴리스·공시 보드 / 고정 보드.
+
+    고정 보드(Source.pin): 그 소스의 글은 점수와 무관하게 전부 싣는다. 카드로 오르면 카드로,
+    아니면 헤드라인 대신 라벨별 보드로 간다. 헤드라인 상한·메일 크기 가드에 밀려 사라지지 않는다.
+    """
+    cards, headlines, releases, boards = [], [], [], {}
     for a in sorted(articles, key=lambda x: (-x["score"], _rank(x))):
         s = a["score"]
         if a["is_release"]:
@@ -194,14 +199,24 @@ def classify(articles):
                 else config.FOCUS_MAJOR_SCORE if a["is_focus"] else config.MAJOR_SCORE)
         if s >= need:
             cards.append(a)
+        elif a.get("pin"):
+            boards.setdefault(a["pin"], []).append(a)
         elif s >= config.HEADLINE_SCORE:
             headlines.append(a)
     focus = [c for c in cards if c["is_focus"]]
     other = [c for c in cards if not c["is_focus"]]
     kept = focus[:config.MAX_FOCUS_CARDS] + other[:config.MAX_CARDS]
-    demoted = [c for c in cards if c not in kept]
-    headlines = sorted(demoted + headlines, key=lambda x: -x["score"])
-    return sorted(kept, key=lambda x: -x["score"]), headlines, releases[:config.MAX_RELEASES]
+    for c in cards:
+        if c in kept:
+            continue
+        if c.get("pin"):
+            boards.setdefault(c["pin"], []).append(c)
+        else:
+            headlines.append(c)
+    for items in boards.values():
+        items.sort(key=lambda x: -x["score"])
+    headlines = sorted(headlines, key=lambda x: -x["score"])
+    return sorted(kept, key=lambda x: -x["score"]), headlines, releases[:config.MAX_RELEASES], boards
 
 
 def cap_headlines(headlines):
@@ -304,14 +319,15 @@ def run(articles):
         if len(kept) != before:
             log(f"  한국어 제목 2차 병합: {before} → {len(kept)}건")
             adjust(kept)
-    cards, headlines, releases = classify(kept)
+    cards, headlines, releases, boards = classify(kept)
     log(f"\n[분류] 카드 {len(cards)} ({config.SUBJECT.focus_short} {sum(c['is_focus'] for c in cards)}) · "
-        f"헤드라인 {len(headlines)} · 릴리스/공시 {len(releases)}")
+        f"헤드라인 {len(headlines)} · 릴리스/공시 {len(releases)}"
+        + "".join(f" · {k} {len(v)}" for k, v in boards.items()))
     cards, headlines = stage2(cards, headlines)
     headlines, omitted = cap_headlines(headlines)
     if omitted:
         log(f"  헤드라인 상한 {config.MAX_HEADLINES}건 — 저점 {omitted}건은 archive에만 기록")
-    result = {"cards": cards, "headlines": headlines, "releases": releases, "omitted": omitted,
+    result = {"cards": cards, "headlines": headlines, "releases": releases, "boards": boards, "omitted": omitted,
               "top3": top3(cards), "scored": kept, "stage0_counts": stage0_counts}
     result["llm_exhausted"] = LLM_STATUS["exhausted"]
     if LLM_STATUS["exhausted"]:

@@ -70,6 +70,7 @@ jobs:
         run: |
           python tests/test_filters.py
           python tests/test_focus.py
+          python tests/test_github_org.py
 
       # ── 소스 점검 모드: LLM 을 전혀 쓰지 않는다 ──────────────────────────
       - name: Crawl only
@@ -79,6 +80,7 @@ jobs:
           TARGET_DAYS: ${{ inputs.target_days || '2' }}
           IGNORE_SEEN: "1"
           CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
+          GITHUB_TOKEN: ${{ github.token }}  # 조직 저장소 목록 API 한도 (비로그인 60/h → 1,000/h)
         run: python -u src/run.py --subject ${{ matrix.subject }} --crawl-only
 
       - name: Upload crawl report
@@ -147,6 +149,7 @@ jobs:
           WRITE_STATE: ${{ (inputs.dry_run == true || inputs.test_mail == true) && '0' || '1' }}
           IGNORE_SEEN: ${{ inputs.target_date != '' && '1' || '0' }}
           CONTACT_EMAIL: ${{ secrets.MAIL_USERNAME }}
+          GITHUB_TOKEN: ${{ github.token }}
           MAIL_MODE: file
         run: python -u src/run.py --subject ${{ matrix.subject }}
 

@@ -60,7 +60,9 @@ def main():
     (config.OUT_DIR / "email.html").write_text(html, encoding="utf-8")
     meta = {"subject": subject, "monitor_subject": config.SUBJECT.key,
             "cards": len(result["cards"]), "headlines": len(result["headlines"]),
-            "releases": len(result["releases"]), "html_bytes": len(html.encode("utf-8")),
+            "releases": len(result["releases"]),
+            "boards": {k: len(v) for k, v in result.get("boards", {}).items()},
+            "html_bytes": len(html.encode("utf-8")),
             "failed_sources": [s["source"] for s in stats if s["error"]], "elapsed_min": round((time.time() - t0) / 60, 1)}
     (config.OUT_DIR / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     stem = archive.save(config.BASE_DATE, result, stats)
@@ -69,6 +71,8 @@ def main():
     if config.WRITE_STATE:
         state.mark(seen, result["scored"], config.BASE_DATE)
         print(f"발송 이력 저장: {state.save(seen, config.BASE_DATE)}건")
+        if any(s.kind == "github_org" and s.enabled for s in config.SUBJECT.sources):
+            print(f"GitHub 조직 스냅샷 저장: {state.github_save(config.BASE_DATE)}개 저장소")
     if config.MAIL_MODE == "smtp":
         mailer.send(subject, html)
     print(f"완료 ({meta['elapsed_min']}분)")

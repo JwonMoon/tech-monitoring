@@ -154,9 +154,13 @@ def headline_rows(items):
                pad="4px 20px")
 
 
+RELEASE_ORDER = {"GitHub·신규 저장소": 0, "GitHub·주목 급상승": 1}
+
+
 def release_rows(items):
+    """신규 공개 저장소 → 급상승 → 나머지(점수순). 새 기술 공개가 보드 맨 위에 오게."""
     rows = ""
-    for a in items:
+    for a in sorted(items, key=lambda x: (RELEASE_ORDER.get((x.get("release") or {}).get("type", ""), 5), -x["score"])):
         rel = a.get("release") or {}
         rows += (f'<tr><td style="padding:8px 0;border-bottom:1px solid #F3F4F6;">'
                  f'<p style="margin:0;font-size:13px;line-height:20px;">{badge(rel.get("type", "릴리스"), "#F1F5F9", "#475569")}&nbsp; '
@@ -178,12 +182,14 @@ def subject(result):
     d = config.BASE_DATE
     day = f"{d.month}/{d.day}({WEEKDAYS[d.weekday()]})"
     cards, heads, rels = result["cards"], result["headlines"], result["releases"]
-    total = len(cards) + len(heads) + len(rels)
+    n_board = sum(len(v) for v in (result.get("boards") or {}).values())
+    total = len(cards) + len(heads) + len(rels) + n_board
     if total == 0:
         return f"[{S.mail_tag}] {day} · 신규 0건"
     n_focus = sum(a["is_focus"] for a in cards + heads)
+    n_new = sum(1 for a in cards + rels if (a.get("release") or {}).get("type") == "GitHub·신규 저장소")
     return (f"[{S.mail_tag}] {day} · {S.focus_short} {n_focus} · 주요 {len(cards)} · "
-            f"추가 {len(heads)} · 릴리스 {len(rels)}")
+            f"추가 {len(heads) + n_board} · 릴리스 {len(rels)}" + (f" · 신규 저장소 {n_new}" if n_new else ""))
 
 
 def _page(body_html):
@@ -228,12 +234,14 @@ def build_empty(stats, period):
 
 def build(result, stats):
     cards, heads, rels = result["cards"], result["headlines"], result["releases"]
+    boards = result.get("boards") or {}
+    n_board = sum(len(v) for v in boards.values())
     for i, a in enumerate(cards):
         a["_anchor"] = f"card{i}"
     window = sorted(config.TARGET_DATES)
     period = f"{window[0]} ~ {window[-1]}" if len(window) > 1 else str(window[0])
     n_focus = sum(a["is_focus"] for a in cards + heads)
-    total = len(cards) + len(heads) + len(rels)
+    total = len(cards) + len(heads) + len(rels) + n_board
     if total == 0:
         return build_empty(stats, period)
     body = []
@@ -243,7 +251,8 @@ def build(result, stats):
         f'<p style="margin:0 0 4px 0;font-size:12px;font-weight:700;letter-spacing:1px;color:#FFFFFF;opacity:0.85;">{esc(S.kicker)}</p>'
         f'<h1 style="margin:0;font-size:22px;font-weight:800;color:#FFFFFF;">{esc(S.title)}</h1>'
         f'<p style="margin:8px 0 0 0;font-size:12px;color:#FFFFFF;opacity:0.9;">{esc(period)} (KST) · {esc(S.focus_short)} {n_focus} · '
-        f'주요 {len(cards)} · 추가 {len(heads)} · 릴리스·공시 {len(rels)}</p></td></tr>')
+        f'주요 {len(cards)} · 추가 {len(heads)} · 릴리스·공시 {len(rels)}'
+        + "".join(f" · {esc(k)} {len(v)}" for k, v in boards.items()) + '</p></td></tr>')
 
     if result["top3"]:
         rows = "".join(
@@ -263,9 +272,14 @@ def build(result, stats):
         for a in [x for x in items if x in cards]:
             toc.append(f'<p style="margin:0 0 4px 0;font-size:13px;line-height:20px;">{importance_badge(a)}&nbsp; '
                        f'<a href="#{a["_anchor"]}" style="color:{INK};text-decoration:none;font-weight:600;">{esc(title_of(a))}</a></p>')
+    for k, v in boards.items():
+        toc.append(f'<p style="margin:10px 0 0 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">📝 {esc(k)} '
+                   f'<span style="color:{FAINT};font-weight:400;">{len(v)}건</span></p>')
     if rels:
+        n_new = sum(1 for a in rels if (a.get("release") or {}).get("type") == "GitHub·신규 저장소")
         toc.append(f'<p style="margin:10px 0 0 0;font-size:12px;font-weight:700;color:{ACCENT_DARK};">릴리스 · 모델 · 공시 '
-                   f'<span style="color:{FAINT};font-weight:400;">{len(rels)}건</span></p>')
+                   f'<span style="color:{FAINT};font-weight:400;">{len(rels)}건'
+                   + (f" · 신규 공개 저장소 {n_new}" if n_new else "") + '</span></p>')
     body.append(box('<a name="toc" id="toc"></a>' + f'<p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:{INK};">목차</p>' + "".join(toc)))
 
     for key, items in _bucket(cards + heads):
@@ -281,8 +295,11 @@ def build(result, stats):
         minor = [a for a in items if a not in cards]
         if minor:
             body.append(headline_rows(minor))
+    for k, v in boards.items():
+        body.append(section_header(f"📝 {k}", f"{len(v)}건 · 카드로 오르지 않은 새 글 전부 (점수 무관)"))
+        body.append(headline_rows(v))
     if rels:
-        body.append(section_header("릴리스 · 모델 · 공시", f"{len(rels)}건 · GitHub / Hugging Face / SEC"))
+        body.append(section_header("릴리스 · 모델 · 공시", f"{len(rels)}건 · GitHub / Hugging Face / SEC · 신규 공개 저장소는 맨 위"))
         body.append(release_rows(rels))
 
     failed = [s["source"] for s in stats if s["error"]]
