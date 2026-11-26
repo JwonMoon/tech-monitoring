@@ -1,0 +1,2074 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-26",
+ "window": [
+  "2026-11-25",
+  "2026-11-26"
+ ],
+ "generated": "2026-11-26T12:42:19+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "Jensen Huang CEO가 차세대 **Vera Rubin** 칩의 기가와트당 $40B 수익 창출을 공개하며 성장 가이던스를 제시했다.",
+  "S&P Global이 Jensen Huang 해임·복귀로 드러난 **거버넌스 결함**을 이유로 Nvidia 신용등급을 AA-로 강등 검토에 들어갔다.",
+  "미 상무부가 Megaspeed를 Entity List에 추가했지만 **Footnote 4**를 적용하지 않아 제재 실효성 논란이 불거졌다."
+ ],
+ "cards": [
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang Says Nvidia's Next-Gen Vera Rubin Chips Will Generate $40 Billion in Revenue per Gigawatt, Up From $25 Billion for Grace Blackwell. What That Means for NVDA's Growth Runway.",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0hIaVZJVEZvZ2FMR3NpLU9DV3BYUHJzRDlsMUdtZ21BTTBRNFR2a1pVZVZlM2hZeTZsZ1kzdDV2a1l2Q3dWWEJ5SzI5NzFsSVJyRUxTTzhGdzZkYXhPdlVXemE4R29JaU95Yld6Nk1UU2l2UjBQbnY0S2RTOU1EeHdINmRsdXhiLUQtOGhINThVQVVFVUlGNg?oc=5",
+   "date": "2026-11-25 20:15",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "GPU-Product",
+    "is_focus": true,
+    "signal_tags": [
+     "new-chip",
+     "guidance"
+    ],
+    "korean_title": "Huang CEO, 차세대 Vera Rubin 칩의 기가와트당 $40B 수익 창출 공개",
+    "korean_summary": "Jensen Huang CEO가 Vera Rubin 칩의 성능을 Grace Blackwell 대비 $40B/GW로 공개하며 가이던스 제시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0hIaVZJVEZvZ2FMR3NpLU9DV3BYUHJzRDlsMUdtZ21BTTBRNFR2a1pVZVZlM2hZeTZsZ1kzdDV2a1l2Q3dWWEJ5SzI5NzFsSVJyRUxTTzhGdzZkYXhPdlVXemE4R29JaU95Yld6Nk1UU2l2UjBQbnY0S2RTOU1EeHdINmRsdXhiLUQtOGhINThVQVVFVUlGNg",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "US blacklists Megaspeed, but leaves potential loophole for lower-performance chips",
+   "link": "https://www.tomshardware.com/tech-industry/us-blacklists-megaspeed-but-leaves-potential-loophole-for-lower-performance-chips-company-at-center-of-jensen-huang-affair-scandal-added-to-entity-list",
+   "date": "2026-11-25 21:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국, Megaspeed 제재: GPU 밀반출 혐의로 엔티티 리스트 등재",
+    "korean_summary": "미국 상무부가 NVIDIA GPU 중국 밀반출 혐의로 Megaspeed와 관련사 6곳을 제재 엔티티 리스트에 추가했으나 FDPR 지정은 미적용했다."
+   },
+   "summary_data": {
+    "korean_title": "美 상무부, Megaspeed를 Entity List에 추가하되 Footnote 4는 적용하지 않아 '구멍' 논란",
+    "korean_summary": "미국 상무부가 첨단 AI 가속기의 중국 유출 우려로 Megaspeed와 계열사 6곳을 Entity List에 추가했지만 Footnote 4 지정을 적용하지 않아 제재 효과에 대한 의문이 제기되었다.",
+    "action": {
+     "actor": "U.S. Department of Commerce",
+     "action": "Megaspeed와 6개 계열사를 Entity List에 추가, 단 Footnote 4 FDPR 지정은 미적용",
+     "stage": "Announced",
+     "timeline": "미확인 (2026-11-19 수출통제 발효와 별개 조치)",
+     "scope": "Megaspeed 및 계열사 6곳, AI 가속기 조달 관련"
+    },
+    "key_facts": [
+     "상무부가 Megaspeed와 6개 계열사를 Entity List에 추가했으나 **Footnote 4 designation은 적용하지 않음**",
+     "Nvidia·AMD의 첨단 AI 가속기는 이미 Advanced Computing FDPR(EAR §734.9(h))의 전 세계적 적용 대상이므로 Footnote 4 없이도 Megaspeed의 첨단 칩 접근이 차단될 것으로 분석됨",
+     "2026년 11월 19일 발효된 신규 수출통제는 Malaysia, Singapore, Thailand, Indonesia, Brazil향 고성능 AI 가속기 수출에 라이선스를 요구하지만 **Google, Microsoft 등 미국 기업 자회사는 예외**",
+     "Entity List 등재 기업의 라이선스 신청은 '거부 추정(presumption of denial)' 원칙 적용",
+     "Footnote 4 부재로 Megaspeed는 EAR 적용 범위 밖의 저성능 외국산 AI GPU·네트워킹 칩 등에는 접근 가능할 수 있음",
+     "Malaysia 투자통상산업부는 자국 데이터센터 운영자들에게 블랙리스트 7개 기업에 인프라·공간·서비스 제공을 자제하도록 권고"
+    ],
+    "why_matters": "이번 조치는 중국의 AI 칩 우회 조달 경로 차단 시도가 규제 설계상 미세한 차이(Footnote 4 유무)에 따라 실효성이 크게 달라질 수 있음을 보여준다. **Nvidia와 AMD의 첨단 가속기는 기존 Advanced Computing FDPR로 이미 전 세계적으로 보호되지만**, 저성능 칩·네트워킹 장비 등 규제 사각지대가 존재해 중국 기업의 대체 조달 경로 확보 가능성이 남아있다.",
+    "subject_angle": "**Nvidia의 첨단 AI 가속기는 Advanced Computing FDPR의 전 세계적 적용 범위 덕분에 Megaspeed의 Entity List 등재만으로도 실질적 차단 효과를 가지며**, 이는 Nvidia가 기존 수출통제 체계 내에서 상대적으로 안정적인 보호를 받고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Megaspeed",
+      "context": "Entity List에 추가된 중국계 AI 인프라 기업, 대상 제재 주체"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "첨단 AI 가속기 공급사, Advanced Computing FDPR로 보호받는 기술 보유자"
+     },
+     {
+      "name": "AMD",
+      "context": "첨단 AI 가속기 공급사, 동일 FDPR 적용 대상"
+     },
+     {
+      "name": "TSMC",
+      "context": "Nvidia 등 첨단 칩의 실제 생산 파운드리 (Taiwan)"
+     },
+     {
+      "name": "U.S. Department of Commerce / BIS",
+      "context": "Entity List 등재 및 수출통제 집행 주체"
+     },
+     {
+      "name": "Google",
+      "context": "동남아 데이터센터 운영 관련 수출통제 예외 적용 미국 기업 사례"
+     },
+     {
+      "name": "Microsoft",
+      "context": "동남아 데이터센터 운영 관련 수출통제 예외 적용 미국 기업 사례"
+     }
+    ],
+    "products": [
+     {
+      "name": "Advanced Computing FDPR (EAR §734.9(h))",
+      "role": "Nvidia·AMD 첨단 AI 가속기에 전 세계적으로 적용되는 수출통제 규정"
+     },
+     {
+      "name": "Rubin-based machines",
+      "role": "동남아 데이터센터향 고성능 AI 가속기 라이선스 요구 대상 예시"
+     }
+    ],
+    "watch_next": [
+     "상무부가 Footnote 4 미적용이 의도적 결정인지 행정 누락인지 공식 입장 발표 여부",
+     "Megaspeed의 저성능 AI GPU·네트워킹 칩 대체 조달 시도 여부",
+     "Malaysia 외 다른 동남아 국가의 유사 규제 권고 확산 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/us-blacklists-megaspeed-but-leaves-potential-loophole-for-lower-performance-chips-company-at-center-of-jensen-huang-affair-scandal-added-to-entity-list",
+   "body": "The U.S. Department of Commerce has added Megaspeed and six affiliated entities to its Entity List due to concerns about diversion of advanced AI accelerators to China. However, unlike previous additions of companies suspected of similar activities, the department did not apply a special foreign direct product rule (FDPR) designation to Megaspeed, which raised questions about the effectiveness of the restrictions. While the omission potentially limits the scope of the sanctions, existing U.S. export controls should still restrict Megaspeed's access to advanced processors from AMD and Nvidia. Former Megaspeed executive Alice Huang , allegedly a Chinese intelligence asset , is the woman at the heart of the Jensen Huang scandal, which saw Nvidia's CEO resign and then be reinstated as head of the company in recent days . Go deeper with TH Premium: Taiwan, trade, and tariffs (Image credit: tsmc) While the U.S. flip-flops on chip sanctions, China is building its own chip supply market The state of China's decade-long semiconductor push Huawei Ascend NPU roadmap examined China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab China's latest round of rare-earth export controls explained Chris McGuire , a fellow at the Council on Foreign Relations and a former Biden administration official who dealt with export controls at the National Security Council, noted that neither Megaspeed nor any of the six associated entities received a so-called Footnote 4 designation on the Entity List. According to McGuire, the Department of Commerce had previously applied the designation to Chinese companies blacklisted over concerns about their access to advanced AI processors. McGuire claims that without the application of the Entity List-specific FDPR, the new restrictions will have essentially no effect on Megaspeed's ability to procure Nvidia's AI processors since, while they are developed in the U.S., the vast majority of them are produced by TSMC in Taiwan. While McGuire acknowledged that new U.S. export controls that took effect on November 19 already require licenses for shipments of high-end AI accelerators to Malaysia, Singapore, Thailand, Indonesia, and Brazil, with exemptions for U.S.-based companies and their subsidiaries (i.e., Google or Microsoft can get Rubin-based machines for their data centers in the said countries, but Megaspeed or other local players cannot), he questioned the rationale behind Megaspeed's addition to the Entity List without Footnote 4. It is necessary to note that the new country-wide controls impose a license requirement, not an outright ban, whereas the addition of Megaspeed to the Entity List subjects license applications to a presumption of denial, which is a reason why the designation has practical effect even without Footnote 4. Meanwhile, McGuire suggested that the omission could be either a regulatory oversight or a deliberate decision to reduce the scope of restrictions. Companies on the Entity List typic"
+  },
+  {
+   "source": "The Verge · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "US Commerce Department adds Megaspeed to trade blacklist as Huang retakes control of Nvidia",
+   "link": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+   "date": "2026-11-25 01:37",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "미국 상무부, Megaspeed를 무역 블랙리스트(Entity List)에 추가 - 국가 안보 위험 사유",
+    "korean_summary": "미국 상무부가 NVIDIA 칩의 불법 중국 반출 의혹이 있는 Megaspeed를 Entity List에 추가하며 국가 안보 위험을 이유로 삼았다."
+   },
+   "summary_data": {
+    "korean_title": "미 상무부, Megaspeed를 거래 제한 명단에 추가…Jensen Huang의 Nvidia CEO 복귀와 맞물려 주목",
+    "korean_summary": "미국 상무부가 국가안보 우려를 이유로 Megaspeed와 말레이시아·태국 계열사를 Entity List에 추가했으며, 이는 Jensen Huang이 트럼프 행정부의 지지를 받아 Nvidia CEO직에 복귀하는 시점과 겹쳐 논란이 되고 있다.",
+    "action": {
+     "actor": "US Department of Commerce",
+     "action": "Megaspeed와 말레이시아·태국 계열사를 Entity List에 추가해 거래를 차단",
+     "stage": "Announced",
+     "timeline": "미확인",
+     "scope": "Megaspeed 및 말레이시아·태국 소재 계열사"
+    },
+    "key_facts": [
+     "**상무부가 Megaspeed와 그 말레이시아·태국 계열사를 Entity List에 추가**하여 거래를 차단함",
+     "상무부는 filing에서 '국가안보 위험'을 이유로 명시",
+     "Commerce Secretary Howard Lutnick은 Megaspeed를 명단에 올리라는 압박을 받아왔음",
+     "**Jensen Huang과 전 Megaspeed 임원 Alice Huang의 관계**가 보도되었고, 미 당국은 Alice Huang을 중국 정보기관 자산으로 의심",
+     "Jensen Huang은 트럼프 행정부의 지지를 받아 Nvidia CEO직에 복귀한 상태"
+    ],
+    "why_matters": "**Entity List 등재는 미국 기업의 대중(對中) 관련 공급망·거래 리스크를 직접 차단하는 강력한 수출통제 수단**으로, Nvidia 경영진을 둘러싼 국가안보 이슈와 결합되며 정치적 민감성이 커졌다. 이는 반도체 업계 전반의 거래 상대방 심사 및 지정학적 리스크 관리에 대한 경각심을 높인다.",
+    "subject_angle": "**Nvidia CEO 개인 신상과 관련된 거래 상대방이 국가안보 리스크로 지정**된 사건은 Nvidia의 평판 및 대외 신뢰도, 나아가 수출통제 준수 체계에 간접적 부담으로 작용할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "Jensen Huang이 CEO로 복귀, 사건의 배경 기업"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "미 상무부 Entity List에 추가된 블랙리스트 대상 기업"
+     },
+     {
+      "name": "US Department of Commerce",
+      "context": "Entity List 등재를 집행한 규제 기관"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Megaspeed와 Nvidia 간 직접적 사업·공급망 연관성 여부",
+     "Alice Huang 관련 조사 진행 상황 및 추가 공식 발표",
+     "Jensen Huang의 Nvidia CEO 복귀 과정에 대한 상세 경위"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.theverge.com/policy/1041270/nvidia-megaspeed-commerce-dept-entity-list",
+   "body": "As Jensen Huang returns to his post as Nvidia's CEO with support from the Trump administration , the Department of Commerce has added Megaspeed to its Entity List , which blocks trade with the company, citing national security risks. As reported earlier by Semafor , Commerce Secretary Howard Lutnick had faced increasing pressure to list the company after news reports revealed Huang's affair with Alice Huang, a former Megaspeed executive, and that US officials suspected her of being a Chinese intelligence asset. The Commerce Department said in a filing that it's adding Megaspeed and its affiliates in Malaysia and Thailand to the list \"because o … Read the full story at The Verge."
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+   "link": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+   "date": "2026-11-26 06:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "미국 부통령, Jensen Huang DOJ 조사 대상 아님 공식 확인",
+    "korean_summary": "JD Vance 부통령이 Jensen Huang이 미국 법무부 조사 대상이 아니라고 공식 확인했다."
+   },
+   "summary_data": {
+    "korean_title": "밴스 부통령, 젠슨 황이 DOJ 수사 대상 아니라는 확인 받았다고 밝혀",
+    "korean_summary": "JD Vance 부통령이 법무장관 Todd Blanche로부터 NVIDIA CEO Jensen Huang이 **어떤 수사도 받고 있지 않다**는 확인을 받았다고 밝혔으나, Reuters 보도는 DOJ가 Huang에 대한 정식 수사를 실제로 진행하지 않았다고 전해 트럼프의 기존 발언과 배치되는 혼선이 드러났다.",
+    "action": {
+     "actor": "JD Vance (Vice President)",
+     "action": "Jensen Huang이 DOJ의 수사 대상이 아니라는 확인을 받았다고 공개 발언",
+     "stage": "Report",
+     "timeline": "2026년 11월 26일(수)",
+     "scope": "미확인"
+    },
+    "key_facts": [
+     "Vance는 법무장관 Todd Blanche 및 국가안보 관계자들로부터 Huang이 **어떤 수사도 받고 있지 않다**는 확인을 받았다고 밝힘",
+     "트럼프는 이틀 전 CNBC 인터뷰에서 'investigation이 있었고 Huang이 exonerated 되었다'고 발언했으나 이는 Vance 발언과 상충",
+     "Reuters는 DOJ가 Huang 복귀 추진 전 정식 수사를 하지 않았으며, Blanche는 Super Micro Computer와 Megaspeed에 대한 조사를 근거로 Huang의 법 위반 증거가 없다고 결론 내렸다고 보도",
+     "Huang은 New York Times의 복수 외도 보도(이 중 한 명은 Beijing 스파이 혐의를 받는 중국인 사업가이자 Megaspeed 임원) 이후 사임했으며, NVIDIA 이사회는 '미국 정부 고위층의 입력'을 근거로 월요일 Huang을 CEO로 복귀시킴",
+     "Huang은 화요일 Megaspeed 관련 하원 비공개 청문에 출석할 예정이며, 같은 날 NVIDIA는 Washington에서 연례 컨퍼런스를 개최할 예정"
+    ],
+    "why_matters": "이번 사태는 NVIDIA 칩의 대중국 수출 통제 위반 의혹과 **최고경영진의 법적 리스크**가 여전히 정치적·법적으로 미해결 상태임을 보여주며, 정부 발언 간 불일치는 AI 반도체 수출 규제 집행의 불확실성을 키운다. 이는 NVIDIA의 중국 관련 공급망·고객 관계(Super Micro, Megaspeed)에 대한 추가 조사 가능성을 시사해 투자자·고객사의 신뢰에 영향을 줄 수 있다.",
+    "subject_angle": "NVIDIA는 **CEO의 법적 리스크 해소**를 통해 경영 안정성을 회복했다고 주장할 수 있으나, 수출통제 준수 이슈가 하원 청문 및 연례 컨퍼런스와 겹치며 지속적인 정치적 감시 대상이 되고 있다는 점에서 전략적 부담이 남아있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "CEO Jensen Huang 복귀 및 수출통제 준수 논란의 중심 기업"
+     },
+     {
+      "name": "Super Micro Computer",
+      "context": "DOJ가 Huang 관련 수사의 근거로 삼은 조사 대상 고객사"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Singapore 기반 클라우드 제공업체, Huang의 전 연인이 임원으로 재직했던 회사이자 하원 청문 대상"
+     },
+     {
+      "name": "Department of Justice (DOJ)",
+      "context": "Huang에 대한 수사 여부를 둘러싼 당사자"
+     },
+     {
+      "name": "White House",
+      "context": "Huang 복귀를 추진하고 공로를 주장한 행정부"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Huang의 하원 비공개 청문회 내용 및 결과",
+     "NVIDIA 연례 컨퍼런스(Washington)에서의 신기술·수출통제 관련 발표",
+     "DOJ의 Super Micro Computer·Megaspeed 조사 진행 상황 및 공식 입장 발표 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY3pncTF1eHhUNWNtdVZENUVvaGlLZkhDV1ZacktfUmFRQlFTS0NHSGpldmExVUE5QmFUSnVBb3g5TGhwWndpTnA2QjdUVm9MRjduWVpMcldiejVYRGVyYUItYUtaMUJiZVBpNjU2dmF5bEQwX2V6MllwbC05cWRkODVUZGpsbU3SAYwBQVVfeXFMUFlULXFKcGszVUNvMFdtMV8xVXhlYVEwMEhvVE1TVnplNmI0d0ZDOUplZkkyYlFVd0tOeHhYb0JkYXJpQ3J4TWxDaTg2LVpmV3poN0VTWFFpWmxwX25UOXBqR2Jwa3NsUG5LeTVsOXh3ek5yNzNONHU5WmdzZW1ZZWp0Y1lGTjJRa0pqUFc?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+   "body": "Vice President JD Vance said Wednesday that Attorney General Todd Blanche told him Nvidia CEO Jensen Huang was not under investigation. \"I was told by the Department of Justice and multiple officials in our national security apparatus that he was under no investigation,\" Vance told reporters in Ohio on Wednesday after being asked what assurances he had gotten that Huang was not under investigation. \"Not even that he was about to be prosecuted; that he's under no investigation.\" Vance spoke two days after President Donald Trump told CNBC in an interview that an investigation had been done. Trump was asked what Blanche had told him about potential criminal liability for Huang and the question of whether Nvidia chips had ended up in China in violation of U.S. export laws. \"They did a pretty good investigation, and they felt that he, himself, was exonerated,\" Trump said Monday. Reuters reported Wednesday that the Department of Justice did not conduct a formal investigation into Huang before Trump pushed for his reinstatement as CEO. Blanche had concluded there was no evidence Huang had broken any laws based on investigations into Nvidia clients Super Micro Computer and Megaspeed, according to the report. The DOJ did not immediately respond to a request for comment on the Reuters report. And the White House didn't immediately respond to a request for comment on Vance saying Huang was under no investigation when Trump had said there was one. Nvidia didn't immediately respond to a request for comment about Vance's remarks. Blanche on Tuesday dodged questions about whether there had been an investigation. \"What the president said is that he talked to a lot of people going into the decision that he made to encourage the board to reinstate him,\" Blanche said after being asked whether the DOJ had investigated Huang and, if so, what were the results of the probe. Huang was reinstated as CEO of Nvidia on Monday, after the chipmaker's board of directors said it had received \"input from senior levels of the United States government\" that Huang was not a national security risk. Trump took credit for Huang's reinstatement in the interview with CNBC shortly after Nvidia's announcement. Huang resigned following The New York Times reporting multiple affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing and who was an executive for the Singapore-based cloud provider Megaspeed. The reporting added fuel to allegations that Nvidia should have known its artificial intelligence chips were being diverted to China and being used by Chinese companies, violating U.S. export laws. \"The product they create is a very important part of us staying ahead of the SI arms race with China. We really do care about ensuring those chips do not fall into the wrong hands,\" Vance said, using the Trump administration's preferred acronym for AI, which the president calls \"super intelligence.\" \"We actually see this is an opportunity for Nvidia to focus on co"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+   "link": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+   "date": "2026-11-26 02:28",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 AI 칩 접근 제한 후 Nvidia GPU 판매량 급증",
+    "korean_summary": "Trump 행정부의 중국 기업 원격 AI 칩 접근 제한 조치 이후 Nvidia GPU 판매자들이 대량 판매를 시도하고 있다."
+   },
+   "summary_data": {
+    "korean_title": "美 중국향 원격 접속 규제 강화에 Nvidia 칩 재판매 매물 급증",
+    "korean_summary": "미국 상무부(BIS)가 중국 기업의 원격 데이터센터 경유 Nvidia AI칩 접근을 차단하는 규칙을 발효하자, 중국 고객 대상으로 운용되던 Nvidia GPU 보유 기업들이 **새로운 구매자를 찾아 재판매에 나섰다**.",
+    "action": {
+     "actor": "Nvidia chip resellers (data center operators)",
+     "action": "중국 기업 임대 목적으로 확보했던 Nvidia GPU(B300 등)를 시장에 대량 매물로 내놓고 신규 구매자 물색",
+     "stage": "Report",
+     "timeline": "2025-11-16 규칙 발표, 2025-11-19 발효 이후",
+     "scope": "B300 GPU 수천 개 규모, 해외(동남아·유럽 등) 데이터센터 경유 중국 접근 건"
+    },
+    "key_facts": [
+     "BIS가 2025-11-16 발표하고 2025-11-19 발효된 interim final rule로 중국 기업의 해외 데이터센터 경유 원격 접속을 통한 최첨단 Nvidia 칩 접근을 효과적으로 차단",
+     "GPU Mart 등 중개 업체에 따르면 규칙 발표 이후 **Nvidia GPU 매물량이 평소보다 비정상적으로 급증**",
+     "Nvidia의 가장 발전된 제품 중 하나인 B300 GPU 수천 개 단위의 매각 거래가 거론됨",
+     "7월 미국은 중국 AI랩 Moonshot AI가 태국 시설을 통해 Nvidia 칩에 접근했다고 지적했으며, 11월 5일 CNBC는 유럽 데이터센터 경유 접근 시도도 보도",
+     "Nvidia 3분기 실적 콜(2025-11-17)에서 당시 interim CEO Colette Kress는 규제를 검토 중이나 수요가 공급을 크게 초과해 실적은 견조할 것으로 예상한다고 언급"
+    ],
+    "why_matters": "이번 규제는 중국 기업이 직접 수출 금지를 우회해 해외 데이터센터 임대로 최첨단 Nvidia 칩에 접근하던 '간접 경로'를 차단함으로써, **Nvidia 공급망 내 숨은 중국 수요가 가시화**되고 재판매 시장이 교란되고 있음을 보여준다. 이는 Nvidia의 중국 관련 매출 리스크와 글로벌 AI 인프라 유통 구조에 대한 규제 당국의 감시가 한층 강화되고 있다는 신호다.",
+    "subject_angle": "Nvidia는 자사 통제 밖에서 이뤄지는 재판매·우회 접근으로 인한 **규제 리스크와 평판 리스크**에 노출되어 있으며, 공식적으로는 '수요가 공급을 초과'한다는 입장으로 실적 영향을 최소화하려 하지만 Remote Access Security Act 등 추가 입법 압박이 커지고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "해당 GPU 제조사, 중국 접근 우회 논란의 중심이자 규제 대응 대상"
+     },
+     {
+      "name": "GPU Mart",
+      "context": "AI 인프라 마켓플레이스, 매물 급증 상황을 CNBC에 제보"
+     },
+     {
+      "name": "Moonshot AI",
+      "context": "중국 AI랩, 태국·유럽 데이터센터 경유 Nvidia 칩 접근 의혹 당사자"
+     },
+     {
+      "name": "U.S. Department of Commerce (BIS)",
+      "context": "원격 접속 차단 규칙을 발표·시행한 규제 당국"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia B300 GPU",
+      "role": "재판매 매물로 거론된 최첨단 AI 칩"
+     },
+     {
+      "name": "Blackwell 칩",
+      "context": "중국 직접 판매가 장기간 금지된 최고성능 AI 칩 (Greer 언급)"
+     }
+    ],
+    "watch_next": [
+     "BIS 규칙에 대한 Nvidia 및 업계의 공식 대응·논평 여부",
+     "Remote Access Security Act의 상원 통과 여부",
+     "재판매되는 B300 등 GPU의 실제 거래 규모 및 신규 구매처 확인"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IN1pwRHJFN1ZiXzJpeXpsLWI5RGJNMTNUU3VSNFY5Q21iUkVkNDhneFg2VFg4TTI3R3k5RXUtb0hBRGRhYkVXdXZablA3dG4zSF9yc3Q5YmVDTjBBZjAxMXJFWUdCUFFwZHQ3dm9QWG5uSWhXdS1KRGRVY9IBgAFBVV95cUxPYW9MbXdwMWFTZFd6dmhZLVNGYzdHUmNDaF9VQk5jN2lMdDFfU010WUdOX2t1ai1qNXYtZi1TbnVTbEt6b0pvejRsdjJoYmZuWXJwZjl4TkpuZHNpeHNIbEpFZkxuc3RnNExQZGRWZ0ZQTy0xYU9wYnhCT3k5a2tBUA?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html",
+   "body": "Nvidia chip sellers are seeking new buyers for the semiconductor giant's hardware, three people told CNBC, after the Trump administration tightened rules to curb Chinese companies' remote access to the most advanced artificial-intelligence systems. Companies have put an unusually high volume of Nvidia graphics processing units, or GPUs, on the market since new measures restricting Chinese companies renting access to advanced Nvidia chips were announced on Nov. 16, the people said. Jack Duhamel, president of AI infrastructure marketplace GPU Mart, and two people familiar with the matter told CNBC the surge in GPUs for sale was directly attributable to the new rule. Duhamel added that one company looking to sell Nvidia chips told GPU Mart the sale was related to the new rule. The two people said it appeared chip sellers were seeking to offload them because they were originally for use in data centers in which Chinese companies would rent access. They asked not to be named because they were discussing private information. The Department of Commerce's Bureau of Industry and Security, or BIS, announced an interim final rule as part of a clampdown on Chinese companies bypassing export controls, which effectively ban the sale of the most advanced Nvidia chips to China, by accessing them remotely in overseas data centers. The rule came into effect on Nov. 19. Deals to find buyers for thousands of B300 GPUs, one of Nvidia's most advanced offerings, have been floated since the rule was announced, said Duhamel and one of the people. Nvidia declined to comment. BIS did not immediately respond to a request for comment. Scrutiny over Chinese access to Nvidia chips Nvidia has been facing increasing scrutiny from U.S. lawmakers over Chinese companies' access to its advanced chips. The chip giant warned its customers that the proposed Remote Access Security Act — which has passed the House of Representatives but is yet to pass the Senate — would give the U.S. government broader authority to control access to cloud services, potentially exposing both parties to \"legal action,\" sources previously told CNBC. In July, the U.S. accused a Chinese AI lab, Moonshot AI, of accessing Nvidia chips via a facility in Thailand. CNBC reported on Nov. 5 that the company had sought access to the chips via data centers in Europe. U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday that the new rule announced last week was intended to close \"loopholes.\" \"For a long time, we have not allowed the sale of Blackwell chips, which are the highest AI chips or similar chips to China directly,\" he said. \"Some rules were issued by the Commerce Department last week to close off indirect access, either smuggling through places like Southeast Asia or remote access from data centers in third countries.\" During Nvidia's third-quarter earnings call on Nov. 17, then-interim CEO Colette Kress said the company was still studying the controls, but expected performance to rem"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Cryptominer Sato Technologies secures neocloud Datum as customer for Canadian data center",
+   "link": "https://www.datacenterdynamics.com/en/news/cryptominer-sato-technologies-secures-neocloud-datum-as-customer-for-canadian-data-center/",
+   "date": "2026-11-25 21:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Sato, 암호채굴장을 Nvidia B300 AI 데이터센터로 전환",
+    "korean_summary": "Sato Technologies가 Datum Technology를 고객으로 확보해 캐나다 20MW 하이드로파워 시설에 Nvidia B300을 대규모 배치했다."
+   },
+   "summary_data": {
+    "korean_title": "Sato Technologies, 캐나다 Québec 암호화폐 채굴 시설을 AI 데이터센터로 전환해 Datum에 NVIDIA B300 GPU 공급",
+    "korean_summary": "크립토마이너 Sato Technologies가 자회사 Qritical AI를 통해 Québec Joliette 수력발전 기반 시설 일부를 AI 컴퓨팅으로 전환하고, neocloud 업체 Datum Technology에 NVIDIA B300(Blackwell Ultra) GPU 서버를 배치해 AI 코딩 스타트업과 추론 플랫폼 고객에게 인프라를 제공했다.",
+    "action": {
+     "actor": "Sato Technologies (자회사 Qritical AI)",
+     "action": "기존 비트코인 채굴 홀을 AI 컴퓨팅 공간으로 전환하고 Datum Technology에 NVIDIA B300 GPU 서버를 배치·인도",
+     "stage": "Available",
+     "timeline": "2025년 10월 말 계약 체결, 22일 후인 2025년 11월 공간 인도",
+     "scope": "캐나다 Québec Joliette 소재 20MW 수력발전 데이터센터(Center One) 내 일부 홀"
+    },
+    "key_facts": [
+     "Sato Technologies는 **TSXV 상장** 기업으로, Québec Joliette의 20MW 수력발전 기반 Center One 시설에서 비트코인 채굴과 AI 컴퓨팅을 병행 운영",
+     "Qritical AI와 Datum은 2025년 10월 말 마스터서비스계약 및 초기 서비스 주문을 체결했고, 22일 만에 공간을 인도",
+     "Datum은 **NVIDIA B300(Blackwell Ultra) GPU 서버**를 비트코인 채굴 홀을 전환한 공간에 초기 배치 완료",
+     "Datum은 NVIDIA BlueField DPU를 활용한 오픈 네트워크 클라우드를 운영하며 Ashburn, Dallas, Salt Lake City의 DataBank 시설 등 16개 글로벌 리전에서 서비스",
+     "Sato는 부탄 Gelephu Mindfulness City에 100MW 규모(1단계 5MW) AI 컴퓨팅 캠퍼스 개발 계획도 보유"
+    ],
+    "why_matters": "크립토마이너들이 기존 전력 인프라를 활용해 AI 데이터센터로 신속 전환하는 사례가 늘고 있으며, 이는 신규 건설 대비 훨씬 빠른 GPU 인프라 공급 경로로 부상하고 있다. **NVIDIA B300(Blackwell Ultra)**이 이러한 전환형 소규모 neocloud 배치에도 채택되며 GPU 수요가 전통적 하이퍼스케일러를 넘어 다변화되고 있음을 보여준다.",
+    "subject_angle": "NVIDIA는 대형 하이퍼스케일러뿐 아니라 **전력 확보가 용이한 전환형 소규모 사업자(크립토마이너 출신 neocloud)**까지 B300과 BlueField DPU 공급망을 확장하며 GPU 수요 기반을 다변화하고 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Sato Technologies Corp.",
+      "context": "TSXV 상장 전 크립토마이너, Québec 시설 소유 및 AI 전환 추진"
+     },
+     {
+      "name": "Qritical AI",
+      "context": "Sato의 AI 클라우드·GPU 플랫폼 자회사, Datum과 계약 체결"
+     },
+     {
+      "name": "Datum Technology",
+      "context": "뉴욕 기반 AI 클라우드·네트워크 제공업체(neocloud), NVIDIA GPU 인프라 최종 고객에게 전달"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA B300 (Blackwell Ultra)",
+      "role": "Québec 시설에 초기 배치된 AI 컴퓨팅용 GPU 서버"
+     },
+     {
+      "name": "NVIDIA BlueField DPU",
+      "role": "Datum의 오픈 네트워크 클라우드 운영 기반 네트워킹 장치"
+     }
+    ],
+    "watch_next": [
+     "Datum-Sato 계약의 전체 규모·금액 공개 여부",
+     "Sato Joliette 시설 내 추가 홀의 AI 전환 확대 계획",
+     "부탄 Gelephu Mindfulness City 100MW 캠퍼스 개발 진행 상황"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/cryptominer-sato-technologies-secures-neocloud-datum-as-customer-for-canadian-data-center",
+   "body": "A former cryptominer is pivoting to AI data center colocation and has secured a new customer for its site in Canada. TSXV-listed Sato Technologies Corp. announced this week that it has signed Datum Technology as its first AI customer at its existing data center and cryptomining facility in Québec. Sato subsidiary Qritical AI and Datum entered into a master services agreement and an initial service order in late October, and handed over the space in November. Full details of the deal haven’t been shared. Under the agreement, Datum has completed an initial deployment of Nvidia B300 (Blackwell Ultra) GPU servers at Sato’s 20MW hydro-powered site in Joliette, Québec. The GPUs have been deployed in a hall previously used for Bitcoin mining, while mining operations continue in other halls. Datum has in turn delivered the infrastructure to its customers - including an AI coding startup and an inference platform. \"AI needs clean, stable power, and Québec has it,\" said Romain Nouzareth, president and CEO of Sato. \"We converted bitcoin mining space and handed it over to Datum 22 days after signing. That is what existing powered capacity makes possible for AI customers.\" Sato said the deployment is the first step in its transition toward AI compute, leveraging existing powered capacity at the company’s Joliette site. \"Our customers are growing quickly, but developing new data center assets is costly and slow,\" said Zachary Smith, co-founder and CEO of Datum. \"In Joliette, Sato was able to convert existing space to our needs in a matter of weeks, enabling us to deliver hydro-powered Nvidia B300 GPU infrastructure quickly to end users.\" New York-based Datum (not be confused with the UK colocation provider of the same name) is an AI cloud and network provider, founded by the co-founders of bare-metal cloud provider Packet. Using Nvidia BlueField DPUs, the company says its open network cloud lets clouds, data centers, and Edge environments connect and operate as one programmable network. The company should Datum has previously deployed network points of presence (PoPs) inside DataBank facilities in Ashburn, Dallas, and Salt Lake City. In total, the company lists availability from 16 regions globally. Founded in 2017, formerly known as Canada Computational Unlimited Corp and previously focused on cryptomining, Sato is looking to pivot towards AI compute. The company joined the TSXV in 2021. Its data center, known as Center One, launched in 2022 and is located at 289 Rue Dugas in Joliette. The facility caught fire in June 2024. As well as converting its existing cryptomine in Canada, the company also has plans to develop a 100MW campus in Gelephu Mindfulness City in Bhutan to host AI compute. The first phase will offer 5MW, and the company has said it could expand to 500MW. Launched last year, Qritical.ai is Sato’s AI cloud and GPU platform. In its most recent investor filings, Sato said it was evaluating opportunities to acquire, lease, or develop additional sit"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+   "link": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "date": "2026-11-26 12:19",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "S&P, 거버넌스 위험으로 Nvidia 신용등급 하락 경고",
+    "korean_summary": "S&P Global이 경영진 혼란과 수출통제 위반 의심으로 인해 Nvidia 신용등급이 AA에서 AA-로 하락할 가능성을 경고했다."
+   },
+   "summary_data": {
+    "korean_title": "S&P, Nvidia 경영진·거버넌스 리스크 지적하며 신용등급 강등 경고",
+    "korean_summary": "S&P Global Ratings는 Jensen Huang의 해임과 복귀 사태 이후 Nvidia의 이사회 구조와 경영 감독 체계에 **거버넌스 결함**이 있다고 판단해 향후 90일 내 신용등급을 AA에서 AA-로 한 단계 강등할 수 있다고 경고했다.",
+    "action": {
+     "actor": "S&P Global Ratings",
+     "action": "Nvidia를 'CreditWatch with negative implications'에 올리고 90일 내 신용등급 AA에서 AA-로 강등 가능성을 경고",
+     "stage": "Report",
+     "timeline": "2026년 11월 26일(수) 노트 발표, 향후 90일 내 결정",
+     "scope": "Nvidia 기업 신용등급(현재 AA), 미화 325억 달러 규모 하이그레이드 채권에 영향"
+    },
+    "key_facts": [
+     "S&P는 Nvidia 현재 신용등급 AA를 유지 중이며, 결함 지속 시 **90일 내 AA-로 한 단계 강등** 가능성을 경고",
+     "Nvidia는 2025년 6월 투자등급 채권 250억 달러를 발행했으며, 이는 S&P가 AA-에서 AA로 상향한 직후였음",
+     "Moody's도 2025년 11월 18일 거버넌스 우려를 이유로 전망을 'positive'에서 'stable'로 변경했고 Huang 복귀 후에도 유지",
+     "Chairman Harvey Jones와 초기 투자자 Tench Coxe는 1993년부터, Brooke Seawell은 1997년부터 이사회 재직 중이며 S&P는 이들의 '장기 재임'이 독립성을 훼손할 수 있다고 지적",
+     "Huang 복귀 발표 당일(월요일) Nvidia 주가는 장중 최대 36% 급등했으나, 이후 종가 기준 **약 12.5% 하락**"
+    ],
+    "why_matters": "AI 칩 시장을 주도하는 Nvidia의 신용등급 강등은 채권 가격 하락과 수익률 상승을 초래해 향후 자본 조달 비용을 높일 수 있으며, 이는 대규모 설비투자(capex)와 데이터센터 확장에 자금을 의존하는 Nvidia의 성장 전략에 직접적 영향을 줄 수 있다. 또한 **이사회 독립성과 경영 승계 계획 부재**는 투자자들이 Nvidia의 장기 거버넌스 리스크를 재평가하게 하는 신호로 작용한다.",
+    "subject_angle": "Nvidia는 AI 반도체 시장에서 독보적 기술 리더십을 유지하고 있지만, 이번 사태는 **단일 리더(Jensen Huang)에 대한 과도한 의존(key man risk)**과 이사회 거버넌스 공백이 기업 신뢰도와 자본시장 접근성에 실질적 리스크로 전환될 수 있음을 보여준다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "신용등급 강등 위기에 놓인 평가 대상 기업"
+     },
+     {
+      "name": "S&P Global Ratings",
+      "context": "Nvidia를 CreditWatch negative에 올리고 강등 경고를 발표한 신용평가사"
+     },
+     {
+      "name": "Moody's Ratings",
+      "context": "2025년 11월 18일 Nvidia 전망을 stable로 하향한 또 다른 신용평가사"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "S&P가 Nvidia 이사회·경영진과의 면담 후 실제 등급 강등 여부 결정(90일 내)",
+     "Nvidia 이사회의 독립성 강화 및 리더십 승계 계획 공개 여부",
+     "Moody's 등 타 신용평가사의 추가 등급·전망 조정 여부"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · CNBC",
+     "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51YVJtVWRQVW9UQ2F0TmcyYnRIY1o3eTdTX1pPamJjRWlod2stNjhCRnIwdndsRm4zTkdWR1NSblpacElZSUdVcmc3ZlB5WDdUNk02VHRid19Nak83VjVVYmlhcVlwZ3BUQVg4RXB3V2N5UU9v0gF6QVVfeXFMT05JRkhHVWFocEE4YlFWMHpMb29MZzJSa2NpX1VuSVNtSGxJbkpsLXEtbHBocEh4Zk1NQVlmMVdFd1FNX0FhT0dRUFJ5dGo0aGozelJMY3VYVDNhUmRzR1pkVzViaUdRc1RxU19xWWstT2xtMDNELW9oaHc?oc=5"
+    }
+   ],
+   "uid": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
+   "body": "Nvidia's credit rating could be cut by one notch over the next 90 days if the company continues to have \"deficiencies\" in its management and governance framework, S&P Global Ratings said in the wake of the Jensen Huang's ouster and reinstatement as Nvidia CEO. \"News regarding the CEO and questions regarding potential export control violations have exposed vulnerabilities in Nvidia's management and governance framework, especially in regard to its board structure, composition, and effectiveness,\" S&P said in a Wednesday note. Nvidia currently holds an AA rating, the third-highest level. S&P has placed the chipmaker on \"CreditWatch with negative implications,\" though any potential downgrade would be limited to one notch, to AA-, unless investigations or disclosures lead the agency to conclude that Nvidia's reputation or future prospects have also been harmed. A downgrade can pressure bond prices, push yields higher and raise borrowing costs. Nvidia priced $25 billion of investment-grade senior notes in June, with maturities from 2028 through 2056, shortly after S&P upgraded the company from AA- to AA. Nvidia has about $32.5 billion of bonds in the U.S. high-grade corporate bond index, according to Bloomberg. S&P's Wednesday note follows Moody's Ratings changing its outlook on Nvidia to stable from positive on Nov. 18, citing governance concerns, and leaving that outlook unchanged after Huang's return on Monday. In its note, S&P cited the \"long tenure\" of certain board members as a reason their independence may be \"compromised\" and said Nvidia's management and governance risk was \"rising.\" The ratings agency added that it remained unaware of any remedial action taken by the board to address what could be \"meaningful\" management and governance deficiencies. Chairman Harvey Jones and early investor Tench Coxe have served on Nvidia's board since 1993, while Brooke Seawell joined in 1997. Mark Stevens served from 1993 to 2006 and rejoined the board in 2008. S&P also flagged questions around geopolitical risk management and internal controls arising from Nvidia's exposure to China. \"While Nvidia management has delivered significant returns for its stakeholders over decades, weak executive oversight and lack of succession planning have brought questions around the \"key man\" risk to the forefront,\" S&P's Andrew Chang and David Tsui said. Chang and Tsui noted that Huang's resignation and subsequent reinstatement did not resolve questions about the board's oversight of executive conduct. The agency also intends to meet with Nvidia's board and management to discuss plans to address those deficiencies, particularly around \"board independence, effective management oversight and a credible leadership succession plan.\" Huang returned less than two weeks after Jones said Nvidia's directors did not intend to reinstate him. The board later voted unanimously to bring Huang back, sending Nvidia shares up as much as 36% during Monday's session. Nvidia shares are down a"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Exaion signs $79m GPUaaS contract with US customer",
+   "link": "https://www.datacenterdynamics.com/en/news/exaion-signs-79m-gpuaas-contract-with-us-customer/",
+   "date": "2026-11-25 20:52",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Exaion, $79M 규모 Nvidia HGX B300 GPUaaS 계약 체결",
+    "korean_summary": "French AI 클라우드 제공자 Exaion이 미국 고객과 $79M 규모 4년 Nvidia HGX B300 서비스 계약을 체결했다."
+   },
+   "summary_data": {
+    "korean_title": "Exaion, 미국 고객과 7900만 달러 규모 GPUaaS 계약 체결…NVIDIA HGX B300 기반 컴퓨팅 제공",
+    "korean_summary": "Mara Holdings 자회사인 프랑스 AI 클라우드 기업 Exaion이 미국 고객과 4년간 7900만 달러 규모의 100% take-or-pay GPUaaS 계약을 체결했으며, **NVIDIA HGX B300 서버**로 컴퓨팅을 제공한다.",
+    "action": {
+     "actor": "Exaion",
+     "action": "미국 고객에게 NVIDIA HGX B300 서버 기반 GPU-as-a-Service를 4년간 100% take-or-pay 방식으로 제공하는 계약 체결",
+     "stage": "Announced",
+     "timeline": "미확인 (계약 기간 4년, 체결 시점은 2026년 2월 기준 보도)",
+     "scope": "미국 고객 1개사, 계약 규모 $79 million"
+    },
+    "key_facts": [
+     "Exaion이 미국 고객과 **4년, $79 million 규모**의 100% take-or-pay GPUaaS 계약 체결",
+     "컴퓨팅은 **NVIDIA HGX B300 서버**로 제공",
+     "Exaion은 Mara Holdings와 EDF Pulse Ventures가 2025년 8월 인수한 AI 클라우드 기업으로, Mara가 에너지 기반 인프라를 제공하고 Exaion이 이를 컴퓨팅·클라우드 서비스로 전환",
+     "Exaion 고객·예비고객들이 2027년 말까지 30MW 이상의 컴퓨팅 용량 수요를 표명",
+     "2026년 2월 기준 Exaion은 캐나다와 프랑스에 데이터센터 4곳 운영 중"
+    ],
+    "why_matters": "이번 계약은 암호화폐 채굴 중심이던 Mara 그룹이 **NVIDIA GPU 기반 AI 인프라 사업으로 확장**하는 신호이며, take-or-pay 방식의 장기 계약이 GPUaaS 수요의 견고함을 보여준다. 동시에 QumulusAI 등 독립 AI 클라우드 사업자들의 colocation 확장도 병행되며, HGX B300 플랫폼이 중소 AI 클라우드 생태계 전반에 빠르게 채택되고 있음을 시사한다.",
+    "subject_angle": "NVIDIA 입장에서는 하이퍼스케일러 외에 **크립토마이닝에서 전환하는 에너지 인프라 기업**이나 신흥 AI 클라우드 사업자들까지 HGX B300 수요가 확산되는 사례로, GPU 공급망 다변화와 신규 고객군 확보 측면에서 긍정적 신호다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Exaion",
+      "context": "프랑스 AI 클라우드 기업, 계약 당사자이자 NVIDIA GPU 기반 GPUaaS 제공자"
+     },
+     {
+      "name": "Mara Holdings",
+      "context": "Exaion 모회사, 에너지 기반 인프라 제공 및 암호화폐 채굴 기업"
+     },
+     {
+      "name": "EDF Pulse Ventures",
+      "context": "Mara와 함께 Exaion을 공동 인수"
+     },
+     {
+      "name": "QumulusAI",
+      "context": "미국 AI 클라우드 기업, 별도 2MW colocation 계약 체결(비교 사례)"
+     },
+     {
+      "name": "Quandela",
+      "context": "Exaion Sherbrooke 데이터센터 내 양자컴퓨터 운영사"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA HGX B300",
+      "role": "Exaion GPUaaS 계약에 사용되는 컴퓨팅 서버 플랫폼"
+     }
+    ],
+    "watch_next": [
+     "Exaion의 30MW+ 추가 수요 계약 체결 여부 및 시점",
+     "Mara Holdings의 AI 컴퓨팅 사업 확장 범위(채굴 외 에너지-컴퓨팅 전환 전략)",
+     "HGX B300 기반 추가 GPUaaS 계약 사례 확산 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/exaion-signs-79m-gpuaas-contract-with-us-customer",
+   "body": "French AI cloud provider Exaion has secured a US customer under a four-year contract, while US-based AI cloud company QumulusAI has secured 2MW of colocation capacity. Under Exaion's agreement, it will provide GPU-as-a-Service in a 100 percent take-or-pay contract valued at $79 million. Exaion will provide compute powered by Nvidia HGX B300 servers for the customer. In a LinkedIn post, the company said: \"Mara provides the energy-backed infrastructure, and Exaion turns it into compute and cloud services, from private cloud infrastructure to inference as a service for customers who need greater control over their data. It is also a signal of demand. Exaion’s customers and prospects have expressed demand for more than 30MW of compute capacity for delivery by the end of 2027.\" Mara Holdings, a digital energy and infrastructure company known for its cryptomining operations, along with EDF Pulse Ventures, acquired Exaion in August 2025. Mara is one of the biggest Bitcoin miners in the US, predominantly utilizing stranded energy assets to power modular mining units. In April 2025, the company fully energized a 25MW modular cryptomine data center powered by flared natural gas in Texas and North Dakota. In December 2024, the company acquired an onshore wind farm with plans to develop and operate a Bitcoin mining operation on the site, powered behind-the-meter. Founded in 2020, Exaion launched its first data center in Sherbrooke, Canada, in 2024. Spanning 4,000 sq ft (372 sqm), the Tier II quality facility offers 780kW of capacity. The site is home to a quantum computer from Quandela. As of February 2026, Exaion operated four data centers across Canada and France. QumulusAI secures 2MW of colocation capacity US-based AI cloud company QumulusAI, meanwhile, has signed a ten-year colocation agreement for 2MW of capacity in the northeastern US. The contract has two three-year renewal options. QumulusAI said the capacity is expected to be ready for service by the end of 2026, and the company has a right of first offer on a further 9.6MW at the site. The company is funding the first phase from cash generated by capacity already in production. “The first 2MW is scheduled for service by the end of this year, which is weeks away, not quarters,” said Michael Maniscalco, CEO of QumulusAI. “That is capacity we can put in front of customers now, with the possibility to take significantly more at the same site.” Earlier this month, QumulusAI expanded its capacity in Denver, Colorado, by 1.2MW under a five-year agreement, with automatic five-year renewal terms for the colocation capacity. It is expected to be operational from Q1 2027."
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "date": "2026-11-26 07:44",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock",
+     "regulation"
+    ],
+    "korean_title": "S&P Global, 경영 가버넌스 및 Key Man Risk 이유로 NVIDIA 신용 등급 인하 검토",
+    "korean_summary": "S&P Global이 경영진 감시 약화와 후계자 계획 부족, Huang에 대한 Key Man Risk를 이유로 NVIDIA 신용 등급을 AA에서 AA-로 인하하는 것을 검토 중이다."
+   },
+   "summary_data": {
+    "korean_title": "S&P, 지배구조 리스크로 Nvidia 신용등급 하향 검토",
+    "korean_summary": "S&P Global Ratings가 Jensen Huang CEO의 해임·복귀 사태로 드러난 경영 감독 부재와 '키맨 리스크'를 이유로 Nvidia의 신용등급을 AA에서 AA-로 낮추는 방안을 검토한다고 밝혔다.",
+    "action": {
+     "actor": "S&P Global Ratings",
+     "action": "Nvidia의 지배구조·경영권 승계 리스크를 이유로 신용등급 하향 검토(AA → AA-) 발표",
+     "stage": "Report",
+     "timeline": "90일 이내 검토 완료 예정",
+     "scope": "Nvidia 기업 신용등급 전반"
+    },
+    "key_facts": [
+     "**S&P는 Nvidia 등급을 AA에서 AA-로 낮추는 것을 검토 중이며 90일 내 리뷰를 마칠 예정**",
+     "Jensen Huang CEO의 해임 및 복귀 사태가 '경영 감독 미비'와 '승계 계획 부재'라는 우려를 촉발",
+     "S&P는 이를 'key man risk', 즉 Huang 개인에 대한 과도한 의존으로 규정",
+     "Nvidia는 투자등급 유지가 확실하지만 등급 하향 시 조달 비용 상승 가능",
+     "**Nvidia는 지난 8월 Goldman Sachs, Apollo, Blackstone 등 6개 금융기관과 함께 AI 인프라용 $500 billion 규모 금융 조달 계획을 발표했으며, 대출의 25%를 보증하기로 했음**"
+    ],
+    "why_matters": "Nvidia는 neocloud 및 인프라 기업들의 채무를 보증해 AI 인프라 투자 자금줄 역할을 하고 있어, 신용등급 하향은 단순 자사 조달비용 문제를 넘어 **전체 AI 인프라 금융 생태계의 비용 구조에 영향**을 줄 수 있다. Bloomberg 보도에 따르면 등급 하향 전부터 대출기관들이 Nvidia에 더 큰 보증을 요구해왔으며, 하향 시 이러한 압박이 더 커질 전망이다.",
+    "subject_angle": "Nvidia는 단순 반도체 공급사에서 **AI 인프라 생태계의 금융 보증자 역할**로 확장했지만, 이번 지배구조 우려는 그 신뢰 기반 자체를 흔들 수 있어 향후 자본 조달 전략과 이사회 승계 체계 정비가 핵심 과제로 부상했다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "S&P Global Ratings",
+      "context": "Nvidia 신용등급 하향 검토를 발표한 신용평가사"
+     },
+     {
+      "name": "Goldman Sachs",
+      "context": "Nvidia의 $500B AI 인프라 금융 조달 파트너"
+     },
+     {
+      "name": "Apollo",
+      "context": "Nvidia의 $500B AI 인프라 금융 조달 파트너"
+     },
+     {
+      "name": "Blackstone",
+      "context": "Nvidia의 $500B AI 인프라 금융 조달 파트너"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "S&P의 90일 리뷰 결과 및 실제 등급 하향 여부",
+     "대출기관들의 Nvidia 대출 보증 비율 추가 요구 움직임",
+     "Nvidia 이사회의 CEO 승계 계획 및 지배구조 개선 조치"
+    ]
+   },
+   "related": [
+    {
+     "source": "Google News · TechCrunch",
+     "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSnFCZTJhQkQzR25PLTNfcWRtdFdUVENhU184c3RraWp0M0g4NGw0NXRVOU5sSFBsR2tnRktxYjBBcUlGRzNJVnEtaVh5Zk82NGY2WVQ2VFdBUkIwZ294SjdHR0trM0k5dTl0MTg2OURCOW9RNklVczNVa0VkZU8tV0tXWDVHY1NxUG1aUXZFdUVzazhJTDlYRHBfaGc2VEFEUHNOOFAwbjI?oc=5"
+    }
+   ],
+   "uid": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks",
+   "body": "S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices. Despite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns about “weak executive oversight and lack of succession planning” and “key man risk,” meaning heavy reliance on Huang for its future success, S&P said in a statement. The agency expects to finish its review within 90 days and could cut Nvidia’s rating from AA to AA-, the fourth-highest on its scale. Although Nvidia is certain to keep its investment-grade rating, a downgrade could raise its borrowing costs. Because Nvidia backstops neoclouds and other infrastructure companies that lack strong credit on their own, a lower rating could make their debt costlier or force them to post more collateral. In August, Nvidia announced plans to arrange $500 billion in financing for AI infrastructure with six financial institutions, including Goldman Sachs, Apollo, and Blackstone. Under the original terms, Nvidia would guarantee 25% of the loans. But even before Huang’s ouster and return, lenders had been demanding that Nvidia guarantee more, Bloomberg reported. A downgrade would likely prompt lenders to demand even larger guarantees."
+  },
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "S&P, 엔비디아 신용등급 강등 검토",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000001854",
+   "date": "2026-11-26 19:09",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "S&P, NVIDIA 신용등급 강등 검토",
+    "korean_summary": "S&P Global Ratings이 NVIDIA의 AA 신용등급을 부정적 관찰 대상으로 지정하며 경영 감독 문제를 지적했다."
+   },
+   "summary_data": {
+    "korean_title": "S&P, 엔비디아 신용등급 강등 검토…무디스는 기존 등급 유지",
+    "korean_summary": "S&P가 **젠슨 황 CEO의 사임과 복귀 과정에서 드러난 이사회 독립성·경영진 감독 문제**를 이유로 엔비디아의 신용등급 강등을 검토하기로 했다.",
+    "action": {
+     "actor": "S&P Global Ratings",
+     "action": "엔비디아 장기 기업 신용등급 및 선순위 무담보채권 등급을 'CreditWatch Negative'로 지정",
+     "stage": "Announced",
+     "timeline": "2026년 11월 25일(현지시각), 향후 90일 이내 추가 검토",
+     "scope": "엔비디아 장기 기업 신용등급 및 선순위 무담보채권 'AA' 등급"
+    },
+    "key_facts": [
+     "S&P Global Ratings가 엔비디아의 'AA' 등급을 **'CreditWatch Negative'(부정적 관찰대상)**로 지정 (11월 25일, 로이터 보도)",
+     "지정 이유는 젠슨 황 CEO의 사임·복귀 과정에서 드러난 이사회 독립성 및 경영진 감독 기능 문제",
+     "무디스는 반대로 황 CEO 복귀로 **경영 불확실성이 완화됐다며 기존 신용등급을 유지**",
+     "S&P는 향후 90일 이내 추가 신용등급 검토를 진행할 예정 (세부 결정 시점은 미확인)"
+    ],
+    "why_matters": "글로벌 양대 신용평가사가 엔비디아에 대해 상반된 평가를 내리면서 AI 반도체 1위 기업의 **거버넌스 리스크**가 투자자·채권시장에서 새로운 변수로 부각됐다. 신용등급 강등이 실제로 이뤄질 경우 엔비디아의 자금조달 비용 상승과 대규모 AI 인프라 투자 계획에 영향을 줄 수 있다.",
+    "subject_angle": "엔비디아는 기술·시장 지배력과는 별개로 **CEO 교체 과정에서 노출된 이사회 감독 체계의 취약성**이 재무 신뢰도에 직접적 리스크로 작용할 수 있음을 보여주며, 향후 거버넌스 투명성 강화가 요구될 전망이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "신용등급 강등 검토 대상 기업, 젠슨 황 CEO 사임·복귀 당사자"
+     },
+     {
+      "name": "S&P Global Ratings",
+      "context": "엔비디아 신용등급을 'CreditWatch Negative'로 지정한 평가사"
+     },
+     {
+      "name": "Moody's",
+      "context": "엔비디아 기존 신용등급을 유지한 평가사"
+     },
+     {
+      "name": "Reuters",
+      "context": "해당 사실을 보도한 통신사"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "S&P의 90일 이내 최종 신용등급 결정 결과",
+     "엔비디아 이사회 독립성·감독 체계 개선 조치 발표 여부",
+     "신용등급 불확실성에 따른 채권시장·투자자 반응"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000001854",
+   "body": "국제 신용평가사 스탠더드앤드푸어스(S&P)가 엔비디아의 신용등급 강등을 검토한다. 젠슨 황 최고경영자(CEO)의 사임과 복귀 과정에서 이사회의 독립성과 경영진 감독 기능에 문제가 드러났다는 판단에서다. 반면 무디스는 황 CEO의 복귀로 경영 불확실성이 완화됐다며 기존 신용등급을 유지했다.25일(현지시각) 로이터통신에 따르면 S&P 글로벌레이팅스는 엔비디아의 장기 기업 신용등급과 선순위 무담보채권 신용등급인 ‘AA’를 ‘부정적 관찰대상(CreditWatch Negative)’으로 지정했다.S&P는 향후 90일 이내에 엔비디아의 신용등"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlWHFqRHJUcmtTOWFuQkFRTlUyZTJBcGdNMWR3N3d1YlJIV05kWk1mU21JSDZmSVpZR1BlanpqRzFXSkg3NkxkeElWcHM0Q2Y4eFJKb3Fha29XakxYNFJ4cXExZHo4MFVDOHdDbENrQWs0d0lqQ3Z5cEVDRVBQR1hNNWZxSmhiUll4NFg1amZlU01oWm9fN2hkUFBBNkdKT21v?oc=5",
+   "date": "2026-11-26 07:44",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "S&P, NVIDIA 이사회 손상 우려로 신용등급 하향 감시 지정",
+    "korean_summary": "S&P가 경영 거버넌스 우려로 NVIDIA의 신용등급 하향을 감시 대상으로 지정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb1ZBby1iVDJnTmJwX3hDYWJpU2lxTUdLTHdlWHFqRHJUcmtTOWFuQkFRTlUyZTJBcGdNMWR3N3d1YlJIV05kWk1mU21JSDZmSVpZR1BlanpqRzFXSkg3NkxkeElWcHM0Q2Y4eFJKb3Fha29XakxYNFJ4cXExZHo4MFVDOHdDbENrQWs0d0lqQ3Z5cEVDRVBQR1hNNWZxSmhiUll4NFg1amZlU01oWm9fN2hkUFBBNkdKT21v",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQamtqRVI0MHhzRTB5Tk1wMDNXRGhEYi1zVzFJT3hBMFNzUmt1RWptQnpTNWR1QTllclluaW50Z0tmSWVIbW5DWXJoaVJlblRoN2puUGFjbEtkOTZ6VUk5ZGEtLU9vYnJOMm53Tm5Idzg0dzNJSlRXVEI1b2xIQ1BBaVVuQmthNFlremtLRnNFY2RWdjNGcHNPV3ZrQ2JOTGhNMTdKbWpfWGtRMjBEekpJS0lmejFMSUxUakFYS1FvUnVxckk?oc=5",
+   "date": "2026-11-26 04:12",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "S&P Global, NVIDIA 신용등급을 'CreditWatch Negative' 편입",
+    "korean_summary": "S&P Global이 경영·거버넌스 위험을 이유로 NVIDIA 신용등급을 부정적 감시 목록에 올렸다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQamtqRVI0MHhzRTB5Tk1wMDNXRGhEYi1zVzFJT3hBMFNzUmt1RWptQnpTNWR1QTllclluaW50Z0tmSWVIbW5DWXJoaVJlblRoN2puUGFjbEtkOTZ6VUk5ZGEtLU9vYnJOMm53Tm5Idzg0dzNJSlRXVEI1b2xIQ1BBaVVuQmthNFlremtLRnNFY2RWdjNGcHNPV3ZrQ2JOTGhNMTdKbWpfWGtRMjBEekpJS0lmejFMSUxUakFYS1FvUnVxckk",
+   "body": ""
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Jensen Huang's return to Nvidia fuels Washington fight over China's chip access",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3BLV01MMXl1a2FaazhNYWFseVlPZ2g0ZnBwdnI5aFdkV1pHR19QdzZQWDk4YlJMOFZtZk9PbVlwbmU1WXpXWjFHaHVfX3c0SVd5WHFRM0s3eW9EcUE1S1RTYUFxLXBvQmthZFFNYkFNRy1EeHNyM2gyT0prRzNPWEVPaGVGMFo2c1E1eTljc212bU5qY3EtdnlDN01WSTdnRjZOYkZKdW1lcmttSlcwazFrSFlidExMay1iTHlXaW1TQVBIUVE?oc=5",
+   "date": "2026-11-26 03:32",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "Jensen Huang 복귀가 중국 칩 접근 문제로 워싱턴의 갈등 가중",
+    "korean_summary": "NVIDIA CEO Jensen Huang의 복귀가 중국의 AI 칩 접근을 둘러싼 미국 정부 갈등을 심화시키고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3BLV01MMXl1a2FaazhNYWFseVlPZ2g0ZnBwdnI5aFdkV1pHR19QdzZQWDk4YlJMOFZtZk9PbVlwbmU1WXpXWjFHaHVfX3c0SVd5WHFRM0s3eW9EcUE1S1RTYUFxLXBvQmthZFFNYkFNRy1EeHNyM2gyT0prRzNPWEVPaGVGMFo2c1E1eTljc212bU5qY3EtdnlDN01WSTdnRjZOYkZKdW1lcmttSlcwazFrSFlidExMay1iTHlXaW1TQVBIUVE",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How China got access to Nvidia's AI chips despite rules to stop them",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsSnk0TmVWREE1a0tmVW5kVnBxdG5VNU1TX2FmWnZ1aTc1UEQyblFkSklCZ3NlcU1XQUZQVDUwTXZ6R3BoVjlRb1RPY0pTNGdmUUdNZkw0Zi1oanJOcXFieGlBdzRTN05pa3FsaVhUWVk0UWpzc0hkN2kySGF6bGRpU1Y1a2IyNi1iaUFQZThLNVZON0E?oc=5",
+   "date": "2026-11-26 04:58",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "규제 우회로 중국, NVIDIA AI 칩 접근 경로 확보",
+    "korean_summary": "중국이 미국 수출규제를 우회하여 NVIDIA의 AI 칩에 접근한 방법을 보도했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsSnk0TmVWREE1a0tmVW5kVnBxdG5VNU1TX2FmWnZ1aTc1UEQyblFkSklCZ3NlcU1XQUZQVDUwTXZ6R3BoVjlRb1RPY0pTNGdmUUdNZkw0Zi1oanJOcXFieGlBdzRTN05pa3FsaVhUWVk0UWpzc0hkN2kySGF6bGRpU1Y1a2IyNi1iaUFQZThLNVZON0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "2 California companies are buying Nvidia's most advanced chips. Those companies are actually Chinese-owned, a CBS News investigation reveals.",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MazBWOG43cVJLUGh2S1V6N2JMc0w4ck1MYlVVVnhMLThiQ1lIOTZZQmVzdTBpMzljVVBJbDdNZm1oLXh5WmNNMXZybDl2SmR0dGNld3ZJRFI2NnpXX0R6S3hiWmxfTDhmN2txdFNxaEl4TVU5N0E?oc=5",
+   "date": "2026-11-26 08:10",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 첨단 칩 구매 캘리포니아 기업들, 실제는 중국 계열사",
+    "korean_summary": "CBS News 조사에서 NVIDIA의 최신 칩을 구매하는 캘리포니아 기업들이 실제로 중국 소유라고 밝혔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MazBWOG43cVJLUGh2S1V6N2JMc0w4ck1MYlVVVnhMLThiQ1lIOTZZQmVzdTBpMzljVVBJbDdNZm1oLXh5WmNNMXZybDl2SmR0dGNld3ZJRFI2NnpXX0R6S3hiWmxfTDhmN2txdFNxaEl4TVU5N0E",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "The state of China's memory industry in 2026",
+   "link": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-chinas-memory-industry-in-2026-cxmt-and-ymtc-are-booming-but-hbm-remains-a-headache",
+   "date": "2026-11-25 22:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "export-control"
+    ],
+    "korean_title": "2026년 중국 메모리 산업: HBM 양산 불가, 미국 수출 통제",
+    "korean_summary": "Tom's Hardware가 CXMT·YMTC의 성장에도 중국이 AI 가속기용 HBM을 양산하지 못하고 있으며 미국의 수출 통제로 고급 반도체 획득이 차단되고 있다고 분석했다."
+   },
+   "summary_data": {
+    "korean_title": "중국 메모리 굴기 2026년 현황: CXMT·YMTC 급성장, 그러나 HBM은 아직 벽",
+    "korean_summary": "중국의 CXMT와 YMTC가 DRAM·NAND에서 기록적 매출과 흑자를 내며 성장하고 있지만, **AI 가속기 필수 부품인 HBM은 여전히 양산 불가 상태**로 중국 AI 반도체 공급망의 핵심 제약으로 남아 있다.",
+    "action": {
+     "actor": "CXMT, YMTC",
+     "action": "DRAM·NAND 생산능력 확대 및 신공장 건설, HBM3E 리스크 생산 시도",
+     "stage": "Report",
+     "timeline": "2026년 기준 현황, Shanghai 신공장 2027년 양산 예정",
+     "scope": "중국 내 DRAM·NAND 시장, HBM은 미확인 수준"
+    },
+    "key_facts": [
+     "CXMT 9개월 순이익 ¥132.0billion($19.6B), 전년 손실 대비 흑자 전환, 매출 ¥269.0billion($40.0B)",
+     "YMTC Q1 매출 ¥47.04billion($7.0B), 순이익 ¥33.38billion($5.0B), 전년 대비 2배 이상 성장",
+     "**미국이 Samsung, SK hynix, Micron의 HBM 중국 판매를 금지**하고 있으며, 중국 제조사는 아직 HBM 양산 불가",
+     "CXMT 프로스펙투스에 HBM 프로젝트 없음, 다만 HBM3E가 risk production 중이라는 보도 존재(미확인 수준)",
+     "Huawei는 자체 HBM을 설계하지만 제조사는 공개하지 않음(미확인)"
+    ],
+    "why_matters": "HBM은 NVIDIA AI 가속기의 핵심 부품으로, 중국이 자체 HBM 양산에 실패하면 **Huawei 등 중국 AI 칩 생태계의 성능·공급 제약**이 지속되어 NVIDIA 중심 글로벌 AI 반도체 공급망의 상대적 우위가 유지된다. 동시에 미국의 HBM 수출 규제는 Samsung·SK hynix·Micron의 중국 매출 기회를 차단하면서 역설적으로 CXMT의 범용 DRAM·NAND 사업 확장을 가속화하는 환경을 만들고 있다.",
+    "subject_angle": "NVIDIA는 **HBM 공급을 Samsung·SK hynix·Micron에 의존**하는 구조를 유지하고 있어 중국의 HBM 양산 실패는 NVIDIA의 AI GPU 성능 우위를 당분간 지켜주는 요인이지만, 향후 CXMT나 Huawei가 HBM 생산을 확보하면 중국 내 경쟁 가속기(Huawei Ascend 등)의 경쟁력이 높아져 NVIDIA의 중국 시장 입지에 영향을 줄 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "CXMT",
+      "context": "중국 최대 DRAM 제조사, HBM3E risk production 보도(미확인), HBM 프로젝트는 프로스펙투스에 미기재"
+     },
+     {
+      "name": "YMTC",
+      "context": "중국 최대 NAND 제조사, DRAM 생산도 병행 확대"
+     },
+     {
+      "name": "Samsung",
+      "context": "미국 수출규제로 중국 HBM 판매 금지 대상, YMTC의 Xtacking 본딩 특허 라이선스 보유"
+     },
+     {
+      "name": "SK hynix",
+      "context": "미국 수출규제로 중국 HBM 판매 금지 대상"
+     },
+     {
+      "name": "Micron",
+      "context": "미국 수출규제로 중국 HBM 판매 금지 대상"
+     },
+     {
+      "name": "Huawei",
+      "context": "자체 HBM 설계, 제조 파트너는 비공개, AI 칩 생태계에 HBM 필요"
+     }
+    ],
+    "products": [
+     {
+      "name": "HBM3E",
+      "role": "CXMT가 risk production 중이라는 보도 존재, AI 가속기용 핵심 메모리"
+     },
+     {
+      "name": "DDR5/LPDDR5X/LPDDR6",
+      "role": "CXMT의 주력 범용 DRAM 제품, 매출 성장 견인"
+     },
+     {
+      "name": "Xtacking 4.0 NAND",
+      "role": "YMTC의 3D NAND 적층 기술, Samsung이 라이선스 취득"
+     }
+    ],
+    "watch_next": [
+     "CXMT의 HBM3E risk production이 실제 양산 단계로 전환되는지 여부",
+     "Huawei의 HBM 제조 파트너 공개 여부 및 Ascend 가속기와의 연계",
+     "미국의 HBM 대중 수출 규제가 추가 강화 또는 완화되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-chinas-memory-industry-in-2026-cxmt-and-ymtc-are-booming-but-hbm-remains-a-headache",
+   "body": "China’s homegrown memory comes largely from two companies, CXMT for DRAM and YMTC for 3D NAND, and both are booming. CXMT’s Oct. 30 quarterly report shows a nine-month net profit of ¥132.0 billion ($19.6 billion), against a ¥5.28 billion ($785 million) loss a year earlier, on revenue more than eight times as high, at ¥269.0 billion ($40.0 billion). YMTC’s numbers, just for Q1, are at ¥47.04 billion ($7.0 billion) in revenue and ¥33.38 billion ($5.0 billion) in profit attributable to shareholders, more than double 2025. Both are expanding and adding fabs, and each is edging into the other’s products. No Chinese manufacturer can yet produce high-bandwidth memory (HBM) in volume, though. HBM is the stacked DRAM that AI accelerators depend on, and currently the U.S. bars Samsung, SK hynix, and Micron from selling it into China. CXMT’s prospectus lists no HBM project , though its HBM3E is reportedly in risk production , an early run before the process is fully qualified. Huawei designs its own HBM but doesn’t say who makes it. Memory is a commodity, so the story is in the wafers. We cover the companies running memory fabs in China: CXMT, YMTC, a handful of smaller Chinese fabs, and Samsung and SK hynix, which run some of their biggest plants there. Huawei makes the cut for its HBM program, though it has no memory fab. Fabless designers, module makers, and NOR flash producers are left out, except XMC for its HBM line. Fab counts, products, and financials come from filings and company statements; capacities, planned fabs, and the HBM progress that remains the big question mark rest largely on anonymous reporting. Let's dive into the current state of the Chinese DRAM industry. CXMT: three DRAM fabs running, three more on the way (Image credit: CXMT) CXMT, short for ChangXin Memory Technologies, is China’s biggest homegrown DRAM maker. It operates two 12-inch fabs in Hefei and one in Beijing, each able to produce around 100,000 wafers a month. It is also building fabs in Shanghai and Hefei and is in funding talks for a second Beijing fab, which together could take it past 600,000 wafers a month. The Shanghai fab is expected to have two to three times the capacity of the Hefei base, with tools going in during the second half of 2026 and volume in 2027. CXMT is now the fourth-largest DRAM maker worldwide, with 9.5% of DRAM revenue in Q2, according to TrendForce . CXMT says LPDDR6 is in mass production for Xiaomi, and its president says the first 4F² product, a server DDR5 RDIMM, is due by year-end . This comes after record first-half revenue of ¥150.3 billion ($22.4 billion), net profit of ¥77.6 billion ($11.5 billion), an 84.84% gross margin on its main business, and a listing on Shanghai’s STAR Market on July 27. Third-quarter profit alone was ¥54.4 billion ($8.1 billion). The primary products are DDR5 rated up to 8,000 MT/s with 24Gb dies, and LPDDR5X rated up to 10,667 MT/s. CXMT says its fifth-generation G5 platform reaches 11.95nm active-area half-pit"
+  },
+  {
+   "source": "The Next Platform",
+   "category": "media",
+   "kind": "feed",
+   "title": "Dell Is Finally Making Money On GenAI As Traditional Servers Boom",
+   "link": "https://www.nextplatform.com/compute/2026/11/25/dell-is-finally-making-money-on-genai-as-traditional-servers-boom/5312184",
+   "date": "2026-11-26 00:58",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Dell의 AI 서버 성공과 NVIDIA 2조 5천억 달러 클라우드 적체",
+    "korean_summary": "The Next Platform이 Dell의 NVIDIA 기반 AI 서버 1,323억 달러 적체와 NVIDIA의 클라우드 산업 2조 5,000억 달러 적체를 통해 생성형AI 인프라 수요 규모를 보도했다."
+   },
+   "summary_data": {
+    "korean_title": "Dell, NVIDIA 기반 AI 서버 호황으로 사상 최대 수익성 달성",
+    "korean_summary": "Dell이 NVIDIA 기술 기반 AI 서버 수주와 전통 서버 호황에 힘입어 2027 회계연도 3분기에 사상 최고 순이익률을 기록했으나, 이는 NVIDIA가 공개한 **2.5조 달러 규모의 '클라우드 업계 백로그'** 중 일부에 불과하다는 점이 드러났다.",
+    "action": {
+     "actor": "Dell",
+     "action": "AI 서버 신규 수주 $60.2B, 백로그 $132.3B를 기록하며 NVIDIA 기반 AI 클러스터 사업에서 수익성을 확보",
+     "stage": "Report",
+     "timeline": "2027 회계연도 3분기 (실적 발표)",
+     "scope": "Dell Infrastructure Solutions Group, 서버·네트워킹·스토리지 사업 전반"
+    },
+    "key_facts": [
+     "Dell의 AI 서버 신규 수주 $60.2B, 백로그 $132.3B 기록",
+     "**NVIDIA는 최근 실적 발표에서 '클라우드 업계 백로그' 규모를 $2.5 trillion으로 공개**, 필자 추정으로는 전체 NVIDIA 백로그가 $3T~$3.5T에 달할 수 있음",
+     "Dell 제품(하드웨어) 매출 2.3배 증가한 $48.93B, 서버·네트워킹 매출은 3.65배 증가한 $37B(QoQ 37.5% 성장)",
+     "Dell 순이익 2.7배 증가한 $5.67B, 매출 대비 순이익률 10.3%로 역대 최고 기록",
+     "Dell 임원 Jeff Clarke는 모든 AI 주문이 자본 접근성, 고객 품질, 무역·수출 규제, 전력·부지 확보 여부를 엄격히 검증받는다고 설명"
+    ],
+    "why_matters": "Dell의 사상 최대 AI 서버 수주·수익성 실적조차 **NVIDIA가 공개한 $2.5T 규모의 전체 클라우드 백로그 중 일부에 불과**하다는 사실은, NVIDIA가 AI 인프라 공급망 전체를 지배하는 핵심 축임을 재확인시킨다. 이는 서버 OEM들의 성장이 결국 NVIDIA 생태계 확장에 종속적임을 보여주는 지표다.",
+    "subject_angle": "Dell의 실적 호조는 NVIDIA GPU 기반 AI 클러스터 수요의 파생 효과이며, **NVIDIA가 공개한 수조 달러 규모의 수요 백로그는 자사가 AI 인프라 가치사슬의 최상위 병목(bottleneck)이자 수익 집중점임을 시사**한다. Dell 같은 시스템 통합업체의 매출 성장 자체가 NVIDIA 생태계 건전성의 간접 지표로 기능한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Dell",
+      "context": "NVIDIA 기반 AI 서버·클러스터를 제조·공급하는 OEM, 2027 회계연도 3분기 사상 최고 수익성 발표"
+     },
+     {
+      "name": "NVIDIA",
+      "context": "AI 서버의 핵심 기술 공급자, 자사 실적 발표에서 $2.5T 규모의 클라우드 백로그 공개"
+     },
+     {
+      "name": "Hewlett Packard Enterprise (HPE)",
+      "context": "Dell과 유사하게 과거 서비스 사업을 매각하고 하드웨어 중심으로 전환한 경쟁사로 비교 언급"
+     }
+    ],
+    "products": [
+     {
+      "name": "AI 서버/클러스터 (Dell, NVIDIA 기반)",
+      "role": "Dell의 신규 수주·백로그 핵심 품목, NVIDIA 기술 기반으로 구축"
+     }
+    ],
+    "watch_next": [
+     "NVIDIA 전체 백로그(엔터프라이즈·정부·학계 포함) 구체적 수치 공개 여부",
+     "Dell의 AI 클러스터 수익률(margin) 추이 및 다음 분기 전환율(backlog-to-revenue conversion)",
+     "다른 ODM/OEM(예: Supermicro, HPE)의 NVIDIA 백로그 점유율 비교 데이터"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.nextplatform.com/compute/2026/11/25/dell-is-finally-making-money-on-genai-as-traditional-servers-boom/5312184",
+   "body": "Dell Is Finally Making Money On GenAI As Traditional Servers Boom Dell ended its third quarter of fiscal 2027 with $60.2 billion with new bookings for AI servers, a backlog of these machines of $132.3 billion, and a pipeline of new orders that is many times as large as this. By Dell’s historical standards, this is absolutely ginormous. Until you realize that Dell, the largest supplier of server machinery in the world in terms of revenues and probably shipments thanks to the GenAI boom, is a mere fraction of the $2.5 trillion “cloud industry backlog” that Nvidia revealed it had when it talked about its latest financials last week. Presumably the total Nvidia backlog, which includes demand from AI model makers, enterprises, governments, and academic institutions, is even larger than $2.5 trillion. But it is probably not larger than $3 trillion to $3.5 trillion, if I have to put a number on it. Despite all of the crazy amount of money being promised for future spending on the GenAI boom, Dell is only getting a piece of the action that is proportional to its share in systems and storage overall. The good news is that Dell is getting better and better at building immense AI clusters based on Nvidia technology, and bragged in its call with Wall Street going over the Q3 F2027 numbers that it can move customers from cluster delivery to first tokens generated in a little over six hours because machines are preconfigured and pretested at the factory. This, in fact, is what is hard about scaling up production of AI clusters. You have to build a massive datacenter to test machines in the factory before you put the gear on a truck. Only a dozen companies in the world – be they original design manufacturers (ODMs) or original equipment manufacturers (OEMs) who act like ODMs sometimes – can do this at scale. But to make this all work, and result in an invoice generating event for Dell, there are some other important steps. “Behind every customer engagement and every order is a rigorous due diligence process, resulting in a fully vetted backlog,” Jeff Clarke, vice chairman and chief operating officer at Dell, explained on the call with Wall Street going over the numbers. “Every AI order is vetted for access to capital, end customer quality, trade and export compliance and access to land and power. Each design is bespoke, optimized through multiple iterations with the customer. Through this tight collaboration, we know our customers well and have a high conviction that our backlog will convert to revenue.” This part of the process may be the most important of them all. Enthusiasm is easy in the age of GenAI. Getting the cash is the hard thing. Like many IT suppliers, whether they make chips or systems, Dell has largely become a company serving the datacenter thanks to the GenAI boom. This stands to reason given that GenAI has effectively doubled the size of the IT systems sector in a few short years with an entirely new computing architecture that organizations a"
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "date": "2026-11-25 22:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Megaspeed GPU 밀반출 스캔들: Jensen Huang과 규제 조사 계속",
+    "korean_summary": "TechCrunch가 Megaspeed의 NVIDIA GPU 중국 밀반출 혐의에 대한 미국 정부·의회·SEC의 조사 계속과 Jensen Huang 복직 후 규제 압력을 보도했다."
+   },
+   "summary_data": {
+    "korean_title": "Nvidia, Megaspeed 칩 밀수 의혹 조사에 계속 직면...Jensen Huang 복귀로도 해소 안 돼",
+    "korean_summary": "Jensen Huang CEO 복귀 이후에도 Nvidia는 고객사 Megaspeed를 통한 GPU의 중국 밀반출 의혹과 관련해 **California 검찰총장, 의회, SEC 등 다수 기관의 조사**에 직면해 있다.",
+    "action": {
+     "actor": "Nvidia",
+     "action": "Megaspeed向 GPU 수출통제 위반 의혹과 관련해 라이선스 칩의 중국 판매 중단, 최초 컴플라이언스 책임자 채용 및 수출통제 담당 이사회 위원회 신설 계획 발표",
+     "stage": "Report",
+     "timeline": "2024년 미 정부의 Megaspeed 조사 개시, 2025년 Singapore 조사 개시, 이번 주(최근) 미국의 Megaspeed 거래제한 명단 등재 및 Nvidia 대응 발표",
+     "scope": "Nvidia 고객사 Megaspeed(Singapore 기반 데이터센터 운영사) 및 Malaysia 데이터센터向 GPU 판매분"
+    },
+    "key_facts": [
+     "미 정부는 2024년 Megaspeed에 대한 조사를 시작했고, Malaysia 데이터센터용으로 구매된 칩 일부가 중국으로 전환됐을 가능성을 우려해 Nvidia에 대규모 매출 관련 정보를 요청했다.",
+     "미국은 지난 월요일 **Megaspeed와 계열사를 미국 무역 제한 명단에 추가**했으며, 미국은 지난주 미국산 칩을 구매하는 대형 데이터센터가 중국 등 문제국 고객에게 서비스를 제공하는 것을 금지하는 새 규정을 발표했다.",
+     "Nvidia는 라이선스 칩의 중국 판매를 중단하고 첫 컴플라이언스 책임자 채용 및 수출통제 전담 이사회 위원회 신설 계획을 밝혔다.",
+     "Nvidia 이사회는 월요일 '미국 정부 고위층의 입력'을 받은 후 Huang을 복귀시켰다고 밝혔으며, Trump 대통령은 해당 회의에 직접 전화로 참여해 확신을 줬다고 언급했다.",
+     "미 하원 3개 위원회가 다음 주 Huang과 Nvidia 최고법률책임자 Tim Teter를 비공개 인터뷰할 예정이며, Teter는 작년 상무부의 Megaspeed 조사에 개입한 것으로 보도됐다."
+    ],
+    "why_matters": "이번 사태는 **Nvidia의 수출통제 컴플라이언스 체계와 최고경영진의 법적 책임 범위**가 미 정부·의회·SEC·California 검찰 등 복수 기관의 동시다발적 조사 대상이 됨을 보여준다. AI 반도체 수요가 폭증하는 가운데 중국向 우회 수출 의혹은 Nvidia의 중국 매출 전략과 지정학적 리스크 관리 능력에 대한 신뢰를 흔들 수 있다.",
+    "subject_angle": "Nvidia는 중국向 라이선스 칩 판매 중단과 컴플라이언스 조직 신설로 **선제적 리스크 관리 체제 구축**에 나섰지만, CEO 개인 스캔들과 결합된 수출통제 의혹은 회사의 지정학적 중립성과 지배구조 신뢰도에 지속적 부담으로 작용할 전망이다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "GPU 공급사, 수출통제 위반 의혹의 중심 기업"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Singapore 기반 데이터센터 운영사, Nvidia GPU의 중국 밀반출 의혹 당사자"
+     },
+     {
+      "name": "U.S. Department of Justice / Attorney General Todd Blanche",
+      "context": "Megaspeed 조사 주체, Nvidia에 대한 조사 대상 여부 언급"
+     },
+     {
+      "name": "California Attorney General (Rob Bonta)",
+      "context": "Nvidia의 기업 공시 관련 조사 진행"
+     },
+     {
+      "name": "SEC",
+      "context": "Nvidia 공시 관련 조사 보도"
+     },
+     {
+      "name": "U.S. Congress",
+      "context": "Nvidia 및 Megaspeed 관련 비공개 청문 예정"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia advanced GPUs",
+      "role": "수출통제 대상 칩, 밀수 의혹의 핵심 제품"
+     }
+    ],
+    "watch_next": [
+     "SEC 및 California 검찰총장 조사의 구체적 진행 상황",
+     "하원 3개 위원회의 Jensen Huang 및 Tim Teter 비공개 인터뷰 결과",
+     "Nvidia의 신설 수출통제 이사회 위원회 및 컴플라이언스 책임자 선임 세부사항"
+    ]
+   },
+   "related": [],
+   "uid": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed",
+   "body": "Jensen Huang’s return as CEO to Nvidia hasn’t eased the scrutiny the company faces. The chipmaker still needs to address multiple inquiries into allegations that its advanced GPUs were smuggled into China by a customer, the Singapore-based data center operator Megaspeed, in violation of U.S. export rules designed to slow China’s development of frontier AI models. The central question for investigators is what Nvidia knew about where those chips ended up and whether Huang’s affair with a Megaspeed executive gave the company reason to doubt Megaspeed’s assurances. Huang’s return doesn’t settle that. U.S. Attorney General Todd Blanche has suggested Nvidia isn’t a target of an investigation, but California’s attorney general and Congress are pressing ahead, and the Securities and Exchange Commission is reportedly investigating, too. The U.S. government opened an investigation into Megaspeed in 2024 and requested information from Nvidia about its billions of dollars in sales to the company, concerned that some of the chips Megaspeed bought for data center projects in Malaysia were in fact being diverted to China. Singapore also began investigating similar allegations in 2025. Megaspeed has denied any wrongdoing. Diversion of this kind would be a fairly routine issue for a company like Nvidia, whose in-demand chips are the targets of smugglers and resellers. When it comes to compliance and liability for export-control violations, Nvidia and other chip sellers need assurances that the end users of their chips are obeying the rules. However, they also cannot ignore other information that might call the reliability of those assurances into question, export-control attorneys told TechCrunch. And that’s why Jensen Huang’s affair with Megaspeed executive Alice Huang was such a problem for Nvidia, likely even more so than her alleged role as a source for Chinese intelligence agencies. If Nvidia personnel, from lower-level employees up to the CEO, had reason to believe that statements from Megaspeed weren’t reliable, the attorneys said, that would increase the company’s legal risk. “Government investigators likely would want to know, notwithstanding whatever formal assurances were exchanged between the parties, what anyone at Nvidia actually knew about the end use and end users of the chips,” Dan Fisher-Owens, an attorney at the firm Berliner Corcoran & Rowe, told TechCrunch last week. The concern Nvidia’s board faced when it decided to oust Huang is that he knew more about what Megaspeed was doing with Nvidia’s products than was reflected in any of the compliance statements. The Wall Street Journal reported that Alice Huang and her husband, Kang Wei, were part of a network of businesses that funneled chips to a company in Shanghai. Kang also reportedly introduced his wife to Jensen Huang, whom he had known for a decade. On Monday, the U.S. government added Megaspeed and its affiliates to a list of companies restricted from U.S. trade due to national security "
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "category": "media",
+   "kind": "feed",
+   "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+   "date": "2026-11-26 00:41",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "NVIDIA의 엄격한 데이터센터 백스톱 정책으로 Neoclouds 건설 지연 및 차입금 비용 증가",
+    "korean_summary": "NVIDIA가 AI 데이터센터가 거의 준비될 때까지만 지원하는 정책으로 인해 neoclouds가 건설 지연과 더 비싼 차입금을 겪고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+   "body": "⁠Nvidia has made clear⁠ it won&#8217;t backstop an AI data center until it&#8217;s nearly ready to run, and that&#8217;s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. [&#8230;]"
+  },
+  {
+   "source": "전자신문",
+   "category": "kr",
+   "kind": "feed",
+   "title": "미 정보당국 “앨리스 황, 中 스파이 증거 없어”…젠슨 황 복귀 후 의회 기밀 브리핑",
+   "link": "https://www.etnews.com/20261126000226",
+   "date": "2026-11-26 11:22",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미 정보당국, Alice Huang의 중국 스파이 혐의 없다고 보고",
+    "korean_summary": "미 정보당국이 Jensen Huang CEO 복귀 직후 의회 기밀 브리핑에서 Alice Huang이 중국 스파이라는 증거가 없다고 보고했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.etnews.com/20261126000226",
+   "body": "미국 정보당국이 젠슨 황 엔비디아 최고경영자(CEO)와 불륜 관계였던 앨리스 황이 중국 정보기관 지시를 받아 스파이 활동을 했다는 증거는 없다고 의회에 보고했다는 보도가 나왔다. 월스트리트저널(WSJ)은 25일(현지시간) 이 같이 보도하며 브리핑은 도널드 트럼프 대통령이 복귀를 압박한 가운데 황 CEO가 복귀한 다음 날 열렸다고 전했다. 중앙정보국(CIA), 연방수사국(FBI), 국가정보국(DNI), 국가안보국(NSA) 당국자와 상·하원 정보위원회 위원, 양원 지도부 의원 보좌진이 참석했다. 소식통을 인용한 WSJ는 정보당국이 지금까지 확보한 증거는 두 사람 관계가 중국이 기획한 공작이 아닌 연애 관계였을 가능성을 시사한다고 전했다. 다만 새 정보가 나오면 평가가 달라질 수 있다는 지적도 나왔다. 당국자들은 중국 국가안전부가 앨리스 황에게 접근해 법적 의무라며 정보 제공을 요구했고, 앨리스 황이 관계를 이어가는 동안 접촉한 사실도 있다고 밝혔다고 WSJ는 전했다. 그러나 중요한 정보가 전달됐다는 징후는 파악되지 않았다. 남편으로 소개된 캉웨이는 국가안전부 정보원으로, 자주 접촉한 것으로 전해졌다. 정보당국은 황 CEO의 국가안보 위반 증거도 아직 없다고 통보했다. 정보당국 내 시각도 엇갈리는 것으로 알려졌다. 일부는 동기와 무관하게 정보를 조금이라도 넘겼다면 스파이라고 주장한다. 다른 쪽은 중국 기업 경영진이 보안기관 접촉을 강요받는 일이 흔해 연관성이 정황적 수준이라고 본다. 로이터통신은 트럼프 대통령의 복귀 추진 전에 법무부가 황 CEO를 공식 조사한 적이 없다고 보도했다. 토드 블랜치 법무장관은 슈퍼마이크로와 앨리스 황의 메가스피드에 대한 기존 수사를 토대로 법 위반 증거가 없다고 결론 낸 것으로 전해졌다. 추가 조사 부재는 의회의 조사 요구를 키울 전망이다. 황 CEO는 다음 주 정보위를 포함한 하원 위원회 3곳에서 비공개 면담을 하고, 상원 은행위원회 공개 청문회에도 출석한다. 권동준 기자 djkwon@etnews.com - 권동준 기자기사 더보기 - ET Events"
+  },
+  {
+   "source": "Google News · Reuters",
+   "category": "media",
+   "kind": "gnews",
+   "title": "How the Trump administration determined Jensen Huang is not a national security threat",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0IzSk1IWkpMeGFmZWlDR2RseE11U3ZSbXlIOGdQalJyOS1rakJjUUxYZDYwd2ZYZERTQTdNNTQzR1dVMmRwVU1KNmhxc2ZtOXhwczJJckVxT0dUSHJnZEJpUnp0MXVVX1VqSElzQkJLc25neHJEZEYzZ0R5LXdnb01hNGZaTFFrbEc3c1haRVZpUUFldnRZY3NqVmlSRGVNVEloQ1Q2Q29VQzlRSWxtSUdnVHNIUGVwZ2VuekdHS1I1UQ?oc=5",
+   "date": "2026-11-26 06:55",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Trump 행정부, Jensen Huang은 국가안보 위협 아니라고 판단",
+    "korean_summary": "Trump 행정부가 NVIDIA CEO Jensen Huang이 국가 안보 위협이 아니라고 결정했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0IzSk1IWkpMeGFmZWlDR2RseE11U3ZSbXlIOGdQalJyOS1rakJjUUxYZDYwd2ZYZERTQTdNNTQzR1dVMmRwVU1KNmhxc2ZtOXhwczJJckVxT0dUSHJnZEJpUnp0MXVVX1VqSElzQkJLc25neHJEZEYzZ0R5LXdnb01hNGZaTFFrbEc3c1haRVZpUUFldnRZY3NqVmlSRGVNVEloQ1Q2Q29VQzlRSWxtSUdnVHNIUGVwZ2VuekdHS1I1UQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The Nvidia Scandal Set Off a Chip Crackdown in Congress. Which Stocks Are Most at Risk?",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ080MUVCYUxiMVpjODdXWmJuX1hNbDFGMHVfUkk4d3ZjZlYzc1lrM0dUSTAxNWNlZ3prdTNnUWwtcGYxVFFGU3FYZXhrUDRuaEdwWlUyaUFkbEd1Y3loODBkQ1gzYXN4Y0lsb2dHckFLVGZTRmlGT3EtTm01N0pHWmMtdnBwT0R3OEpvenR6WWkwaks3elRz?oc=5",
+   "date": "2026-11-26 08:18",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA 스캔들이 미국 의회의 반도체 규제 강화를 견인",
+    "korean_summary": "NVIDIA 관련 스캔들이 의회의 칩 산업 규제 추진을 촉발했다는 분석이다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Google News · The Motley Fool",
+     "title": "The Nvidia Scandal Set Off a Chip Crackdown in Congress. Which Stocks Are Most at Risk?",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSmY3V2JoR0IzcVhFcDNDaVF2OHc0Nl95RzhESG5jQlV4ZHdMQnFoOVdlaTQ2STk0NGdYWG5MNnB1TDdKVEQzbVNEZjBGZXdUZjdjdHNKU0dYOVVybGlOMi00LWlPSjBMbjVjNnltektFRGJ1dDh6eUptR1B6VEp1V0lnSVdJVS0xa0hOT1Z5OVdGdGt1ZC1HNWd0d2MwZ1JqX2xCQ2VvcjdwYzAzTERVRVlJVUtmRWtHUC00cVVlampCME5kVVVZ?oc=5"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ080MUVCYUxiMVpjODdXWmJuX1hNbDFGMHVfUkk4d3ZjZlYzc1lrM0dUSTAxNWNlZ3prdTNnUWwtcGYxVFFGU3FYZXhrUDRuaEdwWlUyaUFkbEd1Y3loODBkQ1gzYXN4Y0lsb2dHckFLVGZTRmlGT3EtTm01N0pHWmMtdnBwT0R3OEpvenR6WWkwaks3elRz",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Chinese intel may have surveilled Alice Huang amid affair with Nvidia CEO, U.S. agencies tell Congress",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHo3bTZyVUtiZEd3N3p6d1YzM1F4eXhPcWxhNHZRSjVtdlk4SWlIdS14S3czTU1LWEZQNEkyelNITmJRVGpSdDNvTjZfSUtVZElnOWdmZTFfeHNpVzNFbzRPZGtmYVg5VlpCTnZpd2FFNkVZZG9kQm9nR0ltc250NE91TXVjeXBLanh5OS13Rm82VVZYa0hpRElYbnpqQ0li?oc=5",
+   "date": "2026-11-26 06:17",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "중국, NVIDIA CEO 가족 감시 혐의... 미국 의회에 보고",
+    "korean_summary": "미국 정보기관이 중국 정보기관의 NVIDIA CEO Jensen Huang 가족 감시 가능성을 미국 의회에 보고했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHo3bTZyVUtiZEd3N3p6d1YzM1F4eXhPcWxhNHZRSjVtdlk4SWlIdS14S3czTU1LWEZQNEkyelNITmJRVGpSdDNvTjZfSUtVZElnOWdmZTFfeHNpVzNFbzRPZGtmYVg5VlpCTnZpd2FFNkVZZG9kQm9nR0ltc250NE91TXVjeXBLanh5OS13Rm82VVZYa0hpRElYbnpqQ0li",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Inside Trump's effort to reinstate Jensen Huang as Nvidia's CEO",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tTWlzV2QtbGYtSlA0QmRDSnZLXzE5TXJqTFI4SXRJZF9hOVhmUERadW8taGZjdFllTDNYRnJIbExsMG1lWTJvYkFwTWN3bGJab19YaVlKcG11dHVBOFBqVFB3V0tIcHRVb0hPMFU1V1B6V1EzU0cyVW9B?oc=5",
+   "date": "2026-11-25 23:19",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "트럼프, Jensen Huang을 NVIDIA CEO로 복귀시키려는 움직임",
+    "korean_summary": "트럼프가 Jensen Huang을 NVIDIA CEO로 복귀시키려는 노력을 기울이고 있다고 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4tTWlzV2QtbGYtSlA0QmRDSnZLXzE5TXJqTFI4SXRJZF9hOVhmUERadW8taGZjdFllTDNYRnJIbExsMG1lWTJvYkFwTWN3bGJab19YaVlKcG11dHVBOFBqVFB3V0tIcHRVb0hPMFU1V1B6V1EzU0cyVW9B",
+   "body": ""
+  },
+  {
+   "source": "Google News · Financial Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "The investigations facing Nvidia and Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0I5bmdoZGlmd19QdGNNbG5mRnF1ejlpZ04xNG9iWFd5VFFwM1dYN0dSNC1pOUJkV2dGRnRTSnF5ejRRbHFNd0liMm5leHNfNFBWY01wQjRhNkRYSlRidWJTcENQSFJsOGhUcUlfZkJhajhfTjVMUzZiaHAtcGkxVjJIdG4?oc=5",
+   "date": "2026-11-25 20:25",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Nvidia와 Jensen Huang이 직면한 조사 현황",
+    "korean_summary": "Nvidia와 CEO를 대상으로 진행 중인 반독점 등 규제 조사 사항 종합 정리"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0I5bmdoZGlmd19QdGNNbG5mRnF1ejlpZ04xNG9iWFd5VFFwM1dYN0dSNC1pOUJkV2dGRnRTSnF5ejRRbHFNd0liMm5leHNfNFBWY01wQjRhNkRYSlRidWJTcENQSFJsOGhUcUlfZkJhajhfTjVMUzZiaHAtcGkxVjJIdG4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Mashable",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia ends Jensen Huang's hopes for return as CEO",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03QnFOcVdTcXE4Nmtyem9SSFZwY2tFcU9JdHh6dWVjMDJRWG9hQVhXZ0JjZUxJQVc3dThXVXBrMmVlWDViLVFvQkc3UW1sUGFmbmdkUTl4ZUdnU1Vabi0tVDVxakNZSVBPVG1LV2Rsd3R6Q0FuU0JER0JR?oc=5",
+   "date": "2026-11-26 00:44",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, Jensen Huang의 CEO 복귀 가능성 종료",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO로 복귀할 가능성이 더 이상 없음을 보도한 임원 변동 뉴스"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03QnFOcVdTcXE4Nmtyem9SSFZwY2tFcU9JdHh6dWVjMDJRWG9hQVhXZ0JjZUxJQVc3dThXVXBrMmVlWDViLVFvQkc3UW1sUGFmbmdkUTl4ZUdnU1Vabi0tVDVxakNZSVBPVG1LV2Rsd3R6Q0FuU0JER0JR",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Chenab Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Run NVIDIA Cosmos 3 Nano Locally with Hugging Face",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRG1zZVloSnhtYzV1LW1lS2RTMTEyOXFfTTl3OGhnVl9TWGJ5MnFzS3R5N3gtRE5BZ0xsYkthaXhsczJmdTB6LWpSSEZsRU9ZQVhaN0Rod2hqMG1ZM1VYbHRkZ1NITXZNUmZrNF9UN2dCS2dHYTE3VFNZSlR2c2EzM0RsLW9SbEVlQnQ1M0w3SU90LW1iYlVyVU1IeFNtY0NnMXdkZFVRTGhxd05oMk4tdjZ5ZEl4Mkh3cXR2bw?oc=5",
+   "date": "2026-11-25 18:22",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "NVIDIA Cosmos 3 Nano를 Hugging Face로 로컬에서 실행하기",
+    "korean_summary": "NVIDIA Cosmos 3 Nano 모델을 Hugging Face를 통해 로컬 환경에서 구동하는 방법 소개"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRG1zZVloSnhtYzV1LW1lS2RTMTEyOXFfTTl3OGhnVl9TWGJ5MnFzS3R5N3gtRE5BZ0xsYkthaXhsczJmdTB6LWpSSEZsRU9ZQVhaN0Rod2hqMG1ZM1VYbHRkZ1NITXZNUmZrNF9UN2dCS2dHYTE3VFNZSlR2c2EzM0RsLW9SbEVlQnQ1M0w3SU90LW1iYlVyVU1IeFNtY0NnMXdkZFVRTGhxd05oMk4tdjZ5ZEl4Mkh3cXR2bw",
+   "body": ""
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "category": "official",
+   "kind": "feed",
+   "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+   "link": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+   "date": "2026-11-26 04:30",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Software-SDK",
+    "is_focus": false,
+    "signal_tags": [
+     "sdk-release"
+    ],
+    "korean_title": "NVIDIA Blackwell에서 NVFP4 Attention 최적화: 레지스터 재활용 기법",
+    "korean_summary": "NVIDIA 기술 팀이 Blackwell GPU의 FlashAttention4를 통한 Attention 메커니즘의 레지스터 재활용 최적화 기법을 기술 블로그에서 소개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling",
+   "body": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and... Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and NVIDIA Blackwell data center GPUs, FlashAttention3 and FlashAttention4 improve attention performance by overlapping matrix multiply-accumulate (MMA) operations through softmax within a thread block. However… Source"
+  },
+  {
+   "source": "DataCenterDynamics",
+   "category": "media",
+   "kind": "feed",
+   "title": "Stratum Holdings and Ocean Power Technologies partner on offshore data centers",
+   "link": "https://www.datacenterdynamics.com/en/news/stratum-holdings-and-ocean-power-technologies-partner-on-offshore-data-centers/",
+   "date": "2026-11-25 21:50",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership"
+    ],
+    "korean_title": "Stratum, Nvidia B300으로 해상 AI 데이터센터 개발 추진",
+    "korean_summary": "Stratum Holdings와 Ocean Power Technologies가 신재생 에너지 기반 해상 데이터센터 개발을 위해 Nvidia B300 GPU 활용을 검토 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.datacenterdynamics.com/en/news/stratum-holdings-and-ocean-power-technologies-partner-on-offshore-data-centers",
+   "body": "Stratum Holdings and Ocean Power Technologies (OPT) have signed an agreement to explore the development of offshore data centers powered by renewable wave, wind, and solar energy. The two companies are set to begin the first phase of their joint work, looking into defined work on combining OPT’s PowerBuoy technology with Stratum’s high-performance GPU infrastructure, including Nvidia B300 GPUs. OPT's PowerBuoy is a platform that delivers renewable power and real-time data communications for remote maritime and subsea applications OPT will conduct a comprehensive technical and commercial feasibility assessment to evaluate the potential for deploying Stratum’s GPU infrastructure on its PowerBuoy platforms, including power generation and storage requirements, thermal management, communications capabilities, platform integration, and potential deployment locations. The first phase of the partnership covers feasibility and planning only, and does not include equipment fabrication, GPU integration, offshore deployment, or at-sea testing. Industries targeted by the platform include defense and security, oil and gas, environmental monitoring, and scientific exploration. “This agreement takes our collaboration with OPT from a letter of intent to defined work, with a path toward a demonstration at sea,” said Nicholas H. Adler, CEO of Stratum Holdings. “Demand for AI computing is growing faster than the power and cooling available on land, and the industry is beginning to look offshore. We believe pairing our Nvidia B300 GPUs with OPT’s PowerBuoy platform, which generates its own renewable power in a natural cooling environment, could give Stratum a differentiated position in this emerging market. The feasibility assessment is designed to give us the technical and commercial roadmap to pursue it.” “Advancing into this initial phase allows us to take a more detailed look at the technical and commercial requirements for combining our PowerBuoy technology with Stratum’s GPU infrastructure,” added Tracy Pagliara, acting president and CEO of Ocean Power Technologies. “Our focus will be on evaluating the power, thermal management, and communications capabilities necessary to support offshore AI computing and establishing a foundation for a potential demonstration program.” Stratum was formerly a real estate business and was named La Rosa Holdings Corp., but sold off its legacy real estate operations earlier this month to focus on its AI cloud business. In October, Stratum acquired Nvidia B300 GPUs and placed them under a long-term leasing arrangement designed to generate recurring revenue. It is unclear what scale the cluster is operating at. The company is headquartered in Celebration, Florida. Several companies are exploring the possibility of floating data centers. Optimal Transit has pitched a \"Kraaken\" floating data center that is self-powered. Keppel has started work on a 25MW floating facility in Singapore, due to come online in 2028, while US-based Pantha"
+  },
+  {
+   "source": "Google News · The Washington Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcDJ0UmNqUTc2UWNoaVh0STB6ZHRZTnV6WGVPX2Q0VDhmRWU4Wk5hV2lZMTZOZUV4ZEwzOVBnVmVtbnB0eXlpekIyMVF5cG91WmVxLTNIeWx1MzhLN3czOHFLbFRuVTdYRUIwdk4zMTlfcEtLb2J3Y1lQM0l1OTREU2p5UzBxaXI5aExoOGlyUVctZlJZcllacVRzTU9zVXlNaVVMNThZRE85NWdlaEo2WUJKd3FtTVBRZ00xU0l0V2tMLTRiLUE?oc=5",
+   "date": "2026-11-26 12:16",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "Pentagon, 전시법을 통한 NVIDIA CEO 재임명 고려",
+    "korean_summary": "Pentagon 관계자들이 국방부 전시법을 사용하여 NVIDIA CEO를 재임명할 가능성을 제시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcDJ0UmNqUTc2UWNoaVh0STB6ZHRZTnV6WGVPX2Q0VDhmRWU4Wk5hV2lZMTZOZUV4ZEwzOVBnVmVtbnB0eXlpekIyMVF5cG91WmVxLTNIeWx1MzhLN3czOHFLbFRuVTdYRUIwdk4zMTlfcEtLb2J3Y1lQM0l1OTREU2p5UzBxaXI5aExoOGlyUVctZlJZcllacVRzTU9zVXlNaVVMNThZRE85NWdlaEo2WUJKd3FtTVBRZ00xU0l0V2tMLTRiLUE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia May Get A Credit Rating Cut Amid Governance Issues, While US Officials Reportedly Say No Chinese Interference in Huang’s Affair",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY3ZtZHhkeHN4b3hhRDhaRUJGSTFzSHBFTzVTT1MtWWNFeEpnaVY5Um9SS19IMk5HaHN5cXZia3hhS0s4d2RHM2ZMd2ZQaEhVTVE2MGJ3S3huZzVraFZqV2NPT1NxWUl1YmVZMU85c01pTE53amFQN1lWaENKUWpTUUFmOXBERFJKX1AzUXN2TVIxQXA0dzloNA?oc=5",
+   "date": "2026-11-26 07:26",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA, 거버넌스 문제로 신용 등급 하락 우려",
+    "korean_summary": "NVIDIA가 거버넌스 문제로 신용 등급 하락 가능성이 제기되었으나 미국 관계자들은 중국 개입을 부인했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY3ZtZHhkeHN4b3hhRDhaRUJGSTFzSHBFTzVTT1MtWWNFeEpnaVY5Um9SS19IMk5HaHN5cXZia3hhS0s4d2RHM2ZMd2ZQaEhVTVE2MGJ3S3huZzVraFZqV2NPT1NxWUl1YmVZMU85c01pTE53amFQN1lWaENKUWpTUUFmOXBERFJKX1AzUXN2TVIxQXA0dzloNA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump Floats an Intel-Style Nvidia Stake. 10% Would Cost the Government $375 Billion",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnpscWdLQVRpOHNrVnh2N3ZtOHB6Ym0xNDdrMTFoTTdFU1RaeWh5WkFIcGhpSVNwYzEwcmFOQ3B1Q0ozc1hmck5jbDZuSmQ2TUlzVU5tdEZscnhUcHlhTEozck9QRXQ3ZkpxbGFYWGxDUXA3eGVZRU5id0N6eWhsZE13VVFIMGJqdUxmSlBXUjFkRlpPVGhvRTFkX0E?oc=5",
+   "date": "2026-11-25 23:28",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "investment"
+    ],
+    "korean_title": "Trump, NVIDIA 정부 지분 인수 가능성 제시",
+    "korean_summary": "Trump이 미국 정부의 NVIDIA 10% 지분 인수 가능성을 제시했으며, 이는 약 3,750억 달러 규모이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQnpscWdLQVRpOHNrVnh2N3ZtOHB6Ym0xNDdrMTFoTTdFU1RaeWh5WkFIcGhpSVNwYzEwcmFOQ3B1Q0ozc1hmck5jbDZuSmQ2TUlzVU5tdEZscnhUcHlhTEozck9QRXQ3ZkpxbGFYWGxDUXA3eGVZRU5id0N6eWhsZE13VVFIMGJqdUxmSlBXUjFkRlpPVGhvRTFkX0E",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Guardian",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Democrats say Trump risked US security over Nvidia as Huang apologises | First Thing",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHZXMzJpdEV5LXVLYTJUaUt1aU90WnhDS05sWWV1Q056bDVORU1fNjFhZFd3TUUyM2RfTVhYSWdqOFFPNl9ha3hyaE96Z0VDQWFyRXVVMnR3T1hyUmp0NkVJYnZHejY0V29YbVFOVFVtRTEzM3k3cTJsSnlnZi1URGt0cHF5Y0RYb0ZnMURhQU1fekt6RVdPbThmUWpDcTJZZHRTTHBVd0h1d1RZelV5VlpYUnFrWWI3Z1E?oc=5",
+   "date": "2026-11-26 09:15",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "민주당, Trump의 Nvidia 관련 정책이 미 안보 위협했다고 주장",
+    "korean_summary": "미국 민주당이 Trump 행정부의 Nvidia CEO 관련 정책을 국가 안보 위협으로 비판"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWHZXMzJpdEV5LXVLYTJUaUt1aU90WnhDS05sWWV1Q056bDVORU1fNjFhZFd3TUUyM2RfTVhYSWdqOFFPNl9ha3hyaE96Z0VDQWFyRXVVMnR3T1hyUmp0NkVJYnZHejY0V29YbVFOVFVtRTEzM3k3cTJsSnlnZi1URGt0cHF5Y0RYb0ZnMURhQU1fekt6RVdPbThmUWpDcTJZZHRTTHBVd0h1d1RZelV5VlpYUnFrWWI3Z1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · Snopes.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Did Russia use Nvidia hardware in drone that killed civilians in Ukraine? What we know",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xRHdUN1ZCV0JlUVkwZl9JZnF2Y2VDQXhxUWh1R2t1V1EtcFhGeFgxNm4yR3JQZGo3cm9QNDR5Q3UtcmFwN2dtS2hOMmMzZWRXdThKWGIwbjF6aUF4MnBmU1ZLZ0U5anBYLUozcjBHNDBIWXhxcXc?oc=5",
+   "date": "2026-11-26 09:09",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "러시아군, 우크라이나 무인기에 Nvidia 하드웨어 사용했나?",
+    "korean_summary": "우크라이나에서 민간인 피해를 낸 무인기에 Nvidia 하드웨어 사용 가능성 사실 검증"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xRHdUN1ZCV0JlUVkwZl9JZnF2Y2VDQXhxUWh1R2t1V1EtcFhGeFgxNm4yR3JQZGo3cm9QNDR5Q3UtcmFwN2dtS2hOMmMzZWRXdThKWGIwbjF6aUF4MnBmU1ZLZ0U5anBYLUozcjBHNDBIWXhxcXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · NBC News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "S&P threatens to slash Nvidia's credit ratings over Jensen Huang's comeback",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQanVNR3BYYlNxclVsZVg4MGJGTElkb0lnano2dmRPSmM3RWoyY0dNYzQwRXFMY3RfYXBKUW5XVGFlX1duV3NROTBDemJseVRwVkVQbjllc2d1LUxlX09nWDNPeUM1eW5xMDJBcFVlWDdXaG1qd1lKQ2lJSkFWMzg4aTA2VE5DVnJrb3Z3dlZkUVphNkVZSFBuc20tdkh5ZUY3VnZCZWNOME1tUlVmeVpEelAya1dOV1FEOXc?oc=5",
+   "date": "2026-11-26 07:59",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "S&P, Nvidia CEO 복귀에 따른 신용등급 인하 위협",
+    "korean_summary": "S&P가 Jensen Huang CEO 복귀에 대응하여 Nvidia 신용등급 인하 가능성 제시"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQanVNR3BYYlNxclVsZVg4MGJGTElkb0lnano2dmRPSmM3RWoyY0dNYzQwRXFMY3RfYXBKUW5XVGFlX1duV3NROTBDemJseVRwVkVQbjllc2d1LUxlX09nWDNPeUM1eW5xMDJBcFVlWDdXaG1qd1lKQ2lJSkFWMzg4aTA2VE5DVnJrb3Z3dlZkUVphNkVZSFBuc20tdkh5ZUY3VnZCZWNOME1tUlVmeVpEelAya1dOV1FEOXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Is Nvidia Stock a Buy After Dell's Record AI Backlog?",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM3hDamlaQlMzcEMxSkF2UjNoc2w2YTNhcFhOc0VRa21iYUpjTEoyeVNMc01xNzdzc0U4bTdDYlByYmF0UlJDX3N0a3RMWThCTWNkRUQ0REhfYkNLVkk1Nkg5QU1TZlZET3luWndSYmZORzVIWUY5bFFqbk95NFY0cURQRjZ1SXk0bFk3RGpFUUxzb2EtdkFQdFJZRQ?oc=5",
+   "date": "2026-11-26 11:47",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Dell의 기록적 AI 백로그 이후 NVIDIA 주식, 매수 가치 있나?",
+    "korean_summary": "Dell의 AI 주문 대규모 증가를 배경으로 NVIDIA 주식의 투자 가치를 평가하는 의견"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM3hDamlaQlMzcEMxSkF2UjNoc2w2YTNhcFhOc0VRa21iYUpjTEoyeVNMc01xNzdzc0U4bTdDYlByYmF0UlJDX3N0a3RMWThCTWNkRUQ0REhfYkNLVkk1Nkg5QU1TZlZET3luWndSYmZORzVIWUY5bFFqbk95NFY0cURQRjZ1SXk0bFk3RGpFUUxzb2EtdkFQdFJZRQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Donald Trump Floats Jensen Huang Pardon, US Stake In Nvidia – But NVDA Loses Momentum",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEpCRmFDSmwtRXJySFduSTVNdkVhc1ZlTlNHQXBGQlZnenhOazZRUGlIT1R0bXpFTlJPUkV1bTFmTjhzZG1nSEJCMVpleDd2SS15QXpRSl95Z21rVVNWOWNNdEpNSXQwQ09MRlpyQko4R0dQd3VJZFdvUzRGbUZtYy1VX1JjU2tqOEtCTGNhdDJ3dC1EQlVSVURHRFJFQQ?oc=5",
+   "date": "2026-11-25 14:20",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Donald Trump, Jensen Huang 사면과 NVIDIA 미국 지분 언급... 주가 모멘텀 하락",
+    "korean_summary": "Donald Trump가 Jensen Huang 사면과 NVIDIA 미국 지분 보유 가능성을 제시한 가운데 주가 모멘텀 약화"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZEpCRmFDSmwtRXJySFduSTVNdkVhc1ZlTlNHQXBGQlZnenhOazZRUGlIT1R0bXpFTlJPUkV1bTFmTjhzZG1nSEJCMVpleDd2SS15QXpRSl95Z21rVVNWOWNNdEpNSXQwQ09MRlpyQko4R0dQd3VJZFdvUzRGbUZtYy1VX1JjU2tqOEtCTGNhdDJ3dC1EQlVSVURHRFJFQQ",
+   "body": ""
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "category": "official",
+   "kind": "feed",
+   "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
+   "link": "https://www.youtube.com/shorts/5_peDo1mukg",
+   "date": "2026-11-26 01:00",
+   "score": 4,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "automotive"
+    ],
+    "korean_title": "Alpamayo: 산 등반과 자율주행 안전성의 연결",
+    "korean_summary": "NVIDIA가 자율주행·로보택시 AI 생태계인 Alpamayo와 산 등반의 위험 관리 유사성을 연결한 마케팅 콘텐츠를 YouTube에서 공개했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 자율주행 AI 플랫폼 'Alpamayo'를 안데스 봉우리 등반 스토리로 소개",
+    "korean_summary": "NVIDIA가 자사 엔지니어의 Alpamayo 봉 등반 경험을 통해 동명의 자율주행·로보택시용 AI 생태계 'Alpamayo'가 지향하는 '안전'이라는 핵심 가치를 브랜드 스토리텔링으로 전달했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "자율주행/로보택시용 AI 플랫폼 Alpamayo를 등반 테마의 브랜드 스토리로 소개",
+     "stage": "N/A",
+     "timeline": "미확인",
+     "scope": "자율주행차·로보택시 대상 Alpamayo 생태계 전반, 세부 고객·지역 미확인"
+    },
+    "key_facts": [
+     "Alpamayo는 **자율주행차와 로보택시를 위한 reasoning vision-language-action(VLA) AI 모델, 시뮬레이션 툴, 데이터셋으로 구성된 NVIDIA의 오픈 생태계**",
+     "NVIDIA Principal Software Systems Engineer Rez Nemati가 페루 안데스의 유명 봉우리 Alpamayo를 등반",
+     "영상은 산 등반과 자율주행 기술이 공통적으로 '준비, 신중한 판단, 고위험 상황에서의 다층적 보호'를 요구한다는 **공유된 안전(safety) 가치**를 강조",
+     "구체적 출시 일정, 성능 수치, 파트너사 언급은 본문에 없음"
+    ],
+    "why_matters": "자율주행·로보택시 시장에서 안전성은 기술 신뢰도와 규제 통과의 핵심 변수이며, NVIDIA는 Alpamayo를 통해 **'안전을 중심으로 설계된 오픈 AI 생태계'라는 브랜드 메시지**를 강화하고 있다. 이는 경쟁사(Waymo, Tesla FSD, Mobileye 등) 대비 신뢰성·투명성을 차별화 포인트로 삼으려는 커뮤니케이션 전략으로 해석될 수 있다.",
+    "subject_angle": "NVIDIA는 하드웨어 공급사에서 **자율주행용 reasoning VLA 모델·시뮬레이션·데이터셋을 통합 제공하는 오픈 생태계 사업자**로 포지셔닝을 확대하고 있으며, 이번 콘텐츠는 기술 안전성에 대한 신뢰 구축을 목표로 한 브랜드 내러티브 전략이다.",
+    "focus_angle": "자동차 OEM과 로보택시 사업자 입장에서는 Alpamayo가 자율주행 의사결정 스택의 '안전성·판단 신뢰도'를 어떻게 구현하는지가 채택 여부의 핵심 판단 기준이 되며, 향후 **휴머노이드 로봇 등 고위험 자율 의사결정이 요구되는 영역으로도 동일한 reasoning VLA 접근이 확장될 가능성**을 시사한다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Alpamayo 생태계 개발사, 영상 제작 및 공개 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "Alpamayo",
+      "role": "자율주행차·로보택시용 reasoning VLA AI 모델, 시뮬레이션 툴, 데이터셋 오픈 생태계"
+     }
+    ],
+    "watch_next": [
+     "Alpamayo의 구체적 출시 일정 및 상용화 로드맵 공개 여부",
+     "자동차 OEM·로보택시 사업자와의 실제 파트너십 또는 적용 사례 발표",
+     "Alpamayo 기술이 휴머노이드 로봇 등 비(非)차량 자율 시스템으로 확장되는지 여부"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.youtube.com/shorts/5_peDo1mukg",
+   "body": "When principal software systems engineer Rez Nemati set out to scale Alpamayo, the famed pyramidal peak in the Peruvian Andes, he realized the mountain shares more than just a name with NVIDIA’s open ecosystem of reasoning vision-language-action AI models, simulation tools, and datasets for autonomous vehicles and robotaxis. Both demand preparation, careful decisions, and layers of protection when the stakes are high. Follow his climb to explore the connection between mountain and machine."
+  }
+ ],
+ "releases": [
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-Labs-Image-30B-A3B (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-Labs-Image-30B-A3B",
+   "date": "2026-11-26 03:57",
+   "score": 4,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-Labs-Image-30B-A3B",
+    "version": "text-to-image"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-Labs-VisualCreation: 에이전트 시각 생성 프레임워크",
+    "korean_summary": "NVIDIA가 웹페이지·문서·차트 생성을 위한 Nemotron-Labs-VisualCreation의 Pixel as Code 프레임워크를 Hugging Face에 공개했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-Labs-Image-30B-A3B:2026-11-26",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-to-image · library: transformers · tags: transformers, safetensors, nemotron_h, text-generation, nvidia, nemotron, image-generation, nvidia-license, text-to-image, custom_code, arxiv:2610.38095, arxiv:2606.15007 · downloads 218 · likes 175. README:  Nemotron-Labs-VisualCreation Pixel as Code for Agentic Visual Creation Overview · Showcase · Harness · Results · Release Plan · Image Model · Authors ## Model Overview **Nemotron-Labs-VisualCreation** is an agentic framework for creating expressive raster images and editable visual artifacts, including webpages, presentations, documents, charts, and scientific figures. Its **Pixel as Code** interface connects learned visual tokens and explicit programs through generation, rendering, and visual inspection. The framework combines a Nemotron-native harness with specialized components for visual tokenization, autoregressive image generation, and structured visual coding. **Nemotron-Labs-Image-30B-A3B is its raster image-generation component.** The initial model release covers the image generator and its bundled visual tokenizer. Figure 1 from the paper. Raster appearance and editable structure share a generation-and-rendering interface. ### Key Design - **Represent appearance and structure.** Discrete visual tokens capture raster content. SVG, HTML/CSS, plotting programs, and document markup expose editable text, geometry, and layout. Hybrid artifacts combine generated images with explicit structure. - **Plan for the deliverable.** Routing selects the artifact family, representation, rendering backend, and asset policy. Structured and hybrid requests additionally establish a layout contract. - **Use rendered evidence.** Visual selection chooses among raster candidates. Browser-b"
+  },
+  {
+   "source": "Hugging Face",
+   "category": "release",
+   "kind": "hf",
+   "title": "nvidia/Nemotron-3.5-Rerank-1B-BF16 (업데이트)",
+   "link": "https://huggingface.co/nvidia/Nemotron-3.5-Rerank-1B-BF16",
+   "date": "2026-11-26 07:05",
+   "score": 3,
+   "is_focus": false,
+   "is_release": true,
+   "release": {
+    "type": "HF·업데이트",
+    "name": "nvidia/Nemotron-3.5-Rerank-1B-BF16",
+    "version": "text-ranking"
+   },
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Research-Models",
+    "is_focus": false,
+    "signal_tags": [
+     "model-release"
+    ],
+    "korean_title": "Nemotron-3.5-Rerank-1B-BF16 모델 업데이트",
+    "korean_summary": "NVIDIA의 Nemotron 텍스트 리랭킹 모델이 Hugging Face에서 멀티모달 RAG 파이프라인 최적화를 위해 업데이트되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "hf:nvidia/Nemotron-3.5-Rerank-1B-BF16:2026-11-26",
+   "body": "Hugging Face 모델 업데이트. pipeline: text-ranking · library: sentence-transformers · tags: sentence-transformers, safetensors, mistral3, text-classification, reranker, cross-encoder, visual-document-retrieval, multimodal reranking, semantic-search, rag, transformers, vllm · downloads 894 · likes 4. README:  **NVIDIA Nemotron 3.5 Rerank** &nbsp; &nbsp; &nbsp; # Nemotron-3.5-Rerank-1B-BF16 Overview ## Description: **Nemotron-3.5-Rerank-1B-BF16** was developed by NVIDIA for multilingual and multimodal question-answering retrieval. It is a world-class reranker optimized to produce a logit representing the relevance of a document to a text query. Documents may contain text, page images, or both, including charts, tables, and infographics. The model can be integrated into classical or agentic vision Retrieval-Augmented Generation (RAG) pipelines. For text retrieval, the model was evaluated across 34 languages: English, Arabic, Assamese, Bengali, Bulgarian, Chinese, Danish, Dutch, Finnish, French, German, Hindi, Hinglish, Indonesian, Italian, Japanese, Korean, Malay, Marathi, Nepali, Norwegian, Persian, Portuguese, Romanian, Russian, Spanish, Swahili, Swedish, Tamil, Telugu, Thai, Ukrainian, Urdu, and Vietnamese. For image retrieval, it was evaluated across 18 languages: Arabic, Bengali, Chinese, English, Persian, Finnish, French, German, Hindi, Indonesian, Japanese, Korean, Russian, Spanish, Swahili, Telugu, Thai, and Yoruba. The model may support additional languages beyond these evaluation sets. This model is ready for commercial or non-commercial use. ### License/Terms of Use: **Governing Download Terms:** Use of the model is governed by the [OpenMDW License Agreement, version 1.1 (OpenMDW-1.1)](https://openmdw.ai/license/1-1/). **Additional Information:** The [Ministral-3-3B-Inst"
+  }
+ ],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 4,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 2,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 2.1
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.3
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 86,
+   "in_window": 3,
+   "enriched": 2,
+   "error": "",
+   "sec": 1.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 8,
+   "enriched": 6,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 10,
+   "enriched": 0,
+   "error": "",
+   "sec": 151.2
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 1.5
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 28,
+   "enriched": 28,
+   "error": "",
+   "sec": 9.6
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 5,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 14,
+   "error": "",
+   "sec": 3.3
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 29,
+   "error": "",
+   "sec": 18.5
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 19,
+   "error": "",
+   "sec": 4.6
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 40,
+   "enriched": 40,
+   "error": "",
+   "sec": 3.0
+  },
+  {
+   "source": "Hacker News",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "HTTPSConnectionPool(host='hnrss.org', port=443): Read timed out. (read timeout=20)",
+   "sec": 20.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/nvidia/new/.rss",
+   "sec": 0.1
+  }
+ ]
+}
