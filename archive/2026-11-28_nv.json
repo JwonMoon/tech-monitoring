@@ -1,0 +1,1877 @@
+{
+ "subject": "nvidia",
+ "date": "2026-11-28",
+ "window": [
+  "2026-11-27",
+  "2026-11-28"
+ ],
+ "generated": "2026-11-28T12:25:15+09:00",
+ "models": {
+  "stage1": "haiku",
+  "stage2": "sonnet"
+ },
+ "top3": [
+  "NVIDIA가 2027 회계연도 **Physical AI** 부문 매출 250억 달러 초과를 가이던스하며 로봇·자동차向 성장 기대를 높였다.",
+  "NVIDIA가 1,300억 달러 수익 가이던스와 함께 1,500억 달러 규모의 **자사주 매입** 계획을 추가 발표했다.",
+  "LG 구광모 회장이 NVIDIA와의 **로봇공학** 협력을 미국 테네시 지역으로 확대하며 산업용 AI 로봇 생태계를 강화했다."
+ ],
+ "cards": [
+  {
+   "source": "IT조선",
+   "category": "kr",
+   "kind": "feed",
+   "title": "엔비디아 GPU 공급 제한 확대…中 기업 우회 확보 제동",
+   "link": "https://it.chosun.com/news/articleView.html?idxno=3000000002007",
+   "date": "2026-11-28 00:49",
+   "score": 10,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Regulation-Policy",
+    "is_focus": true,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA GPU 공급 제한 확대, 중국 기업 우회 확보 차단",
+    "korean_summary": "NVIDIA 칩 판매상들이 네오클라우드 업체의 GPU 공급을 중단하고 중국 기업 우회 확보를 제동했다."
+   },
+   "summary_data": {
+    "korean_title": "엔비디아 GPU 공급망, 中 우회 차단 위해 네오클라우드 규제 확대",
+    "korean_summary": "엔비디아 칩 판매상들이 미국의 대중 수출 규제 강화에 맞춰 중국 기업을 고객으로 둔 네오클라우드 업체에 대한 GPU 공급을 중단하고 동남아 4개국 AI 서버 출하도 중단했다.",
+    "action": {
+     "actor": "NVIDIA 칩 판매상(리셀러)",
+     "action": "중국 기업에 컴퓨팅 용량을 임대하는 네오클라우드 업체에 GPU 판매 중단 통보, 동남아 4개국 AI 서버 출하 중단",
+     "stage": "Report",
+     "timeline": "미확인",
+     "scope": "중국 기업을 고객으로 둔 네오클라우드 업체 전체, 동남아시아 4개국"
+    },
+    "key_facts": [
+     "**미국이 중국 대상 수출 규제를 강화**하면서 중국 기업의 GPU 확보가 어려워짐",
+     "엔비디아 칩 판매상들이 중국 기업에 컴퓨팅 용량 일부라도 임대하는 네오클라우드 업체에 **칩 구매 금지를 통보**",
+     "기존 정책은 GPU 용량의 50% 이상을 중국 기업에 임대하는 업체에만 칩 판매를 제한했음 (본문 중단)",
+     "동남아시아 4개국에 대한 AI 서버 출하도 중단된 것으로 알려짐",
+     "출처는 CNBC 등 외신 보도"
+    ],
+    "why_matters": "**기존 50% 임대 기준에서 '일부라도'로 규제 범위가 크게 확대**되면서 중국 기업의 우회 GPU 확보 경로가 실질적으로 막히게 된다. 이는 글로벌 AI 반도체 공급망에서 지역별 접근성 차등이 심화되고 있음을 보여주는 신호다.",
+    "subject_angle": "NVIDIA는 **자사 칩이 직접 규제 대상이 되는 리스크를 줄이기 위해 유통망(리셀러·네오클라우드) 차원의 자율 통제를 강화**하는 모습이며, 이는 미중 기술 패권 경쟁 속에서 매출 리스크 관리와 규제 준수 사이의 균형을 맞추려는 전략으로 해석된다.",
+    "focus_angle": "자율주행 및 휴머노이드 로봇 학습에 필수적인 고성능 GPU 컴퓨팅 자원이 중국계 기업에 제한되면, 중국 OEM·로봇 기업들은 자국산 가속기나 우회 경로 확보에 더 의존하게 되고, 글로벌 완성차·로봇 기업의 AI 학습 인프라 접근성 격차가 지역별로 더 커질 수 있다.",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "GPU 제조사, 칩 판매상 통해 간접적으로 공급망 통제"
+     },
+     {
+      "name": "미확인(네오클라우드 업체)",
+      "context": "GPU 공급 중단 대상, 중국 기업에 컴퓨팅 용량 임대"
+     },
+     {
+      "name": "CNBC",
+      "context": "보도 출처"
+     }
+    ],
+    "products": [
+     {
+      "name": "NVIDIA GPU",
+      "role": "수출 규제 및 공급 제한 대상 핵심 제품"
+     },
+     {
+      "name": "AI 서버",
+      "role": "동남아 4개국 출하 중단 대상 제품"
+     }
+    ],
+    "watch_next": [
+     "동남아 4개국 AI 서버 출하 중단의 구체적 국가명·기간 확인",
+     "네오클라우드 업체에 대한 신규 기준('일부 임대 금지')의 공식 발효 시점 확인",
+     "중국 기업의 대체 공급처(자국산 AI 칩 등) 전환 동향"
+    ]
+   },
+   "related": [],
+   "uid": "https://it.chosun.com/news/articleView.html?idxno=3000000002007",
+   "body": "미국이 중국 대상 수출 규제를 강화하면서 중국 기업의 그래픽처리장치(GPU) 확보가 한층 어려워지고 있다. 엔비디아 칩 판매상들은 중국 기업을 고객으로 둔 네오클라우드 업체에 GPU 공급을 중단하겠다고 통보했다. 동남아시아 4개국에 대한 인공지능(AI) 서버 출하도 중단한 것으로 알려졌다.CNBC등 외신에 따르면 엔비디아 칩 판매상들은 네오클라우드 업체들에 컴퓨팅 용량의 일부라도 중국 기업에 임대하면 엔비디아 칩을 구입할 수 없다고 통보한 것으로 알려졌다. 기존 정책은 GPU 용량의 50% 이상을 중국 기업에 임대하는 업체에 칩 판"
+  },
+  {
+   "source": "Google News · Dataconomy",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Expects Physical AI Revenue To Top $25 Billion In Fiscal 2027",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUR6NURlUWd5S01YbXFwSzFvRVNOS1gzOExEUkwzSmFCS1VOdkM0cklhUHR5dFcwelN2Mkw4Uk55U1VEcXhrcmhmR1NmWmh1WnRPQlh2S3R0U3FvOXdkN0RVN1VjRU9BM0xpZjNiU25iQjFwZU1pbTNldmNfVjBScDdvM0JKRzFMdWZtYkdfN3lhc0o1?oc=5",
+   "date": "2026-11-28 01:27",
+   "score": 9,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA 2027 회계연도 Physical AI 매출 250억 달러 이상 가이던스",
+    "korean_summary": "NVIDIA가 2027 회계연도 Physical AI 부문 매출이 250억 달러를 초과할 것으로 가이던스했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcUR6NURlUWd5S01YbXFwSzFvRVNOS1gzOExEUkwzSmFCS1VOdkM0cklhUHR5dFcwelN2Mkw4Uk55U1VEcXhrcmhmR1NmWmh1WnRPQlh2S3R0U3FvOXdkN0RVN1VjRU9BM0xpZjNiU25iQjFwZU1pbTNldmNfVjBScDdvM0JKRzFMdWZtYkdfN3lhc0o1",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Motley Fool",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Forecast $130 Billion in Revenue and Added $150 Billion to Its Buyback. Should You Buy the Stock?",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc0pTZDVoR01raXhlSWRKYjI0MVFzQWFBREt0UzUxQkVBaS16bVZrZWNtcE5xVnhpZnFSSGNWbmRjMkdFTGZIdGlvRFVUTWp1NFctYTdCT00yc19DNm9VX3RxN2JuVVNEc1o2YlFRRGgxb0xESlZkSkpCQ0ZBQWI3YW43SnUyTWRNd2Rnd0MwcHhGd1F0UVpUN1NpV1lqNUNEZmpURnM2S3V6dU4wM1FjYzZrY3R1Q245Mk1UcW1HQ3ZrU0FnUzdqdm1QekVJQ1FRMVZMUjhmSHlrM2pfQkQ2a3lqZw?oc=5",
+   "date": "2026-11-27 19:00",
+   "score": 9,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 9,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance",
+     "investment"
+    ],
+    "korean_title": "NVIDIA, 1,300억 달러 수익 가이던스 발표, 1,500억 달러 자사주 매입 추가",
+    "korean_summary": "NVIDIA가 1,300억 달러 수익 가이던스와 1,500억 달러 자사주 매입 계획을 발표"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc0pTZDVoR01raXhlSWRKYjI0MVFzQWFBREt0UzUxQkVBaS16bVZrZWNtcE5xVnhpZnFSSGNWbmRjMkdFTGZIdGlvRFVUTWp1NFctYTdCT00yc19DNm9VX3RxN2JuVVNEc1o2YlFRRGgxb0xESlZkSkpCQ0ZBQWI3YW43SnUyTWRNd2Rnd0MwcHhGd1F0UVpUN1NpV1lqNUNEZmpURnM2S3V6dU4wM1FjYzZrY3R1Q245Mk1UcW1HQ3ZrU0FnUzdqdm1QekVJQ1FRMVZMUjhmSHlrM2pfQkQ2a3lqZw",
+   "body": ""
+  },
+  {
+   "source": "Google News · Observer",
+   "category": "media",
+   "kind": "gnews",
+   "title": "LG Chairman Koo Kwang-mo Takes His Nvidia Robotics Deal to Tennessee",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOXh3bzdKNFVyTzFPTlJiYUlfZDEySXpTN2MtNEpaai1RSGFNQ0tkV0hOcGswUmVoLU5BaFI2bU4wWjJCVlBmZlRkbklBR0hOYy1VUTBmUUpTanpvZkoxaDVfNk5rMzRlSElHcjY4MG1xeG5UYlNpSUZkV3FjZ3BWOFA5NA?oc=5",
+   "date": "2026-11-28 04:28",
+   "score": 8,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "partnership",
+     "robotics"
+    ],
+    "korean_title": "LG 구광모 회장, 엔비디아 로봇공학 협력을 테네시로 확대",
+    "korean_summary": "LG 구광모 회장이 엔비디아와의 로봇공학 거래를 미국 테네시 지역으로 확장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOXh3bzdKNFVyTzFPTlJiYUlfZDEySXpTN2MtNEpaai1RSGFNQ0tkV0hOcGswUmVoLU5BaFI2bU4wWjJCVlBmZlRkbklBR0hOYy1VUTBmUUpTanpvZkoxaDVfNk5rMzRlSElHcjY4MG1xeG5UYlNpSUZkV3FjZ3BWOFA5NA",
+   "body": ""
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "Jensen Huang's return did little to ease AI jitters. We used the weakness to buy",
+   "link": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+   "date": "2026-11-28 03:46",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황 CEO 복귀, 주가 $1조 변동에도 AI 시장 불안 계속",
+    "korean_summary": "젠슨 황의 CEO 복귀로 NVIDIA 주가가 $1조 손실 후 회복되었으나 AI 시장의 지속적 불안감이 이어지고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang CEO 복귀에도 AI 투자심리 불안 지속, Nvidia 주가 변동성 확대",
+    "korean_summary": "Nvidia CEO Jensen Huang이 사임 2주 만에 복귀했지만 Nvidia 주가는 월요일 급등 후 수요일까지 연이어 하락하며 **AI 트레이드에 대한 투자자 불안이 해소되지 않았음**을 보여주었다.",
+    "action": {
+     "actor": "Jensen Huang / Nvidia",
+     "action": "Trump 행정부의 개입으로 이사회에 복귀, CEO직 재취임",
+     "stage": "Announced",
+     "timeline": "2026년 11월 24일(월) 복귀, 11월 12일 사임 이후",
+     "scope": "Nvidia 경영진 (미국 내)"
+    },
+    "key_facts": [
+     "Nvidia 주가는 Huang 복귀 발표 당일(월) **31% 이상 급등**하며 11월 12일 사임 후 손실을 거의 회복",
+     "Trump 대통령은 CNBC에 자신이 Nvidia 이사회에 직접 개입해 Huang 복귀를 이끌었다고 밝힘",
+     "Huang 사임은 중국 스파이 혐의와 연관된 불륜 스캔들로 발생",
+     "복귀 랠리는 단명했으며 Nvidia 주가는 화요일 약 5.9%, 수요일 약 4% 추가 하락",
+     "Jim Cramer는 Huang 복귀가 더 높은 밸류에이션을 정당화하며 Nvidia 목표가를 **$199(주당순이익 12배)**로 제시"
+    ],
+    "why_matters": "Nvidia CEO 교체 이슈가 단일 기업 리스크를 넘어 AI 섹터 전체의 투자심리를 흔들 만큼 **Nvidia의 AI 생태계 내 중심적 지위**를 재확인시켰다. 그러나 반도체 대중 수출 불확실성, 데이터센터 건설 반대 여론, 매파적 Fed 정책 등 구조적 역풍이 여전해 Huang 복귀만으로 AI 트레이드 전반의 불안이 해소되지 않았음을 시사한다.",
+    "subject_angle": "Huang의 개인적 리더십이 **Nvidia 주가 및 AI 섹터 전체의 핵심 변수**로 작용함이 입증되었으며, 미 정부가 Nvidia 경영권 문제에 직접 개입할 만큼 Nvidia를 국가 전략 자산으로 간주하고 있음을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 복귀 이슈의 당사자, AI 트레이드의 최대 수혜주로 언급됨"
+     },
+     {
+      "name": "CrowdStrike",
+      "context": "Zscaler 인수 발표 기업(기사 내 별도 이슈, Nvidia와 직접 관련 없음)"
+     },
+     {
+      "name": "Zscaler",
+      "context": "CrowdStrike의 피인수 대상"
+     },
+     {
+      "name": "Anthropic",
+      "context": "AI 관련주로서 IPO 가격 하회, AI 섹터 약세 사례로 언급"
+     },
+     {
+      "name": "Alphabet",
+      "context": "포트폴리오 매수 종목, AI 트레이드 맥락에서 언급"
+     }
+    ],
+    "products": [],
+    "watch_next": [
+     "Nvidia의 중국向 반도체 수출 정책 추가 결정 여부",
+     "미국 내 데이터센터 건설 관련 정치적 반대 움직임의 진전",
+     "12월 FOMC 회의에서의 실제 금리 결정 (CME FedWatch 98% 인상 예상)"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+   "body": "Stocks advanced over the holiday-shortened trading week, but it was far from smooth sailing. The tech-heavy Nasdaq Composite advanced 6.6% for the week, while the S & P 500 gained 5.6% and the Dow Jones Industrial Average rose 5.5%. The gains were driven by Monday's surge, when the Nasdaq and S & P 500 posted their best sessions since April 2025 — up 6.35% and 4.73% , respectively — after Jensen Huang's return as Nvidia CEO. But the relief rally quickly lost momentum. Selling intensified Wednesday, with the Nasdaq plunging as much as 4.6% and the Dow shedding more than 1,100 points at their session lows. Stocks staged a dramatic comeback as the session progressed, with the Dow turning positive and the Nasdaq and S & P 500 paring much of their losses, though the two remained in negative territory as AI stocks continued to struggle. A worsening macroeconomic backdrop also weighed on investor sentiment. Wednesday's personal consumption expenditures price index report showed annual inflation accelerating to 3.8% in October, nearly twice the Federal Reserve's 2% target, while core inflation came in hotter than expected at 3.3%. The data, coupled with the Trump administration's announcement of new tariffs on more than a dozen major trading partners, heightened concerns about further Federal Reserve rate hikes. The CME FedWatch tool indicates a 98% chance of a quarter-point hike at the December meeting, up from 93.5% a week ago. Stocks bounced back on Friday, with technology stocks once again taking the lead. Here's a closer look at the three things that shaped our portfolio. Huang's back, but AI jitters remain Jensen Huang's stunning reinstatement as Nvidia CEO on Monday lifted a major overhang on the chipmaker and temporarily reignited the AI trade. President Donald Trump told CNBC he intervened directly with Nvidia's board to bring Huang back, underscoring the CEO's importance to U.S. national interests. Nvidia shares soared more than 31% Monday, erasing nearly all their losses following Huang's Nov. 12 resignation amid an affair scandal involving an alleged Chinese spy. The news fueled the Nasdaq and S & P 500's best sessions since April 2025. \"Jensen's only one man, and Nvidia is only one company,\" Jim said Monday on \" Mad Money .\" \"But the truth is that Jensen is the linchpin that holds the AI solar system together, and Nvidia is the biggest beneficiary.\" Jim argued that Huang's return warrants a higher valuation for Nvidia. He said the stock deserves to trade at roughly 12 times earnings, putting his price target at $199. Still, headwinds remain, including political opposition to data center construction, uncertainty over chip sales to China and a more hawkish Fed. The relief rally proved short-lived , with chip stocks coming under renewed pressure Tuesday and Wednesday and Anthropic even falling below its $83 IPO price. Shares of Nvidia slipped roughly 5.9% on Tuesday and another 4% on Wednesday . Huang's return removed a major source of uncerta"
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Nvidia agrees to $290 million settlement over 2018 crypto mining GPU sales",
+   "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
+   "date": "2026-11-27 20:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "NVIDIA, 2018년 암호화폐 채굴 GPU 판매 관련 2.9억 달러 소송 합의",
+    "korean_summary": "NVIDIA가 2018년 암호화폐 채굴 GPU 판매를 놓고 주주 소송에서 2.9억 달러 합의금을 지불한다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA, 2018년 암호화폐 채굴 GPU 매출 은폐 소송에 2.9억 달러 합의",
+    "korean_summary": "NVIDIA가 2018년 암호화폐 채굴 붐이 게이밍 GPU 매출에 미친 영향을 투자자들에게 숨겼다는 8년간의 증권 집단소송에 대해 2억 9천만 달러 합의에 동의했다.",
+    "action": {
+     "actor": "NVIDIA",
+     "action": "증권 집단소송 관련 합의금 지급에 동의",
+     "stage": "Filed",
+     "timeline": "2026년 9월 (화요일 법원 제출 문서 기준)",
+     "scope": "2018년 게이밍 GPU 매출 관련 투자자 소송, 미국 전역 주주"
+    },
+    "key_facts": [
+     "NVIDIA가 **2억 9천만 달러(290 million) 합의**에 동의함",
+     "투자자들은 2018년 암호화폐 채굴 붐이 게이밍 매출에 미친 영향을 NVIDIA가 투자자에게 오도했다고 주장",
+     "2018년 8월 16일 NVIDIA가 매출 가이던스를 하향하며 '상당수(a great deal)'의 채굴자들이 GeForce 게이밍 GPU를 구매했음을 인정",
+     "해당 발표 이후 **주가가 2거래일간 28.5% 하락**",
+     "2021년 지방법원이 소송을 기각했으나, 제9순회 항소법원이 일부를 되돌려 소송이 재개됨"
+    ],
+    "why_matters": "이번 합의는 암호화폐 채굴 수요가 GPU 수요 전망에 구조적 왜곡을 초래할 수 있음을 보여주며, **NVIDIA의 매출 투명성과 투자자 신뢰 문제**가 장기 법적 리스크로 이어질 수 있음을 시사한다. 2017-2018년 채굴 붐-붕괴 사이클은 현재 AI GPU 수요 역시 유사한 수요 불확실성 논쟁의 선례로 재조명될 수 있다.",
+    "subject_angle": "NVIDIA가 과거 암호화폐發 수요를 게이밍 매출로 혼재 공시한 전례는 **현재 AI 데이터센터 GPU 수요의 실수요 여부에 대한 투자자 검증 압력**을 높일 수 있는 참고 사례로 작용할 수 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "피소 기업, 합의금 지급 당사자"
+     },
+     {
+      "name": "US Court of Appeals for the Ninth Circuit",
+      "context": "소송 기각 일부를 되돌려 재개시킨 항소법원"
+     }
+    ],
+    "products": [
+     {
+      "name": "GeForce GTX 1000-Series (Pascal)",
+      "role": "2017-2018년 채굴 붐 당시 품절 사태를 일으킨 게이밍 GPU"
+     },
+     {
+      "name": "P106-100",
+      "role": "GTX 1060 기반의 전용 암호화폐 채굴 GPU, OEM 매출로 분류됨"
+     }
+    ],
+    "watch_next": [
+     "합의 승인 및 지급 일정 확정 여부",
+     "NVIDIA의 향후 매출 공시 방식(AI 수요 vs 실수요) 변화 여부",
+     "유사한 증권 소송이 현재 AI GPU 수요 관련으로 제기될 가능성"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-agrees-to-usd290-million-settlement-over-2018-crypto-mining-gpu-sales-ends-eight-year-investor-lawsuit-without-admitting-wrongdoing",
+   "body": "Nvidia has agreed to pay a $290 million settlement in an eight-year-long securities class action lawsuit. Investors accused the company of misleading shareholders about how much of its gaming revenue was actually driven by the cryptocurrency mining boom in 2018. 2017-2018 were some of the most rampant years for cryptocurrency mining, with plenty of scalpers buying up the Pascal GTX 1000-Series GPUs released in early 2017. Nvidia also sold the P106-100 that year, a dedicated cryptocurrency mining GPU with similar hardware to the GTX 1060, and it was attributed to OEM sales. Many gamers remember how scarce retail gaming GPUs were in those years, yet Huang stated in November 2017 that what cryptocurrency contributes is “small but not zero,” as highlighted in the Summary of Alleged False and Misleading Statements section of the March court filing . When the 2018 crypto crash hit, Nvidia’s revenue felt it too, with a sharp decline in gaming sales. The plaintiffs saw this strong correlation, seeing how cryptocurrency demand closely followed gaming GPU sales. The litigation states that Nvidia was “forced to partially reveal the truth on August 16, 2018, when it lowered their revenue guidance and acknowledged that ‘a great deal’ of cryptocurrency miners had bought GeForce Gaming GPUs.” Following the admissions, Nvidia’s stock price also fell 28.5% over two trading sessions. After the crash, Nvidia struggled with excess inventory, with CFO Colette Kress stating that “Gaming was short of expectations as post-crypto channel inventory took longer than expected to sell through,” painting a clearer picture of how much crypto impacted Nvidia’s sales, which were allegedly attributed to gaming sales. It’s unclear how much of those gaming sales were from cryptocurrency mining, but considering that an overwhelming amount of retail gaming GPUs were bought out by cryptocurrency miners, it’s reasonable to say it’s difficult to keep track of who purchased and for what purpose. In 2021, the district court dismissed the lawsuit, but part of the dismissal was reversed by the US Court of Appeals for the Ninth Circuit, reviving the lawsuit and allowing the securities fraud claims against Nvidia to proceed. Nvidia still denies wrongdoing, but has decided to settle, agreeing with the plaintiffs to pay $290 million in September, according to the Tuesday court filing ."
+  },
+  {
+   "source": "Google News · SiliconANGLE",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Report links Alice Huang to Chinese firms with smuggled Nvidia chips",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFV6aVo5bU5LLWJhdkZoZ1EzMUZVQ0g0Rjg1d3p3QTNBbmxrWGxIeDRUb3p5cktxdDRGMzRYX1BXWXk0Qlg4MllOVGpKSVhZT0lKN05hMFZ2Z3B4Vnd5eEpybTRsTVZ3akJ4ekZ4TFAyQTBWUXk1TVo2cnZXcHE5M2NGU21zZHZISnZhZG5Hb1ltRWNEb1QtdVRVN2FjWHhSZVhXbVktem4?oc=5",
+   "date": "2026-11-28 09:13",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Alice Huang, 밀반출 NVIDIA 칩 거래 연루 보도",
+    "korean_summary": "NVIDIA 관계자 가족이 중국 기업들과 불법 반출 칩 거래에 연루된 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFV6aVo5bU5LLWJhdkZoZ1EzMUZVQ0g0Rjg1d3p3QTNBbmxrWGxIeDRUb3p5cktxdDRGMzRYX1BXWXk0Qlg4MllOVGpKSVhZT0lKN05hMFZ2Z3B4Vnd5eEpybTRsTVZ3akJ4ekZ4TFAyQTBWUXk1TVo2cnZXcHE5M2NGU21zZHZISnZhZG5Hb1ltRWNEb1QtdVRVN2FjWHhSZVhXbVktem4",
+   "body": ""
+  },
+  {
+   "source": "Google News · Barchart.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Unstoppable NVDA Stock? Jensen Huang is Back, and Nvidia Is Eyeing 75% Revenue Growth in FY 2028.",
+   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQS1oUmpYRnQzOTJyUjlBZWgzN3QtdTZWd1RzVV9qVEd0YjFiSE4zQkszVUdmOEJaZlE1c1NUOXg1dU9nZExlYjRJajBCZ0JuM0FjTnRPZFMxTzFMNkhNQnp6c2xwSUVyZHNBNEt0U0psb0FtMks4SnUyVlVkSTNqUlpPb3RYMmtkcWtrZk9WbUFKRUZ1YUg4MC1ZRGVoSkxPRUxMWXNXbkg1ejFUYUpyTFcybmxYR1JWUENneWR2WVhjdFJ4T0dENmlYOG14OS1BdFdr?oc=5",
+   "date": "2026-11-28 05:30",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "guidance"
+    ],
+    "korean_title": "NVIDIA CEO 복귀, 2028년 회계연도 75% 수익 성장 목표",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO로 복귀하고 2028년 회계연도 75% 수익 성장을 목표로 한다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQS1oUmpYRnQzOTJyUjlBZWgzN3QtdTZWd1RzVV9qVEd0YjFiSE4zQkszVUdmOEJaZlE1c1NUOXg1dU9nZExlYjRJajBCZ0JuM0FjTnRPZFMxTzFMNkhNQnp6c2xwSUVyZHNBNEt0U0psb0FtMks4SnUyVlVkSTNqUlpPb3RYMmtkcWtrZk9WbUFKRUZ1YUg4MC1ZRGVoSkxPRUxMWXNXbkg1ejFUYUpyTFcybmxYR1JWUENneWR2WVhjdFJ4T0dENmlYOG14OS1BdFdr",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Decoder",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3BIOFZPRFhScXRuZl90aWgta3FTSDJJLXdpT01UWmVrQ01aVWs3emY3SWxfN3gzVTdrWXVaYTIwNldnUmxfM1dkQTk2QWFiczBDR09oVjhuQkxWelY1eEphLVh4RGhlUEVTSUdIaXNWM2c5MTlQZ0JkcVkyS0xFUXp4R2lua1F2MDhhVVVGMVZQaF9pRXg5Y2xlSnRvR2s4b2VnOUkyX01GWmFMZ3FfNjVGT0dhMVF0bjZCNkk1N1RvZ2xXQ25Z?oc=5",
+   "date": "2026-11-28 03:27",
+   "score": 8,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 8,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "new-chip"
+    ],
+    "korean_title": "금지된 NVIDIA Blackwell 칩이 상하이 데이터센터에서 발견",
+    "korean_summary": "Bloomberg 보도에 따르면 미국이 금지한 NVIDIA Blackwell 칩이 상하이의 Alice Huang 연관 데이터센터에서 발견됐다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOX3BIOFZPRFhScXRuZl90aWgta3FTSDJJLXdpT01UWmVrQ01aVWs3emY3SWxfN3gzVTdrWXVaYTIwNldnUmxfM1dkQTk2QWFiczBDR09oVjhuQkxWelY1eEphLVh4RGhlUEVTSUdIaXNWM2c5MTlQZ0JkcVkyS0xFUXp4R2lua1F2MDhhVVVGMVZQaF9pRXg5Y2xlSnRvR2s4b2VnOUkyX01GWmFMZ3FfNjVGT0dhMVF0bjZCNkk1N1RvZ2xXQ25Z",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Globe and Mail",
+   "category": "media",
+   "kind": "gnews",
+   "title": "UPDATE: YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOZHdoNG5CdHlNM0I5LTEyVnZxOEJUczZOUjIyMUhJRklKN3paNTJyNklFLWNKVFhLYl9ZaGltUVUwTjBQMXpkUVREbmtyS0hWS2dQR2V0MkRSYjRmZzhwZkVQSGhkaXhEdnZocmJ2NVRvOWF2WC1iVlMwZ0FZZmt4MGIzM1NoZ2t2UTZqYTFaMUs5MXp4UnR3bjFlOGNXZU9kR0hqc1lSazJGdlF5Rlc1TWJSMGI5eGZmYTZhRGJKdGlmSlR3anlXUGd4SmFMZWFlUFlTYU51VWRGbVFsVUVfTHJ4VldnNExzNFl0MlVQaUVkanI2Nm5ZSlhJVmEwWUUtek9KWkxLR1lhSFo3dlhNQVV1Q0hSTEFvWV9QYmZIZ25ZTXU1YTFIRlNoNHJ5b1JV?oc=5",
+   "date": "2026-11-27 00:15",
+   "score": 7,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Automotive-Robotics",
+    "is_focus": true,
+    "signal_tags": [
+     "robotics",
+     "partnership"
+    ],
+    "korean_title": "YYForce가 NVIDIA Jetson과 Isaac Sim을 활용한 호텔 콘시어지 휴머노이드 로봇 출시",
+    "korean_summary": "YYForce가 NVIDIA의 Jetson과 Isaac Sim 기술을 활용하여 호텔 콘시어지 서비스용 훈련된 휴머노이드 로봇을 출시했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOZHdoNG5CdHlNM0I5LTEyVnZxOEJUczZOUjIyMUhJRklKN3paNTJyNklFLWNKVFhLYl9ZaGltUVUwTjBQMXpkUVREbmtyS0hWS2dQR2V0MkRSYjRmZzhwZkVQSGhkaXhEdnZocmJ2NVRvOWF2WC1iVlMwZ0FZZmt4MGIzM1NoZ2t2UTZqYTFaMUs5MXp4UnR3bjFlOGNXZU9kR0hqc1lSazJGdlF5Rlc1TWJSMGI5eGZmYTZhRGJKdGlmSlR3anlXUGd4SmFMZWFlUFlTYU51VWRGbVFsVUVfTHJ4VldnNExzNFl0MlVQaUVkanI2Nm5ZSlhJVmEwWUUtek9KWkxLR1lhSFo3dlhNQVV1Q0hSTEFvWV9QYmZIZ25ZTXU1YTFIRlNoNHJ5b1JV",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "Beijing’s AI ambitions are under threat as models may fall behind by up to nine months versus competitors — Chinese AI labs are under heavy fire from export controls, maturing chip stacks and a distillation crackdown",
+   "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+   "date": "2026-11-28 00:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "중국 AI 모델, 수출규제로 서방 대비 최대 9개월 뒤처져",
+    "korean_summary": "미국 수출규제 강화로 중국 AI 모델이 서방 경쟁사보다 최대 9개월 뒤처질 수 있다는 분석이 제시되었다."
+   },
+   "summary_data": {
+    "korean_title": "수출 통제·증류 단속·GPU 대여 차단에 중국 AI 모델 개발 최대 9개월 지연 위기",
+    "korean_summary": "미국의 GPU 대여 규제 강화와 증류(distillation) 방지 기술 발전으로 Zhipu AI, DeepSeek 등 중국 AI 랩들이 Nvidia 가속기 접근 제한에 직면하며 서구 대비 모델 성능 격차가 최대 9개월까지 벌어질 위기에 놓였다는 보도이다.",
+    "action": {
+     "actor": "U.S. Department of Commerce",
+     "action": "데이터센터가 중국 기업에 컴퓨팅 용량을 대여하는 방식에 대한 규제를 강화",
+     "stage": "Report",
+     "timeline": "미확인 (최근, Jensen Huang-Megaspeed 스캔들 이후)",
+     "scope": "아시아 지역 데이터센터의 중국 기업 대상 GPU 대여"
+    },
+    "key_facts": [
+     "**Mozilla는 9월 open-weight AI 모델이 프런티어 대비 3~6개월 뒤처진다고 추정**했으나, 최근 상황으로 최대 9개월까지 격차가 벌어질 수 있다고 보도됨",
+     "Zhipu AI(GLM 시리즈 개발사)는 첨단 AI 가속기 접근 감소로 출시 일정을 연기했다고 Reuters가 보도",
+     "**DeepSeek은 Huawei의 Ascend AI 칩으로 전환하며 CUDA 대신 오픈소스 CANN으로 라이브러리를 이전**하고 있으나, 증류 방어 강화 문제에 직면 (The Information 보도)",
+     "Artificial Analysis Intelligence Index 기준, Anthropic의 Claude Fable 5.2(65점)가 최상위이며 중국 최고 모델 Kimi K3.1 Pro는 47점에 불과",
+     "Epoch AI 보고서는 GLM 5.3과 Claude Opus 5.5 간 격차를 6~7개월 지능 차이로 분석"
+    ],
+    "why_matters": "**Nvidia 가속기에 대한 접근 제한이 중국 AI 개발 속도를 직접적으로 좌우하는 핵심 변수로 작용**하고 있으며, 이는 미중 AI 경쟁 구도에서 하드웨어 공급망 통제의 실효성을 보여준다. 동시에 DeepSeek의 Huawei Ascend/CANN 전환 시도는 중국이 Nvidia 생태계 의존을 탈피하려는 구조적 움직임을 나타낸다.",
+    "subject_angle": "**Nvidia의 AI 가속기 접근 제한이 경쟁국 AI 모델 개발 지연의 핵심 요인으로 지목**되며, 이는 Nvidia 하드웨어의 전략적 희소성과 지정학적 영향력을 재확인시킨다. 동시에 DeepSeek 등의 Huawei Ascend·CANN 전환은 장기적으로 Nvidia의 중국 시장 지배력에 대한 도전 가능성을 시사한다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "가장 선호되는 AI 가속기 공급사, 접근 제한의 중심"
+     },
+     {
+      "name": "Zhipu AI",
+      "context": "GLM 시리즈 개발사, 가속기 접근 제한으로 출시 지연"
+     },
+     {
+      "name": "DeepSeek",
+      "context": "Huawei Ascend 및 CANN으로 전환 시도 중인 중국 AI 랩"
+     },
+     {
+      "name": "Huawei",
+      "context": "Ascend AI 칩 및 CANN 소프트웨어 스택 제공사"
+     },
+     {
+      "name": "Anthropic",
+      "context": "Claude Fable 5.2로 프런티어 선두, 증류 방어 강화"
+     },
+     {
+      "name": "Alibaba",
+      "context": "Qwen 3.8-27B, Qwen 4 모델 개발사"
+     },
+     {
+      "name": "Thinking Machines Labs",
+      "context": "Inkling 2 Mini로 Qwen 3.8-27B와 경쟁"
+     },
+     {
+      "name": "U.S. Department of Commerce",
+      "context": "GPU 대여 규제 강화 주체"
+     }
+    ],
+    "products": [
+     {
+      "name": "GLM series",
+      "role": "Zhipu AI의 출시 지연된 모델군"
+     },
+     {
+      "name": "Huawei Ascend / CANN",
+      "role": "DeepSeek의 CUDA 대체 하드웨어·소프트웨어 스택"
+     },
+     {
+      "name": "Claude Fable 5.2",
+      "role": "현재 최고 순위 AI 모델 (Artificial Analysis 65점)"
+     },
+     {
+      "name": "Kimi K3.1 Pro",
+      "role": "중국 최고 순위 AI 모델 (47점)"
+     },
+     {
+      "name": "Qwen 3.8-27B / Qwen 4",
+      "role": "Alibaba의 오픈·클로즈드 웨이트 모델"
+     },
+     {
+      "name": "RTX Spark",
+      "role": "로컬 open-weight AI 구동 가능 소비자 기기로 언급"
+     }
+    ],
+    "watch_next": [
+     "Zhipu AI의 GLM 시리즈 실제 출시 일정 조정 여부",
+     "DeepSeek의 Huawei Ascend/CANN 전환 진행 상황 및 성능 영향",
+     "향후 Artificial Analysis Intelligence Index에서 중국-서구 모델 격차 추이"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+   "body": "This week, several reports have detailed how closing GPU rental loopholes across Asia may have had an impact on the development of Chinese AI models. In September, Mozilla estimated that open-weight AI models were three to six months behind the frontier. Since then, developments in the AI industry and export control rules could mean that Chinese AI models, many of which are typically open-weight, might fall even further behind Western counterparts, by up to nine months. Zhipu AI, the developer of the GLM series of models, has allegedly pushed its release calendar back as a result of reduced access to advanced AI accelerators, Reuters said. It's an open secret that data centers located in Asia have been renting compute capacity to Chinese entities for some time . In light of the recent Nvidia scandal involving Jensen Huang and Megaspeed, the U.S. Department of Commerce has since tightened its rules over how data centers lend their compute capacity to Chinese entities. This has created an environment where there is, in fact, an excess of compute capacity available in the region, Bloomberg reported. These curbs have a knock-on effect on how companies train their AI models, with Nvidia's AI accelerators being the most coveted; not having access to them stifles the development of AI in the region. However, this isn't entirely true across the industry. DeepSeek is attempting to wean itself off foreign silicon and instead adopting Huawei's Ascend AI chips , and porting its libraries away from CUDA and onto the open-source CANN. However, this hasn't stopped Chinese AI labs from facing another issue: tightened security against the distillation of AI models. Distillation is a practice wherein the way a model thinks can be extracted and then learned from. It is largely believed to be the method in which Chinese AI labs have made great leaps in intelligence over the past several years, though several of China's leading labs refute that claim. The Western frontier has become more obtuse: Anthropic in October detailed how it's leveled up its own defences against distillation attacks, and the obfuscation of an AI model's chain of thought adds another hurdle. According to The Information , this is an issue that DeepSeek is now reportedly reckoning with. If distillation curbs the development of Chinese AI models even further, the gap between Eastern and Western frontier intelligence grows from three to six months to an estimated nine months. The current standings If you look at Artificial Analysis' Intelligence Index, which ranks AI models across a wide range of benchmarks and scores them in numerical order, Anthropic currently has the leading public AI model: Claude Fable 5.2, at a total of 65 points. Meanwhile, the leading Chinese AI model, Kimi K3.1 Pro, sits at 47. Between the two contenders are practically every Western frontier lab: OpenAI, Google, and Meta are all outgunning Chinese competitors, which were, just a few short months ago, competing at the fro"
+  },
+  {
+   "source": "CNBC Tech",
+   "category": "media",
+   "kind": "feed",
+   "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+   "link": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+   "date": "2026-11-27 21:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "젠슨 황 회귀, 약화된 AI 시장의 전환점이 될까?",
+    "korean_summary": "젠슨 황의 CEO 복귀로 NVIDIA 리더십 위기가 해소되는 가운데 약화된 AI 시장 심리의 반전 가능성이 주목받고 있다."
+   },
+   "summary_data": {
+    "korean_title": "Jensen Huang 복귀, 흔들리는 AI 시장의 반등 신호가 될까",
+    "korean_summary": "불륜 인정과 이사회 조사 속 사임했던 Jensen Huang이 2주 만에 Nvidia CEO로 복귀하며 주가가 급등했지만, 투자자들은 AI 투자 붐의 지속 가능성에 대한 더 근본적인 의문을 여전히 거래에 반영하고 있다.",
+    "action": {
+     "actor": "Jensen Huang / Nvidia",
+     "action": "불륜 인정 후 이사회 조사 및 국가안보 우려 속 사임했다가 2주도 안 되어 CEO로 복귀",
+     "stage": "Announced",
+     "timeline": "복귀 발표 이후 1주일 내 (2026-11-28 기준 최근)",
+     "scope": "Nvidia 경영진, 미국 AI/반도체 주식 시장 전반"
+    },
+    "key_facts": [
+     "Huang 사임 당시 Nvidia 시가총액이 **1조 달러 이상 증발**했다가 복귀 후 거의 1조 달러를 회복",
+     "복귀 발표 직후 Nvidia 주가가 **31% 급등**했으나 화요일 장 마감 무렵 상승분 반납",
+     "수요일 종가 기준 Nvidia 주가 149.30달러, 시가총액 **3.6조 달러**로 10월 고점 대비 약 2조 달러 낮음",
+     "Freedom Capital Markets 애널리스트는 **12월 1~3일 의회 청문회 전까지** NVDA가 변동성 속 10월 고점 아래에서 거래될 것으로 전망",
+     "같은 기간 AMD 5일간 25% 하락, Micron 18% 하락 등 AI 관련 종목 전반이 동반 요동"
+    ],
+    "why_matters": "Huang 개인 리더십 불확실성이 해소됐음에도 Nvidia 및 AI 관련주들이 다시 하락한 것은 **투자자들이 CEO 공석 문제보다 더 큰 AI 투자 붐의 지속 가능성과 수익률 자체를 의심**하고 있음을 시사한다. 이는 Nvidia뿐 아니라 AMD, Micron, Arm 등 반도체 섹터 전체의 밸류에이션 재평가 국면을 예고한다.",
+    "subject_angle": "Nvidia는 CEO 교체 리스크를 빠르게 봉합했지만, 12월 초 **의회 청문회**를 앞두고 국가안보 우려와 AI 수익성 논란이라는 두 가지 외부 변수에 동시에 노출되어 있어 Jensen Huang 개인의 대외 커뮤니케이션 비중이 더 커졌다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "Nvidia",
+      "context": "CEO 사임·복귀 당사자, 시가총액 변동의 중심"
+     },
+     {
+      "name": "AMD",
+      "context": "동반 하락한 경쟁 반도체 기업"
+     },
+     {
+      "name": "Micron",
+      "context": "동반 하락한 메모리 반도체 기업"
+     },
+     {
+      "name": "Anthropic",
+      "context": "같은 기간 변동성을 보인 신규 상장 AI 기업"
+     },
+     {
+      "name": "Arm",
+      "context": "최근 한 달간 하락한 반도체 기업"
+     },
+     {
+      "name": "SAP",
+      "context": "AI 전환 과정에서 1만 명 이상 감원 검토 중인 소프트웨어 기업(별도 기사)"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "미국이 수출통제 위반 우려로 무역 블랙리스트에 추가한 기업, Nvidia 논란과 연관"
+     }
+    ],
+    "products": [
+     {
+      "name": "Nvidia (NVDA) 주가/시가총액",
+      "role": "Huang 리더십 불확실성에 따른 시장 반응의 핵심 지표"
+     }
+    ],
+    "watch_next": [
+     "12월 1~3일 Nvidia 관련 의회 청문회 결과 및 Huang의 대응",
+     "NVDA 주가가 125~170달러 구간에서 안정화되는지 여부",
+     "AI 투자 붐 지속 가능성에 대한 투자자 신뢰 회복 여부 및 AMD·Micron 등 연관주 동향"
+    ]
+   },
+   "related": [],
+   "uid": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+   "body": "This report is from this week's The Tech Download newsletter. Like what you see? You can subscribe here. The recent Nvidia saga has had more twists and turns than an Agatha Christie novel. It all started with Nvidia co-founder and CEO Jensen Huang's admission that he had been unfaithful to his wife. Days later, amid an independent board investigation and broader scrutiny over national-security concerns, he resigned. Less than two weeks later, Huang was back at the helm. During all of that, Nvidia stock lost over $1 trillion and then regained just under $1 trillion. The leadership drama has played out at a time when the artificial intelligence market is looking shakier than it has in some time. Neoclouds have seen stocks plummet in recent months as investors question the sustainability of the AI boom. Chip stocks like Arm and AMD have both fallen in the past month. Huang's surprise return saw Nvidia stock surge 31%, with other AI stocks also gaining. But the sheen was off by Tuesday's close, with Nvidia and a host of chip stocks falling. The sharp reversal raises questions for investors: did Huang's return restore confidence in Nvidia, or did it spark a short-lived relief rally as the market faces broader questions about returns on AI investment? Judging by the first few days of his return, it's a hard one to call. Volatility Volatility in the tech sector looked set to continue on Friday, as tech stocks rebounded again. \"Wall Street pared its Monday advance as sobriety returned to the market and a focus returned to fundamentals,\" wrote Kyle Rodda, analyst at Capital.com, in a note at market close on Tuesday. \"While Jensen Huang's reinstatement as Nvidia CEO is indubitably a boon for the markets and the overall AI trade, it does not assuage every risk and concern about an industry confronting a potential peak in its investment boom and moderating earnings growth.\" The early week rally was \"largely driven\" by Huang's return, said Violeta Todorova, senior research analyst at Leverage Shares. \"Fresh tariff threats from the Trump administration have added to market uncertainty,\" she added. \"The short-term rally has reversed course, and Nvidia's share price is likely to trade sideways between $125 and $170 in the near term.\" Nvidia stock closed at $149.30 on Wednesday, giving it a $3.6 trillion market cap — a figure around $2 trillion lighter than it was at its peak in October. \"We expect a selective recovery across the AI ecosystem, and NVDA to trade sideways and stay volatile below its October peak at least until the Dec 1–3 Congressional appearances,\" Egor Tolmachev, senior analyst at Freedom Capital Markets, said in a note on Wednesday. Other key AI stocks have also been volatile. Anthropic's first week as a public company has been mixed. AMD has fallen 25% in the past five days, and memory chip maker Micron has dropped 18%. Both spiked on Monday before paring gains. The Huang evangelists might've been hoping for a speedier return to AI boom times. "
+  },
+  {
+   "source": "Google News · CNBC",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Two Chinese firms linked to Alice Huang installed Nvidia Blackwell chips: Report",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOekVEdHo2YjM3d3hkOEpLSWpIT2xTQTZHMVBHcUN0dlBUazhkelhhaW4tUlppT0ZvazlFVXdNWUFTTm5YNzZPZmhacWtfc3hRdUFLb3M3anYyZ0c0Q1BMZ1pWNDIzUnFnenVJZnlCVkJ0Z2FhUWdwZFJSeHN1X0JPOW5FUlg1ZWhyajZJeThCN1NnRWI4VDQ3YUk1b2M2d2dFaEYtaDJHSlotLTkxdFRlM1NyVlZFNm8tT2RRTXR4TQ?oc=5",
+   "date": "2026-11-27 21:50",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "규제 대상 NVIDIA Blackwell 칩, 중국 업체에 불법 설치 적발",
+    "korean_summary": "Alice Huang과 연루된 중국 기업 2곳이 규제 대상 NVIDIA Blackwell 칩 설치"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOekVEdHo2YjM3d3hkOEpLSWpIT2xTQTZHMVBHcUN0dlBUazhkelhhaW4tUlppT0ZvazlFVXdNWUFTTm5YNzZPZmhacWtfc3hRdUFLb3M3anYyZ0c0Q1BMZ1pWNDIzUnFnenVJZnlCVkJ0Z2FhUWdwZFJSeHN1X0JPOW5FUlg1ZWhyajZJeThCN1NnRWI4VDQ3YUk1b2M2d2dFaEYtaDJHSlotLTkxdFRlM1NyVlZFNm8tT2RRTXR4TQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · New York Post",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Banned Nvidia chips uncovered at Chinese data center linked to Megaspeed's Alice Huang: report",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMmNJTENPVGFQQ1NRU1RicF84NEdBOVhwdUxrdTBSdDZ2RlpCWUZyeEpJcG5IS0VzbkRVSEdQdTFSTW1NU0pmZUNsWWg3bEtyWnlGczdmWXVJSG1kYjFseWJyMkk3QmlqMWZKMGV4X1N5MHpOVzZCX0R4YnY3cHRJbG9yVGxiZDJwUHJROVpEbEtuMVVrZ0NTVlRiS0JyZ0dEMkV6bHktejlmbTZheU14LVR5OXhYUDY2QWVBZl9nLWxMVlA1NWxhQTd4Yw?oc=5",
+   "date": "2026-11-28 02:18",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "Alice Huang 계열 중국 데이터센터에서 불법 NVIDIA 칩 발견",
+    "korean_summary": "Megaspeed의 Alice Huang과 연루된 중국 데이터센터에서 규제 대상 NVIDIA 칩 적발"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMmNJTENPVGFQQ1NRU1RicF84NEdBOVhwdUxrdTBSdDZ2RlpCWUZyeEpJcG5IS0VzbkRVSEdQdTFSTW1NU0pmZUNsWWg3bEtyWnlGczdmWXVJSG1kYjFseWJyMkk3QmlqMWZKMGV4X1N5MHpOVzZCX0R4YnY3cHRJbG9yVGxiZDJwUHJROVpEbEtuMVVrZ0NTVlRiS0JyZ0dEMkV6bHktejlmbTZheU14LVR5OXhYUDY2QWVBZl9nLWxMVlA1NWxhQTd4Yw",
+   "body": ""
+  },
+  {
+   "source": "Google News · MS NOW",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Lawmakers are lining up to investigate Nvidia and question Jensen Huang",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2U2YWdGWU9IR2JxTEotQi1tTG9IejZ3emtnQ1VmWkduQ2E1Q3FuQWtRbEVRWVUwVWRnZDQ0NENJb1hCMEhvTzktczdObnR5VXM1aE9UajR6OHJCU1VhWUE4V21HV3FlTURZZWdTRDZJSExYRnhDbV96MHJUSWEwUw?oc=5",
+   "date": "2026-11-27 19:00",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "미국 의원들, NVIDIA와 Jensen Huang 조사 추진",
+    "korean_summary": "미국 의원들이 NVIDIA와 CEO Jensen Huang에 대한 조사를 단계적으로 추진하고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ2U2YWdGWU9IR2JxTEotQi1tTG9IejZ3emtnQ1VmWkduQ2E1Q3FuQWtRbEVRWVUwVWRnZDQ0NENJb1hCMEhvTzktczdObnR5VXM1aE9UajR6OHJCU1VhWUE4V21HV3FlTURZZWdTRDZJSExYRnhDbV96MHJUSWEwUw",
+   "body": ""
+  },
+  {
+   "source": "Google News · KJZZ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Sen. Gallego urges Nvidia board to cooperate in congressional investigations of CEO Huang",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0wzVVNJOTZwbDNJbklDNVpmRTRJNDR1SjBHemlwMldsSkQzcWdNLWRWa19VZ1FVbHlydXVLWS1RcXRuVUNTZUFKSHVrcUd1bkFTYUE4SWp6dU9ldWpYNW1wdThVZHF5X0xHS1A2OUtVWlFFVVR2dkRlZ3dTRHBBUHFxUFhzOTRkNWNNclhmTVJyS090VzdGRjRabUhVX2h0UGhYZjN3SXBBXzlweURzRXBjWnRxdkY4cktHRnJVN2VEQ0lwYjdpUA?oc=5",
+   "date": "2026-11-28 06:57",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "상원의원 Gallego, NVIDIA 이사회 조사 협력 촉구",
+    "korean_summary": "상원의원이 NVIDIA 이사회에 CEO 관련 의회 조사에 협력할 것을 공식 촉구했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ0wzVVNJOTZwbDNJbklDNVpmRTRJNDR1SjBHemlwMldsSkQzcWdNLWRWa19VZ1FVbHlydXVLWS1RcXRuVUNTZUFKSHVrcUd1bkFTYUE4SWp6dU9ldWpYNW1wdThVZHF5X0xHS1A2OUtVWlFFVVR2dkRlZ3dTRHBBUHFxUFhzOTRkNWNNclhmTVJyS090VzdGRjRabUhVX2h0UGhYZjN3SXBBXzlweURzRXBjWnRxdkY4cktHRnJVN2VEQ0lwYjdpUA",
+   "body": ""
+  },
+  {
+   "source": "Google News · Engadget",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Restricted NVIDIA Chips Were Installed At A Chinese Data Center Linked To Alice Huang",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOWtYOThKWWFkTmR1eF9BUnF5OXhjU0hGZDh0NDNDOTNESWtYNWtxWVBEb1BLN21OLVBVYkRGcTlzenVOM2lkRkE2TzlBeE5IR1lCZjJ0bjdoam1CaklfTEJKY3ZKakhrelI2eDFlQXZONktnNWpXdWZCRkNSTXZxX1BpeTF1d29MN2VMeHBhaFNCaUJ3d3I3dU1xNlp5VVpuMEhGWVVTcUxxMHhDMDJzbGFfSEdETlRVT0xJ?oc=5",
+   "date": "2026-11-28 04:45",
+   "score": 7,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 7,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "regulation"
+    ],
+    "korean_title": "제한된 NVIDIA 칩이 중국 데이터센터에 설치됨",
+    "korean_summary": "미국의 수출 제한 대상인 NVIDIA 칩이 Alice Huang과 관련된 중국 데이터센터에 설치되었다는 보도가 나왔다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOWtYOThKWWFkTmR1eF9BUnF5OXhjU0hGZDh0NDNDOTNESWtYNWtxWVBEb1BLN21OLVBVYkRGcTlzenVOM2lkRkE2TzlBeE5IR1lCZjJ0bjdoam1CaklfTEJKY3ZKakhrelI2eDFlQXZONktnNWpXdWZCRkNSTXZxX1BpeTF1d29MN2VMeHBhaFNCaUJ3d3I3dU1xNlp5VVpuMEhGWVVTcUxxMHhDMDJzbGFfSEdETlRVT0xJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · TechRepublic",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Cosmos 3 Nano 12GB VRAM Support: RTX 5070 Benchmarks",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ1Q1LWdsSUpEYzVscXA0d25McndubEswelBibFdfX2swVERKbFplSkJZdzMwMENRVlR5M1V3UGk1blRSWVY4Y2plX2pGeUZFbDRxOTdoaGNEVXlSLWFaMHlMZmliNTgySnhJbmFVSmNYSjZCV3lhSDNWZFZSdzYyOHhQdjdlY1dQcFE?oc=5",
+   "date": "2026-11-27 22:56",
+   "score": 6,
+   "is_focus": true,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "GPU-Product",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA Cosmos 3 Nano, 12GB VRAM 지원 추가 및 RTX 5070 벤치마크 공개",
+    "korean_summary": "Cosmos 3의 Nano 버전이 12GB VRAM을 지원하기 시작했으며 RTX 5070의 벤치마크 성능이 공개되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ1Q1LWdsSUpEYzVscXA0d25McndubEswelBibFdfX2swVERKbFplSkJZdzMwMENRVlR5M1V3UGk1blRSWVY4Y2plX2pGeUZFbDRxOTdoaGNEVXlSLWFaMHlMZmliNTgySnhJbmFVSmNYSjZCV3lhSDNWZFZSdzYyOHhQdjdlY1dQcFE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Bloomberg.com",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+   "link": "https://finance.yahoo.com/technology/articles/nvidia-blackwell-chips-turn-china-114546617.html",
+   "date": "2026-11-28 04:18",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain",
+     "export-control"
+    ],
+    "korean_title": "엔비디아 블랙웰 칩이 Alice Huang 관련 중국 시설에서 적발",
+    "korean_summary": "블룸버그에서 엔비디아 블랙웰 칩이 Alice Huang과 관련된 중국 사이트에서 발견되었다고 보도했다."
+   },
+   "summary_data": {
+    "korean_title": "NVIDIA Blackwell 칩, Alice Huang 연계 중국 데이터센터에서 발견",
+    "korean_summary": "Bloomberg가 Alice Huang 및 Megaspeed와 연계된 상하이 Yangtze River Delta Project 데이터센터에서 NVIDIA의 **GB300 NVL72**와 GB200 서버가 발견됐다고 보도하며, 미국 수출 통제를 우회한 Blackwell 칩 밀수 의혹이 제기됐다.",
+    "action": {
+     "actor": "Bloomberg News (조사 보도)",
+     "action": "Shanghai Shuoyao와 Shanghai Kezhan이 각각 대출 담보 서류에 명시한 시리얼 번호를 통해 NVIDIA Blackwell 기반 GB300 NVL72 랙과 GB200 서버가 Yangtze River Delta Project 데이터센터에 설치된 사실을 확인",
+     "stage": "Report",
+     "timeline": "2025년 11월 규제 당국 제출 서류 기준, 2025년 말 대출 체결",
+     "scope": "중국 상하이 Yangtze River Delta Project 데이터센터, Shanghai Shuoyao·Shanghai Kezhan 2개사"
+    },
+    "key_facts": [
+     "Shanghai Shuoyao는 **GB300 NVL72 랙**을 담보로 Shanghai Innovation Bank에서 9600만 위안($1400만) 대출을 받음",
+     "Shanghai Kezhan은 GB200 서버를 명시하며 2025년 말 지방정부 산하 리스사로부터 9000만 위안 대출 확보",
+     "대만 Gigabyte Technology가 해당 랙을 제조했으며, 원 판매처·시점에 대한 질의에 답변 거부",
+     "Megaspeed는 올해 미국의 무역 블랙리스트에 등재됐고, Shanghai Shuoyao는 자사를 'Megaspeed의 서비스 제공업체'라고 공식 확인",
+     "**Jensen Huang CEO**는 과거 GB300 랙(1500kg 이상)이 밀수하기엔 너무 크다고 주장했으나, 이번 사례로 반박됨"
+    ],
+    "why_matters": "이번 보도는 미국의 대중국 첨단 AI 칩 수출 통제가 실제로는 제3자 유통망을 통해 우회되고 있음을 구체적 시리얼 번호와 담보 서류로 입증한 사례로, **NVIDIA의 수출통제 준수 체계에 대한 신뢰성 문제**를 재점화한다. 또한 Trump 행정부와 미 의회의 대중국 AI 칩 유출 단속 압박이 거세지는 가운데, NVIDIA의 중국 매출 전략과 공급망 관리 책임 소재가 시험대에 오르게 됐다.",
+    "subject_angle": "NVIDIA는 그간 '밀수가 물리적으로 불가능하다'는 입장을 취했으나 이번 사건으로 **최고 성능 제품인 GB300·GB200의 불법 유통 경로가 실체화**되면서, 회사의 수출통제 집행 역량과 유통 파트너(예: Gigabyte) 관리 체계에 대한 규제 당국·투자자의 의구심이 커질 가능성이 있다.",
+    "focus_angle": "",
+    "companies": [
+     {
+      "name": "NVIDIA",
+      "context": "Blackwell 칩(GB300, GB200) 제조사, 수출통제 준수 의혹의 당사자"
+     },
+     {
+      "name": "Megaspeed",
+      "context": "Alice Huang이 설립한 neocloud, 미국 블랙리스트 등재, 칩 밀수 조사 대상"
+     },
+     {
+      "name": "Shanghai Shuoyao",
+      "context": "GB300 랙을 담보로 대출받은 Megaspeed 서비스 제공업체"
+     },
+     {
+      "name": "Shanghai Kezhan",
+      "context": "GB200 서버를 담보로 대출받은 도쿄 모회사 계열사"
+     },
+     {
+      "name": "Gigabyte Technology",
+      "context": "대만 서버 제조사, 해당 GB300 랙 조립사"
+     },
+     {
+      "name": "Shanghai Innovation Bank",
+      "context": "GB300 랙 담보 대출 제공 은행"
+     }
+    ],
+    "products": [
+     {
+      "name": "GB300 NVL72",
+      "role": "Megaspeed 연계 데이터센터에 설치된 담보 자산, 밀수 의혹 핵심 제품"
+     },
+     {
+      "name": "GB200",
+      "role": "같은 데이터센터에 설치된 Blackwell 기반 서버"
+     }
+    ],
+    "watch_next": [
+     "미국 상무부·의회의 NVIDIA 및 Megaspeed 관련 추가 조사·제재 여부",
+     "NVIDIA의 공식 대응 및 유통망 추적·준수 강화 조치 발표 여부",
+     "Gigabyte 및 기타 OEM 파트너의 원 판매처 공개 또는 추가 조사 결과"
+    ]
+   },
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia Blackwell Tech Used at China Site Tied to Alice Huang",
+     "link": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+    },
+    {
+     "source": "Hacker News",
+     "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+     "link": "https://finance.yahoo.com/technology/articles/nvidia-blackwell-chips-turn-china-114546617.html"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajRDYnpkT2kwWEdlR2REeG93cnBZdkdsYmo3dTFmaVp3enZYN3Jid0RYVWZwNXJvcE00OG5FNjdwd0MzQXpFV1gzeUxkdnhxTVNoaGVNRmpnRllMTGY4emNtNW9VYnc4RWZVX0I2WExQNy1Ha21aV0FNWWVUb0FacnFLM01rUWRudjBCdGJpbGxCVUx3dl9KMEtZb0pyYURCTG1iWW5xUmNpaDlnc0lsMVpldmV6QQ",
+   "body": "(Bloomberg) -- A pair of Chinese firms installed Nvidia Corp.'s powerful Blackwell semiconductors in a Shanghai data center linked to Alice Huang, the woman at the heart of a controversy surrounding the US chipmaker. Most Read from Bloomberg The gear installed at the Yangtze River Delta Project included a GB300 NVL72 rack, among Nvidia's most powerful products, according to a serial number specified in documents submitted to Chinese regulators in November. Shanghai Shuoyao offered the hardware as collateral to obtain a 96 million yuan ($14 million) loan from Shanghai Innovation Bank, according to filings from the lender that were reviewed by Bloomberg News. A second firm Shanghai Kezhan, controlled by a Tokyo-based parent, described a GB200 server — which also relies on Blackwell chips — at the facility. That description was provided in documents when it obtained a 90 million yuan loan in late 2025 from a finance-leasing firm wholly owned by a local Shanghai government agency. The submissions reveal for the first time that Nvidia's Blackwell processors found their way into a Chinese data center that has ties to Alice Huang and Megaspeed. These processors were until recently Nvidia's most powerful data center products, and they've always been illegal to ship to China without a US license. President Donald Trump has explicitly said he doesn't want these chips — which OpenAI and Anthropic PBC use to train their most cutting-edge models — going to the Asian country, at least for now. Nvidia Chief Executive Officer Jensen Huang, meanwhile, once claimed they were too big to smuggle: a standard two-meter-tall GB300 NVL72 server rack, which contains 72 Blackwell Ultra chips and 36 Grace processors, can weigh more than 1,500 kilograms (3,300 pounds) and is about the size of a gigantic fridge. Nvidia and its just-reinstated CEO have come under intense scrutiny in recent weeks for their failure to stop diversion of the company's products to China, a shadow trade that US officials believe is worth billions of dollars. It's unclear how the GB300 rack made its way to the country, to Shanghai Shuoyao or to this specific site — described in local media as designed to house as many as 800,000 servers. By inputting the serial number for the product into a public warranty database, Bloomberg found that it was manufactured by Taiwan's Gigabyte Technology Co., which assembles Nvidia chips into servers and racks. The database also provided a model name for the serial number, which matches a GB300 NVL72 server rack manufactured by the Taiwanese company. This sort of gear often passes through several hands — including local distribution networks — before it's installed in data centers. In many cases, products that were ultimately smuggled into China were originally sold to parties in unrestricted areas. Bloomberg provided the rack's serial number to Gigabyte, seeking information about to whom Gigabyte had originally sold the hardware and when. It declined to answer thos"
+  },
+  {
+   "source": "Google News · Korea JoongAng Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's Blackwell chips found at China data center linked to Alice Huang",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY1BadkNUbVhaMnJsLUJvaEJvVGtobHVkYzByYWpZYm8wdEc1V085eHZDbEJidTJLT0FIendsU28yX0kzTzctam1OS2JUWjZ2Yl94ZHZGWjhUWDdyX1g5aTVFZTN1ZF9pUkkyUEM5WTc5ZVV6d1hvd21EdmpabDU4cVVfR1dnNG83OGpnb29ORXZldUtHMHh2TUhhLVVwbmN0RVF4alJISHk1NTBtUlR4Q1kyYnU4c1VZaXBTUFgwT3lwNUk?oc=5",
+   "date": "2026-11-28 11:40",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "엔비디아 Blackwell 칩, 중국 데이터센터에서 적발",
+    "korean_summary": "Alice Huang과 연결된 중국 데이터센터에서 엔비디아 Blackwell 칩이 발견되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY1BadkNUbVhaMnJsLUJvaEJvVGtobHVkYzByYWpZYm8wdEc1V085eHZDbEJidTJLT0FIendsU28yX0kzTzctam1OS2JUWjZ2Yl94ZHZGWjhUWDdyX1g5aTVFZTN1ZF9pUkkyUEM5WTc5ZVV6d1hvd21EdmpabDU4cVVfR1dnNG83OGpnb29ORXZldUtHMHh2TUhhLVVwbmN0RVF4alJISHk1NTBtUlR4Q1kyYnU4c1VZaXBTUFgwT3lwNUk",
+   "body": ""
+  }
+ ],
+ "headlines": [
+  {
+   "source": "Google News · Crypto Briefing",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Blackwell chips surface at China site linked to Megaspeed",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ybHI0RU1UN2xqYy0xSDhUaWc1RlIxTUhpTkh1RTNoLVd0QTRJRE8yYnFiX28wd0UwRzJMOUhDLXVUMUFFcnBoaUpWWGxaNTBMaUJGQnF4NTlyWFlqQk5ZeE1ZcEpWQ0V5ZzFaRlJYRWhKM1V5?oc=5",
+   "date": "2026-11-27 20:50",
+   "score": 6,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 6,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control",
+     "supply-chain"
+    ],
+    "korean_title": "엔비디아 Blackwell 칩, Megaspeed 연계 중국 사이트에서 적발",
+    "korean_summary": "Megaspeed와 연결된 중국 데이터센터에서 엔비디아 Blackwell 칩이 발견되었다."
+   },
+   "summary_data": null,
+   "related": [
+    {
+     "source": "Hacker News",
+     "title": "Nvidia Blackwell chips surface at China site linked to Megaspeed",
+     "link": "https://cryptobriefing.com/nvidia-blackwell-chips-china-megaspeed/"
+    }
+   ],
+   "uid": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ybHI0RU1UN2xqYy0xSDhUaWc1RlIxTUhpTkh1RTNoLVd0QTRJRE8yYnFiX28wd0UwRzJMOUhDLXVUMUFFcnBoaUpWWGxaNTBMaUJGQnF4NTlyWFlqQk5ZeE1ZcEpWQ0V5ZzFaRlJYRWhKM1V5",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia, Kioxia Unveil AI Storage Breakthrough As SanDisk Hits Death Cross",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNejByd1Q5VTZmWHlxY2xSUUdJN2NsaXhleW0wY3BDNXIzUm4zWU0yWDVQUG1fUzZkNkxBSWhpTnJxQmxaOHlNSjBXaEZtQjBkbk9hZm1BdGRrbkc0SXdYOHdBTnNjaWFuYkZNaVRTU0ZfU2NFSHJ2QVhWNTdaclJpa2lrbHU2Z1JwMnFPTXF3aGNfcHBU?oc=5",
+   "date": "2026-11-27 22:36",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Partnership",
+    "is_focus": false,
+    "signal_tags": [
+     "partnership",
+     "supply-chain"
+    ],
+    "korean_title": "NVIDIA와 Kioxia, AI 스토리지 혁신 공개",
+    "korean_summary": "NVIDIA와 Kioxia가 AI 스토리지 분야의 주요 혁신을 함께 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNejByd1Q5VTZmWHlxY2xSUUdJN2NsaXhleW0wY3BDNXIzUm4zWU0yWDVQUG1fUzZkNkxBSWhpTnJxQmxaOHlNSjBXaEZtQjBkbk9hZm1BdGRrbkc0SXdYOHdBTnNjaWFuYkZNaVRTU0ZfU2NFSHJ2QVhWNTdaclJpa2lrbHU2Z1JwMnFPTXF3aGNfcHBU",
+   "body": ""
+  },
+  {
+   "source": "Google News · Investor's Business Daily",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Stock Market Surges As Jensen Huang Returns As Nvidia CEO; Abercrombie Leads Retail Winners: Weekly Review",
+   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR1paM09sdFN0alJpel9EbFF1RDBKY0VKRGJtWWlnMTNob3g4VjVYMHJLNHN3Z0J6QkVFWmdBaktfTnFEMFprZElJRHpTamtwbmUxYzIxTzNMNkh3c1pQQXBTbE9CT0otSldXNG9DMXhLX2tIUnJiY3JmV2JjRUZJTVlFNlJqaVgwc25BWEtLZ2hsUE9TMFBTc2t0bUxGSTBpT2loT0N1Z2l1MXhJb3FBVzg2YmV3NjBWLXlsN2taZUJralFRNEFnZUpxQ0JWMVB2cXc?oc=5",
+   "date": "2026-11-28 00:27",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang의 CEO 복귀로 주식 시장 급등",
+    "korean_summary": "Jensen Huang이 NVIDIA CEO로 복귀하면서 주식 시장이 급등했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOR1paM09sdFN0alJpel9EbFF1RDBKY0VKRGJtWWlnMTNob3g4VjVYMHJLNHN3Z0J6QkVFWmdBaktfTnFEMFprZElJRHpTamtwbmUxYzIxTzNMNkh3c1pQQXBTbE9CT0otSldXNG9DMXhLX2tIUnJiY3JmV2JjRUZJTVlFNlJqaVgwc25BWEtLZ2hsUE9TMFBTc2t0bUxGSTBpT2loT0N1Z2l1MXhJb3FBVzg2YmV3NjBWLXlsN2taZUJralFRNEFnZUpxQ0JWMVB2cXc",
+   "body": ""
+  },
+  {
+   "source": "Google News · Briefs Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Blackwell Gear Found at Shanghai Site",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYS1uTzBvOXhHN1ZKUEx4eHNNZUhFczlvdmplbnZtN0NIdzQxLXN0MlJaVjl1eW9zNWpBejBTejhCQlZjXzdib25UVGF5RDlhTHRMV09IQXFsaXhFbU1hN1I4Mml5VDVwZ244cXViY0ZIeF80VGNTd1ZJR215MEtseXNMMnpHNGhSNWJkNjhQUUY?oc=5",
+   "date": "2026-11-28 11:29",
+   "score": 5,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "상하이 사이트에서 NVIDIA Blackwell 장비 발견",
+    "korean_summary": "상하이 지역에서 NVIDIA의 최신 Blackwell 장비가 발견되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYS1uTzBvOXhHN1ZKUEx4eHNNZUhFczlvdmplbnZtN0NIdzQxLXN0MlJaVjl1eW9zNWpBejBTejhCQlZjXzdib25UVGF5RDlhTHRMV09IQXFsaXhFbU1hN1I4Mml5VDVwZ244cXViY0ZIeF80VGNTd1ZJR215MEtseXNMMnpHNGhSNWJkNjhQUUY",
+   "body": ""
+  },
+  {
+   "source": "Tom's Hardware",
+   "category": "media",
+   "kind": "feed",
+   "title": "China’s AI hardware push is moving beyond GPUs to the PCBs underneath them — Beijing races to corner the market on copper foil and micro-drill bits as board complexity explodes",
+   "link": "https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+   "date": "2026-11-28 02:00",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "중국, AI 서버용 PCB 및 소재 국산화 추진",
+    "korean_summary": "중국이 반도체 수출규제 우회를 위해 20개 이상 PCB 제조사가 확장계획을 수립하고 미세 소재 국산화에 나서고 있다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.tomshardware.com/tech-industry/manufacturing/chinas-ai-hardware-push-is-moving-beyond-gpus-to-the-pcbs-underneath-them-beijing-races-to-corner-the-market-on-copper-foil-and-micro-drill-bits-as-board-complexity-explodes",
+   "body": "Much of the attention on China's AI hardware industry has been focused on the country’s drive to develop domestic GPUs, including Huawei's Ascend processors , as U.S. export restrictions make it harder to buy advanced chips in the region. But making an AI server involves far more than securing its processors. The printed circuit boards (PCBs) connecting chips, memory, and networking equipment are becoming harder to manufacture, and Chinese companies are racing to supply the materials and equipment they require. More than 20 Chinese PCB manufacturers announced major expansion plans in the first half of 2026. Three recent reports from HSBC and J.P. Morgan suggest the shortages could extend to products as unglamorous as drill bits and copper foil. Having a plentiful and regular supply of those components in the manufacturing process is important because the tiny drill bit used to make the circuit boards inside AI servers could be worn out after drilling fewer than 200 holes, according to HSBC, compared with around 2,000 holes for older materials. It’s all part of a manufacturing process which stresses every part of the supply and manufacturing chain, beyond obvious components. More holes, fewer uses PCBs are built by layering copper and insulating material together, then drilling holes through them to connect their circuits. But the complexity of those boards is increasing as AI servers are designed to handle more data, including more layers than those seen in ordinary computers. HSBC estimates that a notebook PCB has four to eight layers, compared with more than 20 for Nvidia's H100 generation of GPUs. But that’s just the beginning of the process. Analysts at the bank forecast that a backplane in Nvidia’s Rubin Ultra systems could contain 78 layers. Nor is the Rubin Ultra an outlier in that process: the bank also forecasts a 36% annual rise in the number of holes required per board between 2025 and 2028. The holes themselves are becoming more challenging to drill. According to a report by Taiwanese brokerage KGI Securities , the ratio between the depth of the hole and its diameter has increased from around 20:1 to 30:1 or 40:1. That requires pushing an extremely thin drill bit deeper into increasingly tough materials without bending or breaking it, or damaging the delicate circuitry, which can easily happen in such a sophisticated manufacturing process. As well as the number of layers which have to be drilled through increasing in number, the materials involved are also adding complexity to the equation. New grades of copper-clad laminate — the glass-fibre-and-resin material onto which copper is bonded — are becoming trickier for the tiny tungsten-carbide tools previously used in the process to cut. “AI PCBs are denser with thicker layers, requiring more holes drilled per PCB,” writes Helen Fang, head of Asia Pacific industrials research at HSBC. The increasingly common use of harder laminates is resulting in the bits being consumed more quickly. T"
+  },
+  {
+   "source": "ServeTheHome",
+   "category": "media",
+   "kind": "feed",
+   "title": "Kioxia Announces GP2 Series SSD with Over 18 Million Random Read IOPS",
+   "link": "https://www.servethehome.com/kioxia-gp2-series-ssd/",
+   "date": "2026-11-27 13:08",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Supply-Chain",
+    "is_focus": false,
+    "signal_tags": [
+     "supply-chain"
+    ],
+    "korean_title": "Kioxia GP2 SSD 1,800만 IOPS 달성, GPU 접근 가능 플래시 메모리 계층 지원",
+    "korean_summary": "Kioxia가 GPU 직접 접근 가능한 플래시 메모리 계층용 GP2 SSD를 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.servethehome.com/kioxia-gp2-series-ssd",
+   "body": "Kioxia is introducing the GP2 Series SSD, and the standout number is more than 18 million random read IOPS at a 512-byte block size. I think we actually saw a precursor to this drive a few weeks ago. 18M IOPS is nearly double the performance of the GP1 Series Kioxia showed in August at FMS. The new drive is designed for PCIe 6.0 and NVMe 2.3, and Kioxia says it is also expecting sequential read throughput of up to 28GB/s, enough to saturate a PCIe 6.0 x4 link. Kioxia GP2 Series Launched The GP series is designed for a specific role in AI systems. Instead of adding more expensive HBM or DRAM to a GPU system, operators can use these NAND-based drives to create a flash-based memory tier the GPU can access directly. This lets the system handle larger datasets at a lower cost. Whenever you try to replace DRAM with NAND, endurance becomes a question. At 50DWPD, the GP2 is a step above many of the common capacity-focused drives. | | Kioxia GP2 Series | |---|---| | Interface | PCIe 6.0 / NVMe 2.3 | | Flash Memory | Kioxia XL-FLASH generation 3 | | Random Read Performance | More than 18 million IOPS at 512-byte block size | | Expected Sequential Read Throughput | Up to 28 GB/s | | Endurance | Up to 50 DWPD | | Form Factors Under Consideration | E1.S 9.5 mm and E3.S | | Cooling | Direct liquid cooling support | Kioxia is using its XL-FLASH generation 3 memory in the GP2. The company says this low-latency flash is better suited for the fine-grained data access needed for memory expansion than typical TLC-based SSDs. Kioxia also claims XL-FLASH generation 3 provides higher endurance and about 2.5x the IOPS of its own TLC-based CM10 Series SSDs at a 512-byte block size. Kioxia previewed its next-generation GP series at OCP Summit 2026 in the demo above, with a 20M IOPS system running live. The company says future generations will target up to 100 million random read IOPS, but we are not there just yet. Final Words Kioxia says evaluation GP2 samples will be available to select customers by the end of 2027, so this seems a bit further out. We are starting to see more PCIe Gen6 systems, as you may have seen in our recent AMD EPYC 9006 Results Are Here and AMD Delivers a Knockout Part Deux piece, where we had both AMD and NVIDIA PCIe Gen6 systems. Hopefully, we will get to try these out when they ship. Of course, happy Thanksgiving to those in the US."
+  },
+  {
+   "source": "Google News · Forbes",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump Says He Was ‘A Little Concerned’ By Stock Selloff, Insists Nvidia CEO Huang Poses No Security Risk",
+   "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUkhyQUdzczNLV3N4R1hNSG9vZUJaUjRuUno4V1BBV0I1dHdNZkpXUW9ZN0ktZ3NRMXp4RVNMNG1USWY4ZlAtbVQ4S0lGajE3RktkdDR0WGRjMTA3OFI0eHYyZWpjUG1zZmRpZWJNeHgwdkI4cE1ZbVhFM2lCQnVEVWRKU1FfUjloeDFwZ3JuMldNRnpzMlJYd1ZrS0Q3UmtuV0VhRVBhWDBxUmxGZ05hQThER21IUHNSN0VDV0o1Y2czSTE1Mno3ZUlidTFLRFYxLXg1UTdndFU2a1hQQXl4U25IYlhvU2pz?oc=5",
+   "date": "2026-11-27 15:55",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation"
+    ],
+    "korean_title": "트럼프, 엔비디아 주가 급락 우려 표현, 황 CEO 보안 위험 부정",
+    "korean_summary": "트럼프 대통령이 엔비디아 주가 급락에 우려하면서도 젠슨 황에 대한 보안 우려는 없다고 발언했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUkhyQUdzczNLV3N4R1hNSG9vZUJaUjRuUno4V1BBV0I1dHdNZkpXUW9ZN0ktZ3NRMXp4RVNMNG1USWY4ZlAtbVQ4S0lGajE3RktkdDR0WGRjMTA3OFI0eHYyZWpjUG1zZmRpZWJNeHgwdkI4cE1ZbVhFM2lCQnVEVWRKU1FfUjloeDFwZ3JuMldNRnpzMlJYd1ZrS0Q3UmtuV0VhRVBhWDBxUmxGZ05hQThER21IUHNSN0VDV0o1Y2czSTE1Mno3ZUlidTFLRFYxLXg1UTdndFU2a1hQQXl4U25IYlhvU2pz",
+   "body": ""
+  },
+  {
+   "source": "Google News · WSJ",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Opinion | Nvidia and Failing U.S. Export Controls",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcXdpX0ZyQWtaQVpUaDUzZ29JRWF6QV9odVlReExLZ1ZjLUw4by1ubnhabmx4c3pOU0J5aC16U3hyRFB4eURpeUgtOVpHWUZZYjNnSjdUcmxVWnlrTWlfaFhoanl2MEUtdUZFdDhpYlBiYkJxTDBGMndxNDdXN2xZWWtmOGthUXhrR20tc0RHZnY3QQ?oc=5",
+   "date": "2026-11-28 06:52",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "미국의 NVIDIA 수출통제가 실패하고 있다는 의견",
+    "korean_summary": "WSJ이 미국의 NVIDIA 관련 수출통제 정책이 효과적이지 못하다고 비판"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcXdpX0ZyQWtaQVpUaDUzZ29JRWF6QV9odVlReExLZ1ZjLUw4by1ubnhabmx4c3pOU0J5aC16U3hyRFB4eURpeUgtOVpHWUZZYjNnSjdUcmxVWnlrTWlfaFhoanl2MEUtdUZFdDhpYlBiYkJxTDBGMndxNDdXN2xZWWtmOGthUXhrR20tc0RHZnY3QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Fox Business",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump doubles down on support for Nvidia CEO amid national security concerns",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkVaLURTV2JWVUE4TnBpOTlxTDB0MUlmaWlwS01kaUhfZmhNYlJkN0JMbHc5X0ZZeUpXYlZ1eTktbHNoWk9wSWI5S0ZzSDc2OTFPb3FJdDZYNmJJaUtjNWp5d0VmalpDcU5qRkd5Z0ZsRUxPSzVPaUJ2RDh2WVl3MVZOSXk1RFgxcVN4WkI4TE4zTU9VSm45b2Z0ZnVOUHJLTHVxdENxOTF2QdIBrwFBVV95cUxQbjR1cjlWa0loTVFvME5Rb1l4WmcwSDJ2YnY1UHRiVllubTEtaWpFRmJGR1ZMWVpWWXBqVGpGbXJZN1c0QWQ1NzNBYUNTdjA4Z0tLUVpVb1dJa052TlVVNnZjbFhuX21iUkdpLXFNNmI0anVTSWFBLTFaWXo2RXdxSmtsb1BTX3Q2MlVBbmJTZnVBbzM2cTBHc3RNVk1tRDdPdzBrcFdQanFBYXBDR2hJ?oc=5",
+   "date": "2026-11-27 16:11",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "regulation",
+     "export-control"
+    ],
+    "korean_title": "Trump, 국가안보 우려 속 NVIDIA CEO 지지 재확인",
+    "korean_summary": "Trump이 국가 안보 우려를 반박하며 NVIDIA CEO에 대한 지지 표명"
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNkVaLURTV2JWVUE4TnBpOTlxTDB0MUlmaWlwS01kaUhfZmhNYlJkN0JMbHc5X0ZZeUpXYlZ1eTktbHNoWk9wSWI5S0ZzSDc2OTFPb3FJdDZYNmJJaUtjNWp5d0VmalpDcU5qRkd5Z0ZsRUxPSzVPaUJ2RDh2WVl3MVZOSXk1RFgxcVN4WkI4TE4zTU9VSm45b2Z0ZnVOUHJLTHVxdENxOTF2QdIBrwFBVV95cUxQbjR1cjlWa0loTVFvME5Rb1l4WmcwSDJ2YnY1UHRiVllubTEtaWpFRmJGR1ZMWVpWWXBqVGpGbXJZN1c0QWQ1NzNBYUNTdjA4Z0tLUVpVb1dJa052TlVVNnZjbFhuX21iUkdpLXFNNmI0anVTSWFBLTFaWXo2RXdxSmtsb1BTX3Q2MlVBbmJTZnVBbzM2cTBHc3RNVk1tRDdPdzBrcFdQanFBYXBDR2hJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · USA Today",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump speaking at Nvidia chipmaker after pushing for CEO Huang's return",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS2d4b3dCN0c5VHhmbGp0eWJ5WHRId2NfV2dwM1FuZHZlRUN5Zkk3TFNGdldtdlYxNURfY0tXbHRYVEtHMERrVVlFYzVUUjlBQmJNcjFYaEVQLUFwRmRfSzhWakotRGdhdEFwODdCT294Nks1Y3ByWWFCNUR0NjVMRk4ybGZSTHNYcWc4T1BQLWFVVW5nVDFjLV95b0hkSGdJcTFr?oc=5",
+   "date": "2026-11-28 05:24",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Trump, Jensen Huang CEO 복귀 주도 주장하며 NVIDIA 방문",
+    "korean_summary": "Trump 전 대통령이 CEO 복귀를 자신이 추진했다고 주장하며 NVIDIA를 방문했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQS2d4b3dCN0c5VHhmbGp0eWJ5WHRId2NfV2dwM1FuZHZlRUN5Zkk3TFNGdldtdlYxNURfY0tXbHRYVEtHMERrVVlFYzVUUjlBQmJNcjFYaEVQLUFwRmRfSzhWakotRGdhdEFwODdCT294Nks1Y3ByWWFCNUR0NjVMRk4ybGZSTHNYcWc4T1BQLWFVVW5nVDFjLV95b0hkSGdJcTFr",
+   "body": ""
+  },
+  {
+   "source": "Google News · Gizmodo",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia’s Advanced AI Chips Are Being Used at Chinese Data Center Tied to Alice Huang",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2NzQXdmVXpOU1FuSE1ZTTJBWEV6OHJJLVJGRFZqTTB2VWdzTENXY1NfNFdSYXN1SzJYUU1FbWIxWGN2WVoxcUlHUFBicDB5am9WOGItR3RjYXdPTjdwYU5ZcUlZbUJfNjBlQ2NjbHhhcG16TDdoaE82Tzg0WjJrRTdTTjdyX3JycWQ0R3FZWkNpNElEYVZ1eGtNbkVxUWt6ZWpaYzR0VmZ6d0J1RnNJ?oc=5",
+   "date": "2026-11-27 22:02",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 칩, Alice Huang 연결 중국 데이터센터에서 사용 중",
+    "korean_summary": "NVIDIA의 고급 AI 칩이 Alice Huang과 연결된 중국 데이터센터에서 사용 중인 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2NzQXdmVXpOU1FuSE1ZTTJBWEV6OHJJLVJGRFZqTTB2VWdzTENXY1NfNFdSYXN1SzJYUU1FbWIxWGN2WVoxcUlHUFBicDB5am9WOGItR3RjYXdPTjdwYU5ZcUlZbUJfNjBlQ2NjbHhhcG16TDdoaE82Tzg0WjJrRTdTTjdyX3JycWQ0R3FZWkNpNElEYVZ1eGtNbkVxUWt6ZWpaYzR0VmZ6d0J1RnNJ",
+   "body": ""
+  },
+  {
+   "source": "Google News · Protos | Informed crypto news",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Bitcoin falls below $60,000 after Nvidia chips found in China",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVjVuOUFYYTRiNGNfS2FENlFELWNBYmpnYlRDRGdDdTRQLWtpWnVqVUJSYjZRejk2WDZsdHlVemxwMG9zWU5CeWFJczNxVENMd0owWE9mZXFlbVQ0aFF2R0FvZU51ODQwNWFfcVAxWUl5UWpINDRCTEk3TWU1SE80LVZPT042QQ?oc=5",
+   "date": "2026-11-28 03:36",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [
+     "export-control"
+    ],
+    "korean_title": "NVIDIA 칩이 중국에서 발견, 비트코인 60,000달러 아래로 하락",
+    "korean_summary": "NVIDIA 칩이 중국에서 발견된 것으로 보도되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVjVuOUFYYTRiNGNfS2FENlFELWNBYmpnYlRDRGdDdTRQLWtpWnVqVUJSYjZRejk2WDZsdHlVemxwMG9zWU5CeWFJczNxVENMd0owWE9mZXFlbVQ0aFF2R0FvZU51ODQwNWFfcVAxWUl5UWpINDRCTEk3TWU1SE80LVZPT042QQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · PhoneArena",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia's reinstatement of CEO Jensen Huang looks like a major mistake after new revelations",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmRyY2wxR0Z6Mi1DN0thVnlpNnZPNUlwU1ZlbTl6b05zYmlsUEQtSy1VbmxSX1VXdncyRXhqMnN5QlBBTWJzQjNyaWY5ajhDNl8tTWxsR1JZR3VZbFJJcnExMkxmelU3RkFTVjdNSnRQak0xNG0zVWdIdGc5Q3RKWm5menMyVFVQM3hIV2dYZndGY2tOb3ZqbzcwUU5TeFBQRDlIUw?oc=5",
+   "date": "2026-11-28 07:03",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 4,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "NVIDIA CEO Jensen Huang의 복귀가 실수처럼 보인다는 평가",
+    "korean_summary": "새로운 폭로 이후 Jensen Huang의 CEO 재임용이 큰 실수일 가능성이 제기되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSmRyY2wxR0Z6Mi1DN0thVnlpNnZPNUlwU1ZlbTl6b05zYmlsUEQtSy1VbmxSX1VXdncyRXhqMnN5QlBBTWJzQjNyaWY5ajhDNl8tTWxsR1JZR3VZbFJJcnExMkxmelU3RkFTVjdNSnRQak0xNG0zVWdIdGc5Q3RKWm5menMyVFVQM3hIV2dYZndGY2tOb3ZqbzcwUU5TeFBQRDlIUw",
+   "body": ""
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "S&P Warns Nvidia's Board May Be Compromised",
+   "link": "https://www.usnews.com/news/top-news/articles/2026-11-25/us-finds-no-evidence-china-directed-executive-to-spy-on-nvidia-ceo-wsj-reports",
+   "date": "2026-11-27 15:33",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "S&P, NVIDIA 이사회 손상 가능성 경고",
+    "korean_summary": "S&P가 NVIDIA 이사회의 손상 가능성을 경고했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.usnews.com/news/top-news/articles/2026-11-25/us-finds-no-evidence-china-directed-executive-to-spy-on-nvidia-ceo-wsj-reports",
+   "body": "Article URL: https://www.usnews.com/news/top-news/articles/2026-11-25/us-finds-no-evidence-china-directed-executive-to-spy-on-nvidia-ceo-wsj-reports Comments URL: https://news.ycombinator.com/item?id=50663536 Points: 8 # Comments: 2"
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "Trump says 'it's probably not too late' for the US to take a stake in Nvidia",
+   "link": "https://www.businessinsider.com/trump-us-equity-stake-nvidia-not-too-late-2026-11",
+   "date": "2026-11-28 02:48",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "m&a",
+     "investment"
+    ],
+    "korean_title": "Trump, 미국의 NVIDIA 지분 취득 가능성을 언급",
+    "korean_summary": "Trump이 미국이 NVIDIA에 지분을 취득할 수 있을 것이라고 발언했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://www.businessinsider.com/trump-us-equity-stake-nvidia-not-too-late-2026-11",
+   "body": "Article URL: https://www.businessinsider.com/trump-us-equity-stake-nvidia-not-too-late-2026-11 Comments URL: https://news.ycombinator.com/item?id=50669586 Points: 10 # Comments: 11"
+  },
+  {
+   "source": "Hacker News",
+   "category": "community",
+   "kind": "feed",
+   "title": "AWS Trainium2 cut training cost by 50% compared to Nvidia H200",
+   "link": "https://twitter.com/martinmaritsch/status/2126195898795573437",
+   "date": "2026-11-28 03:35",
+   "score": 4,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 5,
+    "article_type": "DataCenter-AI",
+    "is_focus": false,
+    "signal_tags": [
+     "community"
+    ],
+    "korean_title": "AWS Trainium2, NVIDIA H200 대비 훈련 비용 50% 절감 주장",
+    "korean_summary": "AWS Trainium2 칩이 NVIDIA H200보다 AI 모델 훈련 비용을 50% 줄 수 있다는 주장이 제기되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://twitter.com/martinmaritsch/status/2126195898795573437",
+   "body": "Article URL: https://twitter.com/martinmaritsch/status/2126195898795573437 Comments URL: https://news.ycombinator.com/item?id=50670173 Points: 10 # Comments: 0"
+  },
+  {
+   "source": "Google News · Yahoo Finance",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Learn Why The Bull Case For Nvidia Stock Could Change Following CEO Reinstatement",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEtfekZpU3YzbUh2eENiaGtONGRtOXVzcC0zWkJlOEJENW1mOGdkUC04VTd1Q0gybTFaNWpiZm5kRHMzel9RVGdXWmlia1prbXBkWnVXbnRoTkV4amJzRXBjMW1tcXNSZTlya2hka0hwQlpqZWpBaU9WdlZhU2VHX1JXcDRJeGZ0MF8ydjJZS0VEWUtwQ1E?oc=5",
+   "date": "2026-11-27 14:14",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "CEO 복귀 후 NVIDIA 약세 시나리오 분석",
+    "korean_summary": "투자 전문가가 CEO 복귀 이후 NVIDIA 주가의 약세 가능성을 검토했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbEtfekZpU3YzbUh2eENiaGtONGRtOXVzcC0zWkJlOEJENW1mOGdkUC04VTd1Q0gybTFaNWpiZm5kRHMzel9RVGdXWmlia1prbXBkWnVXbnRoTkV4amJzRXBjMW1tcXNSZTlya2hka0hwQlpqZWpBaU9WdlZhU2VHX1JXcDRJeGZ0MF8ydjJZS0VEWUtwQ1E",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump says he pushed for Jensen Huang's reinstatement as Nvidia CEO",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmFFdGJhNW42c3VHQTNST0hLcVRMa0YxMm5PbHBaSC1VV3NTcjVjclI0OTVLOTZ1anNzZGVGR2N3ajRjVEM5UzFIS05TR0ZwenNvczhta1o2Z1EyR0ZiVDczcDVURXc4YjNnLVpaSDVyTVItbnZvZjIyLUVfNTZpUTBwYVRVMkVTbGtfaUZITEMwRGEzSkJGMU5RbUdWdHdSa2VVWHhCQQ?oc=5",
+   "date": "2026-11-28 08:01",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Trump, Jensen Huang CEO 복귀 추진 주장",
+    "korean_summary": "Trump 전 대통령이 NVIDIA CEO Jensen Huang의 복귀를 자신이 추진했다고 주장했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmFFdGJhNW42c3VHQTNST0hLcVRMa0YxMm5PbHBaSC1VV3NTcjVjclI0OTVLOTZ1anNzZGVGR2N3ajRjVEM5UzFIS05TR0ZwenNvczhta1o2Z1EyR0ZiVDczcDVURXc4YjNnLVpaSDVyTVItbnZvZjIyLUVfNTZpUTBwYVRVMkVTbGtfaUZITEMwRGEzSkJGMU5RbUdWdHdSa2VVWHhCQQ",
+   "body": ""
+  },
+  {
+   "source": "Google News · InvestorPlace",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Could Keep Growing and Still Disappoint Investors",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VX2sxOTdvN2w3aUo4V19aN0NQYnVzSzMzclBKWm5tR01rVlJYZzRmbUJRVzhreVZrWFBrOEhpOW9ESDlycXNvazBncjI3d2RKUlNiZEVqZGRGTnllT0tIcTVEM1pCUVhtQXd5NDBIcEpHVnpIbHc2aV93Yw?oc=5",
+   "date": "2026-11-28 08:02",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "NVIDIA의 계속된 성장도 투자자들을 실망시킬 수 있다",
+    "korean_summary": "NVIDIA가 성장을 계속하더라도 투자자들의 과도한 기대치를 충족시키지 못할 수 있다는 우려가 제시되었다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VX2sxOTdvN2w3aUo4V19aN0NQYnVzSzMzclBKWm5tR01rVlJYZzRmbUJRVzhreVZrWFBrOEhpOW9ESDlycXNvazBncjI3d2RKUlNiZEVqZGRGTnllT0tIcTVEM1pCUVhtQXd5NDBIcEpHVnpIbHc2aV93Yw",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump plans talk with Nvidia CEO Jensen Huang amid national security concerns",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWTM0S1FSc2d5d0oyWk9sNHpkWWxuTDJWRmNrbkN6djNtWHd2ODFXQTBSRlhlVm94bkd0QWVSMW4wTEZVRWFLbDVwZVlPRDBEdHpCZjFRUjNfbmh5R0tZYm9sY1Q1cWdPZmtTSE9pQXVZVWUxZExJZ2YyTFFZUk1PbXZ2em01ZkFCOWhsN1FrS19ndlMycHRpTGFEdk9zZTZFX3NjUGRKOHVhTU13Nkx3VW9SZmg?oc=5",
+   "date": "2026-11-28 07:45",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "국가안보 우려 중 Trump, NVIDIA CEO Huang과 회담 추진",
+    "korean_summary": "Trump 대통령이 국가안보 우려를 배경으로 NVIDIA CEO Jensen Huang과의 회담을 계획 중이다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWTM0S1FSc2d5d0oyWk9sNHpkWWxuTDJWRmNrbkN6djNtWHd2ODFXQTBSRlhlVm94bkd0QWVSMW4wTEZVRWFLbDVwZVlPRDBEdHpCZjFRUjNfbmh5R0tZYm9sY1Q1cWdPZmtTSE9pQXVZVWUxZExJZ2YyTFFZUk1PbXZ2em01ZkFCOWhsN1FrS19ndlMycHRpTGFEdk9zZTZFX3NjUGRKOHVhTU13Nkx3VW9SZmg",
+   "body": ""
+  },
+  {
+   "source": "Google News · CBS News",
+   "category": "media",
+   "kind": "gnews",
+   "title": "President Trump plans meeting with Nvidia CEO, backs relationship with Putin",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQkNaYmFLamZoNk1sdHNmemgwRHE2aTBDUTJrajVKMWZicjEzalFJaHVocXRwYVNzeU1yc0J0Zk9aWTMzcXJab0NsRWZXR0pqM2U5TTdGZk1ZSlU2SGI1V1Npbm1Od3U0ZHRTZ1NteGpSQU5qQTBsVWY5UHpOMS1EX0hMRlVQUWpoUC1JVDdLMXRWN25nOXd5Mm84TEYybWJ4TDAwcWhzMWhvU1NEZUdCdHRMeWc?oc=5",
+   "date": "2026-11-28 07:19",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Regulation-Policy",
+    "is_focus": false,
+    "signal_tags": [],
+    "korean_title": "Trump, NVIDIA CEO Huang과의 회담 추진, 푸틴 관계 지지",
+    "korean_summary": "Trump 대통령이 NVIDIA CEO Jensen Huang과 회담을 추진하면서 러시아와의 관계를 지지한다고 발표했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQkNaYmFLamZoNk1sdHNmemgwRHE2aTBDUTJrajVKMWZicjEzalFJaHVocXRwYVNzeU1yc0J0Zk9aWTMzcXJab0NsRWZXR0pqM2U5TTdGZk1ZSlU2SGI1V1Npbm1Od3U0ZHRTZ1NteGpSQU5qQTBsVWY5UHpOMS1EX0hMRlVQUWpoUC1JVDdLMXRWN25nOXd5Mm84TEYybWJ4TDAwcWhzMWhvU1NEZUdCdHRMeWc",
+   "body": ""
+  },
+  {
+   "source": "Google News · The Independent",
+   "category": "media",
+   "kind": "gnews",
+   "title": "What Congress needs ask Lutnick and Huang about Trump’s Nvidia scandal",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTkVJMmVwd2Z2aV9oRFFtUzFKejlnQW52Qm5KMXctcFpOUlpLVWhGSGpkcFJCcS1Jei1EWVlMTmNpbHFXMnlERFQtaEswYmJ2aVM5LWxhSWJpcTYxbkxiOFhZWjQ0RXJtc3hDeU5acUpWSkpzbEdtclFVSFNoRzZvVVFOaUd4cldja3NQa25weWF1NW1Jbl9oWXZqbmRXeUd6T2pkQVN2dHd0Z2ZmVHpHMHl2Q3MxNmt4TWVtMVNDRG52X0tvUnVF?oc=5",
+   "date": "2026-11-28 06:30",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Trump의 NVIDIA CEO 개입: 의회가 질문해야 할 사항",
+    "korean_summary": "의회가 Trump의 NVIDIA CEO 복귀 개입에 대해 Lutnick과 Huang에게 질문해야 한다는 의견."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTkVJMmVwd2Z2aV9oRFFtUzFKejlnQW52Qm5KMXctcFpOUlpLVWhGSGpkcFJCcS1Jei1EWVlMTmNpbHFXMnlERFQtaEswYmJ2aVM5LWxhSWJpcTYxbkxiOFhZWjQ0RXJtc3hDeU5acUpWSkpzbEdtclFVSFNoRzZvVVFOaUd4cldja3NQa25weWF1NW1Jbl9oWXZqbmRXeUd6T2pkQVN2dHd0Z2ZmVHpHMHl2Q3MxNmt4TWVtMVNDRG52X0tvUnVF",
+   "body": ""
+  },
+  {
+   "source": "Google News · Financial Times",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Trump’s Nvidia intervention has a cost for US stocks",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUjltZWJOXzNQRVU0WXZNN3VaLUN5OW9YVk9odVhDSlU2eVM5Q0QzUzltSG1rMVpyTDJrdlZCQVgxaW9tSlU2YVZhdUhKbExLeVg3NFRpZ1ItNTZ3ODQySkktdlY0WmFEd29BbHJJR0MwWllqMlVhUDhFdTJIU1ZsRmZ0MTE?oc=5",
+   "date": "2026-11-28 03:26",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Trump의 NVIDIA 개입이 미국 주식 시장에 미친 영향",
+    "korean_summary": "Trump의 NVIDIA CEO 개입 사건이 미국 주식 시장에 부정적 영향을 미쳤다는 분석."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUjltZWJOXzNQRVU0WXZNN3VaLUN5OW9YVk9odVhDSlU2eVM5Q0QzUzltSG1rMVpyTDJrdlZCQVgxaW9tSlU2YVZhdUhKbExLeVg3NFRpZ1ItNTZ3ODQySkktdlY0WmFEd29BbHJJR0MwWllqMlVhUDhFdTJIU1ZsRmZ0MTE",
+   "body": ""
+  },
+  {
+   "source": "Google News · Benzinga",
+   "category": "media",
+   "kind": "gnews",
+   "title": "Nvidia Stock Set for Rollercoaster Ride as Jensen Huang Faces Congress: Dan Ives Says ‘All the World Watching’",
+   "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQaVhIbnl1MWEzbWhhVV9ZeFI1LVJYNjBaVVA0SDNubjFFWFdZa0RWRVlpTUtHS0xMR2ZZWGZYZWlIVFltOUdyWlZPT3UtVUNzTXVNMV9RcDhBYVVTanR5YWVjRUdDcVMxcHF2Q0hDcU90R0dndGNzajlHQ2J6UHVPMlpSb1VDd1cwUmxmNGJLSFRLSzBHNzVWcWIyZVI0NUFRSEM3blZpelpVWGlseWZGdWhUYnVkQ0lJeHdYdU1FWU1zbXZKOWFvZngxd3NVSVgyM01QNlhfdU1kSnRLVzNtRDV1RV9ucTZsVUYtenpZQjcyZEJjZHQ4aVlob2x0TmJfRTNwc3BkQng4ZlVZakZ6TA?oc=5",
+   "date": "2026-11-28 01:00",
+   "score": 3,
+   "is_focus": false,
+   "is_release": false,
+   "release": null,
+   "stage1": {
+    "parsed": true,
+    "score": 3,
+    "article_type": "Business-Finance",
+    "is_focus": false,
+    "signal_tags": [
+     "stock"
+    ],
+    "korean_title": "Jensen Huang 의회 증언, 엔비디아 주가의 변동성 예고",
+    "korean_summary": "투자 분석가 Dan Ives가 Jensen Huang의 의회 청문회에 따른 엔비디아 주가 변동성을 전망했다."
+   },
+   "summary_data": null,
+   "related": [],
+   "uid": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQaVhIbnl1MWEzbWhhVV9ZeFI1LVJYNjBaVVA0SDNubjFFWFdZa0RWRVlpTUtHS0xMR2ZZWGZYZWlIVFltOUdyWlZPT3UtVUNzTXVNMV9RcDhBYVVTanR5YWVjRUdDcVMxcHF2Q0hDcU90R0dndGNzajlHQ2J6UHVPMlpSb1VDd1cwUmxmNGJLSFRLSzBHNzVWcWIyZVI0NUFRSEM3blZpelpVWGlseWZGdWhUYnVkQ0lJeHdYdU1FWU1zbXZKOWFvZngxd3NVSVgyM01QNlhfdU1kSnRLVzNtRDV1RV9ucTZsVUYtenpZQjcyZEJjZHQ4aVlob2x0TmJfRTNwc3BkQng4ZlVZakZ6TA",
+   "body": ""
+  }
+ ],
+ "releases": [],
+ "source_stats": [
+  {
+   "source": "NVIDIA Newsroom",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "NVIDIA Blog",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "NVIDIA Blog · Auto",
+   "raw": 18,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.0
+  },
+  {
+   "source": "NVIDIA Technical Blog",
+   "raw": 100,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "YouTube · NVIDIA",
+   "raw": 15,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "SEC EDGAR 8-K",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "Hugging Face · nvidia",
+   "raw": 100,
+   "in_window": 1,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · NVIDIA/TensorRT-LLM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.6
+  },
+  {
+   "source": "GitHub · NVIDIA/NeMo",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "GitHub · NVIDIA/Megatron-LM",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "GitHub · NVIDIA/cutlass",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVIDIA/DALI",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.7
+  },
+  {
+   "source": "GitHub · NVIDIA/Isaac-GR00T",
+   "raw": 5,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · isaac-sim/IsaacLab",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "GitHub · nvidia-cosmos/cosmos-predict2.5",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "GitHub · triton-inference-server/server",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "GitHub · NVlabs/VILA",
+   "raw": 1,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.2
+  },
+  {
+   "source": "Tom's Hardware",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.4
+  },
+  {
+   "source": "The Next Platform",
+   "raw": 87,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.8
+  },
+  {
+   "source": "ServeTheHome",
+   "raw": 6,
+   "in_window": 2,
+   "enriched": 2,
+   "error": "",
+   "sec": 0.5
+  },
+  {
+   "source": "SemiAnalysis",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "TechCrunch · nvidia",
+   "raw": 20,
+   "in_window": 1,
+   "enriched": 1,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "The Verge · nvidia",
+   "raw": 10,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.1
+  },
+  {
+   "source": "Ars Technica · nvidia",
+   "raw": 20,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "EE Times",
+   "raw": 10,
+   "in_window": 6,
+   "enriched": 0,
+   "error": "",
+   "sec": 75.5
+  },
+  {
+   "source": "DataCenterDynamics",
+   "raw": 20,
+   "in_window": 20,
+   "enriched": 20,
+   "error": "",
+   "sec": 7.5
+  },
+  {
+   "source": "CNBC Tech",
+   "raw": 30,
+   "in_window": 8,
+   "enriched": 8,
+   "error": "",
+   "sec": 1.9
+  },
+  {
+   "source": "Google News · NVIDIA",
+   "raw": 100,
+   "in_window": 100,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.6
+  },
+  {
+   "source": "Google News · NVIDIA 자동차/로봇",
+   "raw": 5,
+   "in_window": 3,
+   "enriched": 0,
+   "error": "",
+   "sec": 0.3
+  },
+  {
+   "source": "디일렉",
+   "raw": 50,
+   "in_window": 40,
+   "enriched": 10,
+   "error": "",
+   "sec": 2.7
+  },
+  {
+   "source": "전자신문",
+   "raw": 30,
+   "in_window": 30,
+   "enriched": 28,
+   "error": "",
+   "sec": 18.9
+  },
+  {
+   "source": "IT조선",
+   "raw": 50,
+   "in_window": 50,
+   "enriched": 16,
+   "error": "",
+   "sec": 4.6
+  },
+  {
+   "source": "한국경제 IT",
+   "raw": 50,
+   "in_window": 22,
+   "enriched": 22,
+   "error": "",
+   "sec": 2.3
+  },
+  {
+   "source": "Hacker News",
+   "raw": 20,
+   "in_window": 18,
+   "enriched": 0,
+   "error": "",
+   "sec": 1.4
+  },
+  {
+   "source": "Reddit r/nvidia",
+   "raw": 0,
+   "in_window": 0,
+   "enriched": 0,
+   "error": "404 Client Error: Not Found for url: https://www.reddit.com/r/nvidia/new/.rss",
+   "sec": 0.2
+  }
+ ]
+}
